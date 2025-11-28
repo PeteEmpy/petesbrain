@@ -1,0 +1,77 @@
+{
+  "date": "2025-11-07",
+  "client": "Grain Guard",
+  "comparison_date": "2025-11-06",
+  "total_products_today": 109,
+  "total_products_yesterday": 109,
+  "summary": {
+    "changed_products": 3,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 2,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8784876372242_47096882004242",
+      "title": "Epoxy Wood Repair Stick 7 Inch | Wood Repair, Rebuild, Re-Paint",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0759/1539/5346/files/Product_Front_Image_Assets_with_titles_Wood_Epoxy_Stick.jpg?v=1728897375",
+          "https://cdn.shopify.com/s/files/1/0759/1539/5346/files/20020-GrainGuardWoodEpoxyStick-56g_FRONT.jpg?v=1728490964"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734950723858",
+      "title": "Grain Guard Wood Stain 500ml - Black Ebony - Water-Based, Quick Drying, 12m\u00b2/Litre - Interior/Exterior",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9715262783762_50004105298194",
+      "title": "Sealing Oil For Wooden Garden Furniture & Decking 500ml | Protects Wood Against Weather & UV",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8784875847954_47734950723858",
+      "title": "Grain Guard Wood Stain 500ml - Black Ebony - Water-Based, Quick Drying, 12m\u00b2/Litre - Interior/Exterior",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9715262783762_50004105298194",
+      "title": "Sealing Oil For Wooden Garden Furniture & Decking 500ml | Protects Wood Against Weather & UV",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

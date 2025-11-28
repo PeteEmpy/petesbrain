@@ -1,0 +1,51 @@
+[
+  {
+    "campaign_id": "18899261254",
+    "budget_id": "11945680219",
+    "new_daily_budget": 36.00,
+    "campaign_name": "P Max All",
+    "reason": "Reduce underperformer (397% ROAS vs 570% target)"
+  },
+  {
+    "campaign_id": "19577006833",
+    "budget_id": "12288076740",
+    "new_daily_budget": 100.00,
+    "campaign_name": "Dev Arms Hotel",
+    "reason": "Restore £52 approved (Nov 13) + deploy £48 additional (850% ROAS, 44% budget-constrained)"
+  },
+  {
+    "campaign_id": "21839323410",
+    "budget_id": "14032878235",
+    "new_daily_budget": 48.00,
+    "campaign_name": "Cavendish",
+    "reason": "Restore to client-approved budget (Nov 13 approval)"
+  },
+  {
+    "campaign_id": "2080736142",
+    "budget_id": "6448751751",
+    "new_daily_budget": 15.00,
+    "campaign_name": "Chatsworth Inns",
+    "reason": "Reduce critical underperformer (140% ROAS - 75% below target)"
+  },
+  {
+    "campaign_id": "22666031909",
+    "budget_id": "14649374763",
+    "new_daily_budget": 26.00,
+    "campaign_name": "The Fell",
+    "reason": "Restore to client-approved budget (Nov 13 approval)"
+  },
+  {
+    "campaign_id": "19654308682",
+    "budget_id": "12346612231",
+    "new_daily_budget": 25.00,
+    "campaign_name": "Chatsworth Locations",
+    "reason": "Deploy additional budget (511% ROAS, 16% budget-constrained)"
+  },
+  {
+    "campaign_id": "19534201089",
+    "budget_id": "12270672141",
+    "new_daily_budget": 15.00,
+    "campaign_name": "Chatsworth SC",
+    "reason": "Reduce underperformer (91% ROAS - A/B test running)"
+  }
+]

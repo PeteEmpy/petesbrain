@@ -1,0 +1,26 @@
+{
+  "specification": {
+    "title": "Asset Requirements for Performance Max",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "official_documentation",
+        "source": "https://developers.google.com/google-ads/api/performance-max/asset-requirements",
+        "extracted_at": "2025-11-11T09:21:36.975051",
+        "verified": true
+      }
+    ],
+    "content": {
+      "asset_types": "Multiple asset types required for Performance Max campaigns",
+      "implementation": "Use Google Ads API for asset management",
+      "campaign_structure": {
+        "asset_groups": "Required for Performance Max campaigns",
+        "listing_group_filters": "Available for retail campaigns",
+        "campaign_conversion_goals": "Define conversion goals for optimization"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

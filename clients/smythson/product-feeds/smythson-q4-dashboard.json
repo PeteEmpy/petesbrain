@@ -1,0 +1,46 @@
+{
+  "last_updated": "2025-11-17 07:00",
+  "q4_period": {
+    "start": "2025-10-29",
+    "end": "2025-12-31",
+    "current_phase": "PHASE_2",
+    "days_elapsed": 19,
+    "days_remaining": 43
+  },
+  "overall": {
+    "revenue": 383240.26,
+    "revenue_target": 2380000,
+    "revenue_progress_pct": 16.1,
+    "spend": 81381.65,
+    "budget": 570252,
+    "budget_pacing_pct": 14.3,
+    "roas": 4.71,
+    "roas_target": 5.47
+  },
+  "regional": {
+    "UK": {
+      "revenue": 154049.17,
+      "spend": 37601.04,
+      "roas": 4.1,
+      "conversions": 1053.9
+    },
+    "USA": {
+      "revenue": 151435.41,
+      "spend": 31766.22,
+      "roas": 4.77,
+      "conversions": 500.9
+    },
+    "EUR": {
+      "revenue": 58069.74,
+      "spend": 8046.12,
+      "roas": 7.22,
+      "conversions": 216.8
+    },
+    "ROW": {
+      "revenue": 19685.94,
+      "spend": 3968.27,
+      "roas": 4.96,
+      "conversions": 147.0
+    }
+  }
+}

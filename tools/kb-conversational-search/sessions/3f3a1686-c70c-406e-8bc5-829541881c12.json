@@ -1,0 +1,24 @@
+{
+  "session_id": "3f3a1686-c70c-406e-8bc5-829541881c12",
+  "created_at": "2025-11-28T08:36:27.520032",
+  "last_updated": "2025-11-28T08:36:57.249204",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the future for the P Max campaign? Should it be building out new asset groups? Splitting it down?",
+      "timestamp": "2025-11-28T08:36:57.122594",
+      "sources": null,
+      "mode": "quick"
+    },
+    {
+      "role": "assistant",
+      "content": "Error generating response: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "timestamp": "2025-11-28T08:36:57.249184",
+      "sources": [],
+      "mode": "quick"
+    }
+  ],
+  "context": {
+    "client": "bright-minds"
+  }
+}

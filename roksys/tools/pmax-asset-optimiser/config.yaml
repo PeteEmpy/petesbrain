@@ -1,0 +1,162 @@
+# PMAX Asset Optimiser Configuration
+# Author: PetesBrain
+# Created: 2025-11-25
+
+# Performance Analysis Thresholds
+thresholds:
+  # CTR threshold: Flag if CTR < campaign_average * ctr_multiplier
+  ctr_multiplier: 0.7  # 30% below average
+
+  # Conversion rate threshold: Flag if conv_rate < campaign_average * conv_rate_multiplier
+  conv_rate_multiplier: 0.7  # 30% below average
+
+  # Cost per conversion threshold: Flag if cost_per_conv > campaign_average * cost_per_conv_multiplier
+  cost_per_conv_multiplier: 1.3  # 30% more expensive than average
+
+  # Minimum impressions before making judgement
+  # Assets with fewer impressions are flagged as LOW priority (need more time to learn)
+  min_impressions_for_judgement: 100
+
+  # Zero conversion threshold
+  # Assets with high impressions but zero conversions are HIGH priority
+  zero_conv_high_impr_threshold: 200
+
+# Priority Rules
+# How to assign priority levels based on performance and volume
+priority_rules:
+  high:
+    # High priority: Wasting significant budget
+    description: "High impressions + poor performance = wasting budget"
+    conditions:
+      - impressions >= 200
+      - conversions == 0 OR (ctr < avg * 0.7 AND conv_rate < avg * 0.7)
+
+  medium:
+    # Medium priority: Some volume, underperforming
+    description: "Moderate impressions + underperforming metrics"
+    conditions:
+      - impressions >= 100
+      - impressions < 200
+      - (ctr < avg * 0.7 OR conv_rate < avg * 0.7 OR cost_per_conv > avg * 1.3)
+
+  low:
+    # Low priority: Not enough data or minor issues
+    description: "Low impressions or marginal underperformance"
+    conditions:
+      - impressions < 100
+      - OR metrics only slightly below thresholds
+
+# Analysis Settings
+analysis:
+  # Focus on Performance Max campaigns only
+  campaign_types:
+    - "Performance Max"
+
+  # Which asset types to analyse
+  asset_types:
+    - "Headline"
+    - "Description"
+    - "Long headline"
+
+  # Ignore Google AI-generated assets in initial analysis
+  # (Can be changed to include them later)
+  exclude_google_ai_assets: true
+
+  # Date range interpretation
+  # The CSV header shows the date range, but we'll use all data provided
+  use_all_data_in_csv: true
+
+# Text Generation Settings
+text_generation:
+  # Number of alternative options to generate per underperforming asset
+  alternatives_per_asset: 3
+
+  # Character limits (enforced by Google Ads)
+  character_limits:
+    headline: 30
+    long_headline: 90
+    description: 90
+
+  # Brand voice keywords (used for context in AI generation)
+  # These are added to the generation prompt
+  brand_voice_keywords:
+    tree2mydoor:
+      - "living gifts"
+      - "ethical"
+      - "memorial"
+      - "next day delivery"
+      - "since 2003"
+      - "tree gifts"
+      - "rose bushes"
+    smythson:
+      - "luxury"
+      - "craftsmanship"
+      - "premium leather"
+      - "personalisation"
+      - "British heritage"
+    default:
+      - "quality"
+      - "customer service"
+      - "fast delivery"
+
+# Client-Specific Settings
+clients:
+  tree2mydoor:
+    customer_id: "4941701449"
+    campaign_id: "15820346778"
+    campaign_name: "T2MD | P Max | HP&P"
+    brand_voice: "tree2mydoor"
+
+  smythson:
+    # Multiple accounts
+    uk:
+      customer_id: "5755827834"
+      brand_voice: "smythson"
+    us:
+      customer_id: "4933809618"
+      brand_voice: "smythson"
+    eur:
+      customer_id: "2342751051"
+      brand_voice: "smythson"
+    row:
+      customer_id: "6932863090"
+      brand_voice: "smythson"
+
+# Execution Settings
+execution:
+  # Always default to dry-run for safety
+  default_dry_run: true
+
+  # Log directory
+  log_dir: "/Users/administrator/Documents/PetesBrain/roksys/tools/pmax-asset-optimiser/logs"
+
+  # Backup directory
+  backup_dir: "/Users/administrator/Documents/PetesBrain/roksys/tools/pmax-asset-optimiser/backups"
+
+  # Delay between API operations (milliseconds)
+  # Helps avoid rate limiting
+  api_delay_ms: 500
+
+# Output Settings
+output:
+  # Where to save generated CSVs
+  output_dir: "/Users/administrator/Documents/PetesBrain/roksys/tools/pmax-asset-optimiser/output"
+
+  # CSV format settings
+  csv_encoding: "utf-8"
+  csv_delimiter: ","
+
+# Monitoring Settings (future feature)
+monitoring:
+  # How long to wait before checking performance of new assets
+  monitoring_period_days: 14
+
+  # Metrics to track for new assets
+  tracked_metrics:
+    - "impressions"
+    - "clicks"
+    - "ctr"
+    - "conversions"
+    - "conv_rate"
+    - "cost_per_conv"
+    - "performance_label"

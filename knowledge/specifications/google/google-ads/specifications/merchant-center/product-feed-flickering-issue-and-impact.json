@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Product Feed Flickering Issue and Impact",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Collaber PPC Chat - Google Chat Space - Oct 2025",
+        "extracted_at": "2025-11-11T09:21:36.961919",
+        "verified": false
+      }
+    ],
+    "content": {
+      "issue_type": "Stock synchronization causing feed instability",
+      "detection_method": "Enhanced tracking and feed monitoring",
+      "root_cause": "Product repeatedly removed and re-added to feed (4 times in single day)",
+      "google_algorithm_behavior": "Treats re-added products as 'new inventory' with auction priority",
+      "character_limits": {},
+      "required_counts": {
+        "example_click_spike": "316% increase",
+        "example_single_product_clicks": 1465,
+        "example_flicker_frequency": "4 times per day"
+      }
+    }
+  }
+}

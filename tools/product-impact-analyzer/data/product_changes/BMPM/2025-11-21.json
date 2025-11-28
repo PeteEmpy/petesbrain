@@ -1,0 +1,603 @@
+{
+  "date": "2025-11-21",
+  "client": "BMPM",
+  "comparison_date": "2025-11-20",
+  "total_products_today": 6646,
+  "total_products_yesterday": 6641,
+  "summary": {
+    "changed_products": 26,
+    "price_changes": 25,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 1,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 5,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "BMPM8204034V440690",
+      "title": "Branded T-Shirt (Full Colour) L",
+      "changes": {
+        "price": [
+          "20.50 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8243473",
+      "title": "Branded Notebook (Full Colour)",
+      "changes": {
+        "price": [
+          "9.75 GBP",
+          "4.75 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM469V437738",
+      "title": "Custom Headrest Covers (Full Colour) - 60cm x 30cm Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "16.00 GBP",
+          "8.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM431V452851",
+      "title": "Branded Heat Pack - Squares (Full Colour) (34cm) Soft Velvet Polyester Fabric (Unscented)",
+      "changes": {
+        "price": [
+          "20.50 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM7475V452848",
+      "title": "Branded Heat Pack - Rectangles (Full Colour) (15cm x 12cm) Soft Velvet Polyester Fabric (Unscented)",
+      "changes": {
+        "price": [
+          "12.50 GBP",
+          "5.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437711",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (15cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "5.00 GBP",
+          "19.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V444883",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (25cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8251605V451461",
+      "title": "Brand Printed Paper Flags (within A4 Size) with Wooden Stick (30cm)",
+      "changes": {
+        "price": [
+          "2.60 GBP",
+          "2.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM422V434372",
+      "title": "Branded Table Runner (Full Colour) (145cm x 70cm) - Water Resistant Polyester - Rectangle With Circle Curved End",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "50.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM370V434021",
+      "title": "Branded Tablecloth (Rectangle) (145cm x 100cm) - Red Polycotton Fabric",
+      "changes": {
+        "price": [
+          "68.00 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8233974",
+      "title": "Branded Deck Chair",
+      "changes": {
+        "price": [
+          "110.00 GBP",
+          "90.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM11341V435872",
+      "title": "Promotional Bed Pillow Wrap (Full Colour) - 100cm x 40cm Mock Suede Polyester Fabric with Hemmed Edges",
+      "changes": {
+        "price": [
+          "20.42 GBP",
+          "12.92 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437722",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (25cm) Water Resistant Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8217227V444609",
+      "title": "Branded Cushions Cut to Shape (Full Colour) 20cm x 20cm - Mock Suede Polyester",
+      "changes": {
+        "price": [
+          "14.00 GBP",
+          "19.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8191377V436495",
+      "title": "Branded Sports Caddy Press Bib XXXL (Approx. 100cm x 100cm) Colour TBC Polycotton Fabric with Black Hook & Loop + Elastic Fastening Strap",
+      "changes": {
+        "price": [
+          "52.00 GBP",
+          "62.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8120914V433464",
+      "title": "Circular Branded Cushion (Full Colour) Circle (40cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "16.50 GBP",
+          "21.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8243481V453453",
+      "title": "Branded Christmas Tree Decorations (Full Colour) (Rectangle)",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-tree-decorations-full-colour-shapes-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Tree-Decorations-Rectangle-Full-Colour.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437664",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (25cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8250563",
+      "title": "Branded Golf Ball Marker",
+      "changes": {
+        "price": [
+          "6.70 GBP",
+          "3.70 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM2563V452708",
+      "title": "Branded Drawstring Bag (Full Colour) - 30cm x 20cm Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "13.50 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8120914V446357",
+      "title": "Circular Branded Cushion (Full Colour) Circle (40cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "24.25 GBP",
+          "19.25 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437676",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (40cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "31.50 GBP",
+          "28.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444903",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444879"
+        ],
+        "mpn": [
+          "FGCUS601(FIB+100)(S40)PSV-WHI(RCO-INN-Z)",
+          "FGCUS601(FIB-STA)(S40)PSV-WHI(RCO-INN-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM7475V435792",
+      "title": "Branded Heat Pack - Rectangles (Full Colour) (49cm x 15cm) Soft Velvet Polyester Fabric Scented with Organic Lavender",
+      "changes": {
+        "price": [
+          "13.50 GBP",
+          "21.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8211357V446512",
+      "title": "Branded Bolster Cushion (Full Colour) (57cm x 13cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "23.00 GBP",
+          "30.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM451V434876",
+      "title": "Branded Drawstring Pouch (Full Colour) (15cm x 5cm) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "4.40 GBP",
+          "7.40 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM385V445935",
+      "title": "Branded Cushion (Full Colour) 40cm x 27cm - Mock Suede Polyester",
+      "changes": {
+        "price": [
+          "17.75 GBP",
+          "22.75 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "BMPM8260972V453490",
+      "title": "Branded Stress Balls Shape & Size TBC (Red) Polyurethane (PU)",
+      "price": "3.50 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8260972V453491",
+      "title": "Branded Stress Balls Shape & Size TBC Other Colour (Agreed on Email) Polyurethane (PU)",
+      "price": "3.50 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8260972",
+      "title": "Branded Stress Balls",
+      "price": "3.50 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8260972V453488",
+      "title": "Branded Stress Balls Shape & Size TBC Polyurethane (PU)",
+      "price": "3.50 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8260972V453489",
+      "title": "Branded Stress Balls Shape & Size TBC Polyurethane (PU)",
+      "price": "3.50 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "BMPM8204034V440690",
+      "title": "Branded T-Shirt (Full Colour) L",
+      "changes": {
+        "price": [
+          "20.50 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8243473",
+      "title": "Branded Notebook (Full Colour)",
+      "changes": {
+        "price": [
+          "9.75 GBP",
+          "4.75 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM469V437738",
+      "title": "Custom Headrest Covers (Full Colour) - 60cm x 30cm Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "16.00 GBP",
+          "8.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM431V452851",
+      "title": "Branded Heat Pack - Squares (Full Colour) (34cm) Soft Velvet Polyester Fabric (Unscented)",
+      "changes": {
+        "price": [
+          "20.50 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM7475V452848",
+      "title": "Branded Heat Pack - Rectangles (Full Colour) (15cm x 12cm) Soft Velvet Polyester Fabric (Unscented)",
+      "changes": {
+        "price": [
+          "12.50 GBP",
+          "5.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437711",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (15cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "5.00 GBP",
+          "19.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V444883",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (25cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8251605V451461",
+      "title": "Brand Printed Paper Flags (within A4 Size) with Wooden Stick (30cm)",
+      "changes": {
+        "price": [
+          "2.60 GBP",
+          "2.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM422V434372",
+      "title": "Branded Table Runner (Full Colour) (145cm x 70cm) - Water Resistant Polyester - Rectangle With Circle Curved End",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "50.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM370V434021",
+      "title": "Branded Tablecloth (Rectangle) (145cm x 100cm) - Red Polycotton Fabric",
+      "changes": {
+        "price": [
+          "68.00 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8233974",
+      "title": "Branded Deck Chair",
+      "changes": {
+        "price": [
+          "110.00 GBP",
+          "90.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM11341V435872",
+      "title": "Promotional Bed Pillow Wrap (Full Colour) - 100cm x 40cm Mock Suede Polyester Fabric with Hemmed Edges",
+      "changes": {
+        "price": [
+          "20.42 GBP",
+          "12.92 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437722",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (25cm) Water Resistant Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8217227V444609",
+      "title": "Branded Cushions Cut to Shape (Full Colour) 20cm x 20cm - Mock Suede Polyester",
+      "changes": {
+        "price": [
+          "14.00 GBP",
+          "19.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8191377V436495",
+      "title": "Branded Sports Caddy Press Bib XXXL (Approx. 100cm x 100cm) Colour TBC Polycotton Fabric with Black Hook & Loop + Elastic Fastening Strap",
+      "changes": {
+        "price": [
+          "52.00 GBP",
+          "62.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8120914V433464",
+      "title": "Circular Branded Cushion (Full Colour) Circle (40cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "16.50 GBP",
+          "21.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437664",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (25cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8250563",
+      "title": "Branded Golf Ball Marker",
+      "changes": {
+        "price": [
+          "6.70 GBP",
+          "3.70 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM2563V452708",
+      "title": "Branded Drawstring Bag (Full Colour) - 30cm x 20cm Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "13.50 GBP",
+          "8.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8120914V446357",
+      "title": "Circular Branded Cushion (Full Colour) Circle (40cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "24.25 GBP",
+          "19.25 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437676",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (40cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "31.50 GBP",
+          "28.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444903",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444879"
+        ],
+        "mpn": [
+          "FGCUS601(FIB+100)(S40)PSV-WHI(RCO-INN-Z)",
+          "FGCUS601(FIB-STA)(S40)PSV-WHI(RCO-INN-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM7475V435792",
+      "title": "Branded Heat Pack - Rectangles (Full Colour) (49cm x 15cm) Soft Velvet Polyester Fabric Scented with Organic Lavender",
+      "changes": {
+        "price": [
+          "13.50 GBP",
+          "21.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8211357V446512",
+      "title": "Branded Bolster Cushion (Full Colour) (57cm x 13cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "23.00 GBP",
+          "30.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM451V434876",
+      "title": "Branded Drawstring Pouch (Full Colour) (15cm x 5cm) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "4.40 GBP",
+          "7.40 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM385V445935",
+      "title": "Branded Cushion (Full Colour) 40cm x 27cm - Mock Suede Polyester",
+      "changes": {
+        "price": [
+          "17.75 GBP",
+          "22.75 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "BMPM8243481V453453",
+      "title": "Branded Christmas Tree Decorations (Full Colour) (Rectangle)",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-tree-decorations-full-colour-shapes-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Tree-Decorations-Rectangle-Full-Colour.jpg.webp"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

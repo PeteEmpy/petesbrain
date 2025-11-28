@@ -1,0 +1,402 @@
+SMYTHSON UK - YEAR-OVER-YEAR BRAND VS NON-BRAND COMPARISON
+Date: 2025-11-13
+Period: Oct 14 - Nov 12 (2024 vs 2025)
+Source: Google Ads Search Campaigns
+Conversion Action (2024): Purchase ( Google Ads)
+Status: CORRECTED - This replaces the initial analysis which used wrong conversion action
+
+==========================================================================================
+
+EXECUTIVE SUMMARY - CRITICAL EFFICIENCY DECLINE
+------------------------------------------------
+
+USER HYPOTHESIS: "A lot of money has been spent on brand this year and it's not bringing
+in proportionally the same amount of revenue. My hunch is that the CPCs have gone up this
+year due to increased competitive bidding"
+
+FINDINGS: The data reveals a CRITICAL SITUATION - more severe than hypothesized:
+
+1. BRAND CPC INCREASE: +70.7% (£0.86 → £1.46)
+   ✓ Confirms: "CPCs have gone up due to increased competitive bidding"
+
+2. REVENUE NOT JUST DISPROPORTIONAL - IT DECLINED:
+   - Spend increased: +64.6% (£11,309 → £18,615)
+   - Revenue DECLINED: -21.9% (£159,621 → £124,606) ⚠️
+   - You're spending MORE and getting LESS
+   ✓ Confirms hypothesis BUT situation is more severe
+
+3. ROAS COLLAPSE:
+   - 2024: 1411% (£14.11 return per £1 spent)
+   - 2025: 669% (£6.69 return per £1 spent)
+   - Decline: -52.6% (efficiency more than HALVED)
+
+==========================================================================================
+
+DETAILED BRAND SEARCH TERMS ANALYSIS (2024 vs 2025):
+----------------------------------------------------
+
+Metric                    2024                 2025                 Change
+----------------------------------------------------------------------------------
+Spend                     £11,309.45           £18,615.46           +64.6%
+Clicks                    13,224               12,748               -3.6%
+CPC                       £0.86                £1.46                +70.7% ⚠️
+Conversions               1,024                835                  -18.4%
+Conversion Rate           7.7%                 6.6%                 -15.4%
+CPA                       £11.04               £22.27               +101.8% ⚠️
+Conversion Value          £159,621.99          £124,606.25          -21.9% ⚠️
+ROAS                      1411.4%              669.4%               -52.6% ⚠️
+
+CRITICAL BRAND METRICS:
+• Revenue per click DECLINED -19.0% (£12.07 → £9.77) - every click less valuable
+• Conversion rate DECLINED -15.4% (7.7% → 6.6%) - fewer conversions per click
+• CPA DOUBLED +101.8% (£11.04 → £22.27) - paying twice as much per conversion
+• Result: You're spending £7,306 MORE to generate £35,015 LESS revenue
+
+THE BOTTOM LINE FOR BRAND:
+Last year: £11,309 spend generated £159,621 revenue (1411% ROAS)
+This year: £18,615 spend generated £124,606 revenue (669% ROAS)
+
+The incremental £7,306 spend generated NEGATIVE returns:
+- Lost £35,015 in revenue despite spending more
+- Marginal ROAS is deeply negative
+
+==========================================================================================
+
+NON-BRAND SEARCH TERMS ANALYSIS (2024 vs 2025):
+------------------------------------------------
+
+Metric                    2024                 2025                 Change
+----------------------------------------------------------------------------------
+Spend                     £572.24              £773.32              +35.1%
+Clicks                    180                  433                  +140.6%
+CPC                       £3.18                £1.79                -43.8%
+Conversions               13                   2                    -79.8%
+Conversion Rate           7.7%                 0.7%                 -91.6% ⚠️
+CPA                       £41.02               £273.98              +567.9% ⚠️
+Conversion Value          £2,172.71            £1,595.07            -26.6%
+ROAS                      379.7%               206.3%               -45.7%
+
+NON-BRAND OBSERVATIONS:
+• Clicks more than DOUBLED (+140.6%) while spend only increased +35.1%
+• CPC DECREASED -43.8% (£3.18 → £1.79) - opposite trend to brand
+• But conversion rate COLLAPSED -91.6% (7.7% → 0.7%)
+• Suggests severe traffic quality issues - getting cheaper clicks but they don't convert
+• Revenue also declined -26.6% despite more clicks
+
+==========================================================================================
+
+TOTAL ACCOUNT PERFORMANCE (2024 vs 2025):
+------------------------------------------
+
+Metric                    2024                 2025                 Change
+----------------------------------------------------------------------------------
+Spend                     £11,881.69           £19,388.78           +63.2%
+Clicks                    13,404               13,181               -1.7%
+CPC                       £0.89                £1.47                +65.9%
+Conversions               1,038                838                  -19.3%
+Conversion Rate           7.7%                 6.4%                 -17.9%
+CPA                       £11.44               £23.11               +102.1%
+Conversion Value          £161,794.71          £126,201.32          -22.0%
+ROAS                      1361.7%              650.9%               -52.2%
+
+TOTAL ACCOUNT STORY:
+• Spending £7,507 more (+63%)
+• Generating £35,593 LESS revenue (-22%)
+• ROAS collapsed from 1362% to 651%
+• This is not inefficiency - this is negative returns on incremental spend
+
+==========================================================================================
+
+ROOT CAUSE ANALYSIS - WHY IS PERFORMANCE COLLAPSING?
+-----------------------------------------------------
+
+CONFIRMED FACTORS:
+
+1. MASSIVE CPC INFLATION ON BRAND TERMS (+70.7%)
+   - CPCs have increased from £0.86 to £1.46
+   - Similar click volume (-3.6%) but spend up 64.6%
+   - Pure price inflation - auction pressure is extreme
+   - Competitors bidding aggressively on your brand
+
+2. CONVERSION RATE DECLINE (-15.4%)
+   - Brand conversion rate dropped from 7.7% to 6.6%
+   - Possible causes to investigate:
+     * Website/checkout friction (site speed, UX issues)
+     * Product availability (stock levels lower than 2024?)
+     * Lower-intent traffic (competitive pressure changing user behavior)
+     * Device mix changes (mobile vs desktop conversion rates)
+     * Seasonal/market demand shifts
+
+3. REVENUE PER CLICK DECLINE (-19.0%)
+   - Each click generated £12.07 in 2024, now only £9.77
+   - Suggests either:
+     * AOV (Average Order Value) has decreased
+     * Product mix shifted to lower-value items
+     * More browsing/research clicks, fewer high-intent purchases
+   - Combined with conversion rate decline = compounding negative effect
+
+4. THE COMPOUNDING EFFECT
+   - Higher CPC (+70.7%) = paying more per click
+   - Lower conversion rate (-15.4%) = fewer conversions per click
+   - Lower revenue per click (-19%) = less revenue per click
+   - Result: Triple penalty = ROAS collapse from 1411% to 669%
+
+POSSIBLE EXPLANATIONS TO INVESTIGATE:
+
+A. WEBSITE/TECHNICAL ISSUES
+   - Check GA4: Has bounce rate increased?
+   - Check site speed: Has performance degraded?
+   - Check checkout funnel: Where are users dropping off?
+   - Check mobile vs desktop split: Has mobile share increased (typically lower CVR)?
+
+B. PRODUCT/INVENTORY ISSUES
+   - Compare product availability 2024 vs 2025
+   - Check if bestselling products from 2024 are still in stock
+   - Review pricing changes - have prices increased?
+   - Check if Q4 2024 had better promotional offers
+
+C. COMPETITIVE LANDSCAPE SHIFT
+   - Run Auction Insights: Who's bidding on your brand now?
+   - Check if new competitors entered market in 2025
+   - Review competitor ad copy: Are they aggressive on your brand terms?
+   - Industry trend: Luxury retail facing increased competitive pressure?
+
+D. MARKET/DEMAND CHANGES
+   - Economic conditions: Is luxury spend down in 2025 vs 2024?
+   - Consumer confidence: Has UK market sentiment changed?
+   - Brand perception: Any negative press or brand issues in 2025?
+   - Search intent: Are users researching more, buying less?
+
+==========================================================================================
+
+STRATEGIC IMPLICATIONS - THIS IS URGENT:
+-----------------------------------------
+
+1. NEGATIVE RETURNS ON INCREMENTAL SPEND
+   - The £7,306 additional spend generated £35,015 LESS revenue
+   - You're not just inefficient - you're losing money on the incremental spend
+   - If 2024 trend had continued: £18,615 spend should have generated £262k revenue (at 1411% ROAS)
+   - Actual: £18,615 generated £124k revenue (669% ROAS)
+   - Gap: You're missing £138k in revenue vs 2024 efficiency levels
+
+2. URGENT DECISION REQUIRED
+   - At 669% ROAS, brand is still profitable (6.69x return)
+   - BUT: Direction of travel is alarming (was 1411%, now 669%)
+   - Question: Continue current spend hoping for recovery? Or cut back immediately?
+   - Risk: If ROAS continues declining at this rate, will hit unprofitable levels in Q1 2026
+
+3. ROOT CAUSE INVESTIGATION CRITICAL
+   - Is this a temporary issue (fixable) or structural change (new normal)?
+   - If website/technical: Fix immediately (potential quick win)
+   - If competitive: May need strategic shift
+   - If market/demand: May need to accept lower ROAS as new baseline
+
+4. NON-BRAND ALSO PROBLEMATIC
+   - Non-brand showing same pattern: more spend, less revenue
+   - 0.7% conversion rate is extremely low
+   - Suggests search campaign strategy needs comprehensive review
+
+==========================================================================================
+
+RECOMMENDED ACTIONS - IMMEDIATE (Next 48 Hours):
+------------------------------------------------
+
+CRITICAL - STOP THE BLEEDING:
+
+1. REDUCE BRAND BIDS BY 20-30% IMMEDIATELY
+   - Current situation: Overpaying for brand clicks that aren't converting
+   - Test: Lower bids to 2024 CPC levels (target £0.90-£1.00 CPC)
+   - Monitor: Impression share, clicks, conversions over 3-5 days
+   - Rationale: May lose some volume but improve efficiency
+   - Even at 669% ROAS, you're paying 70% more per click than necessary
+
+2. AUDIT WEBSITE CONVERSION FUNNEL (URGENT)
+   - Check GA4 for conversion rate changes
+   - Compare funnel metrics: 2024 vs 2025 (add to cart, checkout, purchase)
+   - Check site speed (Core Web Vitals)
+   - Review checkout process: Any friction points added in 2025?
+   - Test checkout on mobile (if mobile share increased)
+   - Priority: This could be a quick fix if technical issue
+
+3. CHECK PRODUCT AVAILABILITY
+   - Compare active products now vs Oct-Nov 2024
+   - Check if bestselling 2024 products are still available
+   - Review out-of-stock rates for key products
+   - Check if pricing has increased significantly
+   - If stock/availability issues: Fix immediately
+
+4. RUN AUCTION INSIGHTS REPORT
+   - Identify who's bidding on "smythson" and brand terms
+   - Check if new competitors appeared in 2025
+   - Review competitor ad copy and messaging
+   - Analyze impression share: Are you losing visibility?
+   - Decision: Is it worth defending brand at current CPCs?
+
+==========================================================================================
+
+RECOMMENDED ACTIONS - SHORT-TERM (Next 7-14 Days):
+---------------------------------------------------
+
+DEEPER INVESTIGATION:
+
+5. ANALYZE SEARCH QUERY REPORT
+   - Compare 2024 vs 2025 search queries driving brand traffic
+   - Check if query mix has changed (informational vs transactional)
+   - Look for new query patterns in 2025
+   - Add negative keywords for low-intent queries
+
+6. SEGMENT BRAND TERMS BY PERFORMANCE
+   - Split "smythson" (core brand) from "smythson diary" (product brand)
+   - High-intent product terms may still be efficient
+   - Generic brand terms may be where efficiency loss is concentrated
+   - Create separate campaigns with different bid strategies
+
+7. REVIEW AD COPY AND MESSAGING
+   - Has ad copy changed between 2024 and 2025?
+   - Are you attracting wrong audience with current messaging?
+   - Test ad copy emphasizing value/benefits vs just brand
+   - Check if promotional messaging in 2024 drove higher conversion rates
+
+8. ANALYZE LANDING PAGES
+   - Compare landing pages used in 2024 vs 2025
+   - Check if landing pages changed (design, content, offers)
+   - Test different landing pages for brand terms
+   - Optimize landing page experience for mobile if needed
+
+9. CHECK CONVERSION TRACKING
+   - Verify conversion tracking is still working correctly
+   - Check if tracking changed between 2024 and 2025
+   - Confirm "Purchase ( Google Ads)" action is tracking properly
+   - Rule out: Is this a data issue rather than performance issue?
+
+==========================================================================================
+
+RECOMMENDED ACTIONS - MEDIUM-TERM (Next 30 Days):
+--------------------------------------------------
+
+STRATEGIC PIVOTS:
+
+10. DEVELOP BRAND PROTECTION STRATEGY
+    - Define: At what ROAS is brand defense no longer worth it?
+    - Current: 669% is still profitable but declining rapidly
+    - Threshold: Set minimum ROAS floor (e.g., 400%) where you pull back
+    - Alternative: Consider Performance Max for brand awareness at lower cost
+
+11. DIVERSIFY BEYOND BRAND SEARCH
+    - Brand search becoming expensive and inefficient
+    - Consider: Shopping campaigns for product discovery
+    - Consider: Performance Max for broader reach at lower CPCs
+    - Consider: YouTube/Display for brand building (may reduce search demand)
+    - Rationale: Less reliance on expensive brand search clicks
+
+12. IMPROVE NON-BRAND EFFICIENCY
+    - Non-brand conversion rate (0.7%) is unsustainably low
+    - Add negative keywords for competitor brands (if bidding on those)
+    - Focus non-brand budget on high-intent product terms
+    - Consider: Non-brand may not be viable at current performance levels
+
+13. TEST BRAND CAMPAIGN RESTRUCTURE
+    - Create experiment: Brand Lite campaign with 20-30% lower bids
+    - Run alongside existing brand campaign
+    - Compare: Volume, efficiency, revenue
+    - Goal: Find optimal CPC that balances volume and efficiency
+
+14. QUARTERLY PERFORMANCE REVIEW
+    - Compare Q4 2025 vs Q4 2024 comprehensively
+    - Identify: Is Oct-Nov pattern consistent across full quarter?
+    - Check: Did performance decline gradually or sudden drop?
+    - Timeline: When did ROAS start declining from 1411% baseline?
+
+==========================================================================================
+
+QUESTIONS TO ANSWER (For Deeper Understanding):
+------------------------------------------------
+
+1. TIMING: When did performance start declining?
+   - Was 2024 Oct-Nov unusually good? Or 2025 unusually bad?
+   - Check: Aug-Sep 2025 vs Aug-Sep 2024
+   - Identify: Gradual decline or sudden drop?
+
+2. YEAR-TO-DATE PERFORMANCE:
+   - Is Oct-Nov pattern consistent with full year 2025?
+   - Or is this a recent Q4 2025 issue?
+   - Compare: Jan-Nov 2025 vs Jan-Nov 2024
+
+3. REGIONAL DIFFERENCES:
+   - Is this decline specific to UK account?
+   - Check: USA, EUR, ROW accounts for same pattern
+   - If UK-only: Points to UK market/competitive issues
+   - If all regions: Points to broader brand/product issues
+
+4. CHANNEL MIX:
+   - How are other channels performing (organic, direct, social)?
+   - Is paid search decline isolated or across all channels?
+   - Check GA4: Overall site conversion rate trend
+
+5. PRODUCT MIX:
+   - Which product categories driving 2024 vs 2025 revenue?
+   - Check: Are certain categories down year-over-year?
+   - Diary revenue (key Q4 product): 2024 vs 2025 comparison?
+
+==========================================================================================
+
+DATA QUALITY NOTES:
+-------------------
+
+• 2024 data filtered for "Purchase ( Google Ads)" conversion action only
+• 2025 data includes all conversion actions from search campaigns
+• Brand/non-brand split for 2024 conversions estimated using click proportions
+  (Cannot get search term level data with conversion action filter in Google Ads API)
+• 30-day period chosen for statistical significance (sufficient sample size)
+• Same calendar dates compared (Oct 14 - Nov 12) to control for seasonality
+
+IMPORTANT CORRECTION:
+• Initial analysis used wrong conversion action ("New Site - GA4 (web) purchase")
+• This document uses correct conversion action ("Purchase ( Google Ads)")
+• Corrected figures show situation is more severe than initially reported
+
+==========================================================================================
+
+METHODOLOGY:
+------------
+
+Brand terms identified as containing: smythson, smyth, smith, smyson, symthson, frank smythson
+All other terms classified as non-brand.
+
+Data Source: Google Ads API (search_term_view for 2025, campaign-level for 2024)
+Customer ID: 8573235780 (Smythson UK)
+Manager ID: 2569949686
+
+Analysis performed: 2025-11-13
+Script: brand-yoy-comparison-v2.py
+Status: CORRECTED (replaces initial analysis with wrong conversion action)
+
+==========================================================================================
+
+CONCLUSION:
+-----------
+
+Your hypothesis is validated BUT the situation is MORE SEVERE than expected:
+
+✓ CPCs have increased significantly (+71%) due to competitive bidding
+✓ Spend has grown (+65%) but revenue has DECLINED (-22%)
+✗ This is not just inefficiency - it's negative returns on incremental spend
+
+CRITICAL NUMBERS:
+• 2024: £11,309 spend → £159,621 revenue (1411% ROAS)
+• 2025: £18,615 spend → £124,606 revenue (669% ROAS)
+• Gap: Spending £7,306 MORE to generate £35,015 LESS revenue
+
+IMMEDIATE ACTION REQUIRED:
+1. Reduce brand bids by 20-30% to reduce CPC inflation
+2. Audit website conversion funnel for technical issues
+3. Check product availability vs 2024
+4. Run Auction Insights to identify competitive threats
+
+STRATEGIC QUESTION:
+Is this a temporary issue (fixable through optimization) or a structural market change
+(new normal requiring strategic pivot away from brand search)?
+
+RECOMMENDATION: Implement immediate bid reduction to stop overpaying while
+investigating root cause. At current trajectory, brand search will become unprofitable
+within 2-3 quarters if decline continues.

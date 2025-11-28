@@ -1,0 +1,28 @@
+{
+  "specification": {
+    "title": "Product Feed Setup Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center Email - Oct 2025",
+        "extracted_at": "2025-11-11T09:21:36.961518",
+        "verified": false
+      }
+    ],
+    "content": {
+      "merchant_center_id": "145197902",
+      "mandatory_action": "Add products to Merchant Center",
+      "import_methods": [
+        "Automatic import from online store",
+        "Alternative manual methods"
+      ],
+      "blocking_issue": "No Shopping campaigns or free listings possible without product feed",
+      "character_limits": {},
+      "required_counts": {
+        "minimum_products": 1
+      }
+    }
+  }
+}

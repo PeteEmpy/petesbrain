@@ -1,0 +1,359 @@
+{
+  "generated_at": "2025-11-27T06:51:03.579440",
+  "period": {
+    "current_week": {
+      "start": "2025-11-20",
+      "end": "2025-11-26"
+    },
+    "previous_week": {
+      "start": "2025-11-13",
+      "end": "2025-11-19"
+    }
+  },
+  "clients": [
+    {
+      "name": "Superspace",
+      "current_week": {
+        "revenue": 902846.42,
+        "cost": 84078.81,
+        "roas": 1074.0,
+        "conversions": 2803.3
+      },
+      "previous_week": {
+        "revenue": 891194.4,
+        "cost": 89578.79,
+        "roas": 995.0,
+        "conversions": 2778.7
+      },
+      "changes": {
+        "revenue_pct": 1.3,
+        "roas_pct": 7.9,
+        "trend": "stable"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-26",
+          "metric": "revenue",
+          "value": 93736.3,
+          "deviation": "-27%",
+          "note": "Below week average of \u00a3128978"
+        }
+      ],
+      "summary": "\u2192 Stable performance (\u00a3902846 revenue, 1073% ROAS). Notable: 2025-11-26 performance spike."
+    },
+    {
+      "name": "Smythson UK",
+      "current_week": {
+        "revenue": 123043.69,
+        "cost": 23276.61,
+        "roas": 529.0,
+        "conversions": 682.2
+      },
+      "previous_week": {
+        "revenue": 118053.42,
+        "cost": 17430.98,
+        "roas": 677.0,
+        "conversions": 646.0
+      },
+      "changes": {
+        "revenue_pct": 4.2,
+        "roas_pct": -21.9,
+        "trend": "stable"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-24",
+          "metric": "revenue",
+          "value": 29276.44,
+          "deviation": "+66%",
+          "note": "Above week average of \u00a317577"
+        }
+      ],
+      "summary": "\u2192 Stable performance (\u00a3123043 revenue, 528% ROAS). Notable: 2025-11-24 performance spike."
+    },
+    {
+      "name": "Accessories for the Home",
+      "current_week": {
+        "revenue": 11246.73,
+        "cost": 10383.85,
+        "roas": 108.0,
+        "conversions": 58.2
+      },
+      "previous_week": {
+        "revenue": 23425.78,
+        "cost": 9571.54,
+        "roas": 245.0,
+        "conversions": 74.2
+      },
+      "changes": {
+        "revenue_pct": -52.0,
+        "roas_pct": -55.7,
+        "trend": "down"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-22",
+          "metric": "revenue",
+          "value": 3273.02,
+          "deviation": "+103%",
+          "note": "Above week average of \u00a31606"
+        }
+      ],
+      "summary": "\u2193 Revenue down 51% week-over-week (\u00a311246 vs \u00a323425). ROAS declined to 108%. Notable: 2025-11-22 performance spike."
+    },
+    {
+      "name": "Godshot",
+      "current_week": {
+        "revenue": 10792.46,
+        "cost": 1376.3,
+        "roas": 784.0,
+        "conversions": 154.7
+      },
+      "previous_week": {
+        "revenue": 8897.03,
+        "cost": 1424.96,
+        "roas": 624.0,
+        "conversions": 139.2
+      },
+      "changes": {
+        "revenue_pct": 21.3,
+        "roas_pct": 25.6,
+        "trend": "up"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-25",
+          "metric": "revenue",
+          "value": 764.84,
+          "deviation": "-50%",
+          "note": "Below week average of \u00a31541"
+        }
+      ],
+      "summary": "\u2191 Revenue up 21% week-over-week (\u00a310792 vs \u00a38897). ROAS improved to 784%. Notable: 2025-11-25 performance spike."
+    },
+    {
+      "name": "Uno Lighting",
+      "current_week": {
+        "revenue": 10471.11,
+        "cost": 5794.41,
+        "roas": 181.0,
+        "conversions": 70.3
+      },
+      "previous_week": {
+        "revenue": 10905.39,
+        "cost": 5385.93,
+        "roas": 202.0,
+        "conversions": 91.3
+      },
+      "changes": {
+        "revenue_pct": -4.0,
+        "roas_pct": -10.8,
+        "trend": "stable"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-24",
+          "metric": "revenue",
+          "value": 2430.83,
+          "deviation": "+62%",
+          "note": "Above week average of \u00a31495"
+        }
+      ],
+      "summary": "\u2192 Stable performance (\u00a310471 revenue, 180% ROAS). Notable: 2025-11-24 performance spike."
+    },
+    {
+      "name": "Bright Minds",
+      "current_week": {
+        "revenue": 9489.99,
+        "cost": 2497.93,
+        "roas": 380.0,
+        "conversions": 252.8
+      },
+      "previous_week": {
+        "revenue": 10129.45,
+        "cost": 2144.72,
+        "roas": 472.0,
+        "conversions": 266.1
+      },
+      "changes": {
+        "revenue_pct": -6.3,
+        "roas_pct": -19.6,
+        "trend": "down"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-22",
+          "metric": "revenue",
+          "value": 2070.17,
+          "deviation": "+52%",
+          "note": "Above week average of \u00a31355"
+        }
+      ],
+      "summary": "\u2193 Revenue down 6% week-over-week (\u00a39489 vs \u00a310129). ROAS declined to 379%. Notable: 2025-11-22 performance spike."
+    },
+    {
+      "name": "Devonshire Hotels",
+      "current_week": {
+        "revenue": 8428.03,
+        "cost": 3081.99,
+        "roas": 273.0,
+        "conversions": 13.0
+      },
+      "previous_week": {
+        "revenue": 11011.23,
+        "cost": 2942.68,
+        "roas": 374.0,
+        "conversions": 29.0
+      },
+      "changes": {
+        "revenue_pct": -23.5,
+        "roas_pct": -26.9,
+        "trend": "down"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-24",
+          "metric": "revenue",
+          "value": 5077.02,
+          "deviation": "+321%",
+          "note": "Above week average of \u00a31204"
+        }
+      ],
+      "summary": "\u2193 Revenue down 23% week-over-week (\u00a38428 vs \u00a311011). ROAS declined to 273%. Notable: 2025-11-24 performance spike."
+    },
+    {
+      "name": "National Design Academy",
+      "current_week": {
+        "revenue": 5280.49,
+        "cost": 5699.9,
+        "roas": 93.0,
+        "conversions": 45.6
+      },
+      "previous_week": {
+        "revenue": 5708.71,
+        "cost": 7030.71,
+        "roas": 81.0,
+        "conversions": 66.6
+      },
+      "changes": {
+        "revenue_pct": -7.5,
+        "roas_pct": 14.1,
+        "trend": "down"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-23",
+          "metric": "revenue",
+          "value": 3836.98,
+          "deviation": "+408%",
+          "note": "Above week average of \u00a3754"
+        }
+      ],
+      "summary": "\u2193 Revenue down 7% week-over-week (\u00a35280 vs \u00a35708). ROAS improved to 92%. Notable: 2025-11-23 performance spike."
+    },
+    {
+      "name": "Just Bin Bags",
+      "current_week": {
+        "revenue": 1208.34,
+        "cost": 432.05,
+        "roas": 280.0,
+        "conversions": 19.0
+      },
+      "previous_week": {
+        "revenue": 571.51,
+        "cost": 512.26,
+        "roas": 112.0,
+        "conversions": 18.0
+      },
+      "changes": {
+        "revenue_pct": 111.4,
+        "roas_pct": 150.7,
+        "trend": "up"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-22",
+          "metric": "revenue",
+          "value": 1.92,
+          "deviation": "-98%",
+          "note": "Below week average of \u00a3172"
+        }
+      ],
+      "summary": "\u2191 Revenue up 111% week-over-week (\u00a31208 vs \u00a3571). ROAS improved to 279%. Notable: 2025-11-22 performance spike."
+    },
+    {
+      "name": "Tree2mydoor",
+      "current_week": {
+        "revenue": 1025.61,
+        "cost": 1256.73,
+        "roas": 82.0,
+        "conversions": 60.5
+      },
+      "previous_week": {
+        "revenue": 1508.31,
+        "cost": 1115.96,
+        "roas": 135.0,
+        "conversions": 88.2
+      },
+      "changes": {
+        "revenue_pct": -32.0,
+        "roas_pct": -39.6,
+        "trend": "down"
+      },
+      "outliers": [
+        {
+          "date": "2025-11-26",
+          "metric": "revenue",
+          "value": 0.0,
+          "deviation": "-100%",
+          "note": "Below week average of \u00a3146"
+        }
+      ],
+      "summary": "\u2193 Revenue down 32% week-over-week (\u00a31025 vs \u00a31508). ROAS declined to 81%. Notable: 2025-11-26 performance spike."
+    },
+    {
+      "name": "Go Glean",
+      "current_week": {
+        "revenue": 712.17,
+        "cost": 315.93,
+        "roas": 225.0,
+        "conversions": 37.0
+      },
+      "previous_week": {
+        "revenue": 782.66,
+        "cost": 464.34,
+        "roas": 169.0,
+        "conversions": 35.0
+      },
+      "changes": {
+        "revenue_pct": -9.0,
+        "roas_pct": 33.7,
+        "trend": "down"
+      },
+      "outliers": [],
+      "summary": "\u2193 Revenue down 9% week-over-week (\u00a3712 vs \u00a3782). ROAS improved to 225%."
+    },
+    {
+      "name": "Grain Guard",
+      "current_week": {
+        "revenue": 439.09,
+        "cost": 424.66,
+        "roas": 103.0,
+        "conversions": 27.9
+      },
+      "previous_week": {
+        "revenue": 330.74,
+        "cost": 201.09,
+        "roas": 164.0,
+        "conversions": 16.0
+      },
+      "changes": {
+        "revenue_pct": 32.8,
+        "roas_pct": -37.1,
+        "trend": "up"
+      },
+      "outliers": [],
+      "summary": "\u2191 Revenue up 32% week-over-week (\u00a3439 vs \u00a3330). ROAS declined to 103%."
+    }
+  ]
+}

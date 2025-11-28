@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Google Account Manager Meeting Coordination Protocol",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-account-manager-meeting-coordination-uno-lights.md",
+        "extracted_at": "2025-11-11T09:21:36.934353",
+        "verified": false
+      }
+    ],
+    "content": {
+      "meeting_types": "Regular check-in calls for account performance review",
+      "stakeholders": [
+        "Google Account Manager",
+        "Agency representative",
+        "Client (if applicable)"
+      ],
+      "scheduling_tools": "Google Calendar with meeting invites",
+      "communication_channels": "Email for coordination and confirmation",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

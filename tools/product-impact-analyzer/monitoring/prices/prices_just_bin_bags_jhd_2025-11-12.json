@@ -1,0 +1,67 @@
+{
+  "client": "Just Bin Bags JHD",
+  "timestamp": "2025-11-12T12:32:12.243525",
+  "product_count": 6,
+  "products": {
+    "1268341122": {
+      "product_id": "1268341122",
+      "title": "Marigold Powder Free Latex Household Gloves - Pack of 144 Pairs \u2013 Blue",
+      "price": 58.32,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-12T12:32:12.242237"
+    },
+    "3780613855": {
+      "product_id": "3780613855",
+      "title": "Clear Medical Grade Vinyl Gloves \u2013 Box Of 100 - Powder Free AQL 1.5",
+      "price": 2.14,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-12T12:32:12.242299"
+    },
+    "blacknitrilepowderfree": {
+      "product_id": "blacknitrilepowderfree",
+      "title": "Premium Black Nitrile Examination Gloves - Medical Grade AQL 1.5 - Just Health Disposables",
+      "price": 3.15,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-12T12:32:12.242303"
+    },
+    "2744534942": {
+      "product_id": "2744534942",
+      "title": "Premium Blue Nitrile Examination Gloves Box of 100 - Medical Grade AQL 1.5",
+      "price": 2.83,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-12T12:32:12.242306"
+    },
+    "5709460654": {
+      "product_id": "5709460654",
+      "title": "Blue Disposable Mob Caps - Food Safe Hair Covers - Case of 1000",
+      "price": 22.5,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-12T12:32:12.242309"
+    },
+    "3128383985": {
+      "product_id": "3128383985",
+      "title": "Blue Vinyl Gloves Box of 100 \u2013 Powder Free \u2013 Food Safe - All Sizes",
+      "price": 2.23,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-12T12:32:12.242312"
+    }
+  }
+}

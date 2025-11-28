@@ -1,0 +1,31 @@
+{
+  "specification": {
+    "title": "ROK Strategy Playbook - Proven Patterns and Failed Tests",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/rok-methodologies/strategy-playbook.md",
+        "extracted_at": "2025-11-11T09:21:36.972686",
+        "verified": false
+      }
+    ],
+    "content": {
+      "documentation_status": "Validated, Pending, Failed",
+      "test_documentation_fields": [
+        "Client (original test)",
+        "Date (implementation)",
+        "Change (what was done)",
+        "Strategic Reasoning",
+        "Hypothesis",
+        "Test Results",
+        "Review Date",
+        "Statistical Significance",
+        "Rollout Status"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

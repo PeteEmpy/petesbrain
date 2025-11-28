@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "LLMS.txt and agents.txt Implementation for Shopify",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Collaber PPC Chat - Google Chat Space - Oct 2025",
+        "extracted_at": "2025-11-11T09:21:36.962351",
+        "verified": false
+      }
+    ],
+    "content": {
+      "platform": "Shopify",
+      "limitation": "Cannot upload arbitrary files to root directory",
+      "workaround": "Use <link> tags in theme.liquid <head> section",
+      "file_types": [
+        "llms.txt",
+        "agents.txt"
+      ],
+      "implementation_location": "theme.liquid file within <head> tags",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

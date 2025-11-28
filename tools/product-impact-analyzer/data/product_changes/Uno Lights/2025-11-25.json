@@ -1,0 +1,778 @@
+{
+  "date": "2025-11-25",
+  "client": "Uno Lights",
+  "comparison_date": "2025-11-24",
+  "total_products_today": 996,
+  "total_products_yesterday": 996,
+  "summary": {
+    "changed_products": 36,
+    "price_changes": 0,
+    "sale_price_changes": 23,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 14,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_14582199943545_53471871598969",
+      "title": "Brushed Brass / Matt Gold Finish 1 Gang 2 Way Rocker Light Switch",
+      "changes": {
+        "sale_price": [
+          "29.74 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9131097358657_47842448703809",
+      "title": "4 Gang 2 Way Toggle Light Switch Black Toggle Brushed Brass / Matt Gold Plate Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8335676145985_55006210064761",
+      "title": "2 Meters LED Deep Recessed Aluminum Profile with Frosted Diffuser and Accessories for LED Strip Lighting 1 x 2 Metres - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "10.89 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7269885247686_41832865562822",
+      "title": "Microwave Sensor LED Bulkhead Light, 12/18W, Microwave Sensor, IP65, Tri-Color CCT",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138383880513_47862396879169",
+      "title": "2 Gang Stainless Steel Knurled Dimmer Switch with French Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "",
+          "57.80 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582200861049_53471874318713",
+      "title": "Uno Lights Matt Black 2 Gang 2 Way Rocker Light Switch with Stainless Steel, Modern Design, 250V/10A Capacity, Toggle, Wall Switch, Home Decor",
+      "changes": {
+        "sale_price": [
+          "",
+          "33.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7132151775430_41341644406982",
+      "title": "2 Pack of 2 Meters (Total 4 Meters) LED Corner 45 Degree Aluminum Profile Chanel with Diffuser, Accessories for LED Strip Lights",
+      "changes": {
+        "sale_price": [
+          "",
+          "19.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14899667206521_54950580846969",
+      "title": "Banbury Trimless Plaster-In Fire Rated IP65 Fixed Downlight, GU10 Socket Matt White - IP65 Rated / 1pc - Uno Lighting",
+      "changes": {
+        "custom_label_1": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7209162309830_41647165997254",
+      "title": "3W Matt White Low Level Wash, Low Glare- Step/Wall Lamp /Brick/Path/Deck/Corridor Light, Recessed Light (Driver included) - 3000K Sofia",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7612296986822_42236985770182",
+      "title": "1W Indirect Up-Down Bezel LED Waterproof IP65 Black Bezel, Small Downlight /Marker/Step/ In-ground /Deck Light (Driver included) 3000K",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_6952622686406_40934066847942",
+      "title": "300W 24V Constant Voltage Slim Waterproof IP67 LED Strip Driver",
+      "changes": {
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9131075764545_47842314191169",
+      "title": "3 Gang 2 Way Toggle Light Switch Brass Gold Toggle with Matt Black Plate Finish",
+      "changes": {
+        "sale_price": [
+          "49.30 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8857458606401_47191353164097",
+      "title": "Slim Line 200W 24V Constant Voltage Non-Dimmable Driver for LED Strip, IP20 Rated, Compact Dimensions: 356.4 x 32.1 x 22.3mm",
+      "changes": {
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9313632518465_48353173143873",
+      "title": "1 Gang Antique Brass Knurled Dimmer Switch with Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "",
+          "45.89 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7666225086662_54972201566585",
+      "title": "18W IP54 LED Round Downlight Colour Switchable 3K/4K/6K, Recessed Ceiling Panel, 200mm Cutout, 1800 Lumen 1pc - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "7.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8959997673793_47339860853057",
+      "title": "18W LED Interior / Exterior Wall Light Length 220mm Up Down Front Opal Diffuser IP65 Black Aluminum, 1.5M Pre-wired cable 3000K Warm White - Uno",
+      "changes": {
+        "sale_price": [
+          "",
+          "40.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138251301185_47861855977793",
+      "title": "1 Gang Knurled Dimmer Switch Brushed Brass / Matt Gold with Matt Black Plate Dimmer Switch",
+      "changes": {
+        "sale_price": [
+          "",
+          "45.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582122742137_53471649169785",
+      "title": "2 Gang 2 Way Intermediate Toggle Light Switch Brushed Brass / Matte Gold Toggle with Black Plate Finish",
+      "changes": {
+        "sale_price": [
+          "37.39 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14881402454393_54895764701561",
+      "title": "5 Pack of 2 Metres Trimless 12mm Wide Plaster-In Aluminum LED Profile Channel with Frosted Diffuser & Accessories for LED Strip Lighting, Total 10",
+      "changes": {
+        "sale_price": [
+          "68.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8149152039233_44601392595265",
+      "title": "20 Metre Reel 8W 4000K Cool White Super Length Up to 20 Metre Continuous Run LED COB Strip IP44 4000K Cool White 20M - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "135.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7117651050694_41305391988934",
+      "title": "3W Mini Black LED IP44 Marker Light, Small Downlight/Spotlight, Niche/Alcove/Soffit Light Low Glare (Driver included) / 3000K Chloe",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15198395105657_56093855416697",
+      "title": "LED WHITE PROFILE 2M FOR TILED EDGE WITH OPAL DIFFUSER - FOR 12.5MM WIDTH STRIP",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582127755641_55997721608569",
+      "title": "Screwless Matt Black Double Plug Switched Socket 2 Gang 13 Amp DP with USB and USBC Point Matt Black - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "",
+          "33.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8555759534401_46233061589313",
+      "title": "40 Metre Reel Super Length 20 Metres Continuous Run LED COB Strip IP44 8W 2700K Warm White- 40M/Reel 2700K Very Warm White 40M - Uno Lighting",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046444048705_47610627096897",
+      "title": "4 Gang 2 Way Toggle Light Switch 2 Matt Black Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046442770753_47610615660865",
+      "title": "4 Gang 2 Way Toggle Light Switch Brushed Brass / Matte Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ],
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138372149569_47862353658177",
+      "title": "1 Gang Stainless Steel Knurled Dimmer Switch with Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "45.00 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8086161686849_44341197537601",
+      "title": "12W LED Interior / Exterior Wall Light Up Down Front Opal Diffuser IP65 Black Aluminum, 1.5M Pre-wired cable 3000K Warm White - Uno Lighting",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582200598905_53471873335673",
+      "title": "Matte Black Plate Gold Switched 1 Gang 2 Way Rocker Light Switch",
+      "changes": {
+        "sale_price": [
+          "",
+          "30.59 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8522676830529_46047979733313",
+      "title": "100W 24V-240V Triac Mains Dimmable Driver for LED Strip",
+      "changes": {
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582096068985_53471580914041",
+      "title": "1 Gang 2 Way Toggle Intermediate Light Switch Brushed Brass / Matt Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "30.60 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8149064909121_44601162563905",
+      "title": "20 Metres Reel 8W 3000K LED COB Strip Super Length Up to 20 Metres Continuous Run Strip IP44 Warm White 3000K Warm White 20M - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "135.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9049850839361_47625637822785",
+      "title": "1 Gang Knurled Dimmer Switch Brushed Brass / Matt Gold Finish",
+      "changes": {
+        "sale_price": [
+          "44.19 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8753170055489_46887254688065",
+      "title": "1W Ella Indirect Eyelid Bezel IP65 Marker Light, Step Light, Mini Downlight, Deck Light, Black/ Antique Brass/ Polished Copper/ Gold/ Bronze/ White",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7666224431302_54972193833337",
+      "title": "12W LED Recessed Ceiling Light Panel - CCT Switchable, IP54, 1200 Lumens",
+      "changes": {
+        "custom_label_1": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046424846657_47610446709057",
+      "title": "3 Gang 2 Way Toggle Light Switch Brushed Brass / Matte Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "47.60 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [
+    {
+      "product_id": "shopify_GB_14582199943545_53471871598969",
+      "title": "Brushed Brass / Matt Gold Finish 1 Gang 2 Way Rocker Light Switch",
+      "changes": {
+        "sale_price": [
+          "29.74 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9131097358657_47842448703809",
+      "title": "4 Gang 2 Way Toggle Light Switch Black Toggle Brushed Brass / Matt Gold Plate Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8335676145985_55006210064761",
+      "title": "2 Meters LED Deep Recessed Aluminum Profile with Frosted Diffuser and Accessories for LED Strip Lighting 1 x 2 Metres - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "10.89 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138383880513_47862396879169",
+      "title": "2 Gang Stainless Steel Knurled Dimmer Switch with French Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "",
+          "57.80 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582200861049_53471874318713",
+      "title": "Uno Lights Matt Black 2 Gang 2 Way Rocker Light Switch with Stainless Steel, Modern Design, 250V/10A Capacity, Toggle, Wall Switch, Home Decor",
+      "changes": {
+        "sale_price": [
+          "",
+          "33.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7132151775430_41341644406982",
+      "title": "2 Pack of 2 Meters (Total 4 Meters) LED Corner 45 Degree Aluminum Profile Chanel with Diffuser, Accessories for LED Strip Lights",
+      "changes": {
+        "sale_price": [
+          "",
+          "19.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9131075764545_47842314191169",
+      "title": "3 Gang 2 Way Toggle Light Switch Brass Gold Toggle with Matt Black Plate Finish",
+      "changes": {
+        "sale_price": [
+          "49.30 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9313632518465_48353173143873",
+      "title": "1 Gang Antique Brass Knurled Dimmer Switch with Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "",
+          "45.89 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7666225086662_54972201566585",
+      "title": "18W IP54 LED Round Downlight Colour Switchable 3K/4K/6K, Recessed Ceiling Panel, 200mm Cutout, 1800 Lumen 1pc - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "7.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8959997673793_47339860853057",
+      "title": "18W LED Interior / Exterior Wall Light Length 220mm Up Down Front Opal Diffuser IP65 Black Aluminum, 1.5M Pre-wired cable 3000K Warm White - Uno",
+      "changes": {
+        "sale_price": [
+          "",
+          "40.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138251301185_47861855977793",
+      "title": "1 Gang Knurled Dimmer Switch Brushed Brass / Matt Gold with Matt Black Plate Dimmer Switch",
+      "changes": {
+        "sale_price": [
+          "",
+          "45.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582122742137_53471649169785",
+      "title": "2 Gang 2 Way Intermediate Toggle Light Switch Brushed Brass / Matte Gold Toggle with Black Plate Finish",
+      "changes": {
+        "sale_price": [
+          "37.39 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14881402454393_54895764701561",
+      "title": "5 Pack of 2 Metres Trimless 12mm Wide Plaster-In Aluminum LED Profile Channel with Frosted Diffuser & Accessories for LED Strip Lighting, Total 10",
+      "changes": {
+        "sale_price": [
+          "68.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8149152039233_44601392595265",
+      "title": "20 Metre Reel 8W 4000K Cool White Super Length Up to 20 Metre Continuous Run LED COB Strip IP44 4000K Cool White 20M - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "135.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582127755641_55997721608569",
+      "title": "Screwless Matt Black Double Plug Switched Socket 2 Gang 13 Amp DP with USB and USBC Point Matt Black - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "",
+          "33.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046444048705_47610627096897",
+      "title": "4 Gang 2 Way Toggle Light Switch 2 Matt Black Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046442770753_47610615660865",
+      "title": "4 Gang 2 Way Toggle Light Switch Brushed Brass / Matte Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ],
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138372149569_47862353658177",
+      "title": "1 Gang Stainless Steel Knurled Dimmer Switch with Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "45.00 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582200598905_53471873335673",
+      "title": "Matte Black Plate Gold Switched 1 Gang 2 Way Rocker Light Switch",
+      "changes": {
+        "sale_price": [
+          "",
+          "30.59 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582096068985_53471580914041",
+      "title": "1 Gang 2 Way Toggle Intermediate Light Switch Brushed Brass / Matt Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "30.60 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8149064909121_44601162563905",
+      "title": "20 Metres Reel 8W 3000K LED COB Strip Super Length Up to 20 Metres Continuous Run Strip IP44 Warm White 3000K Warm White 20M - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "135.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9049850839361_47625637822785",
+      "title": "1 Gang Knurled Dimmer Switch Brushed Brass / Matt Gold Finish",
+      "changes": {
+        "sale_price": [
+          "44.19 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046424846657_47610446709057",
+      "title": "3 Gang 2 Way Toggle Light Switch Brushed Brass / Matte Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "47.60 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_7269885247686_41832865562822",
+      "title": "Microwave Sensor LED Bulkhead Light, 12/18W, Microwave Sensor, IP65, Tri-Color CCT",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14899667206521_54950580846969",
+      "title": "Banbury Trimless Plaster-In Fire Rated IP65 Fixed Downlight, GU10 Socket Matt White - IP65 Rated / 1pc - Uno Lighting",
+      "changes": {
+        "custom_label_1": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7209162309830_41647165997254",
+      "title": "3W Matt White Low Level Wash, Low Glare- Step/Wall Lamp /Brick/Path/Deck/Corridor Light, Recessed Light (Driver included) - 3000K Sofia",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7612296986822_42236985770182",
+      "title": "1W Indirect Up-Down Bezel LED Waterproof IP65 Black Bezel, Small Downlight /Marker/Step/ In-ground /Deck Light (Driver included) 3000K",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_6952622686406_40934066847942",
+      "title": "300W 24V Constant Voltage Slim Waterproof IP67 LED Strip Driver",
+      "changes": {
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8857458606401_47191353164097",
+      "title": "Slim Line 200W 24V Constant Voltage Non-Dimmable Driver for LED Strip, IP20 Rated, Compact Dimensions: 356.4 x 32.1 x 22.3mm",
+      "changes": {
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7117651050694_41305391988934",
+      "title": "3W Mini Black LED IP44 Marker Light, Small Downlight/Spotlight, Niche/Alcove/Soffit Light Low Glare (Driver included) / 3000K Chloe",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15198395105657_56093855416697",
+      "title": "LED WHITE PROFILE 2M FOR TILED EDGE WITH OPAL DIFFUSER - FOR 12.5MM WIDTH STRIP",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8555759534401_46233061589313",
+      "title": "40 Metre Reel Super Length 20 Metres Continuous Run LED COB Strip IP44 8W 2700K Warm White- 40M/Reel 2700K Very Warm White 40M - Uno Lighting",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9046442770753_47610615660865",
+      "title": "4 Gang 2 Way Toggle Light Switch Brushed Brass / Matte Gold Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "55.25 GBP"
+        ],
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8086161686849_44341197537601",
+      "title": "12W LED Interior / Exterior Wall Light Up Down Front Opal Diffuser IP65 Black Aluminum, 1.5M Pre-wired cable 3000K Warm White - Uno Lighting",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8522676830529_46047979733313",
+      "title": "100W 24V-240V Triac Mains Dimmable Driver for LED Strip",
+      "changes": {
+        "custom_label_1": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8753170055489_46887254688065",
+      "title": "1W Ella Indirect Eyelid Bezel IP65 Marker Light, Step Light, Mini Downlight, Deck Light, Black/ Antique Brass/ Polished Copper/ Gold/ Bronze/ White",
+      "changes": {
+        "custom_label_1": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7666224431302_54972193833337",
+      "title": "12W LED Recessed Ceiling Light Panel - CCT Switchable, IP54, 1200 Lumens",
+      "changes": {
+        "custom_label_1": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    }
+  ]
+}

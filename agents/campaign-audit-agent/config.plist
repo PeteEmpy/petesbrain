@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.petesbrain.campaign-audit-agent</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+        <string>cd /Users/administrator/Documents/PetesBrain &amp;&amp; export ANTHROPIC_API_KEY="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" &amp;&amp; /usr/bin/python3 agents/reporting/campaign-audit-agent.py --all</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
+        <key>Hour</key>
+        <integer>23</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/administrator/.petesbrain-campaign-audit-agent.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/administrator/.petesbrain-campaign-audit-agent.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/administrator/Documents/PetesBrain</string>
+
+<key>RunAtLoad</key>
+<true/>
+
+<key>ProcessType</key>
+<string>Background</string>
+</dict>
+</plist>
+

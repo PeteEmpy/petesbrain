@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "AI-Powered Sale Price Suggestions Feature",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center Email - 2025-11-03",
+        "extracted_at": "2025-11-11T09:21:36.963109",
+        "verified": false
+      }
+    ],
+    "content": {
+      "feature_location": "Merchant Center Analytics tab",
+      "access": "Available in Merchant Center Analytics tab with actionable insights and performance projections",
+      "merchant_center_id": "Account-specific feature (example: 118418154)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

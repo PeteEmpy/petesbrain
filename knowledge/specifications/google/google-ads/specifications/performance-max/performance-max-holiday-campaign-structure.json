@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Performance Max Holiday Campaign Structure",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center - Holiday Guide Part 3 (2025-11-05)",
+        "extracted_at": "2025-11-11T09:21:36.967007",
+        "verified": false
+      }
+    ],
+    "content": {
+      "campaign_type": "Single Performance Max campaign",
+      "ai_optimization": "Google AI-driven ad creation and optimization",
+      "placement_coverage": "All Google properties",
+      "optimization_goals": "Foot traffic, leads, or website visits",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

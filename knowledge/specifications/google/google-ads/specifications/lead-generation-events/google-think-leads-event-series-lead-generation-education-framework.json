@@ -1,0 +1,48 @@
+{
+  "specification": {
+    "title": "Google Think Leads Event Series - Lead Generation Education Framework",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-04_missing-think-leads-weve-got-your-backstage-pass.md",
+        "extracted_at": "2025-11-11T09:21:36.935536",
+        "verified": false
+      }
+    ],
+    "content": {
+      "event_structure": {
+        "backstage_pass_event": {
+          "date": "November 19th, 2025",
+          "time": "10:00-10:30 AM",
+          "format": "Digital/Virtual",
+          "focus": "Strategic overview and insights from in-person event"
+        },
+        "practitioner_event": {
+          "date": "November 27th, 2025",
+          "title": "The Future of Google Ads is NOW: Accelerate into the 2026 Lead-Gen Peak",
+          "focus": "Tactical implementation and execution"
+        }
+      },
+      "content_areas": [
+        "AI developments in lead generation",
+        "Search Excellence strategies",
+        "Beyond Search (PMax, YouTube, Demand Gen)",
+        "Measurement and attribution",
+        "Product solutions for lead-gen"
+      ],
+      "speaker_lineup": {
+        "keynote": "David Black (Senior Director UK & MD - Finance, Automotive, Services & Travel)",
+        "host": "Hugh Dickerson (Senior Industry Head - Services and Marketplaces)",
+        "product_experts": [
+          "Lydia Azaret (Product Manager - Measurement)",
+          "Beyond Search specialists",
+          "Search Excellence team"
+        ]
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

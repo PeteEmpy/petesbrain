@@ -1,0 +1,77 @@
+[
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/21713675420",
+      "status": "ENABLED",
+      "advertisingChannelType": "SEARCH",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": false,
+        "targetPartnerSearchNetwork": false
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "maximizeConversions": {
+        "targetCpaMicros": "7000000"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "JBB | Brand 6 7 31/3"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/13922701871",
+      "amountMicros": "31000000"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/23025217110",
+      "status": "ENABLED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true,
+        "targetPartnerSearchNetwork": false
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE_OR_INTEREST",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "JBB | JHD | P Max Shopping"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/14947821292",
+      "amountMicros": "10000000"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/19330440461",
+      "status": "ENABLED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true,
+        "targetPartnerSearchNetwork": false
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 2
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "JBB | P Max  200 21/5"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/12165908832",
+      "amountMicros": "50000000"
+    }
+  }
+]

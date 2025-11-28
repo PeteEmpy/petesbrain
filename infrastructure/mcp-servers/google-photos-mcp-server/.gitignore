@@ -1,0 +1,24 @@
+# OAuth Credentials and Tokens - NEVER COMMIT
+credentials.json
+token.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

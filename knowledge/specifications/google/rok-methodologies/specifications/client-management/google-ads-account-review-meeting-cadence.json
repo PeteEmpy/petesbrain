@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Google Ads Account Review Meeting Cadence",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Ads Consultation Meeting - Uno Lights Recurring Check-in (2025-11-04)",
+        "extracted_at": "2025-11-11T09:21:36.911821",
+        "verified": false
+      }
+    ],
+    "content": {
+      "meeting_frequency": "Bi-weekly (every 2 weeks)",
+      "meeting_duration": "30 minutes (13:30-14:00 BST)",
+      "meeting_format": "Google Meet video call",
+      "documentation": "Shared Gemini notes document for collaborative tracking",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+To complete the upload to Google Sheets, we need to make 6 MCP tool calls.
+
+Since the parameter sizes are large, the best approach is to use the Google Sheets UI import:
+
+1. Open: https://docs.google.com/spreadsheets/d/1XYW4jVS785qnj2gFauPc4uJSnpOZOJck0OLo4nFZNTI/edit
+2. File → Import
+3. Upload tab
+4. Select file: /Users/administrator/Documents/PetesBrain/roksys/tools/pmax-asset-optimiser/output/replacement-candidates.csv
+5. Import location: Replace current sheet
+6. Separator: Comma
+7. Click "Import data"
+
+This uploads all 277 rows in one operation.
+
+The CSV path is already in your clipboard.

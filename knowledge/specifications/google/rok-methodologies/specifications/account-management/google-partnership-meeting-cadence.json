@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Google Partnership Meeting Cadence",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/2025-10-31-cancelled-google-superspace-sync-jasmine-chauhan.md",
+        "extracted_at": "2025-11-11T09:21:36.944410",
+        "verified": false
+      }
+    ],
+    "content": {
+      "meeting_type": "Quick sync meetings with Google partnership contacts",
+      "meeting_duration": "15 minutes",
+      "scheduling_tool": "Google Meet with phone dial-in backup",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

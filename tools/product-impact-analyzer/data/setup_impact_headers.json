@@ -1,0 +1,25 @@
+{
+  "spreadsheet_id": "1Hovs50_nU3Ruo37F1vJsUmqCXmKxbHboPC2XWQOzw3Q",
+  "range": "Impact Analysis!A1:P1",
+  "values": [
+    [
+      "Analysis Date",
+      "Client",
+      "Product ID",
+      "Product Title",
+      "Change Type",
+      "Date Changed",
+      "Days Since",
+      "Before Clicks",
+      "After Clicks",
+      "Click Change %",
+      "Before Revenue",
+      "After Revenue",
+      "Revenue Change \u00a3",
+      "Revenue Change %",
+      "Impact Flag",
+      "Label"
+    ]
+  ],
+  "timestamp": "2025-11-02T17:48:08.464848"
+}

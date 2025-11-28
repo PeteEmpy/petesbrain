@@ -1,0 +1,1 @@
+SELECT campaign.id, campaign.status FROM campaign WHERE campaign.status != 'REMOVED'

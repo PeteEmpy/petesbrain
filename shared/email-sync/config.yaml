@@ -1,0 +1,40 @@
+# Email Sync Configuration
+# Maps Gmail labels to client folders
+
+# Gmail label prefix (all client labels should start with this)
+label_prefix: "client/"
+
+# Client label mappings
+# Format: "gmail-label": "folder-name"
+client_labels:
+  "client/accessories-for-the-home": "accessories-for-the-home"
+  "client/bright-minds": "bright-minds"
+  "client/clear-prospects": "clear-prospects"
+  "client/devonshire-hotels": "devonshire-hotels"
+  "client/godshot": "godshot"
+  "client/national-design-academy": "national-design-academy"
+  "client/otc": "otc"
+  "client/print-my-pdf": "print-my-pdf"
+  "client/smythson": "smythson"
+  "client/superspace": "superspace"
+  "client/tree2mydoor": "tree2mydoor"
+  "client/uno-lighting": "uno-lighting"
+  "AI_news": "roksys/knowledge-base/_inbox/emails"
+  "google-reps": "roksys/knowledge-base/_inbox/emails"
+
+# Sync settings
+sync:
+  max_emails_per_run: 100  # Maximum emails to fetch per sync
+  date_format: "%Y-%m-%d"  # Format for email file dates
+  include_attachments: true  # Save attachment info in markdown
+  mark_as_synced: true  # Add a "synced" label after processing
+  sync_sent_emails: true  # Also sync sent emails to clients
+
+# Email file naming
+# Format: YYYY-MM-DD_subject-slug.md
+filename_format: "{date}_{subject}.md"
+max_filename_length: 100
+
+# Directories
+base_dir: "/Users/administrator/Documents/PetesBrain"
+sync_state_file: ".email-sync-state.json"  # Tracks synced email IDs

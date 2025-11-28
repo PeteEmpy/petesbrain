@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# Manual email sync command
+# Usage: ./sync [--dry-run]
+#
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+VENV_DIR="$SCRIPT_DIR/.venv"
+SYNC_SCRIPT="$SCRIPT_DIR/sync_emails.py"
+
+# Check if virtual environment exists
+if [ ! -d "$VENV_DIR" ]; then
+    echo "Error: Virtual environment not found!"
+    echo "Please run: ./setup-cron.sh first"
+    exit 1
+fi
+
+# Activate virtual environment and run sync
+source "$VENV_DIR/bin/activate"
+python3 "$SYNC_SCRIPT" "$@"

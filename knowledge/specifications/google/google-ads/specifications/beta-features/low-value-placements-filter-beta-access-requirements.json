@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Low-Value Placements Filter Beta - Access Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-ads-low-value-placements-filter-beta-application.md",
+        "extracted_at": "2025-11-11T09:21:36.925295",
+        "verified": false
+      }
+    ],
+    "content": {
+      "consultation_call": "Mandatory 15-minute consultation call required",
+      "survey_completion": "Compliance survey questions must be completed during call",
+      "eligibility": "Closed beta with allowlist - limited spots available",
+      "account_type": "Display campaign advertisers (CID: 9385103842 referenced)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

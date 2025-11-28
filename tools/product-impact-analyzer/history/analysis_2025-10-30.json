@@ -1,0 +1,134 @@
+[
+  {
+    "client": "Tree2mydoor",
+    "product_id": "49",
+    "product_title": "Best Friends Forever Rose Bush Gift - 30-50cm In A 3.5L Pot - Red-Pink Roses WIth A Vibrant Colour and Delicate Perfume",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "50",
+    "product_title": "Diamond Days Rose Bush Gift",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 21824,
+      "clicks": 200,
+      "conversions": 1.985694,
+      "revenue": 49.523357344999994,
+      "cost": 153.71605900000003
+    },
+    "after": {
+      "impressions": 67046,
+      "clicks": 312,
+      "conversions": 0.0,
+      "revenue": 0.0,
+      "cost": 89.161897
+    },
+    "clicks_change_pct": 56.00000000000001,
+    "revenue_change_pct": -100.0,
+    "revenue_change_abs": -49.523357344999994
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 1754,
+      "clicks": 21,
+      "conversions": 2.0,
+      "revenue": 59.116733,
+      "cost": 36.46
+    },
+    "after": {
+      "impressions": 163276,
+      "clicks": 298,
+      "conversions": 0.0,
+      "revenue": 0.0,
+      "cost": 60.651762
+    },
+    "clicks_change_pct": 1319.047619047619,
+    "revenue_change_pct": -100.0,
+    "revenue_change_abs": -59.116733
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 21824,
+      "clicks": 200,
+      "conversions": 1.985694,
+      "revenue": 49.523357344999994,
+      "cost": 153.71605900000003
+    },
+    "after": {
+      "impressions": 67046,
+      "clicks": 312,
+      "conversions": 0.0,
+      "revenue": 0.0,
+      "cost": 89.161897
+    },
+    "clicks_change_pct": 56.00000000000001,
+    "revenue_change_pct": -100.0,
+    "revenue_change_abs": -49.523357344999994
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 1754,
+      "clicks": 21,
+      "conversions": 2.0,
+      "revenue": 59.116733,
+      "cost": 36.46
+    },
+    "after": {
+      "impressions": 163276,
+      "clicks": 298,
+      "conversions": 0.0,
+      "revenue": 0.0,
+      "cost": 60.651762
+    },
+    "clicks_change_pct": 1319.047619047619,
+    "revenue_change_pct": -100.0,
+    "revenue_change_abs": -59.116733
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "specification": {
+    "title": "AI-Powered Pricing Optimization Feature",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center Email - Nov 2025",
+        "extracted_at": "2025-11-11T09:21:36.960434",
+        "verified": false
+      }
+    ],
+    "content": {
+      "access_location": "Merchant Center Analytics tab",
+      "feature_name": "Sale Price Suggestions",
+      "data_source": "Google AI algorithm",
+      "character_limits": {},
+      "required_counts": {
+        "example_products_flagged": 158,
+        "example_potential_clicks": 56
+      }
+    }
+  }
+}

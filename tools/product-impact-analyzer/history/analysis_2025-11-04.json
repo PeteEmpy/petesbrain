@@ -1,0 +1,134 @@
+[
+  {
+    "client": "Tree2mydoor",
+    "product_id": "49",
+    "product_title": "Best Friends Forever Rose Bush Gift - 30-50cm In A 3.5L Pot - Red-Pink Roses WIth A Vibrant Colour and Delicate Perfume",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "50",
+    "product_title": "Diamond Days Rose Bush Gift",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe2",
+    "before": {
+      "impressions": 22798,
+      "clicks": 207,
+      "conversions": 2.985694,
+      "revenue": 74.099340345,
+      "cost": 161.686059
+    },
+    "after": {
+      "impressions": 73337,
+      "clicks": 357,
+      "conversions": 6.969673,
+      "revenue": 173.26791027599998,
+      "cost": 136.93189700000002
+    },
+    "clicks_change_pct": 72.46376811594203,
+    "revenue_change_pct": 133.83192005391663,
+    "revenue_change_abs": 99.16856993099998
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 5274,
+      "clicks": 43,
+      "conversions": 4.652961,
+      "revenue": 142.338048597,
+      "cost": 70.44
+    },
+    "after": {
+      "impressions": 249295,
+      "clicks": 473,
+      "conversions": 3.0,
+      "revenue": 95.44703299999999,
+      "cost": 130.700531
+    },
+    "clicks_change_pct": 1000.0,
+    "revenue_change_pct": -32.94341608529564,
+    "revenue_change_abs": -46.89101559700002
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe2",
+    "before": {
+      "impressions": 22798,
+      "clicks": 207,
+      "conversions": 2.985694,
+      "revenue": 74.099340345,
+      "cost": 161.686059
+    },
+    "after": {
+      "impressions": 73337,
+      "clicks": 357,
+      "conversions": 6.969673,
+      "revenue": 173.26791027599998,
+      "cost": 136.93189700000002
+    },
+    "clicks_change_pct": 72.46376811594203,
+    "revenue_change_pct": 133.83192005391663,
+    "revenue_change_abs": 99.16856993099998
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 5274,
+      "clicks": 43,
+      "conversions": 4.652961,
+      "revenue": 142.338048597,
+      "cost": 70.44
+    },
+    "after": {
+      "impressions": 249295,
+      "clicks": 473,
+      "conversions": 3.0,
+      "revenue": 95.44703299999999,
+      "cost": 130.700531
+    },
+    "clicks_change_pct": 1000.0,
+    "revenue_change_pct": -32.94341608529564,
+    "revenue_change_abs": -46.89101559700002
+  }
+]

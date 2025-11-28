@@ -1,0 +1,32 @@
+[
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/19330440461",
+      "name": "JBB | P Max  200 21/5",
+      "id": "19330440461"
+    },
+    "metrics": {
+      "costMicros": "1532153579"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/23025217110",
+      "name": "JBB | JHD | P Max Shopping",
+      "id": "23025217110"
+    },
+    "metrics": {
+      "costMicros": "295698404"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/21713675420",
+      "name": "JBB | Brand 6 7 31/3",
+      "id": "21713675420"
+    },
+    "metrics": {
+      "costMicros": "150682225"
+    }
+  }
+]

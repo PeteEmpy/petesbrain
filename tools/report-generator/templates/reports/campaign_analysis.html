@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Campaign Analysis - {{ report.client_display }}{% endblock %}
+
+{% block content %}
+<div class="report-wrapper">
+    <div class="report-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; text-align: center; margin: -20px -20px 30px -20px; border-radius: 8px 8px 0 0;">
+        <h1>{{ report.client_display }}</h1>
+        <div class="subtitle" style="font-size: 1.2em; opacity: 0.95;">Campaign Analysis Report</div>
+        <div class="date" style="font-size: 0.9em; opacity: 0.8; margin-top: 10px;">
+            {{ report.date_range[0] }} to {{ report.date_range[1] }} | Generated: {{ report.generated_date }}
+        </div>
+    </div>
+
+    <div class="export-controls" style="position: sticky; top: 20px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; display: flex; justify-content: space-between; align-items: center;">
+        <h3>Report Actions</h3>
+        <div>
+            <a href="/export/html" class="btn btn-secondary">Export HTML</a>
+            <a href="/export/json" class="btn btn-secondary">Export JSON</a>
+            <a href="/" class="btn btn-outline">New Report</a>
+        </div>
+    </div>
+
+    <div class="section" style="margin: 40px 0; padding: 30px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+        <h2 style="font-size: 1.8em; font-weight: 700; margin-bottom: 20px; color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 10px;">Coming Soon</h2>
+        <p>Campaign Analysis report template is under development. This will include:</p>
+        <ul style="margin: 20px 0 20px 40px; line-height: 2;">
+            <li>Campaign-level performance breakdown</li>
+            <li>Optimization recommendations by campaign</li>
+            <li>Budget allocation efficiency</li>
+            <li>Keyword and audience analysis</li>
+            <li>A/B test results and insights</li>
+            <li>Bidding strategy performance</li>
+        </ul>
+        <p>For now, you can use the Q4 Strategy report which includes comprehensive performance data.</p>
+        <div style="margin-top: 30px;">
+            <a href="/" class="btn btn-primary">Generate Another Report</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

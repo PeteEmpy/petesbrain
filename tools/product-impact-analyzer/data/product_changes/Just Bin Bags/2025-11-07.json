@@ -1,0 +1,47 @@
+{
+  "date": "2025-11-07",
+  "client": "Just Bin Bags",
+  "comparison_date": "2025-11-06",
+  "total_products_today": 121,
+  "total_products_yesterday": 121,
+  "summary": {
+    "changed_products": 1,
+    "price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "581",
+      "title": "Documents Enclosed Wallets - Printed and Plain",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "581",
+      "title": "Documents Enclosed Wallets - Printed and Plain",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": []
+}

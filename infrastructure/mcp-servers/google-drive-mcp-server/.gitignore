@@ -1,0 +1,12 @@
+# OAuth credentials (contains sensitive client ID and secret)
+gcp-oauth.keys.json
+
+# OAuth tokens (user-specific access tokens)
+tokens.json
+.tokens.json
+
+# Environment variables
+.env
+
+# Logs
+*.log

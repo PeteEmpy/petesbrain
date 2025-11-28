@@ -1,0 +1,30 @@
+{
+  "client": "superspace",
+  "period": "2024-10-01 to 2024-10-31",
+  "metrics": {
+    "roas_previous": 570,
+    "roas_current": 655,
+    "roas_change_percent": 14.9,
+    "spend_previous": 12400,
+    "spend_current": 12400,
+    "spend_change_percent": 0,
+    "conversions_previous": 89,
+    "conversions_current": 100,
+    "conversions_change_percent": 12.4,
+    "revenue_previous": 70680,
+    "revenue_current": 81220,
+    "revenue_change_percent": 14.9
+  },
+  "context": {
+    "recent_changes": [
+      "Product feed optimization implemented Oct 1 - bestsellers surfaced",
+      "Weekly title updates automation started"
+    ],
+    "seasonality": "Pre-holiday period",
+    "client_goals": [
+      "Maintain ROAS above 570%",
+      "Scale to £15k monthly spend by Q1 2025",
+      "Prepare feed for Black Friday"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Merchant Center Holiday Performance Tracking",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center - Holiday Guide Part 3 (2025-11-05)",
+        "extracted_at": "2025-11-11T09:21:36.967801",
+        "verified": false
+      }
+    ],
+    "content": {
+      "tracking_location": "Products tab in Merchant Center",
+      "monitoring_period": "Past month performance during holiday season",
+      "campaign_approach": "Single Performance Max campaign for all Google touchpoints",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state 3.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state 3.json"
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state 2.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state 2.json"
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/ROK _ Google Ads Text Asset Generation 3.docx",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/ROK _ Google Ads Text Asset Generation 3.docx"
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/ROK _ Google Ads Text Asset Generation 2.docx",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/ROK _ Google Ads Text Asset Generation 2.docx"
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state.json 3.backup",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state.json 3.backup"
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.mcp 2.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.mcp 2.json"
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state.json 2.backup",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state.json 2.backup"
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/audits",
+    "target": null
+  }
+]

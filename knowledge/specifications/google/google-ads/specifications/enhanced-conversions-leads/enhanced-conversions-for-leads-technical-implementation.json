@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Enhanced Conversions for Leads Technical Implementation",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Enhanced Conversions for Leads Implementation Support - National Design Academy (duplicate/variant)",
+        "extracted_at": "2025-11-11T09:21:36.942915",
+        "verified": false
+      }
+    ],
+    "content": {
+      "implementation_phases": [
+        "Code implementation on conversion pages",
+        "Conversion action setup",
+        "Offline data import via Google Sheets",
+        "Technical validation"
+      ],
+      "common_issues": "Timestamp format errors during offline conversion import",
+      "support_case_number": "7-5170000038434",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

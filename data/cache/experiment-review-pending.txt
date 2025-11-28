@@ -1,0 +1,151 @@
+================================================================================
+EXPERIMENT REVIEW REPORT
+Generated: 2025-11-27 06:49:47
+================================================================================
+
+Total experiments needing review: 34
+Clients: Accessories For The Home, Bright Minds, Clear Prospects, Devonshire Hotels, Godshot, National Design Academy, Print My PDF, Smythson, Superspace, Tree2mydoor, Uno Lighting
+
+------------------------------------------------------------
+CLIENT: Accessories For The Home (1 experiment(s))
+------------------------------------------------------------
+  [37 days ago] 20/10/2025 15:31
+    Base ROAS dropped from 210 to 200% to try and counteract a drop in impressions. This drop in impressions may well be seasonal but as there is a strong ROAS being achieved at the moment, it's worth doing prior to the season starting proper
+
+------------------------------------------------------------
+CLIENT: Bright Minds (2 experiment(s))
+------------------------------------------------------------
+  [35 days ago] 22/10/2025 12:34
+    New asset group set live for Science Toys
+
+  [35 days ago] 22/10/2025 15:46
+    Stem toys asset group created
+
+------------------------------------------------------------
+CLIENT: Clear Prospects (5 experiment(s))
+------------------------------------------------------------
+  [36 days ago] 21/10/2025 17:14
+    BMPM search campaign started. This is a simple search campaign which initially just has cushions ad group with three broad match keywords using AI Max.
+
+  [36 days ago] 21/10/2025 17:15
+    BMPM PMax campaign target removed, and budget dropped to £50 a day.
+
+  [27 days ago] 30/10/2025 20:00
+    Investigating recurring Merchant Center disapprovals (desktop 404 errors). Hypothesis: Client has blocked IP addresses in past that may include Google's crawler IPs. Client will check blocked IPs and unblock Google crawlers. Product Impact Analyzer configured to monitor every 6 hours (6 AM, 12 PM, 6 PM, 12 AM) to quickly detect resolution. If unblocking IPs fixes issue, this explains intermittent disapprovals.
+    Tags: merchant-center technical-issue hypothesis-testing
+
+  [23 days ago] 03/11/2025 14:31
+    Bagpus wheat bag back in stock on WBS. Keep a close eye on this one and report back on what's happening with it
+
+  [15 days ago] 11/11/2025 16:00
+    Campaign Audit Implementation: (1) Changed 4 PMax campaigns from PRESENCE_OR_INTEREST to PRESENCE targeting (HSG Villains, HSG Zombies, WBS Villains, WBS Zombies) - eliminates 20-30% geographic waste (£142-213/month saved). (2) Set BMPM PMax target ROAS to 70% (was no target) - gives algorithm profitability guidance. (3) Increased WBS PMax H&S budget from £120/day to £150/day - strong 129% ROAS performer expecting £774-1,161/month additional revenue. (4) Consolidated 3 low-volume HSG Search campaigns (Hot Water Bottle 8 conv/month, Photo Bunting 3 conv/month, Photo Face Cushion 4 conv/month) into single 'CPL | HSG | Search | Products 130 16/9' campaign - improves Smart Bidding data volume. (5) NOTE: Cannot delete experiment campaigns (Google Ads restriction) - left enabled but not spending. (6) BMPM Nov 6 product feed change NOT visible in Merchant Centre - may be false positive from Product Impact Analyzer. Review: 9 Dec 2025.
+    Tags: campaign-audit implementation geographic-targeting budget-optimization campaign-consolidation
+
+------------------------------------------------------------
+CLIENT: Devonshire Hotels (5 experiment(s))
+------------------------------------------------------------
+  [47 days ago] 10/10/2025 09:00
+    The Hyde Hotel campaign live.
+
+  [37 days ago] 20/10/2025 17:43
+    An extra £30 per day was added to the Devonshire Arms Search campaign, and an extra £50 per day on the P Max campaign. It needs to be shown at the end of the month that these actually produced an incremental increase in revenue at the same rate as was being produced before the budget increase.
+
+  [34 days ago] 24/10/2025 06:23
+    Portfolio bid strategy across all campaigns increased target ROAS from 550 to 570 in order to slow down the spend trajectory and hit the budget
+
+  [23 days ago] 03/11/2025 14:17
+    AI max added to all the search campaigns
+
+  [23 days ago] 03/11/2025 14:45
+    WHY: November budget lower than October (£9,000 vs £11,730). Unable to adjust over weekend when month rolled over, so campaigns ran 3 days at old higher budgets causing 163% pacing (£1,427 spend in 3 days). WHAT: Budget adjustments made today across all DEV Properties campaigns to align with November £9,000 target. EXPECTED: Daily spend to stabilize and hit 100% pacing by month-end. REVIEW: Daily checks for next few days, then weekly budget reviews. SUCCESS: Month ends at 100% pacing (£9,000 total spend).
+    Tags: budget pacing spend-control
+
+------------------------------------------------------------
+CLIENT: Godshot (1 experiment(s))
+------------------------------------------------------------
+  [41 days ago] 16/10/2025 10:00
+    Account re-enabled
+
+------------------------------------------------------------
+CLIENT: National Design Academy (1 experiment(s))
+------------------------------------------------------------
+  [33 days ago] 24/10/2025 09:03
+    New videos uploaded for India PMAX campaign. With the hope that they will increase CTR
+
+------------------------------------------------------------
+CLIENT: Print My PDF (1 experiment(s))
+------------------------------------------------------------
+  [36 days ago] 21/10/2025 14:18
+    Print my PDF prices reduced
+
+------------------------------------------------------------
+CLIENT: Smythson (7 experiment(s))
+------------------------------------------------------------
+  [34 days ago] 23/10/2025 11:30
+    New ads set live for the UK search brand stationery campaign. These have higher relevance, so hopefully will improve CTR
+
+  [34 days ago] 23/10/2025 14:05
+    For the UK account, search Brand Exact all customers and new customers consolidated into one campaign. The campaign it was consolidated into is the all customers version of it. The target RAS was dropped from 660 to 450, no change to the budget because it doesn't appear to be spent on a daily basis
+
+  [34 days ago] 23/10/2025 16:37
+    Paused the PMax H&S new customers campaign and increased the budget on the PMax H&S returning customers campaign to £300 per day
+
+  [33 days ago] 24/10/2025 11:55
+    AI max for the UK generics campaign
+
+  [29 days ago] 28/10/2025 21:29
+    Notebooks added as an asset group into the P Max H&S for UK
+
+  [29 days ago] 28/10/2025 21:29
+    Diaries broken out into their own P Max campaign. This is for all diaries
+
+  [27 days ago] 30/10/2025 16:16
+    With the UK account, new asset groups were created: notebooks, travel bags, card holders, jewellerey boxes and rolls and stationery.
+
+------------------------------------------------------------
+CLIENT: Superspace (3 experiment(s))
+------------------------------------------------------------
+  [37 days ago] 20/10/2025 09:00
+    email received from client - Can we pull back the daily budget spend on Google ads for both UK & AU for the next few weeks, please?  We're running low on stocks for both countries (at current run-rate less than 2 weeks worth each), and new stocks aren't likely until early Dec.
+
+I see we have c£600 (UK) and c£400 (AU) daily - will leave it up to you re how quickly you can safely reduce them, but let's aim for say 50-60% of those current levels.
+
+We'll let you know as soon as we're ready to ramp up again.
+
+  [36 days ago] 21/10/2025 17:24
+    50% drop in budgets for UK and Australia campaigns due to stock shortages.
+
+  [34 days ago] 23/10/2025 18:05
+    Paused all ad groups in the Demand Gen main campaign (i.e., not the retargeting one) with the exception of the lookalike ad group, which seems to be performing the best
+
+------------------------------------------------------------
+CLIENT: Tree2mydoor (4 experiment(s))
+------------------------------------------------------------
+  [37 days ago] 20/10/2025 14:46
+    New ad groups added to the birthdays campaign. These are more granular than usual they contain special birthday days like 40 50 60 and there are a lot of ad groups and their corresponding keywords which have fab at in them. The ads for these ad groups have been auto-generated by AI and are quite basic to start off with but they have the relevant keywords in them so the quality score is good
+
+  [37 days ago] 20/10/2025 18:17
+    Split out P Max campaign into a new non-Roses P Max campaign kept the existing one of the roses P Max campaign. This is just for the HP&P versions of these campaigns.
+
+  [34 days ago] 23/10/2025 21:51
+    Reduce target ROAS targets across the board in response to a slowdown in traffic.
+
+  [34 days ago] 23/10/2025 21:52
+    Reverted previous breakdown of PMax campaigns into Roses and non-Roses
+
+------------------------------------------------------------
+CLIENT: Uno Lighting (4 experiment(s))
+------------------------------------------------------------
+  [42 days ago] 15/10/2025 08:47
+    Decrease the target ROAS by 10% on the main PMax campaigns, so this took it down to 205%.
+
+  [36 days ago] 21/10/2025 13:59
+    Switched on AI Max for search brand campaign. Is this going to expand out the number of impressions available? Take a look at the search terms in two weeks' time
+
+  [16 days ago] 10/11/2025 16:00
+    AI Max match type enabled on campaigns. WHY: Google rep (Luiza) recommendation to expand reach and impression volume. Similar to Devonshire implementation (Nov 3). EXPECTED: Increased impressions, broader keyword matching via ML signals. REVIEW: Early December 2025 (2-3 weeks) - assess search term quality, conversion rate vs traditional match types, and ROAS performance. SUCCESS: Maintained or improved conversion rate with increased volume.
+    Tags: ai-max-testing
+
+  [14 days ago] 13/11/2025 00:00
+    Weekly budget tracking added to automated weekly summary email (Mondays). Tracks £1,800/day budget increase implementation (Nov 13 - Dec 6): spend vs target, ROAS performance, daily averages, and days remaining. WHY: Ensure budget increase stays on track toward £130k revenue target. EXPECTED: Weekly visibility into performance trends, early warning if off-track. REVIEW: Every Monday via email, end of period review Dec 7. SUCCESS: Maintain 300%+ ROAS, £1,800/day average spend, hit £130k revenue target by Dec 6.
+    Tags: tracking automation budget-monitoring

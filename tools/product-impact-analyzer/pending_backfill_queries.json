@@ -1,0 +1,354 @@
+{
+  "Tree2mydoor": {
+    "config": {
+      "name": "Tree2mydoor",
+      "merchant_id": "107469209",
+      "google_ads_customer_id": "4941701449",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 300,
+        "revenue_spike": 400,
+        "click_drop_percent": 40,
+        "comment": "Mid-tier e-commerce, \u00a3300-400/day revenue typical"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_3",
+        "assessment_window_days": 30
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "4941701449",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute3,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-01",
+        "limit": 2000
+      },
+      {
+        "customer_id": "4941701449",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute3,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-15",
+        "limit": 2000
+      },
+      {
+        "customer_id": "4941701449",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute3,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-30",
+        "limit": 2000
+      }
+    ]
+  },
+  "Accessories for the Home": {
+    "config": {
+      "name": "Accessories for the Home",
+      "merchant_id": "117443871",
+      "google_ads_customer_id": "7972994730",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 150,
+        "revenue_spike": 250,
+        "click_drop_percent": 45,
+        "comment": "Smaller account, \u00a3150-250/day revenue typical"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 60,
+        "notes": "Large account - partial coverage (LIMIT 500) due to MCP token limits"
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "7972994730",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 500",
+        "date": "2025-10-01",
+        "limit": 500
+      },
+      {
+        "customer_id": "7972994730",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 500",
+        "date": "2025-10-15",
+        "limit": 500
+      },
+      {
+        "customer_id": "7972994730",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 500",
+        "date": "2025-10-30",
+        "limit": 500
+      }
+    ]
+  },
+  "Uno Lights": {
+    "config": {
+      "name": "Uno Lights",
+      "merchant_id": "513812383",
+      "google_ads_customer_id": "6413338364",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 180,
+        "revenue_spike": 280,
+        "click_drop_percent": 45,
+        "comment": "Lighting products, \u00a3180-280/day revenue typical"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_1",
+        "assessment_window_days": 30,
+        "notes": "Large account - partial coverage (LIMIT 500) due to MCP token limits"
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "6413338364",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute1,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 500",
+        "date": "2025-10-01",
+        "limit": 500
+      },
+      {
+        "customer_id": "6413338364",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute1,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 500",
+        "date": "2025-10-15",
+        "limit": 500
+      },
+      {
+        "customer_id": "6413338364",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute1,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 500",
+        "date": "2025-10-30",
+        "limit": 500
+      }
+    ]
+  },
+  "HappySnapGifts": {
+    "config": {
+      "name": "HappySnapGifts",
+      "merchant_id": "7481296",
+      "google_ads_customer_id": "6281395727",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 100,
+        "revenue_spike": 200,
+        "click_drop_percent": 40,
+        "comment": "Photo gifts brand under Clear Prospects. 1.15x ROAS, CPA <\u00a310, stable performance"
+      },
+      "notes": "Part of Clear Prospects multi-brand. Photo gifts, face masks, bunting. Website: https://happysnapgifts.co.uk/. Achieved target ROAS and CPA Oct 2025.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_4",
+        "assessment_window_days": 30
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-01",
+        "limit": 2000
+      },
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-15",
+        "limit": 2000
+      },
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-30",
+        "limit": 2000
+      }
+    ]
+  },
+  "WheatyBags": {
+    "config": {
+      "name": "WheatyBags",
+      "merchant_id": "7481286",
+      "google_ads_customer_id": "6281395727",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 120,
+        "revenue_spike": 220,
+        "click_drop_percent": 40,
+        "comment": "Wheat bag heat packs under Clear Prospects. 1.30x ROAS (best performing), needs CPA improvement"
+      },
+      "notes": "Part of Clear Prospects multi-brand. Wheat bag heat packs. Website: https://wheatybags.co.uk/. Best ROAS of the 3 brands (1.30x) but CPA needs improvement.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_4",
+        "assessment_window_days": 30
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-01",
+        "limit": 2000
+      },
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-15",
+        "limit": 2000
+      },
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-30",
+        "limit": 2000
+      }
+    ]
+  },
+  "BMPM": {
+    "config": {
+      "name": "BMPM",
+      "merchant_id": "7522326",
+      "google_ads_customer_id": "6281395727",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 50,
+        "revenue_spike": 100,
+        "click_drop_percent": 50,
+        "comment": "B2B promotional merchandise under Clear Prospects. CRISIS: 0.10x ROAS Sep, 0.00x Oct, restructuring"
+      },
+      "notes": "Part of Clear Prospects multi-brand. B2B branded merchandise. Website: https://bmpm.trade/. CRITICAL: Restructuring for profitability. Paused underperforming categories (mugs, coasters, napkins) early Oct. New search campaign Oct 21 (cushions). Very low/no ROAS - needs close monitoring.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_4",
+        "assessment_window_days": 30
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-01",
+        "limit": 2000
+      },
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-15",
+        "limit": 2000
+      },
+      {
+        "customer_id": "6281395727",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute4,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-30",
+        "limit": 2000
+      }
+    ]
+  },
+  "Grain Guard": {
+    "config": {
+      "name": "Grain Guard",
+      "merchant_id": "5354444061",
+      "google_ads_customer_id": "4391940141",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 150,
+        "revenue_spike": 250,
+        "click_drop_percent": 40,
+        "comment": "Agricultural/grain storage products. Strong performance: 160% ROAS H&S, 140% ROAS Villains"
+      },
+      "notes": "Grain storage and pest control. Manager ID 2569949686 required for API access. Two product lines: H&S (Heroes & Sidekicks) performing at 160% ROAS, Villains at 140% ROAS. Switched H&S to Shopping Only on Sept 11, 2025. Seasonal business (harvest Aug-Oct).",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30,
+        "manager_id": "2569949686"
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "4391940141",
+        "manager_id": "2569949686",
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-01",
+        "limit": 2000
+      },
+      {
+        "customer_id": "4391940141",
+        "manager_id": "2569949686",
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-15",
+        "limit": 2000
+      },
+      {
+        "customer_id": "4391940141",
+        "manager_id": "2569949686",
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-30",
+        "limit": 2000
+      }
+    ]
+  },
+  "Crowd Control": {
+    "config": {
+      "name": "Crowd Control",
+      "merchant_id": "563545573",
+      "google_ads_customer_id": "9385103842",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 180,
+        "revenue_spike": 280,
+        "click_drop_percent": 40,
+        "comment": "Safety/crowd control equipment. Three product lines at 170% ROAS (Heroes, Villains, Zombies)"
+      },
+      "notes": "Crowd control barriers and safety equipment. Also called 'CCC UK'. Three themed product categories: Heroes & Sidekicks, Villains, Zombies. All campaigns converged to 170% ROAS target on Oct 14, 2025 (was previously 180-210%). Active optimization with frequent ROAS adjustments.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30
+      }
+    },
+    "strategy": "sampled_dates",
+    "queries": [
+      {
+        "customer_id": "9385103842",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-01'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-01",
+        "limit": 2000
+      },
+      {
+        "customer_id": "9385103842",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-15'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-15",
+        "limit": 2000
+      },
+      {
+        "customer_id": "9385103842",
+        "manager_id": null,
+        "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0,\n  campaign.name\nFROM shopping_performance_view\nWHERE segments.date = '2025-10-30'\n  AND metrics.impressions > 0\nORDER BY segments.product_item_id\nLIMIT 2000",
+        "date": "2025-10-30",
+        "limit": 2000
+      }
+    ]
+  }
+}

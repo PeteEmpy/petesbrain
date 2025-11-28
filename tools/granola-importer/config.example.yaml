@@ -1,0 +1,54 @@
+# Granola Meeting Importer Configuration
+# Copy this file to config.yaml and fill in your settings
+
+# Email Settings (for weekly summaries and alerts)
+email:
+  enabled: true
+
+  # Your email address to receive summaries
+  recipient: "your-email@example.com"
+
+  # SMTP settings (Gmail example)
+  smtp:
+    host: "smtp.gmail.com"
+    port: 587
+    use_tls: true
+    username: "your-email@gmail.com"
+    # Use App Password for Gmail: https://support.google.com/accounts/answer/185833
+    password: "your-app-password-here"
+
+  # Weekly summary settings
+  weekly_summary:
+    enabled: true
+    # Day of week to send (0=Monday, 6=Sunday)
+    day_of_week: 0  # Monday
+    # Time to send (24-hour format)
+    time: "09:00"
+
+  # Alert settings
+  alerts:
+    # Send alert when meeting can't be auto-assigned to a client
+    unassigned_meetings: true
+    # Send alert if sync fails
+    sync_failures: true
+
+# Import settings
+import:
+  # Default lookback period in days
+  default_days: 7
+
+  # Confidence thresholds (0-100)
+  detection:
+    title_threshold: 60
+    content_threshold: 70
+
+  # Whether to skip already imported meetings
+  skip_duplicates: true
+
+# Sync daemon settings
+daemon:
+  # Check interval in seconds (300 = 5 minutes)
+  check_interval: 300
+
+  # Log file location
+  log_file: "~/.petesbrain-granola-importer.log"

@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Google Ads API Data Access and Automation",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "https://searchengineland.com/google-ads-meta-ads-apis-extend-data-access-automation-464198",
+        "extracted_at": "2025-11-11T09:21:36.921088",
+        "verified": false
+      }
+    ],
+    "content": {
+      "api_access": "Programmatic access to Google Ads API",
+      "data_scope": "Deeper data beyond standard dashboard interfaces",
+      "integration_capability": "Cross-platform data integration (Google Ads + Meta Ads)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

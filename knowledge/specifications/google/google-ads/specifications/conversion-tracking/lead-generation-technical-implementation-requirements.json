@@ -1,0 +1,26 @@
+{
+  "specification": {
+    "title": "Lead Generation Technical Implementation Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Technical Support Email - Lead Generation Implementation",
+        "extracted_at": "2025-11-11T09:21:36.938824",
+        "verified": false
+      }
+    ],
+    "content": {
+      "attendee_access": "Admin access to website source code AND administrative access to Google Ads/Analytics accounts",
+      "pre_call_actions": [
+        "Website backup required before call",
+        "Google Meet screen sharing capability"
+      ],
+      "acceptance_deadline": "24 hours before scheduled appointment time",
+      "meeting_format": "Google Meet video call with screen sharing",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

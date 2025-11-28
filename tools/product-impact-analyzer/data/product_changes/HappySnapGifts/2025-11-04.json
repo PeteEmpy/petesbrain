@@ -1,0 +1,228 @@
+{
+  "date": "2025-11-04",
+  "client": "HappySnapGifts",
+  "comparison_date": "2025-11-03",
+  "total_products_today": 13486,
+  "total_products_yesterday": 13486,
+  "summary": {
+    "changed_products": 10,
+    "price_changes": 1,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 9,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "HSG855734V383654",
+      "title": "Collage Hot Water Bottle (Double-Sided Print) 2 Litre (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG18068",
+      "title": "Personalised Bike Seat Cover - Upload Your Favourite Photo - Water Resistant - Elasticated Base - Choice Of Sizes",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS10019V324545",
+      "title": "Buckwheat Sleep Pillow (70cm x 40cm Low Profile) - Chocolate Luxury Cotton Fabric Scented (Organic Lavender Buds) and Removable Cover (Personalised wi",
+      "changes": {
+        "price": [
+          "40.44 GBP",
+          "40.46 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG893529V395478",
+      "title": "Dog Face Cushion - Hand Cut To Shape - 13cm x 13cm x 6cm - Upload Your Own Photo - Choice Of Colours On The Back",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8153394V442833",
+      "title": "Personalised Photo Party Hat Kit Pack of 10 with Hat Theme (Green) DIY + Elastics (10 of Same Faces) (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG861528",
+      "title": "Passport Cover With Collage Of Photos Printed To The Front & Optional Text Personalisation",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8144208V443202",
+      "title": "Birthday Photo Face Masks Pack of 10 (A4) with Hat Theme (Pink) Finished Masks + Sticks (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8137070V443304",
+      "title": "Hen Do Photo Face Masks x 5 - Finished Masks With Elastics - Hand Cut With Eyeholes - Upload Your Photo",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG977V382247",
+      "title": "Personalised Water Bottle (Photo Upload) in White (600ml) with Drinking Straw with 1 Wrapped Around Image (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8155503V442851",
+      "title": "Personalised Union Jack Party Hat Kits Pack of 10 Brown DIY + Elastics (10 of Same Faces) (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "WBS10019V324545",
+      "title": "Buckwheat Sleep Pillow (70cm x 40cm Low Profile) - Chocolate Luxury Cotton Fabric Scented (Organic Lavender Buds) and Removable Cover (Personalised wi",
+      "changes": {
+        "price": [
+          "40.44 GBP",
+          "40.46 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "HSG855734V383654",
+      "title": "Collage Hot Water Bottle (Double-Sided Print) 2 Litre (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG18068",
+      "title": "Personalised Bike Seat Cover - Upload Your Favourite Photo - Water Resistant - Elasticated Base - Choice Of Sizes",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG893529V395478",
+      "title": "Dog Face Cushion - Hand Cut To Shape - 13cm x 13cm x 6cm - Upload Your Own Photo - Choice Of Colours On The Back",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8153394V442833",
+      "title": "Personalised Photo Party Hat Kit Pack of 10 with Hat Theme (Green) DIY + Elastics (10 of Same Faces) (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG861528",
+      "title": "Passport Cover With Collage Of Photos Printed To The Front & Optional Text Personalisation",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8144208V443202",
+      "title": "Birthday Photo Face Masks Pack of 10 (A4) with Hat Theme (Pink) Finished Masks + Sticks (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8137070V443304",
+      "title": "Hen Do Photo Face Masks x 5 - Finished Masks With Elastics - Hand Cut With Eyeholes - Upload Your Photo",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG977V382247",
+      "title": "Personalised Water Bottle (Photo Upload) in White (600ml) with Drinking Straw with 1 Wrapped Around Image (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8155503V442851",
+      "title": "Personalised Union Jack Party Hat Kits Pack of 10 Brown DIY + Elastics (10 of Same Faces) (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ]
+}

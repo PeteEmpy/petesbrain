@@ -1,0 +1,33 @@
+{
+  "specification": {
+    "title": "Google Ads Quarterly Account Review Process",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/2025-11-03_google-ads-q4-account-review-request.md",
+        "extracted_at": "2025-11-11T09:21:36.945806",
+        "verified": false
+      }
+    ],
+    "content": {
+      "review_cadence": "Quarterly (Q4 2025 referenced)",
+      "support_model": "Accenture on behalf of Google",
+      "assigned_roles": "Google Ads Account Strategist",
+      "response_options": [
+        "A: Schedule immediate call via booking link",
+        "B: Defer meeting with commitment to follow-up",
+        "C: Request email recommendations with CID confirmation"
+      ],
+      "required_information": {
+        "account_ids": "Customer ID (CID) for each managed account",
+        "marketing_objective": "Common marketing objective across accounts"
+      },
+      "character_limits": {},
+      "required_counts": {
+        "accounts_managed": "Multiple accounts per client possible"
+      }
+    }
+  }
+}

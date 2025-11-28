@@ -1,0 +1,31 @@
+{
+  "specification": {
+    "title": "Google Account Manager Communication Protocol",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/google-am-meeting-coordination-uno-lights-oct-nov-2025.md",
+        "extracted_at": "2025-11-11T09:21:36.944894",
+        "verified": false
+      }
+    ],
+    "content": {
+      "support_type": "Google Customer Solutions, UK & Ireland",
+      "communication_channels": [
+        "Email",
+        "Google Meet video calls",
+        "Calendar booking links"
+      ],
+      "standard_resources_provided": [
+        "Think with Google insights",
+        "Planning tools",
+        "Ads best practices documentation",
+        "Ads support contact"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "YouTube Mobile Ad Sidebar - Shoppable Panel Update",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Search Engine Land: https://searchengineland.com/youtube-locks-sidebar-on-mobile-ads-removing-close-option-464215",
+        "extracted_at": "2025-11-11T09:21:36.940156",
+        "verified": false
+      }
+    ],
+    "content": {
+      "sidebar_behavior": "Permanently visible throughout horizontal video ads on mobile",
+      "user_control": "Close button removed - no dismissal option",
+      "affected_campaigns": "Video campaigns with shopping elements/product feeds",
+      "platform": "Mobile only",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

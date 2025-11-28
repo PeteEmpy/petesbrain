@@ -1,0 +1,324 @@
+[
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state 3.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state 3.json",
+    "timestamp": "2025-11-09T11:34:13.240763",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state 2.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state 2.json",
+    "timestamp": "2025-11-09T11:34:13.240832",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/ROK _ Google Ads Text Asset Generation 3.docx",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/ROK _ Google Ads Text Asset Generation 3.docx",
+    "timestamp": "2025-11-09T11:34:13.240965",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/ROK _ Google Ads Text Asset Generation 2.docx",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/ROK _ Google Ads Text Asset Generation 2.docx",
+    "timestamp": "2025-11-09T11:34:13.241004",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state.json 3.backup",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state.json 3.backup",
+    "timestamp": "2025-11-09T11:34:13.241038",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.mcp 2.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.mcp 2.json",
+    "timestamp": "2025-11-09T11:34:13.241098",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state.json 2.backup",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state.json 2.backup",
+    "timestamp": "2025-11-09T11:34:13.241166",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.892829",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.892873",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893190",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893200",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893658",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893672",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893684",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893695",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.893998",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.894266",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.894283",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.898730",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.899718",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.899734",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.899744",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.899755",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.899950",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.900250",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.900516",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.900529",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.900547",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903026",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903036",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903045",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903053",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903263",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/print-my-pdf/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903866",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/print-my-pdf/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903876",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/print-my-pdf/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903885",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/print-my-pdf/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.903894",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.904515",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.904542",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.904880",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.904892",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.904902",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.905231",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/product-feeds",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.905242",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/scripts",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.905260",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:34:27.905269",
+    "metadata": {}
+  }
+]

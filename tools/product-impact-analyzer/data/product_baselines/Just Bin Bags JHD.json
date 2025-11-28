@@ -1,0 +1,46 @@
+{
+  "client": "Just Bin Bags JHD",
+  "updated": "2025-11-27T12:51:54.015530",
+  "product_count": 1,
+  "baselines": {
+    "": {
+      "product_id": "",
+      "product_title": "",
+      "label": "",
+      "data_points": 46,
+      "date_range": "2025-11-04 to 2025-11-25",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    }
+  }
+}

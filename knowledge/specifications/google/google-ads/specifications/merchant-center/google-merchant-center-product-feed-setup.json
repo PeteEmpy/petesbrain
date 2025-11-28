@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Google Merchant Center Product Feed Setup",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-merchant-center-product-upload-action-required.md",
+        "extracted_at": "2025-11-11T09:21:36.955211",
+        "verified": false
+      }
+    ],
+    "content": {
+      "critical_setup_step": "Product upload required to activate Shopping capabilities",
+      "account_activation": "Products must be added before Shopping ads can serve",
+      "import_methods": [
+        "Automatic import from online store",
+        "Manual upload methods",
+        "Alternative integration options"
+      ],
+      "account_identifier": "Merchant Center ID format (9 digits)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

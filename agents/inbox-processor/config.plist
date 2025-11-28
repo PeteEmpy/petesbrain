@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.petesbrain.inbox-processor</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-tasks-mcp-server/.venv/bin/python3</string>
+		<string>/Users/administrator/Documents/PetesBrain/agents/system/inbox-processor.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/administrator/.petesbrain-inbox-processor-error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/administrator/.petesbrain-inbox-processor.log</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>8</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/administrator/Documents/PetesBrain</string>
+</dict>
+</plist>

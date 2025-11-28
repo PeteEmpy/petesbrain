@@ -1,0 +1,22 @@
+{
+  "spreadsheet_id": "1Hovs50_nU3Ruo37F1vJsUmqCXmKxbHboPC2XWQOzw3Q",
+  "range": "Daily Performance!A1:M1",
+  "values": [
+    [
+      "Date",
+      "Client",
+      "Product ID",
+      "Product Title",
+      "Impressions",
+      "Clicks",
+      "Conversions",
+      "Revenue (\u00a3)",
+      "Cost (\u00a3)",
+      "CTR (%)",
+      "Conv Rate (%)",
+      "ROAS",
+      "Label"
+    ]
+  ],
+  "timestamp": "2025-11-02T17:48:08.463377"
+}

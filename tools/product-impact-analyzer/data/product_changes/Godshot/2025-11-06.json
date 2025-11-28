@@ -1,0 +1,602 @@
+{
+  "date": "2025-11-06",
+  "client": "Godshot",
+  "comparison_date": "2025-11-05",
+  "total_products_today": 2521,
+  "total_products_yesterday": 2518,
+  "summary": {
+    "changed_products": 24,
+    "price_changes": 5,
+    "availability_changes": 17,
+    "title_changes": 0,
+    "description_changes": 5,
+    "label_changes": 0,
+    "new_products": 3,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "22899",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "description": [
+          "Available for pre-order. Estimated in stock 14 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange & Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\ntbc\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ],
+        "link": [
+          "https://mygodshot.com/product/dak-panettone-200g-christmas-edition/",
+          "https://mygodshot.com/product/dak-panettone-200g-christmas-edition/?attribute_pa_roast=filter"
+        ]
+      }
+    },
+    {
+      "product_id": "19139",
+      "title": "Dak - Strawberry Kiss 250g (Natural Local Landraces, Ethiopia)",
+      "changes": {
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "15164",
+      "title": "Dak - Milky Cake 250g - Whole Coffee Beans or Ground The Way You Like It - Cauca, Colombia",
+      "changes": {
+        "description": [
+          "Espresso roast available. Filter roast available for pre-order, estimated back in stock Wednesday 5 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 30 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 31 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "19907",
+      "title": "Dak - Milky Cake 250g (Advanced & Controlled Fermentation Castillo, Colombia)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Espresso roast available. Filter roast available for pre-order, estimated back in stock Wednesday 5 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 30 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 31 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "14741",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "18698",
+      "title": "APFR Reed Diffuser - Moss Swamp - Lasts approx 5-6 months - Made by Apotheke Fragrance",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8431x4",
+      "title": "Kinto Cast Iced Tea Glass 350ml - Pack of 4",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15322",
+      "title": "Modern Theory Room & Linen Spray 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22133",
+      "title": "WOHA Calahorra Extrait 30ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19685",
+      "title": "Craighill Best Wine Key",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21129",
+      "title": "Lochby Tomoe River Notebook A5 for Field Journal",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "27573",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "price": [
+          "135.00 GBP",
+          "125.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20986",
+      "title": "Fugazzi Angel Dust EDP 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22468",
+      "title": "A.N OTHER Crushed Velvet EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23033",
+      "title": "Dak - Strawberry Kiss 250g (Natural Local Landraces, Ethiopia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "21258",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15383",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23031",
+      "title": "Campbell Cole BB10 Sacoche Bag, X-Pac",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19406",
+      "title": "Asemi Co. Soma Ceramic Cup",
+      "changes": {
+        "price": [
+          "32.00 GBP",
+          "38.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20019",
+      "title": "Cinnamon Projects Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18075",
+      "title": "Malin + Goetz Peppermint Shampoo 236ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15381",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "18699",
+      "title": "APFR Reed Diffuser",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "21602",
+      "title": "APFR Closet Tag",
+      "price": "10.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "20830",
+      "title": "Dak - Lady in Red 125g (Fermented Washed Pacamara, Colombia)",
+      "price": "23.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23035",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "price": "22.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "14741",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "27573",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "price": [
+          "135.00 GBP",
+          "125.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21258",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "19406",
+      "title": "Asemi Co. Soma Ceramic Cup",
+      "changes": {
+        "price": [
+          "32.00 GBP",
+          "38.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15381",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "19907",
+      "title": "Dak - Milky Cake 250g (Advanced & Controlled Fermentation Castillo, Colombia)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Espresso roast available. Filter roast available for pre-order, estimated back in stock Wednesday 5 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 30 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 31 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "18698",
+      "title": "APFR Reed Diffuser - Moss Swamp - Lasts approx 5-6 months - Made by Apotheke Fragrance",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8431x4",
+      "title": "Kinto Cast Iced Tea Glass 350ml - Pack of 4",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15322",
+      "title": "Modern Theory Room & Linen Spray 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22133",
+      "title": "WOHA Calahorra Extrait 30ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19685",
+      "title": "Craighill Best Wine Key",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21129",
+      "title": "Lochby Tomoe River Notebook A5 for Field Journal",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "27573",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "price": [
+          "135.00 GBP",
+          "125.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20986",
+      "title": "Fugazzi Angel Dust EDP 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22468",
+      "title": "A.N OTHER Crushed Velvet EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23033",
+      "title": "Dak - Strawberry Kiss 250g (Natural Local Landraces, Ethiopia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "15383",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23031",
+      "title": "Campbell Cole BB10 Sacoche Bag, X-Pac",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20019",
+      "title": "Cinnamon Projects Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18075",
+      "title": "Malin + Goetz Peppermint Shampoo 236ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18699",
+      "title": "APFR Reed Diffuser",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [
+    {
+      "product_id": "22899",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "description": [
+          "Available for pre-order. Estimated in stock 14 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange & Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\ntbc\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ],
+        "link": [
+          "https://mygodshot.com/product/dak-panettone-200g-christmas-edition/",
+          "https://mygodshot.com/product/dak-panettone-200g-christmas-edition/?attribute_pa_roast=filter"
+        ]
+      }
+    },
+    {
+      "product_id": "19139",
+      "title": "Dak - Strawberry Kiss 250g (Natural Local Landraces, Ethiopia)",
+      "changes": {
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "15164",
+      "title": "Dak - Milky Cake 250g - Whole Coffee Beans or Ground The Way You Like It - Cauca, Colombia",
+      "changes": {
+        "description": [
+          "Espresso roast available. Filter roast available for pre-order, estimated back in stock Wednesday 5 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 30 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 31 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "19907",
+      "title": "Dak - Milky Cake 250g (Advanced & Controlled Fermentation Castillo, Colombia)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Espresso roast available. Filter roast available for pre-order, estimated back in stock Wednesday 5 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 30 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nEspresso: 23 October 2025\nFilter: 31 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "23033",
+      "title": "Dak - Strawberry Kiss 250g (Natural Local Landraces, Ethiopia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nArbegona, Ethiopia\n\n\nProducer\nRumudamo\n\n\nVariety\nLocal Landraces\n\n\nProcess\nNatural\n\n\nAltitude\n2300masl\n\n\nNotes\nStrawberry Jam, Starfruit, Apricot\n\n\nRoast Date\nFilter: 30 October 2025\nEspresso: 23 October 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    }
+  ],
+  "label_changes": []
+}

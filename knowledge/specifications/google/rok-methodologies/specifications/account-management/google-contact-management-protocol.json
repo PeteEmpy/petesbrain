@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Google Contact Management Protocol",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Account Manager Out of Office - Bereavement Leave",
+        "extracted_at": "2025-11-11T09:21:36.943886",
+        "verified": false
+      }
+    ],
+    "content": {
+      "primary_contact": "Solomiya Karplyuk (solomiyak@google.com) - Growth Strategist",
+      "interim_contact": "Ally Hamps (allyhamps@google.com) - SMB Head of Lead Generation",
+      "out_of_office_period": "Several weeks (November 2025)",
+      "reason": "Bereavement leave",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "specification": {
+    "title": "Google Ads Support Contact Specifications",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-ads-support-contacts-and-resources.md",
+        "extracted_at": "2025-11-11T09:21:36.936055",
+        "verified": false
+      }
+    ],
+    "content": {
+      "customer_id": "Required when contacting support",
+      "case_number": "Request for future reference and tracking",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

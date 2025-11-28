@@ -1,0 +1,31 @@
+{
+  "specification": {
+    "title": "Google Partnership Meeting Protocol",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Calendar - Internal meeting cancellation",
+        "extracted_at": "2025-11-11T09:21:36.923551",
+        "verified": false
+      },
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/rok-methodologies/google-devonshire-meeting-invite-2025-11-03.md",
+        "extracted_at": "2025-11-11T09:21:36.971044",
+        "verified": false
+      }
+    ],
+    "content": {
+      "meeting_duration": "30 minutes standard",
+      "confirmation_required": "PARTSTAT=NEEDS-ACTION indicates attendance confirmation needed",
+      "meeting_platform": "Google Meet with dial-in options",
+      "timezone_handling": "Europe/Dublin timezone with DST rules",
+      "organizer": "Google representative (Meghan Durand)",
+      "attendees": "Roksys representative (petere@roksys.co.uk)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

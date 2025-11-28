@@ -1,0 +1,107 @@
+---
+title: L'Oréal Case Study: 2X Conversion Lift with AI Max
+source: 2025-10-31_how-loréal-drove-a-2x-conversion-lift-with-ai_1.md
+date_added: 2025-11-12
+last_updated: 2025-11-12
+tags: [ai-max, case-study, loreal, conversion-optimization, search-campaigns]
+source_type: email
+---
+
+## Summary
+
+- L'Oréal achieved 2X higher conversion rate using AI Max for Search campaigns
+- Cost-per-conversion reduced by 31% through AI-powered audience discovery
+- AI Max helped surface new high-intent queries and engage untapped audiences
+- Strategy supports L'Oréal's goal of reaching 2 billion customers by 2030
+
+## Key Insights
+
+- AI Max enables discovery of previously untapped high-intent audience segments
+- Significant performance improvements possible: 2X conversion rate, 31% lower cost-per-conversion
+- AI-powered search campaigns critical for scaling to new markets and audiences
+
+## Full Content
+
+# How L'Oréal drove a 2X conversion lift with AI
+
+## Email Details
+
+- **From:** "Think with Google US & Canada" <noreply-thinkwithgoogle-amer@google.com>
+- **To:** petere@roksys.co.uk
+- **Date:** 2025-10-31 10:11:11
+- **Gmail ID:** 19a3ad29c596c7d5
+
+---
+
+## Message
+
+[ Image ]
+
+AI IN ACTION | OCTOBER 2025
+
+How L’Oréal drove a 2X conversion lift with AI
+
+[ A woman in peach-colored athleisure wear sits on a living room floor with her back propped against a white couch. She uses her phone to search for serums before receiving an ad for “best serum for facial dark spots.” ] https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTfNhxrS0PoxOQTd0h7Q7QBnXM7jNw5Wrdq7aC5vkVR-aCpsFR3ttBRjlD2WbnNuiMAiEBwE4tVlm-eWH0neN2LWAHNoSD3Dj3E5CjdiHrAjN4J74R64kQr7zeOPGrQRD14MitZgDTPwAtLJF6F-EAgInYfr3RX4Kx9MvJxjTHmfHnuFruhdTcPgz94R139iLyl5vUlawXP3O63Emw-XyT_18lBNoV29dY4EwOlGey_L9rE7f9Bw7ump0DeUU92NzV-oAC-hhes3H-pwaVyAeBdkYjoh6DL6OSADBvXDwqmaZ3Qh-XleZBcnvXKcV7wJqpI85aiyt0z2Iyfa4jTi_t-B/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=
+
+In this issue:
+
+-  L’Oréal’s AI-powered playbook <https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTfNhxrS0PoxOQTd0h7Q7QBnXM7jNw5Wrdq7aC5vkVR-aCpsFR3ttBRjlD2WbnNuiMAiEBwE4tVlm-eWH0neN2LWAHNoSD3Dj3E5CjdiHrAjN4J74R64kQr7zeOPGrQRD14MitZgDTPwAtLJF6F-EAgInYfr3RX4Kx9MvJxjTHmfHnuFruhdTcPgz94R139iLyl5vUlawXP3O63Emw-XyT_18lBNoV29dY4EwOlGey_L9rE7f9Bw7ump0DeUU92NzV-oAC-hhes3H-pwaVyAeBdkLKUkNoTms5PdAMkY_QtaoRlc6YPtGDgNFfDEXFa6puI=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+- Win the holidays with video and visual search <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIquOGYLORjD5OFD-462SYPZFMnkDHjQn1J-xwfJOfFX2Aucq0QHls0fJXRgdQh2coNYIbrhzkRjM5sWm11XmgHkhA4F1kcH14MOzVSPT4eLGoyvYWP7zR6EZl5LYxKroNqxxwZi1GeNaTePOKkCfCOFehhkQhyuJkjMIhR_PfrqjnDaZnQ3OhycxnJeBD3z2rSHWXtgDh9TGRn-LdliZp-hJQE8e9gA8x0wGc0kCtfTf_expB2e9MWyBj2br6hSMf5vGzb2g-ia-BAk74DB2M-LdYpKUhujiIzV4BA4ihCV8YfxpvUm82p7TMSeGcsaMnS/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+- The 3 pillars of agentic AI in marketing <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YP2yZ7DOaf_36PEAZ7eu-P1N4MFkb109be6xrQBqgRJiP0JyEArZeam1uE_EyP4HzfpuPzqHPVbet3tb1xlU1jtMqSHBEcbnNYXlN32TgQ3vkkdEitVGbNG5qUpB7QppwKPZfH_6IazS_2e5rbR4oS5A15Gmxel2tJCibpdlkX5XzEyanpAk3YD_GrgdDuk3ZRy72kJ3XjVVkP_ZWDsgOnKalf9ZBDEDWVOSo15hKVlXpDoADpyljEVR_flGjVpHhJEVoCSQvWfFjVcMwf9DZ5/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+- Trending now: Halloween’s most haunted
+
+[ A stat from L’Oréal reads: “2X higher conversion rate with AI Max.” An ad for “best serum for facial dark spots” appears at right, featuring the brand’s Glycolic Bright product. ] https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTfNhxrS0PoxOQTd0h7Q7QBnXM7jNw5Wrdq7aC5vkVR-aCpsFR3ttBRjlD2WbnNuiMAiEBwE4tVlm-eWH0neN2LWAHNoSD3Dj3E5CjdiHrAjN4J74R64kQr7zeOPGrQRD14MitZgDTPwAtLJF6F-EAgInYfr3RX4Kx9MvJxjTHmfHnuFruhdTcPgz94R139iLyl5vUlawXP3O63Emw-XyT_18lBNoV29dY4EwOlGey_L9rE7f9Bw7ump0DeUU92NzV-oAC-hhes3H-pwaVyAeBdkecwhQ1Kc3Gi1aN-WW5yYOEtrZleUgX7Y4fRnaSl91pQISg0KlH5bkhBX5prqadRt/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=
+
+How AI is fueling L’Oréal’s next phase of growth
+
+To reach its goal of 2 billion customers by 2030, L’Oréal had to find audiences it wasn’t already reaching. By activating AI Max for Search campaigns, its team was able to surface new, high-intent queries and successfully engage untapped audiences. This strategy propelled the brand into new markets, drove a 2X lift in the conversion rate, and reduced cost-per-conversion by 31%. Get the formula <https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTfNhxrS0PoxOQTd0h7Q7QBnXM7jNw5Wrdq7aC5vkVR-aCpsFR3ttBRjlD2WbnNuiMAiEBwE4tVlm-eWH0neN2LWAHNoSD3Dj3E5CjdiHrAjN4J74R64kQr7zeOPGrQRD14MitZgDTPwAtLJF6F-EAgInYfr3RX4Kx9MvJxjTHmfHnuFruhdTcPgz94R139iLyl5vUlawXP3O63Emw-XyT_18lBNoV29dY4EwOlGey_L9rE7f9Bw7ump0DeUU92NzV-oAC-hhes3H-pwaVyAeBdkecwhQ1Kc3Gi1aN-WW5yYOBN1WMUDq2oij6xvilPEgBw=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+[ A shopper points their phone at an unrecognized potted plant to search for it using Google Lens, which identifies it in an ad for a petite ceramic planter. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIquOGYLORjD5OFD-462SYPZFMnkDHjQn1J-xwfJOfFX2Aucq0QHls0fJXRgdQh2coNYIbrhzkRjM5sWm11XmgHkhA4F1kcH14MOzVSPT4eLGoyvYWP7zR6EZl5LYxKroNqxxwZi1GeNaTePOKkCfCOFehhkQhyuJkjMIhR_PfrqjnDaZnQ3OhycxnJeBD3z2rSHWXtgDh9TGRn-LdliZp-hJQE8e9gA8x0wGc0kCtfTf_expB2e9MWyBj2br6hSMf5new9RpsyCaT9phqx0q57ToFNHCDGO4rzZATPbsECpOvFF_zpIAIV5Lrrv5oOKUMB/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=
+
+How visual search and video are shaping holiday shopping
+
+The path to purchase is increasingly visual. In fact, 1 in 5 Google Lens searches shows commercial intent, and 81% of viewers in the U.S. agree that YouTube has creator content that helps them research and discover products when shopping. Our guide outlines four strategies: Scale creative for visual discovery, harness the power of YouTube, build trust with creators, and use AI to optimize. Win the season <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIquOGYLORjD5OFD-462SYPZFMnkDHjQn1J-xwfJOfFX2Aucq0QHls0fJXRgdQh2coNYIbrhzkRjM5sWm11XmgHkhA4F1kcH14MOzVSPT4eLGoyvYWP7zR6EZl5LYxKroNqxxwZi1GeNaTePOKkCfCOFehhkQhyuJkjMIhR_PfrqjnDaZnQ3OhycxnJeBD3z2rSHWXtgDh9TGRn-LdliZp-hJQE8e9gA8x0wGc0kCtfTf_expB2e9MWyBj2br6hSMf5new9RpsyCaT9phqx0q57TvousTwRl--tbEz4keFuwLEUYw5tL6KHib_798-FPYMt/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+[ A blueprint for the agentic era. A circular graphic underscores the three core pillars for building an agentic AI future: process, platforms, and people. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YP2yZ7DOaf_36PEAZ7eu-P1N4MFkb109be6xrQBqgRJiP0JyEArZeam1uE_EyP4HzfpuPzqHPVbet3tb1xlU1jtMqSHBEcbnNYXlN32TgQ3vkkdEitVGbNG5qUpB7QppwKPZfH_6IazS_2e5rbR4oS5A15Gmxel2tJCibpdlkX5XzEyanpAk3YD_GrgdDuk3ZRy72kJ3XjVVkP_ZWDsgOnKalf9ZBDEDWVOSo15hKVlQ0SS7W-2S4HuU4LFJ0GQYtQiZvxbCtXSiqltmCXRifGWzJGBkCjjRf-HbK2AZd1IQ==/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=
+
+How marketers can build for the agentic AI era
+
+Agentic AI can autonomously complete tasks on our behalf and under our control. How should marketers build for an agentic future? It starts with process — a “crawl, walk, run” approach to build trust. Next, evolve your platforms, ensuring data flows in both directions. And finally, develop a new people strategy that redefines roles for human-AI collaboration. Get the blueprint <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YP2yZ7DOaf_36PEAZ7eu-P1N4MFkb109be6xrQBqgRJiP0JyEArZeam1uE_EyP4HzfpuPzqHPVbet3tb1xlU1jtMqSHBEcbnNYXlN32TgQ3vkkdEitVGbNG5qUpB7QppwKPZfH_6IazS_2e5rbR4oS5A15Gmxel2tJCibpdlkX5XzEyanpAk3YD_GrgdDuk3ZRy72kJ3XjVVkP_ZWDsgOnKalf9ZBDEDWVOSo15hKVlQ0SS7W-2S4HuU4LFJ0GQYvYXUNSEGVFp-MQYcBz9pxd/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+Trending now: Halloween
+
+[ In front of a jack-o’-lantern, a person costumed in a black-and-orange-striped onesie and black cape holds a broom as if to fly away on it. ] https://mail.thinkwithgoogle.com/dc/t2UdRjLcXSqDyXtO3RiJsJqLErIQJQ0gCWA-LLcHkSuf43TyvdJXA3VKm20dsjqzse8X6wqtgu8qXYvu4Y10ztzjU73yFY_LmeLc3ekhxOTO-aOMO7ocd6qkOgZDsSSIXIG8TK5vs1RF3ZRhC-c7LdixEtph4TFbAsEs2S7KoQ9bkCZR2IYsfvvot2IEURYNdrdXqg0gO5NpQRFR9WA8zCfx_lMesV-P1rLGpGUJfrKJTZl_V6mGgTiGSB7567vI/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=
+
+Top costumes. 2025 marks the 10th year of Google Frightgeist <https://mail.thinkwithgoogle.com/dc/t2UdRjLcXSqDyXtO3RiJsJqLErIQJQ0gCWA-LLcHkSuf43TyvdJXA3VKm20dsjqzse8X6wqtgu8qXYvu4Y10ztzjU73yFY_LmeLc3ekhxOTO-aOMO7ocd6qkOgZDsSSIXIG8TK5vs1RF3ZRhC-c7LdixEtph4TFbAsEs2S7KoQ9bkCZR2IYsfvvot2IEURYNdrdXqg0gO5NpQRFR9WA8zCfx_lMesV-P1rLGpGUJfrKnQn1n9UfwaLwUNYxiAgVO/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>, which tracks Halloween’s most popular costumes. The top-trending costume this year is Rumi from “KPop Demon Hunters.” Last year it was shrunken-head Bob from “Beetlejuice.”
+
+[ A woman and man sitting in a movie theater react to a jump scare, bracing themselves with frightened expressions and gestures. ] https://mail.thinkwithgoogle.com/dc/nbdBhdkxOtP4GSDZQ2XlExlx2c0uZ93MMLBSFbqLgeR5WcW1tdYzfq5o-AVig0n-VCxvmt3iDtjseQY_UVrxpV6XgHtVqb4az0RL3-dMrrNFkokoSS2t63g59Tr1tiXW2otC1v6L4CyagkU29lo2bqSNZT2ay7HCFsppVT5Buz6d-RUkSx5sisvKLtoa-k1WpOarMKeXFo5N8LnmPzFwEtN9qvxLGxJ6h6rQg-nB2GuK_juA2BNCI41a_Roeeo3-KA9BfmYwxRQaZVHjV3YIJYv8jLsnbB_BuF4ChaiAQ3F-16PLiDnaQhYqQxOOrMyOe7NqshkHvKcqu9eftZ-WGJG7Q6dXPkV3PhXawjNoRxSWkN_0VXPRvg9Hqo5_4N1sPTIb6xi68bCgzLL1zzmroGQVpkSK0PT384taimDVP4TAEfP_qzHVe6iyTaaGKD1XubU15U835Yfhe7uncJQanjXBTL9DDJEyyV0nvf0tqYQ=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=
+
+Jump scares. Over the last five years, searches for “jump scare <https://mail.thinkwithgoogle.com/dc/nbdBhdkxOtP4GSDZQ2XlExlx2c0uZ93MMLBSFbqLgeR5WcW1tdYzfq5o-AVig0n-VCxvmt3iDtjseQY_UVrxpV6XgHtVqb4az0RL3-dMrrNFkokoSS2t63g59Tr1tiXW2otC1v6L4CyagkU29lo2bqSNZT2ay7HCFsppVT5Buz6d-RUkSx5sisvKLtoa-k1WpOarMKeXFo5N8LnmPzFwEtN9qvxLGxJ6h6rQg-nB2GuK_juA2BNCI41a_Roeeo3-KA9BfmYwxRQaZVHjV3YIJYv8jLsnbB_BuF4ChaiAQ3F-16PLiDnaQhYqQxOOrMyOe7NqshkHvKcqu9eftZ-WGJG7Q6dXPkV3PhXawjNoRxSWkN_0VXPRvg9Hqo5_4N1sPTIb6xi68bCgzLL1zzmroGQVpkSK0PT384taimDVP4TAEfP_qzHVe6iyTaaGKD1XubU15U835Yfhe7uncJQanv11s1u72E4hSa0HGKW4hLY=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>” have spiked around Halloween. In the past month, “barbarian <https://mail.thinkwithgoogle.com/dc/nbdBhdkxOtP4GSDZQ2XlE0IENVy5IFXjj-yxu7DbSqNocwgkPKjdspbQnCHlejIQBJzHIFkmVbyECxn0rFVW8T2MwVNh3d84t6AP5Rvtsk3N8TjFA6vtyJTE6nzGck7bhp1_okg7-V4Ik0K47Owg4oxj3kXTM-wPlmrpJt-Ofjk7LVKPjlcVW7FSQA0pnpRmWq9lgYGt38ieohteMXv0rA_qkYO5a1Cw_sclengLX9pqruQnZJsQiXnwvlkQw968kteoYAZpplJtfYEECeiEoAp2vNB0DOpZoW3vM222O7aXJU8eusiiRxLbH1OH9wNlW0n39GQ2Dmd4LgQlEUofRjMPqNxbpkDjFj7EzLKTm81NsaZAqqSFxW3t_s51Q7xRX8XeuWyvjQV-Uq30RZevtSAXGaq2lcQI7SEXuccCCzx5r9JvvAhJ8e1Uo8l_k5BAD6gYJLt9rVIxs58bP3skiyZJdNx0YMK_ScB6REt54i4=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>” and “black phone 2 <https://mail.thinkwithgoogle.com/dc/nbdBhdkxOtP4GSDZQ2XlE-a0IR8ryy18O5FeTsEzl9GD3cybTOP_4Itf1QsU9rz5JFX04_3xESlFNIJ8QEE4BtGAA3TbPKJ289dn79JuvweoTXuKqFrQZO6QOfk6x5JXeQmPaFXOccKRPrCIKEhF5ztYQJDsrC_t_pbyQ4YvS_hmaPfUwbtKhIeoVpc2bOu71lja2cD-334qXd6kBYzw3JdBCwpv7vpiV1LtxFiqVcE0ZEMXwUNmVEBzE8xLtMLspT7yCWk3-EVxwG5YpiRviTSQKbYVfj8LNtCnX6aB57IOSvElKOpmvaVIT0HR_AcpxRC9VEVlYp5MeSi11z_73Z7gqZ7ckRWCX4-2dFWdkBc0FSFPyRm5CciKvxfiASmLtw47tHsWH6gRyXJJO4cKT625iUUSK6B8vg4BcEUX7xQsOBeVxvANg4-39QD1qcLzdPyefBie595sJSmMzPjTGHGd39JR-XIFeEKloc7pWgI=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>” specifically have become the top-trending jump-scare movies.
+
+Received this email from a friend? Sign up here <https://mail.thinkwithgoogle.com/dc/MBgYEBdczzKwXu-AuN4fdSHUWsryjbs5X38TgsfISad39WCcrgUrd7Eg-eYewWJajg3VFBC3qzKa-cmhPVaUGi-h1u9JKcysrx9Q8ngWd9qoz6l_bkRsdCpdl1OEAJXf5y0PLipjRO6xDup0Sb37Ss9hbckeo1KMsYPmd1XjWXzWkmIGU99C2tLqlRZBLgNIbNoBgwOACo24Fz-C6TGjLeMG4EOHXL47OPtWfox_ecrT3zAX8x3UnvaKRVvaPL3214mt402u-RQCl-9vvWddIw==/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+Discover more content on ThinkWithGoogle.com <https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTf8OSGFFb3tJorUd-AAsWw4LVzFMHkvDjRc1KfM-yjK-Ytm05EsvZ3KE8168Rea_df3D2YHHAs0mnBewvSdet0jVX1216cWbQnTmsb1tcl4nBiZT17_DDJ1v96rohR8oWQR2MZIusAGag5-ZiY_skq_85GewOcN480zgHycT4ae-HybEOLJwb3gfZZ2hL1xaQtC3PLy44glLz0-7TkNPEzUtyJJrmfITvNNbyQrHRSwLg==/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>. This email was sent to petere@roksys.co.uk because you signed up for the latest from Think with Google U.S. and Canada. If you don’t want to receive this newsletter in the future, please unsubscribe here <https://mail.thinkwithgoogle.com/dc/MBgYEBdczzKwXu-AuN4fdSHUWsryjbs5X38TgsfISaf_D732Gn0frBHJql3jXT_W717GTKCayKXltKHByjCm9xvIzoMmDUcwLkmcEoYJRDmPBguEguH7JhcdM4JB892SwdVD_MIl2GRB3Y2-uiXgkzqV-znGvibRFVB8mULtljB8-Z51BbFqY9FJc6y3dq8oH9cnLvxINa6b9XJAgyEY0xA51JklmPtQLWKDsDVvL-jRiUgdpyzhc0qIN9Y6uBqQ0D9p-7W62O7cbLN96MEOIVUq_SosX-FG2_P3e8VBsN4=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>. 
+
+© 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043.
+
+Follow us
+
+LinkedIn <https://mail.thinkwithgoogle.com/dc/fG5-PlwEnZR-IoSdwCtjInBOEnkCOl-88iHvoC1GNZyy0coz9bmmnInNnnlK-vkeg2XoTP0zjVMxpGJru1dOG0fHtQm14ZW3YXBdlOlQkvSeEmbJAj7-jeq5Dbj2L3wy4sFqTrQ-_xR6aMpcUcVXYZ2smv2mK4xQeBXYLDGyFnaIv5oorLI_15aTINnXMnTWEv93IOEh8mATcVr_lthsmybjxc4mzUGDCA9lEGqVRyyOKSY7Gjjcba18E9vyw4ERaNRFsEsso3bYvcDe7uMszx_bf7I1WJ6TrYNbwXbGEgI=/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+X <https://mail.thinkwithgoogle.com/dc/qRrMJDEUlv6ss-mBIC1z6ibxlrS8Ji12RX_Chm_98cfVCUJh0FyTCxn8Gtenzs0lZ7qJMbKS2NUas28eaLmYRXBssdAHcnYeSy6u4TS9_ZUdFr_2xQ7tk19TxpwstBXkzfFp5ZameLqWpWVOr5SbAenQ2EoET8Q1HMRO4hCtgjpXlk0rhf1AJqjLYWegcaEU4Ia_ZrryfETIrMbouW8L54Qonf7k-lY96QlBOuUe-GTy-neMHzH-Tr-DKYFv9VRF/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+Facebook <https://mail.thinkwithgoogle.com/dc/uq3EykqQY7h0Yyhe2BWhMOQoLnY-FVPjcOSpRoBt7oqXjAh6y4jHsHjagTZLvynxJf8d8wisOXsCTN-RCJrR5-bZlN5IPMSiMvPX75tWEkBUzxj9KsNJr0DyLRnm72f7ndLBphOs1uKrsEtLBwS_aguhn18CBl_qH_GSjILkDMBDTEOQQGu_qAApx_zmX4Dr60i1lK6C8HujYEs9VBi8pBrEQVOvtdNuC07tyUJehS9QXi-C2qaiIiDzMwhSl1dpG4v-v3M4poagKu7WqYBZPQ==/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+YouTube <https://mail.thinkwithgoogle.com/dc/M9Y3nowLDCcEv8uSbJAkaXmE194DNnOZ5kegIxr9D7PCM6mut9O4uuoUiKiGXyDSsp4maz4hZb5-NAPBHukT3iv_ss7zgGezJhPQDUkdDCWZ2mOLb_lcs2jJmuJk94BV8lh9FFPNQsKskGhC1ZaU5Q2mopNJxjulLdwHxybOq8zsi-HlJXPzWQ3xrVTxLehm_0QiiNq7W2a68vXZ9F8UhUOtexn4t_6EzTTamY3afDSNIvgyIs-lmk40DFeC1xt2L_noo-0V2Kn-zhBD1Y3RRQ==/MTcyLUdPUC04MTEAAAGd2ctKBnKTKAw1Zfpq54SrGE_cQcrJ60zUWxhUjmdylP2Elu7h5UezhgC1d37VWgZLTpRw1uU=>
+
+.
+
+
+
+---
+
+*Processed from inbox on 2025-11-12*
+*Original file: 2025-10-31_how-loréal-drove-a-2x-conversion-lift-with-ai_1.md*

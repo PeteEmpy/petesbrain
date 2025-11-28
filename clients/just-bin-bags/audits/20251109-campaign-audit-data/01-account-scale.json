@@ -1,0 +1,65 @@
+[
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/19322048568",
+      "status": "PAUSED",
+      "id": "19322048568"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/19330440461",
+      "status": "ENABLED",
+      "id": "19330440461"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/21713675420",
+      "status": "ENABLED",
+      "id": "21713675420"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/21846202470",
+      "status": "PAUSED",
+      "id": "21846202470"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/22121655788",
+      "status": "PAUSED",
+      "id": "22121655788"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/22375126975",
+      "status": "PAUSED",
+      "id": "22375126975"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/22570304094",
+      "status": "PAUSED",
+      "id": "22570304094"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/22980515010",
+      "status": "PAUSED",
+      "id": "22980515010"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/23025217110",
+      "status": "ENABLED",
+      "id": "23025217110"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "specification": {
+    "title": "Lead Generation Technical Support Appointment Specifications",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/google-support-lead-gen-appointment-case-7-6155000039426.md",
+        "extracted_at": "2025-11-11T09:21:36.929766",
+        "verified": false
+      }
+    ],
+    "content": {
+      "multi_stakeholder_coordination": {
+        "website_developer": "Admin access to source code",
+        "ads_administrator": "Google Ads account access",
+        "simultaneous_presence": "All stakeholders required on same call"
+      },
+      "appointment_scheduling": {
+        "acceptance_deadline": "24 hours before scheduled time",
+        "calendar_response_required": "All attendees must accept invite",
+        "high_coordination_requirements": "Multiple party synchronization needed"
+      },
+      "technical_implementation_scope": [
+        "Tracking code installation",
+        "Campaign setup guidance",
+        "Screen sharing for hands-on support"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,651 @@
+# Auto-Labeling Configuration
+# Maps email patterns to client labels
+
+# Client detection rules
+# The script checks these in order: domains → emails → keywords
+
+clients:
+  accessories-for-the-home:
+    label: "client/accessories-for-the-home"
+    domains:
+      - "accessoriesforthehome.co.uk"
+      - "accessoriesforthehome.com"
+    emails:
+      # Add specific email addresses here
+      - "person@example.com"
+    keywords:
+      # Keywords in subject or body (case-insensitive)
+      - "accessories for the home"
+      - "AFH"
+    company_names:
+      - "Accessories for the Home"
+      - "AccessoriesForTheHome"
+
+  bright-minds:
+    label: "client/bright-minds"
+    domains:
+      - "brightminds.co.uk"
+      - "bright-minds.com"
+    emails: []
+    keywords:
+      - "bright minds"
+      - "brightminds"
+    company_names:
+      - "Bright Minds"
+      - "BrightMinds"
+
+  clear-prospects:
+    label: "client/clear-prospects"
+    domains:
+      - "clearprospects.co.uk"
+      - "clear-prospects.com"
+      - "clearprospects.com"
+    emails:
+      - "michael.robinson@clearprospects.com"
+    keywords:
+      - "clear prospects"
+      - "clearprospects"
+    company_names:
+      - "Clear Prospects"
+
+  devonshire-hotels:
+    label: "client/devonshire-hotels"
+    domains:
+      - "devonshirehotels.co.uk"
+      - "devonshire-hotels.com"
+      - "devonshiregroup.co.uk"
+      - "devonshiregroup.com"
+      - "acunningplan.co.uk"
+    emails:
+      - "garry@acunningplan.co.uk"
+      - "james@acunningplan.co.uk"
+      - "kyra.walshaw@devonshirehotels.co.uk"
+    keywords:
+      - "devonshire hotels"
+      - "devonshire hotel"
+      - "devonshire group"
+      - "a cunning plan"
+    company_names:
+      - "Devonshire Hotels"
+      - "Devonshire Group"
+      - "A Cunning Plan"
+
+  godshot:
+    label: "client/godshot"
+    domains:
+      - "godshot.coffee"
+      - "godshot.com"
+    emails: []
+    keywords:
+      - "godshot"
+    company_names:
+      - "Godshot"
+
+  national-design-academy:
+    label: "client/national-design-academy"
+    domains:
+      - "nda.ac.uk"
+      - "nationaldesignacademy.com"
+    emails:
+      - "pk@nda.ac.uk"  # Paul Riley
+      - "paullifeofriley@gmail.com"  # Paul Riley (personal email)
+      - "KellyR@nda.ac.uk"  # Kelly Rawson - Student Services Manager (sends weekly enrolment figures)
+    keywords:
+      - "national design academy"
+      - "NDA"
+      - "enrolment"
+      - "application"
+    company_names:
+      - "National Design Academy"
+
+  national-motorsports-academy:
+    label: "client/national-motorsports-academy"
+    domains:
+      - "nma.ac.uk"
+      - "nationalmotorsportsacademy.com"
+    emails:
+      - "pk@nma.ac.uk"  # Paul Riley (if uses NMA email)
+    keywords:
+      - "national motorsports academy"
+      - "NMA"
+      - "enrolment"
+      - "application"
+      - "motorsport"
+    company_names:
+      - "National Motorsports Academy"
+
+  otc:
+    label: "client/otc"
+    domains:
+      - "otc.co.uk"
+      - "jeffseymour.co.uk"
+    emails:
+      - "jeff@jeffseymour.co.uk"
+    keywords:
+      - "OTC Ltd"
+    company_names:
+      - "OTC"
+      - "OTC Ltd"
+      - "Jeff Seymour"
+
+  print-my-pdf:
+    label: "client/print-my-pdf"
+    domains:
+      - "printmypdf.com"
+      - "print-my-pdf.com"
+    emails: []
+    keywords:
+      - "print my pdf"
+      - "printmypdf"
+    company_names:
+      - "Print My PDF"
+
+  smythson:
+    label: "client/smythson"
+    domains:
+      - "smythson.com"
+    emails: []
+    keywords:
+      - "smythson"
+    company_names:
+      - "Smythson"
+
+  superspace:
+    label: "client/superspace"
+    domains:
+      - "superspace.com"
+      - "super-space.com"
+      - "getsuperspace.com"
+    emails:
+      - "ant@getsuperspace.com"
+    keywords:
+      - "superspace"
+      - "super space"
+    company_names:
+      - "Superspace"
+      - "GetSuperspace"
+
+  tree2mydoor:
+    label: "client/tree2mydoor"
+    domains:
+      - "tree2mydoor.com"
+      - "collaber.agency"
+      - "collaber.co.uk"
+    emails: []
+    keywords:
+      - "tree2mydoor"
+      - "tree 2 my door"
+      - "collaber"
+    company_names:
+      - "Tree2mydoor"
+      - "Collaber"
+
+  uno-lighting:
+    label: "client/uno-lighting"
+    domains:
+      - "savelightuk.com"
+    emails: []
+    keywords:
+      - "uno lighting"
+      - "uno lights"
+      - "savelight"
+      - "save light uk"
+      - "save light"
+    company_names:
+      - "Uno Lighting"
+      - "Uno Lights"
+      - "SaveLight UK"
+      - "Save Light UK"
+      - "Save Light"
+
+  positive-bakes:
+    label: "client/positive-bakes"
+    domains:
+      - "positivebakes.co.uk"
+      - "positive-bakes.com"
+    emails: []
+    keywords:
+      - "positive bakes"
+      - "positivebakes"
+    company_names:
+      - "Positive Bakes"
+
+  go-glean:
+    label: "client/go-glean"
+    domains:
+      - "goglean.co.uk"
+      - "go-glean.com"
+    emails: []
+    keywords:
+      - "go glean"
+      - "goglean"
+    company_names:
+      - "Go Glean"
+
+  grain-guard:
+    label: "client/grain-guard"
+    domains:
+      - "grainguard.co.uk"
+      - "grain-guard.com"
+    emails: []
+    keywords:
+      - "grain guard"
+      - "grainguard"
+    company_names:
+      - "Grain Guard"
+
+  just-bin-bags:
+    label: "client/just-bin-bags"
+    domains:
+      - "justbinbags.com"
+      - "just-bin-bags.com"
+    emails: []
+    keywords:
+      - "just bin bags"
+      - "justbinbags"
+    company_names:
+      - "Just Bin Bags"
+
+  crowd-control:
+    label: "client/crowd-control"
+    domains:
+      - "crowdcontrolhq.com"
+      - "crowd-control.com"
+    emails: []
+    keywords:
+      - "crowd control"
+      - "crowdcontrol"
+    company_names:
+      - "Crowd Control"
+
+  ai-news:
+    label: "AI_news"
+    domains:
+      - "thedeepview.ai"
+      - "theaireport.ai"
+      - "thedeepview.co"
+      - "mail.beehiiv.com"  # Common AI newsletter platform
+      - "substack.com"  # Many AI newsletters use Substack
+      - "buttondown.email"  # Another newsletter platform
+    emails:
+      - "newsletter@thedeepview.ai"
+      - "support@theaireport.ai"
+    keywords:
+      # AI-specific terms in subject/body
+      - "artificial intelligence"
+      - "machine learning"
+      - "deep learning"
+      - "neural network"
+      - "large language model"
+      - "LLM"
+      - "GPT"
+      - "Claude"
+      - "ChatGPT"
+      - "OpenAI"
+      - "Anthropic"
+      - "AI news"
+      - "AI update"
+      - "AI report"
+      - "AI newsletter"
+      - "generative AI"
+      - "foundation model"
+      - "transformer"
+      - "AGI"
+    company_names:
+      - "The Deep View"
+      - "The AI Report"
+      - "AI Weekly"
+      - "Deepview"
+
+  google-reps:
+    label: "google-reps"
+    domains:
+      - "google.com"
+    emails:
+      # Known Google reps
+      - "devinferreira@google.com"
+      - "solomiyak@google.com"
+      - "allyhamps@google.com"
+      - "irelandallyhamps@google.com"
+      - "patrickwhite@google.com"
+      - "brahmendra@google.com"
+      - "mdurand@google.com"
+      - "technical-solutions@google.com"
+      - "ads-support@google.com"
+      - "adwords-support@google.com"
+      - "mp-support@google.com"
+    keywords:
+      - "Google support"
+      - "Google technical support"
+      - "Google Account Manager"
+      - "Google rep"
+      - "Google consultation"
+      - "Performance Max consultation"
+      - "Google Ads consultation"
+    company_names:
+      - "Google"
+      - "Google Ads"
+      - "Google Technical Support"
+
+  google-ads-features:
+    label: "google-ads-features"
+    domains:
+      - "google.com"
+    emails:
+      # Feature announcement emails (not personal reps)
+      - "noreply@google.com"
+      - "no-reply@google.com"
+      - "ads-noreply@google.com"
+      - "googleads-noreply@google.com"
+      - "google-ads-noreply@google.com"
+    keywords:
+      - "new feature"
+      - "now available"
+      - "announcing"
+      - "introducing"
+      - "Google Ads update"
+      - "what's new"
+      - "feature announcement"
+      - "new in Google Ads"
+      - "latest updates"
+      - "product update"
+      - "platform update"
+    exclude_keywords:
+      - "personal"
+      - "account manager"
+      - "consultation"
+      - "meeting"
+      - "appointment"
+    company_names:
+      - "Google Ads"
+      - "Google"
+
+# ============================================================================
+# AUTOMATED SCRIPT REPORTS - Self-sent emails from Google Ads automation
+# ============================================================================
+# These are emails sent FROM petere@roksys.co.uk TO petere@roksys.co.uk
+# containing automated reports and alerts from Google Ads scripts.
+#
+# They contain valuable historical data for client analysis:
+# - Negative keyword logs (explains traffic drops)
+# - Product feed issues (explains performance drops)
+# - Performance alerts (anomalies requiring attention)
+# - Strategic changes (budget/ROAS adjustments)
+#
+# HOW TO ADD NEW PATTERNS:
+# 1. Run: shared/email-sync/scan_personal_emails.py
+# 2. Review output for new patterns
+# 3. Add subject_patterns below following the format
+# 4. Test with: shared/email-sync/auto_label.py --dry-run
+# ============================================================================
+
+automated-reports:
+  # Negative Keyword Addition Logs
+  # Example: "Negatives added for Positive Bakes on 2025-11-16 #rokscript"
+  # Value: Historical record of keyword exclusions (explains traffic drops)
+  negative-keywords:
+    subject_patterns:
+      - "Negatives added for {client} on"
+      - "Negatives added for {client} #rokscript"
+    extract_client: true  # Extract client name from subject
+    label_template: "client/{client}"
+    priority: high
+    notes: "Historical negative keyword log - explains traffic pattern changes"
+
+  # Product Feed Issues - Best Sellers Not Eligible
+  # Example: "[Script Alert] Best sellers not eligible for Shopping - Go Glean"
+  # Value: Tracks when top products become ineligible (directly explains revenue drops)
+  product-feed-alerts:
+    subject_patterns:
+      - "[Script Alert] Best sellers not eligible for Shopping - {client}"
+      - "[MCC Script Alert] Best sellers not eligible for Shopping - {client}"
+      - "Best sellers not eligible for Shopping - {client}"
+    extract_client: true
+    label_template: "client/{client}"
+    priority: high
+    notes: "Product feed issue alerts - critical for explaining performance drops"
+
+  # Performance Alerts (Cross-Client)
+  # Example: "🚨 Performance Alerts - Nov 12, 2025"
+  # Value: Performance anomalies across multiple clients
+  performance-alerts:
+    subject_patterns:
+      - "🚨 Performance Alerts -"
+      - "Performance Alerts -"
+    label: "roksys/reports"
+    priority: medium
+    notes: "Cross-client performance monitoring - contains multiple clients"
+
+  # Disapproved Ads and Extensions (MCC-wide)
+  # Example: "[MCC Alert] Disapproved Ads and Extensions Report #rokscript"
+  # Value: Cross-client ad disapprovals tracking
+  disapproved-ads:
+    subject_patterns:
+      - "[MCC Alert] Disapproved Ads and Extensions Report"
+      - "Disapproved Ads and Extensions Report #rokscript"
+    label: "roksys/reports"
+    priority: high
+    notes: "Cross-client ad disapproval tracking - includes Google Sheet link"
+
+  # Client-Specific Performance Reports
+  # Example: "Smythson Google Ads Performance Report"
+  # Value: Performance snapshots for trend analysis
+  client-performance-reports:
+    subject_patterns:
+      - "{client} Google Ads Performance Report"
+      - "{client} Performance Report"
+    extract_client: true
+    label_template: "client/{client}"
+    priority: medium
+    notes: "Performance snapshots - includes Google Sheet link"
+
+  # Client-Specific Change History
+  # Example: "Smythson Google Ads Change History Report"
+  # Value: Complete account change log
+  client-change-history:
+    subject_patterns:
+      - "{client} Google Ads Change History Report"
+      - "{client} Change History Report"
+    extract_client: true
+    label_template: "client/{client}"
+    priority: high
+    notes: "Complete account change log - includes Google Sheet link"
+
+  # Client Q4/Strategy Dashboards
+  # Example: "Smythson Q4 Dashboard - 10 Nov 2025"
+  # Value: Strategic tracking dashboards
+  client-strategy-dashboards:
+    subject_patterns:
+      - "{client} Q4 Dashboard"
+      - "{client} Strategy Dashboard"
+      - "{client} Dashboard -"
+    extract_client: true
+    label_template: "client/{client}"
+    priority: high
+    notes: "Strategic tracking dashboard - includes Google Sheet link"
+
+  # Budget Optimization Reports
+  # Example: "💡 Devonshire Budget Optimization - Nov 12"
+  # Value: Budget strategy recommendations
+  budget-optimization:
+    subject_patterns:
+      - "💡 {client} Budget Optimization"
+      - "{client} Budget Optimization -"
+    extract_client: true
+    label_template: "client/{client}"
+    priority: high
+    notes: "Budget strategy recommendations and analysis"
+
+  # PMax Non-Converting Search Terms
+  # Example: "[GAds Script][account name] - PMax Alert - You've got 3 Non-Converting Search Terms"
+  # Value: Performance anomalies in PMax campaigns
+  pmax-alerts:
+    subject_patterns:
+      - "PMax Alert - You've got"
+      - "[GAds Script][account name] - PMax Alert"
+    label: "roksys/reports"
+    priority: medium
+    notes: "PMax campaign alerts - includes Google Sheet link"
+
+  # Daily Briefings (Multi-Client)
+  # Example: "Daily Briefing - Sunday, November 16, 2025"
+  # Value: Daily summary across all clients
+  daily-briefings:
+    subject_patterns:
+      - "Daily Briefing -"
+      - "📄 Daily Briefing"
+    label: "roksys/briefings"
+    priority: low
+    notes: "Daily briefing - covers multiple clients, already captured in briefing folder"
+
+  # Weekly Summaries (Multi-Client)
+  # Example: "📅 Weekly Summary & Week Ahead - Nov 10 to Nov 17"
+  # Value: Weekly summary across all clients
+  weekly-summaries:
+    subject_patterns:
+      - "📅 Weekly Summary & Week Ahead"
+      - "Weekly Business Summary & Week Ahead"
+      - "📊 Weekly Meeting Import Summary"
+    label: "roksys/briefings"
+    priority: low
+    notes: "Weekly summaries - covers multiple clients, already captured"
+
+# ============================================================================
+# PATTERN MATCHING NOTES:
+# ============================================================================
+# - {client} is a placeholder that will be replaced with actual client name
+# - Client names are normalized (e.g., "Positive Bakes" → "positive-bakes")
+# - Patterns are case-insensitive by default
+# - Priority determines processing order: high > medium > low
+# - extract_client: true means the script will parse client name from subject
+# - label_template: "client/{client}" will become "client/smythson" etc.
+#
+# TESTING:
+# - Dry run: shared/email-sync/auto_label.py --dry-run
+# - Check logs: shared/email-sync/logs/auto-label.log
+# ============================================================================
+
+# ============================================================================
+# PERSONAL TRAVEL & CAMPING BOOKINGS
+# ============================================================================
+# Auto-label travel/camping confirmation emails for personal tracking
+# These get picked up by: personal/holidays/process-bookings.py
+# ============================================================================
+
+personal-travel:
+  label: "personal/travel"
+  domains:
+    # Camping booking platforms
+    - "pitchup.com"
+    - "campmanager.com"
+    - "searchforsites.co.uk"
+    - "nationaltrust.org.uk"
+    # Camping clubs
+    - "campingandcaravanningclub.co.uk"
+    - "camc.com"
+    - "caravanclub.co.uk"
+    # Direct campsite bookings (common patterns)
+    - "budlebaycampsite.com"
+    - "lanesidecaravanpark.co.uk"
+  emails:
+    - "enquiries@pitchup.com"
+    - "lakescampsites@nationaltrust.org.uk"
+  keywords:
+    - "booking confirmation"
+    - "booking confirmed"
+    - "your booking"
+    - "reservation confirmed"
+    - "pitch booking"
+    - "campsite booking"
+    - "arrival details"
+    - "pre-arrival"
+    - "check-in details"
+    - "barrier code"
+  exclude_keywords:
+    - "newsletter"
+    - "unsubscribe"
+    - "marketing"
+    - "special offer"
+    - "discount code"
+  notes: "Travel/camping tracking - processed by personal/holidays/process-bookings.py"
+
+# ============================================================================
+# PERSONAL ORDER CONFIRMATIONS
+# ============================================================================
+# Auto-label order confirmation emails for personal tracking
+# These get picked up by: personal/orders/process-orders.py
+# ============================================================================
+
+personal-orders:
+  label: "personal/orders"
+  domains:
+    # Major UK retailers
+    - "amazon.co.uk"
+    - "amazon.com"
+    - "ebay.co.uk"
+    - "ebay.com"
+    - "argos.co.uk"
+    - "johnlewis.com"
+    - "currys.co.uk"
+    - "apple.com"
+    # DIY & Home
+    - "screwfix.com"
+    - "toolstation.com"
+    - "diy.com"
+    - "wickes.co.uk"
+    - "ikea.com"
+    - "wayfair.co.uk"
+    # Fashion & Retail
+    - "asos.com"
+    - "next.co.uk"
+    - "marksandspencer.com"
+    # Food & Delivery
+    - "tesco.com"
+    - "sainsburys.co.uk"
+    - "ocado.com"
+    - "deliveroo.com"
+    - "uber.com"
+    - "justeat.com"
+  keywords:
+    - "order confirmation"
+    - "order confirmed"
+    - "your order"
+    - "purchase confirmation"
+    - "thanks for your order"
+    - "thank you for your order"
+    - "delivery confirmation"
+    - "shipment confirmation"
+    - "payment confirmed"
+  exclude_keywords:
+    # Skip non-order emails from these retailers
+    - "password reset"
+    - "verify your email"
+    - "newsletter"
+    - "unsubscribe"
+    - "account created"
+    - "welcome to"
+  notes: "Personal order tracking - processed by personal/orders/process-orders.py"
+
+# Auto-labeling settings
+settings:
+  # Maximum emails to process per run
+  max_emails_per_run: 100
+
+  # How far back to check for unlabeled emails (in days)
+  lookback_days: 365
+
+  # Confidence threshold (0-100)
+  # Only auto-label if confidence is above this %
+  min_confidence: 70
+
+  # Skip emails with these labels already applied
+  skip_labels:
+    - "SPAM"
+    - "TRASH"
+    - "DRAFT"
+
+  # Apply this label after auto-labeling to track what's been processed
+  processed_label: "auto-labeled"
+
+  # Log unmatched emails for review
+  log_unmatched: true

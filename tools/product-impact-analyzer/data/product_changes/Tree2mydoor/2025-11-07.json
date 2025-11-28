@@ -1,0 +1,216 @@
+{
+  "date": "2025-11-07",
+  "client": "Tree2mydoor",
+  "comparison_date": "2025-11-06",
+  "total_products_today": 740,
+  "total_products_yesterday": 740,
+  "summary": {
+    "changed_products": 9,
+    "price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 8,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "00153",
+      "title": "The Twisted Olive Tree Gift - 5L pot, 50cm Height - Olea Europaea Variety - Housewarming Gift",
+      "changes": {
+        "custom_label_4": [
+          "Low traffic",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPW-OAKA-PLACO",
+      "title": "Wedding Tree Gift Pack",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "SILB",
+      "title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SGDRG",
+      "title": "Special Grandad Rose Bush Gift - Rich, Bright Red Blooms - Grandpa Will Love This",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "RWPR",
+      "title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "ROGW",
+      "title": "Golden Wedding Rose Bush Gift - Yellow Hybrid Tea Rose Plant - 20-50cm - 3.5L Pot - Perfect For Anniversary",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "F60RG",
+      "title": "Fab at 60 Rose Bush Gift - 3.5L - Floribunda Variety With Red Blooms - Special 60th Birthday Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPC-BLAC-PLACO",
+      "title": "Christening Tree Gift Pack",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "01145",
+      "title": "Satsuma Tree Gift",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "unprofitable"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "ROGW",
+      "title": "Golden Wedding Rose Bush Gift - Yellow Hybrid Tea Rose Plant - 20-50cm - 3.5L Pot - Perfect For Anniversary",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "00153",
+      "title": "The Twisted Olive Tree Gift - 5L pot, 50cm Height - Olea Europaea Variety - Housewarming Gift",
+      "changes": {
+        "custom_label_4": [
+          "Low traffic",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPW-OAKA-PLACO",
+      "title": "Wedding Tree Gift Pack",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "SILB",
+      "title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SGDRG",
+      "title": "Special Grandad Rose Bush Gift - Rich, Bright Red Blooms - Grandpa Will Love This",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "RWPR",
+      "title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "F60RG",
+      "title": "Fab at 60 Rose Bush Gift - 3.5L - Floribunda Variety With Red Blooms - Special 60th Birthday Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPC-BLAC-PLACO",
+      "title": "Christening Tree Gift Pack",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "01145",
+      "title": "Satsuma Tree Gift",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "unprofitable"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+# Go Glean - Completed Tasks
+
+This file tracks all completed tasks for Go Glean (Customer ID: 8492163737).
+
+---
+
+## Campaign Audit Recommendations - Phase 1 Implementation
+**Completed:** 2025-11-14
+**Source:** Manual completion (reported in Claude Code) + Google Ads Campaign Audit (20251114-campaign-audit.md)
+
+**Context:**
+Following comprehensive campaign audit identifying budget misallocation and geographic targeting waste, implemented first phase of recommended optimizations.
+
+**Changes Made:**
+
+1. **Shopping Catch All Campaign ROAS Adjustment**
+   - Campaign: GOG | Shopping | Catch All 310 280 8/9 230 15/9 260 23/9
+   - Previous target: 260% (2.6x)
+   - New target: 240% (2.4x)
+   - Reason: Campaign performing above target (286% actual vs 260% target), reduced to align with account-wide 240% standard and allow more volume
+   - Campaign name updated to reflect change: "...260 23/9 240 14/11"
+
+2. **Villains PMax Geographic Targeting Fix**
+   - Campaign: GOG | P Max Shopping | Villains 280 2/9 249 8/9 260 11/9 230 15/9 260 23/9
+   - Previous: PRESENCE_OR_INTEREST (geographic waste)
+   - New: PRESENCE (correct targeting)
+   - Impact: Eliminates 5-10% budget waste (~£7.50-£15/month) on irrelevant traffic
+   - Performance: Campaign achieving 422% ROAS (vs 260% target), strong performer
+
+**Expected Outcomes:**
+- Shopping Catch All: Increased volume while maintaining profitability above 240% target
+- Villains: Reduced wasted spend on non-present users, improved efficiency on small budget
+- Overall: Aligned ROAS targets across campaigns (240-260% range)
+
+**Review Date:** November 21, 2025 (7 days post-implementation)
+- Monitor Shopping Catch All volume increase and ROAS performance
+- Verify Villains targeting change reduced waste
+- Assess readiness for Phase 2 (budget reallocation recommendation)
+
+**Audit Reference:** /Users/administrator/Documents/PetesBrain/clients/go-glean/audits/20251114-campaign-audit.md
+
+**Notes:**
+- Villains ROAS target remains at 260% (no change needed - performing 62% above target)
+- Primary audit recommendation (budget reallocation) deferred pending Phase 1 results
+- All campaigns now using PRESENCE targeting (best practice)
+- Search Partners remain disabled across all campaigns (best practice)
+
+---
+
+---
+
+## [Go Glean] Pause Search Campaign - Zero Conversions
+**Completed:** 2025-11-28
+**Task ID:** 1518316f-9bb6-4bc9-b883-9e282673e779
+**Priority:** P0
+**Source:** Weekly Report - 2025-11-18
+
+**Issue:** Search campaign "GOG | Search | Products" spent £50.40 with ZERO conversions in 7 days. 6.43% CTR suggested broken targeting.
+
+**Action Taken:** Campaign has been paused in Google Ads.
+
+**Expected Impact:** Stop bleeding £200/month in wasted spend.
+
+**Supporting Data:**
+- Spend: £50.40 (11% of weekly budget)
+- Conversions: 0
+- Clicks: 65 at £0.78 CPC
+- CTR: 6.43% (unusually high - suggested broad match issues)
+
+**Manual Note:** This has been paused. Task completed per manual task notes (2025-11-28).
+
+
+---
+
+## [Go Glean] Audit Primary PMax Asset Groups
+**Completed:** 2025-11-20
+**Task ID:** f0a95d3c-0569-4e76-aa05-f5072f165410
+**Priority:** P0
+**Source:** Weekly Report - 2025-11-18
+
+**Audit Completed:** 2025-11-20
+
+**Summary:** 
+Comprehensive audit of Primary PMax asset groups for Non Grout H&S&Z campaign completed. 
+
+**Key Findings:**
+- Hero/Sidekick classification confirmed based on 30-day ROAS (not 7-day)
+- Black Stone products validated as Heroes with strong 30-day performance
+- Identified potential Zombie products for promotion based on sustained performance
+- Full audit report: clients/go-glean/reports/ad-hoc/2025-11-20-pmax-asset-group-audit-CORRECTED.html
+
+**Critical Learning:** 
+Product Hero Strategy uses 30-day performance metrics. Short-term 7-day variance is expected and acceptable.
+
+**Manual Note (2025-11-28):** Audit already completed per task notes. Task marked complete.

@@ -1,0 +1,70 @@
+{
+  "period": "August-November 2025 (Academic Year 2025-26)",
+  "uk": {
+    "total_cost": 57543.9,
+    "total_enrollments": 295,
+    "average_cost_per_enrollment": 195.06406779661017,
+    "monthly": [
+      {
+        "month": "August",
+        "cost": 9836.61,
+        "enrollments": 61,
+        "cost_per_enrollment": 161.25590163934427
+      },
+      {
+        "month": "September",
+        "cost": 17110.03,
+        "enrollments": 100,
+        "cost_per_enrollment": 171.10029999999998
+      },
+      {
+        "month": "October",
+        "cost": 17741.45,
+        "enrollments": 90,
+        "cost_per_enrollment": 197.12722222222223
+      },
+      {
+        "month": "November",
+        "cost": 12855.81,
+        "enrollments": 44,
+        "cost_per_enrollment": 292.1775
+      }
+    ]
+  },
+  "row": {
+    "total_cost": 75937.570254,
+    "total_enrollments": 190,
+    "average_cost_per_enrollment": 399.6714223894737,
+    "monthly": [
+      {
+        "month": "August",
+        "cost": 17507.13,
+        "enrollments": 43,
+        "cost_per_enrollment": 407.1425581395349
+      },
+      {
+        "month": "September",
+        "cost": 22999.090000000004,
+        "enrollments": 82,
+        "cost_per_enrollment": 280.4767073170732
+      },
+      {
+        "month": "October",
+        "cost": 22254.954426,
+        "enrollments": 50,
+        "cost_per_enrollment": 445.09908852
+      },
+      {
+        "month": "November",
+        "cost": 13176.395827999999,
+        "enrollments": 15,
+        "cost_per_enrollment": 878.4263885333332
+      }
+    ]
+  },
+  "key_insights": [
+    "UK average: \u00a3195.06 per enrollment (295 total enrollments)",
+    "ROW average: \u00a3399.67 per enrollment (190 total enrollments)",
+    "ROW is +104.9% vs UK"
+  ]
+}

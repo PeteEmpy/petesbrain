@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Google Ads Systematic Analysis Framework",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/rok-methodologies/google-ads-analysis-prompts.md",
+        "extracted_at": "2025-11-11T09:21:36.970181",
+        "verified": false
+      }
+    ],
+    "content": {
+      "analysis_framework": "Structured, repeatable analysis across campaign types",
+      "mcp_integration": "Claude Code with MCP integration for Google Ads data access",
+      "output_format": "Structured Markdown reports with executive summaries",
+      "usage_context": "Direct use with Claude Code or adaptation for manual workflows",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

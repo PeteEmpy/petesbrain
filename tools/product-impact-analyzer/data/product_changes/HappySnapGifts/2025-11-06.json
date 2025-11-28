@@ -1,0 +1,127 @@
+{
+  "date": "2025-11-06",
+  "client": "HappySnapGifts",
+  "comparison_date": "2025-11-05",
+  "total_products_today": 13486,
+  "total_products_yesterday": 13486,
+  "summary": {
+    "changed_products": 5,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 5,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "HSG8158020",
+      "title": "Personalised Union Jack Hot Water Bottle",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG27462",
+      "title": "Personalised Photo Makeup Bag - Luxury Mock-Suede Fabric - Your Choice Of Photo & Text - Photo Printed On Both Sides",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG893529V395478",
+      "title": "Dog Face Cushion - Hand Cut To Shape - 13cm x 13cm x 6cm - Upload Your Own Photo - Choice Of Colours On The Back",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8137070V428943",
+      "title": "Photo Face Masks Pack of 10 (A4) Finished Masks + Elastics",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG861528",
+      "title": "Passport Cover With Collage Of Photos Printed To The Front & Optional Text Personalisation",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "HSG8158020",
+      "title": "Personalised Union Jack Hot Water Bottle",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG27462",
+      "title": "Personalised Photo Makeup Bag - Luxury Mock-Suede Fabric - Your Choice Of Photo & Text - Photo Printed On Both Sides",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG893529V395478",
+      "title": "Dog Face Cushion - Hand Cut To Shape - 13cm x 13cm x 6cm - Upload Your Own Photo - Choice Of Colours On The Back",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG8137070V428943",
+      "title": "Photo Face Masks Pack of 10 (A4) Finished Masks + Elastics",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG861528",
+      "title": "Passport Cover With Collage Of Photos Printed To The Front & Optional Text Personalisation",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

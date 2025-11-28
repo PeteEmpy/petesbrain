@@ -1,0 +1,15 @@
+{
+  "task_list_id": "aEpKT1Blc1JsMXdvcDliXw",
+  "task_list_name": "Client Work",
+  "duplicate_detection": {
+    "enabled": true,
+    "similarity_threshold": 0.8,
+    "lookback_days": 7,
+    "completed_grace_period_days": 3
+  },
+  "due_date_mapping": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 3
+  }
+}

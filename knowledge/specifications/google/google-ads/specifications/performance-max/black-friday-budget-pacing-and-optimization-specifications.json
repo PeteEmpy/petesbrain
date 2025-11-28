@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Black Friday Budget Pacing and Optimization Specifications",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/performance-max/2025-black-friday-pmax-budget-optimization-gift-card-insights.md",
+        "extracted_at": "2025-11-11T09:21:36.968475",
+        "verified": false
+      }
+    ],
+    "content": {
+      "budget_monitoring": "Daily budget overspend tracking for under-serving detection",
+      "pacing_review": "Budget pacing reports showing % overspend by campaign",
+      "optimization_window": "4-week critical period (final weeks before Christmas)",
+      "priority_allocation": "Budget increases prioritized by highest overspend %",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,86 @@
+---
+title: Calendar Invite: Combined Account Review for Uno Lights & Accessories for the Home
+source: invite.ics
+date_added: 2025-11-13
+last_updated: 2025-11-13
+tags: [calendar-invite, account-review, google-meet, uno-lights, accessories-for-the-home]
+source_type: document
+---
+
+## Summary
+
+- Google Meet scheduled for November 24, 2025, 2:00-2:30 PM (Europe/Dublin timezone)
+- Organized by Lucy Loughlin (Account Strategist), includes Luiza Arruda (Account Manager)
+- Combined review meeting for Uno Lights and Accessories for the Home accounts
+- 30-minute duration with Google Meet video conference and dial-in options available
+- Meeting ID: 3e8csd6o61lpm0u1kp2l7no5oo@google.com
+
+## Key Insights
+
+- Consolidated meeting structure reflects efficiency focus during busy season
+- Two Google team members collaborating suggests coordinated account strategy
+- 30-minute slot indicates focused, structured agenda for both accounts
+- Meeting format enables screen sharing for performance review and optimization discussion
+- Scheduled for late November, likely includes Q4/holiday performance review and planning
+
+## Full Content
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Dublin
+X-LIC-LOCATION:Europe/Dublin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Dublin:20251124T140000
+DTEND;TZID=Europe/Dublin:20251124T143000
+DTSTAMP:20251111T094953Z
+ORGANIZER;CN=Lucy Loughlin:mailto:lucyloughlin@google.com
+UID:3e8csd6o61lpm0u1kp2l7no5oo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=petere@roksys.co.uk;X-NUM-GUESTS=0:mailto:petere@roksys.co.uk
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Lucy Loughlin;X-NUM-GUESTS=0:mailto:lucyloughlin@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Luiza Arruda;X-NUM-GUESTS=0:mailto:luizaarruda@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rev-zsym-sjk
+X-MICROSOFT-CDO-OWNERAPPTID:-1547171812
+CREATED:20251111T094948Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/re
+ v-zsym-sjk\nOr dial: (IE) +353 1 571 1793 PIN: 384777894#\nMore phone numbe
+ rs: https://tel.meet/rev-zsym-sjk?pin=2374537288555&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20251111T094951Z
+LOCATION:https://meet.google.com/rev-zsym-sjk
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Uno Lights // Accessories for the Home // Google
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+
+---
+
+*Processed from inbox on 2025-11-13*
+*Original file: invite.ics*

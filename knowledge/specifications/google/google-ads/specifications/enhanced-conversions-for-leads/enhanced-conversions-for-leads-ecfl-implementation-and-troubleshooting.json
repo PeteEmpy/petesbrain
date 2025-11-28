@@ -1,0 +1,36 @@
+{
+  "specification": {
+    "title": "Enhanced Conversions for Leads (ECFL) Implementation and Troubleshooting",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "ecfl-implementation-support-national-design-academy-troubleshooting.md",
+        "extracted_at": "2025-11-11T09:21:36.926908",
+        "verified": false
+      }
+    ],
+    "content": {
+      "case_id_format": "7-XXXXXXXXXX (e.g., 7-5170000038434)",
+      "implementation_phases": [
+        "Initial technical consultation",
+        "Code implementation",
+        "Offline conversion data import setup",
+        "Post-implementation verification"
+      ],
+      "offline_conversion_import": {
+        "method": "Google Sheets import",
+        "timestamp_formatting": "Critical - must follow exact format discussed with tech team",
+        "common_failure_point": "Timestamp formatting errors"
+      },
+      "required_stakeholders": {
+        "technical_implementer": "Website code access",
+        "account_manager": "Google Ads admin access",
+        "client_contact": "Business stakeholder (e.g., Henry at NDA)"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

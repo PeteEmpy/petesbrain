@@ -1,0 +1,399 @@
+{
+  "date": "2025-11-25",
+  "client": "Godshot",
+  "comparison_date": "2025-11-24",
+  "total_products_today": 2608,
+  "total_products_yesterday": 2608,
+  "summary": {
+    "changed_products": 17,
+    "price_changes": 3,
+    "sale_price_changes": 1,
+    "availability_changes": 14,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "22118",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19346",
+      "title": "Jorum Studio Pony Boy Extrait 30ml",
+      "changes": {
+        "price": [
+          "84.00 GBP",
+          "89.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "1214MBLA12",
+      "title": "Fellow Carter Move Mug 12oz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22318",
+      "title": "19-69 American Psycho EDP 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18599",
+      "title": "Jono Smart Ceramics Small Mug",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18645",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19452",
+      "title": "Folie \u00e0 Plusieurs Shadow Aspects EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22513",
+      "title": "Dak - Passion Twist 250g (Mixed Fruit Yeast Inoculation Washed Yellow Pacamara, Colombia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "40997",
+      "title": "Stelton EM77 Vacuum Jug 1L",
+      "changes": {
+        "price": [
+          "84.00 GBP",
+          "45.00 GBP"
+        ],
+        "sale_price": [
+          "59.00 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "18652",
+      "title": "APFR Incense Sticks - 25 Pack - Lavender Camomile - Inspired By Natural Remedies",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22450",
+      "title": "Liis Bo EDP 50ml",
+      "changes": {
+        "price": [
+          "140.00 GBP",
+          "124.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20123-1",
+      "title": "Nasomatto Black Afgano Sample 1ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19710",
+      "title": "Morihata Binchotan Charcoal Body Scrub Towel",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18545",
+      "title": "Stora Skuggan Azalai EDP 30ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21871",
+      "title": "Traveler's Company Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20832",
+      "title": "Fugazzi Cash Flower Extrait 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14758",
+      "title": "Ystudio Portable Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "19346",
+      "title": "Jorum Studio Pony Boy Extrait 30ml",
+      "changes": {
+        "price": [
+          "84.00 GBP",
+          "89.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "40997",
+      "title": "Stelton EM77 Vacuum Jug 1L",
+      "changes": {
+        "price": [
+          "84.00 GBP",
+          "45.00 GBP"
+        ],
+        "sale_price": [
+          "59.00 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "22450",
+      "title": "Liis Bo EDP 50ml",
+      "changes": {
+        "price": [
+          "140.00 GBP",
+          "124.00 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [
+    {
+      "product_id": "40997",
+      "title": "Stelton EM77 Vacuum Jug 1L",
+      "changes": {
+        "price": [
+          "84.00 GBP",
+          "45.00 GBP"
+        ],
+        "sale_price": [
+          "59.00 GBP",
+          ""
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "22118",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1214MBLA12",
+      "title": "Fellow Carter Move Mug 12oz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22318",
+      "title": "19-69 American Psycho EDP 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18599",
+      "title": "Jono Smart Ceramics Small Mug",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18645",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19452",
+      "title": "Folie \u00e0 Plusieurs Shadow Aspects EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22513",
+      "title": "Dak - Passion Twist 250g (Mixed Fruit Yeast Inoculation Washed Yellow Pacamara, Colombia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18652",
+      "title": "APFR Incense Sticks - 25 Pack - Lavender Camomile - Inspired By Natural Remedies",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20123-1",
+      "title": "Nasomatto Black Afgano Sample 1ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19710",
+      "title": "Morihata Binchotan Charcoal Body Scrub Towel",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18545",
+      "title": "Stora Skuggan Azalai EDP 30ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21871",
+      "title": "Traveler's Company Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20832",
+      "title": "Fugazzi Cash Flower Extrait 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14758",
+      "title": "Ystudio Portable Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

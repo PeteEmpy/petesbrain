@@ -1,0 +1,39 @@
+{
+  "specification": {
+    "title": "Optimization Tips for Performance Max Campaigns with Merchant Center Feed",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "official_documentation",
+        "source": "https://support.google.com/google-ads/answer/13776350",
+        "extracted_at": "2025-11-11T09:21:36.974685",
+        "verified": true
+      }
+    ],
+    "content": {
+      "campaign_duration": "Run campaigns for at least 6 weeks",
+      "audience_signals": {
+        "types": [
+          "Remarketing lists",
+          "Custom intent lists",
+          "Customer Match",
+          "Similar groups"
+        ],
+        "purpose": "Help Google AI learn faster and enhance campaign results"
+      },
+      "product_feed": {
+        "image_resolution": "500 x 500 pixels or greater for CTV/YouTube Shopping ads",
+        "content": "Rich product descriptions and images",
+        "maintenance": "Update product prices and availability if they change often"
+      },
+      "goals": [
+        "Online sales",
+        "Store sales",
+        "Omnichannel sales"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

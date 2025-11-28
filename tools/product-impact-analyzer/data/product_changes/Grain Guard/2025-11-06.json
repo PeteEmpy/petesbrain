@@ -1,0 +1,87 @@
+{
+  "date": "2025-11-06",
+  "client": "Grain Guard",
+  "comparison_date": "2025-11-05",
+  "total_products_today": 109,
+  "total_products_yesterday": 109,
+  "summary": {
+    "changed_products": 3,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 3,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8784875847954_47734951117074",
+      "title": "Light Oak Wood Stain Water Based - 500ml | Grain Guard",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734950953234",
+      "title": "Wood Stain | Water Based | 1 Litre - Dark Walnut",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784876896530_47734926999826",
+      "title": "Wax Filler Wood Repair Sticks 4 x 40mm - Light Wood - Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8784875847954_47734951117074",
+      "title": "Light Oak Wood Stain Water Based - 500ml | Grain Guard",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734950953234",
+      "title": "Wood Stain | Water Based | 1 Litre - Dark Walnut",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784876896530_47734926999826",
+      "title": "Wax Filler Wood Repair Sticks 4 x 40mm - Light Wood - Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_comment": "Template for multi-account RSA CSV combiner configuration",
+  "_usage": "Copy this template to clients/{client}/data/account_config.json and fill in customer IDs from CONTEXT.md",
+
+  "USA": {
+    "customer_id": "1234567890",
+    "account_id": "123-456-7890",
+    "account_name": "Client Name USA"
+  },
+  "EUR": {
+    "customer_id": "9876543210",
+    "account_id": "987-654-3210",
+    "account_name": "Client Name EUR"
+  },
+  "ROW": {
+    "customer_id": "5555555555",
+    "account_id": "555-555-5555",
+    "account_name": "Client Name ROW"
+  }
+}

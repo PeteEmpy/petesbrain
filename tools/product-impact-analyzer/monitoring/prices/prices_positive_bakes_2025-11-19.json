@@ -1,0 +1,1477 @@
+{
+  "client": "Positive Bakes",
+  "timestamp": "2025-11-19T12:31:07.195004",
+  "product_count": 147,
+  "products": {
+    "52068403249419": {
+      "product_id": "52068403249419",
+      "title": "Congratulations Artisan Cookie Collection | Box of 6 | Premium Achievement Cookies",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136853"
+    },
+    "52068392337675": {
+      "product_id": "52068392337675",
+      "title": "Little Bug Cookie Selection Box | 4 Pieces | Kids Fun Treats Everyone Can Enjoy",
+      "price": 19.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136885"
+    },
+    "52387776725259": {
+      "product_id": "52387776725259",
+      "title": "Luxury Christmas Afternoon Tea for 2 | Plant-Based Intimate Christmas Experience",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136889"
+    },
+    "shopify_ZZ_10667184324875_52068270801163": {
+      "product_id": "shopify_ZZ_10667184324875_52068270801163",
+      "title": "Thank You Artisan Brownie Collection | 12 Plant-Based Treats | Premium Appreciation UK",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137712"
+    },
+    "shopify_ZZ_10667708580107_52070926254347": {
+      "product_id": "shopify_ZZ_10667708580107_52070926254347",
+      "title": "Birthday Signature Bundt Cake Selection | Birthday Cake Collection | Premium UK",
+      "price": 49.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137085"
+    },
+    "shopify_ZZ_10667231707403_52068372578571": {
+      "product_id": "shopify_ZZ_10667231707403_52068372578571",
+      "title": "Thank You Luxury Afternoon Tea | Individual Appreciation Experience | Premium UK Gift",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137184"
+    },
+    "shopify_ZZ_10667644125451_52070329319691": {
+      "product_id": "shopify_ZZ_10667644125451_52070329319691",
+      "title": "Birthday Luxury Cheesecake Selection | 5 Plant-Based Desserts | Premium Birthday UK",
+      "price": 41.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137091"
+    },
+    "shopify_ZZ_10667700584715_52070887850251": {
+      "product_id": "shopify_ZZ_10667700584715_52070887850251",
+      "title": "Thinking of You Luxury Cheesecake Selection | 5 Plant-Based Desserts | Comfort Indulgence UK",
+      "price": 37.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136915"
+    },
+    "shopify_ZZ_10727914635531_52386454569227": {
+      "product_id": "shopify_ZZ_10727914635531_52386454569227",
+      "title": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "price": 39.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137147"
+    },
+    "shopify_ZZ_10667188420875_52068290134283": {
+      "product_id": "shopify_ZZ_10667188420875_52068290134283",
+      "title": "Luxury Plant-Based Cream Tea for 4 | Premium Sharing Experience | UK",
+      "price": 47.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136930"
+    },
+    "shopify_ZZ_10667233640715_52068392337675": {
+      "product_id": "shopify_ZZ_10667233640715_52068392337675",
+      "title": "Little Bug Cookie Selection Box of 4 | Kids Fun Treats | Gluten-Free Children's Gift",
+      "price": 27.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136963"
+    },
+    "52070887850251": {
+      "product_id": "52070887850251",
+      "title": "Thinking of You Luxury Cheesecake Selection Box | 5 Pieces | Premium Comfort Indulgence",
+      "price": 27.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136923"
+    },
+    "shopify_ZZ_10667234296075_52068395057419": {
+      "product_id": "shopify_ZZ_10667234296075_52068395057419",
+      "title": "Birthday Little Bug Cookie Box | 4 Kids Birthday Treats | Fun Birthday Gift UK",
+      "price": 26.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137404"
+    },
+    "shopify_ZZ_10667183309067_52068259594507": {
+      "product_id": "shopify_ZZ_10667183309067_52068259594507",
+      "title": "Birthday Artisan Brownie Collection | 12 Plant-Based Treats | Ultimate Birthday Gift UK",
+      "price": 56.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137081"
+    },
+    "shopify_ZZ_10667235246347_52068398301451": {
+      "product_id": "shopify_ZZ_10667235246347_52068398301451",
+      "title": "Thank You Artisan Cookie Collection | 6 Plant-Based Treats | Premium Appreciation UK",
+      "price": 41.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137099"
+    },
+    "shopify_ZZ_10667184881931_52068280238347": {
+      "product_id": "shopify_ZZ_10667184881931_52068280238347",
+      "title": "Congratulations Artisan Brownie Collection | 12 Plant-Based Treats | Premium Achievement UK",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137543"
+    },
+    "52068296982795": {
+      "product_id": "52068296982795",
+      "title": "Birthday Luxury Afternoon Tea for 1 | Individual Birthday Celebration",
+      "price": 36.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136944"
+    },
+    "shopify_ZZ_10667673649419_52070584910091": {
+      "product_id": "shopify_ZZ_10667673649419_52070584910091",
+      "title": "Thank You Luxury Cheesecake Selection | 5 Plant-Based Desserts | Premium Appreciation UK",
+      "price": 27.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137453"
+    },
+    "52068374348043": {
+      "product_id": "52068374348043",
+      "title": "Thank You Luxury Afternoon Tea for 2 | Sharing Appreciation Experience",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136951"
+    },
+    "shopify_ZZ_10732632047883_52677147689227": {
+      "product_id": "shopify_ZZ_10732632047883_52677147689227",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK Yes",
+      "price": 90.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "unknown",
+      "timestamp": "2025-11-19T12:31:07.137505"
+    },
+    "shopify_ZZ_10726296387851_52379385004299": {
+      "product_id": "shopify_ZZ_10726296387851_52379385004299",
+      "title": "Taste of Christmas | Christmas Treats Everyone Can Enjoy | Premium Gift Box UK",
+      "price": 81.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137039"
+    },
+    "shopify_ZZ_10667188879627_52068296458507": {
+      "product_id": "shopify_ZZ_10667188879627_52068296458507",
+      "title": "Kids Afternoon Tea Little Bug for One | Fun Individual Experience | Children's UK Gift",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138085"
+    },
+    "52677142216971": {
+      "product_id": "52677142216971",
+      "title": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
+      "price": 145.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136975"
+    },
+    "shopify_ZZ_10667704647947_52070909214987": {
+      "product_id": "shopify_ZZ_10667704647947_52070909214987",
+      "title": "Classic Bundt Cake Selection Box | Plant-Based Gluten-Free Collection | UK",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138098"
+    },
+    "52347386200331": {
+      "product_id": "52347386200331",
+      "title": "Saturday Delivery Surcharge",
+      "price": 6.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "out of stock",
+      "timestamp": "2025-11-19T12:31:07.136982"
+    },
+    "shopify_ZZ_10667188715787_52068295770379": {
+      "product_id": "shopify_ZZ_10667188715787_52068295770379",
+      "title": "Luxury Plant-Based Afternoon Tea for 4 | Premium Family Experience | UK",
+      "price": 121.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137157"
+    },
+    "52070136316171": {
+      "product_id": "52070136316171",
+      "title": "Birthday Luxury Tart Selection Box | 6 Pieces | Ultimate Birthday Desserts",
+      "price": 36.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136989"
+    },
+    "shopify_ZZ_10667236163851_52068407017739": {
+      "product_id": "shopify_ZZ_10667236163851_52068407017739",
+      "title": "Thinking of You Artisan Cookie Collection | 6 Plant-Based Treats | Thoughtful Comfort UK",
+      "price": 41.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137243"
+    },
+    "52068250157323": {
+      "product_id": "52068250157323",
+      "title": "Little Bug Brownie Box | 8 Pieces | Fun Kids Treats Everyone Can Enjoy",
+      "price": 36.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.136996"
+    },
+    "shopify_ZZ_10727924793611_52386501853451": {
+      "product_id": "shopify_ZZ_10727924793611_52386501853451",
+      "title": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137113"
+    },
+    "52068398301451": {
+      "product_id": "52068398301451",
+      "title": "Thank You Artisan Cookie Collection | Box of 6 | Premium Appreciation Cookies",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137004"
+    },
+    "52371982680331": {
+      "product_id": "52371982680331",
+      "title": "Corporate Luxury Afternoon Tea for 2 | Sustainable Business Meeting Experience",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137007"
+    },
+    "52677142184203": {
+      "product_id": "52677142184203",
+      "title": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
+      "price": 120.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137010"
+    },
+    "52068280238347": {
+      "product_id": "52068280238347",
+      "title": "Congratulations Artisan Brownie & Blondie Collection | Box of 12 | Premium Achievement Gift",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137013"
+    },
+    "52379471610123": {
+      "product_id": "52379471610123",
+      "title": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience Everyone Can Enjoy",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137016"
+    },
+    "shopify_ZZ_10667182457099_52068250583307": {
+      "product_id": "shopify_ZZ_10667182457099_52068250583307",
+      "title": "Little Bug Brownie Box of 12 | Kids Party Treats | Fun Children's Gift",
+      "price": 68.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137528"
+    },
+    "52068296458507": {
+      "product_id": "52068296458507",
+      "title": "Kids Afternoon Tea Little Bug for 1 | Fun Experience Everyone Can Enjoy",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137022"
+    },
+    "shopify_ZZ_10667713429771_52070948208907": {
+      "product_id": "shopify_ZZ_10667713429771_52070948208907",
+      "title": "Congratulations Signature Bundt Cake Selection | Achievement Cake Collection | Premium UK",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138137"
+    },
+    "shopify_ZZ_10727257506059_52676180050187": {
+      "product_id": "shopify_ZZ_10727257506059_52676180050187",
+      "title": "Sweet & Savoury Christmas Treat Box | Plant-Based Christmas Treats for All to Enjoy | Premium Gift Box UK Yes",
+      "price": 114.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138023"
+    },
+    "shopify_ZZ_10667180491019_52068236853515": {
+      "product_id": "shopify_ZZ_10667180491019_52068236853515",
+      "title": "Artisan Blondie Collection Box of 6 | Plant-Based Gluten-Free Gift | Premium UK",
+      "price": 41.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137818"
+    },
+    "52371997131019": {
+      "product_id": "52371997131019",
+      "title": "Corporate Luxury Cheesecake Collection | Box of 5 | Sustainable Business Indulgence",
+      "price": 23.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137034"
+    },
+    "shopify_ZZ_10667182817547_52068255564043": {
+      "product_id": "shopify_ZZ_10667182817547_52068255564043",
+      "title": "Birthday Artisan Brownie Collection | 9 Plant-Based Treats | Premium Birthday Gift UK",
+      "price": 63.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137551"
+    },
+    "shopify_ZZ_10732502679819_52408175165707": {
+      "product_id": "shopify_ZZ_10732502679819_52408175165707",
+      "title": "Christmas Artisan Mince Pies | 12 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "price": 42.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137804"
+    },
+    "52070584910091": {
+      "product_id": "52070584910091",
+      "title": "Thank You Luxury Cheesecake Selection Box | 5 Pieces | Premium Appreciation Indulgence",
+      "price": 27.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137047"
+    },
+    "52068274864395": {
+      "product_id": "52068274864395",
+      "title": "Congratulations Artisan Brownie & Blondie Collection | Box of 9 | Achievement Celebration Gift",
+      "price": 43.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137050"
+    },
+    "shopify_ZZ_10667233083659_52068386636043": {
+      "product_id": "shopify_ZZ_10667233083659_52068386636043",
+      "title": "Artisan Cookie Collection Box of 6 | Plant-Based Gluten-Free Treats | Premium UK",
+      "price": 36.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137110"
+    },
+    "shopify_ZZ_10667231346955_52068369858827": {
+      "product_id": "shopify_ZZ_10667231346955_52068369858827",
+      "title": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration | Premium UK",
+      "price": 76.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138265"
+    },
+    "52068283515147": {
+      "product_id": "52068283515147",
+      "title": "Signature Brownie & Blondie Selection Box | 25 Pieces | Perfect for Sharing",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137060"
+    },
+    "shopify_ZZ_10667185209611_52068281614603": {
+      "product_id": "shopify_ZZ_10667185209611_52068281614603",
+      "title": "Thinking of You Artisan Brownie Collection | 9 Plant-Based Treats | Caring Support UK",
+      "price": 43.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137357"
+    },
+    "52676180050187": {
+      "product_id": "52676180050187",
+      "title": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
+      "price": 110.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137066"
+    },
+    "52371977109771": {
+      "product_id": "52371977109771",
+      "title": "Corporate Luxury Afternoon Tea for 1 | Carbon-Neutral Executive Hospitality",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137069"
+    },
+    "52371966230795": {
+      "product_id": "52371966230795",
+      "title": "Corporate Artisan Brownie & Blondie Collection | Box of 12 | Net-Zero Business Gift",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137072"
+    },
+    "52070329319691": {
+      "product_id": "52070329319691",
+      "title": "Birthday Luxury Cheesecake Selection Box | 5 Pieces | Premium Birthday Indulgence",
+      "price": 30.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137076"
+    },
+    "shopify_ZZ_10731712119051_52405727199499": {
+      "product_id": "shopify_ZZ_10731712119051_52405727199499",
+      "title": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137119"
+    },
+    "shopify_ZZ_10667182391563_52068250157323": {
+      "product_id": "shopify_ZZ_10667182391563_52068250157323",
+      "title": "Little Bug Brownie Box of 8 | Fun Kids Treats | Gluten-Free Children's Gift",
+      "price": 50.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137273"
+    },
+    "shopify_ZZ_10667716182283_52070962168075": {
+      "product_id": "shopify_ZZ_10667716182283_52070962168075",
+      "title": "Thinking of You Signature Bundt Cake Selection | Comfort Cake Collection | Caring UK",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137122"
+    },
+    "52070948208907": {
+      "product_id": "52070948208907",
+      "title": "Congratulations Signature Bundt Cake Selection Box | Achievement Cake Collection",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137104"
+    },
+    "52068250583307": {
+      "product_id": "52068250583307",
+      "title": "Little Bug Brownie Box | 12 Pieces | Kids Party Treats Everyone Can Enjoy",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137107"
+    },
+    "52408175165707": {
+      "product_id": "52408175165707",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 12 | Traditional Christmas Everyone Can Enjoy",
+      "price": 42.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137116"
+    },
+    "shopify_ZZ_10667185832203_52068283515147": {
+      "product_id": "shopify_ZZ_10667185832203_52068283515147",
+      "title": "Signature Brownie Selection Box of 25 | Bulk Sharing Treats | Plant-Based UK",
+      "price": 41.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137947"
+    },
+    "shopify_ZZ_10667189141771_52068296982795": {
+      "product_id": "shopify_ZZ_10667189141771_52068296982795",
+      "title": "Birthday Luxury Afternoon Tea for 1 | Individual Birthday Celebration",
+      "price": 49.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137955"
+    },
+    "shopify_ZZ_10667184554251_52068274864395": {
+      "product_id": "shopify_ZZ_10667184554251_52068274864395",
+      "title": "Congratulations Artisan Brownie Collection | 9 Plant-Based Treats | Achievement Gift UK",
+      "price": 59.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137851"
+    },
+    "52068294918411": {
+      "product_id": "52068294918411",
+      "title": "Luxury Afternoon Tea for 2 | Plant-Based Intimate Experience",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137137"
+    },
+    "shopify_ZZ_10667185013003_52068281123083": {
+      "product_id": "shopify_ZZ_10667185013003_52068281123083",
+      "title": "Thinking of You Artisan Brownie Collection | 12 Plant-Based Treats | Thoughtful Care UK",
+      "price": 72.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137658"
+    },
+    "shopify_ZZ_10667188584715_52068293411083": {
+      "product_id": "shopify_ZZ_10667188584715_52068293411083",
+      "title": "Luxury Plant-Based Afternoon Tea for One | Premium Individual Experience | UK",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138160"
+    },
+    "shopify_ZZ_10732632047883_52677147656459": {
+      "product_id": "shopify_ZZ_10732632047883_52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "price": 65.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137859"
+    },
+    "52070626001163": {
+      "product_id": "52070626001163",
+      "title": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137199"
+    },
+    "52068407017739": {
+      "product_id": "52068407017739",
+      "title": "Thinking of You Artisan Cookie Collection | Box of 6 | Thoughtful Comfort Treats",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137206"
+    },
+    "52070834766091": {
+      "product_id": "52070834766091",
+      "title": "Thinking of You Luxury Tart Selection Box | 6 Pieces | Premium Comfort Desserts",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137214"
+    },
+    "shopify_ZZ_10667232493835_52068380377355": {
+      "product_id": "shopify_ZZ_10667232493835_52068380377355",
+      "title": "Thinking of You Luxury Afternoon Tea | Individual Comfort Experience | Caring UK Gift",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138061"
+    },
+    "52068293411083": {
+      "product_id": "52068293411083",
+      "title": "Luxury Afternoon Tea for 1 | Plant-Based Individual Experience",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137251"
+    },
+    "shopify_ZZ_10667234197771_52068394664203": {
+      "product_id": "shopify_ZZ_10667234197771_52068394664203",
+      "title": "Birthday Artisan Cookie Collection | 6 Plant-Based Treats | Ultimate Birthday UK",
+      "price": 33.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138201"
+    },
+    "shopify_ZZ_10667188322571_52068289282315": {
+      "product_id": "shopify_ZZ_10667188322571_52068289282315",
+      "title": "Luxury Plant-Based Cream Tea for Two | Premium Individual Experience | UK",
+      "price": 26.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137326"
+    },
+    "shopify_ZZ_10667232133387_52068376903947": {
+      "product_id": "shopify_ZZ_10667232133387_52068376903947",
+      "title": "Congratulations Luxury Afternoon Tea | Individual Achievement Celebration | Premium U",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138169"
+    },
+    "52070885425419": {
+      "product_id": "52070885425419",
+      "title": "Congratulations Luxury Cheesecake Selection Box | 5 Pieces | Premium Achievement Indulgence",
+      "price": 27.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137296"
+    },
+    "52070962168075": {
+      "product_id": "52070962168075",
+      "title": "Thinking of You Signature Bundt Cake Selection Box | Comfort Cake Collection",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137304"
+    },
+    "shopify_ZZ_10667231609099_52068370284811": {
+      "product_id": "shopify_ZZ_10667231609099_52068370284811",
+      "title": "Birthday Kids Afternoon Tea Little Bug | Magical Birthday Experience | Fun UK Gift",
+      "price": 36.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138251"
+    },
+    "52386501853451": {
+      "product_id": "52386501853451",
+      "title": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137319"
+    },
+    "shopify_ZZ_10667235868939_52068403249419": {
+      "product_id": "shopify_ZZ_10667235868939_52068403249419",
+      "title": "Congratulations Artisan Cookie Collection | 6 Plant-Based Treats | Premium Achievement UK",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138224"
+    },
+    "52068290134283": {
+      "product_id": "52068290134283",
+      "title": "Luxury Cream Tea for 4 | Plant-Based Sharing Experience",
+      "price": 47.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137342"
+    },
+    "shopify_ZZ_10667188683019_52068294918411": {
+      "product_id": "shopify_ZZ_10667188683019_52068294918411",
+      "title": "Luxury Plant-Based Afternoon Tea for 2 | Premium Intimate Experience | UK",
+      "price": 68.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138152"
+    },
+    "shopify_ZZ_10667232297227_52068379099403": {
+      "product_id": "shopify_ZZ_10667232297227_52068379099403",
+      "title": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration | Premium UK",
+      "price": 72.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137696"
+    },
+    "shopify_ZZ_10727257506059_52676180017419": {
+      "product_id": "shopify_ZZ_10727257506059_52676180017419",
+      "title": "Sweet & Savoury Christmas Treat Box | Plant-Based Christmas Treats for All to Enjoy | Premium Gift Box UK No",
+      "price": 114.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137937"
+    },
+    "52066150383883": {
+      "product_id": "52066150383883",
+      "title": "Artisan Brownie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137388"
+    },
+    "52068380377355": {
+      "product_id": "52068380377355",
+      "title": "Thinking of You Luxury Afternoon Tea for 1 | Individual Comfort Experience",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137396"
+    },
+    "shopify_ZZ_10726287704331_52379349614859": {
+      "product_id": "shopify_ZZ_10726287704331_52379349614859",
+      "title": "Christmas Savoury Treat Box | Gourmet Festive Experience | Premium UK",
+      "price": 81.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138287"
+    },
+    "52371970031883": {
+      "product_id": "52371970031883",
+      "title": "Corporate Sharing Brownie & Blondie Collection | Box of 25 | Zero Waste Office Solution",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137423"
+    },
+    "shopify_ZZ_10726324207883_52379471610123": {
+      "product_id": "shopify_ZZ_10726324207883_52379471610123",
+      "title": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience | Premium UK",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137574"
+    },
+    "52068281123083": {
+      "product_id": "52068281123083",
+      "title": "Thinking of You Artisan Brownie & Blondie Collection | Box of 12 | Thoughtful Care Gift",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137438"
+    },
+    "shopify_ZZ_10667232559371_52068381032715": {
+      "product_id": "shopify_ZZ_10667232559371_52068381032715",
+      "title": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience | Caring UK",
+      "price": 72.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138015"
+    },
+    "52068369858827": {
+      "product_id": "52068369858827",
+      "title": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration",
+      "price": 56.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137461"
+    },
+    "52371988021515": {
+      "product_id": "52371988021515",
+      "title": "Corporate Artisan Cookie Collection | Box of 6 | CSR Executive Business Gift",
+      "price": 26.5,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137468"
+    },
+    "shopify_ZZ_10667236589835_52068410654987": {
+      "product_id": "shopify_ZZ_10667236589835_52068410654987",
+      "title": "Luxury Tart Selection Box of 6 | Plant-Based Sharing Desserts | Premium UK",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137750"
+    },
+    "shopify_ZZ_10667231904011_52068374348043": {
+      "product_id": "shopify_ZZ_10667231904011_52068374348043",
+      "title": "Thank You Luxury Afternoon Tea for 2 | Sharing Appreciation Experience | Premium UK",
+      "price": 72.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137704"
+    },
+    "52068236853515": {
+      "product_id": "52068236853515",
+      "title": "Artisan Blondie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137491"
+    },
+    "52379349614859": {
+      "product_id": "52379349614859",
+      "title": "Christmas Savoury Treat Box | Gourmet Festive Experience Everyone Can Enjoy",
+      "price": 60.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137498"
+    },
+    "shopify_ZZ_10667183669515_52068263198987": {
+      "product_id": "shopify_ZZ_10667183669515_52068263198987",
+      "title": "Birthday Little Bug Brownie Box | 8 Kids Party Treats | Fun Birthday Gift UK",
+      "price": 43.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137843"
+    },
+    "52068268572939": {
+      "product_id": "52068268572939",
+      "title": "Thank You Artisan Brownie & Blondie Collection | Box of 9 | Thoughtful Appreciation Gift",
+      "price": 43.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137536"
+    },
+    "shopify_ZZ_10667648712971_52070366937355": {
+      "product_id": "shopify_ZZ_10667648712971_52070366937355",
+      "title": "Thank You Luxury Tart Selection | 6 Plant-Based Desserts | Premium Appreciation UK",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137992"
+    },
+    "shopify_ZZ_10667181146379_52068241146123": {
+      "product_id": "shopify_ZZ_10667181146379_52068241146123",
+      "title": "Artisan Brownie & Blondie Collection | 9 Plant-Based Treats | Premium Gift Box UK",
+      "price": 54.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137827"
+    },
+    "52677147689227": {
+      "product_id": "52677147689227",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "price": 90.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137582"
+    },
+    "shopify_ZZ_10667236655371_52068411998475": {
+      "product_id": "shopify_ZZ_10667236655371_52068411998475",
+      "title": "Luxury Cheesecake Selection Box of 5 | Plant-Based Gluten-Free | Premium UK",
+      "price": 33.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137642"
+    },
+    "52068241146123": {
+      "product_id": "52068241146123",
+      "title": "Artisan Brownie & Blondie Collection | Box of 9 | Plant-Based Everyone Can Enjoy",
+      "price": 39.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137597"
+    },
+    "52070926254347": {
+      "product_id": "52070926254347",
+      "title": "Birthday Signature Bundt Cake Selection Box | Birthday Cake Collection",
+      "price": 36.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137605"
+    },
+    "52068410654987": {
+      "product_id": "52068410654987",
+      "title": "Luxury Tart Selection Box | 6 Pieces | Plant-Based Sharing Desserts",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137613"
+    },
+    "52068376903947": {
+      "product_id": "52068376903947",
+      "title": "Congratulations Luxury Afternoon Tea for 1 | Individual Achievement Celebration",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137620"
+    },
+    "52068381032715": {
+      "product_id": "52068381032715",
+      "title": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137627"
+    },
+    "shopify_ZZ_10667711496459_52070939099403": {
+      "product_id": "shopify_ZZ_10667711496459_52070939099403",
+      "title": "Thank You Signature Bundt Cake Selection | Appreciation Cake Collection | Premium UK",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138242"
+    },
+    "shopify_ZZ_10666957504779_52066150383883": {
+      "product_id": "shopify_ZZ_10666957504779_52066150383883",
+      "title": "Artisan Brownie Collection Box of 6 | Plant-Based Gluten-Free Gift | Premium UK",
+      "price": 41.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137921"
+    },
+    "52068370284811": {
+      "product_id": "52068370284811",
+      "title": "Birthday Kids Afternoon Tea Little Bug for 1 | Magical Birthday Experience",
+      "price": 36.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137666"
+    },
+    "shopify_ZZ_10667184193803_52068268572939": {
+      "product_id": "shopify_ZZ_10667184193803_52068268572939",
+      "title": "Thank You Artisan Brownie Collection | 9 Plant-Based Treats | Premium Appreciation UK",
+      "price": 43.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137898"
+    },
+    "52068386636043": {
+      "product_id": "52068386636043",
+      "title": "Artisan Cookie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "price": 26.5,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137682"
+    },
+    "52676180017419": {
+      "product_id": "52676180017419",
+      "title": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
+      "price": 85.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137689"
+    },
+    "shopify_ZZ_10728000520459_52387776725259": {
+      "product_id": "shopify_ZZ_10728000520459_52387776725259",
+      "title": "Christmas Luxury Afternoon Tea for 2 | Festive Experience | Premium Christmas UK",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137929"
+    },
+    "52371993133323": {
+      "product_id": "52371993133323",
+      "title": "Corporate Luxury Tart Collection | Box of 6 | Net-Zero Executive Desserts",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137727"
+    },
+    "52068270801163": {
+      "product_id": "52068270801163",
+      "title": "Thank You Artisan Brownie & Blondie Collection | Box of 12 | Premium Appreciation Gift",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137735"
+    },
+    "52068411998475": {
+      "product_id": "52068411998475",
+      "title": "Luxury Cheesecake Selection Box | 5 Pieces | Plant-Based Everyone Can Enjoy",
+      "price": 23.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137742"
+    },
+    "52068281614603": {
+      "product_id": "52068281614603",
+      "title": "Thinking of You Artisan Brownie & Blondie Collection | Box of 9 | Caring Support Gift",
+      "price": 43.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137757"
+    },
+    "52068259594507": {
+      "product_id": "52068259594507",
+      "title": "Birthday Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Birthday Gift",
+      "price": 56.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137765"
+    },
+    "52371950600459": {
+      "product_id": "52371950600459",
+      "title": "Corporate Artisan Brownie Collection | Box of 6 | Sustainable Business Gift",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137772"
+    },
+    "52405727199499": {
+      "product_id": "52405727199499",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "price": 30.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137780"
+    },
+    "shopify_ZZ_10667574395147_52070136316171": {
+      "product_id": "shopify_ZZ_10667574395147_52070136316171",
+      "title": "Birthday Luxury Tart Selection | 6 Plant-Based Desserts | Ultimate Birthday UK",
+      "price": 36.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138069"
+    },
+    "52068295770379": {
+      "product_id": "52068295770379",
+      "title": "Luxury Afternoon Tea for 4 | Plant-Based Family Experience",
+      "price": 89.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137866"
+    },
+    "52379385004299": {
+      "product_id": "52379385004299",
+      "title": "Taste of Christmas Luxury Sharing Box | Premium Selection Everyone Can Enjoy",
+      "price": 60.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137875"
+    },
+    "shopify_ZZ_10667181998347_52068247208203": {
+      "product_id": "shopify_ZZ_10667181998347_52068247208203",
+      "title": "Ultimate Artisan Brownie Collection | 12 Plant-Based Treats | Luxury Gift Box UK",
+      "price": 68.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138185"
+    },
+    "52068379099403": {
+      "product_id": "52068379099403",
+      "title": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration",
+      "price": 53.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137890"
+    },
+    "52070909214987": {
+      "product_id": "52070909214987",
+      "title": "Signature Bundt Cake Selection Box | Plant-Based Everyone Can Enjoy",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137906"
+    },
+    "52070939099403": {
+      "product_id": "52070939099403",
+      "title": "Thank You Signature Bundt Cake Selection Box | Appreciation Cake Collection",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137913"
+    },
+    "52068263198987": {
+      "product_id": "52068263198987",
+      "title": "Birthday Little Bug Brownie Box | 8 Pieces | Kids Birthday Party Treats",
+      "price": 43.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137963"
+    },
+    "52070366937355": {
+      "product_id": "52070366937355",
+      "title": "Thank You Luxury Tart Selection Box | 6 Pieces | Premium Appreciation Desserts",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137970"
+    },
+    "52372001128715": {
+      "product_id": "52372001128715",
+      "title": "Corporate Signature Bundt Cake Collection | Sustainable Business Variety Box",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.137977"
+    },
+    "shopify_ZZ_10667678368011_52070626001163": {
+      "product_id": "shopify_ZZ_10667678368011_52070626001163",
+      "title": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138273"
+    },
+    "52382253744395": {
+      "product_id": "52382253744395",
+      "title": "The Ultimate Christmas Feast Hamper | Complete Celebration Everyone Can Enjoy",
+      "price": 200.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138000"
+    },
+    "52068255564043": {
+      "product_id": "52068255564043",
+      "title": "Birthday Artisan Brownie & Blondie Collection | Box of 9 | Perfect Birthday Gift",
+      "price": 46.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138008"
+    },
+    "52068394664203": {
+      "product_id": "52068394664203",
+      "title": "Birthday Artisan Cookie Collection | Box of 6 | Ultimate Birthday Cookies",
+      "price": 33.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138031"
+    },
+    "52371971801355": {
+      "product_id": "52371971801355",
+      "title": "Corporate Classic Cream Tea for 1 | Sustainable Business Hospitality",
+      "price": 26.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138038"
+    },
+    "52068395057419": {
+      "product_id": "52068395057419",
+      "title": "Birthday Little Bug Cookie Selection Box | 4 Pieces | Kids Birthday Treats",
+      "price": 26.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138046"
+    },
+    "shopify_ZZ_10667700191499_52070885425419": {
+      "product_id": "shopify_ZZ_10667700191499_52070885425419",
+      "title": "Congratulations Luxury Cheesecake Selection | 5 Plant-Based Desserts | Achievement Celebration UK",
+      "price": 37.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138115"
+    },
+    "shopify_ZZ_10667696357643_52070834766091": {
+      "product_id": "shopify_ZZ_10667696357643_52070834766091",
+      "title": "Thinking of You Luxury Tart Selection | 6 Plant-Based Desserts | Premium Comfort UK",
+      "price": 45.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "USD",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138294"
+    },
+    "52386454569227": {
+      "product_id": "52386454569227",
+      "title": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "price": 39.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138106"
+    },
+    "52677147656459": {
+      "product_id": "52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "price": 65.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138128"
+    },
+    "52068247208203": {
+      "product_id": "52068247208203",
+      "title": "Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Plant-Based Gift",
+      "price": 49.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138145"
+    },
+    "52371957645579": {
+      "product_id": "52371957645579",
+      "title": "Corporate Artisan Blondie Collection | Box of 6 | Sustainable Business Gift",
+      "price": 29.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138177"
+    },
+    "52347765752075": {
+      "product_id": "52347765752075",
+      "title": "Video Greet \u2014 send a gift message with your order (You'll record after checkout)",
+      "price": 3.0,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "out of stock",
+      "timestamp": "2025-11-19T12:31:07.138193"
+    },
+    "52068289282315": {
+      "product_id": "52068289282315",
+      "title": "Luxury Cream Tea for 2 | Plant-Based Afternoon Tea Experience",
+      "price": 26.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138208"
+    },
+    "52371961479435": {
+      "product_id": "52371961479435",
+      "title": "Corporate Artisan Brownie & Blondie Collection | Box of 9 | CSR-Compliant Business Gift",
+      "price": 39.95,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138216"
+    },
+    "52068372578571": {
+      "product_id": "52068372578571",
+      "title": "Thank You Luxury Afternoon Tea for 1 | Individual Appreciation Experience",
+      "price": 33.45,
+      "sale_price": null,
+      "sale_effective_date": "",
+      "currency": "GBP",
+      "availability": "in stock",
+      "timestamp": "2025-11-19T12:31:07.138234"
+    }
+  }
+}

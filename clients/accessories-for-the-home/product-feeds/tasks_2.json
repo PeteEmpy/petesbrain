@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "e8f703f8-0778-4442-9d14-663823494068",
+      "title": "[Accessories for the Home] Body Vases Review REJECTED - Decide Next Steps",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-26",
+      "time_estimate_mins": 60,
+      "notes": "**Context:**\n24 body-shaped vases submitted for manual review on Nov 19, 2025.\nGoogle's automated filters flagged them as adult content (false positive).\n\n**REVIEW OUTCOME (Nov 20, 2025): \u274c REJECTED**\n\nGoogle's decision:\n- **Issue:** \"Personalised advertising: Sexual interests\"\n- **Impact:** Limits visibility in United Kingdom\n- **Policy:** Ads shouldn't target users based on sexual interests\n- **Next review:** Earliest Nov 26, 2025 (7-day wait period)\n\n**Decision Required:**\n\nOption 1: Resubmit with Product Title Changes (Nov 26+)\n- Update titles to emphasize \"home decor\" / \"art\" angle\n- Examples:\n  - \"Female Form Vase\" \u2192 \"Abstract Sculpture Vase - Modern Home Decor\"\n  - \"Body Vase\" \u2192 \"Artistic Ceramic Vase - Contemporary Design\"\n- Remove any suggestive language\n- Resubmit for review after Nov 26\n\nOption 2: Accept Products Can't Run\n- 24 products out of 600+ total\n- Impact: ~4% of product catalog\n- Low revenue risk if these aren't bestsellers\n\nOption 3: Appeal with Context\n- Provide evidence these are legitimate home decor items\n- Include links to retailer websites showing similar products\n- Emphasize artistic/sculptural nature\n\n**Next Steps:**\n1. Check if these 24 products are high-revenue items (worth the effort)\n2. Discuss with client: Sam/Andrew preference\n3. If proceeding: update product titles in feed\n4. If appealing: gather supporting evidence\n5. Resubmit after Nov 26 if pursuing Option 1 or 3\n\n**Reference:**\nOriginal submission logged in tasks-completed.md (Nov 19 entry)\n\n**Merchant Center ID:** 117443871",
+      "source": "Follow-up from body vases manual review submission",
+      "tags": [
+        "product-feed",
+        "merchant-center",
+        "follow-up",
+        "decision-required"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T16:17:04.286158",
+      "updated_at": "2025-11-20T09:15:00.000000",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-23T09:00:58.407908"
+}

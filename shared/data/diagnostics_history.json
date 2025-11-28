@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-11-17T08:20:47.539207",
+    "customer_id": "6281395727",
+    "products_with_zero_impressions": 0,
+    "products_serving": 3118,
+    "total_products": 3118
+  },
+  {
+    "timestamp": "2025-11-18T06:30:01.077655",
+    "customer_id": "6281395727",
+    "products_with_zero_impressions": 0,
+    "products_serving": 3121,
+    "total_products": 3121
+  },
+  {
+    "timestamp": "2025-11-21T08:46:57.593160",
+    "customer_id": "6281395727",
+    "products_with_zero_impressions": 0,
+    "products_serving": 3083,
+    "total_products": 3083
+  },
+  {
+    "timestamp": "2025-11-23T14:13:20.875867",
+    "customer_id": "6281395727",
+    "products_with_zero_impressions": 0,
+    "products_serving": 3028,
+    "total_products": 3028
+  },
+  {
+    "timestamp": "2025-11-24T08:30:36.163319",
+    "customer_id": "6281395727",
+    "products_with_zero_impressions": 0,
+    "products_serving": 3005,
+    "total_products": 3005
+  },
+  {
+    "timestamp": "2025-11-25T06:30:11.720495",
+    "customer_id": "6281395727",
+    "products_with_zero_impressions": 0,
+    "products_serving": 3002,
+    "total_products": 3002
+  }
+]

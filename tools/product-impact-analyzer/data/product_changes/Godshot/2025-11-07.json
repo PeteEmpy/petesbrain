@@ -1,0 +1,1358 @@
+{
+  "date": "2025-11-07",
+  "client": "Godshot",
+  "comparison_date": "2025-11-06",
+  "total_products_today": 2542,
+  "total_products_yesterday": 2521,
+  "summary": {
+    "changed_products": 55,
+    "price_changes": 26,
+    "availability_changes": 24,
+    "title_changes": 1,
+    "description_changes": 2,
+    "label_changes": 0,
+    "new_products": 28,
+    "removed_products": 7
+  },
+  "changed_products": [
+    {
+      "product_id": "15124",
+      "title": "HMM Ballpoint with Pen Case Set",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14730",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15380",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "19098",
+      "title": "Craighill Summit Card Case",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22907",
+      "title": "Three Marks - Laayyoo Guji Uraga, Ethiopia 250g",
+      "changes": {
+        "brand": [
+          "",
+          "Three Marks"
+        ]
+      }
+    },
+    {
+      "product_id": "22899",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n4 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "20582",
+      "title": "Mark Buxton Free EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20584",
+      "title": "Mark Buxton Why Not a Foug\u00e8re EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "22154",
+      "title": "Craighill Batten Card Wallet",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20585",
+      "title": "Mark Buxton Wood and Absinth EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20581",
+      "title": "Mark Buxton I Want EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15710",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15384",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "22402",
+      "title": "d'Annam Strawberry Mochi EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20583",
+      "title": "Mark Buxton Why Not a Cologne EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "14729",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "21282",
+      "title": "d\u2019Annam White Rice EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20580",
+      "title": "Mark Buxton To Break EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15561",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20201",
+      "title": "SCHMIDT Refill P900M - Pack of 3",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20590",
+      "title": "Mark Buxton A Day in My Life EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "21602",
+      "title": "APFR Closet Tag Paper Air Freshener - Oakmoss & Amber - By Apotheke Fragrance of Japan - Lasts For a Month",
+      "changes": {
+        "title": [
+          "APFR Closet Tag",
+          "APFR Closet Tag Paper Air Freshener - Oakmoss & Amber - By Apotheke Fragrance of Japan - Lasts For a Month"
+        ]
+      }
+    },
+    {
+      "product_id": "20586",
+      "title": "Mark Buxton Black Angel EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20579",
+      "title": "Mark Buxton Mi Confesi\u00f3n EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "17785",
+      "title": "Fellow Opus Conical Burr Grinder - Black - 41+ Precision Settings - 6 Burly Burrs - 110 Gram Capacity",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "27573",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "price": [
+          "125.00 GBP",
+          "135.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "55557",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "19516",
+      "title": "Abel Cobalt Amber EDP 15ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "12724",
+      "title": "HMM x Akame Woven Plate",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13036",
+      "title": "HMM Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20589",
+      "title": "Mark Buxton Spiritual Healing EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "19905",
+      "title": "HMM W Glass Mug",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14731",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "27572",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13233",
+      "title": "Yield Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18542",
+      "title": "Hetkinen Forest Riot EDP 30ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15709",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15383",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "16240-28",
+      "title": "Rains Card Holder W1",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20587",
+      "title": "Mark Buxton Devil in Disguise EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15382",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "12998",
+      "title": "HMM Mechanical Pencil",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22909",
+      "title": "Three Marks - Musha CWS, Rwanda 250g",
+      "changes": {
+        "brand": [
+          "",
+          "Three Marks"
+        ]
+      }
+    },
+    {
+      "product_id": "22136",
+      "title": "WOHA Calahorra Extrait 2x2ml",
+      "changes": {
+        "image_link": [
+          "https://mygodshot.com/wp-content/uploads/2025/02/1D563632-14A7-4FB1-97D6-796E0117A8D7_1_105_c.png",
+          "https://mygodshot.com/wp-content/uploads/2025/02/1D563632-14A7-4FB1-97D6-796E0117A8D7_1_105_c-e1762376523714.png"
+        ]
+      }
+    },
+    {
+      "product_id": "22073",
+      "title": "Mark Buxton Dreaming with Ghosts EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "22136-1",
+      "title": "WOHA Calahorra Sample 2ml",
+      "changes": {
+        "image_link": [
+          "https://mygodshot.com/wp-content/uploads/2025/02/2FAAD3F4-CAB7-43DD-9EB4-7AA87E27936F.png",
+          "https://mygodshot.com/wp-content/uploads/2025/02/2FAAD3F4-CAB7-43DD-9EB4-7AA87E27936F-e1762376442325.png"
+        ]
+      }
+    },
+    {
+      "product_id": "22908",
+      "title": "Three Marks - Bumba, Burundi 250g",
+      "changes": {
+        "brand": [
+          "",
+          "Three Marks"
+        ]
+      }
+    },
+    {
+      "product_id": "19097",
+      "title": "Craighill Summit Card Case",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20019",
+      "title": "Cinnamon Projects Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20588",
+      "title": "Mark Buxton Emotional Drop EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "19536",
+      "title": "Fellow Opus Grinder & Stagg EKG Kettle Bundle - Matte Black - UK Specification",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8431",
+      "title": "Kinto Cast Iced Tea Glass 350ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23035",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n4 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "14732",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "23050",
+      "title": "Paperian Lists To Live By Daily Handy Planner",
+      "price": "19.50 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21268",
+      "title": "Paperian Lists To Live By Undated Planner",
+      "price": "28.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23070",
+      "title": "A Matter of Concrete - Laurina3, Supriyanto, Indonesia 100g",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23043",
+      "title": "Mark Buxton Scented Candle 180g",
+      "price": "45.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23066",
+      "title": "Blackwing Pencil Essentials Set",
+      "price": "55.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23036-1",
+      "title": "WOHA Om Ah Uhm Sample 2ml",
+      "price": "5.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23049",
+      "title": "Paperian Lists To Live By Daily Handy Planner",
+      "price": "19.50 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21262",
+      "title": "Paperian Lists To Live By Daily Weekly Planner",
+      "price": "21.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23069",
+      "title": "HMM Paperweight Raw",
+      "price": "25.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23047",
+      "title": "Paperian Lists To Live By Daily Handy Planner",
+      "price": "19.50 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21269",
+      "title": "Paperian Lists To Live By Undated Planner",
+      "price": "28.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23071",
+      "title": "A Matter of Concrete - /054, Yellow Catua\u00ed, Brazil 240g",
+      "price": "19.50 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23065",
+      "title": "Blackwing One-Step Long Point Sharpener Keith Haring Edition",
+      "price": "40.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23038",
+      "title": "Happy Christ-Mess Christmas Card",
+      "price": "3.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "21259",
+      "title": "Paperian Lists To Live By Daily Weekly Planner",
+      "price": "21.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21261",
+      "title": "Paperian Lists To Live By Daily Weekly Planner",
+      "price": "21.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23068",
+      "title": "HMM Aluminium Clip Raw - Set of 2",
+      "price": "24.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23045",
+      "title": "Mark Buxton Scented Candle 180g",
+      "price": "45.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23044",
+      "title": "Mark Buxton Scented Candle 180g",
+      "price": "45.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23046",
+      "title": "Paperian Goal Tracker 100 Days",
+      "price": "5.50 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23040",
+      "title": "Mark Buxton Wild Wild Wood EDP 50ml",
+      "price": "130.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23042",
+      "title": "Mark Buxton Scented Candle 180g",
+      "price": "45.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23039",
+      "title": "Sorry It's Tacky Card",
+      "price": "3.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "23032",
+      "title": "WOHA Om Ah Uhm 30ml",
+      "price": "120.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "20058",
+      "title": "Paperian Lists To Live By To Do List",
+      "price": "13.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21410",
+      "title": "Paperian Lists To Live By To Do List",
+      "price": "13.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21260",
+      "title": "Paperian Lists To Live By Daily Weekly Planner",
+      "price": "21.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "23048",
+      "title": "Paperian Lists To Live By Daily Handy Planner",
+      "price": "19.50 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "14849",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "14853",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "14850",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "14855",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "14851",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "14854",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "14852",
+      "title": "Hibi 10 Minute Incense Matchsticks",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "14730",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15380",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20582",
+      "title": "Mark Buxton Free EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20584",
+      "title": "Mark Buxton Why Not a Foug\u00e8re EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20585",
+      "title": "Mark Buxton Wood and Absinth EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20581",
+      "title": "Mark Buxton I Want EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15710",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15384",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20583",
+      "title": "Mark Buxton Why Not a Cologne EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "14729",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20580",
+      "title": "Mark Buxton To Break EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15561",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20590",
+      "title": "Mark Buxton A Day in My Life EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20586",
+      "title": "Mark Buxton Black Angel EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20579",
+      "title": "Mark Buxton Mi Confesi\u00f3n EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "27573",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "price": [
+          "125.00 GBP",
+          "135.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "55557",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20589",
+      "title": "Mark Buxton Spiritual Healing EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "14731",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15709",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15383",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20587",
+      "title": "Mark Buxton Devil in Disguise EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "15382",
+      "title": "Hightide Penco Bucket Tote Bag",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "22073",
+      "title": "Mark Buxton Dreaming with Ghosts EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "20588",
+      "title": "Mark Buxton Emotional Drop EDP 100ml",
+      "changes": {
+        "price": [
+          "90.00 GBP",
+          "120.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "14732",
+      "title": "Hightide Penco Small Tape Dispenser",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "28.00 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "15124",
+      "title": "HMM Ballpoint with Pen Case Set",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19098",
+      "title": "Craighill Summit Card Case",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22899",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n4 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "22154",
+      "title": "Craighill Batten Card Wallet",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20581",
+      "title": "Mark Buxton I Want EDP 50ml",
+      "changes": {
+        "price": [
+          "95.00 GBP",
+          "130.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22402",
+      "title": "d'Annam Strawberry Mochi EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21282",
+      "title": "d\u2019Annam White Rice EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20201",
+      "title": "SCHMIDT Refill P900M - Pack of 3",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17785",
+      "title": "Fellow Opus Conical Burr Grinder - Black - 41+ Precision Settings - 6 Burly Burrs - 110 Gram Capacity",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19516",
+      "title": "Abel Cobalt Amber EDP 15ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "12724",
+      "title": "HMM x Akame Woven Plate",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13036",
+      "title": "HMM Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19905",
+      "title": "HMM W Glass Mug",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "27572",
+      "title": "Kinto SCS-S04 Brewer Stand Set",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13233",
+      "title": "Yield Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18542",
+      "title": "Hetkinen Forest Riot EDP 30ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16240-28",
+      "title": "Rains Card Holder W1",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "12998",
+      "title": "HMM Mechanical Pencil",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19097",
+      "title": "Craighill Summit Card Case",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20019",
+      "title": "Cinnamon Projects Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19536",
+      "title": "Fellow Opus Grinder & Stagg EKG Kettle Bundle - Matte Black - UK Specification",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8431",
+      "title": "Kinto Cast Iced Tea Glass 350ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23035",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n4 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    }
+  ],
+  "title_changes": [
+    {
+      "product_id": "21602",
+      "title": "APFR Closet Tag Paper Air Freshener - Oakmoss & Amber - By Apotheke Fragrance of Japan - Lasts For a Month",
+      "changes": {
+        "title": [
+          "APFR Closet Tag",
+          "APFR Closet Tag Paper Air Freshener - Oakmoss & Amber - By Apotheke Fragrance of Japan - Lasts For a Month"
+        ]
+      }
+    }
+  ],
+  "description_changes": [
+    {
+      "product_id": "22899",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n4 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "23035",
+      "title": "Dak - Panettone 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available for pre-order. Estimated in stock Friday 7 November.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n3 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nSoaked Orange Cake, Cardamom, Pearl Sugar\n\n\nRoast Date\n4 November 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    }
+  ],
+  "label_changes": []
+}

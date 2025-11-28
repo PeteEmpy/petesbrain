@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# OAuth tokens
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+

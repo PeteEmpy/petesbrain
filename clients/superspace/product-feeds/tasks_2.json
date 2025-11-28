@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": "c266f914-8db1-41f1-a75b-42eecf54e4df",
+      "title": "[MEDIUM] Superspace - Fix Price Issues (2 products)",
+      "client": "superspace",
+      "priority": "P0",
+      "due_date": "2025-11-22",
+      "time_estimate_mins": null,
+      "notes": "**Priority**: MEDIUM\n**Products Affected**: 2 products with price issues\n\n**Issue**: Price mismatch or missing price\n\n**Action Items**:\n1. Access Superspace Merchant Center (ID: 645236311)\n2. Identify 2 disapproved products\n3. Check that prices are:\n   - Present and non-zero in feed\n   - Match landing page price\n   - In correct currency (GBP)\n4. Update feed or website to match\n\n**Expected Impact**: Restore 2 products\n\n**Reference**: See /tools/product-impact-analyzer/DISAPPROVAL-ACTION-PLAN.md\n\n**Note**: Migrated from superspace-uk folder during consolidation (2025-11-20)",
+      "source": "Migrated from Google Tasks (Nov 18, 2025)",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-18T08:14:56.351825",
+      "updated_at": "2025-11-20T07:15:00.000000",
+      "completed_at": null
+    },
+    {
+      "id": "0e776c58-d85f-4c93-9a37-689c784aa63b",
+      "title": "[Superspace] AUTOMATIC Phase 2: 20% budget reduction (unless Craig stops)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-22",
+      "time_estimate_mins": 30,
+      "notes": "AUTOMATIC EXECUTION - Proceed unless client requests stop.\n\n**Context:** Phase 2 of emergency stock depletion response. Phase 1 (20% cut) completed Nov 20.\n\n**Action:** Reduce US campaign budgets by additional 20% from current \u00a311,568/day.\n\n**New Target:** \u00a39,254/day active budget (total ~42% reduction from original \u00a314,460)\n\n**Method:** Apply ROAS-weighted cuts again, same algorithm as Phase 1.\n\n**Before Executing:**\n1. Check email/WhatsApp for any \"stop\" message from Craig\n2. If no stop message received by 9:00 AM Friday \u2192 PROCEED AUTOMATICALLY\n\n**After Executing:**\n3. Verify via GAQL query\n4. Update tasks-completed.md\n5. Send brief email confirmation to Craig\n6. Note: Demand Gen campaigns stay paused\n\n**Reference:** clients/superspace/documents/2025-11-20-us-budget-reduction-ROAS-WEIGHTED.md",
+      "source": "Manual",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T10:01:08.288564",
+      "updated_at": "2025-11-20T10:01:08.288761",
+      "completed_at": null
+    },
+    {
+      "id": "ce07fb5a-4f9a-47b8-bde6-1710634d9179",
+      "title": "[Superspace] AUTOMATIC Phase 3: 10% budget reduction (unless Craig stops)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-25",
+      "time_estimate_mins": 30,
+      "notes": "AUTOMATIC EXECUTION - Proceed unless client requests stop.\n\n**Context:** Phase 3 (final) of emergency stock depletion response. Phases 1+2 completed.\n\n**Action:** Reduce US campaign budgets by final 10% from Phase 2 levels.\n\n**New Target:** \u00a38,329/day active budget (total ~45% reduction from original \u00a314,460)\n\n**Method:** Apply ROAS-weighted cuts again.\n\n**Before Executing:**\n1. Check email/WhatsApp for any \"stop\" message from Craig\n2. If no stop message received by 9:00 AM Monday \u2192 PROCEED AUTOMATICALLY\n\n**After Executing:**\n3. Verify via GAQL query\n4. Update tasks-completed.md\n5. Send brief email confirmation to Craig\n6. Review with Craig: When to begin scaling back up when stock arrives\n\n**Reference:** clients/superspace/documents/2025-11-20-us-budget-reduction-ROAS-WEIGHTED.md",
+      "source": "Manual",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T10:01:08.289569",
+      "updated_at": "2025-11-20T10:01:08.289571",
+      "completed_at": null
+    },
+    {
+      "id": "618a6a1b-229c-4f81-a5a5-d72feb5103d4",
+      "title": "[Superspace] Evaluate Shopping Brand campaign structure vs Nils Rooijmans' best practice",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-25",
+      "time_estimate_mins": 60,
+      "notes": "**Strategic Evaluation: Brand Shopping Campaign Setup**\n\n**Context:** Nils Rooijmans email (Nov 19/20, 2025) outlined best practice for brand Shopping campaigns - specifically using LOW-priority campaigns with negative keyword lists, NOT high-priority brand campaigns.\n\n**Current Superspace Setup:**\n- Shopping Branded: \u00a34,500/day (largest Shopping campaign)\n- P Max Brand Excluded: \u00a32,700/day\n- Shopping Brand Excluded: \u00a32,200/day\n\n**Question:** Is \"Shopping Branded\" following Nils' recommended LOW-priority structure, or is it high/medium priority?\n\n---\n\n## Nils Rooijmans' Methodology (The RIGHT Way)\n\n**Setup:**\n1. Create LOW-priority Shopping campaign for brand searches\n2. Add products you want to show for branded searches\n3. Set HIGH manual CPC bids (or allow high CPCs) for maximum visibility\n4. Add brand terms to negative keyword list on ALL other non-brand Shopping campaigns\n\n**Why This Works:**\n- Products ONLY show for branded searches (no budget waste)\n- Tight control over CPCs, impression share, and products shown\n- No need to negate thousands of non-brand searches (avoids keyword limit issues)\n\n**Critical Requirements:**\n\u26a0\ufe0f All products in low-priority brand campaign MUST ALSO be in high/medium-priority non-brand campaigns\n\u26a0\ufe0f Non-brand campaigns must NEVER run out of budget before brand campaign (prevents leakage)\n\u26a0\ufe0f Same ad schedules, audience targeting, device targeting, location targeting across all campaigns\n\n---\n\n## Audit Action Items\n\n**Step 1: Check Current Campaign Priority (15 mins)**\n- Open \"Shopping Branded\" campaign in Google Ads\n- Check Campaign Settings \u2192 Shopping campaign priority\n- Current setting: HIGH / MEDIUM / LOW?\n- Current bid strategy: Manual CPC or Smart Bidding?\n- Current bids: What are typical CPCs?\n\n**Step 2: Check Negative Keyword Lists (15 mins)**\n- Are brand terms (\"superspace\", \"getsuperspace\", etc.) added as negatives to:\n  - \"Shopping Brand Excluded\" campaign? \u2713 or \u2717\n  - \"P Max Brand Excluded\" campaign? (check if PMax respects negative lists)\n  - Other Shopping campaigns?\n- If YES: Already following part of best practice\n- If NO: Brand leakage risk across campaigns\n\n**Step 3: Check Product Coverage (15 mins)**\n- Are ALL products in \"Shopping Branded\" campaign ALSO in non-brand Shopping campaigns?\n- Could non-brand searches accidentally trigger brand campaign due to budget constraints?\n- Check budget pacing: Does \"Shopping Branded\" ever exhaust before others?\n\n**Step 4: Evaluate Current Performance (10 mins)**\n- What % of \"Shopping Branded\" searches are actually branded vs non-branded?\n  - Run Search Terms Report for last 30 days\n  - Count branded searches vs generic searches\n- Are you paying for non-brand clicks in the brand campaign? (waste indicator)\n\n**Step 5: Document Findings & Recommendation (5 mins)**\n- Current structure: Follows Nils' best practice? Yes / No / Partial\n- If NO: What needs to change?\n- If YES: Document for knowledge base\n\n---\n\n## Expected Outcomes\n\n**If currently HIGH-priority brand campaign (wrong way):**\n- Recommendation: Switch to LOW-priority + high manual bids\n- Add \"superspace\" brand terms to negative lists on non-brand campaigns\n- Expected benefit: Tighter budget control, prevent non-brand waste\n\n**If already LOW-priority (right way):**\n- Document current setup as best practice example\n- Verify negative keyword lists are comprehensive\n- Monitor for any non-brand search leakage\n\n---\n\n## Reference Documents\n\n**Nils Rooijmans Email:** Saved in knowledge base (Nov 19/20, 2025)\n- Topic: \"How do you run BRAND campaigns in Shopping?\"\n- Key principle: LOW-priority campaign + negative keyword lists (not high-priority with script negation)\n\n**Related:** This same audit should be applied to Tree2MyDoor brand campaigns (separate task created)\n",
+      "source": "Niels Riekemans email - Shopping brand campaign best practice",
+      "tags": [
+        "strategy",
+        "brand-campaigns",
+        "shopping",
+        "audit",
+        "niels-riekemans",
+        "best-practice"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T22:29:31.181315",
+      "updated_at": "2025-11-20T22:32:33.114198",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-22T07:03:36.681788"
+}

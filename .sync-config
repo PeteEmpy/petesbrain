@@ -1,0 +1,13 @@
+# PetesBrain Sync Configuration
+# Method: rsync, git, or icloud
+TYPE=Laptop
+SYNC_METHOD="rsync"
+
+# Desktop hostname (for laptop to pull from)
+DESKTOP_HOST="Peters-Mac-mini.lan"
+DESKTOP_USER="administrator"
+DESKTOP_PATH="/Users/administrator/Documents/PetesBrain"
+
+# Laptop hostname (for desktop to push to, if needed)
+# LAPTOP_HOST="Peters-MacBook-Pro.local"
+# LAPTOP_USER="administrator"

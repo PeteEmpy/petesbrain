@@ -1,0 +1,24 @@
+{
+  "specification": {
+    "title": "Experiment Logging Requirements - 5 Essential Questions",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/rok-methodologies/experiment-logging-guide.md",
+        "extracted_at": "2025-11-11T09:21:36.971795",
+        "verified": false
+      }
+    ],
+    "content": {
+      "question_1_what": "1 sentence describing specific change",
+      "question_2_why": "Strategic reasoning with business/performance justification",
+      "question_3_hypothesis": "Expected outcome with specific numbers/metrics",
+      "question_4_review_date": "Specific date based on change type timeline",
+      "question_5_success_criteria": "Quantified minimum acceptable outcomes",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

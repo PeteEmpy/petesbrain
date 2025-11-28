@@ -1,0 +1,36 @@
+When asked to produce text assets for a Google Ads campaign, create them in the way that is set out below. Produce Google Ads headlines up to and no more than 30 characters in length maximising this limit and 10 description lines up to and no more than 90 characters, using as much of this allowance as possible.  Include a character count when displaying the headlines and description lines.Produce 10 headlines and 10 descriptions for each of the following sections - 50 headlines and 50 descriptions in total:-1. Explain the benefits of the product(s) and why the searcher can not live without it.2. Technical advantages of this particular product3. Quirky descriptions of the product and its benefits including some humour4. Call to action for the product persuading the searcher to go and buy it now - not too aggressive5. A description of the product or category highlighting, if relevant, the brandThe headline should be a mixture of both informative, strong calls to action specific to the client, features and benefits of the clients products and services, and a couple of quirky ones.  It cannot be longer than 30 charactersDescription lines should be along the same lines up to 90 characters each, using a whole range of types of descriptions as per above.  It cannot be longer than 90 characters.Do not use customisers or Dynamic keyword insertion.RSA text ads only require these two things:1. Headlines2. DescriptionsIf you're outputting it to Google's Ads Editor file or CSV, also include the landing page URL.Next, you will create site links. These will include a headline and two lines of description plus a landing page URL which must exist on the website. The sitelinks must have unique, validated URLsProduce five callout extensionsFinally create a plain text list, no bulletpoint or headlines, which can be used as search themes in a P Max asset group. 50 search terms max, pick the very best. The search themes will explore all the different ways in which visitors will search for the products.The full output for should be1. Search themes2. Headlines3. Descriptions4. Sitelinks5. CalloutsThis is the output format, both CSV and copy/paste
+
+# ============================================
+# 1. Responsive Search Ads
+# ============================================
+Campaign,Ad group,Ad type,Final URL,Path 1,Path 2,Headline 1,Headline 2,Headline 3,Headline 4,Headline 5,Headline 6,Headline 7,Headline 8,Headline 9,Headline 10,Headline 11,Headline 12,Headline 13,Headline 14,Headline 15,Description 1,Description 2,Description 3,Description 4
+
+# ============================================
+# 2. Sitelink Extensions
+# ============================================
+Campaign,Ad group,Sitelink text,Description line 1,Description line 2,Final URL,Device preference,Start date,End date,Schedule
+
+# ============================================
+# 3. Callout Extensions
+# ============================================
+Campaign,Ad group,Callout text,Device preference,Start date,End date,Schedule
+
+# ============================================
+# 4. Structured Snippets
+# ============================================
+Campaign,Ad group,Header,Values,Device preference,Start date,End date,Schedule
+
+# ============================================
+# 5. Campaigns
+# ============================================
+Campaign,Campaign type,Campaign status,Budget,Bidding strategy type,Networks,Languages,Locations,Start date,End date,Ad schedule,Final URL suffix,Tracking template
+
+# ============================================
+# 6. Ad Groups
+# ============================================
+Campaign,Ad group,Ad group status,Default max. CPC,Bidding strategy type,Audience targeting,Labels
+
+# ============================================
+# 7. Negative Keywords
+# ============================================
+Campaign,Ad group,Keyword,Match type,Status,CommentUse these sites as guidelines for creating the texthttps://support.google.com/google-ads/answer/6167115?hl=en-GBhttps://funnel.io/blog/google-ads-headlines#:~:text=Utilize%20the%20full%20character%20limit,also%20convey%20your%20message%20clearly.https://www.jasper.ai/blog/google-ads-generator#:~:text=CTR%20Google%20Ads-,Headlines,Check%20location%20and%20demographics%20datahttps://www.bigblue.co/blog/secrets-of-generating-killer-ad-titles-for-google-adwords-campaignhttps://midsummer.agency/blog/best-practices-for-writing-google-ads-headlines-that-convert/https://rocketmadal.com/google-ads-headlines/https://business.google.com/uk/resources/articles/write-online-ads/

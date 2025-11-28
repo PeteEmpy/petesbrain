@@ -1,0 +1,41 @@
+{
+  "specification": {
+    "title": "Lead Generation Technical Implementation Session Structure",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/2025-11-google-ads-lead-generation-technical-support-appointment.md",
+        "extracted_at": "2025-11-11T09:21:36.946598",
+        "verified": false
+      }
+    ],
+    "content": {
+      "appointment_duration": "60 minutes (10:30-11:30 PM)",
+      "maximum_reschedules": 3,
+      "mandatory_attendees": [
+        "Website admin with FTP/Admin panel access",
+        "CRM Point of Contact with admin access",
+        "Google Ads manager with account access"
+      ],
+      "pre_session_requirements": [
+        "Accept calendar invite (authorizes Technical Specialist guidance)",
+        "Complete website backup before call",
+        "Set up Google Meet for screen sharing",
+        "Review Pre-call Checklist (https://support.google.com/google-ads/answer/11604930)"
+      ],
+      "implementation_scope": [
+        "Lead generation tracking codes on website",
+        "Campaign setup in Google Ads",
+        "Analytics account configuration"
+      ],
+      "cancellation_triggers": "All attendees decline invite",
+      "character_limits": {},
+      "required_counts": {
+        "minimum_required_attendees": 3,
+        "maximum_reschedule_attempts": 3
+      }
+    }
+  }
+}

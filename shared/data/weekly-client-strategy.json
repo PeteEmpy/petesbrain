@@ -1,0 +1,582 @@
+{
+  "generated_at": "2025-11-27T06:53:26.239484",
+  "week_of": "2025-11-27",
+  "total_clients": 24,
+  "clients_with_priorities": 21,
+  "total_priorities": 70,
+  "priorities": [
+    {
+      "priority": "Establish Initial Strategic Framework",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "New client requires foundational strategic alignment and initial goal setting to create clear direction",
+      "client": "510cd9e9-f300-456a-834e-d37285f44706"
+    },
+    {
+      "priority": "Initial Client Discovery Meeting",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Critical to understand client's current state, objectives, and potential strategic opportunities",
+      "client": "510cd9e9-f300-456a-834e-d37285f44706"
+    },
+    {
+      "priority": "Q4 Peak Season ROAS Reduction Impact Analysis",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Recent ROAS reduction from 190% to 170% requires close monitoring during critical peak season scaling period, with decision point for potential further budget/targeting adjustments",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "priority": "Competitive Landscape Deep Dive for Black Friday Positioning",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "22+ active competitors with 10%+ impression share require proactive strategy to maintain market leadership during peak shopping period",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "priority": "Product Performance Optimization for Niche Categories",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Address 39 products with GTIN/policy issues to restore niche product visibility and potential revenue streams before holiday season",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "priority": "Q4 Strategic Communication Prep with Client",
+      "type": "communication",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Proactively align with Samantha Walkden on Q4 performance expectations, ROAS strategy, and upcoming Black Friday/Cyber Monday approach",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "priority": "Q4 Budget Ramp Strategy Validation",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Validate initial budget increase to \u00a3200/day for Q4, ensure ROAS remains stable while capturing holiday season impression share",
+      "client": "bright-minds"
+    },
+    {
+      "priority": "Performance Max Asset Group Performance Analysis",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Evaluate Science Toys and STEM Toys asset groups created in October to refine targeting and messaging before peak holiday season",
+      "client": "bright-minds"
+    },
+    {
+      "priority": "Weekly Client Trust-Building Communication",
+      "type": "communication",
+      "effort": "low",
+      "impact": "high",
+      "why": "Maintain transparent weekly reporting to reassure cautious client about campaign performance during learning phase, especially with budget increases",
+      "client": "bright-minds"
+    },
+    {
+      "priority": "Conversion Tracking Stability Monitoring",
+      "type": "review",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Ensure recent conversion tracking changes are accurately capturing purchases and supporting Smart Bidding optimization",
+      "client": "bright-minds"
+    },
+    {
+      "priority": "Establish Initial Strategic Framework",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "New client requires foundational strategic alignment and initial goal setting to create clear direction and expectations",
+      "client": "c38af8ac-cae4-4236-a5a3-ddad63e3508a"
+    },
+    {
+      "priority": "Initial Client Discovery Session",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Critical to understand client's current state, objectives, challenges, and potential opportunities before developing detailed strategy",
+      "client": "c38af8ac-cae4-4236-a5a3-ddad63e3508a"
+    },
+    {
+      "priority": "BMPM Performance Recovery Strategy",
+      "type": "optimization",
+      "effort": "high",
+      "impact": "high",
+      "why": "BMPM PMax campaign showing critical performance issues (78% ROAS vs 70% target), requires immediate strategic intervention to prevent continued revenue loss",
+      "client": "clear-prospects"
+    },
+    {
+      "priority": "November Performance Narrative Development",
+      "type": "reporting",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Prepare comprehensive monthly report highlighting key performance insights, especially HappySnapGifts face masks ROAS turnaround and strategic campaign restructuring learnings",
+      "client": "clear-prospects"
+    },
+    {
+      "priority": "Cross-Brand Performance Consolidation Review",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Analyze campaign structure across HSG, WBS, and BMPM to identify potential cross-brand optimization strategies, particularly focusing on channel performance and Smart Bidding data consolidation",
+      "client": "clear-prospects"
+    },
+    {
+      "priority": "Conversion Tracking Performance Investigation",
+      "type": "review",
+      "effort": "high",
+      "impact": "high",
+      "why": "Only 54% of conversions currently being reported, potentially misrepresenting account performance and impacting Smart Bidding strategy. Critical to understand true account performance and restore accurate conversion tracking.",
+      "client": "crowd-control"
+    },
+    {
+      "priority": "Product Hero Label Performance Analysis",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Investigate dramatic CTR collapse for hero products (0.12-0.75% CTR) and understand why top-performing products are losing visibility, which could significantly impact revenue",
+      "client": "crowd-control"
+    },
+    {
+      "priority": "October 14 ROAS Target Reduction Strategy Review",
+      "type": "planning",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Understand the strategic rationale behind standardizing all campaigns to 170% ROAS, which coincided with a performance drop and may require corrective action",
+      "client": "crowd-control"
+    },
+    {
+      "priority": "Performance Max Asset Group Recovery Strategy",
+      "type": "optimization",
+      "effort": "high",
+      "impact": "high",
+      "why": "Critical unresolved issue blocking campaign performance, significant client frustration, requires comprehensive Google escalation and potential alternative strategy development",
+      "client": "devonshire-hotels"
+    },
+    {
+      "priority": "November Budget Optimization Validation",
+      "type": "review",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Recent budget changes require immediate performance tracking to confirm incremental ROAS and validate allocation strategy across core properties",
+      "client": "devonshire-hotels"
+    },
+    {
+      "priority": "Beeley Inn Keyword Performance Deep Dive",
+      "type": "experiment",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Exceptional 1,194% ROAS presents opportunity to extract strategic insights that could be applied across other campaigns, potentially unlocking significant performance improvements",
+      "client": "devonshire-hotels"
+    },
+    {
+      "priority": "Conversion Tracking Audit for Low-Performing Campaigns",
+      "type": "review",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Zero conversions detected in Weddings, Lismore, and Bolton Abbey campaigns suggest potential tracking issues that need immediate investigation to ensure accurate performance measurement",
+      "client": "devonshire-hotels"
+    },
+    {
+      "priority": "Investigate September ROAS Optimization Patterns",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Multiple ROAS adjustments (280% \u2192 249% \u2192 260%) suggest active performance testing that needs strategic validation, especially given high overall ROAS targets (230-310%)",
+      "client": "go-glean"
+    },
+    {
+      "priority": "Initial Go Glean Business Model Research",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "Multiple TBD sections indicate critical knowledge gaps about business model, product categories, and performance drivers, particularly understanding grout vs non-grout product split",
+      "client": "go-glean"
+    },
+    {
+      "priority": "Prepare Connor Heaps Portfolio Strategy Discussion",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Need to understand relationship between Go Glean and Grain Guard businesses, explore cross-business learnings from different ROAS performance levels",
+      "client": "go-glean"
+    },
+    {
+      "priority": "Resolve Conversion Tracking Accuracy",
+      "type": "optimization",
+      "effort": "high",
+      "impact": "high",
+      "why": "80% mismatch between Google Ads conversions and WooCommerce sales risks entire campaign optimization strategy, potentially inflating reported ROAS and misguiding budget allocation",
+      "client": "godshot"
+    },
+    {
+      "priority": "Investigate Asset Group Performance Inefficiencies",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Asset groups for Fellow, Rains, and Coffee Generic are burning budget without conversions, indicating potential targeting or creative misalignment that needs immediate strategic intervention",
+      "client": "godshot"
+    },
+    {
+      "priority": "Prepare Merchant Center Policy Compliance Strategy",
+      "type": "planning",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Previous account suspension and current product title policy violations suggest systemic compliance risks that could threaten account stability and advertising capabilities",
+      "client": "godshot"
+    },
+    {
+      "priority": "Develop Multi-Touch Attribution Insights",
+      "type": "experiment",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Current data suggests customers use Google Ads for product discovery rather than direct purchase, indicating need to understand and optimize full customer journey",
+      "client": "godshot"
+    },
+    {
+      "priority": "Investigate Heroes & Sidekicks vs Villains Performance Gap",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "20 ROAS point difference suggests significant optimization potential, with H&S at 160% vs Villains at 140%. Understanding product performance variations could unlock substantial revenue improvement.",
+      "client": "grain-guard"
+    },
+    {
+      "priority": "Assess 'Shopping Only' Campaign Performance Impact",
+      "type": "review",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Sept 11 campaign structure change requires immediate performance validation to confirm effectiveness and determine if further adjustments are needed",
+      "client": "grain-guard"
+    },
+    {
+      "priority": "Prepare Initial Client Onboarding Strategy",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Many critical account details are TBD, including budget, contact specifics, and performance targets. Direct client input is crucial for developing comprehensive account strategy",
+      "client": "grain-guard"
+    },
+    {
+      "priority": "Clarify JHD Sub-Brand Strategic Positioning",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Unclear what JHD represents, which impacts campaign strategy, product feed management, and potential market segmentation. Critical to understand brand's purpose and potential.",
+      "client": "just-bin-bags"
+    },
+    {
+      "priority": "Initial Performance Baseline Establishment",
+      "type": "review",
+      "effort": "high",
+      "impact": "high",
+      "why": "No established KPIs, conversion tracking, or performance metrics. Need comprehensive initial audit to set strategic foundation for future optimization.",
+      "client": "just-bin-bags"
+    },
+    {
+      "priority": "Conversion Tracking Validation and Setup",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "No confirmed conversion tracking means inability to measure true campaign performance. Critical to implement robust tracking across both JBB and JHD brands.",
+      "client": "just-bin-bags"
+    },
+    {
+      "priority": "Validate NMA Target CPA strategy for Engineering Search and Management PMax campaigns",
+      "type": "optimization",
+      "effort": "high",
+      "impact": "high",
+      "why": "Recent meeting highlighted extreme CPA issues (\u00a3917 current vs \u00a3110-130 target), requiring immediate strategic intervention to improve conversion performance and reduce acquisition costs",
+      "client": "national-design-academy"
+    },
+    {
+      "priority": "Review Geographic Performance Analysis dashboard with latest enrollment data",
+      "type": "reporting",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Ensure latest country-level ROAS and enrollment insights are current for upcoming strategic decision-making, particularly given recent international market expansion focus",
+      "client": "national-design-academy"
+    },
+    {
+      "priority": "Monitor Landing Page Performance for Interior Design Diploma",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "New landing page launched 22 Nov requires close monitoring due to significant structural changes that could impact conversion rates, lead quality, and overall campaign performance",
+      "client": "national-design-academy"
+    },
+    {
+      "priority": "Budget Reduction Impact Assessment",
+      "type": "optimization",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Confirm recent budget cuts (reduced to \u00a3765/day) are maintaining performance while reducing overall spend, ensuring client's cost efficiency goals are met without compromising lead generation",
+      "client": "national-design-academy"
+    },
+    {
+      "priority": "Develop Target CPA Strategy Implementation Roadmap",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "Critical to address extremely high CPCs (\u00a3947) and critically low conversion rate (0.007%), with consultant Anwesha providing strategic guidance",
+      "client": "national-motorsports-academy"
+    },
+    {
+      "priority": "Enhanced Conversions Approval Follow-up",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Pending Google approval for Enhanced Conversions is blocking potential performance improvements and data quality",
+      "client": "national-motorsports-academy"
+    },
+    {
+      "priority": "India Market Expansion Initial Assessment",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Strategic international expansion opportunity with consultant's specific focus on developing India market",
+      "client": "national-motorsports-academy"
+    },
+    {
+      "priority": "Develop Q4 Performance Recovery Strategy",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "22% revenue drop requires proactive planning to mitigate seasonal decline and maintain year-over-year growth trajectory",
+      "client": "otc"
+    },
+    {
+      "priority": "Branding Alignment Workshop for Hotel Naming",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Address Helen's concerns about 'Devonshire Fell' vs 'The Fell' branding to ensure consistent marketing messaging",
+      "client": "otc"
+    },
+    {
+      "priority": "Restructure Monthly Performance Review Cadence",
+      "type": "review",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Implement agreed shift to first-week monthly meetings to enable faster performance optimization cycles",
+      "client": "otc"
+    },
+    {
+      "priority": "Performance Max Campaign Strategy Refinement",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Recent bid strategy change before Black Friday requires immediate performance monitoring and potential adjustment to capitalize on holiday shopping patterns",
+      "client": "positive-bakes"
+    },
+    {
+      "priority": "Platform Migration Impact Assessment",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Comprehensive review of Shopify migration's impact on product listings, tracking, and campaign performance to ensure full resolution of identified issues",
+      "client": "positive-bakes"
+    },
+    {
+      "priority": "Pre-Holiday Campaign Strategy Development",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "Critical to establish robust campaign structure and targeting before peak holiday shopping season, maximizing potential revenue opportunities",
+      "client": "positive-bakes"
+    },
+    {
+      "priority": "Client Communication and Goal Alignment",
+      "type": "communication",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Schedule strategic meeting with Aatin to confirm Q4 goals, discuss recent migration challenges, and align on upcoming holiday marketing approach",
+      "client": "positive-bakes"
+    },
+    {
+      "priority": "Clarify Azure and M365 Subscription Access Strategy",
+      "type": "planning",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Client is exploring MCP server access to Microsoft ADS accounts, requires clear technical and security roadmap",
+      "client": "roksys"
+    },
+    {
+      "priority": "Schedule Detailed Technical Scoping Session",
+      "type": "communication",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Follow up on initial troubleshooting meeting to define precise technical requirements and next steps",
+      "client": "roksys"
+    },
+    {
+      "priority": "Develop Christmas Launch Strategic Planning Framework",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "Recent notes indicate lack of organization for Christmas launch, critical to establish clear planning process after Lauren's departure",
+      "client": "shared"
+    },
+    {
+      "priority": "Performance Tracking Validation Post-Conversion System Update",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Recent tracking issues and algorithm disruption require comprehensive performance assessment to ensure accurate data and campaign optimization",
+      "client": "shared"
+    },
+    {
+      "priority": "Product Campaign Segmentation Strategy Deep Dive",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Current Product Hero methodology needs validation and potential refinement, especially after tracking system changes and performance fluctuations",
+      "client": "shared"
+    },
+    {
+      "priority": "Validate Q4 Revenue Target Performance",
+      "type": "review",
+      "effort": "high",
+      "impact": "high",
+      "why": "Mid-December checkpoint to assess if \u00a3780,691 Q4 revenue target is achievable, with 2.5 weeks remaining and current performance at ~72% of target",
+      "client": "smythson"
+    },
+    {
+      "priority": "Analyze Brand vs Non-Brand Performance Collapse",
+      "type": "optimization",
+      "effort": "high",
+      "impact": "high",
+      "why": "Critical performance decline identified (53% ROAS drop, 22% revenue decline) requires immediate root cause investigation and strategic intervention",
+      "client": "smythson"
+    },
+    {
+      "priority": "Prepare December Performance Adjustment Strategy",
+      "type": "planning",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Review November regional performance changes to validate or modify planned December ROAS reductions across UK, USA, EUR, and ROW accounts",
+      "client": "smythson"
+    },
+    {
+      "priority": "Post-Black Friday Asset Swap Execution",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Large-scale asset replacement across 4 regional accounts to transition from Black Friday to Christmas/New Collection messaging",
+      "client": "smythson"
+    },
+    {
+      "priority": "Stock Crisis Response & Budget Throttling Validation",
+      "type": "review",
+      "effort": "high",
+      "impact": "high",
+      "why": "US Christmas stock depleting faster than anticipated, requiring immediate validation of budget reduction strategy to prevent complete inventory sell-out before December restock",
+      "client": "superspace"
+    },
+    {
+      "priority": "Q4 Performance Max Campaign Strategy Recalibration",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Recent budget cuts and stock constraints require rapid re-evaluation of Q4 scaling strategy, especially with Black Friday/Cyber Monday approaching",
+      "client": "superspace"
+    },
+    {
+      "priority": "Demand Gen Campaign Learning Phase Assessment",
+      "type": "reporting",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Newly launched campaigns targeting grandparents need comprehensive 14-day performance review to validate targeting strategy and potential scaling opportunities",
+      "client": "superspace"
+    },
+    {
+      "priority": "Pre-Holiday Inventory and Marketing Alignment",
+      "type": "communication",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Critical client communication needed to align marketing spend with actual inventory availability, preventing potential revenue loss and customer disappointment",
+      "client": "superspace"
+    },
+    {
+      "priority": "Verify ProfitMetrics conversion tracking optimization",
+      "type": "review",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Critical technical issue could be misrepresenting true campaign performance and optimization strategy",
+      "client": "tree2mydoor"
+    },
+    {
+      "priority": "Complete October month-end report with detailed POAS decline analysis",
+      "type": "reporting",
+      "effort": "high",
+      "impact": "high",
+      "why": "Significant POAS drop from 215% to 121% requires comprehensive investigation and strategic communication with client",
+      "client": "tree2mydoor"
+    },
+    {
+      "priority": "Review Olive Tree product feed stability and potential algorithmic impact",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "medium",
+      "why": "Recent feed flickering caused massive click spike, potential ongoing risk to campaign performance",
+      "client": "tree2mydoor"
+    },
+    {
+      "priority": "Prepare Black Friday ROAS experiment reversion strategy",
+      "type": "planning",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Time-limited experiment ending, need clear plan to restore original ROAS settings without disrupting performance",
+      "client": "tree2mydoor"
+    },
+    {
+      "priority": "Q4 Performance Max Budget Optimization Strategy",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Implement phased \u00a31,300/day budget increase with careful ROAS management during peak Q4 period, capitalizing on Black Friday and Christmas shopping opportunities",
+      "client": "uno-lighting"
+    },
+    {
+      "priority": "AI Max Search Performance Evaluation",
+      "type": "review",
+      "effort": "low",
+      "impact": "medium",
+      "why": "Assess initial performance and query matching quality of recently enabled AI Max feature on Search Brand campaign to validate strategic AI preparedness",
+      "client": "uno-lighting"
+    },
+    {
+      "priority": "Product Feed Technical Optimization",
+      "type": "optimization",
+      "effort": "medium",
+      "impact": "high",
+      "why": "Proactively monitor and resolve GTIN accuracy, multi-variant product management, and feed complexity to prevent potential ad disapprovals and performance limitations",
+      "client": "uno-lighting"
+    },
+    {
+      "priority": "Q4 Customer Retention Strategy Development",
+      "type": "planning",
+      "effort": "high",
+      "impact": "high",
+      "why": "Develop targeted strategies to push return customer rate from current 21% toward 25-30% goal, leveraging trade account program and professional buyer insights",
+      "client": "uno-lighting"
+    }
+  ],
+  "by_type": {
+    "planning": 14,
+    "communication": 12,
+    "review": 20,
+    "optimization": 18,
+    "reporting": 4,
+    "experiment": 2
+  },
+  "by_impact": {
+    "high": 47,
+    "medium": 23,
+    "low": 0
+  }
+}

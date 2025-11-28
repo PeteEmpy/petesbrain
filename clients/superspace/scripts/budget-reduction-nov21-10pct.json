@@ -1,0 +1,37 @@
+[
+  {
+    "campaign_id": "20858523665",
+    "budget_id": "14412940053",
+    "new_daily_budget": 3229,
+    "campaign_name": "SUP | US | Shopping Branded",
+    "reason": "ROAS 614% - 12% cut (ROAS-weighted 10% total reduction)"
+  },
+  {
+    "campaign_id": "20823127115",
+    "budget_id": "14021953807",
+    "new_daily_budget": 2352,
+    "campaign_name": "SUP | US | Shopping Brand Excluded",
+    "reason": "ROAS 654% - 10% cut"
+  },
+  {
+    "campaign_id": "20531413508",
+    "budget_id": "11914791987",
+    "new_daily_budget": 2809,
+    "campaign_name": "SUP | US | P Max 700 Brand Excluded",
+    "reason": "ROAS 781% - 10% cut"
+  },
+  {
+    "campaign_id": "20614648481",
+    "budget_id": "12362766610",
+    "new_daily_budget": 604,
+    "campaign_name": "SUP | US | Search | Generics",
+    "reason": "ROAS 1072% - 8% cut (protect high performer)"
+  },
+  {
+    "campaign_id": "20604315988",
+    "budget_id": "12349718339",
+    "new_daily_budget": 1403,
+    "campaign_name": "SUP | US | Search | Brand Inclusion",
+    "reason": "ROAS 2343% - 6% cut (protect top performer)"
+  }
+]

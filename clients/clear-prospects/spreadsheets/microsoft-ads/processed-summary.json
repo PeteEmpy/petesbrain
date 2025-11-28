@@ -1,0 +1,358 @@
+{
+  "brands": {
+    "HSG": {
+      "spend": 3426.1,
+      "revenue": 3463.29,
+      "conversions": 134.0,
+      "clicks": 2579,
+      "roas": 101.09,
+      "months_active": 11
+    },
+    "WBS": {
+      "spend": 768.96,
+      "revenue": 5161.53,
+      "conversions": 95.0,
+      "clicks": 1644,
+      "roas": 671.24,
+      "months_active": 11
+    },
+    "TJR": {
+      "spend": 21.16,
+      "revenue": 281.42,
+      "conversions": 6.0,
+      "clicks": 35,
+      "roas": 1329.96,
+      "months_active": 7
+    }
+  },
+  "monthly_data": {
+    "HSG": {
+      "spend": 3426.1,
+      "revenue": 3463.29,
+      "conversions": 134.0,
+      "clicks": 2579,
+      "months": [
+        {
+          "month": "2025-01-01",
+          "campaign": "CPL | HSG | HappySnapGifts - Company",
+          "spend": 86.46,
+          "revenue": 0.0,
+          "conversions": 0.0,
+          "clicks": 238
+        },
+        {
+          "month": "2025-01-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 7.38,
+          "revenue": 14.4,
+          "conversions": 1.0,
+          "clicks": 14
+        },
+        {
+          "month": "2025-02-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 11.56,
+          "revenue": 0.0,
+          "conversions": 0.0,
+          "clicks": 30
+        },
+        {
+          "month": "2025-03-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 56.05,
+          "revenue": 121.79,
+          "conversions": 7.0,
+          "clicks": 67
+        },
+        {
+          "month": "2025-04-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 467.35,
+          "revenue": 318.51,
+          "conversions": 14.0,
+          "clicks": 275
+        },
+        {
+          "month": "2025-05-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 259.3,
+          "revenue": 205.54,
+          "conversions": 11.0,
+          "clicks": 232
+        },
+        {
+          "month": "2025-06-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 458.29,
+          "revenue": 727.92,
+          "conversions": 32.0,
+          "clicks": 347
+        },
+        {
+          "month": "2025-07-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 410.11,
+          "revenue": 888.17,
+          "conversions": 23.0,
+          "clicks": 263
+        },
+        {
+          "month": "2025-08-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 593.29,
+          "revenue": 397.48,
+          "conversions": 13.0,
+          "clicks": 269
+        },
+        {
+          "month": "2025-09-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 359.83,
+          "revenue": 177.16,
+          "conversions": 10.0,
+          "clicks": 277
+        },
+        {
+          "month": "2025-10-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 398.21,
+          "revenue": 466.29,
+          "conversions": 15.0,
+          "clicks": 314
+        },
+        {
+          "month": "2025-11-01",
+          "campaign": "CPL | HSG | Shopping Heroes",
+          "spend": 318.27,
+          "revenue": 146.03,
+          "conversions": 8.0,
+          "clicks": 253
+        }
+      ]
+    },
+    "WBS": {
+      "spend": 768.96,
+      "revenue": 5161.53,
+      "conversions": 95.0,
+      "clicks": 1644,
+      "months": [
+        {
+          "month": "2025-01-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 36.65,
+          "revenue": 39.72,
+          "conversions": 3.0,
+          "clicks": 52
+        },
+        {
+          "month": "2025-02-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 65.32,
+          "revenue": 107.3,
+          "conversions": 4.0,
+          "clicks": 126
+        },
+        {
+          "month": "2025-03-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 68.77,
+          "revenue": 66.48,
+          "conversions": 3.0,
+          "clicks": 134
+        },
+        {
+          "month": "2025-04-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 101.5,
+          "revenue": 240.11,
+          "conversions": 12.0,
+          "clicks": 184
+        },
+        {
+          "month": "2025-05-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 83.68,
+          "revenue": 44.11,
+          "conversions": 1.0,
+          "clicks": 127
+        },
+        {
+          "month": "2025-06-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 37.85,
+          "revenue": 38.93,
+          "conversions": 2.0,
+          "clicks": 74
+        },
+        {
+          "month": "2025-07-01",
+          "campaign": "CPL | WBS | Shopping Heroes",
+          "spend": 5.69,
+          "revenue": 0.0,
+          "conversions": 0.0,
+          "clicks": 10
+        },
+        {
+          "month": "2025-01-01",
+          "campaign": "CPL | WBS |  Wheat Bags | Consolidated 20210127",
+          "spend": 132.1,
+          "revenue": 109.98,
+          "conversions": 5.0,
+          "clicks": 283
+        },
+        {
+          "month": "2025-01-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 32.12,
+          "revenue": 187.26,
+          "conversions": 8.0,
+          "clicks": 74
+        },
+        {
+          "month": "2025-02-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 40.87,
+          "revenue": 236.04,
+          "conversions": 11.0,
+          "clicks": 74
+        },
+        {
+          "month": "2025-03-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 23.23,
+          "revenue": 109.92,
+          "conversions": 5.0,
+          "clicks": 61
+        },
+        {
+          "month": "2025-04-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 19.28,
+          "revenue": 31.47,
+          "conversions": 2.0,
+          "clicks": 51
+        },
+        {
+          "month": "2025-05-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 9.52,
+          "revenue": 106.81,
+          "conversions": 5.0,
+          "clicks": 32
+        },
+        {
+          "month": "2025-06-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 10.59,
+          "revenue": 184.16,
+          "conversions": 8.0,
+          "clicks": 38
+        },
+        {
+          "month": "2025-07-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 33.79,
+          "revenue": 173.95,
+          "conversions": 6.0,
+          "clicks": 44
+        },
+        {
+          "month": "2025-08-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 12.7,
+          "revenue": 2958.94,
+          "conversions": 2.0,
+          "clicks": 54
+        },
+        {
+          "month": "2025-09-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 18.34,
+          "revenue": 157.57,
+          "conversions": 6.0,
+          "clicks": 76
+        },
+        {
+          "month": "2025-10-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 27.03,
+          "revenue": 245.57,
+          "conversions": 8.0,
+          "clicks": 103
+        },
+        {
+          "month": "2025-11-01",
+          "campaign": "CPL | WBS |  WheatyBags - Company",
+          "spend": 9.93,
+          "revenue": 123.21,
+          "conversions": 4.0,
+          "clicks": 47
+        }
+      ]
+    },
+    "TJR": {
+      "spend": 21.159999999999997,
+      "revenue": 281.41999999999996,
+      "conversions": 6.0,
+      "clicks": 35,
+      "months": [
+        {
+          "month": "2025-01-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 6.51,
+          "revenue": 48.03,
+          "conversions": 3.0,
+          "clicks": 7
+        },
+        {
+          "month": "2025-02-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 2.81,
+          "revenue": 17.94,
+          "conversions": 1.0,
+          "clicks": 5
+        },
+        {
+          "month": "2025-03-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 0.2,
+          "revenue": 0.0,
+          "conversions": 0.0,
+          "clicks": 2
+        },
+        {
+          "month": "2025-04-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 1.51,
+          "revenue": 196.68,
+          "conversions": 1.0,
+          "clicks": 3
+        },
+        {
+          "month": "2025-05-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 5.05,
+          "revenue": 18.77,
+          "conversions": 1.0,
+          "clicks": 11
+        },
+        {
+          "month": "2025-06-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 5.08,
+          "revenue": 0.0,
+          "conversions": 0.0,
+          "clicks": 7
+        },
+        {
+          "month": "2025-07-01",
+          "campaign": "CPL | TJR |  The JetRest - Company",
+          "spend": 0.0,
+          "revenue": 0.0,
+          "conversions": 0.0,
+          "clicks": 0
+        }
+      ]
+    }
+  }
+}

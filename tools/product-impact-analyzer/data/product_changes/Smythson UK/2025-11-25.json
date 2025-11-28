@@ -1,0 +1,1411 @@
+{
+  "date": "2025-11-25",
+  "client": "Smythson UK",
+  "comparison_date": "2025-11-24",
+  "total_products_today": 1456,
+  "total_products_yesterday": 1457,
+  "summary": {
+    "changed_products": 34,
+    "price_changes": 4,
+    "sale_price_changes": 0,
+    "availability_changes": 12,
+    "title_changes": 1,
+    "description_changes": 14,
+    "image_changes": 1,
+    "item_group_changes": 12,
+    "shipping_changes": 0,
+    "label_changes": 11,
+    "new_products": 2,
+    "removed_products": 3
+  },
+  "changed_products": [
+    {
+      "product_id": "1001731",
+      "title": "Ballpoint Pen",
+      "changes": {
+        "price": [
+          "395.00 GBP",
+          "495.00 EUR"
+        ],
+        "link": [
+          "https://www.smythson.com/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html",
+          "https://www.smythson.com/eur/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "sale",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1001733",
+      "title": "Metallic Pencil",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1200694",
+      "title": "Smythson Bloc M\u00e9mo En Panama - Noir",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1030161",
+      "title": "Smythson Wafer Notizbuch Aus Panama - Nilblau",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202458",
+      "title": "Smythson Small Day Tote with Zip in Ludlow",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204645",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1203833",
+      "title": "Smythson Cocktail Panama Notebook In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204614",
+      "title": "Smythson 2026 Panama Weekly Diary In Cerulean",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1029720",
+      "title": "Smythson Kleines Quadratisches Schmuckk\u00e4stchen Aus Panama - Schwarz",
+      "changes": {
+        "description": [
+          "Kleines Schmucketui aus quergemasertem Kalbsleder mit Leopardenprint  Innen aus Wildleder  Rei\u00dfverschluss  Ma\u00dfe: B 6,2 x H 3,7 x T 6,2\u00a0cm",
+          "Kleines Schmucketui aus quergemasertem Kalbsleder in Schwarz Innen aus Wildleder Ma\u00dfe: B 6,2 x H 3,7 x T 6,2\u00a0cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1204920",
+          "1029720"
+        ]
+      }
+    },
+    {
+      "product_id": "1204900",
+      "title": "Smythson Astuccio Portavalute Con Cerniera Panama - Bronze",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1200737",
+      "title": "Smythson Stiftehalter Mit Trennsteg Aus Panama - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzer, quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\"",
+          "Sandsteinfarbener quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\""
+        ],
+        "item_group_id": [
+          "1200737",
+          "1200738"
+        ]
+      }
+    },
+    {
+      "product_id": "1201114",
+      "title": "Smythson Panama Kleingeldetui Mit Rei\u00dfverschluss - Marron Taupe",
+      "changes": {
+        "description": [
+          "Kleingeldb\u00f6rse aus schwarzem quergemaserten Kalbsleder Innen aus glattem marineblauen Kalbsleder Vier Kartenf\u00e4cher Hellgoldene Beschl\u00e4ge Ma\u00dfe: B11 x H8,5 x T2 cm / B4 x H3 x T1\"",
+          "Kleingeldetui nilblauem quergemaserten Kalbsleder Innen aus glattem taubengrauen Kalbsleder Vier Kartenf\u00e4cher Hellgoldene Beschl\u00e4ge Ma\u00dfe: B11 x H8,5 x T2 cm / B4 x H3 x T1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1204409",
+      "title": "Smythson Small Laptop Case In Panama In Navy",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1205050",
+      "title": "Smythson Make It Happen Panama Notebook In Petrol",
+      "changes": {
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1204903",
+      "title": "Smythson \u00c9tui \u00c0 Lunettes Optiques En Motif L\u00e9opard Panama",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205048",
+      "title": "Smythson Make It Happen Panama Notebook In Nile Blue",
+      "changes": {
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1203800",
+      "title": "Christmas Gingerbread House Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "title": [
+          "Weihnachtskarten Lebkuchenhaus",
+          "Christmas Gingerbread House Card Set"
+        ],
+        "description": [
+          "Schachtel mit zehn Faltkarten aus wei\u00dfem Velin. Lebkuchenhausmotiv in Silber und Blau graviert Als Vollfarbendruck. Mit passendem, seidengef\u00fcttertem Briefumschlag. Auf der Innenseite Platz f\u00fcr Ihre eigene Nachricht. Hergestellt in England. F\u00fcr jede erworbene Weihnachtskarte spenden wir an den National Literacy Trust, eine Wohlt\u00e4tigkeitsorganisation, die das Leben vieler Menschen durch\u00a0Alphabetisierung ver\u00e4ndert.Ma\u00dfe: B 15 x H 15 cm",
+          "Box of ten white wove folded cards  Gingerbread house motif engraved in silver and blue  Printed in full colour  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England  For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Dimension:W6 x H6\"/ W15 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/weihnachtskarten-lebkuchenhaus/1203800.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-gingerbread-house-card-set/1203800.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204826",
+      "title": "Smythson Agenda Semainier Vertical Portobello 2026 En Panama - Bleu Marine",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1029687",
+      "title": "Smythson Medium Square Trinket Case In Panama In Sandstone",
+      "changes": {
+        "description": [
+          "Black medium trinket case in crossgrain calf leather Suede interior Dimensions: W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\" Our boxes and rolls are designed with great attention to detail to protect your jewellery. However, due to the nature of sterling silver, stainless steel, or gold-plated and silver-plated jewellery, tarnishing can occur when exposed to air or moisture, even when stored inside our products. To best preserve your jewellery, please follow the care advice from its manufacturer.",
+          "Leopard print medium trinket case in cross grain calf leather  Suede lining  Zip fastening Dimensions:W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\""
+        ],
+        "item_group_id": [
+          "1029682",
+          "1204896"
+        ]
+      }
+    },
+    {
+      "product_id": "1205241",
+      "title": "Smythson Ventiquattrore Sottile Leggera In Panama - Nero",
+      "changes": {
+        "price": [
+          "",
+          "1295.00 EUR"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_1": [
+          "",
+          "Mid AOV"
+        ]
+      }
+    },
+    {
+      "product_id": "1202628",
+      "title": "Smythson Porte-Cl\u00e9s \u00c0 Lani\u00e8re Cuir En En Panama - Forest",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205065",
+      "title": "Smythson Portobello Notebook In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204094",
+      "title": "Smythson Ultra Slim Briefcase With Zip Front In Ludlow In Bottle Green",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1029685",
+      "title": "Smythson Medium Square Trinket Case In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "Black medium trinket case in crossgrain calf leather Suede interior Dimensions: W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\" Our boxes and rolls are designed with great attention to detail to protect your jewellery. However, due to the nature of sterling silver, stainless steel, or gold-plated and silver-plated jewellery, tarnishing can occur when exposed to air or moisture, even when stored inside our products. To best preserve your jewellery, please follow the care advice from its manufacturer.",
+          "Leopard print medium trinket case in cross grain calf leather  Suede lining  Zip fastening Dimensions:W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\""
+        ],
+        "item_group_id": [
+          "1029682",
+          "1204896"
+        ]
+      }
+    },
+    {
+      "product_id": "1029341",
+      "title": "Smythson Portobello Notebook In Ludlow - Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204349",
+      "title": "Smythson Small Zip Around Purse In Panama - Navy",
+      "changes": {
+        "description": [
+          "Black coin purse in crossgrain calf leather Navy smooth calf leather interior Four card pockets Light gold hardware Made in Italy Dimensions: W11 x H8.5 x D2cm / W4 x H3 x D1\"",
+          "Nile Blue coin purse in crossgrain calf leather Light grey smooth calf leather interior Four card pockets Light gold hardware Made in Spain Dimensions: W11 x H8.5 x D2cm / W4 x H3 x D1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1204027",
+      "title": "Smythson Carnet Panama - Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1029725",
+      "title": "Smythson Petit \u00c9tui Vide-Poches Carr\u00e9 En Panama - Sandstone",
+      "changes": {
+        "description": [
+          "Petit \u00e9tui vide-poches imprim\u00e9 l\u00e9opard en cuir de veau textur\u00e9  Int\u00e9rieur en daim  Fermeture \u00e9clair  l\u00a06,2\u00a0x L\u00a03,7 x P\u00a06,2\u00a0cm/l\u00a02,4 x L\u00a01,5\u00a0x P\u00a02,4\u00a0\"",
+          "Petit \u00e9tui vide-poches noir en cuir de veau textur\u00e9 Int\u00e9rieur en daim Dimensions\u00a0: L\u00a06,2 x H\u00a03,7 x P\u00a06,2\u00a0cm / L\u00a02,4 x H\u00a01,5 x P\u00a02,4\u00a0pouces  Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant"
+        ],
+        "item_group_id": [
+          "1204920",
+          "1029720"
+        ]
+      }
+    },
+    {
+      "product_id": "1029530",
+      "title": "Smythson Petit Porte-Monnaie Enti\u00e8rement Zipp\u00e9 En Panama - Bleu Du Nil",
+      "changes": {
+        "description": [
+          "Porte-monnaie noir en cuir de veau textur\u00e9 Int\u00e9rieur en cuir de veau lisse bleu marine Quatre pochettes pour cartes D\u00e9tails au fini l\u00e9g\u00e8rement dor\u00e9 Dimensions\u00a0: W11 x H8.5 x D2cm / W4 x H3 x D1\"",
+          "Porte-monnaie bleu du Nil en cuir de veau textur\u00e9 Int\u00e9rieur en cuir de veau lisse gris clair Quatre pochettes pour cartes D\u00e9tails au fini l\u00e9g\u00e8rement dor\u00e9 Dimensions\u00a0: W11 x H8.5 x D2cm / W4 x H3 x D1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1205051",
+      "title": "Smythson Make It Happen Panama Notebook In Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1029529",
+      "title": "Smythson Portafoglio Piccolo Con Cerniera Su Tre Lati In Panama - Navy",
+      "changes": {
+        "description": [
+          "Portamonete nero in pelle di vitello crossgrain Interno in pelle di vitello liscia blu navy Quattro tasche per carte di credito Elementi metallici color oro chiaro Dimensioni: L 11 x H 8,5 x P 2 cm / L 4 x H 3 x P 1\"",
+          "Piccolo portamonete blu Nilo in pelle di vitello crossgrain Interno in pelle di vitello liscia grigio chiaro Quattro tasche per carte di credito Elementi metallici color oro chiaro Dimensioni: L 11 x H 8,5 x P 2 cm / L 4 x H 3 x P 1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1020689",
+      "title": "Christmas Fir Tree Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "description": [
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\"",
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/christmas-fir-tree-card-set/1020689.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-fir-tree-card-set/1020689.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204582",
+      "title": "Golden Angel Christmas Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "1028654",
+      "title": "Smythson 3 Drawer Jewelry Box In Panama In Black",
+      "price": "2995.00 USD",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1201826",
+      "title": "Smythson Travels And Experiences Panama Notebook In Nile Blue",
+      "price": "95.00 USD",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "1205058",
+      "title": "Smythson Travels And Experiences Panama Notebook In Nile Blue",
+      "price": "65.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "1031617",
+      "title": "Weihnachtliche Geschenkkarten mit Mistelzweigmotiv",
+      "price": "22.00 EUR",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1203799",
+      "title": "Carte regalo con schiaccianoci",
+      "price": "22.00 EUR",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "1001731",
+      "title": "Ballpoint Pen",
+      "changes": {
+        "price": [
+          "395.00 GBP",
+          "495.00 EUR"
+        ],
+        "link": [
+          "https://www.smythson.com/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html",
+          "https://www.smythson.com/eur/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "sale",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1203800",
+      "title": "Christmas Gingerbread House Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "title": [
+          "Weihnachtskarten Lebkuchenhaus",
+          "Christmas Gingerbread House Card Set"
+        ],
+        "description": [
+          "Schachtel mit zehn Faltkarten aus wei\u00dfem Velin. Lebkuchenhausmotiv in Silber und Blau graviert Als Vollfarbendruck. Mit passendem, seidengef\u00fcttertem Briefumschlag. Auf der Innenseite Platz f\u00fcr Ihre eigene Nachricht. Hergestellt in England. F\u00fcr jede erworbene Weihnachtskarte spenden wir an den National Literacy Trust, eine Wohlt\u00e4tigkeitsorganisation, die das Leben vieler Menschen durch\u00a0Alphabetisierung ver\u00e4ndert.Ma\u00dfe: B 15 x H 15 cm",
+          "Box of ten white wove folded cards  Gingerbread house motif engraved in silver and blue  Printed in full colour  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England  For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Dimension:W6 x H6\"/ W15 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/weihnachtskarten-lebkuchenhaus/1203800.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-gingerbread-house-card-set/1203800.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205241",
+      "title": "Smythson Ventiquattrore Sottile Leggera In Panama - Nero",
+      "changes": {
+        "price": [
+          "",
+          "1295.00 EUR"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_1": [
+          "",
+          "Mid AOV"
+        ]
+      }
+    },
+    {
+      "product_id": "1020689",
+      "title": "Christmas Fir Tree Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "description": [
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\"",
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/christmas-fir-tree-card-set/1020689.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-fir-tree-card-set/1020689.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "1200694",
+      "title": "Smythson Bloc M\u00e9mo En Panama - Noir",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1030161",
+      "title": "Smythson Wafer Notizbuch Aus Panama - Nilblau",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202458",
+      "title": "Smythson Small Day Tote with Zip in Ludlow",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204900",
+      "title": "Smythson Astuccio Portavalute Con Cerniera Panama - Bronze",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1200737",
+      "title": "Smythson Stiftehalter Mit Trennsteg Aus Panama - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzer, quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\"",
+          "Sandsteinfarbener quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\""
+        ],
+        "item_group_id": [
+          "1200737",
+          "1200738"
+        ]
+      }
+    },
+    {
+      "product_id": "1204903",
+      "title": "Smythson \u00c9tui \u00c0 Lunettes Optiques En Motif L\u00e9opard Panama",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204826",
+      "title": "Smythson Agenda Semainier Vertical Portobello 2026 En Panama - Bleu Marine",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202628",
+      "title": "Smythson Porte-Cl\u00e9s \u00c0 Lani\u00e8re Cuir En En Panama - Forest",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204094",
+      "title": "Smythson Ultra Slim Briefcase With Zip Front In Ludlow In Bottle Green",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1029341",
+      "title": "Smythson Portobello Notebook In Ludlow - Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204027",
+      "title": "Smythson Carnet Panama - Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205051",
+      "title": "Smythson Make It Happen Panama Notebook In Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    }
+  ],
+  "title_changes": [
+    {
+      "product_id": "1203800",
+      "title": "Christmas Gingerbread House Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "title": [
+          "Weihnachtskarten Lebkuchenhaus",
+          "Christmas Gingerbread House Card Set"
+        ],
+        "description": [
+          "Schachtel mit zehn Faltkarten aus wei\u00dfem Velin. Lebkuchenhausmotiv in Silber und Blau graviert Als Vollfarbendruck. Mit passendem, seidengef\u00fcttertem Briefumschlag. Auf der Innenseite Platz f\u00fcr Ihre eigene Nachricht. Hergestellt in England. F\u00fcr jede erworbene Weihnachtskarte spenden wir an den National Literacy Trust, eine Wohlt\u00e4tigkeitsorganisation, die das Leben vieler Menschen durch\u00a0Alphabetisierung ver\u00e4ndert.Ma\u00dfe: B 15 x H 15 cm",
+          "Box of ten white wove folded cards  Gingerbread house motif engraved in silver and blue  Printed in full colour  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England  For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Dimension:W6 x H6\"/ W15 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/weihnachtskarten-lebkuchenhaus/1203800.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-gingerbread-house-card-set/1203800.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    }
+  ],
+  "description_changes": [
+    {
+      "product_id": "1029720",
+      "title": "Smythson Kleines Quadratisches Schmuckk\u00e4stchen Aus Panama - Schwarz",
+      "changes": {
+        "description": [
+          "Kleines Schmucketui aus quergemasertem Kalbsleder mit Leopardenprint  Innen aus Wildleder  Rei\u00dfverschluss  Ma\u00dfe: B 6,2 x H 3,7 x T 6,2\u00a0cm",
+          "Kleines Schmucketui aus quergemasertem Kalbsleder in Schwarz Innen aus Wildleder Ma\u00dfe: B 6,2 x H 3,7 x T 6,2\u00a0cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1204920",
+          "1029720"
+        ]
+      }
+    },
+    {
+      "product_id": "1200737",
+      "title": "Smythson Stiftehalter Mit Trennsteg Aus Panama - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzer, quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\"",
+          "Sandsteinfarbener quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\""
+        ],
+        "item_group_id": [
+          "1200737",
+          "1200738"
+        ]
+      }
+    },
+    {
+      "product_id": "1201114",
+      "title": "Smythson Panama Kleingeldetui Mit Rei\u00dfverschluss - Marron Taupe",
+      "changes": {
+        "description": [
+          "Kleingeldb\u00f6rse aus schwarzem quergemaserten Kalbsleder Innen aus glattem marineblauen Kalbsleder Vier Kartenf\u00e4cher Hellgoldene Beschl\u00e4ge Ma\u00dfe: B11 x H8,5 x T2 cm / B4 x H3 x T1\"",
+          "Kleingeldetui nilblauem quergemaserten Kalbsleder Innen aus glattem taubengrauen Kalbsleder Vier Kartenf\u00e4cher Hellgoldene Beschl\u00e4ge Ma\u00dfe: B11 x H8,5 x T2 cm / B4 x H3 x T1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1205050",
+      "title": "Smythson Make It Happen Panama Notebook In Petrol",
+      "changes": {
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1205048",
+      "title": "Smythson Make It Happen Panama Notebook In Nile Blue",
+      "changes": {
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1203800",
+      "title": "Christmas Gingerbread House Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "title": [
+          "Weihnachtskarten Lebkuchenhaus",
+          "Christmas Gingerbread House Card Set"
+        ],
+        "description": [
+          "Schachtel mit zehn Faltkarten aus wei\u00dfem Velin. Lebkuchenhausmotiv in Silber und Blau graviert Als Vollfarbendruck. Mit passendem, seidengef\u00fcttertem Briefumschlag. Auf der Innenseite Platz f\u00fcr Ihre eigene Nachricht. Hergestellt in England. F\u00fcr jede erworbene Weihnachtskarte spenden wir an den National Literacy Trust, eine Wohlt\u00e4tigkeitsorganisation, die das Leben vieler Menschen durch\u00a0Alphabetisierung ver\u00e4ndert.Ma\u00dfe: B 15 x H 15 cm",
+          "Box of ten white wove folded cards  Gingerbread house motif engraved in silver and blue  Printed in full colour  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England  For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Dimension:W6 x H6\"/ W15 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/weihnachtskarten-lebkuchenhaus/1203800.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-gingerbread-house-card-set/1203800.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1029687",
+      "title": "Smythson Medium Square Trinket Case In Panama In Sandstone",
+      "changes": {
+        "description": [
+          "Black medium trinket case in crossgrain calf leather Suede interior Dimensions: W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\" Our boxes and rolls are designed with great attention to detail to protect your jewellery. However, due to the nature of sterling silver, stainless steel, or gold-plated and silver-plated jewellery, tarnishing can occur when exposed to air or moisture, even when stored inside our products. To best preserve your jewellery, please follow the care advice from its manufacturer.",
+          "Leopard print medium trinket case in cross grain calf leather  Suede lining  Zip fastening Dimensions:W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\""
+        ],
+        "item_group_id": [
+          "1029682",
+          "1204896"
+        ]
+      }
+    },
+    {
+      "product_id": "1029685",
+      "title": "Smythson Medium Square Trinket Case In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "Black medium trinket case in crossgrain calf leather Suede interior Dimensions: W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\" Our boxes and rolls are designed with great attention to detail to protect your jewellery. However, due to the nature of sterling silver, stainless steel, or gold-plated and silver-plated jewellery, tarnishing can occur when exposed to air or moisture, even when stored inside our products. To best preserve your jewellery, please follow the care advice from its manufacturer.",
+          "Leopard print medium trinket case in cross grain calf leather  Suede lining  Zip fastening Dimensions:W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\""
+        ],
+        "item_group_id": [
+          "1029682",
+          "1204896"
+        ]
+      }
+    },
+    {
+      "product_id": "1204349",
+      "title": "Smythson Small Zip Around Purse In Panama - Navy",
+      "changes": {
+        "description": [
+          "Black coin purse in crossgrain calf leather Navy smooth calf leather interior Four card pockets Light gold hardware Made in Italy Dimensions: W11 x H8.5 x D2cm / W4 x H3 x D1\"",
+          "Nile Blue coin purse in crossgrain calf leather Light grey smooth calf leather interior Four card pockets Light gold hardware Made in Spain Dimensions: W11 x H8.5 x D2cm / W4 x H3 x D1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1029725",
+      "title": "Smythson Petit \u00c9tui Vide-Poches Carr\u00e9 En Panama - Sandstone",
+      "changes": {
+        "description": [
+          "Petit \u00e9tui vide-poches imprim\u00e9 l\u00e9opard en cuir de veau textur\u00e9  Int\u00e9rieur en daim  Fermeture \u00e9clair  l\u00a06,2\u00a0x L\u00a03,7 x P\u00a06,2\u00a0cm/l\u00a02,4 x L\u00a01,5\u00a0x P\u00a02,4\u00a0\"",
+          "Petit \u00e9tui vide-poches noir en cuir de veau textur\u00e9 Int\u00e9rieur en daim Dimensions\u00a0: L\u00a06,2 x H\u00a03,7 x P\u00a06,2\u00a0cm / L\u00a02,4 x H\u00a01,5 x P\u00a02,4\u00a0pouces  Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant"
+        ],
+        "item_group_id": [
+          "1204920",
+          "1029720"
+        ]
+      }
+    },
+    {
+      "product_id": "1029530",
+      "title": "Smythson Petit Porte-Monnaie Enti\u00e8rement Zipp\u00e9 En Panama - Bleu Du Nil",
+      "changes": {
+        "description": [
+          "Porte-monnaie noir en cuir de veau textur\u00e9 Int\u00e9rieur en cuir de veau lisse bleu marine Quatre pochettes pour cartes D\u00e9tails au fini l\u00e9g\u00e8rement dor\u00e9 Dimensions\u00a0: W11 x H8.5 x D2cm / W4 x H3 x D1\"",
+          "Porte-monnaie bleu du Nil en cuir de veau textur\u00e9 Int\u00e9rieur en cuir de veau lisse gris clair Quatre pochettes pour cartes D\u00e9tails au fini l\u00e9g\u00e8rement dor\u00e9 Dimensions\u00a0: W11 x H8.5 x D2cm / W4 x H3 x D1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1205051",
+      "title": "Smythson Make It Happen Panama Notebook In Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1029529",
+      "title": "Smythson Portafoglio Piccolo Con Cerniera Su Tre Lati In Panama - Navy",
+      "changes": {
+        "description": [
+          "Portamonete nero in pelle di vitello crossgrain Interno in pelle di vitello liscia blu navy Quattro tasche per carte di credito Elementi metallici color oro chiaro Dimensioni: L 11 x H 8,5 x P 2 cm / L 4 x H 3 x P 1\"",
+          "Piccolo portamonete blu Nilo in pelle di vitello crossgrain Interno in pelle di vitello liscia grigio chiaro Quattro tasche per carte di credito Elementi metallici color oro chiaro Dimensioni: L 11 x H 8,5 x P 2 cm / L 4 x H 3 x P 1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1020689",
+      "title": "Christmas Fir Tree Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "description": [
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\"",
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/christmas-fir-tree-card-set/1020689.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-fir-tree-card-set/1020689.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    }
+  ],
+  "image_changes": [
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [
+    {
+      "product_id": "1029720",
+      "title": "Smythson Kleines Quadratisches Schmuckk\u00e4stchen Aus Panama - Schwarz",
+      "changes": {
+        "description": [
+          "Kleines Schmucketui aus quergemasertem Kalbsleder mit Leopardenprint  Innen aus Wildleder  Rei\u00dfverschluss  Ma\u00dfe: B 6,2 x H 3,7 x T 6,2\u00a0cm",
+          "Kleines Schmucketui aus quergemasertem Kalbsleder in Schwarz Innen aus Wildleder Ma\u00dfe: B 6,2 x H 3,7 x T 6,2\u00a0cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1204920",
+          "1029720"
+        ]
+      }
+    },
+    {
+      "product_id": "1200737",
+      "title": "Smythson Stiftehalter Mit Trennsteg Aus Panama - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzer, quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\"",
+          "Sandsteinfarbener quadratischer Stiftehalter aus quergemasertem Kalbsleder mit Trennwand  Futter aus weichem Kalbsleder  Zwei F\u00e4cher f\u00fcr Stifte  Ma\u00dfe: W9 x H10.5 x D9cm/ W3.5\" x H4\" x D3.5\""
+        ],
+        "item_group_id": [
+          "1200737",
+          "1200738"
+        ]
+      }
+    },
+    {
+      "product_id": "1201114",
+      "title": "Smythson Panama Kleingeldetui Mit Rei\u00dfverschluss - Marron Taupe",
+      "changes": {
+        "description": [
+          "Kleingeldb\u00f6rse aus schwarzem quergemaserten Kalbsleder Innen aus glattem marineblauen Kalbsleder Vier Kartenf\u00e4cher Hellgoldene Beschl\u00e4ge Ma\u00dfe: B11 x H8,5 x T2 cm / B4 x H3 x T1\"",
+          "Kleingeldetui nilblauem quergemaserten Kalbsleder Innen aus glattem taubengrauen Kalbsleder Vier Kartenf\u00e4cher Hellgoldene Beschl\u00e4ge Ma\u00dfe: B11 x H8,5 x T2 cm / B4 x H3 x T1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1205050",
+      "title": "Smythson Make It Happen Panama Notebook In Petrol",
+      "changes": {
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1205048",
+      "title": "Smythson Make It Happen Panama Notebook In Nile Blue",
+      "changes": {
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1029687",
+      "title": "Smythson Medium Square Trinket Case In Panama In Sandstone",
+      "changes": {
+        "description": [
+          "Black medium trinket case in crossgrain calf leather Suede interior Dimensions: W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\" Our boxes and rolls are designed with great attention to detail to protect your jewellery. However, due to the nature of sterling silver, stainless steel, or gold-plated and silver-plated jewellery, tarnishing can occur when exposed to air or moisture, even when stored inside our products. To best preserve your jewellery, please follow the care advice from its manufacturer.",
+          "Leopard print medium trinket case in cross grain calf leather  Suede lining  Zip fastening Dimensions:W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\""
+        ],
+        "item_group_id": [
+          "1029682",
+          "1204896"
+        ]
+      }
+    },
+    {
+      "product_id": "1029685",
+      "title": "Smythson Medium Square Trinket Case In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "Black medium trinket case in crossgrain calf leather Suede interior Dimensions: W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\" Our boxes and rolls are designed with great attention to detail to protect your jewellery. However, due to the nature of sterling silver, stainless steel, or gold-plated and silver-plated jewellery, tarnishing can occur when exposed to air or moisture, even when stored inside our products. To best preserve your jewellery, please follow the care advice from its manufacturer.",
+          "Leopard print medium trinket case in cross grain calf leather  Suede lining  Zip fastening Dimensions:W9 x H5.5 x D9cm / W3.5 x H2.25 x D3.5\""
+        ],
+        "item_group_id": [
+          "1029682",
+          "1204896"
+        ]
+      }
+    },
+    {
+      "product_id": "1204349",
+      "title": "Smythson Small Zip Around Purse In Panama - Navy",
+      "changes": {
+        "description": [
+          "Black coin purse in crossgrain calf leather Navy smooth calf leather interior Four card pockets Light gold hardware Made in Italy Dimensions: W11 x H8.5 x D2cm / W4 x H3 x D1\"",
+          "Nile Blue coin purse in crossgrain calf leather Light grey smooth calf leather interior Four card pockets Light gold hardware Made in Spain Dimensions: W11 x H8.5 x D2cm / W4 x H3 x D1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1029725",
+      "title": "Smythson Petit \u00c9tui Vide-Poches Carr\u00e9 En Panama - Sandstone",
+      "changes": {
+        "description": [
+          "Petit \u00e9tui vide-poches imprim\u00e9 l\u00e9opard en cuir de veau textur\u00e9  Int\u00e9rieur en daim  Fermeture \u00e9clair  l\u00a06,2\u00a0x L\u00a03,7 x P\u00a06,2\u00a0cm/l\u00a02,4 x L\u00a01,5\u00a0x P\u00a02,4\u00a0\"",
+          "Petit \u00e9tui vide-poches noir en cuir de veau textur\u00e9 Int\u00e9rieur en daim Dimensions\u00a0: L\u00a06,2 x H\u00a03,7 x P\u00a06,2\u00a0cm / L\u00a02,4 x H\u00a01,5 x P\u00a02,4\u00a0pouces  Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant"
+        ],
+        "item_group_id": [
+          "1204920",
+          "1029720"
+        ]
+      }
+    },
+    {
+      "product_id": "1029530",
+      "title": "Smythson Petit Porte-Monnaie Enti\u00e8rement Zipp\u00e9 En Panama - Bleu Du Nil",
+      "changes": {
+        "description": [
+          "Porte-monnaie noir en cuir de veau textur\u00e9 Int\u00e9rieur en cuir de veau lisse bleu marine Quatre pochettes pour cartes D\u00e9tails au fini l\u00e9g\u00e8rement dor\u00e9 Dimensions\u00a0: W11 x H8.5 x D2cm / W4 x H3 x D1\"",
+          "Porte-monnaie bleu du Nil en cuir de veau textur\u00e9 Int\u00e9rieur en cuir de veau lisse gris clair Quatre pochettes pour cartes D\u00e9tails au fini l\u00e9g\u00e8rement dor\u00e9 Dimensions\u00a0: W11 x H8.5 x D2cm / W4 x H3 x D1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    },
+    {
+      "product_id": "1205051",
+      "title": "Smythson Make It Happen Panama Notebook In Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cerulean pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper  Made in England  Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1205051",
+          "1205046"
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ]
+      }
+    },
+    {
+      "product_id": "1029529",
+      "title": "Smythson Portafoglio Piccolo Con Cerniera Su Tre Lati In Panama - Navy",
+      "changes": {
+        "description": [
+          "Portamonete nero in pelle di vitello crossgrain Interno in pelle di vitello liscia blu navy Quattro tasche per carte di credito Elementi metallici color oro chiaro Dimensioni: L 11 x H 8,5 x P 2 cm / L 4 x H 3 x P 1\"",
+          "Piccolo portamonete blu Nilo in pelle di vitello crossgrain Interno in pelle di vitello liscia grigio chiaro Quattro tasche per carte di credito Elementi metallici color oro chiaro Dimensioni: L 11 x H 8,5 x P 2 cm / L 4 x H 3 x P 1\""
+        ],
+        "item_group_id": [
+          "1029533",
+          "1029530"
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1001731",
+      "title": "Ballpoint Pen",
+      "changes": {
+        "price": [
+          "395.00 GBP",
+          "495.00 EUR"
+        ],
+        "link": [
+          "https://www.smythson.com/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html",
+          "https://www.smythson.com/eur/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "sale",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1001733",
+      "title": "Metallic Pencil",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204645",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1203833",
+      "title": "Smythson Cocktail Panama Notebook In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204614",
+      "title": "Smythson 2026 Panama Weekly Diary In Cerulean",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204409",
+      "title": "Smythson Small Laptop Case In Panama In Navy",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1203800",
+      "title": "Christmas Gingerbread House Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "title": [
+          "Weihnachtskarten Lebkuchenhaus",
+          "Christmas Gingerbread House Card Set"
+        ],
+        "description": [
+          "Schachtel mit zehn Faltkarten aus wei\u00dfem Velin. Lebkuchenhausmotiv in Silber und Blau graviert Als Vollfarbendruck. Mit passendem, seidengef\u00fcttertem Briefumschlag. Auf der Innenseite Platz f\u00fcr Ihre eigene Nachricht. Hergestellt in England. F\u00fcr jede erworbene Weihnachtskarte spenden wir an den National Literacy Trust, eine Wohlt\u00e4tigkeitsorganisation, die das Leben vieler Menschen durch\u00a0Alphabetisierung ver\u00e4ndert.Ma\u00dfe: B 15 x H 15 cm",
+          "Box of ten white wove folded cards  Gingerbread house motif engraved in silver and blue  Printed in full colour  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England  For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Dimension:W6 x H6\"/ W15 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/weihnachtskarten-lebkuchenhaus/1203800.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-gingerbread-house-card-set/1203800.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205241",
+      "title": "Smythson Ventiquattrore Sottile Leggera In Panama - Nero",
+      "changes": {
+        "price": [
+          "",
+          "1295.00 EUR"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_1": [
+          "",
+          "Mid AOV"
+        ]
+      }
+    },
+    {
+      "product_id": "1205065",
+      "title": "Smythson Portobello Notebook In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1020689",
+      "title": "Christmas Fir Tree Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "65.00 USD"
+        ],
+        "description": [
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy Trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\"",
+          "Box of ten folded white wove Christmas cards Christmas tree motif engraved in gold and silver and printed in Hapsburg blue Matching hand tissue-lined envelope Blank inside for your own message For every Christmas card purchased, we will make a donation to the National Literacy trust, the charity dedicated to transforming lives through literacy Made in England Dimensions: W15 x H15cm / W6 x H6\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/christmas-fir-tree-card-set/1020689.html",
+          "https://www.smythson.com/us/stationery/cards/p/christmas-fir-tree-card-set/1020689.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204582",
+      "title": "Golden Angel Christmas Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

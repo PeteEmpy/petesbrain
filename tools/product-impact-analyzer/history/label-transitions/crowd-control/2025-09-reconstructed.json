@@ -1,0 +1,2706 @@
+{
+  "month": "2025-09",
+  "last_updated": "2025-11-03T13:40:43.021563",
+  "source": "reconstructed",
+  "reconstruction_method": "campaign_placement_and_conversions",
+  "date_range": {
+    "start": "2025-09-01",
+    "end": "2025-09-30"
+  },
+  "total_products": 298,
+  "label_distribution": {
+    "zombies": 233,
+    "villains": 21,
+    "sidekicks": 35,
+    "heroes": 9
+  },
+  "confidence_distribution": {
+    "high": 263,
+    "medium": 6,
+    "low": 29
+  },
+  "products": {
+    "39797": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7232": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "67912": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6983": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67860": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67828": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "6817": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7111": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7206": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "63908": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7221": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 2.245211,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "6909": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.741337,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6014": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66245": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "64289": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "66645": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6051": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6938": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7231": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7048": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5358": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 13.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "5691": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "68028": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7209": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "7119": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "7146": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5675": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5996": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7051": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "30926": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5969": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67862": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6815": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "31675": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "29592": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66068": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "13028": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66105": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14299": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "13043": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "13614": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67734": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "13027": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6251": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7330": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5973": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65068": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "6917": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 2.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6881": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8067": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66435": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5972": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14332": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "30812": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7671": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6724": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "66104": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7205": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7669": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.260333,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "63206": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5471": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "8095": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7680": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6735": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "12920": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "63683": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 2.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "13025": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7242": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66238": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7138": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5721": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66226": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7050": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14287": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7132": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6941": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65447": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7047": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66108": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "31174": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7204": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7631": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6925": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67116": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "5673": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67905": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14301": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66643": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7197": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67096": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7659": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "14424": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67858": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "31746": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67825": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "5979": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5685": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65294": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5459": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7230": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7642": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67826": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7682": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "6062": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67859": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66009": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5560": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14282": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6880": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "66243": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66225": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6841": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 5.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "8062": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "64982": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "10824": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6734": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "5976": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66451": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14317": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7049": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7149": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7201": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "9113": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6981": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7215": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.509578,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "8303": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67092": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "7477": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6928": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6982": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14323": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "61201": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "10831": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67121": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5715": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "29602": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6966": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67251": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7959": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7045": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5703": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.5,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "14319": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5977": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7150": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14325": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67960": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67098": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67781": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7133": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "10838": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "5637": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7296": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8025": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 3.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "7634": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6920": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8017": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "64992": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7151": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67728": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "62115": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6970": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6061": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "31698": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5709": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6886": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67004": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5975": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5947": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7333": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6084": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "64321": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7233": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67834": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7046": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7198": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7102": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "62919": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "67830": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "7306": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8088": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7147": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67002": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67906": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "12335": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "5980": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6980": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7295": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6082": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7224": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6971": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67917": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6816": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5970": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14303": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67253": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6918": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 1.298532,
+        "rule": "Villains campaign"
+      }
+    },
+    "8018": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5981": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7200": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67791": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67111": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "5625": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14292": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5617": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65079": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66106": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66235": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "62922": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7674": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65432": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65179": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "29598": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6081": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7123": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 3.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "6013": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8014": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 3.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "67117": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "7199": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8305": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "29564": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67256": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6068": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7878": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6927": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14428": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14422": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6919": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.5,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8092": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5967": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "13019": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "29608": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7670": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "14307": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "64934": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "7673": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14295": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66236": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "10836": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8066": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "6733": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "68035": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5661": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14330": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5567": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "14426": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66102": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7969": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 6.5,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "67119": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Shopping | Villains 190 170 14/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "5643": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "9645": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67094": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67861": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14297": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6015": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6044": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7331": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7245": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5974": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67802": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7196": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "64702": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7109": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7044": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6882": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5573": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67866": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6813": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7877": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "66359": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 2.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "65482": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5631": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67915": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "31730": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "61151": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67836": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "30918": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6976": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6840": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "66083": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "65431": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "31757": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "11731": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7148": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "7879": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8022": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "6936": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14313": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "10963": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8021": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "8026": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "67247": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "14293": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "29571": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "29588": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5649": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "14321": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "5995": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "CCC | P Max Heroes & Sidekicks 180 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "7203": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "CCC | Shopping | Zombies 210 180 24/2 190 17/4 180 5/6 190 26/8 170 14/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "tasks": [
+    {
+      "id": "1518316f-9bb6-4bc9-b883-9e282673e779",
+      "title": "[Go Glean] Pause Search Campaign - Zero Conversions",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-19",
+      "time_estimate_mins": 2,
+      "notes": "**From Weekly Report - 2025-11-18**\n\n**Issue:** Search campaign \"GOG | Search | Products\" spent \u00a350.40 with ZERO conversions in 7 days. 6.43% CTR suggests broken targeting.\n\n**Expected Impact:** Stop bleeding \u00a3200/month in wasted spend\n\n**Action:**\n1. Pause campaign immediately in Google Ads\n2. Pull search query report to identify triggering queries\n3. Review campaign history (name shows multiple ROAS target changes)\n4. Decide whether to fix and relaunch or permanently pause\n\n**Supporting Data:**\n- Spend: \u00a350.40 (11% of weekly budget)\n- Conversions: 0\n- Clicks: 65 at \u00a30.78 CPC\n- CTR: 6.43% (unusually high - suggests broad match issues)\n",
+      "source": "Weekly Report - 2025-11-18",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "waste-elimination",
+        "urgent"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T16:17:21.503292",
+      "updated_at": "2025-11-19T16:17:21.503296",
+      "completed_at": null
+    },
+    {
+      "id": "f0a95d3c-0569-4e76-aa05-f5072f165410",
+      "title": "[Go Glean] Audit Primary PMax Asset Groups",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2025-11-26",
+      "time_estimate_mins": 90,
+      "notes": "**From Weekly Report - 2025-11-18**\n**AUDIT COMPLETED: 2025-11-20** \u2705\n**STRATEGY CLARIFICATION: 2025-11-20** \ud83d\udccb\n\n**CRITICAL LEARNING: Product Hero Strategy = 30-Day Performance**\n\nHero/Sidekick classification is based on **30-day ROAS**, not 7-day. Short-term variance is expected and acceptable - that's what the segmentation handles.\n\n**Black Stone Products (30-Day Performance):**\n- Black Stone Sealer 500ml: **265% ROAS** \u2192 Hero status JUSTIFIED \u2713\n- Black Stone Restorer: **338% ROAS** \u2192 Hero status JUSTIFIED \u2713\n\n**7-Day Performance (Nov 12-18):**\n- Black Stone Restorer - Heroes: 0% ROAS, \u00a319.09 spent\n- This is normal variance for Heroes - let them ride it out\n\n**ACTION: NO PAUSING REQUIRED** - Heroes should stay active through short-term fluctuations.\n\n---\n\n**REVISED FOCUS: Identify True Zombies That Need Promoting**\n\nBased on 7-day data showing strong performers, check if these need **30-day performance review** for potential promotion:\n\n1. \u2b50 Grout Reviver Pens: 881% ROAS (7d) - Check 30d performance\n2. \u2b50 Salt Stain Remover 5L: 1,380% ROAS (7d) - Check 30d performance  \n3. \u2b50 Composite Sink Restorer: Strong conversions (7d) - Check 30d performance\n4. Glass & Mirror Cleaner: 231% ROAS (7d) - Check 30d performance\n\n**Next Step:** Pull 30-day product-level ROAS to see if any Zombies qualify for Hero/Sidekick promotion based on sustained 30-day performance.\n\n**Supporting Data:**\n- Campaign: \"GOG | P Max | Non Grout H&S&Z 240 11/10\"\n- Current ROAS: 122% (vs 240% target)\n- Budget share: 60% (\u00a3275.68/week)\n- Date range: Nov 12-18 (complete data, 2-day lag buffer)\n- Full audit report: clients/go-glean/reports/ad-hoc/2025-11-20-pmax-asset-group-audit-CORRECTED.html\n",
+      "source": "Weekly Report - 2025-11-18",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "asset-group-audit",
+        "product-analysis"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T16:17:21.503677",
+      "updated_at": "2025-11-20T14:26:00.000000",
+      "completed_at": null
+    },
+    {
+      "id": "f6d044f0-5f82-4e95-a574-b62a1d956f38",
+      "title": "[Go Glean] Scale Villains Campaign Budget",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2025-11-26",
+      "time_estimate_mins": 5,
+      "notes": "**From Weekly Report - 2025-11-18**\n\n**Issue:** Best-performing campaign (640% ROAS) only getting 8% of budget allocation.\n\n**Expected Impact:** +\u00a3400-600/month revenue if ROAS maintains at 500%+\n\n**Action:**\n1. Increase budget from \u00a35/day to \u00a320-25/day (incremental approach)\n2. Monitor ROAS daily for first week\n3. If ROAS stays >400%, continue increasing by \u00a35/day every 3 days\n4. Cap at \u00a350/day or when ROAS drops below 300%\n\n**Supporting Data:**\n- Campaign: \"GOG | P Max Shopping | Villains 280 2/9 249 8/9 260 11/9 230 15/9 260 23/9 240 14/11\"\n- Current ROAS: 640% (best in account by far)\n- Current spend: \u00a335.92/week (8% of budget, ~\u00a35/day)\n- Revenue: \u00a3229.91\n- CPA: \u00a35.13 (excellent efficiency)\n",
+      "source": "Weekly Report - 2025-11-18",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "scaling-opportunity"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T16:17:21.504043",
+      "updated_at": "2025-11-19T16:17:21.504045",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-21T08:45:48.759948"
+}

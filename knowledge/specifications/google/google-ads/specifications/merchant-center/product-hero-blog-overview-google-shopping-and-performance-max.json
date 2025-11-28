@@ -1,0 +1,28 @@
+{
+  "specification": {
+    "title": "Product Hero Blog Overview - Google Shopping and Performance Max",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "product_hero_blog",
+        "source": "https://www.producthero.com/blog",
+        "extracted_at": "2025-11-11T09:21:36.973463",
+        "verified": false
+      }
+    ],
+    "content": {
+      "platform_focus": "Google Shopping Ads, Performance Max, Merchant Center",
+      "tool_categories": [
+        "Google CSS - 20% lower CPC for Shopping ads",
+        "Labelizer - Automatic product segmentation based on performance",
+        "Products AI - Product feed improvement with AI",
+        "Title Optimizer - Product title optimization for visibility",
+        "Price Benchmark - Competitive price analysis",
+        "PMax Insights - Advanced Performance Max insights and control"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

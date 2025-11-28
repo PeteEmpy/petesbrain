@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "AI Mode Search Strategy Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Think - AI Excellence: https://business.google.com/uk/think/ai-excellence/ai-mode-google-marketing-search-strategy/",
+        "extracted_at": "2025-11-11T09:21:36.939694",
+        "verified": false
+      }
+    ],
+    "content": {
+      "optimization_approach": "Intent and entity-based (vs traditional keyword-focused)",
+      "content_format": "Comprehensive, context-rich information for AI surfacing",
+      "query_targeting": "Conversational queries and complex questions",
+      "integration_requirement": "Alignment between organic content quality and paid search",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

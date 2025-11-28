@@ -1,0 +1,30 @@
+{
+  "specification": {
+    "title": "Google Ads Account Review Meeting Structure",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/admin_uno-lights-google-meeting-coordination-oct-nov-2025.md",
+        "extracted_at": "2025-11-11T09:21:36.945363",
+        "verified": false
+      }
+    ],
+    "content": {
+      "meeting_purpose": "Google Ads account review",
+      "communication_tools": [
+        "Google Meet",
+        "Calendar booking system"
+      ],
+      "support_resources": {
+        "insights": "https://www.thinkwithgoogle.com/",
+        "planning_tools": "https://www.thinkwithgoogle.com/tools/",
+        "best_practices": "https://support.google.com/adwords/answer/6154846",
+        "support": "https://support.google.com/adwords/answer/8206?contact=1&rd=1#"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

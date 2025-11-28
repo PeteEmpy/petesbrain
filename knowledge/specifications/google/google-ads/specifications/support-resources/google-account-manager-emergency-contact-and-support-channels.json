@@ -1,0 +1,41 @@
+{
+  "specification": {
+    "title": "Google Account Manager Emergency Contact and Support Channels",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-account-manager-ooo-emergency-contacts-2025-11.md",
+        "extracted_at": "2025-11-11T09:21:36.927985",
+        "verified": false
+      }
+    ],
+    "content": {
+      "primary_contact_backup": {
+        "escalation_path": "Contact manager when primary rep unavailable",
+        "manager_email_format": "firstname.lastname@google.com or firstnamelastname@google.com"
+      },
+      "google_ads_support_channels": {
+        "phone": "0800 169 0409",
+        "email": "adwords-support@google.com",
+        "online_chat": "Available via Help Center link",
+        "availability": "24/7 support for all channels"
+      },
+      "support_scope": [
+        "Troubleshooting",
+        "Ad approval and policy review",
+        "Billing issues",
+        "Technical support",
+        "Merchant Center issues",
+        "Google Analytics support"
+      ],
+      "required_information": {
+        "customer_id": "Must have ready when contacting support",
+        "case_number": "Request and document for future reference"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

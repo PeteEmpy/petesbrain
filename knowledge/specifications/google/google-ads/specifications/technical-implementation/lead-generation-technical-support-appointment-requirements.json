@@ -1,0 +1,25 @@
+{
+  "specification": {
+    "title": "Lead Generation Technical Support Appointment Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Support Lead Generation Technical Appointment - Case 7-6155000039426 (2025-10-31)",
+        "extracted_at": "2025-11-11T09:21:36.912691",
+        "verified": false
+      },
+      {
+        "type": "kb_article",
+        "source": "Google Technical Support Appointment Email (2025-10-31, Case 7-6155000039426)",
+        "extracted_at": "2025-11-11T09:21:36.952214",
+        "verified": false
+      }
+    ],
+    "content": {
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

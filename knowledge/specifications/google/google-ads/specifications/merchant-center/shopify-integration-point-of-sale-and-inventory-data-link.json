@@ -1,0 +1,32 @@
+{
+  "specification": {
+    "title": "Shopify Integration - Point-of-Sale and Inventory Data Link",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center email notification - Tree2mydoor (Account ID: 107469209)",
+        "extracted_at": "2025-11-11T09:21:36.956589",
+        "verified": false
+      }
+    ],
+    "content": {
+      "integration_type": "Point-of-sale and inventory data provider",
+      "platform": "Shopify",
+      "data_transmitted": [
+        "Point-of-sale data",
+        "Inventory data"
+      ],
+      "purpose": "Display local products on Google with real-time inventory",
+      "expiration_trigger": "No data received from provider within timeframe",
+      "resolution_process": [
+        "Contact Shopify representative",
+        "Resolve data transmission issue",
+        "Resubmit link request in Merchant Center account"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

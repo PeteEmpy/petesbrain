@@ -1,0 +1,67 @@
+{
+  "date": "2025-11-04",
+  "client": "WheatyBags",
+  "comparison_date": "2025-11-03",
+  "total_products_today": 2965,
+  "total_products_yesterday": 2965,
+  "summary": {
+    "changed_products": 2,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 2,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS856",
+      "title": "Bagpuss Heatable Soft Toy - Huggable Soft Fur Fabric - Warm In The Microwave",
+      "changes": {
+        "custom_label_1": [
+          "ads_off",
+          "ads_on"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS856V162418",
+      "title": "Warmies Bagpuss Plush Heated Microwaveable Stuffed Animal Soft Toy, Pink Cream Striped, 19cm, Heating Pad, Kids Gift",
+      "changes": {
+        "custom_label_1": [
+          "ads_off",
+          "ads_on"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "WBS856",
+      "title": "Bagpuss Heatable Soft Toy - Huggable Soft Fur Fabric - Warm In The Microwave",
+      "changes": {
+        "custom_label_1": [
+          "ads_off",
+          "ads_on"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS856V162418",
+      "title": "Warmies Bagpuss Plush Heated Microwaveable Stuffed Animal Soft Toy, Pink Cream Striped, 19cm, Heating Pad, Kids Gift",
+      "changes": {
+        "custom_label_1": [
+          "ads_off",
+          "ads_on"
+        ]
+      }
+    }
+  ]
+}

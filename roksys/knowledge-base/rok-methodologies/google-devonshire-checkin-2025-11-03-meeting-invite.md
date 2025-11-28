@@ -1,0 +1,83 @@
+---
+title: Google/Devonshire Check-in Meeting Invitation - November 3, 2025
+source: invite.ics
+date_added: 2025-11-08
+last_updated: 2025-11-08
+tags: [client-meeting, google-partnership, internal-coordination, calendar-invite, check-in]
+source_type: document
+---
+
+## Summary
+
+- Calendar invitation for a check-in meeting between Google (Meghan Durand) and Devonshire/Roksys (petere@roksys.co.uk)
+- Scheduled for November 3, 2025, 14:00-14:30 GMT (30-minute meeting)
+- Virtual meeting via Google Meet with dial-in options available
+- Organizer awaiting confirmation from Peter E at Roksys
+- Meeting created October 30, 2025, with last modification on October 31, 2025
+
+## Key Insights
+
+- This appears to be a regular check-in meeting between Google and a client/partner (Devonshire), facilitated through Roksys
+- The '[please confirm]' prefix in the meeting title indicates organizer is awaiting response from the Roksys attendee
+- Short 30-minute duration suggests this is a status update or brief coordination meeting rather than a deep-dive working session
+- Meeting is scheduled during Irish business hours (2:00 PM Dublin time) accommodating European participants
+
+## Full Content
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Dublin
+X-LIC-LOCATION:Europe/Dublin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Dublin:20251103T140000
+DTEND;TZID=Europe/Dublin:20251103T143000
+DTSTAMP:20251031T075105Z
+ORGANIZER;CN=Meghan Durand:mailto:mdurand@google.com
+UID:04ub4pqvaarsc180pi3rhnisf9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=petere@roksys.co.uk;X-NUM-GUESTS=0:mailto:petere@roksys.co.uk
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Meghan Durand;X-NUM-GUESTS=0:mailto:mdurand@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rdp-jncq-nwo
+X-MICROSOFT-CDO-OWNERAPPTID:-2012728338
+CREATED:20251030T141237Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/rd
+ p-jncq-nwo\nOr dial: (IE) +353 1 571 1656 PIN: 991376877#\nMore phone numbe
+ rs: https://tel.meet/rdp-jncq-nwo?pin=3079210802569&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20251031T075102Z
+LOCATION:https://meet.google.com/rdp-jncq-nwo
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:[please confirm] Google / Devonshire check in
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+
+---
+
+*Processed from inbox on 2025-11-08*
+*Original file: invite.ics*

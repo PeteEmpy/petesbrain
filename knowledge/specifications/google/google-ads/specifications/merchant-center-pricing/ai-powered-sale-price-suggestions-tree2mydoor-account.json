@@ -1,0 +1,21 @@
+{
+  "specification": {
+    "title": "AI-Powered Sale Price Suggestions - Tree2MyDoor Account",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center email notification - 2025-11-07 (Tree2MyDoor account)",
+        "extracted_at": "2025-11-11T09:21:36.959737",
+        "verified": false
+      }
+    ],
+    "content": {
+      "access_location": "Merchant Center Analytics tab",
+      "feature_name": "Sale price suggestions feature",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

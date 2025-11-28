@@ -1,0 +1,406 @@
+{
+  "spreadsheet_id": "1Hovs50_nU3Ruo37F1vJsUmqCXmKxbHboPC2XWQOzw3Q",
+  "outliers_sheet_name": "Outliers Report",
+  "output_sheet_name": "Impact Analysis",
+  "analysis_settings": {
+    "comparison_window_days": 7,
+    "min_clicks_threshold": 10,
+    "significance_threshold_percent": 20
+  },
+  "alert_settings": {
+    "email_enabled": true,
+    "email_to": "petere@roksys.co.uk",
+    "email_from": "petere@roksys.co.uk",
+    "alert_on_negative_impact": true,
+    "alert_threshold_revenue_loss": 100,
+    "include_trends": true,
+    "include_anomalies": true
+  },
+  "monitoring": {
+    "enabled": true,
+    "check_frequency": "daily",
+    "alert_revenue_drop_threshold": 500,
+    "alert_revenue_spike_threshold": 500,
+    "alert_click_drop_threshold_percent": 50,
+    "alert_product_missing_count": 5,
+    "alert_hours_start": 9,
+    "alert_hours_end": 18,
+    "slack_webhook": null
+  },
+  "product_monitoring": {
+    "baseline_days": 30,
+    "hero_threshold_pct": 0.30,
+    "sidekick_threshold_pct": 0.40,
+    "villain_threshold_pct": 0.60,
+    "zombie_threshold_pct": 0.70,
+    "unknown_threshold_pct": 0.50
+  },
+  "impact_analysis": {
+    "before_days": 30,
+    "after_days": 30,
+    "min_significance_level": 0.95,
+    "min_data_points": 7
+  },
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "",
+    "sender_password": ""
+  },
+  "clients": [
+    {
+      "name": "Tree2mydoor",
+      "merchant_id": "107469209",
+      "google_ads_customer_id": "4941701449",
+      "enabled": true,
+      "product_performance_spreadsheet_id": "1fQ_OO48IzoojEi2nlcDRQAA9Me6vWzvRi7nyJ0YvycA",
+      "monitoring_thresholds": {
+        "revenue_drop": 300,
+        "revenue_spike": 400,
+        "click_drop_percent": 40,
+        "comment": "Mid-tier e-commerce, \u00a3300-400/day revenue typical"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_3",
+        "assessment_window_days": 30
+      }
+    },
+    {
+      "name": "Smythson UK",
+      "merchant_id": "102535465",
+      "google_ads_customer_id": "8573235780",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 1000,
+        "revenue_spike": 1500,
+        "click_drop_percent": 30,
+        "comment": "Premium luxury brand, high AOV, \u00a31000+/day revenue"
+      },
+      "label_tracking": {
+        "enabled": false,
+        "label_field": null,
+        "assessment_window_days": 30,
+        "notes": "Permission denied accessing account - need manager ID configuration"
+      },
+      "product_performance_spreadsheet_id": "1DtK0MX5qwISwO8blvbBT9rEQWqn-uVFp5hS3xBR-glo"
+    },
+    {
+      "name": "BrightMinds",
+      "merchant_id": "5291988198",
+      "google_ads_customer_id": "1404868570",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 200,
+        "revenue_spike": 300,
+        "click_drop_percent": 40,
+        "comment": "Educational toys, steady volume, \u00a3200-300/day revenue"
+      },
+      "label_tracking": {
+        "enabled": false,
+        "label_field": null,
+        "assessment_window_days": 30,
+        "notes": "No Product Hero labels detected in custom attributes"
+      },
+      "product_performance_spreadsheet_id": "12jpLRhbMmZ-cIhmI53dY6hB520GhZGoKN_NTDxfX3ks"
+    },
+    {
+      "name": "Accessories for the Home",
+      "merchant_id": "117443871",
+      "google_ads_customer_id": "7972994730",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 150,
+        "revenue_spike": 250,
+        "click_drop_percent": 45,
+        "comment": "Smaller account, \u00a3150-250/day revenue typical"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 60,
+        "notes": "Large account - partial coverage (LIMIT 500) due to MCP token limits"
+      },
+      "product_performance_spreadsheet_id": "1V23MwIeSDTj5ECBJAOIukENzy3YMxUoOEMiSP2IZAWM"
+    },
+    {
+      "name": "Go Glean UK",
+      "merchant_id": "5320484948",
+      "google_ads_customer_id": "8492163737",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 200,
+        "revenue_spike": 300,
+        "click_drop_percent": 40,
+        "comment": "Mid-sized account, \u00a3200-300/day revenue"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30,
+        "manager_id": "2569949686",
+        "notes": "Product Hero labels (H&S&Z, Villains). Manager ID required for API access."
+      },
+      "product_performance_spreadsheet_id": "1Jqy3Y4jQGUQFwyvjTHAb0JCOAxwndaIvZItvkU-xaqw"
+    },
+    {
+      "name": "Positive Bakes",
+      "merchant_id": "395496688",
+      "google_ads_customer_id": "2401439541",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 100,
+        "revenue_spike": 150,
+        "click_drop_percent": 50,
+        "comment": "Baked goods e-commerce. Shopify platform. Currently all Shopping campaigns paused (Nov 2025)."
+      },
+      "notes": "Food & beverage (cakes, brownies, desserts). Migrated from BigCommerce to Shopify in 2025 - resolved product ID discontinuity issue Nov 2025. All Shopping campaigns currently paused. Channable feed management. Owner: Aatin Anadkat.",
+      "product_performance_spreadsheet_id": "1nicOtNeETTbrnl78nrz8AjONNEzKqff8u9mRghPDkLE",
+      "label_tracking": {
+        "enabled": false,
+        "label_field": null,
+        "assessment_window_days": 30,
+        "notes": "No Product Hero labels detected. Account currently paused."
+      }
+    },
+    {
+      "name": "Superspace",
+      "merchant_id": "645236311",
+      "google_ads_customer_id": "7482100090",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 250,
+        "revenue_spike": 350,
+        "click_drop_percent": 40,
+        "comment": "International markets (US, UK, AUS), \u00a3250-350/day revenue"
+      },
+      "label_tracking": {
+        "enabled": false,
+        "label_field": null,
+        "assessment_window_days": 30,
+        "notes": "No Product Hero labels detected in custom attributes"
+      },
+      "product_performance_spreadsheet_id": "1N8H0n1qL3jWHdWxKlbyF0ywjQ1Hn5YSbgxgC4Ig2B6s"
+    },
+    {
+      "name": "Uno Lights",
+      "merchant_id": "513812383",
+      "google_ads_customer_id": "6413338364",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 180,
+        "revenue_spike": 280,
+        "click_drop_percent": 45,
+        "comment": "Lighting products, \u00a3180-280/day revenue typical"
+      },
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_1",
+        "assessment_window_days": 30,
+        "notes": "Large account - partial coverage (LIMIT 500) due to MCP token limits"
+      },
+      "product_performance_spreadsheet_id": "1vQAD5xOA-u2LWwB1AzxJJd1RJIBbqHpHHmlseO0Ko-A"
+    },
+    {
+      "name": "Devonshire Hotels",
+      "merchant_id": "UNKNOWN",
+      "google_ads_customer_id": "5898250490",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 800,
+        "revenue_spike": 1200,
+        "click_drop_percent": 30,
+        "comment": "Hotel group, high budget (\u00a311,730/month Oct 2025), ~\u00a3380/day revenue"
+      },
+      "notes": "Lead generation (hotel bookings), not e-commerce with merchant feed"
+    },
+    {
+      "name": "Godshot",
+      "merchant_id": "5291405839",
+      "google_ads_customer_id": "9922220205",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 200,
+        "revenue_spike": 300,
+        "click_drop_percent": 40,
+        "comment": "Specialty coffee/lifestyle retail, \u00a364/day budget, exceptional 1107% ROAS"
+      },
+      "notes": "Account re-enabled Oct 16, 2025. Has conversion tracking issues (20% match rate). WooCommerce platform.",
+      "product_performance_spreadsheet_id": "1Hrr27rAc1PpVxefSLja5TlEAD4Dg1rqNxbqn4FeaYCk"
+    },
+    {
+      "name": "HappySnapGifts",
+      "merchant_id": "7481296",
+      "google_ads_customer_id": "6281395727",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 100,
+        "revenue_spike": 200,
+        "click_drop_percent": 40,
+        "comment": "Photo gifts brand under Clear Prospects. 1.15x ROAS, CPA <\u00a310, stable performance"
+      },
+      "notes": "Part of Clear Prospects multi-brand. Photo gifts, face masks, bunting. Website: https://happysnapgifts.co.uk/. Achieved target ROAS and CPA Oct 2025.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_4",
+        "assessment_window_days": 30
+      },
+      "product_performance_spreadsheet_id": "1nTJyS3I5GlkRJfTeoTWBX3ehV-EDYnHOIn7Yq7raXd0"
+    },
+    {
+      "name": "WheatyBags",
+      "merchant_id": "7481286",
+      "google_ads_customer_id": "6281395727",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 120,
+        "revenue_spike": 220,
+        "click_drop_percent": 40,
+        "comment": "Wheat bag heat packs under Clear Prospects. 1.30x ROAS (best performing), needs CPA improvement"
+      },
+      "notes": "Part of Clear Prospects multi-brand. Wheat bag heat packs. Website: https://wheatybags.co.uk/. Best ROAS of the 3 brands (1.30x) but CPA needs improvement.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_4",
+        "assessment_window_days": 30
+      },
+      "product_performance_spreadsheet_id": "1htjYR0YM5TFmd1NwIS6M6jSev86VsEJ5-okkX-5MOdI"
+    },
+    {
+      "name": "BMPM",
+      "merchant_id": "7522326",
+      "google_ads_customer_id": "6281395727",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 50,
+        "revenue_spike": 100,
+        "click_drop_percent": 50,
+        "comment": "B2B promotional merchandise under Clear Prospects. CRISIS: 0.10x ROAS Sep, 0.00x Oct, restructuring"
+      },
+      "notes": "Part of Clear Prospects multi-brand. B2B branded merchandise. Website: https://bmpm.trade/. CRITICAL: Restructuring for profitability. Paused underperforming categories (mugs, coasters, napkins) early Oct. New search campaign Oct 21 (cushions). Very low/no ROAS - needs close monitoring.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_4",
+        "assessment_window_days": 30
+      },
+      "product_performance_spreadsheet_id": "1EenJFkPWGZ6c_ZhsKKYudDcW2Nt8Jeamc1m55BPR5dU"
+    },
+    {
+      "name": "Grain Guard",
+      "merchant_id": "5354444061",
+      "google_ads_customer_id": "4391940141",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 150,
+        "revenue_spike": 250,
+        "click_drop_percent": 40,
+        "comment": "Agricultural/grain storage products. Strong performance: 160% ROAS H&S, 140% ROAS Villains"
+      },
+      "notes": "Grain storage and pest control. Manager ID 2569949686 required for API access. Two product lines: H&S (Heroes & Sidekicks) performing at 160% ROAS, Villains at 140% ROAS. Switched H&S to Shopping Only on Sept 11, 2025. Seasonal business (harvest Aug-Oct).",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30,
+        "manager_id": "2569949686"
+      },
+      "product_performance_spreadsheet_id": "1VFyGERR0OHX12CwP76YUWexegrEoyhAaReGGRX9kMjw"
+    },
+    {
+      "name": "Crowd Control",
+      "merchant_id": "563545573",
+      "google_ads_customer_id": "9385103842",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 180,
+        "revenue_spike": 280,
+        "click_drop_percent": 40,
+        "comment": "Safety/crowd control equipment. Three product lines at 170% ROAS (Heroes, Villains, Zombies)"
+      },
+      "notes": "Crowd control barriers and safety equipment. Also called 'CCC UK'. Three themed product categories: Heroes & Sidekicks, Villains, Zombies. All campaigns converged to 170% ROAS target on Oct 14, 2025 (was previously 180-210%). Active optimization with frequent ROAS adjustments.",
+      "label_tracking": {
+        "enabled": true,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30
+      },
+      "product_performance_spreadsheet_id": "1V3RY5Kw5b22nzveWfDNQfjzsJ8CVdV4km0pXE3Nfofw"
+    },
+    {
+      "name": "Just Bin Bags",
+      "merchant_id": "181788523",
+      "google_ads_customer_id": "9697059148",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 120,
+        "revenue_spike": 200,
+        "click_drop_percent": 45,
+        "comment": "Industrial bin bags/refuse sacks. JBB main brand."
+      },
+      "notes": "Bin bags and refuse sacks e-commerce. Main brand JBB (merchant 181788523). Two PMax campaigns active. B2B and B2C mix likely.",
+      "label_tracking": {
+        "enabled": false,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30,
+        "notes": "Limited Product Hero labels detected - only 'bestseller' in custom_label_0 for some products, not full heroes/sidekicks/villains/zombies classification"
+      },
+      "product_performance_spreadsheet_id": "1zEiKnU-jJjEqchmXIX3QhML-g3H3v6ZstLFfz69CJyA"
+    },
+    {
+      "name": "Just Bin Bags JHD",
+      "merchant_id": "5085550522",
+      "google_ads_customer_id": "9697059148",
+      "enabled": true,
+      "monitoring_thresholds": {
+        "revenue_drop": 80,
+        "revenue_spike": 150,
+        "click_drop_percent": 45,
+        "comment": "JHD sub-brand under Just Bin Bags account"
+      },
+      "notes": "JHD sub-brand of Just Bin Bags. Shares Google Ads account 9697059148 with main JBB brand.",
+      "label_tracking": {
+        "enabled": false,
+        "label_field": "custom_label_0",
+        "assessment_window_days": 30
+      },
+      "product_performance_spreadsheet_id": "1p7hVR4bwMVTiBj8za6pVv3kmnVr8v3YEz2fhGun2YSk"
+    },
+    {
+      "name": "National Design Academy",
+      "merchant_id": "UNKNOWN",
+      "google_ads_customer_id": "UNKNOWN",
+      "enabled": false,
+      "monitoring_thresholds": {
+        "revenue_drop": 150,
+        "revenue_spike": 250,
+        "click_drop_percent": 40,
+        "comment": "Lead generation (course applications), \u00a33,000-5,000/month budget"
+      },
+      "notes": "Education lead gen (not e-commerce). Tag ID AW-1069535771. Need customer ID. India market focus."
+    },
+    {
+      "name": "OTC (Camera Manuals)",
+      "merchant_id": "7253170",
+      "google_ads_customer_id": "UNKNOWN",
+      "enabled": false,
+      "monitoring_thresholds": {
+        "revenue_drop": 100,
+        "revenue_spike": 150,
+        "click_drop_percent": 50,
+        "comment": "CRITICAL CRISIS: CPA \u00a312 vs \u00a318 avg sale, client ultimatum (1 month to improve)"
+      },
+      "notes": "PDF camera manuals, dual currency (GBP/USD). US conversion tracking crisis. Client threatened cancellation Oct 22, 2025."
+    },
+    {
+      "name": "Print My PDF",
+      "merchant_id": "UNKNOWN",
+      "google_ads_customer_id": "UNKNOWN",
+      "enabled": false,
+      "monitoring_thresholds": {
+        "revenue_drop": 100,
+        "revenue_spike": 150,
+        "click_drop_percent": 50,
+        "comment": "Print-on-demand service, price reduction Oct 21, 2025"
+      },
+      "notes": "Sister business to OTC. Account not in accessible accounts list. Price reduction experiment Oct 21, 2025."
+    }
+  ]
+}

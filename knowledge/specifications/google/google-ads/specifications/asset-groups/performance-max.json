@@ -1,0 +1,87 @@
+{
+  "specification": {
+    "title": "Performance Max Asset Group Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "code_extraction",
+        "file": "tools/google-ads-generator/claude_copywriter.py",
+        "extracted_at": "2025-11-11T09:02:58.349049",
+        "verified": true
+      }
+    ],
+    "content": {
+      "short_headlines": {
+        "max_length": 30,
+        "min_length": 25,
+        "target_length": "27-30",
+        "required_count": 50,
+        "categories": {
+          "benefits": 10,
+          "technical": 10,
+          "quirky": 10,
+          "cta": 10,
+          "brand": 10
+        }
+      },
+      "long_headlines": {
+        "max_length": 90,
+        "min_length": 80,
+        "target_length": "82-90",
+        "required_count": 25,
+        "categories": {
+          "benefits": 5,
+          "technical": 5,
+          "quirky": 5,
+          "cta": 5,
+          "brand": 5
+        },
+        "writing_style": "ONE complete sentence"
+      },
+      "descriptions": {
+        "max_length": 90,
+        "min_length": 80,
+        "target_length": "82-90",
+        "required_count": 25,
+        "categories": {
+          "benefits": 5,
+          "technical": 5,
+          "quirky": 5,
+          "cta": 5,
+          "brand": 5
+        },
+        "writing_style": "ONE complete, flowing sentence"
+      },
+      "sitelinks": {
+        "count": {
+          "min": 4,
+          "max": 6
+        },
+        "headline_max": 25,
+        "description_1_max": 35,
+        "description_2_max": 35
+      },
+      "structured_snippets": {
+        "count": {
+          "min": 3,
+          "max": 5
+        },
+        "values_per_header": {
+          "min": 3,
+          "max": 10
+        }
+      },
+      "callouts": {
+        "count": {
+          "min": 8,
+          "max": 10
+        },
+        "max_length": 25
+      },
+      "search_themes": {
+        "required_count": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "client": "Tree2mydoor",
+    "product_id": "49",
+    "product_title": "Best Friends Forever Rose Bush Gift - 30-50cm In A 3.5L Pot - Red-Pink Roses WIth A Vibrant Colour and Delicate Perfume",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "50",
+    "product_title": "Diamond Days Rose Bush Gift",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udcc8",
+    "before": {
+      "impressions": 19377,
+      "clicks": 169,
+      "conversions": 0.9856940000000001,
+      "revenue": 23.598207345,
+      "cost": 110.616059
+    },
+    "after": {
+      "impressions": 73337,
+      "clicks": 357,
+      "conversions": 6.982511000000001,
+      "revenue": 173.98562059199998,
+      "cost": 136.93189700000002
+    },
+    "clicks_change_pct": 111.24260355029585,
+    "revenue_change_pct": 637.2832098996882,
+    "revenue_change_abs": 150.38741324699998
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe2",
+    "before": {
+      "impressions": 3251,
+      "clicks": 30,
+      "conversions": 3.661252,
+      "revenue": 111.268255706,
+      "cost": 51.41
+    },
+    "after": {
+      "impressions": 249294,
+      "clicks": 473,
+      "conversions": 4.024875,
+      "revenue": 122.91437805799998,
+      "cost": 130.700531
+    },
+    "clicks_change_pct": 1476.6666666666667,
+    "revenue_change_pct": 10.466707038862994,
+    "revenue_change_abs": 11.646122351999978
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udcc8",
+    "before": {
+      "impressions": 19377,
+      "clicks": 169,
+      "conversions": 0.9856940000000001,
+      "revenue": 23.598207345,
+      "cost": 110.616059
+    },
+    "after": {
+      "impressions": 73337,
+      "clicks": 357,
+      "conversions": 6.982511000000001,
+      "revenue": 173.98562059199998,
+      "cost": 136.93189700000002
+    },
+    "clicks_change_pct": 111.24260355029585,
+    "revenue_change_pct": 637.2832098996882,
+    "revenue_change_abs": 150.38741324699998
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe2",
+    "before": {
+      "impressions": 3251,
+      "clicks": 30,
+      "conversions": 3.661252,
+      "revenue": 111.268255706,
+      "cost": 51.41
+    },
+    "after": {
+      "impressions": 249294,
+      "clicks": 473,
+      "conversions": 4.024875,
+      "revenue": 122.91437805799998,
+      "cost": 130.700531
+    },
+    "clicks_change_pct": 1476.6666666666667,
+    "revenue_change_pct": 10.466707038862994,
+    "revenue_change_abs": 11.646122351999978
+  }
+]

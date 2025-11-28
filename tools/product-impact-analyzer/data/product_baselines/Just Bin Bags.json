@@ -1,0 +1,2932 @@
+{
+  "client": "Just Bin Bags",
+  "updated": "2025-11-27T12:51:53.058460",
+  "product_count": 75,
+  "baselines": {
+    "3780613855": {
+      "product_id": "3780613855",
+      "product_title": "Clear Medical Grade Vinyl Gloves \u2013 Box Of 100 - Powder Free AQL 1.5",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.115384615384615,
+        "median": 3.5,
+        "stdev": 2.250811819356262
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 788.4230769230769,
+        "median": 766.0,
+        "stdev": 237.7297916672495
+      },
+      "cost": {
+        "mean": 2.9692307692307693,
+        "median": 2.66,
+        "stdev": 2.2302016466264627
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "222": {
+      "product_id": "222",
+      "product_title": "100 x Extra Heavy Duty Rubble Sacks - Holds 20Kg - 20 x 30\" - Black - Building Debris Rubbish Bag - 100 Micron \u2013 500 Gauge",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 35.578,
+        "median": 33.73,
+        "stdev": 23.426897361793344,
+        "min": 13.49,
+        "max": 67.45
+      },
+      "clicks": {
+        "mean": 5.464285714285714,
+        "median": 5.5,
+        "stdev": 2.768635749849358
+      },
+      "conversions": {
+        "mean": 0.848,
+        "median": 1.0,
+        "stdev": 0.2247665455533808
+      },
+      "impressions": {
+        "mean": 671.25,
+        "median": 691.0,
+        "stdev": 191.86697262735237
+      },
+      "cost": {
+        "mean": 7.394642857142857,
+        "median": 6.885,
+        "stdev": 4.88772270091688
+      },
+      "roas": {
+        "mean": 3.412,
+        "median": 2.49,
+        "stdev": 2.927340089569369
+      }
+    },
+    "3128383985": {
+      "product_id": "3128383985",
+      "product_title": "Blue Vinyl Gloves Box of 100 \u2013 Powder Free \u2013 Food Safe - All Sizes",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 1.1697953037312037
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 330.2307692307692,
+        "median": 278.5,
+        "stdev": 151.15536581737553
+      },
+      "cost": {
+        "mean": 2.616,
+        "median": 2.17,
+        "stdev": 2.3670332308164737
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "2744534942": {
+      "product_id": "2744534942",
+      "product_title": "Premium Blue Nitrile Examination Gloves Box of 100 - Medical Grade AQL 1.5",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.8333333333333335,
+        "median": 3.0,
+        "stdev": 1.5048939771136507
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 375.3076923076923,
+        "median": 358.5,
+        "stdev": 127.5459977359601
+      },
+      "cost": {
+        "mean": 2.6105555555555555,
+        "median": 2.515,
+        "stdev": 1.7372238577760046
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "232": {
+      "product_id": "232",
+      "product_title": "100 x Extra Heavy Duty Rubble Sacks - Holds 20Kg - 20\" x 30\" - Clear - Building Debris Rubbish Bag - 100 Micron \u2013 500 Gauge",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 104.3075,
+        "median": 24.24,
+        "stdev": 166.70194927374624,
+        "min": 14.75,
+        "max": 354.0
+      },
+      "clicks": {
+        "mean": 3.52,
+        "median": 3.0,
+        "stdev": 2.3825756371344577
+      },
+      "conversions": {
+        "mean": 1.125,
+        "median": 1.0,
+        "stdev": 0.6291528696058958
+      },
+      "impressions": {
+        "mean": 271.0,
+        "median": 271.5,
+        "stdev": 134.1974774836061
+      },
+      "cost": {
+        "mean": 5.5123999999999995,
+        "median": 4.59,
+        "stdev": 4.682706909470205
+      },
+      "roas": {
+        "mean": 11.647499999999999,
+        "median": 9.42,
+        "stdev": 9.975685022426612
+      }
+    },
+    "3808": {
+      "product_id": "3808",
+      "product_title": "360L Black Wheelie Bin Liners - Case Of 100 - 120 Gauge",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 44.213,
+        "median": 41.435,
+        "stdev": 24.863950722995643,
+        "min": 14.38,
+        "max": 83.51
+      },
+      "clicks": {
+        "mean": 4.5,
+        "median": 4.5,
+        "stdev": 2.4113927126900783
+      },
+      "conversions": {
+        "mean": 1.599,
+        "median": 1.665,
+        "stdev": 0.9671659630073838
+      },
+      "impressions": {
+        "mean": 337.2068965517241,
+        "median": 345.0,
+        "stdev": 101.15242363819947
+      },
+      "cost": {
+        "mean": 5.4557142857142855,
+        "median": 4.625,
+        "stdev": 4.398138856019146
+      },
+      "roas": {
+        "mean": 7.697,
+        "median": 5.075,
+        "stdev": 6.862557103587554
+      }
+    },
+    "477": {
+      "product_id": "477",
+      "product_title": "50 x Heavy Duty Dust Extractor Sacks - Clear - 20\u201d x 32\u201d x 52\u201d - Tough 70 Microns Thick",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 37.24,
+        "median": 29.92,
+        "stdev": 12.86310071483544,
+        "min": 28.1,
+        "max": 59.84
+      },
+      "clicks": {
+        "mean": 5.206896551724138,
+        "median": 5.0,
+        "stdev": 2.7823334290384443
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 183.89655172413794,
+        "median": 188.0,
+        "stdev": 77.3509372127108
+      },
+      "cost": {
+        "mean": 4.413793103448276,
+        "median": 3.48,
+        "stdev": 3.706985118657848
+      },
+      "roas": {
+        "mean": 15.51,
+        "median": 6.99,
+        "stdev": 21.290364956947073
+      }
+    },
+    "239": {
+      "product_id": "239",
+      "product_title": "120-240L Black Wheelie Bin Liners - Case of 100 - Heavy Duty",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.7333333333333334,
+        "median": 1.0,
+        "stdev": 1.0997835284835873
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 127.35714285714286,
+        "median": 80.5,
+        "stdev": 98.41981669084899
+      },
+      "cost": {
+        "mean": 1.6953333333333334,
+        "median": 1.36,
+        "stdev": 2.0767518135872893
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "715": {
+      "product_id": "715",
+      "product_title": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 64.0,
+        "median": 76.8,
+        "stdev": 57.17489046775691,
+        "min": 1.51,
+        "max": 113.69
+      },
+      "clicks": {
+        "mean": 1.3636363636363635,
+        "median": 1.0,
+        "stdev": 0.504524979109513
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 0.99,
+        "stdev": 0.9950376877284599
+      },
+      "impressions": {
+        "mean": 87.72413793103448,
+        "median": 81.0,
+        "stdev": 64.56828973582053
+      },
+      "cost": {
+        "mean": 3.928181818181818,
+        "median": 3.15,
+        "stdev": 1.9356953178732348
+      },
+      "roas": {
+        "mean": 27.936666666666667,
+        "median": 12.27,
+        "stdev": 37.808298471808186
+      }
+    },
+    "530": {
+      "product_id": "530",
+      "product_title": "360L Clear Wheelie Bin Liners - Case Of 100 - 120 Gauge",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 64.095,
+        "median": 62.074999999999996,
+        "stdev": 35.27741723350318,
+        "min": 24.83,
+        "max": 107.4
+      },
+      "clicks": {
+        "mean": 2.35,
+        "median": 2.0,
+        "stdev": 1.7252002172135512
+      },
+      "conversions": {
+        "mean": 1.1675,
+        "median": 1.0,
+        "stdev": 0.33499999999999996
+      },
+      "impressions": {
+        "mean": 122.03448275862068,
+        "median": 119.0,
+        "stdev": 49.95318004936558
+      },
+      "cost": {
+        "mean": 2.5805000000000002,
+        "median": 2.175,
+        "stdev": 2.781291776741236
+      },
+      "roas": {
+        "mean": 11.717500000000001,
+        "median": 11.15,
+        "stdev": 3.6260848951267906
+      }
+    },
+    "258": {
+      "product_id": "258",
+      "product_title": "Pallet Hoods - 75 per roll - fits 1000 x 1200mm pallet",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 105.0,
+        "median": 78.75,
+        "stdev": 45.46633369868303,
+        "min": 78.75,
+        "max": 157.5
+      },
+      "clicks": {
+        "mean": 3.8095238095238093,
+        "median": 3.0,
+        "stdev": 2.27198256197198
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 131.30769230769232,
+        "median": 146.0,
+        "stdev": 58.81616732210233
+      },
+      "cost": {
+        "mean": 8.470952380952381,
+        "median": 6.5,
+        "stdev": 7.612554042344727
+      },
+      "roas": {
+        "mean": 7.736666666666667,
+        "median": 7.7,
+        "stdev": 2.705186376820151
+      }
+    },
+    "224": {
+      "product_id": "224",
+      "product_title": "120-240L - Black Wheelie Bin Liners - Case of 100 - Medium Duty",
+      "label": "",
+      "data_points": 18,
+      "date_range": "2025-11-24 to 45952",
+      "revenue": {
+        "mean": 65.03,
+        "median": 65.03,
+        "stdev": 0,
+        "min": 65.03,
+        "max": 65.03
+      },
+      "clicks": {
+        "mean": 1.4166666666666667,
+        "median": 1.0,
+        "stdev": 1.164500152881315
+      },
+      "conversions": {
+        "mean": 0.79,
+        "median": 0.79,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 98.5,
+        "median": 81.0,
+        "stdev": 51.10801709873614
+      },
+      "cost": {
+        "mean": 1.5383333333333333,
+        "median": 0.565,
+        "stdev": 1.9050165035473785
+      },
+      "roas": {
+        "mean": 18.16,
+        "median": 18.16,
+        "stdev": 0
+      }
+    },
+    "271": {
+      "product_id": "271",
+      "product_title": "Face Masks - 3 Ply - Disposable masks | 50 per box",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.4285714285714286,
+        "median": 1.0,
+        "stdev": 0.7867957924694432
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 69.89285714285714,
+        "median": 65.0,
+        "stdev": 42.54003716388553
+      },
+      "cost": {
+        "mean": 2.1271428571428572,
+        "median": 1.89,
+        "stdev": 1.9314391377563889
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "3660": {
+      "product_id": "3660",
+      "product_title": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 16.596666666666668,
+        "median": 8.41,
+        "stdev": 21.700834853372196,
+        "min": 0.18,
+        "max": 41.2
+      },
+      "clicks": {
+        "mean": 1.4444444444444444,
+        "median": 1.0,
+        "stdev": 0.7264831572567789
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 78.25,
+        "median": 78.5,
+        "stdev": 33.201545033214835
+      },
+      "cost": {
+        "mean": 1.1855555555555555,
+        "median": 0.82,
+        "stdev": 0.7983750858949556
+      },
+      "roas": {
+        "mean": 10.316666666666666,
+        "median": 5.13,
+        "stdev": 13.60300457006956
+      }
+    },
+    "265": {
+      "product_id": "265",
+      "product_title": "Black Shrink Wrap - Extended Core - 400mm x 300m x 17 micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 54.857142857142854,
+        "median": 54.5,
+        "stdev": 37.19788353767644
+      },
+      "cost": {
+        "mean": 3.2875,
+        "median": 2.3049999999999997,
+        "stdev": 3.369177693938587
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "231": {
+      "product_id": "231",
+      "product_title": "120-240L Clear Wheelie Bin Liners - Case of 100 - Medium Duty",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 15.23,
+        "median": 15.23,
+        "stdev": 0,
+        "min": 15.23,
+        "max": 15.23
+      },
+      "clicks": {
+        "mean": 1.4,
+        "median": 1.0,
+        "stdev": 0.5163977794943223
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 45.82142857142857,
+        "median": 39.5,
+        "stdev": 24.454119658126487
+      },
+      "cost": {
+        "mean": 1.063,
+        "median": 0.86,
+        "stdev": 0.6184038594101215
+      },
+      "roas": {
+        "mean": 9.01,
+        "median": 9.01,
+        "stdev": 0
+      }
+    },
+    "3658": {
+      "product_id": "3658",
+      "product_title": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 84.1,
+        "median": 84.1,
+        "stdev": 0,
+        "min": 84.1,
+        "max": 84.1
+      },
+      "clicks": {
+        "mean": 1.25,
+        "median": 1.0,
+        "stdev": 0.4629100498862757
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 32.42857142857143,
+        "median": 29.0,
+        "stdev": 19.653344963490778
+      },
+      "cost": {
+        "mean": 1.2825,
+        "median": 0.605,
+        "stdev": 1.520523875887142
+      },
+      "roas": {
+        "mean": 20.77,
+        "median": 20.77,
+        "stdev": 0
+      }
+    },
+    "716": {
+      "product_id": "716",
+      "product_title": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5163977794943223
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 39.275862068965516,
+        "median": 33.0,
+        "stdev": 29.18401782742952
+      },
+      "cost": {
+        "mean": 2.333333333333333,
+        "median": 2.04,
+        "stdev": 1.0566109343872352
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "3659": {
+      "product_id": "3659",
+      "product_title": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.4,
+        "median": 1.0,
+        "stdev": 0.8944271909999159
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 51.357142857142854,
+        "median": 50.5,
+        "stdev": 22.9576329366272
+      },
+      "cost": {
+        "mean": 0.486,
+        "median": 0.49,
+        "stdev": 0.24704250646396866
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "714": {
+      "product_id": "714",
+      "product_title": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 41.142857142857146,
+        "median": 38.5,
+        "stdev": 25.56866468466067
+      },
+      "cost": {
+        "mean": 0.55,
+        "median": 0.63,
+        "stdev": 0.3961060464067672
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "267": {
+      "product_id": "267",
+      "product_title": "Black Shrink Wrap 500mm x 250m x 25 Micron Flush Core",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.964285714285715,
+        "median": 32.5,
+        "stdev": 22.273522136379516
+      },
+      "cost": {
+        "mean": 2.0300000000000002,
+        "median": 1.95,
+        "stdev": 0.9439985875695648
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "1368": {
+      "product_id": "1368",
+      "product_title": "Yellow Clinical Waste Bags - 350 Per Box",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 39.42857142857143,
+        "median": 41.5,
+        "stdev": 20.911504137459968
+      },
+      "cost": {
+        "mean": 1.7225000000000001,
+        "median": 1.045,
+        "stdev": 1.8714945008379444
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "556": {
+      "product_id": "556",
+      "product_title": "Red Soluble Strip Laundry Bags - Dissolvable Strip Bag 38\" Length",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.125,
+        "median": 1.0,
+        "stdev": 0.3535533905932738
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.241379310344826,
+        "median": 36.0,
+        "stdev": 16.413529202663867
+      },
+      "cost": {
+        "mean": 1.85,
+        "median": 2.13,
+        "stdev": 1.4986374764145882
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "260": {
+      "product_id": "260",
+      "product_title": "Shrink Wrap - Extended Core 400mm x 300m - 20 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 29.714285714285715,
+        "median": 26.0,
+        "stdev": 19.70496674155311
+      },
+      "cost": {
+        "mean": 3.335,
+        "median": 3.335,
+        "stdev": 2.962777413171634
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "476": {
+      "product_id": "476",
+      "product_title": "Heavy Duty Dust Extractor Sacks - Box Of 50 - 20\u201d x 30\u201d x 54\u201d \u2013 Clear \u2013 Super Tough 85 Microns Thick",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.8666666666666667,
+        "median": 2.0,
+        "stdev": 0.8338093878327919
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 27.413793103448278,
+        "median": 28.0,
+        "stdev": 16.599305582246743
+      },
+      "cost": {
+        "mean": 2.3746666666666667,
+        "median": 0.89,
+        "stdev": 3.6278424652099974
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "1268341122": {
+      "product_id": "1268341122",
+      "product_title": "Marigold Powder Free Latex Household Gloves - Pack of 144 Pairs \u2013 Blue",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 27.807692307692307,
+        "median": 26.5,
+        "stdev": 12.079798775705598
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "4998": {
+      "product_id": "4998",
+      "product_title": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 19.25925925925926,
+        "median": 15.0,
+        "stdev": 11.597720573764592
+      },
+      "cost": {
+        "mean": 0.67,
+        "median": 0.67,
+        "stdev": 0.014142135623730963
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "5000": {
+      "product_id": "5000",
+      "product_title": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 18.689655172413794,
+        "median": 16.0,
+        "stdev": 12.157018690792404
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "458": {
+      "product_id": "458",
+      "product_title": "Machine Stretch Film - 500mm x 23 Mu - PPS 250%",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 18.357142857142858,
+        "median": 16.0,
+        "stdev": 12.687743533774475
+      },
+      "cost": {
+        "mean": 3.09,
+        "median": 3.09,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "209": {
+      "product_id": "209",
+      "product_title": "160 Gauge Bin Bags - AQUARIUS | 40 Micron | Extra Heavy Duty",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 25.28,
+        "median": 25.28,
+        "stdev": 0,
+        "min": 25.28,
+        "max": 25.28
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 20.535714285714285,
+        "median": 17.0,
+        "stdev": 12.48549422880673
+      },
+      "cost": {
+        "mean": 0.83,
+        "median": 0.83,
+        "stdev": 0.551543289325507
+      },
+      "roas": {
+        "mean": 57.45,
+        "median": 57.45,
+        "stdev": 0
+      }
+    },
+    "225": {
+      "product_id": "225",
+      "product_title": "Swing Bin Liner Heavy Duty - 500 per Box, 13 x 23 x 27 - 15 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 19.964285714285715,
+        "median": 20.5,
+        "stdev": 10.895062228017835
+      },
+      "cost": {
+        "mean": 2.9,
+        "median": 2.9,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "212": {
+      "product_id": "212",
+      "product_title": "Clear Bin Bags Heavy Duty | Diamond | 130 Gauge, 32.50 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 13.65,
+        "median": 13.65,
+        "stdev": 0,
+        "min": 13.65,
+        "max": 13.65
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0.78,
+        "median": 0.78,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 18.892857142857142,
+        "median": 18.0,
+        "stdev": 10.357817894440485
+      },
+      "cost": {
+        "mean": 0.88,
+        "median": 0.43,
+        "stdev": 0.9487360012142472
+      },
+      "roas": {
+        "mean": 6.93,
+        "median": 6.93,
+        "stdev": 0
+      }
+    },
+    "253": {
+      "product_id": "253",
+      "product_title": "Black Compactor Sack- JET - Extra Heavy Duty - 160 Gauge, 40 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 10.678571428571429,
+        "median": 9.5,
+        "stdev": 6.987043943527411
+      },
+      "cost": {
+        "mean": 0.94,
+        "median": 0.94,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "5001": {
+      "product_id": "5001",
+      "product_title": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.62962962962963,
+        "median": 5.0,
+        "stdev": 7.908846790136824
+      },
+      "cost": {
+        "mean": 0.81,
+        "median": 0.81,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "238": {
+      "product_id": "238",
+      "product_title": "Orange Bin Bags - Medium Duty, 100 Gauge, 25 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 14.535714285714286,
+        "median": 14.0,
+        "stdev": 7.5888912129025705
+      },
+      "cost": {
+        "mean": 1.085,
+        "median": 1.085,
+        "stdev": 0.7000357133746821
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "4999": {
+      "product_id": "4999",
+      "product_title": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.076923076923077,
+        "median": 10.0,
+        "stdev": 7.652048493955468
+      },
+      "cost": {
+        "mean": 0.6775,
+        "median": 0.72,
+        "stdev": 0.38921930407761984
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "237": {
+      "product_id": "237",
+      "product_title": "Bin Bags Extra Heavy Duty ZIRCON - 200 Gauge, 50 Micron",
+      "label": "",
+      "data_points": 27,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.2,
+        "median": 1.0,
+        "stdev": 0.4472135954999579
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 10.25925925925926,
+        "median": 8.0,
+        "stdev": 6.7458967163100345
+      },
+      "cost": {
+        "mean": 1.238,
+        "median": 0.79,
+        "stdev": 1.564567032760182
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "498": {
+      "product_id": "498",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 9.851851851851851,
+        "median": 10.0,
+        "stdev": 5.688745324043199
+      },
+      "cost": {
+        "mean": 0.16,
+        "median": 0.15,
+        "stdev": 0.0754983443527075
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "261": {
+      "product_id": "261",
+      "product_title": "Clear Shrink Wrap - Extended Core - 400mm x 250m x 17 micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 9.571428571428571,
+        "median": 8.5,
+        "stdev": 7.33549751615552
+      },
+      "cost": {
+        "mean": 4.86,
+        "median": 4.86,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "226": {
+      "product_id": "226",
+      "product_title": "Blue Rubble Sacks On Roll, 10 Per Roll - 380 Gauge, 95 Micron",
+      "label": "",
+      "data_points": 27,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 15.074074074074074,
+        "median": 15.0,
+        "stdev": 8.095230912874786
+      },
+      "cost": {
+        "mean": 0.71,
+        "median": 0.71,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "5709460654": {
+      "product_id": "5709460654",
+      "product_title": "Blue Disposable Mob Caps - Food Safe Hair Covers - Case of 1000",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.925925925925926,
+        "median": 10.0,
+        "stdev": 6.539383209717317
+      },
+      "cost": {
+        "mean": 1.97,
+        "median": 1.97,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "515": {
+      "product_id": "515",
+      "product_title": "Aprons Flat packed - NHS GRADE 16 micron - 1000 Aprons - White",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 7.535714285714286,
+        "median": 6.0,
+        "stdev": 5.633774754941663
+      },
+      "cost": {
+        "mean": 1.44,
+        "median": 1.44,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "214": {
+      "product_id": "214",
+      "product_title": "Clear Compactor Sacks 160 gauge - SPRUCE - Extra Heavy Duty, 40 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.142857142857142,
+        "median": 9.5,
+        "stdev": 6.95868381400394
+      },
+      "cost": {
+        "mean": 1.21,
+        "median": 1.21,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "496": {
+      "product_id": "496",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.931034482758621,
+        "median": 7.0,
+        "stdev": 5.861076415537378
+      },
+      "cost": {
+        "mean": 0.41,
+        "median": 0.41,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "263": {
+      "product_id": "263",
+      "product_title": "Black Compactor Sacks 120 Gauge - EMERALD - Heavy Duty - 200 per Box",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.5,
+        "median": 10.0,
+        "stdev": 6.389053137985315
+      },
+      "cost": {
+        "mean": 0.94,
+        "median": 0.94,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "2198": {
+      "product_id": "2198",
+      "product_title": "Purple Bin Bags Medium Duty, 100 Gauge, 25 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 25.98,
+        "median": 25.98,
+        "stdev": 0,
+        "min": 25.98,
+        "max": 25.98
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.428571428571429,
+        "median": 8.0,
+        "stdev": 5.587211398983505
+      },
+      "cost": {
+        "mean": 1.025,
+        "median": 0.98,
+        "stdev": 0.7920648121629105
+      },
+      "roas": {
+        "mean": 57.73,
+        "median": 57.73,
+        "stdev": 0
+      }
+    },
+    "216": {
+      "product_id": "216",
+      "product_title": "Red Bin Bags Medium Duty, 100 Gauge, 25 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 10.321428571428571,
+        "median": 10.5,
+        "stdev": 5.919544348259019
+      },
+      "cost": {
+        "mean": 0.99,
+        "median": 0.99,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "251": {
+      "product_id": "251",
+      "product_title": "Clear Square Bin Liner H/D, 500 per Box, 20 Micron 15x24x24",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 10.214285714285714,
+        "median": 8.5,
+        "stdev": 6.505593848585333
+      },
+      "cost": {
+        "mean": 2.453333333333333,
+        "median": 2.19,
+        "stdev": 1.0208003396028693
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "497": {
+      "product_id": "497",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 7.333333333333333,
+        "median": 6.0,
+        "stdev": 4.922475924854202
+      },
+      "cost": {
+        "mean": 0.165,
+        "median": 0.165,
+        "stdev": 0.07778174593052023
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "252": {
+      "product_id": "252",
+      "product_title": "Black Square Bin Liner - Heavy Duty - 500 per Box - 20 Micron, 80 Gauge",
+      "label": "",
+      "data_points": 27,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5773502691896257
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.703703703703704,
+        "median": 8.0,
+        "stdev": 5.090071896234071
+      },
+      "cost": {
+        "mean": 0.5466666666666667,
+        "median": 0.31,
+        "stdev": 0.4808672720547047
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "500": {
+      "product_id": "500",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 23,
+      "date_range": "45936 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 7.6521739130434785,
+        "median": 6.0,
+        "stdev": 5.882243663249083
+      },
+      "cost": {
+        "mean": 0.38,
+        "median": 0.38,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "499": {
+      "product_id": "499",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 7.0,
+        "median": 6.0,
+        "stdev": 4.922475924854202
+      },
+      "cost": {
+        "mean": 1.05,
+        "median": 1.05,
+        "stdev": 0.05656854249492385
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "218": {
+      "product_id": "218",
+      "product_title": "Tiger Stripe Bags - Medium Duty, 110 Gauge, 27.5 Micron",
+      "label": "",
+      "data_points": 27,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 9.185185185185185,
+        "median": 7.0,
+        "stdev": 6.164645083283303
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "4629": {
+      "product_id": "4629",
+      "product_title": "Square Bin Liner Heavy Duty - 500 per Box - 10 Micron 15 x 24 x 24",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.285714285714286,
+        "median": 5.5,
+        "stdev": 3.837988891354264
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "207": {
+      "product_id": "207",
+      "product_title": "Heavy Duty Bin Bags 120 gauge | Sapphire | 30 Micron",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.964285714285714,
+        "median": 6.5,
+        "stdev": 4.032113156638403
+      },
+      "cost": {
+        "mean": 0.56,
+        "median": 0.56,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "546": {
+      "product_id": "546",
+      "product_title": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Large",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45936 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 5.653846153846154,
+        "median": 5.0,
+        "stdev": 3.5993589172774385
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "210": {
+      "product_id": "210",
+      "product_title": "Clear Bin Bags Light Duty - GLASS - 88 Gauge, 22 Micron",
+      "label": "",
+      "data_points": 25,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 5.36,
+        "median": 4.0,
+        "stdev": 3.8501082235871413
+      },
+      "cost": {
+        "mean": 2.22,
+        "median": 2.22,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "547": {
+      "product_id": "547",
+      "product_title": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Medium",
+      "label": "",
+      "data_points": 26,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 4.6923076923076925,
+        "median": 3.5,
+        "stdev": 3.331897126493923
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "502": {
+      "product_id": "502",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 29,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 7.137931034482759,
+        "median": 7.0,
+        "stdev": 3.5124689925528623
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "211": {
+      "product_id": "211",
+      "product_title": "Clear Bin Bags Medium Duty | Crystal | 100 Gauge, 25 Micron",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45937 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.5,
+        "median": 6.0,
+        "stdev": 3.646916505762094
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "1367": {
+      "product_id": "1367",
+      "product_title": "Yellow Clinical Waste Bags - 350 Per Box",
+      "label": "",
+      "data_points": 26,
+      "date_range": "2025-11-24 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 4.423076923076923,
+        "median": 3.0,
+        "stdev": 3.0485810066071974
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "241": {
+      "product_id": "241",
+      "product_title": "Pedal Bin Liner - Light Duty, 1000 per Box, 6 Micron, 11x18x18",
+      "label": "",
+      "data_points": 25,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 4.4,
+        "median": 4.0,
+        "stdev": 2.5
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "454": {
+      "product_id": "454",
+      "product_title": "Blue Vinyl Gloves Powder Free - 10 boxes x 100 gloves - Large",
+      "label": "",
+      "data_points": 25,
+      "date_range": "2025-11-24 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.52,
+        "median": 3.0,
+        "stdev": 2.219609575278199
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "2999": {
+      "product_id": "2999",
+      "product_title": "Aprons Flat Packed - Standard 10 Micron - 1000 Aprons - Blue",
+      "label": "",
+      "data_points": 15,
+      "date_range": "45942 to 45958",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.8666666666666667,
+        "median": 3.0,
+        "stdev": 2.587515815456612
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "501": {
+      "product_id": "501",
+      "product_title": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "label": "",
+      "data_points": 26,
+      "date_range": "45936 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 4.346153846153846,
+        "median": 4.0,
+        "stdev": 2.755972535310288
+      },
+      "cost": {
+        "mean": 0.6,
+        "median": 0.6,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "459": {
+      "product_id": "459",
+      "product_title": "Machine Stretch Film - 500mm x 23 Mu - PPS 250%",
+      "label": "",
+      "data_points": 17,
+      "date_range": "45938 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 2.3529411764705883,
+        "median": 2.0,
+        "stdev": 1.9345922202943775
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "3198": {
+      "product_id": "3198",
+      "product_title": "Heavy Duty Bin Bags, Opal On Rolls - 140 Gauge - 32.5 Micron, 18 X 29 X 34",
+      "label": "",
+      "data_points": 23,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.6956521739130435,
+        "median": 4.0,
+        "stdev": 2.4759714825919734
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "516": {
+      "product_id": "516",
+      "product_title": "Aprons Flat packed - NHS GRADE 16 micron - 1000 Aprons - Blue",
+      "label": "",
+      "data_points": 23,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.130434782608696,
+        "median": 3.0,
+        "stdev": 2.0955439264845026
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "206": {
+      "product_id": "206",
+      "product_title": "Medium Duty Bin Bags - SMOKEY - 80 Gauge, 20 Micron",
+      "label": "",
+      "data_points": 10,
+      "date_range": "45952 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 4.4,
+        "median": 4.0,
+        "stdev": 2.716206504995115
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "2998": {
+      "product_id": "2998",
+      "product_title": "Aprons Flat Packed - Standard 10 Micron - 1000 Aprons - White",
+      "label": "",
+      "data_points": 17,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.3529411764705883,
+        "median": 3.0,
+        "stdev": 2.2622217085916954
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "545": {
+      "product_id": "545",
+      "product_title": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Extra Large",
+      "label": "",
+      "data_points": 17,
+      "date_range": "2025-11-24 to 45959",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1.8823529411764706,
+        "median": 1.0,
+        "stdev": 1.4090046549415864
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "453": {
+      "product_id": "453",
+      "product_title": "Blue Vinyl Gloves Powder Free - 10 boxes x 100 gloves - Medium",
+      "label": "",
+      "data_points": 15,
+      "date_range": "45940 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 2.2,
+        "median": 2.0,
+        "stdev": 1.2649110640673518
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "455": {
+      "product_id": "455",
+      "product_title": "Blue Vinyl Gloves Powder Free - 10 boxes x 100 gloves - Extra Large",
+      "label": "",
+      "data_points": 13,
+      "date_range": "45938 to 45961",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1.6153846153846154,
+        "median": 1.0,
+        "stdev": 1.325296290046213
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "460": {
+      "product_id": "460",
+      "product_title": "Machine Stretch Film - 500mm x 23 Mu - PPS 250%",
+      "label": "",
+      "data_points": 11,
+      "date_range": "45940 to 45960",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1.8181818181818181,
+        "median": 1.0,
+        "stdev": 1.1677484162422844
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "": {
+      "product_id": "",
+      "product_title": "",
+      "label": "",
+      "data_points": 420,
+      "date_range": "2025-11-04 to 2025-11-25",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    }
+  }
+}

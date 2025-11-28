@@ -1,0 +1,104 @@
+SMYTHSON UK - BRAND VS NON-BRAND SEARCH TERM ANALYSIS
+Date: 2025-11-13
+Period: Last 30 Days
+Source: Search Campaigns Only
+
+==========================================================================================
+
+EXECUTIVE SUMMARY:
+------------------
+Brand terms dominate Smythson UK's search campaigns, accounting for 96% of spend and generating
+99% of revenue at a strong 669% ROAS. Non-brand terms contribute only 4% of spend with significantly
+lower performance (206% ROAS).
+
+KEY FINDINGS:
+
+1. BRAND DOMINANCE
+   • Spend: £18,615.46 (96.0%)
+   • Revenue: £124,606.25 (98.7%)
+   • ROAS: 669.4%
+   • Clicks: 12,748 (96.7%)
+   • Search Terms: 2,043 unique terms
+
+2. NON-BRAND PERFORMANCE
+   • Spend: £773.32 (4.0%)
+   • Revenue: £1,595.07 (1.3%)
+   • ROAS: 206.3%
+   • Clicks: 433 (3.3%)
+   • Search Terms: 5,262 unique terms
+
+3. OVERALL METRICS
+   • Total Spend: £19,388.78
+   • Total Revenue: £126,201.32
+   • Total ROAS: 650.9%
+   • Total Impressions: 51,185
+   • Total Clicks: 13,181
+
+==========================================================================================
+
+TOP 10 BRAND SEARCH TERMS (by spend):
+--------------------------------------
+1. smythson                        £8,255.40    £56,926.40    689.6% ROAS    4,868 clicks
+2. smythsons                       £1,232.30    £7,291.90     591.7% ROAS      567 clicks
+3. smythson                        £698.77      £4,843.49     693.1% ROAS      485 clicks
+4. smythson diary                  £458.46      £7,819.68     1706% ROAS       406 clicks
+5. smythson notebook               £329.85      £6,582.00     1995% ROAS       681 clicks
+6. smythson of bond street         £256.43      £5,109.27     1993% ROAS       812 clicks
+7. smythson sloane street          £182.01      £445.00       245% ROAS         53 clicks
+8. smythson london                 £181.05      £538.16       297% ROAS        120 clicks
+9. smythsons of bond street        £173.69      £1,133.03     652% ROAS        151 clicks
+10. smythson diary 2026            £163.00      £5,561.79     3412% ROAS       278 clicks
+
+==========================================================================================
+
+TOP 10 NON-BRAND SEARCH TERMS (by spend):
+------------------------------------------
+1. aspinal of london               £26.89       £0.00         0% ROAS           14 clicks
+2. aspinal handbag tidy            £19.00       £0.00         0% ROAS            1 click
+3. expensive handbags              £18.95       £0.00         0% ROAS            1 click
+4. michael kors tote bag           £18.53       £0.00         0% ROAS            1 click
+5. louis vuitton bags klarna       £18.41       £0.00         0% ROAS            1 click
+6. christmas gifts for colleagues  £17.04       £0.00         0% ROAS            1 click
+7. moleskine                       £16.44       £0.00         0% ROAS            7 clicks
+8. louise carmen journal           £14.88       £0.00         0% ROAS            5 clicks
+9. choosing keeping                £12.79       £0.00         0% ROAS            4 clicks
+10. samsonite                      £12.78       £0.00         0% ROAS            1 click
+
+==========================================================================================
+
+STRATEGIC INSIGHTS:
+
+1. BRAND STRENGTH
+   - Smythson has exceptionally strong brand recognition
+   - Core brand term "smythson" alone drives £8,255 spend / £56,926 revenue (689% ROAS)
+   - Product-specific brand terms (diary, notebook) have ROAS of 1700-2000%
+   - Brand extensions (sloane street, bond street, london) capture location-based searches
+
+2. NON-BRAND CHALLENGES
+   - Non-brand terms generate minimal revenue (£1,595 total)
+   - Top non-brand spend goes to competitor terms (Aspinal, Moleskine) with 0% conversion
+   - Generic luxury terms (expensive handbags, michael kors, louis vuitton) also convert at 0%
+   - Only 1.3% of revenue comes from non-brand despite 4% of spend
+
+3. RECOMMENDATIONS
+   - Continue investing in brand terms (strong performance, high ROAS)
+   - Consider adding negative keywords for competitor brands (Aspinal, Moleskine, etc.)
+   - Review non-brand strategy: £773 spend with £1,595 revenue (206% ROAS) suggests:
+     * Either refine targeting to more relevant non-brand terms
+     * Or reallocate budget to proven brand terms
+   - Opportunity: "christmas gifts for colleagues" is a relevant non-brand term worth testing
+
+4. ACCOUNT STRUCTURE
+   - Current setup: Brand and non-brand traffic likely mixed in same campaigns
+   - Suggested: Split brand/non-brand into separate campaigns for better control
+   - Would enable: Different bidding strategies, budgets, and ROAS targets per type
+
+==========================================================================================
+
+METHODOLOGY:
+Brand terms identified as containing: smythson, smyth, smith, smyson, symthson, frank smythson
+All other terms classified as non-brand.
+
+Data Source: Google Ads API (search_term_view)
+Period: Last 30 days from 2025-11-13
+Customer ID: 8573235780 (Smythson UK)

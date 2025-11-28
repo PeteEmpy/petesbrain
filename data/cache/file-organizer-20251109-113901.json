@@ -1,0 +1,58 @@
+[
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state 3.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state 3.json",
+    "timestamp": "2025-11-09T11:38:18.250820",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state 2.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state 2.json",
+    "timestamp": "2025-11-09T11:38:18.250895",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/ROK _ Google Ads Text Asset Generation 3.docx",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/ROK _ Google Ads Text Asset Generation 3.docx",
+    "timestamp": "2025-11-09T11:38:18.251031",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/ROK _ Google Ads Text Asset Generation 2.docx",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/ROK _ Google Ads Text Asset Generation 2.docx",
+    "timestamp": "2025-11-09T11:38:18.251067",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state.json 3.backup",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state.json 3.backup",
+    "timestamp": "2025-11-09T11:38:18.251102",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.mcp 2.json",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.mcp 2.json",
+    "timestamp": "2025-11-09T11:38:18.251162",
+    "metadata": {}
+  },
+  {
+    "action": "archive_duplicate",
+    "source": "/Users/administrator/Documents/PetesBrain/.email-sync-state.json 2.backup",
+    "target": "/Users/administrator/Documents/PetesBrain/_archive/.email-sync-state.json 2.backup",
+    "timestamp": "2025-11-09T11:38:18.251229",
+    "metadata": {}
+  },
+  {
+    "action": "create_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/audits",
+    "target": null,
+    "timestamp": "2025-11-09T11:38:32.507055",
+    "metadata": {}
+  }
+]

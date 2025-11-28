@@ -1,0 +1,2371 @@
+{
+  "date": "2025-11-21",
+  "client": "Smythson UK",
+  "comparison_date": "2025-11-20",
+  "total_products_today": 1461,
+  "total_products_yesterday": 1460,
+  "summary": {
+    "changed_products": 47,
+    "price_changes": 8,
+    "sale_price_changes": 0,
+    "availability_changes": 7,
+    "title_changes": 8,
+    "description_changes": 15,
+    "image_changes": 3,
+    "item_group_changes": 9,
+    "shipping_changes": 0,
+    "label_changes": 16,
+    "new_products": 2,
+    "removed_products": 1
+  },
+  "changed_products": [
+    {
+      "product_id": "1001731",
+      "title": "Ballpoint Pen",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html",
+          "https://www.smythson.com/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204708",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara - Lilac",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Raspberry Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1200677",
+      "title": "Smythson Lockable Watch Box In Panama - Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204403",
+      "title": "Smythson Custodia Per Laptop Grande In Panama - Nero",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/it/black-friday/all-outlet/p/custodia-per-laptop-grande-in-panama/1204403.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/p/custodia-per-laptop-grande-in-panama/1204403.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205151",
+      "title": "Smythson Lists, Lists And Lists Panama Notebook In Navy",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204645",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1202430",
+      "title": "Smythson Portaorologi Avvolgibile Singolo In Panama - Nero",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204800",
+      "title": "Smythson Soho Notebook In Panama In Raspberry",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/soho-notebook-in-panama/1204800.html",
+          "https://www.smythson.com/p/soho-notebook-in-panama/1204800.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1204289",
+      "title": "Smythson Washbag With Double Zip In Panama - Nile Blue",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/eur/men/accessories/washbags/p/washbag-with-double-zip-in-panama/1204289.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/eur/black-friday/all-outlet/p/washbag-with-double-zip-in-panama/1204289.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1019304",
+      "title": "E Alphabet Correspondence Cards",
+      "changes": {
+        "price": [
+          "26.00 EUR",
+          "21.00 GBP"
+        ],
+        "title": [
+          "Cartes de correspondance alphabet E",
+          "E Alphabet Correspondence Cards"
+        ],
+        "description": [
+          "Bo\u00eete de dix cartes en papier v\u00e9lin blanc Caract\u00e8res d\u2019impression grav\u00e9s en bleu marine Enveloppes assorties Fabriqu\u00e9 en Angleterre Dimensions\u00a0: l 14 x H 9 cm / l 5,5 x H 3,5 \"",
+          "Box of ten white wove cards Lettering engraved in navy Matching envelopes Made in England Dimensions: W14 x H9cm / W5.5 x H3.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/fr/p/cartes-de-correspondance-alphabet-e/1019304.html",
+          "https://www.smythson.com/stationery/cards/p/e-alphabet-correspondence-cards/1019304.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1203190",
+      "title": "Smythson Smythson Travel Gift Box In Navy",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/smythson-travel-gift-box/1203190.html",
+          "https://www.smythson.com/p/smythson-travel-gift-box/1203190.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1202225",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Rotes",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1201720",
+      "title": "Smythson Quaderno Soho Con Chiusura Scorrevole In Mara - Navy",
+      "changes": {
+        "description": [
+          "Quaderno Soho rilegato in pelle di vitello goffrata effetto coccodrillo lilla  192 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Chiusura scorrevole argento  Tasca a filetto  Fodera in seta  Articolo prodotto in Inghilterra Dimensioni:L 14 x H 19,6\u00a0cm",
+          "Quaderno Soho rilegato in pelle di vitello goffrata effetto coccodrillo lampone  192 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Chiusura scorrevole argento  Tasca a filetto  Fodera in seta  Articolo prodotto in Inghilterra Dimensioni:L 14 x H 19,6\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1204405",
+      "title": "Smythson Gro\u00dfe Laptop-H\u00fclle Aus Panama - Nilblau",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/de/black-friday/all-outlet/p/groe-laptop-hlle-aus-panama/1204405.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/de/p/groe-laptop-hlle-aus-panama/1204405.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205372",
+      "title": "Petite pochette de voyage en toile Stamp",
+      "changes": {
+        "title": [
+          "Kleines Reiseetui aus Canvas mit Stempeldesign",
+          "Petite pochette de voyage en toile Stamp"
+        ],
+        "description": [
+          "Kleines Reiseetui aus Nylon und Canvas in Schwarz  Besatz aus genarbtem Kalbsleder  Hauptfach mit Rundum-Rei\u00dfverschluss  Mit Stoff gef\u00fcttert  Hergestellt in ItalienMa\u00dfe: B 17 x H 10,5 x D 6,5 cm / B 6,7 x H 4 x T 2,5\"",
+          "Petite pochette de voyage noire en toile de nylon  Finitions en cuir de veau grain\u00e9  Compartiment principal enti\u00e8rement zipp\u00e9  Doublure en tissu  Fabriqu\u00e9 en Italie Dimensions:l\u00a017\u00a0x L\u00a010,5\u00a0x P\u00a06,5\u00a0cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/geschenke/chinesische-neujahrsgeschenke/p/kleines-reiseetui-aus-canvas-mit-stempeldesign/1205372.html",
+          "https://www.smythson.com/fr/cadeaux/cadeaux-pour-le-nouvel-an-chinois/p/petite-pochette-de-voyage-en-toile-stamp/1205372.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1204664",
+      "title": "Smythson Nuova Agenda Chelsea 2026 In Panama Con Layout Settimanale - Petrol",
+      "changes": {
+        "title": [
+          "Smythson 2026 Neuer Chelsea-Wochen-Terminkalender In Panama - Petrol",
+          "Smythson Nuova Agenda Chelsea 2026 In Panama Con Layout Settimanale - Petrol"
+        ],
+        "description": [
+          "Terminkalender mit Einband aus quergemasertem Lammleder in Scharlachrot  Wochenansicht mit Seiten f\u00fcr Notizen  Hellblaues, federleichtes Papier mit Goldschnittverzierung  Einsteckfach  Hergestellt in England  Von Montag, 17  November 2025 bis Sonntag, 24  Januar 2027 Ma\u00dfe: B 11,2 x H 16,7 cm",
+          "Agenda rilegata in pelle di agnello crossgrain rosso scarlatto  Layout settimanale con pagine per appunti  Carta Featherweight azzurra con bordi dorati  Tasca a filetto  Articolo prodotto in Inghilterra  Da luned\u00ec 17 novembre 2025 a domenica 24 gennaio 2027 Dimensioni:L\u00a011,2 x H\u00a016,7 cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/tagebuchfhrer/alle-terminkalender/p/2026-neuer-chelsea-wochen-terminkalender-in-panama/1204664.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/diari/tutte-le-agende/p/nuova-agenda-chelsea-2026-in-panama-con-layout-settimanale/1204664.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205049",
+      "title": "Smythson Quaderno Panama \"Make It Happen\" - Raspberry",
+      "changes": {
+        "title": [
+          "Smythson Make It Happen Panama Notebook - Raspberry",
+          "Smythson Quaderno Panama \"Make It Happen\" - Raspberry"
+        ],
+        "description": [
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain rosso scarlatto 128 pagine in carta Featherweight azzurra, con bordo oro Prodotto in Inghilterra Dimensioni: L 9 x H 14 cm / L 3,5 x H 5,5\""
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205049.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/quaderni/tutte-i-quaderni/p/quaderno-panama-make-it-happen/1205049.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205354",
+      "title": "Smythson Slim Briefcase With Zip Front In Ludlow In Dark Brown",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204128",
+      "title": "Smythson Flat Card Holder In Panama In Stars Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1028835",
+      "title": "Smythson Lightweight Large Briefcase In Panama In Navy",
+      "changes": {
+        "description": [
+          "Navy large lightweight briefcase in crossgrain calf leather Fabric lining Trims in black smooth calf leather Removable, adjustable shoulder strap 16\u201d Laptop  Double zip fastenings in two internal compartments Interior zipped pocket in back compartment Two slip pockets in interior of front compartment Leather strap at back for luggage trolley. Dimensions: W40 x H28.5 x D8cm / W15.7 x H11.2 x D3.1\"",
+          "Fawn large lightweight briefcase in crossgrain calf leather  Edge dyed  Tonal stitching  Cotton lined  Internal zip pocket  Removable, adjustable shoulder strap  Fits up to a 16\u201d Laptop  Double zip fastenings in two internal compartments  Leather strap at back for luggage trolley Dimensions:W40 x H28.5 x D8cm/W15.7 x H11.2 x D3.1\""
+        ],
+        "item_group_id": [
+          "1028835",
+          "1205247"
+        ]
+      }
+    },
+    {
+      "product_id": "1205150",
+      "title": "Smythson Spill The Tea Panama Notebook In Lemon",
+      "changes": {
+        "price": [
+          "75.00 EUR",
+          "95.00 USD"
+        ],
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lemon",
+          "Smythson Spill The Tea Panama Notebook In Lemon"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html"
+        ],
+        "color": [
+          "Lemon",
+          "lemon"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204290",
+      "title": "Smythson Washbag With Double Zip In Panama - Forest",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/eur/men/accessories/washbags/p/washbag-with-double-zip-in-panama/1204290.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/eur/black-friday/all-outlet/p/washbag-with-double-zip-in-panama/1204290.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1204865",
+      "title": "Smythson Trousse De Toilette \u00c0 Double Fermeture \u00c9clair En Panama - Cerulean",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/fr/homme/accessoires/trousses-de-toilette/p/trousse-de-toilette-double-fermeture-clair-en-panama/1204865.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/fr/black-friday/all-outlet/p/trousse-de-toilette-double-fermeture-clair-en-panama/1204865.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1202446",
+      "title": "Smythson Small Rectangular Trinket Tray In Panama In Forest",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204798",
+      "title": "Smythson Soho Notebook In Panama In Nile Blue",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/soho-notebook-in-panama/1204798.html",
+          "https://www.smythson.com/p/soho-notebook-in-panama/1204798.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1204288",
+      "title": "Smythson Kulturbeutel Mit Doppelrei\u00dfverschluss Aus Panama - Bleu Marine",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/de/herren/accessoires/kulturbeutel/p/kulturbeutel-mit-doppelreiverschluss-aus-panama/1204288.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/de/black-friday/all-outlet/p/kulturbeutel-mit-doppelreiverschluss-aus-panama/1204288.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1204793",
+      "title": "Smythson Soho Notebook In Panama In Cerulean",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/soho-notebook-in-panama/1204793.html",
+          "https://www.smythson.com/p/soho-notebook-in-panama/1204793.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1205084",
+      "title": "Smythson Stars Soho Notebook In Panama In Stars Nile Blue",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/stars-soho-notebook-in-panama/1205084.html",
+          "https://www.smythson.com/p/stars-soho-notebook-in-panama/1205084.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1205050",
+      "title": "Smythson Make It Happen Panama Notebook In Petrol",
+      "changes": {
+        "price": [
+          "65.00 GBP",
+          "95.00 USD"
+        ],
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205050.html",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205050.html"
+        ],
+        "color": [
+          "Petrol",
+          "petrol"
+        ]
+      }
+    },
+    {
+      "product_id": "1204424",
+      "title": "Smythson Flat Card Holder In Panama In Forest",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1204595",
+      "title": "Smythson 2026 Soho Weekly Journal In Ludlow In Black",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205149",
+      "title": "Smythson Quaderno Panama \"Make It Happen\" - Lilac",
+      "changes": {
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lilac",
+          "Smythson Quaderno Panama \"Make It Happen\" - Lilac"
+        ],
+        "description": [
+          "Lemon pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper with dedicated headings on each page  Made in England  Dimensions:W9 x H14cm/W3.5 x H5.5\"",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain giallo limone  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati e intestazioni dedicate su ogni pagina  Articolo prodotto in Inghilterra  Dimensioni:L 9 x H 14 cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205149.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/quaderni/tutte-i-quaderni/p/quaderno-panama-make-it-happen/1205149.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205458",
+      "title": "Smythson Soho Recipe Journal In Panama In Lemon",
+      "changes": {
+        "price": [
+          "195.00 GBP",
+          "295.00 USD"
+        ],
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/soho-recipe-journal-in-panama/1205458.html",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-recipe-journal-in-panama/1205458.html"
+        ],
+        "color": [
+          "Lemon",
+          "lemon"
+        ]
+      }
+    },
+    {
+      "product_id": "1205629",
+      "title": "Smythson Mara Soho Notizbuch - Purple",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1204758",
+      "title": "Smythson Panama Notizbuch \u201eLive Love Laugh\u201c - Bleu Marine",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1203238",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Orange",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1031114",
+      "title": "Gold Robin Christmas Card",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204314",
+      "title": "Smythson Flat Travel Organizer Pouch In Ludlow In Black",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1031118",
+      "title": "Champagne Christmas Card Set",
+      "changes": {
+        "price": [
+          "35.00 EUR",
+          "39.00 USD"
+        ],
+        "description": [
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold and silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm",
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold aqnd silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Sidekicks"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1203844",
+      "title": "Christmas Dog Skiing Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204801",
+      "title": "Smythson Soho Notebook In Panama In Scarlet Red",
+      "changes": {
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/soho-notebook-in-panama/1204801.html",
+          "https://www.smythson.com/p/soho-notebook-in-panama/1204801.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1204022",
+      "title": "Smythson Mara Soho Notizbuch - Ceruleanblau",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1204663",
+      "title": "Smythson 2026 Chelsea Weekly Diary In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1204216",
+      "title": "Smythson Lightweight Slim Briefcase In Panama In Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "1205679",
+      "title": "Smythson Soho Recipe Journal In Panama In Navy",
+      "price": "195.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1205005",
+      "title": "Smythson Dogs Soho Notebook In Panama In Navy",
+      "price": "295.00 USD",
+      "availability": "in stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "1205662",
+      "title": "Smythson Vassoio Svuota Tasche Rettangolare Grande In Panama - Light Orange",
+      "price": "285.00 EUR",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "1001731",
+      "title": "Ballpoint Pen",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html",
+          "https://www.smythson.com/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1019304",
+      "title": "E Alphabet Correspondence Cards",
+      "changes": {
+        "price": [
+          "26.00 EUR",
+          "21.00 GBP"
+        ],
+        "title": [
+          "Cartes de correspondance alphabet E",
+          "E Alphabet Correspondence Cards"
+        ],
+        "description": [
+          "Bo\u00eete de dix cartes en papier v\u00e9lin blanc Caract\u00e8res d\u2019impression grav\u00e9s en bleu marine Enveloppes assorties Fabriqu\u00e9 en Angleterre Dimensions\u00a0: l 14 x H 9 cm / l 5,5 x H 3,5 \"",
+          "Box of ten white wove cards Lettering engraved in navy Matching envelopes Made in England Dimensions: W14 x H9cm / W5.5 x H3.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/fr/p/cartes-de-correspondance-alphabet-e/1019304.html",
+          "https://www.smythson.com/stationery/cards/p/e-alphabet-correspondence-cards/1019304.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205150",
+      "title": "Smythson Spill The Tea Panama Notebook In Lemon",
+      "changes": {
+        "price": [
+          "75.00 EUR",
+          "95.00 USD"
+        ],
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lemon",
+          "Smythson Spill The Tea Panama Notebook In Lemon"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html"
+        ],
+        "color": [
+          "Lemon",
+          "lemon"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205050",
+      "title": "Smythson Make It Happen Panama Notebook In Petrol",
+      "changes": {
+        "price": [
+          "65.00 GBP",
+          "95.00 USD"
+        ],
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205050.html",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205050.html"
+        ],
+        "color": [
+          "Petrol",
+          "petrol"
+        ]
+      }
+    },
+    {
+      "product_id": "1205458",
+      "title": "Smythson Soho Recipe Journal In Panama In Lemon",
+      "changes": {
+        "price": [
+          "195.00 GBP",
+          "295.00 USD"
+        ],
+        "link": [
+          "https://www.smythson.com/diaries-and-books/notebooks/all-notebooks/p/soho-recipe-journal-in-panama/1205458.html",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-recipe-journal-in-panama/1205458.html"
+        ],
+        "color": [
+          "Lemon",
+          "lemon"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1031118",
+      "title": "Champagne Christmas Card Set",
+      "changes": {
+        "price": [
+          "35.00 EUR",
+          "39.00 USD"
+        ],
+        "description": [
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold and silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm",
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold aqnd silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Sidekicks"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "1200677",
+      "title": "Smythson Lockable Watch Box In Panama - Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202430",
+      "title": "Smythson Portaorologi Avvolgibile Singolo In Panama - Nero",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204595",
+      "title": "Smythson 2026 Soho Weekly Journal In Ludlow In Black",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204758",
+      "title": "Smythson Panama Notizbuch \u201eLive Love Laugh\u201c - Bleu Marine",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1204216",
+      "title": "Smythson Lightweight Slim Briefcase In Panama In Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [
+    {
+      "product_id": "1019304",
+      "title": "E Alphabet Correspondence Cards",
+      "changes": {
+        "price": [
+          "26.00 EUR",
+          "21.00 GBP"
+        ],
+        "title": [
+          "Cartes de correspondance alphabet E",
+          "E Alphabet Correspondence Cards"
+        ],
+        "description": [
+          "Bo\u00eete de dix cartes en papier v\u00e9lin blanc Caract\u00e8res d\u2019impression grav\u00e9s en bleu marine Enveloppes assorties Fabriqu\u00e9 en Angleterre Dimensions\u00a0: l 14 x H 9 cm / l 5,5 x H 3,5 \"",
+          "Box of ten white wove cards Lettering engraved in navy Matching envelopes Made in England Dimensions: W14 x H9cm / W5.5 x H3.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/fr/p/cartes-de-correspondance-alphabet-e/1019304.html",
+          "https://www.smythson.com/stationery/cards/p/e-alphabet-correspondence-cards/1019304.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205372",
+      "title": "Petite pochette de voyage en toile Stamp",
+      "changes": {
+        "title": [
+          "Kleines Reiseetui aus Canvas mit Stempeldesign",
+          "Petite pochette de voyage en toile Stamp"
+        ],
+        "description": [
+          "Kleines Reiseetui aus Nylon und Canvas in Schwarz  Besatz aus genarbtem Kalbsleder  Hauptfach mit Rundum-Rei\u00dfverschluss  Mit Stoff gef\u00fcttert  Hergestellt in ItalienMa\u00dfe: B 17 x H 10,5 x D 6,5 cm / B 6,7 x H 4 x T 2,5\"",
+          "Petite pochette de voyage noire en toile de nylon  Finitions en cuir de veau grain\u00e9  Compartiment principal enti\u00e8rement zipp\u00e9  Doublure en tissu  Fabriqu\u00e9 en Italie Dimensions:l\u00a017\u00a0x L\u00a010,5\u00a0x P\u00a06,5\u00a0cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/geschenke/chinesische-neujahrsgeschenke/p/kleines-reiseetui-aus-canvas-mit-stempeldesign/1205372.html",
+          "https://www.smythson.com/fr/cadeaux/cadeaux-pour-le-nouvel-an-chinois/p/petite-pochette-de-voyage-en-toile-stamp/1205372.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1204664",
+      "title": "Smythson Nuova Agenda Chelsea 2026 In Panama Con Layout Settimanale - Petrol",
+      "changes": {
+        "title": [
+          "Smythson 2026 Neuer Chelsea-Wochen-Terminkalender In Panama - Petrol",
+          "Smythson Nuova Agenda Chelsea 2026 In Panama Con Layout Settimanale - Petrol"
+        ],
+        "description": [
+          "Terminkalender mit Einband aus quergemasertem Lammleder in Scharlachrot  Wochenansicht mit Seiten f\u00fcr Notizen  Hellblaues, federleichtes Papier mit Goldschnittverzierung  Einsteckfach  Hergestellt in England  Von Montag, 17  November 2025 bis Sonntag, 24  Januar 2027 Ma\u00dfe: B 11,2 x H 16,7 cm",
+          "Agenda rilegata in pelle di agnello crossgrain rosso scarlatto  Layout settimanale con pagine per appunti  Carta Featherweight azzurra con bordi dorati  Tasca a filetto  Articolo prodotto in Inghilterra  Da luned\u00ec 17 novembre 2025 a domenica 24 gennaio 2027 Dimensioni:L\u00a011,2 x H\u00a016,7 cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/tagebuchfhrer/alle-terminkalender/p/2026-neuer-chelsea-wochen-terminkalender-in-panama/1204664.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/diari/tutte-le-agende/p/nuova-agenda-chelsea-2026-in-panama-con-layout-settimanale/1204664.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205049",
+      "title": "Smythson Quaderno Panama \"Make It Happen\" - Raspberry",
+      "changes": {
+        "title": [
+          "Smythson Make It Happen Panama Notebook - Raspberry",
+          "Smythson Quaderno Panama \"Make It Happen\" - Raspberry"
+        ],
+        "description": [
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain rosso scarlatto 128 pagine in carta Featherweight azzurra, con bordo oro Prodotto in Inghilterra Dimensioni: L 9 x H 14 cm / L 3,5 x H 5,5\""
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205049.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/quaderni/tutte-i-quaderni/p/quaderno-panama-make-it-happen/1205049.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205150",
+      "title": "Smythson Spill The Tea Panama Notebook In Lemon",
+      "changes": {
+        "price": [
+          "75.00 EUR",
+          "95.00 USD"
+        ],
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lemon",
+          "Smythson Spill The Tea Panama Notebook In Lemon"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html"
+        ],
+        "color": [
+          "Lemon",
+          "lemon"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205149",
+      "title": "Smythson Quaderno Panama \"Make It Happen\" - Lilac",
+      "changes": {
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lilac",
+          "Smythson Quaderno Panama \"Make It Happen\" - Lilac"
+        ],
+        "description": [
+          "Lemon pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper with dedicated headings on each page  Made in England  Dimensions:W9 x H14cm/W3.5 x H5.5\"",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain giallo limone  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati e intestazioni dedicate su ogni pagina  Articolo prodotto in Inghilterra  Dimensioni:L 9 x H 14 cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205149.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/quaderni/tutte-i-quaderni/p/quaderno-panama-make-it-happen/1205149.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ],
+  "description_changes": [
+    {
+      "product_id": "1204708",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara - Lilac",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Raspberry Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1019304",
+      "title": "E Alphabet Correspondence Cards",
+      "changes": {
+        "price": [
+          "26.00 EUR",
+          "21.00 GBP"
+        ],
+        "title": [
+          "Cartes de correspondance alphabet E",
+          "E Alphabet Correspondence Cards"
+        ],
+        "description": [
+          "Bo\u00eete de dix cartes en papier v\u00e9lin blanc Caract\u00e8res d\u2019impression grav\u00e9s en bleu marine Enveloppes assorties Fabriqu\u00e9 en Angleterre Dimensions\u00a0: l 14 x H 9 cm / l 5,5 x H 3,5 \"",
+          "Box of ten white wove cards Lettering engraved in navy Matching envelopes Made in England Dimensions: W14 x H9cm / W5.5 x H3.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/fr/p/cartes-de-correspondance-alphabet-e/1019304.html",
+          "https://www.smythson.com/stationery/cards/p/e-alphabet-correspondence-cards/1019304.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1202225",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Rotes",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1201720",
+      "title": "Smythson Quaderno Soho Con Chiusura Scorrevole In Mara - Navy",
+      "changes": {
+        "description": [
+          "Quaderno Soho rilegato in pelle di vitello goffrata effetto coccodrillo lilla  192 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Chiusura scorrevole argento  Tasca a filetto  Fodera in seta  Articolo prodotto in Inghilterra Dimensioni:L 14 x H 19,6\u00a0cm",
+          "Quaderno Soho rilegato in pelle di vitello goffrata effetto coccodrillo lampone  192 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Chiusura scorrevole argento  Tasca a filetto  Fodera in seta  Articolo prodotto in Inghilterra Dimensioni:L 14 x H 19,6\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1205372",
+      "title": "Petite pochette de voyage en toile Stamp",
+      "changes": {
+        "title": [
+          "Kleines Reiseetui aus Canvas mit Stempeldesign",
+          "Petite pochette de voyage en toile Stamp"
+        ],
+        "description": [
+          "Kleines Reiseetui aus Nylon und Canvas in Schwarz  Besatz aus genarbtem Kalbsleder  Hauptfach mit Rundum-Rei\u00dfverschluss  Mit Stoff gef\u00fcttert  Hergestellt in ItalienMa\u00dfe: B 17 x H 10,5 x D 6,5 cm / B 6,7 x H 4 x T 2,5\"",
+          "Petite pochette de voyage noire en toile de nylon  Finitions en cuir de veau grain\u00e9  Compartiment principal enti\u00e8rement zipp\u00e9  Doublure en tissu  Fabriqu\u00e9 en Italie Dimensions:l\u00a017\u00a0x L\u00a010,5\u00a0x P\u00a06,5\u00a0cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/geschenke/chinesische-neujahrsgeschenke/p/kleines-reiseetui-aus-canvas-mit-stempeldesign/1205372.html",
+          "https://www.smythson.com/fr/cadeaux/cadeaux-pour-le-nouvel-an-chinois/p/petite-pochette-de-voyage-en-toile-stamp/1205372.html"
+        ]
+      }
+    },
+    {
+      "product_id": "1204664",
+      "title": "Smythson Nuova Agenda Chelsea 2026 In Panama Con Layout Settimanale - Petrol",
+      "changes": {
+        "title": [
+          "Smythson 2026 Neuer Chelsea-Wochen-Terminkalender In Panama - Petrol",
+          "Smythson Nuova Agenda Chelsea 2026 In Panama Con Layout Settimanale - Petrol"
+        ],
+        "description": [
+          "Terminkalender mit Einband aus quergemasertem Lammleder in Scharlachrot  Wochenansicht mit Seiten f\u00fcr Notizen  Hellblaues, federleichtes Papier mit Goldschnittverzierung  Einsteckfach  Hergestellt in England  Von Montag, 17  November 2025 bis Sonntag, 24  Januar 2027 Ma\u00dfe: B 11,2 x H 16,7 cm",
+          "Agenda rilegata in pelle di agnello crossgrain rosso scarlatto  Layout settimanale con pagine per appunti  Carta Featherweight azzurra con bordi dorati  Tasca a filetto  Articolo prodotto in Inghilterra  Da luned\u00ec 17 novembre 2025 a domenica 24 gennaio 2027 Dimensioni:L\u00a011,2 x H\u00a016,7 cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/tagebuchfhrer/alle-terminkalender/p/2026-neuer-chelsea-wochen-terminkalender-in-panama/1204664.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/diari/tutte-le-agende/p/nuova-agenda-chelsea-2026-in-panama-con-layout-settimanale/1204664.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205049",
+      "title": "Smythson Quaderno Panama \"Make It Happen\" - Raspberry",
+      "changes": {
+        "title": [
+          "Smythson Make It Happen Panama Notebook - Raspberry",
+          "Smythson Quaderno Panama \"Make It Happen\" - Raspberry"
+        ],
+        "description": [
+          "Scarlet red pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\"",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain rosso scarlatto 128 pagine in carta Featherweight azzurra, con bordo oro Prodotto in Inghilterra Dimensioni: L 9 x H 14 cm / L 3,5 x H 5,5\""
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/make-it-happen-panama-notebook/1205049.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/quaderni/tutte-i-quaderni/p/quaderno-panama-make-it-happen/1205049.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1028835",
+      "title": "Smythson Lightweight Large Briefcase In Panama In Navy",
+      "changes": {
+        "description": [
+          "Navy large lightweight briefcase in crossgrain calf leather Fabric lining Trims in black smooth calf leather Removable, adjustable shoulder strap 16\u201d Laptop  Double zip fastenings in two internal compartments Interior zipped pocket in back compartment Two slip pockets in interior of front compartment Leather strap at back for luggage trolley. Dimensions: W40 x H28.5 x D8cm / W15.7 x H11.2 x D3.1\"",
+          "Fawn large lightweight briefcase in crossgrain calf leather  Edge dyed  Tonal stitching  Cotton lined  Internal zip pocket  Removable, adjustable shoulder strap  Fits up to a 16\u201d Laptop  Double zip fastenings in two internal compartments  Leather strap at back for luggage trolley Dimensions:W40 x H28.5 x D8cm/W15.7 x H11.2 x D3.1\""
+        ],
+        "item_group_id": [
+          "1028835",
+          "1205247"
+        ]
+      }
+    },
+    {
+      "product_id": "1205149",
+      "title": "Smythson Quaderno Panama \"Make It Happen\" - Lilac",
+      "changes": {
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lilac",
+          "Smythson Quaderno Panama \"Make It Happen\" - Lilac"
+        ],
+        "description": [
+          "Lemon pocket notebook bound in cross grain lambskin  128 leaves of gilt-edged, pale blue ruled Featherweight paper with dedicated headings on each page  Made in England  Dimensions:W9 x H14cm/W3.5 x H5.5\"",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain giallo limone  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati e intestazioni dedicate su ogni pagina  Articolo prodotto in Inghilterra  Dimensioni:L 9 x H 14 cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205149.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/agende-e-quaderni/quaderni/tutte-i-quaderni/p/quaderno-panama-make-it-happen/1205149.html?utm_source=google_shopping&switch_store=true"
+        ]
+      }
+    },
+    {
+      "product_id": "1205629",
+      "title": "Smythson Mara Soho Notizbuch - Purple",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1203238",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Orange",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1031118",
+      "title": "Champagne Christmas Card Set",
+      "changes": {
+        "price": [
+          "35.00 EUR",
+          "39.00 USD"
+        ],
+        "description": [
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold and silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm",
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold aqnd silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Sidekicks"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204022",
+      "title": "Smythson Mara Soho Notizbuch - Ceruleanblau",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ],
+  "image_changes": [
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [
+    {
+      "product_id": "1204708",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara - Lilac",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Raspberry Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1202225",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Rotes",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1201720",
+      "title": "Smythson Quaderno Soho Con Chiusura Scorrevole In Mara - Navy",
+      "changes": {
+        "description": [
+          "Quaderno Soho rilegato in pelle di vitello goffrata effetto coccodrillo lilla  192 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Chiusura scorrevole argento  Tasca a filetto  Fodera in seta  Articolo prodotto in Inghilterra Dimensioni:L 14 x H 19,6\u00a0cm",
+          "Quaderno Soho rilegato in pelle di vitello goffrata effetto coccodrillo lampone  192 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Chiusura scorrevole argento  Tasca a filetto  Fodera in seta  Articolo prodotto in Inghilterra Dimensioni:L 14 x H 19,6\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1028835",
+      "title": "Smythson Lightweight Large Briefcase In Panama In Navy",
+      "changes": {
+        "description": [
+          "Navy large lightweight briefcase in crossgrain calf leather Fabric lining Trims in black smooth calf leather Removable, adjustable shoulder strap 16\u201d Laptop  Double zip fastenings in two internal compartments Interior zipped pocket in back compartment Two slip pockets in interior of front compartment Leather strap at back for luggage trolley. Dimensions: W40 x H28.5 x D8cm / W15.7 x H11.2 x D3.1\"",
+          "Fawn large lightweight briefcase in crossgrain calf leather  Edge dyed  Tonal stitching  Cotton lined  Internal zip pocket  Removable, adjustable shoulder strap  Fits up to a 16\u201d Laptop  Double zip fastenings in two internal compartments  Leather strap at back for luggage trolley Dimensions:W40 x H28.5 x D8cm/W15.7 x H11.2 x D3.1\""
+        ],
+        "item_group_id": [
+          "1028835",
+          "1205247"
+        ]
+      }
+    },
+    {
+      "product_id": "1205629",
+      "title": "Smythson Mara Soho Notizbuch - Purple",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1203238",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Orange",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1204022",
+      "title": "Smythson Mara Soho Notizbuch - Ceruleanblau",
+      "changes": {
+        "description": [
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Flieder  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm",
+          "Soho Notizbuch mit Einband aus Kalbsleder mit Krokodilpr\u00e4gung in Himbeere  192 Seiten aus hellblauem, federleichtem Papier mit Goldschnitt  Silberfarbener Schiebeverschluss  Einsteckfach  Mit Seidenfutter  Hergestellt in England Ma\u00dfe: B 14 x H 19,6 cm"
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204608"
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1001731",
+      "title": "Ballpoint Pen",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html",
+          "https://www.smythson.com/stationery/pens-and-pencils/p/ballpoint-pen/1001731.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205151",
+      "title": "Smythson Lists, Lists And Lists Panama Notebook In Navy",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204645",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1019304",
+      "title": "E Alphabet Correspondence Cards",
+      "changes": {
+        "price": [
+          "26.00 EUR",
+          "21.00 GBP"
+        ],
+        "title": [
+          "Cartes de correspondance alphabet E",
+          "E Alphabet Correspondence Cards"
+        ],
+        "description": [
+          "Bo\u00eete de dix cartes en papier v\u00e9lin blanc Caract\u00e8res d\u2019impression grav\u00e9s en bleu marine Enveloppes assorties Fabriqu\u00e9 en Angleterre Dimensions\u00a0: l 14 x H 9 cm / l 5,5 x H 3,5 \"",
+          "Box of ten white wove cards Lettering engraved in navy Matching envelopes Made in England Dimensions: W14 x H9cm / W5.5 x H3.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/fr/p/cartes-de-correspondance-alphabet-e/1019304.html",
+          "https://www.smythson.com/stationery/cards/p/e-alphabet-correspondence-cards/1019304.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205354",
+      "title": "Smythson Slim Briefcase With Zip Front In Ludlow In Dark Brown",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204128",
+      "title": "Smythson Flat Card Holder In Panama In Stars Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1205150",
+      "title": "Smythson Spill The Tea Panama Notebook In Lemon",
+      "changes": {
+        "price": [
+          "75.00 EUR",
+          "95.00 USD"
+        ],
+        "title": [
+          "Smythson Spill The Tea Panama Notebook - Lemon",
+          "Smythson Spill The Tea Panama Notebook In Lemon"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/diaries-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/spill-the-tea-panama-notebook/1205150.html"
+        ],
+        "color": [
+          "Lemon",
+          "lemon"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1202446",
+      "title": "Smythson Small Rectangular Trinket Tray In Panama In Forest",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204424",
+      "title": "Smythson Flat Card Holder In Panama In Forest",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1203841",
+      "title": "Smythson Soho Planner in Panama",
+      "changes": {
+        "price": [
+          "295.00 USD",
+          "185.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Soho Planner In Panama In Nile Blue",
+          "Smythson Soho Planner in Panama"
+        ],
+        "description": [
+          "Raspberry Soho planner bound in cross grain lambskin  192 leaves of gilt-edged, pale blue Featherweight paper with dedicated print  Undated daily planner with monthly overview  Slip pocket  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          ""
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/soho-planner-in-panama/1203841.html",
+          "https://www.smythson.com/int/nile-blue-soho-planner-in-panama-1203841.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/d4c9cfe79bd323db6bb068ab08643c6a786b2557.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwbb0b2eb0/images/greyBG/1203841_w.png"
+        ],
+        "additional_image_links": [
+          "6 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > Filing & Organisation"
+        ],
+        "item_group_id": [
+          "1204807",
+          ""
+        ],
+        "gender": [
+          "unisex",
+          "female"
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1031114",
+      "title": "Gold Robin Christmas Card",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204314",
+      "title": "Smythson Flat Travel Organizer Pouch In Ludlow In Black",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1031118",
+      "title": "Champagne Christmas Card Set",
+      "changes": {
+        "price": [
+          "35.00 EUR",
+          "39.00 USD"
+        ],
+        "description": [
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold and silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm",
+          "Box of 6 white wove folded cards  Champagne tower motif engraved in gold aqnd silver  Matching fully tissue-lined envelope  Blank inside for your own message  Made in England Dimensions: W4.5 x H6\"/ W11 x H15cm"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/champagne-christmas-card-set/1031118.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Sidekicks"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1203844",
+      "title": "Christmas Dog Skiing Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204663",
+      "title": "Smythson 2026 Chelsea Weekly Diary In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1022907",
+      "title": "Smythson Chelsea Notebook in Panama",
+      "changes": {
+        "price": [
+          "165.00 USD",
+          "100.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Chelsea Notebook In Panama In Scarlet Red",
+          "Smythson Chelsea Notebook in Panama"
+        ],
+        "description": [
+          "Forest green Chelsea notebook bound in crossgrain lambskin  144 leaves of gilt-edged, pale blue Featherweight paper  Made in England  Dimensions: W11.2 x H16.7cm/W4.4 x H6.6\"",
+          "Scarlet red Chelsea notebook bound in crossgrain lambskin. 144 leaves of gilt-edged, pale blue Featherweight paper. Made in England."
+        ],
+        "link": [
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/chelsea-notebook-in-panama/1022907.html",
+          "https://www.smythson.com/int/scarlet-red-chelsea-notebook-in-panama-1022907.html?utm_source=google_shopping&switch_store=true&glCountry=GB&glCurrency=GBP"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/c4ee87eca756cc070a2b3c62d3ea34dd1cb40d4e.png",
+          "https://www.smythson.com/on/demandware.static/-/Sites-sm4-master-catalog/default/dwe7f5fb8f/images/greyBG/1022907_w.png"
+        ],
+        "additional_image_links": [
+          "3 items",
+          "0 items"
+        ],
+        "google_product_category": [
+          "",
+          "Office Supplies > General Office Supplies > Paper Products > Notebooks & Notepads"
+        ],
+        "item_group_id": [
+          "1204733",
+          ""
+        ],
+        "custom_label_0": [
+          "Low AOV",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ]
+}

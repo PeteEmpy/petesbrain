@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Google Ads Billing Document Process",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/google-ads-invoice-5403089678-nov-2025.md",
+        "extracted_at": "2025-11-11T09:21:36.931340",
+        "verified": false
+      }
+    ],
+    "content": {
+      "billing_cycle": "Monthly",
+      "document_format": "PDF Invoice",
+      "identification_numbers": {
+        "invoice_number_format": "10 digits (e.g., 5403089678)",
+        "payments_profile_id_format": "XXXX-XXXX-XXXX (e.g., 0126-0674-4388)",
+        "customer_id_format": "XXX-XXX-XXXX (e.g., 140-486-8570)"
+      },
+      "access_method": "Google Ads billing portal download",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

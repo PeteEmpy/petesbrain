@@ -1,0 +1,112 @@
+---
+title: Holiday 2025 Strategy: Converting Research-Driven Shoppers
+source: 2025-11-07_your-shoppers-are-ready-to-buy-heres-how-to-win-th.md
+date_added: 2025-11-12
+last_updated: 2025-11-12
+tags: [holiday-marketing, consumer-behavior, search-strategy, youtube, q5-planning, ai-campaigns]
+source_type: email
+---
+
+## Summary
+
+- Holiday 2025 shoppers are more research-driven, requiring brands to win the 'research race' on Search and YouTube
+- Three urgent actions: build shopper confidence during research, leverage AI-powered campaigns for demand generation, plan for Q5 (post-Christmas) period
+- Focus on helping shoppers make confident purchase decisions through educational content
+- Emphasis on AI-powered Google and YouTube campaigns to generate new demand during peak season
+- Post-Christmas 'Q5' period identified as profitable opportunity requiring advance planning
+
+## Key Insights
+
+- Shift in consumer behavior toward more extensive research before holiday purchases
+- Winning early in the customer journey (research phase) is critical for holiday conversions
+- AI-powered campaigns increasingly important for demand generation during competitive periods
+- Post-Christmas period (Q5) represents untapped revenue opportunity
+- Content strategy should focus on building purchase confidence rather than just promotion
+
+## Full Content
+
+# Your shoppers are ready to buy. Here's how to win them over now
+
+## Email Details
+
+- **From:** "Think with Google US & Canada" <noreply-thinkwithgoogle-amer@google.com>
+- **To:** petere@roksys.co.uk
+- **Date:** 2025-11-07 10:07:55
+- **Gmail ID:** 19a5f1310c791a27
+
+---
+
+## Message
+
+[ Image ]
+
+HOLIDAY INSIGHTS | NOVEMBER 2025
+
+The clock is ticking: 3 actions to convert holiday shoppers
+
+[ Dressed for an outdoor stroll in parkas and warm winter gear, a couple huddles around their preteen daughter to encourage her as she researches a holiday gift on her phone. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIq8beQDPQ8rLkFsZXVUxUaXwkn_eI7iLqDT4d77IhWkm5hwiHWmG9q9ZX8Y9nKyoVcK5Sxo_QtqitYzTHiYKts0Ua_yjC17qXaQMzblxSA5UsJSxs3kaXD-GXsyKay1iYxttkid9Puocjcls7_y_WUtFjLwJd_d2mJMj5fa4nCs9AfiGQN0Gq9LjMcrgSsVc84cNJ0IGtQ_CSoSc9izaUzrFznypweFdtS9V6TnpIsr3UhCmoszUVfo9AA9rnUMc4rpa3NmUONy5MDx9TceRkTpbwyy3j2Vt5nSa_YV5kqN5Fwg9-KzDMoo3m2lew8cFm4/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=
+
+In this issue:
+
+- 3 urgent actions to convert the high-intent holiday shopper <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIq8beQDPQ8rLkFsZXVUxUaXwkn_eI7iLqDT4d77IhWkm5hwiHWmG9q9ZX8Y9nKyoVcK5Sxo_QtqitYzTHiYKts0Ua_yjC17qXaQMzblxSA5UsJSxs3kaXD-GXsyKay1iYxttkid9Puocjcls7_y_WUtFjLwJd_d2mJMj5fa4nCs9AfiGQN0Gq9LjMcrgSsVc84cNJ0IGtQ_CSoSc9izaUzrFznypweFdtS9V6TnpIsr3UhCmoszUVfo9AA9rnUMc4rNGLrpy2vIq5yDMhug1Py0KESJozrg4iyR58hFRK_fP7DfgCGTgecnnagRCvFDq_5/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+- A top creator’s rules for winning over Gen Z <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyh8klFoCDbfIo9f6hHQijdYYUd1G2oyt3cGRHmpu4WvHxfEs_fAmKQYsyv5X6_xNuS-pOGYTb05lGp7RaQHd157g1NaWNzvQKGOv_bYzjyMElm39rrgGXBFiAFzWcAxXgRAGSMIwJRzUIxKz2rpEE2IZ4Qw5u1PhkNIeSyHbs7-YPhr4dnCi-kzZ6OuAzD6Ztf5e6292uvWQM9DQMs1WM9iqMI2DHJqCSyb0uFHnULL7MDaGwueXWyXAJuvsV7ZAREt0QOWJ7FviQIPNozP_Och0aN_EqXeTWVz2zx1TRDg6g=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+- How 3 brands uncovered hidden demand on Search <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YP2yZ7DOaf_36PEAZ7eu-PhBfEcuiuMNBqGjvurj1U_ItLvqLSBWq32JbisZ0lXuFz0JtAJrwxZbEPCrMWWLUHC3qTpnmOMymeB2LiB8pt4PcYj8LSswjVRH2Km_uiJ_jsuaEHWq9kmoy_99LBQQ2x_GUtxA8ulpSHN5kC0t7JDF_djOBy-IQKbQJKQMTKEzeqRBEE5u2BAwq_aUAlI0CviRy6_j1HbrWFUJCUQEwOy0J-uip4IJVfAcOVzDnS0Twz4Oc1eAnxSq53GcGxtkqxaUjnOiM0maDqdWkJ8rqbnhCjp8AUDivx4mOwDKiPYxo=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+- Trending now: Christmas, already!
+
+[ A close-up of a shopper’s hands navigating her phone reveals sponsored product results aligned with a search for women’s sweaters. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIq8beQDPQ8rLkFsZXVUxUaXwkn_eI7iLqDT4d77IhWkm5hwiHWmG9q9ZX8Y9nKyoVcK5Sxo_QtqitYzTHiYKts0Ua_yjC17qXaQMzblxSA5UsJSxs3kaXD-GXsyKay1iYxttkid9Puocjcls7_y_WUtFjLwJd_d2mJMj5fa4nCs9AfiGQN0Gq9LjMcrgSsVc84cNJ0IGtQ_CSoSc9izaUzrFznypweFdtS9V6TnpIsr3UhCmoszUVfo9AA9rnUMc4rHcaD7Pi46x0pPzf5BqcalhgskmwvK__POnGe2WpMQHpfVyCl-rmvwiO8g7DFpd3b/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=
+
+How to win over holiday shoppers now
+
+Shoppers are more research-driven this holiday season. A successful strategy starts with winning this “research race” by helping shoppers build confidence on their Search and YouTube journeys. Simultaneously, leverage Google and YouTube AI-powered campaigns to generate new demand. Finally, plan ahead for the profitable “Q5” bonus round after Christmas. Take action now <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6akGuSLxyaz2VNTicsL-CIq8beQDPQ8rLkFsZXVUxUaXwkn_eI7iLqDT4d77IhWkm5hwiHWmG9q9ZX8Y9nKyoVcK5Sxo_QtqitYzTHiYKts0Ua_yjC17qXaQMzblxSA5UsJSxs3kaXD-GXsyKay1iYxttkid9Puocjcls7_y_WUtFjLwJd_d2mJMj5fa4nCs9AfiGQN0Gq9LjMcrgSsVc84cNJ0IGtQ_CSoSc9izaUzrFznypweFdtS9V6TnpIsr3UhCmoszUVfo9AA9rnUMc4rya2_op84iABwvitdzgjHj10zBXqUaR1UJLWgvsGqU9oLHM3nW889d6HluLkkX-Hc/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+[ YouTube creator Kinigra Deon, who has 5.52 million subscribers, dressed in shades of pink, including a hoodie and scarf, and peering over fashionable sunglasses. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyh8klFoCDbfIo9f6hHQijdYYUd1G2oyt3cGRHmpu4WvHxfEs_fAmKQYsyv5X6_xNuS-pOGYTb05lGp7RaQHd157g1NaWNzvQKGOv_bYzjyMElm39rrgGXBFiAFzWcAxXgRAGSMIwJRzUIxKz2rpEE2IZ4Qw5u1PhkNIeSyHbs7-YPhr4dnCi-kzZ6OuAzD6Ztf5e6292uvWQM9DQMs1WM9iqMI2DHJqCSyb0uFHnULL7Nbb9GosxhZnMWg2Sbxa2KoIxxdq2VphjLvX0e8JdnV1EDlB7_5n-nllYDwOWPCMHQ=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=
+
+Kinigra Deon knows what Gen Z wants. Here’s her strategy
+
+With 5.5 million followers, Kinigra Deon knows her Gen Z audience well. She shares her insights on building community, authentic brand partnerships, and why marketers must trust creators as production experts. Get her tips <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyh8klFoCDbfIo9f6hHQijdYYUd1G2oyt3cGRHmpu4WvHxfEs_fAmKQYsyv5X6_xNuS-pOGYTb05lGp7RaQHd157g1NaWNzvQKGOv_bYzjyMElm39rrgGXBFiAFzWcAxXgRAGSMIwJRzUIxKz2rpEE2IZ4Qw5u1PhkNIeSyHbs7-YPhr4dnCi-kzZ6OuAzD6Ztf5e6292uvWQM9DQMs1WM9iqMI2DHJqCSyb0uFHnULL7Nbb9GosxhZnMWg2Sbxa2KoIbMdtBceFVcGViGirlh7iKaYyy3_HMj0qcXAxBM1mdU=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+[ In zigzagging positions from top to bottom, logos for Royal Canin, ClickUp, and Klook are interspersed with cursor-click, search, and measurement icons. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YP2yZ7DOaf_36PEAZ7eu-PhBfEcuiuMNBqGjvurj1U_ItLvqLSBWq32JbisZ0lXuFz0JtAJrwxZbEPCrMWWLUHC3qTpnmOMymeB2LiB8pt4PcYj8LSswjVRH2Km_uiJ_jsuaEHWq9kmoy_99LBQQ2x_GUtxA8ulpSHN5kC0t7JDF_djOBy-IQKbQJKQMTKEzeqRBEE5u2BAwq_aUAlI0CviRy6_j1HbrWFUJCUQEwOy0J-uip4IJVfAcOVzDnS0TybalwHw5iGEjwVlHQDTMGgjuBihNEk8sqQU6adhGeuTZdbUvbAJ967dm0cv4QBV74=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=
+
+3 brands thriving with Search in the AI era
+
+What do a pet care expert, a global travel service, and a productivity app have in common? They are all turning complex, conversational queries into a strategic advantage. As users search in natural language, these brands use AI Max to precisely interpret user intent. This connects them with previously unreachable customers and drives significant growth in conversions. See their campaigns <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YP2yZ7DOaf_36PEAZ7eu-PhBfEcuiuMNBqGjvurj1U_ItLvqLSBWq32JbisZ0lXuFz0JtAJrwxZbEPCrMWWLUHC3qTpnmOMymeB2LiB8pt4PcYj8LSswjVRH2Km_uiJ_jsuaEHWq9kmoy_99LBQQ2x_GUtxA8ulpSHN5kC0t7JDF_djOBy-IQKbQJKQMTKEzeqRBEE5u2BAwq_aUAlI0CviRy6_j1HbrWFUJCUQEwOy0J-uip4IJVfAcOVzDnS0TybalwHw5iGEjwVlHQDTMGgA45w9tmT7xFgIp_Qlk19C8furFaQeVkO8La17_Vlhck=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+Trending now: Christmas, already!
+
+[ Viewed at night, a large, stand-alone house and fence are illuminated by warm-toned Christmas lights. ] https://mail.thinkwithgoogle.com/dc/WHQNixf55vmHih_JhfZZMysanJwJVkSZrp56IChrlBfPsIr1aOnIZ6-dfOZu6yeVavR355Vgoq0S8xhi-GjtI1P2rMPiqyshEwXWc7-hIq5nzJbn7elojXL3H5VxorxV-CuClZS4s2kzgXe_qAkFZE6l3woix6UXb-5E_hBn25MpGOULG3oXU2JIPYyKZrwuakI45X2abmEwPTsYsfluLcS6FyXbGrzffG3qbhH4s3dALsuMl3GwuV3NIcX5YZKHgOmWONtKjew4UFsfJfNdQ-0K7mEPO90zPMYVesS0UZUgLo0KN4TNHBLZAmRYzO3_2R_CJLOuejWAdjD2WHvxmQ==/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=
+
+Old-school lights. Search interest in “non led christmas lights <https://mail.thinkwithgoogle.com/dc/WHQNixf55vmHih_JhfZZMysanJwJVkSZrp56IChrlBfPsIr1aOnIZ6-dfOZu6yeVavR355Vgoq0S8xhi-GjtI1P2rMPiqyshEwXWc7-hIq5nzJbn7elojXL3H5VxorxV-CuClZS4s2kzgXe_qAkFZE6l3woix6UXb-5E_hBn25MpGOULG3oXU2JIPYyKZrwuakI45X2abmEwPTsYsfluLcS6FyXbGrzffG3qbhH4s3dALsuMl3GwuV3NIcX5YZKHgOmWONtKjew4UFsfJfNdQ-0K7mEPO90zPMYVesS0UZUgLo0KN4TNHBLZAmRYzO3_WUnVh7RbyOcyS91nN9Ttbw==/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>” spiked 5,000% in the past month, and “incandescent christmas tree” rose 180%, signaling interest in a vintage holiday aesthetic.
+
+[ Seen from behind, family members sit together in front of a mantle holding Christmas decorations, including the illuminated word “joy” and candles. A decorated tree and hanging red stocking complement the scene. ] https://mail.thinkwithgoogle.com/dc/nbdBhdkxOtP4GSDZQ2XlE6lrr1ZJtwG13i8Gc-gXLapKdSAQEPSetVG_P_t5OAqytww7iA287cQ95mmtj2EXbBhJMpGtDx1qSVQ4rSG9zdOyxQbUu3SsvFZIkTj93_8IYB-4k890zxyxqApfmq-a8yBTXvPsVlLycGQbTqEGoE0CvBJSghm7SUr7_ymbYn09XXQXgmgPGv6CEeEQKdyB1TP2LPbey4EuFWujao4lTcxN62WXCzKyGByl29Kuv7tQ9Lx18EaQaPc7ijQ9hjXB7etSyP0kTvhbVp4Lfql7H-1Zc-KkexDzwaFql38M3FnYZMUKRKuAc_7lZzVghzAKU59Yf2-QBwYCkQCzF6jB08LKk_ONC_BG_0yJoOCl-bhDyzbzQbxTnsU_o8F0BjemWpjMn6Ng7sKIm776goKQgvfqVm-e5YcD6DHdOOoVqJg1RRT5eOXRXMi-8hA_mPuFBO7xLMSCcogbRJj-ZlLVSTwfYcYzHg3fAk9aoacptkt0/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=
+
+Cozy movies. Searches for “cozy christmas movies <https://mail.thinkwithgoogle.com/dc/nbdBhdkxOtP4GSDZQ2XlE6lrr1ZJtwG13i8Gc-gXLapKdSAQEPSetVG_P_t5OAqytww7iA287cQ95mmtj2EXbBhJMpGtDx1qSVQ4rSG9zdOyxQbUu3SsvFZIkTj93_8IYB-4k890zxyxqApfmq-a8yBTXvPsVlLycGQbTqEGoE0CvBJSghm7SUr7_ymbYn09XXQXgmgPGv6CEeEQKdyB1TP2LPbey4EuFWujao4lTcxN62WXCzKyGByl29Kuv7tQ9Lx18EaQaPc7ijQ9hjXB7etSyP0kTvhbVp4Lfql7H-1Zc-KkexDzwaFql38M3FnYZMUKRKuAc_7lZzVghzAKU59Yf2-QBwYCkQCzF6jB08LKk_ONC_BG_0yJoOCl-bhDyzbzQbxTnsU_o8F0BjemWpjMn6Ng7sKIm776goKQgvfqVm-e5YcD6DHdOOoVqJg1RRT5eOXRXMi-8hA_mPuFBO7xLMSCcogbRJj-ZlLVSTxeG208k0pWfz4F6xemWvfG/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>” are up 250% compared to last month.
+
+Received this email from a friend? Sign up here <https://mail.thinkwithgoogle.com/dc/MBgYEBdczzKwXu-AuN4fdSHUWsryjbs5X38TgsfISad39WCcrgUrd7Eg-eYewWJajg3VFBC3qzKa-cmhPVaUGi-h1u9JKcysrx9Q8ngWd9qoz6l_bkRsdCpdl1OEAJXf5y0PLipjRO6xDup0Sb37Ss9hbckeo1KMsYPmd1XjWXzWkmIGU99C2tLqlRZBLgNI9VbkRFCS-GRo9uDvEX8ZAvinEuYwOiMflhVY_KaCKylerABVNozNNWX3-AEscuM3QHobhd7kR2Il4x6hqL-RnFOMxI9ysPU4BBm_fNFO0GA=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+Discover more content on ThinkWithGoogle.com <https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTf8OSGFFb3tJorUd-AAsWw4LVzFMHkvDjRc1KfM-yjK-Ytm05EsvZ3KE8168Rea_df3D2YHHAs0mnBewvSdet0jVX1216cWbQnTmsb1tcl4nBiZT17_DDJ1v96rohR8oWQR2MZIusAGag5-ZiY_skq_85GewOcN480zgHycT4ae-K0M84vTd78sZ1SvvPW9WvfRHgCOm0LE15HCdmZ1dbPxusF1OuEL9ZkzJgw36XgtKQ==/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>. This email was sent to petere@roksys.co.uk because you signed up for the latest from Think with Google U.S. and Canada. If you don’t want to receive this newsletter in the future, please unsubscribe here <https://mail.thinkwithgoogle.com/dc/MBgYEBdczzKwXu-AuN4fdSHUWsryjbs5X38TgsfISaf_D732Gn0frBHJql3jXT_W717GTKCayKXltKHByjCm9xvIzoMmDUcwLkmcEoYJRDmPBguEguH7JhcdM4JB892SwdVD_MIl2GRB3Y2-uiXgkzqV-znGvibRFVB8mULtljB8-Z51BbFqY9FJc6y3dq8oH9cnLvxINa6b9XJAgyEY0xA51JklmPtQLWKDsDVvL-jRiUgdpyzhc0qIN9Y6uBqQuqCMEflV5b08eMs2a7ZOjfX5-i_ubmHV0Z6Q_yNDabE=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>. 
+
+© 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043.
+
+Follow us
+
+LinkedIn <https://mail.thinkwithgoogle.com/dc/fG5-PlwEnZR-IoSdwCtjInBOEnkCOl-88iHvoC1GNZyy0coz9bmmnInNnnlK-vkeg2XoTP0zjVMxpGJru1dOG0fHtQm14ZW3YXBdlOlQkvSeEmbJAj7-jeq5Dbj2L3wy4sFqTrQ-_xR6aMpcUcVXYZ2smv2mK4xQeBXYLDGyFnaIv5oorLI_15aTINnXMnTWEv93IOEh8mATcVr_lthsmybjxc4mzUGDCA9lEGqVRyyAb0Agmdyv-qUuY3NfTtN8waQgjXIEUAntStW0WKqBtJDShKjH6UXQy8vnJIQvwdQ=/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+X <https://mail.thinkwithgoogle.com/dc/qRrMJDEUlv6ss-mBIC1z6ibxlrS8Ji12RX_Chm_98cfVCUJh0FyTCxn8Gtenzs0lZ7qJMbKS2NUas28eaLmYRXBssdAHcnYeSy6u4TS9_ZUdFr_2xQ7tk19TxpwstBXkzfFp5ZameLqWpWVOr5SbAenQ2EoET8Q1HMRO4hCtgjpXlk0rhf1AJqjLYWegcaEU4Ia_ZrryfETIrMbouW8L5yFeMElgClTu803WlUxay7UVXxkv6_r25Xur6af_LhYRPOCIXsa8QNRXLWm4gp_Qvg==/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+Facebook <https://mail.thinkwithgoogle.com/dc/uq3EykqQY7h0Yyhe2BWhMOQoLnY-FVPjcOSpRoBt7oqXjAh6y4jHsHjagTZLvynxJf8d8wisOXsCTN-RCJrR5-bZlN5IPMSiMvPX75tWEkBUzxj9KsNJr0DyLRnm72f7ndLBphOs1uKrsEtLBwS_aguhn18CBl_qH_GSjILkDMBDTEOQQGu_qAApx_zmX4Dr60i1lK6C8HujYEs9VBi8pIYXgub6AHo7VW8R9vbeQYtXcVnAgYH1NEJfwnq8IZMnZlaPgmWaKMWlaQK9H1BpBQ==/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+YouTube <https://mail.thinkwithgoogle.com/dc/M9Y3nowLDCcEv8uSbJAkaXmE194DNnOZ5kegIxr9D7PCM6mut9O4uuoUiKiGXyDSsp4maz4hZb5-NAPBHukT3iv_ss7zgGezJhPQDUkdDCWZ2mOLb_lcs2jJmuJk94BV8lh9FFPNQsKskGhC1ZaU5Q2mopNJxjulLdwHxybOq8zsi-HlJXPzWQ3xrVTxLehm_0QiiNq7W2a68vXZ9F8UhTicrZ22obrfgoAujSq77k2Yow9lDgPZ21fTFMfBkzqPXCQshzVKMsAF85R4Z5Xf4g==/MTcyLUdPUC04MTEAAAGd_gu-ixD-k437Vr1EdSM9y-DpD3TH542ySj-fpiSwRFp1YID9RYueKp8jvMHlXhGUKBnnZZM=>
+
+View as webpage <[[https://mail.thinkwithgoogle.com/v/MTcyLUdPUC04MTEAAAGd_gu-i7PMG4cgchWjsw4hsbPAm2mF-gomf-_lXfG7o81JSr0M_iLxrKH6NujZA9iCqjeD1MQ= ]]>
+
+.
+
+
+
+---
+
+*Processed from inbox on 2025-11-12*
+*Original file: 2025-11-07_your-shoppers-are-ready-to-buy-heres-how-to-win-th.md*

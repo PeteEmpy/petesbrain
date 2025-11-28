@@ -1,0 +1,42 @@
+{
+  "specification": {
+    "title": "Product Data Specification - Google Merchant Center",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "official_documentation",
+        "source": "https://support.google.com/merchants/answer/188494",
+        "extracted_at": "2025-11-11T09:21:36.974276",
+        "verified": true
+      }
+    ],
+    "content": {
+      "data_attributes": [
+        "Basic product data",
+        "Price and availability",
+        "Product category",
+        "Product identifiers",
+        "Detailed product description",
+        "Shopping campaigns and other configurations",
+        "Marketplaces",
+        "Destinations",
+        "Shipping"
+      ],
+      "formatting": {
+        "attribute_names": "Use English for attribute names and supported values",
+        "free_form_text": "Use same language for all attributes in a feed (title, description)",
+        "multi_word_attributes": "Use underscore for multi-word attribute names (e.g., image_link)"
+      },
+      "compliance": [
+        "Shopping ads policies",
+        "Landing page requirements",
+        "Shipping rate data requirements",
+        "Checkout requirements and best practices",
+        "Currency and language requirements"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

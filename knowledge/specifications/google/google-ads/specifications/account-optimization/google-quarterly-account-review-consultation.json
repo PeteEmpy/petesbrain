@@ -1,0 +1,29 @@
+{
+  "specification": {
+    "title": "Google Quarterly Account Review Consultation",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-rep_print-my-pdf_2022-11-09_sent-re-fw-google-ads-consultation-print-my-pdf.md",
+        "extracted_at": "2025-11-11T09:21:36.920431",
+        "verified": false
+      },
+      {
+        "type": "kb_article",
+        "source": "2022-11-google-rep-consultation-offer-print-my-pdf.md",
+        "extracted_at": "2025-11-11T09:21:36.925897",
+        "verified": false
+      }
+    ],
+    "content": {
+      "consultation_type": "Complimentary quarterly review",
+      "eligibility": "Limited to select advertisers",
+      "provider": "Regalix (Google third-party partner)",
+      "strategist_level": "Senior Ads Account Strategist",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

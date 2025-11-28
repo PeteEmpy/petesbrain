@@ -1,0 +1,292 @@
+# ============================================================================
+# PetesBrain .gitignore
+#
+# Purpose: Backup CODE and CONFIGURATION to GitHub
+#          Exclude DATA, CREDENTIALS, and GENERATED FILES
+# ============================================================================
+
+# ============================================================================
+# CREDENTIALS & SECRETS (CRITICAL - NEVER COMMIT)
+# ============================================================================
+
+# Google API credentials
+**/credentials.json
+**/client_secret*.json
+**/*-credentials*.json
+**/*-oauth*.json
+**/*-token*.json
+**/token.json
+infrastructure/credentials/
+infrastructure/credentials/**
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# OAuth & API tokens
+*token*.json
+*oauth*.json
+**/*token*.json
+**/*oauth*.json
+token.json.old*
+
+# MCP server credentials
+.mcp.json
+.mcp.json.backup*
+
+# ============================================================================
+# CLIENT DATA (SENSITIVE - NEVER COMMIT)
+# ============================================================================
+
+# Client emails (backed up separately)
+clients/*/emails/
+clients/*/emails/**
+clients/*/attachments/
+clients/*/attachments/**
+
+# Client-specific data files
+clients/*/data/
+clients/*/data/**
+
+# Client tasks (contain sensitive account IDs and strategy)
+clients/*/tasks.json
+**/tasks.json
+roksys/tasks.json
+
+# Email sync state
+.email-sync-state.json
+.email-sync-state.json.backup
+
+# ============================================================================
+# STATE & CACHE FILES (RUNTIME DATA - NOT CODE)
+# ============================================================================
+
+# Application state
+data/state/
+data/state/**
+
+# Task cache and completed tasks state
+data/task-details/
+data/task-details/**
+
+# Client index (generated)
+client-index.json
+
+# ============================================================================
+# LOGS & TEMPORARY FILES
+# ============================================================================
+
+# Log files
+*.log
+logs/
+logs/**
+**/*.log
+
+# Backup files
+*.backup
+*.backup-*
+_backups/
+_backups/**
+backups/
+backups/**
+
+# Temporary files
+*.temp
+*.tmp
+temp/
+temp/**
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# GENERATED OUTPUT & REPORTS
+# ============================================================================
+
+# HTML reports and briefings (but NOT templates)
+*.html
+!*-template.html
+!templates/*.html
+!**/templates/**/*.html
+output/
+output/**
+briefing/
+briefing/**
+
+# Generated task overviews
+tasks-overview*.html
+agent-health-report*.html
+backup-*.html
+nma-audit-*.html
+
+# Large files (videos, large JSON data files)
+*.mp4
+*.mov
+*.avi
+**/monitoring/disapprovals_*.json
+**/monitoring/**/disapprovals_*.json
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.config/venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================================
+# macOS
+# ============================================================================
+
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+
+# ============================================================================
+# ARCHIVES & DUPLICATES
+# ============================================================================
+
+# Archive directories
+_archive/
+_archive/**
+
+# Duplicate files (macOS "file 2", "file 3" pattern)
+*" 2"
+*" 2".*
+*" 3"
+*" 3".*
+* 2
+* 2.*
+* 3
+* 3.*
+
+# ============================================================================
+# SYMLINKS & SPECIAL FILES
+# ============================================================================
+
+# Inbox symlink (points to iCloud)
+!inbox
+
+# LaunchAgent plists (contain user-specific paths)
+agents/launchagents/*.plist
+
+# ============================================================================
+# PERSONAL DATA
+# ============================================================================
+
+# Personal directories
+personal/
+personal/**
+
+# Personal orders, holidays, etc.
+**/orders/
+**/holidays/
+
+# ============================================================================
+# NODE / NPM (if any)
+# ============================================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ============================================================================
+# IDE & EDITOR
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# ============================================================================
+# WHAT GETS COMMITTED?
+# ============================================================================
+#
+# ✅ Python scripts (.py files)
+# ✅ Shell scripts (.sh files)
+# ✅ Documentation (.md files)
+# ✅ Configuration templates
+# ✅ Claude Code skills (.claude/skills/)
+# ✅ Playbooks and guides
+# ✅ Shared libraries
+# ✅ Infrastructure code
+# ✅ Client CONTEXT.md files (no sensitive data)
+# ✅ requirements.txt files
+#
+# ❌ Credentials and API keys
+# ❌ Client emails and attachments
+# ❌ Runtime state files
+# ❌ Generated reports
+# ❌ Log files
+# ❌ Personal data
+# ❌ Backups
+# ❌ Cache files
+#
+# ============================================================================

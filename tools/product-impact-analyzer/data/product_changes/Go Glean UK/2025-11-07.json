@@ -1,0 +1,150 @@
+{
+  "date": "2025-11-07",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-11-06",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 5,
+    "price_changes": 2,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 4,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8399315206421_45691998306581",
+      "title": "Glean Black Stone Restorer & Sealer: 1L Water Based, Premium Black Stone Protector for Interior & Exterior Surfaces",
+      "changes": {
+        "price": [
+          "39.99 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ],
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315271957_45692457648405",
+      "title": "Sticky Stuff Remover Gel Spray | GLEAN 1 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45446868205845",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8995001630997_47901355376917",
+      "title": "Glean Patio Grout Resin Remover 1 Litre - Removes Epoxy, Acrylic, Silicone - Safe for Porcelain & Stone - Easy Use, Drip-Free, 10 sq/m Coverage",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_GB_8399315206421_45691998306581",
+      "title": "Glean Black Stone Restorer & Sealer: 1L Water Based, Premium Black Stone Protector for Interior & Exterior Surfaces",
+      "changes": {
+        "price": [
+          "39.99 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ],
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ],
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315271957_45692457648405",
+      "title": "Sticky Stuff Remover Gel Spray | GLEAN 1 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45446868205845",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8995001630997_47901355376917",
+      "title": "Glean Patio Grout Resin Remover 1 Litre - Removes Epoxy, Acrylic, Silicone - Safe for Porcelain & Stone - Easy Use, Drip-Free, 10 sq/m Coverage",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

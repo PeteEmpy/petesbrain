@@ -1,0 +1,87 @@
+{
+  "date": "2025-11-04",
+  "client": "Grain Guard",
+  "comparison_date": "2025-11-03",
+  "total_products_today": 109,
+  "total_products_yesterday": 109,
+  "summary": {
+    "changed_products": 3,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 3,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_9715210879250_50003891323154",
+      "title": "Grain Guard Chopping Board Oil 500ml - Food Grade Mineral Oil; Odourless, Tasteless - Protects & Enhances;",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734950789394",
+      "title": "Grain Guard Wood Stain 5 Litre - Black Ebony Water Based Interior/Exterior Wood Stain, Quick Dry, Long Lasting, 12m\u00b2 Coverage",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784876896530_47734926999826",
+      "title": "Wax Filler Wood Repair Sticks 4 x 40mm - Light Wood - Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_9715210879250_50003891323154",
+      "title": "Grain Guard Chopping Board Oil 500ml - Food Grade Mineral Oil; Odourless, Tasteless - Protects & Enhances;",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734950789394",
+      "title": "Grain Guard Wood Stain 5 Litre - Black Ebony Water Based Interior/Exterior Wood Stain, Quick Dry, Long Lasting, 12m\u00b2 Coverage",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784876896530_47734926999826",
+      "title": "Wax Filler Wood Repair Sticks 4 x 40mm - Light Wood - Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

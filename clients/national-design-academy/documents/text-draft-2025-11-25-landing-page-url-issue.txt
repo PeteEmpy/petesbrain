@@ -1,0 +1,28 @@
+Hi Paul,
+
+I've investigated why the degree URL appears twice in your top 5 landing pages spreadsheet.
+
+IMPACT (Last 30 Days):
+271 clicks (£162 spend) sent to wrong page with 0 enrolments
+0% conversion rate on wrong page vs 0.26% on correct page
+Estimated loss: ~0.7 enrolments/month (~8 enrolments/year)
+
+ROOT CAUSE:
+Three asset groups in Diploma campaigns are sending traffic to the Degree page instead of the Diploma page:
+
+1. UAE Diploma campaign - Remarketing asset group (ACTIVE - this is the one losing enrolments)
+2. UAE Diploma (older campaign) - Remarketing asset group (dormant, no traffic)
+3. Australia/NZ Diploma campaign - Main asset group (dormant, no traffic)
+
+THE FIX:
+Change final URLs from:
+Wrong: /courses/degrees-interior-design/ (Degree page)
+Correct: /courses/diploma-interior-design/ (Diploma page)
+
+Takes 10 seconds via API. Should recover ~0.7 enrolments/month.
+
+Want me to fix these URLs?
+
+Pete
+
+(Amended 25/11 - added impact analysis)

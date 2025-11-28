@@ -1,0 +1,74 @@
+---
+title: Superspace Monthly Sync Meeting Invitation - November 2025
+source: google-rep_superspace_2025-11-05_google-superspace-monthly-sync.md
+date_added: 2025-11-12
+last_updated: 2025-11-12
+tags: [meeting-coordination, account-management, superspace, monthly-review, google-rep]
+source_type: email
+---
+
+## Summary
+
+- Google account manager Jasmine Chauhan inviting Peter to monthly sync meeting
+- Meeting scheduled for November 5, 2025, 3:15-3:45pm Ireland Time
+- Google has insights to share regarding Superspace account performance
+- Includes Google Meet link and dial-in details for remote participation
+
+## Key Insights
+
+- Regular monthly sync cadence established between Google and Superspace account
+- Google proactively preparing insights suggests active account management relationship
+- Multi-stakeholder meeting includes both Jasmine Chauhan and Sinead Hurley from Google
+
+## Full Content
+
+# Google / Superspace - monthly sync
+
+## Email Details
+
+- **From:** Jasmine Chauhan <jasminechauhan@google.com>
+- **To:** petere@roksys.co.uk, Sinead Hurley <sineadhurley@google.com>
+- **Date:** 2025-11-05 15:20:14
+- **Gmail ID:** 19a549ab26999b3d
+
+---
+
+## Message
+
+Hi peter, we are just waiting on the call - will you be joining? We have  
+some insights to go through with you so keen to speak. Jasmine
+
+Google / Superspace - monthly sync
+Wednesday Nov 5, 2025 ⋅ 3:15pm – 3:45pm
+Ireland Time
+
+Join with Google Meet
+https://meet.google.com/xzx-tiex-sef?hs=224
+
+
+	
+Join by phone
+(IE) +353 1 571 1217
+PIN: 956581824
+
+More phone numbers
+https://tel.meet/xzx-tiex-sef?pin=2564021949974&hs=0
+
+
+Organizer
+Jasmine Chauhan
+jasminechauhan@google.com
+
+Guests
+Jasmine Chauhan - organizer
+petere@roksys.co.uk
+Sinead Hurley
+
+
+
+
+
+---
+
+*Processed from inbox on 2025-11-12*
+*Original file: google-rep_superspace_2025-11-05_google-superspace-monthly-sync.md*

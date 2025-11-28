@@ -1,0 +1,14 @@
+fastmcp>=0.8.0
+
+# Official Bing Ads Python SDK
+bingads>=13.0.25
+
+# Required for pkg_resources (bingads dependency)
+setuptools>=80.0.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Additional dependencies (kept for compatibility)
+typing-extensions>=4.0.0
+

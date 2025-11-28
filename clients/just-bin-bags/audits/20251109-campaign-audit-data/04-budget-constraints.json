@@ -1,0 +1,53 @@
+[
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/23025217110",
+      "name": "JBB | JHD | P Max Shopping"
+    },
+    "metrics": {
+      "searchBudgetLostImpressionShare": 0.0497618816211488,
+      "searchImpressionShare": 0.39070852366605113,
+      "searchRankLostImpressionShare": 0.5595295947128001,
+      "conversions": 0,
+      "costMicros": "78580000"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/14947821292",
+      "amountMicros": "10000000"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/19330440461",
+      "name": "JBB | P Max  200 21/5"
+    },
+    "metrics": {
+      "searchBudgetLostImpressionShare": 0.004731517509727627,
+      "searchImpressionShare": 0.2905214007782101,
+      "searchRankLostImpressionShare": 0.7047470817120622,
+      "conversions": 6.984003,
+      "costMicros": "342868209"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/12165908832",
+      "amountMicros": "50000000"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/21713675420",
+      "name": "JBB | Brand 6 7 31/3"
+    },
+    "metrics": {
+      "searchBudgetLostImpressionShare": 0,
+      "searchImpressionShare": 0.9777777777777777,
+      "searchRankLostImpressionShare": 0.022222222222222223,
+      "conversions": 8,
+      "costMicros": "46630591"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/13922701871",
+      "amountMicros": "31000000"
+    }
+  }
+]

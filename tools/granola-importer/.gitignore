@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Configuration files (contain sensitive data)
+config.yaml
+domain_mappings.yaml
+
+# Import history (user-specific data)
+.import_history.json
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

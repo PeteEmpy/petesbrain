@@ -1,0 +1,23 @@
+[
+  {
+    "campaign_id": "18899261254",
+    "budget_id": "11945680219",
+    "new_daily_budget": 36.00,
+    "campaign_name": "P Max All",
+    "reason": "Reduce underperformer (397% ROAS)"
+  },
+  {
+    "campaign_id": "19577006833",
+    "budget_id": "12288076740",
+    "new_daily_budget": 100.00,
+    "campaign_name": "Dev Arms Hotel",
+    "reason": "Restore approved £52 + deploy £48 additional (850% ROAS)"
+  },
+  {
+    "campaign_id": "21839323410",
+    "budget_id": "14032878235",
+    "new_daily_budget": 48.00,
+    "campaign_name": "Cavendish",
+    "reason": "Restore to client-approved budget"
+  }
+]

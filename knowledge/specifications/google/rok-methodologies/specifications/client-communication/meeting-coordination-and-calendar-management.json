@@ -1,0 +1,21 @@
+{
+  "specification": {
+    "title": "Meeting Coordination and Calendar Management",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-04_uno-lights-meeting-coordination.md",
+        "extracted_at": "2025-11-11T09:21:36.918046",
+        "verified": false
+      }
+    ],
+    "content": {
+      "communication_protocol": "Email thread for scheduling coordination",
+      "calendar_sync": "Proper management of recurring meeting invites",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

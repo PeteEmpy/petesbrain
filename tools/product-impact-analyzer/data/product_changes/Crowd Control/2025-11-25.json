@@ -1,0 +1,115 @@
+{
+  "date": "2025-11-25",
+  "client": "Crowd Control",
+  "comparison_date": "2025-11-24",
+  "total_products_today": 333,
+  "total_products_yesterday": 333,
+  "summary": {
+    "changed_products": 4,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 4,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "8092",
+      "title": "Rope Barrier 4 Pack - Polished Brass Rope Posts with 1.8m Ropes & Sign Frame - Crowd Control - Stanchions Retractable Stanchion Posts",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "6840",
+      "title": "Sign Stand 210mm x 297mm (A4 Sign Size) - Full Circumference Floor Protector - Choice Of 3 Finishes",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "6909",
+      "title": "Wall Unit 400 - Wall Mounted Retractable Belt Barrier - WallPro 400 - 3.9m/4.6m Belt - Choice Of Belt Colour & Lettering - Multiple Mounting Options",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "5703",
+      "title": "Outdoor Safety Retractable Belt Barrier - Twin Belts - WeatherMaster 250 Twin - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "8092",
+      "title": "Rope Barrier 4 Pack - Polished Brass Rope Posts with 1.8m Ropes & Sign Frame - Crowd Control - Stanchions Retractable Stanchion Posts",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "6840",
+      "title": "Sign Stand 210mm x 297mm (A4 Sign Size) - Full Circumference Floor Protector - Choice Of 3 Finishes",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "6909",
+      "title": "Wall Unit 400 - Wall Mounted Retractable Belt Barrier - WallPro 400 - 3.9m/4.6m Belt - Choice Of Belt Colour & Lettering - Multiple Mounting Options",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "5703",
+      "title": "Outdoor Safety Retractable Belt Barrier - Twin Belts - WeatherMaster 250 Twin - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

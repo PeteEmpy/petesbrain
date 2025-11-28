@@ -1,0 +1,38 @@
+{
+  "specification": {
+    "title": "Google Technical Support Appointment - Lead Generation Implementation Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/2025-11-07-google-technical-support-lead-generation-appointment.md",
+        "extracted_at": "2025-11-11T09:21:36.929011",
+        "verified": false
+      }
+    ],
+    "content": {
+      "required_attendees": [
+        "Person with admin access to modify website source code",
+        "Person with administrative access to Google Ads account",
+        "Person with administrative access to Analytics account"
+      ],
+      "pre_call_preparation": [
+        "Back up website before the call",
+        "Have Google Meet ready for screen sharing",
+        "All attendees must accept calendar invite"
+      ],
+      "appointment_parameters": {
+        "acceptance_deadline": "24 hours before scheduled time",
+        "cancellation_policy": "Appointment cancelled if all attendees decline or don't respond within 24 hours",
+        "reschedule_capability": "Available via calendar invite edit"
+      },
+      "technical_setup": {
+        "screen_sharing_tool": "Google Meet",
+        "implementation_scope": "Installation of tracking codes and campaign setup"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

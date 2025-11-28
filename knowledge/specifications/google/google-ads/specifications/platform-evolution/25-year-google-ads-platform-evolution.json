@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "25-Year Google Ads Platform Evolution",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "https://searchengineland.com/google-ads-turns-25-463748",
+        "extracted_at": "2025-11-11T09:21:36.943348",
+        "verified": false
+      }
+    ],
+    "content": {
+      "evolution_trajectory": "Manual keyword bidding \u2192 AI-powered automated campaigns",
+      "targeting_shift": "Keyword-focused \u2192 Audience-focused advertising",
+      "control_shift": "Granular manual management \u2192 Strategic oversight of automated systems",
+      "channel_expansion": "Search-only \u2192 Multi-channel across Google ecosystem",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

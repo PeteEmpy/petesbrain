@@ -1,0 +1,124 @@
+{
+  "tasks": [
+    {
+      "id": "2e43f368-00b1-4b46-ab99-11ae08495a11",
+      "title": "[Clear Prospects - HSG] Investigate PMax H&S ROAS collapse (189% \u2192 114%)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P2",
+      "due_date": "2025-11-25",
+      "time_estimate_mins": 90,
+      "notes": "**From Weekly Report - 2025-11-20**\n\n**Issue:** Main HSG PMax campaign (H&S) ROAS dropped from 189% to 114% (-75pp) while spend increased 21% (\u00a3512 \u2192 \u00a3621).\n\n**Data:**\n- Campaign: CPL | HSG | P Max | All | H&S 120 130 8/9 120 9/9 130 15/9 120 4/10\n- Current: \u00a3621 spend, \u00a3646 conv value, 114% ROAS\n- Previous: \u00a3512 spend, \u00a3742 conv value, 145% ROAS\n- Change: -24% revenue despite +21% spend\n\n**Expected Impact:** \u00a3621/week at 114% ROAS = \u00a387/week loss. If restored to 145% ROAS = +\u00a3280/week revenue gain.\n\n**Action Required:**\n1. Check Google Ads Change History (Nov 6-20) for any campaign changes\n2. Review product feed status in Merchant Center (MC ID: 7481296)\n3. Analyze placement performance (Shopping vs Display vs Discover)\n4. Check if asset group changes affected performance\n5. Review conversion tracking - verify events are firing correctly\n\n**Threshold Met:** ROAS drop >20% WoW (-75pp)\n**Root Cause Unknown** - Needs urgent investigation\n\n---\n**MANUAL NOTE (2025-11-20 16:40):**\nLet's keep monitoring this. We'll have a look again on Monday",
+      "source": "Weekly Report - Brand: HSG",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "hsg",
+        "roas-drop"
+      ],
+      "context": {},
+      "status": "waiting",
+      "created_at": "2025-11-20T08:51:08.255849",
+      "updated_at": "2025-11-20T16:52:06.492960",
+      "completed_at": null
+    },
+    {
+      "id": "198aac86-74dd-433f-b82f-b5f5436c4a32",
+      "title": "[Clear Prospects - HSG] Zombies campaign revenue crash investigation (945% \u2192 84% ROAS)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-21",
+      "time_estimate_mins": 60,
+      "notes": "**From Weekly Report - 2025-11-20**\n\n**Issue:** HSG Zombies PMax campaign ROAS collapsed from 945% to 84% (-861pp). Revenue dropped 91%.\n\n**Data:**\n- Campaign: CPL | HSG | P Max Shopping | Zombies\n- Current: \u00a356 spend, \u00a347 conv value, 84% ROAS, 7.5 conversions\n- Previous: \u00a354 spend, \u00a3511 conv value, 945% ROAS, 10.7 conversions\n- Revenue crash: \u00a3511 \u2192 \u00a347 (-91%)\n\n**Expected Impact:** This campaign was a star performer (945% ROAS). Something changed drastically. If restored to even 400% ROAS on \u00a356 spend = +\u00a3177/week revenue.\n\n**Action Required:**\n1. Check Change History for any changes to this campaign (Nov 6-20)\n2. Review product eligibility - did products get disapproved?\n3. Check if PRESENCE targeting change (from Nov 11) affected this negatively\n4. Review top converting products from previous week - are they still active?\n5. Verify geographic targeting hasn't excluded key areas\n\n**Threshold Met:** ROAS drop >20% WoW (-861pp)\n**URGENT** - 91% revenue drop suggests something broke",
+      "source": "Weekly Report - Brand: HSG",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "hsg",
+        "roas-collapse",
+        "urgent"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T08:51:08.256201",
+      "updated_at": "2025-11-20T08:51:08.256203",
+      "completed_at": null
+    },
+    {
+      "id": "891e282c-5e03-4df3-97e7-b3607a613c34",
+      "title": "[Clear Prospects - WBS] Overall account unprofitable (96% ROAS, target 130%)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-23",
+      "time_estimate_mins": 120,
+      "notes": "**From Weekly Report - 2025-11-20**\n\n**Issue:** WBS overall ROAS dropped to 96% (losing money), down from 120% last week. Target is 130% ROAS.\n\n**Data:**\n- Total spend: \u00a31,630/week\n- Total conv value: \u00a31,567\n- Overall ROAS: 96% (-24pp WoW)\n- Target ROAS: 130%\n- Gap: -34% below target\n\n**Expected Impact:** \u00a31,630/week at 96% ROAS = \u00a365/week loss. If restored to 130% target = +\u00a3554/week revenue gain.\n\n**Campaign Breakdown:**\n- Main PMax H&S: \u00a3829 spend, 103% ROAS (largest campaign, unprofitable)\n- Main Search: \u00a3522 spend, 83% ROAS (2nd largest, unprofitable)\n- Brand Search: \u00a3162 spend, 84% ROAS (unprofitable)\n- Zombies: \u00a363 spend, 133% ROAS (only profitable campaign)\n\n**Action Required:**\n1. Review budget allocation - 3 of 4 major campaigns are unprofitable\n2. Main PMax needs immediate optimization (103% ROAS on \u00a3829 spend)\n3. Main Search campaign underperforming target by 47pp (83% vs 130%)\n4. Consider reallocating budget to Zombies campaign (only profitable at 133%)\n5. Review Nov 11 budget increase from \u00a3120 to \u00a3150 on H&S - scaled into worse performance\n\n**Threshold Met:** ROAS >15% below target (-34% below 130% target)",
+      "source": "Weekly Report - Brand: WBS",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "wbs",
+        "unprofitable"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T08:51:08.256641",
+      "updated_at": "2025-11-20T08:51:08.256643",
+      "completed_at": null
+    },
+    {
+      "id": "1d5c7226-ad30-449f-9f10-29abc4726f40",
+      "title": "[Clear Prospects - BMPM] Search campaign generating zero conversions (\u00a3106 wasted)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P2",
+      "due_date": "2025-11-25",
+      "time_estimate_mins": 45,
+      "notes": "**From Weekly Report - 2025-11-20**\n\n**Issue:** BMPM Search campaign spending \u00a3106/week with 0 conversions, 0 revenue. Complete waste.\n\n**Data:**\n- Campaign: CPL | BMPM | Search | Promotional Merchandise\n- Current week: \u00a3106 spend, \u00a30 conv value, 0 conversions, 0% ROAS\n- Previous week: \u00a391 spend, \u00a30 conv value, 0 conversions, 0% ROAS\n- Wasted: \u00a3106/week = \u00a3424/month\n\n**Expected Impact:** Pausing this campaign saves \u00a3106/week (\u00a3424/month) with no revenue loss.\n\n**Action Required:**\n1. **IMMEDIATE:** Pause this campaign today (zero conversions for 2+ weeks)\n2. Review keyword performance - are keywords too broad/irrelevant?\n3. Check search terms report for wasted queries\n4. Review ad copy and landing pages\n5. Consider if BMPM Search is viable at all (started Oct 21, never converted)\n\n**Threshold Met:** \n- Campaign with 0 conversions spending >\u00a350/week (\u00a3106)\n- Identified waste >\u00a3100/month (\u00a3424/month)\n\n**URGENT** - Stop the bleeding immediately\n\n---\n**MANUAL NOTE (2025-11-20 16:40):**\nEmail sent to Michael, we're just going to have to monitor this. These are long burners. Let's push this to Monday",
+      "source": "Weekly Report - Brand: BMPM",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "bmpm",
+        "zero-conversions",
+        "urgent"
+      ],
+      "context": {},
+      "status": "waiting",
+      "created_at": "2025-11-20T08:51:08.256943",
+      "updated_at": "2025-11-20T16:52:06.493176",
+      "completed_at": null
+    },
+    {
+      "id": "099cb14f-c13b-4355-bfa9-367e91453883",
+      "title": "[Clear Prospects - BMPM] URGENT: Revenue collapsed 84% - full brand investigation",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P2",
+      "due_date": "2025-11-30",
+      "time_estimate_mins": 120,
+      "notes": "**From Weekly Report - 2025-11-20**\n\n**Issue:** BMPM overall performance catastrophic collapse. Revenue down 84%, ROAS at 15% (losing 85p per \u00a31).\n\n**Data:**\n- Total spend: \u00a3458/week (stable)\n- Total conv value: \u00a370 (was \u00a3444 last week)\n- Overall ROAS: 15% (was 97%)\n- Conversions: 1.6 (was 5.4)\n- **Revenue crash: -84% WoW**\n\n**Expected Impact:** \u00a3458/week at 15% ROAS = \u00a3389/week loss. This is unsustainable.\n\n**Campaign Performance:**\n- PMax: \u00a3352 spend, \u00a370 conv value, 20% ROAS (was 122% last week)\n- Search: \u00a3106 spend, \u00a30 conv value, 0% ROAS\n\n**Action Required:**\n1. **IMMEDIATE:** Check if conversion tracking is broken (84% revenue drop is suspicious)\n2. Review Merchant Center feed (MC ID: 7522326) for disapprovals\n3. Check if Nov 11 ROAS target change to 70% caused algorithm issues\n4. Review Change History for any account-level changes\n5. Analyze top products from last week - are they still active?\n6. Consider emergency budget reduction until root cause found\n7. Verify attribution window hasn't changed\n\n**Threshold Met:**\n- ROAS drop >20% WoW (-82pp)\n- ROAS >15% below target (15% actual vs 70% target = -55pp below)\n- All thresholds exceeded - this is critical\n\n**URGENT** - This looks like tracking failure or major feed issue\n\n---\n**MANUAL NOTE (2025-11-20 16:40):**\nSame as the previous task. Let's see what happens with this 84% ROAS. If that is ROAS and rather than revenue, then we're reporting on margin here. So we're close to making a profit Revisit at the end of the month.",
+      "source": "Weekly Report - Brand: BMPM",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "bmpm",
+        "revenue-collapse",
+        "critical",
+        "urgent"
+      ],
+      "context": {},
+      "status": "waiting",
+      "created_at": "2025-11-20T08:51:08.257380",
+      "updated_at": "2025-11-20T16:52:06.493182",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-21T08:45:48.758822"
+}

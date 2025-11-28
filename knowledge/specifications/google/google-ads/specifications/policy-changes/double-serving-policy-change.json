@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Double-Serving Policy Change",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "https://searchengineland.com/google-double-serving-dilemma-who-wins-464233",
+        "extracted_at": "2025-11-11T09:21:36.942011",
+        "verified": false
+      }
+    ],
+    "content": {
+      "policy_change": "Single advertiser can now appear twice on same SERP",
+      "effective_date": "2025",
+      "impact_areas": [
+        "Ad placement strategy",
+        "Bidding strategy",
+        "Campaign structure",
+        "Budget allocation"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

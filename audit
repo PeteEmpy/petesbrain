@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Google Ads Audit Tool - Quick CLI wrapper
+#
+# Usage:
+#   audit smythson              # Weekly audit for Smythson
+#   audit smythson full         # Full audit suite
+#   audit all                   # All clients weekly
+#
+
+cd "$(dirname "$0")"
+
+python3 agents/reporting/google-ads-auditor.py "$@"
+

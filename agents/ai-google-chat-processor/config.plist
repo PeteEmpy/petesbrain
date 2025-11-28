@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.petesbrain.ai-google-chat-processor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <string>/Users/administrator/Documents/PetesBrain/agents/ai-google-chat-processor/ai-google-chat-processor.py</string>
+        <string>--days</string>
+        <string>7</string>
+    </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>ANTHROPIC_API_KEY</key>
+        <string>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</string>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/administrator/Documents/PetesBrain</string>
+
+    <key>StartInterval</key>
+    <integer>1800</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/administrator/.petesbrain-ai-google-chat.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/administrator/.petesbrain-ai-google-chat-error.log</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+<key>ProcessType</key>
+<string>Background</string>
+</dict>
+</plist>
+

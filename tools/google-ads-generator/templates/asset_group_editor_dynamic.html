@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Asset Group Editor - Google Ads Text Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 15px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            font-size: 24px;
+            color: #4caf50;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4caf50 0%, #1e7e34 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+
+        .header .url {
+            opacity: 0.9;
+            font-size: 14px;
+            word-break: break-all;
+        }
+
+        .section-divider {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-divider h2 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+
+        .btn-success {
+            background: #48bb78;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #38a169;
+        }
+
+        .btn-secondary {
+            background: #718096;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #4a5568;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .panel h3 {
+            margin-bottom: 10px;
+            color: #4caf50;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .asset-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 10px;
+            margin-bottom: 4px;
+            background: #f7fafc;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .asset-item:hover {
+            background: #edf2f7;
+        }
+
+        .asset-item.selected {
+            border-color: #4caf50;
+            background: #e6f2ff;
+        }
+
+        .asset-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .asset-text {
+            flex: 1;
+            font-size: 13px;
+            color: #2d3748;
+            line-height: 1.4;
+        }
+
+        .asset-char-count {
+            font-size: 11px;
+            padding: 3px 7px;
+            border-radius: 3px;
+            background: #48bb78;
+            color: white;
+            font-weight: 600;
+        }
+
+        .asset-char-count.warning {
+            background: #ed8936;
+        }
+
+        .asset-char-count.error {
+            background: #f56565;
+        }
+
+        .sitelink-item {
+            background: #f7fafc;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 8px;
+            transition: all 0.2s;
+        }
+
+        .sitelink-item.selected {
+            border-color: #4caf50;
+            background: #e6f2ff;
+        }
+
+        .sitelink-checkbox {
+            margin-bottom: 8px;
+        }
+
+        .sitelink-details {
+            margin-left: 28px;
+            font-size: 13px;
+        }
+
+        .sitelink-details div {
+            margin-bottom: 4px;
+            color: #2d3748;
+        }
+
+        .sitelink-details .label {
+            font-weight: 600;
+            display: inline-block;
+            width: 80px;
+        }
+
+        .snippet-item {
+            background: #f7fafc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 8px;
+        }
+
+        .snippet-header {
+            font-weight: 600;
+            color: #4caf50;
+            margin-bottom: 6px;
+        }
+
+        .snippet-values {
+            font-size: 13px;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+
+        .search-themes-list {
+            font-size: 13px;
+            line-height: 1.8;
+            color: #2d3748;
+            column-count: 2;
+            column-gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .search-themes-list {
+                column-count: 1;
+            }
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 16px 24px;
+            background: #48bb78;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 1000;
+        }
+
+        .notification.error {
+            background: #f56565;
+        }
+
+        .full-width-panel {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .full-width-panel h2 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .floating-counter {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            border: 2px solid #4caf50;
+            border-radius: 10px;
+            padding: 15px 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            min-width: 250px;
+        }
+
+        .floating-counter h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #4caf50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .counter-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 13px;
+            color: #2d3748;
+        }
+
+        .counter-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .counter-label {
+            font-weight: 500;
+        }
+
+        .counter-value {
+            font-weight: 700;
+            color: #4caf50;
+        }
+
+        .counter-value.warning {
+            color: #ed8936;
+        }
+
+        .counter-value.error {
+            color: #f56565;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading">
+        Loading asset group data...
+    </div>
+
+    <div id="content" style="display: none;">
+        <div class="container">
+            <div class="header">
+                <h1>Performance Max Asset Group Editor</h1>
+                <div class="url" id="urlDisplay"></div>
+                <div class="url" id="pageInfo" style="margin-top: 10px; opacity: 0.8; font-size: 13px;"></div>
+            </div>
+
+            <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+                <button class="btn btn-secondary" onclick="window.location.href='/'">Start Over</button>
+            </div>
+
+            <!-- Asset Group Name Input -->
+            <div class="section-divider">
+                <h2>Asset Group Name</h2>
+                <p style="font-size: 13px; color: #666; margin-bottom: 10px;">Enter a name for this asset group (will be included in CSV export)</p>
+                <input type="text" id="assetGroupName" placeholder="e.g., Smythson Luxury Stationery"
+                       style="width: 100%; padding: 10px; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 14px; margin-top: 5px;">
+            </div>
+
+            <!-- Headlines & Descriptions Section -->
+            <div class="section-divider">
+                <h2>
+                    Headlines & Descriptions
+                    <div class="section-actions">
+                        <button class="btn btn-primary" id="exportHeadlinesDescBtn">Export to CSV</button>
+                        <button class="btn btn-success" id="copyHeadlinesDescBtn">Copy to Clipboard</button>
+                    </div>
+                </h2>
+                <p style="font-size: 13px; color: #666; margin-bottom: 10px;">Select headlines and descriptions for your asset group</p>
+            </div>
+
+            <div class="content">
+                <div class="panel">
+                    <h3>Headlines (30 char max) - Min: 3, Max: 15</h3>
+                    <div id="headlinesContainer"></div>
+                </div>
+
+                <div class="panel">
+                    <h3>Long Headlines (90 char max) - Min: 1, Max: 5</h3>
+                    <div id="longHeadlinesContainer"></div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="panel">
+                    <h3>Descriptions (90 char max) - Min: 3, Max: 5</h3>
+                    <div id="descriptionsContainer"></div>
+                </div>
+
+                <div class="panel" style="background: #f7fafc; border: 2px solid #4caf50;">
+                    <h3 style="color: #2d3748;">Quick Reference</h3>
+                    <div style="font-size: 13px; color: #2d3748; line-height: 1.8;">
+                        <div><strong>Headlines:</strong> 30 chars, need 3-15</div>
+                        <div><strong>Long Headlines:</strong> 90 chars, need 1-5</div>
+                        <div><strong>Descriptions:</strong> 90 chars, need 3-5</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sitelinks Section -->
+            <div class="section-divider">
+                <h2>
+                    Sitelinks
+                    <div class="section-actions">
+                        <button class="btn btn-primary" id="exportSitelinksBtn">Export to CSV</button>
+                        <button class="btn btn-success" id="copySitelinksBtn">Copy to Clipboard</button>
+                    </div>
+                </h2>
+                <p style="font-size: 13px; color: #666; margin-bottom: 10px;">Select sitelinks to include (each has headline, 2 descriptions, and URL)</p>
+            </div>
+
+            <div class="full-width-panel">
+                <div id="sitelinksContainer"></div>
+            </div>
+
+            <!-- Structured Snippets Section -->
+            <div class="section-divider">
+                <h2>
+                    Structured Snippets
+                    <div class="section-actions">
+                        <button class="btn btn-primary" id="exportSnippetsBtn">Export to CSV</button>
+                        <button class="btn btn-success" id="copySnippetsBtn">Copy to Clipboard</button>
+                    </div>
+                </h2>
+                <p style="font-size: 13px; color: #666; margin-bottom: 10px;">Select snippet groups to include</p>
+            </div>
+
+            <div class="full-width-panel">
+                <div id="snippetsContainer"></div>
+            </div>
+
+            <!-- Callouts Section -->
+            <div class="section-divider">
+                <h2>
+                    Callouts
+                    <div class="section-actions">
+                        <button class="btn btn-primary" id="exportCalloutsBtn">Export to CSV</button>
+                        <button class="btn btn-success" id="copyCalloutsBtn">Copy to Clipboard</button>
+                    </div>
+                </h2>
+                <p style="font-size: 13px; color: #666; margin-bottom: 10px;">Select callouts to include (25 char max)</p>
+            </div>
+
+            <div class="full-width-panel">
+                <div id="calloutsContainer"></div>
+            </div>
+
+            <!-- Search Themes Section -->
+            <div class="section-divider">
+                <h2>
+                    Search Themes (50 terms)
+                    <div class="section-actions">
+                        <button class="btn btn-success" id="copySearchThemesBtn">Copy to Clipboard</button>
+                    </div>
+                </h2>
+                <p style="font-size: 13px; color: #666; margin-bottom: 10px;">Copy all search themes for your Performance Max campaign</p>
+            </div>
+
+            <div class="full-width-panel">
+                <div id="searchThemesContainer" class="search-themes-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <div class="floating-counter" id="floatingCounter" style="display: none;">
+        <h3>Selection Count</h3>
+        <div class="counter-row">
+            <span class="counter-label">Headlines:</span>
+            <span class="counter-value" id="headlineCount">0 / 15</span>
+        </div>
+        <div class="counter-row">
+            <span class="counter-label">Long Headlines:</span>
+            <span class="counter-value" id="longHeadlineCount">0 / 5</span>
+        </div>
+        <div class="counter-row">
+            <span class="counter-label">Descriptions:</span>
+            <span class="counter-value" id="descriptionCount">0 / 5</span>
+        </div>
+        <div class="counter-row">
+            <span class="counter-label">Sitelinks:</span>
+            <span class="counter-value" id="sitelinkCount">0 / 4</span>
+        </div>
+        <div class="counter-row">
+            <span class="counter-label">Snippets:</span>
+            <span class="counter-value" id="snippetCount">0 / 10</span>
+        </div>
+        <div class="counter-row">
+            <span class="counter-label">Callouts:</span>
+            <span class="counter-value" id="calloutCount">0 / 10</span>
+        </div>
+    </div>
+
+    <script>
+        let currentData = null;
+        let currentUrl = '';
+        let totalCounts = {
+            headlines: 0,
+            descriptions: 0,
+            sitelinks: 0,
+            snippets: 0,
+            callouts: 0
+        };
+
+        // Update the floating counter display
+        function updateCounter() {
+            const headlineChecked = document.querySelectorAll('.headline-checkbox:checked').length;
+            const longHeadlineChecked = document.querySelectorAll('.long-headline-checkbox:checked').length;
+            const descriptionChecked = document.querySelectorAll('.description-checkbox:checked').length;
+            const sitelinkChecked = document.querySelectorAll('.sitelink-checkbox-input:checked').length;
+            const snippetChecked = document.querySelectorAll('.snippet-checkbox:checked').length;
+            const calloutChecked = document.querySelectorAll('.callout-checkbox:checked').length;
+
+            // Performance Max limits (official specs)
+            const headlineMax = 15;  // 30 char headlines, min 3
+            const longHeadlineMax = 5;  // 90 char long headlines, min 1
+            const descriptionMax = 5;  // 90 char descriptions, min 3
+            const sitelinkMax = 4;
+            const snippetMax = 10;
+            const calloutMax = 10;
+
+            document.getElementById('headlineCount').textContent = `${headlineChecked} / ${headlineMax}`;
+            document.getElementById('longHeadlineCount').textContent = `${longHeadlineChecked} / ${longHeadlineMax}`;
+            document.getElementById('descriptionCount').textContent = `${descriptionChecked} / ${descriptionMax}`;
+            document.getElementById('sitelinkCount').textContent = `${sitelinkChecked} / ${sitelinkMax}`;
+            document.getElementById('snippetCount').textContent = `${snippetChecked} / ${snippetMax}`;
+            document.getElementById('calloutCount').textContent = `${calloutChecked} / ${calloutMax}`;
+
+            // Add warning/error classes for headlines
+            const headlineCountEl = document.getElementById('headlineCount');
+            headlineCountEl.className = 'counter-value';
+            if (headlineChecked < 3) {
+                headlineCountEl.classList.add('error');  // Below minimum
+            } else if (headlineChecked > headlineMax) {
+                headlineCountEl.classList.add('error');  // Above maximum
+            } else if (headlineChecked === headlineMax) {
+                headlineCountEl.classList.add('warning');  // At maximum
+            }
+
+            // Add warning/error classes for long headlines
+            const longHeadlineCountEl = document.getElementById('longHeadlineCount');
+            longHeadlineCountEl.className = 'counter-value';
+            if (longHeadlineChecked < 1) {
+                longHeadlineCountEl.classList.add('error');  // Below minimum
+            } else if (longHeadlineChecked > longHeadlineMax) {
+                longHeadlineCountEl.classList.add('error');  // Above maximum
+            } else if (longHeadlineChecked === longHeadlineMax) {
+                longHeadlineCountEl.classList.add('warning');  // At maximum
+            }
+
+            // Add warning/error classes for descriptions
+            const descCountEl = document.getElementById('descriptionCount');
+            descCountEl.className = 'counter-value';
+            if (descriptionChecked < 3) {
+                descCountEl.classList.add('error');  // Below minimum
+            } else if (descriptionChecked > descriptionMax) {
+                descCountEl.classList.add('error');  // Above maximum
+            } else if (descriptionChecked === descriptionMax) {
+                descCountEl.classList.add('warning');  // At maximum
+            }
+        }
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', async () => {
+            const adDataStr = sessionStorage.getItem('adData');
+
+            if (!adDataStr) {
+                window.location.href = '/';
+                return;
+            }
+
+            try {
+                const adData = JSON.parse(adDataStr);
+                currentData = adData;
+                renderPage(adData);
+            } catch (error) {
+                console.error('Error loading data:', error);
+                window.location.href = '/';
+            }
+        });
+
+        function renderPage(data) {
+            currentUrl = data.url;
+
+            // Set header info
+            document.getElementById('urlDisplay').textContent = `URL: ${data.url}`;
+
+            const pageInfo = data.page_info;
+            if (pageInfo) {
+                const product = pageInfo.product || 'N/A';
+                const productDisplay = product.length > 60 ? product.substring(0, 60) + '...' : product;
+                document.getElementById('pageInfo').textContent =
+                    `📦 Product: ${productDisplay} | 🏷️ Category: ${pageInfo.category || 'General'} | 🏢 Brand: ${pageInfo.brand || 'N/A'}`;
+
+                // Auto-populate asset group name based on page info
+                const brand = pageInfo.brand || '';
+                const category = pageInfo.category || '';
+                let suggestedName = '';
+
+                if (brand && category) {
+                    suggestedName = `${brand} - ${category}`;
+                } else if (brand) {
+                    suggestedName = brand;
+                } else if (category) {
+                    suggestedName = category;
+                } else {
+                    // Fallback: extract from URL path
+                    try {
+                        const urlPath = new URL(data.url).pathname;
+                        const pathParts = urlPath.split('/').filter(p => p.length > 0);
+                        const lastPart = pathParts[pathParts.length - 1] || '';
+                        suggestedName = lastPart.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    } catch (e) {
+                        suggestedName = 'Asset Group';
+                    }
+                }
+
+                document.getElementById('assetGroupName').value = suggestedName;
+            }
+
+            // Render headlines (30 char)
+            renderHeadlines(data.short_headlines || data.headlines);
+
+            // Render long headlines (90 char)
+            renderLongHeadlines(data.long_headlines || {});
+
+            // Render descriptions (90 char)
+            renderDescriptions(data.descriptions);
+
+            // Render sitelinks
+            renderSitelinks(data.sitelinks || []);
+
+            // Render structured snippets
+            renderStructuredSnippets(data.structured_snippets || []);
+
+            // Render callouts
+            renderCallouts(data.callouts || []);
+
+            // Render search themes
+            renderSearchThemes(data.search_themes || []);
+
+            // Calculate total counts
+            totalCounts.headlines = document.querySelectorAll('.headline-checkbox').length;
+            totalCounts.descriptions = document.querySelectorAll('.description-checkbox').length;
+            totalCounts.sitelinks = document.querySelectorAll('.sitelink-checkbox-input').length;
+            totalCounts.snippets = document.querySelectorAll('.snippet-checkbox').length;
+            totalCounts.callouts = document.querySelectorAll('.callout-checkbox').length;
+
+            // Hide loading, show content
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+
+            // Show floating counter
+            document.getElementById('floatingCounter').style.display = 'block';
+
+            // Initialize counter
+            updateCounter();
+
+            // Initialize event listeners
+            initializeEventListeners();
+        }
+
+        function renderHeadlines(headlines) {
+            const container = document.getElementById('headlinesContainer');
+            container.innerHTML = '';
+
+            for (const [sectionName, items] of Object.entries(headlines)) {
+                const section = document.createElement('div');
+                section.style.marginBottom = '15px';
+
+                const title = document.createElement('h4');
+                title.textContent = sectionName.replace('_', ' ').toUpperCase();
+                title.style.marginBottom = '8px';
+                title.style.fontSize = '12px';
+                title.style.color = '#4caf50';
+                section.appendChild(title);
+
+                items.forEach(headline => {
+                    const item = createAssetItem(headline, 30, 'headline', sectionName);
+                    section.appendChild(item);
+                });
+
+                container.appendChild(section);
+            }
+        }
+
+        function renderLongHeadlines(descriptions) {
+            const container = document.getElementById('longHeadlinesContainer');
+            container.innerHTML = '';
+
+            // Long headlines are 90 chars, so we can reuse the same descriptions
+            // but label them as "long-headline" for separate tracking
+            for (const [sectionName, items] of Object.entries(descriptions)) {
+                const section = document.createElement('div');
+                section.style.marginBottom = '15px';
+
+                const title = document.createElement('h4');
+                title.textContent = sectionName.replace('_', ' ').toUpperCase();
+                title.style.marginBottom = '8px';
+                title.style.fontSize = '12px';
+                title.style.color = '#4caf50';
+                section.appendChild(title);
+
+                items.forEach(item => {
+                    const element = createAssetItem(item, 90, 'long-headline', sectionName);
+                    section.appendChild(element);
+                });
+
+                container.appendChild(section);
+            }
+        }
+
+        function renderDescriptions(descriptions) {
+            const container = document.getElementById('descriptionsContainer');
+            container.innerHTML = '';
+
+            for (const [sectionName, items] of Object.entries(descriptions)) {
+                const section = document.createElement('div');
+                section.style.marginBottom = '15px';
+
+                const title = document.createElement('h4');
+                title.textContent = sectionName.replace('_', ' ').toUpperCase();
+                title.style.marginBottom = '8px';
+                title.style.fontSize = '12px';
+                title.style.color = '#4caf50';
+                section.appendChild(title);
+
+                items.forEach(description => {
+                    const item = createAssetItem(description, 90, 'description', sectionName);
+                    section.appendChild(item);
+                });
+
+                container.appendChild(section);
+            }
+        }
+
+        function createAssetItem(text, maxLength, type, sectionName) {
+            const item = document.createElement('div');
+            item.className = 'asset-item';
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = `${type}-checkbox`;
+            checkbox.value = text;
+            checkbox.setAttribute('data-section', sectionName);
+
+            checkbox.addEventListener('change', function() {
+                if (this.checked) {
+                    item.classList.add('selected');
+                } else {
+                    item.classList.remove('selected');
+                }
+                updateCounter();
+            });
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'asset-text';
+            textSpan.textContent = text;
+
+            const charCount = document.createElement('span');
+            charCount.className = 'asset-char-count';
+            const length = text.length;
+            if (length > maxLength) {
+                charCount.classList.add('error');
+            } else if (length > maxLength - 3) {
+                charCount.classList.add('warning');
+            }
+            charCount.textContent = `${length}/${maxLength}`;
+
+            item.appendChild(checkbox);
+            item.appendChild(textSpan);
+            item.appendChild(charCount);
+
+            return item;
+        }
+
+        function renderSitelinks(sitelinks) {
+            const container = document.getElementById('sitelinksContainer');
+            container.innerHTML = '';
+
+            if (sitelinks.length === 0) {
+                container.innerHTML = '<p style="color: #666;">No sitelinks generated</p>';
+                return;
+            }
+
+            sitelinks.forEach((sitelink, index) => {
+                const item = document.createElement('div');
+                item.className = 'sitelink-item';
+
+                const checkboxDiv = document.createElement('div');
+                checkboxDiv.className = 'sitelink-checkbox';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'sitelink-checkbox-input';
+                checkbox.value = index;
+                checkbox.style.marginRight = '8px';
+
+                const label = document.createElement('strong');
+                label.textContent = sitelink.headline;
+
+                checkboxDiv.appendChild(checkbox);
+                checkboxDiv.appendChild(label);
+
+                const details = document.createElement('div');
+                details.className = 'sitelink-details';
+                details.innerHTML = `
+                    <div><span class="label">Description 1:</span> ${sitelink.description_1} <span style="color: #666; font-size: 11px;">[${sitelink.description_1.length}/35]</span></div>
+                    <div><span class="label">Description 2:</span> ${sitelink.description_2} <span style="color: #666; font-size: 11px;">[${sitelink.description_2.length}/35]</span></div>
+                    <div><span class="label">URL:</span> <a href="${sitelink.url}" target="_blank" style="color: #4caf50;">${sitelink.url}</a></div>
+                `;
+
+                checkbox.addEventListener('change', function() {
+                    if (this.checked) {
+                        item.classList.add('selected');
+                    } else {
+                        item.classList.remove('selected');
+                    }
+                    updateCounter();
+                });
+
+                item.appendChild(checkboxDiv);
+                item.appendChild(details);
+                container.appendChild(item);
+            });
+        }
+
+        function renderStructuredSnippets(snippets) {
+            const container = document.getElementById('snippetsContainer');
+            container.innerHTML = '';
+
+            if (snippets.length === 0) {
+                container.innerHTML = '<p style="color: #666;">No structured snippets generated</p>';
+                return;
+            }
+
+            snippets.forEach((snippet, index) => {
+                const item = document.createElement('div');
+                item.className = 'snippet-item';
+                item.style.cursor = 'pointer';
+                item.style.border = '2px solid transparent';
+
+                const checkboxLabel = document.createElement('label');
+                checkboxLabel.style.display = 'flex';
+                checkboxLabel.style.alignItems = 'flex-start';
+                checkboxLabel.style.cursor = 'pointer';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'snippet-checkbox';
+                checkbox.value = index;
+                checkbox.style.marginRight = '10px';
+                checkbox.style.marginTop = '2px';
+
+                const content = document.createElement('div');
+                content.style.flex = '1';
+
+                const header = document.createElement('div');
+                header.className = 'snippet-header';
+                header.textContent = snippet.header;
+
+                const values = document.createElement('div');
+                values.className = 'snippet-values';
+                values.textContent = snippet.values.join(', ');
+
+                content.appendChild(header);
+                content.appendChild(values);
+
+                checkboxLabel.appendChild(checkbox);
+                checkboxLabel.appendChild(content);
+                item.appendChild(checkboxLabel);
+
+                checkbox.addEventListener('change', function() {
+                    if (this.checked) {
+                        item.style.borderColor = '#4caf50';
+                        item.style.background = '#e6f2ff';
+                    } else {
+                        item.style.borderColor = 'transparent';
+                        item.style.background = '#f7fafc';
+                    }
+                    updateCounter();
+                });
+
+                container.appendChild(item);
+            });
+        }
+
+        function renderCallouts(callouts) {
+            const container = document.getElementById('calloutsContainer');
+            container.innerHTML = '';
+
+            if (callouts.length === 0) {
+                container.innerHTML = '<p style="color: #666;">No callouts generated</p>';
+                return;
+            }
+
+            callouts.forEach(callout => {
+                const item = createAssetItem(callout, 25, 'callout', 'callouts');
+                container.appendChild(item);
+            });
+        }
+
+        function renderSearchThemes(themes) {
+            const container = document.getElementById('searchThemesContainer');
+            container.innerHTML = '';
+
+            if (themes.length === 0) {
+                container.innerHTML = '<p style="color: #666;">No search themes generated</p>';
+                return;
+            }
+
+            themes.forEach((theme, index) => {
+                const div = document.createElement('div');
+                div.textContent = `${index + 1}. ${theme}`;
+                div.style.marginBottom = '4px';
+                container.appendChild(div);
+            });
+        }
+
+        function initializeEventListeners() {
+            // Headlines & Descriptions export
+            document.getElementById('exportHeadlinesDescBtn').addEventListener('click', exportHeadlinesDescriptions);
+            document.getElementById('copyHeadlinesDescBtn').addEventListener('click', copyHeadlinesDescriptions);
+
+            // Sitelinks export
+            document.getElementById('exportSitelinksBtn').addEventListener('click', exportSitelinks);
+            document.getElementById('copySitelinksBtn').addEventListener('click', copySitelinks);
+
+            // Structured Snippets export
+            document.getElementById('exportSnippetsBtn').addEventListener('click', exportStructuredSnippets);
+            document.getElementById('copySnippetsBtn').addEventListener('click', copyStructuredSnippets);
+
+            // Callouts export
+            document.getElementById('exportCalloutsBtn').addEventListener('click', exportCallouts);
+            document.getElementById('copyCalloutsBtn').addEventListener('click', copyCallouts);
+
+            // Search Themes copy
+            document.getElementById('copySearchThemesBtn').addEventListener('click', copySearchThemes);
+        }
+
+        async function exportHeadlinesDescriptions() {
+            const selectedHeadlines = Array.from(document.querySelectorAll('.headline-checkbox:checked')).map(cb => cb.value);
+            const selectedLongHeadlines = Array.from(document.querySelectorAll('.long-headline-checkbox:checked')).map(cb => cb.value);
+            const selectedDescriptions = Array.from(document.querySelectorAll('.description-checkbox:checked')).map(cb => cb.value);
+            const assetGroupName = document.getElementById('assetGroupName').value.trim();
+
+            if (selectedHeadlines.length === 0 && selectedLongHeadlines.length === 0 && selectedDescriptions.length === 0) {
+                showNotification('Please select at least one headline, long headline, or description', 'error');
+                return;
+            }
+
+            // Validate minimums
+            if (selectedHeadlines.length < 3) {
+                showNotification('Please select at least 3 headlines (min requirement)', 'error');
+                return;
+            }
+
+            if (selectedLongHeadlines.length < 1) {
+                showNotification('Please select at least 1 long headline (min requirement)', 'error');
+                return;
+            }
+
+            if (selectedDescriptions.length < 3) {
+                showNotification('Please select at least 3 descriptions (min requirement)', 'error');
+                return;
+            }
+
+            if (!assetGroupName) {
+                showNotification('Please enter an asset group name', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch('/export_asset_group_headlines_desc', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        headlines: selectedHeadlines,
+                        long_headlines: selectedLongHeadlines,
+                        descriptions: selectedDescriptions,
+                        url: currentUrl,
+                        asset_group_name: assetGroupName
+                    })
+                });
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'asset_group_headlines_descriptions.csv';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+
+                showNotification('CSV exported successfully!');
+            } catch (error) {
+                console.error('Export error:', error);
+                showNotification('Failed to export CSV', 'error');
+            }
+        }
+
+        async function copyHeadlinesDescriptions() {
+            const selectedHeadlines = Array.from(document.querySelectorAll('.headline-checkbox:checked')).map(cb => cb.value);
+            const selectedLongHeadlines = Array.from(document.querySelectorAll('.long-headline-checkbox:checked')).map(cb => cb.value);
+            const selectedDescriptions = Array.from(document.querySelectorAll('.description-checkbox:checked')).map(cb => cb.value);
+            const assetGroupName = document.getElementById('assetGroupName').value.trim();
+
+            if (selectedHeadlines.length === 0 && selectedLongHeadlines.length === 0 && selectedDescriptions.length === 0) {
+                showNotification('Please select at least one headline, long headline, or description', 'error');
+                return;
+            }
+
+            // Validate minimums
+            if (selectedHeadlines.length < 3) {
+                showNotification('Please select at least 3 headlines (min requirement)', 'error');
+                return;
+            }
+
+            if (selectedLongHeadlines.length < 1) {
+                showNotification('Please select at least 1 long headline (min requirement)', 'error');
+                return;
+            }
+
+            if (selectedDescriptions.length < 3) {
+                showNotification('Please select at least 3 descriptions (min requirement)', 'error');
+                return;
+            }
+
+            if (!assetGroupName) {
+                showNotification('Please enter an asset group name', 'error');
+                return;
+            }
+
+            // Build tab-delimited text matching Section 8 format (single row with all assets as columns)
+            const lines = [];
+
+            // Header row - Section 8: Asset Groups (Performance Max)
+            const header = [
+                'Campaign', 'Asset group', 'Asset group status', 'Final URL', 'Path 1', 'Path 2',
+                'Headline 1', 'Headline 2', 'Headline 3', 'Headline 4', 'Headline 5',
+                'Headline 6', 'Headline 7', 'Headline 8', 'Headline 9', 'Headline 10',
+                'Headline 11', 'Headline 12', 'Headline 13', 'Headline 14', 'Headline 15',
+                'Long headline 1', 'Long headline 2', 'Long headline 3', 'Long headline 4', 'Long headline 5',
+                'Description 1', 'Description 2', 'Description 3', 'Description 4', 'Description 5',
+                'Business name', 'Call to action text',
+                'Image asset', 'Logo asset', 'Square image asset', 'Landscape logo asset', 'YouTube video asset'
+            ];
+            lines.push(header.join('\t'));
+
+            // Data row
+            const row = [
+                '',  // Campaign (user fills in)
+                assetGroupName,  // Asset group
+                'Enabled',  // Asset group status
+                currentData.url || '',  // Final URL
+                '',  // Path 1
+                ''   // Path 2
+            ];
+
+            // Add up to 15 regular headlines (30 char max each)
+            for (let i = 0; i < 15; i++) {
+                row.push(i < selectedHeadlines.length ? selectedHeadlines[i] : '');
+            }
+
+            // Add up to 5 long headlines (90 char max each)
+            for (let i = 0; i < 5; i++) {
+                row.push(i < selectedLongHeadlines.length ? selectedLongHeadlines[i] : '');
+            }
+
+            // Add up to 5 descriptions (90 char max each)
+            for (let i = 0; i < 5; i++) {
+                row.push(i < selectedDescriptions.length ? selectedDescriptions[i] : '');
+            }
+
+            // Add remaining fields (empty for user to fill)
+            row.push('', '', '', '', '', '', '');  // Business name, CTA, Image, Logo, Square image, Landscape logo, Video
+
+            lines.push(row.join('\t'));
+
+            const text = lines.join('\n');
+            await navigator.clipboard.writeText(text);
+            showNotification('Copied to clipboard in Section 8 format!');
+        }
+
+        async function exportSitelinks() {
+            const selectedIndices = Array.from(document.querySelectorAll('.sitelink-checkbox-input:checked')).map(cb => parseInt(cb.value));
+            if (selectedIndices.length === 0) {
+                showNotification('Please select at least one sitelink', 'error');
+                return;
+            }
+
+            const selectedSitelinks = selectedIndices.map(i => currentData.sitelinks[i]);
+
+            try {
+                const response = await fetch('/export_sitelinks_csv', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        sitelinks: selectedSitelinks
+                    })
+                });
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'sitelinks.csv';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+
+                showNotification('Sitelinks CSV exported successfully!');
+            } catch (error) {
+                console.error('Export error:', error);
+                showNotification('Failed to export CSV', 'error');
+            }
+        }
+
+        async function copySitelinks() {
+            const selectedIndices = Array.from(document.querySelectorAll('.sitelink-checkbox-input:checked')).map(cb => parseInt(cb.value));
+            if (selectedIndices.length === 0) {
+                showNotification('Please select at least one sitelink', 'error');
+                return;
+            }
+
+            const selectedSitelinks = selectedIndices.map(i => currentData.sitelinks[i]);
+
+            // Build tab-delimited text matching CSV format
+            const lines = [];
+
+            // Header row
+            lines.push(['Sitelink text', 'Description line 1',
+                       'Description line 2', 'Final URL', 'Device preference',
+                       'Start date', 'End date', 'Schedule'].join('\t'));
+
+            // Add sitelinks
+            selectedSitelinks.forEach(sl => {
+                lines.push([sl.headline, sl.description_1, sl.description_2,
+                           sl.url, '', '', '', ''].join('\t'));
+            });
+
+            const text = lines.join('\n');
+            await navigator.clipboard.writeText(text);
+            showNotification('Copied to clipboard with proper format!');
+        }
+
+        async function exportStructuredSnippets() {
+            const selectedIndices = Array.from(document.querySelectorAll('.snippet-checkbox:checked')).map(cb => parseInt(cb.value));
+            if (selectedIndices.length === 0) {
+                showNotification('Please select at least one structured snippet', 'error');
+                return;
+            }
+
+            const selectedSnippets = selectedIndices.map(i => currentData.structured_snippets[i]);
+
+            try {
+                const response = await fetch('/export_snippets_csv', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        snippets: selectedSnippets
+                    })
+                });
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'structured_snippets.csv';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+
+                showNotification('Structured Snippets CSV exported successfully!');
+            } catch (error) {
+                console.error('Export error:', error);
+                showNotification('Failed to export CSV', 'error');
+            }
+        }
+
+        async function copyStructuredSnippets() {
+            const selectedIndices = Array.from(document.querySelectorAll('.snippet-checkbox:checked')).map(cb => parseInt(cb.value));
+            if (selectedIndices.length === 0) {
+                showNotification('Please select at least one structured snippet', 'error');
+                return;
+            }
+
+            const selectedSnippets = selectedIndices.map(i => currentData.structured_snippets[i]);
+
+            // Build tab-delimited text matching CSV format
+            const lines = [];
+
+            // Header row
+            lines.push(['Header', 'Values', 'Device preference',
+                       'Start date', 'End date', 'Schedule'].join('\t'));
+
+            // Add snippets
+            selectedSnippets.forEach(snippet => {
+                lines.push([snippet.header, snippet.values.join(', '),
+                           '', '', '', ''].join('\t'));
+            });
+
+            const text = lines.join('\n');
+            await navigator.clipboard.writeText(text);
+            showNotification('Copied to clipboard with proper format!');
+        }
+
+        async function exportCallouts() {
+            const selectedCallouts = Array.from(document.querySelectorAll('.callout-checkbox:checked')).map(cb => cb.value);
+            if (selectedCallouts.length === 0) {
+                showNotification('Please select at least one callout', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch('/export_callouts_csv', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        callouts: selectedCallouts
+                    })
+                });
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'callouts.csv';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+
+                showNotification('Callouts CSV exported successfully!');
+            } catch (error) {
+                console.error('Export error:', error);
+                showNotification('Failed to export CSV', 'error');
+            }
+        }
+
+        async function copyCallouts() {
+            const selectedCallouts = Array.from(document.querySelectorAll('.callout-checkbox:checked')).map(cb => cb.value);
+            if (selectedCallouts.length === 0) {
+                showNotification('Please select at least one callout', 'error');
+                return;
+            }
+
+            // Build tab-delimited text matching CSV format
+            const lines = [];
+
+            // Header row
+            lines.push(['Callout text', 'Device preference',
+                       'Start date', 'End date', 'Schedule'].join('\t'));
+
+            // Add callouts
+            selectedCallouts.forEach(callout => {
+                lines.push([callout, '', '', '', ''].join('\t'));
+            });
+
+            const text = lines.join('\n');
+            await navigator.clipboard.writeText(text);
+            showNotification('Copied to clipboard with proper format!');
+        }
+
+        async function copySearchThemes() {
+            const themes = currentData.search_themes || [];
+            if (themes.length === 0) {
+                showNotification('No search themes available', 'error');
+                return;
+            }
+
+            const text = themes.join('\n');
+            await navigator.clipboard.writeText(text);
+            showNotification('Copied 50 search themes to clipboard!');
+        }
+
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = 'notification' + (type === 'error' ? ' error' : '');
+            notification.style.display = 'block';
+
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

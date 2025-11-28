@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Low-Value Placements Filter Beta - Enrollment Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Display Network Beta Email - Morene Niyomwungere (2025-10-31)",
+        "extracted_at": "2025-11-11T09:21:36.951268",
+        "verified": false
+      }
+    ],
+    "content": {
+      "mandatory_call": "15-minute enrollment call required",
+      "survey_questions": "Compliance survey must be completed",
+      "cannot_bypass": "Call cannot be skipped for this specific beta",
+      "eligibility": "Accounts with active display campaigns",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

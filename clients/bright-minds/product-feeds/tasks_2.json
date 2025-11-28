@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "id": "5c96c158-4d6b-46b6-94d1-e946aa769a8c",
+      "title": "[Bright Minds] Review Search Brand Campaign Target ROAS Change Results",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2025-12-04",
+      "time_estimate_mins": 30,
+      "notes": "Review impact of target ROAS reduction from 800% to 550% (changed Nov 20, 2025).\n\n**What to check:**\n- Conversion volume change (expect +20-40%)\n- ROAS performance (should maintain 500%+)\n- Impression share (should maintain or improve from 91.8%)\n- Spend changes (may increase \u00a315-30/day)\n- Conversion quality (check for any degradation)\n\n**Context:**\n- Previous target: 800% (unrealistic, 289.6pp above actual)\n- New target: 550% (more achievable)\n- Actual pre-change ROAS: 510.4%\n- Learning period: 14 days (Nov 20 - Dec 4)\n\n**Note:** Black Friday week (Nov 25-29) will affect data - separate baseline improvement from seasonal effects.\n\n**Reference:**\n- Campaign: BMI | Search | Brand 550 20/11 (ID: 2083618047)\n- Completion log: /clients/bright-minds/tasks-completed.md\n- Audit report: /clients/bright-minds/audits/20251120-campaign-audit.md",
+      "source": "Manual",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T22:25:14.933423",
+      "updated_at": "2025-11-20T22:25:14.933631",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-21T08:45:48.758020"
+}

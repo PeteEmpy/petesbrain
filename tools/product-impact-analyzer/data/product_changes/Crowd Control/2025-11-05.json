@@ -1,0 +1,161 @@
+{
+  "date": "2025-11-05",
+  "client": "Crowd Control",
+  "comparison_date": "2025-11-04",
+  "total_products_today": 331,
+  "total_products_yesterday": 329,
+  "summary": {
+    "changed_products": 6,
+    "price_changes": 2,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 4,
+    "new_products": 2,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "6976",
+      "title": "Suction Cup Wall Mount Unit 450 - Wall Mounted Retractable Belt Barrier - WallPro 450 Suction Cup Mounting and Belt End - 6.1m to 9.1m Belt",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "68273",
+      "title": "1.2m Satin Stainless Post and Panel Barricade Bundle",
+      "changes": {
+        "price": [
+          "354.00 GBP",
+          "342.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "64289",
+      "title": "Long Span Wall Mounted Twin Belt Retractable Barrier - WallPro450 Twin - 6.1m/7.6m/9.1m Belts",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "7682",
+      "title": "Crowd Control 21 Post Horizontal Storage Cart - Heavy-Duty Metal Rack with Wheels for Stanchions (50mm/64mm/76mm) - Barrier Cart Organizer",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "65179",
+      "title": "Premium A4 Floor Sign Stand: Heavy-Duty Cast Iron Base, Steel Frame, Double Acrylic Sheets - 210x297mm - Black/Brass/Stainless Steel",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "68257",
+      "title": "1.2m Black Post and Panel Barricade Bundle",
+      "changes": {
+        "price": [
+          "342.00 GBP",
+          "330.00 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "68421",
+      "title": "1.8m Black Post and Panel Barricade Bundle",
+      "price": "378.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "68427",
+      "title": "1.8m Satin Post and Panel Barricade Bundle",
+      "price": "390.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "68273",
+      "title": "1.2m Satin Stainless Post and Panel Barricade Bundle",
+      "changes": {
+        "price": [
+          "354.00 GBP",
+          "342.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "68257",
+      "title": "1.2m Black Post and Panel Barricade Bundle",
+      "changes": {
+        "price": [
+          "342.00 GBP",
+          "330.00 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "6976",
+      "title": "Suction Cup Wall Mount Unit 450 - Wall Mounted Retractable Belt Barrier - WallPro 450 Suction Cup Mounting and Belt End - 6.1m to 9.1m Belt",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "64289",
+      "title": "Long Span Wall Mounted Twin Belt Retractable Barrier - WallPro450 Twin - 6.1m/7.6m/9.1m Belts",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "7682",
+      "title": "Crowd Control 21 Post Horizontal Storage Cart - Heavy-Duty Metal Rack with Wheels for Stanchions (50mm/64mm/76mm) - Barrier Cart Organizer",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "65179",
+      "title": "Premium A4 Floor Sign Stand: Heavy-Duty Cast Iron Base, Steel Frame, Double Acrylic Sheets - 210x297mm - Black/Brass/Stainless Steel",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

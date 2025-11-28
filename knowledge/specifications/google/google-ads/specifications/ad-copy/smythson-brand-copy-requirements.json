@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Smythson Brand Copy Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/rok-methodologies/smythson-brand-copy-guidelines.md",
+        "extracted_at": "2025-11-11T09:21:36.971404",
+        "verified": false
+      }
+    ],
+    "content": {
+      "text_capitalization": "Sentence case (not lowercase) for all ad formats",
+      "company_age_reference": "Must use '137 years' or 'over 135 years' only",
+      "brand_name_usage": "'Smythson' only - never 'Smythson London'",
+      "us_market_spelling": "American English required for US campaigns",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,146 @@
+# Claude.ai Custom Instructions - Roksys Client Context
+
+This file contains custom instructions for referencing client context Google Docs when working with Claude.ai for ad-hoc reporting and analysis.
+
+Each client has a Google Doc that auto-syncs daily at 7 AM GMT with their CONTEXT.md file from Pete's Brain.
+
+---
+
+## Tree2mydoor
+
+https://docs.google.com/document/d/1mXPdLygmIxngrWVOdsjZSBgnvw9AE9qtTaMyE4fn-Xk/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Accessories For The Home
+
+https://docs.google.com/document/d/1lJpoyDFn-X6XfcL4AFQw09wXLZLNGk0qcc6xl8W2y-Q/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Bright Minds
+
+https://docs.google.com/document/d/1kvqdXB6De2A6jjfGU2FyDNEF8Eg0w4jWgzSyEjacrfU/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Just Bin Bags
+
+https://docs.google.com/document/d/1DIg141a4R9HJQczmUc3f32HXNTTo1MNR1o8pVXL2zrA/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Clear Prospects
+
+https://docs.google.com/document/d/1xNoGg4LgVyGCNSxcbRHbaJs90lvSEcECq8klRjgbyZs/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Crowd Control
+
+https://docs.google.com/document/d/1E-sOImJMGu4EBqub7VEkdlWHf5HGBkWd2Ld7u2cd8uI/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Devonshire Hotels
+
+https://docs.google.com/document/d/1hOSDmP7p-xPe4dbRHggHLr4NN842qyClI4RrpUsn6E8/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Go Glean
+
+https://docs.google.com/document/d/1KBHFT_TKGRyCf8I_xrllOIy6uensXTHUlAVKx_bp9OU/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Godshot
+
+https://docs.google.com/document/d/11VYPCWHQcWZ7LH2YrAnPeFXVSqzqN3sLaAkoS_YGr7Q/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Grain Guard
+
+https://docs.google.com/document/d/1dOaKJeZe83Mm7evoFv7CXO_5Q3Qc5LSHZ8hk7OLo17k/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## National Design Academy
+
+https://docs.google.com/document/d/11eJABP7G2NSlnppBMOzZRI7XWDa3QKWjIELVsqh4TPo/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## OTC
+
+https://docs.google.com/document/d/1IK2YUj2fg5oRSUPW541Q7tuEO6oQbS8K0uQ__9Nn0LY/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Print My PDF
+
+https://docs.google.com/document/d/1NSHjc8ZVxdvKQBixlOk4ZDx5RUq8FD8Ja7lY7_42XUo/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Smythson
+
+https://docs.google.com/document/d/1EUXP2K37jb2EXpE4ujIYt38-S1W8YqFuOygrFChwQfM/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Superspace
+
+https://docs.google.com/document/d/1XrsrF27JJZASG2HqMgWd1EtBYOEWcVDOJTXRWsRyQgk/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Uno Lighting
+
+https://docs.google.com/document/d/1_bgfaXv6vXzRBB9bsh40xu3NuYyuvuU9ZsixA31k_zE/edit
+
+This document contains complete client context including business model, strategic decisions, campaign notes, and key learnings. Auto-synced daily at 7 AM.
+
+---
+
+## Usage Instructions
+
+When working on a specific client in Claude.ai:
+
+1. Copy the relevant Google Doc URL from above
+2. Paste it into Claude.ai with: "Reference this document for [Client Name] context: [URL]"
+3. Claude.ai will read the document and incorporate the context into its responses
+
+All documents are automatically synced from Pete's Brain CONTEXT.md files every morning at 7 AM GMT.
+

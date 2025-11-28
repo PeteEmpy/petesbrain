@@ -1,0 +1,26 @@
+{
+  "specification": {
+    "title": "Google Ads Support Contact Methods and Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Support Email - Solomiya Karplyuk (2025-11-03)",
+        "extracted_at": "2025-11-11T09:21:36.947055",
+        "verified": false
+      }
+    ],
+    "content": {
+      "customer_id": "Required for all support interactions",
+      "case_number": "Should be requested for future reference",
+      "support_channels": [
+        "online_chat",
+        "phone",
+        "email"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

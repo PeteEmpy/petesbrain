@@ -1,0 +1,216 @@
+{
+  "date": "2025-11-18",
+  "client": "Tree2mydoor",
+  "comparison_date": "2025-11-17",
+  "total_products_today": 741,
+  "total_products_yesterday": 741,
+  "summary": {
+    "changed_products": 9,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 5,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 4,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "76759",
+      "title": "Christmas Holly Tree Gift",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "00286",
+      "title": "The Olive Tree Gift - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1330",
+      "title": "Mini Sweet Lime Tree Gift",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "00955",
+      "title": "Tulip Magnolia Tree Gift Delivered At A Height Of 30-50cm In A Gift-Wrapped 3L Pot - Pink, Tulip-Shaped Blossom",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "ROHR",
+      "title": "Happy Retirement Rose Bush Gift",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "01090-2",
+      "title": "Pair of Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "F80RG",
+      "title": "Fab at 80 Rose Bush Gift - 3.5L Pot 40-50cm Tall - 80th Birthday Gift - Floribunda Variety With A Fresh Fragrance",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "00970",
+      "title": "Susan Magnolia Tree Gift",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "02219C-2",
+      "title": "Christmas Bay Tree Gift - Medium Bay Tree (3L pot, 80cm height) - Medium Bay Tree (3L pot, 80cm height)",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "00286",
+      "title": "The Olive Tree Gift - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1330",
+      "title": "Mini Sweet Lime Tree Gift",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "00955",
+      "title": "Tulip Magnolia Tree Gift Delivered At A Height Of 30-50cm In A Gift-Wrapped 3L Pot - Pink, Tulip-Shaped Blossom",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "F80RG",
+      "title": "Fab at 80 Rose Bush Gift - 3.5L Pot 40-50cm Tall - 80th Birthday Gift - Floribunda Variety With A Fresh Fragrance",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "00970",
+      "title": "Susan Magnolia Tree Gift",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "76759",
+      "title": "Christmas Holly Tree Gift",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "ROHR",
+      "title": "Happy Retirement Rose Bush Gift",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "01090-2",
+      "title": "Pair of Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "02219C-2",
+      "title": "Christmas Bay Tree Gift - Medium Bay Tree (3L pot, 80cm height) - Medium Bay Tree (3L pot, 80cm height)",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

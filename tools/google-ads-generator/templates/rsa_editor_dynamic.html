@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>RSA Editor - Google Ads Text Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 15px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            font-size: 24px;
+            color: #4caf50;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4caf50 0%, #1e7e34 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+
+        .header .url {
+            opacity: 0.9;
+            font-size: 14px;
+            word-break: break-all;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+
+        .btn-success {
+            background: #48bb78;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #38a169;
+        }
+
+        .btn-secondary {
+            background: #718096;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #4a5568;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .panel h2 {
+            margin-bottom: 15px;
+            color: #2d3748;
+            font-size: 16px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h3 {
+            margin-bottom: 10px;
+            color: #4caf50;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .asset-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 10px;
+            margin-bottom: 4px;
+            background: #f7fafc;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .asset-item:hover {
+            background: #edf2f7;
+        }
+
+        .asset-item.selected {
+            border-color: #4caf50;
+            background: #e6f2ff;
+        }
+
+        .asset-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .asset-text {
+            flex: 1;
+            font-size: 13px;
+            color: #2d3748;
+            line-height: 1.4;
+        }
+
+        .asset-char-count {
+            font-size: 11px;
+            padding: 3px 7px;
+            border-radius: 3px;
+            background: #48bb78;
+            color: white;
+            font-weight: 600;
+        }
+
+        .asset-char-count.warning {
+            background: #ed8936;
+        }
+
+        .asset-char-count.error {
+            background: #f56565;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 16px 24px;
+            background: #48bb78;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 1000;
+        }
+
+        .notification.error {
+            background: #f56565;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading">
+        Loading ad data...
+    </div>
+
+    <div id="content" style="display: none;">
+        <div class="container">
+            <div class="header">
+                <h1>RSA Text Asset Editor</h1>
+                <div class="url" id="urlDisplay"></div>
+                <div class="url" id="pageInfo" style="margin-top: 10px; opacity: 0.8; font-size: 13px;"></div>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number" id="selectedHeadlines">0 / 15</div>
+                        <div class="stat-label">Headlines Selected (Max 15)</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" id="selectedDescriptions">0 / 4</div>
+                        <div class="stat-label">Descriptions Selected (Max 4)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn btn-primary" id="exportCsvBtn">Export to CSV</button>
+                <button class="btn btn-success" id="copyBtn">Copy to Clipboard</button>
+                <button class="btn btn-secondary" onclick="window.location.href='/'">Start Over</button>
+            </div>
+
+            <div class="content">
+                <!-- Headlines Panel -->
+                <div class="panel">
+                    <h2>Headlines (30 char max • Select 3-15 for RSA)</h2>
+                    <div id="headlinesContainer"></div>
+                </div>
+
+                <!-- Descriptions Panel -->
+                <div class="panel">
+                    <h2>Descriptions (90 char max • Select 2-4 for RSA)</h2>
+                    <div id="descriptionsContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <script>
+        let currentUrl = '';
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', async () => {
+            const adDataStr = sessionStorage.getItem('adData');
+
+            if (!adDataStr) {
+                window.location.href = '/';
+                return;
+            }
+
+            try {
+                const adData = JSON.parse(adDataStr);
+                renderPage(adData);
+            } catch (error) {
+                console.error('Error loading data:', error);
+                window.location.href = '/';
+            }
+        });
+
+        function renderPage(data) {
+            currentUrl = data.url;
+
+            // Set header info
+            document.getElementById('urlDisplay').textContent = `URL: ${data.url}`;
+
+            const pageInfo = data.page_info;
+            let infoText = '';
+            if (pageInfo) {
+                const product = pageInfo.product || 'N/A';
+                const productDisplay = product.length > 60 ? product.substring(0, 60) + '...' : product;
+                infoText = `📦 Product: ${productDisplay} | 🏷️ Category: ${pageInfo.category || 'General'} | 🏢 Brand: ${pageInfo.brand || 'N/A'}`;
+            }
+            document.getElementById('pageInfo').textContent = infoText;
+
+            // Render headlines
+            const headlinesContainer = document.getElementById('headlinesContainer');
+            headlinesContainer.innerHTML = '';
+
+            for (const [sectionName, headlines] of Object.entries(data.headlines)) {
+                const section = document.createElement('div');
+                section.className = 'section';
+
+                const title = document.createElement('h3');
+                title.textContent = sectionName.replace('_', ' ').toUpperCase();
+                section.appendChild(title);
+
+                headlines.forEach(headline => {
+                    const item = createAssetItem(headline, 30, 'headline', sectionName);
+                    section.appendChild(item);
+                });
+
+                headlinesContainer.appendChild(section);
+            }
+
+            // Render descriptions
+            const descriptionsContainer = document.getElementById('descriptionsContainer');
+            descriptionsContainer.innerHTML = '';
+
+            for (const [sectionName, descriptions] of Object.entries(data.descriptions)) {
+                const section = document.createElement('div');
+                section.className = 'section';
+
+                const title = document.createElement('h3');
+                title.textContent = sectionName.replace('_', ' ').toUpperCase();
+                section.appendChild(title);
+
+                descriptions.forEach(description => {
+                    const item = createAssetItem(description, 90, 'description', sectionName);
+                    section.appendChild(item);
+                });
+
+                descriptionsContainer.appendChild(section);
+            }
+
+            // Hide loading, show content
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+
+            // Initialize event listeners
+            initializeEventListeners();
+        }
+
+        function createAssetItem(text, maxLength, type, sectionName) {
+            const item = document.createElement('div');
+            item.className = 'asset-item';
+            item.setAttribute('data-type', type);
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = `${type}-checkbox`;
+            checkbox.value = text;
+            checkbox.setAttribute('data-section', sectionName);
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'asset-text';
+            textSpan.textContent = text;
+
+            const charCount = document.createElement('span');
+            charCount.className = 'asset-char-count';
+            const length = text.length;
+            if (length > maxLength) {
+                charCount.classList.add('error');
+            } else if (length > maxLength - 3) {
+                charCount.classList.add('warning');
+            }
+            charCount.textContent = `${length}/${maxLength}`;
+
+            item.appendChild(checkbox);
+            item.appendChild(textSpan);
+            item.appendChild(charCount);
+
+            return item;
+        }
+
+        function initializeEventListeners() {
+            // Update selection counts with limits
+            document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const isHeadline = this.classList.contains('headline-checkbox');
+                    const isDescription = this.classList.contains('description-checkbox');
+
+                    // Check limits
+                    if (this.checked) {
+                        const headlineCount = document.querySelectorAll('.headline-checkbox:checked').length;
+                        const descriptionCount = document.querySelectorAll('.description-checkbox:checked').length;
+
+                        // Enforce limits
+                        if (isHeadline && headlineCount > 15) {
+                            this.checked = false;
+                            showNotification('Maximum 15 headlines allowed for RSA ads', 'error');
+                            return;
+                        }
+                        if (isDescription && descriptionCount > 4) {
+                            this.checked = false;
+                            showNotification('Maximum 4 descriptions allowed for RSA ads', 'error');
+                            return;
+                        }
+                    }
+
+                    const item = this.closest('.asset-item');
+                    if (this.checked) {
+                        item.classList.add('selected');
+                    } else {
+                        item.classList.remove('selected');
+                    }
+                    updateCounts();
+                });
+            });
+
+            // Export CSV
+            document.getElementById('exportCsvBtn').addEventListener('click', exportToCsv);
+
+            // Copy to clipboard
+            document.getElementById('copyBtn').addEventListener('click', copyToClipboard);
+        }
+
+        function updateCounts() {
+            const headlineCount = document.querySelectorAll('.headline-checkbox:checked').length;
+            const descriptionCount = document.querySelectorAll('.description-checkbox:checked').length;
+
+            // Update display with limits
+            const headlineDisplay = document.getElementById('selectedHeadlines');
+            const descriptionDisplay = document.getElementById('selectedDescriptions');
+
+            headlineDisplay.textContent = `${headlineCount} / 15`;
+            descriptionDisplay.textContent = `${descriptionCount} / 4`;
+
+            // Change color if at limit
+            if (headlineCount >= 15) {
+                headlineDisplay.style.color = '#f56565';
+            } else {
+                headlineDisplay.style.color = 'white';
+            }
+
+            if (descriptionCount >= 4) {
+                descriptionDisplay.style.color = '#f56565';
+            } else {
+                descriptionDisplay.style.color = 'white';
+            }
+        }
+
+        function getSelectedAssets() {
+            const headlines = Array.from(document.querySelectorAll('.headline-checkbox:checked'))
+                .map(cb => cb.value);
+            const descriptions = Array.from(document.querySelectorAll('.description-checkbox:checked'))
+                .map(cb => cb.value);
+
+            return { headlines, descriptions };
+        }
+
+        function getSelectedAssetsWithSections() {
+            const result = {
+                headlines: {},
+                descriptions: {}
+            };
+
+            // Get checked headlines grouped by section
+            document.querySelectorAll('.headline-checkbox:checked').forEach(checkbox => {
+                const section = checkbox.getAttribute('data-section');
+                if (!result.headlines[section]) {
+                    result.headlines[section] = [];
+                }
+                result.headlines[section].push(checkbox.value);
+            });
+
+            // Get checked descriptions grouped by section
+            document.querySelectorAll('.description-checkbox:checked').forEach(checkbox => {
+                const section = checkbox.getAttribute('data-section');
+                if (!result.descriptions[section]) {
+                    result.descriptions[section] = [];
+                }
+                result.descriptions[section].push(checkbox.value);
+            });
+
+            return result;
+        }
+
+        async function exportToCsv() {
+            const selectedWithSections = getSelectedAssetsWithSections();
+
+            // Count total selections
+            let totalHeadlines = 0;
+            let totalDescriptions = 0;
+
+            Object.values(selectedWithSections.headlines).forEach(arr => {
+                totalHeadlines += arr.length;
+            });
+
+            Object.values(selectedWithSections.descriptions).forEach(arr => {
+                totalDescriptions += arr.length;
+            });
+
+            // Check minimum requirements for RSA
+            if (totalHeadlines < 3) {
+                showNotification('RSA ads require at least 3 headlines', 'error');
+                return;
+            }
+
+            if (totalDescriptions < 2) {
+                showNotification('RSA ads require at least 2 descriptions', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch('/export_rsa_csv', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        selected_items: selectedWithSections,
+                        url: currentUrl
+                    })
+                });
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'google_ads_rsa_assets.csv';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+
+                showNotification('CSV exported successfully!');
+            } catch (error) {
+                console.error('Export error:', error);
+                showNotification('Failed to export CSV', 'error');
+            }
+        }
+
+        async function copyToClipboard() {
+            const selectedWithSections = getSelectedAssetsWithSections();
+
+            // Count total selections
+            let totalHeadlines = 0;
+            let totalDescriptions = 0;
+
+            Object.values(selectedWithSections.headlines).forEach(arr => {
+                totalHeadlines += arr.length;
+            });
+
+            Object.values(selectedWithSections.descriptions).forEach(arr => {
+                totalDescriptions += arr.length;
+            });
+
+            // Check minimum requirements for RSA
+            if (totalHeadlines < 3) {
+                showNotification('RSA ads require at least 3 headlines', 'error');
+                return;
+            }
+
+            if (totalDescriptions < 2) {
+                showNotification('RSA ads require at least 2 descriptions', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch('/get_copy_text', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        selected_items: selectedWithSections,
+                        url: currentUrl
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.text) {
+                    await navigator.clipboard.writeText(data.text);
+                    showNotification('Copied to clipboard!');
+                } else {
+                    showNotification('Failed to copy', 'error');
+                }
+            } catch (error) {
+                console.error('Copy error:', error);
+                showNotification('Failed to copy to clipboard', 'error');
+            }
+        }
+
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = 'notification' + (type === 'error' ? ' error' : '');
+            notification.style.display = 'block';
+
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

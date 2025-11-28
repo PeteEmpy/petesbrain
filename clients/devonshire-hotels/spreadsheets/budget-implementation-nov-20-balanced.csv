@@ -1,0 +1,11 @@
+Campaign,Campaign ID,Daily Budget,Budget,Change from Current,Rationale
+DEV | Properties CE & BE | P Max | All 500 480 27/6 500 28/7 450 7/8,18899261254,36,£36.00,-£12,Reduce underperformer (397% ROAS vs 570% target)
+DEV | Properties BE | Devonshire Arms Hotel 470 20/9 480 8/5 Ai 19/8,19577006833,100,£100.00,+£64,Restore approved £52 + deploy £48 additional (850% ROAS top performer)
+DEV | Properties CE | Cavendish 400 460 3/4 480 8/5 500 28/7,21839323410,48,£48.00,-£2,Restore to client-approved budget (498% ROAS - needs investigation)
+DEV | Properties CE | The Beeley Inn 480 8/5 500 28/7,22539873565,22,£22.00,£0,Maintain (1033% ROAS but not budget-constrained)
+DEV | Properties CE | Chatsworth Escapes Inns & Hotels 460 28/7 500 28/7,2080736142,15,£15.00,-£7,Reduce critical underperformer (140% ROAS)
+DEV | Properties CE | The Pilsley Inn 420 480 8/5 500 28/7,19534106385,20,£20.00,£0,Maintain (494% ROAS close to target)
+DEV | Properties BE | The Fell 500 11/6,22666031909,26,£26.00,+£4,Restore to client-approved budget (408% ROAS)
+DEV | Properties | Chatsworth Escapes Locations 500 28/7 Ai Max 5/8,19654308682,25,£25.00,+£10,Deploy additional budget (511% ROAS moderate opportunity)
+DEV | Properties CE | Chatsworth Escapes Self Catering 480 8/5 500 28/7 Ai Max 5/8,19534201089,15,£15.00,-£3,Reduce underperformer (91% ROAS - A/B test running)
+DEV | Properties BE | Bolton Abbey Escapes Self Catering 480 8/5 500 28/7,22536922700,9,£9.00,£0,Maintain (542% ROAS performing well)

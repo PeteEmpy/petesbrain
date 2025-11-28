@@ -1,0 +1,35 @@
+---
+title: Roksys Rhino Scripts Inventory - Google Apps Script
+source: roksys.co.uk_Rhino_Scripts 2.csv
+date_added: 2025-11-12
+last_updated: 2025-11-12
+tags: [google-apps-script, automation, roksys-internal, script-inventory, spreadsheet-automation]
+source_type: document
+---
+
+## Summary
+
+- Inventory of Google Apps Scripts used within Roksys organization
+- Contains single script entry linked to Google Spreadsheet
+- Script was last updated on January 22, 2025 by petere@roksys.co.uk
+- Script has zero executions and no dependent libraries
+- Tracks script compatibility, ownership, and usage metrics
+
+## Key Insights
+
+- This appears to be an internal tool for tracking and managing Google Apps Scripts used by Roksys
+- The tracked script has not been executed yet, suggesting it may be newly created or in development
+- The script is owned and created by the same person, indicating individual ownership rather than team collaboration
+- No incompatibility issues or dependencies detected, suggesting a standalone script implementation
+
+## Full Content
+
+Script_URL,Script_ID,Container_Link,Last_Update_Dt_Tm,Creator_Email,Owner_Email,Incompatibility_Reason,Opted_Out,Dependent_Library_Count,Dependency_Incompatibility_Reason,Is_Used_As_Library,Execution_Count,Versions
+https://script.google.com/d/1JDkqHPUrXlCehD099DhFg8XYh2vr2hI8JoG-ab7LRNkXvqCOgxOi3-XY/edit,1JDkqHPUrXlCehD099DhFg8XYh2vr2hI8JoG-ab7LRNkXvqCOgxOi3-XY,https://docs.google.com/spreadsheets/d/17Vr_aWFOOJj7RXbKqj3-7ccYt7ZFZ8apjEVkGhrTCHc,2025-01-22 12:43:10,petere@roksys.co.uk,petere@roksys.co.uk,,false,0,,false,0,""
+
+
+
+---
+
+*Processed from inbox on 2025-11-12*
+*Original file: roksys.co.uk_Rhino_Scripts 2.csv*

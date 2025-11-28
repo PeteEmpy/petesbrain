@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    {
+      "id": "5c55d138-5136-401c-a5c1-0b9555b0dfb8",
+      "title": "[Devonshire Hotels] Integrate The Hide reporting with main hotel campaigns",
+      "client": "devonshire-hotels",
+      "priority": "P0",
+      "due_date": "2025-11-22",
+      "time_estimate_mins": 60,
+      "notes": "From Nov 13 meeting: Starting December monthly report, integrate The Hide (\u00a32,000/month budget) into main hotel reporting instead of tracking separately. Currently tracked separately, needs to be combined for December presentation.",
+      "source": "Meeting",
+      "tags": [
+        "reporting",
+        "the-hide",
+        "december"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-18T09:16:11.168166",
+      "updated_at": "2025-11-18T09:17:29.611121",
+      "completed_at": null
+    },
+    {
+      "id": "a368e196-3a70-4225-aa5f-7694819441b1",
+      "title": "[Devonshire Hotels] Chatsworth Escapes - Self-Catering Campaign Conversion Collapse and Landing Page Change",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2025-11-30",
+      "time_estimate_mins": 120,
+      "notes": "**EXPERIMENT CONTEXT:**\nThis is tracking the Chatsworth Escapes landing page A/B test that launched Nov 4, 2025. The conversion collapse coincided with the test start, affecting BOTH variants equally.\n\n**Performance Data:**\n- Nov 1-20: Only 1 conversion (\u00a3299 revenue, \u00a3330 spend, 91% ROAS)\n- Historical baseline: 0.43% CR\n- Current: 0.14% CR\n\n**Other Campaigns (Benchmarks):**\n\u2705 Bolton Abbey Self Catering: Converting normally (542% ROAS, 3 conversions)\n\u2705 All hotel campaigns: Converting normally (49+ conversions)\n\u274c Chatsworth showing lower conversion volume\n\n**A/B TEST STATUS:**\n- **Started:** Nov 4, 2025\n- **Ends:** Nov 30, 2025 (30-day test)\n- **Key Finding:** BOTH variants performing equally poorly (suggests issue isn't the landing page variants)\n- **Critical:** DO NOT kill test early - self-catering has long booking lead times (need full 30 days for conversion lag)\n\n**INVESTIGATION PRIORITIES:**\n\n1. **Availability Issues** (HIGH PRIORITY)\n   - EMAIL SENT: Gary contacted Nov 20 to check Chatsworth website/availability\n   - EXPECTED RESPONSE: Nov 21\n   - Question: Did Chatsworth properties go offline, sell out, or have pricing changes around Nov 4?\n\n2. **Technical Issues**\n   - Are there Chatsworth-specific site issues affecting both variants?\n   - Check booking flow, form submissions, payment processing\n\n3. **Seasonal Factors**\n   - Nov is traditionally slower for self-catering bookings\n   - Compare to Nov 2024 performance for Chatsworth\n\n**NEXT STEPS:**\n\n**Immediate (Nov 21):**\n- Receive Gary's response on availability/website changes\n- If availability issue found: Pause campaign OR reduce budget until resolved\n\n**Ongoing (Nov 21-30):**\n- Continue monitoring BOTH A/B test variants\n- Do NOT make changes that invalidate the test\n- Track daily: impressions, clicks, CTR, bounce rate, conversion rate\n\n**Final Analysis (Dec 1):**\n- Compare full 30-day results for both landing page variants\n- Account for booking lead time lag (some Nov conversions may attribute in Dec)\n- Determine if conversion collapse was due to:\n  a) Availability/external factors (not test-related)\n  b) Landing page changes (both variants equally bad)\n  c) Seasonal drop (compare to 2024)\n\n**Success Criteria:**\n- If availability issue: Resolve and retest\n- If landing page issue: Revert to original page\n- If seasonal: Accept lower Nov performance, revisit Dec/Jan\n\n**Note:** This task combines investigation + experiment tracking since both are intertwined.",
+      "source": "Manual (A/B Test + Investigation)",
+      "tags": [
+        "ab-test",
+        "experiment",
+        "conversion-investigation",
+        "chatsworth-escapes"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T12:55:17.238154",
+      "updated_at": "2025-11-20T14:25:00.000000",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-21T08:45:48.759517"
+}

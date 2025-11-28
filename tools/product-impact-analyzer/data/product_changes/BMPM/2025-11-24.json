@@ -1,0 +1,375 @@
+{
+  "date": "2025-11-24",
+  "client": "BMPM",
+  "comparison_date": "2025-11-23",
+  "total_products_today": 6640,
+  "total_products_yesterday": 6640,
+  "summary": {
+    "changed_products": 17,
+    "price_changes": 17,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "BMPM428V434338",
+      "title": "Branded Fabric Bunting (Full Colour) - 5 Metres with 12 Rectangle Flags (28cm) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "50.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3229V437415",
+      "title": "Branded Armband (Full Colour) 20cm (Tube Approx. 40cm x 7cm)",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "7.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM605V435057",
+      "title": "Branded Wine Gift Bag (Full Colour) Magnum (28cm x 12cm) (Dark Green) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "16.50 GBP",
+          "9.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM1761V435093",
+      "title": "Branded Apron (Full Colour) (90cm x 70cm) - White Polycotton Fabric",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "12.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM385V445909",
+      "title": "Branded Cushion (Full Colour) Oval (50cm x 30cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "25.75 GBP",
+          "20.75 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8250894",
+      "title": "Brand Printed Stickers",
+      "changes": {
+        "price": [
+          "1.90 GBP",
+          "1.80 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8109533V452492",
+      "title": "Branded Lectern Cover (Full Colour) - Bespoke Size (Up to 100cm x 70cm) Water Resistant Polyester Fabric - Black Loop Fastening - Rectangle With Circl",
+      "changes": {
+        "price": [
+          "40.00 GBP",
+          "20.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437722",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (25cm) Water Resistant Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8250563V451332",
+      "title": "Branded Golf Ball Marker 7cm x 2.8cm Zinc Alloy",
+      "changes": {
+        "price": [
+          "6.70 GBP",
+          "3.70 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8211357V451268",
+      "title": "Branded Bolster Cushion (Full Colour) (Buckwheat Filling) (40cm x 13cm) Water Resistant Polyester Fabric + Removable Cover",
+      "changes": {
+        "price": [
+          "39.50 GBP",
+          "32.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8239050",
+      "title": "Branded Heavy Weight Towel Wrap (Full Colour)",
+      "changes": {
+        "price": [
+          "22.50 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437664",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (25cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8109533V452477",
+      "title": "Branded Lectern Cover (Full Colour) - Bespoke Size (Up to 100cm x 70cm) Mock Suede Polyester Fabric - White Loop Fastening - Rectangle With Circle Cur",
+      "changes": {
+        "price": [
+          "20.00 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM428V434346",
+      "title": "Branded Fabric Bunting (Full Colour) - 5 Metres with 12 Rectangle Flags (28cm) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "50.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437707",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (30cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "24.00 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8237503V448370",
+      "title": "Branded Cushion Heart Shaped (Full Colour) Heart (25cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "15.75 GBP",
+          "10.75 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM5865V435747",
+      "title": "Branded Christmas Hats (Full Colour) - Adult 31cm wide x 32cm tall Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "13.00 GBP",
+          "5.50 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "BMPM428V434338",
+      "title": "Branded Fabric Bunting (Full Colour) - 5 Metres with 12 Rectangle Flags (28cm) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "50.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3229V437415",
+      "title": "Branded Armband (Full Colour) 20cm (Tube Approx. 40cm x 7cm)",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "7.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM605V435057",
+      "title": "Branded Wine Gift Bag (Full Colour) Magnum (28cm x 12cm) (Dark Green) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "16.50 GBP",
+          "9.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM1761V435093",
+      "title": "Branded Apron (Full Colour) (90cm x 70cm) - White Polycotton Fabric",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "12.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM385V445909",
+      "title": "Branded Cushion (Full Colour) Oval (50cm x 30cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "25.75 GBP",
+          "20.75 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8250894",
+      "title": "Brand Printed Stickers",
+      "changes": {
+        "price": [
+          "1.90 GBP",
+          "1.80 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8109533V452492",
+      "title": "Branded Lectern Cover (Full Colour) - Bespoke Size (Up to 100cm x 70cm) Water Resistant Polyester Fabric - Black Loop Fastening - Rectangle With Circl",
+      "changes": {
+        "price": [
+          "40.00 GBP",
+          "20.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437722",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (25cm) Water Resistant Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8250563V451332",
+      "title": "Branded Golf Ball Marker 7cm x 2.8cm Zinc Alloy",
+      "changes": {
+        "price": [
+          "6.70 GBP",
+          "3.70 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8211357V451268",
+      "title": "Branded Bolster Cushion (Full Colour) (Buckwheat Filling) (40cm x 13cm) Water Resistant Polyester Fabric + Removable Cover",
+      "changes": {
+        "price": [
+          "39.50 GBP",
+          "32.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8239050",
+      "title": "Branded Heavy Weight Towel Wrap (Full Colour)",
+      "changes": {
+        "price": [
+          "22.50 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437664",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Circle (25cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8109533V452477",
+      "title": "Branded Lectern Cover (Full Colour) - Bespoke Size (Up to 100cm x 70cm) Mock Suede Polyester Fabric - White Loop Fastening - Rectangle With Circle Cur",
+      "changes": {
+        "price": [
+          "20.00 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM428V434346",
+      "title": "Branded Fabric Bunting (Full Colour) - 5 Metres with 12 Rectangle Flags (28cm) Mock Suede Polyester Fabric",
+      "changes": {
+        "price": [
+          "50.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437707",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (30cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "24.00 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8237503V448370",
+      "title": "Branded Cushion Heart Shaped (Full Colour) Heart (25cm) Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "15.75 GBP",
+          "10.75 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM5865V435747",
+      "title": "Branded Christmas Hats (Full Colour) - Adult 31cm wide x 32cm tall Soft Velvet Polyester Fabric",
+      "changes": {
+        "price": [
+          "13.00 GBP",
+          "5.50 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

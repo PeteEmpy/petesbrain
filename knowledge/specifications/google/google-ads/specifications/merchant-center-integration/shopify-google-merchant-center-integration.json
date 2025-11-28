@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Shopify-Google Merchant Center Integration",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center email notification - 2025-11-05 (Tree2mydoor account)",
+        "extracted_at": "2025-11-11T09:21:36.959369",
+        "verified": false
+      }
+    ],
+    "content": {
+      "integration_type": "Point-of-sale and inventory data connection",
+      "purpose": "Enable local product listings on Google",
+      "expiration": "Link requests have time-limited validity",
+      "data_requirements": "Continuous data feed from Shopify to Merchant Center",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

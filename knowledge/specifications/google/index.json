@@ -1,0 +1,3058 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-11-11T09:25:22.532013",
+  "google_ads": {
+    "specifications": {
+      "billing-administrative": {
+        "google-ads-billing-document-process": {
+          "file": "google-ads/specifications/billing-administrative/google-ads-billing-document-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Billing Document Process",
+          "summary": "Google Ads Billing Document Process",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "platform-updates": {
+        "november-2025-google-ads-platform-updates-and-ai-tools": {
+          "file": "google-ads/specifications/platform-updates/november-2025-google-ads-platform-updates-and-ai-tools.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "November 2025 Google Ads Platform Updates and AI Tools",
+          "summary": "November 2025 Google Ads Platform Updates and AI Tools",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "ai-powered-advertising-tools-and-training-november-2025": {
+          "file": "google-ads/specifications/platform-updates/ai-powered-advertising-tools-and-training-november-2025.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI-Powered Advertising Tools and Training - November 2025",
+          "summary": "AI-Powered Advertising Tools and Training - November 2025",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "technical-implementation": {
+        "lead-generation-technical-support-appointment-requirements": {
+          "file": "google-ads/specifications/technical-implementation/lead-generation-technical-support-appointment-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Support Appointment Requirements",
+          "summary": "Lead Generation Technical Support Appointment Requirements",
+          "sources": [
+            "kb_article",
+            "kb_article"
+          ]
+        },
+        "lead-generation-technical-implementation-session-structure": {
+          "file": "google-ads/specifications/technical-implementation/lead-generation-technical-implementation-session-structure.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Implementation Session Structure",
+          "summary": "Lead Generation Technical Implementation Session Structure",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "lead-generation-technical-setup-appointment-protocol": {
+          "file": "google-ads/specifications/technical-implementation/lead-generation-technical-setup-appointment-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Setup Appointment Protocol",
+          "summary": "Lead Generation Technical Setup Appointment Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "lead-generation-technical-implementation-session": {
+          "file": "google-ads/specifications/technical-implementation/lead-generation-technical-implementation-session.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Implementation Session",
+          "summary": "Lead Generation Technical Implementation Session",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-technical-support-lead-generation-implementation-requirements": {
+          "file": "google-ads/specifications/technical-implementation/google-technical-support-lead-generation-implementation-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Support Lead Generation Implementation Requirements",
+          "summary": "Google Technical Support Lead Generation Implementation Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "technical-support-appointment-calendar-protocol": {
+          "file": "google-ads/specifications/technical-implementation/technical-support-appointment-calendar-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Technical Support Appointment Calendar Protocol",
+          "summary": "Technical Support Appointment Calendar Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "beta-features": {
+        "google-ads-beta-access-process": {
+          "file": "google-ads/specifications/beta-features/google-ads-beta-access-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Beta Access Process",
+          "summary": "Google Ads Beta Access Process",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "low-value-placements-filter-beta-access-requirements": {
+          "file": "google-ads/specifications/beta-features/low-value-placements-filter-beta-access-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Low-Value Placements Filter Beta - Access Requirements",
+          "summary": "Low-Value Placements Filter Beta - Access Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "account-management": {
+        "google-technical-escalation-process": {
+          "file": "google-ads/specifications/account-management/google-technical-escalation-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Escalation Process",
+          "summary": "Google Technical Escalation Process",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "support-resources": {
+        "google-ads-support-contact-specifications": {
+          "file": "google-ads/specifications/support-resources/google-ads-support-contact-specifications.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Support Contact Specifications",
+          "summary": "Google Ads Support Contact Specifications",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-account-manager-emergency-contact-and-support-channels": {
+          "file": "google-ads/specifications/support-resources/google-account-manager-emergency-contact-and-support-channels.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Account Manager Emergency Contact and Support Channels",
+          "summary": "Google Account Manager Emergency Contact and Support Channels",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "enhanced-conversions-troubleshooting": {
+        "enhanced-conversions-for-leads-implementation-troubleshooting-protocol": {
+          "file": "google-ads/specifications/enhanced-conversions-troubleshooting/enhanced-conversions-for-leads-implementation-troubleshooting-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads - Implementation Troubleshooting Protocol",
+          "summary": "Enhanced Conversions for Leads - Implementation Troubleshooting Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "support-channels": {
+        "google-ads-support-contact-methods-and-requirements": {
+          "file": "google-ads/specifications/support-channels/google-ads-support-contact-methods-and-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Support Contact Methods and Requirements",
+          "summary": "Google Ads Support Contact Methods and Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "automation-strategy": {
+        "deprecated-tactics-for-2026-ai-first-environment": {
+          "file": "google-ads/specifications/automation-strategy/deprecated-tactics-for-2026-ai-first-environment.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Deprecated Tactics for 2026 AI-First Environment",
+          "summary": "Deprecated Tactics for 2026 AI-First Environment",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "platform-changes": {
+        "ai-overviews-impact-on-paid-search-visibility": {
+          "file": "google-ads/specifications/platform-changes/ai-overviews-impact-on-paid-search-visibility.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI Overviews Impact on Paid Search Visibility",
+          "summary": "AI Overviews Impact on Paid Search Visibility",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "enhanced-conversions-for-leads": {
+        "enhanced-conversions-for-leads-implementation-requirements": {
+          "file": "google-ads/specifications/enhanced-conversions-for-leads/enhanced-conversions-for-leads-implementation-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads Implementation Requirements",
+          "summary": "Enhanced Conversions for Leads Implementation Requirements",
+          "sources": [
+            "kb_article",
+            "kb_article"
+          ]
+        },
+        "enhanced-conversions-for-leads-post-implementation-support-requirements": {
+          "file": "google-ads/specifications/enhanced-conversions-for-leads/enhanced-conversions-for-leads-post-implementation-support-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads Post-Implementation Support Requirements",
+          "summary": "Enhanced Conversions for Leads Post-Implementation Support Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "enhanced-conversions-for-leads-troubleshooting-process": {
+          "file": "google-ads/specifications/enhanced-conversions-for-leads/enhanced-conversions-for-leads-troubleshooting-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads Troubleshooting Process",
+          "summary": "Enhanced Conversions for Leads Troubleshooting Process",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "enhanced-conversions-for-leads-offline-conversion-import-requirements": {
+          "file": "google-ads/specifications/enhanced-conversions-for-leads/enhanced-conversions-for-leads-offline-conversion-import-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads - Offline Conversion Import Requirements",
+          "summary": "Enhanced Conversions for Leads - Offline Conversion Import Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "enhanced-conversions-for-leads-ecfl-implementation-and-troubleshooting": {
+          "file": "google-ads/specifications/enhanced-conversions-for-leads/enhanced-conversions-for-leads-ecfl-implementation-and-troubleshooting.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads (ECFL) Implementation and Troubleshooting",
+          "summary": "Enhanced Conversions for Leads (ECFL) Implementation and Troubleshooting",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "technical-implementation-support": {
+        "google-technical-support-appointment-requirements-and-process": {
+          "file": "google-ads/specifications/technical-implementation-support/google-technical-support-appointment-requirements-and-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Support Appointment Requirements and Process",
+          "summary": "Google Technical Support Appointment Requirements and Process",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "policy-changes": {
+        "double-serving-policy-change": {
+          "file": "google-ads/specifications/policy-changes/double-serving-policy-change.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Double-Serving Policy Change",
+          "summary": "Double-Serving Policy Change",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "asset-groups": {
+        "performance-max": {
+          "file": "google-ads/specifications/asset-groups/performance-max.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Performance Max Asset Group Requirements",
+          "summary": "Performance Max Asset Group Requirements",
+          "sources": [
+            "code_extraction"
+          ]
+        }
+      },
+      "budget-planning": {
+        "investment-strategy-planning-tool": {
+          "file": "google-ads/specifications/budget-planning/investment-strategy-planning-tool.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Investment Strategy Planning Tool",
+          "summary": "Investment Strategy Planning Tool",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "api-integration": {
+        "google-ads-api-data-access-and-automation": {
+          "file": "google-ads/specifications/api-integration/google-ads-api-data-access-and-automation.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads API Data Access and Automation",
+          "summary": "Google Ads API Data Access and Automation",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "merchant-center-pricing": {
+        "ai-powered-sale-price-suggestions": {
+          "file": "google-ads/specifications/merchant-center-pricing/ai-powered-sale-price-suggestions.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI-Powered Sale Price Suggestions",
+          "summary": "AI-Powered Sale Price Suggestions",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "ai-powered-sale-price-suggestions-tree2mydoor-account": {
+          "file": "google-ads/specifications/merchant-center-pricing/ai-powered-sale-price-suggestions-tree2mydoor-account.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI-Powered Sale Price Suggestions - Tree2MyDoor Account",
+          "summary": "AI-Powered Sale Price Suggestions - Tree2MyDoor Account",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "reporting-automation": {
+        "automated-campaign-report-workflow": {
+          "file": "google-ads/specifications/reporting-automation/automated-campaign-report-workflow.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Automated Campaign Report Workflow",
+          "summary": "Automated Campaign Report Workflow",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "shopping-image-display": {
+        "google-shopping-smart-cropping-feature": {
+          "file": "google-ads/specifications/shopping-image-display/google-shopping-smart-cropping-feature.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Shopping Smart Cropping Feature",
+          "summary": "Google Shopping Smart Cropping Feature",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "ad-copy": {
+        "smythson-brand-copy-requirements": {
+          "file": "google-ads/specifications/ad-copy/smythson-brand-copy-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Smythson Brand Copy Requirements",
+          "summary": "Smythson Brand Copy Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "billing-administration": {
+        "google-ads-billing-document-management": {
+          "file": "google-ads/specifications/billing-administration/google-ads-billing-document-management.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Billing Document Management",
+          "summary": "Google Ads Billing Document Management",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "merchant-center": {
+        "product-feed-flickering-issue-diagnosis-and-prevention": {
+          "file": "google-ads/specifications/merchant-center/product-feed-flickering-issue-diagnosis-and-prevention.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Feed Flickering Issue Diagnosis and Prevention",
+          "summary": "Product Feed Flickering Issue Diagnosis and Prevention",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "creative-content-section-video-assets": {
+          "file": "google-ads/specifications/merchant-center/creative-content-section-video-assets.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Creative Content Section - Video Assets",
+          "summary": "Creative Content Section - Video Assets",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "product-feed-setup-requirements": {
+          "file": "google-ads/specifications/merchant-center/product-feed-setup-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Feed Setup Requirements",
+          "summary": "Product Feed Setup Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "local-inventory-ads-active-items-monitoring": {
+          "file": "google-ads/specifications/merchant-center/local-inventory-ads-active-items-monitoring.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Local Inventory Ads - Active Items Monitoring",
+          "summary": "Local Inventory Ads - Active Items Monitoring",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-merchant-center-product-feed-setup": {
+          "file": "google-ads/specifications/merchant-center/google-merchant-center-product-feed-setup.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Merchant Center Product Feed Setup",
+          "summary": "Google Merchant Center Product Feed Setup",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "product-feed-flickering-issue-and-impact": {
+          "file": "google-ads/specifications/merchant-center/product-feed-flickering-issue-and-impact.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Feed Flickering Issue and Impact",
+          "summary": "Product Feed Flickering Issue and Impact",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "point-of-sale-integration-link-expiration-process": {
+          "file": "google-ads/specifications/merchant-center/point-of-sale-integration-link-expiration-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Point-of-Sale Integration Link Expiration Process",
+          "summary": "Point-of-Sale Integration Link Expiration Process",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "shopping-ads-active-items-monitoring": {
+          "file": "google-ads/specifications/merchant-center/shopping-ads-active-items-monitoring.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Shopping Ads - Active Items Monitoring",
+          "summary": "Shopping Ads - Active Items Monitoring",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "ai-powered-pricing-optimization-feature": {
+          "file": "google-ads/specifications/merchant-center/ai-powered-pricing-optimization-feature.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI-Powered Pricing Optimization Feature",
+          "summary": "AI-Powered Pricing Optimization Feature",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "shopify-google-merchant-center-local-inventory-integration-duplicate-entry": {
+          "file": "google-ads/specifications/merchant-center/shopify-google-merchant-center-local-inventory-integration-duplicate-entry.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Shopify-Google Merchant Center Local Inventory Integration (duplicate entry)",
+          "summary": "Shopify-Google Merchant Center Local Inventory Integration (duplicate entry)",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "ai-powered-sale-price-suggestions-feature": {
+          "file": "google-ads/specifications/merchant-center/ai-powered-sale-price-suggestions-feature.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI-Powered Sale Price Suggestions Feature",
+          "summary": "AI-Powered Sale Price Suggestions Feature",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "merchant-center-holiday-performance-tracking": {
+          "file": "google-ads/specifications/merchant-center/merchant-center-holiday-performance-tracking.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Merchant Center Holiday Performance Tracking",
+          "summary": "Merchant Center Holiday Performance Tracking",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "ai-powered-sale-price-suggestions-tree2mydoor-account": {
+          "file": "google-ads/specifications/merchant-center/ai-powered-sale-price-suggestions-tree2mydoor-account.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI-Powered Sale Price Suggestions (Tree2MyDoor Account)",
+          "summary": "AI-Powered Sale Price Suggestions (Tree2MyDoor Account)",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "merchant-center-video-assets-feature": {
+          "file": "google-ads/specifications/merchant-center/merchant-center-video-assets-feature.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Merchant Center Video Assets Feature",
+          "summary": "Merchant Center Video Assets Feature",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "shopify-integration-point-of-sale-and-inventory-data-link": {
+          "file": "google-ads/specifications/merchant-center/shopify-integration-point-of-sale-and-inventory-data-link.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Shopify Integration - Point-of-Sale and Inventory Data Link",
+          "summary": "Shopify Integration - Point-of-Sale and Inventory Data Link",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "video-assets-in-merchant-center": {
+          "file": "google-ads/specifications/merchant-center/video-assets-in-merchant-center.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Video Assets in Merchant Center",
+          "summary": "Video Assets in Merchant Center",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "shopify-google-merchant-center-local-inventory-integration": {
+          "file": "google-ads/specifications/merchant-center/shopify-google-merchant-center-local-inventory-integration.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Shopify-Google Merchant Center Local Inventory Integration",
+          "summary": "Shopify-Google Merchant Center Local Inventory Integration",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "product-hero-blog-overview-google-shopping-and-performance-max": {
+          "file": "google-ads/specifications/merchant-center/product-hero-blog-overview-google-shopping-and-performance-max.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Hero Blog Overview - Google Shopping and Performance Max",
+          "summary": "Product Hero Blog Overview - Google Shopping and Performance Max",
+          "sources": [
+            "product_hero_blog"
+          ]
+        },
+        "local-inventory-ads-drop-alert-diagnostics-and-resolution": {
+          "file": "google-ads/specifications/merchant-center/local-inventory-ads-drop-alert-diagnostics-and-resolution.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Local Inventory Ads Drop Alert - Diagnostics and Resolution",
+          "summary": "Local Inventory Ads Drop Alert - Diagnostics and Resolution",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "product-data-specification-requirements": {
+          "file": "google-ads/specifications/merchant-center/product-data-specification-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Data Specification Requirements",
+          "summary": "Product Data Specification Requirements",
+          "sources": [
+            "official_documentation"
+          ]
+        }
+      },
+      "youtube-ads": {
+        "youtube-mobile-ad-sidebar-shoppable-panel-update": {
+          "file": "google-ads/specifications/youtube-ads/youtube-mobile-ad-sidebar-shoppable-panel-update.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "YouTube Mobile Ad Sidebar - Shoppable Panel Update",
+          "summary": "YouTube Mobile Ad Sidebar - Shoppable Panel Update",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "lead-generation-strategy": {
+        "google-think-leads-event-lead-generation-strategic-framework": {
+          "file": "google-ads/specifications/lead-generation-strategy/google-think-leads-event-lead-generation-strategic-framework.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Think Leads Event - Lead Generation Strategic Framework",
+          "summary": "Google Think Leads Event - Lead Generation Strategic Framework",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "budget-management": {
+        "black-friday-budget-pacing-requirements": {
+          "file": "google-ads/specifications/budget-management/black-friday-budget-pacing-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Black Friday Budget Pacing Requirements",
+          "summary": "Black Friday Budget Pacing Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "merchant-center-integration": {
+        "shopify-google-merchant-center-integration": {
+          "file": "google-ads/specifications/merchant-center-integration/shopify-google-merchant-center-integration.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Shopify-Google Merchant Center Integration",
+          "summary": "Shopify-Google Merchant Center Integration",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "shopify-google-merchant-center-link-expiration": {
+          "file": "google-ads/specifications/merchant-center-integration/shopify-google-merchant-center-link-expiration.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Shopify-Google Merchant Center Link Expiration",
+          "summary": "Shopify-Google Merchant Center Link Expiration",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "enhanced-conversions-leads": {
+        "enhanced-conversions-for-leads-implementation-requirements": {
+          "file": "google-ads/specifications/enhanced-conversions-leads/enhanced-conversions-for-leads-implementation-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads Implementation Requirements",
+          "summary": "Enhanced Conversions for Leads Implementation Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "enhanced-conversions-for-leads-technical-implementation": {
+          "file": "google-ads/specifications/enhanced-conversions-leads/enhanced-conversions-for-leads-technical-implementation.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads Technical Implementation",
+          "summary": "Enhanced Conversions for Leads Technical Implementation",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "technical-support-protocol": {
+        "google-technical-support-appointment-protocol": {
+          "file": "google-ads/specifications/technical-support-protocol/google-technical-support-appointment-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Support Appointment Protocol",
+          "summary": "Google Technical Support Appointment Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "commerce-media-suite": {
+        "commerce-media-suite-holiday-optimization-framework": {
+          "file": "google-ads/specifications/commerce-media-suite/commerce-media-suite-holiday-optimization-framework.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Commerce Media Suite Holiday Optimization Framework",
+          "summary": "Commerce Media Suite Holiday Optimization Framework",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "hotel-ads": {
+        "google-hotel-ads-technical-issue-escalation-process": {
+          "file": "google-ads/specifications/hotel-ads/google-hotel-ads-technical-issue-escalation-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Hotel Ads Technical Issue Escalation Process",
+          "summary": "Google Hotel Ads Technical Issue Escalation Process",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "technical-support-lead-generation": {
+        "google-technical-support-lead-generation-appointment-requirements": {
+          "file": "google-ads/specifications/technical-support-lead-generation/google-technical-support-lead-generation-appointment-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Support Lead Generation Appointment Requirements",
+          "summary": "Google Technical Support Lead Generation Appointment Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "performance-max-assets": {
+        "asset-requirements-for-performance-max": {
+          "file": "google-ads/specifications/performance-max-assets/asset-requirements-for-performance-max.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Asset Requirements for Performance Max",
+          "summary": "Asset Requirements for Performance Max",
+          "sources": [
+            "official_documentation"
+          ]
+        }
+      },
+      "account-optimization": {
+        "google-quarterly-account-review-consultation": {
+          "file": "google-ads/specifications/account-optimization/google-quarterly-account-review-consultation.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Quarterly Account Review Consultation",
+          "summary": "Google Quarterly Account Review Consultation",
+          "sources": [
+            "kb_article",
+            "kb_article"
+          ]
+        }
+      },
+      "display-network-beta": {
+        "low-value-placements-filter-beta-enrollment-requirements": {
+          "file": "google-ads/specifications/display-network-beta/low-value-placements-filter-beta-enrollment-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Low-Value Placements Filter Beta - Enrollment Requirements",
+          "summary": "Low-Value Placements Filter Beta - Enrollment Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "ai-max-search": {
+        "ai-max-for-search-campaigns-performance-benchmarks": {
+          "file": "google-ads/specifications/ai-max-search/ai-max-for-search-campaigns-performance-benchmarks.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI Max for Search Campaigns - Performance Benchmarks",
+          "summary": "AI Max for Search Campaigns - Performance Benchmarks",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "ad-reach": {
+        "about-ad-reach-google-ads": {
+          "file": "google-ads/specifications/ad-reach/about-ad-reach-google-ads.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "About Ad Reach - Google Ads",
+          "summary": "About Ad Reach - Google Ads",
+          "sources": [
+            "official_documentation"
+          ]
+        }
+      },
+      "seasonal-preparation": {
+        "q4-holiday-shopping-season-preparation": {
+          "file": "google-ads/specifications/seasonal-preparation/q4-holiday-shopping-season-preparation.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Q4 Holiday Shopping Season Preparation",
+          "summary": "Q4 Holiday Shopping Season Preparation",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "conversion-tracking": {
+        "lead-generation-technical-implementation-requirements": {
+          "file": "google-ads/specifications/conversion-tracking/lead-generation-technical-implementation-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Implementation Requirements",
+          "summary": "Lead Generation Technical Implementation Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-technical-support-lead-generation-implementation": {
+          "file": "google-ads/specifications/conversion-tracking/google-technical-support-lead-generation-implementation.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Support Lead Generation Implementation",
+          "summary": "Google Technical Support Lead Generation Implementation",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-support-lead-generation-technical-implementation-appointment": {
+          "file": "google-ads/specifications/conversion-tracking/google-support-lead-generation-technical-implementation-appointment.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Support Lead Generation Technical Implementation Appointment",
+          "summary": "Google Support Lead Generation Technical Implementation Appointment",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "enhanced-conversions-for-leads-ecl-implementation": {
+          "file": "google-ads/specifications/conversion-tracking/enhanced-conversions-for-leads-ecl-implementation.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Enhanced Conversions for Leads (ECL) Implementation",
+          "summary": "Enhanced Conversions for Leads (ECL) Implementation",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "lead-generation-technical-implementation-process": {
+          "file": "google-ads/specifications/conversion-tracking/lead-generation-technical-implementation-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Implementation Process",
+          "summary": "Lead Generation Technical Implementation Process",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "lead-generation-implementation-support-requirements": {
+          "file": "google-ads/specifications/conversion-tracking/lead-generation-implementation-support-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Implementation Support Requirements",
+          "summary": "Lead Generation Implementation Support Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "local-services-ads": {
+        "local-services-ads-vs-search-ads-comparison": {
+          "file": "google-ads/specifications/local-services-ads/local-services-ads-vs-search-ads-comparison.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Local Services Ads vs. Search Ads Comparison",
+          "summary": "Local Services Ads vs. Search Ads Comparison",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "performance-max": {
+        "optimization-tips-for-performance-max-campaigns-with-merchant-center-feed": {
+          "file": "google-ads/specifications/performance-max/optimization-tips-for-performance-max-campaigns-with-merchant-center-feed.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Optimization Tips for Performance Max Campaigns with Merchant Center Feed",
+          "summary": "Optimization Tips for Performance Max Campaigns with Merchant Center Feed",
+          "sources": [
+            "official_documentation"
+          ]
+        },
+        "black-friday-performance-max-budget-strategy": {
+          "file": "google-ads/specifications/performance-max/black-friday-performance-max-budget-strategy.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Black Friday Performance Max Budget Strategy",
+          "summary": "Black Friday Performance Max Budget Strategy",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "performance-max-holiday-campaign-structure": {
+          "file": "google-ads/specifications/performance-max/performance-max-holiday-campaign-structure.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Performance Max Holiday Campaign Structure",
+          "summary": "Performance Max Holiday Campaign Structure",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "campaign-budget-constraint-detection-and-resolution": {
+          "file": "google-ads/specifications/performance-max/campaign-budget-constraint-detection-and-resolution.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Campaign Budget Constraint Detection and Resolution",
+          "summary": "Campaign Budget Constraint Detection and Resolution",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "performance-max-and-ai-max-seo-integration-requirements": {
+          "file": "google-ads/specifications/performance-max/performance-max-and-ai-max-seo-integration-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Performance Max and AI Max SEO Integration Requirements",
+          "summary": "Performance Max and AI Max SEO Integration Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "performance-max-waze-integration": {
+          "file": "google-ads/specifications/performance-max/performance-max-waze-integration.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Performance Max Waze Integration",
+          "summary": "Performance Max Waze Integration",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "black-friday-budget-pacing-and-optimization-specifications": {
+          "file": "google-ads/specifications/performance-max/black-friday-budget-pacing-and-optimization-specifications.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Black Friday Budget Pacing and Optimization Specifications",
+          "summary": "Black Friday Budget Pacing and Optimization Specifications",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "performance-max-asset-and-placement-optimization-requirements": {
+          "file": "google-ads/specifications/performance-max/performance-max-asset-and-placement-optimization-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Performance Max Asset and Placement Optimization Requirements",
+          "summary": "Performance Max Asset and Placement Optimization Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "merchant-center-video-assets": {
+        "google-merchant-center-video-assets-page": {
+          "file": "google-ads/specifications/merchant-center-video-assets/google-merchant-center-video-assets-page.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Merchant Center Video Assets Page",
+          "summary": "Google Merchant Center Video Assets Page",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "ai-strategy": {
+        "ai-mode-search-strategy-requirements": {
+          "file": "google-ads/specifications/ai-strategy/ai-mode-search-strategy-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "AI Mode Search Strategy Requirements",
+          "summary": "AI Mode Search Strategy Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "lead-generation-events": {
+        "google-think-leads-event-series-lead-generation-education-framework": {
+          "file": "google-ads/specifications/lead-generation-events/google-think-leads-event-series-lead-generation-education-framework.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Think Leads Event Series - Lead Generation Education Framework",
+          "summary": "Google Think Leads Event Series - Lead Generation Education Framework",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "technical-support-appointments": {
+        "technical-support-appointment-protocol-and-requirements": {
+          "file": "google-ads/specifications/technical-support-appointments/technical-support-appointment-protocol-and-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Technical Support Appointment Protocol and Requirements",
+          "summary": "Technical Support Appointment Protocol and Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "performance-optimization": {
+        "ctr-vs-qualified-traffic-strategy": {
+          "file": "google-ads/specifications/performance-optimization/ctr-vs-qualified-traffic-strategy.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "CTR vs. Qualified Traffic Strategy",
+          "summary": "CTR vs. Qualified Traffic Strategy",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "platform-evolution": {
+        "25-year-google-ads-platform-evolution": {
+          "file": "google-ads/specifications/platform-evolution/25-year-google-ads-platform-evolution.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "25-Year Google Ads Platform Evolution",
+          "summary": "25-Year Google Ads Platform Evolution",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "lead-generation-technical-support": {
+        "lead-generation-technical-support-appointment-specifications": {
+          "file": "google-ads/specifications/lead-generation-technical-support/lead-generation-technical-support-appointment-specifications.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Support Appointment Specifications",
+          "summary": "Lead Generation Technical Support Appointment Specifications",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "lead-generation-technical-support-cross-functional-team-requirements": {
+          "file": "google-ads/specifications/lead-generation-technical-support/lead-generation-technical-support-cross-functional-team-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Lead Generation Technical Support - Cross-Functional Team Requirements",
+          "summary": "Lead Generation Technical Support - Cross-Functional Team Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-technical-support-appointment-lead-generation-implementation-requirements": {
+          "file": "google-ads/specifications/lead-generation-technical-support/google-technical-support-appointment-lead-generation-implementation-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Technical Support Appointment - Lead Generation Implementation Requirements",
+          "summary": "Google Technical Support Appointment - Lead Generation Implementation Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      }
+    },
+    "best_practices": {
+      "billing-administrative": [
+        {
+          "file": "google-ads/best-practices/billing-administrative/roksys-knowledge-base-google-ads-platform-updates.md",
+          "title": "roksys/knowledge-base/google-ads/platform-updates/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "billing",
+            "invoice",
+            "administrative",
+            "payments",
+            "account-management",
+            "financial-tracking"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 168
+        }
+      ],
+      "platform-updates": [
+        {
+          "file": "google-ads/best-practices/platform-updates/accelerate-with-google-newsletter-november-2025.md",
+          "title": "Accelerate with Google Newsletter (November 2025)",
+          "date_added": "2025-11-11",
+          "tags": [
+            "ai-advertising",
+            "veo-3",
+            "smart-bidding",
+            "performance-max",
+            "black-friday",
+            "web-to-app",
+            "gemini",
+            "platform-updates"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 223
+        }
+      ],
+      "technical-implementation": [
+        {
+          "file": "google-ads/best-practices/technical-implementation/google-technical-support-case-id-7-6155000039426.md",
+          "title": "Google Technical Support - Case ID 7-6155000039426",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-implementation",
+            "lead-generation",
+            "tracking-setup",
+            "google-support",
+            "conversion-tracking"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 244
+        },
+        {
+          "file": "google-ads/best-practices/technical-implementation/google-support-lead-generation-technical-appointme.md",
+          "title": "Google Support Lead Generation Technical Appointme",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-implementation",
+            "lead-generation",
+            "tracking-setup",
+            "google-support"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 199
+        },
+        {
+          "file": "google-ads/best-practices/technical-implementation/roksys-knowledge-base-google-ads-platform-updates.md",
+          "title": "roksys/knowledge-base/google-ads/platform-updates/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "technical-implementation",
+            "conversion-tracking",
+            "crm-integration",
+            "stakeholder-coordination",
+            "risk-management",
+            "budget-monitoring"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 229
+        },
+        {
+          "file": "google-ads/best-practices/technical-implementation/google-technical-support-appointment-email-2025-1.md",
+          "title": "Google Technical Support Appointment Email (2025-1",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-implementation",
+            "lead-generation",
+            "tracking-setup",
+            "crm-integration",
+            "conversion-tracking"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 218
+        },
+        {
+          "file": "google-ads/best-practices/technical-implementation/google-support-lead-generation-technical-setup-n.md",
+          "title": "Google Support Lead Generation Technical Setup - N",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-support",
+            "lead-generation",
+            "conversion-tracking",
+            "implementation",
+            "google-ads-support"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 232
+        },
+        {
+          "file": "google-ads/best-practices/technical-implementation/google-technical-support-appointment-ics-file-le.md",
+          "title": "Google Technical Support Appointment ICS File - Le",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-support",
+            "calendar-management",
+            "appointment-scheduling",
+            "lead-generation",
+            "implementation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 223
+        }
+      ],
+      "beta-features": [
+        {
+          "file": "google-ads/best-practices/beta-features/google-ads-low-value-placements-filter-beta-applic.md",
+          "title": "google-ads-low-value-placements-filter-beta-applic",
+          "date_added": "2025-11-11",
+          "tags": [
+            "display-ads",
+            "beta-features",
+            "placement-filtering",
+            "inventory-quality",
+            "google-customer-solutions",
+            "compliance-requirements"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 197
+        },
+        {
+          "file": "google-ads/best-practices/beta-features/google-ads-placement-filter-beta-access-md.md",
+          "title": "google-ads-placement-filter-beta-access.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads-beta",
+            "placement-optimization",
+            "display-network",
+            "account-management"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 144
+        }
+      ],
+      "account-management": [
+        {
+          "file": "google-ads/best-practices/account-management/2025-10-31-google-hotel-links-escalation-follow-up.md",
+          "title": "2025-10-31-google-hotel-links-escalation-follow-up",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-support",
+            "technical-escalation",
+            "account-management",
+            "issue-tracking"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 138
+        }
+      ],
+      "support-resources": [
+        {
+          "file": "google-ads/best-practices/support-resources/google-account-manager-ooo-emergency-contacts-2025.md",
+          "title": "google-account-manager-ooo-emergency-contacts-2025",
+          "date_added": "2025-11-11",
+          "tags": [
+            "out-of-office",
+            "google-contact",
+            "support-resources",
+            "account-management",
+            "emergency-contacts",
+            "help-center",
+            "24-7-support"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 258
+        },
+        {
+          "file": "google-ads/best-practices/support-resources/google-ads-support-contacts-and-resources-md.md",
+          "title": "google-ads-support-contacts-and-resources.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-support",
+            "account-management",
+            "contact-information",
+            "escalation-procedures",
+            "support-channels"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 186
+        }
+      ],
+      "enhanced-conversions-troubleshooting": [
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-troubleshooting/roksys-knowledge-base-google-ads-platform-updates.md",
+          "title": "roksys/knowledge-base/google-ads/platform-updates/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions",
+            "offline-conversions",
+            "google-sheets-integration",
+            "technical-support",
+            "lead-tracking",
+            "troubleshooting",
+            "timestamp-formatting"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 209
+        }
+      ],
+      "support-channels": [
+        {
+          "file": "google-ads/best-practices/support-channels/google-support-email-solomiya-karplyuk-2025-11.md",
+          "title": "Google Support Email - Solomiya Karplyuk (2025-11-",
+          "date_added": "2025-11-11",
+          "tags": [
+            "support-channels",
+            "contact-information",
+            "customer-service",
+            "troubleshooting"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 183
+        }
+      ],
+      "automation-strategy": [
+        {
+          "file": "google-ads/best-practices/automation-strategy/https-searchengineland-com-google-ads-tactics-to.md",
+          "title": "https://searchengineland.com/google-ads-tactics-to",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads-automation",
+            "ppc-strategy-2026",
+            "campaign-optimization",
+            "deprecated-tactics",
+            "ai-driven-advertising"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 173
+        }
+      ],
+      "platform-changes": [
+        {
+          "file": "google-ads/best-practices/platform-changes/https-searchengineland-com-how-googles-ai-overvi.md",
+          "title": "https://searchengineland.com/how-googles-ai-overvi",
+          "date_added": "2025-11-11",
+          "tags": [
+            "ai-overviews",
+            "serp-visibility",
+            "paid-search-performance",
+            "platform-changes",
+            "visibility-tracking"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 192
+        }
+      ],
+      "enhanced-conversions-for-leads": [
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-for-leads/enhanced-conversions-leads-implementation-support.md",
+          "title": "enhanced-conversions-leads-implementation-support-",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions",
+            "offline-conversion-tracking",
+            "google-sheets-integration",
+            "implementation-support",
+            "technical-validation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 204
+        },
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-for-leads/ecfl-implementation-support-national-design-academ.md",
+          "title": "ecfl-implementation-support-national-design-academ",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions-for-leads",
+            "offline-conversions",
+            "implementation-support",
+            "technical-troubleshooting",
+            "google-sheets-import",
+            "ecfl"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 286
+        },
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-for-leads/enhanced-conversions-leads-troubleshooting-nationa.md",
+          "title": "enhanced-conversions-leads-troubleshooting-nationa",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions-for-leads",
+            "offline-conversions",
+            "technical-support",
+            "implementation-validation",
+            "support-escalation",
+            "client-management"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 327
+        },
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-for-leads/roksys-knowledge-base-google-ads-platform-updates.md",
+          "title": "roksys/knowledge-base/google-ads/platform-updates/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions-for-leads",
+            "offline-conversion-tracking",
+            "implementation-support",
+            "google-sheets-integration",
+            "technical-support",
+            "timestamp-formatting"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 183
+        },
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-for-leads/enhanced-conversions-leads-implementation-troubles.md",
+          "title": "enhanced-conversions-leads-implementation-troubles",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions-for-leads",
+            "offline-conversions",
+            "technical-support",
+            "troubleshooting",
+            "google-sheets-integration",
+            "case-escalation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 287
+        }
+      ],
+      "technical-implementation-support": [
+        {
+          "file": "google-ads/best-practices/technical-implementation-support/google-technical-support-lead-gen-appointment-nov2.md",
+          "title": "google-technical-support-lead-gen-appointment-nov2",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-support",
+            "lead-generation",
+            "technical-implementation",
+            "tracking-setup",
+            "requirements",
+            "case-management"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 254
+        }
+      ],
+      "policy-changes": [
+        {
+          "file": "google-ads/best-practices/policy-changes/https-searchengineland-com-google-double-serving.md",
+          "title": "https://searchengineland.com/google-double-serving",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads-policy",
+            "double-serving",
+            "serp-competition",
+            "ad-placement",
+            "bidding-strategy"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 158
+        }
+      ],
+      "budget-planning": [
+        {
+          "file": "google-ads/best-practices/budget-planning/https-searchengineland-com-google-ads-pushes-inv.md",
+          "title": "https://searchengineland.com/google-ads-pushes-inv",
+          "date_added": "2025-11-11",
+          "tags": [
+            "budget-planning",
+            "investment-strategy",
+            "campaign-optimization",
+            "forecasting",
+            "budget-management"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 171
+        }
+      ],
+      "api-integration": [
+        {
+          "file": "google-ads/best-practices/api-integration/https-searchengineland-com-google-ads-meta-ads-a.md",
+          "title": "https://searchengineland.com/google-ads-meta-ads-a",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads-api",
+            "automation",
+            "data-access",
+            "api-integration",
+            "cross-platform",
+            "custom-reporting"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 199
+        }
+      ],
+      "merchant-center-pricing": [
+        {
+          "file": "google-ads/best-practices/merchant-center-pricing/google-merchant-center-email-notification-2025-1.md",
+          "title": "Google Merchant Center email notification - 2025-1",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "ai-pricing",
+            "shopping-optimization",
+            "conversion-optimization",
+            "automated-recommendations",
+            "tree2mydoor",
+            "pricing-strategy"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 183
+        }
+      ],
+      "reporting-automation": [
+        {
+          "file": "google-ads/best-practices/reporting-automation/google-ads-automated-reporting-system.md",
+          "title": "Google Ads automated reporting system",
+          "date_added": "2025-11-11",
+          "tags": [
+            "automation",
+            "reporting",
+            "user-access",
+            "account-security",
+            "campaign-reporting"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 185
+        }
+      ],
+      "shopping-image-display": [
+        {
+          "file": "google-ads/best-practices/shopping-image-display/https-searchengineland-com-googles-smart-croppin.md",
+          "title": "https://searchengineland.com/googles-smart-croppin",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-shopping",
+            "image-optimization",
+            "smart-cropping",
+            "product-feed",
+            "ad-display",
+            "automated-features"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 154
+        }
+      ],
+      "ad-copy": [
+        {
+          "file": "google-ads/best-practices/ad-copy/roksys-knowledge-base-rok-methodologies-smythson-b.md",
+          "title": "roksys/knowledge-base/rok-methodologies/smythson-b",
+          "date_added": "2025-11-11",
+          "tags": [
+            "brand-guidelines",
+            "ad-copy",
+            "copywriting-standards",
+            "localization",
+            "smythson"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 155
+        }
+      ],
+      "billing-administration": [
+        {
+          "file": "google-ads/best-practices/billing-administration/2025-11-02-google-ads-invoice-notification-5401637.md",
+          "title": "2025-11-02_google-ads-invoice-notification-5401637",
+          "date_added": "2025-11-11",
+          "tags": [
+            "billing",
+            "invoice",
+            "account-management",
+            "administrative"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 137
+        }
+      ],
+      "merchant-center": [
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-email-notification-tree2m.md",
+          "title": "Google Merchant Center email notification - Tree2m",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "shopify-integration",
+            "local-inventory-ads",
+            "point-of-sale-integration",
+            "data-feed-issues"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 208
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/2025-11-05-google-merchant-center-video-assets-lau.md",
+          "title": "2025-11-05_google-merchant-center-video-assets-lau",
+          "date_added": "2025-11-11",
+          "tags": [
+            "merchant-center",
+            "video-assets",
+            "automation",
+            "ai-integration",
+            "performance-max",
+            "shopping-campaigns"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 176
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-holiday-guide-part-3-202.md",
+          "title": "Google Merchant Center - Holiday Guide Part 3 (202",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "performance-max",
+            "holiday-tracking",
+            "ai-optimization",
+            "local-listings"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 202
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-email-nov-2025.md",
+          "title": "Google Merchant Center Email - Nov 2025",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "ai-pricing",
+            "shopping-optimization",
+            "conversion-optimization",
+            "automated-pricing"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 198
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-email-2025-11-03.md",
+          "title": "Google Merchant Center Email - 2025-11-03",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "ai-pricing",
+            "shopping-optimization",
+            "conversion-optimization",
+            "automated-recommendations"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 214
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-email-oct-2025.md",
+          "title": "Google Merchant Center Email - Oct 2025",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "product-feed",
+            "shopping-ads",
+            "account-setup",
+            "action-required"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 171
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-shopping-click-spike-product-feed-flickerin.md",
+          "title": "google-shopping-click-spike-product-feed-flickerin",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "product-feed-issues",
+            "click-anomalies",
+            "inventory-synchronization",
+            "performance-diagnosis"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 210
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-email-nov-2025-duplicate.md",
+          "title": "Google Merchant Center Email - Nov 2025 (duplicate",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "shopify-integration",
+            "local-inventory-ads",
+            "point-of-sale-data",
+            "ecommerce-integration"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 152
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-email-alert-positive-bake.md",
+          "title": "Google Merchant Center email alert - Positive Bake",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "local-inventory-ads",
+            "product-feed-issues",
+            "inventory-management",
+            "diagnostics",
+            "feed-monitoring"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 288
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-product-upload-action-requi.md",
+          "title": "google-merchant-center-product-upload-action-requi",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "product-feed",
+            "shopping-setup",
+            "account-activation",
+            "ecommerce"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 185
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/https-www-producthero-com-blog.md",
+          "title": "https://www.producthero.com/blog",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-shopping",
+            "performance-max",
+            "merchant-center",
+            "product-feed-optimization",
+            "css-program",
+            "ppc",
+            "ecommerce",
+            "ai-optimization",
+            "title-optimization",
+            "competitive-pricing",
+            "feed-compliance",
+            "peak-season-preparation"
+          ],
+          "source_type": "product_hero_blog",
+          "word_count": 201
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/https-support-google-com-merchants-answer-705211.md",
+          "title": "https://support.google.com/merchants/answer/705211",
+          "date_added": "2025-11-11",
+          "tags": [
+            "merchant-center",
+            "product-data",
+            "feed-specification",
+            "data-quality",
+            "shopping-ads",
+            "product-attributes"
+          ],
+          "source_type": "google_docs",
+          "word_count": 175
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/https-searchengineland-com-google-merchant-cente.md",
+          "title": "https://searchengineland.com/google-merchant-cente",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "video-assets",
+            "product-feeds",
+            "shopping-ads",
+            "performance-max",
+            "creative-optimization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 176
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/collaber-ppc-chat-google-chat-space-oct-2025.md",
+          "title": "Collaber PPC Chat - Google Chat Space - Oct 2025",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "feed-management",
+            "stock-sync-issues",
+            "click-anomalies",
+            "tree2mydoor",
+            "troubleshooting"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 188
+        },
+        {
+          "file": "google-ads/best-practices/merchant-center/google-merchant-center-video-assets-feature-launch.md",
+          "title": "Google Merchant Center Video Assets Feature Launch",
+          "date_added": "2025-11-11",
+          "tags": [
+            "video-assets",
+            "merchant-center",
+            "google-ai",
+            "automation",
+            "product-feeds"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 191
+        }
+      ],
+      "youtube-ads": [
+        {
+          "file": "google-ads/best-practices/youtube-ads/search-engine-land-https-searchengineland-com-y.md",
+          "title": "Search Engine Land: https://searchengineland.com/y",
+          "date_added": "2025-11-11",
+          "tags": [
+            "youtube-ads",
+            "mobile-advertising",
+            "shoppable-ads",
+            "video-advertising",
+            "platform-update"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 242
+        }
+      ],
+      "lead-generation-strategy": [
+        {
+          "file": "google-ads/best-practices/lead-generation-strategy/2025-11-04-missing-think-leads-weve-got-your-backs.md",
+          "title": "2025-11-04_missing-think-leads-weve-got-your-backs",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "search-excellence",
+            "beyond-search",
+            "pmax",
+            "demand-gen",
+            "youtube",
+            "ai-search",
+            "measurement",
+            "multi-channel"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 161
+        }
+      ],
+      "budget-management": [
+        {
+          "file": "google-ads/best-practices/budget-management/google-account-review-lucy-loughlin-2025-11-03.md",
+          "title": "Google Account Review - Lucy Loughlin (2025-11-03)",
+          "date_added": "2025-11-11",
+          "tags": [
+            "budget-management",
+            "black-friday",
+            "performance-max",
+            "holiday-optimization",
+            "pacing"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 227
+        }
+      ],
+      "merchant-center-integration": [
+        {
+          "file": "google-ads/best-practices/merchant-center-integration/google-merchant-center-email-notification-2025-1.md",
+          "title": "Google Merchant Center email notification - 2025-1",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-merchant-center",
+            "shopify-integration",
+            "local-inventory-ads",
+            "data-feed-error",
+            "tree2mydoor",
+            "integration-failure",
+            "omnichannel"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 197
+        }
+      ],
+      "enhanced-conversions-leads": [
+        {
+          "file": "google-ads/best-practices/enhanced-conversions-leads/enhanced-conversions-for-leads-implementation-supp.md",
+          "title": "Enhanced Conversions for Leads Implementation Supp",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions-for-leads",
+            "offline-conversion-tracking",
+            "technical-implementation",
+            "google-sheets-import",
+            "timestamp-errors"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 188
+        }
+      ],
+      "technical-support-protocol": [
+        {
+          "file": "google-ads/best-practices/technical-support-protocol/google-technical-support-calendar-invite-case-id.md",
+          "title": "Google Technical Support Calendar Invite - Case ID",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-support",
+            "calendar-management",
+            "meeting-protocol",
+            "google-meet",
+            "case-management"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 286
+        }
+      ],
+      "commerce-media-suite": [
+        {
+          "file": "google-ads/best-practices/commerce-media-suite/google-ads-blog-https-blog-google-products-mar.md",
+          "title": "Google Ads Blog - https://blog.google/products/mar",
+          "date_added": "2025-11-11",
+          "tags": [
+            "commerce-media-suite",
+            "holiday-shopping",
+            "product-feeds",
+            "sku-level-measurement",
+            "shopping-campaigns",
+            "performance-max"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 248
+        }
+      ],
+      "hotel-ads": [
+        {
+          "file": "google-ads/best-practices/hotel-ads/2025-10-31-google-hotel-links-escalation-update-md.md",
+          "title": "2025-10-31_google-hotel-links-escalation-update.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-support",
+            "hotel-ads",
+            "escalation",
+            "account-management",
+            "technical-issue",
+            "specialist-support"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 199
+        }
+      ],
+      "technical-support-lead-generation": [
+        {
+          "file": "google-ads/best-practices/technical-support-lead-generation/google-technical-support-lead-generation-appointme.md",
+          "title": "google-technical-support-lead-generation-appointme",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "technical-support",
+            "google-meet",
+            "code-implementation",
+            "appointment-scheduling",
+            "crm-integration",
+            "website-implementation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 223
+        }
+      ],
+      "performance-max-assets": [
+        {
+          "file": "google-ads/best-practices/performance-max-assets/https-developers-google-com-google-ads-api-perfo.md",
+          "title": "https://developers.google.com/google-ads/api/perfo",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads",
+            "performance-max",
+            "assets",
+            "api",
+            "campaign-structure"
+          ],
+          "source_type": "google_docs",
+          "word_count": 121
+        }
+      ],
+      "account-optimization": [
+        {
+          "file": "google-ads/best-practices/account-optimization/2022-11-google-rep-consultation-offer-print-my-pdf.md",
+          "title": "2022-11-google-rep-consultation-offer-print-my-pdf",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-rep-consultation",
+            "account-optimization",
+            "quarterly-review",
+            "regalix-support",
+            "account-strategist"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 189
+        },
+        {
+          "file": "google-ads/best-practices/account-optimization/google-rep-print-my-pdf-2022-11-09-sent-re-fw-goog.md",
+          "title": "google-rep_print-my-pdf_2022-11-09_sent-re-fw-goog",
+          "date_added": "2025-11-11",
+          "tags": [
+            "account-optimization",
+            "google-rep-consultation",
+            "quarterly-review",
+            "strategist-support",
+            "regalix"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 165
+        }
+      ],
+      "display-network-beta": [
+        {
+          "file": "google-ads/best-practices/display-network-beta/google-display-network-beta-email-morene-niyomwu.md",
+          "title": "Google Display Network Beta Email - Morene Niyomwu",
+          "date_added": "2025-11-11",
+          "tags": [
+            "display-network",
+            "beta-features",
+            "placement-quality",
+            "inventory-filtering",
+            "optimization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 164
+        }
+      ],
+      "ai-max-search": [
+        {
+          "file": "google-ads/best-practices/ai-max-search/think-with-google-email-2025-10-31.md",
+          "title": "Think with Google Email - 2025-10-31",
+          "date_added": "2025-11-11",
+          "tags": [
+            "ai-max",
+            "search-campaigns",
+            "conversion-optimization",
+            "visual-search",
+            "agentic-ai",
+            "google-lens",
+            "youtube-marketing"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 275
+        }
+      ],
+      "ad-reach": [
+        {
+          "file": "google-ads/best-practices/ad-reach/https-support-google-com-google-ads-answer-17220.md",
+          "title": "https://support.google.com/google-ads/answer/17220",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads",
+            "reach",
+            "location-targeting",
+            "metrics",
+            "estimation"
+          ],
+          "source_type": "google_docs",
+          "word_count": 172
+        }
+      ],
+      "seasonal-preparation": [
+        {
+          "file": "google-ads/best-practices/seasonal-preparation/https-searchengineland-com-your-q4-ecommerce-che.md",
+          "title": "https://searchengineland.com/your-q4-ecommerce-che",
+          "date_added": "2025-11-11",
+          "tags": [
+            "q4-preparation",
+            "holiday-shopping",
+            "ecommerce-ppc",
+            "seasonal-strategy",
+            "campaign-optimization",
+            "performance-max",
+            "google-shopping"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 170
+        }
+      ],
+      "conversion-tracking": [
+        {
+          "file": "google-ads/best-practices/conversion-tracking/enhanced-conversions-for-leads-implementation-na.md",
+          "title": "Enhanced Conversions for Leads Implementation - Na",
+          "date_added": "2025-11-11",
+          "tags": [
+            "enhanced-conversions",
+            "lead-tracking",
+            "offline-conversions",
+            "google-sheets",
+            "technical-implementation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 234
+        },
+        {
+          "file": "google-ads/best-practices/conversion-tracking/google-technical-support-email-lead-generation-i.md",
+          "title": "Google Technical Support Email - Lead Generation I",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "conversion-tracking",
+            "technical-implementation",
+            "google-support"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 173
+        },
+        {
+          "file": "google-ads/best-practices/conversion-tracking/google-ads-lead-generation-technical-support-appoi.md",
+          "title": "google-ads-lead-generation-technical-support-appoi",
+          "date_added": "2025-11-11",
+          "tags": [
+            "conversion-tracking",
+            "technical-implementation",
+            "crm-integration",
+            "lead-generation",
+            "google-ads-support"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 188
+        },
+        {
+          "file": "google-ads/best-practices/conversion-tracking/google-technical-support-lead-generation-implement.md",
+          "title": "google-technical-support-lead-generation-implement",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "conversion-tracking",
+            "technical-support",
+            "implementation",
+            "coordination"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 185
+        },
+        {
+          "file": "google-ads/best-practices/conversion-tracking/google-technical-support-lead-generation-case-7.md",
+          "title": "Google Technical Support - Lead Generation Case 7-",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "conversion-tracking",
+            "technical-implementation",
+            "code-installation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 186
+        },
+        {
+          "file": "google-ads/best-practices/conversion-tracking/2025-11-07-google-support-lead-generation-appointm.md",
+          "title": "2025-11-07-google-support-lead-generation-appointm",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-support",
+            "lead-generation",
+            "technical-setup",
+            "conversion-tracking",
+            "google-meet",
+            "implementation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 219
+        }
+      ],
+      "local-services-ads": [
+        {
+          "file": "google-ads/best-practices/local-services-ads/search-engine-land-https-searchengineland-com.md",
+          "title": "Search Engine Land - https://searchengineland.com/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "local-services-ads",
+            "search-ads",
+            "local-lead-generation",
+            "campaign-comparison",
+            "local-business-advertising"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 248
+        }
+      ],
+      "performance-max": [
+        {
+          "file": "google-ads/best-practices/performance-max/google-merchant-center-holiday-guide-part-3-202.md",
+          "title": "Google Merchant Center - Holiday Guide Part 3 (202",
+          "date_added": "2025-11-11",
+          "tags": [
+            "performance-max",
+            "holiday-shopping",
+            "google-merchant-center",
+            "ai-optimization",
+            "last-minute-shoppers"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 198
+        },
+        {
+          "file": "google-ads/best-practices/performance-max/https-support-google-com-google-ads-answer-13776.md",
+          "title": "https://support.google.com/google-ads/answer/13776",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads",
+            "performance-max",
+            "merchant-center",
+            "optimization",
+            "ai-optimization"
+          ],
+          "source_type": "google_docs",
+          "word_count": 189
+        },
+        {
+          "file": "google-ads/best-practices/performance-max/roksys-knowledge-base-google-ads-performance-max-2.md",
+          "title": "roksys/knowledge-base/google-ads/performance-max/2",
+          "date_added": "2025-11-11",
+          "tags": [
+            "budget-optimization",
+            "black-friday",
+            "campaign-pacing",
+            "holiday-shopping",
+            "gift-cards",
+            "performance-max"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 169
+        },
+        {
+          "file": "google-ads/best-practices/performance-max/roksys-knowledge-base-google-ads-performance-max-p.md",
+          "title": "roksys/knowledge-base/google-ads/performance-max/p",
+          "date_added": "2025-11-11",
+          "tags": [
+            "performance-max",
+            "ad-placements",
+            "creative-optimization",
+            "asset-groups",
+            "cross-channel-advertising"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 180
+        },
+        {
+          "file": "google-ads/best-practices/performance-max/google-account-review-lucy-loughlin-2025-11-03.md",
+          "title": "Google Account Review - Lucy Loughlin (2025-11-03)",
+          "date_added": "2025-11-11",
+          "tags": [
+            "performance-max",
+            "black-friday",
+            "budget-strategy",
+            "holiday-shopping",
+            "gift-cards",
+            "q4-optimization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 221
+        },
+        {
+          "file": "google-ads/best-practices/performance-max/search-engine-land-google-expands-pmax-reach-wit.md",
+          "title": "Search Engine Land - Google expands PMax reach wit",
+          "date_added": "2025-11-11",
+          "tags": [
+            "performance-max",
+            "waze-integration",
+            "location-based-advertising",
+            "platform-expansion",
+            "drive-to-store"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 210
+        }
+      ],
+      "merchant-center-video-assets": [
+        {
+          "file": "google-ads/best-practices/merchant-center-video-assets/2025-11-05-merchant-center-video-assets-launch-md.md",
+          "title": "2025-11-05_merchant-center-video-assets-launch.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "merchant-center",
+            "video-assets",
+            "product-feeds",
+            "ai-automation",
+            "content-management",
+            "video-intelligence",
+            "automated-distribution"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 220
+        }
+      ],
+      "ai-strategy": [
+        {
+          "file": "google-ads/best-practices/ai-strategy/google-think-ai-excellence-https-business-goo.md",
+          "title": "Google Think - AI Excellence: https://business.goo",
+          "date_added": "2025-11-11",
+          "tags": [
+            "ai-mode",
+            "search-strategy",
+            "platform-innovation",
+            "intent-optimization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 178
+        }
+      ],
+      "lead-generation-events": [
+        {
+          "file": "google-ads/best-practices/lead-generation-events/2025-11-04-missing-think-leads-weve-got-your-backs.md",
+          "title": "2025-11-04_missing-think-leads-weve-got-your-backs",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "think-leads-event",
+            "search-excellence",
+            "beyond-search",
+            "pmax",
+            "demand-gen",
+            "youtube",
+            "ai-search",
+            "measurement",
+            "google-events",
+            "2026-planning"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 213
+        }
+      ],
+      "technical-support-appointments": [
+        {
+          "file": "google-ads/best-practices/technical-support-appointments/google-technical-support-calendar-invite-2025-11.md",
+          "title": "Google Technical Support Calendar Invite (2025-11-",
+          "date_added": "2025-11-11",
+          "tags": [
+            "technical-support",
+            "implementation",
+            "tracking-setup",
+            "meeting-protocol",
+            "lead-generation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 244
+        }
+      ],
+      "performance-optimization": [
+        {
+          "file": "google-ads/best-practices/performance-optimization/search-engine-land-https-searchengineland-com.md",
+          "title": "Search Engine Land - https://searchengineland.com/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "CTR-optimization",
+            "qualified-traffic",
+            "conversion-quality",
+            "ROI-strategy",
+            "impression-metrics",
+            "performance-optimization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 287
+        }
+      ],
+      "platform-evolution": [
+        {
+          "file": "google-ads/best-practices/platform-evolution/https-searchengineland-com-google-ads-turns-25-4.md",
+          "title": "https://searchengineland.com/google-ads-turns-25-4",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads-history",
+            "platform-evolution",
+            "ai-automation",
+            "search-advertising",
+            "industry-retrospective"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 165
+        }
+      ],
+      "lead-generation-technical-support": [
+        {
+          "file": "google-ads/best-practices/lead-generation-technical-support/roksys-knowledge-base-google-ads-platform-updates.md",
+          "title": "roksys/knowledge-base/google-ads/platform-updates/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "lead-generation",
+            "technical-support",
+            "implementation",
+            "tracking-setup",
+            "google-meet",
+            "crm-integration",
+            "cross-functional-requirements"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 196
+        }
+      ]
+    }
+  },
+  "ga4": {
+    "specifications": {
+      "events-setup": {
+        "set-up-events-ga4-developer-guide": {
+          "file": "ga4/specifications/events-setup/set-up-events-ga4-developer-guide.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Set up Events - GA4 Developer Guide",
+          "summary": "Set up Events - GA4 Developer Guide",
+          "sources": [
+            "official_documentation"
+          ]
+        }
+      },
+      "events": {
+        "ga4-recommended-events": {
+          "file": "ga4/specifications/events/ga4-recommended-events.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "GA4 Recommended Events",
+          "summary": "GA4 Recommended Events",
+          "sources": [
+            "official_documentation"
+          ]
+        }
+      }
+    },
+    "best_practices": {
+      "events-setup": [
+        {
+          "file": "ga4/best-practices/events-setup/https-developers-google-com-analytics-devguides.md",
+          "title": "https://developers.google.com/analytics/devguides/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "ga4",
+            "events",
+            "implementation",
+            "ecommerce",
+            "measurement-protocol",
+            "developer"
+          ],
+          "source_type": "google_docs",
+          "word_count": 160
+        }
+      ],
+      "events": [
+        {
+          "file": "ga4/best-practices/events/https-support-google-com-analytics-answer-926773.md",
+          "title": "https://support.google.com/analytics/answer/926773",
+          "date_added": "2025-11-11",
+          "tags": [
+            "ga4",
+            "events",
+            "recommended-events",
+            "ecommerce",
+            "measurement"
+          ],
+          "source_type": "google_docs",
+          "word_count": 151
+        }
+      ]
+    }
+  },
+  "rok_methodologies": {
+    "specifications": {
+      "documentation": {
+        "documentation-protocol-for-claude-code-work-sessions": {
+          "file": "rok-methodologies/specifications/documentation/documentation-protocol-for-claude-code-work-sessions.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Documentation Protocol for Claude Code Work Sessions",
+          "summary": "Documentation Protocol for Claude Code Work Sessions",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "account-management": {
+        "google-account-manager-communication-protocol": {
+          "file": "rok-methodologies/specifications/account-management/google-account-manager-communication-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Account Manager Communication Protocol",
+          "summary": "Google Account Manager Communication Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-ads-quarterly-account-review-process": {
+          "file": "rok-methodologies/specifications/account-management/google-ads-quarterly-account-review-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Quarterly Account Review Process",
+          "summary": "Google Ads Quarterly Account Review Process",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-partnership-meeting-cadence": {
+          "file": "rok-methodologies/specifications/account-management/google-partnership-meeting-cadence.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Partnership Meeting Cadence",
+          "summary": "Google Partnership Meeting Cadence",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-contact-management-protocol": {
+          "file": "rok-methodologies/specifications/account-management/google-contact-management-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Contact Management Protocol",
+          "summary": "Google Contact Management Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-account-manager-review-meeting-coordination": {
+          "file": "rok-methodologies/specifications/account-management/google-account-manager-review-meeting-coordination.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Account Manager Review Meeting Coordination",
+          "summary": "Google Account Manager Review Meeting Coordination",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-ads-account-review-meeting-structure": {
+          "file": "rok-methodologies/specifications/account-management/google-ads-account-review-meeting-structure.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Account Review Meeting Structure",
+          "summary": "Google Ads Account Review Meeting Structure",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "task-management": {
+        "collaborative-task-management-process": {
+          "file": "rok-methodologies/specifications/task-management/collaborative-task-management-process.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Collaborative Task Management Process",
+          "summary": "Collaborative Task Management Process",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "paid-search-task-list-collaboration": {
+          "file": "rok-methodologies/specifications/task-management/paid-search-task-list-collaboration.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Paid Search Task List Collaboration",
+          "summary": "Paid Search Task List Collaboration",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "experiment-analysis": {
+        "impact-analysis-workflow-timing-requirements": {
+          "file": "rok-methodologies/specifications/experiment-analysis/impact-analysis-workflow-timing-requirements.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Impact Analysis Workflow Timing Requirements",
+          "summary": "Impact Analysis Workflow Timing Requirements",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "shopify": {
+        "llms-txt-and-agents-txt-implementation-for-shopify": {
+          "file": "rok-methodologies/specifications/shopify/llms-txt-and-agents-txt-implementation-for-shopify.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "LLMS.txt and agents.txt Implementation for Shopify",
+          "summary": "LLMS.txt and agents.txt Implementation for Shopify",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "product-segmentation": {
+        "product-hero-labelizer-classification-system": {
+          "file": "rok-methodologies/specifications/product-segmentation/product-hero-labelizer-classification-system.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Hero Labelizer Classification System",
+          "summary": "Product Hero Labelizer Classification System",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "client-meeting-coordination": {
+        "google-partnership-check-in-meeting-protocol": {
+          "file": "rok-methodologies/specifications/client-meeting-coordination/google-partnership-check-in-meeting-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Partnership Check-in Meeting Protocol",
+          "summary": "Google Partnership Check-in Meeting Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "google-ads-analysis": {
+        "google-ads-systematic-analysis-framework": {
+          "file": "rok-methodologies/specifications/google-ads-analysis/google-ads-systematic-analysis-framework.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Systematic Analysis Framework",
+          "summary": "Google Ads Systematic Analysis Framework",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "ai-crawler-optimization": {
+        "llms-txt-and-agents-txt-implementation-for-shopify": {
+          "file": "rok-methodologies/specifications/ai-crawler-optimization/llms-txt-and-agents-txt-implementation-for-shopify.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "LLMS.txt and Agents.txt Implementation for Shopify",
+          "summary": "LLMS.txt and Agents.txt Implementation for Shopify",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "administrative-processes": {
+        "billing-document-management": {
+          "file": "rok-methodologies/specifications/administrative-processes/billing-document-management.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Billing Document Management",
+          "summary": "Billing Document Management",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "experiment-logging": {
+        "experiment-logging-requirements-5-essential-questions": {
+          "file": "rok-methodologies/specifications/experiment-logging/experiment-logging-requirements-5-essential-questions.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Experiment Logging Requirements - 5 Essential Questions",
+          "summary": "Experiment Logging Requirements - 5 Essential Questions",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "strategy-patterns": {
+        "rok-strategy-playbook-proven-patterns-and-failed-tests": {
+          "file": "rok-methodologies/specifications/strategy-patterns/rok-strategy-playbook-proven-patterns-and-failed-tests.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "ROK Strategy Playbook - Proven Patterns and Failed Tests",
+          "summary": "ROK Strategy Playbook - Proven Patterns and Failed Tests",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "client-communication": {
+        "google-account-manager-meeting-coordination-protocol": {
+          "file": "rok-methodologies/specifications/client-communication/google-account-manager-meeting-coordination-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Account Manager Meeting Coordination Protocol",
+          "summary": "Google Account Manager Meeting Coordination Protocol",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-account-team-contact-management": {
+          "file": "rok-methodologies/specifications/client-communication/google-account-team-contact-management.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Account Team Contact Management",
+          "summary": "Google Account Team Contact Management",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-partnership-meeting-protocol": {
+          "file": "rok-methodologies/specifications/client-communication/google-partnership-meeting-protocol.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Partnership Meeting Protocol",
+          "summary": "Google Partnership Meeting Protocol",
+          "sources": [
+            "kb_article",
+            "kb_article"
+          ]
+        },
+        "meeting-coordination-and-calendar-management": {
+          "file": "rok-methodologies/specifications/client-communication/meeting-coordination-and-calendar-management.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Meeting Coordination and Calendar Management",
+          "summary": "Meeting Coordination and Calendar Management",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      },
+      "client-management": {
+        "google-ads-account-management-meeting-structure": {
+          "file": "rok-methodologies/specifications/client-management/google-ads-account-management-meeting-structure.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Account Management Meeting Structure",
+          "summary": "Google Ads Account Management Meeting Structure",
+          "sources": [
+            "kb_article"
+          ]
+        },
+        "google-ads-account-review-meeting-cadence": {
+          "file": "rok-methodologies/specifications/client-management/google-ads-account-review-meeting-cadence.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Google Ads Account Review Meeting Cadence",
+          "summary": "Google Ads Account Review Meeting Cadence",
+          "sources": [
+            "kb_article"
+          ]
+        }
+      }
+    },
+    "best_practices": {
+      "documentation": [
+        {
+          "file": "rok-methodologies/best-practices/documentation/roksys-knowledge-base-rok-methodologies-documentat.md",
+          "title": "roksys/knowledge-base/rok-methodologies/documentat",
+          "date_added": "2025-11-11",
+          "tags": [
+            "documentation",
+            "workflow",
+            "best-practices",
+            "claude-code",
+            "knowledge-management",
+            "client-context",
+            "system-documentation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 264
+        }
+      ],
+      "account-management": [
+        {
+          "file": "rok-methodologies/best-practices/account-management/roksys-knowledge-base-google-ads-platform-updates.md",
+          "title": "roksys/knowledge-base/google-ads/platform-updates/",
+          "date_added": "2025-11-11",
+          "tags": [
+            "account-management",
+            "quarterly-reviews",
+            "google-strategist",
+            "accenture-partnership",
+            "client-prioritization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 157
+        },
+        {
+          "file": "rok-methodologies/best-practices/account-management/google-account-review-meeting-email-luiza-arruda.md",
+          "title": "Google Account Review Meeting Email - Luiza Arruda",
+          "date_added": "2025-11-11",
+          "tags": [
+            "account-management",
+            "client-communication",
+            "google-relationship",
+            "meeting-coordination"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 198
+        },
+        {
+          "file": "rok-methodologies/best-practices/account-management/google-account-manager-out-of-office-bereavement.md",
+          "title": "Google Account Manager Out of Office - Bereavement",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-contact",
+            "account-management",
+            "point-of-contact",
+            "support-escalation",
+            "contingency-planning"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 186
+        }
+      ],
+      "task-management": [
+        {
+          "file": "rok-methodologies/best-practices/task-management/google-sheets-notification-2025-11-04.md",
+          "title": "Google Sheets Notification - 2025-11-04",
+          "date_added": "2025-11-11",
+          "tags": [
+            "paid-search",
+            "task-management",
+            "collaboration",
+            "client-communication",
+            "google-sheets"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 181
+        },
+        {
+          "file": "rok-methodologies/best-practices/task-management/paid-search-task-list-shared-google-sheet-from-l.md",
+          "title": "Paid Search Task List - Shared Google Sheet from L",
+          "date_added": "2025-11-11",
+          "tags": [
+            "paid-search",
+            "task-management",
+            "collaboration",
+            "client-communication"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 167
+        }
+      ],
+      "experiment-analysis": [
+        {
+          "file": "rok-methodologies/best-practices/experiment-analysis/roksys-knowledge-base-rok-methodologies-impact-ana.md",
+          "title": "roksys/knowledge-base/rok-methodologies/impact-ana",
+          "date_added": "2025-11-11",
+          "tags": [
+            "experiment-analysis",
+            "impact-measurement",
+            "data-collection",
+            "statistical-analysis",
+            "rollout-decisions"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 182
+        }
+      ],
+      "shopify": [
+        {
+          "file": "rok-methodologies/best-practices/shopify/collaber-ppc-chat-google-chat-space-oct-2025.md",
+          "title": "Collaber PPC Chat - Google Chat Space - Oct 2025",
+          "date_added": "2025-11-11",
+          "tags": [
+            "llms-txt",
+            "ai-discovery",
+            "shopify",
+            "technical-implementation",
+            "ai-crawlers"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 182
+        }
+      ],
+      "product-segmentation": [
+        {
+          "file": "rok-methodologies/best-practices/product-segmentation/roksys-knowledge-base-rok-methodologies-product-he.md",
+          "title": "roksys/knowledge-base/rok-methodologies/product-he",
+          "date_added": "2025-11-11",
+          "tags": [
+            "product-segmentation",
+            "product-hero",
+            "pmax-optimization",
+            "budget-allocation",
+            "e-commerce"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 209
+        }
+      ],
+      "client-meeting-coordination": [
+        {
+          "file": "rok-methodologies/best-practices/client-meeting-coordination/roksys-knowledge-base-rok-methodologies-google-dev.md",
+          "title": "roksys/knowledge-base/rok-methodologies/google-dev",
+          "date_added": "2025-11-11",
+          "tags": [
+            "client-meeting",
+            "google-partnership",
+            "internal-coordination",
+            "calendar-invite",
+            "check-in",
+            "meeting-protocol",
+            "partnership-management"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 199
+        }
+      ],
+      "google-ads-analysis": [
+        {
+          "file": "rok-methodologies/best-practices/google-ads-analysis/roksys-knowledge-base-rok-methodologies-google-ads.md",
+          "title": "roksys/knowledge-base/rok-methodologies/google-ads",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-ads",
+            "analysis",
+            "prompts",
+            "ecommerce",
+            "shopping",
+            "search",
+            "methodology",
+            "claude",
+            "mcp",
+            "performance-max"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 243
+        }
+      ],
+      "ai-crawler-optimization": [
+        {
+          "file": "rok-methodologies/best-practices/ai-crawler-optimization/google-shopping-click-spike-product-feed-flickerin.md",
+          "title": "google-shopping-click-spike-product-feed-flickerin",
+          "date_added": "2025-11-11",
+          "tags": [
+            "llms-txt",
+            "agents-txt",
+            "shopify",
+            "ai-crawlers",
+            "technical-implementation",
+            "rok-methodologies"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 173
+        }
+      ],
+      "administrative-processes": [
+        {
+          "file": "rok-methodologies/best-practices/administrative-processes/admin-google-ads-invoice-5403089678-nov-2025-md.md",
+          "title": "admin-google-ads-invoice-5403089678-nov-2025.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "billing",
+            "invoicing",
+            "administrative",
+            "document-management",
+            "non-strategic"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 139
+        }
+      ],
+      "experiment-logging": [
+        {
+          "file": "rok-methodologies/best-practices/experiment-logging/roksys-knowledge-base-rok-methodologies-experiment.md",
+          "title": "roksys/knowledge-base/rok-methodologies/experiment",
+          "date_added": "2025-11-11",
+          "tags": [
+            "experiment-logging",
+            "testing-framework",
+            "hypothesis-formation",
+            "success-criteria"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 223
+        }
+      ],
+      "strategy-patterns": [
+        {
+          "file": "rok-methodologies/best-practices/strategy-patterns/roksys-knowledge-base-rok-methodologies-strategy-p.md",
+          "title": "roksys/knowledge-base/rok-methodologies/strategy-p",
+          "date_added": "2025-11-11",
+          "tags": [
+            "strategy-playbook",
+            "proven-patterns",
+            "rollout-framework",
+            "experiment-documentation",
+            "campaign-structure"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 226
+        }
+      ],
+      "client-communication": [
+        {
+          "file": "rok-methodologies/best-practices/client-communication/google-calendar-internal-meeting-cancellation.md",
+          "title": "Google Calendar - Internal meeting cancellation",
+          "date_added": "2025-11-11",
+          "tags": [
+            "client-communication",
+            "meeting-management",
+            "google-partnership",
+            "administrative-records"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 173
+        },
+        {
+          "file": "rok-methodologies/best-practices/client-communication/google-account-management-team-communication.md",
+          "title": "Google Account Management - Team Communication",
+          "date_added": "2025-11-11",
+          "tags": [
+            "account-management",
+            "google-support",
+            "client-communication",
+            "team-coordination"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 171
+        },
+        {
+          "file": "rok-methodologies/best-practices/client-communication/2025-11-04-uno-lights-meeting-coordination-md.md",
+          "title": "2025-11-04_uno-lights-meeting-coordination.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "client-communication",
+            "scheduling",
+            "calendar-management",
+            "administrative-processes"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 144
+        },
+        {
+          "file": "rok-methodologies/best-practices/client-communication/roksys-knowledge-base-rok-methodologies-google-dev.md",
+          "title": "roksys/knowledge-base/rok-methodologies/google-dev",
+          "date_added": "2025-11-11",
+          "tags": [
+            "google-partnership",
+            "client-meetings",
+            "meeting-protocol",
+            "business-relationship"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 139
+        },
+        {
+          "file": "rok-methodologies/best-practices/client-communication/google-account-manager-meeting-coordination-uno-li.md",
+          "title": "google-account-manager-meeting-coordination-uno-li",
+          "date_added": "2025-11-11",
+          "tags": [
+            "client-communication",
+            "google-account-manager",
+            "meeting-coordination",
+            "calendar-management",
+            "admin"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 185
+        }
+      ],
+      "client-management": [
+        {
+          "file": "rok-methodologies/best-practices/client-management/google-ads-consultation-meeting-uno-lights-recur.md",
+          "title": "Google Ads Consultation Meeting - Uno Lights Recur",
+          "date_added": "2025-11-11",
+          "tags": [
+            "client-consultation",
+            "google-ads-meeting",
+            "recurring-meeting",
+            "account-optimization"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 155
+        },
+        {
+          "file": "rok-methodologies/best-practices/client-management/uno-lights-google-ads-biweekly-meeting-schedule-md.md",
+          "title": "uno-lights-google-ads-biweekly-meeting-schedule.md",
+          "date_added": "2025-11-11",
+          "tags": [
+            "client-meetings",
+            "account-management",
+            "google-consultation",
+            "recurring-meetings",
+            "documentation"
+          ],
+          "source_type": "kb_articles",
+          "word_count": 202
+        }
+      ]
+    }
+  },
+  "merchant_center": {
+    "specifications": {
+      "product-data-specification": {
+        "product-data-specification-google-merchant-center": {
+          "file": "merchant-center/specifications/product-data-specification/product-data-specification-google-merchant-center.json",
+          "version": "1.0",
+          "last_updated": "2025-11-11",
+          "title": "Product Data Specification - Google Merchant Center",
+          "summary": "Product Data Specification - Google Merchant Center",
+          "sources": [
+            "official_documentation"
+          ]
+        }
+      }
+    },
+    "best_practices": {
+      "product-data-specification": [
+        {
+          "file": "merchant-center/best-practices/product-data-specification/https-support-google-com-merchants-answer-188494.md",
+          "title": "https://support.google.com/merchants/answer/188494",
+          "date_added": "2025-11-11",
+          "tags": [
+            "merchant-center",
+            "product-data",
+            "feed-specification",
+            "data-quality"
+          ],
+          "source_type": "google_docs",
+          "word_count": 144
+        }
+      ]
+    }
+  }
+}

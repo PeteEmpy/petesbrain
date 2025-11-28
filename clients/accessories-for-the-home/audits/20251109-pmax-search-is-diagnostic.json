@@ -1,0 +1,33 @@
+{
+  "campaign_id": "20276730131",
+  "campaign_name": "Main P Max (Furniture H&S/Zombies)",
+  "analysis_date": "2025-11-09",
+  "before_period": {
+    "start": "2025-10-29",
+    "end": "2025-11-05"
+  },
+  "after_period": {
+    "start": "2025-11-05",
+    "end": "2025-11-09"
+  },
+  "summary": {
+    "before": {
+      "impressions": 862394,
+      "cost": 5856.780157,
+      "impression_share": 47.96936047707177,
+      "rank_lost_is": 50.22619782027555,
+      "budget_lost_is": 1.8044417026526836
+    },
+    "after": {
+      "impressions": 313291,
+      "cost": 4636.915132,
+      "impression_share": 53.996190302380484,
+      "rank_lost_is": 45.354792348667175,
+      "budget_lost_is": 0.6490173489523332
+    }
+  },
+  "search_terms_before_count": 0,
+  "search_terms_after_count": 0,
+  "placements_before_count": 0,
+  "placements_after_count": 0
+}

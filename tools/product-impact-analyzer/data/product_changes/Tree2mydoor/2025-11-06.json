@@ -1,0 +1,216 @@
+{
+  "date": "2025-11-06",
+  "client": "Tree2mydoor",
+  "comparison_date": "2025-11-05",
+  "total_products_today": 740,
+  "total_products_yesterday": 740,
+  "summary": {
+    "changed_products": 9,
+    "price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 8,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "60DWAR",
+      "title": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPW-OAKA-PLACO",
+      "title": "Wedding Tree Gift Pack",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "0071",
+      "title": "You Are My Sunshine Rose Bush Gift",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "ROWA",
+      "title": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "04479",
+      "title": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "RWPR",
+      "title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "highlyprofitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "ROGW",
+      "title": "Golden Wedding Rose Bush Gift - Yellow Hybrid Tea Rose Plant - 20-50cm - 3.5L Pot - Perfect For Anniversary",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPC-BLAC-PLACO",
+      "title": "Christening Tree Gift Pack",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "40RWRB",
+      "title": "Ruby 40th Anniversary Rose Gift - 3.5L - Deep Red Ruby Hybrid Tea Variety With A Deep Scent",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "40RWRB",
+      "title": "Ruby 40th Anniversary Rose Gift - 3.5L - Deep Red Ruby Hybrid Tea Variety With A Deep Scent",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "60DWAR",
+      "title": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPW-OAKA-PLACO",
+      "title": "Wedding Tree Gift Pack",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "0071",
+      "title": "You Are My Sunshine Rose Bush Gift",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "ROWA",
+      "title": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "04479",
+      "title": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "RWPR",
+      "title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "highlyprofitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "ROGW",
+      "title": "Golden Wedding Rose Bush Gift - Yellow Hybrid Tea Rose Plant - 20-50cm - 3.5L Pot - Perfect For Anniversary",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "TGPC-BLAC-PLACO",
+      "title": "Christening Tree Gift Pack",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

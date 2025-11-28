@@ -1,0 +1,39 @@
+{
+  "specification": {
+    "title": "Google Technical Support Lead Generation Appointment Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-technical-support-lead-generation-appointment-nov-2025.md",
+        "extracted_at": "2025-11-11T09:21:36.934947",
+        "verified": false
+      }
+    ],
+    "content": {
+      "required_attendees": [
+        "Website admin with FTP/Admin panel access",
+        "CRM Point of Contact with admin access",
+        "Google Ads manager with account access"
+      ],
+      "pre_appointment_steps": [
+        "Accept calendar invite (authorizes Technical Specialist)",
+        "Back up website before call",
+        "Install Google Meet for screen sharing"
+      ],
+      "implementation_scope": [
+        "Code installation on website",
+        "Campaign setup",
+        "Analytics account configuration"
+      ],
+      "appointment_constraints": {
+        "max_reschedules": 3,
+        "cancellation_trigger": "All attendees decline invite",
+        "attendee_acceptance": "Required from all parties"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

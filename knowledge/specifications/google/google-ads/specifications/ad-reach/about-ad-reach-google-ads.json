@@ -1,0 +1,38 @@
+{
+  "specification": {
+    "title": "About Ad Reach - Google Ads",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "official_documentation",
+        "source": "https://support.google.com/google-ads/answer/1722045",
+        "extracted_at": "2025-11-11T09:21:36.975860",
+        "verified": true
+      }
+    ],
+    "content": {
+      "definition": "Estimate of the number of people within a location target based on signed-in users",
+      "data_source": "Based on estimate of people who viewed content on Google properties within specified geographic area",
+      "limitations": {
+        "limited_reach_factors": [
+          "Too few users",
+          "Too small of a region",
+          "Poor IP-to-location mapping"
+        ],
+        "excluded_from_estimates": [
+          "Search partner visits",
+          "Google Display Network visits"
+        ]
+      },
+      "variance_factors": [
+        "Number of accounts used per person",
+        "Number of temporary visitors",
+        "Length of time on website",
+        "Number of signed-in people"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

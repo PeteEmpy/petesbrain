@@ -1,0 +1,87 @@
+{
+  "date": "2025-11-06",
+  "client": "WheatyBags",
+  "comparison_date": "2025-11-05",
+  "total_products_today": 2964,
+  "total_products_yesterday": 2964,
+  "summary": {
+    "changed_products": 3,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 3,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS1696V399173",
+      "title": "Double-Sided Photo Collage Wheat Bag (Bottle Shape) (35cm) Soft Velvet Polyester Fabric (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS8119242",
+      "title": "WheatyBags Value Range Heat Pack (Squares)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS8146396V430904",
+      "title": "Photo Collage Wheat Bag (Rectangles) (47cm x 12cm) Soft Velvet Polyester Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "WBS1696V399173",
+      "title": "Double-Sided Photo Collage Wheat Bag (Bottle Shape) (35cm) Soft Velvet Polyester Fabric (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS8119242",
+      "title": "WheatyBags Value Range Heat Pack (Squares)",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS8146396V430904",
+      "title": "Photo Collage Wheat Bag (Rectangles) (47cm x 12cm) Soft Velvet Polyester Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

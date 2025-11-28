@@ -1,0 +1,91 @@
+/**
+ * Roksys Blog - Recent Posts Block Cleanup
+ * Makes the "Recent Posts" sidebar block more compact and readable
+ *
+ * This targets the Gutenberg Latest Posts block (.wp-block-latest-posts)
+ * NOT the classic widget
+ *
+ * Created: 2025-11-20
+ */
+
+/* ==========================================
+   RECENT POSTS BLOCK - COMPACT STYLE
+   ========================================== */
+
+/* Target the Latest Posts block container */
+.wp-block-latest-posts,
+.wp-block-latest-posts__list {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+/* Make each post item compact and single-line */
+.wp-block-latest-posts li {
+    margin-bottom: 8px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    line-height: 1.4 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
+}
+
+/* Last item doesn't need bottom border */
+.wp-block-latest-posts li:last-child {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Make post titles more compact - flex to allow date on same line */
+.wp-block-latest-posts__post-title,
+.wp-block-latest-posts li a {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0 !important;
+    font-weight: 500 !important;
+    color: #333 !important;
+    text-decoration: none !important;
+    flex: 1 !important;
+    margin-right: 10px !important;
+}
+
+/* Hover effect for titles */
+.wp-block-latest-posts__post-title:hover,
+.wp-block-latest-posts li a:hover {
+    color: #6CC24A !important; /* Roksys green */
+}
+
+/* Make dates inline at the end of the line - compact format */
+.wp-block-latest-posts__post-date,
+.wp-block-latest-posts time,
+.wp-block-latest-posts li time {
+    display: inline-block !important;
+    font-size: 11px !important;
+    color: #999 !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Hide excerpts completely if they exist */
+.wp-block-latest-posts__post-excerpt {
+    display: none !important;
+}
+
+/* Style the "Recent Posts" heading */
+.wp-block-heading + .wp-block-latest-posts,
+h2:has(+ .wp-block-latest-posts) {
+    margin-top: 15px;
+}
+
+/* Optional: Add some breathing room at the top */
+.sidebar .wp-block-latest-posts,
+aside .wp-block-latest-posts {
+    margin-top: 10px;
+}

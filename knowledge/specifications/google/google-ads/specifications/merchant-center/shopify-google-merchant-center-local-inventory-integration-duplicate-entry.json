@@ -1,0 +1,25 @@
+{
+  "specification": {
+    "title": "Shopify-Google Merchant Center Local Inventory Integration (duplicate entry)",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center Email - Nov 2025 (duplicate)",
+        "extracted_at": "2025-11-11T09:21:36.961170",
+        "verified": false
+      }
+    ],
+    "content": {
+      "merchant_center_id": "395496688",
+      "integration_partner": "Shopify",
+      "data_shared": [
+        "point-of-sale sales",
+        "inventory data"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

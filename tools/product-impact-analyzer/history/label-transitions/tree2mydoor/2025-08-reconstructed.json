@@ -1,0 +1,1968 @@
+{
+  "month": "2025-08",
+  "last_updated": "2025-11-03T13:49:48.954658",
+  "source": "reconstructed",
+  "reconstruction_method": "campaign_placement_and_conversions",
+  "date_range": {
+    "start": "2025-08-01",
+    "end": "2025-08-31"
+  },
+  "total_products": 216,
+  "label_distribution": {
+    "heroes": 24,
+    "sidekicks": 18,
+    "zombies": 157,
+    "villains": 17
+  },
+  "confidence_distribution": {
+    "high": 198,
+    "low": 13,
+    "medium": 5
+  },
+  "products": {
+    "50gwrb": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 13.504005,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "ffrbg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 19.981601,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "ywdrg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 33.160295,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "40rwrb": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 12.038178,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "rohr": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.091397,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "p00269": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "figc": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "sgdrg": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "frndrg": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 2.76894,
+        "rule": "Villains campaign"
+      }
+    },
+    "rowa": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 9.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "00287": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 44.379061,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "rogw": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 33.802995,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "blac": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "00281": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 10.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "aprbg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 64.126243,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "00286-2": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 5.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "hshrg": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "blu1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "f40rg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 3.965645,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "grapg": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "hcrg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 2.532204,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "25swarg": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "lmrbg": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.356173,
+        "rule": "Villains campaign"
+      }
+    },
+    "04479": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.535788,
+        "rule": "Villains campaign"
+      }
+    },
+    "00970": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "camwsa": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "p30arg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 6.05681,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "sloebg": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "00287-2": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "silb": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 5.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "oaka": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.5,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "0062": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.518572,
+        "rule": "Zombies campaign"
+      }
+    },
+    "f50rg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 7.321991,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "tgpsc-rowa-placo": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.553917,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "15cwrb": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.134332,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "00268": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "20cwrb": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 12.525312,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "00226": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "tgpw-silb-placo": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.5,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "0171": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "blu22": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "tgpc-oaka-placo1": {
+      "label": "sidekicks",
+      "confidence": "low",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "H&S campaign with 0 conversions (possibly misplaced)"
+      }
+    },
+    "03537": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "55ewrb": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 4.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "f30rg": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "03539": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "f70rg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 33.162507,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "60dwar": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 68.124491,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "hbrg-ornge": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "35cwrb": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 19.377785,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "rwpr": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 7.114012,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "02540": {
+      "label": "sidekicks",
+      "confidence": "medium",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "H&S campaign with 1 conversion"
+      }
+    },
+    "f60rg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 7.942408,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "minmyrt-3l": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 3.0,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "00593": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 6.953239,
+        "rule": "Villains campaign"
+      }
+    },
+    "0071": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 2.823088,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "f80rg": {
+      "label": "heroes",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+        "conversions": 28.659244,
+        "rule": "H&S campaign with 2+ conversions"
+      }
+    },
+    "smrg": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "00153": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "01262": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "05035": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "111183": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.977343,
+        "rule": "Villains campaign"
+      }
+    },
+    "figa": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.569605,
+        "rule": "Zombies campaign"
+      }
+    },
+    "01684": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "01050": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "0049": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "tgpc-oaka-placo": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Villains campaign"
+      }
+    },
+    "00592": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00286": {
+      "label": "villains",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.666667,
+        "rule": "Villains campaign"
+      }
+    },
+    "tgpwb-wche-plbab1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-silb-plpet": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "aplpr": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-oaka-plpet": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-rowa2l-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-oaka-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-silb-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-rowa-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-oaka-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2bt005": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-wche-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "hbrg-pink": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "01089": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "mcbtg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "01685": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-rowa-plbab": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-wche-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-silb-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "nbpp-plbab1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "wwrg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "garbi": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-blac-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-blac-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00153x": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-wche-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2bt001": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "04592": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-rowa-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-rowa-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "narbg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-oaka-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-wche-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "110014": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "pinkper": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "swag-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-oaka-plpet1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "wche": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "02081": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-silb-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "swag-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-rowa-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "amana": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "ttesp-01": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "nbpp-plbab": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "ff-00287": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "acf": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-oaka-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "pea": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "110109": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-oaka-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-blac-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-wche-plpet": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "02295": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-silb-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-silb-plbab": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-blac-plpet1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "qerg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "hbrg-red": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-wche-plbab": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "rrbg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "roha": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "gv-030": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "camr01": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-rowa-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-wche-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-silb-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-blac-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "sgmrg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00955": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "whrg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-rowa-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "rasyu": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "01091": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00954": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-blac-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "wcf": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "ppap-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-blac-plbab1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-wche-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-wche-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-rowa-plbab1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-silb-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-blac-plbab": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "ppap-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "hbrg-whte": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2br001": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2bt004": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-silb-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00593x": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-rowa-plpet1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-oaka-plbab1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "gpbbp-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-blac-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-silb-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "pmpp-plpet": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "apord": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-oaka-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-oaka-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00269": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00287x": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "05036": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-oaka-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-wche-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-wche-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "ttesp-02": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-silb-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-blac-plpet": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-wche-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "grapc": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-blac-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-silb-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpsc-blac-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "03539x": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-wche-plpet1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-rowa-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2bt003": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "hbrg-cream": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-rowa-plpet": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "05035x": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "ctfs": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "cororbg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-rowa-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "01035": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-blac-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-rowa-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-wche-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-oaka-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-silb-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpw-blac-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "vic6": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2bt002": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-rowa-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "crbg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "b2br002": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-rowa-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgppm-silb-plpet1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "camp01": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpa-oaka-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 1.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpb-blac-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "burroy": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "01090-2": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-oaka-plbab": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpm-blac-placo1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "00286x": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpc-wche-placo": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "wlrg": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    },
+    "tgpwb-silb-plbab1": {
+      "label": "zombies",
+      "confidence": "high",
+      "evidence": {
+        "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+        "conversions": 0.0,
+        "rule": "Zombies campaign"
+      }
+    }
+  }
+}

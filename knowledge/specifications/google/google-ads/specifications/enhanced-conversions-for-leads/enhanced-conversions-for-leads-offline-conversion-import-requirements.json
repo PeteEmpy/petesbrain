@@ -1,0 +1,35 @@
+{
+  "specification": {
+    "title": "Enhanced Conversions for Leads - Offline Conversion Import Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/enhanced-conversions-leads-implementation-nda-support-escalation.md",
+        "extracted_at": "2025-11-11T09:21:36.928527",
+        "verified": false
+      }
+    ],
+    "content": {
+      "implementation_components": [
+        "Code implementation on website",
+        "Conversion action setup in Google Ads",
+        "Google Sheets integration for offline data import",
+        "Proper timestamp formatting in data imports"
+      ],
+      "technical_access_needed": [
+        "Website admin/source code access",
+        "Google Ads administrative access",
+        "Google Sheets with proper data formatting"
+      ],
+      "support_case_management": {
+        "case_number_reference": "Required (e.g., 7-5170000038434)",
+        "client_id_reference": "Must be included in all communications",
+        "attendee_inclusion": "All stakeholders must be invited to technical calls"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

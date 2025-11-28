@@ -1,0 +1,121 @@
+/**
+ * Roksys Blog - Recent Posts Widget Cleanup
+ * Makes the "Recent Posts" sidebar widget more compact and readable
+ *
+ * Installation:
+ * WordPress Admin → Appearance → Customize → Additional CSS
+ * Copy and paste this CSS into the Additional CSS box
+ *
+ * Created: 2025-11-20
+ */
+
+/* ==========================================
+   RECENT POSTS WIDGET - COMPACT STYLE
+   ========================================== */
+
+/* Target the Recent Posts widget container */
+.widget_recent_entries ul,
+.widget-area .widget_recent_entries ul,
+aside .widget_recent_entries ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Make each post item compact and single-line where possible */
+.widget_recent_entries li,
+.widget-area .widget_recent_entries li,
+aside .widget_recent_entries li {
+    margin-bottom: 8px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 1.4 !important;
+}
+
+/* Last item doesn't need bottom border */
+.widget_recent_entries li:last-child,
+.widget-area .widget_recent_entries li:last-child,
+aside .widget_recent_entries li:last-child {
+    border-bottom: none;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Make post titles more compact */
+.widget_recent_entries li a,
+.widget-area .widget_recent_entries li a,
+aside .widget_recent_entries li a {
+    display: block;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    margin-bottom: 2px !important;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Hover effect for titles */
+.widget_recent_entries li a:hover,
+.widget-area .widget_recent_entries li a:hover,
+aside .widget_recent_entries li a:hover {
+    color: #6CC24A; /* Roksys green */
+}
+
+/* Make dates much smaller and lighter */
+.widget_recent_entries .post-date,
+.widget_recent_entries span,
+.widget-area .widget_recent_entries .post-date,
+.widget-area .widget_recent_entries span,
+aside .widget_recent_entries .post-date,
+aside .widget_recent_entries span {
+    display: block;
+    font-size: 11px !important;
+    color: #999 !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+}
+
+/* Hide excerpts completely if they exist */
+.widget_recent_entries .post-excerpt,
+.widget-area .widget_recent_entries .post-excerpt,
+aside .widget_recent_entries .post-excerpt {
+    display: none !important;
+}
+
+/* ==========================================
+   ALTERNATIVE: ULTRA-COMPACT VERSION
+   (Uncomment this section if you want dates hidden too)
+   ========================================== */
+
+/*
+.widget_recent_entries .post-date,
+.widget_recent_entries span,
+.widget-area .widget_recent_entries .post-date,
+.widget-area .widget_recent_entries span,
+aside .widget_recent_entries .post-date,
+aside .widget_recent_entries span {
+    display: none !important;
+}
+
+.widget_recent_entries li,
+.widget-area .widget_recent_entries li,
+aside .widget_recent_entries li {
+    margin-bottom: 6px !important;
+    padding-bottom: 6px !important;
+}
+*/
+
+/* ==========================================
+   RECENT POSTS WIDGET TITLE
+   ========================================== */
+
+/* Optional: Style the "Recent Posts" heading */
+.widget_recent_entries .widget-title,
+.widget-area .widget_recent_entries .widget-title,
+aside .widget_recent_entries .widget-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #6CC24A;
+    color: #333;
+}

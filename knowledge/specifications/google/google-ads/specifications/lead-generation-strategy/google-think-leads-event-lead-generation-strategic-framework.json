@@ -1,0 +1,32 @@
+{
+  "specification": {
+    "title": "Google Think Leads Event - Lead Generation Strategic Framework",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-04_missing-think-leads-weve-got-your-backstage-pass.md",
+        "extracted_at": "2025-11-11T09:21:36.931889",
+        "verified": false
+      }
+    ],
+    "content": {
+      "event_date": "November 19th, 2025 (10:00-10:30 AM)",
+      "follow_up_date": "November 27th, 2025",
+      "focus_areas": [
+        "Search Excellence",
+        "Beyond Search (PMax, YouTube, Demand Gen)",
+        "AI developments",
+        "Measurement and attribution"
+      ],
+      "target_sectors": [
+        "Finance",
+        "Automotive",
+        "Services & Travel"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

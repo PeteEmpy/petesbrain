@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Product Hero Labelizer Classification System",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md",
+        "extracted_at": "2025-11-11T09:21:36.972277",
+        "verified": false
+      }
+    ],
+    "content": {
+      "platform": "Product Hero (https://www.producthero.com/labelizer)",
+      "classification_frequency": "Daily automated analysis",
+      "data_source": "Shopping feed performance data",
+      "integration": "Google Ads Performance Max campaigns",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "specification": {
+    "title": "Video Assets in Merchant Center",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center Video Assets Feature Launch (2025-11-05)",
+        "extracted_at": "2025-11-11T09:21:36.913445",
+        "verified": false
+      }
+    ],
+    "content": {
+      "video_source_options": [
+        "Direct from website",
+        "Social media channels"
+      ],
+      "management_location": "Centralized Video assets page in Merchant Center",
+      "distribution_surfaces": [
+        "Google advertising surfaces",
+        "Google organic surfaces"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

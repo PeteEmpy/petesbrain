@@ -1,0 +1,35 @@
+{
+  "specification": {
+    "title": "Set up Events - GA4 Developer Guide",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "official_documentation",
+        "source": "https://developers.google.com/analytics/devguides/collection/ga4/events",
+        "extracted_at": "2025-11-11T09:21:36.975459",
+        "verified": true
+      }
+    ],
+    "content": {
+      "implementation_methods": [
+        "Web (gtag.js)",
+        "App",
+        "Measurement Protocol"
+      ],
+      "event_components": {
+        "event_name": "Required for all events",
+        "parameters": "Optional but recommended for context",
+        "user_properties": "Available for additional user data"
+      },
+      "specialized_events": {
+        "ecommerce": "Specific structure for purchase and ecommerce events",
+        "exceptions": "Measure technical exceptions",
+        "pageviews": "Measure page views and SPA navigation",
+        "user_ids": "Send user IDs for cross-platform tracking"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

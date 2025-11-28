@@ -1,0 +1,17 @@
+Request made: ClientCustomerId: 5622468091, Host: googleads.googleapis.com, Method: /google.ads.googleads.v22.services.GoogleAdsService/Search, RequestId: KFKVae5C2xqzDqt6CABjrQ, IsFault: True, FaultMessage: No customer found for the provided customer id.
+Error: (<_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv6:%5B2a00:1450:4009:c0b::5f%5D:443 {grpc_message:"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16}"
+>, <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv6:%5B2a00:1450:4009:c0b::5f%5D:443 {grpc_message:"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16}"
+>, errors {
+  error_code {
+    authentication_error: CUSTOMER_NOT_FOUND
+  }
+  message: "No customer found for the provided customer id."
+}
+request_id: "KFKVae5C2xqzDqt6CABjrQ"
+, 'KFKVae5C2xqzDqt6CABjrQ')

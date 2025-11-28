@@ -1,0 +1,33 @@
+{
+  "specification": {
+    "title": "Local Inventory Ads Drop Alert - Diagnostics and Resolution",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center email alert - Positive Bakes (Account ID: 395496688)",
+        "extracted_at": "2025-11-11T09:21:36.957875",
+        "verified": false
+      }
+    ],
+    "content": {
+      "alert_threshold": "20% or greater drop",
+      "detection_window": "6 hours (07:40-13:40 GMT)",
+      "alert_severity": "29% drop (86 to 61 items)",
+      "affected_destination": "Local Inventory Ads",
+      "market": "GB",
+      "availability_status": "Dropped items not available in any Google products",
+      "diagnostics_url_structure": "Includes account ID and item issue filtering parameters",
+      "notification_preference": "Product data alerts setting in Merchant Center",
+      "character_limits": {},
+      "required_counts": {
+        "reporting_threshold": 20,
+        "actual_drop_percentage": 29,
+        "starting_inventory": 86,
+        "ending_inventory": 61,
+        "items_affected": 25
+      }
+    }
+  }
+}

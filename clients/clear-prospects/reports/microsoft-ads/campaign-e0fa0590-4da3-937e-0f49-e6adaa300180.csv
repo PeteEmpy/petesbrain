@@ -1,0 +1,167 @@
+﻿"Campaign report (January 01, 2025 - November 18, 2025)"
+Request Id: e0fa0590-4da3-937e-0f49-e6adaa300180
+
+Month,Campaign ID,Status,Campaign,Budget,Budget Type,Delivery,Campaign Type,Clicks,Impr.,CTR,Avg. CPC,Spend,Bid Strategy Type,CPA,Conv.,Conv. rate,Revenue,Return on ad spend,Top impr. rate,Abs. top impr. rate
+-,[181350135],Paused,CPL | BMPM | Cushions | Broad,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350136],Paused,CPL | BMPM | Cushions | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350137],Paused,CPL | BMPM | Tablecloths | Broad,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350138],Paused,CPL | BMPM | Tablecloths | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350139],Paused,CPL | HSG | Emoji Cushion,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+2025-01-01,[181350140],Paused,CPL | HSG | HappySnapGifts - Company,10,DailyBudgetStandard,Campaign paused,Search,238,18676,1.27%,0.36,86.46,EnhancedCpc,0,0,0%,0,0%,24.55%,4.18%
+-,[181350141],Paused,CPL | HSG | Photo Apron | Broad,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350142],Paused,CPL | HSG | Photo Apron | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350143],Paused,CPL | HSG | Photo Bunting,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350144],Paused,CPL | HSG | Photo Cushion | Broad,15,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350145],Paused,CPL | HSG | Photo Cushion | Exact,15,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350146],Paused,CPL | HSG | Photo Door Stop,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350147],Paused,CPL | HSG | Photo Sports Bottle,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350148],Paused,CPL | HSG | Photo Wine Bottle Bag,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350149],Paused,CPL | TJR | DSA - By SKU,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350150],Paused,CPL | TJR | Eye Masks | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350151],Paused,CPL | TJR | Eye Masks | Exact,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350152],Paused,CPL | TJR | Luggage Straps | Broad,15,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350153],Paused,CPL | TJR | Luggage Straps | Exact,200,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350154],Paused,CPL | TJR | Luggage Tags | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350155],Paused,CPL | TJR | Luggage Tags | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350156],Paused,CPL | TJR | Personalised Luggage Straps | Broad,200,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350157],Paused,CPL | TJR | Personalised Luggage Straps | Exact,200,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350158],Paused,CPL | TJR | The JetRest - Company,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350159],Paused,CPL | TJR | Travel Pillows | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350160],Paused,CPL | TJR | Travel Pillows | Exact,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350161],Paused,CPL | WBS | Ailments,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350162],Paused,CPL | WBS | Back | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350163],Paused,CPL | WBS | Back | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350164],Paused,CPL | WBS | Blepharitis | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350165],Paused,CPL | WBS | Blepharitis | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350166],Paused,CPL | WBS | Cherry Stone Pillow | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350167],Paused,CPL | WBS | Cherry Stone Pillow | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350168],Paused,CPL | WBS | Classic Wheat Bottle | Broad,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350169],Paused,CPL | WBS | Classic Wheat Bottle | Exact,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350171],Paused,CPL | WBS | Eyes | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350172],Paused,CPL | WBS | Eyes | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350173],Paused,CPL | WBS | Hand | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350174],Paused,CPL | WBS | Hand | Exact,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350175],Paused,CPL | WBS | Heat Pads & Packs | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350176],Paused,CPL | WBS | Heat Pads & Packs | Exact,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350177],Paused,CPL | WBS | Medical Heat Pad,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350178],Paused,CPL | WBS | Neck | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350179],Paused,CPL | WBS | Neck | Exact,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350180],Paused,CPL | WBS | Pet Wheat Bags,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350181],Paused,CPL | WBS | Slippers & Boots,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350182],Paused,CPL | WBS | Wheat Bags - Microwave | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350183],Paused,CPL | WBS | Wheat Bags - Microwave | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350184],Paused,CPL | WBS | Wheat Bags - Shoulder | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350185],Paused,CPL | WBS | Wheat Bags - Shoulder | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350186],Paused,CPL | WBS | Wheat Bags | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350187],Paused,CPL | WBS | Wheat Bags | Exact,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350188],Paused,CPL | WBS | WheatyBags - Company | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350189],Paused,CPL | WBS | WheatyBags - Company | Exact,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181350190],Paused,CPL | WBS | Wholesale,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+2025-01-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,52,3425,1.52%,0.7,36.65,TargetRoas,12.22,3,5.77%,39.72,108.38%,0%,24.1%
+2025-02-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,126,10409,1.21%,0.52,65.32,TargetRoas,16.33,4,3.17%,107.3,164.27%,0%,21.53%
+2025-03-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,134,11839,1.13%,0.51,68.77,TargetRoas,22.92,3,2.24%,66.48,96.67%,0%,18.88%
+2025-04-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,184,16428,1.12%,0.55,101.5,TargetRoas,8.46,12,6.52%,240.11,236.56%,0%,40.07%
+2025-05-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,127,18805,0.68%,0.66,83.68,TargetRoas,83.68,1,0.79%,44.11,52.71%,0%,52.65%
+2025-06-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,74,8674,0.85%,0.51,37.85,TargetRoas,18.92,2,2.7%,38.93,102.85%,0%,56.73%
+2025-07-01,[181350192],Enabled,CPL | WBS | Shopping Heroes,30,DailyBudgetStandard,Limited: Not enough revenue data,Shopping,10,924,1.08%,0.57,5.69,TargetRoas,0,0,0%,0,0%,0%,60.34%
+-,[181350194],Paused,CPL | TJR | Shopping,15,DailyBudgetStandard,Campaign paused,Shopping,0,0,0%,0,0,TargetRoas,0,0,0%,0,0%,0%,0%
+2025-01-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,14,937,1.49%,0.53,7.38,TargetRoas,7.38,1,7.14%,14.4,195.12%,0%,27.51%
+2025-02-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,30,1956,1.53%,0.39,11.56,TargetRoas,0,0,0%,0,0%,0%,26.89%
+2025-03-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,67,4078,1.64%,0.84,56.05,TargetRoas,8.01,7,10.45%,121.79,217.29%,0%,26.99%
+2025-04-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,275,21037,1.31%,1.7,467.35,TargetRoas,33.38,14,5.09%,318.51,68.15%,0%,42.48%
+2025-05-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,232,15822,1.47%,1.12,259.3,TargetRoas,23.57,11,4.74%,205.54,79.27%,0%,41.78%
+2025-06-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,347,25329,1.37%,1.32,458.29,TargetRoas,14.32,32,9.22%,727.92,158.83%,0%,36.59%
+2025-07-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,263,25374,1.04%,1.56,410.11,TargetRoas,17.83,23,8.75%,888.17,216.57%,0%,48.89%
+2025-08-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,269,24948,1.08%,2.21,593.29,TargetRoas,45.64,13,4.83%,397.48,67%,0%,57.09%
+2025-09-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,277,27969,0.99%,1.3,359.83,TargetRoas,35.98,10,3.61%,177.16,49.23%,0%,54.46%
+2025-10-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,314,50408,0.62%,1.27,398.21,TargetRoas,26.55,15,4.78%,466.29,117.1%,0%,51.32%
+2025-11-01,[181350195],Enabled,CPL | HSG | Shopping Heroes,50,DailyBudgetStandard,Eligible,Shopping,253,30453,0.83%,1.26,318.27,TargetRoas,39.78,8,3.16%,146.03,45.88%,0%,42%
+-,[181368720],Paused,CPL | BMPM | Shopping,50,DailyBudgetStandard,Campaign paused,Shopping,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181368721],Paused,CPL | HSG | Shopping - OF,150,DailyBudgetStandard,Campaign paused,Shopping,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[181368725],Paused,CPL | WBS | Shopping | Smartish,15,DailyBudgetStandard,Campaign paused,Shopping,0,0,0%,0,0,TargetRoas,0,0,0%,0,0%,0%,0%
+-,[181368745],Paused,CPL | TJR | Shopping - OF,150,DailyBudgetStandard,Campaign paused,Shopping,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[277217708],Paused,CPL | HSG | Photo Shopping Bag,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[277460173],Paused,Target CPA Experiment – CPL | WBS | Wheat Bags | Exact,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[277796111],Paused,CPL | HSG | Shopping - OF | Low Bids | Few Negs,50,DailyBudgetStandard,Campaign paused,Shopping,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335364254],Paused,CPL | WBS | DSA - By Category,20,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335364255],Paused,CPL | TJR | DSA - By Category,20,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335364256],Paused,CPL | HSG | DSA - By Category,20,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408061],Paused,CPL | TJR |  Travel Pillows | Exact,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408062],Paused,CPL | TJR |  Eye Masks | Exact,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408063],Paused,CPL | TJR |  Luggage Straps | Exact,15,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+2025-01-01,[335408064],Paused,CPL | WBS |  Wheat Bags | Consolidated 20210127,29,DailyBudgetStandard,Campaign paused,Search,283,5447,5.2%,0.47,132.1,TargetRoas,26.42,5,1.77%,109.98,83.26%,45.94%,3.18%
+2025-01-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,7,18,38.89%,0.93,6.51,EnhancedCpc,2.17,3,42.86%,48.03,737.79%,61.11%,27.78%
+2025-02-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,5,23,21.74%,0.56,2.81,EnhancedCpc,2.81,1,20%,17.94,638.43%,47.83%,21.74%
+2025-03-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,2,72,2.78%,0.1,0.2,EnhancedCpc,0,0,0%,0,0%,9.72%,6.94%
+2025-04-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,3,124,2.42%,0.5,1.51,EnhancedCpc,1.51,1,33.33%,196.68,13025.17%,11.38%,5.69%
+2025-05-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,11,347,3.17%,0.46,5.05,EnhancedCpc,5.05,1,9.09%,18.77,371.68%,12.68%,2.59%
+2025-06-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,7,60,11.67%,0.73,5.08,EnhancedCpc,0,0,0%,0,0%,35.59%,18.64%
+2025-07-01,[335408065],Paused,CPL | TJR |  The JetRest - Company,15,DailyBudgetStandard,Campaign paused,Search,0,25,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408066],Paused,CPL | WBS |  Wheat Bags - Shoulder | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+2025-01-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,74,407,18.18%,0.43,32.12,TargetCpa,4.01,8,10.81%,187.26,583%,76.67%,5.71%
+2025-02-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,74,440,16.82%,0.55,40.87,TargetCpa,3.72,11,14.86%,236.04,577.54%,71.07%,5.01%
+2025-03-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,61,493,12.37%,0.38,23.23,TargetCpa,4.65,5,8.2%,109.92,473.18%,66.19%,4.48%
+2025-04-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,51,318,16.04%,0.38,19.28,TargetCpa,9.64,2,3.92%,31.47,163.23%,73.73%,5.7%
+2025-05-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,32,258,12.4%,0.3,9.52,TargetCpa,1.9,5,15.63%,106.81,1121.95%,63.57%,3.49%
+2025-06-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,38,265,14.34%,0.28,10.59,TargetCpa,1.32,8,21.05%,184.16,1739%,57.41%,4.94%
+2025-07-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,44,354,12.43%,0.77,33.79,TargetCpa,5.63,6,13.64%,173.95,514.8%,57.47%,7.18%
+2025-08-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,54,331,16.31%,0.24,12.7,TargetCpa,6.35,2,3.7%,2958.94,23298.74%,63.44%,5.63%
+2025-09-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,76,778,9.77%,0.24,18.34,TargetCpa,3.06,6,7.89%,157.57,859.16%,43.2%,4.15%
+2025-10-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,103,1283,8.03%,0.26,27.03,TargetCpa,3.38,8,7.77%,245.57,908.51%,41.21%,4.22%
+2025-11-01,[335408067],Enabled,CPL | WBS |  WheatyBags - Company,15,DailyBudgetStandard,AutoBiddingLimitedUnAttainableTarget,Search,47,471,9.98%,0.21,9.93,TargetCpa,2.48,4,8.51%,123.21,1240.79%,57.8%,5.85%
+-,[335408068],Paused,CPL | WBS |  Wheat Bags - Microwave | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408069],Paused,CPL | HSG |  Photo Bunting,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408070],Paused,CPL | TJR |  Luggage Tags | Exact,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408071],Paused,CPL | WBS |  Medical Heat Pad,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408072],Paused,CPL | WBS |  Ailments,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408073],Paused,CPL | WBS |  Slippers & Boots,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408074],Paused,CPL | WBS |  Hot Water Bottle Covers,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408075],Paused,CPL | HSG |  Photo Cushion | Exact,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408076],Paused,CPL | WBS |  Classic Wheat Bottle | Exact,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408077],Paused,CPL | WBS |  Blepharitis,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408078],Paused,CPL | HSG |  Photo Wine Bottle Bag,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408079],Paused,CPL | WBS |  Back,15,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408080],Paused,CPL | WBS |  Eyes,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408081],Paused,CPL | WBS |  Wholesale,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408082],Paused,CPL | TJR |  Personalised Luggage Straps | Exact,200,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408083],Paused,CPL | HSG |  Photo Sports Bottle,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408084],Paused,CPL | HSG |  Photo Door Stop,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408085],Paused,CPL | HSG |  Photo Apron | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408086],Paused,CPL | WBS |  Cherry Stone Pillow,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408087],Paused,CPL | WBS |  Heat Pads & Packs tCPA 6.5,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335408088],Paused,CPL | WBS |  Neck | Exact,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408089],Paused,CPL | HSG |  HappySnapGifts - Company,15,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408090],Paused,CPL | TJR |  Luggage Straps | Broad,200,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408091],Paused,CPL | TJR |  Personalised Luggage Straps | Broad,200,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408092],Paused,CPL | WBS |  Wheat Bags | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408093],Paused,CPL | WBS |  Wheat Bags - Microwave | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408094],Paused,CPL | HSG |  Photo Cushion | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408095],Paused,CPL | WBS |  Neck | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408096],Paused,CPL | WBS |  Heat Pads & Packs | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408097],Paused,CPL | WBS |  Eyes | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408098],Paused,CPL | WBS |  WheatyBags - Company | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408099],Paused,CPL | BMPM |  Cushions | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408100],Paused,CPL | BMPM |  Cushions | Broad,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408101],Paused,CPL | BMPM |  Tablecloths | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408102],Paused,CPL | BMPM |  Tablecloths | Broad,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408104],Paused,CPL | BMPM |  Antimacassars | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408105],Paused,CPL | WBS |  Pet Wheat Bags | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335408106],Paused,CPL | HSG |  Hot Water Bottle Cover | Exact,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712665],Paused,CPL | WBS |  Pet Wheat Bags,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335712666],Paused,CPL | WBS |  Hand,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,TargetCpa,0,0,0%,0,0%,0%,0%
+-,[335712667],Paused,CPL | WBS |  Cherry Stone Pillow | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712668],Paused,CPL | TJR |  Eye Masks | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712669],Paused,CPL | TJR |  Travel Pillows | Broad,100,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712670],Paused,CPL | WBS |  Blepharitis | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712671],Paused,CPL | WBS |  Wheat Bags - Shoulder | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712672],Paused,CPL | WBS |  Classic Wheat Bottle | Broad,25,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712673],Paused,CPL | WBS |  Back | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712674],Paused,CPL | WBS |  Hand | Broad,500,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[335712675],Paused,CPL | TJR |  Luggage Tags | Broad,50,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[367261874],Paused,CPL | WBS | DSA - By SKU,10,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+-,[367261875],Paused,CPL | HSG |  Hot Water Bottle Cover | Broad,30,DailyBudgetStandard,Campaign paused,Search,0,0,0%,0,0,EnhancedCpc,0,0,0%,0,0%,0%,0%
+Search total,-,-,-,-,-,-,-,4032,249767,1.61%,1.02,4107.47,-,17.63,233,5.78%,8884.16,216.29%,42.27%,23.82%
+Audience total,-,-,-,-,-,-,-,226,79238,0.29%,0.48,108.75,-,54.38,2,0.88%,22.09,20.31%,0%,92.33%
+Performance Max total,-,-,-,-,-,-,-,0,0,0%,0,0,-,0,0,0%,0,0%,0%,0%
+Deleted items total,-,-,-,-,-,-,-,0,0,0%,0,0,-,0,0,0%,0,0%,0%,0%
+Overall total,-,-,-,-,-,-,-,4258,329005,1.29%,0.99,4216.22,-,17.94,235,5.52%,8906.24,211.24%,33.46%,41.32%

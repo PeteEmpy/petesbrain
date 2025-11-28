@@ -1,0 +1,27 @@
+{
+  "period": "last_30_days",
+  "campaigns": [
+    {
+      "id": "21064167535",
+      "name": "BMI | P Max | Generic 43 300 13/10 400 14/10 300 20/10 310 9/11 330 17/11",
+      "spend_micros": 6373325463,
+      "spend_gbp": 6373.33,
+      "percent_of_total": 92.0
+    },
+    {
+      "id": "2083618047",
+      "name": "BMI | Search | Brand",
+      "spend_micros": 553841720,
+      "spend_gbp": 553.84,
+      "percent_of_total": 8.0
+    },
+    {
+      "id": "12428004669",
+      "name": "Target ROAS v Target CPA",
+      "spend_micros": 0,
+      "spend_gbp": 0,
+      "percent_of_total": 0
+    }
+  ],
+  "total_spend_gbp": 6927.17
+}

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PetesBrain - Client Tasks Overview</title>
+    <style>
+        body { font-family: Verdana, sans-serif; font-size: 13px; line-height: 1.5; background-color: #f5f5f5; padding: 20px; margin: 0; }
+        .container { max-width: 1600px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #e0e0e0; }
+        h1 { color: #333; margin: 0; font-size: 28px; }
+        .logo { width: 150px; }
+        .overall-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
+        .stat-box { padding: 20px; background: linear-gradient(135deg, #6CC24A 0%, #5aa838 100%); color: white; border-radius: 8px; text-align: center; }
+        .stat-number { font-size: 32px; font-weight: bold; margin-bottom: 5px; }
+        .stat-label { font-size: 12px; opacity: 0.9; text-transform: uppercase; }
+        .buttons { margin-bottom: 20px; }
+        .expand-all, .save-all-notes { background: #6CC24A; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-size: 13px; margin-right: 10px; transition: all 0.2s; }
+        .expand-all:hover { background: #5aa838; }
+        .save-all-notes { background: #ffc107; color: #333; font-weight: bold; display: none; }
+        .save-all-notes:hover { background: #e0a800; }
+        .unsaved-badge { background: #dc3545; color: white; padding: 2px 8px; border-radius: 10px; font-size: 10px; margin-left: 8px; }
+        .client-section { margin-bottom: 40px; border: 2px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+        .client-header { background: linear-gradient(135deg, #6CC24A 0%, #5aa838 100%); color: white; padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
+        .client-header:hover { background: linear-gradient(135deg, #7dd45b 0%, #6CC24A 100%); }
+        .client-name { font-size: 18px; font-weight: bold; }
+        .client-stats { display: flex; gap: 20px; font-size: 12px; }
+        .client-stat { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 4px; }
+        .client-stat.urgent { background: #dc3545; }
+        .client-content { padding: 20px; display: none; background: #fafafa; }
+        .client-content.expanded { display: block; }
+        .task-group { margin-bottom: 25px; }
+        .task-group-title { font-size: 14px; font-weight: bold; color: #333; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 2px solid #6CC24A; }
+        .parent-task { background: linear-gradient(135deg, #6CC24A 0%, #5aa838 100%); color: white; padding: 15px; border-radius: 6px; margin-bottom: 15px; cursor: pointer; transition: all 0.2s; }
+        .parent-task:hover { background: linear-gradient(135deg, #7dd45b 0%, #6CC24A 100%); }
+        .parent-task h4 { margin: 0 0 8px 0; font-size: 14px; }
+        .parent-meta { font-size: 11px; opacity: 0.9; }
+        .parent-notes { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.3); font-size: 12px; white-space: pre-wrap; max-height: 0; overflow: hidden; transition: max-height 0.3s; opacity: 0.9; }
+        .parent-task.expanded .parent-notes { max-height: 1000px; }
+        .child-tasks { margin-left: 20px; margin-top: 10px; display: none; }
+        .child-tasks.expanded { display: block; }
+        .task { background: white; padding: 12px; margin-bottom: 8px; border-radius: 4px; border: 2px solid #e0e0e0; cursor: pointer; position: relative; transition: all 0.2s; }
+        .task:hover { border-color: #6CC24A; box-shadow: 0 2px 8px rgba(108,194,74,0.2); }
+        .task.has-manual-note { border-left-width: 6px; border-left-color: #ffc107; }
+        .task-title { font-weight: bold; color: #333; font-size: 13px; margin-bottom: 5px; }
+        .task-meta { font-size: 11px; color: #666; display: flex; gap: 12px; flex-wrap: wrap; }
+        .task-notes { margin-top: 10px; padding-top: 10px; border-top: 1px solid #e0e0e0; font-size: 12px; color: #555; white-space: pre-wrap; max-height: 0; overflow: hidden; transition: max-height 0.3s; }
+        .task.expanded .task-notes { max-height: 2000px; }
+        .add-note-btn { background: #6CC24A; color: white; border: none; padding: 4px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; margin-top: 8px; transition: all 0.2s; }
+        .add-note-btn:hover { background: #5aa838; }
+        .manual-note-input { margin-top: 10px; padding: 10px; background: #fffbea; border-left: 4px solid #ffc107; border-radius: 4px; display: none; }
+        .manual-note-input.active { display: block; }
+        .manual-note-input textarea { width: calc(100% - 16px); min-height: 60px; padding: 8px; font-family: Verdana, sans-serif; font-size: 12px; border: 1px solid #ddd; border-radius: 4px; resize: vertical; }
+        .manual-note-input .btn-group { margin-top: 8px; display: flex; gap: 8px; }
+        .save-note-btn { background: #28a745; color: white; padding: 6px 12px; font-size: 11px; border: none; border-radius: 4px; cursor: pointer; transition: all 0.2s; }
+        .save-note-btn:hover { background: #218838; }
+        .cancel-note-btn { background: #6c757d; color: white; padding: 6px 12px; font-size: 11px; border: none; border-radius: 4px; cursor: pointer; transition: all 0.2s; }
+        .cancel-note-btn:hover { background: #5a6268; }
+        .manual-note-display { margin-top: 10px; padding: 10px; background: #fffbea; border-left: 4px solid #ffc107; border-radius: 4px; font-size: 12px; display: none; }
+        .manual-note-display.active { display: block; }
+        .manual-note-display .note-header { font-weight: bold; color: #856404; margin-bottom: 5px; font-size: 11px; }
+        .manual-note-display .note-text { white-space: pre-wrap; color: #555; }
+        .manual-note-display button { padding: 4px 10px; font-size: 10px; border: none; border-radius: 4px; cursor: pointer; background: #6c757d; color: white; margin-top: 8px; transition: all 0.2s; }
+        .manual-note-display button:hover { background: #5a6268; }
+        .priority-P0 { border-left: 4px solid #dc3545; }
+        .priority-P1 { border-left: 4px solid #ffc107; }
+        .priority-P2 { border-left: 4px solid #28a745; }
+        .priority-P3 { border-left: 4px solid #6c757d; }
+        .completed-section { margin-top: 30px; padding-top: 20px; border-top: 2px solid #e0e0e0; }
+        .completed-header { background: #6c757d; color: white; padding: 12px 15px; border-radius: 6px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
+        .completed-header:hover { background: #5a6268; }
+        .completed-tasks { margin-top: 15px; display: none; }
+        .completed-tasks.expanded { display: block; }
+        .completed-task { background: #f9f9f9; padding: 12px; margin-bottom: 8px; border-radius: 4px; border-left: 4px solid #28a745; opacity: 0.8; }
+        .completed-task .task-title { font-size: 12px; text-decoration: line-through; color: #666; }
+        .completed-date { font-size: 10px; color: #999; margin-top: 5px; }
+        .no-tasks { padding: 20px; text-align: center; color: #999; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PetesBrain - Client Tasks Overview</h1>
+            <img src="shared/assets/branding/roksys-logo-200x50.png" class="logo" alt="Roksys">
+        </div>
+        <div class="overall-stats">
+            <div class="stat-box"><div class="stat-number" id="total-clients">0</div><div class="stat-label">Clients</div></div>
+            <div class="stat-box"><div class="stat-number" id="total-active">0</div><div class="stat-label">Active Tasks</div></div>
+            <div class="stat-box"><div class="stat-number" id="total-p0">0</div><div class="stat-label">Urgent (P0)</div></div>
+            <div class="stat-box"><div class="stat-number" id="total-completed">0</div><div class="stat-label">Completed</div></div>
+        </div>
+        <div class="buttons">
+            <button class="expand-all" onclick="toggleAll()">Expand All Clients</button>
+        </div>
+        <div id="clients-container"></div>
+    </div>
+    <script>
+const CLIENT_DATA = [{"name": "accessories-for-the-home", "display": "Accessories For The Home", "active_count": 8, "completed_count": 3, "p0_count": 2, "parent_tasks": [{"id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80", "title": "[Accessories For The Home] Q4 Peak Season Scaling - Budget & ROAS Optimization", "type": "parent", "parent_id": null, "children": ["becfae93-87f8-4cfb-b29a-a5596061c347", "056ab0fe-a242-4824-ba0b-468d93f0d3a8", "eabc77f3-d339-45b7-b161-2353869b84c7", "d2600e80-4b7c-476b-8b68-239efda224ec", "bc46b621-635e-4c4e-9311-79c616b66945"], "priority": "P0", "due_date": "2025-11-29", "time_estimate_mins": 155, "notes": "Client request: Sam wants to push hard before early December traffic dies down.\n\nCURRENT STATUS (Nov 16):\n- Main PMax ROAS reduced 190% \u2192 170% (Sunday evening)\n- Budget utilization at 200%+ (campaigns budget-limited)\n- Company-wide ROAS: 4.0 (client target - currently achieving)\n- Conversion rate trending up: 0.43% \u2192 0.52% (+21% WoW)\n\nSTRATEGY:\nPhase 1 (COMPLETED Nov 16): ROAS 190% \u2192 170%\nPhase 2 (PLANNED): Budget increase on Main PMax OR further ROAS reduction to 150%\nPhase 3 (PLANNED): Black Friday week optimization\n\nDECISION FRAMEWORK:\n- Monitor Nov 18-20 (3-4 days for Smart Bidding to adjust)\n- Decision point Nov 21-22: Assess if ROAS change scaling spend effectively\n- If spend increased 15-25% with ROAS/CR holding \u2192 Add budget increase\n- If spend flat \u2192 Consider Phase 2 ROAS to 150% earlier\n\nCONVERSION LAG: Minimal for this account (1-3 days typical e-commerce)\n\nSUCCESS CRITERIA:\n- Daily spend increases 15-25% while maintaining 4.0+ ROAS\n- Conversion rate holds 0.50%+\n- Revenue scales proportionally\n- Impression share increases", "source": "Client request - Sam (via Claude conversation Nov 18)", "tags": ["q4-scaling", "black-friday", "budget-increase", "roas-optimization", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:54:58.890217", "updated_at": "2025-11-18T13:54:58.890424", "completed_at": null}], "child_tasks": [{"id": "becfae93-87f8-4cfb-b29a-a5596061c347", "title": "[Accessories For The Home] Monitor ROAS change impact (Nov 18-20) - Daily tracking", "type": "child", "parent_id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80", "children": null, "priority": "P2", "due_date": "2025-11-20", "time_estimate_mins": 20, "notes": "Daily monitoring (Mon-Wed Nov 18-20) of Nov 16 ROAS change (190% \u2192 170%).\n\nDAILY CHECKS:\n\u25a1 Main PMax daily spend vs. previous week baseline\n  - Target: 15-25% increase from ROAS reduction\n  - Baseline (week before): \u00a35,857 / 7 days = \u00a3837/day avg\n  - Expected new range: \u00a3963-1,046/day\n\n\u25a1 Conversion rate holding at 0.50%+\n  - Current: 0.52% (as of Nov 16)\n  - Threshold: Must not drop below 0.40% (rollback trigger)\n\n\u25a1 Company-wide ROAS maintaining 4.0+\n  - Client target: 4.0\n  - Rollback trigger: If drops below 3.5 for 3+ days\n\n\u25a1 Main PMax campaign ROAS\n  - Target: Above 1.70x (170%)\n  - Monitor trend vs 190% period\n\n\u25a1 Impression share trends\n  - Previous issue: Dramatic drop on Nov 9 analysis\n  - Track recovery from budget-limited status\n\nDATA SOURCES:\n- Google Ads UI: Daily performance overview\n- Product Performance Spreadsheet: https://docs.google.com/spreadsheets/d/1V23MwIeSDTj5ECBJAOIukENzy3YMxUoOEMiSP2IZAWM/\n- Revenue Tracking Spreadsheet: https://docs.google.com/spreadsheets/d/1ug4zELJMNB0fQegg1fK0N2Kbaj1A3TkLwYz6WzsJBiQ/\n\nEXPECTED OUTCOME:\nSmart Bidding adjusts to 170% target, spend increases naturally, performance metrics hold steady.\n\nFLAG FOR REVIEW: If any metric outside expected range by Wed Nov 20.", "source": "Client request - Sam (via Claude conversation Nov 18)", "tags": [], "context": {}, "status": "active", "created_at": "2025-11-18T13:54:58.891204", "updated_at": "2025-11-18T13:54:58.891206", "completed_at": null}, {"id": "056ab0fe-a242-4824-ba0b-468d93f0d3a8", "title": "[Accessories For The Home] Performance review & decision point (Nov 21-22)", "type": "child", "parent_id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80", "children": null, "priority": "P0", "due_date": "2025-11-22", "time_estimate_mins": 60, "notes": "CRITICAL DECISION POINT: Assess 5-6 days of performance data from Nov 16 ROAS change.\n\nANALYSIS REQUIRED:\n1. Calculate performance changes (Nov 16-22 vs Nov 9-15):\n   - Daily spend average change (%)\n   - Conversion rate trend\n   - Company-wide ROAS average\n   - Main PMax ROAS performance\n   - Revenue growth rate\n\n2. Assess Smart Bidding adaptation:\n   - Has spend increased 15-25% as expected?\n   - Is CR holding at 0.50%+ consistently?\n   - Is ROAS maintaining 4.0+ company-wide?\n\n3. Competitive landscape check:\n   - Impression share trends\n   - Auction Insights if available\n\nDECISION OPTIONS:\n\nOPTION A: Budget Increase (if ROAS change successful)\n- Trigger: Spend increased 15-25%, ROAS/CR holding steady\n- Action: Increase Main PMax budget by \u00a3X/day (TBD based on data)\n- Rationale: Layer budget increase on top of successful ROAS reduction\n- Implementation: Gradual increase to avoid algorithm disruption\n\nOPTION B: Phase 2 ROAS Reduction to 150% (if more aggressive needed)\n- Trigger: Spend increase modest, room for more aggressive bidding\n- Action: Reduce Main PMax ROAS 170% \u2192 150%\n- Rationale: Originally planned for Black Friday week, bring forward if needed\n- Implementation: Evening before weekend for Monday readiness\n\nOPTION C: Hold & Monitor (if performance mixed)\n- Trigger: Inconsistent results, need more data\n- Action: Continue monitoring, reassess Monday Nov 25\n- Rationale: Give Smart Bidding more time before next change\n\nOPTION D: Rollback (if performance declined)\n- Trigger: CR below 0.40% for 3+ days OR ROAS below 3.5\n- Action: Revert ROAS to 190%\n- Rationale: 170% target not sustainable for this account\n\nOUTPUT: Decision logged to experiment notes with clear reasoning and next steps.", "source": "Client request - Sam (via Claude conversation Nov 18)", "tags": [], "context": {}, "status": "active", "created_at": "2025-11-18T13:54:58.891746", "updated_at": "2025-11-18T13:54:58.891748", "completed_at": null}, {"id": "eabc77f3-d339-45b7-b161-2353869b84c7", "title": "[Accessories For The Home] STANDBY: Budget increase on Main PMax", "type": "child", "parent_id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80", "children": null, "priority": "P2", "due_date": "2025-11-23", "time_estimate_mins": 30, "notes": "STANDBY TASK - Execute if Decision Point (Nov 21-22) determines budget increase is optimal.\n\nCAMPAIGN: AFH | P Max | H&S Zombies Furniture\nCampaign ID: 20276730131\nCurrent ROAS target: 170% (as of Nov 16)\nCurrent budget utilization: 200%+ (budget-limited)\n\nBUDGET INCREASE OPTIONS:\n\nOption 1: Conservative (+20%)\nOption 2: Moderate (+35%) - RECOMMENDED\nOption 3: Aggressive (+50%)\n\nIMPLEMENTATION:\n1. Check current budget in Google Ads UI\n2. Calculate new budget (recommend Option 2: +35%)\n3. Update campaign budget\n4. Log to experiment notes\n5. Create monitoring task\n\nTIMING: Friday evening (Nov 22) or Sunday evening (Nov 24) for weekend/Monday readiness\n\nEXPERIMENT LOG TEMPLATE:\nWHY: Client request to maximize orders before early Dec. ROAS reduction to 170% successful (CR 0.50%+, ROAS 4.0+). Budget-limited at 200%+. Layer budget increase on successful ROAS optimization.\nEXPECTED: Daily spend increases [X]%, impression share recovers, volume scales maintaining 4.0+ ROAS and 0.50%+ CR.\nREVIEW: Daily through Black Friday week, full review Nov 29.\nSUCCESS: Hit new budget levels, volume scales, maintain 4.0+ ROAS and 0.50%+ CR.", "source": "Client request - Sam (via Claude conversation Nov 18)", "tags": [], "context": {}, "status": "active", "created_at": "2025-11-18T13:54:58.892106", "updated_at": "2025-11-18T13:54:58.892107", "completed_at": null}, {"id": "d2600e80-4b7c-476b-8b68-239efda224ec", "title": "[Accessories For The Home] STANDBY: Phase 2 ROAS reduction to 150%", "type": "child", "parent_id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80", "children": null, "priority": "P3", "due_date": "2025-11-24", "time_estimate_mins": 15, "notes": "STANDBY TASK - Execute if Decision Point determines further ROAS reduction optimal, OR for Black Friday week.\n\nCAMPAIGN: AFH | P Max | H&S Zombies Furniture\nCampaign ID: 20276730131\nCurrent ROAS target: 170% (as of Nov 16)\nOriginal Q4 plan: \"when we get into peak, that's going to go down to 150\"\n\nTRIGGER CONDITIONS:\nScenario A: Bring forward (if spend increase modest from 170%)\nScenario B: Black Friday week as planned (Nov 25)\n\nCHANGE: ROAS target 170% \u2192 150%\nTIMING: Sunday evening (Nov 24) for Monday readiness\nEXPECTED: Further 10-15% spend increase\n\nPRE-IMPLEMENTATION CHECKS:\n\u25a1 CR at 0.50%+ consistently\n\u25a1 Company-wide ROAS at 4.0+ (ideally 4.3+)\n\u25a1 No quality score/feed issues\n\u25a1 Competitive landscape stable\n\nROLLBACK TRIGGERS:\n- CR below 0.45% for 2+ days \u2192 revert to 170%\n- ROAS below 3.8 \u2192 revert to 170%\n\nEXPERIMENT LOG TEMPLATE:\nWHY: [Black Friday week final phase / Spend increase from 170% modest]. CR trending up [X]%, company-wide ROAS at [X], capture peak demand with lower target.\nEXPECTED: Daily spend +10-15% from 170% level, impression share maximized, volume scales maintaining 4.0+ ROAS.\nREVIEW: Daily Mon-Wed (Nov 25-27), full week review Nov 29.\nSUCCESS: Peak week volume maximized, maintain 4.0+ ROAS, CR holds 0.50%+.", "source": "Client request - Sam (via Claude conversation Nov 18)", "tags": [], "context": {}, "status": "active", "created_at": "2025-11-18T13:54:58.892447", "updated_at": "2025-11-18T13:54:58.892448", "completed_at": null}, {"id": "bc46b621-635e-4c4e-9311-79c616b66945", "title": "[Accessories For The Home] Black Friday week monitoring (Nov 25-29)", "type": "child", "parent_id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80", "children": null, "priority": "P3", "due_date": "2025-11-29", "time_estimate_mins": 30, "notes": "PEAK WEEK MONITORING - Final phase of Q4 scaling strategy.\n\nDAILY CHECKS:\nMon Nov 25: Algorithm adjustment check, spend pacing\nTue Nov 26: First full day performance, CR check\nWed Nov 27: Mid-week assessment, competitor activity\nThu Nov 28: UK performance, stock availability\nFri Nov 29: PEAK DAY - hourly monitoring if needed\n\nKEY METRICS:\n- Total week spend vs. previous weeks\n- Total conversions and revenue\n- Daily ROAS (maintain 4.0+ company-wide)\n- Conversion rate (0.50%+ target)\n- Impression share\n- Competitive pressure\n\nRED FLAGS (immediate action):\n\u26a0\ufe0f CR below 0.45% for 2+ days \u2192 ROAS increase\n\u26a0\ufe0f ROAS below 3.5 \u2192 Immediate adjustment\n\u26a0\ufe0f Stock issues \u2192 Reduce spend\n\u26a0\ufe0f Feed errors \u2192 Immediate fix\n\nWEEKEND REVIEW (Nov 30):\n- Full week performance analysis\n- Revenue vs. expectations\n- Profitability (4.0 ROAS met?)\n- Lessons learned\n- December strategy\n\nCLIENT COMMUNICATION:\n- Daily updates if Sam requests\n- Immediate red flag alerts\n- End of week summary", "source": "Client request - Sam (via Claude conversation Nov 18)", "tags": [], "context": {}, "status": "active", "created_at": "2025-11-18T13:54:58.892817", "updated_at": "2025-11-18T13:54:58.892818", "completed_at": null}], "standalone_tasks": [{"id": "a26e092c-8832-4853-bfc0-0817b7fe2565", "title": "[Accessories For The Home] Create new generic search campaigns", "type": "standalone", "parent_id": null, "children": null, "priority": "P1", "due_date": null, "time_estimate_mins": 120, "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Create new generic search campaigns for AFH\nKeywords: luxury furniture, artisan furniture\nExclusions: Exclude top-performing keywords from existing campaigns\nStrategy: Let it run independently without impacting PMAX", "source": "Meeting Notes - Nov 10, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.250321", "updated_at": "2025-11-18T13:33:05.250322", "completed_at": null}, {"id": "0cc41e30-ebea-4274-86c6-a5bfcf3b4d71", "title": "[Accessories For The Home] Test AI Max for brand campaign with brand inclusions", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": 60, "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Consider AI Max testing for Accessories brand campaign\nConfiguration: Include brand-specific targeting", "source": "Meeting Notes - Nov 10, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.250805", "updated_at": "2025-11-18T13:33:05.250807", "completed_at": null}], "completed_tasks": [{"id": "afcee0bd-e30a-4118-a3ae-68fea8fa0c55", "title": "P0 AFH Reduce ROAS target 190 to 170 percent Q4 peak", "type": "standalone", "parent_id": null, "children": null, "priority": "P0", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "completed", "created_at": "2025-11-18T13:24:39.498904", "updated_at": "2025-11-18T13:57:42.177587", "completed_at": "2025-11-18T13:57:42.177582"}, {"id": "f2321d37-0f67-4039-926e-992d4e7a22c6", "title": "[Accessories For The Home] Review ROAS reduction impact on Performance Max campaigns", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "completed", "created_at": "2025-11-18T13:24:39.498571", "updated_at": "2025-11-18T13:57:42.177149", "completed_at": "2025-11-18T13:57:42.177147"}, {"id": "c3796105-c3ee-4d08-bf8b-ccd3142fd112", "title": "[Accessories For The Home] Prepare draft WhatsApp message to Andrew about recent revenue fluctuations", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "completed", "created_at": "2025-11-18T13:24:39.498424", "updated_at": "2025-11-18T13:57:42.176569", "completed_at": "2025-11-18T13:57:42.176367"}]}, {"name": "bright-minds", "display": "Bright Minds", "active_count": 2, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "c5c3c88f-348c-4355-97ef-37eb7dc0d426", "title": "[Bright Minds] Validate conversion tracking post-changes (daily check)", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.498139", "updated_at": "2025-11-18T13:24:39.498140", "completed_at": null}, {"id": "9c0b6281-aa3d-475d-8ebd-ecb72321a3e0", "title": "[Bright Minds] Send weekly Monday performance report to Barry and Sharon", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.498279", "updated_at": "2025-11-18T13:24:39.498280", "completed_at": null}], "completed_tasks": []}, {"name": "clear-prospects", "display": "Clear Prospects", "active_count": 2, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "a8734dc5-f866-4fa7-afc5-d51b80a3cc67", "title": "[Clear Prospects] Review November Monthly Report Draft for HappySnapGifts Face Masks Performance Story", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.497862", "updated_at": "2025-11-18T13:24:39.497863", "completed_at": null}, {"id": "de138be2-8d33-4c04-a6ba-11cfd389b101", "title": "[Clear Prospects] Monitor Product Impact Analyzer Logs for Merchant Center Disapprovals", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.498000", "updated_at": "2025-11-18T13:24:39.498001", "completed_at": null}], "completed_tasks": []}, {"name": "crowd-control", "display": "Crowd Control", "active_count": 1, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "473c9c5f-73cb-4322-b983-1ff365d304b1", "title": "[Crowd Control] Investigate Product CTR Collapse for Top Products", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.497693", "updated_at": "2025-11-18T13:24:39.497694", "completed_at": null}], "completed_tasks": []}, {"name": "devonshire-hotels", "display": "Devonshire Hotels", "active_count": 2, "completed_count": 1, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "61f88584-4dc6-4402-84e7-48a955d26f93", "title": "[Devonshire Hotels] Analyse Bolton Abbey location campaign performance", "type": "standalone", "parent_id": null, "children": null, "priority": "P1", "due_date": null, "time_estimate_mins": 60, "notes": "Source: Nov 13, 2025 meeting with Helen and Gary\nAction: Review Bolton Abbey campaign performance for this month\nTimeline: This month\n\nACTIONS COMPLETED:\n\n1. DETAILED ANALYSIS PERFORMED:\n   - 12-month performance trend analysis (Bolton Abbey Locations campaign)\n   - Zero conversions across entire period despite \u00a3500+ monthly spend\n   - Comparison with Chatsworth Escapes Locations (successful benchmark)\n   - Root cause identified: Generic location-based targeting not effective for Bolton Abbey\n   - Geographic analysis showed limited demand in target areas\n\n2. EMAIL SENT TO HELEN:\n   - Comprehensive recommendation to pause campaign\n   - Detailed performance comparison with Chatsworth\n   - Budget reallocation proposal (\u00a3500/month to higher-performing campaigns)\n   - Data-driven justification for pause decision\n   - Sent: Nov 2025\n\n3. RECOMMENDATION:\n   - Pause Bolton Abbey Locations campaign immediately\n   - Reallocate \u00a3500/month budget to proven performers\n   - Focus Bolton Abbey marketing on brand/property-specific campaigns only\n\nCURRENT STATUS: WAITING ON CLIENT EMAIL\n- Awaiting Helen's response/decision on recommendation to pause campaign\n- Email sent, analysis complete\n- Next action depends on client approval", "source": "Meeting Notes - Nov 13, 2025", "tags": ["meeting-action-item", "nov-2025", "awaiting-client"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.249081", "updated_at": "2025-11-18T14:52:00.000000", "completed_at": null}, {"id": "d5476670-d63e-48f6-9e37-e8a47febddd8", "title": "[Devonshire Hotels] Integrate Hide reporting with main campaigns", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": "2025-12-31", "time_estimate_mins": 90, "notes": "Source: Nov 13, 2025 meeting with Helen and Gary\nAction: Integrate Hide property reporting into main campaign reporting\nTimeline: Next month (December 2025)\nDependency: Awaiting exact date Hide conversion tracking went live from Gary", "source": "Meeting Notes - Nov 13, 2025", "tags": ["meeting-action-item", "dec-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.249360", "updated_at": "2025-11-18T13:33:05.249362", "completed_at": null}], "completed_tasks": [{"id": "bccdb42d-c72a-45d3-aad3-2fe9c4495eb1", "title": "[Devonshire Hotels] Email Google weekly re: Beeley/Pillsley PMAX integration", "type": "standalone", "parent_id": null, "children": null, "priority": "P1", "due_date": null, "time_estimate_mins": 30, "notes": "Source: Nov 13, 2025 meeting with Helen and Gary\nAction: Email Google Ads rep about Performance Max integration for Beeley and Pillsley properties\nStatus: COMPLETED - Weekly escalation emails being sent", "source": "Meeting Notes - Nov 13, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "completed", "created_at": "2025-11-18T13:33:05.248163", "updated_at": "2025-11-18T14:30:00.000000", "completed_at": "2025-11-18T14:30:00.000000"}]}, {"name": "go-glean", "display": "Go Glean", "active_count": 0, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [], "completed_tasks": []}, {"name": "godshot", "display": "Godshot", "active_count": 1, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "e5adc376-63cc-4e8e-8e79-4f0222a17ee6", "title": "[Godshot] Investigate account suspension history with Google Ads support", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.496334", "updated_at": "2025-11-18T13:24:39.496335", "completed_at": null}], "completed_tasks": []}, {"name": "grain-guard", "display": "Grain Guard", "active_count": 2, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "1c4b139b-f452-4d22-b9b9-c46a220ba49d", "title": "[Grain Guard] Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaigns", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.495876", "updated_at": "2025-11-18T13:24:39.495879", "completed_at": null}, {"id": "2b0333d7-ae00-4f98-9ed4-b8b5e7a94bd9", "title": "[Grain Guard] Review Sept 11 'Shopping Only' campaign switch and document initial performance impact", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.496137", "updated_at": "2025-11-18T13:24:39.496138", "completed_at": null}], "completed_tasks": []}, {"name": "just-bin-bags", "display": "Just Bin Bags", "active_count": 3, "completed_count": 0, "p0_count": 0, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "5c840496-080e-41f2-af4f-c6da11c71a20", "title": "[Just Bin Bags] Confirm Google Ads account access", "type": "standalone", "parent_id": null, "children": null, "priority": "P1", "due_date": "2025-11-12", "time_estimate_mins": null, "notes": "Account access verification needed", "source": "Google Tasks Import", "tags": ["migrated"], "context": {}, "status": "active", "created_at": "2025-11-18T13:22:00.995607", "updated_at": "2025-11-18T13:22:00.995806", "completed_at": null}, {"id": "8d6b9d57-57dc-41bf-9792-4e405b1b95f6", "title": "[Just Bin Bags] Confirm Google Ads account access and perform initial performance audit", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.495076", "updated_at": "2025-11-18T13:24:39.495080", "completed_at": null}, {"id": "8dae0e31-2d1d-4c1a-a751-69bd5db64ef2", "title": "[Just Bin Bags] Review and validate conversion tracking setup", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": null, "notes": "Imported from Google Tasks on 2025-11-18", "source": "Google Tasks Import", "tags": ["google-tasks-import"], "context": {}, "status": "active", "created_at": "2025-11-18T13:24:39.498714", "updated_at": "2025-11-18T13:24:39.498716", "completed_at": null}], "completed_tasks": []}, {"name": "national-motorsports-academy", "display": "National Motorsports Academy", "active_count": 14, "completed_count": 0, "p0_count": 1, "parent_tasks": [{"id": "nma-3week-plan-parent", "title": "[NMA] 3-Week Account Improvement Plan (Nov 17 - Dec 8, 2025)", "type": "parent", "parent_id": null, "children": ["nma-week1-task1", "nma-week1-task2", "nma-week1-task3", "nma-week1-task4", "nma-week1-task5", "nma-week2-task6", "nma-week2-task7", "nma-week2-task8", "nma-week2-task9", "nma-week3-task10", "nma-week3-task11", "nma-week3-task12", "nma-week3-task13"], "priority": "P1", "due_date": "2025-12-08", "time_estimate_mins": null, "notes": "Comprehensive 3-week optimisation plan based on Anwesha's audit and internal performance analysis. Target: Increase conversions from 47.8 to 55-65/month and reduce CPA from \u00a3169k to \u00a3130-150k. Review date: Nov 29 (Target CPA check-in). Deferred items: Day-of-week bid adjustments (Dec 15-20).", "source": "NMA-3-Week-Improvement-Plan-2025-11-17.md (Anwesha audit)", "tags": ["anwesha-plan", "target-cpa", "nma-optimisation"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568221", "updated_at": "2025-11-18T14:35:39.568234", "completed_at": null}], "child_tasks": [{"id": "nma-week1-task1", "title": "[NMA] Week 1: Fix Disapproved Sitelinks", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P1", "due_date": "2025-11-19", "time_estimate_mins": 30, "notes": "Fix 2 disapproved sitelinks: (1) 'Course Guide Download' - Change 'Earn as Your Learn' to 'Earn as You Learn'. (2) 'Motorsport Engineering' - Change 'Find Out More' to 'Start Your Application'. Re-enable both after edits. Expected: Minor quality score improvement + remove policy warning.", "source": "NMA 3-Week Plan - Week 1 Task 1", "tags": ["sitelinks", "policy-fix", "week-1"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568236", "updated_at": "2025-11-18T14:35:39.568237", "completed_at": null}, {"id": "nma-week1-task2", "title": "[NMA] Week 1: Add Sitelinks to Active Campaigns", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P1", "due_date": "2025-11-20", "time_estimate_mins": 120, "notes": "Add 4-6 sitelinks per campaign to: (1) ROW Engineering (0 conversions), (2) UK Engineering Management (3.97 conv/30 days), (3) UK Motorsport (1.99 conv/30 days). Sitelink ideas: Course Guides, Application Process, Career Outcomes, Alumni Success, Flexible Study, Financial Aid. Expected: +10-15% CTR, +5-8% conversion rate, improved quality score.", "source": "NMA 3-Week Plan - Week 1 Task 2", "tags": ["sitelinks", "ctr-improvement", "week-1"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568239", "updated_at": "2025-11-18T14:35:39.568240", "completed_at": null}, {"id": "nma-week1-task3", "title": "[NMA] Week 1: Pull Demographic Performance Data", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-11-21", "time_estimate_mins": 60, "notes": "Run GAQL query for age/gender performance (last 90 days). Identify underperforming demographics with CPA >2x account average. Prepare conservative bid adjustments (NOT exclusions - Anwesha's recommendation too aggressive). Decision criteria: Apply -20% bid adjustment if CPA >2x average. Expected segments: 18-24 (low intent), 65+ (less relevant).", "source": "NMA 3-Week Plan - Week 1 Task 3", "tags": ["demographics", "gaql", "analysis", "week-1"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568241", "updated_at": "2025-11-18T14:35:39.568242", "completed_at": null}, {"id": "nma-week1-task4", "title": "[NMA] Week 1: Monitor New Keywords Performance (Daily)", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-11-24", "time_estimate_mins": 75, "notes": "Daily 15-min checks (5 days) tracking 5 new keywords added Nov 17 with label PB_2025: automotive engineering degree, automotive design courses, masters in motorsport engineering, automotive engineering master, degree in automotive engineering. Track: impressions, avg position, QS (after 7 days), CTR, conversions. Success criteria: QS 7+ by Nov 24, CTR >5%, impressions >100/day for broad match.", "source": "NMA 3-Week Plan - Week 1 Task 4", "tags": ["keyword-monitoring", "pb-2025-label", "week-1"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568243", "updated_at": "2025-11-18T14:35:39.568244", "completed_at": null}, {"id": "nma-week1-task5", "title": "[NMA] Week 1: Review Zero-Impression Keywords", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-11-22", "time_estimate_mins": 60, "notes": "Run GAQL query to find keywords with 0 impressions in last 90 days. Check Quality Scores. Categorise: Low search volume vs Poor relevance vs Budget constraint. Action for Week 2: Pause keywords with QS <3. Keep keywords with QS 7+ (may serve in future). Target: Identify ~150 dead keywords for removal.", "source": "NMA 3-Week Plan - Week 1 Task 5", "tags": ["keyword-cleanup", "gaql", "week-1"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568245", "updated_at": "2025-11-18T14:35:39.568246", "completed_at": null}, {"id": "nma-week2-task6", "title": "[NMA] Week 2: Review Target CPA Performance (Nov 29)", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P0", "due_date": "2025-11-29", "time_estimate_mins": 60, "notes": "CRITICAL REVIEW: Analyse 3-week performance since Nov 10 Target CPA implementation. Compare CPAs to targets: UK Search (\u00a3100 target), ROW Search (\u00a350 target), UK Management (\u00a3150 target). Decision framework: Within 20% of target = continue; 20-50% above = reduce budget 10-15%; 50%+ above = review structure. Budget adjustments: ROW Engineering \u00a340\u2192\u00a380/day if performing well.", "source": "NMA 3-Week Plan - Week 2 Task 6", "tags": ["target-cpa-review", "critical", "budget-decision", "week-2"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568248", "updated_at": "2025-11-18T14:35:39.568249", "completed_at": null}, {"id": "nma-week2-task7", "title": "[NMA] Week 2: Apply Demographic Bid Adjustments", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-11-27", "time_estimate_mins": 30, "notes": "Apply -20% bid adjustments (NOT exclusions) to demographics with CPA >2x average from Week 1 analysis. Conservative approach: Test for 2 weeks before further adjustments. Do NOT exclude any demographics entirely. Expected: Shift budget to higher-converting demographics, reduce wasted spend by 5-8%, maintain reach.", "source": "NMA 3-Week Plan - Week 2 Task 7", "tags": ["demographics", "bid-adjustments", "week-2"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568251", "updated_at": "2025-11-18T14:35:39.568252", "completed_at": null}, {"id": "nma-week2-task8", "title": "[NMA] Week 2: Create Country-Specific ROW Campaigns (US, UAE)", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P1", "due_date": "2025-11-30", "time_estimate_mins": 240, "notes": "Create 2 geo-targeted campaigns: (1) 'NMA | Search | US | Engineering' - \u00a330/day budget, \u00a360 target CPA, US-focused keywords, US career outcomes in ads, alumni sitelinks. (2) 'NMA | Search | UAE | Engineering' - \u00a320/day budget, \u00a340 target CPA, Middle East education terms, UAE partnerships in ads. Run alongside ROW Management for 2 weeks (compare Nov 29-Dec 13). Pause ROW Management only if country campaigns prove superior. Expected: 2-4 US conversions, 1-2 UAE conversions in first month.", "source": "NMA 3-Week Plan - Week 2 Task 8", "tags": ["geo-targeting", "campaign-creation", "us-uae", "week-2"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568253", "updated_at": "2025-11-18T14:35:39.568254", "completed_at": null}, {"id": "nma-week2-task9", "title": "[NMA] Week 2: Remove Zero-Impression Keywords", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-11-28", "time_estimate_mins": 30, "notes": "Pause ~150 keywords identified in Week 1 review with QS <3 and 0 impressions in 90 days. Export list before pausing for audit trail. Expected: Cleaner account structure, slightly improved account-level quality score, easier performance monitoring.", "source": "NMA 3-Week Plan - Week 2 Task 9", "tags": ["keyword-cleanup", "week-2"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568255", "updated_at": "2025-11-18T14:35:39.568256", "completed_at": null}, {"id": "nma-week3-task10", "title": "[NMA] Week 3: Add Callout Extensions", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-12-04", "time_estimate_mins": 60, "notes": "Create shared callout set (40+ callouts) for all active campaigns. Categories: Programme Benefits ('Industry Partnerships', 'Practical Experience', 'Career Support'), Study Flexibility ('Online & On-Campus Options', 'Flexible Payment Plans', 'Study While You Work'), Credibility ('Accredited Programmes', 'Expert Tutors', 'Award-Winning Institution'), Outcomes ('95% Employment Rate', 'Global Alumni Network', 'Professional Accreditation'). Expected: +5-8% CTR, better ad real estate, improved quality score.", "source": "NMA 3-Week Plan - Week 3 Task 10", "tags": ["callouts", "extensions", "week-3"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568257", "updated_at": "2025-11-18T14:35:39.568258", "completed_at": null}, {"id": "nma-week3-task11", "title": "[NMA] Week 3: Expand ROW Engineering Keyword Portfolio", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P1", "due_date": "2025-12-05", "time_estimate_mins": 120, "notes": "ROW Engineering is best performer (\u00a334,744 CPA vs \u00a3169k average). Add 15-20 related keywords: automotive engineering courses, motorsport engineering online, automotive technology degree, vehicle engineering programmes, racing engineering courses, automotive design degree, motorsport management degree, automotive engineering masters online. Match types: 70% Broad, 30% Exact. Budget consideration: Increase \u00a340\u2192\u00a380/day if Nov 29 review shows strong performance. Expected: +10-15 additional conversions/month.", "source": "NMA 3-Week Plan - Week 3 Task 11", "tags": ["keyword-expansion", "row-engineering", "week-3"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568259", "updated_at": "2025-11-18T14:35:39.568260", "completed_at": null}, {"id": "nma-week3-task12", "title": "[NMA] Week 3: Create Separate Engineering Asset Group (PMax)", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P2", "due_date": "2025-12-06", "time_estimate_mins": 180, "notes": "UK PMax may be diluting performance across multiple degree types. Create dedicated 'Engineering Programmes' asset group: 15 headlines (e.g., 'Motorsport Engineering Degrees', 'Start Your Engineering Career', 'BSc Automotive Engineering Online'), 5 long headlines, 5 descriptions (accredited programmes combining theory and practice), engineering-specific images (labs, cars, projects), student testimonial videos, engineering landing pages only. Expected: +5-10 conversions/month, lower CPA for engineering leads.", "source": "NMA 3-Week Plan - Week 3 Task 12", "tags": ["pmax", "asset-group", "engineering", "week-3"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568261", "updated_at": "2025-11-18T14:35:39.568262", "completed_at": null}, {"id": "nma-week3-task13", "title": "[NMA] Week 3: Progress Report & Next Phase Planning", "type": "child", "parent_id": "nma-3week-plan-parent", "children": null, "priority": "P1", "due_date": "2025-12-08", "time_estimate_mins": 120, "notes": "Create 3-week performance summary (Nov 17-Dec 8): Conversions 47.8\u2192? (target 55-65), CPA \u00a3169k\u2192? (target \u00a3130-150k), 13 optimisations completed, wins and learnings, recommendations for next phase (Dec 9-29). Share with: Paul Riley (client), Anwesha (consultant), internal team. Next phase preview: Scale winning campaigns, launch additional country campaigns if US/UAE successful, implement day-of-week bid adjustments (deferred from Nov 17), Enhanced Conversions tag verification.", "source": "NMA 3-Week Plan - Week 3 Task 13", "tags": ["reporting", "client-communication", "next-phase", "week-3"], "context": {}, "status": "active", "created_at": "2025-11-18T14:35:39.568264", "updated_at": "2025-11-18T14:35:39.568264", "completed_at": null}], "standalone_tasks": [], "completed_tasks": []}, {"name": "smythson", "display": "Smythson", "active_count": 2, "completed_count": 0, "p0_count": 1, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "0bc9b309-b679-4cfa-b8e1-52e2c6c8ad44", "title": "[Smythson] Discuss revised Q4 projections with client - \u00a3320k gap to target", "type": "standalone", "parent_id": null, "children": null, "priority": "P0", "due_date": null, "time_estimate_mins": 60, "notes": "Source: Nov 17, 2025 dashboard correction\n\n**Context:**\nMajor dashboard correction revealed Q4 target is not achievable with current budget:\n- Client target: \u00a32,380,000\n- Realistic projection: \u00a32,059,578 (87% of target)\n- Gap: \u00a3320,422 (13.5% short)\n\n**Three compounding factors:**\n1. No P7 carryforward (lost \u00a318,553 expected budget)\n2. Weaker P7 baseline (318% ROAS vs expected 421%)\n3. Christmas delivery cutoff (Dec 22 - only 21 effective days in December)\n\n**Combined impact:** -\u00a3480k from previous projection\n\n**Discussion points:**\n- Set realistic expectation: \u00a32,060k achievable\n- Present options:\n  1. Accept gap (deliver \u00a32.06M)\n  2. Add \u00a398k budget to bridge gap\n  3. Revise Q4 target downward\n\n**Required for target:**\n518% blended ROAS (63% above P7 baseline) - not realistic\n\nSee: DASHBOARD-CORRECTION-NOV-17.md for full analysis", "source": "Dashboard Analysis - Nov 17, 2025", "tags": ["q4-planning", "client-discussion", "urgent"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:42.675139", "updated_at": "2025-11-18T13:33:42.675330", "completed_at": null}, {"id": "c8a3ab6f-a42e-4684-af06-1770119f30cd", "title": "[Smythson] Review Black Friday promotion performance (1 week review)", "type": "standalone", "parent_id": null, "children": null, "priority": "P3", "due_date": "2025-11-25", "time_estimate_mins": 60, "notes": "Follow-up from Black Friday promotions launch (Nov 17, 2025)\n\n**Promotions to Review:**\n- Leather 30% Off (302 products, BF2025_LEATHER_30)\n- Books 20% Off (66 products, BF2025_BOOKS_20)\n\n**Analysis Required:**\n1. Check promotion status in Merchant Centre (still active/any errors)\n2. Verify products showing \"Sale\" badges in Shopping ads\n3. Review Performance Max campaign metrics:\n   - Impressions/clicks for promoted products\n   - Conversion rate changes\n   - ROAS impact\n4. Compare Nov 17-24 performance vs previous week\n5. Check if promotion signals affecting bidding/budget allocation\n\n**Key Questions:**\n- Are promotions driving incremental revenue?\n- Is ROAS maintaining at 512% target or better?\n- Should we adjust promotion strategy for remaining days (Nov 25-Dec 1)?\n- Any product disapprovals or feed errors?\n\n**Data Sources:**\n- Google Merchant Centre \u2192 Marketing \u2192 Promotions\n- Google Ads \u2192 Campaigns \u2192 Performance Max metrics\n- Shopping tab search to verify \"Sale\" badge visibility\n\n**Duration**: Nov 17 - Dec 1, 2025 (15 days total, reviewing after 7 days)\n\nSee: smythson-bf2025-merchant-centre-promotions-setup.md for setup details", "source": "Follow-up task from BF promotion launch", "tags": ["black-friday", "promotions", "performance-review"], "context": {}, "status": "active", "created_at": "2025-11-18T13:38:48.613542", "updated_at": "2025-11-18T13:38:48.613762", "completed_at": null}], "completed_tasks": []}, {"name": "superspace", "display": "Superspace", "active_count": 1, "completed_count": 0, "p0_count": 1, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "2e256e7e-d97f-4cee-9483-051bebac8d09", "title": "[Superspace] Monitor stock situation and respond to Ant's inventory updates", "type": "standalone", "parent_id": null, "children": null, "priority": "P0", "due_date": null, "time_estimate_mins": 30, "notes": "CONTEXT: Critical stock shortage forcing strategic reversal (Nov 18, 2025)\n\n**Current Situation:**\n- All ROAS targets increased to 600% to throttle spend\n- Stock estimated to last only ~10 days (US market)\n- Q4 scaling strategy completely abandoned\n- Awaiting update from Ant about new stock arrival\n\n**This Task:**\nMonitor for emails/updates from Ant about:\n1. New stock arrival timeline\n2. Actual stock depletion rate vs. 10-day estimate  \n3. Whether to maintain 600% ROAS or adjust further\n4. When it's safe to resume scaling strategy\n\n**When Email Arrives from Ant:**\n1. Read the update carefully\n2. Assess whether stock situation has stabilized\n3. Determine if ROAS targets need adjustment:\n   - If stock arriving soon: Consider reducing back to 550%\n   - If stock crisis worsening: May need to pause campaigns\n   - If stock lasting longer than expected: Could reduce to 580%\n\n4. Update CONTEXT.md with stock status\n5. Log any ROAS changes to experiment spreadsheet\n6. Communicate plan to Ant if needed\n\n**Strategic Context:**\nThis is a REACTIVE situation - we're responding to inventory constraints, not optimizing performance. The goal is to preserve stock until replenishment, not maximize Q4 revenue.\n\n**Volatile Factors:**\n- Stock depletion rate (demand-dependent)\n- New stock arrival date (supply chain-dependent)\n- Whether this affects all markets or just US\n- Impact on Black Friday/Cyber Monday opportunity\n\n**Original Q4 Strategy (Now on Hold):**\n- Progressive ROAS reduction 550% \u2192 380%\n- Aggressive budget scaling to ~\u00a35,000/day\n- Demand Gen expansion\n- Customer acquisition focus\n\nAll above suspended until stock situation resolves.\n\n**Critical:** Do NOT reduce ROAS targets without confirmation from Ant that stock situation has improved.", "source": "Stock constraint response - Nov 18, 2025", "tags": ["stock-crisis", "urgent", "volatile-situation", "ant-communication"], "context": {}, "status": "active", "created_at": "2025-11-18T13:44:29.813524", "updated_at": "2025-11-18T13:44:29.813726", "completed_at": null}], "completed_tasks": []}, {"name": "uno-lighting", "display": "Uno Lighting", "active_count": 4, "completed_count": 0, "p0_count": 1, "parent_tasks": [], "child_tasks": [], "standalone_tasks": [{"id": "949f43ce-eec3-41b1-99f3-062876f70176", "title": "[Uno Lighting] Discuss \u00a3500/day budget increase with Richard", "type": "standalone", "parent_id": null, "children": null, "priority": "P0", "due_date": null, "time_estimate_mins": 30, "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Budget discussion with client about increasing spend by \u00a3500/day (\u00a33,500/week)\nContext: Focus on campaigns already hitting targets", "source": "Meeting Notes - Nov 10, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.249633", "updated_at": "2025-11-18T13:33:05.249634", "completed_at": null}, {"id": "a41dcbe3-10e5-47b3-8c40-d6ec3f013c9f", "title": "[Uno Lighting] Enable new customer acquisition on Villains campaign", "type": "standalone", "parent_id": null, "children": null, "priority": "P1", "due_date": null, "time_estimate_mins": 20, "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Enable new customer acquisition targeting on Villains campaign", "source": "Meeting Notes - Nov 10, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.249826", "updated_at": "2025-11-18T13:33:05.249830", "completed_at": null}, {"id": "c4df0194-399c-4bef-a1d7-3207b132e5bc", "title": "[Uno Lighting] Test AI Max for Uno Lights account", "type": "standalone", "parent_id": null, "children": null, "priority": "P2", "due_date": null, "time_estimate_mins": 60, "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Set up AI Max testing for Uno Lights campaigns", "source": "Meeting Notes - Nov 10, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.250106", "updated_at": "2025-11-18T13:33:05.250108", "completed_at": null}, {"id": "510cd9e9-f300-456a-834e-d37285f44706", "title": "[Uno Lighting] Follow up on bar stools product feed", "type": "standalone", "parent_id": null, "children": null, "priority": "P3", "due_date": null, "time_estimate_mins": 15, "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Chase client for bar stools product feed\nStatus: Still awaiting from client", "source": "Meeting Notes - Nov 10, 2025", "tags": ["meeting-action-item", "nov-2025"], "context": {}, "status": "active", "created_at": "2025-11-18T13:33:05.251064", "updated_at": "2025-11-18T13:33:05.251065", "completed_at": null}], "completed_tasks": []}];
+
+let manualNotes = JSON.parse(localStorage.getItem('taskNotes') || '{}');
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function renderClients() {
+    const container = document.getElementById('clients-container');
+    container.innerHTML = CLIENT_DATA.map(client => `
+        <div class="client-section">
+            <div class="client-header" onclick="toggleClient('${client.name}')">
+                <div class="client-name">${client.display}</div>
+                <div class="client-stats">
+                    <div class="client-stat">Active: ${client.active_count}</div>
+                    ${client.p0_count > 0 ? `<div class="client-stat urgent">\ud83d\udd25 P0: ${client.p0_count}</div>` : ''}
+                    <div class="client-stat">Completed: ${client.completed_count}</div>
+                </div>
+            </div>
+            <div class="client-content" id="client-${client.name}">
+                ${renderTasks(client)}
+                ${renderCompleted(client)}
+            </div>
+        </div>
+    `).join('');
+}
+
+function renderTasks(client) {
+    let html = '';
+
+    // Parent tasks with children
+    if (client.parent_tasks.length > 0) {
+        html += '<div class="task-group"><div class="task-group-title">\ud83d\udccb Parent Tasks</div>';
+        client.parent_tasks.forEach(parent => {
+            const hasNote = manualNotes[parent.id];
+            html += `
+                <div class="parent-task ${hasNote ? 'has-manual-note' : ''}" onclick="toggleParent(event, '${parent.id}')">
+                    <h4>${escapeHtml(parent.title)}</h4>
+                    <div class="parent-meta">
+                        <span>\ud83c\udfaf ${parent.priority}</span>
+                        <span>\ud83d\udcc5 ${parent.due_date || 'Not set'}</span>
+                        <span>\ud83d\udcca ${client.child_tasks.filter(c => c.parent_id === parent.id).length} subtasks</span>
+                    </div>
+                    ${parent.notes ? `<div class="parent-notes">${escapeHtml(parent.notes)}</div>` : ''}
+                    <button class="add-note-btn" onclick="event.stopPropagation(); showNoteInput('${parent.id}')">
+                        ${hasNote ? 'Edit Note' : 'Add Note'}
+                    </button>
+                    <div class="manual-note-input" id="note-input-${parent.id}">
+                        <textarea placeholder="Add your manual note here..."></textarea>
+                        <div class="btn-group">
+                            <button class="save-note-btn" onclick="event.stopPropagation(); saveNote('${parent.id}')">Process Note</button>
+                            <button class="cancel-note-btn" onclick="event.stopPropagation(); hideNoteInput('${parent.id}')">Cancel</button>
+                        </div>
+                    </div>
+                    <div class="manual-note-display ${hasNote ? 'active' : ''}" id="note-display-${parent.id}">
+                        <div class="note-header">\ud83d\udcdd Manual Note:</div>
+                        <div class="note-text">${escapeHtml(hasNote || '')}</div>
+                        <button onclick="event.stopPropagation(); showNoteInput('${parent.id}')">Edit</button>
+                    </div>
+                </div>
+                <div class="child-tasks" id="children-${parent.id}">
+                    ${client.child_tasks.filter(c => c.parent_id === parent.id).map(child => renderTask(child)).join('')}
+                </div>
+            `;
+        });
+        html += '</div>';
+    }
+
+    // Standalone tasks
+    if (client.standalone_tasks.length > 0) {
+        html += '<div class="task-group"><div class="task-group-title">\ud83d\udccc Standalone Tasks</div>';
+        client.standalone_tasks.forEach(task => {
+            html += renderTask(task);
+        });
+        html += '</div>';
+    }
+
+    return html || '<div class="no-tasks">No active tasks</div>';
+}
+
+function renderTask(task) {
+    const hasNote = manualNotes[task.id];
+    return `
+        <div class="task priority-${task.priority || 'P2'} ${hasNote ? 'has-manual-note' : ''}" onclick="toggleTask('${task.id}')">
+            <div class="task-title">${escapeHtml(task.title)}</div>
+            <div class="task-meta">
+                <span>\ud83c\udfaf ${task.priority}</span>
+                <span>\u23f1\ufe0f ${task.time_estimate_mins || 'N/A'} mins</span>
+                <span>\ud83d\udcc5 ${task.due_date || 'Not set'}</span>
+            </div>
+            ${task.notes ? `<div class="task-notes">${escapeHtml(task.notes)}</div>` : ''}
+            <button class="add-note-btn" onclick="event.stopPropagation(); showNoteInput('${task.id}')">
+                ${hasNote ? 'Edit Note' : 'Add Note'}
+            </button>
+            <div class="manual-note-input" id="note-input-${task.id}">
+                <textarea placeholder="Add your manual note here..."></textarea>
+                <div class="btn-group">
+                    <button class="save-note-btn" onclick="event.stopPropagation(); saveNote('${task.id}')">Process Note</button>
+                    <button class="cancel-note-btn" onclick="event.stopPropagation(); hideNoteInput('${task.id}')">Cancel</button>
+                </div>
+            </div>
+            <div class="manual-note-display ${hasNote ? 'active' : ''}" id="note-display-${task.id}">
+                <div class="note-header">\ud83d\udcdd Manual Note:</div>
+                <div class="note-text">${escapeHtml(hasNote || '')}</div>
+                <button onclick="event.stopPropagation(); showNoteInput('${task.id}')">Edit</button>
+            </div>
+        </div>
+    `;
+}
+
+function renderCompleted(client) {
+    if (client.completed_tasks.length === 0) return '';
+
+    return `
+        <div class="completed-section">
+            <div class="completed-header" onclick="toggleCompleted('${client.name}')">
+                <span>\u2705 Completed Tasks (${client.completed_tasks.length})</span>
+                <span>\u25bc</span>
+            </div>
+            <div class="completed-tasks" id="completed-${client.name}">
+                ${client.completed_tasks.map(task => `
+                    <div class="completed-task">
+                        <div class="task-title">${escapeHtml(task.title)}</div>
+                        <div class="completed-date">Completed: ${task.completed_at ? new Date(task.completed_at).toLocaleDateString() : 'Unknown'}</div>
+                        ${task.notes ? `<div style="margin-top:5px;font-size:11px;color:#777">${escapeHtml(task.notes.substring(0, 150))}${task.notes.length > 150 ? '...' : ''}</div>` : ''}
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
+}
+
+function toggleClient(name) {
+    const content = document.getElementById('client-' + name);
+    content.classList.toggle('expanded');
+}
+
+function toggleParent(event, id) {
+    event.currentTarget.classList.toggle('expanded');
+    const children = document.getElementById('children-' + id);
+    if (children) children.classList.toggle('expanded');
+}
+
+function toggleTask(id) {
+    const task = event.currentTarget;
+    task.classList.toggle('expanded');
+}
+
+function toggleCompleted(clientName) {
+    const completed = document.getElementById('completed-' + clientName);
+    completed.classList.toggle('expanded');
+}
+
+function toggleAll() {
+    const contents = document.querySelectorAll('.client-content');
+    const anyExpanded = Array.from(contents).some(c => c.classList.contains('expanded'));
+    contents.forEach(c => anyExpanded ? c.classList.remove('expanded') : c.classList.add('expanded'));
+    document.querySelector('.expand-all').textContent = anyExpanded ? 'Expand All Clients' : 'Collapse All Clients';
+}
+
+function showNoteInput(taskId) {
+    const input = document.getElementById('note-input-' + taskId);
+    const display = document.getElementById('note-display-' + taskId);
+    const textarea = input.querySelector('textarea');
+    textarea.value = manualNotes[taskId] || '';
+    input.classList.add('active');
+    if (display) display.classList.remove('active');
+    textarea.focus();
+}
+
+function hideNoteInput(taskId) {
+    const input = document.getElementById('note-input-' + taskId);
+    const display = document.getElementById('note-display-' + taskId);
+    input.classList.remove('active');
+    if (manualNotes[taskId] && display) {
+        display.classList.add('active');
+    }
+}
+
+function saveNote(taskId) {
+    const textarea = document.querySelector(`#note-input-${taskId} textarea`);
+    const noteText = textarea.value.trim();
+
+    if (noteText) {
+        manualNotes[taskId] = noteText;
+        const displayText = document.querySelector(`#note-display-${taskId} .note-text`);
+        const display = document.getElementById('note-display-' + taskId);
+        if (displayText) displayText.textContent = noteText;
+        if (display) display.classList.add('active');
+
+        // Add yellow border to task
+        const taskElements = document.querySelectorAll(`[onclick*="${taskId}"]`);
+        taskElements.forEach(el => el.classList.add('has-manual-note'));
+
+        // Update "Add Note" button text
+        const buttons = document.querySelectorAll(`[onclick*="showNoteInput('${taskId}')"]`);
+        buttons.forEach(btn => {
+            if (btn.classList.contains('add-note-btn')) {
+                btn.textContent = 'Edit Note';
+            }
+        });
+
+        // Find the task context from CLIENT_DATA
+        let taskContext = findTaskInClientData(taskId);
+
+        if (taskContext) {
+            // Create single-item array with note and task context
+            const noteData = [{
+                task_id: taskId,
+                client: taskContext.client,
+                task_title: taskContext.task.title,
+                task_type: taskContext.task.type,
+                task_priority: taskContext.task.priority,
+                task_notes: taskContext.task.notes || '',
+                manual_note: noteText,
+                timestamp: new Date().toISOString()
+            }];
+
+            // Download as JSON file
+            const blob = new Blob([JSON.stringify(noteData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'manual-task-notes.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            // Copy message to clipboard
+            const message = 'Process my task notes';
+            navigator.clipboard.writeText(message).then(() => {
+                alert('✅ Note downloaded to Downloads folder as manual-task-notes.json\n\n📋 "Process my task notes" copied to clipboard\n\n👉 Now paste (Cmd+V) into Claude Code to process this note');
+            }).catch(err => {
+                alert('✅ Note downloaded to Downloads folder as manual-task-notes.json\n\n⚠️ Could not copy to clipboard automatically.\n\n👉 Type "Process my task notes" into Claude Code');
+            });
+        }
+    } else {
+        delete manualNotes[taskId];
+        const taskElements = document.querySelectorAll(`[onclick*="${taskId}"]`);
+        taskElements.forEach(el => el.classList.remove('has-manual-note'));
+
+        const buttons = document.querySelectorAll(`[onclick*="showNoteInput('${taskId}')"]`);
+        buttons.forEach(btn => {
+            if (btn.classList.contains('add-note-btn')) {
+                btn.textContent = 'Add Note';
+            }
+        });
+    }
+
+    localStorage.setItem('taskNotes', JSON.stringify(manualNotes));
+    hideNoteInput(taskId);
+    updateNoteCount();
+}
+
+function findTaskInClientData(taskId) {
+    // Search through all clients to find the task
+    for (const client of CLIENT_DATA) {
+        // Check parent tasks
+        for (const task of client.parent_tasks || []) {
+            if (task.id === taskId) {
+                return { client: client.name, task: task };
+            }
+        }
+        // Check child tasks
+        for (const task of client.child_tasks || []) {
+            if (task.id === taskId) {
+                return { client: client.name, task: task };
+            }
+        }
+        // Check standalone tasks
+        for (const task of client.standalone_tasks || []) {
+            if (task.id === taskId) {
+                return { client: client.name, task: task };
+            }
+        }
+        // Check completed tasks
+        for (const task of client.completed_tasks || []) {
+            if (task.id === taskId) {
+                return { client: client.name, task: task };
+            }
+        }
+    }
+    return null;
+}
+
+function updateNoteCount() {
+    const count = Object.keys(manualNotes).length;
+    document.getElementById('unsaved-count').textContent = count;
+    document.getElementById('save-notes-btn').style.display = count > 0 ? 'inline-block' : 'none';
+}
+
+function updateStats() {
+    document.getElementById('total-clients').textContent = CLIENT_DATA.length;
+    document.getElementById('total-active').textContent = CLIENT_DATA.reduce((sum, c) => sum + c.active_count, 0);
+    document.getElementById('total-p0').textContent = CLIENT_DATA.reduce((sum, c) => sum + c.p0_count, 0);
+    document.getElementById('total-completed').textContent = CLIENT_DATA.reduce((sum, c) => sum + c.completed_count, 0);
+}
+
+function saveAllNotes() {
+    if (Object.keys(manualNotes).length === 0) {
+        alert('No notes to save.');
+        return;
+    }
+
+    // Prepare notes with task context
+    const notesWithContext = [];
+    Object.keys(manualNotes).forEach(taskId => {
+        // Find the task in CLIENT_DATA
+        let taskContext = null;
+        let clientName = null;
+
+        for (const client of CLIENT_DATA) {
+            // Check parent tasks
+            const parentTask = client.parent_tasks.find(t => t.id === taskId);
+            if (parentTask) {
+                taskContext = parentTask;
+                clientName = client.name;
+                break;
+            }
+
+            // Check child tasks
+            const childTask = client.child_tasks.find(t => t.id === taskId);
+            if (childTask) {
+                taskContext = childTask;
+                clientName = client.name;
+                break;
+            }
+
+            // Check standalone tasks
+            const standaloneTask = client.standalone_tasks.find(t => t.id === taskId);
+            if (standaloneTask) {
+                taskContext = standaloneTask;
+                clientName = client.name;
+                break;
+            }
+        }
+
+        if (taskContext && clientName) {
+            notesWithContext.push({
+                task_id: taskId,
+                client: clientName,
+                task_title: taskContext.title,
+                task_type: taskContext.type,
+                task_priority: taskContext.priority,
+                task_notes: taskContext.notes,
+                manual_note: manualNotes[taskId],
+                parent_id: taskContext.parent_id
+            });
+        }
+    });
+
+    // Try to save to PetesBrain fixed location via Python server
+    const dataStr = JSON.stringify(notesWithContext, null, 2);
+
+    fetch('http://localhost:8765/save-notes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: dataStr
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Copy message to clipboard
+            const clipboardMessage = `Process my task notes`;
+            navigator.clipboard.writeText(clipboardMessage).then(() => {
+                alert(`✅ Task notes saved!\n\n${notesWithContext.length} note(s) saved to:\n${data.file}\n\n📋 "Process my task notes" copied to clipboard!\n\nJust paste (Cmd+V) into Claude Code to process.`);
+            }).catch(() => {
+                alert(`✅ Task notes saved!\n\n${notesWithContext.length} note(s) saved to:\n${data.file}\n\nTell Claude: "Process my task notes"`);
+            });
+        } else {
+            throw new Error(data.error || 'Unknown error');
+        }
+    })
+    .catch(error => {
+        // Fallback: Download to browser Downloads folder if server not running
+        console.error('Server not available, falling back to download:', error);
+
+        const dataBlob = new Blob([dataStr], {type: 'application/json'});
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(dataBlob);
+        link.download = 'manual-task-notes.json';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        alert(`⚠️ Task notes server not running!\n\nFallback: Downloaded to your Downloads folder.\n\n🚀 To fix this:\n1. Open Terminal\n2. Run: python3 ~/Documents/PetesBrain/shared/scripts/save-task-notes.py\n3. Keep it running in background\n\nThen try "Process All Notes" again.\n\n(For now: Move manual-task-notes.json from Downloads to ~/Documents/PetesBrain/data/state/)`);
+    });
+}
+
+// Initialize
+renderClients();
+updateStats();
+updateNoteCount();
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "daily_stats": [
+    {
+      "date": "2025-11-12",
+      "tasks_created": 51,
+      "duplicates_skipped": 0,
+      "skipped_by_state": 85,
+      "errors": 0,
+      "completions": 0,
+      "escalations": 0
+    }
+  ],
+  "last_updated": "2025-11-12T10:43:30.253190",
+  "version": "1.0"
+}

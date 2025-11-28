@@ -1,0 +1,135 @@
+{
+  "date": "2025-11-18",
+  "client": "WheatyBags",
+  "comparison_date": "2025-11-17",
+  "total_products_today": 2958,
+  "total_products_yesterday": 2958,
+  "summary": {
+    "changed_products": 5,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 5,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS51V412393",
+      "title": "Wheat Bags Heating Pad (Squares) (24cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1001V398292",
+      "title": "Wheat Bags Extra Large Heat Pack (49cm x 15cm) - Purple Cotton Fabric Scented (Organic Lavender Buds)",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416571",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Purple Cotton Fabric Scented (Organic Lavender Buds)",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1052V397507",
+      "title": "Wheat Bags Small Heat Pack (Pack of 2 - 15cm x 10cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7016V443215",
+      "title": "WheatyBags Value Range Bottle Shape Heat Pack Wheat Bag Body Warmer 27cm x 18cm Microwaveable Scented Unscented Made in UK Warm Cold Weather Comfort",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "WBS51V412393",
+      "title": "Wheat Bags Heating Pad (Squares) (24cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1001V398292",
+      "title": "Wheat Bags Extra Large Heat Pack (49cm x 15cm) - Purple Cotton Fabric Scented (Organic Lavender Buds)",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416571",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Purple Cotton Fabric Scented (Organic Lavender Buds)",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1052V397507",
+      "title": "Wheat Bags Small Heat Pack (Pack of 2 - 15cm x 10cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7016V443215",
+      "title": "WheatyBags Value Range Bottle Shape Heat Pack Wheat Bag Body Warmer 27cm x 18cm Microwaveable Scented Unscented Made in UK Warm Cold Weather Comfort",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

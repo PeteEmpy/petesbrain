@@ -1,0 +1,29 @@
+{
+  "specification": {
+    "title": "Q4 Holiday Shopping Season Preparation",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "https://searchengineland.com/your-q4-ecommerce-checklist-for-peak-holiday-sales-463717",
+        "extracted_at": "2025-11-11T09:21:36.958970",
+        "verified": false
+      }
+    ],
+    "content": {
+      "preparation_areas": [
+        "site_optimization",
+        "creative_assets",
+        "ad_campaign_structure"
+      ],
+      "timing": "Complete preparation before Black Friday/Cyber Monday",
+      "campaign_types": [
+        "Google Shopping",
+        "Performance Max"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,51 @@
+═══════════════════════════════════════════════════════════════════════════
+  MERCHANT CENTER SERVICE ACCOUNT SETUP - QUICK REFERENCE
+═══════════════════════════════════════════════════════════════════════════
+
+SERVICE ACCOUNT EMAIL TO ADD:
+petesbrain-emailsync@petesbrain-emailsync.iam.gserviceaccount.com
+
+STEPS PER ACCOUNT:
+1. Log into https://merchants.google.com/
+2. Select account from account selector
+3. Settings (⚙️) → Users
+4. ➕ Add User
+5. Paste service account email
+6. Access level: Standard (or Admin)
+7. Save
+
+═══════════════════════════════════════════════════════════════════════════
+  ACCOUNTS TO SET UP (15 TOTAL)
+═══════════════════════════════════════════════════════════════════════════
+
+[ ] Tree2mydoor (107469209)
+[ ] Smythson UK (102535465)
+[ ] BrightMinds (5291988198)
+[ ] Accessories for the Home (117443871)
+[ ] Go Glean UK (5320484948)
+[ ] Superspace UK (645236311)
+[ ] Uno Lights (513812383)
+[ ] Godshot (5291405839)
+[ ] HappySnapGifts (7481296)
+[ ] WheatyBags (7481286)
+[ ] BMPM (7522326)
+[ ] Grain Guard (5354444061)
+[ ] Crowd Control (563545573)
+[ ] Just Bin Bags (181788523)
+[ ] Just Bin Bags JHD (5085550522)
+
+═══════════════════════════════════════════════════════════════════════════
+  TEST AFTER SETUP
+═══════════════════════════════════════════════════════════════════════════
+
+cd /Users/administrator/Documents/PetesBrain/tools/product-impact-analyzer
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/administrator/Documents/PetesBrain/shared/mcp-servers/google-sheets-mcp-server/credentials.json
+.venv/bin/python3 product_feed_tracker.py
+
+Expected output:
+✓ Fetched 211 products for Tree2mydoor
+✓ Saved snapshot to data/product_feed_history/Tree2mydoor/2025-11-03.json
+
+═══════════════════════════════════════════════════════════════════════════
+
+Estimated time: 5-10 minutes for all 15 accounts

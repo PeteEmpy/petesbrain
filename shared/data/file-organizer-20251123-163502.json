@@ -1,0 +1,1339 @@
+[
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.104226",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/bmpm/product-feeds/tasks_1.json",
+    "timestamp": "2025-11-23T14:14:06.113263",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.124696",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.133459",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.142695",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.151319",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/go-glean/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.158726",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/godshot/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.165691",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.175138",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.185239",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.193723",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/.processed-emails.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/product-feeds/.processed-emails_4.json",
+    "timestamp": "2025-11-23T14:14:06.203766",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/NDA-International-Enrolments-ACTIVE.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-International-Enrolments-ACTIVE_4.xlsx",
+    "timestamp": "2025-11-23T14:14:06.205464",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/NDA-UK-Enrolments-ACTIVE.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-UK-Enrolments-ACTIVE_4.xlsx",
+    "timestamp": "2025-11-23T14:14:06.206632",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-International-Enrolments-2025-11-17.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-International-Enrolments-2025-11-17_2.xlsx",
+    "timestamp": "2025-11-23T14:14:06.218090",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-UK-Enrolments-2025-11-03.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-UK-Enrolments-2025-11-03_4.xlsx",
+    "timestamp": "2025-11-23T14:14:06.222860",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-International-Enrolments-2025-11-10.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-International-Enrolments-2025-11-10_3.xlsx",
+    "timestamp": "2025-11-23T14:14:06.225516",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-International-Enrolments-2025-10-27.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-International-Enrolments-2025-10-27_4.xlsx",
+    "timestamp": "2025-11-23T14:14:06.227199",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-UK-Enrolments-2025-10-27.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-UK-Enrolments-2025-10-27_4.xlsx",
+    "timestamp": "2025-11-23T14:14:06.228368",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-UK-Enrolments-2025-11-10.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-UK-Enrolments-2025-11-10_3.xlsx",
+    "timestamp": "2025-11-23T14:14:06.232441",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-International-Enrolments-2025-11-03.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-International-Enrolments-2025-11-03_4.xlsx",
+    "timestamp": "2025-11-23T14:14:06.233364",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history/NDA-UK-Enrolments-2025-11-17.xlsx",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/spreadsheets/NDA-UK-Enrolments-2025-11-17_2.xlsx",
+    "timestamp": "2025-11-23T14:14:06.234172",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.243073",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/roksys/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.284923",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/smythson/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.366843",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/superspace/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.375323",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/product-feeds/tasks_1.json",
+    "timestamp": "2025-11-23T14:14:06.377997",
+    "metadata": {}
+  },
+  {
+    "action": "move",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/tasks.json",
+    "target": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/product-feeds/tasks_2.json",
+    "timestamp": "2025-11-23T14:14:06.385597",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/emails 2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.007157",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.007726",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/enrolments/history",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.007979",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008116",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008252",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008381",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008504",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008631",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-design-academy/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008782",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.008969",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.009150",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.009322",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.009482",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.009632",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.010427",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/uno-lighting/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.010662",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.010859",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.011034",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.011395",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.011621",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.011805",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.012112",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/roksys/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.012498",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.012854",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.013110",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.013809",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.014044",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.014213",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.014380",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags---jhd/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.014541",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.014793",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.014976",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.015142",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.015529",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.015982",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.016200",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/go-glean/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.016377",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.016566",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.016760",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.016949",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.017121",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.017288",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.017464",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/devonshire-hotels/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.017638",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.017821",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.018005",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.018209",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.018515",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.018729",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.018925",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/otc/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.019077",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.019252",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.019408",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.019604",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.019808",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.020995",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.021320",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bmpm/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.021754",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.022006",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.022247",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.022510",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.022821",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.023076",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.023354",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/shared/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.023579",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.023783",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.024260",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.024543",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.024925",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.025264",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.025590",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/bright-minds/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.025857",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.026196",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.026570",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.026826",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.027012",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.027168",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.027343",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/tree2mydoor/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.027619",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.027964",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.028387",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.028651",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.029088",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.029905",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.030612",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/accessories-for-the-home/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.030816",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.031049",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.031236",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.031442",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.031607",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.031758",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.032126",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/national-motorsports-academy/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.032307",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.032514",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.032692",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.032843",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.032993",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.033148",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/clear-prospects/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.033317",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.033486",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.033645",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.033796",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.033970",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.034111",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.034246",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/grain-guard/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.034393",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.034584",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.034799",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.034984",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.035176",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.035372",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.035555",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/crowd-control/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.035711",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.035875",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.036473",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.037258",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.037622",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.037826",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.037984",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.038235",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.038428",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.038608",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.038759",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.038913",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.039066",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/smythson/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.039213",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.039412",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.039577",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.039733",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.039889",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040023",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040161",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/godshot/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040304",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040491",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040644",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040780",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.040955",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.041231",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.041443",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/superspace/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.041606",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.041785",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.041945",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.042130",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.042323",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.042549",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.042747",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/c38af8ac-cae4-4236-a5a3-ddad63e3508a/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.042895",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.043128",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.043357",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.043577",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.043748",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.043982",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.044168",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/just-bin-bags/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.044412",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/emails/drafts",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.044593",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/reports/q1",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.044757",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/reports/pmax-analysis",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.044919",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/reports/monthly",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.045197",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/reports/q2",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.045517",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/reports/q4",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.046013",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/clients/510cd9e9-f300-456a-834e-d37285f44706/reports/q3",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.046236",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/knowledge/specifications/facebook/facebook-ads/specifications",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.046797",
+    "metadata": {}
+  },
+  {
+    "action": "delete_empty_folder",
+    "source": "/Users/administrator/Documents/PetesBrain/knowledge/specifications/facebook/facebook-ads/best-practices",
+    "target": null,
+    "timestamp": "2025-11-23T14:14:59.047123",
+    "metadata": {}
+  }
+]

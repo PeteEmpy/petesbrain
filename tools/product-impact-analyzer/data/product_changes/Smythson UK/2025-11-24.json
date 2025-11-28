@@ -1,0 +1,943 @@
+{
+  "date": "2025-11-24",
+  "client": "Smythson UK",
+  "comparison_date": "2025-11-23",
+  "total_products_today": 1457,
+  "total_products_yesterday": 1458,
+  "summary": {
+    "changed_products": 25,
+    "price_changes": 2,
+    "sale_price_changes": 0,
+    "availability_changes": 6,
+    "title_changes": 0,
+    "description_changes": 11,
+    "image_changes": 1,
+    "item_group_changes": 11,
+    "shipping_changes": 0,
+    "label_changes": 8,
+    "new_products": 0,
+    "removed_products": 1
+  },
+  "changed_products": [
+    {
+      "product_id": "1204098",
+      "title": "Smythson Passport Cover In Mara - Brown",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205204",
+      "title": "Smythson 2026 Evergreen Weekly Diary Refill In Silver",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1202458",
+      "title": "Smythson Small Day Tote with Zip in Ludlow",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204195",
+      "title": "Smythson Ventiquattrore Sottile Con Cerniera Frontale In Ludlow - Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Ventiquattrore con cerniera frontale in pelle di vitello pieno fiore blu navy Fodera in tessuto Rifiniture e manici in pelle di vitello liscia nera Manici tubolari Tasca frontale a soffietto con cerniera Bordo tinto Cuciture tono su tono Foderata in cotone Tasca interna con cerniera Tracolla rimovibile Cinturino in pelle sul retro per fissaggio al trolley da bagaglio Tasca interna a filetto adatta a contenere un laptop da 16'' Prodotta in Italia Dimensioni: L 39,5 x H 28 x P 6,5 cm / W 15.5 x H 10.6 x D 2.5\" Hai bisogno d'aiuto? Contattaci",
+          "Ventiquattrore sottile con cerniera anteriore in pelle di vitello pieno fiore marrone scuro  Fodera in tessuto  Finiture e manici in pelle di vitello liscia  Manici tubolari  Tasca anteriore con cerniera e soffietto  Bordo tinto  Impunture tono su tono  Tasca interna con cerniera  Tasca interna a filetto per laptop da 15''  Tracolla rimovibile  Cinturino in pelle sul retro per trolley da viaggio  Articolo prodotto in Italia Dimensioni:L 39,5 x H 28 x P 6,5\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1004294",
+      "title": "Smythson A5 Spiral Bound Notebook Refill Pad: Pale Blue Ruled Featherweight Paper, 75 Sheets, 85gsm, Silver Binding, W15 x H21cm, Made in England",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204645",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204910",
+      "title": "Smythson Schmale Aktentasche Mit Frontrei\u00dfverschluss Aus Ludlow-Leder - Olive Fonc\u00e9",
+      "changes": {
+        "description": [
+          "ul style=\"margin-top:10px;\" > Marineblaue Aktentasche mit Rei\u00dfverschluss an der Vorderseite aus genarbtem Kalbsleder Stofffutter Besatz und Tragegriffe aus schwarzem, glattem Kalbsleder Tragegriffe in Schlauchform Rei\u00dfverschlusstasche an der Vorderseite mit Zwickel Eingef\u00e4rbte Kanten Ton in Ton gehaltene N\u00e4hte Baumwollfutter Innentasche mit Rei\u00dfverschluss Abnehmbarer Schulterriemen R\u00fcckseitiger Lederriemen f\u00fcr Gep\u00e4cktrolley Innenfach f\u00fcr 16 Zoll-Laptop Made in Italy Ma\u00dfe: B 39,5 x H 28 x T 6,5 cm",
+          "Schmale Aktentasche mit Frontrei\u00dfverschluss aus genarbtem Kalbsleder in Dunkelbraun  Mit Stoff gef\u00fcttert  Besatz und Griffe aus glattem Kalbsleder  Schlauchartige Griffe  Rei\u00dfverschlussfach mit Seitenfalte vorne  Gef\u00e4rbter Rand  Tonale Steppung  Innenfach mit Rei\u00dfverschluss  Einsteckfach innen f\u00fcr einen 15-Zoll-Laptop  Abnehmbarer Schulterriemen  Lederriemen hinten f\u00fcr Gep\u00e4ckkuli  Hergestellt in ItalienMa\u00dfe: B 39,5 x H 28 x T 6,5 cm / B 15,5 x H 10,6 x T 2,5\""
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1205258",
+      "title": "2026 Bijou Weekly Journal Refill",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204440",
+      "title": "Smythson Portafoglio A 8 Scomparti Per Carte Di Credito In Panama - Navy",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-a-8-scomparti-per-carte-di-credito-in-panama/1204440.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-a-8-scomparti-per-carte-di-credito-in-panama/1204440.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1202225",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Rotes",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204797",
+      "title": "Smythson Soho Notebook in Panama",
+      "changes": {
+        "price": [
+          "170.00 GBP",
+          "175.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "1205082",
+      "title": "Smythson Quaderno Panama Stelle - Stars Silver",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1204542",
+      "title": "Smythson Luggage Tag In Panama Leopard",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1031613",
+      "title": "Dove Christmas Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "42.00 GBP"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/dove-christmas-card-set/1031613.html",
+          "https://www.smythson.com/stationery/cards/p/dove-christmas-card-set/1031613.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1200767",
+      "title": "Smythson Medium Photo Album In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    },
+    {
+      "product_id": "1204443",
+      "title": "Smythson Portafoglio Con 8 Tasche Per Carte Panama - Ceruleo",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-con-8-tasche-per-carte-panama/1204443.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-con-8-tasche-per-carte-panama/1204443.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204965",
+      "title": "Smythson Agenda Semainier Vertical Kings 2026 En Panama - Noir",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204857",
+      "title": "Smythson 8 Card Slot Wallet In Panama - Fawn",
+      "changes": {
+        "description": [
+          "Black wallet in crossgrain calf leather Smooth calf leather interior Eight card pockets Two side slots Two note pockets Made in Romania Dimensions: W11 x H10cm / W4.5\" x H4\"",
+          "Forest green eight card wallet in crossgrain calf leather Smooth calf leather lining  Eight card pockets  Two side slots  Two note pockets  Dimensions: W11 x H10cm / W4.5 x H4\""
+        ],
+        "link": [
+          "https://www.smythson.com/eur/men/accessories/wallets/p/8-card-slot-wallet-in-panama/1204857.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/eur/men/accessories/p/8-card-slot-wallet-in-panama/1204857.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204442",
+      "title": "Smythson Portafoglio Con 8 Tasche Per Carte Panama - Foresta",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-con-8-tasche-per-carte-panama/1204442.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-con-8-tasche-per-carte-panama/1204442.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204770",
+      "title": "Smythson Quaderno Panama - Navy",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1029248",
+      "title": "Smythson Medium Photo Album In Panama In Chalk",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    },
+    {
+      "product_id": "1204773",
+      "title": "Smythson Quaderno Panama In Mara - Raspberry",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1203003",
+      "title": "Smythson Evergreen Mid-Size Notebook Refill In Silver",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204582",
+      "title": "Golden Angel Christmas Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [
+    {
+      "product_id": "1203941",
+      "title": "Smythson 2025-2026 Soho Weekly Diary in Ludlow",
+      "price": "225.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "1204797",
+      "title": "Smythson Soho Notebook in Panama",
+      "changes": {
+        "price": [
+          "170.00 GBP",
+          "175.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "1031613",
+      "title": "Dove Christmas Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "42.00 GBP"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/dove-christmas-card-set/1031613.html",
+          "https://www.smythson.com/stationery/cards/p/dove-christmas-card-set/1031613.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "1204098",
+      "title": "Smythson Passport Cover In Mara - Brown",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202458",
+      "title": "Smythson Small Day Tote with Zip in Ludlow",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204195",
+      "title": "Smythson Ventiquattrore Sottile Con Cerniera Frontale In Ludlow - Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Ventiquattrore con cerniera frontale in pelle di vitello pieno fiore blu navy Fodera in tessuto Rifiniture e manici in pelle di vitello liscia nera Manici tubolari Tasca frontale a soffietto con cerniera Bordo tinto Cuciture tono su tono Foderata in cotone Tasca interna con cerniera Tracolla rimovibile Cinturino in pelle sul retro per fissaggio al trolley da bagaglio Tasca interna a filetto adatta a contenere un laptop da 16'' Prodotta in Italia Dimensioni: L 39,5 x H 28 x P 6,5 cm / W 15.5 x H 10.6 x D 2.5\" Hai bisogno d'aiuto? Contattaci",
+          "Ventiquattrore sottile con cerniera anteriore in pelle di vitello pieno fiore marrone scuro  Fodera in tessuto  Finiture e manici in pelle di vitello liscia  Manici tubolari  Tasca anteriore con cerniera e soffietto  Bordo tinto  Impunture tono su tono  Tasca interna con cerniera  Tasca interna a filetto per laptop da 15''  Tracolla rimovibile  Cinturino in pelle sul retro per trolley da viaggio  Articolo prodotto in Italia Dimensioni:L 39,5 x H 28 x P 6,5\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1202225",
+      "title": "Smythson Soho Notizbuch Mit Schiebeverschluss Aus Mara - Rotes",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204965",
+      "title": "Smythson Agenda Semainier Vertical Kings 2026 En Panama - Noir",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1029248",
+      "title": "Smythson Medium Photo Album In Panama In Chalk",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [
+    {
+      "product_id": "1204195",
+      "title": "Smythson Ventiquattrore Sottile Con Cerniera Frontale In Ludlow - Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Ventiquattrore con cerniera frontale in pelle di vitello pieno fiore blu navy Fodera in tessuto Rifiniture e manici in pelle di vitello liscia nera Manici tubolari Tasca frontale a soffietto con cerniera Bordo tinto Cuciture tono su tono Foderata in cotone Tasca interna con cerniera Tracolla rimovibile Cinturino in pelle sul retro per fissaggio al trolley da bagaglio Tasca interna a filetto adatta a contenere un laptop da 16'' Prodotta in Italia Dimensioni: L 39,5 x H 28 x P 6,5 cm / W 15.5 x H 10.6 x D 2.5\" Hai bisogno d'aiuto? Contattaci",
+          "Ventiquattrore sottile con cerniera anteriore in pelle di vitello pieno fiore marrone scuro  Fodera in tessuto  Finiture e manici in pelle di vitello liscia  Manici tubolari  Tasca anteriore con cerniera e soffietto  Bordo tinto  Impunture tono su tono  Tasca interna con cerniera  Tasca interna a filetto per laptop da 15''  Tracolla rimovibile  Cinturino in pelle sul retro per trolley da viaggio  Articolo prodotto in Italia Dimensioni:L 39,5 x H 28 x P 6,5\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1204910",
+      "title": "Smythson Schmale Aktentasche Mit Frontrei\u00dfverschluss Aus Ludlow-Leder - Olive Fonc\u00e9",
+      "changes": {
+        "description": [
+          "ul style=\"margin-top:10px;\" > Marineblaue Aktentasche mit Rei\u00dfverschluss an der Vorderseite aus genarbtem Kalbsleder Stofffutter Besatz und Tragegriffe aus schwarzem, glattem Kalbsleder Tragegriffe in Schlauchform Rei\u00dfverschlusstasche an der Vorderseite mit Zwickel Eingef\u00e4rbte Kanten Ton in Ton gehaltene N\u00e4hte Baumwollfutter Innentasche mit Rei\u00dfverschluss Abnehmbarer Schulterriemen R\u00fcckseitiger Lederriemen f\u00fcr Gep\u00e4cktrolley Innenfach f\u00fcr 16 Zoll-Laptop Made in Italy Ma\u00dfe: B 39,5 x H 28 x T 6,5 cm",
+          "Schmale Aktentasche mit Frontrei\u00dfverschluss aus genarbtem Kalbsleder in Dunkelbraun  Mit Stoff gef\u00fcttert  Besatz und Griffe aus glattem Kalbsleder  Schlauchartige Griffe  Rei\u00dfverschlussfach mit Seitenfalte vorne  Gef\u00e4rbter Rand  Tonale Steppung  Innenfach mit Rei\u00dfverschluss  Einsteckfach innen f\u00fcr einen 15-Zoll-Laptop  Abnehmbarer Schulterriemen  Lederriemen hinten f\u00fcr Gep\u00e4ckkuli  Hergestellt in ItalienMa\u00dfe: B 39,5 x H 28 x T 6,5 cm / B 15,5 x H 10,6 x T 2,5\""
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1204440",
+      "title": "Smythson Portafoglio A 8 Scomparti Per Carte Di Credito In Panama - Navy",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-a-8-scomparti-per-carte-di-credito-in-panama/1204440.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-a-8-scomparti-per-carte-di-credito-in-panama/1204440.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1205082",
+      "title": "Smythson Quaderno Panama Stelle - Stars Silver",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1200767",
+      "title": "Smythson Medium Photo Album In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    },
+    {
+      "product_id": "1204443",
+      "title": "Smythson Portafoglio Con 8 Tasche Per Carte Panama - Ceruleo",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-con-8-tasche-per-carte-panama/1204443.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-con-8-tasche-per-carte-panama/1204443.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204857",
+      "title": "Smythson 8 Card Slot Wallet In Panama - Fawn",
+      "changes": {
+        "description": [
+          "Black wallet in crossgrain calf leather Smooth calf leather interior Eight card pockets Two side slots Two note pockets Made in Romania Dimensions: W11 x H10cm / W4.5\" x H4\"",
+          "Forest green eight card wallet in crossgrain calf leather Smooth calf leather lining  Eight card pockets  Two side slots  Two note pockets  Dimensions: W11 x H10cm / W4.5 x H4\""
+        ],
+        "link": [
+          "https://www.smythson.com/eur/men/accessories/wallets/p/8-card-slot-wallet-in-panama/1204857.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/eur/men/accessories/p/8-card-slot-wallet-in-panama/1204857.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204442",
+      "title": "Smythson Portafoglio Con 8 Tasche Per Carte Panama - Foresta",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-con-8-tasche-per-carte-panama/1204442.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-con-8-tasche-per-carte-panama/1204442.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204770",
+      "title": "Smythson Quaderno Panama - Navy",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1029248",
+      "title": "Smythson Medium Photo Album In Panama In Chalk",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    },
+    {
+      "product_id": "1204773",
+      "title": "Smythson Quaderno Panama In Mara - Raspberry",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    }
+  ],
+  "image_changes": [
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [
+    {
+      "product_id": "1204195",
+      "title": "Smythson Ventiquattrore Sottile Con Cerniera Frontale In Ludlow - Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Ventiquattrore con cerniera frontale in pelle di vitello pieno fiore blu navy Fodera in tessuto Rifiniture e manici in pelle di vitello liscia nera Manici tubolari Tasca frontale a soffietto con cerniera Bordo tinto Cuciture tono su tono Foderata in cotone Tasca interna con cerniera Tracolla rimovibile Cinturino in pelle sul retro per fissaggio al trolley da bagaglio Tasca interna a filetto adatta a contenere un laptop da 16'' Prodotta in Italia Dimensioni: L 39,5 x H 28 x P 6,5 cm / W 15.5 x H 10.6 x D 2.5\" Hai bisogno d'aiuto? Contattaci",
+          "Ventiquattrore sottile con cerniera anteriore in pelle di vitello pieno fiore marrone scuro  Fodera in tessuto  Finiture e manici in pelle di vitello liscia  Manici tubolari  Tasca anteriore con cerniera e soffietto  Bordo tinto  Impunture tono su tono  Tasca interna con cerniera  Tasca interna a filetto per laptop da 15''  Tracolla rimovibile  Cinturino in pelle sul retro per trolley da viaggio  Articolo prodotto in Italia Dimensioni:L 39,5 x H 28 x P 6,5\u00a0cm"
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1204910",
+      "title": "Smythson Schmale Aktentasche Mit Frontrei\u00dfverschluss Aus Ludlow-Leder - Olive Fonc\u00e9",
+      "changes": {
+        "description": [
+          "ul style=\"margin-top:10px;\" > Marineblaue Aktentasche mit Rei\u00dfverschluss an der Vorderseite aus genarbtem Kalbsleder Stofffutter Besatz und Tragegriffe aus schwarzem, glattem Kalbsleder Tragegriffe in Schlauchform Rei\u00dfverschlusstasche an der Vorderseite mit Zwickel Eingef\u00e4rbte Kanten Ton in Ton gehaltene N\u00e4hte Baumwollfutter Innentasche mit Rei\u00dfverschluss Abnehmbarer Schulterriemen R\u00fcckseitiger Lederriemen f\u00fcr Gep\u00e4cktrolley Innenfach f\u00fcr 16 Zoll-Laptop Made in Italy Ma\u00dfe: B 39,5 x H 28 x T 6,5 cm",
+          "Schmale Aktentasche mit Frontrei\u00dfverschluss aus genarbtem Kalbsleder in Dunkelbraun  Mit Stoff gef\u00fcttert  Besatz und Griffe aus glattem Kalbsleder  Schlauchartige Griffe  Rei\u00dfverschlussfach mit Seitenfalte vorne  Gef\u00e4rbter Rand  Tonale Steppung  Innenfach mit Rei\u00dfverschluss  Einsteckfach innen f\u00fcr einen 15-Zoll-Laptop  Abnehmbarer Schulterriemen  Lederriemen hinten f\u00fcr Gep\u00e4ckkuli  Hergestellt in ItalienMa\u00dfe: B 39,5 x H 28 x T 6,5 cm / B 15,5 x H 10,6 x T 2,5\""
+        ],
+        "item_group_id": [
+          "1204195",
+          "1205354"
+        ]
+      }
+    },
+    {
+      "product_id": "1204440",
+      "title": "Smythson Portafoglio A 8 Scomparti Per Carte Di Credito In Panama - Navy",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-a-8-scomparti-per-carte-di-credito-in-panama/1204440.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-a-8-scomparti-per-carte-di-credito-in-panama/1204440.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1205082",
+      "title": "Smythson Quaderno Panama Stelle - Stars Silver",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1200767",
+      "title": "Smythson Medium Photo Album In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    },
+    {
+      "product_id": "1204443",
+      "title": "Smythson Portafoglio Con 8 Tasche Per Carte Panama - Ceruleo",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-con-8-tasche-per-carte-panama/1204443.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-con-8-tasche-per-carte-panama/1204443.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204857",
+      "title": "Smythson 8 Card Slot Wallet In Panama - Fawn",
+      "changes": {
+        "description": [
+          "Black wallet in crossgrain calf leather Smooth calf leather interior Eight card pockets Two side slots Two note pockets Made in Romania Dimensions: W11 x H10cm / W4.5\" x H4\"",
+          "Forest green eight card wallet in crossgrain calf leather Smooth calf leather lining  Eight card pockets  Two side slots  Two note pockets  Dimensions: W11 x H10cm / W4.5 x H4\""
+        ],
+        "link": [
+          "https://www.smythson.com/eur/men/accessories/wallets/p/8-card-slot-wallet-in-panama/1204857.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/eur/men/accessories/p/8-card-slot-wallet-in-panama/1204857.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204442",
+      "title": "Smythson Portafoglio Con 8 Tasche Per Carte Panama - Foresta",
+      "changes": {
+        "description": [
+          "Portafoglio nero in pelle di vitello crossgrain Interno in morbida pelle di vitello Otto tasche per carte di credito Due fessure laterali Due tasche per banconote Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\"",
+          "Portafoglio in pelle di vitello crossgrain verde foresta con otto fessure per carte di credito  Fodera in pelle di vitello liscia  Otto fessure per carte di credito  Due fessure laterali  Due tasche per banconote  Dimensioni: L 11 x H 10 cm / L 4,5 x H 4\""
+        ],
+        "link": [
+          "https://www.smythson.com/it/uomo/accessori/portafogli/p/portafoglio-con-8-tasche-per-carte-panama/1204442.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/it/uomo/accessori/p/portafoglio-con-8-tasche-per-carte-panama/1204442.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "item_group_id": [
+          "1200947",
+          "1204442"
+        ]
+      }
+    },
+    {
+      "product_id": "1204770",
+      "title": "Smythson Quaderno Panama - Navy",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    },
+    {
+      "product_id": "1029248",
+      "title": "Smythson Medium Photo Album In Panama In Chalk",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "A luxurious calf leather photograph album with elegant gilt-edged leaves of white card. Smythson recommends using photograph corners and arranging photographs on one side of each page to protect them for years to come. Personalise for a special touch. Chalk medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us",
+          "Sandstone medium photo album in crossgrain calf leather Hardbound 50 leaves of gilt-edged white card Made in England Dimensions: W37 x H27.9cm / W14.5 x H11\" Need help? Contact us"
+        ],
+        "item_group_id": [
+          "1029248",
+          "1200769"
+        ]
+      }
+    },
+    {
+      "product_id": "1204773",
+      "title": "Smythson Quaderno Panama In Mara - Raspberry",
+      "changes": {
+        "description": [
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle blu navy  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm",
+          "Quaderno tascabile rilegato in pelle di agnello crossgrain goffrata a stelle argento  128 pagine in carta Featherweight azzurra, a righe, con bordi dorati  Articolo prodotto in Inghilterra  Dimensioni: L 9 x H 14 cm"
+        ],
+        "item_group_id": [
+          "1205080",
+          "1205082"
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1205204",
+      "title": "Smythson 2026 Evergreen Weekly Diary Refill In Silver",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1004294",
+      "title": "Smythson A5 Spiral Bound Notebook Refill Pad: Pale Blue Ruled Featherweight Paper, 75 Sheets, 85gsm, Silver Binding, W15 x H21cm, Made in England",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204645",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205258",
+      "title": "2026 Bijou Weekly Journal Refill",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204542",
+      "title": "Smythson Luggage Tag In Panama Leopard",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1031613",
+      "title": "Dove Christmas Card Set",
+      "changes": {
+        "price": [
+          "49.00 EUR",
+          "42.00 GBP"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/stationery/cards/christmas-cards/p/dove-christmas-card-set/1031613.html",
+          "https://www.smythson.com/stationery/cards/p/dove-christmas-card-set/1031613.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1203003",
+      "title": "Smythson Evergreen Mid-Size Notebook Refill In Silver",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204582",
+      "title": "Golden Angel Christmas Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

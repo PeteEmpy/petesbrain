@@ -1,0 +1,21 @@
+{
+  "specification": {
+    "title": "AI-Powered Sale Price Suggestions",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center email notification - 2025-11-03",
+        "extracted_at": "2025-11-11T09:21:36.958595",
+        "verified": false
+      }
+    ],
+    "content": {
+      "access_location": "Merchant Center Analytics tab",
+      "data_provided": "Product-level pricing recommendations with impact projections",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

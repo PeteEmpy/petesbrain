@@ -1,0 +1,25 @@
+{
+  "specification": {
+    "title": "AI-Powered Sale Price Suggestions (Tree2MyDoor Account)",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center Email - Nov 2025",
+        "extracted_at": "2025-11-11T09:21:36.962749",
+        "verified": false
+      }
+    ],
+    "content": {
+      "merchant_center_id": "107469209",
+      "access_location": "Merchant Center Analytics tab",
+      "feature_type": "AI-generated pricing recommendations",
+      "character_limits": {},
+      "required_counts": {
+        "example_products_flagged": 37,
+        "example_potential_clicks": 307
+      }
+    }
+  }
+}

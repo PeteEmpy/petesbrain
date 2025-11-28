@@ -1,0 +1,367 @@
+[
+  {
+    "timestamp": "2025-11-18T13:26:50.390036",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "166550831202",
+    "criterion_id": "306651029886",
+    "keyword_text": "luxurious cottage",
+    "match_type": "BROAD",
+    "campaign": "Chatsworth Escapes Self Catering",
+    "ad_group": "Search - Peak District Cottages",
+    "resource_name": "customers/5898250490/adGroupCriteria/166550831202~306651029886",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390101",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "166550831202",
+    "criterion_id": "10962031",
+    "keyword_text": "peak district holiday cottages",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Self Catering",
+    "ad_group": "Search - Peak District Cottages",
+    "resource_name": "customers/5898250490/adGroupCriteria/166550831202~10962031",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390131",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145260755676",
+    "criterion_id": "1373505721161",
+    "keyword_text": "chatsworth cottages dog friendly",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Self Catering",
+    "ad_group": "Search - Chatsworth Self Catering",
+    "resource_name": "N/A",
+    "status": "FAILED",
+    "error": "Negative keyword (cannot pause, must remove)"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390143",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145260755676",
+    "criterion_id": "915155350989",
+    "keyword_text": "chatsworth estate cottages to rent",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Self Catering",
+    "ad_group": "Search - Chatsworth Self Catering",
+    "resource_name": "customers/5898250490/adGroupCriteria/145260755676~915155350989",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390155",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145260755676",
+    "criterion_id": "413933579267",
+    "keyword_text": "chatsworth estate holiday cottages",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Self Catering",
+    "ad_group": "Search - Chatsworth Estate Cottages",
+    "resource_name": "N/A",
+    "status": "FAILED",
+    "error": "Negative keyword (cannot pause, must remove)"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390164",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "170844309513",
+    "criterion_id": "11704571560",
+    "keyword_text": "bed and breakfast baslow",
+    "match_type": "EXACT",
+    "campaign": "Cavendish",
+    "ad_group": "Search - Cavendish Hotel Baslow",
+    "resource_name": "customers/5898250490/adGroupCriteria/170844309513~11704571560",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390176",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "170844309513",
+    "criterion_id": "98402665",
+    "keyword_text": "country hotels uk",
+    "match_type": "EXACT",
+    "campaign": "Cavendish",
+    "ad_group": "Search - Cavendish Hotel Baslow",
+    "resource_name": "customers/5898250490/adGroupCriteria/170844309513~98402665",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390184",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "170844309513",
+    "criterion_id": "2276232358722",
+    "keyword_text": "cavendish house derbyshire",
+    "match_type": "EXACT",
+    "campaign": "Cavendish",
+    "ad_group": "Search - Cavendish Hotel Baslow",
+    "resource_name": "customers/5898250490/adGroupCriteria/170844309513~2276232358722",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390191",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145493058603",
+    "criterion_id": "304623178555",
+    "keyword_text": "luxury hotels peak district",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Locations",
+    "ad_group": "Search - Peak District Hotels",
+    "resource_name": "customers/5898250490/adGroupCriteria/145493058603~304623178555",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390199",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145493058603",
+    "criterion_id": "140059516",
+    "keyword_text": "hotel peak district",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Locations",
+    "ad_group": "Search - Peak District Hotels",
+    "resource_name": "customers/5898250490/adGroupCriteria/145493058603~140059516",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390206",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145493059123",
+    "criterion_id": "315415980638",
+    "keyword_text": "holidays in derbyshire peak district",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Locations",
+    "ad_group": "Search - North Peak District Hotels",
+    "resource_name": "customers/5898250490/adGroupCriteria/145493059123~315415980638",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390214",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "145493059123",
+    "criterion_id": "37326869740",
+    "keyword_text": "peak district getaways",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Locations",
+    "ad_group": "Search - North Peak District Hotels",
+    "resource_name": "customers/5898250490/adGroupCriteria/145493059123~37326869740",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390223",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "142451973337",
+    "criterion_id": "303753752522",
+    "keyword_text": "chatsworth pubs with rooms",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Inns & Hotels",
+    "ad_group": "Search - Chatsworth Estate Pubs",
+    "resource_name": "N/A",
+    "status": "FAILED",
+    "error": "Negative keyword (cannot pause, must remove)"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390237",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "142451973337",
+    "criterion_id": "13955850421",
+    "keyword_text": "accommodation near chatsworth house",
+    "match_type": "EXACT",
+    "campaign": "Chatsworth Escapes Inns & Hotels",
+    "ad_group": "Search - Chatsworth Estate Pubs",
+    "resource_name": "N/A",
+    "status": "FAILED",
+    "error": "Negative keyword (cannot pause, must remove)"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390244",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "180093078420",
+    "criterion_id": "13880867634",
+    "keyword_text": "hotels in beeley",
+    "match_type": "EXACT",
+    "campaign": "The Beeley Inn",
+    "ad_group": "Search - Beeley Hotel",
+    "resource_name": "customers/5898250490/adGroupCriteria/180093078420~13880867634",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T13:26:50.390251",
+    "action": "PAUSE",
+    "customer_id": "5898250490",
+    "ad_group_id": "147580845240",
+    "criterion_id": "1631697467752",
+    "keyword_text": "pilsley pubs",
+    "match_type": "EXACT",
+    "campaign": "The Pilsley Inn",
+    "ad_group": "Search - Pilsley Hotels",
+    "resource_name": "customers/5898250490/adGroupCriteria/147580845240~1631697467752",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-11-18T15:30:00",
+    "action": "BUDGET_REALLOCATION",
+    "customer_id": "5898250490",
+    "changes": [
+      {
+        "campaign_id": "22720114456",
+        "campaign_name": "DEV | Properties BE | Bolton Abbey Escapes Locations",
+        "action": "PAUSE_CAMPAIGN",
+        "previous_budget": "\u00a311/day",
+        "reason": "Zero conversions (\u00a3179.96 spent Nov 1-17, \u00a30 value, 0% ROAS)",
+        "status": "SUCCESS"
+      },
+      {
+        "campaign_id": "21839323410",
+        "budget_id": "14032878235",
+        "campaign_name": "DEV | Properties CE | Cavendish",
+        "action": "UPDATE_BUDGET",
+        "previous_budget": "\u00a348/day (48,000,000 micros)",
+        "new_budget": "\u00a359/day (59,000,000 micros)",
+        "increase": "+\u00a311/day (reallocated from Bolton Abbey)",
+        "reason": "48.99% budget lost impression share, 695% ROAS, TEST to justify continued higher budget",
+        "status": "SUCCESS"
+      }
+    ],
+    "implementation": "Manual (via Google Ads UI)",
+    "test_period": "Nov 18-30, 2025",
+    "review_date": "End of November (monthly report)",
+    "success_criteria": "Maintain 695%+ ROAS, increase revenue, reduce impression share lost",
+    "baseline_file": "clients/devonshire-hotels/documents/cavendish-budget-increase-baseline-nov-18.md",
+    "experiment_log": "roksys/spreadsheets/rok-experiments-client-notes.csv (18/11/2025 15:00 entry)"
+  },
+  {
+    "timestamp": "2025-11-18T18:34:13.500482",
+    "action": "BUDGET_UPDATE_REVENUE_PROPORTIONAL",
+    "customer_id": "5898250490",
+    "reason": "November overspend reduction - property campaigns only, proportional to revenue contribution",
+    "total_reduction": "\u00a361/day",
+    "changes": [
+      {
+        "budget_id": "11945680219",
+        "campaign_name": "P Max All",
+        "old_budget_micros": 66000000,
+        "new_budget_micros": 48000000,
+        "old_daily": "\u00a366",
+        "new_daily": "\u00a348",
+        "reduction": "18",
+        "reason": "Revenue 29.11% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/11945680219"
+        }
+      },
+      {
+        "budget_id": "12288076740",
+        "campaign_name": "Dev Arms Hotel",
+        "old_budget_micros": 52000000,
+        "new_budget_micros": 36000000,
+        "old_daily": "\u00a352",
+        "new_daily": "\u00a336",
+        "reduction": "16",
+        "reason": "Revenue 25.96% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/12288076740"
+        }
+      },
+      {
+        "budget_id": "14032878235",
+        "campaign_name": "Cavendish",
+        "old_budget_micros": 59000000,
+        "new_budget_micros": 50000000,
+        "old_daily": "\u00a359",
+        "new_daily": "\u00a350",
+        "reduction": "9",
+        "reason": "Revenue 14.19% of total, proportional reduction (still \u00a32 above original \u00a348 for test)",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/14032878235"
+        }
+      },
+      {
+        "budget_id": "14556539992",
+        "campaign_name": "Beeley Inn",
+        "old_budget_micros": 29000000,
+        "new_budget_micros": 22000000,
+        "old_daily": "\u00a329",
+        "new_daily": "\u00a322",
+        "reduction": "7",
+        "reason": "Revenue 12.13% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/14556539992"
+        }
+      },
+      {
+        "budget_id": "14649374763",
+        "campaign_name": "The Fell",
+        "old_budget_micros": 26000000,
+        "new_budget_micros": 22000000,
+        "old_daily": "\u00a326",
+        "new_daily": "\u00a322",
+        "reduction": "4",
+        "reason": "Revenue 6.56% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/14649374763"
+        }
+      },
+      {
+        "budget_id": "12266218514",
+        "campaign_name": "Pilsley Inn",
+        "old_budget_micros": 24000000,
+        "new_budget_micros": 20000000,
+        "old_daily": "\u00a324",
+        "new_daily": "\u00a320",
+        "reduction": "4",
+        "reason": "Revenue 6.20% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/12266218514"
+        }
+      },
+      {
+        "budget_id": "6448751751",
+        "campaign_name": "Chatsworth Inns",
+        "old_budget_micros": 25000000,
+        "new_budget_micros": 22000000,
+        "old_daily": "\u00a325",
+        "new_daily": "\u00a322",
+        "reduction": "3",
+        "reason": "Revenue 4.25% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/6448751751"
+        }
+      },
+      {
+        "budget_id": "12346612231",
+        "campaign_name": "Chatsworth Locations",
+        "old_budget_micros": 16000000,
+        "new_budget_micros": 15000000,
+        "old_daily": "\u00a316",
+        "new_daily": "\u00a315",
+        "reduction": "1",
+        "reason": "Revenue 2.29% of total, proportional reduction",
+        "result": {
+          "success": true,
+          "resource_name": "customers/5898250490/campaignBudgets/12346612231"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,732 @@
+{
+  "date": "2025-11-04",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-11-03",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 33,
+    "price_changes": 32,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 3,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8399315206421_45691998306581",
+      "title": "Glean Black Stone Restorer & Sealer: 1L Water Based, Premium Black Stone Protector for Interior & Exterior Surfaces",
+      "changes": {
+        "price": [
+          "39.99 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8961072365845_47776701415701",
+      "title": "Oven, Grill & BBQ Cleaner 400ml | GLEAN 3 x 400ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871875861",
+      "title": "Glean Patio Grout - Grey - 15kg - 20m\u00b2 Coverage - Ready-to-use, Weatherproof, Weed Resistant, Non-staining",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_51901294641530",
+      "title": "Foaming Quartz Granite Cleaner | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961942394",
+      "title": "Glean Grout Reviver & Sealer Kit - Charcoal - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305685882",
+      "title": "Patio Grout - Brush In Jointing Compound 15Kg Pure Charcoal | GLEAN",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_46127133229333",
+      "title": "Glean Foaming Quartz, Granite & Marble Cleaner 3 x 400ml - Streak Free Finish - Protects Surface - Easy to Use - Fresh Fragrance",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ],
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_46127268004117",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 3 x 400ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399313240341_45446855033109",
+      "title": "Limestone Cleaner Spray | GLEAN",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8444225683733_45692215820565",
+      "title": "Door Restore Colour Reviver | GLEAN 400ml",
+      "changes": {
+        "price": [
+          "13.99 GBP",
+          "14.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15189320958330_55592990769530",
+      "title": "Grout Reviver Pens | White | 2 x 10ml",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14886398787962_54898059936122",
+      "title": "10 Pcs Grout Sealant Remover Tool Set | Sealant Finishing Tool",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15097640681850_55375976071546",
+      "title": "Glean Composite Sink Restorer 500ml - For Black, Grey or White Sinks - Revives Dull, Discoloured Sinks - Removes Limescale - Shines & Protects",
+      "changes": {
+        "price": [
+          "13.99 GBP",
+          "14.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_45692540813589",
+      "title": "Tile & Grout Sealer Aerosol | GLEAN 1 x 400ml",
+      "changes": {
+        "price": [
+          "11.99 GBP",
+          "12.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315271957_45692457648405",
+      "title": "Sticky Stuff Remover Gel Spray | GLEAN 1 x 400ml",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314354453_45447132512533",
+      "title": "Glean Salt Stain & White Efflorescence Remover 1 Litre | Ready-to-Use for Concrete, Brick & Walls",
+      "changes": {
+        "price": [
+          "18.99 GBP",
+          "19.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45446868205845",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 500ml",
+      "changes": {
+        "price": [
+          "14.99 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8997265899797_47905050853653",
+      "title": "Rattan Furniture Foaming Cleaner 500ml | GLEAN 3 x 500ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426152314",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 3x500ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45446868271381",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 5 Litre",
+      "changes": {
+        "price": [
+          "59.99 GBP",
+          "60.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8945720164629_47707964113173",
+      "title": "Sticky Stuff Remover Liquid | GLEAN 500ml",
+      "changes": {
+        "price": [
+          "12.99 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_51901326983546",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45447132610837",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 1 Litre",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_51901336748410",
+      "title": "Tile & Grout Sealer Aerosol | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871843093",
+      "title": "Glean Patio Grout - Natural Buff - 15kg - Weatherproof Jointing Compound - Easy Application",
+      "changes": {
+        "price": [
+          "39.99 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962007930",
+      "title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ],
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8444225683733_46123755995413",
+      "title": "Door Restore Colour Reviver | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "19.99 GBP",
+          "20.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961975162",
+      "title": "Glean Grout Reviver & Sealer Kit, 340g/250ml - Light Grey Tile Grout Restorer, Stain Resistant, Waterproof, Non-Toxic",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314190613_45446866796821",
+      "title": "Anti-Slip Stone Grip Treatment | GLEAN 500ml",
+      "changes": {
+        "price": [
+          "34.99 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315206421_45691992244501",
+      "title": "Glean Black Stone Sealer: Premium Water-Based, Superior Protection, Repels Water/Oil/Grease, Made in Britain, 500ml",
+      "changes": {
+        "price": [
+          "19.99 GBP",
+          "20.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426086778",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "changes": {
+        "price": [
+          "11.99 GBP",
+          "12.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314714901_46127225110805",
+      "title": "Kitchen Cupboard Cleaner | 400ml | GLEAN 3 x 400ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_GB_8399315206421_45691998306581",
+      "title": "Glean Black Stone Restorer & Sealer: 1L Water Based, Premium Black Stone Protector for Interior & Exterior Surfaces",
+      "changes": {
+        "price": [
+          "39.99 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8961072365845_47776701415701",
+      "title": "Oven, Grill & BBQ Cleaner 400ml | GLEAN 3 x 400ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_51901294641530",
+      "title": "Foaming Quartz Granite Cleaner | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961942394",
+      "title": "Glean Grout Reviver & Sealer Kit - Charcoal - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305685882",
+      "title": "Patio Grout - Brush In Jointing Compound 15Kg Pure Charcoal | GLEAN",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_46127133229333",
+      "title": "Glean Foaming Quartz, Granite & Marble Cleaner 3 x 400ml - Streak Free Finish - Protects Surface - Easy to Use - Fresh Fragrance",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ],
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_46127268004117",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 3 x 400ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399313240341_45446855033109",
+      "title": "Limestone Cleaner Spray | GLEAN",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8444225683733_45692215820565",
+      "title": "Door Restore Colour Reviver | GLEAN 400ml",
+      "changes": {
+        "price": [
+          "13.99 GBP",
+          "14.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15189320958330_55592990769530",
+      "title": "Grout Reviver Pens | White | 2 x 10ml",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14886398787962_54898059936122",
+      "title": "10 Pcs Grout Sealant Remover Tool Set | Sealant Finishing Tool",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15097640681850_55375976071546",
+      "title": "Glean Composite Sink Restorer 500ml - For Black, Grey or White Sinks - Revives Dull, Discoloured Sinks - Removes Limescale - Shines & Protects",
+      "changes": {
+        "price": [
+          "13.99 GBP",
+          "14.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "41.99 GBP",
+          "42.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_45692540813589",
+      "title": "Tile & Grout Sealer Aerosol | GLEAN 1 x 400ml",
+      "changes": {
+        "price": [
+          "11.99 GBP",
+          "12.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315271957_45692457648405",
+      "title": "Sticky Stuff Remover Gel Spray | GLEAN 1 x 400ml",
+      "changes": {
+        "price": [
+          "9.99 GBP",
+          "10.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314354453_45447132512533",
+      "title": "Glean Salt Stain & White Efflorescence Remover 1 Litre | Ready-to-Use for Concrete, Brick & Walls",
+      "changes": {
+        "price": [
+          "18.99 GBP",
+          "19.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45446868205845",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 500ml",
+      "changes": {
+        "price": [
+          "14.99 GBP",
+          "15.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8997265899797_47905050853653",
+      "title": "Rattan Furniture Foaming Cleaner 500ml | GLEAN 3 x 500ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426152314",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 3x500ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45446868271381",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 5 Litre",
+      "changes": {
+        "price": [
+          "59.99 GBP",
+          "60.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8945720164629_47707964113173",
+      "title": "Sticky Stuff Remover Liquid | GLEAN 500ml",
+      "changes": {
+        "price": [
+          "12.99 GBP",
+          "13.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_51901326983546",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45447132610837",
+      "title": "Porcelain Floor & Tile Cleaner | GLEAN 1 Litre",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_51901336748410",
+      "title": "Tile & Grout Sealer Aerosol | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871843093",
+      "title": "Glean Patio Grout - Natural Buff - 15kg - Weatherproof Jointing Compound - Easy Application",
+      "changes": {
+        "price": [
+          "39.99 GBP",
+          "40.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962007930",
+      "title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ],
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8444225683733_46123755995413",
+      "title": "Door Restore Colour Reviver | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "19.99 GBP",
+          "20.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961975162",
+      "title": "Glean Grout Reviver & Sealer Kit, 340g/250ml - Light Grey Tile Grout Restorer, Stain Resistant, Waterproof, Non-Toxic",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314190613_45446866796821",
+      "title": "Anti-Slip Stone Grip Treatment | GLEAN 500ml",
+      "changes": {
+        "price": [
+          "34.99 GBP",
+          "35.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315206421_45691992244501",
+      "title": "Glean Black Stone Sealer: Premium Water-Based, Superior Protection, Repels Water/Oil/Grease, Made in Britain, 500ml",
+      "changes": {
+        "price": [
+          "19.99 GBP",
+          "20.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426086778",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "changes": {
+        "price": [
+          "11.99 GBP",
+          "12.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314714901_46127225110805",
+      "title": "Kitchen Cupboard Cleaner | 400ml | GLEAN 3 x 400ml",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8399315337493_45446871875861",
+      "title": "Glean Patio Grout - Grey - 15kg - 20m\u00b2 Coverage - Ready-to-use, Weatherproof, Weed Resistant, Non-staining",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_46127133229333",
+      "title": "Glean Foaming Quartz, Granite & Marble Cleaner 3 x 400ml - Streak Free Finish - Protects Surface - Easy to Use - Fresh Fragrance",
+      "changes": {
+        "price": [
+          "23.99 GBP",
+          "24.00 GBP"
+        ],
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962007930",
+      "title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ],
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

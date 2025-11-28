@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Automated Campaign Report Workflow",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Ads automated reporting system",
+        "extracted_at": "2025-11-11T09:21:36.922396",
+        "verified": false
+      }
+    ],
+    "content": {
+      "user_access": "Reports only sent to authorized users on Google Ads account",
+      "access_types": "Full account access or email-only access (requires admin permission to grant)",
+      "report_access_method": "View via Google Ads reporting interface - data not included in email",
+      "customer_id_format": "256-994-9686 (standard Google Ads format)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

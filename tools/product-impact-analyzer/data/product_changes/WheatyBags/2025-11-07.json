@@ -1,0 +1,67 @@
+{
+  "date": "2025-11-07",
+  "client": "WheatyBags",
+  "comparison_date": "2025-11-06",
+  "total_products_today": 2964,
+  "total_products_yesterday": 2964,
+  "summary": {
+    "changed_products": 2,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 2,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS47V397634",
+      "title": "WheatyBags Neck & Shoulder Wheat Bag Heat Pack with Lavender - UK Made, BS8433 Compliant, 37cm x 27cm, Purple Cotton, Scented, Personalised Gift",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1001",
+      "title": "Wheat Bags Extra Large Rectangle Heat Pack - Many Colours, UK Made, 49cm x 15cm",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "WBS47V397634",
+      "title": "WheatyBags Neck & Shoulder Wheat Bag Heat Pack with Lavender - UK Made, BS8433 Compliant, 37cm x 27cm, Purple Cotton, Scented, Personalised Gift",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1001",
+      "title": "Wheat Bags Extra Large Rectangle Heat Pack - Many Colours, UK Made, 49cm x 15cm",
+      "changes": {
+        "custom_label_4": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ]
+}

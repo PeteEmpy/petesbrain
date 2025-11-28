@@ -1,0 +1,19 @@
+{
+  "spreadsheet_id": "1Hovs50_nU3Ruo37F1vJsUmqCXmKxbHboPC2XWQOzw3Q",
+  "range": "Product Summary!A1:J1",
+  "values": [
+    [
+      "Client",
+      "Product ID",
+      "Product Title",
+      "Current Label",
+      "Last 7D Clicks",
+      "Last 7D Revenue",
+      "Last 30D Clicks",
+      "Last 30D Revenue",
+      "ROAS",
+      "Status"
+    ]
+  ],
+  "timestamp": "2025-11-02T17:48:08.465015"
+}

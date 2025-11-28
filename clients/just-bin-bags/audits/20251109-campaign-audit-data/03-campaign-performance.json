@@ -1,0 +1,79 @@
+[
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/19330440461",
+      "status": "ENABLED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 2
+      },
+      "name": "JBB | P Max  200 21/5",
+      "id": "19330440461"
+    },
+    "metrics": {
+      "clicks": "1152",
+      "conversionsValue": 2563.066657176,
+      "conversions": 54.10879,
+      "costMicros": "1532153579",
+      "costPerConversion": 28316167.83520755,
+      "ctr": 0.01168274057622684,
+      "averageCpc": 1329994.4262152778,
+      "impressions": "98607"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/12165908832",
+      "amountMicros": "50000000"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/23025217110",
+      "status": "ENABLED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "name": "JBB | JHD | P Max Shopping",
+      "id": "23025217110"
+    },
+    "metrics": {
+      "clicks": "282",
+      "conversionsValue": 0,
+      "conversions": 0,
+      "costMicros": "295698404",
+      "ctr": 0.005796505652620761,
+      "averageCpc": 1048575.9007092199,
+      "impressions": "48650"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/14947821292",
+      "amountMicros": "10000000"
+    }
+  },
+  {
+    "campaign": {
+      "resourceName": "customers/9697059148/campaigns/21713675420",
+      "status": "ENABLED",
+      "advertisingChannelType": "SEARCH",
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "maximizeConversions": {
+        "targetCpaMicros": "7000000"
+      },
+      "name": "JBB | Brand 6 7 31/3",
+      "id": "21713675420"
+    },
+    "metrics": {
+      "clicks": "90",
+      "conversionsValue": 1790.50767249,
+      "conversions": 28.557877,
+      "costMicros": "150682225",
+      "costPerConversion": 5276380.488647668,
+      "ctr": 0.4090909090909091,
+      "averageCpc": 1674246.9444444445,
+      "impressions": "220"
+    },
+    "campaignBudget": {
+      "resourceName": "customers/9697059148/campaignBudgets/13922701871",
+      "amountMicros": "31000000"
+    }
+  }
+]

@@ -1,0 +1,219 @@
+{% extends "base.html" %}
+
+{% block title %}Generate Report - Report Generator{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Generate New Report</h1>
+    <p>Create professional reports from your Google Ads, Analytics, and client data</p>
+</div>
+
+<div class="form-container">
+    <form id="reportForm" method="POST" action="/generate">
+        <!-- Report Type Selection -->
+        <div class="form-section">
+            <h2>Report Type</h2>
+            <div class="report-types">
+                <label class="report-type-card">
+                    <input type="radio" name="report_type" value="q4_strategy" required>
+                    <div class="card-content">
+                        <div class="card-icon">📈</div>
+                        <h3>Q4 Strategy Report</h3>
+                        <p>Comprehensive quarterly strategy with budget allocation, ROAS targets, and regional breakdown</p>
+                    </div>
+                </label>
+
+                <label class="report-type-card">
+                    <input type="radio" name="report_type" value="weekly_performance" required>
+                    <div class="card-content">
+                        <div class="card-icon">📊</div>
+                        <h3>Weekly Performance</h3>
+                        <p>Week-over-week performance trends, campaign analysis, and key metrics dashboard</p>
+                    </div>
+                </label>
+
+                <label class="report-type-card">
+                    <input type="radio" name="report_type" value="monthly_summary" required>
+                    <div class="card-content">
+                        <div class="card-icon">📅</div>
+                        <h3>Monthly Summary</h3>
+                        <p>Month-end summary with top campaigns, insights, and action items</p>
+                    </div>
+                </label>
+
+                <label class="report-type-card">
+                    <input type="radio" name="report_type" value="campaign_analysis" required>
+                    <div class="card-content">
+                        <div class="card-icon">🔍</div>
+                        <h3>Campaign Analysis</h3>
+                        <p>Deep dive into campaign performance with optimization recommendations</p>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <!-- Client Selection -->
+        <div class="form-section">
+            <h2>Client</h2>
+            <div class="form-group">
+                <label for="client_name">Select Client</label>
+                <select id="client_name" name="client_name" required>
+                    <option value="">-- Select a client --</option>
+                    {% for client in clients %}
+                    <option value="{{ client.name }}">{{ client.display_name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div id="clientAccounts" class="client-accounts" style="display: none;">
+                <!-- Will be populated via JavaScript -->
+            </div>
+        </div>
+
+        <!-- Date Range -->
+        <div class="form-section">
+            <h2>Date Range</h2>
+            <div class="form-group">
+                <label for="date_range_type">Date Range</label>
+                <select id="date_range_type" name="date_range_type" required>
+                    <option value="last_7_days">Last 7 Days</option>
+                    <option value="last_30_days">Last 30 Days</option>
+                    <option value="this_month">This Month</option>
+                    <option value="last_month">Last Month</option>
+                    <option value="q4_2025" selected>Q4 2025 (Oct-Dec)</option>
+                    <option value="custom">Custom Range</option>
+                </select>
+            </div>
+
+            <div id="customDateRange" class="custom-date-range" style="display: none;">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="custom_start">Start Date</label>
+                        <input type="date" id="custom_start" name="custom_start">
+                    </div>
+                    <div class="form-group">
+                        <label for="custom_end">End Date</label>
+                        <input type="date" id="custom_end" name="custom_end">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Options -->
+        <div class="form-section">
+            <h2>Options</h2>
+            <div class="form-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="save_to_client" value="true" checked>
+                    Save report to client folder
+                </label>
+            </div>
+        </div>
+
+        <!-- Submit -->
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary" id="generateBtn">
+                <span class="btn-text">Generate Report</span>
+                <span class="btn-loader" style="display: none;">Generating...</span>
+            </button>
+        </div>
+    </form>
+</div>
+
+<div id="statusMessage" class="status-message" style="display: none;"></div>
+
+<script>
+// Show/hide custom date range fields
+document.getElementById('date_range_type').addEventListener('change', function() {
+    const customRange = document.getElementById('customDateRange');
+    if (this.value === 'custom') {
+        customRange.style.display = 'block';
+        document.getElementById('custom_start').required = true;
+        document.getElementById('custom_end').required = true;
+    } else {
+        customRange.style.display = 'none';
+        document.getElementById('custom_start').required = false;
+        document.getElementById('custom_end').required = false;
+    }
+});
+
+// Load client accounts when client is selected
+document.getElementById('client_name').addEventListener('change', function() {
+    const clientName = this.value;
+    const accountsDiv = document.getElementById('clientAccounts');
+
+    if (!clientName) {
+        accountsDiv.style.display = 'none';
+        return;
+    }
+
+    fetch(`/api/client/${clientName}/accounts`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.accounts && data.accounts.length > 0) {
+                let html = '<h4>Google Ads Accounts</h4><ul class="account-list">';
+                data.accounts.forEach(account => {
+                    html += `<li><strong>${account.name}</strong> (${account.id}) - ${account.region || 'N/A'}</li>`;
+                });
+                html += '</ul>';
+                accountsDiv.innerHTML = html;
+                accountsDiv.style.display = 'block';
+            } else {
+                accountsDiv.style.display = 'none';
+            }
+        })
+        .catch(error => {
+            console.error('Error loading accounts:', error);
+            accountsDiv.style.display = 'none';
+        });
+});
+
+// Handle form submission
+document.getElementById('reportForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const btn = document.getElementById('generateBtn');
+    const btnText = btn.querySelector('.btn-text');
+    const btnLoader = btn.querySelector('.btn-loader');
+    const statusMessage = document.getElementById('statusMessage');
+
+    // Show loading state
+    btn.disabled = true;
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    statusMessage.style.display = 'none';
+
+    // Submit form
+    const formData = new FormData(this);
+
+    fetch('/generate', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            statusMessage.className = 'status-message status-success';
+            statusMessage.textContent = 'Report generated successfully! Redirecting...';
+            statusMessage.style.display = 'block';
+
+            // Redirect to view page
+            setTimeout(() => {
+                window.location.href = data.redirect;
+            }, 1000);
+        } else {
+            throw new Error(data.error || 'Unknown error');
+        }
+    })
+    .catch(error => {
+        statusMessage.className = 'status-message status-error';
+        statusMessage.textContent = 'Error: ' + error.message;
+        statusMessage.style.display = 'block';
+
+        // Reset button state
+        btn.disabled = false;
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+    });
+});
+</script>
+{% endblock %}

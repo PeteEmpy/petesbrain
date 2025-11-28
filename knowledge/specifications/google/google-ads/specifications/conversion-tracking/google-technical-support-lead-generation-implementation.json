@@ -1,0 +1,33 @@
+{
+  "specification": {
+    "title": "Google Technical Support Lead Generation Implementation",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-ads-lead-generation-technical-support-appointment.md",
+        "extracted_at": "2025-11-11T09:21:36.954869",
+        "verified": false
+      }
+    ],
+    "content": {
+      "required_attendees": [
+        "Website admin with FTP/admin panel access to source code",
+        "CRM Point of Contact with admin access",
+        "Google Ads manager with account access"
+      ],
+      "pre_call_checklist": [
+        "Accept calendar invite (authorizes Technical Specialist to make changes)",
+        "Back up website before call",
+        "Install Google Meet for screen sharing"
+      ],
+      "authorization_method": "Calendar invite acceptance required before account changes",
+      "rescheduling_limit": "Maximum 3 reschedules allowed",
+      "meeting_duration": "60 minutes",
+      "implementation_scope": "Installation of tracking codes on website, campaign, and analytics account",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,35 @@
+---
+title: Roksys Rhino Scripts Inventory - Google Apps Script Management
+source: roksys.co.uk_Rhino_Scripts.csv
+date_added: 2025-11-12
+last_updated: 2025-11-12
+tags: [google-apps-script, automation, roksys-internal, script-management, operational-tool]
+source_type: document
+---
+
+## Summary
+
+- Primary inventory file for Google Apps Scripts used within Roksys organization
+- Tracks single script entry with comprehensive metadata including URLs, ownership, and compatibility
+- Script last modified January 22, 2025 with zero recorded executions
+- Linked to Google Spreadsheet container for spreadsheet automation purposes
+- Monitors script health including library dependencies and incompatibility issues
+
+## Key Insights
+
+- Roksys maintains formal tracking of internal automation scripts, indicating mature operational processes
+- The zero execution count suggests this may be part of a deployment or testing phase
+- Comprehensive metadata tracking enables proactive management of script compatibility and dependencies
+- This represents internal tooling for managing marketing technology infrastructure
+
+## Full Content
+
+Script_URL,Script_ID,Container_Link,Last_Update_Dt_Tm,Creator_Email,Owner_Email,Incompatibility_Reason,Opted_Out,Dependent_Library_Count,Dependency_Incompatibility_Reason,Is_Used_As_Library,Execution_Count,Versions
+https://script.google.com/d/1JDkqHPUrXlCehD099DhFg8XYh2vr2hI8JoG-ab7LRNkXvqCOgxOi3-XY/edit,1JDkqHPUrXlCehD099DhFg8XYh2vr2hI8JoG-ab7LRNkXvqCOgxOi3-XY,https://docs.google.com/spreadsheets/d/17Vr_aWFOOJj7RXbKqj3-7ccYt7ZFZ8apjEVkGhrTCHc,2025-01-22 12:43:10,petere@roksys.co.uk,petere@roksys.co.uk,,false,0,,false,0,""
+
+
+
+---
+
+*Processed from inbox on 2025-11-12*
+*Original file: roksys.co.uk_Rhino_Scripts.csv*

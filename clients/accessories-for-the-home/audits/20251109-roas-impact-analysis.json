@@ -1,0 +1,251 @@
+{
+  "analysis_date": "2025-11-09",
+  "change_date": "2025-11-05",
+  "before_period": {
+    "start": "2025-10-29",
+    "end": "2025-11-05",
+    "days": 7
+  },
+  "after_period": {
+    "start": "2025-11-05",
+    "end": "2025-11-09",
+    "days": 4
+  },
+  "campaigns": {
+    "20276730131": {
+      "name": "Main P Max (Furniture H&S/Zombies)",
+      "before": {
+        "cost": 5856.78,
+        "revenue": 13192.34,
+        "roas": 2.25,
+        "conversions": 31.69,
+        "cpa": 184.81,
+        "cvr": 0.4,
+        "ctr": 0.93,
+        "impressions": 862394,
+        "clicks": 7992,
+        "impression_share": 54.0,
+        "budget_lost_is": 0.6,
+        "rank_lost_is": 45.4
+      },
+      "after": {
+        "cost": 4626.88,
+        "revenue": 7690.72,
+        "roas": 1.66,
+        "conversions": 13.95,
+        "cpa": 331.76,
+        "cvr": 0.31,
+        "ctr": 1.42,
+        "impressions": 312494,
+        "clicks": 4432,
+        "impression_share": 10.0,
+        "budget_lost_is": 20.3,
+        "rank_lost_is": 76.8
+      },
+      "after_extended": {
+        "cost": 4626.88,
+        "revenue": 7690.72,
+        "roas": 1.66,
+        "conversions": 13.95,
+        "cpa": 331.76,
+        "cvr": 0.31,
+        "ctr": 1.42,
+        "impressions": 312494,
+        "clicks": 4432,
+        "impression_share": 10.0,
+        "budget_lost_is": 20.3,
+        "rank_lost_is": 76.8
+      },
+      "comparison": {
+        "cost": {
+          "before": 5856.78,
+          "after": 4626.88,
+          "change": -1229.8999999999996,
+          "pct_change": -21.0
+        },
+        "revenue": {
+          "before": 13192.34,
+          "after": 7690.72,
+          "change": -5501.62,
+          "pct_change": -41.7
+        },
+        "roas": {
+          "before": 2.25,
+          "after": 1.66,
+          "change": -0.5900000000000001,
+          "pct_change": -26.2
+        },
+        "conversions": {
+          "before": 31.69,
+          "after": 13.95,
+          "change": -17.740000000000002,
+          "pct_change": -56.0
+        },
+        "cpa": {
+          "before": 184.81,
+          "after": 331.76,
+          "change": 146.95,
+          "pct_change": 79.5
+        },
+        "cvr": {
+          "before": 0.4,
+          "after": 0.31,
+          "change": -0.09000000000000002,
+          "pct_change": -22.5
+        },
+        "ctr": {
+          "before": 0.93,
+          "after": 1.42,
+          "change": 0.4899999999999999,
+          "pct_change": 52.7
+        },
+        "impressions": {
+          "before": 862394,
+          "after": 312494,
+          "change": -549900,
+          "pct_change": -63.8
+        },
+        "clicks": {
+          "before": 7992,
+          "after": 4432,
+          "change": -3560,
+          "pct_change": -44.5
+        },
+        "impression_share": {
+          "before": 54.0,
+          "after": 10.0,
+          "change": -44.0
+        },
+        "budget_lost_is": {
+          "before": 0.6,
+          "after": 20.3,
+          "change": 19.7
+        },
+        "rank_lost_is": {
+          "before": 45.4,
+          "after": 76.8,
+          "change": 31.4
+        }
+      },
+      "conversion_lag": {
+        "revenue": 0.0,
+        "conversions": 0.0
+      }
+    },
+    "21527979308": {
+      "name": "Shopping Furniture (Villains)",
+      "before": {
+        "cost": 269.39,
+        "revenue": 512.53,
+        "roas": 1.9,
+        "conversions": 3.0,
+        "cpa": 89.8,
+        "cvr": 0.7,
+        "ctr": 2.19,
+        "impressions": 19605,
+        "clicks": 430,
+        "impression_share": 48.8,
+        "budget_lost_is": 51.2,
+        "rank_lost_is": null
+      },
+      "after": {
+        "cost": 183.71,
+        "revenue": 683.67,
+        "roas": 3.72,
+        "conversions": 2.98,
+        "cpa": 61.73,
+        "cvr": 1.22,
+        "ctr": 2.41,
+        "impressions": 10135,
+        "clicks": 244,
+        "impression_share": 47.1,
+        "budget_lost_is": 52.9,
+        "rank_lost_is": null
+      },
+      "after_extended": {
+        "cost": 183.71,
+        "revenue": 683.67,
+        "roas": 3.72,
+        "conversions": 2.98,
+        "cpa": 61.73,
+        "cvr": 1.22,
+        "ctr": 2.41,
+        "impressions": 10135,
+        "clicks": 244,
+        "impression_share": 47.1,
+        "budget_lost_is": 52.9,
+        "rank_lost_is": null
+      },
+      "comparison": {
+        "cost": {
+          "before": 269.39,
+          "after": 183.71,
+          "change": -85.67999999999998,
+          "pct_change": -31.8
+        },
+        "revenue": {
+          "before": 512.53,
+          "after": 683.67,
+          "change": 171.14,
+          "pct_change": 33.4
+        },
+        "roas": {
+          "before": 1.9,
+          "after": 3.72,
+          "change": 1.8200000000000003,
+          "pct_change": 95.8
+        },
+        "conversions": {
+          "before": 3.0,
+          "after": 2.98,
+          "change": -0.020000000000000018,
+          "pct_change": -0.7
+        },
+        "cpa": {
+          "before": 89.8,
+          "after": 61.73,
+          "change": -28.07,
+          "pct_change": -31.3
+        },
+        "cvr": {
+          "before": 0.7,
+          "after": 1.22,
+          "change": 0.52,
+          "pct_change": 74.3
+        },
+        "ctr": {
+          "before": 2.19,
+          "after": 2.41,
+          "change": 0.2200000000000002,
+          "pct_change": 10.0
+        },
+        "impressions": {
+          "before": 19605,
+          "after": 10135,
+          "change": -9470,
+          "pct_change": -48.3
+        },
+        "clicks": {
+          "before": 430,
+          "after": 244,
+          "change": -186,
+          "pct_change": -43.3
+        },
+        "impression_share": {
+          "before": 48.8,
+          "after": 47.1,
+          "change": -1.7
+        },
+        "budget_lost_is": {
+          "before": 51.2,
+          "after": 52.9,
+          "change": 1.7
+        }
+      },
+      "conversion_lag": {
+        "revenue": 0.0,
+        "conversions": 0.0
+      }
+    }
+  }
+}

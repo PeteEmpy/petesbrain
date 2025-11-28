@@ -1,0 +1,132 @@
+---
+title: Google Technical Support Appointment - Lead Generation Setup (Case 7-6155000039426)
+source: invite.ics
+date_added: 2025-11-08
+last_updated: 2025-11-08
+tags: [technical-support, lead-generation, implementation, tracking-setup, google-ads-support]
+source_type: document
+---
+
+## Summary
+
+- Scheduled technical support appointment for Lead Generation implementation on November 13, 2025
+- Requires attendees with admin access to website source code and Google Ads/Analytics accounts
+- Pre-appointment requirements include website backup and Google Meet setup for screen sharing
+- Support team will guide through installation of tracking codes on website, campaigns, and analytics
+- All changes made at client's own risk with no guaranteed results; spending increases possible
+
+## Key Insights
+
+- Technical implementation requires specific personnel: someone with website source code access AND Google Ads/Analytics admin access must be present
+- Google explicitly disclaims responsibility for results or spending increases from implemented changes - clients assume full risk
+- Pre-call preparation is mandatory (website backup, Meet setup, checklist review) or appointment will be rescheduled
+- Appointment will auto-cancel if all attendees decline or don't respond within 24 hours of scheduled time
+- This represents a hands-on technical implementation session rather than a consultation - actual code changes will be made during the call
+
+## Full Content
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20251113T170000Z
+DTEND:20251113T180000Z
+DTSTAMP:20251107T120525Z
+ORGANIZER;CN=Connect Appointments:mailto:f8feb755e5f9df2df3ef1726eba01cb870
+ 51dc1ab7628011122557f284bb3b02@group.calendar.google.com
+UID:4960559263790016424@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=petere@roksys.co.uk;X-NUM-GUESTS=0:mailto:petere@roksys.co.uk
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Solomiya Karplyuk;X-NUM-GUESTS=0:mailto:solomiyak@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=henry@nda.ac.uk;X-NUM-GUESTS=0:mailto:henry@nda.ac.uk
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=hello@paolor.co.uk;X-NUM-GUESTS=0:mailto:hello@paolor.co.uk
+X-GOOGLE-CONFERENCE:https://meet.google.com/cfd-pgcr-wvp
+X-MICROSOFT-CDO-OWNERAPPTID:1605570756
+CREATED:20251022T215329Z
+DESCRIPTION:Hi Peter\,\n\nThe<strong> Google Technical Support Team </stron
+ g>looks forward to helping with Lead Generation appointment. We will be sup
+ porting you on Case ID 7-6155000039426. \n\nPlease join using the Google Me
+ et link in this calendar invite at the scheduled time.\n\n<span class="unde
+ rline"><a href="https://c.gle/proof/APy2Ad3sPNxQWVf9AE7Ec1Ews6PU_fXJzsAYoSd
+ JWXu9WfentDWstQm14LPtkkREI32bIIrHTYFISLLxxO9xjVR1Bt8-lAPFemEC7EjsA52tYhc_3F
+ KyfFDov4BATmdqBhsjIrwxNJVjC_-N6flJgtSq1j5DWRl5Oy_n56ELwZWmHd4GoFnU72YCUSDTN
+ 0Bw59K2MY4TcaRbiWPJNijszhk9MFCQFwcDxm6WVMj-H4bf6A?disableTrackingProofPage=
+ true" rel="noopener" target="_blank">Edit appointment</a></span> to resched
+ ule/cancel or add others.\n\n<strong>Action Required</strong>\n\n* Google C
+ alendar / Gmail users: Click “Yes” in the invite header\n\n* Non-Google Cal
+ endar / Gmail users: Scroll further below and click “Yes” in the footer\n\n
+ * If you do not see a calendar invite\, please download the attached .ICS f
+ ile and upload it to your calendar\n\n<strong>Required attendees</strong>\n
+ \n* Have someone with admin access who can modify the source code of your w
+ ebsite \n\n* Have someone with administrative access to the Google Ads and/
+ or Analytics accounts\n\n<strong>This appointment requires attendees to acc
+ ept the calendar invite.</strong> If all attendees decline or don&#39\;t re
+ spond within 24 hours of the scheduled time\, the appointment will be cance
+ led.\n\n<strong>Required steps</strong>\n\n1. Back up your website before t
+ he call \n\n2. Get <a href="https://c.gle/proof/APy2Ad1s1qouQ4S9_lenCDki_tV
+ UaRRWF4oMrP6zI_jzYVg2Sg_ifeydQDNz9LEsMB5JeTljaHRLErbbMp5j2f5RXKxRZWomfRoLEm
+ HxUY4msqtBAJNcSg08?disableTrackingProofPage=true"><u>Google Meet</u></a> to
+  screen share during the call\n\n<strong>The call will need to be reschedul
+ ed if you don’t have someone with this access on the call.</strong>\n\nPlea
+ se review the <a href="https://c.gle/proof/APy2Ad3HxgKz_up_Rr-2f6doHt3fisNE
+ RP67UoA-B49taNmQB3qWmbZV7cFsyEZXg855sAjrbK-5uPlIiAaAdpZ2pzKPU06yl6P0qPiaQdS
+ nA4bCYbzByc0pJ-2hVZaEPW0ZMvvOruMXKYCUYBpY0TTNERvVkfg?disableTrackingProofPa
+ ge=true"><u>Pre-call Checklist</u></a> <em>before</em> the call.\n\nThis is
+  an automated message\, please do not reply.\n\nThank you!\n\nGoogle Techni
+ cal Support Team\n\n<table width="348">\n  <colgroup>\n    <col width="348"
+ >\n  </colgroup>\n  <tbody>\n    <tr>\n      <td> \n      <table width="347
+ ">\n        <colgroup>\n          <col width="83">\n          <col width="2
+ 64">\n        </colgroup>\n        <tbody>\n          <tr>\n            <td
+ >\n            <img height="59" src="https://lh5.googleusercontent.com/UTr8
+ ugl9b6K0qF8Uzj-mz6buSI5llWyOyWrm7H8KhuVQ0rB9yKUc3a6A_yhj0V8zVes9-i7kSqTZyP3
+ QyqX-FJZfVPMzgswhqQxDK_Lt0LlZ9ebV7oDnq9jKRkPE10ZHCAV5obYWTgZ0HoHZziUM-6r_yv
+ nFTkdLwvxpeht6wnBAfjQnaRz4bd5fAn2tytc" width="59">\n            </td>\n    
+         <td> \n            <table width="138">\n              <colgroup>\n 
+                <col width="138">\n              </colgroup>\n              
+ <tbody>\n                <tr>\n                  <td colspan="2">\n        
+           Technical Solutions Team on behalf of Google\n                  <
+ /td>\n                </tr>\n              </tbody>\n            </table>\n
+             </td>\n          </tr>\n        </tbody>\n      </table>\n     
+  </td>\n    </tr>\n  </tbody>\n</table>\n\n<strong><em>Reference ID - 7-615
+ 5000039426</em></strong>\n\n<strong><em>Please do not delete the reference 
+ ID so we can reply faster to you. Thank you.</em></strong>\n\n<em>Terms: </
+ em><em>By joining the appointment you acknowledge that you are authorizing 
+ the Technical Specialist to guide you through the installation of relevant 
+ codes on your website and/or campaign and/or analytics account as needed. Y
+ ou hereby acknowledge and recognize that all changes suggested and/or imple
+ mented by Google shall be undertaken solely of your own accord and at your 
+ own risk. Google does not guarantee or promise any results whatsoever from 
+ implementation of such changes. Furthermore\, Google shall not be responsib
+ le for any effects of such changes\, including\, but not limited to\, any s
+ pending increase related to your Google Ads campaign(s) for which you shall
+  be solely responsible.You also agree to validate that your website continu
+ es to function as you intend it to.</em>\n\n<em>Note: We recommend that you
+  ensure your website is fully backed-up before making any changes to your w
+ ebsite/account as these changes may result in lost settings.</em>\n<div></d
+ iv>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/cfd-pgc
+ r-wvp\nOr dial: (US) +1 763-296-2262 PIN: 772633875#\nMore phone numbers: h
+ ttps://tel.meet/cfd-pgcr-wvp?pin=5329734675357&hs=7\n\nLearn more about Mee
+ t at: https://support.google.com/a/users/answer/9282720\n\nPlease do not ed
+ it this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20251107T120523Z
+LOCATION:https://meet.google.com/cfd-pgcr-wvp
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:[CONFIRMED]: Google Support Lead Generation Appointment [7-61550000
+ 39426]\n
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+
+---
+
+*Processed from inbox on 2025-11-08*
+*Original file: invite.ics*

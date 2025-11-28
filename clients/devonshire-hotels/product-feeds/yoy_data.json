@@ -1,0 +1,206 @@
+{
+  "2024": {
+    "Jan": {
+      "cost": 13423.94,
+      "conversions": 107.0,
+      "conv_value": 86960.74,
+      "impressions": 86403,
+      "clicks": 11439,
+      "ctr": 13.24,
+      "conv_rate": 0.94,
+      "roas": 6.48
+    },
+    "Feb": {
+      "cost": 15244.28,
+      "conversions": 79.7,
+      "conv_value": 73002.21,
+      "impressions": 187970,
+      "clicks": 12999,
+      "ctr": 6.92,
+      "conv_rate": 0.61,
+      "roas": 4.79
+    },
+    "Mar": {
+      "cost": 12112.95,
+      "conversions": 55.0,
+      "conv_value": 37076.48,
+      "impressions": 175391,
+      "clicks": 11468,
+      "ctr": 6.54,
+      "conv_rate": 0.48,
+      "roas": 3.06
+    },
+    "Apr": {
+      "cost": 8568.91,
+      "conversions": 65.0,
+      "conv_value": 38328.65,
+      "impressions": 123360,
+      "clicks": 9426,
+      "ctr": 7.64,
+      "conv_rate": 0.69,
+      "roas": 4.47
+    },
+    "May": {
+      "cost": 6988.45,
+      "conversions": 72.0,
+      "conv_value": 37524.2,
+      "impressions": 86067,
+      "clicks": 7766,
+      "ctr": 9.02,
+      "conv_rate": 0.93,
+      "roas": 5.37
+    },
+    "Jun": {
+      "cost": 11942.06,
+      "conversions": 114.0,
+      "conv_value": 61587.8,
+      "impressions": 203253,
+      "clicks": 14392,
+      "ctr": 7.08,
+      "conv_rate": 0.79,
+      "roas": 5.16
+    },
+    "Jul": {
+      "cost": 14448.85,
+      "conversions": 134.0,
+      "conv_value": 71526.6,
+      "impressions": 168668,
+      "clicks": 11914,
+      "ctr": 7.06,
+      "conv_rate": 1.12,
+      "roas": 4.95
+    },
+    "Aug": {
+      "cost": 11493.94,
+      "conversions": 69.0,
+      "conv_value": 44148.89,
+      "impressions": 146479,
+      "clicks": 11160,
+      "ctr": 7.62,
+      "conv_rate": 0.62,
+      "roas": 3.84
+    },
+    "Sep": {
+      "cost": 9168.81,
+      "conversions": 66.0,
+      "conv_value": 48210.32,
+      "impressions": 127594,
+      "clicks": 10283,
+      "ctr": 8.06,
+      "conv_rate": 0.64,
+      "roas": 5.26
+    },
+    "Oct": {
+      "cost": 9972.0,
+      "conversions": 65.0,
+      "conv_value": 37679.68,
+      "impressions": 350422,
+      "clicks": 12288,
+      "ctr": 3.51,
+      "conv_rate": 0.53,
+      "roas": 3.78
+    }
+  },
+  "2025": {
+    "Jan": {
+      "cost": 8125.35,
+      "conversions": 91.0,
+      "conv_value": 48945.41,
+      "impressions": 133792,
+      "clicks": 11634,
+      "ctr": 8.7,
+      "conv_rate": 0.78,
+      "roas": 6.02
+    },
+    "Feb": {
+      "cost": 7516.78,
+      "conversions": 62.0,
+      "conv_value": 33461.1,
+      "impressions": 113316,
+      "clicks": 11392,
+      "ctr": 10.05,
+      "conv_rate": 0.54,
+      "roas": 4.45
+    },
+    "Mar": {
+      "cost": 9191.07,
+      "conversions": 91.0,
+      "conv_value": 52751.58,
+      "impressions": 161420,
+      "clicks": 17396,
+      "ctr": 10.78,
+      "conv_rate": 0.52,
+      "roas": 5.74
+    },
+    "Apr": {
+      "cost": 7586.15,
+      "conversions": 71.0,
+      "conv_value": 41924.47,
+      "impressions": 117405,
+      "clicks": 12223,
+      "ctr": 10.41,
+      "conv_rate": 0.58,
+      "roas": 5.53
+    },
+    "May": {
+      "cost": 7430.14,
+      "conversions": 72.0,
+      "conv_value": 34763.74,
+      "impressions": 122821,
+      "clicks": 14873,
+      "ctr": 12.11,
+      "conv_rate": 0.48,
+      "roas": 4.68
+    },
+    "Jun": {
+      "cost": 11425.85,
+      "conversions": 128.0,
+      "conv_value": 54134.97,
+      "impressions": 268899,
+      "clicks": 22806,
+      "ctr": 8.48,
+      "conv_rate": 0.56,
+      "roas": 4.74
+    },
+    "Jul": {
+      "cost": 12636.54,
+      "conversions": 146.5,
+      "conv_value": 76446.01,
+      "impressions": 189357,
+      "clicks": 22724,
+      "ctr": 12.0,
+      "conv_rate": 0.64,
+      "roas": 6.05
+    },
+    "Aug": {
+      "cost": 13340.01,
+      "conversions": 159.6,
+      "conv_value": 87246.07,
+      "impressions": 312725,
+      "clicks": 27764,
+      "ctr": 8.88,
+      "conv_rate": 0.57,
+      "roas": 6.54
+    },
+    "Sep": {
+      "cost": 9626.74,
+      "conversions": 152.5,
+      "conv_value": 82555.55,
+      "impressions": 182410,
+      "clicks": 19681,
+      "ctr": 10.79,
+      "conv_rate": 0.77,
+      "roas": 8.58
+    },
+    "Oct": {
+      "cost": 11112.94,
+      "conversions": 142.33,
+      "conv_value": 64697.55,
+      "impressions": 228733,
+      "clicks": 23026,
+      "ctr": 10.07,
+      "conv_rate": 0.62,
+      "roas": 5.82
+    }
+  }
+}

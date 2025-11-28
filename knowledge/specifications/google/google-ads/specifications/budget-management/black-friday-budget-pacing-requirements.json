@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Black Friday Budget Pacing Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Account Review - Lucy Loughlin (2025-11-03)",
+        "extracted_at": "2025-11-11T09:21:36.966400",
+        "verified": false
+      }
+    ],
+    "content": {
+      "monitoring_frequency": "Daily budget pacing checks",
+      "critical_period": "4 weeks before Black Friday through holiday season",
+      "budget_allocation_method": "Prioritize campaigns showing overspend to avoid under-serving",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

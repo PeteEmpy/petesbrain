@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "Creative Content Section - Video Assets",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "https://searchengineland.com/google-merchant-center-adds-creative-content-section-with-video-assets-464267",
+        "extracted_at": "2025-11-11T09:21:36.956287",
+        "verified": false
+      }
+    ],
+    "content": {
+      "feature_location": "Google Merchant Center - Creative Content section",
+      "asset_type": "Video assets",
+      "mapping_capability": "Direct mapping to product feeds",
+      "campaign_compatibility": [
+        "Shopping ads",
+        "Performance Max campaigns"
+      ],
+      "asset_format": "Rich media (video) beyond static images",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Merchant Center Video Assets Feature",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-05_google-merchant-center-video-assets-launch.md",
+        "extracted_at": "2025-11-11T09:21:36.918673",
+        "verified": false
+      }
+    ],
+    "content": {
+      "video_sources": "Website and social channels",
+      "ai_integration": "Google AI connects video content to product feeds",
+      "distribution_control": "Control where videos appear across Google properties",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

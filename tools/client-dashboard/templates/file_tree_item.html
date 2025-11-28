@@ -1,0 +1,37 @@
+{% if file.type == 'directory' %}
+<div class="pl-4">
+    <div class="flex items-center space-x-2 py-1">
+        <span class="text-gray-400">📁</span>
+        <span class="font-medium text-gray-700">{{ file.name }}</span>
+    </div>
+    {% if file.children %}
+    <div class="pl-6">
+        {% for child in file.children %}
+            {% set file = child %}
+            {% include 'file_tree_item.html' %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% else %}
+<div class="pl-4 py-1 hover:bg-gray-50 rounded">
+    <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+            {% if file.extension == '.md' %}
+            <span class="text-blue-400">📄</span>
+            {% elif file.extension == '.html' %}
+            <span class="text-green-400">🌐</span>
+            {% elif file.extension in ['.png', '.jpg', '.jpeg', '.gif'] %}
+            <span class="text-purple-400">🖼️</span>
+            {% else %}
+            <span class="text-gray-400">📎</span>
+            {% endif %}
+            <a href="#" onclick="viewFile('clients/{{ client_name }}/{{ file.path }}'); return false;" class="text-sm text-gray-700 hover:text-blue-600">
+                {{ file.name }}
+            </a>
+        </div>
+        <span class="text-xs text-gray-500">{{ (file.size / 1024)|round(1) }} KB</span>
+    </div>
+</div>
+{% endif %}
+

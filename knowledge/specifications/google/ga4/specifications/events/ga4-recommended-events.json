@@ -1,0 +1,43 @@
+{
+  "specification": {
+    "title": "GA4 Recommended Events",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "official_documentation",
+        "source": "https://support.google.com/analytics/answer/9267735",
+        "extracted_at": "2025-11-11T09:21:36.973814",
+        "verified": true
+      }
+    ],
+    "content": {
+      "event_types": {
+        "all_properties": [
+          "ad_impression",
+          "earn_virtual_currency",
+          "generate_lead",
+          "join_group",
+          "login",
+          "purchase",
+          "refund",
+          "search",
+          "select_content",
+          "share",
+          "sign_up",
+          "spend_virtual_currency",
+          "tutorial_begin",
+          "tutorial_complete"
+        ],
+        "online_sales": [
+          "add_payment_info",
+          "add_shipping_info"
+        ]
+      },
+      "event_structure": "Must use prescribed parameters for each recommended event",
+      "implementation": "Not sent automatically - requires manual setup",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

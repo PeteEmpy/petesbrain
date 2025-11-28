@@ -1,0 +1,22 @@
+{
+  "session_id": "056eff21-c1f2-4c9b-adaa-eeeb56a1048f",
+  "created_at": "2025-11-28T08:34:12.902334",
+  "last_updated": "2025-11-28T08:34:52.066293",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is going to be the best strategy for Bright Minds going forward in terms of expanding out their PMax asset groups?",
+      "timestamp": "2025-11-28T08:34:52.061811",
+      "sources": null,
+      "mode": "quick"
+    },
+    {
+      "role": "assistant",
+      "content": "Error generating response: Client.__init__() got an unexpected keyword argument 'proxies'",
+      "timestamp": "2025-11-28T08:34:52.066276",
+      "sources": [],
+      "mode": "quick"
+    }
+  ],
+  "context": {}
+}

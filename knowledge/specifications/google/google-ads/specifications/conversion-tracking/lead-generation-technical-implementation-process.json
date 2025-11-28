@@ -1,0 +1,24 @@
+{
+  "specification": {
+    "title": "Lead Generation Technical Implementation Process",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Technical Support - Lead Generation Case 7-6155000039426",
+        "extracted_at": "2025-11-11T09:21:36.940571",
+        "verified": false
+      }
+    ],
+    "content": {
+      "website_access": "Admin access to modify website source code",
+      "account_access": "Administrative access to Google Ads and/or Analytics accounts",
+      "pre_implementation": "Website backup mandatory",
+      "meeting_platform": "Google Meet with screen sharing enabled",
+      "acceptance_requirement": "Calendar invite acceptance within 24 hours of scheduled time",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

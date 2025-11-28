@@ -1,0 +1,26 @@
+{
+  "specification": {
+    "title": "Google Ads Billing Document Management",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-02_google-ads-invoice-notification-5401637906.md",
+        "extracted_at": "2025-11-11T09:21:36.954253",
+        "verified": false
+      }
+    ],
+    "content": {
+      "document_format": "PDF invoice available for download",
+      "access_method": "Via Google Ads portal using Payments Profile ID",
+      "notification_frequency": "Monthly automated notifications",
+      "account_identifiers": {
+        "customer_id_format": "XXX-XXX-XXXX",
+        "payments_profile_format": "XXXX-XXXX-XXXX"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

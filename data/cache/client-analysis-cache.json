@@ -1,0 +1,669 @@
+{
+  "510cd9e9-f300-456a-834e-d37285f44706": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:00:11.107405",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "accessories-for-the-home": {
+    "analysis": [
+      {
+        "task": "Monitor Q4 Peak Season ROAS Reduction Impact (Nov 18-20 Daily Check)",
+        "priority": "P0",
+        "time_estimate": "30 mins",
+        "reason": "Critical daily tracking of ROAS reduction from 190% to 170%, assessing conversion rate, spend, revenue performance as part of Q4 scaling strategy",
+        "client": "accessories-for-the-home"
+      },
+      {
+        "task": "Investigate Body Vase Product Feed Issues (GTINs and Content Policy)",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "24 body vase products flagged for potential content policy violations and 15 products with GTIN issues need immediate feed optimization to restore product visibility",
+        "client": "accessories-for-the-home"
+      },
+      {
+        "task": "Review Auction Insights and Competitive Landscape",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Recent competitor surge (Cox and Cox) and high competitive pressure (22+ competitors) requires proactive monitoring of market positioning and potential strategic adjustments",
+        "client": "accessories-for-the-home"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:18.082496",
+    "triggers": {
+      "context_hash": "004bb721b35a2d57",
+      "context_mtime": "2025-11-24T09:19:35.840674",
+      "latest_meeting_mtime": "2025-11-18T13:09:05.863003",
+      "latest_email_mtime": "2025-11-26T12:53:26.051234",
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "bmpm": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:00:19.613981",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "bright-minds": {
+    "analysis": [
+      {
+        "task": "Send weekly Monday performance report to Barry and Sharon",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Client requires consistent weekly reporting to maintain trust during Google Ads learning phase, with focus on ROAS progression and seasonal performance context",
+        "client": "bright-minds"
+      },
+      {
+        "task": "Validate conversion tracking accuracy against Shopify orders",
+        "priority": "P1",
+        "time_estimate": "20 mins",
+        "reason": "Ensure conversion count and values match Shopify data after recent tracking implementation to maintain reporting accuracy",
+        "client": "bright-minds"
+      },
+      {
+        "task": "Review ROAS progression toward 400% target",
+        "priority": "P2",
+        "time_estimate": "15 mins",
+        "reason": "Current ROAS at 292%, need to track progress and prepare insights for weekly client report, monitoring trajectory toward 400% target",
+        "client": "bright-minds"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:24.742244",
+    "triggers": {
+      "context_hash": "820f7342ed8d213c",
+      "context_mtime": "2025-11-24T09:19:26.704726",
+      "latest_meeting_mtime": "2025-10-28T13:43:15",
+      "latest_email_mtime": "2025-11-24T14:31:28.697634",
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "c38af8ac-cae4-4236-a5a3-ddad63e3508a": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:00:25.671571",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "clear-prospects": {
+    "analysis": [
+      {
+        "task": "Review Product Impact Analyzer logs to confirm Merchant Center disapprovals remain resolved across HSG, WBS, and BMPM brands",
+        "priority": "P0",
+        "time_estimate": "30 mins",
+        "reason": "Verify continued resolution of desktop caching/crawler IP issues and prevent potential product listing disruptions",
+        "client": "clear-prospects"
+      },
+      {
+        "task": "Check performance of BMPM Cushions Search Campaign started on Oct 21",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Review initial performance of new search campaign with broad match keywords, assess early ROAS and conversion data",
+        "client": "clear-prospects"
+      },
+      {
+        "task": "Verify BMPM Performance Max campaign performance and budget allocation",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "BMPM PMax currently at 78% ROAS (below 70% target), needs immediate strategic review to improve performance or adjust budget",
+        "client": "clear-prospects"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:31.554988",
+    "triggers": {
+      "context_hash": "c07963bb54cc2a29",
+      "context_mtime": "2025-11-24T09:19:26.356667",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": "2025-11-27T06:51:10.493921",
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "crowd-control": {
+    "analysis": [
+      {
+        "task": "Verify WooCommerce Conversion Tracking Performance",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Conversion tracking currently only reporting 54% of conversions, potentially misrepresenting account performance and impacting Smart Bidding strategy",
+        "client": "crowd-control"
+      },
+      {
+        "task": "Investigate Product CTR Collapse for Hero Products",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Hero products showing catastrophically low CTR (0.12-0.75%), risking significant revenue loss and requiring immediate creative/feed optimization",
+        "client": "crowd-control"
+      },
+      {
+        "task": "Review October 14 ROAS Target Reduction Across Campaigns",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "All campaigns standardized to 170% ROAS on Oct 14, coinciding with performance drop - need to understand strategic rationale and potential corrective actions",
+        "client": "crowd-control"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:37.010188",
+    "triggers": {
+      "context_hash": "6373876e9465ccfc",
+      "context_mtime": "2025-11-24T12:30:42.839210",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "devonshire-hotels": {
+    "analysis": [
+      {
+        "task": "Escalate Performance Max campaign issue to Google Ads rep with specific technical details",
+        "priority": "P0",
+        "time_estimate": "1 hour",
+        "reason": "Ongoing PMax asset group failure for Pilsley/Beeley campaigns, client frustration mounting, no resolution after 2+ weeks",
+        "client": "devonshire-hotels"
+      },
+      {
+        "task": "Analyze Beeley Inn keywords to understand exceptional 1,194% ROAS performance",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Identify top converting keywords and search terms to potentially replicate success across other campaigns",
+        "client": "devonshire-hotels"
+      },
+      {
+        "task": "Review November budget implementation and current spend trajectory",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Verify budget changes from Nov 3rd were correctly implemented and current spend is on track with new daily limits",
+        "client": "devonshire-hotels"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:46.286465",
+    "triggers": {
+      "context_hash": "31b03fc9d2a5b79e",
+      "context_mtime": "2025-11-24T11:30:40.748322",
+      "latest_meeting_mtime": "2025-11-19T13:10:18.026859",
+      "latest_email_mtime": "2025-11-26T12:53:26.712443",
+      "alerts_hash": null,
+      "audits_hash": "8a3689e35fb0981c"
+    }
+  },
+  "go-glean": {
+    "analysis": [
+      {
+        "task": "Contact Connor Heaps to schedule initial strategy discussion and gather missing account details",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Multiple TBD sections in document indicate critical need for direct client information about business model, products, and goals",
+        "client": "go-glean"
+      },
+      {
+        "task": "Review September ROAS adjustments for Catch All and Villains campaigns",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Multiple ROAS target changes in September suggest active testing needs validation of final performance strategy",
+        "client": "go-glean"
+      },
+      {
+        "task": "Prepare initial research document analyzing Go Glean's high ROAS performance (230-310%)",
+        "priority": "P2",
+        "time_estimate": "1 hour",
+        "reason": "Understand key performance drivers differentiating Go Glean from Grain Guard's lower ROAS (140-160%)",
+        "client": "go-glean"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:51.101423",
+    "triggers": {
+      "context_hash": "b39e4f30d49c88b4",
+      "context_mtime": "2025-11-24T09:19:26.432437",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "godshot": {
+    "analysis": [
+      {
+        "task": "Verify conversion tracking plugin fix for product ID mismatches",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Critical to confirm recent plugin update resolved 80% conversion tracking mismatch between Google Ads and WooCommerce sales",
+        "client": "godshot"
+      },
+      {
+        "task": "Investigate asset groups burning budget with zero conversions",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Asset groups for Fellow, Rains, and Coffee Generic are spending budget without generating conversions, risking inefficient ad spend",
+        "client": "godshot"
+      },
+      {
+        "task": "Audit Google Merchant Center product feed for ID and variant tracking issues",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Critical to resolve 80% mismatch between Google Ads conversions and WooCommerce sales by investigating product feed mapping",
+        "client": "godshot"
+      }
+    ],
+    "cached_at": "2025-11-27T07:00:58.654299",
+    "triggers": {
+      "context_hash": "08c56903de0a9775",
+      "context_mtime": "2025-11-24T09:19:10.230616",
+      "latest_meeting_mtime": "2025-11-25T19:09:22.954389",
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "grain-guard": {
+    "analysis": [
+      {
+        "task": "Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaign segments",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Significant ROAS difference requires immediate investigation to understand product performance variations and develop optimization strategy",
+        "client": "grain-guard"
+      },
+      {
+        "task": "Review Sept 11 'Shopping Only' campaign switch and document performance impact",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Recent campaign structure change needs performance assessment to validate effectiveness and determine if further adjustments are required",
+        "client": "grain-guard"
+      },
+      {
+        "task": "Schedule initial client onboarding call with Connor Heaps to confirm account goals and key details",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Many critical account details are still TBD, including budget, contact info, and specific performance targets",
+        "client": "grain-guard"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:03.408055",
+    "triggers": {
+      "context_hash": "8a5bc65ca8af39af",
+      "context_mtime": "2025-11-24T09:19:26.486257",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "just-bin-bags": {
+    "analysis": [
+      {
+        "task": "Review JHD sub-brand merchant feed for product disapprovals",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "6 products showing landing page errors in merchant feed, potential revenue impact if not resolved quickly",
+        "client": "just-bin-bags"
+      },
+      {
+        "task": "Validate conversion tracking for JHD merchant feed",
+        "priority": "P0",
+        "time_estimate": "30 mins",
+        "reason": "Follow-up on Nov 14 tracking review to confirm conversions are recording correctly",
+        "client": "just-bin-bags"
+      },
+      {
+        "task": "Perform initial Google Ads account performance audit",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "No performance data or KPIs established, critical to understand current campaign health",
+        "client": "just-bin-bags"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:07.662309",
+    "triggers": {
+      "context_hash": "bfe001ce648eaadb",
+      "context_mtime": "2025-11-24T09:19:26.583905",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "national-design-academy": {
+    "analysis": [
+      {
+        "task": "Review NMA Target CPA strategy implementation for Engineering Search and Management PMax campaigns",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Recent meeting discussed budget optimization, strategy needs immediate implementation to improve conversion performance and reduce extremely high current CPA from \u00a3917 to target range of \u00a3110-130",
+        "client": "national-design-academy"
+      },
+      {
+        "task": "Validate budget reduction impact from Nov 5th changes (daily spend reduced to \u00a3765)",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Confirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met",
+        "client": "national-design-academy"
+      },
+      {
+        "task": "Review Nov 19 video upload impact on India PMax CTR and impressions",
+        "priority": "P2",
+        "time_estimate": "45 mins",
+        "reason": "Follow-up analysis for 3 new videos uploaded Nov 19 to assess CTR impact and impression share changes in India Performance Max campaign",
+        "client": "national-design-academy"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:16.471178",
+    "triggers": {
+      "context_hash": "ae158a5fe72d3734",
+      "context_mtime": "2025-11-26T14:03:13.226918",
+      "latest_meeting_mtime": "2025-11-25T18:38:33.925197",
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "national-motorsports-academy": {
+    "analysis": [
+      {
+        "task": "Investigate and document current CPC of \u00a3947 to understand extreme cost",
+        "priority": "P0",
+        "time_estimate": "1 hour",
+        "reason": "Extremely high CPC noted in client context as critical issue requiring immediate investigation and potential intervention",
+        "client": "national-motorsports-academy"
+      },
+      {
+        "task": "Review current conversion tracking setup to address critically low 0.007% conversion rate",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Extremely low conversion rate suggests potential tracking or targeting problems that need urgent diagnostic review",
+        "client": "national-motorsports-academy"
+      },
+      {
+        "task": "Follow up with Anwesha on pending Enhanced Conversions implementation status",
+        "priority": "P2",
+        "time_estimate": "10 mins",
+        "reason": "Confirm current status and next steps for Google approval of Enhanced Conversions implementation",
+        "client": "national-motorsports-academy"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:21.051123",
+    "triggers": {
+      "context_hash": "5534e8e7de22995d",
+      "context_mtime": "2025-11-24T09:19:35.628897",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "otc": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:01:22.881236",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": "2025-11-18T13:09:15.047236",
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "positive-bakes": {
+    "analysis": [
+      {
+        "task": "Verify Merchant Centre product feed configuration after Shopify migration",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Ensure product listings are correctly mapped following recent platform migration, critical for upcoming Black Friday sales period",
+        "client": "positive-bakes"
+      },
+      {
+        "task": "Schedule initial campaign strategy meeting with Aatin Anadkat",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Establish key performance goals and initial campaign approach before holiday shopping season",
+        "client": "positive-bakes"
+      },
+      {
+        "task": "Review Performance Max campaign settings ahead of Black Friday",
+        "priority": "P1",
+        "time_estimate": "45 mins",
+        "reason": "Validate recent bid strategy change to Target ROAS and ensure campaign is optimized for holiday shopping",
+        "client": "positive-bakes"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:27.572445",
+    "triggers": {
+      "context_hash": "715b89e122881cf5",
+      "context_mtime": "2025-11-24T09:19:35.733166",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": "8a3689e35fb0981c"
+    }
+  },
+  "roksys": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:01:28.920664",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": "2025-11-19T13:09:46.945645",
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "shared": {
+    "analysis": [
+      {
+        "task": "Review and reassign Lauren's client accounts to ensure continuity of management",
+        "priority": "P0",
+        "time_estimate": "1 hour",
+        "reason": "Recent meeting notes indicate Lauren's departure, requiring immediate account handover to prevent performance disruption",
+        "client": "shared"
+      },
+      {
+        "task": "Conduct emergency audit of Black Friday and Cyber Monday campaign settings",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Notes suggest previous errors in promotional campaign dates, requiring immediate verification of current campaign configurations",
+        "client": "shared"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:32.521945",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": "2025-11-26T11:54:06.369785",
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "smythson": {
+    "analysis": [
+      {
+        "task": "Review Smythson Greece Shipping Configuration in Merchant Centre",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "1,500 greeting cards blocked from Greece market due to shipping currency mismatch, needs immediate resolution to restore product visibility",
+        "client": "smythson"
+      },
+      {
+        "task": "Prepare Mid-December Revenue Target Validation for Smythson Q4 Strategy",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Critical checkpoint to assess if \u00a3780,691 Q4 revenue target will be achieved, requires comprehensive performance review across all regions",
+        "client": "smythson"
+      },
+      {
+        "task": "Review Brand vs Non-Brand Performance Analysis for Smythson UK",
+        "priority": "P2",
+        "time_estimate": "45 mins",
+        "reason": "Recent analysis shows significant ROAS collapse (53% drop), requires immediate investigation into root causes and potential mitigation strategies",
+        "client": "smythson"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:42.433332",
+    "triggers": {
+      "context_hash": "5f4bc461da27cc0f",
+      "context_mtime": "2025-11-26T11:51:48.348018",
+      "latest_meeting_mtime": "2025-11-25T18:41:50.825833",
+      "latest_email_mtime": "2025-11-26T11:50:39.793494",
+      "alerts_hash": null,
+      "audits_hash": "8a3689e35fb0981c"
+    }
+  },
+  "superspace": {
+    "analysis": [
+      {
+        "task": "Regenerate orders timeline chart with full Nov 24 data to assess budget throttling impact",
+        "priority": "P0",
+        "time_estimate": "1 hour",
+        "reason": "Critical to verify if recent budget cuts are effectively slowing sales during stock shortage period",
+        "client": "superspace"
+      },
+      {
+        "task": "Verify horizontal video asset requirements for Demand Gen campaign",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Current video assets are portrait-focused and need horizontal formats for desktop placements to improve campaign performance",
+        "client": "superspace"
+      },
+      {
+        "task": "Review stock-related budget controls for Q4 to prevent overspending",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Confirm 50% budget reduction is correctly implemented to prevent overspending during current inventory constraints, especially critical with upcoming holiday season",
+        "client": "superspace"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:49.864686",
+    "triggers": {
+      "context_hash": "3519263b9e02e09b",
+      "context_mtime": "2025-11-24T18:30:59.763082",
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": "2025-11-25T20:34:26.572169",
+      "alerts_hash": null,
+      "audits_hash": "8a3689e35fb0981c"
+    }
+  },
+  "tree2mydoor": {
+    "analysis": [
+      {
+        "task": "Review Olive Tree (Product 01090) Merchant Center feed stability",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Prevent recurrence of previous click spike caused by feed flickering; verify current feed stability and stock synchronization",
+        "client": "tree2mydoor"
+      },
+      {
+        "task": "Verify ProfitMetrics conversion tracking is optimizing to profit value",
+        "priority": "P2",
+        "time_estimate": "30 mins",
+        "reason": "Confirm tracking is using profit value, not just revenue, to ensure accurate campaign optimization and ROAS performance",
+        "client": "tree2mydoor"
+      },
+      {
+        "task": "Complete final review of October 2025 month-end report for Gareth",
+        "priority": "P1",
+        "time_estimate": "1 hour",
+        "reason": "Gareth requires detailed, structured monthly reporting; report needs final review before sending",
+        "client": "tree2mydoor"
+      }
+    ],
+    "cached_at": "2025-11-27T07:01:56.483743",
+    "triggers": {
+      "context_hash": "4db4da8fc7faf3a0",
+      "context_mtime": "2025-11-24T17:30:56.989884",
+      "latest_meeting_mtime": "2025-11-18T13:09:16.341792",
+      "latest_email_mtime": "2025-10-28T14:53:27",
+      "alerts_hash": null,
+      "audits_hash": "8a3689e35fb0981c"
+    }
+  },
+  "uno-lighting": {
+    "analysis": [
+      {
+        "task": "Review AI Max search terms for Search Brand campaign",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Recently enabled AI Max feature (Oct 21, 2025) requires immediate performance check to ensure query matching quality and prevent potential irrelevant clicks",
+        "client": "uno-lighting"
+      },
+      {
+        "task": "Check ROAS performance after 10% reduction on PMax campaigns",
+        "priority": "P1",
+        "time_estimate": "30 mins",
+        "reason": "Monitor impact of ROAS target reduction implemented on Oct 15 to ensure performance remains within acceptable parameters and no significant negative trends have emerged",
+        "client": "uno-lighting"
+      },
+      {
+        "task": "Verify product feed GTIN accuracy and product variant management",
+        "priority": "P2",
+        "time_estimate": "20 mins",
+        "reason": "Proactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues, especially given previous GTIN accuracy problems",
+        "client": "uno-lighting"
+      }
+    ],
+    "cached_at": "2025-11-27T07:02:03.449832",
+    "triggers": {
+      "context_hash": "089f7167dd38d968",
+      "context_mtime": "2025-11-24T09:19:10.460196",
+      "latest_meeting_mtime": "2025-11-25T19:00:17.166067",
+      "latest_email_mtime": "2025-11-25T14:33:47.777062",
+      "alerts_hash": null,
+      "audits_hash": "8a3689e35fb0981c"
+    }
+  },
+  "data": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:00:37.886323",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "none": {
+    "analysis": [],
+    "cached_at": "2025-11-27T07:01:21.985901",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  },
+  "super-space": {
+    "analysis": [],
+    "cached_at": "2025-11-24T08:30:58.272238",
+    "triggers": {
+      "context_hash": null,
+      "context_mtime": null,
+      "latest_meeting_mtime": null,
+      "latest_email_mtime": null,
+      "alerts_hash": null,
+      "audits_hash": null
+    }
+  }
+}

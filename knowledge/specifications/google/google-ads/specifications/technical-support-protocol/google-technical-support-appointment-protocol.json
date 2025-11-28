@@ -1,0 +1,29 @@
+{
+  "specification": {
+    "title": "Google Technical Support Appointment Protocol",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Technical Support Calendar Invite - Case ID 7-6155000039426",
+        "extracted_at": "2025-11-11T09:21:36.924715",
+        "verified": false
+      }
+    ],
+    "content": {
+      "calendar_format": "ICS file with VEVENT method REQUEST",
+      "timezone": "UTC (20251104T170000Z to 20251104T180000Z)",
+      "meeting_platform": "Google Meet (https://meet.google.com/cfd-pgcr-wvp)",
+      "attendee_response_required": "RSVP=TRUE with PARTSTAT tracking",
+      "organizer": "Connect Appointments (Google Calendar group)",
+      "case_id_reference": "Must be maintained in all communications (7-6155000039426)",
+      "phone_dial_in_available": true,
+      "character_limits": {},
+      "required_counts": {
+        "required_participants": 3,
+        "minimum_access_levels": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Billing Document Management",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "admin-google-ads-invoice-5403089678-nov-2025.md",
+        "extracted_at": "2025-11-11T09:21:36.919242",
+        "verified": false
+      }
+    ],
+    "content": {
+      "document_type": "PDF Invoice from Google Ads",
+      "account_identifiers": "Customer ID and Payments Profile ID",
+      "retention": "Archive for accounting/financial record-keeping",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

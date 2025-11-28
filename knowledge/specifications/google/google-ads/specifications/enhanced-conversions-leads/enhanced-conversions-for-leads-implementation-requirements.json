@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Enhanced Conversions for Leads Implementation Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Enhanced Conversions for Leads Implementation Support - National Design Academy",
+        "extracted_at": "2025-11-11T09:21:36.941528",
+        "verified": false
+      }
+    ],
+    "content": {
+      "implementation_method": "Code implementation on conversion pages",
+      "data_import_method": "Google Sheets integration for offline conversions",
+      "timestamp_format": "Specific format required (errors common)",
+      "technical_validation": "Post-implementation technical meeting required",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

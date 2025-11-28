@@ -1,0 +1,12 @@
+[
+  {
+    "client": "Go Glean UK",
+    "request": {
+      "mcp_tool": "mcp__google-ads__run_gaql",
+      "customer_id": "8492163737",
+      "manager_id": "2569949686",
+      "query": "SELECT\n  segments.product_item_id,\n  segments.product_custom_attribute0\nFROM shopping_performance_view\nWHERE segments.date DURING LAST_7_DAYS\n  AND metrics.impressions > 0\nLIMIT 10000",
+      "segment_field": "product_custom_attribute0"
+    }
+  }
+]

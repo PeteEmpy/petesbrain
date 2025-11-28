@@ -1,0 +1,27 @@
+{
+  "specification": {
+    "title": "LLMS.txt and Agents.txt Implementation for Shopify",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-shopping-click-spike-product-feed-flickering-diagnosis.md (LLMS.txt discussion)",
+        "extracted_at": "2025-11-11T09:21:36.955921",
+        "verified": false
+      }
+    ],
+    "content": {
+      "shopify_limitation": "Cannot upload arbitrary files to root directory (e.g., /llms.txt)",
+      "implementation_method": "Use <link> tags in theme.liquid file to reference files",
+      "file_types": [
+        "llms.txt - AI crawler discovery file",
+        "agents.txt - AI agent instructions file"
+      ],
+      "placement_location": "Theme code (theme.liquid) for site-wide visibility",
+      "discovery_mechanism": "<link> tags signal file locations to AI crawlers",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "specification": {
+    "title": "Lead Generation Technical Support - Cross-Functional Team Requirements",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "roksys/knowledge-base/google-ads/platform-updates/google-ads-lead-gen-tech-support-appointment-case-6155000039426.md",
+        "extracted_at": "2025-11-11T09:21:36.930287",
+        "verified": false
+      }
+    ],
+    "content": {
+      "three_key_attendees": {
+        "website_admin": "FTP/source code access required",
+        "crm_admin": "CRM admin access required",
+        "google_ads_manager": "Google Ads account access required"
+      },
+      "authorization_requirements": {
+        "calendar_acceptance": "Accepting meeting authorizes Technical Specialist to guide implementation",
+        "explicit_authorization": "Required before Google provides technical support"
+      },
+      "appointment_limitations": {
+        "maximum_reschedules": 3,
+        "cancellation_trigger": "If all attendees decline invite",
+        "attendance_confirmation": "Required from all invited parties"
+      },
+      "pre_call_checklist": [
+        "Accept calendar invite",
+        "Back up website",
+        "Prepare Google Meet for screen sharing"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

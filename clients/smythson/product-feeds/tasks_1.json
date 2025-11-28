@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": "b216e735-c29e-4657-862c-9068caef040b",
+      "title": "[Smythson] Review Black Friday asset performance (1 week check)",
+      "client": "smythson",
+      "priority": "P0",
+      "due_date": "2025-11-24",
+      "time_estimate_mins": 60,
+      "notes": "Follow-up from Black Friday assets going live Nov 17. Review ROAS vs 2024, conversion rates, and efficiency to confirm we avoided the learning reset that cost \u00a324k last year. Check all 4 accounts (UK, USA, EUR, ROW). Success: ROAS maintains pre-BF levels, no 35% drop like 2024.",
+      "source": "Manual Completion",
+      "tags": [
+        "smythson",
+        "black-friday",
+        "performance-review"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-18T10:05:33.650291",
+      "updated_at": "2025-11-18T10:05:33.650615",
+      "completed_at": null
+    },
+    {
+      "id": "662cf1f2-06b7-4c30-a8b4-5d3857815c32",
+      "title": "[Smythson] Revert Black Friday assets + create checklist for smooth execution",
+      "client": "smythson",
+      "priority": "P1",
+      "due_date": "2025-12-02",
+      "time_estimate_mins": 120,
+      "notes": "Revert all Black Friday assets to standard Christmas/product messaging. Create implementation checklist BEFORE Dec 2 to avoid Nov 18 execution issues (URLs, images, wrong asset groups). Coordinate with Lauryn: images, text, URLs go live simultaneously. Goal: smoother ride than Nov 18 launch.\n\n**Progress Update (Nov 18 meeting):** Lauryn committed to creating checklist and sent through asset reversion spreadsheet: https://docs.google.com/spreadsheets/d/1wwILYgddS946SAlvD5yjLjbLMRFQagsi0-5XFJmvC1g/edit?gid=0#gid=0\n\n**Checklist includes:** PMax (images, text, videos, URLs, sentence case) + Search (RSAs, image assets, sitelinks) across UK/US/EUR/ROW accounts. Work split: Peter (UK, EUR) | Lauryn (US, ROW). All items currently pending execution before Dec 2 deadline.",
+      "source": "Client Request",
+      "tags": [
+        "smythson",
+        "black-friday",
+        "implementation",
+        "urgent"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-18T10:05:33.652711",
+      "updated_at": "2025-11-19T18:15:00.000000",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-11-21T08:45:48.762116"
+}

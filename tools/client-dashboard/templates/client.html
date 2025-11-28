@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block title %}{{ client_display }}{% endblock %}
+
+{% block content %}
+<div class="px-4 py-6 sm:px-0">
+    <!-- Breadcrumb -->
+    <nav class="mb-6">
+        <ol class="flex items-center space-x-2 text-sm text-gray-500">
+            <li><a href="{{ url_for('index') }}" class="hover:text-gray-700">Dashboard</a></li>
+            <li>/</li>
+            <li class="text-gray-900">{{ client_display }}</li>
+        </ol>
+    </nav>
+
+    <!-- Header -->
+    <div class="mb-6">
+        <h1 class="text-3xl font-bold text-gray-900">{{ client_display }}</h1>
+        <p class="text-gray-600 mt-1">{{ tasks|length }} tasks</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="border-b border-gray-200 mb-6">
+        <nav class="-mb-px flex space-x-8">
+            <a href="#overview" onclick="showTab('overview')" class="tab-link border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm active">
+                Overview
+            </a>
+            <a href="#tasks" onclick="showTab('tasks')" class="tab-link border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                Tasks ({{ tasks|length }})
+            </a>
+            <a href="#files" onclick="showTab('files')" class="tab-link border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                Files
+            </a>
+        </nav>
+    </div>
+
+    <!-- Overview Tab -->
+    <div id="tab-overview" class="tab-content">
+        {% if context_content %}
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">Context</h2>
+            <div class="prose max-w-none markdown-content">
+                {{ context_content|markdown|safe }}
+            </div>
+        </div>
+        {% else %}
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <p class="text-gray-500">No CONTEXT.md file found.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Tasks Tab -->
+    <div id="tab-tasks" class="tab-content hidden">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+            <div class="p-6">
+                <h2 class="text-xl font-semibold text-gray-900 mb-4">Tasks</h2>
+                {% if tasks %}
+                <div class="space-y-3">
+                    {% for task in tasks %}
+                    <div class="flex items-start justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50">
+                        <div class="flex-1">
+                            <div class="flex items-center space-x-2">
+                                {% if task.status == 'completed' %}
+                                <span class="text-green-600">✓</span>
+                                <span class="text-gray-500 line-through">{{ task.title }}</span>
+                                {% else %}
+                                <span class="text-gray-400">○</span>
+                                <span class="font-medium text-gray-900">{{ task.title }}</span>
+                                {% endif %}
+                            </div>
+                            {% if task.details %}
+                            <p class="text-sm text-gray-600 mt-1">{{ task.details[:100] }}{% if task.details|length > 100 %}...{% endif %}</p>
+                            {% endif %}
+                            {% if task.due_date %}
+                            <p class="text-xs text-gray-500 mt-1">Due: {{ task.due_date }}</p>
+                            {% endif %}
+                        </div>
+                        {% if task.status != 'completed' %}
+                        <button 
+                            onclick="completeTask('{{ task.filename }}')" 
+                            class="ml-4 px-3 py-1 text-sm bg-green-600 text-white rounded hover:bg-green-700"
+                        >
+                            Complete
+                        </button>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-gray-500">No tasks found for this client.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Files Tab -->
+    <div id="tab-files" class="tab-content hidden">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">Files</h2>
+            <div id="file-tree" class="space-y-1">
+                {% for file in files %}
+                    {% include 'file_tree_item.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function showTab(tabName) {
+    // Hide all tabs
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.add('hidden');
+    });
+    
+    // Remove active class from all tab links
+    document.querySelectorAll('.tab-link').forEach(link => {
+        link.classList.remove('border-blue-500', 'text-blue-600');
+        link.classList.add('border-transparent', 'text-gray-500');
+    });
+    
+    // Show selected tab
+    document.getElementById('tab-' + tabName).classList.remove('hidden');
+    
+    // Add active class to selected link
+    event.target.classList.remove('border-transparent', 'text-gray-500');
+    event.target.classList.add('border-blue-500', 'text-blue-600');
+}
+
+function completeTask(filename) {
+    fetch(`/api/task/${filename}/complete`, {
+        method: 'PUT',
+        headers: {'Content-Type': 'application/json'}
+    })
+    .then(response => response.json())
+    .then(data => {
+        location.reload();
+    });
+}
+
+function viewFile(path) {
+    fetch(`/api/file/view?path=${encodeURIComponent(path)}`)
+    .then(response => response.json())
+    .then(data => {
+        // Open file in modal or new section
+        console.log('File content:', data);
+        // TODO: Implement file viewer modal
+    });
+}
+</script>
+{% endblock %}
+

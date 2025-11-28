@@ -1,0 +1,331 @@
+{
+  "generated_at": "2025-11-11T10:38:22.731989",
+  "date": "2025-11-11",
+  "total_clients": 17,
+  "clients_with_work": 16,
+  "total_tasks": 46,
+  "tasks": [
+    {
+      "task": "Review Product Impact Analyzer logs to confirm Merchant Center disapprovals remain resolved across HSG, WBS, and BMPM brands",
+      "priority": "P0",
+      "time_estimate": "30 mins",
+      "reason": "Verify continued resolution of desktop caching/crawler IP issues after November 10 fix and prevent potential product listing disruptions",
+      "client": "clear-prospects"
+    },
+    {
+      "task": "Escalate Performance Max campaign underperformance to Google Ads representative",
+      "priority": "P0",
+      "time_estimate": "1 hour",
+      "reason": "October experiment showed PMax failed to scale (573% incremental ROAS, only 67% of baseline performance), causing significant client frustration and potential budget inefficiency",
+      "client": "devonshire-hotels"
+    },
+    {
+      "task": "Investigate zero conversion tracking for Weddings, Lismore & The Hall campaigns",
+      "priority": "P0",
+      "time_estimate": "1 hour",
+      "reason": "Critical tracking issue discovered in October report showing \u00a3488.89 spend with zero conversions across multiple campaigns",
+      "client": "devonshire-hotels"
+    },
+    {
+      "task": "Review and validate conversion tracking setup",
+      "priority": "P0",
+      "time_estimate": "30 mins",
+      "reason": "No conversion tracking details confirmed, critical for performance measurement and optimization",
+      "client": "just-bin-bags"
+    },
+    {
+      "task": "Verify stock-related budget controls for Q4",
+      "priority": "P0",
+      "time_estimate": "30 mins",
+      "reason": "Confirm 50% budget reduction is correctly implemented to prevent overspending during current inventory constraints, especially critical with upcoming holiday season",
+      "client": "superspace"
+    },
+    {
+      "task": "Review preliminary ROAS reduction impact on Performance Max campaigns",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Prepare for full week analysis scheduled on Nov 12, assess initial performance after ROAS target reduction from 200% to 190%",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "task": "Prepare draft WhatsApp message to Andrew about October revenue drop and seasonal trends",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Address client concerns about recent performance anomaly and provide proactive communication about seasonal patterns",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "task": "Send weekly Monday performance report to Barry and Sharon",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Client requires consistent weekly updates to maintain trust during Google Ads campaign learning phase, with focus on ROAS progression and Q4 budget increase context",
+      "client": "bright-minds"
+    },
+    {
+      "task": "Validate conversion tracking post-changes (daily check)",
+      "priority": "P1",
+      "time_estimate": "20 mins",
+      "reason": "Ensure conversion count matches Shopify orders and values after recent tracking implementation",
+      "client": "bright-minds"
+    },
+    {
+      "task": "Draft November monthly report section highlighting HappySnapGifts face masks ROAS turnaround story",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Prepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting, capturing key strategic insights",
+      "client": "clear-prospects"
+    },
+    {
+      "task": "Verify WooCommerce Conversion Tracking Performance",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Conversion tracking currently only reporting 54% of conversions, potentially misrepresenting account performance and impacting Smart Bidding strategy",
+      "client": "crowd-control"
+    },
+    {
+      "task": "Investigate Product CTR Collapse for Top Products",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Hero products showing catastrophically low CTR (0.12-0.75%), risking significant revenue loss and requiring immediate creative/feed optimization",
+      "client": "crowd-control"
+    },
+    {
+      "task": "Review November budget changes implementation from Nov 3rd",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Confirm budget reduction to \u00a39,000 was executed properly across all 12 Devonshire campaigns to ensure accurate spend management",
+      "client": "devonshire-hotels"
+    },
+    {
+      "task": "Contact Connor Heaps to schedule initial strategy discussion and gather missing account details",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Multiple TBD sections in document indicate critical information gaps about business model, products, and goals that need immediate clarification",
+      "client": "go-glean"
+    },
+    {
+      "task": "Investigate asset groups burning budget with zero conversions (Fellow, Rains, Coffee Generic)",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Asset groups are spending budget without generating conversions, risking inefficient ad spend and missing performance targets",
+      "client": "godshot"
+    },
+    {
+      "task": "Verify conversion tracking plugin fix for product ID mismatches",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Recent update to conversion tracking plugin needs immediate verification to ensure accurate product attribution and sales tracking",
+      "client": "godshot"
+    },
+    {
+      "task": "Review Google Merchant Center product feed for ID and variant tracking issues",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Critical 80% mismatch between Google Ads conversions and WooCommerce sales requires immediate investigation of product feed mapping and tracking",
+      "client": "godshot"
+    },
+    {
+      "task": "Schedule initial client onboarding call with Connor Heaps to confirm account goals and key details",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Many critical account details are still TBD, including budget, contact info, and specific performance targets. Direct client input is needed to complete account strategy documentation.",
+      "client": "grain-guard"
+    },
+    {
+      "task": "Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaign segments",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Significant ROAS difference requires immediate investigation to understand product performance variations and develop optimization strategy",
+      "client": "grain-guard"
+    },
+    {
+      "task": "Confirm Google Ads account access and perform initial performance audit",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "No performance data or KPIs established, need to verify account connectivity and initial campaign health",
+      "client": "just-bin-bags"
+    },
+    {
+      "task": "Validate NMA Target CPA strategy for Engineering Search and Management PMax campaigns",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Recent meeting discussed budget optimization, strategy needs immediate implementation to improve conversion performance and reduce extremely high current CPA from \u00a3917 to target range of \u00a3110-130",
+      "client": "national-design-academy"
+    },
+    {
+      "task": "Verify Merchant Centre product feed configuration after Shopify migration",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Ensure product listings are correctly mapped and available for free listings following recent platform migration, which could impact advertising performance",
+      "client": "positive-bakes"
+    },
+    {
+      "task": "Review Channable feed settings and product ID mapping",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Resolve potential product listing issues from BigCommerce to Shopify migration that could impact Merchant Centre performance",
+      "client": "positive-bakes"
+    },
+    {
+      "task": "Review client meeting notes and identify key action items",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Ensure no critical follow-up items were missed from recent meeting notes",
+      "client": "roksys"
+    },
+    {
+      "task": "Update Smythson dashboard with actual ROAS and revenue vs strategy targets",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Directly requested in recent meeting to provide daily budget visibility and track performance against Q4 strategy",
+      "client": "smythson"
+    },
+    {
+      "task": "Review and prepare PMAX Christmas campaign 1-week performance update",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Critical performance update promised to client for recent PMAX structure changes, need to monitor campaign scaling and key metrics",
+      "client": "smythson"
+    },
+    {
+      "task": "Review Demand Gen campaign performance during learning phase",
+      "priority": "P1",
+      "time_estimate": "45 mins",
+      "reason": "Campaign is in critical 14-45 day learning phase, need to assess early performance metrics, lookalike audience results, and video asset effectiveness before budget decisions",
+      "client": "superspace"
+    },
+    {
+      "task": "Review Olive Tree (Product 01090) Merchant Center feed stability",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Recent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Need to verify current feed stability and prevent potential recurrence.",
+      "client": "tree2mydoor"
+    },
+    {
+      "task": "Complete and send October 2025 month-end report to Gareth",
+      "priority": "P1",
+      "time_estimate": "1 hour",
+      "reason": "Monthly reporting is critical for client communication, especially given Gareth's need for structured, detailed documentation. Report is in progress and needs to be finalized.",
+      "client": "tree2mydoor"
+    },
+    {
+      "task": "Review AI Max search terms for Search Brand campaign",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Recently enabled AI Max feature (Oct 21, 2025) requires immediate performance check to ensure query matching quality",
+      "client": "uno-lighting"
+    },
+    {
+      "task": "Check ROAS performance after 10% reduction on PMax campaigns",
+      "priority": "P1",
+      "time_estimate": "30 mins",
+      "reason": "Monitor impact of ROAS target reduction implemented on Oct 15 to ensure performance remains within acceptable parameters",
+      "client": "uno-lighting"
+    },
+    {
+      "task": "Check bar stools product feed completeness",
+      "priority": "P2",
+      "time_estimate": "20 mins",
+      "reason": "Follow up on pending action item from November 10 meeting regarding product feed status",
+      "client": "accessories-for-the-home"
+    },
+    {
+      "task": "Monitor ROAS progression toward 400% target",
+      "priority": "P2",
+      "time_estimate": "15 mins",
+      "reason": "Current ROAS at 292%, need to track progress and prepare insights for weekly client report",
+      "client": "bright-minds"
+    },
+    {
+      "task": "Check initial performance of BMPM Cushions Search Campaign started on Oct 21",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Review early ROAS and conversion data to determine potential optimization needs for new search campaign and inform strategic adjustments",
+      "client": "clear-prospects"
+    },
+    {
+      "task": "Review October 14 ROAS Target Reduction Across Campaigns",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "All campaigns standardized to 170% ROAS on Oct 14, coinciding with performance drop - need to understand strategic rationale and potential corrective actions",
+      "client": "crowd-control"
+    },
+    {
+      "task": "Review September ROAS adjustments for Catch All and Villains campaigns",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Multiple ROAS target changes in September suggest active testing needs validation of final performance strategy",
+      "client": "go-glean"
+    },
+    {
+      "task": "Prepare initial research document analyzing Go Glean's high ROAS performance",
+      "priority": "P2",
+      "time_estimate": "1 hour",
+      "reason": "Understand key performance drivers differentiating Go Glean from Grain Guard's lower ROAS (140-160%)",
+      "client": "go-glean"
+    },
+    {
+      "task": "Review Sept 11 'Shopping Only' campaign switch and document performance impact",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Recent campaign structure change needs performance assessment to validate effectiveness and determine if further adjustments are required",
+      "client": "grain-guard"
+    },
+    {
+      "task": "Clarify JHD sub-brand details with client contact",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Unclear what JHD represents, impacts campaign strategy and product feed management",
+      "client": "just-bin-bags"
+    },
+    {
+      "task": "Review budget reduction impact from Nov 5th changes (daily spend reduced to \u00a3765)",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Confirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met",
+      "client": "national-design-academy"
+    },
+    {
+      "task": "Update Geographic Performance Analysis dashboard with latest enrollment data",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Ensure latest country-level ROAS and enrollment insights are current for upcoming client reporting and strategic decision-making",
+      "client": "national-design-academy"
+    },
+    {
+      "task": "Schedule initial campaign strategy meeting with Aatin Anadkat",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Establish key performance goals, budget, and initial campaign approach for new Google Ads account before further setup",
+      "client": "positive-bakes"
+    },
+    {
+      "task": "Move diary asset group to new standalone PMAX campaign",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Justified by 253 products and 50 conversions in 30 days, supports campaign optimization",
+      "client": "smythson"
+    },
+    {
+      "task": "Prepare horizontal video asset recommendations for Demand Gen campaign",
+      "priority": "P2",
+      "time_estimate": "1 hour",
+      "reason": "Current video assets are portrait-focused, need horizontal formats for desktop placements to improve campaign performance across platforms before scaling campaign",
+      "client": "superspace"
+    },
+    {
+      "task": "Verify ProfitMetrics conversion tracking is optimizing to profit value",
+      "priority": "P2",
+      "time_estimate": "30 mins",
+      "reason": "Known technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.",
+      "client": "tree2mydoor"
+    },
+    {
+      "task": "Verify product feed GTIN accuracy and product variant management",
+      "priority": "P2",
+      "time_estimate": "20 mins",
+      "reason": "Proactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues",
+      "client": "uno-lighting"
+    }
+  ]
+}

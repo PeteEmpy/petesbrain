@@ -1,0 +1,3673 @@
+{
+  "client": "Superspace",
+  "updated": "2025-11-27T12:51:31.891365",
+  "product_count": 94,
+  "baselines": {
+    "51778779775346": {
+      "product_id": "51778779775346",
+      "product_title": "Superspace Windows & Doors Add-On Pack -",
+      "label": "",
+      "data_points": 61,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 231.58166666666668,
+        "median": 299.01,
+        "stdev": 170.4622311051141,
+        "min": 9.39,
+        "max": 446.12
+      },
+      "clicks": {
+        "mean": 7.105263157894737,
+        "median": 7.0,
+        "stdev": 3.7162010677491404
+      },
+      "conversions": {
+        "mean": 0.76,
+        "median": 1.0,
+        "stdev": 0.5699122739510003
+      },
+      "impressions": {
+        "mean": 1019.5081967213115,
+        "median": 1038.0,
+        "stdev": 386.97573666190925
+      },
+      "cost": {
+        "mean": 11.246140350877193,
+        "median": 9.31,
+        "stdev": 6.891314345501974
+      },
+      "roas": {
+        "mean": 13.635,
+        "median": 15.79,
+        "stdev": 9.541062929159509
+      }
+    },
+    "51778779808114": {
+      "product_id": "51778779808114",
+      "product_title": "Superspace Windows & Doors Add-On Pack -",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 149.2982456140351,
+        "median": 129.0,
+        "stdev": 103.98900438306664
+      },
+      "cost": {
+        "mean": 0.33,
+        "median": 0.325,
+        "stdev": 0.1771198141694728
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51778779840882": {
+      "product_id": "51778779840882",
+      "product_title": "Superspace Windows & Doors Add-On Pack -",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 66.36842105263158,
+        "median": 52.0,
+        "stdev": 43.94543352635799
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51794035769714": {
+      "product_id": "51794035769714",
+      "product_title": "Superspace Farmyard Pack (18 pcs) - Felt with Velcro For Putting On Superspace Panels",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 253.8747619047619,
+        "median": 199.54,
+        "stdev": 253.63776886771117,
+        "min": 1.51,
+        "max": 853.43
+      },
+      "clicks": {
+        "mean": 20.491525423728813,
+        "median": 23.0,
+        "stdev": 9.482057250508916
+      },
+      "conversions": {
+        "mean": 0.8857894736842106,
+        "median": 0.67,
+        "stdev": 0.8444677205163925
+      },
+      "impressions": {
+        "mean": 2143.830508474576,
+        "median": 2321.0,
+        "stdev": 914.1950699657798
+      },
+      "cost": {
+        "mean": 18.897457627118644,
+        "median": 17.85,
+        "stdev": 11.697099197313591
+      },
+      "roas": {
+        "mean": 11.773333333333333,
+        "median": 7.71,
+        "stdev": 11.129948487451923
+      }
+    },
+    "52340681507186": {
+      "product_id": "52340681507186",
+      "product_title": "Superspace The Little Set (16 Panels) - Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 50.745,
+        "median": 50.745,
+        "stdev": 52.79868211739127,
+        "min": 5.02,
+        "max": 96.47
+      },
+      "clicks": {
+        "mean": 2.0869565217391304,
+        "median": 2.0,
+        "stdev": 1.0713664578268827
+      },
+      "conversions": {
+        "mean": 0.51,
+        "median": 0.51,
+        "stdev": 0.5658032638058332
+      },
+      "impressions": {
+        "mean": 1642.017543859649,
+        "median": 1487.0,
+        "stdev": 557.700011886449
+      },
+      "cost": {
+        "mean": 5.318070175438597,
+        "median": 3.05,
+        "stdev": 5.944303527206437
+      },
+      "roas": {
+        "mean": 17.64,
+        "median": 17.64,
+        "stdev": 20.114883378566564
+      }
+    },
+    "52340681539954": {
+      "product_id": "52340681539954",
+      "product_title": "Superspace The Little Set (16 Panels) - Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 12.94,
+        "median": 12.94,
+        "stdev": 0,
+        "min": 12.94,
+        "max": 12.94
+      },
+      "clicks": {
+        "mean": 1.4666666666666666,
+        "median": 1.0,
+        "stdev": 0.7432233529572065
+      },
+      "conversions": {
+        "mean": 0.07,
+        "median": 0.07,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 647.8771929824561,
+        "median": 654.0,
+        "stdev": 105.28177670549478
+      },
+      "cost": {
+        "mean": 5.774117647058824,
+        "median": 3.42,
+        "stdev": 8.06223066125586
+      },
+      "roas": {
+        "mean": 0.5,
+        "median": 0.5,
+        "stdev": 0
+      }
+    },
+    "52340681572722": {
+      "product_id": "52340681572722",
+      "product_title": "Superspace The Little Set (16 Panels) - Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 238.83333333333334,
+        "median": 238.15,
+        "stdev": 52.18803873175026,
+        "min": 180.83,
+        "max": 297.52
+      },
+      "clicks": {
+        "mean": 1.1818181818181819,
+        "median": 1.0,
+        "stdev": 0.39167472590032015
+      },
+      "conversions": {
+        "mean": 0.8066666666666666,
+        "median": 0.92,
+        "stdev": 0.24022211943671354
+      },
+      "impressions": {
+        "mean": 657.7894736842105,
+        "median": 601.0,
+        "stdev": 212.56022145349985
+      },
+      "cost": {
+        "mean": 4.921891891891892,
+        "median": 3.0,
+        "stdev": 4.848382226084306
+      },
+      "roas": {
+        "mean": 58.333333333333336,
+        "median": 62.3,
+        "stdev": 38.84147199407698
+      }
+    },
+    "52340681605490": {
+      "product_id": "52340681605490",
+      "product_title": "Superspace The Little Set (16 Panels) - Pine",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 275.47783783783785,
+        "median": 209.3,
+        "stdev": 202.97412368103497,
+        "min": 1.63,
+        "max": 784.68
+      },
+      "clicks": {
+        "mean": 34.98245614035088,
+        "median": 35.0,
+        "stdev": 9.943575147641415
+      },
+      "conversions": {
+        "mean": 1.0532432432432433,
+        "median": 1.0,
+        "stdev": 0.6978262043026268
+      },
+      "impressions": {
+        "mean": 5946.8983050847455,
+        "median": 5651.0,
+        "stdev": 1942.0809466324877
+      },
+      "cost": {
+        "mean": 65.76508771929825,
+        "median": 63.18,
+        "stdev": 23.040603145224722
+      },
+      "roas": {
+        "mean": 4.122432432432432,
+        "median": 3.3,
+        "stdev": 3.050298168854795
+      }
+    },
+    "52340681638258": {
+      "product_id": "52340681638258",
+      "product_title": "Superspace The Little Set (16 Panels) - Orange",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 299.25,
+        "median": 299.25,
+        "stdev": 0.0,
+        "min": 299.25,
+        "max": 299.25
+      },
+      "clicks": {
+        "mean": 1.1111111111111112,
+        "median": 1.0,
+        "stdev": 0.3233808333817773
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 758.9152542372881,
+        "median": 690.0,
+        "stdev": 406.0489306396966
+      },
+      "cost": {
+        "mean": 3.286923076923077,
+        "median": 0.59,
+        "stdev": 3.778171800467278
+      },
+      "roas": {
+        "mean": 32.96,
+        "median": 32.96,
+        "stdev": 0.0
+      }
+    },
+    "53497000165751": {
+      "product_id": "53497000165751",
+      "product_title": "Superspace The Rectangles Add-on Pack - Charcoal",
+      "label": "",
+      "data_points": 59,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.5222329678670935
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 279.5762711864407,
+        "median": 243.0,
+        "stdev": 166.16995904586514
+      },
+      "cost": {
+        "mean": 0.30733333333333335,
+        "median": 0.05,
+        "stdev": 0.5031276888269695
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "53497000198519": {
+      "product_id": "53497000198519",
+      "product_title": "Superspace The Rectangles Add-on Pack - Blue",
+      "label": "",
+      "data_points": 67,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 306.06399999999996,
+        "median": 299.01,
+        "stdev": 241.23292555050435,
+        "min": 4.67,
+        "max": 698.14
+      },
+      "clicks": {
+        "mean": 28.864406779661017,
+        "median": 26.0,
+        "stdev": 11.35243802938328
+      },
+      "conversions": {
+        "mean": 0.954,
+        "median": 1.0,
+        "stdev": 0.7365324161230108
+      },
+      "impressions": {
+        "mean": 3103.865671641791,
+        "median": 2351.0,
+        "stdev": 1953.6755949152216
+      },
+      "cost": {
+        "mean": 19.72,
+        "median": 17.95,
+        "stdev": 10.26988684757865
+      },
+      "roas": {
+        "mean": 20.904,
+        "median": 17.21,
+        "stdev": 23.615231145787362
+      }
+    },
+    "53497000231287": {
+      "product_id": "53497000231287",
+      "product_title": "Superspace The Rectangles Add-on Pack - Pine",
+      "label": "",
+      "data_points": 59,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 56.847457627118644,
+        "median": 49.0,
+        "stdev": 37.426624102378774
+      },
+      "cost": {
+        "mean": 0.998,
+        "median": 0.15,
+        "stdev": 1.3071155691487693
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "53497000264055": {
+      "product_id": "53497000264055",
+      "product_title": "Superspace The Rectangles Add-on Pack - Orange",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.1818181818181819,
+        "median": 1.0,
+        "stdev": 0.40451991747794525
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 155.57627118644066,
+        "median": 131.0,
+        "stdev": 160.97346144412904
+      },
+      "cost": {
+        "mean": 0.104,
+        "median": 0.08,
+        "stdev": 0.0972967967955095
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "53497000296823": {
+      "product_id": "53497000296823",
+      "product_title": "Superspace The Rectangles Add-on Pack - Turquoise",
+      "label": "",
+      "data_points": 63,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 191.26999999999998,
+        "median": 106.285,
+        "stdev": 171.55149580894278,
+        "min": 84.5,
+        "max": 468.01
+      },
+      "clicks": {
+        "mean": 1.4516129032258065,
+        "median": 1.0,
+        "stdev": 0.7676244601548058
+      },
+      "conversions": {
+        "mean": 0.59,
+        "median": 0.53,
+        "stdev": 0.2731823043840348
+      },
+      "impressions": {
+        "mean": 473.85714285714283,
+        "median": 464.0,
+        "stdev": 267.4392820534288
+      },
+      "cost": {
+        "mean": 1.8085714285714285,
+        "median": 0.66,
+        "stdev": 2.3164718899237093
+      },
+      "roas": {
+        "mean": 78.7725,
+        "median": 59.37,
+        "stdev": 75.4928149372035
+      }
+    },
+    "53497016353143": {
+      "product_id": "53497016353143",
+      "product_title": "Superspace The Squares Add-on Pack - Charcoal",
+      "label": "",
+      "data_points": 59,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 169.935,
+        "median": 169.935,
+        "stdev": 149.0429719913019,
+        "min": 40.86,
+        "max": 299.01
+      },
+      "clicks": {
+        "mean": 1.7567567567567568,
+        "median": 1.0,
+        "stdev": 1.1156812917427381
+      },
+      "conversions": {
+        "mean": 0.715,
+        "median": 0.715,
+        "stdev": 0.3290896534380867
+      },
+      "impressions": {
+        "mean": 272.52542372881356,
+        "median": 205.0,
+        "stdev": 255.86360563260527
+      },
+      "cost": {
+        "mean": 1.0551219512195122,
+        "median": 0.65,
+        "stdev": 1.105310187122193
+      },
+      "roas": {
+        "mean": 370.5,
+        "median": 370.5,
+        "stdev": 414.29500616509165
+      }
+    },
+    "53497016385911": {
+      "product_id": "53497016385911",
+      "product_title": "Superspace The Squares Add-on Pack - Turquoise",
+      "label": "",
+      "data_points": 59,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 194.52,
+        "median": 219.01,
+        "stdev": 126.67066179664492,
+        "min": 42.25,
+        "max": 322.3
+      },
+      "clicks": {
+        "mean": 5.288135593220339,
+        "median": 5.0,
+        "stdev": 2.977217211781007
+      },
+      "conversions": {
+        "mean": 0.75,
+        "median": 1.0,
+        "stdev": 0.3872983346207417
+      },
+      "impressions": {
+        "mean": 1061.3389830508474,
+        "median": 827.0,
+        "stdev": 589.8613691651884
+      },
+      "cost": {
+        "mean": 4.100847457627118,
+        "median": 3.1,
+        "stdev": 2.902359496813485
+      },
+      "roas": {
+        "mean": 26.886666666666667,
+        "median": 28.74,
+        "stdev": 17.830154981566107
+      }
+    },
+    "53497016418679": {
+      "product_id": "53497016418679",
+      "product_title": "Superspace The Squares Add-on Pack - Orange",
+      "label": "",
+      "data_points": 59,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 74.75,
+        "median": 74.75,
+        "stdev": 0.0,
+        "min": 74.75,
+        "max": 74.75
+      },
+      "clicks": {
+        "mean": 1.2352941176470589,
+        "median": 1.0,
+        "stdev": 0.4372373160976031
+      },
+      "conversions": {
+        "mean": 0.25,
+        "median": 0.25,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 92.27118644067797,
+        "median": 74.0,
+        "stdev": 56.01349298913567
+      },
+      "cost": {
+        "mean": 1.4770588235294118,
+        "median": 1.53,
+        "stdev": 0.8131402454826162
+      },
+      "roas": {
+        "mean": 31.67,
+        "median": 31.67,
+        "stdev": 0.0
+      }
+    },
+    "53497016451447": {
+      "product_id": "53497016451447",
+      "product_title": "Superspace The Squares Add-on Pack - Blue",
+      "label": "",
+      "data_points": 59,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0.36,
+        "median": 0.36,
+        "stdev": 0.0,
+        "min": 0.36,
+        "max": 0.36
+      },
+      "clicks": {
+        "mean": 2.2291666666666665,
+        "median": 2.0,
+        "stdev": 1.2418171882680695
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 500.9491525423729,
+        "median": 438.0,
+        "stdev": 282.57952336489546
+      },
+      "cost": {
+        "mean": 1.4785416666666666,
+        "median": 1.05,
+        "stdev": 1.2625809257119447
+      },
+      "roas": {
+        "mean": 0.09,
+        "median": 0.09,
+        "stdev": 0.0
+      }
+    },
+    "53497016484215": {
+      "product_id": "53497016484215",
+      "product_title": "Superspace The Squares Add-on Pack - Pine",
+      "label": "",
+      "data_points": 65,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.739130434782609,
+        "median": 1.0,
+        "stdev": 2.5265389784220953
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 295.46153846153845,
+        "median": 189.0,
+        "stdev": 298.1878118801071
+      },
+      "cost": {
+        "mean": 1.8495652173913044,
+        "median": 1.56,
+        "stdev": 2.21116891805889
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "53504404488567": {
+      "product_id": "53504404488567",
+      "product_title": "The Big Set (24 Panels) - Orange Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "label": "",
+      "data_points": 68,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 300.47444444444443,
+        "median": 299.01,
+        "stdev": 219.45115487911605,
+        "min": 25.55,
+        "max": 632.01
+      },
+      "clicks": {
+        "mean": 4.912280701754386,
+        "median": 5.0,
+        "stdev": 2.714252736905592
+      },
+      "conversions": {
+        "mean": 0.8222222222222222,
+        "median": 1.0,
+        "stdev": 0.3032234233110042
+      },
+      "impressions": {
+        "mean": 1106.2941176470588,
+        "median": 920.5,
+        "stdev": 733.6157247542288
+      },
+      "cost": {
+        "mean": 8.87122807017544,
+        "median": 8.0,
+        "stdev": 7.962831529356393
+      },
+      "roas": {
+        "mean": 63.416666666666664,
+        "median": 19.28,
+        "stdev": 74.16812202691935
+      }
+    },
+    "53504404521335": {
+      "product_id": "53504404521335",
+      "product_title": "The Big Set (24 Panels) - Charcoal Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "label": "",
+      "data_points": 68,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 190.84153846153845,
+        "median": 176.44,
+        "stdev": 113.77860972418861,
+        "min": 30.98,
+        "max": 302.9
+      },
+      "clicks": {
+        "mean": 4.30188679245283,
+        "median": 4.0,
+        "stdev": 2.7982474299541997
+      },
+      "conversions": {
+        "mean": 0.6061538461538462,
+        "median": 0.38,
+        "stdev": 0.39497971385752756
+      },
+      "impressions": {
+        "mean": 1004.3970588235294,
+        "median": 859.5,
+        "stdev": 637.4597005630761
+      },
+      "cost": {
+        "mean": 7.334909090909091,
+        "median": 4.96,
+        "stdev": 8.94225816055995
+      },
+      "roas": {
+        "mean": 20.034615384615385,
+        "median": 26.72,
+        "stdev": 12.958897596750925
+      }
+    },
+    "53504404554103": {
+      "product_id": "53504404554103",
+      "product_title": "The Big Set (24 Panels) - Turquoise Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "label": "",
+      "data_points": 67,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 1166.5177966101694,
+        "median": 1037.65,
+        "stdev": 651.7244276772724,
+        "min": 15.22,
+        "max": 2390.98
+      },
+      "clicks": {
+        "mean": 149.1864406779661,
+        "median": 131.0,
+        "stdev": 56.527830977703665
+      },
+      "conversions": {
+        "mean": 3.8510526315789475,
+        "median": 3.67,
+        "stdev": 2.0862831647715088
+      },
+      "impressions": {
+        "mean": 9858.522388059702,
+        "median": 9321.0,
+        "stdev": 5361.69475795867
+      },
+      "cost": {
+        "mean": 115.60457627118645,
+        "median": 98.13,
+        "stdev": 54.5561514696503
+      },
+      "roas": {
+        "mean": 11.485762711864407,
+        "median": 8.47,
+        "stdev": 7.123585934303959
+      }
+    },
+    "53504404586871": {
+      "product_id": "53504404586871",
+      "product_title": "The Big Set (24 Panels) - Blue Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "label": "",
+      "data_points": 66,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 178.81,
+        "median": 177.4,
+        "stdev": 110.90763508433493,
+        "min": 8.64,
+        "max": 300.25
+      },
+      "clicks": {
+        "mean": 9.694915254237289,
+        "median": 8.0,
+        "stdev": 6.289713104822047
+      },
+      "conversions": {
+        "mean": 0.62375,
+        "median": 0.5700000000000001,
+        "stdev": 0.35646177915731725
+      },
+      "impressions": {
+        "mean": 2685.2272727272725,
+        "median": 1789.5,
+        "stdev": 2010.3253375852037
+      },
+      "cost": {
+        "mean": 14.376610169491526,
+        "median": 10.63,
+        "stdev": 12.791538368318749
+      },
+      "roas": {
+        "mean": 17.7925,
+        "median": 9.899999999999999,
+        "stdev": 22.267769084486215
+      }
+    },
+    "53504404619639": {
+      "product_id": "53504404619639",
+      "product_title": "The Big Set (24 Panels) - Pine Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "label": "",
+      "data_points": 61,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 377.7457894736842,
+        "median": 299.01,
+        "stdev": 268.47951963394416,
+        "min": 3.85,
+        "max": 1058.89
+      },
+      "clicks": {
+        "mean": 29.70909090909091,
+        "median": 26.0,
+        "stdev": 14.68392006303182
+      },
+      "conversions": {
+        "mean": 1.1254054054054055,
+        "median": 1.0,
+        "stdev": 0.7717389980304747
+      },
+      "impressions": {
+        "mean": 3654.065573770492,
+        "median": 3043.0,
+        "stdev": 2288.770098173926
+      },
+      "cost": {
+        "mean": 31.471636363636364,
+        "median": 25.56,
+        "stdev": 16.93793712172158
+      },
+      "roas": {
+        "mean": 11.41157894736842,
+        "median": 11.785,
+        "stdev": 6.4529936594788735
+      }
+    },
+    "54858816586103": {
+      "product_id": "54858816586103",
+      "product_title": "Superspace Whiteboard / Blackboard Attachments (2-Pack) - Default Title",
+      "label": "",
+      "data_points": 65,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 118.85818181818182,
+        "median": 28.28,
+        "stdev": 161.5524102379152,
+        "min": 0.03,
+        "max": 438.51
+      },
+      "clicks": {
+        "mean": 12.379310344827585,
+        "median": 10.5,
+        "stdev": 11.037142374579265
+      },
+      "conversions": {
+        "mean": 0.526,
+        "median": 0.22,
+        "stdev": 0.5374246581223221
+      },
+      "impressions": {
+        "mean": 1624.6,
+        "median": 846.0,
+        "stdev": 1463.396720817701
+      },
+      "cost": {
+        "mean": 5.76051724137931,
+        "median": 4.115,
+        "stdev": 5.739389729283925
+      },
+      "roas": {
+        "mean": 16.35272727272727,
+        "median": 5.7,
+        "stdev": 20.33240251932349
+      }
+    },
+    "55070310728055": {
+      "product_id": "55070310728055",
+      "product_title": "Superspace Farmyard Pack (18 pcs) - Highly Durable Felt - Velcros To Superspace Panels",
+      "label": "",
+      "data_points": 65,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 252.17166666666668,
+        "median": 297.79,
+        "stdev": 207.80922126304702,
+        "min": 7.04,
+        "max": 740.32
+      },
+      "clicks": {
+        "mean": 48.049180327868854,
+        "median": 39.0,
+        "stdev": 35.62322567722178
+      },
+      "conversions": {
+        "mean": 0.7706896551724138,
+        "median": 1.0,
+        "stdev": 0.5555751912238777
+      },
+      "impressions": {
+        "mean": 3325.523076923077,
+        "median": 2943.0,
+        "stdev": 2502.7231862743797
+      },
+      "cost": {
+        "mean": 17.52622950819672,
+        "median": 12.33,
+        "stdev": 15.17016371741303
+      },
+      "roas": {
+        "mean": 25.386,
+        "median": 13.53,
+        "stdev": 36.47840708485331
+      }
+    },
+    "55110244827511": {
+      "product_id": "55110244827511",
+      "product_title": "Superspace Superspace Letters and Numbers Pack (105 pcs) - Default Title",
+      "label": "",
+      "data_points": 65,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0.02,
+        "median": 0.02,
+        "stdev": 0.0,
+        "min": 0.02,
+        "max": 0.02
+      },
+      "clicks": {
+        "mean": 1.7837837837837838,
+        "median": 1.0,
+        "stdev": 1.6521893746570728
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 962.2153846153847,
+        "median": 801.0,
+        "stdev": 711.8217274252138
+      },
+      "cost": {
+        "mean": 1.426078431372549,
+        "median": 0.37,
+        "stdev": 2.096623073832178
+      },
+      "roas": {
+        "mean": 0.08,
+        "median": 0.08,
+        "stdev": 0.0
+      }
+    },
+    "60667469955442": {
+      "product_id": "60667469955442",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 5,
+      "date_range": "45934 to 45936",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.8,
+        "median": 43.0,
+        "stdev": 14.237275020171522
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14637805699442_51677869408626": {
+      "product_id": "shopify_us_14637805699442_51677869408626",
+      "product_title": "",
+      "label": "",
+      "data_points": 31,
+      "date_range": "45934 to 45946",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.125,
+        "median": 2.0,
+        "stdev": 1.2041594578792296
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1406.3870967741937,
+        "median": 1498.0,
+        "stdev": 808.4160511939116
+      },
+      "cost": {
+        "mean": 1.4542857142857142,
+        "median": 0.38,
+        "stdev": 2.1009392457388465
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14637807862130_51677875470706": {
+      "product_id": "shopify_us_14637807862130_51677875470706",
+      "product_title": "The Big Set (24 Panels) - Superspace Orange",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 724.3135714285714,
+        "median": 335.055,
+        "stdev": 855.0427276185906,
+        "min": 17.18,
+        "max": 2986.55
+      },
+      "clicks": {
+        "mean": 22.82456140350877,
+        "median": 13.0,
+        "stdev": 21.043426872454518
+      },
+      "conversions": {
+        "mean": 2.205,
+        "median": 1.0,
+        "stdev": 2.527498397259264
+      },
+      "impressions": {
+        "mean": 4169.701754385965,
+        "median": 3910.0,
+        "stdev": 1822.7053476799679
+      },
+      "cost": {
+        "mean": 53.62929824561404,
+        "median": 46.6,
+        "stdev": 35.753607703062094
+      },
+      "roas": {
+        "mean": 11.145714285714286,
+        "median": 12.215,
+        "stdev": 8.338416862162491
+      }
+    },
+    "shopify_us_14637807862130_51677875503474": {
+      "product_id": "shopify_us_14637807862130_51677875503474",
+      "product_title": "The Big Set (24 Panels) - Superspace Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 381.34777777777776,
+        "median": 299.315,
+        "stdev": 299.5282485615492,
+        "min": 2.37,
+        "max": 991.9
+      },
+      "clicks": {
+        "mean": 24.473684210526315,
+        "median": 22.0,
+        "stdev": 14.227871619714161
+      },
+      "conversions": {
+        "mean": 1.28,
+        "median": 1.0,
+        "stdev": 0.9279759662509552
+      },
+      "impressions": {
+        "mean": 3102.7719298245615,
+        "median": 3146.0,
+        "stdev": 1361.5809353408667
+      },
+      "cost": {
+        "mean": 42.292631578947365,
+        "median": 38.7,
+        "stdev": 26.340680550807704
+      },
+      "roas": {
+        "mean": 8.778888888888888,
+        "median": 9.09,
+        "stdev": 6.204786068731956
+      }
+    },
+    "shopify_us_14637807862130_51677875536242": {
+      "product_id": "shopify_us_14637807862130_51677875536242",
+      "product_title": "The Big Set (24 Panels) - Superspace Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 99.91,
+        "median": 99.91,
+        "stdev": 0.0,
+        "min": 99.91,
+        "max": 99.91
+      },
+      "clicks": {
+        "mean": 3.327272727272727,
+        "median": 3.0,
+        "stdev": 2.0371961982510056
+      },
+      "conversions": {
+        "mean": 0.33,
+        "median": 0.33,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 1523.0701754385964,
+        "median": 1369.0,
+        "stdev": 468.4926382882935
+      },
+      "cost": {
+        "mean": 8.74298245614035,
+        "median": 5.79,
+        "stdev": 7.79314029059996
+      },
+      "roas": {
+        "mean": 3.97,
+        "median": 3.97,
+        "stdev": 0.0
+      }
+    },
+    "shopify_us_14637807862130_51677875569010": {
+      "product_id": "shopify_us_14637807862130_51677875569010",
+      "product_title": "The Big Set (24 Panels) - Superspace Pine",
+      "label": "",
+      "data_points": 63,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 274.91,
+        "median": 274.91,
+        "stdev": 0.0,
+        "min": 274.91,
+        "max": 274.91
+      },
+      "clicks": {
+        "mean": 4.7254901960784315,
+        "median": 6.0,
+        "stdev": 2.4906098158687886
+      },
+      "conversions": {
+        "mean": 0.92,
+        "median": 0.92,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 927.3809523809524,
+        "median": 996.0,
+        "stdev": 502.47996039551504
+      },
+      "cost": {
+        "mean": 9.108771929824561,
+        "median": 4.4,
+        "stdev": 9.023943561075928
+      },
+      "roas": {
+        "mean": 79.92,
+        "median": 79.92,
+        "stdev": 0.0
+      }
+    },
+    "shopify_us_14637807862130_51677875601778": {
+      "product_id": "shopify_us_14637807862130_51677875601778",
+      "product_title": "The Big Set (24 Panels) - Superspace Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 338.3757142857143,
+        "median": 297.13,
+        "stdev": 394.040386980102,
+        "min": 1.57,
+        "max": 1836.57
+      },
+      "clicks": {
+        "mean": 31.649122807017545,
+        "median": 29.0,
+        "stdev": 13.859616604765
+      },
+      "conversions": {
+        "mean": 1.0223809523809524,
+        "median": 1.0,
+        "stdev": 1.1342039424384722
+      },
+      "impressions": {
+        "mean": 4479.035087719299,
+        "median": 4484.0,
+        "stdev": 1161.9731058621223
+      },
+      "cost": {
+        "mean": 76.83087719298246,
+        "median": 71.68,
+        "stdev": 35.84146393099467
+      },
+      "roas": {
+        "mean": 4.0304761904761905,
+        "median": 3.33,
+        "stdev": 4.018682560716823
+      }
+    },
+    "shopify_us_14642481430898_51688836727154": {
+      "product_id": "shopify_us_14642481430898_51688836727154",
+      "product_title": "The Rectangles Add-On Pack - Superspace Orange",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.116279069767442,
+        "median": 2.0,
+        "stdev": 1.2948488112808014
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 885.5263157894736,
+        "median": 859.0,
+        "stdev": 172.16158370047495
+      },
+      "cost": {
+        "mean": 3.718936170212766,
+        "median": 3.28,
+        "stdev": 3.2604475779991717
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14642481430898_51688836759922": {
+      "product_id": "shopify_us_14642481430898_51688836759922",
+      "product_title": "The Rectangles Add-On Pack - Superspace Pine",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 182.55666666666667,
+        "median": 157.645,
+        "stdev": 138.25788968665066,
+        "min": 26.97,
+        "max": 417.67
+      },
+      "clicks": {
+        "mean": 6.7368421052631575,
+        "median": 7.0,
+        "stdev": 3.6670653690727457
+      },
+      "conversions": {
+        "mean": 0.7083333333333334,
+        "median": 0.75,
+        "stdev": 0.4523641600893393
+      },
+      "impressions": {
+        "mean": 2201.6271186440677,
+        "median": 2195.0,
+        "stdev": 780.4390430658596
+      },
+      "cost": {
+        "mean": 10.361754385964913,
+        "median": 9.98,
+        "stdev": 7.988948644133125
+      },
+      "roas": {
+        "mean": 18.401666666666667,
+        "median": 11.950000000000001,
+        "stdev": 17.590863761589077
+      }
+    },
+    "shopify_us_14642481430898_51688836792690": {
+      "product_id": "shopify_us_14642481430898_51688836792690",
+      "product_title": "The Rectangles Add-On Pack - Superspace Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 60.975,
+        "median": 60.975,
+        "stdev": 55.20045923722012,
+        "min": 13.17,
+        "max": 108.78
+      },
+      "clicks": {
+        "mean": 2.836734693877551,
+        "median": 2.0,
+        "stdev": 1.4768623662953808
+      },
+      "conversions": {
+        "mean": 0.12,
+        "median": 0.12,
+        "stdev": 0.0808290376865476
+      },
+      "impressions": {
+        "mean": 1527.578947368421,
+        "median": 1308.0,
+        "stdev": 575.5309643950042
+      },
+      "cost": {
+        "mean": 2.7826315789473686,
+        "median": 1.78,
+        "stdev": 3.2136953175410023
+      },
+      "roas": {
+        "mean": 28.765,
+        "median": 28.765,
+        "stdev": 25.755595508549206
+      }
+    },
+    "shopify_us_14642481430898_51688836825458": {
+      "product_id": "shopify_us_14642481430898_51688836825458",
+      "product_title": "The Rectangles Add-On Pack - Superspace Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 134.674,
+        "median": 138.69,
+        "stdev": 85.29853264336447,
+        "min": 35.92,
+        "max": 276.91
+      },
+      "clicks": {
+        "mean": 4.508771929824562,
+        "median": 4.0,
+        "stdev": 2.2370484940904345
+      },
+      "conversions": {
+        "mean": 0.494,
+        "median": 0.47,
+        "stdev": 0.3016694290849579
+      },
+      "impressions": {
+        "mean": 1212.3157894736842,
+        "median": 1182.0,
+        "stdev": 226.0384099704183
+      },
+      "cost": {
+        "mean": 5.462631578947368,
+        "median": 5.11,
+        "stdev": 4.138402265158702
+      },
+      "roas": {
+        "mean": 57.944,
+        "median": 54.19,
+        "stdev": 58.76478786938087
+      }
+    },
+    "shopify_us_14642481430898_51688836858226": {
+      "product_id": "shopify_us_14642481430898_51688836858226",
+      "product_title": "The Rectangles Add-On Pack - Superspace Blue",
+      "label": "",
+      "data_points": 27,
+      "date_range": "45934 to 45947",
+      "revenue": {
+        "mean": 184.58,
+        "median": 184.58,
+        "stdev": 0.0,
+        "min": 184.58,
+        "max": 184.58
+      },
+      "clicks": {
+        "mean": 6.0,
+        "median": 4.0,
+        "stdev": 4.141720192606709
+      },
+      "conversions": {
+        "mean": 0.67,
+        "median": 0.67,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 2476.5185185185187,
+        "median": 1912.0,
+        "stdev": 1278.5295451106313
+      },
+      "cost": {
+        "mean": 7.088148148148148,
+        "median": 3.99,
+        "stdev": 6.444755791182255
+      },
+      "roas": {
+        "mean": 27.36,
+        "median": 27.36,
+        "stdev": 0.0
+      }
+    },
+    "shopify_us_14652606906738_51718168052082": {
+      "product_id": "shopify_us_14652606906738_51718168052082",
+      "product_title": "The Squares Add-on Pack - Superspace Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.2222222222222223,
+        "median": 1.0,
+        "stdev": 0.44095855184409843
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 186.89473684210526,
+        "median": 168.0,
+        "stdev": 71.4052029443149
+      },
+      "cost": {
+        "mean": 1.3311111111111111,
+        "median": 0.83,
+        "stdev": 1.2349437684004527
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14652606906738_51718168084850": {
+      "product_id": "shopify_us_14652606906738_51718168084850",
+      "product_title": "The Squares Add-on Pack - Superspace Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 176.29,
+        "median": 176.29,
+        "stdev": 0.0,
+        "min": 176.29,
+        "max": 176.29
+      },
+      "clicks": {
+        "mean": 1.3428571428571427,
+        "median": 1.0,
+        "stdev": 0.4815939919779354
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 675.1052631578947,
+        "median": 697.0,
+        "stdev": 128.68895004879656
+      },
+      "cost": {
+        "mean": 1.644,
+        "median": 1.16,
+        "stdev": 1.3862289090317277
+      },
+      "roas": {
+        "mean": 607.91,
+        "median": 607.91,
+        "stdev": 0.0
+      }
+    },
+    "shopify_us_14652606906738_51718168117618": {
+      "product_id": "shopify_us_14652606906738_51718168117618",
+      "product_title": "The Squares Add-on Pack - Superspace Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 128.73684210526315,
+        "median": 122.0,
+        "stdev": 40.30044590137464
+      },
+      "cost": {
+        "mean": 1.7816666666666665,
+        "median": 0.41500000000000004,
+        "stdev": 2.3734318586971876
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14652606906738_51718168150386": {
+      "product_id": "shopify_us_14652606906738_51718168150386",
+      "product_title": "The Squares Add-on Pack - Superspace Orange",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 288.59322033898303,
+        "median": 293.0,
+        "stdev": 122.46070708937592
+      },
+      "cost": {
+        "mean": 1.3414285714285714,
+        "median": 0.34,
+        "stdev": 2.673168264705492
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14652606906738_51718168183154": {
+      "product_id": "shopify_us_14652606906738_51718168183154",
+      "product_title": "The Squares Add-on Pack - Superspace Pine",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.020408163265306,
+        "median": 2.0,
+        "stdev": 1.145458349278564
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1264.6842105263158,
+        "median": 1063.0,
+        "stdev": 699.6323054161771
+      },
+      "cost": {
+        "mean": 2.2262745098039214,
+        "median": 1.42,
+        "stdev": 2.196191212790283
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14673039819122_51778779709810": {
+      "product_id": "shopify_us_14673039819122_51778779709810",
+      "product_title": "Superspace Windows & Doors Add-On Pack for Kids Pine",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 138.43,
+        "median": 138.43,
+        "stdev": 0.0,
+        "min": 138.43,
+        "max": 138.43
+      },
+      "clicks": {
+        "mean": 1.6666666666666667,
+        "median": 1.5,
+        "stdev": 0.778498944161523
+      },
+      "conversions": {
+        "mean": 0.5,
+        "median": 0.5,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 424.10526315789474,
+        "median": 402.0,
+        "stdev": 259.5185572920506
+      },
+      "cost": {
+        "mean": 0.437,
+        "median": 0.28,
+        "stdev": 0.5163240516534064
+      },
+      "roas": {
+        "mean": 13843.36,
+        "median": 13843.36,
+        "stdev": 0.0
+      }
+    },
+    "shopify_us_14673039819122_51778779742578": {
+      "product_id": "shopify_us_14673039819122_51778779742578",
+      "product_title": "Superspace Windows & Doors Add-On Pack for Kids Orange",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 102.0701754385965,
+        "median": 95.0,
+        "stdev": 52.7855701498061
+      },
+      "cost": {
+        "mean": 0.04142857142857143,
+        "median": 0.03,
+        "stdev": 0.030091435749968885
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14673039819122_51778779775346": {
+      "product_id": "shopify_us_14673039819122_51778779775346",
+      "product_title": "Superspace Windows & Doors Add-On Pack for Kids Turquoise",
+      "label": "",
+      "data_points": 61,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 429.0923076923077,
+        "median": 298.19,
+        "stdev": 289.9109486273468,
+        "min": 21.49,
+        "max": 995.1
+      },
+      "clicks": {
+        "mean": 96.96491228070175,
+        "median": 98.0,
+        "stdev": 22.735250251757183
+      },
+      "conversions": {
+        "mean": 1.2997435897435898,
+        "median": 1.0,
+        "stdev": 0.8822652876469609
+      },
+      "impressions": {
+        "mean": 10453.573770491803,
+        "median": 10512.0,
+        "stdev": 3819.668735457812
+      },
+      "cost": {
+        "mean": 117.42894736842105,
+        "median": 119.93,
+        "stdev": 33.39592739735376
+      },
+      "roas": {
+        "mean": 3.888717948717949,
+        "median": 2.88,
+        "stdev": 2.793083732032223
+      }
+    },
+    "shopify_us_14673039819122_51778779808114": {
+      "product_id": "shopify_us_14673039819122_51778779808114",
+      "product_title": "Superspace Windows & Doors Add-On Pack for Kids Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5163977794943223
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 196.56140350877192,
+        "median": 84.0,
+        "stdev": 298.6862315411956
+      },
+      "cost": {
+        "mean": 0.40249999999999997,
+        "median": 0.165,
+        "stdev": 0.6146207738534176
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14673039819122_51778779840882": {
+      "product_id": "shopify_us_14673039819122_51778779840882",
+      "product_title": "Superspace Windows & Doors Add-On Pack for Kids Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 68.89473684210526,
+        "median": 62.0,
+        "stdev": 36.32280089229979
+      },
+      "cost": {
+        "mean": 0.058333333333333334,
+        "median": 0.03,
+        "stdev": 0.05407626488804885
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_us_14677133427058_51794035769714": {
+      "product_id": "shopify_us_14677133427058_51794035769714",
+      "product_title": "Superspace Farmyard Pack (18 pcs)",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 333.6851724137931,
+        "median": 298.66,
+        "stdev": 198.72646916626542,
+        "min": 4.07,
+        "max": 798.81
+      },
+      "clicks": {
+        "mean": 44.35087719298246,
+        "median": 42.0,
+        "stdev": 18.072760904654054
+      },
+      "conversions": {
+        "mean": 1.1448275862068966,
+        "median": 1.0,
+        "stdev": 0.5276201331697914
+      },
+      "impressions": {
+        "mean": 4470.3050847457625,
+        "median": 4104.0,
+        "stdev": 1995.3251679884615
+      },
+      "cost": {
+        "mean": 41.32052631578947,
+        "median": 35.58,
+        "stdev": 20.299273159142267
+      },
+      "roas": {
+        "mean": 8.893793103448276,
+        "median": 7.61,
+        "stdev": 5.3807715948240205
+      }
+    },
+    "shopify_zz_8666177208451_45531400798339": {
+      "product_id": "shopify_zz_8666177208451_45531400798339",
+      "product_title": "The Big Set (24 Panels) - Superspace Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 400.4512195121951,
+        "median": 296.38,
+        "stdev": 270.86210625699493,
+        "min": 0.2,
+        "max": 1303.57
+      },
+      "clicks": {
+        "mean": 20.649122807017545,
+        "median": 17.0,
+        "stdev": 9.740363787702798
+      },
+      "conversions": {
+        "mean": 1.3358974358974358,
+        "median": 1.04,
+        "stdev": 0.5807831280567279
+      },
+      "impressions": {
+        "mean": 969.0877192982456,
+        "median": 721.0,
+        "stdev": 532.8582054992864
+      },
+      "cost": {
+        "mean": 9.443684210526316,
+        "median": 7.01,
+        "stdev": 7.339170990450329
+      },
+      "roas": {
+        "mean": 54.82707317073171,
+        "median": 36.86,
+        "stdev": 51.60619930027314
+      }
+    },
+    "shopify_zz_8666177208451_45531400831107": {
+      "product_id": "shopify_zz_8666177208451_45531400831107",
+      "product_title": "The Big Set (24 Panels) - Superspace Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.875,
+        "median": 2.0,
+        "stdev": 0.7071067811865476
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 275.82456140350877,
+        "median": 269.0,
+        "stdev": 63.19615800003124
+      },
+      "cost": {
+        "mean": 4.619375,
+        "median": 4.154999999999999,
+        "stdev": 3.5138022210117485
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_8666177208451_45531400863875": {
+      "product_id": "shopify_zz_8666177208451_45531400863875",
+      "product_title": "The Big Set (24 Panels) - Superspace Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 331.9657142857143,
+        "median": 293.72,
+        "stdev": 193.4164576349014,
+        "min": 8.81,
+        "max": 755.15
+      },
+      "clicks": {
+        "mean": 45.56140350877193,
+        "median": 41.0,
+        "stdev": 12.886894705003398
+      },
+      "conversions": {
+        "mean": 1.0651428571428572,
+        "median": 1.0,
+        "stdev": 0.615239654063986
+      },
+      "impressions": {
+        "mean": 4681.8421052631575,
+        "median": 4572.0,
+        "stdev": 1468.6337284004778
+      },
+      "cost": {
+        "mean": 52.30280701754386,
+        "median": 46.84,
+        "stdev": 19.17608413347823
+      },
+      "roas": {
+        "mean": 7.678,
+        "median": 5.16,
+        "stdev": 6.121609169452866
+      }
+    },
+    "shopify_zz_8666177208451_45531400896643": {
+      "product_id": "shopify_zz_8666177208451_45531400896643",
+      "product_title": "The Big Set (24 Panels) - Superspace Pine",
+      "label": "",
+      "data_points": 53,
+      "date_range": "45934 to 45960",
+      "revenue": {
+        "mean": 207.89,
+        "median": 207.89,
+        "stdev": 82.13384929491616,
+        "min": 136.76,
+        "max": 279.02
+      },
+      "clicks": {
+        "mean": 2.4,
+        "median": 2.0,
+        "stdev": 1.6431676725154984
+      },
+      "conversions": {
+        "mean": 0.75,
+        "median": 0.75,
+        "stdev": 0.28867513459481287
+      },
+      "impressions": {
+        "mean": 544.6603773584906,
+        "median": 509.0,
+        "stdev": 133.8658834281861
+      },
+      "cost": {
+        "mean": 3.428888888888889,
+        "median": 2.22,
+        "stdev": 4.196480247141224
+      },
+      "roas": {
+        "mean": 62.394999999999996,
+        "median": 62.394999999999996,
+        "stdev": 49.992759809129694
+      }
+    },
+    "shopify_zz_8666177208451_45531400929411": {
+      "product_id": "shopify_zz_8666177208451_45531400929411",
+      "product_title": "The Big Set (24 Panels) - Superspace Orange",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 161.62222222222223,
+        "median": 145.71,
+        "stdev": 100.12398124048227,
+        "min": 49.86,
+        "max": 293.46
+      },
+      "clicks": {
+        "mean": 5.9818181818181815,
+        "median": 5.0,
+        "stdev": 3.070112249672514
+      },
+      "conversions": {
+        "mean": 0.5666666666666667,
+        "median": 0.5,
+        "stdev": 0.3443472084974699
+      },
+      "impressions": {
+        "mean": 1454.542372881356,
+        "median": 1098.0,
+        "stdev": 1299.8827310772665
+      },
+      "cost": {
+        "mean": 7.686491228070175,
+        "median": 7.49,
+        "stdev": 5.64066026125997
+      },
+      "roas": {
+        "mean": 23.63,
+        "median": 23.53,
+        "stdev": 18.47171012656922
+      }
+    },
+    "shopify_zz_8666177306755_45531401814147": {
+      "product_id": "shopify_zz_8666177306755_45531401814147",
+      "product_title": "The Rectangles Add-On Pack - Superspace Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 49.65,
+        "median": 49.65,
+        "stdev": 0.0,
+        "min": 49.65,
+        "max": 49.65
+      },
+      "clicks": {
+        "mean": 1.96,
+        "median": 1.0,
+        "stdev": 1.3063945294843617
+      },
+      "conversions": {
+        "mean": 0.33,
+        "median": 0.33,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 189.78947368421052,
+        "median": 190.0,
+        "stdev": 54.932990621725814
+      },
+      "cost": {
+        "mean": 1.12,
+        "median": 0.81,
+        "stdev": 0.9084464761338447
+      },
+      "roas": {
+        "mean": 110.34,
+        "median": 110.34,
+        "stdev": 0.0
+      }
+    },
+    "shopify_zz_8666177306755_45531401846915": {
+      "product_id": "shopify_zz_8666177306755_45531401846915",
+      "product_title": "The Rectangles Add-On Pack - Superspace Pine",
+      "label": "",
+      "data_points": 51,
+      "date_range": "45934 to 45959",
+      "revenue": {
+        "mean": 126.82666666666667,
+        "median": 145.45,
+        "stdev": 89.96704157466205,
+        "min": 0.2,
+        "max": 273.2
+      },
+      "clicks": {
+        "mean": 6.568627450980392,
+        "median": 6.0,
+        "stdev": 3.6235612425390817
+      },
+      "conversions": {
+        "mean": 0.866,
+        "median": 1.0,
+        "stdev": 0.2824968043083752
+      },
+      "impressions": {
+        "mean": 924.6274509803922,
+        "median": 874.0,
+        "stdev": 373.9343236871584
+      },
+      "cost": {
+        "mean": 4.759215686274509,
+        "median": 3.07,
+        "stdev": 3.564245694750717
+      },
+      "roas": {
+        "mean": 43.31166666666667,
+        "median": 15.585,
+        "stdev": 65.04716118930848
+      }
+    },
+    "shopify_zz_8666177306755_45531401879683": {
+      "product_id": "shopify_zz_8666177306755_45531401879683",
+      "product_title": "The Rectangles Add-On Pack - Superspace Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.85,
+        "median": 1.5,
+        "stdev": 1.1220402662000857
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 410.2456140350877,
+        "median": 374.0,
+        "stdev": 145.5154975425733
+      },
+      "cost": {
+        "mean": 1.7126666666666666,
+        "median": 1.06,
+        "stdev": 1.936120065773533
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_8666177306755_45531401912451": {
+      "product_id": "shopify_zz_8666177306755_45531401912451",
+      "product_title": "The Rectangles Add-On Pack - Superspace Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.6428571428571428,
+        "median": 1.5,
+        "stdev": 0.8261595987094035
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 246.140350877193,
+        "median": 189.0,
+        "stdev": 294.7029035799378
+      },
+      "cost": {
+        "mean": 0.7454545454545455,
+        "median": 0.76,
+        "stdev": 0.45601597360379625
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_8666177306755_45531401945219": {
+      "product_id": "shopify_zz_8666177306755_45531401945219",
+      "product_title": "The Rectangles Add-On Pack - Superspace Orange",
+      "label": "",
+      "data_points": 63,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.6923076923076925,
+        "median": 1.0,
+        "stdev": 3.630638850331779
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 484.3492063492063,
+        "median": 158.0,
+        "stdev": 1299.2649678696148
+      },
+      "cost": {
+        "mean": 0.9515151515151515,
+        "median": 0.6,
+        "stdev": 1.061747148607312
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_8666177405059_45531402010755": {
+      "product_id": "shopify_zz_8666177405059_45531402010755",
+      "product_title": "The Little Set (16 Panels) - Superspace Pine",
+      "label": "",
+      "data_points": 61,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 184.504,
+        "median": 161.26,
+        "stdev": 150.50567218546948,
+        "min": 0.2,
+        "max": 427.45
+      },
+      "clicks": {
+        "mean": 8.24561403508772,
+        "median": 6.0,
+        "stdev": 5.510641334708647
+      },
+      "conversions": {
+        "mean": 0.8525,
+        "median": 0.9099999999999999,
+        "stdev": 0.18005951397087736
+      },
+      "impressions": {
+        "mean": 1626.7540983606557,
+        "median": 1283.0,
+        "stdev": 1583.570371615333
+      },
+      "cost": {
+        "mean": 8.695789473684211,
+        "median": 5.97,
+        "stdev": 8.530867889897676
+      },
+      "roas": {
+        "mean": 59.46,
+        "median": 58.0,
+        "stdev": 41.94899177705122
+      }
+    },
+    "shopify_zz_8666177405059_45531402043523": {
+      "product_id": "shopify_zz_8666177405059_45531402043523",
+      "product_title": "The Little Set (16 Panels) - Superspace Charcoal",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.08,
+        "median": 1.0,
+        "stdev": 0.27688746209726917
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 153.89473684210526,
+        "median": 44.0,
+        "stdev": 226.86022161316853
+      },
+      "cost": {
+        "mean": 1.0745454545454545,
+        "median": 0.35,
+        "stdev": 1.649842967734147
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_8666177405059_45531402076291": {
+      "product_id": "shopify_zz_8666177405059_45531402076291",
+      "product_title": "The Little Set (16 Panels) - Superspace Turquoise",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 70.82,
+        "median": 70.82,
+        "stdev": 0.0,
+        "min": 70.82,
+        "max": 70.82
+      },
+      "clicks": {
+        "mean": 1.9696969696969697,
+        "median": 2.0,
+        "stdev": 0.9180430438182244
+      },
+      "conversions": {
+        "mean": 0.4,
+        "median": 0.4,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 326.9824561403509,
+        "median": 311.0,
+        "stdev": 128.05056077693771
+      },
+      "cost": {
+        "mean": 2.6085714285714285,
+        "median": 2.39,
+        "stdev": 1.8422925980437317
+      },
+      "roas": {
+        "mean": 12.97,
+        "median": 12.97,
+        "stdev": 0.0
+      }
+    },
+    "shopify_zz_8666177405059_45531402109059": {
+      "product_id": "shopify_zz_8666177405059_45531402109059",
+      "product_title": "The Little Set (16 Panels) - Superspace Blue",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.777777777777778,
+        "median": 1.0,
+        "stdev": 6.418289837989902
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 193.9298245614035,
+        "median": 72.0,
+        "stdev": 441.23061914738304
+      },
+      "cost": {
+        "mean": 0.786923076923077,
+        "median": 0.92,
+        "stdev": 0.7641049733226517
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_8666177405059_45531402141827": {
+      "product_id": "shopify_zz_8666177405059_45531402141827",
+      "product_title": "The Little Set (16 Panels) - Superspace Orange",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45934 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 72.73684210526316,
+        "median": 69.0,
+        "stdev": 28.091385509611733
+      },
+      "cost": {
+        "mean": 1.6712500000000001,
+        "median": 1.41,
+        "stdev": 1.2435265712212722
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51677869408626": {
+      "product_id": "51677869408626",
+      "product_title": "Superspace Whiteboard / Blackboard Attachments (2-Pack) -",
+      "label": "",
+      "data_points": 33,
+      "date_range": "45935 to 45950",
+      "revenue": {
+        "mean": 16.57,
+        "median": 16.57,
+        "stdev": 0.0,
+        "min": 16.57,
+        "max": 16.57
+      },
+      "clicks": {
+        "mean": 1.8518518518518519,
+        "median": 2.0,
+        "stdev": 0.6623793767520534
+      },
+      "conversions": {
+        "mean": 0.08,
+        "median": 0.08,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 557.7878787878788,
+        "median": 479.0,
+        "stdev": 341.9897437767467
+      },
+      "cost": {
+        "mean": 2.5314814814814817,
+        "median": 2.23,
+        "stdev": 2.6487714186939626
+      },
+      "roas": {
+        "mean": 7.43,
+        "median": 7.43,
+        "stdev": 0.0
+      }
+    },
+    "51677875470706": {
+      "product_id": "51677875470706",
+      "product_title": "Superspace The Big Set (24 Panels) - Orange - Magnetic Modular Play House, Den, Space Ship, Fort, Shop & More",
+      "label": "",
+      "data_points": 60,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 186.26714285714286,
+        "median": 176.25,
+        "stdev": 147.48401547956993,
+        "min": 21.82,
+        "max": 434.35
+      },
+      "clicks": {
+        "mean": 5.836363636363636,
+        "median": 6.0,
+        "stdev": 2.678886144730861
+      },
+      "conversions": {
+        "mean": 0.6014285714285714,
+        "median": 0.86,
+        "stdev": 0.4141136436898812
+      },
+      "impressions": {
+        "mean": 1698.6166666666666,
+        "median": 1779.0,
+        "stdev": 630.8131177678715
+      },
+      "cost": {
+        "mean": 11.644,
+        "median": 10.06,
+        "stdev": 9.046638745555866
+      },
+      "roas": {
+        "mean": 16.577142857142857,
+        "median": 14.31,
+        "stdev": 12.790671738281906
+      }
+    },
+    "51677875503474": {
+      "product_id": "51677875503474",
+      "product_title": "Superspace The Big Set (24 Panels) - Turquoise - Magnetic Modular Play House, Den, Space Ship, Fort, Shop & More",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 3999.5505454545455,
+        "median": 3470.19,
+        "stdev": 1291.3880574353836,
+        "min": 1929.56,
+        "max": 6244.8
+      },
+      "clicks": {
+        "mean": 420.05454545454546,
+        "median": 404.0,
+        "stdev": 59.78090187473111
+      },
+      "conversions": {
+        "mean": 12.07709090909091,
+        "median": 11.18,
+        "stdev": 3.710817855709056
+      },
+      "impressions": {
+        "mean": 30760.169491525423,
+        "median": 32575.0,
+        "stdev": 9794.981931567962
+      },
+      "cost": {
+        "mean": 512.5674545454546,
+        "median": 492.79,
+        "stdev": 99.14767818611271
+      },
+      "roas": {
+        "mean": 8.147636363636364,
+        "median": 7.63,
+        "stdev": 3.0927944715253295
+      }
+    },
+    "51677875536242": {
+      "product_id": "51677875536242",
+      "product_title": "Superspace The Big Set (24 Panels) - Blue - Magnetic Modular Play House, Den, Space Ship, Fort, Shop & More",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 398.7292,
+        "median": 320.69,
+        "stdev": 278.51409223652104,
+        "min": 7.84,
+        "max": 919.58
+      },
+      "clicks": {
+        "mean": 14.0,
+        "median": 13.0,
+        "stdev": 5.273975238358141
+      },
+      "conversions": {
+        "mean": 1.0808,
+        "median": 1.0,
+        "stdev": 0.7571598246077245
+      },
+      "impressions": {
+        "mean": 4201.440677966101,
+        "median": 4236.0,
+        "stdev": 1370.721019317765
+      },
+      "cost": {
+        "mean": 36.661818181818184,
+        "median": 31.59,
+        "stdev": 20.367032374504337
+      },
+      "roas": {
+        "mean": 12.1832,
+        "median": 9.8,
+        "stdev": 10.234375375826964
+      }
+    },
+    "51677875569010": {
+      "product_id": "51677875569010",
+      "product_title": "Superspace The Big Set (24 Panels) - Pine - Magnetic Modular Play House, Den, Space Ship, Fort, Shop & More",
+      "label": "",
+      "data_points": 59,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 703.5972727272728,
+        "median": 640.16,
+        "stdev": 428.65612990097725,
+        "min": 74.12,
+        "max": 1703.7
+      },
+      "clicks": {
+        "mean": 54.527272727272724,
+        "median": 54.0,
+        "stdev": 9.400265058230175
+      },
+      "conversions": {
+        "mean": 2.0534545454545454,
+        "median": 2.02,
+        "stdev": 1.129429908932785
+      },
+      "impressions": {
+        "mean": 6803.050847457627,
+        "median": 7107.0,
+        "stdev": 2440.570470506412
+      },
+      "cost": {
+        "mean": 114.07672727272727,
+        "median": 116.32,
+        "stdev": 21.88563058556792
+      },
+      "roas": {
+        "mean": 6.555454545454546,
+        "median": 4.77,
+        "stdev": 4.5416662867204
+      }
+    },
+    "51677875601778": {
+      "product_id": "51677875601778",
+      "product_title": "Superspace The Big Set (24 Panels) - Charcoal - Magnetic Modular Play House, Den, Space Ship, Fort, Shop & More",
+      "label": "",
+      "data_points": 56,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 470.2328205128205,
+        "median": 299.32,
+        "stdev": 368.8802394940718,
+        "min": 15.4,
+        "max": 1439.83
+      },
+      "clicks": {
+        "mean": 17.654545454545456,
+        "median": 17.0,
+        "stdev": 3.4918857359979567
+      },
+      "conversions": {
+        "mean": 1.4223076923076923,
+        "median": 1.0,
+        "stdev": 0.9081573638807595
+      },
+      "impressions": {
+        "mean": 2780.8928571428573,
+        "median": 2783.0,
+        "stdev": 672.7191411407459
+      },
+      "cost": {
+        "mean": 37.18818181818182,
+        "median": 34.46,
+        "stdev": 15.163826240847865
+      },
+      "roas": {
+        "mean": 13.413589743589744,
+        "median": 13.51,
+        "stdev": 10.29050545717277
+      }
+    },
+    "51688836727154": {
+      "product_id": "51688836727154",
+      "product_title": "Superspace The Rectangles Add-on Pack - Orange",
+      "label": "",
+      "data_points": 57,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.125,
+        "median": 1.0,
+        "stdev": 0.3415650255319866
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 191.40350877192984,
+        "median": 174.0,
+        "stdev": 103.0701667466535
+      },
+      "cost": {
+        "mean": 0.7200000000000001,
+        "median": 0.2,
+        "stdev": 1.553417484887093
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51688836759922": {
+      "product_id": "51688836759922",
+      "product_title": "Superspace The Rectangles Add-on Pack - Pine",
+      "label": "",
+      "data_points": 55,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.2,
+        "median": 1.0,
+        "stdev": 0.4216370213557839
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 224.47272727272727,
+        "median": 188.0,
+        "stdev": 198.89219623682
+      },
+      "cost": {
+        "mean": 0.31444444444444447,
+        "median": 0.06,
+        "stdev": 0.4984708643585692
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51688836792690": {
+      "product_id": "51688836792690",
+      "product_title": "Superspace The Rectangles Add-on Pack - Turquoise",
+      "label": "",
+      "data_points": 55,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 226.51783783783785,
+        "median": 199.2,
+        "stdev": 146.15869763785938,
+        "min": 53.61,
+        "max": 576.33
+      },
+      "clicks": {
+        "mean": 16.87272727272727,
+        "median": 17.0,
+        "stdev": 4.168019982244636
+      },
+      "conversions": {
+        "mean": 0.7978378378378378,
+        "median": 0.92,
+        "stdev": 0.4568134504680532
+      },
+      "impressions": {
+        "mean": 4319.8,
+        "median": 4080.0,
+        "stdev": 516.4653514605401
+      },
+      "cost": {
+        "mean": 26.362545454545455,
+        "median": 22.55,
+        "stdev": 16.786975464702547
+      },
+      "roas": {
+        "mean": 10.640270270270271,
+        "median": 8.24,
+        "stdev": 9.172964650563115
+      }
+    },
+    "51688836825458": {
+      "product_id": "51688836825458",
+      "product_title": "Superspace The Rectangles Add-on Pack - Charcoal",
+      "label": "",
+      "data_points": 55,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 598.49,
+        "median": 598.49,
+        "stdev": 0.0,
+        "min": 598.49,
+        "max": 598.49
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 63.527272727272724,
+        "median": 61.0,
+        "stdev": 24.123029219410622
+      },
+      "cost": {
+        "mean": 1.4775,
+        "median": 1.595,
+        "stdev": 0.3025959115954571
+      },
+      "roas": {
+        "mean": 598.49,
+        "median": 598.49,
+        "stdev": 0.0
+      }
+    },
+    "51688836858226": {
+      "product_id": "51688836858226",
+      "product_title": "Superspace The Rectangles Add-on Pack - Blue",
+      "label": "",
+      "data_points": 33,
+      "date_range": "45935 to 45949",
+      "revenue": {
+        "mean": 281.98,
+        "median": 281.98,
+        "stdev": 0.0,
+        "min": 281.98,
+        "max": 281.98
+      },
+      "clicks": {
+        "mean": 5.333333333333333,
+        "median": 5.0,
+        "stdev": 2.6165155925684536
+      },
+      "conversions": {
+        "mean": 1.25,
+        "median": 1.25,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 1276.060606060606,
+        "median": 1497.0,
+        "stdev": 660.1841570441699
+      },
+      "cost": {
+        "mean": 9.515925925925925,
+        "median": 9.75,
+        "stdev": 6.497226780746986
+      },
+      "roas": {
+        "mean": 28.34,
+        "median": 28.34,
+        "stdev": 0.0
+      }
+    },
+    "51718168052082": {
+      "product_id": "51718168052082",
+      "product_title": "Superspace The Squares Add-on Pack - Charcoal",
+      "label": "",
+      "data_points": 55,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 154.825,
+        "median": 154.825,
+        "stdev": 5.964028280728841,
+        "min": 149.66,
+        "max": 159.99
+      },
+      "clicks": {
+        "mean": 1.375,
+        "median": 1.0,
+        "stdev": 0.5
+      },
+      "conversions": {
+        "mean": 0.41500000000000004,
+        "median": 0.41500000000000004,
+        "stdev": 0.09814954576223638
+      },
+      "impressions": {
+        "mean": 508.6727272727273,
+        "median": 499.0,
+        "stdev": 122.03612922006677
+      },
+      "cost": {
+        "mean": 1.476,
+        "median": 0.95,
+        "stdev": 1.7003479520070994
+      },
+      "roas": {
+        "mean": 225.67,
+        "median": 225.67,
+        "stdev": 225.58229717777056
+      }
+    },
+    "51718168084850": {
+      "product_id": "51718168084850",
+      "product_title": "Superspace The Squares Add-on Pack - Blue",
+      "label": "",
+      "data_points": 58,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 23.1,
+        "median": 23.1,
+        "stdev": 0.0,
+        "min": 23.1,
+        "max": 23.1
+      },
+      "clicks": {
+        "mean": 1.4375,
+        "median": 1.0,
+        "stdev": 0.6189220598177385
+      },
+      "conversions": {
+        "mean": 0.08,
+        "median": 0.08,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 221.82758620689654,
+        "median": 150.0,
+        "stdev": 222.95638295266306
+      },
+      "cost": {
+        "mean": 1.2747058823529411,
+        "median": 0.85,
+        "stdev": 1.1823198441638976
+      },
+      "roas": {
+        "mean": 4.82,
+        "median": 4.82,
+        "stdev": 0.0
+      }
+    },
+    "51718168117618": {
+      "product_id": "51718168117618",
+      "product_title": "Superspace The Squares Add-on Pack - Turquoise",
+      "label": "",
+      "data_points": 56,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3,
+        "median": 1.0,
+        "stdev": 0.47016234598162726
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 593.8214285714286,
+        "median": 523.5,
+        "stdev": 321.1419457975699
+      },
+      "cost": {
+        "mean": 2.04,
+        "median": 0.7849999999999999,
+        "stdev": 3.8822023049864502
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51718168150386": {
+      "product_id": "51718168150386",
+      "product_title": "Superspace The Squares Add-on Pack - Orange",
+      "label": "",
+      "data_points": 56,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 380.25,
+        "median": 351.0,
+        "stdev": 101.50132108410305
+      },
+      "cost": {
+        "mean": 1.66,
+        "median": 0.64,
+        "stdev": 1.5879294694664496
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51718168183154": {
+      "product_id": "51718168183154",
+      "product_title": "Superspace The Squares Add-on Pack - Pine",
+      "label": "",
+      "data_points": 56,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 118.0475,
+        "median": 90.84,
+        "stdev": 64.48579040599343,
+        "min": 69.35,
+        "max": 221.16
+      },
+      "clicks": {
+        "mean": 2.7916666666666665,
+        "median": 2.0,
+        "stdev": 1.4869407882634125
+      },
+      "conversions": {
+        "mean": 0.8125,
+        "median": 0.96,
+        "stdev": 0.2998451981558865
+      },
+      "impressions": {
+        "mean": 861.7857142857143,
+        "median": 889.0,
+        "stdev": 188.84016466898083
+      },
+      "cost": {
+        "mean": 4.966666666666667,
+        "median": 5.1850000000000005,
+        "stdev": 3.839684901374587
+      },
+      "roas": {
+        "mean": 154.95000000000002,
+        "median": 73.7,
+        "stdev": 185.44678189250337
+      }
+    },
+    "51778779709810": {
+      "product_id": "51778779709810",
+      "product_title": "Superspace Windows & Doors Add-On Pack -",
+      "label": "",
+      "data_points": 56,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 174.0,
+        "median": 168.5,
+        "stdev": 68.53479540947198
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "51778779742578": {
+      "product_id": "51778779742578",
+      "product_title": "Superspace Windows & Doors Add-On Pack -",
+      "label": "",
+      "data_points": 56,
+      "date_range": "45935 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.6,
+        "median": 2.0,
+        "stdev": 0.5163977794943223
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 579.75,
+        "median": 542.0,
+        "stdev": 355.9020932784745
+      },
+      "cost": {
+        "mean": 1.1542857142857144,
+        "median": 0.75,
+        "stdev": 1.1363078827481592
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "60667469758834": {
+      "product_id": "60667469758834",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 4,
+      "date_range": "45936 to 45937",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.5773502691896257
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "60667470053746": {
+      "product_id": "60667470053746",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 4,
+      "date_range": "45936 to 45937",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 12.0,
+        "median": 12.0,
+        "stdev": 5.773502691896257
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "60676167074162": {
+      "product_id": "60676167074162",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 4,
+      "date_range": "45936 to 45937",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 31.5,
+        "median": 31.5,
+        "stdev": 19.05255888325765
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "60676167106930": {
+      "product_id": "60676167106930",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 4,
+      "date_range": "45936 to 45937",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.5,
+        "median": 11.5,
+        "stdev": 12.12435565298214
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "60676167172466": {
+      "product_id": "60676167172466",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 4,
+      "date_range": "45936 to 45937",
+      "revenue": {
+        "mean": 22.28,
+        "median": 22.28,
+        "stdev": 0.0,
+        "min": 22.28,
+        "max": 22.28
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 30.5,
+        "median": 30.5,
+        "stdev": 12.12435565298214
+      },
+      "cost": {
+        "mean": 20.43,
+        "median": 20.43,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 1.09,
+        "median": 1.09,
+        "stdev": 0.0
+      }
+    },
+    "55549625008503": {
+      "product_id": "55549625008503",
+      "product_title": "Superspace The Little Set (16 Panels) - Orange",
+      "label": "",
+      "data_points": 58,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 297.1433333333333,
+        "median": 299.01,
+        "stdev": 3.2331615074618845,
+        "min": 293.41,
+        "max": 299.01
+      },
+      "clicks": {
+        "mean": 2.236842105263158,
+        "median": 2.0,
+        "stdev": 1.2397517302967664
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 871.2758620689655,
+        "median": 928.0,
+        "stdev": 493.48349278648885
+      },
+      "cost": {
+        "mean": 1.7886,
+        "median": 0.89,
+        "stdev": 2.4021529543987263
+      },
+      "roas": {
+        "mean": 68.83333333333333,
+        "median": 77.07,
+        "stdev": 14.266325151675648
+      }
+    },
+    "60676166910322": {
+      "product_id": "60676166910322",
+      "product_title": "Superspace SavedBy Package Protection -",
+      "label": "",
+      "data_points": 4,
+      "date_range": "45937 to 45938",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 2.309401076758503
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "55549626351991": {
+      "product_id": "55549626351991",
+      "product_title": "Superspace Windows & Doors Add-On Pack - Charcoal",
+      "label": "",
+      "data_points": 12,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 72.25,
+        "median": 92.0,
+        "stdev": 43.7890085835164
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "55549626384759": {
+      "product_id": "55549626384759",
+      "product_title": "Superspace Windows & Doors Add-On Pack - Orange",
+      "label": "",
+      "data_points": 10,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.3,
+        "median": 6.0,
+        "stdev": 3.7133393177689658
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "55549626417527": {
+      "product_id": "55549626417527",
+      "product_title": "Superspace Windows & Doors Add-On Pack - Turquoise",
+      "label": "",
+      "data_points": 12,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 169.0,
+        "median": 169.0,
+        "stdev": 0.0,
+        "min": 169.0,
+        "max": 169.0
+      },
+      "clicks": {
+        "mean": 6.8,
+        "median": 5.0,
+        "stdev": 3.8528488738133038
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 560.4166666666666,
+        "median": 629.0,
+        "stdev": 320.2747281868357
+      },
+      "cost": {
+        "mean": 3.18,
+        "median": 3.81,
+        "stdev": 1.2954621654923861
+      },
+      "roas": {
+        "mean": 44.36,
+        "median": 44.36,
+        "stdev": 0.0
+      }
+    },
+    "": {
+      "product_id": "",
+      "product_title": "",
+      "label": "",
+      "data_points": 207,
+      "date_range": "2025-11-04 to 2025-11-25",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    }
+  }
+}

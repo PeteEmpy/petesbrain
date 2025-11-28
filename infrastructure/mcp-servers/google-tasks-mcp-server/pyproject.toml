@@ -1,0 +1,15 @@
+[project]
+name = "mcp-gtasks"
+version = "0.1.0"
+description = "Google Tasks MCP Server"
+dependencies = [
+    "fastmcp>=0.3.0",
+    "google-api-python-client>=2.108.0",
+    "google-auth>=2.25.0",
+    "google-auth-oauthlib>=1.2.0",
+    "google-auth-httplib2>=0.2.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

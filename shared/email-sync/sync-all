@@ -1,0 +1,47 @@
+#!/bin/bash
+#
+# Complete email sync workflow
+# 1. Auto-label incoming emails
+# 2. Sync labeled emails to folders
+# 3. Copy Google rep emails to knowledge base inbox
+#
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+VENV_DIR="$SCRIPT_DIR/.venv"
+PROJECT_ROOT="$( cd "$SCRIPT_DIR/../.." && pwd )"
+
+# Check if virtual environment exists
+if [ ! -d "$VENV_DIR" ]; then
+    echo "Error: Virtual environment not found!"
+    echo "Please run: ./setup-cron.sh first"
+    exit 1
+fi
+
+# Activate virtual environment
+source "$VENV_DIR/bin/activate"
+
+# Step 1: Auto-label emails
+echo "Step 1: Auto-labeling emails..."
+python3 "$SCRIPT_DIR/auto_label.py" "$@"
+LABEL_EXIT=$?
+
+echo ""
+
+# Step 2: Sync labeled emails
+echo "Step 2: Syncing labeled emails..."
+python3 "$SCRIPT_DIR/sync_emails.py" "$@"
+SYNC_EXIT=$?
+
+echo ""
+
+# Step 3: Copy Google rep emails to KB inbox
+echo "Step 3: Copying Google rep emails to knowledge base..."
+python3 "$PROJECT_ROOT/shared/scripts/copy-google-rep-emails-to-kb.py"
+COPY_EXIT=$?
+
+# Exit with error if any step failed
+if [ $LABEL_EXIT -ne 0 ] || [ $SYNC_EXIT -ne 0 ] || [ $COPY_EXIT -ne 0 ]; then
+    exit 1
+fi
+
+exit 0

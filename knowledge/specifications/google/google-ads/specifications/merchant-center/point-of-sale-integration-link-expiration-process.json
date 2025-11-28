@@ -1,0 +1,33 @@
+{
+  "specification": {
+    "title": "Point-of-Sale Integration Link Expiration Process",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Merchant Center email notification - Tree2mydoor (Account ID: 107469209)",
+        "extracted_at": "2025-11-11T09:21:36.957551",
+        "verified": false
+      }
+    ],
+    "content": {
+      "integration_platform": "Shopify",
+      "data_types_required": [
+        "Point-of-sale data",
+        "Inventory data"
+      ],
+      "use_case": "Show local products on Google",
+      "expiration_condition": "No data received from provider within timeframe",
+      "resubmission_process": [
+        "Contact point-of-sale provider representative",
+        "Access Merchant Center account",
+        "Reselect point-of-sale/inventory data provider",
+        "Resubmit link request"
+      ],
+      "support_contact": "Merchant Center Support team",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "specification": {
+    "title": "Performance Max Waze Integration",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Search Engine Land - Google expands PMax reach with Waze ads (2025-11-06)",
+        "extracted_at": "2025-11-11T09:21:36.968131",
+        "verified": false
+      }
+    ],
+    "content": {
+      "new_placement": "Waze navigation app",
+      "campaign_type": "Performance Max campaigns",
+      "placement_type": "Location-based advertising during driving journeys",
+      "performance_visibility": "Enhanced reporting features",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

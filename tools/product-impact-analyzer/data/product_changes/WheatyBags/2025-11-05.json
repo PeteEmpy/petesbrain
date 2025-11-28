@@ -1,0 +1,134 @@
+{
+  "date": "2025-11-05",
+  "client": "WheatyBags",
+  "comparison_date": "2025-11-04",
+  "total_products_today": 2964,
+  "total_products_yesterday": 2965,
+  "summary": {
+    "changed_products": 5,
+    "price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "label_changes": 5,
+    "new_products": 0,
+    "removed_products": 1
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS1558V416880",
+      "title": "Wheat Bag Microwavable Heating Pad (Bottle Shape) (27cm) - Purple Fleece Fabric (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS8218615V445141",
+      "title": "WheatyBags Original Fleece Heat Pack Pack of 4 (47cm x 12cm) - Tartan Fleece Fabric",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS49V397812",
+      "title": "Wheat Bags Upper Neck & Back Heat Pack (T-Shaped) (43cm x 39cm with 3 Compartments) - Navy Blue Cotton Fabric Scented (Organic Lavender Buds) with Rem",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7016V443215",
+      "title": "WheatyBags Value Range Bottle Shape Heat Pack Wheat Bag Body Warmer 27cm x 18cm Microwaveable Scented Unscented Made in UK Warm Cold Weather Comfort",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1052V416619",
+      "title": "WheatyBags Small Heat Pack \u2013 Reusable, British Made \u2013 Natural Wheat Filling \u2013 Microwave/Freezer Safe \u2013 Ideal for Pain Relief, Muscle Aches, Ar",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [
+    {
+      "product_id": "WBS712V306834",
+      "title": "Heatable Boots (Microwave Heat Pack) - Luxury Almond",
+      "price": "31.99 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "label_changes": [
+    {
+      "product_id": "WBS1558V416880",
+      "title": "Wheat Bag Microwavable Heating Pad (Bottle Shape) (27cm) - Purple Fleece Fabric (Personalised with Text)",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS8218615V445141",
+      "title": "WheatyBags Original Fleece Heat Pack Pack of 4 (47cm x 12cm) - Tartan Fleece Fabric",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS49V397812",
+      "title": "Wheat Bags Upper Neck & Back Heat Pack (T-Shaped) (43cm x 39cm with 3 Compartments) - Navy Blue Cotton Fabric Scented (Organic Lavender Buds) with Rem",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7016V443215",
+      "title": "WheatyBags Value Range Bottle Shape Heat Pack Wheat Bag Body Warmer 27cm x 18cm Microwaveable Scented Unscented Made in UK Warm Cold Weather Comfort",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1052V416619",
+      "title": "WheatyBags Small Heat Pack \u2013 Reusable, British Made \u2013 Natural Wheat Filling \u2013 Microwave/Freezer Safe \u2013 Ideal for Pain Relief, Muscle Aches, Ar",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

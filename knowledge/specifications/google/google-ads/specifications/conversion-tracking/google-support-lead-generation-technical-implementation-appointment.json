@@ -1,0 +1,33 @@
+{
+  "specification": {
+    "title": "Google Support Lead Generation Technical Implementation Appointment",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-07-google-support-lead-generation-appointment.md",
+        "extracted_at": "2025-11-11T09:21:36.926395",
+        "verified": false
+      }
+    ],
+    "content": {
+      "case_id_format": "7-XXXXXXXXXX (e.g., 7-6155000039426)",
+      "meeting_duration": "60 minutes (1 hour)",
+      "meeting_platform": "Google Meet with screen sharing capability",
+      "required_attendees": [
+        "Person with admin access to website source code",
+        "Person with administrative access to Google Ads account",
+        "Person with administrative access to Analytics account"
+      ],
+      "acceptance_deadline": "Within 24 hours of scheduled time or appointment will be canceled",
+      "pre_call_requirements": {
+        "website_backup": "Must complete full website backup before call",
+        "google_meet_setup": "Must have Google Meet configured for screen sharing",
+        "pre_call_checklist": "Must review provided checklist before call"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

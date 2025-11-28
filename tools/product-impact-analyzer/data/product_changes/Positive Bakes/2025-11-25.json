@@ -1,0 +1,279 @@
+{
+  "date": "2025-11-25",
+  "client": "Positive Bakes",
+  "comparison_date": "2025-11-24",
+  "total_products_today": 147,
+  "total_products_yesterday": 147,
+  "summary": {
+    "changed_products": 9,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 9,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_ZZ_10727914635531_52386454569227",
+      "title": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies_MincePies-BoxofNine-YUMBLES.jpg?v=1760190987",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_NINE_-_1080.jpg?v=1763985036"
+        ],
+        "additional_image_links": [
+          "0 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10727924793611_52386501853451",
+      "title": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies-BoxofSix-YUMBLES-1080.jpg?v=1760180196",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_SIX_-_1080.jpg?v=1763985127"
+        ],
+        "additional_image_links": [
+          "0 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10731712119051_52405727199499",
+      "title": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/MincePiePackof8-YUMBLES-1080.jpg?v=1760180067",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Mince_Pie_Box_of_8.jpg?v=1763984645"
+        ],
+        "additional_image_links": [
+          "0 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10732632047883_52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasLuxuryAfternoonTea-PositiveBakes-1080.jpg?v=1758893107",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Christmas_Luxury_Afternoon_Tea_-_Positive_Bakes_-_NEW.jpg?v=1763984730"
+        ]
+      }
+    },
+    {
+      "product_id": "52386501853451",
+      "title": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies-BoxofSix-YUMBLES-1080.jpg?v=1760180196",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_SIX_-_1080.jpg?v=1763985127"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147689227",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasLuxuryAfternoonTea-PositiveBakes-1080.jpg?v=1758893107",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Christmas_Luxury_Afternoon_Tea_-_Positive_Bakes_-_NEW.jpg?v=1763984730"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52405727199499",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/MincePiePackof8-YUMBLES-1080.jpg?v=1760180067",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Mince_Pie_Box_of_8.jpg?v=1763984645"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52386454569227",
+      "title": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies_MincePies-BoxofNine-YUMBLES.jpg?v=1760190987",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_NINE_-_1080.jpg?v=1763985036"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasLuxuryAfternoonTea-PositiveBakes-1080.jpg?v=1758893107",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Christmas_Luxury_Afternoon_Tea_-_Positive_Bakes_-_NEW.jpg?v=1763984730"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "1 items"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "shopify_ZZ_10727914635531_52386454569227",
+      "title": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies_MincePies-BoxofNine-YUMBLES.jpg?v=1760190987",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_NINE_-_1080.jpg?v=1763985036"
+        ],
+        "additional_image_links": [
+          "0 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10727924793611_52386501853451",
+      "title": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies-BoxofSix-YUMBLES-1080.jpg?v=1760180196",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_SIX_-_1080.jpg?v=1763985127"
+        ],
+        "additional_image_links": [
+          "0 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10731712119051_52405727199499",
+      "title": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/MincePiePackof8-YUMBLES-1080.jpg?v=1760180067",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Mince_Pie_Box_of_8.jpg?v=1763984645"
+        ],
+        "additional_image_links": [
+          "0 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10732632047883_52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasLuxuryAfternoonTea-PositiveBakes-1080.jpg?v=1758893107",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Christmas_Luxury_Afternoon_Tea_-_Positive_Bakes_-_NEW.jpg?v=1763984730"
+        ]
+      }
+    },
+    {
+      "product_id": "52386501853451",
+      "title": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies-BoxofSix-YUMBLES-1080.jpg?v=1760180196",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_SIX_-_1080.jpg?v=1763985127"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147689227",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasLuxuryAfternoonTea-PositiveBakes-1080.jpg?v=1758893107",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Christmas_Luxury_Afternoon_Tea_-_Positive_Bakes_-_NEW.jpg?v=1763984730"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "1 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52405727199499",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/MincePiePackof8-YUMBLES-1080.jpg?v=1760180067",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Mince_Pie_Box_of_8.jpg?v=1763984645"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52386454569227",
+      "title": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasArtisanBrownies_MincePies-BoxofNine-YUMBLES.jpg?v=1760190987",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/CHRISTMAS_BOX_OF_NINE_-_1080.jpg?v=1763985036"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/ChristmasLuxuryAfternoonTea-PositiveBakes-1080.jpg?v=1758893107",
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Christmas_Luxury_Afternoon_Tea_-_Positive_Bakes_-_NEW.jpg?v=1763984730"
+        ],
+        "additional_image_links": [
+          "1 items",
+          "1 items"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

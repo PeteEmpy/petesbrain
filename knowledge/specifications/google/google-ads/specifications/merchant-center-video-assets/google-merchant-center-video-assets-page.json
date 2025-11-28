@@ -1,0 +1,37 @@
+{
+  "specification": {
+    "title": "Google Merchant Center Video Assets Page",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "2025-11-05_merchant-center-video-assets-launch.md",
+        "extracted_at": "2025-11-11T09:21:36.933603",
+        "verified": false
+      }
+    ],
+    "content": {
+      "video_sources": [
+        "Website videos",
+        "Social channel videos"
+      ],
+      "management_features": [
+        "Centralized video view",
+        "Search and filter capabilities",
+        "Video organization tools"
+      ],
+      "distribution_surfaces": [
+        "Google advertising surfaces",
+        "Organic surfaces"
+      ],
+      "ai_capabilities": [
+        "Automatic video-to-product feed connection",
+        "AI-powered product matching",
+        "Automated detection and linking"
+      ],
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

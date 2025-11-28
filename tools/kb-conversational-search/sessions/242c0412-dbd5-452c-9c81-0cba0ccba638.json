@@ -1,0 +1,24 @@
+{
+  "session_id": "242c0412-dbd5-452c-9c81-0cba0ccba638",
+  "created_at": "2025-11-28T09:30:08.050671",
+  "last_updated": "2025-11-28T09:30:51.420304",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Go and take a look at the Bright Minds P Max campaign and tell me how we can expand the reach of this",
+      "timestamp": "2025-11-28T09:30:31.922627",
+      "sources": null,
+      "mode": "strategic"
+    },
+    {
+      "role": "assistant",
+      "content": "## Main Analysis\n\nI'm unable to access the actual Bright Minds P Max campaign data at the moment, but let me give you a strategic framework for expanding P Max reach that challenges the typical \"just increase budgets\" mentality.\n\n**The Reach Expansion Hierarchy I'd Apply:**\n\n1. **Asset Signal Strength First** - Before throwing money at reach, audit your asset groups. Weak creative signals are the #1 reach killer in P Max. Google's algorithm needs rich, diverse assets to find new audience pockets.\n\n2. **Audience Signal Sophistication** - Most accounts use basic demographic signals. I'd layer in custom intent audiences, lookalikes of your highest LTV customers, and crucially - negative audience exclusions to prevent budget waste on low-intent traffic.\n\n3. **Channel Mix Analysis** - P Max spreads across 6+ Google properties. I'd identify which channels are underperforming and either feed them better assets or exclude them entirely to concentrate budget on high-performing placements.\n\n4. **Geographical and Temporal Expansion** - Instead of broad location increases, I'd use location performance data to identify micro-markets with high conversion rates but low impression share.\n\n**My Contrarian Take:** Most people expand reach by increasing budgets. I expand reach by improving relevance first - better relevance scores unlock cheaper, higher-quality traffic that Google was previously hiding from you.\n\n## Recommended Reading\n\n\u2022 **Google's Performance Max Best Practices Guide** - Essential for understanding asset requirements and signal optimisation\n\u2022 **Microsoft's Audience Intelligence Reports** - Cross-platform audience insights that inform better Google audience layering\n\u2022 **Think with Google's Consumer Journey Studies** - Critical for understanding touchpoint sequences that inform creative strategy\n\n## Follow-Up Questions\n\n\u2022 What's the current asset group structure and creative performance breakdown?\n\u2022 Are we seeing impression share losses due to budget, rank, or both?\n\u2022 What's the customer acquisition cost trend over the past 60 days?\n\u2022 Which product categories or service lines have the highest untapped search volume?\n\n## Devil's Advocate\n\n**Everyone obsesses over \"expanding reach\" but here's the uncomfortable truth:** Most P Max campaigns that struggle with reach actually have a relevance problem, not a budget problem. \n\nGoogle's black box algorithm is already designed to maximise reach within your target ROAS constraints. If you're not getting the reach you want, it's likely because your assets, landing pages, or conversion tracking aren't giving Google enough confidence to bid aggressively in auctions. \n\nSometimes the best way to expand reach is to temporarily *narrow* your targeting, improve your fundamentals, and then scale from a position of strength.",
+      "timestamp": "2025-11-28T09:30:51.420260",
+      "sources": [],
+      "mode": "strategic"
+    }
+  ],
+  "context": {
+    "client": "bright-minds"
+  }
+}

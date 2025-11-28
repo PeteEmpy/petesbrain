@@ -1,0 +1,119 @@
+{
+  "_metadata": {
+    "description": "Google Ads client name to customer ID mapping",
+    "last_updated": "2025-11-09T21:30:00",
+    "updated_by": "Claude - Added missing clients (Go Glean, Godshot, Grain Guard, Crowd Control)",
+    "note": "Customer IDs populated from MCP list_accounts call and CONTEXT.md files",
+    "total_accounts_accessible": 70,
+    "manager_account": "2569949686 (Rok Systems - Peter Empson)"
+  },
+  "clients": {
+    "accessories-for-the-home": {
+      "customer_id": "7972994730",
+      "display_name": "Accessories for the Home",
+      "manager_id": "2569949686",
+      "folder_path": "clients/accessories-for-the-home",
+      "status": "active"
+    },
+    "bright-minds": {
+      "customer_id": "1404868570",
+      "display_name": "BrightMinds",
+      "manager_id": null,
+      "folder_path": "clients/bright-minds",
+      "status": "active"
+    },
+    "clear-prospects": {
+      "customer_id": "6281395727",
+      "display_name": "Clear Prospects",
+      "manager_id": null,
+      "folder_path": "clients/clear-prospects",
+      "status": "active"
+    },
+    "devonshire-hotels": {
+      "customer_id": "5898250490",
+      "display_name": "Devonshire Group",
+      "manager_id": "2569949686",
+      "folder_path": "clients/devonshire-hotels",
+      "status": "active"
+    },
+    "national-design-academy": {
+      "customer_id": "1994728449",
+      "display_name": "National Design Academy (NDA)",
+      "manager_id": null,
+      "folder_path": "clients/national-design-academy",
+      "status": "active"
+    },
+    "smythson": {
+      "customer_id": "8573235780",
+      "display_name": "Smythson UK",
+      "manager_id": "2569949686",
+      "folder_path": "clients/smythson",
+      "status": "active",
+      "note": "Multiple regions: UK (8573235780), USA (7808690871), EUR (7679616761), ROW (5556710725)"
+    },
+    "superspace": {
+      "customer_id": "7482100090",
+      "display_name": "Superspace",
+      "manager_id": "2569949686",
+      "folder_path": "clients/superspace",
+      "status": "active"
+    },
+    "tree2mydoor": {
+      "customer_id": "4941701449",
+      "display_name": "Tree2mydoor",
+      "manager_id": null,
+      "folder_path": "clients/tree2mydoor",
+      "status": "active"
+    },
+    "uno-lighting": {
+      "customer_id": "6413338364",
+      "display_name": "Uno Lights",
+      "manager_id": "2569949686",
+      "folder_path": "clients/uno-lighting",
+      "status": "active"
+    },
+    "just-bin-bags": {
+      "customer_id": "9697059148",
+      "display_name": "Just Bin Bags",
+      "manager_id": null,
+      "folder_path": "clients/just-bin-bags",
+      "status": "active"
+    },
+    "positive-bakes": {
+      "customer_id": "2401439541",
+      "display_name": "Positive Bakes",
+      "manager_id": "2569949686",
+      "folder_path": "clients/positive-bakes",
+      "status": "active"
+    },
+    "go-glean": {
+      "customer_id": "8492163737",
+      "display_name": "Go Glean",
+      "manager_id": "2569949686",
+      "folder_path": "clients/go-glean",
+      "status": "active"
+    },
+    "godshot": {
+      "customer_id": "9922220205",
+      "display_name": "Godshot",
+      "manager_id": null,
+      "folder_path": "clients/godshot",
+      "status": "active"
+    },
+    "grain-guard": {
+      "customer_id": "4391940141",
+      "display_name": "Grain Guard",
+      "manager_id": "2569949686",
+      "folder_path": "clients/grain-guard",
+      "status": "active"
+    },
+    "crowd-control": {
+      "customer_id": "9385103842",
+      "display_name": "Crowd Control",
+      "manager_id": null,
+      "folder_path": "clients/crowd-control",
+      "status": "active"
+    }
+  }
+}
+

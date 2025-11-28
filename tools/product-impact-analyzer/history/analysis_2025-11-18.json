@@ -1,0 +1,134 @@
+[
+  {
+    "client": "Tree2mydoor",
+    "product_id": "49",
+    "product_title": "Best Friends Forever Rose Bush Gift - 30-50cm In A 3.5L Pot - Red-Pink Roses WIth A Vibrant Colour and Delicate Perfume",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "50",
+    "product_title": "Diamond Days Rose Bush Gift",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\u26aa",
+    "before": null,
+    "after": null,
+    "clicks_change_pct": null,
+    "revenue_change_pct": null,
+    "revenue_change_abs": null
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe2",
+    "before": {
+      "impressions": 22798,
+      "clicks": 207,
+      "conversions": 2.985694,
+      "revenue": 74.099340345,
+      "cost": 161.686059
+    },
+    "after": {
+      "impressions": 73337,
+      "clicks": 357,
+      "conversions": 6.982511000000001,
+      "revenue": 173.98562059199998,
+      "cost": 136.93189700000002
+    },
+    "clicks_change_pct": 72.46376811594203,
+    "revenue_change_pct": 134.80049860354794,
+    "revenue_change_abs": 99.88628024699997
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "REMOVED",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 5274,
+      "clicks": 43,
+      "conversions": 4.661252,
+      "revenue": 142.643705706,
+      "cost": 70.44
+    },
+    "after": {
+      "impressions": 249294,
+      "clicks": 473,
+      "conversions": 4.024875,
+      "revenue": 122.91437805799998,
+      "cost": 130.700531
+    },
+    "clicks_change_pct": 1000.0,
+    "revenue_change_pct": -13.831193988092066,
+    "revenue_change_abs": -19.72932764800001
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "287",
+    "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe2",
+    "before": {
+      "impressions": 22798,
+      "clicks": 207,
+      "conversions": 2.985694,
+      "revenue": 74.099340345,
+      "cost": 161.686059
+    },
+    "after": {
+      "impressions": 73337,
+      "clicks": 357,
+      "conversions": 6.982511000000001,
+      "revenue": 173.98562059199998,
+      "cost": 136.93189700000002
+    },
+    "clicks_change_pct": 72.46376811594203,
+    "revenue_change_pct": 134.80049860354794,
+    "revenue_change_abs": 99.88628024699997
+  },
+  {
+    "client": "Tree2mydoor",
+    "product_id": "593",
+    "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+    "change_type": "NEW",
+    "date_changed": "26/10/2025",
+    "days_since_change": 0,
+    "impact_flag": "\ud83d\udfe0",
+    "before": {
+      "impressions": 5274,
+      "clicks": 43,
+      "conversions": 4.661252,
+      "revenue": 142.643705706,
+      "cost": 70.44
+    },
+    "after": {
+      "impressions": 249294,
+      "clicks": 473,
+      "conversions": 4.024875,
+      "revenue": 122.91437805799998,
+      "cost": 130.700531
+    },
+    "clicks_change_pct": 1000.0,
+    "revenue_change_pct": -13.831193988092066,
+    "revenue_change_abs": -19.72932764800001
+  }
+]

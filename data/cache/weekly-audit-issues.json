@@ -1,0 +1,29 @@
+{
+  "generated_at": "2025-11-09T12:07:21.449185",
+  "clients": {
+    "just-bin-bags": {
+      "audit_date": "20251109",
+      "issues": [
+        {
+          "priority": "CRITICAL",
+          "type": "zero_conversions",
+          "campaign": "JBB | JHD | P Max Shopping",
+          "description": "Campaign spending \u00a3295.70/month with zero conversions",
+          "impact": "Wasting \u00a3295.70/month",
+          "action": "Investigate and fix or pause campaign"
+        },
+        {
+          "priority": "CRITICAL",
+          "type": "geographic_targeting_waste",
+          "campaign": "JBB | JHD | P Max Shopping",
+          "description": "Using PRESENCE_OR_INTEREST targeting (waste)",
+          "impact": "Wasting 10-15% of \u00a3295.70/month spend",
+          "action": "Change to PRESENCE only"
+        }
+      ],
+      "critical_count": 2,
+      "high_count": 0,
+      "total_count": 2
+    }
+  }
+}

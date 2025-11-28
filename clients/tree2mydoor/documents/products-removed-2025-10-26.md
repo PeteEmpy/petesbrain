@@ -1,0 +1,147 @@
+# Tree2mydoor Products Removed - October 26, 2025
+
+**Total Removed:** 98 products  
+**Date:** October 26, 2025  
+**Status:** All marked as 🔴 Recent Change
+
+## Product Categories
+
+### Rose Bushes (17 products)
+1. Best Friends Forever Rose Bush Gift - 30-50cm In A 3.5L Pot (ID: 49)
+2. Diamond Days Rose Bush Gift (ID: 50)
+3. Perfect Match Rose Bush Gift (ID: 58)
+4. Special Daughter Rose Bush Gift - 30-35cm in A 3.5L Pot (ID: 62)
+5. You Only Live Once Rose Bush Gift (ID: 70)
+6. You Are My Sunshine Rose Bush Gift (ID: 71)
+7. Spirit in The Sky Rose Bush Gift (ID: 77)
+8. Champagne Cocktail Rose Bush Gift (ID: 84)
+9. Margaret Merril Rose Bush Gift (ID: 107)
+10. Pearl Abundance Rose Bush Gift (ID: 112)
+11. Silver Jubilee Rose Bush Gift (ID: 122)
+12. White Wedding Climbing Rose Bush Gift (ID: 158)
+13. Hand In Hand Rose Bush Gift (ID: 167)
+14. Love Never Dies Rose Bush Gift (ID: 171)
+15. Pearl Abundance Standard Rose Bush Gift (ID: 198)
+16. Remembrance Standard Rose Gift (ID: 237)
+17. Star Magnolia Rose Tree Gift (ID: 1216)
+
+### Standard Roses (3 products)
+18. Perfect Match Standard Rose (ID: 228)
+19. Special Dad Standard Rose Gift (ID: 232)
+20. Special Mum Standard Rose Gift (ID: 233)
+
+### Olive Trees (8 products)
+21. The Twisted Olive Tree Gift - 5L pot, 50cm Height (ID: 153)
+22. The Twisted Olive Tree Gift - Mini (3L pot, 45cm) (ID: 154)
+23. Mini Olive Tree Gift - 20-25cm Tall in 1L Pot (ID: 281)
+24. The Olive Tree Gift - Medium (3L pot, 60cm) (ID: 286)
+25. The Olive Tree Gift - Large (5L pot, 80cm) (ID: 287)
+26. Love Olive Tree Gift (ID: 735)
+27. Olive Bush Gift (ID: 1089)
+28. The Olive Tree Gift - 2L pot, 50cm Height (ID: 1090)
+29. Mature Olive Tree (ID: 1091)
+30. The Twisted Olive Tree Gift - Large (12L pot, 100-120cm) (ID: 5035)
+31. Double Spiral Olive Tree Gift (Large) (ID: 5036)
+
+### Bay Trees (9 products)
+32. The Bay Tree Gift (ID: 83)
+33. The Double Corkscrew Bay Tree Gift - Large (12L pot, 100-120cm) (ID: 226)
+34. The Twisted Bay Tree Gift - Small (4L pot, 60-70cm) (ID: 268)
+35. The Twisted Bay Tree Gift - Large (10L pot, 90-100cm) (ID: 269)
+36. Large Bay Tree Gift - 100-120cm In a 7.5L Pot (ID: 1050)
+37. Bay Laurel Pyramid Gift (ID: 1086)
+38. The Bay Tree Gift - 2.5L pot, 45-60cm height (ID: 1124)
+39. Bay Tree Gift - Medium (ID: 1277)
+40. The Bay Tree Gift (ID: 1522)
+41. The Double Corkscrew Bay Tree Gift - Small (4L pot, 60-70cm) (ID: 3537)
+
+### Lemon Trees (5 products)
+42. Lemon Starter Plant Gift (ID: 550)
+43. Lemon Tree Gift - Large 5L pot, 50-60cm High (ID: 593)
+44. Lime Starter Plant Gift (ID: 2216)
+45. Dwarf Lemon Tree Gift - 25-35cm Tall (ID: 3539)
+46. Mini Lemon Tree Gift (ID: 3540)
+47. Espalier Lemon Tree Gift (ID: 1680)
+48. Red Lemon Tree Gift (ID: 1200)
+
+### Other Citrus Trees (9 products)
+49. Orange Tree Gift (ID: 590)
+50. Mandarin Tree Gift (ID: 591)
+51. Calamondin Tree Gift (5L Pot) (ID: 592)
+52. Grapefruit Tree Gift (ID: 790)
+53. Lime Tree Gift (ID: 804)
+54. Chinotto Tree Gift (ID: 1126)
+55. Satsuma Tree Gift (ID: 1145)
+56. Buddhas Hand Tree Gift (ID: 1153)
+57. Kaffir Lime Tree Gift - Large (60-80cm) In 5L Pot (ID: 1262)
+58. Mini Kaffir Lime Tree Gift (ID: 1685)
+59. Mini Limequat Tree Gift (ID: 1687)
+
+### Magnolia Trees (6 products)
+60. Magnolia Betty Tree Gift (ID: 952)
+61. Lily Magnolia Tree Gift (ID: 953)
+62. Star Magnolia Tree Gift - 50cm High in 21cm Pot (ID: 954)
+63. Tulip Magnolia Tree Gift - 30-50cm In 3L Pot (ID: 955)
+64. Susan Magnolia Tree Gift (ID: 970)
+
+### Japanese Maple Trees (5 products)
+65. Favourite Colour Japanese Maple Tree Gift (ID: 1035)
+66. Bi Hoo Japanese Maple Tree Gift (ID: 2076)
+67. Favourite Colour Japanese Maple Tree Gift - Purple (ID: 2540)
+68. Favourite Colour Japanese Maple Tree Gift - Orange (ID: 4366)
+69. Red Japanese Maple Tree Gift (ID: 4479)
+
+### Camellia Gifts (5 products)
+70. Celebrations Camellia Gift (ID: 1250)
+71. Golden Anniversary Camellia Gift (ID: 1287)
+72. Magic Mum Camellia Gift (ID: 1661)
+73. Yuletide Camellia Gift (ID: 2151)
+74. Happy Anniversary Camellia Gift (ID: 2158)
+
+### Cherry Trees (3 products)
+75. Fuji Cherry Tree Gift (ID: 2887)
+76. Japanese Alpine Cherry Tree Gift (ID: 2890)
+77. Japanese Alpine Cherry Tree Gift (ID: 2893)
+
+### Christmas Products (7 products)
+78. Christmas Holly Tree Gift (ID: 813)
+79. Christmas Holly Bush Gift (ID: 814)
+80. Christmas Ball Holly Tree Gift (ID: 2053)
+81. Mini Christmas Tree with Lights (ID: 4583)
+82. White Amaryllis Gift (ID: 4584)
+83. Red Christmas Amaryllis Gift (ID: 4590)
+84. Mini Potted Christmas Tree (ID: 4592)
+85. Tiny Potted Christmas Tree (ID: 4593)
+
+### Other Plants & Trees (13 products)
+86. Box Ball Tree Gift (ID: 298)
+87. Rosemary Plant Gift (ID: 530)
+88. Mimosa Tree Gift (ID: 899)
+89. Bougainvillea Pyramid Gift (ID: 1057)
+90. Blackberry Bush Gift (ID: 3189)
+91. Pomegranate Tree Gift (ID: 3611)
+92. Tea Plant Gift (ID: 3871)
+93. Pomegranate Tree Gift (ID: 4516)
+94. Thyme Plant Gift (ID: 800)
+95. Star Jasmine Gift (ID: 2295)
+
+## Products Re-Added Same Day
+- Mini Calamondin Tree Gift (ID: 1684)
+- Red Wine Japanese Maple Tree Gift (ID: 2077)
+
+## Summary by Category
+- **Rose Bushes & Standard Roses:** 20 products (20.4%)
+- **Olive Trees:** 11 products (11.2%)
+- **Bay Trees:** 9 products (9.2%)
+- **Citrus Trees:** 16 products (16.3%)
+- **Magnolia Trees:** 5 products (5.1%)
+- **Japanese Maples:** 5 products (5.1%)
+- **Camellia Plants:** 5 products (5.1%)
+- **Christmas Products:** 7 products (7.1%)
+- **Other Plants/Trees:** 13 products (13.3%)
+
+## Notes
+- All removals happened on **October 26, 2025**
+- Timing coincided with a **316% spike in clicks** (Oct 27-28)
+- 2 products were re-added the same day
+- This appears to be a major catalog restructuring or seasonal stock removal

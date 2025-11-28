@@ -1,0 +1,22 @@
+{
+  "specification": {
+    "title": "Google Account Team Contact Management",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "Google Account Management - Team Communication",
+        "extracted_at": "2025-11-11T09:21:36.939221",
+        "verified": false
+      }
+    ],
+    "content": {
+      "primary_contact": "Growth Strategist (Engage, GCS UKI)",
+      "backup_contact": "Manager for urgent matters during absence",
+      "24_7_support": "A+ Team available for technical issues (billing, policy, Merchant Centre, GA)",
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}

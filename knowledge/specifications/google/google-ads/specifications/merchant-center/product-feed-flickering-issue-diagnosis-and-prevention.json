@@ -1,0 +1,35 @@
+{
+  "specification": {
+    "title": "Product Feed Flickering Issue Diagnosis and Prevention",
+    "version": "1.0",
+    "last_updated": "2025-11-11",
+    "sources": [
+      {
+        "type": "kb_article",
+        "source": "google-shopping-click-spike-product-feed-flickering-diagnosis.md",
+        "extracted_at": "2025-11-11T09:21:36.955537",
+        "verified": false
+      }
+    ],
+    "content": {
+      "issue_identification": {
+        "symptom": "Unusual click volume spikes (300%+ increases)",
+        "root_cause": "Products repeatedly removed and re-added to Merchant Center feed",
+        "google_behavior": "Algorithm treats flickering products as 'new inventory' with auction priority",
+        "typical_cause": "Stock synchronization issues between e-commerce platform and GMC"
+      },
+      "monitoring_approach": {
+        "track_product_status": "Monitor individual product IDs for feed status changes",
+        "frequency_alerts": "Flag products removed/re-added multiple times per day",
+        "enhanced_tracking": "Implement immediate alerts for feed flickering patterns"
+      },
+      "investigation_metrics": {
+        "click_distribution": "Analyze click concentration by product ID during anomalies",
+        "feed_history": "Review Merchant Center feed upload history",
+        "stock_synchronization": "Verify inventory system integration with GMC"
+      },
+      "character_limits": {},
+      "required_counts": {}
+    }
+  }
+}
