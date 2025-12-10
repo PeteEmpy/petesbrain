@@ -30,8 +30,14 @@
 
 ## PrestaShop
 
-**Shop URL**: `[TO BE PROVIDED BY CLIENT]`
-**API Key**: `[TO BE PROVIDED BY CLIENT]`
+**Shop URL**: `https://accessoriesforthehome.co.uk`
+**API Key**: `[CONFIGURED - GET permissions for reporting]`
+
+**API Status**: ✅ **OPERATIONAL** (Fixed 10 Dec 2025)
+- **Previous Issue**: Orders API returning stale data (Jan 2025 cutoff) due to incorrect filter parameter
+- **Root Cause**: MCP server using invalid `date_add` filter (doesn't exist in PrestaShop Web Services)
+- **Fix Applied**: Updated to use `invoice_date` filter (confirmed working 1st Dec 2025)
+- **Last Verified**: Retrieved 137 orders, £41,442.81 for last 7 days
 
 Access: View-only (GET permissions for reporting)
 
@@ -39,6 +45,7 @@ Access: View-only (GET permissions for reporting)
 - 104 emails on file
 - 3 meeting notes
 - 1 experiment log entries
+- PrestaShop order data (via Web Services API)
 
 ---
 
