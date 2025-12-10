@@ -153,11 +153,11 @@ class PrestaShopClient:
                 filter_params = {}
 
             if date_from and date_to:
-                filter_params['date_add'] = f'[{date_from} 00:00:00,{date_to} 23:59:59]'
+                filter_params['invoice_date'] = f'[{date_from} 00:00:00,{date_to} 23:59:59]'
             elif date_from:
-                filter_params['date_add'] = f'>[{date_from} 00:00:00]'
+                filter_params['invoice_date'] = f'>[{date_from} 00:00:00]'
             elif date_to:
-                filter_params['date_add'] = f'<[{date_to} 23:59:59]'
+                filter_params['invoice_date'] = f'<[{date_to} 23:59:59]'
 
         if filter_params:
             for key, value in filter_params.items():
