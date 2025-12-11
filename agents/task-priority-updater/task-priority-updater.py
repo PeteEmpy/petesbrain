@@ -13,10 +13,23 @@ Runs: Daily at 20:00 (8:00 PM)
 """
 
 import json
+import os
 from pathlib import Path
 from datetime import datetime, timedelta
 import sys
 import re
+
+# Import centralized path discovery
+try:
+    from shared.paths import get_project_root
+    PROJECT_ROOT = get_project_root()
+except ImportError:
+    # Fallback: use PETESBRAIN_ROOT environment variable or relative path
+    project_root_env = os.getenv('PETESBRAIN_ROOT')
+    if project_root_env:
+        PROJECT_ROOT = Path(project_root_env)
+    else:
+        PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 def parse_due_date(due_date_str):
     """Parse due date string into datetime object, supporting multiple formats."""
@@ -86,8 +99,8 @@ def calculate_priority(due_date_str):
 
 def update_task_priorities():
     """Update priorities for all active tasks across all clients."""
-    clients_dir = Path('/Users/administrator/Documents/PetesBrain/clients')
-    roksys_dir = Path('/Users/administrator/Documents/PetesBrain/roksys')
+    clients_dir = PROJECT_ROOT / 'clients'
+    roksys_dir = PROJECT_ROOT / 'roksys'
 
     total_tasks = 0
     updated_tasks = 0
@@ -189,7 +202,7 @@ def main():
     import subprocess
     subprocess.run([
         'python3',
-        '/Users/administrator/Documents/PetesBrain/generate-tasks-overview.py'
+        str(PROJECT_ROOT / 'generate-tasks-overview.py')
     ], capture_output=True)
 
     print("\n✅ Task priorities updated and overview regenerated")

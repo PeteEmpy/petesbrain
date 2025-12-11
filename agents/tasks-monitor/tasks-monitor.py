@@ -13,8 +13,23 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Set, Optional
 
-# Add MCP server path for imports
-PROJECT_ROOT = Path(__file__).parent.parent.parent
+# Add project root to path for centralized imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+# Import centralized path discovery
+try:
+    from shared.paths import get_project_root
+    PROJECT_ROOT = get_project_root()
+except ImportError:
+    # Fallback: use PETESBRAIN_ROOT environment variable or relative path
+    import os
+    project_root_env = os.getenv('PETESBRAIN_ROOT')
+    if project_root_env:
+        PROJECT_ROOT = Path(project_root_env)
+    else:
+        PROJECT_ROOT = Path(__file__).parent.parent.parent
+
+# MCP server path
 MCP_SERVER_PATH = PROJECT_ROOT / "infrastructure" / "mcp-servers" / "google-tasks-mcp-server"
 sys.path.insert(0, str(MCP_SERVER_PATH))
 
@@ -25,11 +40,11 @@ except ImportError:
     print(f"Expected at: {MCP_SERVER_PATH}")
     sys.exit(1)
 
-# Configuration
-STATE_FILE = Path("/Users/administrator/Documents/PetesBrain/data/state/tasks-state.json")
-COMPLETIONS_FILE = Path("/Users/administrator/Documents/PetesBrain/data/state/tasks-completed.json")
-CLIENTS_DIR = Path("/Users/administrator/Documents/PetesBrain/clients")
-ROKSYS_DIR = Path("/Users/administrator/Documents/PetesBrain/roksys")
+# Configuration - use PROJECT_ROOT for all paths
+STATE_FILE = PROJECT_ROOT / "data" / "state" / "tasks-state.json"
+COMPLETIONS_FILE = PROJECT_ROOT / "data" / "state" / "tasks-completed.json"
+CLIENTS_DIR = PROJECT_ROOT / "clients"
+ROKSYS_DIR = PROJECT_ROOT / "roksys"
 
 
 def ensure_data_dir():
