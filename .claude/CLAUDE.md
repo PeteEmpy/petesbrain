@@ -72,6 +72,58 @@ Roksys operates as the "Self-Improving Agency" — an AI-powered solo PPC consul
 
 ---
 
+## 🚨 MANDATORY: Business Context Reference Protocol
+
+**CRITICAL: When providing strategic/business recommendations, I MUST consult business context FIRST.**
+
+### When Business Context is Required
+
+**ALWAYS check business context when**:
+- Service decisions (e.g., "Should I offer X service?" → consult business model and positioning)
+- Pricing decisions (e.g., "What should I charge?" → reference pricing strategy in business-overview)
+- Tool/platform decisions (e.g., "Should I use Slack?" → check batch-driven philosophy)
+- Growth decisions (e.g., "Should I hire?" → consult solo/automation philosophy)
+- Client decisions (e.g., "Should I take this client?" → reference customer segments and acquisition strategy)
+- Market positioning questions (e.g., "How am I different?" → reference competitive moats and positioning)
+- Strategic direction questions
+
+### Business Context Workflow
+
+1. **Identify** - Is this a strategic/business decision?
+2. **Read** - Read relevant business context file(s):
+   - `business-overview.md` - Company structure, metrics, services, strategic priorities, technology stack
+   - `business-philosophy.md` - Core values, operating principles, "Self-Improving Agency" concept
+   - `personal-profile.md` - Work style, preferences, strengths, decision-making approach
+   - `key-relationships.md` - Customer segments, strategic partners, acquisition strategy
+   - `market-position.md` - Competitive landscape, unique positioning, competitive moats
+3. **Apply** - Filter recommendation through documented business context
+4. **Cite** - Reference which file/section informed the decision
+
+### Example Workflow
+
+**User**: "Should I use Slack for client communication?"
+
+**Step 1: Identify** → Tool/platform decision, requires business context
+
+**Step 2: Read** → `business-philosophy.md` (operating principles section)
+
+**Step 3: Apply** → "Batch-driven over interruption-driven" and "Asynchronous over real-time"
+
+**Step 4: Cite & Respond**:
+"Based on your batch-driven philosophy (business-philosophy.md), Slack would work against your asynchronous communication model. I'd recommend against it unless a client specifically requires it. Your email-based workflow preserves focus for deep work, which aligns with your solo operation and automation-first approach."
+
+### Location
+
+Business context files: `context/business/`
+- `README.md` - System overview
+- `business-overview.md` - Company snapshot, metrics, services, priorities
+- `business-philosophy.md` - Values, principles, "Self-Improving Agency" concept
+- `personal-profile.md` - Work style, preferences, communication
+- `key-relationships.md` - Partners, customer segments, acquisition
+- `market-position.md` - Competitive landscape, positioning, moats
+
+---
+
 ## Architecture Overview
 
 ### Per-Client Data Architecture

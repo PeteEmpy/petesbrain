@@ -42,12 +42,16 @@
 
 ## Business Metrics
 
+<!-- AUTO-SYNC START -->
 **Current State (December 2025):**
 - Active Clients: 12
 - Monthly Recurring Revenue: £12K-£18K/month
 - Average Client Retainer: £1,000-£1,500/month (custom quotes vary)
 - Client Capacity: 20 clients comfortable with automation
 - Geographic Focus: Primarily UK
+
+*Note: Metrics above are automatically synced daily. Manual updates outside these markers are never overwritten.*
+<!-- AUTO-SYNC END -->
 
 **Revenue Goals:**
 - **6 months (June 2026):** £30K/month (15-20 clients)

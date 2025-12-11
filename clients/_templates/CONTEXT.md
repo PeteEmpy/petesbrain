@@ -9,6 +9,7 @@
 
 **Client Since**: [Date]
 **Monthly Budget**: £[amount] / $[amount]
+**Monthly Retainer**: £[amount] / month
 **Primary Contact**: [Name] - [Email]
 **Account Manager**: [Your name]
 
