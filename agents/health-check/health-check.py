@@ -441,6 +441,114 @@ def send_email_alert(subject: str, body_html: str, body_text: str = None, critic
         print(f"⚠️  Error sending email alert: {e}")
         return False
 
+def send_macos_notification(title: str, subtitle: str, message: str,
+                           critical: bool = False, action_command: str = None) -> bool:
+    """
+    Send macOS notification using terminal-notifier or osascript fallback.
+
+    Args:
+        title: Notification title
+        subtitle: Notification subtitle
+        message: Notification message body
+        critical: If True, uses critical sound (Funk), else Basso
+        action_command: Shell command to run when notification clicked
+
+    Returns:
+        True if notification sent successfully
+    """
+    # Check if terminal-notifier is installed
+    terminal_notifier = shutil.which('terminal-notifier')
+
+    if terminal_notifier:
+        # Use terminal-notifier (preferred)
+        sound = "Funk" if critical else "Basso"
+        icon_path = PROJECT_ROOT / 'agents' / 'health-check' / 'brain-icon.icns'
+        cmd = [
+            terminal_notifier,
+            '-title', title,
+            '-subtitle', subtitle,
+            '-message', message,
+            '-sound', sound,
+            '-group', 'health-check',  # Group all health-check notifications
+            '-appIcon', str(icon_path),  # Brain emoji icon
+        ]
+
+        # Add click action if provided
+        if action_command:
+            cmd.extend(['-execute', action_command])
+
+        try:
+            subprocess.run(cmd, capture_output=True, check=True, timeout=5)
+            return True
+        except Exception as e:
+            print(f"Failed to send terminal-notifier notification: {e}")
+            return False
+    else:
+        # Fallback to osascript
+        sound_name = "Funk" if critical else "Basso"
+
+        # Build AppleScript command
+        # Note: osascript can't handle click actions as easily, so we skip action_command
+        script = f'display notification "{message}" with title "{title}" subtitle "{subtitle}" sound name "{sound_name}"'
+
+        try:
+            subprocess.run(['osascript', '-e', script], capture_output=True, check=True, timeout=5)
+            return True
+        except Exception as e:
+            print(f"Failed to send osascript notification: {e}")
+            return False
+
+def build_notification_summary(critical_failures: List[str],
+                              new_failures: List[str],
+                              escalated: List[str],
+                              restart_failed: List[str],
+                              unloaded_critical: List[Dict],
+                              system_issues: List[str]) -> Tuple[str, str, str, bool]:
+    """
+    Build concise notification summary.
+
+    Returns:
+        (title, subtitle, message, is_critical)
+    """
+    total_failures = len(critical_failures) + len(new_failures) + len(escalated) + \
+                    len(restart_failed) + len(unloaded_critical)
+
+    # Determine severity
+    is_critical = bool(critical_failures or unloaded_critical)
+
+    # Build title
+    if unloaded_critical:
+        title = f"🧠 Pete's Brain Is Hurting: {len(unloaded_critical)} Agents NOT LOADED"
+    elif critical_failures:
+        title = f"🧠 Pete's Brain Is Hurting: {len(critical_failures)} Critical Failures"
+    elif new_failures:
+        title = f"🧠 Pete's Brain Is Hurting: {len(new_failures)} New Failures"
+    else:
+        title = "🧠 Pete's Brain Is Hurting"
+
+    # Build subtitle
+    subtitle = f"{total_failures} total issue(s) detected"
+
+    # Build message - list agent names (max 5, then "and X more")
+    all_failed_agents = []
+
+    if unloaded_critical:
+        all_failed_agents.extend([a['name'] for a in unloaded_critical])
+    all_failed_agents.extend(critical_failures)
+    all_failed_agents.extend(new_failures)
+    all_failed_agents.extend(escalated)
+    all_failed_agents.extend(restart_failed)
+
+    if len(all_failed_agents) <= 5:
+        message = ", ".join(all_failed_agents)
+    else:
+        message = ", ".join(all_failed_agents[:5]) + f" and {len(all_failed_agents) - 5} more"
+
+    if system_issues:
+        message += f" | {len(system_issues)} system issue(s)"
+
+    return (title, subtitle, message, is_critical)
+
 def send_slack_alert(message: str):
     """Send Slack alert."""
     if not CONFIG['alerts']['slack']['enabled']:
@@ -604,6 +712,49 @@ def check_email_sync_activity(log_path: str) -> Tuple[bool, str]:
     except Exception as e:
         return True, f"Error checking: {e}"
 
+def check_disapproval_monitor_activity(log_path: str) -> Tuple[bool, str]:
+    """
+    Verify disapproval monitor is actually checking products, not just exiting early.
+
+    Returns:
+        (is_active, message)
+    """
+    if not os.path.exists(log_path):
+        return False, "Log file not found"
+
+    try:
+        with open(log_path, 'r', errors='ignore') as f:
+            # Read last 500 lines to check recent runs
+            lines = f.readlines()[-500:]
+            log_content = ''.join(lines)
+
+        # Count how many times we see "Outside business hours" vs actual monitoring
+        outside_hours_count = log_content.count('Outside business hours')
+        monitoring_patterns = [
+            'Detecting changes for',
+            'clients analyzed',
+            'Checked',
+            'No new disapprovals',
+            'Found',
+            'products'
+        ]
+
+        monitoring_activity_count = sum(1 for pattern in monitoring_patterns if pattern in log_content)
+
+        # If we only see "Outside business hours" and no actual monitoring, flag it
+        if outside_hours_count > 5 and monitoring_activity_count == 0:
+            return (False, f"Only seeing '{outside_hours_count}' early exits, no actual monitoring")
+
+        # Check for recent successful monitoring run
+        if monitoring_activity_count > 0:
+            return (True, f"Active monitoring detected ({monitoring_activity_count} activities)")
+
+        # If no monitoring pattern and not many early exits, might be too soon to tell
+        return (True, "No recent monitoring activity (may be outside business hours)")
+
+    except Exception as e:
+        return (False, f"Error checking activity: {e}")
+
 # Map agent names to activity checkers
 ACTIVITY_CHECKERS = {
     'granola-importer': check_granola_activity,
@@ -614,6 +765,7 @@ ACTIVITY_CHECKERS = {
     'ai-inbox-processor': check_inbox_activity,
     'email-sync': check_email_sync_activity,
     'email-auto-label': check_email_sync_activity,
+    'disapproval-monitor': check_disapproval_monitor_activity,
 }
 
 # ============================================================================
@@ -663,6 +815,157 @@ def check_log_freshness(log_path: str, workflow_type: str, interval_seconds: Opt
         return False, f"Log {age_hours:.1f}h old (max: {max_age:.1f}h)"
 
     return True, f"Updated {age_hours:.1f}h ago"
+
+def check_error_log(log_path: str, workflow_type: str, interval_seconds: Optional[int] = None) -> Tuple[bool, str]:
+    """
+    Parse error log for recent failure patterns.
+
+    Returns:
+        (is_healthy, message)
+    """
+    # Get stderr log path by replacing .log with -error.log
+    if not log_path:
+        return (True, "No log path provided")
+
+    error_log_path_str = log_path.replace('.log', '-error.log')
+    error_log_path = Path(error_log_path_str).expanduser()
+
+    if not error_log_path.exists():
+        return (True, "No error log found")
+
+    try:
+        # Determine max age based on workflow type
+        if workflow_type == "on_demand" or workflow_type == "interval":
+            interval = interval_seconds or 3600
+            max_age = (interval / 3600) + 1  # Interval + 1 hour grace period
+        elif workflow_type == "daily":
+            max_age = 25  # 24 hours + 1 hour grace
+        elif workflow_type == "weekly":
+            max_age = 168  # One week
+        else:
+            max_age = 25  # Default: daily
+
+        # Check if error log was updated recently
+        mtime = error_log_path.stat().st_mtime
+        age_hours = (time.time() - mtime) / 3600
+
+        if age_hours > max_age:
+            # Error log hasn't been updated recently - likely no errors
+            return (True, "No recent error log activity")
+
+        # Parse recent error log entries for failure patterns
+        with open(error_log_path, 'r', errors='ignore') as f:
+            # Read last 100 lines
+            lines = f.readlines()[-100:]
+            recent_errors = ''.join(lines)
+
+        # Error patterns that indicate failures
+        error_patterns = [
+            'FileNotFoundError',
+            'ImportError',
+            'ModuleNotFoundError',
+            'ConnectionError',
+            'PermissionError',
+            'KeyError',
+            'AttributeError',
+            'Traceback (most recent call last)',
+            'Fatal Python error',
+            'OSError',
+            'RuntimeError'
+        ]
+
+        found_errors = []
+        for pattern in error_patterns:
+            if pattern in recent_errors:
+                found_errors.append(pattern)
+
+        if found_errors:
+            return (False, f"Error patterns detected: {', '.join(found_errors)}")
+
+        return (True, "Error log clean")
+
+    except Exception as e:
+        return (True, f"Could not parse error log: {e}")
+
+def check_exit_status(label: str) -> Tuple[bool, str]:
+    """
+    Check LaunchAgent's last exit status.
+
+    Returns:
+        (is_healthy, message)
+    """
+    if not label:
+        return (True, "No label to check")
+
+    try:
+        # Query launchctl for agent status
+        result = subprocess.run(
+            ['launchctl', 'print', f'gui/{os.getuid()}/{label}'],
+            capture_output=True,
+            text=True,
+            timeout=5
+        )
+
+        if result.returncode != 0:
+            return (True, "Agent not running or not accessible")
+
+        output = result.stdout
+
+        # Parse for "last exit code = X"
+        exit_match = re.search(r'last exit code = (\d+)', output)
+
+        if exit_match:
+            exit_code = int(exit_match.group(1))
+            if exit_code != 0:
+                return (False, f"Last exit code: {exit_code} (agent crashed)")
+
+        return (True, "Exit code healthy")
+
+    except Exception as e:
+        return (True, f"Could not check exit status: {e}")
+
+def validate_environment(plist_path: str) -> Tuple[bool, str]:
+    """
+    Validate that required environment variables and files exist.
+
+    Parses plist file to extract EnvironmentVariables and validates
+    that any file paths referenced exist.
+
+    Returns:
+        (is_valid, message)
+    """
+    if not plist_path or not Path(plist_path).exists():
+        return (True, "No plist file to validate")
+
+    try:
+        import plistlib
+        with open(plist_path, 'rb') as f:
+            plist_data = plistlib.load(f)
+
+        env_vars = plist_data.get('EnvironmentVariables', {})
+        if not env_vars:
+            return (True, "No environment variables defined")
+
+        missing_files = []
+
+        # Check each environment variable that looks like a file path
+        for key, value in env_vars.items():
+            # Check if value looks like a file path
+            if isinstance(value, str) and ('/' in value or value.startswith('~')):
+                # Expand ~ if present
+                expanded_path = Path(value).expanduser()
+
+                # Check if file exists
+                if not expanded_path.exists():
+                    missing_files.append(f"{key}={value}")
+
+        if missing_files:
+            return (False, f"Missing files: {', '.join(missing_files)}")
+
+        return (True, "All environment files exist")
+
+    except Exception as e:
+        return (True, f"Could not validate environment: {e}")
 
 def restart_workflow(label: str) -> bool:
     """Restart a LaunchAgent workflow."""
@@ -727,16 +1030,43 @@ def check_agent_health(agent: Dict, verbose: bool = False) -> Dict:
     if verbose or not is_running:
         status = "✓" if is_running else "✗"
         print(f"  {status} Process: {'Running' if is_running else 'NOT RUNNING'}")
-    
+
+    # 1.5 Validate environment (pre-flight check)
+    plist_path_obj = Path.home() / "Library/LaunchAgents" / f"{label}.plist"
+    if plist_path_obj.exists():
+        env_valid, env_msg = validate_environment(str(plist_path_obj))
+        checks['environment'] = env_valid
+
+        if verbose or not env_valid:
+            status = "✓" if env_valid else "✗"
+            print(f"  {status} Environment: {env_msg}")
+
+    # 1.7 Check exit code (detect crashes)
+    exit_healthy, exit_msg = check_exit_status(label)
+    checks['exit_code'] = exit_healthy
+
+    if verbose or not exit_healthy:
+        status = "✓" if exit_healthy else "✗"
+        print(f"  {status} Exit code: {exit_msg}")
+
     # 2. Check log freshness
     if log_path:
         is_fresh, msg = check_log_freshness(log_path, workflow_type, interval_seconds)
         checks['log_fresh'] = is_fresh
-        
+
         if verbose or not is_fresh:
             status = "✓" if is_fresh else "✗"
             print(f"  {status} Log freshness: {msg}")
-    
+
+    # 2.5 Check error log for failure patterns
+    if log_path:
+        error_healthy, error_msg = check_error_log(log_path, workflow_type, interval_seconds)
+        checks['error_log'] = error_healthy
+
+        if verbose or not error_healthy:
+            status = "✓" if error_healthy else "✗"
+            print(f"  {status} Error log: {error_msg}")
+
     # 3. Check if plist was modified after agent started (needs reload)
     plist_path = Path.home() / "Library/LaunchAgents" / f"{label}.plist"
     if plist_path.exists():
@@ -955,6 +1285,15 @@ def main():
                 f"<p>The health check system hasn't run in a while:</p><p>{hc_msg}</p>",
                 f"Health check issue: {hc_msg}",
                 critical=True
+            )
+
+            # Send macOS notification for health-check self-monitoring
+            send_macos_notification(
+                title="⚠️ Health Check Not Running",
+                subtitle="Health check system hasn't run recently",
+                message=hc_msg,
+                critical=True,
+                action_command=f"python3 {PROJECT_ROOT}/agents/agent-dashboard/agent-dashboard.py"
             )
 
     if not DISCOVERY_AVAILABLE:
@@ -1191,7 +1530,29 @@ def main():
                 subject = f"⚠️ {len(new_failures)} New Agent Failure(s)"
             
             send_email_alert(subject, html, text, critical=bool(critical_failures))
-            
+
+            # Send macOS notification (only for NEW failures)
+            if new_failures or unloaded_critical:
+                notif_title, notif_subtitle, notif_message, is_critical = build_notification_summary(
+                    critical_failures=critical_failures if unloaded_critical else [],
+                    new_failures=new_failures,
+                    escalated=[],  # Don't include escalated in notifications (already known failures)
+                    restart_failed=restart_failed,
+                    unloaded_critical=unloaded_critical,
+                    system_issues=system_issues if system_issues else []
+                )
+
+                # Command to open agent dashboard in browser when notification clicked
+                dashboard_cmd = f"python3 {PROJECT_ROOT}/agents/agent-dashboard/agent-dashboard.py"
+
+                send_macos_notification(
+                    title=notif_title,
+                    subtitle=notif_subtitle,
+                    message=notif_message,
+                    critical=is_critical,
+                    action_command=dashboard_cmd
+                )
+
             # Send Slack if configured
             if agents_to_alert or restart_failed:
                 slack_msg = f"🚨 Pete's Brain Alert: {len(agents_to_alert)} agent(s) need attention"

@@ -12,6 +12,62 @@ PetesBrain is an AI-powered business management system for a Google Ads agency. 
 
 ---
 
+## 🚨 MANDATORY: Architecture-First Principle
+
+**This is non-negotiable. Before making ANY decisions about infrastructure, configuration, or architecture:**
+
+1. **Read the current architecture documentation first**: `docs/ARCHITECTURAL-MIGRATION-DEC10-2025.md`
+2. **Understand the documented design**: This is the source of truth for how the system works
+3. **Operate within the documented architecture**: All decisions must align with it
+4. **Never assume patterns or propose alternatives**: If something doesn't match the documented architecture, the documentation is correct
+
+### Why This Matters
+
+The architecture is explicitly documented so I don't have to guess, assume, or invent patterns. Every major system decision (credentials, configuration, agent setup, MCP servers) is already decided and documented.
+
+**Before you even have to ask "is this the right architecture?", I should already know because I've read the documentation.**
+
+### Current Architecture (As of December 10, 2025)
+
+- **Credentials**: Centralized in `.mcp.json` (global `env` section)
+- **Agents**: LaunchAgent `.plist` files in `~/Library/LaunchAgents/`
+- **MCP Servers**: Configured in `.mcp.json` with individual `env` sections per server
+- **Task System**: Dual system (internal `tasks.json` + Google Tasks, do NOT mix)
+- **Source of Truth**: `docs/ARCHITECTURAL-MIGRATION-DEC10-2025.md`
+
+This is not a suggestion. This is how the system works.
+
+---
+
+## Business Context
+
+Roksys operates as the "Self-Improving Agency" — an AI-powered solo PPC consultancy that scales through automation while maintaining owner expertise and personal service.
+
+**Business context documentation** (helps Claude understand strategy, positioning, values):
+- Location: `context/business/`
+- Key files:
+  - `README.md` - System overview
+  - `business-overview.md` - Company, services, revenue model
+  - `business-philosophy.md` - "Self-Improving Agency" concept, batch-driven operations, positioning
+  - `personal-profile.md` - Peter's work style, preferences, constraints
+  - `key-relationships.md` - Client segments, strategic partners
+  - `market-position.md` - Competitive landscape, moats, positioning statement
+
+**When to use business context:**
+- Strategic decisions (e.g., "Should I use Slack?" → consult batch-driven philosophy)
+- Pricing and service scope (e.g., "What should I charge?" → reference business model)
+- Client decisions (e.g., "Should I hire?" → consult solo/automation philosophy)
+- Market positioning (e.g., "How am I different?" → reference competitive moats)
+
+**Key business facts:**
+- Solo operation (Peter Empson, 22+ years PPC experience)
+- 12 active clients, £12K-£18K/month MRR
+- Goal: £30K/month (15-20 clients) in 6 months
+- Batch-driven, asynchronous workflow (email primary, no Slack)
+- Automated operations (50+ LaunchAgents, 1,983+ article knowledge base)
+
+---
+
 ## Architecture Overview
 
 ### Per-Client Data Architecture

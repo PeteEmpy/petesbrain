@@ -1,6 +1,6 @@
 {
   "client": "Superspace",
-  "updated": "2025-11-27T12:51:31.891365",
+  "updated": "2025-12-11T08:52:52.255401",
   "product_count": 94,
   "baselines": {
     "51778779775346": {
@@ -3634,8 +3634,8 @@
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 207,
-      "date_range": "2025-11-04 to 2025-11-25",
+      "data_points": 449,
+      "date_range": "2025-11-17 to 2025-12-11",
       "revenue": {
         "mean": 0,
         "median": 0,

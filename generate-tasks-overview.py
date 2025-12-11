@@ -238,7 +238,7 @@ print("="*70)
 print("GENERATING STANDARD OVERVIEW (by client)")
 print("="*70)
 
-clients_dir = Path('/Users/administrator/Documents/PetesBrain/clients')
+clients_dir = Path('/Users/administrator/Documents/PetesBrain.nosync/clients')
 client_data = []
 
 for client_dir in sorted(clients_dir.iterdir()):

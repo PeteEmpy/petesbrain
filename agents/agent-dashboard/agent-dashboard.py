@@ -323,9 +323,217 @@ def restart_agent(name: str):
         print(f"❌ Failed to restart {name}: {e}")
 
 
+def generate_html_dashboard():
+    """Generate HTML dashboard and open in browser"""
+    import webbrowser
+    import tempfile
+
+    agents = get_all_agents_with_status()
+
+    if not agents:
+        print("❌ No agents found")
+        return
+
+    # Get health status for all
+    health_results = {}
+    for agent in agents:
+        try:
+            result = check_agent_health_simple(agent)
+            health_results[agent['name']] = result
+        except Exception as e:
+            health_results[agent['name']] = {
+                'healthy': False,
+                'error': str(e)
+            }
+
+    # Group by status
+    healthy = []
+    unhealthy_critical = []
+    unhealthy_non_critical = []
+
+    for agent in agents:
+        name = agent['name']
+        health = health_results.get(name, {})
+
+        if health.get('healthy', False):
+            healthy.append((agent, health))
+        elif agent.get('critical', False):
+            unhealthy_critical.append((agent, health))
+        else:
+            unhealthy_non_critical.append((agent, health))
+
+    # Generate HTML
+    html = """
+    <html>
+    <head>
+        <title>🧠 Pete's Brain Agent Dashboard</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                margin: 8px;
+                padding: 0;
+                background: #f5f5f5;
+                color: #333;
+                font-size: 13px;
+            }
+            h1 {
+                color: #2c3e50;
+                border-bottom: 2px solid #3498db;
+                padding: 5px 0;
+                margin: 0 0 3px 0;
+                font-size: 18px;
+            }
+            h2 {
+                color: #34495e;
+                margin: 8px 0 3px 0;
+                border-left: 3px solid #e74c3c;
+                padding-left: 6px;
+                font-size: 14px;
+            }
+            h3 {
+                margin: 5px 0 3px 0;
+                font-size: 13px;
+            }
+            .critical { color: #e74c3c; font-weight: bold; }
+            .healthy { color: #27ae60; font-weight: bold; }
+            .agent {
+                background: white;
+                padding: 6px 8px;
+                margin: 3px 0;
+                border-radius: 3px;
+                border-left: 3px solid #95a5a6;
+                box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+                font-size: 12px;
+            }
+            .agent.critical-unhealthy {
+                border-left-color: #e74c3c;
+                background: #fdeaea;
+            }
+            .agent.healthy {
+                border-left-color: #27ae60;
+            }
+            .summary {
+                background: white;
+                padding: 8px 10px;
+                border-radius: 3px;
+                margin: 5px 0;
+                box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+                font-size: 12px;
+            }
+            .summary p {
+                margin: 2px 0;
+            }
+            .time {
+                color: #7f8c8d;
+                font-size: 11px;
+                margin: 2px 0 5px 0;
+            }
+            small {
+                font-size: 11px;
+                color: #666;
+            }
+            span {
+                display: block;
+                margin: 1px 0;
+                font-size: 11px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>🧠 Pete's Brain Agent Dashboard</h1>
+        <p class="time">Last updated: """ + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + """</p>
+    """
+
+    # Quick Actions section at the top
+    if unhealthy_critical or unhealthy_non_critical:
+        html += """
+        <div class="summary" style="background: #e8f4f8; border-left: 3px solid #3498db; padding: 6px 8px;">
+            <strong>⚡ Quick Actions:</strong><br/>
+        """
+
+        html += """
+        <span style="margin: 2px 0; font-family: monospace; font-size: 11px; background: #f5f5f5; padding: 2px 4px; border-radius: 2px; display: inline-block;">
+            python3 agents/health-check/health-check.py --restart-unhealthy
+        </span><br/>
+        <small style="display: block; margin: 1px 0;">to restart all unhealthy agents</small>
+        """
+
+        if unhealthy_critical:
+            agent_names = ', '.join([a[0]['name'] for a in unhealthy_critical])
+            html += f"""
+            <span style="margin: 2px 0; font-family: monospace; font-size: 11px; background: #f5f5f5; padding: 2px 4px; border-radius: 2px; display: inline-block;">
+                tail -f ~/.petesbrain-AGENT-NAME.log
+            </span><br/>
+            <small style="display: block; margin: 1px 0;">to watch logs for: {agent_names}</small>
+            """
+
+        html += """
+        </div>
+        """
+
+    # Critical issues
+    if unhealthy_critical:
+        html += "<h2>🔴 CRITICAL AGENTS NEEDING ATTENTION</h2>"
+        for agent, health in unhealthy_critical:
+            html += f'<div class="agent critical-unhealthy">'
+            html += f'<strong>❌ {agent["name"]}</strong><br/>'
+            html += f'<small>{agent.get("description", "N/A")}</small><br/>'
+            checks = health.get('checks', {})
+            if not checks.get('running', True):
+                html += '<span style="color: #e74c3c;">⚠️ Process NOT RUNNING</span><br/>'
+            if not checks.get('log_fresh', True):
+                html += '<span style="color: #e74c3c;">⚠️ Log stale</span><br/>'
+            html += '</div>'
+
+    # Non-critical issues
+    if unhealthy_non_critical:
+        html += "<h2>⚪ NON-CRITICAL AGENTS WITH ISSUES</h2>"
+        for agent, health in unhealthy_non_critical[:10]:
+            html += f'<div class="agent">'
+            html += f'<strong>❌ {agent["name"]}</strong><br/>'
+            html += f'<small>{agent.get("description", "N/A")}</small><br/>'
+            checks = health.get('checks', {})
+            issues = []
+            if not checks.get('running', True):
+                issues.append("not running")
+            if not checks.get('log_fresh', True):
+                issues.append("stale log")
+            if issues:
+                html += f'<span style="color: #f39c12;">Issues: {", ".join(issues)}</span>'
+            html += '</div>'
+
+    # Healthy agents summary
+    html += "<h2>✅ HEALTHY AGENTS</h2>"
+    html += f'<div class="summary"><strong>{len(healthy)}</strong> agent(s) running correctly</div>'
+
+    # Summary
+    html += """
+    <div class="summary">
+        <h3>Summary</h3>
+        <p><strong>Total agents:</strong> """ + str(len(agents)) + """</p>
+        <p><strong>Healthy:</strong> """ + str(len(healthy)) + """</p>
+        <p><strong>Critical issues:</strong> """ + str(len(unhealthy_critical)) + """</p>
+        <p><strong>Non-critical issues:</strong> """ + str(len(unhealthy_non_critical)) + """</p>
+    </div>
+    """
+
+    html += """
+    </body>
+    </html>
+    """
+
+    # Save to temp file and open in browser
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False) as f:
+        f.write(html)
+        temp_path = f.name
+
+    webbrowser.open(f'file://{temp_path}')
+    print(f"✅ Dashboard opened in browser")
+
+
 def main():
     if len(sys.argv) == 1:
-        show_dashboard()
+        generate_html_dashboard()
     elif sys.argv[1] == '--status' and len(sys.argv) > 2:
         show_agent_status(sys.argv[2])
     elif sys.argv[1] == '--logs' and len(sys.argv) > 2:

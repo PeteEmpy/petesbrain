@@ -1,6 +1,6 @@
 {
   "client": "Grain Guard",
-  "updated": "2025-11-27T12:51:50.333165",
+  "updated": "2025-12-11T08:53:10.858850",
   "product_count": 105,
   "baselines": {
     "shopify_gb_9397473673490_48957607313682": {
@@ -4063,8 +4063,8 @@
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 707,
-      "date_range": "2025-11-04 to 2025-11-25",
+      "data_points": 1700,
+      "date_range": "2025-11-17 to 2025-12-11",
       "revenue": {
         "mean": 0,
         "median": 0,

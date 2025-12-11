@@ -434,7 +434,7 @@ def update_dashboard():
 
     # Initialize Google Sheets
     gc = gspread.service_account(
-        filename=os.path.expanduser("~/Documents/PetesBrain/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json")
+        filename=os.path.expanduser("~/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json")
     )
     sheet = gc.open_by_key(SPREADSHEET_ID).sheet1
 

@@ -606,3 +606,48 @@ Combined Total: £7,190.52
 - No campaign performance collapse from budget reductions
 
 ---
+## [Devonshire] Analyse property campaign budgets and recommend increases to Helen
+**Completed:** 2025-12-10 15:03
+**Source:** Recurring weekly task
+
+⚠️ RECURRING WEEKLY TASK - EVERY THURSDAY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 COPY AND PASTE THIS INTO CLAUDE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analyse Devonshire property campaign budgets (month-to-date) and create recommendations for Helen. Identify campaigns above 570% ROAS target that can scale, and underperformers to reduce. Create analysis document and email draft. Exclude The Hide and Self-Catering.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT THIS GENERATES:
+
+1. Fresh Google Ads data query (Nov 1 through current date)
+2. Campaign-by-campaign ROAS analysis vs 570% target
+3. Analysis document: clients/devonshire-hotels/documents/budget-optimization-analysis-[DATE].md
+4. Email draft: clients/devonshire-hotels/documents/email-draft-[DATE]-budget-optimization.html
+5. Two reallocation options (revenue-neutral vs modest increase)
+
+KEY PRINCIPLES:
+
+- Focus on campaigns where budget increases maintain ROAS (no degradation)
+- Apply October learnings: Brand search scales 2-3x better than PMax
+- Dev Arms achieved 4,006% incremental ROAS in Oct test
+- PMax only achieved 573% (failed to scale)
+- Look for campaigns consistently above target with room to grow
+- Identify zero/low performers to reduce or pause
+
+EXCLUDE FROM ANALYSIS:
+- The Hide (separate £2k budget)
+- Self-Catering campaigns (separate reporting)
+- Castles (separate budget)
+- Weddings (separate budget)
+
+IMPORTANT: Data must be pulled fresh on Thursday, not in advance.
+
+---
+Note (2025-11-24): Demoted to P1. Should only escalate to P0 when approaching due date (Dec 8).
+---
+Note (2025-12-10): Task completed Dec 10 at 10:20 AM, but deferred to Dec 18 (next Thursday) via manual note. Reason: "Too close to beginning of month after budget decrease. Will have more meaningful data next week."
+
+---

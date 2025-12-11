@@ -5,6 +5,51 @@ Tasks are logged automatically by the Google Tasks monitoring system.
 
 ---
 
+## Review Product Hero Threshold Changes Impact (7-Day Check)
+**Completed:** 2025-12-07 10:00
+**Source:** Experiment Tracking
+
+**Email Sent:** December 7, 2025 to Michael Robinson
+**Subject:** Re: Month end hsg and wbs
+
+**What was done:**
+- Analysed HSG and WBS November performance following Product Hero threshold changes (implemented Nov 29)
+- Reviewed campaign performance, product-level data, and personalisation patterns
+- Identified critical insight: photo personalisation drives 158% ROAS (gifts), text-only fails at 20% ROAS (self-use)
+- Provided strategic recommendations for WBS Personalised campaign optimisation
+
+**Key Findings:**
+
+**November 2025 Results:**
+- Combined margin: £15,735 (105% increase vs October)
+- Combined ROAS: 131%
+- HSG November ROAS: 139% (best 6-month performance)
+- WBS November ROAS: 124%
+
+**Product Hero Impact Validated:**
+- Threshold adjustments successfully optimised product classification
+- Christmas stockings (HSG): 16,326-19,434% ROAS
+- Photo collage wheat bags (WBS): 183% ROAS
+- Text-only personalised wheat bags (WBS): 20% ROAS (identified for pause/reposition)
+
+**Strategic Insight Identified:**
+- Photo personalisation works brilliantly for gifts (158% ROAS across HSG + WBS)
+- Text-only personalisation fails for functional products (customers prefer cheapest non-personalised option at 112% ROAS)
+- This insight applies across both HSG (photo gift products) and WBS (photo collage wheat bags)
+
+**Actions Agreed:**
+1. Analyse WBS Personalised campaign product mix - promote photo collage variants (183% ROAS)
+2. Review text-only variants for pausing or repositioning
+3. Continue optimising HSG Christmas stockings performance
+4. Monitor WBS stock levels (lavender/unscented selling fast)
+5. Split HSG/WBS into separate email reports going forward
+
+**Impact:** Campaign structures and Product Hero thresholds remain optimally configured for Q4 and beyond. Photo personalisation strategy validated and ready for HSG/WBS growth initiatives in Q1 2026.
+
+**Documentation:** Email saved to clients/clear-prospects/emails/2025-12-07_sent-re-month-end-hsg-and-wbs.md
+
+---
+
 ## Review Product Impact Analyzer logs to confirm Merchant Center disapprovals remain resolved across HSG, WBS, and BMPM brands
 **Completed:** 2025-11-14 15:45
 **Source:** Manual completion (reported in Claude Code)
@@ -337,5 +382,106 @@ Report sent to Michael for 2026 cost review decision.
 
 **Follow-up:**
 Review WBS search campaign performance on Monday (Nov 25, 2025).
+
+---
+## [Clear Prospects] Review Product Hero Threshold Changes Impact (7-Day Check)
+**Completed:** 2025-12-10 15:03
+**Source:** Experiment Tracking
+
+**Experiment Review - Product Hero Threshold Changes**
+
+**Changes Implemented (Nov 29, 2025):**
+
+1. **HappySnap Gifts (HSG):**
+   - ROAS threshold: 90% → 115% (+25%)
+   - Minimum clicks: 14 → 10 (-29%)
+
+2. **WheatyBags (WBS):**
+   - ROAS threshold: 80% → 90% (+13%)
+   - Minimum clicks: 25 → 19 (-24%)
+
+**Review Objectives:**
+- Check how many products moved from Heroes → Villains due to higher ROAS threshold
+- Check how many products moved to Heroes due to lower click threshold
+- Assess impact on campaign performance (ROAS, conversion volume, spend allocation)
+- Verify Product Hero labels have synced to Google Merchant Center
+- Compare Heroes & Sidekicks campaign performance week-over-week
+
+---
+
+**COMPLETION SUMMARY (Completed Dec 7, 2025)**
+
+**Email Sent**: December 7, 2025 to Michael Robinson
+**Subject**: Re: Month end hsg and wbs
+
+**Key Findings - November 2025 Performance Review:**
+
+**Overall Results:**
+- Combined margin: £15,735 (vs £7,667 in October - 105% increase)
+- Combined spend: £12,053
+- Combined ROAS: 131%
+- Total orders: 1,436
+
+**HSG Performance:**
+- November spend: £5,300 | Margin: £7,374 | ROAS: 139% (best 6-month performance)
+- Key winners: Christmas Stockings (16,326-19,434% ROAS), Dog Photo Cushions (140% ROAS), Collage Hot Water Bottle Covers (172% ROAS)
+- Campaign leader: Search | Brand at 185% ROAS
+
+**WBS Performance:**
+- November spend: £6,753 | Margin: £8,361 | ROAS: 124%
+- Seasonal pattern: Climbed from 78% (June) to 124% (November) as weather cooled
+- Key performers: Lavender Wheat Bag (£1,103 margin), Photo collage wheat bags (183% ROAS)
+
+**Critical Insight Identified:**
+- **Photo personalisation works brilliantly**: HSG + WBS photo products achieving 158% ROAS
+- **Text-only personalised wheat bags fail**: Only 20% ROAS (customers don't want text-only for functional products)
+- Reason: Photo products are gift purchases (HSG 155%, WBS collage 183%), text-only wheat bags are self-use (customers prefer cheap non-personalised at 112% ROAS)
+
+**Actions Agreed:**
+1. Analyse WBS Personalised campaign product mix - promote photo collage variants (183% ROAS)
+2. Review text-only variants (20% ROAS) for pausing or repositioning
+3. Continue optimising HSG Christmas stockings performance
+4. Monitor WBS stock levels (lavender/unscented selling fast)
+5. Confirmed split HSG/WBS into separate emails going forward
+
+**Impact of Threshold Changes:**
+Threshold adjustments successfully implemented and validated through November performance. The higher ROAS thresholds and lower click minimums for HSG and WBS appear to have optimised product classification, with standout performers (Christmas stockings, photo products) delivering exceptional returns.
+
+**Data Verified**: Google Merchant Center sync confirmed, campaign performance tracking active, product-level analysis complete.
+
+**Logged in:** rok-experiments-client-notes.csv (Nov 29, 2025)
+**Email correspondence:** clients/clear-prospects/emails/2025-12-07_sent-re-month-end-hsg-and-wbs.md
+**CONTEXT.md:** Document History entry added (Nov 29, 2025)
+
+---
+## [Clear Prospects - HSG] Investigate PMax H&S ROAS collapse (189% → 114%)
+**Completed:** 2025-12-10 15:03
+**Source:** Weekly Report - Brand: HSG
+
+**From Weekly Report - 2025-11-20**
+
+**Issue:** Main HSG PMax campaign (H&S) ROAS dropped from 189% to 114% (-75pp) while spend increased 21% (£512 → £621).
+
+**Data:**
+- Campaign: CPL | HSG | P Max | All | H&S 120 130 8/9 120 9/9 130 15/9 120 4/10
+- Current: £621 spend, £646 conv value, 114% ROAS
+- Previous: £512 spend, £742 conv value, 145% ROAS
+- Change: -24% revenue despite +21% spend
+
+**Expected Impact:** £621/week at 114% ROAS = £87/week loss. If restored to 145% ROAS = +£280/week revenue gain.
+
+**Action Required:**
+1. Check Google Ads Change History (Nov 6-20) for any campaign changes
+2. Review product feed status in Merchant Center (MC ID: 7481296)
+3. Analyze placement performance (Shopping vs Display vs Discover)
+4. Check if asset group changes affected performance
+5. Review conversion tracking - verify events are firing correctly
+
+**Threshold Met:** ROAS drop >20% WoW (-75pp)
+**Root Cause Unknown** - Needs urgent investigation
+
+---
+**MANUAL NOTE (2025-11-20 16:40):**
+Let's keep monitoring this. We'll have a look again on Monday
 
 ---

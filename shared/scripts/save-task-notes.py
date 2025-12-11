@@ -14,8 +14,8 @@ import json
 import os
 from datetime import datetime
 
-# Fixed location within PetesBrain
-NOTES_FILE = "/Users/administrator/Documents/PetesBrain/data/state/manual-task-notes.json"
+# Fixed location within PetesBrain (use .nosync directory for active data)
+NOTES_FILE = "/Users/administrator/Documents/PetesBrain.nosync/data/state/manual-task-notes.json"
 
 class TaskNotesHandler(BaseHTTPRequestHandler):
     def do_POST(self):

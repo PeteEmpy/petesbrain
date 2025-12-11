@@ -1,6 +1,6 @@
 {
   "client": "Crowd Control",
-  "updated": "2025-11-27T12:51:52.322282",
+  "updated": "2025-12-11T08:53:12.520099",
   "product_count": 303,
   "baselines": {
     "8025": {
@@ -11785,8 +11785,8 @@
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 1451,
-      "date_range": "2025-11-04 to 2025-11-25",
+      "data_points": 2307,
+      "date_range": "2025-11-17 to 2025-12-11",
       "revenue": {
         "mean": 0,
         "median": 0,

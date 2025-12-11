@@ -10,7 +10,9 @@ import os
 import sys
 import json
 import logging
-from datetime import datetime
+import threading
+import time
+from datetime import datetime, timedelta
 from typing import Any, Optional
 from pathlib import Path
 
@@ -50,19 +52,30 @@ class GooglePhotosService:
         self.creds = None
         self.service = None
         self._authenticate()
+        # Start background token refresh thread
+        self._start_refresh_thread()
 
     def _authenticate(self):
-        """Handle OAuth 2.0 authentication"""
+        """Handle OAuth 2.0 authentication with proactive refresh"""
         # Load existing token
         if TOKEN_FILE.exists():
             self.creds = Credentials.from_authorized_user_file(str(TOKEN_FILE), SCOPES)
+
+        # Refresh if token is expired or expiring soon (within 10 minutes)
+        if self.creds:
+            self._refresh_if_needed("on startup")
 
         # Refresh or get new token
         if not self.creds or not self.creds.valid:
             if self.creds and self.creds.expired and self.creds.refresh_token:
                 logger.info("Refreshing expired token")
-                self.creds.refresh(Request())
-            else:
+                try:
+                    self.creds.refresh(Request())
+                except Exception as e:
+                    logger.error(f"Failed to refresh token: {e}")
+                    self.creds = None
+
+            if not self.creds or not self.creds.valid:
                 if not CREDENTIALS_FILE.exists():
                     raise FileNotFoundError(
                         f"Credentials file not found: {CREDENTIALS_FILE}\n"
@@ -81,7 +94,49 @@ class GooglePhotosService:
 
         # Build service
         self.service = build('photoslibrary', 'v1', credentials=self.creds, static_discovery=False)
-        logger.info("Google Photos service initialized")
+        logger.info("Google Photos service initialised")
+
+    def _refresh_if_needed(self, trigger: str = "background"):
+        """Refresh token if it's expired or expiring within 10 minutes"""
+        if not self.creds or not self.creds.refresh_token:
+            return False
+
+        try:
+            # Check if token is expired or expiring soon
+            if self.creds.expired:
+                logger.info(f"Token expired ({trigger}), refreshing")
+                self.creds.refresh(Request())
+                TOKEN_FILE.write_text(self.creds.to_json())
+                logger.info(f"Token refreshed successfully ({trigger})")
+                return True
+            elif self.creds.expiry:
+                time_until_expiry = self.creds.expiry - datetime.utcnow()
+                if time_until_expiry < timedelta(minutes=10):
+                    logger.info(f"Token expiring in {time_until_expiry.total_seconds() / 60:.1f} minutes ({trigger}), refreshing proactively")
+                    self.creds.refresh(Request())
+                    TOKEN_FILE.write_text(self.creds.to_json())
+                    logger.info(f"Token refreshed successfully ({trigger})")
+                    return True
+        except Exception as e:
+            logger.error(f"Error refreshing token ({trigger}): {e}")
+            return False
+
+        return False
+
+    def _start_refresh_thread(self):
+        """Start background thread to refresh token every 30 minutes"""
+        def refresh_loop():
+            while True:
+                try:
+                    time.sleep(1800)  # 30 minutes
+                    self._refresh_if_needed("background refresh")
+                except Exception as e:
+                    logger.error(f"Error in refresh loop: {e}")
+                    time.sleep(60)  # Wait a minute before retrying
+
+        thread = threading.Thread(target=refresh_loop, daemon=True)
+        thread.start()
+        logger.info("Background token refresh thread started (30-minute interval)")
 
     def list_albums(self, page_size: int = 50, page_token: Optional[str] = None) -> dict:
         """List all albums"""

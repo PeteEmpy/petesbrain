@@ -1,13 +1,13 @@
 {
   "client": "Go Glean UK",
-  "updated": "2025-11-27T12:51:20.379143",
+  "updated": "2025-12-11T08:52:50.870620",
   "product_count": 105,
   "baselines": {
     "shopify_gb_8399315337493_45446871843093": {
       "product_id": "shopify_gb_8399315337493_45446871843093",
       "product_title": "Glean Patio Grout - Natural Buff - 15kg - Weatherproof Jointing Compound - Easy Application",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 40.39714285714285,
@@ -17,9 +17,9 @@
         "max": 79.99
       },
       "clicks": {
-        "mean": 15.033333333333333,
-        "median": 15.0,
-        "stdev": 8.89976107131179
+        "mean": 14.030303030303031,
+        "median": 13.0,
+        "stdev": 9.074293527889818
       },
       "conversions": {
         "mean": 0.83,
@@ -27,14 +27,14 @@
         "stdev": 0.26336286754210436
       },
       "impressions": {
-        "mean": 1270.6129032258063,
-        "median": 1307.0,
-        "stdev": 535.9970570453631
+        "mean": 1211.2941176470588,
+        "median": 1257.0,
+        "stdev": 548.6222152956117
       },
       "cost": {
-        "mean": 6.186333333333334,
-        "median": 5.89,
-        "stdev": 4.661419410387809
+        "mean": 5.744848484848485,
+        "median": 5.19,
+        "stdev": 4.65880357576661
       },
       "roas": {
         "mean": 8.75,
@@ -46,7 +46,7 @@
       "product_id": "shopify_gb_8399315337493_45446871875861",
       "product_title": "Glean Patio Grout - Grey - 15kg - 20m\u00b2 Coverage - Ready-to-use, Weatherproof, Weed Resistant, Non-staining",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 53.11,
@@ -56,9 +56,9 @@
         "max": 124.75
       },
       "clicks": {
-        "mean": 20.096774193548388,
+        "mean": 19.12121212121212,
         "median": 18.0,
-        "stdev": 10.631258435104401
+        "stdev": 11.007831234391654
       },
       "conversions": {
         "mean": 1.221111111111111,
@@ -66,14 +66,14 @@
         "stdev": 0.614500700659577
       },
       "impressions": {
-        "mean": 1494.0645161290322,
-        "median": 1664.0,
-        "stdev": 611.9493952653204
+        "mean": 1392.735294117647,
+        "median": 1369.5,
+        "stdev": 671.1287781777769
       },
       "cost": {
-        "mean": 8.845806451612903,
-        "median": 7.91,
-        "stdev": 6.029215412856274
+        "mean": 8.392727272727273,
+        "median": 7.77,
+        "stdev": 6.11234471823583
       },
       "roas": {
         "mean": 5.09,
@@ -85,7 +85,7 @@
       "product_id": "shopify_gb_8399315337493_45446871908629",
       "product_title": "Glean Patio Grout - 15Kg - Brush In Jointing Compound | GLEAN - Basalt",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -95,9 +95,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.45,
+        "mean": 2.3181818181818183,
         "median": 2.0,
-        "stdev": 1.4317821063276353
+        "stdev": 1.4271638086766834
       },
       "conversions": {
         "mean": 0,
@@ -105,14 +105,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 262.5483870967742,
-        "median": 269.0,
-        "stdev": 210.80509777354015
+        "mean": 244.64705882352942,
+        "median": 212.0,
+        "stdev": 209.47783311569012
       },
       "cost": {
-        "mean": 1.506,
-        "median": 0.88,
-        "stdev": 1.3394712232424917
+        "mean": 1.6654545454545455,
+        "median": 0.99,
+        "stdev": 1.3746539903094135
       },
       "roas": {
         "mean": 0,
@@ -163,7 +163,7 @@
       "product_id": "shopify_gb_8399315337493_55222305653114",
       "product_title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 111.94923076923077,
@@ -173,9 +173,9 @@
         "max": 543.89
       },
       "clicks": {
-        "mean": 17.032258064516128,
-        "median": 15.0,
-        "stdev": 8.949800262083103
+        "mean": 16.11764705882353,
+        "median": 13.0,
+        "stdev": 9.067974635654307
       },
       "conversions": {
         "mean": 0.9992307692307693,
@@ -183,14 +183,14 @@
         "stdev": 0.5958671767329463
       },
       "impressions": {
-        "mean": 1673.9032258064517,
-        "median": 1527.0,
-        "stdev": 718.8070837546845
+        "mean": 1579.9411764705883,
+        "median": 1497.5,
+        "stdev": 751.7423777435616
       },
       "cost": {
-        "mean": 10.128709677419355,
-        "median": 8.73,
-        "stdev": 6.977096694153657
+        "mean": 9.800882352941176,
+        "median": 8.23,
+        "stdev": 6.750971812263933
       },
       "roas": {
         "mean": 14.377692307692309,
@@ -241,7 +241,7 @@
       "product_id": "shopify_gb_8444181774613_45691978088725",
       "product_title": "Patio Sealer | Water Based Natural Finish | GLEAN 1 Litre",
       "label": "",
-      "data_points": 29,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -261,9 +261,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.137931034482759,
-        "median": 5.0,
-        "stdev": 2.531574015326017
+        "mean": 5.0,
+        "median": 4.5,
+        "stdev": 2.4626238301925567
       },
       "cost": {
         "mean": 0.24,
@@ -280,7 +280,7 @@
       "product_id": "shopify_gb_8444181774613_45691978154261",
       "product_title": "Patio Sealer | Water Based Natural Finish | GLEAN 5 Litre",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -300,9 +300,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 25.0,
+        "mean": 25.029411764705884,
         "median": 23.0,
-        "stdev": 11.820885471627468
+        "stdev": 11.379101775590696
       },
       "cost": {
         "mean": 0.4425,
@@ -319,7 +319,7 @@
       "product_id": "shopify_gb_8444225683733_45692215820565",
       "product_title": "Door Restore Colour Reviver | GLEAN 400ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -339,9 +339,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 87.54838709677419,
-        "median": 87.0,
-        "stdev": 28.716822839208636
+        "mean": 85.6470588235294,
+        "median": 86.0,
+        "stdev": 31.596779997950094
       },
       "cost": {
         "mean": 0.38,
@@ -358,7 +358,7 @@
       "product_id": "shopify_gb_8444225683733_45692215853333",
       "product_title": "Door Restore Colour Reviver | GLEAN 1 Litre",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 11.325,
@@ -368,9 +368,9 @@
         "max": 15.99
       },
       "clicks": {
-        "mean": 1.7,
+        "mean": 1.7272727272727273,
         "median": 1.0,
-        "stdev": 1.1742858972247996
+        "stdev": 1.1204513623586057
       },
       "conversions": {
         "mean": 0.665,
@@ -378,14 +378,14 @@
         "stdev": 0.47376154339498683
       },
       "impressions": {
-        "mean": 97.87096774193549,
-        "median": 103.0,
-        "stdev": 26.067530167475745
+        "mean": 103.97058823529412,
+        "median": 104.0,
+        "stdev": 32.02317843717658
       },
       "cost": {
-        "mean": 0.5780000000000001,
-        "median": 0.33999999999999997,
-        "stdev": 0.7616574724002634
+        "mean": 0.5690909090909091,
+        "median": 0.38,
+        "stdev": 0.7250544090645171
       },
       "roas": {
         "mean": 8.879999999999999,
@@ -397,7 +397,7 @@
       "product_id": "shopify_gb_8444225683733_46123755995413",
       "product_title": "Door Restore Colour Reviver | GLEAN 2 x 400ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.33,
@@ -417,9 +417,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 44.96774193548387,
+        "mean": 44.529411764705884,
         "median": 42.0,
-        "stdev": 18.44538582042989
+        "stdev": 17.971754427969778
       },
       "cost": {
         "mean": 0.33714285714285713,
@@ -436,7 +436,7 @@
       "product_id": "shopify_gb_8444225683733_46123818320149",
       "product_title": "Door Restore Colour Reviver | GLEAN 3 x 400ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -456,9 +456,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 27.612903225806452,
+        "mean": 33.6764705882353,
         "median": 27.0,
-        "stdev": 8.701254389856054
+        "stdev": 21.465575807360327
       },
       "cost": {
         "mean": 0.455,
@@ -475,7 +475,7 @@
       "product_id": "shopify_gb_8945720164629_47707964113173",
       "product_title": "Sticky Stuff Remover Liquid | GLEAN 500ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -495,9 +495,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 13.225806451612904,
-        "median": 11.0,
-        "stdev": 5.908805166412551
+        "mean": 18.5,
+        "median": 12.0,
+        "stdev": 18.15296953752479
       },
       "cost": {
         "mean": 0.735,
@@ -514,7 +514,7 @@
       "product_id": "shopify_gb_8961072365845_47776701350165",
       "product_title": "Oven, Grill & BBQ Cleaner 400ml | GLEAN 400ml",
       "label": "",
-      "data_points": 28,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -534,9 +534,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.4285714285714284,
+        "mean": 5.129032258064516,
         "median": 3.0,
-        "stdev": 2.394879900005371
+        "stdev": 5.76623467833138
       },
       "cost": {
         "mean": 0,
@@ -553,7 +553,7 @@
       "product_id": "shopify_gb_8961072365845_47776701382933",
       "product_title": "Oven, Grill & BBQ Cleaner 400ml | GLEAN 2 x 400ml",
       "label": "",
-      "data_points": 29,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -573,9 +573,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.793103448275862,
+        "mean": 5.0625,
         "median": 2.0,
-        "stdev": 2.5408000756908327
+        "stdev": 7.57728992322751
       },
       "cost": {
         "mean": 0,
@@ -592,7 +592,7 @@
       "product_id": "shopify_gb_8961072365845_47776701415701",
       "product_title": "Oven, Grill & BBQ Cleaner 400ml | GLEAN 3 x 400ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -612,9 +612,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 22.870967741935484,
-        "median": 22.0,
-        "stdev": 9.891888715790904
+        "mean": 30.558823529411764,
+        "median": 22.5,
+        "stdev": 27.36641513537814
       },
       "cost": {
         "mean": 0.1,
@@ -631,7 +631,7 @@
       "product_id": "shopify_gb_8966919684373_47798109995285",
       "product_title": "Temporary Pre-Grout Coating | GLEAN 1 Litre",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -651,9 +651,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.709677419354839,
-        "median": 7.0,
-        "stdev": 4.64179238647527
+        "mean": 7.4411764705882355,
+        "median": 6.5,
+        "stdev": 4.5672827043273525
       },
       "cost": {
         "mean": 1.19,
@@ -670,7 +670,7 @@
       "product_id": "shopify_gb_8995001630997_47901355376917",
       "product_title": "Glean Patio Grout Resin Remover 1 Litre - Removes Epoxy, Acrylic, Silicone - Safe for Porcelain & Stone - Easy Use, Drip-Free, 10 sq/m Coverage",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 81.35,
@@ -690,9 +690,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 127.45161290322581,
-        "median": 138.0,
-        "stdev": 51.69709128482789
+        "mean": 130.26470588235293,
+        "median": 139.0,
+        "stdev": 50.38476731298459
       },
       "cost": {
         "mean": 1.3123529411764705,
@@ -709,7 +709,7 @@
       "product_id": "shopify_gb_8997255512341_54898021138810",
       "product_title": "Silicone Sealant Remover Gel | 250ml | GLEAN (Optional 10 pcs tool kit)",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -729,9 +729,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 26.06451612903226,
-        "median": 22.0,
-        "stdev": 14.458989092996712
+        "mean": 27.294117647058822,
+        "median": 22.5,
+        "stdev": 14.665005577625955
       },
       "cost": {
         "mean": 0.2866666666666667,
@@ -748,7 +748,7 @@
       "product_id": "shopify_gb_8997255512341_54898021171578",
       "product_title": "Glean Silicone Sealant Remover Gel 250ml with 10 pcs Caulking Tool Kit - Effortless Removal for Showers, Baths & Kitchens - Residue Free Finish",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -768,9 +768,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 53.935483870967744,
-        "median": 54.0,
-        "stdev": 21.890539027733674
+        "mean": 64.5,
+        "median": 56.0,
+        "stdev": 40.297567412859294
       },
       "cost": {
         "mean": 0.8908333333333334,
@@ -787,7 +787,7 @@
       "product_id": "shopify_gb_8997265899797_47905050788117",
       "product_title": "Rattan Furniture Foaming Cleaner 500ml | GLEAN 1 x 500ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -807,9 +807,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.612903225806452,
-        "median": 4.0,
-        "stdev": 2.564857622492117
+        "mean": 4.9411764705882355,
+        "median": 4.5,
+        "stdev": 2.673565052346129
       },
       "cost": {
         "mean": 0.28,
@@ -826,7 +826,7 @@
       "product_id": "shopify_gb_8997265899797_47905050820885",
       "product_title": "GLEAN Rattan Furniture Foaming Cleaner (2x500ml) - Powerful Deep Clean Spray for Outdoor & Indoor Furniture",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -846,9 +846,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 10.064516129032258,
+        "mean": 10.264705882352942,
         "median": 10.0,
-        "stdev": 5.105131300113431
+        "stdev": 5.0109505753349035
       },
       "cost": {
         "mean": 0,
@@ -865,7 +865,7 @@
       "product_id": "shopify_gb_8997265899797_47905050853653",
       "product_title": "Rattan Furniture Foaming Cleaner 500ml | GLEAN 3 x 500ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -885,9 +885,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.903225806451612,
-        "median": 8.0,
-        "stdev": 5.436633999756819
+        "mean": 9.676470588235293,
+        "median": 8.5,
+        "stdev": 5.792997801605984
       },
       "cost": {
         "mean": 0.32,
@@ -904,7 +904,7 @@
       "product_id": "shopify_gb_8997269078293_47905053802773",
       "product_title": "Glean UPVC Cleaner 500ml - Powerful Solvent-Based, Foil Safe Formula. Fast & Effective Aerosol Spray",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 11.99,
@@ -914,9 +914,9 @@
         "max": 11.99
       },
       "clicks": {
-        "mean": 2.0,
+        "mean": 1.7777777777777777,
         "median": 2.0,
-        "stdev": 0.816496580927726
+        "stdev": 0.8333333333333334
       },
       "conversions": {
         "mean": 1.0,
@@ -924,14 +924,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 26.870967741935484,
-        "median": 26.0,
-        "stdev": 11.876424645725303
+        "mean": 28.647058823529413,
+        "median": 28.5,
+        "stdev": 12.784655463866372
       },
       "cost": {
-        "mean": 0.6985714285714285,
-        "median": 0.78,
-        "stdev": 0.4414154721434434
+        "mean": 0.59,
+        "median": 0.6,
+        "stdev": 0.43880519595829764
       },
       "roas": {
         "mean": 41.34,
@@ -943,7 +943,7 @@
       "product_id": "shopify_gb_8997269078293_47905053835541",
       "product_title": "UPVC Cleaner 500ml | GLEAN 2 x 500ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -963,9 +963,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 12.580645161290322,
+        "mean": 17.0,
         "median": 13.0,
-        "stdev": 7.283653815443579
+        "stdev": 16.11135492675143
       },
       "cost": {
         "mean": 0,
@@ -982,7 +982,7 @@
       "product_id": "shopify_gb_8997269078293_47905053868309",
       "product_title": "Glean UPVC Cleaner (3 x 500ml): Foil Safe, Powerful, Fast Acting, Long-Lasting",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1002,9 +1002,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 25.225806451612904,
-        "median": 27.0,
-        "stdev": 10.439379539095718
+        "mean": 26.38235294117647,
+        "median": 28.0,
+        "stdev": 10.739377291022533
       },
       "cost": {
         "mean": 0.3,
@@ -1021,7 +1021,7 @@
       "product_id": "shopify_gb_9020394012949_47987014533397",
       "product_title": "Glean Patio Sealer For Porcelain & Polished Stone 1 litre",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1041,9 +1041,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 58.225806451612904,
-        "median": 55.0,
-        "stdev": 25.208080288430473
+        "mean": 54.6764705882353,
+        "median": 54.0,
+        "stdev": 26.73406700599306
       },
       "cost": {
         "mean": 0.5363636363636364,
@@ -1060,7 +1060,7 @@
       "product_id": "shopify_gb_9020394012949_47987014566165",
       "product_title": "Glean Patio Sealer 5L - Water-Based Protective Sealer for Stone & Tiles",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1080,9 +1080,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.0,
+        "mean": 5.393939393939394,
         "median": 5.0,
-        "stdev": 3.6859472183621573
+        "stdev": 3.904639819652015
       },
       "cost": {
         "mean": 0,
@@ -1099,7 +1099,7 @@
       "product_id": "shopify_gb_9170730287381_48413496508693",
       "product_title": "Glean Porcelain Tile Pre-Grout Protector 1 Litre - Water Based, Stain Protection, Invisible Shield, Interior & Exterior Use, Covers 30m\u00b2",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1119,9 +1119,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.3,
+        "mean": 8.393939393939394,
         "median": 8.0,
-        "stdev": 4.3083719622981995
+        "stdev": 4.152855899403701
       },
       "cost": {
         "mean": 0.49,
@@ -1138,1801 +1138,7 @@
       "product_id": "shopify_gb_9170730287381_48413496541461",
       "product_title": "Glean Porcelain Tile Pre Grout Protector 5 Litre | Water-Based Stain Protection for Interior & Exterior Tiles - 30m\u00b2 Coverage",
       "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.5,
-        "median": 1.5,
-        "stdev": 0.7071067811865476
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 16.133333333333333,
-        "median": 16.0,
-        "stdev": 7.281215005342377
-      },
-      "cost": {
-        "mean": 1.555,
-        "median": 1.555,
-        "stdev": 0.7848885271170677
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_9182084497685_48441631768853": {
-      "product_id": "shopify_gb_9182084497685_48441631768853",
-      "product_title": "Glean Electric Hob Cleaner & Polish Protector - 250ml - Induction & Ceramic Hobs",
-      "label": "",
-      "data_points": 31,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 26.548387096774192,
-        "median": 27.0,
-        "stdev": 9.75991362556527
-      },
-      "cost": {
-        "mean": 0.4525,
-        "median": 0.48,
-        "stdev": 0.09945685831890462
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_9182084497685_48441631801621": {
-      "product_id": "shopify_gb_9182084497685_48441631801621",
-      "product_title": "Glean Hob Cleaner Polish 500ml - Induction Hob Cleaner, Removes Grease, Grime, Burnt Food, Easy Application, Protective Film",
-      "label": "",
-      "data_points": 29,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 8.655172413793103,
-        "median": 7.0,
-        "stdev": 5.863177235137992
-      },
-      "cost": {
-        "mean": 1.25,
-        "median": 1.25,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_9182086299925_48441646350613": {
-      "product_id": "shopify_gb_9182086299925_48441646350613",
-      "product_title": "Glean Stainless Steel Cleaner Polish Protector Spray - 500ml - Streak-Free Shine, Long-Lasting Protection, Rapid Dry",
-      "label": "",
-      "data_points": 31,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.3333333333333333,
-        "median": 1.0,
-        "stdev": 0.5163977794943223
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 24.70967741935484,
-        "median": 24.0,
-        "stdev": 9.281499693429925
-      },
-      "cost": {
-        "mean": 0.5416666666666666,
-        "median": 0.53,
-        "stdev": 0.23642475899674018
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_9182086856981_48441657721109": {
-      "product_id": "shopify_gb_9182086856981_48441657721109",
-      "product_title": "Glean Stainless Steel Cleaner Polish Cream 250ml - Removes Grease, Grime, Protects, Shines, Eco-Friendly, Easy to Use, Ideal for Kitchen & Bathroom",
-      "label": "",
-      "data_points": 31,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 9.99,
-        "median": 9.99,
-        "stdev": 0,
-        "min": 9.99,
-        "max": 9.99
-      },
-      "clicks": {
-        "mean": 1.5,
-        "median": 1.0,
-        "stdev": 1.0
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 15.838709677419354,
-        "median": 16.0,
-        "stdev": 6.309235422212681
-      },
-      "cost": {
-        "mean": 0.7475,
-        "median": 0.42,
-        "stdev": 0.7528335362703586
-      },
-      "roas": {
-        "mean": 5.34,
-        "median": 5.34,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_9182086856981_48441657753877": {
-      "product_id": "shopify_gb_9182086856981_48441657753877",
-      "product_title": "Glean Stainless Steel Cleaner Polish Cream 500ml - Protective Barrier, Eco-Friendly, Easy to Use, Ideal for Kitchen & Household Surfaces",
-      "label": "",
-      "data_points": 31,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 14.290322580645162,
-        "median": 12.0,
-        "stdev": 6.802908928721089
-      },
-      "cost": {
-        "mean": 0.20500000000000002,
-        "median": 0.20500000000000002,
-        "stdev": 0.14849242404917498
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_9182088102165_48441672466709": {
-      "product_id": "shopify_gb_9182088102165_48441672466709",
-      "product_title": "Glean Stone Polish (500ml) Natural Marble Granite Quartz Cleaner & Polish - Quick & Effective Cleaning For Kitchen Worktops",
-      "label": "",
-      "data_points": 31,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 14.24,
-        "median": 14.24,
-        "stdev": 1.0606601717798212,
-        "min": 13.49,
-        "max": 14.99
-      },
-      "clicks": {
-        "mean": 2.0,
-        "median": 1.0,
-        "stdev": 1.4509525002200234
-      },
-      "conversions": {
-        "mean": 0.75,
-        "median": 0.75,
-        "stdev": 0.3535533905932738
-      },
-      "impressions": {
-        "mean": 166.7741935483871,
-        "median": 179.0,
-        "stdev": 70.99376013773762
-      },
-      "cost": {
-        "mean": 0.668,
-        "median": 0.62,
-        "stdev": 0.5172966165302884
-      },
-      "roas": {
-        "mean": 11.774999999999999,
-        "median": 11.774999999999999,
-        "stdev": 6.611448404094219
-      }
-    },
-    "shopify_gb_14809979060602_51903549735290": {
-      "product_id": "shopify_gb_14809979060602_51903549735290",
-      "product_title": "Patio Sealer | Colour Enhancing | GLEAN 1 Litre",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.5,
-        "median": 1.5,
-        "stdev": 0.7071067811865476
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 10.6,
-        "median": 9.0,
-        "stdev": 5.980427847686093
-      },
-      "cost": {
-        "mean": 0.42500000000000004,
-        "median": 0.42500000000000004,
-        "stdev": 0.5020458146424488
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14809979060602_51903549768058": {
-      "product_id": "shopify_gb_14809979060602_51903549768058",
-      "product_title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.8,
-        "median": 2.0,
-        "stdev": 0.8366600265340756
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 38.5,
-        "median": 38.0,
-        "stdev": 15.608905504053856
-      },
-      "cost": {
-        "mean": 0.752,
-        "median": 0.88,
-        "stdev": 0.3194839589087377
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14886398787962_54898059936122": {
-      "product_id": "shopify_gb_14886398787962_54898059936122",
-      "product_title": "10 Pcs Grout Sealant Remover Tool Set | Sealant Finishing Tool",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 9.99,
-        "median": 9.99,
-        "stdev": 0,
-        "min": 9.99,
-        "max": 9.99
-      },
-      "clicks": {
-        "mean": 1.3333333333333333,
-        "median": 1.0,
-        "stdev": 0.7071067811865476
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 67.1,
-        "median": 54.5,
-        "stdev": 36.73798184910036
-      },
-      "cost": {
-        "mean": 0.315,
-        "median": 0.27,
-        "stdev": 0.21849230853485185
-      },
-      "roas": {
-        "mean": 17.84,
-        "median": 17.84,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14886413762938_54899559203194": {
-      "product_id": "shopify_gb_14886413762938_54899559203194",
-      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 15.995000000000001,
-        "median": 15.995000000000001,
-        "stdev": 2.8354981925580556,
-        "min": 13.99,
-        "max": 18.0
-      },
-      "clicks": {
-        "mean": 1.5,
-        "median": 1.0,
-        "stdev": 0.8944271909999159
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "impressions": {
-        "mean": 98.4,
-        "median": 71.5,
-        "stdev": 61.774673975890686
-      },
-      "cost": {
-        "mean": 0.45187499999999997,
-        "median": 0.215,
-        "stdev": 0.45263994152821585
-      },
-      "roas": {
-        "mean": 37.955,
-        "median": 37.955,
-        "stdev": 17.03420235878393
-      }
-    },
-    "shopify_gb_14886413762938_54899559235962": {
-      "product_id": "shopify_gb_14886413762938_54899559235962",
-      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 2 x 500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 7.966666666666667,
-        "median": 7.0,
-        "stdev": 5.821975807133741
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14886413762938_54899559268730": {
-      "product_id": "shopify_gb_14886413762938_54899559268730",
-      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 3 x 500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 55.98,
-        "median": 55.98,
-        "stdev": 0,
-        "min": 55.98,
-        "max": 55.98
-      },
-      "clicks": {
-        "mean": 1.2666666666666666,
-        "median": 1.0,
-        "stdev": 0.5936168397046637
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 97.2,
-        "median": 91.5,
-        "stdev": 35.15816479459839
-      },
-      "cost": {
-        "mean": 1.04,
-        "median": 0.41,
-        "stdev": 1.2624239722511157
-      },
-      "roas": {
-        "mean": 20.43,
-        "median": 20.43,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14886413762938_54899559301498": {
-      "product_id": "shopify_gb_14886413762938_54899559301498",
-      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 500ml & Tool Kit",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.2307692307692308,
-        "median": 1.0,
-        "stdev": 0.4385290096535146
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 108.1,
-        "median": 102.0,
-        "stdev": 46.036979139338214
-      },
-      "cost": {
-        "mean": 0.9184615384615384,
-        "median": 0.64,
-        "stdev": 0.7812046909938324
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14949438226810_55041852342650": {
-      "product_id": "shopify_gb_14949438226810_55041852342650",
-      "product_title": "Stainless Steel Cleaner & Polish Spray Aerosol | 500ml 500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 9.966666666666667,
-        "median": 9.5,
-        "stdev": 4.382436209055048
-      },
-      "cost": {
-        "mean": 0.37,
-        "median": 0.37,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14949438226810_55041852375418": {
-      "product_id": "shopify_gb_14949438226810_55041852375418",
-      "product_title": "Stainless Steel Cleaner & Polish Spray Aerosol | 500ml 2x500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 40.833333333333336,
-        "median": 42.0,
-        "stdev": 12.014598399973412
-      },
-      "cost": {
-        "mean": 0.33,
-        "median": 0.37,
-        "stdev": 0.1260952021291849
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14949438226810_55041852408186": {
-      "product_id": "shopify_gb_14949438226810_55041852408186",
-      "product_title": "Stainless Steel Cleaner & Polish Spray Aerosol | 500ml 3x500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 52.974999999999994,
-        "median": 52.974999999999994,
-        "stdev": 40.99098010538415,
-        "min": 23.99,
-        "max": 81.96
-      },
-      "clicks": {
-        "mean": 1.2727272727272727,
-        "median": 1.0,
-        "stdev": 0.6466697906828632
-      },
-      "conversions": {
-        "mean": 1.5,
-        "median": 1.5,
-        "stdev": 0.7071067811865476
-      },
-      "impressions": {
-        "mean": 68.66666666666667,
-        "median": 69.5,
-        "stdev": 19.185722660952557
-      },
-      "cost": {
-        "mean": 1.3936363636363636,
-        "median": 0.85,
-        "stdev": 1.3651759793321352
-      },
-      "roas": {
-        "mean": 28.43,
-        "median": 28.43,
-        "stdev": 12.798632739476508
-      }
-    },
-    "shopify_gb_14959950496122_55064426086778": {
-      "product_id": "shopify_gb_14959950496122_55064426086778",
-      "product_title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 11.99,
-        "median": 11.99,
-        "stdev": 0,
-        "min": 11.99,
-        "max": 11.99
-      },
-      "clicks": {
-        "mean": 1.5833333333333333,
-        "median": 1.0,
-        "stdev": 0.7929614610987591
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 79.23333333333333,
-        "median": 77.5,
-        "stdev": 26.905560678088438
-      },
-      "cost": {
-        "mean": 0.24916666666666668,
-        "median": 0.185,
-        "stdev": 0.22354411130014074
-      },
-      "roas": {
-        "mean": 32.41,
-        "median": 32.41,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14959950496122_55064426119546": {
-      "product_id": "shopify_gb_14959950496122_55064426119546",
-      "product_title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 2x500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.5,
-        "median": 1.5,
-        "stdev": 0.7071067811865476
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 29.266666666666666,
-        "median": 29.5,
-        "stdev": 12.7439866369319
-      },
-      "cost": {
-        "mean": 0.505,
-        "median": 0.505,
-        "stdev": 0.007071067811865481
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14959950496122_55064426152314": {
-      "product_id": "shopify_gb_14959950496122_55064426152314",
-      "product_title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 3x500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 13.466666666666667,
-        "median": 13.5,
-        "stdev": 5.7818582702684145
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14969316999546_55083961876858": {
-      "product_id": "shopify_gb_14969316999546_55083961876858",
-      "product_title": "Glean Grout Reviver & Sealer Kit - White - Foam Brush Included - Advanced Formula Tile Grout Restorer, Stain Resistant, Low Odour, Interior/Exterior,",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 14.7425,
-        "median": 15.989999999999998,
-        "stdev": 8.61307291272981,
-        "min": 5.0,
-        "max": 21.99
-      },
-      "clicks": {
-        "mean": 2.782608695652174,
-        "median": 2.0,
-        "stdev": 2.448682795061467
-      },
-      "conversions": {
-        "mean": 0.875,
-        "median": 1.0,
-        "stdev": 0.25
-      },
-      "impressions": {
-        "mean": 343.3333333333333,
-        "median": 304.0,
-        "stdev": 190.78844274498775
-      },
-      "cost": {
-        "mean": 0.9956521739130435,
-        "median": 0.62,
-        "stdev": 1.525760096973894
-      },
-      "roas": {
-        "mean": 18.6175,
-        "median": 21.205,
-        "stdev": 13.970725046801734
-      }
-    },
-    "shopify_gb_14969316999546_55083961909626": {
-      "product_id": "shopify_gb_14969316999546_55083961909626",
-      "product_title": "Glean Grout Reviver & Sealer Kit - Black - Foam Brush Included - Renew & Refresh Tile Grout",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 31.47,
-        "median": 21.99,
-        "stdev": 14.904397002227228,
-        "min": 19.8,
-        "max": 53.98
-      },
-      "clicks": {
-        "mean": 4.08,
-        "median": 3.0,
-        "stdev": 2.6913441499245936
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "impressions": {
-        "mean": 212.16666666666666,
-        "median": 229.0,
-        "stdev": 78.25029837260877
-      },
-      "cost": {
-        "mean": 1.0396,
-        "median": 0.82,
-        "stdev": 0.7527863796146509
-      },
-      "roas": {
-        "mean": 61.774,
-        "median": 17.59,
-        "stdev": 79.41018089640647
-      }
-    },
-    "shopify_gb_14969316999546_55083961942394": {
-      "product_id": "shopify_gb_14969316999546_55083961942394",
-      "product_title": "Glean Grout Reviver & Sealer Kit - Charcoal - Foam Brush Included - Renew & Refresh Tile Grout",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 21.259999999999998,
-        "median": 21.99,
-        "stdev": 1.2643970895252792,
-        "min": 19.8,
-        "max": 21.99
-      },
-      "clicks": {
-        "mean": 3.9565217391304346,
-        "median": 4.0,
-        "stdev": 2.0333192941047544
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "impressions": {
-        "mean": 255.1,
-        "median": 283.5,
-        "stdev": 104.50881830471664
-      },
-      "cost": {
-        "mean": 0.9826086956521739,
-        "median": 0.83,
-        "stdev": 0.5857180316912066
-      },
-      "roas": {
-        "mean": 28.57333333333333,
-        "median": 36.65,
-        "stdev": 17.631750716628606
-      }
-    },
-    "shopify_gb_14969316999546_55083961975162": {
-      "product_id": "shopify_gb_14969316999546_55083961975162",
-      "product_title": "Glean Grout Reviver & Sealer Kit, 340g/250ml - Light Grey Tile Grout Restorer, Stain Resistant, Waterproof, Non-Toxic",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 17.57,
-        "median": 21.99,
-        "stdev": 8.24441629225502,
-        "min": 1.47,
-        "max": 21.99
-      },
-      "clicks": {
-        "mean": 9.535714285714286,
-        "median": 8.5,
-        "stdev": 6.546031553584897
-      },
-      "conversions": {
-        "mean": 0.8366666666666667,
-        "median": 1.0,
-        "stdev": 0.40008332465458574
-      },
-      "impressions": {
-        "mean": 1041.7,
-        "median": 1163.0,
-        "stdev": 578.0915182289702
-      },
-      "cost": {
-        "mean": 2.980714285714286,
-        "median": 2.605,
-        "stdev": 2.223603895866862
-      },
-      "roas": {
-        "mean": 5.218333333333333,
-        "median": 5.4350000000000005,
-        "stdev": 2.400853320523073
-      }
-    },
-    "shopify_gb_14969316999546_55083962007930": {
-      "product_id": "shopify_gb_14969316999546_55083962007930",
-      "product_title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 21.99,
-        "median": 21.99,
-        "stdev": 0,
-        "min": 21.99,
-        "max": 21.99
-      },
-      "clicks": {
-        "mean": 1.7647058823529411,
-        "median": 1.0,
-        "stdev": 1.147247344990711
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 132.93333333333334,
-        "median": 103.5,
-        "stdev": 95.54162600066306
-      },
-      "cost": {
-        "mean": 0.6564705882352941,
-        "median": 0.33,
-        "stdev": 0.7431599859423826
-      },
-      "roas": {
-        "mean": 7.28,
-        "median": 7.28,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_14969316999546_55083962040698": {
-      "product_id": "shopify_gb_14969316999546_55083962040698",
-      "product_title": "Glean Grout Reviver & Sealer Kit - Beige - Foam Brush Included - Renew & Refresh Tile Grout",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.8571428571428572,
-        "median": 1.0,
-        "stdev": 1.1526367287968176
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 138.23333333333332,
-        "median": 144.0,
-        "stdev": 76.69405557746663
-      },
-      "cost": {
-        "mean": 0.41714285714285715,
-        "median": 0.24,
-        "stdev": 0.33003246593544183
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_15097640681850_55375976071546": {
-      "product_id": "shopify_gb_15097640681850_55375976071546",
-      "product_title": "Glean Composite Sink Restorer 500ml - For Black, Grey or White Sinks - Revives Dull, Discoloured Sinks - Removes Limescale - Shines & Protects",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 23.808333333333334,
-        "median": 20.26,
-        "stdev": 14.674500993620352,
-        "min": 0.06,
-        "max": 55.96
-      },
-      "clicks": {
-        "mean": 21.0,
-        "median": 21.0,
-        "stdev": 8.986580033007838
-      },
-      "conversions": {
-        "mean": 1.7073333333333334,
-        "median": 2.0,
-        "stdev": 0.8301158840501613
-      },
-      "impressions": {
-        "mean": 1004.8666666666667,
-        "median": 1125.5,
-        "stdev": 372.2552640449768
-      },
-      "cost": {
-        "mean": 5.267333333333333,
-        "median": 5.3100000000000005,
-        "stdev": 2.5102052853726216
-      },
-      "roas": {
-        "mean": 6.211666666666667,
-        "median": 3.375,
-        "stdev": 10.455414724381981
-      }
-    },
-    "shopify_gb_15189320958330_55592990769530": {
-      "product_id": "shopify_gb_15189320958330_55592990769530",
-      "product_title": "Grout Reviver Pens | White | 2 x 10ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 10.823333333333334,
-        "median": 9.99,
-        "stdev": 4.909858110645018,
-        "min": 5.0,
-        "max": 19.98
-      },
-      "clicks": {
-        "mean": 2.4375,
-        "median": 2.0,
-        "stdev": 1.459166428707386
-      },
-      "conversions": {
-        "mean": 0.9166666666666666,
-        "median": 1.0,
-        "stdev": 0.2041241452319315
-      },
-      "impressions": {
-        "mean": 189.16666666666666,
-        "median": 188.0,
-        "stdev": 64.7606113436956
-      },
-      "cost": {
-        "mean": 0.870625,
-        "median": 0.7,
-        "stdev": 0.6274973439518822
-      },
-      "roas": {
-        "mean": 11.926666666666666,
-        "median": 8.975000000000001,
-        "stdev": 9.912544913727587
-      }
-    },
-    "shopify_gb_15253511405946_55696893903226": {
-      "product_id": "shopify_gb_15253511405946_55696893903226",
-      "product_title": "Drain Unblocker Liquid | 500ml & 1 Litre 500ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 10.133333333333333,
-        "median": 9.5,
-        "stdev": 5.367419808650974
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_15253511405946_55696893935994": {
-      "product_id": "shopify_gb_15253511405946_55696893935994",
-      "product_title": "Drain Unblocker Liquid | 500ml & 1 Litre 1 Litre",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 25.9,
-        "median": 25.0,
-        "stdev": 9.707267096498304
-      },
-      "cost": {
-        "mean": 0.45666666666666667,
-        "median": 0.53,
-        "stdev": 0.306648550189518
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_15253517271418_55696901603706": {
-      "product_id": "shopify_gb_15253517271418_55696901603706",
-      "product_title": "Mould Remover Gel Spray | 500ml | GLEAN",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 25.4,
-        "median": 23.0,
-        "stdev": 13.902616970221457
-      },
-      "cost": {
-        "mean": 0.81,
-        "median": 0.81,
-        "stdev": 0.6788225099390857
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399312584981_45692324839701": {
-      "product_id": "shopify_gb_8399312584981_45692324839701",
-      "product_title": "Foaming Quartz Granite Cleaner | GLEAN 1 x 400ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 13.49,
-        "median": 13.49,
-        "stdev": 0,
-        "min": 13.49,
-        "max": 13.49
-      },
-      "clicks": {
-        "mean": 1.3846153846153846,
-        "median": 1.0,
-        "stdev": 0.6504436355879909
-      },
-      "conversions": {
-        "mean": 0.5,
-        "median": 0.5,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 153.36666666666667,
-        "median": 153.0,
-        "stdev": 63.23109412597426
-      },
-      "cost": {
-        "mean": 0.4392307692307692,
-        "median": 0.44,
-        "stdev": 0.25698448521462464
-      },
-      "roas": {
-        "mean": 20.44,
-        "median": 20.44,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399312584981_46127133229333": {
-      "product_id": "shopify_gb_8399312584981_46127133229333",
-      "product_title": "Glean Foaming Quartz, Granite & Marble Cleaner 3 x 400ml - Streak Free Finish - Protects Surface - Easy to Use - Fresh Fragrance",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 15.99,
-        "median": 11.99,
-        "stdev": 6.928203230275508,
-        "min": 11.99,
-        "max": 23.99
-      },
-      "clicks": {
-        "mean": 2.1052631578947367,
-        "median": 2.0,
-        "stdev": 1.448935887014454
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "impressions": {
-        "mean": 206.9,
-        "median": 169.0,
-        "stdev": 121.19558146037025
-      },
-      "cost": {
-        "mean": 1.1557894736842105,
-        "median": 0.75,
-        "stdev": 1.0102052365153533
-      },
-      "roas": {
-        "mean": 35.13,
-        "median": 34.26,
-        "stdev": 31.084132608133043
-      }
-    },
-    "shopify_gb_8399312584981_51901294641530": {
-      "product_id": "shopify_gb_8399312584981_51901294641530",
-      "product_title": "Foaming Quartz Granite Cleaner | GLEAN 2 x 400ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.6363636363636365,
-        "median": 1.0,
-        "stdev": 0.8090398349558905
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 158.5,
-        "median": 140.5,
-        "stdev": 103.24719249752359
-      },
-      "cost": {
-        "mean": 0.8618181818181818,
-        "median": 0.51,
-        "stdev": 1.0162560522015913
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399312847125_45692540813589": {
-      "product_id": "shopify_gb_8399312847125_45692540813589",
-      "product_title": "Tile & Grout Sealer Aerosol | GLEAN 1 x 400ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 11.99,
-        "median": 11.99,
-        "stdev": 0,
-        "min": 11.99,
-        "max": 11.99
-      },
-      "clicks": {
-        "mean": 1.3333333333333333,
-        "median": 1.0,
-        "stdev": 0.5
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 79.3,
-        "median": 77.5,
-        "stdev": 23.324029343738747
-      },
-      "cost": {
-        "mean": 0.2911111111111111,
-        "median": 0.25,
-        "stdev": 0.1826502425706331
-      },
-      "roas": {
-        "mean": 47.96,
-        "median": 47.96,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399312847125_46127099576597": {
-      "product_id": "shopify_gb_8399312847125_46127099576597",
-      "product_title": "Tile & Grout Sealer Aerosol | GLEAN 3 x 400ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 23.99,
-        "median": 23.99,
-        "stdev": 0,
-        "min": 23.99,
-        "max": 23.99
-      },
-      "clicks": {
-        "mean": 1.85,
-        "median": 1.0,
-        "stdev": 1.0894228312566052
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 189.7,
-        "median": 185.0,
-        "stdev": 104.87698869924084
-      },
-      "cost": {
-        "mean": 0.8495,
-        "median": 0.63,
-        "stdev": 0.8030696043766594
-      },
-      "roas": {
-        "mean": 21.04,
-        "median": 21.04,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399312847125_51901336748410": {
-      "product_id": "shopify_gb_8399312847125_51901336748410",
-      "product_title": "Tile & Grout Sealer Aerosol | GLEAN 2 x 400ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 2.0,
-        "median": 2.0,
-        "stdev": 1.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 54.7,
-        "median": 50.5,
-        "stdev": 25.855233579456904
-      },
-      "cost": {
-        "mean": 0.99,
-        "median": 1.0,
-        "stdev": 0.29512709126747416
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399312978197_45692530917653": {
-      "product_id": "shopify_gb_8399312978197_45692530917653",
-      "product_title": "Glean Stone Sealer Aerosol 400ml, Protects Stone, Water Resistant, Easy Clean, Interior & Exterior",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 19.685,
-        "median": 12.99,
-        "stdev": 13.530362153320212,
-        "min": 12.78,
-        "max": 39.98
-      },
-      "clicks": {
-        "mean": 3.8,
-        "median": 4.0,
-        "stdev": 2.160246899469287
-      },
-      "conversions": {
-        "mean": 1.245,
-        "median": 1.0,
-        "stdev": 0.5034216258101487
-      },
-      "impressions": {
-        "mean": 207.9,
-        "median": 209.5,
-        "stdev": 92.03573144202726
-      },
-      "cost": {
-        "mean": 1.0252,
-        "median": 0.89,
-        "stdev": 0.5993963630186623
-      },
-      "roas": {
-        "mean": 12.4275,
-        "median": 8.825,
-        "stdev": 9.245832845125419
-      }
-    },
-    "shopify_gb_8399312978197_46127364768021": {
-      "product_id": "shopify_gb_8399312978197_46127364768021",
-      "product_title": "Stone Sealer Aerosol | GLEAN 3 x 400ml",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 26.99,
-        "median": 26.99,
-        "stdev": 0,
-        "min": 26.99,
-        "max": 26.99
-      },
-      "clicks": {
-        "mean": 1.4615384615384615,
-        "median": 1.0,
-        "stdev": 0.6602252917735247
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 83.63333333333334,
-        "median": 66.0,
-        "stdev": 57.769150181075695
-      },
-      "cost": {
-        "mean": 0.8269230769230769,
-        "median": 0.47,
-        "stdev": 0.6656874218353113
-      },
-      "roas": {
-        "mean": 15.6,
-        "median": 15.6,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399313240341_45446855033109": {
-      "product_id": "shopify_gb_8399313240341_45446855033109",
-      "product_title": "Limestone Cleaner Spray | GLEAN",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 9.99,
-        "median": 9.99,
-        "stdev": 0.0,
-        "min": 9.99,
-        "max": 9.99
-      },
-      "clicks": {
-        "mean": 3.1363636363636362,
-        "median": 2.5,
-        "stdev": 2.568962261218934
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "impressions": {
-        "mean": 145.2,
-        "median": 117.0,
-        "stdev": 134.30238655542485
-      },
-      "cost": {
-        "mean": 0.925,
-        "median": 0.615,
-        "stdev": 1.0450734765692657
-      },
-      "roas": {
-        "mean": 11.506,
-        "median": 6.17,
-        "stdev": 10.841754009384275
-      }
-    },
-    "shopify_gb_8399313469717_45446860013845": {
-      "product_id": "shopify_gb_8399313469717_45446860013845",
-      "product_title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.2307692307692308,
-        "median": 1.0,
-        "stdev": 0.4385290096535146
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 73.2,
-        "median": 70.0,
-        "stdev": 25.791471458604295
-      },
-      "cost": {
-        "mean": 0.4269230769230769,
-        "median": 0.31,
-        "stdev": 0.33959251599980367
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399313469717_45446860112149": {
-      "product_id": "shopify_gb_8399313469717_45446860112149",
-      "product_title": "Green Clean | Algae Remover | GLEAN 5 Litre",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 33.99,
-        "median": 33.99,
-        "stdev": 0,
-        "min": 33.99,
-        "max": 33.99
-      },
-      "clicks": {
-        "mean": 1.9285714285714286,
-        "median": 1.5,
-        "stdev": 1.1411388181101378
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 69.06666666666666,
-        "median": 73.5,
-        "stdev": 36.9024186977917
-      },
-      "cost": {
-        "mean": 1.2014285714285715,
-        "median": 0.85,
-        "stdev": 1.1623243102498553
-      },
-      "roas": {
-        "mean": 41.45,
-        "median": 41.45,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399313633557_45446862307605": {
-      "product_id": "shopify_gb_8399313633557_45446862307605",
-      "product_title": "Glean Concrete Epoxy Putty Stick - 60-Minute Cure, Permanent Repair for Cracks & Holes in Walls, Floors, Tiles, 100g",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.9166666666666667,
-        "median": 1.5,
-        "stdev": 1.2401124093721456
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 80.9,
-        "median": 89.0,
-        "stdev": 45.86438028917806
-      },
-      "cost": {
-        "mean": 1.1108333333333333,
-        "median": 0.6599999999999999,
-        "stdev": 1.6877928477658912
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399313862933_45447132283157": {
-      "product_id": "shopify_gb_8399313862933_45447132283157",
-      "product_title": "Easy Care Floor & Tile Cleaner | GLEAN 5 Litre",
-      "label": "",
-      "data_points": 25,
-      "date_range": "45935 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 3.12,
-        "median": 2.0,
-        "stdev": 2.350886357667394
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399313994005_45446864339221": {
-      "product_id": "shopify_gb_8399313994005_45446864339221",
-      "product_title": "Grout & Cement Residue Remover | GLEAN 5 Litre",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.5384615384615385,
-        "median": 1.0,
-        "stdev": 0.7762500258061849
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 101.16666666666667,
-        "median": 106.5,
-        "stdev": 33.08096997841272
-      },
-      "cost": {
-        "mean": 0.8392307692307692,
-        "median": 0.86,
-        "stdev": 0.5207280406389618
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399313994005_45447132315925": {
-      "product_id": "shopify_gb_8399313994005_45447132315925",
-      "product_title": "Grout & Cement Residue Remover | GLEAN 1 Litre",
-      "label": "",
-      "data_points": 30,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.5,
-        "median": 1.0,
-        "stdev": 0.9660917830792959
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 132.1,
-        "median": 118.5,
-        "stdev": 66.83244617750397
-      },
-      "cost": {
-        "mean": 0.52,
-        "median": 0.31,
-        "stdev": 0.5433844556726541
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "shopify_gb_8399314059541_45691956756757": {
-      "product_id": "shopify_gb_8399314059541_45691956756757",
-      "product_title": "Patio Sealer | Solvent Based Natural Finish | GLEAN 1 Litre",
-      "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2952,14 +1158,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 17.4,
+        "mean": 16.424242424242426,
         "median": 16.0,
-        "stdev": 8.802820864496436
+        "stdev": 7.566498129213668
       },
       "cost": {
-        "mean": 1.6675,
-        "median": 1.54,
-        "stdev": 0.9753076437719536
+        "mean": 3.0725,
+        "median": 3.3499999999999996,
+        "stdev": 1.8099056144819632
       },
       "roas": {
         "mean": 0,
@@ -2967,11 +1173,11 @@
         "stdev": 0
       }
     },
-    "shopify_gb_8399314092309_45446866632981": {
-      "product_id": "shopify_gb_8399314092309_45446866632981",
-      "product_title": "Slate Sealer | GLEAN 5 Litre",
+    "shopify_gb_9182084497685_48441631768853": {
+      "product_id": "shopify_gb_9182084497685_48441631768853",
+      "product_title": "Glean Electric Hob Cleaner & Polish Protector - 250ml - Induction & Ceramic Hobs",
       "label": "",
-      "data_points": 30,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2991,9 +1197,1803 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 19.566666666666666,
+        "mean": 43.76470588235294,
+        "median": 27.5,
+        "stdev": 57.53421054680604
+      },
+      "cost": {
+        "mean": 0.46166666666666667,
+        "median": 0.48,
+        "stdev": 0.07833687935236294
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_9182084497685_48441631801621": {
+      "product_id": "shopify_gb_9182084497685_48441631801621",
+      "product_title": "Glean Hob Cleaner Polish 500ml - Induction Hob Cleaner, Removes Grease, Grime, Burnt Food, Easy Application, Protective Film",
+      "label": "",
+      "data_points": 32,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.8125,
+        "median": 7.5,
+        "stdev": 5.596297739318091
+      },
+      "cost": {
+        "mean": 1.25,
+        "median": 1.25,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_9182086299925_48441646350613": {
+      "product_id": "shopify_gb_9182086299925_48441646350613",
+      "product_title": "Glean Stainless Steel Cleaner Polish Protector Spray - 500ml - Streak-Free Shine, Long-Lasting Protection, Rapid Dry",
+      "label": "",
+      "data_points": 34,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5163977794943223
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 25.176470588235293,
+        "median": 24.0,
+        "stdev": 9.020080589021479
+      },
+      "cost": {
+        "mean": 0.5416666666666666,
+        "median": 0.53,
+        "stdev": 0.23642475899674018
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_9182086856981_48441657721109": {
+      "product_id": "shopify_gb_9182086856981_48441657721109",
+      "product_title": "Glean Stainless Steel Cleaner Polish Cream 250ml - Removes Grease, Grime, Protects, Shines, Eco-Friendly, Easy to Use, Ideal for Kitchen & Bathroom",
+      "label": "",
+      "data_points": 34,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 9.99,
+        "median": 9.99,
+        "stdev": 0,
+        "min": 9.99,
+        "max": 9.99
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.0,
+        "stdev": 1.0
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 16.264705882352942,
+        "median": 16.0,
+        "stdev": 6.180658117009732
+      },
+      "cost": {
+        "mean": 0.7475,
+        "median": 0.42,
+        "stdev": 0.7528335362703586
+      },
+      "roas": {
+        "mean": 5.34,
+        "median": 5.34,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_9182086856981_48441657753877": {
+      "product_id": "shopify_gb_9182086856981_48441657753877",
+      "product_title": "Glean Stainless Steel Cleaner Polish Cream 500ml - Protective Barrier, Eco-Friendly, Easy to Use, Ideal for Kitchen & Household Surfaces",
+      "label": "",
+      "data_points": 34,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5773502691896257
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 16.794117647058822,
+        "median": 14.0,
+        "stdev": 10.435311299867086
+      },
+      "cost": {
+        "mean": 0.36666666666666664,
+        "median": 0.31,
+        "stdev": 0.29905406423142505
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_9182088102165_48441672466709": {
+      "product_id": "shopify_gb_9182088102165_48441672466709",
+      "product_title": "Glean Stone Polish (500ml) Natural Marble Granite Quartz Cleaner & Polish - Quick & Effective Cleaning For Kitchen Worktops",
+      "label": "",
+      "data_points": 34,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 14.24,
+        "median": 14.24,
+        "stdev": 1.0606601717798212,
+        "min": 13.49,
+        "max": 14.99
+      },
+      "clicks": {
+        "mean": 1.8695652173913044,
+        "median": 1.0,
+        "stdev": 1.3916748518532023
+      },
+      "conversions": {
+        "mean": 0.75,
+        "median": 0.75,
+        "stdev": 0.3535533905932738
+      },
+      "impressions": {
+        "mean": 177.7058823529412,
+        "median": 184.0,
+        "stdev": 76.82902285092635
+      },
+      "cost": {
+        "mean": 0.6317391304347826,
+        "median": 0.51,
+        "stdev": 0.49020081389637044
+      },
+      "roas": {
+        "mean": 11.774999999999999,
+        "median": 11.774999999999999,
+        "stdev": 6.611448404094219
+      }
+    },
+    "shopify_gb_14809979060602_51903549735290": {
+      "product_id": "shopify_gb_14809979060602_51903549735290",
+      "product_title": "Patio Sealer | Colour Enhancing | GLEAN 1 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.7071067811865476
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 9.727272727272727,
+        "median": 8.0,
+        "stdev": 6.345631998039711
+      },
+      "cost": {
+        "mean": 0.42500000000000004,
+        "median": 0.42500000000000004,
+        "stdev": 0.5020458146424488
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14809979060602_51903549768058": {
+      "product_id": "shopify_gb_14809979060602_51903549768058",
+      "product_title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5714285714285714,
+        "median": 1.0,
+        "stdev": 0.7867957924694432
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 37.45454545454545,
+        "median": 37.0,
+        "stdev": 15.289070665615416
+      },
+      "cost": {
+        "mean": 0.86,
+        "median": 0.94,
+        "stdev": 0.3194787421201396
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14886398787962_54898059936122": {
+      "product_id": "shopify_gb_14886398787962_54898059936122",
+      "product_title": "10 Pcs Grout Sealant Remover Tool Set | Sealant Finishing Tool",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 9.99,
+        "median": 9.99,
+        "stdev": 0,
+        "min": 9.99,
+        "max": 9.99
+      },
+      "clicks": {
+        "mean": 2.0833333333333335,
+        "median": 1.0,
+        "stdev": 1.5642792899510294
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 96.48484848484848,
+        "median": 63.0,
+        "stdev": 101.20156903802221
+      },
+      "cost": {
+        "mean": 0.4976923076923077,
+        "median": 0.32,
+        "stdev": 0.4160960194905708
+      },
+      "roas": {
+        "mean": 17.84,
+        "median": 17.84,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14886413762938_54899559203194": {
+      "product_id": "shopify_gb_14886413762938_54899559203194",
+      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 15.995000000000001,
+        "median": 15.995000000000001,
+        "stdev": 2.8354981925580556,
+        "min": 13.99,
+        "max": 18.0
+      },
+      "clicks": {
+        "mean": 1.5294117647058822,
+        "median": 1.0,
+        "stdev": 0.8744746321952062
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 108.24242424242425,
+        "median": 73.0,
+        "stdev": 66.80336364240497
+      },
+      "cost": {
+        "mean": 0.4552941176470588,
+        "median": 0.25,
+        "stdev": 0.43849340997127345
+      },
+      "roas": {
+        "mean": 37.955,
+        "median": 37.955,
+        "stdev": 17.03420235878393
+      }
+    },
+    "shopify_gb_14886413762938_54899559235962": {
+      "product_id": "shopify_gb_14886413762938_54899559235962",
+      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 2 x 500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 9.454545454545455,
+        "median": 8.0,
+        "stdev": 7.323297195811585
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14886413762938_54899559268730": {
+      "product_id": "shopify_gb_14886413762938_54899559268730",
+      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 3 x 500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 55.98,
+        "median": 55.98,
+        "stdev": 0,
+        "min": 55.98,
+        "max": 55.98
+      },
+      "clicks": {
+        "mean": 1.3888888888888888,
+        "median": 1.0,
+        "stdev": 0.6076849889141857
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 110.81818181818181,
+        "median": 93.0,
+        "stdev": 55.35705383319193
+      },
+      "cost": {
+        "mean": 0.9727777777777777,
+        "median": 0.515,
+        "stdev": 1.156637141511625
+      },
+      "roas": {
+        "mean": 20.43,
+        "median": 20.43,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14886413762938_54899559301498": {
+      "product_id": "shopify_gb_14886413762938_54899559301498",
+      "product_title": "Silicone Sealant Remover Spray | 500ml | GLEAN 500ml & Tool Kit",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 17.99,
+        "median": 17.99,
+        "stdev": 0.0,
+        "min": 17.99,
+        "max": 17.99
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.4879500364742666
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 114.0909090909091,
+        "median": 115.0,
+        "stdev": 47.88029581438201
+      },
+      "cost": {
+        "mean": 1.0413333333333334,
+        "median": 0.65,
+        "stdev": 0.7926165229043313
+      },
+      "roas": {
+        "mean": 9.78,
+        "median": 9.78,
+        "stdev": 0.0
+      }
+    },
+    "shopify_gb_14949438226810_55041852342650": {
+      "product_id": "shopify_gb_14949438226810_55041852342650",
+      "product_title": "Stainless Steel Cleaner & Polish Spray Aerosol | 500ml 500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 10.878787878787879,
+        "median": 10.0,
+        "stdev": 5.170575256666175
+      },
+      "cost": {
+        "mean": 0.37,
+        "median": 0.37,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14949438226810_55041852375418": {
+      "product_id": "shopify_gb_14949438226810_55041852375418",
+      "product_title": "Stainless Steel Cleaner & Polish Spray Aerosol | 500ml 2x500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 45.696969696969695,
+        "median": 43.0,
+        "stdev": 19.36085749728826
+      },
+      "cost": {
+        "mean": 0.285,
+        "median": 0.215,
+        "stdev": 0.11376667852608313
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14949438226810_55041852408186": {
+      "product_id": "shopify_gb_14949438226810_55041852408186",
+      "product_title": "Stainless Steel Cleaner & Polish Spray Aerosol | 500ml 3x500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 52.974999999999994,
+        "median": 52.974999999999994,
+        "stdev": 40.99098010538415,
+        "min": 23.99,
+        "max": 81.96
+      },
+      "clicks": {
+        "mean": 1.3571428571428572,
+        "median": 1.0,
+        "stdev": 0.6333236937766509
+      },
+      "conversions": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.7071067811865476
+      },
+      "impressions": {
+        "mean": 79.54545454545455,
+        "median": 72.0,
+        "stdev": 40.73166068082889
+      },
+      "cost": {
+        "mean": 1.3814285714285715,
+        "median": 1.1099999999999999,
+        "stdev": 1.198921676680002
+      },
+      "roas": {
+        "mean": 28.43,
+        "median": 28.43,
+        "stdev": 12.798632739476508
+      }
+    },
+    "shopify_gb_14959950496122_55064426086778": {
+      "product_id": "shopify_gb_14959950496122_55064426086778",
+      "product_title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 11.99,
+        "median": 11.99,
+        "stdev": 0,
+        "min": 11.99,
+        "max": 11.99
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.0,
+        "stdev": 0.7595545253127499
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 92.66666666666667,
+        "median": 79.0,
+        "stdev": 50.18631951704236
+      },
+      "cost": {
+        "mean": 0.23500000000000001,
+        "median": 0.16,
+        "stdev": 0.2087600757586786
+      },
+      "roas": {
+        "mean": 32.41,
+        "median": 32.41,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14959950496122_55064426119546": {
+      "product_id": "shopify_gb_14959950496122_55064426119546",
+      "product_title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 2x500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.6666666666666667,
+        "median": 2.0,
+        "stdev": 0.5773502691896257
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 38.06060606060606,
+        "median": 31.0,
+        "stdev": 30.74790581683917
+      },
+      "cost": {
+        "mean": 0.5466666666666666,
+        "median": 0.51,
+        "stdev": 0.07234178138070235
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14959950496122_55064426152314": {
+      "product_id": "shopify_gb_14959950496122_55064426152314",
+      "product_title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 3x500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 14.242424242424242,
+        "median": 14.0,
+        "stdev": 6.04167972830354
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14969316999546_55083961876858": {
+      "product_id": "shopify_gb_14969316999546_55083961876858",
+      "product_title": "Glean Grout Reviver & Sealer Kit - White - Foam Brush Included - Advanced Formula Tile Grout Restorer, Stain Resistant, Low Odour, Interior/Exterior,",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 17.15833333333333,
+        "median": 21.99,
+        "stdev": 7.649706966065214,
+        "min": 5.0,
+        "max": 21.99
+      },
+      "clicks": {
+        "mean": 3.230769230769231,
+        "median": 2.0,
+        "stdev": 2.6276634838988393
+      },
+      "conversions": {
+        "mean": 0.875,
+        "median": 1.0,
+        "stdev": 0.25
+      },
+      "impressions": {
+        "mean": 410.45454545454544,
+        "median": 313.0,
+        "stdev": 281.8664456472572
+      },
+      "cost": {
+        "mean": 1.2265384615384616,
+        "median": 0.755,
+        "stdev": 1.5919923173374735
+      },
+      "roas": {
+        "mean": 14.505,
+        "median": 10.47,
+        "stdev": 12.557829032121754
+      }
+    },
+    "shopify_gb_14969316999546_55083961909626": {
+      "product_id": "shopify_gb_14969316999546_55083961909626",
+      "product_title": "Glean Grout Reviver & Sealer Kit - Black - Foam Brush Included - Renew & Refresh Tile Grout",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 31.47,
+        "median": 21.99,
+        "stdev": 14.904397002227228,
+        "min": 19.8,
+        "max": 53.98
+      },
+      "clicks": {
+        "mean": 4.08,
+        "median": 3.0,
+        "stdev": 2.6913441499245936
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 197.6060606060606,
+        "median": 214.0,
+        "stdev": 88.13127261149252
+      },
+      "cost": {
+        "mean": 1.0396,
+        "median": 0.82,
+        "stdev": 0.7527863796146509
+      },
+      "roas": {
+        "mean": 61.774,
+        "median": 17.59,
+        "stdev": 79.41018089640647
+      }
+    },
+    "shopify_gb_14969316999546_55083961942394": {
+      "product_id": "shopify_gb_14969316999546_55083961942394",
+      "product_title": "Glean Grout Reviver & Sealer Kit - Charcoal - Foam Brush Included - Renew & Refresh Tile Grout",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 21.259999999999998,
+        "median": 21.99,
+        "stdev": 1.2643970895252792,
+        "min": 19.8,
+        "max": 21.99
+      },
+      "clicks": {
+        "mean": 3.923076923076923,
+        "median": 4.0,
+        "stdev": 1.9167279811820335
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 280.57575757575756,
+        "median": 291.0,
+        "stdev": 129.58082186010162
+      },
+      "cost": {
+        "mean": 0.9434615384615385,
+        "median": 0.775,
+        "stdev": 0.5633680310964925
+      },
+      "roas": {
+        "mean": 28.57333333333333,
+        "median": 36.65,
+        "stdev": 17.631750716628606
+      }
+    },
+    "shopify_gb_14969316999546_55083961975162": {
+      "product_id": "shopify_gb_14969316999546_55083961975162",
+      "product_title": "Glean Grout Reviver & Sealer Kit, 340g/250ml - Light Grey Tile Grout Restorer, Stain Resistant, Waterproof, Non-Toxic",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 17.57,
+        "median": 21.99,
+        "stdev": 8.24441629225502,
+        "min": 1.47,
+        "max": 21.99
+      },
+      "clicks": {
+        "mean": 9.535714285714286,
+        "median": 8.5,
+        "stdev": 6.546031553584897
+      },
+      "conversions": {
+        "mean": 0.8366666666666667,
+        "median": 1.0,
+        "stdev": 0.40008332465458574
+      },
+      "impressions": {
+        "mean": 957.969696969697,
+        "median": 1108.0,
+        "stdev": 612.8491089191779
+      },
+      "cost": {
+        "mean": 2.980714285714286,
+        "median": 2.605,
+        "stdev": 2.223603895866862
+      },
+      "roas": {
+        "mean": 5.218333333333333,
+        "median": 5.4350000000000005,
+        "stdev": 2.400853320523073
+      }
+    },
+    "shopify_gb_14969316999546_55083962007930": {
+      "product_id": "shopify_gb_14969316999546_55083962007930",
+      "product_title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 21.99,
+        "median": 21.99,
+        "stdev": 0,
+        "min": 21.99,
+        "max": 21.99
+      },
+      "clicks": {
+        "mean": 1.95,
+        "median": 2.0,
+        "stdev": 1.1459310165698642
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 154.66666666666666,
+        "median": 137.0,
+        "stdev": 114.6970647691852
+      },
+      "cost": {
+        "mean": 0.674,
+        "median": 0.465,
+        "stdev": 0.68645082623747
+      },
+      "roas": {
+        "mean": 7.28,
+        "median": 7.28,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_14969316999546_55083962040698": {
+      "product_id": "shopify_gb_14969316999546_55083962040698",
+      "product_title": "Glean Grout Reviver & Sealer Kit - Beige - Foam Brush Included - Renew & Refresh Tile Grout",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.375,
+        "median": 2.0,
+        "stdev": 1.7646898976258147
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 182.78787878787878,
+        "median": 156.0,
+        "stdev": 162.2815373001034
+      },
+      "cost": {
+        "mean": 0.55,
+        "median": 0.325,
+        "stdev": 0.47359861926943264
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_15097640681850_55375976071546": {
+      "product_id": "shopify_gb_15097640681850_55375976071546",
+      "product_title": "Glean Composite Sink Restorer 500ml - For Black, Grey or White Sinks - Revives Dull, Discoloured Sinks - Removes Limescale - Shines & Protects",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 26.307142857142857,
+        "median": 26.59,
+        "stdev": 15.44331607617261,
+        "min": 0.06,
+        "max": 55.96
+      },
+      "clicks": {
+        "mean": 22.606060606060606,
+        "median": 23.0,
+        "stdev": 10.055904341291843
+      },
+      "conversions": {
+        "mean": 1.7073333333333334,
+        "median": 2.0,
+        "stdev": 0.8301158840501613
+      },
+      "impressions": {
+        "mean": 1061.3939393939395,
+        "median": 1148.0,
+        "stdev": 398.29581809519567
+      },
+      "cost": {
+        "mean": 5.878787878787879,
+        "median": 5.79,
+        "stdev": 3.09373738136392
+      },
+      "roas": {
+        "mean": 5.8185714285714285,
+        "median": 3.32,
+        "stdev": 9.696726914642015
+      }
+    },
+    "shopify_gb_15189320958330_55592990769530": {
+      "product_id": "shopify_gb_15189320958330_55592990769530",
+      "product_title": "Grout Reviver Pens | White | 2 x 10ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 12.765555555555556,
+        "median": 9.99,
+        "stdev": 7.537964100324289,
+        "min": 5.0,
+        "max": 29.97
+      },
+      "clicks": {
+        "mean": 3.210526315789474,
+        "median": 2.0,
+        "stdev": 2.3939494881986927
+      },
+      "conversions": {
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "stdev": 0.2041241452319315
+      },
+      "impressions": {
+        "mean": 228.12121212121212,
+        "median": 205.0,
+        "stdev": 140.00016910162947
+      },
+      "cost": {
+        "mean": 1.2510526315789474,
+        "median": 0.83,
+        "stdev": 1.0706119472154547
+      },
+      "roas": {
+        "mean": 9.69,
+        "median": 8.06,
+        "stdev": 8.745686079433677
+      }
+    },
+    "shopify_gb_15253511405946_55696893903226": {
+      "product_id": "shopify_gb_15253511405946_55696893903226",
+      "product_title": "Drain Unblocker Liquid | 500ml & 1 Litre 500ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.333333333333334,
+        "median": 11.0,
+        "stdev": 6.406377031260857
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_15253511405946_55696893935994": {
+      "product_id": "shopify_gb_15253511405946_55696893935994",
+      "product_title": "Drain Unblocker Liquid | 500ml & 1 Litre 1 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 27.333333333333332,
+        "median": 26.0,
+        "stdev": 11.310025051549031
+      },
+      "cost": {
+        "mean": 0.45666666666666667,
+        "median": 0.53,
+        "stdev": 0.306648550189518
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_15253517271418_55696901603706": {
+      "product_id": "shopify_gb_15253517271418_55696901603706",
+      "product_title": "Mould Remover Gel Spray | 500ml | GLEAN",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 28.09090909090909,
+        "median": 24.0,
+        "stdev": 15.812106983976781
+      },
+      "cost": {
+        "mean": 0.81,
+        "median": 0.81,
+        "stdev": 0.6788225099390857
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399312584981_45692324839701": {
+      "product_id": "shopify_gb_8399312584981_45692324839701",
+      "product_title": "Foaming Quartz Granite Cleaner | GLEAN 1 x 400ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 13.49,
+        "median": 13.49,
+        "stdev": 0,
+        "min": 13.49,
+        "max": 13.49
+      },
+      "clicks": {
+        "mean": 1.3571428571428572,
+        "median": 1.0,
+        "stdev": 0.6333236937766509
+      },
+      "conversions": {
+        "mean": 0.5,
+        "median": 0.5,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 146.33333333333334,
+        "median": 146.0,
+        "stdev": 65.05894762956642
+      },
+      "cost": {
+        "mean": 0.46,
+        "median": 0.45,
+        "stdev": 0.2588435821108957
+      },
+      "roas": {
+        "mean": 20.44,
+        "median": 20.44,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399312584981_46127133229333": {
+      "product_id": "shopify_gb_8399312584981_46127133229333",
+      "product_title": "Glean Foaming Quartz, Granite & Marble Cleaner 3 x 400ml - Streak Free Finish - Protects Surface - Easy to Use - Fresh Fragrance",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 15.99,
+        "median": 11.99,
+        "stdev": 6.928203230275508,
+        "min": 11.99,
+        "max": 23.99
+      },
+      "clicks": {
+        "mean": 2.1,
+        "median": 2.0,
+        "stdev": 1.4104870379448817
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 233.75757575757575,
+        "median": 198.0,
+        "stdev": 145.38011175514825
+      },
+      "cost": {
+        "mean": 1.148,
+        "median": 0.8400000000000001,
+        "stdev": 0.9838784691745537
+      },
+      "roas": {
+        "mean": 35.13,
+        "median": 34.26,
+        "stdev": 31.084132608133043
+      }
+    },
+    "shopify_gb_8399312584981_51901294641530": {
+      "product_id": "shopify_gb_8399312584981_51901294641530",
+      "product_title": "Foaming Quartz Granite Cleaner | GLEAN 2 x 400ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5833333333333333,
+        "median": 1.0,
+        "stdev": 0.7929614610987591
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 156.96969696969697,
+        "median": 139.0,
+        "stdev": 100.4643857445528
+      },
+      "cost": {
+        "mean": 0.8566666666666667,
+        "median": 0.6,
+        "stdev": 0.9691264420115987
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399312847125_45692540813589": {
+      "product_id": "shopify_gb_8399312847125_45692540813589",
+      "product_title": "Tile & Grout Sealer Aerosol | GLEAN 1 x 400ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 11.99,
+        "median": 11.99,
+        "stdev": 0,
+        "min": 11.99,
+        "max": 11.99
+      },
+      "clicks": {
+        "mean": 1.75,
+        "median": 1.5,
+        "stdev": 0.8660254037844386
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 100.0909090909091,
+        "median": 81.0,
+        "stdev": 70.55288957422458
+      },
+      "cost": {
+        "mean": 0.41583333333333333,
+        "median": 0.345,
+        "stdev": 0.27457267073609404
+      },
+      "roas": {
+        "mean": 47.96,
+        "median": 47.96,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399312847125_46127099576597": {
+      "product_id": "shopify_gb_8399312847125_46127099576597",
+      "product_title": "Tile & Grout Sealer Aerosol | GLEAN 3 x 400ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 23.99,
+        "median": 23.99,
+        "stdev": 0,
+        "min": 23.99,
+        "max": 23.99
+      },
+      "clicks": {
+        "mean": 1.8695652173913044,
+        "median": 2.0,
+        "stdev": 1.0137396037394037
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 181.0909090909091,
+        "median": 159.0,
+        "stdev": 104.51954471424341
+      },
+      "cost": {
+        "mean": 0.7865217391304348,
+        "median": 0.53,
+        "stdev": 0.7666314077932235
+      },
+      "roas": {
+        "mean": 21.04,
+        "median": 21.04,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399312847125_51901336748410": {
+      "product_id": "shopify_gb_8399312847125_51901336748410",
+      "product_title": "Tile & Grout Sealer Aerosol | GLEAN 2 x 400ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 1.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 53.696969696969695,
+        "median": 50.0,
+        "stdev": 25.51896947430094
+      },
+      "cost": {
+        "mean": 0.99,
+        "median": 1.0,
+        "stdev": 0.29512709126747416
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399312978197_45692530917653": {
+      "product_id": "shopify_gb_8399312978197_45692530917653",
+      "product_title": "Glean Stone Sealer Aerosol 400ml, Protects Stone, Water Resistant, Easy Clean, Interior & Exterior",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 18.346,
+        "median": 12.99,
+        "stdev": 12.094115511272413,
+        "min": 12.78,
+        "max": 39.98
+      },
+      "clicks": {
+        "mean": 3.5714285714285716,
+        "median": 3.5,
+        "stdev": 2.150427544545183
+      },
+      "conversions": {
+        "mean": 1.245,
+        "median": 1.0,
+        "stdev": 0.5034216258101487
+      },
+      "impressions": {
+        "mean": 211.12121212121212,
+        "median": 215.0,
+        "stdev": 88.28637974503683
+      },
+      "cost": {
+        "mean": 0.9707142857142858,
+        "median": 0.8300000000000001,
+        "stdev": 0.5893934645757926
+      },
+      "roas": {
+        "mean": 18.322,
+        "median": 10.74,
+        "stdev": 15.42205304101889
+      }
+    },
+    "shopify_gb_8399312978197_46127364768021": {
+      "product_id": "shopify_gb_8399312978197_46127364768021",
+      "product_title": "Stone Sealer Aerosol | GLEAN 3 x 400ml",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 26.99,
+        "median": 26.99,
+        "stdev": 0,
+        "min": 26.99,
+        "max": 26.99
+      },
+      "clicks": {
+        "mean": 1.8125,
+        "median": 1.5,
+        "stdev": 0.9810708435174291
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 113.75757575757575,
+        "median": 79.0,
+        "stdev": 112.19125141444583
+      },
+      "cost": {
+        "mean": 0.89625,
+        "median": 0.98,
+        "stdev": 0.6144903036935028
+      },
+      "roas": {
+        "mean": 15.6,
+        "median": 15.6,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399313240341_45446855033109": {
+      "product_id": "shopify_gb_8399313240341_45446855033109",
+      "product_title": "Limestone Cleaner Spray | GLEAN",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 9.99,
+        "median": 9.99,
+        "stdev": 0.0,
+        "min": 9.99,
+        "max": 9.99
+      },
+      "clicks": {
+        "mean": 3.48,
+        "median": 3.0,
+        "stdev": 2.6318561257535844
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "impressions": {
+        "mean": 157.78787878787878,
+        "median": 123.0,
+        "stdev": 138.89828958084706
+      },
+      "cost": {
+        "mean": 0.9064,
+        "median": 0.6,
+        "stdev": 0.9903529673808223
+      },
+      "roas": {
+        "mean": 11.506,
+        "median": 6.17,
+        "stdev": 10.841754009384275
+      }
+    },
+    "shopify_gb_8399313469717_45446860013845": {
+      "product_id": "shopify_gb_8399313469717_45446860013845",
+      "product_title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.2307692307692308,
+        "median": 1.0,
+        "stdev": 0.4385290096535146
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 69.15151515151516,
+        "median": 66.0,
+        "stdev": 28.237963378359563
+      },
+      "cost": {
+        "mean": 0.4269230769230769,
+        "median": 0.31,
+        "stdev": 0.33959251599980367
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399313469717_45446860112149": {
+      "product_id": "shopify_gb_8399313469717_45446860112149",
+      "product_title": "Green Clean | Algae Remover | GLEAN 5 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 33.99,
+        "median": 33.99,
+        "stdev": 0,
+        "min": 33.99,
+        "max": 33.99
+      },
+      "clicks": {
+        "mean": 1.7647058823529411,
+        "median": 1.0,
+        "stdev": 1.0914103126634984
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 88.42424242424242,
+        "median": 79.0,
+        "stdev": 72.09413564180788
+      },
+      "cost": {
+        "mean": 1.0770588235294118,
+        "median": 0.73,
+        "stdev": 1.0837190866749231
+      },
+      "roas": {
+        "mean": 41.45,
+        "median": 41.45,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399313633557_45446862307605": {
+      "product_id": "shopify_gb_8399313633557_45446862307605",
+      "product_title": "Glean Concrete Epoxy Putty Stick - 60-Minute Cure, Permanent Repair for Cracks & Holes in Walls, Floors, Tiles, 100g",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.8461538461538463,
+        "median": 1.0,
+        "stdev": 1.214231845389905
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 81.63636363636364,
+        "median": 90.0,
+        "stdev": 43.744869829085516
+      },
+      "cost": {
+        "mean": 1.0415384615384615,
+        "median": 0.62,
+        "stdev": 1.6351393730293358
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399313862933_45447132283157": {
+      "product_id": "shopify_gb_8399313862933_45447132283157",
+      "product_title": "Easy Care Floor & Tile Cleaner | GLEAN 5 Litre",
+      "label": "",
+      "data_points": 28,
+      "date_range": "2025-12-08 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3.7857142857142856,
+        "median": 3.0,
+        "stdev": 2.9609450800708492
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399313994005_45446864339221": {
+      "product_id": "shopify_gb_8399313994005_45446864339221",
+      "product_title": "Grout & Cement Residue Remover | GLEAN 5 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5384615384615385,
+        "median": 1.0,
+        "stdev": 0.7762500258061849
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 100.66666666666667,
+        "median": 103.0,
+        "stdev": 31.533381782908517
+      },
+      "cost": {
+        "mean": 0.8392307692307692,
+        "median": 0.86,
+        "stdev": 0.5207280406389618
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399313994005_45447132315925": {
+      "product_id": "shopify_gb_8399313994005_45447132315925",
+      "product_title": "Grout & Cement Residue Remover | GLEAN 1 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5294117647058822,
+        "median": 1.0,
+        "stdev": 0.9432422182837986
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 144.3030303030303,
+        "median": 123.0,
+        "stdev": 74.94559895704552
+      },
+      "cost": {
+        "mean": 0.5176470588235295,
+        "median": 0.32,
+        "stdev": 0.5262191726334748
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399314059541_45691956756757": {
+      "product_id": "shopify_gb_8399314059541_45691956756757",
+      "product_title": "Patio Sealer | Solvent Based Natural Finish | GLEAN 1 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.75,
+        "median": 2.0,
+        "stdev": 0.5
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 16.696969696969695,
+        "median": 16.0,
+        "stdev": 8.6836226904618
+      },
+      "cost": {
+        "mean": 1.6675,
+        "median": 1.54,
+        "stdev": 0.9753076437719536
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8399314092309_45446866632981": {
+      "product_id": "shopify_gb_8399314092309_45446866632981",
+      "product_title": "Slate Sealer | GLEAN 5 Litre",
+      "label": "",
+      "data_points": 33,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 19.272727272727273,
         "median": 19.0,
-        "stdev": 8.912151074886982
+        "stdev": 8.555965489326464
       },
       "cost": {
         "mean": 1.155,
@@ -3010,7 +3010,7 @@
       "product_id": "shopify_gb_8399314092309_45447132381461",
       "product_title": "Slate Sealer | GLEAN 1 Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3020,9 +3020,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.5833333333333333,
-        "median": 1.5,
-        "stdev": 0.6685579234215214
+        "mean": 1.5384615384615385,
+        "median": 1.0,
+        "stdev": 0.6602252917735247
       },
       "conversions": {
         "mean": 0,
@@ -3030,14 +3030,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 68.4,
-        "median": 71.0,
-        "stdev": 22.12908836179516
+        "mean": 67.15151515151516,
+        "median": 69.0,
+        "stdev": 21.45652757921411
       },
       "cost": {
-        "mean": 0.8075,
-        "median": 0.53,
-        "stdev": 0.6870903738360638
+        "mean": 0.77,
+        "median": 0.51,
+        "stdev": 0.6715901527965797
       },
       "roas": {
         "mean": 0,
@@ -3049,7 +3049,7 @@
       "product_id": "shopify_gb_8399314190613_45446866796821",
       "product_title": "Anti-Slip Stone Grip Treatment | GLEAN 500ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3059,9 +3059,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.176470588235294,
+        "mean": 2.05,
         "median": 1.0,
-        "stdev": 1.4677914581799019
+        "stdev": 1.394538218230416
       },
       "conversions": {
         "mean": 0,
@@ -3069,14 +3069,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 98.2,
-        "median": 92.5,
-        "stdev": 38.90253072168601
+        "mean": 119.51515151515152,
+        "median": 94.0,
+        "stdev": 77.84203604581252
       },
       "cost": {
-        "mean": 0.9558823529411765,
-        "median": 0.8,
-        "stdev": 0.6689549575973839
+        "mean": 0.848,
+        "median": 0.69,
+        "stdev": 0.6680419148526535
       },
       "roas": {
         "mean": 0,
@@ -3088,7 +3088,7 @@
       "product_id": "shopify_gb_8399314190613_45447132446997",
       "product_title": "Anti-Slip Stone Grip Treatment | GLEAN 1 Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3108,9 +3108,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 44.56666666666667,
-        "median": 39.5,
-        "stdev": 23.408933357151074
+        "mean": 57.666666666666664,
+        "median": 45.0,
+        "stdev": 47.68494696092957
       },
       "cost": {
         "mean": 0.96375,
@@ -3127,7 +3127,7 @@
       "product_id": "shopify_gb_8399314256149_45446867419413",
       "product_title": "Tarmac Restorer | GLEAN",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3147,9 +3147,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 48.233333333333334,
+        "mean": 49.0,
         "median": 52.0,
-        "stdev": 22.14323798602515
+        "stdev": 21.399474292608218
       },
       "cost": {
         "mean": 0.34375,
@@ -3166,7 +3166,7 @@
       "product_id": "shopify_gb_8399314354453_45692891857173",
       "product_title": "Glean Salt Stain & White Efflorescence Remover 5 Litres | Ready-to-Use for Concrete, Brick & Walls",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3176,9 +3176,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.625,
+        "mean": 1.736842105263158,
         "median": 1.0,
-        "stdev": 1.1474609652039003
+        "stdev": 1.1470786693528088
       },
       "conversions": {
         "mean": 0,
@@ -3186,14 +3186,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 110.9,
-        "median": 107.5,
-        "stdev": 38.69095055917357
+        "mean": 125.78787878787878,
+        "median": 113.0,
+        "stdev": 61.19219597697772
       },
       "cost": {
-        "mean": 0.57125,
-        "median": 0.41500000000000004,
-        "stdev": 0.4637078821844632
+        "mean": 0.7273684210526316,
+        "median": 0.45,
+        "stdev": 0.6487924005006289
       },
       "roas": {
         "mean": 0,
@@ -3205,7 +3205,7 @@
       "product_id": "shopify_gb_8399314485525_45446868205845",
       "product_title": "Porcelain Floor & Tile Cleaner | GLEAN 500ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.5,
@@ -3215,9 +3215,9 @@
         "max": 13.5
       },
       "clicks": {
-        "mean": 1.5625,
+        "mean": 1.5294117647058822,
         "median": 1.0,
-        "stdev": 0.8920949127381758
+        "stdev": 0.8744746321952062
       },
       "conversions": {
         "mean": 1.0,
@@ -3225,14 +3225,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 100.0,
-        "median": 94.0,
-        "stdev": 32.963930130601426
+        "mean": 110.93939393939394,
+        "median": 102.0,
+        "stdev": 47.16125223232746
       },
       "cost": {
-        "mean": 0.59375,
-        "median": 0.385,
-        "stdev": 0.7209704108584023
+        "mean": 0.5764705882352942,
+        "median": 0.38,
+        "stdev": 0.7017027609364825
       },
       "roas": {
         "mean": 8.959999999999999,
@@ -3244,7 +3244,7 @@
       "product_id": "shopify_gb_8399314485525_45446868271381",
       "product_title": "Porcelain Floor & Tile Cleaner | GLEAN 5 Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 59.99,
@@ -3264,14 +3264,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.133333333333333,
-        "median": 16.5,
-        "stdev": 8.81899725840065
+        "mean": 20.333333333333332,
+        "median": 17.0,
+        "stdev": 11.310025051549031
       },
       "cost": {
-        "mean": 4.07,
-        "median": 4.07,
-        "stdev": 2.6870057685088806
+        "mean": 2.8066666666666666,
+        "median": 2.17,
+        "stdev": 2.8979360471434377
       },
       "roas": {
         "mean": 27.65,
@@ -3283,7 +3283,7 @@
       "product_id": "shopify_gb_8399314485525_45447132610837",
       "product_title": "Porcelain Floor & Tile Cleaner | GLEAN 1 Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 21.99,
@@ -3303,14 +3303,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 46.93333333333333,
-        "median": 44.5,
-        "stdev": 16.239443963075985
+        "mean": 58.39393939393939,
+        "median": 50.0,
+        "stdev": 40.15278585753686
       },
       "cost": {
-        "mean": 0.4033333333333333,
-        "median": 0.375,
-        "stdev": 0.21360399496888316
+        "mean": 0.49,
+        "median": 0.495,
+        "stdev": 0.24154266112398684
       },
       "roas": {
         "mean": 84.58,
@@ -3322,7 +3322,7 @@
       "product_id": "shopify_gb_8399314583829_45723645772053",
       "product_title": "Heavy Duty Floor & Stone Degreaser | GLEAN 5 Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 39.56,
@@ -3342,9 +3342,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 77.83333333333333,
-        "median": 73.5,
-        "stdev": 32.27584057863515
+        "mean": 77.54545454545455,
+        "median": 74.0,
+        "stdev": 30.86167820806545
       },
       "cost": {
         "mean": 1.221,
@@ -3361,7 +3361,7 @@
       "product_id": "shopify_gb_8399314714901_45692519055637",
       "product_title": "Glean Kitchen Cupboard Cleaner - Easy To Use - Anti-Static, Streak Free, Foaming Spray for High Gloss Surfaces",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 22.843333333333334,
@@ -3371,9 +3371,9 @@
         "max": 23.98
       },
       "clicks": {
-        "mean": 3.0,
+        "mean": 2.9696969696969697,
         "median": 3.0,
-        "stdev": 1.7419766814227708
+        "stdev": 1.6860613957691548
       },
       "conversions": {
         "mean": 1.2533333333333334,
@@ -3381,14 +3381,14 @@
         "stdev": 0.4387862045841156
       },
       "impressions": {
-        "mean": 238.93333333333334,
-        "median": 261.0,
-        "stdev": 63.549564329244475
+        "mean": 254.03030303030303,
+        "median": 263.0,
+        "stdev": 77.73049789516534
       },
       "cost": {
-        "mean": 0.5493333333333333,
-        "median": 0.46499999999999997,
-        "stdev": 0.38764481906395504
+        "mean": 0.58,
+        "median": 0.46,
+        "stdev": 0.4242787998474588
       },
       "roas": {
         "mean": 82.52666666666667,
@@ -3400,7 +3400,7 @@
       "product_id": "shopify_gb_8399314714901_46127225110805",
       "product_title": "Kitchen Cupboard Cleaner | 400ml | GLEAN 3 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 28.523333333333333,
@@ -3420,9 +3420,9 @@
         "stdev": 0.7637626158259734
       },
       "impressions": {
-        "mean": 126.06666666666666,
-        "median": 100.5,
-        "stdev": 81.52382064975447
+        "mean": 120.78787878787878,
+        "median": 92.0,
+        "stdev": 79.51366139529011
       },
       "cost": {
         "mean": 0.51375,
@@ -3439,7 +3439,7 @@
       "product_id": "shopify_gb_8399314845973_45447132741909",
       "product_title": "Glean Oil & Drive Cleaner 1L - Advanced Cleaning, Easy Application, Removes Stubborn Stains",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 24.704285714285714,
@@ -3449,9 +3449,9 @@
         "max": 44.99
       },
       "clicks": {
-        "mean": 4.9655172413793105,
+        "mean": 4.709677419354839,
         "median": 5.0,
-        "stdev": 2.8218884079977573
+        "stdev": 2.9005005129815875
       },
       "conversions": {
         "mean": 1.0714285714285714,
@@ -3459,14 +3459,14 @@
         "stdev": 0.4498677054212187
       },
       "impressions": {
-        "mean": 454.8666666666667,
-        "median": 445.0,
-        "stdev": 184.34464225042393
+        "mean": 434.3030303030303,
+        "median": 434.0,
+        "stdev": 187.53891010409095
       },
       "cost": {
-        "mean": 1.957241379310345,
-        "median": 2.04,
-        "stdev": 1.2554876586744068
+        "mean": 1.8529032258064517,
+        "median": 1.83,
+        "stdev": 1.2783901166399014
       },
       "roas": {
         "mean": 16.12857142857143,
@@ -3478,7 +3478,7 @@
       "product_id": "shopify_gb_8399314845973_45687020388629",
       "product_title": "Glean Oil & Drive Cleaner 5L - Removes Oil, Grease, Petrol & Diesel Stains - Easy Application - Driveways & Patios - Concentrated Formula",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 27.490000000000002,
@@ -3488,9 +3488,9 @@
         "max": 44.99
       },
       "clicks": {
-        "mean": 3.3157894736842106,
+        "mean": 3.2,
         "median": 2.0,
-        "stdev": 2.70909233629083
+        "stdev": 2.687201635824701
       },
       "conversions": {
         "mean": 0.75,
@@ -3498,14 +3498,14 @@
         "stdev": 0.3535533905932738
       },
       "impressions": {
-        "mean": 331.8333333333333,
-        "median": 229.5,
-        "stdev": 252.22883470664345
+        "mean": 308.45454545454544,
+        "median": 202.0,
+        "stdev": 251.69439441874383
       },
       "cost": {
-        "mean": 1.9363157894736842,
-        "median": 1.4,
-        "stdev": 1.738508973313741
+        "mean": 1.8465,
+        "median": 1.3199999999999998,
+        "stdev": 1.739159733591877
       },
       "roas": {
         "mean": 31.724999999999998,
@@ -3517,7 +3517,7 @@
       "product_id": "shopify_gb_8399314977045_45692464529685",
       "product_title": "Glass & Mirror Anti-Fog Cleaner | GLEAN 1 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3537,9 +3537,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 52.833333333333336,
+        "mean": 52.57575757575758,
         "median": 50.0,
-        "stdev": 16.154605051433975
+        "stdev": 17.260921004957815
       },
       "cost": {
         "mean": 0.27875,
@@ -3556,7 +3556,7 @@
       "product_id": "shopify_gb_8399314977045_46127169011989",
       "product_title": "Glass & Mirror Anti-Fog Cleaner | GLEAN 3 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3576,14 +3576,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 15.3,
-        "median": 13.5,
-        "stdev": 8.453320098615405
+        "mean": 15.878787878787879,
+        "median": 14.0,
+        "stdev": 8.290648254801821
       },
       "cost": {
-        "mean": 0.534,
-        "median": 0.58,
-        "stdev": 0.2878888674471453
+        "mean": 0.42142857142857143,
+        "median": 0.3,
+        "stdev": 0.3036680518498541
       },
       "roas": {
         "mean": 0,
@@ -3595,7 +3595,7 @@
       "product_id": "shopify_gb_8399315075349_45446870991125",
       "product_title": "Stone Polish Gloss Wax | GLEAN",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 15.656666666666666,
@@ -3605,9 +3605,9 @@
         "max": 29.98
       },
       "clicks": {
-        "mean": 4.642857142857143,
-        "median": 4.5,
-        "stdev": 2.376026650840147
+        "mean": 4.483870967741935,
+        "median": 4.0,
+        "stdev": 2.350474671804761
       },
       "conversions": {
         "mean": 1.0,
@@ -3615,14 +3615,14 @@
         "stdev": 0.5581755996100152
       },
       "impressions": {
-        "mean": 320.5,
-        "median": 318.5,
-        "stdev": 93.72106450011376
+        "mean": 316.1818181818182,
+        "median": 315.0,
+        "stdev": 90.66506167808474
       },
       "cost": {
-        "mean": 1.3125,
-        "median": 1.06,
-        "stdev": 0.8813231845104017
+        "mean": 1.3296774193548386,
+        "median": 1.2,
+        "stdev": 0.8783639483758721
       },
       "roas": {
         "mean": 12.455,
@@ -3634,7 +3634,7 @@
       "product_id": "shopify_gb_8399315173653_45692523151637",
       "product_title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 1 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3644,9 +3644,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.5789473684210527,
+        "mean": 1.7727272727272727,
         "median": 1.0,
-        "stdev": 1.0173926082384546
+        "stdev": 1.0660035817780522
       },
       "conversions": {
         "mean": 0,
@@ -3654,14 +3654,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 70.03333333333333,
-        "median": 68.0,
-        "stdev": 32.290153653838594
+        "mean": 82.66666666666667,
+        "median": 73.0,
+        "stdev": 51.017562335598384
       },
       "cost": {
-        "mean": 0.19105263157894736,
-        "median": 0.13,
-        "stdev": 0.14873147828075584
+        "mean": 0.22636363636363635,
+        "median": 0.165,
+        "stdev": 0.16537246429817737
       },
       "roas": {
         "mean": 0,
@@ -3673,7 +3673,7 @@
       "product_id": "shopify_gb_8399315173653_46127268004117",
       "product_title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 3 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3693,14 +3693,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 19.466666666666665,
-        "median": 18.5,
-        "stdev": 8.152568173041667
+        "mean": 27.848484848484848,
+        "median": 20.0,
+        "stdev": 28.075925198603443
       },
       "cost": {
-        "mean": 0.11,
-        "median": 0.08,
-        "stdev": 0.07
+        "mean": 0.1075,
+        "median": 0.09,
+        "stdev": 0.05737304826019502
       },
       "roas": {
         "mean": 0,
@@ -3712,7 +3712,7 @@
       "product_id": "shopify_gb_8399315173653_51901326983546",
       "product_title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 2 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3732,9 +3732,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 28.733333333333334,
-        "median": 27.5,
-        "stdev": 11.515906041385671
+        "mean": 28.575757575757574,
+        "median": 27.0,
+        "stdev": 11.50823157306951
       },
       "cost": {
         "mean": 0.6685714285714286,
@@ -3790,7 +3790,7 @@
       "product_id": "shopify_gb_8399315206421_45691992244501",
       "product_title": "Glean Black Stone Sealer: Premium Water-Based, Superior Protection, Repels Water/Oil/Grease, Made in Britain, 500ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 26.458571428571428,
@@ -3800,9 +3800,9 @@
         "max": 40.19
       },
       "clicks": {
-        "mean": 6.793103448275862,
-        "median": 6.0,
-        "stdev": 3.93136935744157
+        "mean": 6.3125,
+        "median": 5.5,
+        "stdev": 4.0436130442480405
       },
       "conversions": {
         "mean": 1.2242857142857142,
@@ -3810,14 +3810,14 @@
         "stdev": 0.8000803531074685
       },
       "impressions": {
-        "mean": 374.6333333333333,
-        "median": 359.5,
-        "stdev": 163.45018925598126
+        "mean": 359.90909090909093,
+        "median": 348.0,
+        "stdev": 165.24420633496572
       },
       "cost": {
-        "mean": 1.7610344827586206,
-        "median": 1.49,
-        "stdev": 1.1430733785582066
+        "mean": 1.6325,
+        "median": 1.44,
+        "stdev": 1.1688041862546745
       },
       "roas": {
         "mean": 12.797142857142857,
@@ -3829,7 +3829,7 @@
       "product_id": "shopify_gb_8399315206421_45691998306581",
       "product_title": "Glean Black Stone Restorer & Sealer: 1L Water Based, Premium Black Stone Protector for Interior & Exterior Surfaces",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 43.785000000000004,
@@ -3839,9 +3839,9 @@
         "max": 79.98
       },
       "clicks": {
-        "mean": 3.16,
-        "median": 3.0,
-        "stdev": 1.8184242262647807
+        "mean": 3.7857142857142856,
+        "median": 4.0,
+        "stdev": 2.5583145906970755
       },
       "conversions": {
         "mean": 0.9133333333333333,
@@ -3849,14 +3849,14 @@
         "stdev": 0.20264912204760885
       },
       "impressions": {
-        "mean": 216.7,
-        "median": 220.5,
-        "stdev": 83.50599813269662
+        "mean": 255.15151515151516,
+        "median": 230.0,
+        "stdev": 146.859652647545
       },
       "cost": {
-        "mean": 1.59,
-        "median": 1.59,
-        "stdev": 1.1015178921228046
+        "mean": 1.8882142857142856,
+        "median": 1.73,
+        "stdev": 1.374570784379561
       },
       "roas": {
         "mean": 14.906666666666666,
@@ -3868,7 +3868,7 @@
       "product_id": "shopify_gb_8399315271957_45692457648405",
       "product_title": "Sticky Stuff Remover Gel Spray | GLEAN 1 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 9.99,
@@ -3888,9 +3888,9 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 132.66666666666666,
-        "median": 128.5,
-        "stdev": 36.984930140143085
+        "mean": 139.21212121212122,
+        "median": 137.0,
+        "stdev": 41.006674438252716
       },
       "cost": {
         "mean": 0.36375,
@@ -3907,7 +3907,7 @@
       "product_id": "shopify_gb_8399315271957_46127303721237",
       "product_title": "Sticky Stuff Remover Gel Spray | GLEAN 2 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3927,9 +3927,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.333333333333334,
+        "mean": 11.757575757575758,
         "median": 10.0,
-        "stdev": 6.087484806089278
+        "stdev": 6.015762124568585
       },
       "cost": {
         "mean": 0,
@@ -3946,7 +3946,7 @@
       "product_id": "shopify_gb_8399315271957_46127323414805",
       "product_title": "Sticky Stuff Remover Gel Spray | GLEAN 3 x 400ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 23.99,
@@ -3966,9 +3966,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 67.16666666666667,
-        "median": 62.5,
-        "stdev": 27.91993890583837
+        "mean": 64.03030303030303,
+        "median": 60.0,
+        "stdev": 28.485176900105483
       },
       "cost": {
         "mean": 0.8555555555555555,
@@ -3985,7 +3985,7 @@
       "product_id": "shopify_gb_8399314354453_45447132512533",
       "product_title": "Glean Salt Stain & White Efflorescence Remover 1 Litre | Ready-to-Use for Concrete, Brick & Walls",
       "label": "",
-      "data_points": 12,
+      "data_points": 15,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 18.36,
@@ -3995,9 +3995,9 @@
         "max": 18.99
       },
       "clicks": {
-        "mean": 6.166666666666667,
-        "median": 4.5,
-        "stdev": 3.9504506839170395
+        "mean": 6.2,
+        "median": 5.0,
+        "stdev": 3.913347124174613
       },
       "conversions": {
         "mean": 1.0,
@@ -4005,14 +4005,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 424.75,
-        "median": 394.5,
-        "stdev": 141.24712386452333
+        "mean": 428.6666666666667,
+        "median": 401.0,
+        "stdev": 126.26370741239863
       },
       "cost": {
-        "mean": 1.7650000000000001,
-        "median": 1.495,
-        "stdev": 1.1713667231059623
+        "mean": 1.8126666666666666,
+        "median": 1.55,
+        "stdev": 1.1750286723958616
       },
       "roas": {
         "mean": 7.063333333333333,
@@ -4024,7 +4024,7 @@
       "product_id": "shopify_gb_15436681609594_56056491671930",
       "product_title": "Miracle Outdoor Cleaner | GLEAN",
       "label": "",
-      "data_points": 8,
+      "data_points": 11,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4044,9 +4044,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 24.125,
-        "median": 25.0,
-        "stdev": 13.335639681480814
+        "mean": 23.363636363636363,
+        "median": 24.0,
+        "stdev": 11.421669994118437
       },
       "cost": {
         "mean": 0.42,
@@ -4063,8 +4063,8 @@
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 957,
-      "date_range": "2025-11-04 to 2025-11-25",
+      "data_points": 2035,
+      "date_range": "2025-11-17 to 2025-12-11",
       "revenue": {
         "mean": 0,
         "median": 0,

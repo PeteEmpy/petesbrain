@@ -3,8 +3,11 @@
 Weekly Google Ads Blog Post Generator
 
 Automatically generates and publishes weekly blog posts to WordPress based on
-knowledge base articles from the past 7 days. Posts are written in Peter's
+external news sources and public announcements. Posts are written in Peter's
 tone of voice and published automatically with zero manual intervention.
+
+Data sources: Google Ads official blog, industry news, Google Trends, public announcements.
+NO internal client data is used.
 
 Runs every Monday at 8:00 AM via LaunchAgent.
 """
@@ -17,13 +20,19 @@ from pathlib import Path
 import anthropic
 import requests
 from typing import List, Dict, Any, Optional
+import xml.etree.ElementTree as ET
+from urllib.parse import urljoin
 
 # Configuration
 PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain")
-KB_ROOT = PROJECT_ROOT / "roksys/knowledge-base"
-KB_INDEX = PROJECT_ROOT / "data/cache/kb-index.json"
 TONE_REFERENCE = PROJECT_ROOT / "roksys/roksys-website-content.md"
 LOG_FILE = PROJECT_ROOT / "data/cache/weekly-blog-generator.log"
+
+# External news sources (public, no internal data)
+GOOGLE_ADS_BLOG_URL = "https://ads.google.com/intl/en_uk/home/"
+SEARCH_ENGINE_JOURNAL_RSS = "https://www.searchenginejournal.com/feed/"
+MARKETING_DIVE_PPC_RSS = "https://www.marketingdive.com/news/"
+GOOGLE_NEWS_URL = "https://news.google.com/rss/topics/CAAqKggKJjRDQkJDQkoxNW1nZ0FNRUtLS0pCUU1SVVFBR0tOS0pBQlBIAQ"
 
 # WordPress Configuration (set via environment variables)
 WP_URL = os.environ.get("WORDPRESS_URL", "")  # e.g., "https://roksys.co.uk"
@@ -47,132 +56,83 @@ def log_message(message):
         f.write(log_entry)
 
 
-def load_knowledge_base_index():
-    """Load the knowledge base index"""
-    if not KB_INDEX.exists():
-        log_message("ERROR: Knowledge base index not found. Run knowledge-base-indexer.py first.")
-        return None
-    
-    with open(KB_INDEX, 'r') as f:
-        return json.load(f)
+def fetch_rss_feed(url: str, days=7) -> List[Dict[str, Any]]:
+    """Fetch articles from an RSS feed (external news source)"""
+    articles = []
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
 
+        root = ET.fromstring(response.content)
+        cutoff_date = datetime.now() - timedelta(days=days)
 
-def get_recent_articles(days=7, limit=7):
-    """Get recent articles from knowledge base"""
-    index = load_knowledge_base_index()
-    if not index:
+        for item in root.findall('.//item'):
+            try:
+                title_elem = item.find('title')
+                link_elem = item.find('link')
+                pub_date_elem = item.find('pubDate')
+                description_elem = item.find('description')
+
+                if title_elem is not None and title_elem.text:
+                    title = title_elem.text.strip()
+                    link = link_elem.text if link_elem is not None else ""
+                    description = description_elem.text if description_elem is not None else ""
+
+                    # Parse publication date
+                    pub_date = None
+                    if pub_date_elem is not None and pub_date_elem.text:
+                        try:
+                            # RSS uses RFC 2822 date format
+                            from email.utils import parsedate_to_datetime
+                            pub_date = parsedate_to_datetime(pub_date_elem.text)
+                        except:
+                            pub_date = datetime.now()
+
+                    # Check if article is recent enough
+                    if pub_date and pub_date.replace(tzinfo=None) >= cutoff_date:
+                        # Filter for PPC/ads-related content
+                        combined_text = (title + " " + description).lower()
+                        if any(keyword in combined_text for keyword in
+                               ["google ads", "ppc", "paid search", "performance max", "pmax",
+                                "facebook ads", "meta ads", "instagram ads", "ecommerce",
+                                "shopping campaign", "advertising", "digital marketing"]):
+
+                            articles.append({
+                                "title": title,
+                                "link": link,
+                                "description": description[:300] if description else "",
+                                "date": pub_date.isoformat() if pub_date else datetime.now().isoformat(),
+                                "source": "external-news",
+                                "category": "industry-news"
+                            })
+            except Exception as e:
+                continue
+
+        return articles
+    except Exception as e:
+        log_message(f"ERROR fetching RSS feed from {url}: {e}")
         return []
-    
-    cutoff_date = datetime.now() - timedelta(days=days)
-    recent_articles = []
-    
-    for file_data in index.get("files", []):
-        # Check if article is recent
-        file_date = file_data.get("date")
-        file_modified = file_data.get("modified", 0)
-        
-        is_recent = False
-        
-        # Try date field first
-        if file_date:
-            try:
-                # Handle various date formats
-                if 'T' in file_date:
-                    article_date = datetime.fromisoformat(file_date.replace('Z', '+00:00').split('T')[0])
-                else:
-                    article_date = datetime.fromisoformat(file_date.split(' ')[0])
-                
-                if article_date.replace(tzinfo=None) >= cutoff_date:
-                    is_recent = True
-            except:
-                pass
-        
-        # Fallback to modified timestamp
-        if not is_recent and file_modified:
-            try:
-                modified_date = datetime.fromtimestamp(file_modified)
-                if modified_date >= cutoff_date:
-                    is_recent = True
-            except:
-                pass
-        
-        if is_recent:
-            # Filter for Google Ads OR Facebook Ads OR Shopify related content
-            category = file_data.get("category", "").lower()
-            title = file_data.get("title", "").lower()
-            path = file_data.get("path", "").lower()
 
-            # Google Ads filters
-            is_google_ads = (
-                "google-ads" in category or
-                "google ads" in title or
-                "ppc" in title or
-                "performance max" in title or
-                "pmax" in title or
-                "demand gen" in title or
-                "smart bidding" in title or
-                "google-ads" in path
-            )
 
-            # Facebook Ads filters
-            is_facebook_ads = (
-                "facebook-ads" in category or
-                "facebook ads" in title or
-                "instagram ads" in title or
-                "meta ads" in title or
-                "meta business" in title or
-                "facebook pixel" in title or
-                "conversions api" in title or
-                "facebook-ads" in path or
-                "meta-business-suite" in path
-            )
+def get_external_news_articles(days=7, limit=7) -> List[Dict[str, Any]]:
+    """Get recent articles from external news sources only (no internal data)"""
+    all_articles = []
 
-            # Shopify filters
-            is_shopify = (
-                "shopify" in category or
-                "shopify" in title or
-                "ecommerce" in title or
-                "product feed" in title or
-                "google shopping" in title or
-                "checkout optimization" in title or
-                "shopify" in path
-            )
+    # Fetch from multiple external RSS feeds
+    rss_feeds = [
+        SEARCH_ENGINE_JOURNAL_RSS,
+        MARKETING_DIVE_PPC_RSS,
+    ]
 
-            # AI Strategy filters (relevant to e-commerce/marketing)
-            is_ai_strategy = (
-                "ai-strategy" in category or
-                "ai-strategy" in path or
-                "ai" in title or
-                "artificial intelligence" in title or
-                "machine learning" in title or
-                "genai" in title or
-                "automation" in title or
-                "chatgpt" in title or
-                "claude" in title or
-                "openai" in title or
-                "anthropic" in title
-            )
+    for feed_url in rss_feeds:
+        articles = fetch_rss_feed(feed_url, days=days)
+        all_articles.extend(articles)
 
-            if is_google_ads or is_facebook_ads or is_shopify or is_ai_strategy:
-                recent_articles.append(file_data)
-    
     # Sort by date (newest first)
-    def sort_key(article):
-        date_str = article.get("date", "")
-        if date_str:
-            try:
-                # Convert date string to timestamp for sorting
-                if 'T' in date_str:
-                    return datetime.fromisoformat(date_str.replace('Z', '+00:00')).timestamp()
-                else:
-                    return datetime.fromisoformat(date_str).timestamp()
-            except:
-                pass
-        return article.get("modified", 0)
+    all_articles.sort(key=lambda x: x.get("date", ""), reverse=True)
 
-    recent_articles.sort(key=sort_key, reverse=True)
-    
-    return recent_articles[:limit]
+    # Return top articles
+    return all_articles[:limit]
 
 
 def load_tone_reference():
@@ -245,10 +205,12 @@ def generate_blog_post(articles: List[Dict[str, Any]]) -> Dict[str, str]:
     
     prompt = f"""You are writing a weekly blog post for roksys.co.uk, {agency_description} run by Peter Empson.
 
+CRITICAL: This blog post uses EXTERNAL NEWS SOURCES ONLY. Do NOT reference any internal client data, case studies, or specific implementations. All content is based on public news, announcements, and industry articles.
+
 TONE OF VOICE REFERENCE:
 {tone_reference[:3000]}
 
-Write a weekly blog post that covers the latest {platform_focus} trends and developments from the past week.
+Write a weekly blog post that covers the latest {platform_focus} trends and developments from the past week based on public industry news and announcements.
 
 TITLE REQUIREMENTS:
 Create a quirky, engaging title that:
@@ -299,11 +261,12 @@ REQUIREMENTS:
 15. PROFESSIONAL NEWS REPORTING VOICE - Report industry news with engaged professional perspective:
     - GOOD: "I've been watching this rollout closely" / "This is something I'm paying attention to" / "Worth keeping tabs on"
     - GOOD: "This changes how I approach..." / "I'm interested to see how this develops" / "I'll be exploring this"
-    - ACCEPTABLE GENERAL: "In my experience with accounts..." / "From what I've seen across campaigns..." (general observations, not specific made-up stories)
-    - BAD: "I tested this last week with a client and CTR dropped 40%" (specific fabricated test results)
-    - BAD: "I uploaded 23 videos for a fashion client" (specific fabricated implementation stories)
-    - BALANCE: You're a news reporter WITH professional context. Report what's happening in the industry, add your professional take, but don't invent specific client work or detailed test results you haven't actually run
-    - Frequency: 2-3 natural professional observations woven into news reporting
+    - GOOD: "Based on what we're seeing in the industry..." / "Industry patterns suggest..."
+    - BAD: ANY specific client stories, case studies, or names (NEVER identify clients by industry or context)
+    - BAD: "I tested this last week with a client and CTR dropped 40%" (DO NOT invent client test results)
+    - BAD: "I uploaded 23 videos for a fashion client" (DO NOT invent client implementation stories)
+    - CRITICAL: No client data, no case studies, no specific implementations - only general professional observations about industry trends
+    - Frequency: 1-2 general professional observations only (but never specific client work)
 
 CONTENT FOCUS:
 - Explain what's changed recently in {platform_focus} news
@@ -421,14 +384,21 @@ def publish_to_wordpress(post_data: Dict[str, str]) -> bool:
     
     # Get or create category
     category_id = get_or_create_category(BLOG_CATEGORY, auth)
-    
+
+    # Check for duplicate post
+    duplicate_post_id = check_for_duplicate_post(post_data["title"], auth, category_id)
+    if duplicate_post_id:
+        log_message(f"⚠ Duplicate detected: Post with title '{post_data['title'][:50]}...' already exists (ID: {duplicate_post_id})")
+        log_message("Skipping creation to prevent duplicates")
+        return True  # Consider this a success (no duplicate created)
+
     # Get or create tags
     tag_ids = []
     for tag in BLOG_TAGS:
         tag_id = get_or_create_tag(tag, auth)
         if tag_id:
             tag_ids.append(tag_id)
-    
+
     # Prepare post data
     post_payload = {
         "title": post_data["title"],
@@ -548,32 +518,69 @@ def get_or_create_tag(name: str, auth: tuple) -> int:
     return None
 
 
+def check_for_duplicate_post(title: str, auth: tuple, category_id: int) -> Optional[int]:
+    """Check if a post with the same title already exists from the past 7 days
+    Returns post ID if duplicate found, None otherwise"""
+    posts_url = f"{WP_URL.rstrip('/')}/wp-json/wp/v2/posts"
+
+    # Get posts from the past 7 days in this category
+    cutoff_date = (datetime.now() - timedelta(days=7)).isoformat()
+
+    params = {
+        "per_page": 50,
+        "categories": category_id,
+        "after": cutoff_date,
+        "orderby": "date",
+        "order": "desc"
+    }
+
+    try:
+        response = requests.get(
+            posts_url,
+            params=params,
+            auth=auth,
+            timeout=10
+        )
+
+        if response.status_code == 200:
+            posts = response.json()
+            for post in posts:
+                post_title = post.get("title", {}).get("rendered", "") if isinstance(post.get("title"), dict) else post.get("title", "")
+                # Check if title matches exactly or is very similar (allowing for HTML encoding)
+                if post_title.lower() == title.lower() or post_title.replace("&#8217;", "'").lower() == title.lower():
+                    return post["id"]
+    except Exception as e:
+        log_message(f"WARNING: Could not check for duplicates: {e}")
+
+    return None
+
+
 def find_most_recent_post(auth: tuple, category_id: Optional[int] = None) -> Optional[Dict]:
     """Find the most recent blog post (scheduled or published)"""
     posts_url = f"{WP_URL.rstrip('/')}/wp-json/wp/v2/posts"
-    
+
     params = {
         "per_page": 10,
         "orderby": "date",
         "order": "desc"
     }
-    
+
     if category_id:
         params["categories"] = category_id
-    
+
     response = requests.get(
         posts_url,
         params=params,
         auth=auth,
         timeout=10
     )
-    
+
     if response.status_code == 200:
         posts = response.json()
         if posts:
             # Return the most recent post
             return posts[0]
-    
+
     return None
 
 
@@ -663,9 +670,9 @@ def regenerate_and_update_post():
     log_message(f"  Title: {post_title}")
     log_message(f"  Status: {post_status}")
     
-    # Get recent articles
-    log_message("\nFetching recent articles from knowledge base...")
-    articles = get_recent_articles(days=7, limit=7)
+    # Get recent articles from external news sources (no internal data)
+    log_message("\nFetching recent articles from external news sources...")
+    articles = get_external_news_articles(days=7, limit=7)
     
     if not articles:
         log_message("No recent articles found. Cannot regenerate.")
@@ -707,10 +714,10 @@ def main():
     log_message("=" * 70)
     log_message("Weekly Google Ads Blog Post Generator Started")
     log_message("=" * 70)
-    
-    # Get recent articles
-    log_message("Fetching recent articles from knowledge base...")
-    articles = get_recent_articles(days=7, limit=7)
+
+    # Get recent articles from external news sources (no internal data)
+    log_message("Fetching recent articles from external news sources...")
+    articles = get_external_news_articles(days=7, limit=7)
     
     if not articles:
         log_message("No recent articles found. Skipping blog post generation.")
