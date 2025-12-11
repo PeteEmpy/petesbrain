@@ -12,30 +12,34 @@ PetesBrain is an AI-powered business management system for a Google Ads agency. 
 
 ---
 
-## 🚨 MANDATORY: Architecture-First Principle
+## Current System Architecture
 
-**This is non-negotiable. Before making ANY decisions about infrastructure, configuration, or architecture:**
+**⚠️ IMPORTANT**: The system is currently in a pre-migration state. On December 10, 2025, a comprehensive architectural migration was attempted but was rolled back due to widespread agent failures. The documentation below describes the **current, working state** - not an aspirational future architecture.
 
-1. **Read the current architecture documentation first**: `docs/ARCHITECTURAL-MIGRATION-DEC10-2025.md`
-2. **Understand the documented design**: This is the source of truth for how the system works
-3. **Operate within the documented architecture**: All decisions must align with it
-4. **Never assume patterns or propose alternatives**: If something doesn't match the documented architecture, the documentation is correct
+**For full context on what happened**: See `docs/MIGRATION-POSTMORTEM.md`
 
-### Why This Matters
+### Current Architecture (As of December 11, 2025)
 
-The architecture is explicitly documented so I don't have to guess, assume, or invent patterns. Every major system decision (credentials, configuration, agent setup, MCP servers) is already decided and documented.
+**Agents & Configuration**:
+- Agents use LaunchAgent `.plist` files in `~/Library/LaunchAgents/`
+- Agent configurations use hardcoded paths (352 locations throughout codebase)
+- Some agents have credentials embedded in plist EnvironmentVariables (pre-migration state)
+- Individual Python virtual environments per agent or agent group
 
-**Before you even have to ask "is this the right architecture?", I should already know because I've read the documentation.**
+**MCP Servers & Credentials** (successfully migrated):
+- MCP servers configured in `.mcp.json`
+- Global `env` section contains shared credentials (ANTHROPIC_API_KEY, GMAIL credentials)
+- Individual `env` sections per MCP server for API-specific keys
 
-### Current Architecture (As of December 10, 2025)
+**Task System** (dual system, does NOT sync):
+- Internal `tasks.json` files in `clients/{client}/` for client work
+- Google Tasks API for personal reminders and AI-generated suggestions
+- These systems are intentionally separate - do NOT mix
 
-- **Credentials**: Centralized in `.mcp.json` (global `env` section)
-- **Agents**: LaunchAgent `.plist` files in `~/Library/LaunchAgents/`
-- **MCP Servers**: Configured in `.mcp.json` with individual `env` sections per server
-- **Task System**: Dual system (internal `tasks.json` + Google Tasks, do NOT mix)
-- **Source of Truth**: `docs/ARCHITECTURAL-MIGRATION-DEC10-2025.md`
-
-This is not a suggestion. This is how the system works.
+**Agent Health** (as of Dec 11, 2025):
+- 72 LaunchAgents configured
+- 70/72 healthy after emergency fixes
+- Core functionality restored (daily reports, email sync, budget monitoring, etc.)
 
 ---
 
