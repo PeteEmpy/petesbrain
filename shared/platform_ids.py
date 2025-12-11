@@ -371,6 +371,106 @@ def validate_ga4_property_id(property_id: str) -> bool:
     return bool(re.match(r'^\d{9}$', str(property_id)))
 
 
+def parse_retainer_amount(context_path: Path) -> Optional[int]:
+    """
+    Parse Monthly Retainer amount from a CONTEXT.md file.
+
+    Args:
+        context_path: Path to the CONTEXT.md file
+
+    Returns:
+        Retainer amount in £ (as integer), or None if not found
+
+    Examples:
+        - "Monthly Retainer: £1,500/month" → 1500
+        - "Monthly Retainer: £2,000" → 2000
+        - "Not found in file" → None
+    """
+    if not context_path.exists():
+        return None
+
+    try:
+        content = context_path.read_text()
+    except Exception:
+        return None
+
+    # Search for Monthly Retainer pattern
+    # Matches: "Monthly Retainer: £X,XXX" or "Monthly Retainer: £X,XXX/month"
+    retainer_match = re.search(
+        r'\*\*Monthly Retainer\*\*:\s*£([\d,]+)',
+        content,
+        re.IGNORECASE
+    )
+
+    if retainer_match:
+        # Extract number and remove commas
+        amount_str = retainer_match.group(1).replace(',', '')
+        try:
+            return int(amount_str)
+        except ValueError:
+            return None
+
+    return None
+
+
+def get_all_client_retainers(source: str = 'context') -> Dict[str, Optional[int]]:
+    """
+    Get Monthly Retainer amounts for all clients.
+
+    Args:
+        source: 'context' to parse CONTEXT.md files (currently only option)
+
+    Returns:
+        Dictionary mapping client names to retainer amounts in £
+        Example: {'smythson': 1500, 'tree2mydoor': 2000, 'unknown-client': None}
+    """
+    retainers = {}
+
+    for client_dir in CLIENTS_PATH.iterdir():
+        if client_dir.is_dir() and not client_dir.name.startswith(('_', '.')):
+            context_path = client_dir / "CONTEXT.md"
+            retainer = parse_retainer_amount(context_path)
+            retainers[client_dir.name] = retainer
+
+    return retainers
+
+
+def calculate_total_mrr() -> Dict[str, Union[int, float]]:
+    """
+    Calculate total Monthly Recurring Revenue from all client retainers.
+
+    Returns:
+        Dictionary with:
+        - 'total_mrr': Sum of all retainers in £
+        - 'clients_with_retainer': Count of clients with documented retainer
+        - 'clients_without_retainer': Count of clients without documented retainer
+        - 'all_retainers': Dict of client → retainer mapping
+
+    Example output:
+        {
+            'total_mrr': 18500,
+            'clients_with_retainer': 12,
+            'clients_without_retainer': 3,
+            'all_retainers': {
+                'smythson': 1500,
+                'tree2mydoor': 2000,
+                'unknown-client': None
+            }
+        }
+    """
+    all_retainers = get_all_client_retainers()
+
+    documented = [amount for amount in all_retainers.values() if amount is not None]
+    total = sum(documented) if documented else 0
+
+    return {
+        'total_mrr': total,
+        'clients_with_retainer': len(documented),
+        'clients_without_retainer': len(all_retainers) - len(documented),
+        'all_retainers': all_retainers
+    }
+
+
 # CLI interface for testing
 if __name__ == "__main__":
     import sys
