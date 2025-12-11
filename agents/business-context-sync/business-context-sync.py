@@ -259,10 +259,11 @@ def add_document_history_entry() -> bool:
     except Exception:
         return False
 
-    # Find Document History table
+    # Find Document History table (flexible heading levels and formatting)
     history_match = re.search(
-        r'(### Document History\n\n\| Date \| Change \| Updated By \|\n\|\-+\|+\n)',
-        content
+        r'(#{2,3} Document History\n.*?\n\| Date.*?\|.*?\|.*?\|)',
+        content,
+        re.DOTALL
     )
 
     if not history_match:
