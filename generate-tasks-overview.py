@@ -9,8 +9,24 @@ This single script generates BOTH views to ensure they're always in sync.
 import json
 import re
 import sys
+import os
 from datetime import datetime
 from pathlib import Path
+
+# Add project root to path for centralized imports
+sys.path.insert(0, str(Path(__file__).parent))
+
+# Import centralized path discovery
+try:
+    from shared.paths import get_project_root
+    PROJECT_ROOT = get_project_root()
+except ImportError:
+    # Fallback: use PETESBRAIN_ROOT environment variable or relative path
+    project_root_env = os.getenv('PETESBRAIN_ROOT')
+    if project_root_env:
+        PROJECT_ROOT = Path(project_root_env)
+    else:
+        PROJECT_ROOT = Path(__file__).parent
 
 def escape_template_strings(text):
     """Escape backticks and ${} to prevent breaking JavaScript template strings"""
@@ -238,7 +254,7 @@ print("="*70)
 print("GENERATING STANDARD OVERVIEW (by client)")
 print("="*70)
 
-clients_dir = Path('/Users/administrator/Documents/PetesBrain.nosync/clients')
+clients_dir = PROJECT_ROOT / 'clients'
 client_data = []
 
 for client_dir in sorted(clients_dir.iterdir()):
@@ -307,8 +323,8 @@ print(f"Total active: {sum(c['active_count'] for c in client_data)}")
 print(f"Total P0: {sum(c['p0_count'] for c in client_data)}")
 
 # Write the standard overview HTML file
-output_file = Path('/Users/administrator/Documents/PetesBrain/tasks-overview.html')
-template_file = Path('/Users/administrator/Documents/PetesBrain/tasks-overview-template.html')
+output_file = PROJECT_ROOT / 'tasks-overview.html'
+template_file = PROJECT_ROOT / 'tasks-overview-template.html'
 
 if template_file.exists():
     with open(template_file, 'r') as f:
@@ -366,7 +382,7 @@ for client_dir in sorted(clients_dir.iterdir()):
                     all_tasks.append(task)
 
 # Also load roksys tasks
-roksys_tasks_file = Path('/Users/administrator/Documents/PetesBrain/roksys/tasks.json')
+roksys_tasks_file = PROJECT_ROOT / 'roksys' / 'tasks.json'
 if roksys_tasks_file.exists():
     with open(roksys_tasks_file, 'r') as f:
         data = json.load(f)
@@ -490,8 +506,8 @@ print(f"P3: {priority_data['P3']['total_count']} tasks")
 print(f"{'='*60}")
 
 # Write the priority overview HTML file
-priority_output_file = Path('/Users/administrator/Documents/PetesBrain/tasks-overview-priority.html')
-priority_template_file = Path('/Users/administrator/Documents/PetesBrain/tasks-overview-priority-template.html')
+priority_output_file = PROJECT_ROOT / 'tasks-overview-priority.html'
+priority_template_file = PROJECT_ROOT / 'tasks-overview-priority-template.html'
 
 if priority_template_file.exists():
     with open(priority_template_file, 'r') as f:
