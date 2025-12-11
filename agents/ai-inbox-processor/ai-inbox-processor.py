@@ -32,8 +32,9 @@ from difflib import SequenceMatcher
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-# Import ClientTasksService
+# Import ClientTasksService and Keychain secrets
 from shared.client_tasks_service import ClientTasksService
+from shared.secrets import get_secret
 
 # Anthropic API
 try:
@@ -258,7 +259,7 @@ def read_context_md_smart(client: str, note_content: str) -> Optional[str]:
             return full_content
         
         # Use AI to extract relevant sections
-        api_key = os.environ.get('ANTHROPIC_API_KEY')
+        api_key = get_secret('ANTHROPIC_API_KEY', fallback_env_var='ANTHROPIC_API_KEY')
         if not api_key or not ANTHROPIC_AVAILABLE:
             # Fallback: return first 3000 chars
             return full_content[:3000]
@@ -475,9 +476,9 @@ def execute_claude_prompt(payload: str, note_filename: str) -> bool:
         print("  ⚠️  Anthropic library not available for direct execution")
         return False
 
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    api_key = get_secret('ANTHROPIC_API_KEY', fallback_env_var='ANTHROPIC_API_KEY')
     if not api_key:
-        print("  ⚠️  ANTHROPIC_API_KEY not set for direct execution")
+        print("  ⚠️  ANTHROPIC_API_KEY not set for direct execution (check Keychain or environment)")
         return False
 
     print(f"  ⚡ Fast-path: Direct Claude execution")
@@ -703,9 +704,9 @@ def enhance_note_with_ai(
     if not ANTHROPIC_AVAILABLE:
         return {'type': 'general', 'enhanced_content': note_content}
 
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    api_key = get_secret('ANTHROPIC_API_KEY', fallback_env_var='ANTHROPIC_API_KEY')
     if not api_key:
-        print("  ⚠️  ANTHROPIC_API_KEY not set, skipping AI enhancement")
+        print("  ⚠️  ANTHROPIC_API_KEY not set, skipping AI enhancement (check Keychain or environment)")
         return {'type': 'general', 'enhanced_content': note_content}
 
     # Detect if this is client-related

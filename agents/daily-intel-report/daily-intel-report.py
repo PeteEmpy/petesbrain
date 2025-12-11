@@ -30,6 +30,9 @@ import markdown
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+# Import Keychain secrets module
+from shared.secrets import get_secret
+
 def get_today_str():
     """Get today's date as YYYY-MM-DD"""
     return datetime.now().strftime('%Y-%m-%d')
@@ -863,8 +866,8 @@ def generate_ai_summary(briefing_content):
     """
     try:
         import anthropic
-        
-        api_key = os.getenv('ANTHROPIC_API_KEY')
+
+        api_key = get_secret('ANTHROPIC_API_KEY', fallback_env_var='ANTHROPIC_API_KEY')
         if not api_key:
             return "*AI summary unavailable - ANTHROPIC_API_KEY not set*"
         
@@ -1314,13 +1317,13 @@ def send_email_briefing(briefing_content, briefing_path):
     - GMAIL_APP_PASSWORD: Gmail app password
     """
     try:
-        # Get credentials from environment
-        gmail_user = os.getenv('GMAIL_USER')
-        gmail_password = os.getenv('GMAIL_APP_PASSWORD')
+        # Get credentials from Keychain with fallback to environment
+        gmail_user = get_secret('GMAIL_USER', fallback_env_var='GMAIL_USER')
+        gmail_password = get_secret('GMAIL_APP_PASSWORD', fallback_env_var='GMAIL_APP_PASSWORD')
 
         if not gmail_user or not gmail_password:
             print("⚠️  Email credentials not configured")
-            print("   Set GMAIL_USER and GMAIL_APP_PASSWORD environment variables")
+            print("   Set GMAIL_USER and GMAIL_APP_PASSWORD in macOS Keychain or environment variables")
             return False
 
         # Convert markdown to HTML

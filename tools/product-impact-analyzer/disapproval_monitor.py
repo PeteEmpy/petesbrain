@@ -34,6 +34,10 @@ from email.mime.multipart import MIMEMultipart
 sys.path.insert(0, str(Path(__file__).parent))
 from merchant_center_tracker import MerchantCenterTracker
 
+# Import Keychain secrets
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from shared.secrets import get_secret
+
 
 @dataclass
 class DisapprovalAlert:
@@ -200,9 +204,9 @@ class DisapprovalMonitor:
 
     def send_email_alert(self, alerts: List[DisapprovalAlert]):
         """Send email alert for disapprovals"""
-        gmail_password = os.getenv('GMAIL_APP_PASSWORD')
+        gmail_password = get_secret('GMAIL_APP_PASSWORD', fallback_env_var='GMAIL_APP_PASSWORD')
         if not gmail_password:
-            self.log("⚠️  GMAIL_APP_PASSWORD not set - cannot send email")
+            self.log("⚠️  GMAIL_APP_PASSWORD not set - cannot send email (check Keychain or environment)")
             return
 
         # Group alerts by severity
