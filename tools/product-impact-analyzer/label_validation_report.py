@@ -47,7 +47,11 @@ def load_recent_transitions(client_name: str, days: int = 7) -> List[Dict]:
     if current_file.exists():
         with open(current_file, 'r') as f:
             data = json.load(f)
-            transitions.extend(data.get("transitions", []))
+            # Handle root-level array format
+            if isinstance(data, list):
+                transitions.extend(data)
+            else:
+                transitions.extend(data.get("transitions", []))
 
     # Filter to last N days
     cutoff_date = (today - timedelta(days=days)).isoformat()
@@ -77,8 +81,10 @@ def analyze_transitions_impact(transitions: List[Dict]) -> Dict[str, List[Dict]]
     hierarchy = {"heroes": 4, "sidekicks": 3, "villains": 2, "zombies": 1}
 
     for t in transitions:
-        from_label = t.get("from", "").lower()
-        to_label = t.get("to", "").lower()
+        from_label = t.get("from_label") or t.get("from", "")
+        to_label = t.get("to_label") or t.get("to", "")
+        from_label = from_label.lower() if from_label else ""
+        to_label = to_label.lower() if to_label else ""
 
         from_rank = hierarchy.get(from_label, 0)
         to_rank = hierarchy.get(to_label, 0)

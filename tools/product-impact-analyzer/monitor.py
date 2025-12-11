@@ -248,7 +248,7 @@ class ProductMonitor:
                         product_title=current_metrics['product_title'],
                         message=f"Clicks dropped {abs(click_change_pct):.1f}% in last 24 hours",
                         metric_value=click_change_pct,
-                        threshold_value=-click_threshold,
+                        threshold_value=-click_drop_threshold_pct,
                         timestamp=datetime.now().isoformat()
                     ))
 

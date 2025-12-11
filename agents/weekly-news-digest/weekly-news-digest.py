@@ -32,7 +32,7 @@ except ImportError:
     sys.exit(1)
 
 # Configuration
-PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain")
+PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain.nosync")
 KB_ROOT = PROJECT_ROOT / "roksys/knowledge-base"
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']

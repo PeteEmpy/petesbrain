@@ -1,4 +1,4 @@
-#!/Users/administrator/Documents/PetesBrain/shared/scripts/.venv/bin/python3
+#!/usr/local/bin/python3
 """
 WheatyBags Search Campaign Monitoring Script
 

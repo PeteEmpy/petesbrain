@@ -15,6 +15,20 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent.resolve()
 PROJECT_ROOT = SCRIPT_DIR.parent.parent.resolve()
 
+# Add project root to path for imports
+sys.path.insert(0, str(PROJECT_ROOT))
+
+# Import centralized path discovery
+from shared.paths import get_project_root as get_project_root_paths
+
+# Verify project root can be discovered
+try:
+    PROJECT_ROOT = get_project_root_paths()
+except RuntimeError as e:
+    print(f"Error: {e}")
+    print("Make sure PETESBRAIN_ROOT environment variable is set or run from project directory")
+    sys.exit(1)
+
 # Set working directory explicitly
 os.chdir(str(SCRIPT_DIR))
 

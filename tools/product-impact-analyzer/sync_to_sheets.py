@@ -107,10 +107,16 @@ class SheetsSync:
         clients = self.get_enabled_clients()
         self.log(f"Syncing {len(clients)} enabled clients...")
 
-        for client in clients:
+        for idx, client in enumerate(clients):
             try:
                 self.sync_client(client)
                 self.stats['clients_processed'] += 1
+
+                # Rate limit: Add delay between clients to avoid Google Sheets API quota issues
+                # Google Sheets allows ~300 write requests per minute per user
+                if idx < len(clients) - 1:  # Don't delay after last client
+                    time.sleep(2)  # 2 second delay between clients
+
             except Exception as e:
                 error_msg = f"Error syncing {client['name']}: {str(e)}"
                 self.log(error_msg, 'ERROR')

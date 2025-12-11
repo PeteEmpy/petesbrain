@@ -79,8 +79,10 @@ class TaskNotesHandler(BaseHTTPRequestHandler):
         # Suppress default logging
         pass
 
-def run_server(port=8765):
+def run_server(port=8766):
     server_address = ('localhost', port)
+    # Allow reuse of port if previous instance hasn't fully closed
+    HTTPServer.allow_reuse_address = True
     httpd = HTTPServer(server_address, TaskNotesHandler)
 
     print(f"🚀 Task Notes Server running on http://localhost:{port}")

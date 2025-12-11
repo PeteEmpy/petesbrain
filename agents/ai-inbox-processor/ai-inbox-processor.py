@@ -28,13 +28,22 @@ from pathlib import Path
 from typing import Optional, Dict, List, Tuple
 from difflib import SequenceMatcher
 
-# Add project root to path
+# Add project root to path (from centralized discovery)
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-# Import ClientTasksService and Keychain secrets
+# Import centralized path discovery, ClientTasksService, and Keychain secrets
+from shared.paths import get_project_root
 from shared.client_tasks_service import ClientTasksService
 from shared.secrets import get_secret
+
+# Verify project root can be discovered
+try:
+    PROJECT_ROOT = get_project_root()
+except RuntimeError as e:
+    print(f"Error: {e}")
+    print("Make sure PETESBRAIN_ROOT environment variable is set or run from project directory")
+    sys.exit(1)
 
 # Anthropic API
 try:

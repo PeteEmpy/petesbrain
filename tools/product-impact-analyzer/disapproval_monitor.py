@@ -34,9 +34,21 @@ from email.mime.multipart import MIMEMultipart
 sys.path.insert(0, str(Path(__file__).parent))
 from merchant_center_tracker import MerchantCenterTracker
 
-# Import Keychain secrets
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+# Add project root to path for centralized imports
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+# Import centralized path discovery and Keychain secrets
+from shared.paths import get_project_root as get_project_root_paths
 from shared.secrets import get_secret
+
+# Verify project root can be discovered
+try:
+    PROJECT_ROOT = get_project_root_paths()
+except RuntimeError as e:
+    print(f"Error: {e}")
+    print("Make sure PETESBRAIN_ROOT environment variable is set or run from project directory")
+    sys.exit(1)
 
 
 @dataclass
