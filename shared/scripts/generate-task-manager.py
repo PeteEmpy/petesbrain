@@ -74,6 +74,12 @@ def load_all_tasks():
                     all_reminders.append(reminder)
 
             if client_tasks:
+                # Sort tasks by priority first, then by due_date
+                priority_order = {'P0': 0, 'P1': 1, 'P2': 2, 'P3': 3}
+                client_tasks.sort(key=lambda t: (
+                    priority_order.get(t.get('priority', 'P2'), 2),
+                    t.get('due_date') or '9999-12-31'  # Tasks without due date go to end
+                ))
                 tasks_by_client[client_dir.name] = client_tasks
 
         except (json.JSONDecodeError, KeyError) as e:

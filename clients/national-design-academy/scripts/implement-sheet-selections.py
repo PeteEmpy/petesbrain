@@ -33,33 +33,47 @@ CUSTOMER_ID = "1994728449"
 SPREADSHEET_ID = "1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto"
 TOKEN_FILE = '/Users/administrator/.config/google-drive-mcp/tokens.json'
 
-# Map cell references to asset IDs (will be extended as sheet grows)
+# Map cell references to asset IDs (12 HIGH priority assets from 90-day analysis)
 ASSET_ID_MAP = {
-    'M2': '6501874539',  # Study Interior Design
-    'M3': '6542848540',  # Interior Design Diploma
-    'M4': '8680183789',  # Interior Design Courses
+    'M2': '6501874539',   # Study Interior Design (Oman/Saudi Diploma)
+    'M3': '6542848540',   # Interior Design Diploma (Oman/Saudi Diploma)
+    'M4': '8680183789',   # Interior Design Courses (Oman/Saudi Diploma)
+    'M5': '8680183789',   # Interior Design Courses (UAE Diploma)
+    'M6': '6542848540',   # Interior Design Diploma (UAE Diploma)
+    'M7': '8680134790',   # Online Interior Design Degrees (Oman/Saudi Degree)
+    'M8': '6503351051',   # Interior Design Degree (Oman/Saudi Degree)
+    'M9': '10422358209',  # Price-Match Guarantee (USA/Canada Diploma)
+    'M10': '8680183789',  # Interior Design Courses (USA/Canada Diploma)
+    'M11': '182887527317', # Intensive Fast-Track Diplomas (USA/Canada Diploma)
+    'M12': '8680134790',  # Online Interior Design Degrees (USA/Canada Degree)
+    'M13': '8680134790',  # Online Interior Design Degrees (UAE Degree)
 }
 
-# Map asset IDs to asset groups (from current sheet data)
+# Map rows to asset group info (from populate script data)
+ROW_TO_ASSET_GROUP = {
+    2: {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4', 'asset_type': 'HEADLINE'},
+    3: {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4', 'asset_type': 'HEADLINE'},
+    4: {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4', 'asset_type': 'HEADLINE'},
+    5: {'asset_group_id': '6574552905', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - UAE 175 no target 28/5', 'asset_type': 'HEADLINE'},
+    6: {'asset_group_id': '6574552905', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - UAE 175 no target 28/5', 'asset_type': 'HEADLINE'},
+    7: {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target', 'asset_type': 'HEADLINE'},
+    8: {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target', 'asset_type': 'HEADLINE'},
+    9: {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada 250 Split 11/3 No Target 29/5', 'asset_type': 'HEADLINE'},
+    10: {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada 250 Split 11/3 No Target 29/5', 'asset_type': 'HEADLINE'},
+    11: {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada 250 Split 11/3 No Target 29/5', 'asset_type': 'HEADLINE'},
+    12: {'asset_group_id': '6559669429', 'campaign_name': 'NDA | P Max | Interior Design Degree - USA/Canada 250 Split 11/3', 'asset_type': 'HEADLINE'},
+    13: {'asset_group_id': '6557276329', 'campaign_name': 'NDA | P Max | Interior Design Degree - UAE 175 No Target 24/4', 'asset_type': 'HEADLINE'},
+}
+
+# Map asset IDs to asset groups (legacy - kept for backwards compatibility)
 ASSET_TO_GROUP = {
-    '6501874539': {
-        'asset_group_id': '6482516710',
-        'campaign_id': '24127166631',
-        'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4',
-        'asset_type': 'HEADLINE'
-    },
-    '6542848540': {
-        'asset_group_id': '6482516710',
-        'campaign_id': '24127166631',
-        'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4',
-        'asset_type': 'HEADLINE'
-    },
-    '8680183789': {
-        'asset_group_id': '6482516710',
-        'campaign_id': '24127166631',
-        'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4',
-        'asset_type': 'HEADLINE'
-    },
+    '6501874539': {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
+    '6542848540': {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
+    '8680183789': {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
+    '8680134790': {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
+    '6503351051': {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
+    '10422358209': {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada...', 'asset_type': 'HEADLINE'},
+    '182887527317': {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada...', 'asset_type': 'HEADLINE'},
 }
 
 def get_sheets_service():
@@ -68,9 +82,9 @@ def get_sheets_service():
         token_data = json.load(f)
 
     creds = Credentials(
-        token=token_data['token'],
+        token=token_data.get('access_token') or token_data.get('token'),
         refresh_token=token_data.get('refresh_token'),
-        token_uri=token_data.get('token_uri'),
+        token_uri=token_data.get('token_uri', 'https://oauth2.googleapis.com/token'),
         client_id=token_data.get('client_id'),
         client_secret=token_data.get('client_secret')
     )
@@ -125,7 +139,8 @@ def build_mutations(selections, alternatives_data):
         if not asset_id:
             continue
 
-        asset_info = ASSET_TO_GROUP.get(asset_id)
+        # Use row-based mapping first (more accurate per-campaign), fallback to asset-based
+        asset_info = ROW_TO_ASSET_GROUP.get(row_idx) or ASSET_TO_GROUP.get(asset_id)
         if not asset_info:
             continue
 
@@ -151,7 +166,8 @@ def build_mutations(selections, alternatives_data):
                 'mutation': mutation,
                 'asset_info': asset_info,
                 'original_asset_id': asset_id,
-                'new_text': selected_value
+                'new_text': selected_value,
+                'row': row_idx
             })
 
         changes.append({

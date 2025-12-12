@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-Add data validation dropdowns to NDA PMax HIGH priority assets only
-- M2, M3, M4 (HIGH priority only)
+Add data validation dropdowns to NDA PMax HIGH priority assets
+- M2:M13 (12 HIGH priority assets)
 - Includes "Keep" as first option (default)
 - Allows text editing (strict=False)
+
+Updated: Dec 12, 2025 - Extended to 12 HIGH priority rows from 90-day analysis
 """
 
 from googleapiclient.discovery import build
@@ -15,11 +17,21 @@ SPREADSHEET_ID = '1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto'
 TOKEN_FILE = '/Users/administrator/.config/google-drive-mcp/tokens.json'
 ALTERNATIVES_FILE = '/Users/administrator/Documents/PetesBrain.nosync/clients/national-design-academy/scripts/final-alternatives-for-dropdowns.json'
 
-# Map HIGH priority cell rows to asset IDs
+# Map HIGH priority cell rows to asset IDs (from 90-day analysis)
+# Same asset text can appear in multiple campaigns - use same alternatives
 HIGH_PRIORITY_CELLS = {
-    'M2': '6501874539',  # Study Interior Design
-    'M3': '6542848540',  # Interior Design Diploma
-    'M4': '8680183789',  # Interior Design Courses
+    'M2': '6501874539',   # Study Interior Design (Oman/Saudi Diploma)
+    'M3': '6542848540',   # Interior Design Diploma (Oman/Saudi Diploma)
+    'M4': '8680183789',   # Interior Design Courses (Oman/Saudi Diploma)
+    'M5': '8680183789',   # Interior Design Courses (UAE Diploma)
+    'M6': '6542848540',   # Interior Design Diploma (UAE Diploma)
+    'M7': '8680134790',   # Online Interior Design Degrees (Oman/Saudi Degree)
+    'M8': '6503351051',   # Interior Design Degree (Oman/Saudi Degree)
+    'M9': '10422358209',  # Price-Match Guarantee (USA/Canada Diploma)
+    'M10': '8680183789',  # Interior Design Courses (USA/Canada Diploma)
+    'M11': '182887527317', # Intensive Fast-Track Diplomas (USA/Canada Diploma)
+    'M12': '8680134790',  # Online Interior Design Degrees (USA/Canada Degree)
+    'M13': '8680134790',  # Online Interior Design Degrees (UAE Degree)
 }
 
 def get_service():
@@ -28,9 +40,9 @@ def get_service():
         token_data = json.load(f)
 
     creds = Credentials(
-        token=token_data['token'],
+        token=token_data.get('access_token') or token_data.get('token'),
         refresh_token=token_data.get('refresh_token'),
-        token_uri=token_data.get('token_uri'),
+        token_uri=token_data.get('token_uri', 'https://oauth2.googleapis.com/token'),
         client_id=token_data.get('client_id'),
         client_secret=token_data.get('client_secret')
     )
@@ -49,43 +61,12 @@ def flatten_alternatives(asset_data):
             all_alts.extend(asset_data['section_breakdown'][section])
     return all_alts
 
-def clear_non_high_priority_dropdowns(service):
-    """Remove data validation from LOW/MEDIUM priority cells"""
-    print("\nClearing dropdowns from non-HIGH priority rows...")
-
-    requests = []
-
-    # Cells to clear: M5:M10 (LOW and MEDIUM priority)
-    requests.append({
-        "setDataValidation": {
-            "range": {
-                "sheetId": 0,
-                "startRowIndex": 4,      # Row 5 (0-indexed)
-                "endRowIndex": 10,       # Row 10
-                "startColumnIndex": 12,  # Column M
-                "endColumnIndex": 13
-            },
-            "rule": None  # None removes validation
-        }
-    })
-
-    try:
-        service.spreadsheets().batchUpdate(
-            spreadsheetId=SPREADSHEET_ID,
-            body={"requests": requests}
-        ).execute()
-        print("✅ Cleared dropdowns from non-HIGH priority rows (M5:M10)")
-        return True
-    except Exception as e:
-        print(f"⚠️  Could not clear non-HIGH rows: {str(e)}")
-        return False
-
-def add_dropdown_to_high_priority(service, cell_row, asset_id):
+def add_dropdown_to_high_priority(service, cell_row, asset_id, all_alternatives):
     """Add editable dropdown validation to HIGH priority cell with 'Keep' as default"""
 
-    # Load alternatives data
-    with open(ALTERNATIVES_FILE, 'r') as f:
-        all_alternatives = json.load(f)
+    if asset_id not in all_alternatives:
+        print(f"⚠️  No alternatives found for asset ID {asset_id}")
+        return False
 
     alternatives = flatten_alternatives(all_alternatives[asset_id])
 
@@ -101,7 +82,7 @@ def add_dropdown_to_high_priority(service, cell_row, asset_id):
 
     print(f"\nUpdating dropdown for {cell_row}...")
     print(f"  Asset: {all_alternatives[asset_id]['current']}")
-    print(f"  Total options: {len(dropdown_options)} (1 Keep + 15 alternatives)")
+    print(f"  Total options: {len(dropdown_options)} (1 Keep + {len(alternatives)} alternatives)")
 
     # Build the data validation request with strict=False for editability
     request = {
@@ -138,25 +119,28 @@ def add_dropdown_to_high_priority(service, cell_row, asset_id):
 
 if __name__ == '__main__':
     print("\n" + "="*70)
-    print("UPDATING NDA PMAX DROPDOWNS - HIGH PRIORITY ONLY")
+    print("UPDATING NDA PMAX DROPDOWNS - 12 HIGH PRIORITY ASSETS")
     print("="*70)
 
     service = get_service()
 
-    # Clear non-HIGH priority cells first
-    clear_non_high_priority_dropdowns(service)
+    # Load alternatives data once
+    print("\nLoading alternatives data...")
+    with open(ALTERNATIVES_FILE, 'r') as f:
+        all_alternatives = json.load(f)
+    print(f"✅ Loaded alternatives for {len(all_alternatives)} unique asset texts")
 
     # Update HIGH priority cells with "Keep" + alternatives
     success_count = 0
     for cell_row, asset_id in HIGH_PRIORITY_CELLS.items():
-        if add_dropdown_to_high_priority(service, cell_row, asset_id):
+        if add_dropdown_to_high_priority(service, cell_row, asset_id, all_alternatives):
             success_count += 1
 
     print("\n" + "="*70)
-    print(f"COMPLETE: {success_count}/3 HIGH priority dropdowns updated")
+    print(f"COMPLETE: {success_count}/{len(HIGH_PRIORITY_CELLS)} HIGH priority dropdowns updated")
     print("="*70)
     print("\nDropdown configuration:")
     print("  • 'Keep' is the first option (default - keeps current asset)")
-    print("  • 15 alternatives follow")
+    print("  • 15 alternatives follow (organised by Benefits, Technical, Quirky, CTA, Brand)")
     print("  • You can edit/type custom text if needed (strict validation disabled)")
-    print("  • Non-HIGH priority rows have been cleared")
+    print(f"  • Sheet URL: https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}")
