@@ -4,21 +4,6 @@
       "productMerchantId": 107469209,
       "productItemId": "00083",
       "productTitle": "The Bay Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 14,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "00083",
-      "productTitle": "The Bay Tree Gift",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -452,6 +437,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "00083",
+      "productTitle": "The Bay Tree Gift",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 6,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "00083-2",
       "productTitle": "Pair of Bay Tree Gifts - Medium (3L pot, 80cm height) - Medium (3L pot, 80cm height)",
       "date": "2025-11-14"
@@ -857,6 +857,36 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "00083-2",
+      "productTitle": "Pair of Bay Tree Gifts - Medium (3L pot, 80cm height) - Medium (3L pot, 80cm height)",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 5,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00083-2",
+      "productTitle": "Pair of Bay Tree Gifts - Medium (3L pot, 80cm height) - Medium (3L pot, 80cm height)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "00083x2",
       "productTitle": "Pair of Christmas Bay Tree Gifts - Medium (3L pot, 80cm height) - Medium (3L pot, 80cm height)",
       "date": "2025-12-02"
@@ -967,22 +997,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "00153",
-      "productTitle": "The Twisted Olive Tree Gift - 5L pot, 50cm Height - Olea Europaea Variety - Housewarming Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 73,
+      "impressions": 57,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -1432,7 +1447,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
+      "impressions": 490,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 2190000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00153",
+      "productTitle": "The Twisted Olive Tree Gift - 5L pot, 50cm Height - Olea Europaea Variety - Housewarming Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 17,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -1877,6 +1907,36 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "00153x",
+      "productTitle": "Christmas Twisted Olive Tree Gift - Small (5L pot) - Small (5L pot)",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 19,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00153x",
+      "productTitle": "Christmas Twisted Olive Tree Gift - Small (5L pot) - Small (5L pot)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "00269",
       "productTitle": "The Twisted Bay Tree Gift - Large (10L pot, 90-100cm height) - Large (10L pot, 90-100cm height)",
       "date": "2025-12-03"
@@ -2002,7 +2062,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2347,26 +2407,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "00281",
-      "productTitle": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 117,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 2240000
     }
   },
   {
@@ -2812,7 +2857,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 21,
+      "impressions": 203,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2822,16 +2867,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00281x",
-      "productTitle": "Christmas Mini Olive Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "00281",
+      "productTitle": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 79,
-      "clicks": 1,
+      "impressions": 8,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 40000
+      "costMicros": 0
     }
   },
   {
@@ -3277,7 +3322,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 51,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3287,12 +3332,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00286",
-      "productTitle": "The Olive Tree Gift - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
-      "date": "2025-11-11"
+      "productItemId": "00281x",
+      "productTitle": "Christmas Mini Olive Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3652,26 +3697,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 31,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "00286-2",
-      "productTitle": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 322,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 3890000
     }
   },
   {
@@ -4117,7 +4147,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 43,
+      "impressions": 381,
+      "clicks": 2,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 3390000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00286-2",
+      "productTitle": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4522,11 +4567,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
-      "clicks": 0,
+      "impressions": 26,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 2590000
     }
   },
   {
@@ -4687,26 +4732,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "00287",
-      "productTitle": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 858,
-      "clicks": 7,
-      "conversions": 1.037585,
-      "conversionsValue": 27.565755613,
-      "costMicros": 10760000
     }
   },
   {
@@ -5139,8 +5169,8 @@
     "metrics": {
       "impressions": 1413,
       "clicks": 25,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 1.0,
+      "conversionsValue": 22.65515,
       "costMicros": 59340000
     }
   },
@@ -5152,26 +5182,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 108,
-      "clicks": 3,
+      "impressions": 1269,
+      "clicks": 18,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4520000
+      "costMicros": 24650000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00287-2",
-      "productTitle": "Pair of Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
-      "date": "2025-11-11"
+      "productItemId": "00287",
+      "productTitle": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 350,
-      "clicks": 1,
-      "conversions": 0.037586,
-      "conversionsValue": 0.974798548,
-      "costMicros": 2350000
+      "impressions": 54,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -5647,11 +5677,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 64,
-      "clicks": 2,
+      "impressions": 685,
+      "clicks": 9,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1370000
+      "costMicros": 9300000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00287-2",
+      "productTitle": "Pair of Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 24,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -6097,7 +6142,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 64,
+      "impressions": 824,
+      "clicks": 3,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 4863098
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00287x",
+      "productTitle": "Christmas Olive Tree Gift - Large (5L pot 80cm height) - Large (5L pot 80cm height)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 26,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6277,7 +6337,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 27,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6287,12 +6347,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00590",
-      "productTitle": "Orange Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "00287x2x",
+      "productTitle": "Pair of Christmas Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 63,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6742,7 +6802,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 15,
+      "impressions": 106,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6752,12 +6812,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00592",
-      "productTitle": "Calamondin Tree Gift (5l Pot) - Year Round Beauty From Its Fragrant Flowers and Evergreen Leaves - Edible Citrus Fruit",
-      "date": "2025-11-11"
+      "productItemId": "00590",
+      "productTitle": "Orange Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 123,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -7207,7 +7267,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 80,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -7217,16 +7277,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00593",
-      "productTitle": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
-      "date": "2025-11-11"
+      "productItemId": "00592",
+      "productTitle": "Calamondin Tree Gift (5l Pot) - Year Round Beauty From Its Fragrant Flowers and Evergreen Leaves - Edible Citrus Fruit",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 643,
-      "clicks": 3,
+      "impressions": 10,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3000000
+      "costMicros": 0
     }
   },
   {
@@ -7758,30 +7818,45 @@
     "segments": {
       "productMerchantId": 107469209,
       "productItemId": "00593",
-      "productTitle": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 140,
-      "clicks": 1,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 870000
+      "costMicros": 0
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00593x",
-      "productTitle": "Christmas Lemon Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "00593",
+      "productTitle": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 43,
-      "clicks": 0,
+      "impressions": 1186,
+      "clicks": 10,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 12548767
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00593",
+      "productTitle": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 44,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 730000
     }
   },
   {
@@ -8272,7 +8347,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 19,
+      "impressions": 216,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8282,12 +8357,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "0062",
-      "productTitle": "Special Daughter Rose Bush Gift - 30-35cm in A 3.5L Pot - Orange-Pink Blooms With Soft-To-The-Touch Petals and Delicate Perfume",
-      "date": "2025-11-11"
+      "productItemId": "00593x",
+      "productTitle": "Christmas Lemon Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 23,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8737,22 +8812,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
-      "clicks": 0,
+      "impressions": 12,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 440000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "0071",
-      "productTitle": "You Are My Sunshine Rose Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "0062",
+      "productTitle": "Special Daughter Rose Bush Gift - 30-35cm in A 3.5L Pot - Orange-Pink Blooms With Soft-To-The-Touch Petals and Delicate Perfume",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 54,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9187,7 +9262,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 85,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9197,12 +9272,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00804",
-      "productTitle": "Lime Tree Gift - Evergreen Leaves & Year Round Flowers With A Sweet Fragrance - Great For Use In Cooking",
-      "date": "2025-11-11"
+      "productItemId": "0071",
+      "productTitle": "You Are My Sunshine Rose Bush Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 76,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9667,7 +9742,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
+      "impressions": 280,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00804",
+      "productTitle": "Lime Tree Gift - Evergreen Leaves & Year Round Flowers With A Sweet Fragrance - Great For Use In Cooking",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 18,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9982,7 +10072,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 29,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00813",
+      "productTitle": "Christmas Holly Tree Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -10242,21 +10347,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 60000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "00952",
-      "productTitle": "Magnolia Betty Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 19,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 180000
     }
   },
   {
@@ -10697,12 +10787,27 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "00954",
-      "productTitle": "Star Magnolia Tree Gift - 50cm High in a 21cm Pot - Bright White Coloured Flowers And Occasional Pink Coloured Magnolia",
-      "date": "2025-11-11"
+      "productItemId": "00952",
+      "productTitle": "Magnolia Betty Tree Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 36,
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00952",
+      "productTitle": "Magnolia Betty Tree Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11152,7 +11257,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 111,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00954",
+      "productTitle": "Star Magnolia Tree Gift - 50cm High in a 21cm Pot - Bright White Coloured Flowers And Occasional Pink Coloured Magnolia",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11553,11 +11673,41 @@
     "segments": {
       "productMerchantId": 107469209,
       "productItemId": "00955",
+      "productTitle": "",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00955",
       "productTitle": "Tulip Magnolia Tree Gift Delivered At A Height Of 30-50cm In A Gift-Wrapped 3L Pot - Pink, Tulip-Shaped Blossom",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 24,
+      "impressions": 145,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00955",
+      "productTitle": "Tulip Magnolia Tree Gift Delivered At A Height Of 30-50cm In A Gift-Wrapped 3L Pot - Pink, Tulip-Shaped Blossom",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11912,12 +12062,27 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "01035",
-      "productTitle": "Favourite Colour Japanese Maple Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "00970",
+      "productTitle": "Susan Magnolia Tree Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 32,
+      "impressions": 7,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "00970",
+      "productTitle": "Susan Magnolia Tree Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12412,22 +12577,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "01089",
-      "productTitle": "Olive Bush Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 25,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12862,22 +13012,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "01089x",
-      "productTitle": "Christmas Olive Bush Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 45,
+      "impressions": 19,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -13327,26 +13462,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 33,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "01090",
-      "productTitle": "The Olive Tree Gift - 2L pot, 50cm Height - Suitable For Potted Or Planted Growth - Fragrant, White Blossoms Appear In Spring",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2444,
-      "clicks": 22,
-      "conversions": 2.966994,
-      "conversionsValue": 56.912252688,
-      "costMicros": 12740000
     }
   },
   {
@@ -13629,8 +13749,8 @@
     "metrics": {
       "impressions": 3048,
       "clicks": 33,
-      "conversions": 1.0,
-      "conversionsValue": 10.4453,
+      "conversions": 2.0,
+      "conversionsValue": 29.40045,
       "costMicros": 26622138
     }
   },
@@ -13644,8 +13764,8 @@
     "metrics": {
       "impressions": 4229,
       "clicks": 69,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 7.0,
+      "conversionsValue": 110.649299,
       "costMicros": 62380000
     }
   },
@@ -13657,22 +13777,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 293,
-      "clicks": 4,
+      "impressions": 3049,
+      "clicks": 34,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2490000
+      "costMicros": 25901208
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "01090-2",
-      "productTitle": "Pair of Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
-      "date": "2025-11-11"
+      "productItemId": "01090",
+      "productTitle": "The Olive Tree Gift - 2L pot, 50cm Height - Suitable For Potted Or Planted Growth - Fragrant, White Blossoms Appear In Spring",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 20,
+      "impressions": 115,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14122,7 +14242,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
+      "impressions": 51,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1270000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "01090-2",
+      "productTitle": "Pair of Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14407,7 +14542,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 59,
+      "impressions": 566,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 134805
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "01090x",
+      "productTitle": "Christmas Olive Tree Gift - Small (2L pot 50cm height) - Small (2L pot 50cm height)",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 23,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14587,7 +14737,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 53,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14597,12 +14747,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "01091",
-      "productTitle": "Mature Olive Tree",
-      "date": "2025-11-11"
+      "productItemId": "01090x2x",
+      "productTitle": "Pair of Christmas Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14977,26 +15127,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "01145",
-      "productTitle": "Satsuma Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 145,
-      "clicks": 2,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 510000
     }
   },
   {
@@ -15517,26 +15652,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 22,
-      "clicks": 0,
+      "impressions": 231,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1180000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "01262",
-      "productTitle": "Kaffir Lime Tree Gift - Large (60-80cm) In 5L Gift Wrapped Pot - Use The Aromatic Leaves In Any Oriental Recipe",
-      "date": "2025-11-11"
+      "productItemId": "01145",
+      "productTitle": "Satsuma Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 195,
-      "clicks": 4,
+      "impressions": 14,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3180000
+      "costMicros": 0
     }
   },
   {
@@ -15967,22 +16102,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 23,
-      "clicks": 0,
+      "impressions": 252,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 770000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "01277",
-      "productTitle": "Bay Tree Gift - Medium",
-      "date": "2025-11-11"
+      "productItemId": "01262",
+      "productTitle": "Kaffir Lime Tree Gift - Large (60-80cm) In 5L Gift Wrapped Pot - Use The Aromatic Leaves In Any Oriental Recipe",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 98,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16432,22 +16567,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "01684",
-      "productTitle": "Mini Calamondin Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 66,
+      "impressions": 31,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16897,7 +17017,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 147,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16907,12 +17027,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "01685",
-      "productTitle": "Mini Kaffir Lime Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "01684",
+      "productTitle": "Mini Calamondin Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 42,
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17388,11 +17508,41 @@
     "segments": {
       "productMerchantId": 107469209,
       "productItemId": "01685",
+      "productTitle": "",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "01685",
       "productTitle": "Mini Kaffir Lime Tree Gift",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 29,
+      "impressions": 289,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "01685",
+      "productTitle": "Mini Kaffir Lime Tree Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17814,8 +17964,8 @@
     "metrics": {
       "impressions": 247,
       "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 1.0,
+      "conversionsValue": 13.428483,
       "costMicros": 820000
     }
   },
@@ -17838,11 +17988,41 @@
     "segments": {
       "productMerchantId": 107469209,
       "productItemId": "02151",
+      "productTitle": "",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "02151",
       "productTitle": "Yuletide Camellia Gift",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 22,
+      "impressions": 286,
+      "clicks": 2,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1113648
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "02151",
+      "productTitle": "Yuletide Camellia Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18279,8 +18459,8 @@
     "metrics": {
       "impressions": 691,
       "clicks": 6,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 1.0,
+      "conversionsValue": 22.77515,
       "costMicros": 7520000
     }
   },
@@ -18292,22 +18472,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 66,
-      "clicks": 1,
+      "impressions": 689,
+      "clicks": 7,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 610000
+      "costMicros": 7850000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "02295",
-      "productTitle": "Star Jasmine Gift With Stunning Fragrant White Blooms - Hardy, Evergreen Climbing Plant",
-      "date": "2025-11-11"
+      "productItemId": "02219c-2",
+      "productTitle": "Christmas Bay Tree Gift - Medium Bay Tree (3L pot, 80cm height) - Medium Bay Tree (3L pot, 80cm height)",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 70,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18757,6 +18937,21 @@
       "date": "2025-12-11"
     },
     "metrics": {
+      "impressions": 33,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "02295",
+      "productTitle": "Star Jasmine Gift With Stunning Fragrant White Blooms - Hardy, Evergreen Climbing Plant",
+      "date": "2025-12-12"
+    },
+    "metrics": {
       "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
@@ -18952,7 +19147,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 42,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18962,12 +19157,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "03539",
-      "productTitle": "Dwarf Lemon Tree Gift - 25-35cm Tall - Zesty Fruit And Fragrant Flowers Up To 4 Times A Year",
-      "date": "2025-11-11"
+      "productItemId": "02540",
+      "productTitle": "Favourite Colour Japanese Maple Tree Gift - Purple - 40-70cm in a 3L Pot - Other Colours Available",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 97,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19462,22 +19657,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
-      "clicks": 0,
+      "impressions": 59,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1510000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "03539x",
-      "productTitle": "Christmas Mini Lemon Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "03539",
+      "productTitle": "Dwarf Lemon Tree Gift - 25-35cm Tall - Zesty Fruit And Fragrant Flowers Up To 4 Times A Year",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 32,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19927,22 +20122,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "04366",
-      "productTitle": "Favourite Colour Japanese Maple Tree Gift - Orange - With Personalised Card - 40 to 70cm, Grows To 2m",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 24,
+      "impressions": 17,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -20392,7 +20572,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -20838,15 +21018,45 @@
     "segments": {
       "productMerchantId": 107469209,
       "productItemId": "04479",
+      "productTitle": "",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "04479",
       "productTitle": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 59,
-      "clicks": 1,
+      "impressions": 763,
+      "clicks": 5,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1480000
+      "costMicros": 3170000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "04479",
+      "productTitle": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 34,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -21157,7 +21367,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
+      "impressions": 351,
+      "clicks": 4,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1090000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "04583",
+      "productTitle": "Mini Christmas Tree with Lights",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21412,7 +21637,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 23,
+      "impressions": 94,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21422,12 +21647,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "04592",
-      "productTitle": "Mini Potted Christmas Tree - Mini Potted Christmas Tree - Mini Potted Christmas Tree",
-      "date": "2025-11-11"
+      "productItemId": "04588",
+      "productTitle": "Tabletop Christmas Tree",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 24,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21862,22 +22087,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "05035",
-      "productTitle": "The Twisted Olive Tree Gift - Large (12L pot, 100-120cm height) - Large (12L pot, 100-120cm height)",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22219,21 +22429,6 @@
       "productMerchantId": 107469209,
       "productItemId": "110109",
       "productTitle": "12L Sorbus aucuparia 1.5m",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "110109",
-      "productTitle": "12L Sorbus aucuparia 1.5m",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -22508,21 +22703,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "111183",
-      "productTitle": "Pink Magnolia Tree Gift - 21cm Pot - 50cm In Height - Gorgeous Scented Purple-Pink Flowers Give The Wow Factor",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 45,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22957,7 +23137,7 @@
       "date": "2025-12-09"
     },
     "metrics": {
-      "impressions": 62,
+      "impressions": 61,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22985,6 +23165,21 @@
       "productItemId": "111183",
       "productTitle": "Pink Magnolia Tree Gift - 21cm Pot - 50cm In Height - Gorgeous Scented Purple-Pink Flowers Give The Wow Factor",
       "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 46,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "111183",
+      "productTitle": "Pink Magnolia Tree Gift - 21cm Pot - 50cm In Height - Gorgeous Scented Purple-Pink Flowers Give The Wow Factor",
+      "date": "2025-12-12"
     },
     "metrics": {
       "impressions": 8,
@@ -23168,21 +23363,6 @@
     },
     "metrics": {
       "impressions": 25,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "15cwrb",
-      "productTitle": "Crystal 15th Anniversary Rose Bush Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23632,7 +23812,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 65,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23642,12 +23822,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "20cwrb",
-      "productTitle": "China 20th Anniversary Rose Bush Gift - 3.5`l Pot, 30-50cm Height - Floribunda Variety With Soft-Pink Blooms",
-      "date": "2025-11-11"
+      "productItemId": "15cwrb",
+      "productTitle": "Crystal 15th Anniversary Rose Bush Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 146,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24097,7 +24277,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 27,
+      "impressions": 179,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24107,12 +24287,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "25swarg",
-      "productTitle": "Silver 25th Wedding Anniversary Rose Gift - 3.5L Pot - White Floribunda With A Good Scent",
-      "date": "2025-11-11"
+      "productItemId": "20cwrb",
+      "productTitle": "China 20th Anniversary Rose Bush Gift - 3.5`l Pot, 30-50cm Height - Floribunda Variety With Soft-Pink Blooms",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 39,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24562,22 +24742,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "35cwrb",
-      "productTitle": "Coral 35th Anniversary Rose Bush Gift - 3.5L Pot - Floribunda Variety - Apricot Blooms Have A Delicate Scent",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 127,
+      "impressions": 46,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25027,7 +25192,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 48,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25037,12 +25202,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "40rwrb",
-      "productTitle": "Ruby 40th Anniversary Rose Gift - 3.5L - Deep Red Ruby Hybrid Tea Variety With A Deep Scent",
-      "date": "2025-11-11"
+      "productItemId": "35cwrb",
+      "productTitle": "Coral 35th Anniversary Rose Bush Gift - 3.5L Pot - Floribunda Variety - Apricot Blooms Have A Delicate Scent",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 185,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25507,26 +25672,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 10,
-      "clicks": 1,
+      "impressions": 116,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 320000
+      "costMicros": 870000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "50gwrb",
-      "productTitle": "Golden 50th Anniversary Rose Gift - 3.5L - Yellow Hybrid Tea Variety - Wedding Anniversary Gift",
-      "date": "2025-11-11"
+      "productItemId": "40rwrb",
+      "productTitle": "Ruby 40th Anniversary Rose Gift - 3.5L - Deep Red Ruby Hybrid Tea Variety With A Deep Scent",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 321,
-      "clicks": 3,
-      "conversions": 3.0,
-      "conversionsValue": 43.647949,
-      "costMicros": 9200000
+      "impressions": 4,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -25959,9 +26124,24 @@
     "metrics": {
       "impressions": 292,
       "clicks": 4,
+      "conversions": 1.0,
+      "conversionsValue": 16.520983,
+      "costMicros": 9260000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "50gwrb",
+      "productTitle": "",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 9260000
+      "costMicros": 0
     }
   },
   {
@@ -25972,26 +26152,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 22,
-      "clicks": 0,
+      "impressions": 227,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 390000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "55ewrb",
-      "productTitle": "Emerald 55th Anniversary Rose Bush Gift - Vibrant Yellow Roses With Lush Emerald-Green Foliage - 3.5L Pot At A Height of 30-50cm",
-      "date": "2025-11-11"
+      "productItemId": "50gwrb",
+      "productTitle": "Golden 50th Anniversary Rose Gift - 3.5L - Yellow Hybrid Tea Variety - Wedding Anniversary Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 71,
-      "clicks": 0,
+      "impressions": 12,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 180000
     }
   },
   {
@@ -26092,7 +26272,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 38,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26102,16 +26282,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "60dwar",
-      "productTitle": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
-      "date": "2025-11-11"
+      "productItemId": "55ewrb",
+      "productTitle": "Emerald 55th Anniversary Rose Bush Gift - Vibrant Yellow Roses With Lush Emerald-Green Foliage - 3.5L Pot At A Height of 30-50cm",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 679,
-      "clicks": 8,
+      "impressions": 4,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4380000
+      "costMicros": 0
     }
   },
   {
@@ -26557,11 +26737,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 43,
-      "clicks": 1,
+      "impressions": 424,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 720000
+      "costMicros": 1180000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "60dwar",
+      "productTitle": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 20,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -26667,21 +26862,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 440000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "acf",
-      "productTitle": "Annual Citrus Tree Feed",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 36,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
     }
   },
   {
@@ -27127,22 +27307,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "aplpr",
-      "productTitle": "Little Princess Japanese Maple Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
+      "impressions": 22,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27287,12 +27452,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "apord",
-      "productTitle": "Orange Dream Japanese Maple Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "aplpr",
+      "productTitle": "Little Princess Japanese Maple Tree Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 37,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27742,7 +27907,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 18,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27752,16 +27917,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "aprbg",
-      "productTitle": "At Peace Rose Bush Gift - The Perfect Memorial - Plant In Memory Of Someone Special - Gone but not forgotten",
-      "date": "2025-11-11"
+      "productItemId": "apord",
+      "productTitle": "Orange Dream Japanese Maple Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 1800,
-      "clicks": 23,
-      "conversions": 2.03716,
-      "conversionsValue": 16.677687348,
-      "costMicros": 16190000
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -28149,8 +28314,8 @@
     "metrics": {
       "impressions": 2122,
       "clicks": 20,
-      "conversions": 1.0,
-      "conversionsValue": 5.676133,
+      "conversions": 2.0,
+      "conversionsValue": 26.217266,
       "costMicros": 10710000
     }
   },
@@ -28194,8 +28359,8 @@
     "metrics": {
       "impressions": 2078,
       "clicks": 31,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 5.0,
+      "conversionsValue": 33.638999,
       "costMicros": 19430000
     }
   },
@@ -28207,26 +28372,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 195,
-      "clicks": 1,
+      "impressions": 1685,
+      "clicks": 23,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 30000
+      "costMicros": 12280000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "b2br001",
-      "productTitle": "Name a Rose Corporate",
-      "date": "2025-11-11"
+      "productItemId": "aprbg",
+      "productTitle": "At Peace Rose Bush Gift - The Perfect Memorial - Plant In Memory Of Someone Special - Gone but not forgotten",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 7,
-      "clicks": 0,
+      "impressions": 103,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 450000
     }
   },
   {
@@ -28637,12 +28802,27 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "b2br002",
-      "productTitle": "Gift Wrapped Promotional Roses (Orders of 100+)",
-      "date": "2025-11-11"
+      "productItemId": "b2br001",
+      "productTitle": "Name a Rose Corporate",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "b2br001",
+      "productTitle": "Name a Rose Corporate",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -29033,21 +29213,6 @@
     },
     "metrics": {
       "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "b2bt001",
-      "productTitle": "Promotional Trees in Tubes",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 15,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -29497,26 +29662,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
+      "impressions": 4,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 40000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "b2bt002",
-      "productTitle": "Promotional Trees in Hessian Bags",
-      "date": "2025-11-11"
+      "productItemId": "b2bt001",
+      "productTitle": "Promotional Trees in Tubes",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 17,
-      "clicks": 0,
+      "impressions": 1,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 80000
     }
   },
   {
@@ -29932,22 +30097,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "b2bt003",
-      "productTitle": "Promotional Tree Cards",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -30332,6 +30482,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "b2bt003",
+      "productTitle": "Promotional Tree Cards",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "b2bt004",
       "productTitle": "Promo Trees in Triangle Gift Boxes",
       "date": "2025-11-13"
@@ -30587,12 +30752,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "b2bt005",
-      "productTitle": "Promotional Trees in Pots",
-      "date": "2025-11-11"
+      "productItemId": "b2bt004",
+      "productTitle": "Promo Trees in Triangle Gift Boxes",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -30983,21 +31148,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "blac",
-      "productTitle": "Blackthorn Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 28,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -31447,22 +31597,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "blu1",
-      "productTitle": "Blueberry Plant Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 42,
+      "impressions": 23,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -32002,26 +32137,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
+      "impressions": 16,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "blu22",
-      "productTitle": "Pink Blueberry Plant Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 28,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1120000
     }
   },
   {
@@ -32467,22 +32587,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "camp01",
-      "productTitle": "Camellia Plant Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
+      "impressions": 19,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -32887,22 +32992,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "camr01",
-      "productTitle": "Camellia Plant Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 16,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -33412,26 +33502,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
-      "clicks": 0,
+      "impressions": 103,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 620000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "camwsa",
-      "productTitle": "Camellia Plant Gift",
-      "date": "2025-11-11"
+      "productItemId": "camr01",
+      "productTitle": "The Camellia Plant Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 100,
-      "clicks": 1,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 140000
+      "costMicros": 0
     }
   },
   {
@@ -33832,7 +33922,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 27,
+      "impressions": 108,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "camwsa",
+      "productTitle": "The Camellia Plant Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -34073,21 +34178,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "crab",
-      "productTitle": "Crab Apple Tree Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -34537,7 +34627,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 35,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -34547,12 +34637,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "crbg",
-      "productTitle": "The Congratulations Rose Bush Gift - Rose Pink Floribunda Variety - Delivered in a 3.5L Pot",
-      "date": "2025-11-11"
+      "productItemId": "crab",
+      "productTitle": "Crab Apple Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 46,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35032,7 +35122,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 42,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "ctg13467",
+      "productTitle": "Tabletop Christmas Tree",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35107,7 +35212,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
+      "impressions": 74,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35117,12 +35222,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "f30rg",
-      "productTitle": "Fab at 30 Rose Bush Gift - 30th Birthday Present - 40-50cm High - 3.5L Pot - Cream-White Flowers",
-      "date": "2025-11-11"
+      "productItemId": "ctg17125",
+      "productTitle": "Mini Christmas Tree with White Star",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 15,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35572,26 +35677,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
-      "clicks": 1,
+      "impressions": 16,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 250000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "f40rg",
-      "productTitle": "Fab at 40 Rose Bush Gift - 40th Birthday Present - 3.5L Pot, 40-50cm in Height - Floribunda Variety With Soft Pink Flowers",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 77,
-      "clicks": 1,
-      "conversions": 1.0,
-      "conversionsValue": 16.166133,
-      "costMicros": 570000
+      "costMicros": 1510000
     }
   },
   {
@@ -36067,26 +36157,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
+      "impressions": 164,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "f50rg",
-      "productTitle": "Fab at 50 Rose Bush Gift - 3.5L - Apricot Floribunda Variety - 50th Birthday Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 89,
-      "clicks": 2,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 2080000
     }
   },
   {
@@ -36577,7 +36652,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
+      "impressions": 87,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -36587,16 +36662,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "f60rg",
-      "productTitle": "Fab at 60 Rose Bush Gift - 3.5L - Floribunda Variety With Red Blooms - Special 60th Birthday Gift",
-      "date": "2025-11-11"
+      "productItemId": "f50rg",
+      "productTitle": "Fab at 50 Rose Bush Gift - 3.5L - Apricot Floribunda Variety - 50th Birthday Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 181,
-      "clicks": 6,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3310000
+      "costMicros": 0
     }
   },
   {
@@ -37102,26 +37177,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 35,
-      "clicks": 1,
+      "impressions": 263,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 270000
+      "costMicros": 680000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "f70rg",
-      "productTitle": "Fab at 70 Rose Bush Gift - 3.5L 40-50cm Tall - 70th Birthday Gift - Pink Floribunda Variety",
-      "date": "2025-11-11"
+      "productItemId": "f60rg",
+      "productTitle": "Fab at 60 Rose Bush Gift - 3.5L - Floribunda Variety With Red Blooms - Special 60th Birthday Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 864,
-      "clicks": 17,
-      "conversions": 1.0,
-      "conversionsValue": 16.390983,
-      "costMicros": 8130000
+      "impressions": 8,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -37582,26 +37657,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 61,
-      "clicks": 1,
+      "impressions": 700,
+      "clicks": 4,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 260000
+      "costMicros": 2940000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "f80rg",
-      "productTitle": "Fab at 80 Rose Bush Gift - 3.5L Pot 40-50cm Tall - 80th Birthday Gift - Floribunda Variety With A Fresh Fragrance",
-      "date": "2025-11-11"
+      "productItemId": "f70rg",
+      "productTitle": "Fab at 70 Rose Bush Gift - 3.5L 40-50cm Tall - 70th Birthday Gift - Pink Floribunda Variety",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 235,
-      "clicks": 6,
+      "impressions": 30,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2300000
+      "costMicros": 600000
     }
   },
   {
@@ -37807,7 +37882,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
+      "impressions": 369,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -37817,16 +37892,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "ff-00287",
-      "productTitle": "Standard Olive Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "f80rg",
+      "productTitle": "Fab at 80 Rose Bush Gift - 3.5L Pot 40-50cm Tall - 80th Birthday Gift - Floribunda Variety With A Fresh Fragrance",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 73,
-      "clicks": 1,
+      "impressions": 14,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 650000
+      "costMicros": 0
     }
   },
   {
@@ -38377,26 +38452,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 40,
-      "clicks": 0,
+      "impressions": 459,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1180000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "ffrbg",
-      "productTitle": "A Faithful Friend Rose Bush Gift - Fragrant Yellow Blooms - In Memory Of A Dog, Cat Or Other Loyal Pet",
-      "date": "2025-11-11"
+      "productItemId": "ff-00287",
+      "productTitle": "Standard Olive Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 395,
-      "clicks": 6,
+      "impressions": 11,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2360000
+      "costMicros": 0
     }
   },
   {
@@ -38902,22 +38977,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
-      "clicks": 2,
+      "impressions": 377,
+      "clicks": 4,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2460000
+      "costMicros": 3710000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "figa",
-      "productTitle": "Small Fig Tree Gift for Planting - 40-70cm Height - Gift Wrapped Fruit Tree - Tree2mydoor",
-      "date": "2025-11-11"
+      "productItemId": "ffrbg",
+      "productTitle": "A Faithful Friend Rose Bush Gift - Fragrant Yellow Blooms - In Memory Of A Dog, Cat Or Other Loyal Pet",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 163,
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -39397,22 +39472,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 50,
-      "clicks": 0,
+      "impressions": 411,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 2740000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "garbi",
-      "productTitle": "Dwarf Cherry Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "figa",
+      "productTitle": "Small Fig Tree Gift for Planting - 40-70cm Height - Gift Wrapped Fruit Tree - Tree2mydoor",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 19,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -39862,22 +39937,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "gpbbp-placo",
-      "productTitle": "Solid Brass Bench Plaque",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 38,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -40309,21 +40369,6 @@
       "productMerchantId": 107469209,
       "productItemId": "grapc",
       "productTitle": "Red Grape Vine Gift Plant, Fruiting Grapevine For Wine, Table Grapes, Dessert Grapes, Edible Red Grapes",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "grapc",
-      "productTitle": "Red Grape Vine Gift Plant, Fruiting Grapevine For Wine, Table Grapes, Dessert Grapes, Edible Red Grapes",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -40742,12 +40787,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "grapg",
-      "productTitle": "White Grape Vine Gift Plant - 3L Pot - Grow Your Own Grapes - Seedless Grapes - Grape Vine For Sale",
-      "date": "2025-11-11"
+      "productItemId": "grapc",
+      "productTitle": "Red Grape Vine Gift Plant, Fruiting Grapevine For Wine, Table Grapes, Dessert Grapes, Edible Red Grapes",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 24,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -41197,26 +41242,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
+      "impressions": 27,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "gv-030",
-      "productTitle": "E-Gift Card",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 42,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 2340000
     }
   },
   {
@@ -41627,12 +41657,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "ha02",
-      "productTitle": "Pair of Mini Holly tree Gifts",
-      "date": "2025-12-09"
+      "productItemId": "gv-030",
+      "productTitle": "E-Gift Card",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -41642,12 +41672,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "hbrg-cream",
-      "productTitle": "Favourite Colour Happy Birthday Rose Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "ha02",
+      "productTitle": "Pair of Mini Holly tree Gifts",
+      "date": "2025-12-09"
     },
     "metrics": {
-      "impressions": 21,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -42072,21 +42102,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "hbrg-ornge",
-      "productTitle": "Favourite Colour Happy Birthday Rose Bush Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 40,
-      "clicks": 2,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 700000
     }
   },
   {
@@ -42527,12 +42542,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "hbrg-pink",
+      "productItemId": "hbrg-ornge",
       "productTitle": "Favourite Colour Happy Birthday Rose Bush Gift",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 39,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -42962,12 +42977,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "hbrg-red",
+      "productItemId": "hbrg-pink",
       "productTitle": "Favourite Colour Happy Birthday Rose Bush Gift",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -43382,12 +43397,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "hcrg",
-      "productTitle": "The Happy Couple Rose Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "hbrg-red",
+      "productTitle": "Favourite Colour Happy Birthday Rose Bush Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 38,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -43927,7 +43942,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 83,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -43937,12 +43952,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "limq1",
-      "productTitle": "Kumquat Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "hcrg",
+      "productTitle": "The Happy Couple Rose Bush Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 49,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -44392,7 +44407,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 156,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -44402,12 +44417,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "lmrbg",
-      "productTitle": "Loving Memories Rose Bush Gift - Loving Memories Patio Rose Bush - Loving Memories Patio Rose Bush",
-      "date": "2025-11-11"
+      "productItemId": "limq1",
+      "productTitle": "Kumquat Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 302,
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -44857,7 +44872,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 34,
+      "impressions": 268,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -44867,16 +44882,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "minmyrt-3l",
-      "productTitle": "The Mini Myrtle Present Tree - Large - 55cm Tall In A 3L Pot - Myrtus Communis 'Microphylla' - Hand Gift Wrapped",
-      "date": "2025-11-11"
+      "productItemId": "lmrbg",
+      "productTitle": "Loving Memories Rose Bush Gift - Loving Memories Patio Rose Bush - Loving Memories Patio Rose Bush",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 267,
-      "clicks": 7,
+      "impressions": 11,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2430000
+      "costMicros": 0
     }
   },
   {
@@ -45397,22 +45412,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 72,
-      "clicks": 3,
+      "impressions": 456,
+      "clicks": 11,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4390000
+      "costMicros": 8270000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "narbg",
-      "productTitle": "New Arrival Rose Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "minmyrt-3l",
+      "productTitle": "The Mini Myrtle Present Tree - Large - 55cm Tall In A 3L Pot - Myrtus Communis 'Microphylla' - Hand Gift Wrapped",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -46084,21 +46099,6 @@
       "productMerchantId": 107469209,
       "productItemId": "nbpp-plbab1",
       "productTitle": "Engraved Baby Plaque and Plinth",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "nbpp-plbab1",
-      "productTitle": "Engraved Baby Plaque and Plinth",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -46373,21 +46373,6 @@
     },
     "metrics": {
       "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "oaka",
-      "productTitle": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 335,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -46882,22 +46867,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 32,
-      "clicks": 0,
+      "impressions": 429,
+      "clicks": 4,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 2000000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "p00269",
-      "productTitle": "Twisted Bay Tree Gift (large)",
-      "date": "2025-11-11"
+      "productItemId": "oaka",
+      "productTitle": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 20,
+      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -47347,26 +47332,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "p01090-2",
-      "productTitle": "Pair of Small Olive Tree Gifts",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 3550000
     }
   },
   {
@@ -47777,6 +47747,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "p01090-2",
+      "productTitle": "Pair of Small Olive Tree Gifts",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 4,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "p30arg",
       "productTitle": "Pearl 30th Anniversary Rose Bush Gift",
       "date": "2025-12-06"
@@ -47827,26 +47812,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 27,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "pea",
-      "productTitle": "Peace Rose Bush Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 91,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 260000
     }
   },
   {
@@ -48337,7 +48307,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 100,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -48347,12 +48317,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "pmpp-plpet",
-      "productTitle": "Pet Memorial Plaque and Plinth",
-      "date": "2025-11-11"
+      "productItemId": "pea",
+      "productTitle": "Peace Rose Bush Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 15,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -48668,21 +48638,6 @@
     },
     "metrics": {
       "impressions": 9,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "ppap-placo",
-      "productTitle": "Engraved Plaque and Plinth",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -49292,6 +49247,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "ppap-placo1",
+      "productTitle": "Engraved Plaque and Plinth",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "pwatgp",
       "productTitle": "Pearl Wedding Anniversary Tree Gift Pack",
       "date": "2025-11-12"
@@ -49692,21 +49662,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "qerg",
-      "productTitle": "Queen Elizabeth Rose Bush Gift - Pink Floribunda Flowers - Voted The World's Favourite Rose",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 38,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 220000
     }
   },
   {
@@ -50147,9 +50102,24 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "rasyu",
-      "productTitle": "Raspberry Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "qerg",
+      "productTitle": "Queen Elizabeth Rose Bush Gift - Pink Floribunda Flowers - Voted The World's Favourite Rose",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 14,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "qerg",
+      "productTitle": "Queen Elizabeth Rose Bush Gift - Pink Floribunda Flowers - Voted The World's Favourite Rose",
+      "date": "2025-12-12"
     },
     "metrics": {
       "impressions": 1,
@@ -50572,22 +50542,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "roha",
-      "productTitle": "Anniversary Gift Rose Bush - Premium Live Potted Plant | Elegant Romantic Gesture for Loved Ones | Unique Garden Present from Tree2MyDoor",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 8,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -50873,36 +50828,6 @@
     },
     "metrics": {
       "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "rohr",
-      "productTitle": "Happy Retirement Rose Bush Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 65,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 240000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "rowa",
-      "productTitle": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 178,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -51397,22 +51322,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 37,
-      "clicks": 1,
+      "impressions": 370,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 370000
+      "costMicros": 710000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "rrbg",
-      "productTitle": "Remembrance Rose Bush Gift - 30-70cm in a 3.5L Pot - Summer Flowering Red Blooms - Memorial Tribute To A Loved One",
-      "date": "2025-11-11"
+      "productItemId": "rowa",
+      "productTitle": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 78,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -51907,26 +51832,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "rwpr",
-      "productTitle": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 137,
-      "clicks": 3,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 680000
     }
   },
   {
@@ -52402,7 +52312,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 69,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -52412,16 +52322,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "sgdrg",
-      "productTitle": "Special Grandad Rose Bush Gift - Rich, Bright Red Blooms - Grandpa Will Love This",
-      "date": "2025-11-11"
+      "productItemId": "rwpr",
+      "productTitle": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 33,
-      "clicks": 2,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1710000
+      "costMicros": 0
     }
   },
   {
@@ -52867,7 +52777,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -52877,16 +52787,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "silb",
-      "productTitle": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
-      "date": "2025-11-11"
+      "productItemId": "sgdrg",
+      "productTitle": "Special Grandad Rose Bush Gift - Rich, Bright Red Blooms - Grandpa Will Love This",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 90,
-      "clicks": 1,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 130000
+      "costMicros": 0
     }
   },
   {
@@ -53347,22 +53257,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
-      "clicks": 0,
+      "impressions": 221,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1310000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "sloebg",
-      "productTitle": "Sloe Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "silb",
+      "productTitle": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -53807,12 +53717,27 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "smrg",
-      "productTitle": "Special Mum Rose Bush Gift - 3.5L Pot 30-35cm - Mummy, Mom, Mother - Pink Blooms",
-      "date": "2025-11-11"
+      "productItemId": "sloebg",
+      "productTitle": "Sloe Bush Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 30,
+      "impressions": 11,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "sloebg",
+      "productTitle": "Sloe Bush Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -54262,7 +54187,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 21,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -54802,7 +54727,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -54967,22 +54892,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-blac-placo",
-      "productTitle": "Anniversary Tree Gift Pack - Native Blackthorn Sapling - Plaque, Plinth, Tree Protector and Stake",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -55337,6 +55247,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "tgpa-blac-placo",
+      "productTitle": "Anniversary Tree Gift Pack - Native Blackthorn Sapling - Plaque, Plinth, Tree Protector and Stake",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "tgpa-blac-placo1",
       "productTitle": "Anniversary Tree Gift Pack",
       "date": "2025-11-12"
@@ -55478,21 +55403,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-crab-placo",
-      "productTitle": "Anniversary Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -55913,21 +55823,6 @@
     },
     "metrics": {
       "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-oaka-placo",
-      "productTitle": "Anniversary Oak Tree Gift Pack - With Wooden Plinth, Tree Protector Tube And Stake - Safely Delivered In Custom Packaging - Native Sapling",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 71,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -56377,6 +56272,21 @@
       "date": "2025-12-11"
     },
     "metrics": {
+      "impressions": 8,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "tgpa-oaka-placo",
+      "productTitle": "Anniversary Oak Tree Gift Pack - With Wooden Plinth, Tree Protector Tube And Stake - Safely Delivered In Custom Packaging - Native Sapling",
+      "date": "2025-12-12"
+    },
+    "metrics": {
       "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
@@ -56427,21 +56337,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-rowa-placo",
-      "productTitle": "Anniversary Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 3510000
     }
   },
   {
@@ -56854,21 +56749,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpa-silb-placo",
       "productTitle": "Anniversary Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-silb-placo",
-      "productTitle": "Anniversary Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -57109,21 +56989,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpa-silb-placo1",
       "productTitle": "Anniversary Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-silb-placo1",
-      "productTitle": "Anniversary Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -57293,21 +57158,6 @@
     },
     "metrics": {
       "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-wche-placo",
-      "productTitle": "Anniversary Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -57637,22 +57487,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpa-wche-placo1",
-      "productTitle": "Anniversary Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -57863,21 +57698,6 @@
     },
     "metrics": {
       "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-blac-placo",
-      "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -58294,21 +58114,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpb-crab-placo",
       "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-crab-placo",
-      "productTitle": "Birthday Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -58549,21 +58354,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpb-oaka-placo",
       "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-oaka-placo",
-      "productTitle": "Birthday Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -58774,21 +58564,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpb-oaka-placo1",
       "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-oaka-placo1",
-      "productTitle": "Birthday Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -58902,21 +58677,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-rowa-placo",
-      "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 6,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 640000
     }
   },
   {
@@ -59299,21 +59059,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpb-rowa-placo1",
       "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-rowa-placo1",
-      "productTitle": "Birthday Tree Gift Pack",
       "date": "2025-11-21"
     },
     "metrics": {
@@ -59363,21 +59108,6 @@
     },
     "metrics": {
       "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpb-silb-placo",
-      "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -59617,7 +59347,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -59777,12 +59507,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpb-wche-placo",
+      "productItemId": "tgpb-silb-placo1",
       "productTitle": "Birthday Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -60142,7 +59872,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -60182,12 +59912,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpc-blac-placo",
-      "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
+      "productItemId": "tgpb-wche-placo1",
+      "productTitle": "Birthday Tree Gift Pack",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -60424,21 +60154,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpc-blac-placo1",
       "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-blac-placo1",
-      "productTitle": "Christening Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -60563,21 +60278,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-oaka-placo",
-      "productTitle": "Christening Tree Gift Pack - Oak Tree - A Celebration Of Faith And Community Watch Them Grow Over The Years",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -61022,12 +60722,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpc-oaka-placo1",
-      "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
+      "productItemId": "tgpc-oaka-placo",
+      "productTitle": "Christening Tree Gift Pack - Oak Tree - A Celebration Of Faith And Community Watch Them Grow Over The Years",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -61193,21 +60893,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-rowa-placo",
-      "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 19,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -61472,9 +61157,9 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpc-rowa-placo1",
+      "productItemId": "tgpc-rowa-placo",
       "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
       "impressions": 1,
@@ -61538,21 +61223,6 @@
     },
     "metrics": {
       "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-silb-placo",
-      "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -61729,21 +61399,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpc-silb-placo1",
       "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-silb-placo1",
-      "productTitle": "Christening Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -61853,21 +61508,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-wche-placo",
-      "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -62269,21 +61909,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpc-wche-placo1",
       "productTitle": "Christening Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpc-wche-placo1",
-      "productTitle": "Christening Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -62467,22 +62092,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpm-blac-placo",
-      "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -62897,9 +62507,9 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-blac-placo1",
+      "productItemId": "tgpm-blac-placo",
       "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
       "impressions": 2,
@@ -63307,7 +62917,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -63317,12 +62927,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-crab-placo",
+      "productItemId": "tgpm-blac-placo1",
       "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -63742,7 +63352,7 @@
       "date": "2025-12-06"
     },
     "metrics": {
-      "impressions": 98,
+      "impressions": 97,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -63817,22 +63427,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
-      "clicks": 1,
+      "impressions": 88,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 420000
+      "costMicros": 910000
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-crab-placo1",
+      "productItemId": "tgpm-crab-placo",
       "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -64127,16 +63737,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-oaka-placo",
-      "productTitle": "Memorial Oak Tree Gift Pack - Complete With Wooden Plinth, Tree Protector Tube And Support Stake - Optional Engraved Plaque",
-      "date": "2025-11-11"
+      "productItemId": "tgpm-crab-placo1",
+      "productTitle": "Memorial Tree Gift Pack",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
-      "clicks": 1,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 50000
+      "costMicros": 0
     }
   },
   {
@@ -64582,22 +64192,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpm-oaka-placo1",
-      "productTitle": "Memorial Oak Tree Gift Pack - Sapling, Engraved Plaque, Plinth, Support Tube and Stake",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 14,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -65057,16 +64652,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-rowa-placo",
-      "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "productItemId": "tgpm-oaka-placo1",
+      "productTitle": "Memorial Oak Tree Gift Pack - Sapling, Engraved Plaque, Plinth, Support Tube and Stake",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 117,
-      "clicks": 3,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3680000
+      "costMicros": 0
     }
   },
   {
@@ -65497,7 +65092,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 19,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -65507,12 +65102,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-rowa-placo1",
+      "productItemId": "tgpm-rowa-placo",
       "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -65912,12 +65507,27 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-silb-placo",
+      "productItemId": "tgpm-rowa-placo1",
       "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "tgpm-rowa-placo1",
+      "productTitle": "Memorial Tree Gift Pack",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -66307,22 +65917,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpm-silb-placo1",
-      "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -66722,12 +66317,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpm-wche-placo",
+      "productItemId": "tgpm-silb-placo1",
       "productTitle": "Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -67172,6 +66767,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "tgpm-wche-placo",
+      "productTitle": "Memorial Tree Gift Pack",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "tgpm-wche-placo1",
       "productTitle": "Memorial Tree Gift Pack",
       "date": "2025-11-13"
@@ -67519,21 +67129,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgppm-blac-plpet",
       "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 8,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-blac-plpet",
-      "productTitle": "Pet Memorial Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -67819,21 +67414,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgppm-blac-plpet1",
       "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-blac-plpet1",
-      "productTitle": "Pet Memorial Tree Gift Pack",
       "date": "2025-11-16"
     },
     "metrics": {
@@ -67943,21 +67523,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-crab-plpet",
-      "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -68183,21 +67748,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-oaka-plpet",
-      "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -68513,21 +68063,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-rowa-plpet",
-      "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -69007,22 +68542,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-silb-plpet",
-      "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 19,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -69457,22 +68977,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-silb-plpet1",
-      "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 13,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -69857,12 +69362,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgppm-wche-plpet",
+      "productItemId": "tgppm-silb-plpet1",
       "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -70189,21 +69694,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgppm-wche-plpet1",
       "productTitle": "Pet Memorial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgppm-wche-plpet1",
-      "productTitle": "Pet Memorial Tree Gift Pack",
       "date": "2025-11-15"
     },
     "metrics": {
@@ -70358,21 +69848,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-blac-placo",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -70657,22 +70132,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-blac-placo1",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 7,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -70997,12 +70457,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpsc-crab-placo",
+      "productItemId": "tgpsc-blac-placo1",
       "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -71372,12 +70832,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpsc-oaka-placo",
+      "productItemId": "tgpsc-crab-placo",
       "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -71539,21 +70999,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpsc-oaka-placo1",
       "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-oaka-placo1",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -71687,12 +71132,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpsc-rowa-placo",
+      "productItemId": "tgpsc-oaka-placo1",
       "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -71884,21 +71329,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpsc-rowa-placo1",
       "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-rowa-placo1",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -71978,21 +71408,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-rowa2l-placo",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -72278,21 +71693,6 @@
     },
     "metrics": {
       "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-silb-placo",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -72679,21 +72079,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpsc-wche-placo",
       "productTitle": "Small Ceremonial Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpsc-wche-placo",
-      "productTitle": "Small Ceremonial Tree Gift Pack",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -72994,21 +72379,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpw-blac-placo",
       "productTitle": "Wedding Tree Gift Pack - Your Choice Of Native Sapling - Personalised Plaque, Wooden Plinth, Stake, Tree Protector & Wedding Greetings Card",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-blac-placo",
-      "productTitle": "Wedding Tree Gift Pack - Your Choice Of Native Sapling - Personalised Plaque, Wooden Plinth, Stake, Tree Protector & Wedding Greetings Card",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -73163,21 +72533,6 @@
     },
     "metrics": {
       "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-blac-placo1",
-      "productTitle": "Wedding Tree Gift Pack - Selection Of Native Varieties To Choose From - Complete With Engraved Plaque",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -73502,12 +72857,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpw-crab-placo",
-      "productTitle": "Wedding Tree Gift Pack - Tree of Love (Crab Apple) Sapling - Includes Plaque, Plinth, Stake, Tree Protector Tube and Greetings Card",
-      "date": "2025-11-11"
+      "productItemId": "tgpw-blac-placo1",
+      "productTitle": "Wedding Tree Gift Pack - Selection Of Native Varieties To Choose From - Complete With Engraved Plaque",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -73688,21 +73043,6 @@
     },
     "metrics": {
       "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-crab-placo1",
-      "productTitle": "Wedding Tree Gift Pack - Range Of Varieties - Living And Lasting, A Reminder Of True Love And A Growing Symbol Of Marriage",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 26,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -74150,21 +73490,6 @@
       "productItemId": "tgpw-crab-placo1",
       "productTitle": "Wedding Tree Gift Pack - Range Of Varieties - Living And Lasting, A Reminder Of True Love And A Growing Symbol Of Marriage",
       "date": "2025-12-11"
-    },
-    "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-oaka-placo",
-      "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
     },
     "metrics": {
       "impressions": 8,
@@ -74627,12 +73952,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpw-oaka-placo1",
+      "productItemId": "tgpw-oaka-placo",
       "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -74892,21 +74217,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-rowa-placo",
-      "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 35,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 560000
     }
   },
   {
@@ -75203,21 +74513,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-rowa-placo1",
-      "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 26,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -75617,12 +74912,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpw-silb-placo",
-      "productTitle": "Wedding Tree Gift Pack - Silver Birch Sapling Complete With Plaque, Plinth, Stake, Tree Protector and Greetings Card",
-      "date": "2025-11-11"
+      "productItemId": "tgpw-rowa-placo1",
+      "productTitle": "Wedding Tree Gift Pack",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -76037,12 +75332,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpw-silb-placo1",
-      "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
+      "productItemId": "tgpw-silb-placo",
+      "productTitle": "Wedding Tree Gift Pack - Silver Birch Sapling Complete With Plaque, Plinth, Stake, Tree Protector and Greetings Card",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -76253,21 +75548,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpw-wche-placo",
-      "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 21,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -76652,12 +75932,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpw-wche-placo1",
+      "productItemId": "tgpw-wche-placo",
       "productTitle": "Wedding Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -77044,21 +76324,6 @@
       "productMerchantId": 107469209,
       "productItemId": "tgpwb-blac-plbab",
       "productTitle": "Welcome to the World Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpwb-blac-plbab",
-      "productTitle": "Welcome to the World Tree Gift Pack",
       "date": "2025-11-13"
     },
     "metrics": {
@@ -77243,6 +76508,21 @@
     },
     "metrics": {
       "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
+      "productItemId": "tgpwb-blac-plbab1",
+      "productTitle": "Welcome to the World Tree Gift Pack",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -77468,21 +76748,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpwb-rowa-plbab",
-      "productTitle": "Welcome to the World Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -77807,12 +77072,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "tgpwb-silb-plbab",
+      "productItemId": "tgpwb-rowa-plbab1",
       "productTitle": "Welcome to the World Tree Gift Pack",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -78157,22 +77422,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "tgpwb-wche-plbab",
-      "productTitle": "Welcome to the World Tree Gift Pack",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -78422,6 +77672,21 @@
   {
     "segments": {
       "productMerchantId": 107469209,
+      "productItemId": "tgpwb-wche-plbab",
+      "productTitle": "Welcome to the World Tree Gift Pack",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 107469209,
       "productItemId": "tgpwb-wche-plbab1",
       "productTitle": "Welcome to the World Tree Gift Pack",
       "date": "2025-11-12"
@@ -78473,21 +77738,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 107469209,
-      "productItemId": "ttesp-01",
-      "productTitle": "Engraved Spade - solid Ash handle",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -78932,16 +78182,16 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "ttesp-02",
+      "productItemId": "ttesp-01",
       "productTitle": "Engraved Spade - solid Ash handle",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 66,
-      "clicks": 2,
+      "impressions": 10,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 800000
+      "costMicros": 0
     }
   },
   {
@@ -79387,22 +78637,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
+      "impressions": 54,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 367011
     }
   },
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "vic6",
-      "productTitle": "Patio Plum Tree Gift",
-      "date": "2025-11-11"
+      "productItemId": "ttesp-02",
+      "productTitle": "Engraved Spade - solid Ash handle",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 8,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -79852,7 +79102,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -79862,12 +79112,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "wcf",
-      "productTitle": "Winter Citrus Tree Feed",
-      "date": "2025-11-11"
+      "productItemId": "vic6",
+      "productTitle": "Patio Plum Tree Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -80237,12 +79487,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "wche",
-      "productTitle": "Wild Cherry Tree Gift - Fragrant Flowers - The \"Love Tree\" For Weddings, Christenings, And Memorials",
-      "date": "2025-11-11"
+      "productItemId": "wcf",
+      "productTitle": "Winter Citrus Tree Feed",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -80692,7 +79942,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 21,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -80702,12 +79952,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "whrg",
-      "productTitle": "To My Wonderful Husband Rose Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "wche",
+      "productTitle": "Wild Cherry Tree Gift - Fragrant Flowers - The \"Love Tree\" For Weddings, Christenings, And Memorials",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -81152,12 +80402,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "wlrg",
-      "productTitle": "With Love Rose Gift",
-      "date": "2025-11-11"
+      "productItemId": "whrg",
+      "productTitle": "To My Wonderful Husband Rose Bush Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 17,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -81512,12 +80762,12 @@
   {
     "segments": {
       "productMerchantId": 107469209,
-      "productItemId": "wwrg",
-      "productTitle": "To My Wonderful Wife Rose Bush Gift",
-      "date": "2025-11-11"
+      "productItemId": "wlrg",
+      "productTitle": "With Love Rose Gift",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -81952,7 +81202,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,

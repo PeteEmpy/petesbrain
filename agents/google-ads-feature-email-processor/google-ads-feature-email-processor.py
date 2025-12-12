@@ -48,7 +48,7 @@ LOG_FILE = PROJECT_ROOT / "data/cache/google-ads-feature-email-processor.log"
 EMAIL_SYNC_DIR = PROJECT_ROOT / "shared/email-sync"
 
 # Gmail API scopes
-SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 
 # Batch sizes
 BATCH_SIZE = 6  # Emails per Claude API call

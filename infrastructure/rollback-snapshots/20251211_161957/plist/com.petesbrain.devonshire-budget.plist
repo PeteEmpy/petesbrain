@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>GOOGLE_ADS_CONFIGURATION_FILE_PATH</key>
+		<string>/Users/administrator/google-ads.yaml</string>
+		<key>GOOGLE_APPLICATION_CREDENTIALS</key>
+		<string>/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json</string>
+	</dict>
+	<key>Label</key>
+	<string>com.petesbrain.devonshire-budget</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/python3</string>
+		<string>/Users/administrator/Documents/PetesBrain.nosync/clients/devonshire-hotels/scripts/update_budget_tracker.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/administrator/.petesbrain-devonshire-budget.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/administrator/.petesbrain-devonshire-budget.log</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>9</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/administrator/Documents/PetesBrain.nosync/clients/devonshire-hotels/scripts</string>
+</dict>
+</plist>

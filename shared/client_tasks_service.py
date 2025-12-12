@@ -37,7 +37,19 @@ class ClientTasksService:
         """Get the task file path for a specific client"""
         client_dir = self.clients_dir / client
         client_dir.mkdir(parents=True, exist_ok=True)
-        return client_dir / 'tasks.json'
+        task_file = client_dir / 'tasks.json'
+
+        # PERMANENT GUARD: Prevent any attempts to write to product-feeds locations
+        if 'product-feeds' in str(task_file):
+            raise ValueError(
+                f"❌ PERMANENT GUARD (2025-12-11): Refusing to write tasks to product-feeds location.\n"
+                f"   Path: {task_file}\n"
+                f"   All tasks have been consolidated to: {client_dir}/tasks.json\n"
+                f"   Product-feeds/tasks.json is a LEGACY ARTIFACT and must not be used.\n"
+                f"   See: docs/ARCHITECTURAL-MIGRATION-DEC10-2025.md"
+            )
+
+        return task_file
 
     def _load_client_tasks(self, client: str) -> Dict[str, Any]:
         """Load tasks for a specific client and clean up orphaned references"""

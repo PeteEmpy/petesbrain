@@ -4,21 +4,6 @@
       "productMerchantId": 181788523,
       "productItemId": "1367",
       "productTitle": "Yellow Clinical Waste Bags - 350 Per Box",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "1367",
-      "productTitle": "Yellow Clinical Waste Bags - 350 Per Box",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -362,12 +347,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "1368",
+      "productItemId": "1367",
       "productTitle": "Yellow Clinical Waste Bags - 350 Per Box",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 37,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -802,7 +787,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 35,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "1368",
+      "productTitle": "Yellow Clinical Waste Bags - 350 Per Box",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -848,21 +848,6 @@
     },
     "metrics": {
       "impressions": 6,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "206",
-      "productTitle": "Medium Duty Bin Bags - SMOKEY - 80 Gauge, 20 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -1157,12 +1142,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "207",
-      "productTitle": "Heavy Duty Bin Bags 120 gauge | Sapphire | 30 Micron",
-      "date": "2025-11-11"
+      "productItemId": "206",
+      "productTitle": "Medium Duty Bin Bags - SMOKEY - 80 Gauge, 20 Micron",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -1597,22 +1582,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "209",
-      "productTitle": "160 Gauge Bin Bags - AQUARIUS | 40 Micron | Extra Heavy Duty",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 15,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2062,22 +2032,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "210",
-      "productTitle": "Clear Bin Bags Light Duty - GLASS - 88 Gauge, 22 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 2,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2467,22 +2422,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "211",
-      "productTitle": "Clear Bin Bags Medium Duty | Crystal | 100 Gauge, 25 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2852,12 +2792,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "212",
-      "productTitle": "Clear Bin Bags Heavy Duty | Diamond | 130 Gauge, 32.50 Micron",
-      "date": "2025-11-11"
+      "productItemId": "211",
+      "productTitle": "Clear Bin Bags Medium Duty | Crystal | 100 Gauge, 25 Micron",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 27,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3292,7 +3232,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 4,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "212",
+      "productTitle": "Clear Bin Bags Heavy Duty | Diamond | 130 Gauge, 32.50 Micron",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3472,7 +3427,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 37,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3482,16 +3437,16 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "214",
-      "productTitle": "Clear Compactor Sacks 160 gauge - SPRUCE - Extra Heavy Duty, 40 Micron",
-      "date": "2025-11-11"
+      "productItemId": "213",
+      "productTitle": "Black Compactor Sacks 200 gauge - Extra Heavy Duty, 50 Micron",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 14,
-      "clicks": 0,
+      "impressions": 4,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 790000
     }
   },
   {
@@ -3902,12 +3857,27 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "216",
-      "productTitle": "Red Bin Bags Medium Duty, 100 Gauge, 25 Micron",
-      "date": "2025-11-11"
+      "productItemId": "214",
+      "productTitle": "Clear Compactor Sacks 160 gauge - SPRUCE - Extra Heavy Duty, 40 Micron",
+      "date": "2025-12-11"
     },
     "metrics": {
       "impressions": 7,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "214",
+      "productTitle": "Clear Compactor Sacks 160 gauge - SPRUCE - Extra Heavy Duty, 40 Micron",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4357,22 +4327,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "218",
-      "productTitle": "Tiger Stripe Bags - Medium Duty, 110 Gauge, 27.5 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 13,
+      "impressions": 27,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4792,22 +4747,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "2198",
-      "productTitle": "Purple Bin Bags Medium Duty, 100 Gauge, 25 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -5257,26 +5197,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "222",
-      "productTitle": "100 x Extra Heavy Duty Rubble Sacks - Holds 20Kg - 20 x 30\" - Black - Building Debris Rubbish Bag - 100 Micron \u2013 500 Gauge",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 287,
-      "clicks": 5,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 4040000
     }
   },
   {
@@ -5662,7 +5587,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
+      "impressions": 379,
+      "clicks": 3,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 2710000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "222",
+      "productTitle": "100 x Extra Heavy Duty Rubble Sacks - Holds 20Kg - 20 x 30\" - Black - Building Debris Rubbish Bag - 100 Micron \u2013 500 Gauge",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -5992,22 +5932,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
-      "clicks": 1,
+      "impressions": 78,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 660000
+      "costMicros": 1750000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "225",
-      "productTitle": "Swing Bin Liner Heavy Duty - 500 per Box, 13 x 23 x 27 - 15 Micron",
-      "date": "2025-11-11"
+      "productItemId": "224",
+      "productTitle": "120-240L - Black Wheelie Bin Liners - Case of 100 - Medium Duty",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 26,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6457,22 +6397,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "226",
-      "productTitle": "Blue Rubble Sacks On Roll, 10 Per Roll - 380 Gauge, 95 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 15,
+      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6917,6 +6842,21 @@
   {
     "segments": {
       "productMerchantId": 181788523,
+      "productItemId": "226",
+      "productTitle": "Blue Rubble Sacks On Roll, 10 Per Roll - 380 Gauge, 95 Micron",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 5,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
       "productItemId": "230",
       "productTitle": "Broken Glass Bags - 85 Micron, 100 per box, 16 x 29 x 38",
       "date": "2025-12-06"
@@ -6997,26 +6937,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "231",
-      "productTitle": "120-240L Clear Wheelie Bin Liners - Case of 100 - Medium Duty",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 104,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 3050000
     }
   },
   {
@@ -7462,7 +7387,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 47,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -7472,16 +7397,16 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "232",
-      "productTitle": "100 x Extra Heavy Duty Rubble Sacks - Holds 20Kg - 20\" x 30\" - Clear - Building Debris Rubbish Bag - 100 Micron \u2013 500 Gauge",
-      "date": "2025-11-11"
+      "productItemId": "231",
+      "productTitle": "120-240L Clear Wheelie Bin Liners - Case of 100 - Medium Duty",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 591,
-      "clicks": 6,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 6330000
+      "costMicros": 0
     }
   },
   {
@@ -7927,7 +7852,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
+      "impressions": 335,
+      "clicks": 5,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 8000000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "232",
+      "productTitle": "100 x Extra Heavy Duty Rubble Sacks - Holds 20Kg - 20\" x 30\" - Clear - Building Debris Rubbish Bag - 100 Micron \u2013 500 Gauge",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8273,21 +8213,6 @@
     },
     "metrics": {
       "impressions": 7,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "237",
-      "productTitle": "Bin Bags Extra Heavy Duty ZIRCON - 200 Gauge, 50 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8737,22 +8662,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "238",
-      "productTitle": "Orange Bin Bags - Medium Duty, 100 Gauge, 25 Micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 12,
+      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9202,26 +9112,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "239",
-      "productTitle": "120-240L Black Wheelie Bin Liners - Case of 100 - Heavy Duty",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 189,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 360000
     }
   },
   {
@@ -9667,7 +9562,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
+      "impressions": 108,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9677,12 +9572,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "241",
-      "productTitle": "Pedal Bin Liner - Light Duty, 1000 per Box, 6 Micron, 11x18x18",
-      "date": "2025-11-11"
+      "productItemId": "239",
+      "productTitle": "120-240L Black Wheelie Bin Liners - Case of 100 - Heavy Duty",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -10117,22 +10012,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "251",
-      "productTitle": "Clear Square Bin Liner H/D, 500 per Box, 20 Micron 15x24x24",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 23,
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -10562,12 +10442,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "252",
-      "productTitle": "Black Square Bin Liner - Heavy Duty - 500 per Box - 20 Micron, 80 Gauge",
-      "date": "2025-11-11"
+      "productItemId": "251",
+      "productTitle": "Clear Square Bin Liner H/D, 500 per Box, 20 Micron 15x24x24",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 15,
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11012,12 +10892,27 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "253",
-      "productTitle": "Black Compactor Sack- JET - Extra Heavy Duty - 160 Gauge, 40 Micron",
-      "date": "2025-11-11"
+      "productItemId": "252",
+      "productTitle": "Black Square Bin Liner - Heavy Duty - 500 per Box - 20 Micron, 80 Gauge",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 7,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "252",
+      "productTitle": "Black Square Bin Liner - Heavy Duty - 500 per Box - 20 Micron, 80 Gauge",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11359,21 +11254,6 @@
       "productMerchantId": 181788523,
       "productItemId": "258",
       "productTitle": "Pallet Hoods - 75 per roll - fits 1000 x 1200mm pallet",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 192,
-      "clicks": 6,
-      "conversions": 1.0,
-      "conversionsValue": 157.5,
-      "costMicros": 21380000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "258",
-      "productTitle": "Pallet Hoods - 75 per roll - fits 1000 x 1200mm pallet",
       "date": "2025-11-29"
     },
     "metrics": {
@@ -11557,22 +11437,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 18,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
+      "impressions": 203,
+      "clicks": 4,
+      "conversions": 1.0,
+      "conversionsValue": 78.75,
+      "costMicros": 14760000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "260",
-      "productTitle": "Shrink Wrap - Extended Core 400mm x 300m - 20 Micron",
-      "date": "2025-11-11"
+      "productItemId": "258",
+      "productTitle": "Pallet Hoods - 75 per roll - fits 1000 x 1200mm pallet",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 49,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12022,7 +11902,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 45,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12032,12 +11912,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "261",
-      "productTitle": "Clear Shrink Wrap - Extended Core - 400mm x 250m x 17 micron",
-      "date": "2025-11-11"
+      "productItemId": "260",
+      "productTitle": "Shrink Wrap - Extended Core 400mm x 300m - 20 Micron",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12487,7 +12367,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12497,12 +12377,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "263",
-      "productTitle": "Black Compactor Sacks 120 Gauge - EMERALD - Heavy Duty - 200 per Box",
-      "date": "2025-11-11"
+      "productItemId": "261",
+      "productTitle": "Clear Shrink Wrap - Extended Core - 400mm x 250m x 17 micron",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12537,21 +12417,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "265",
-      "productTitle": "Black Shrink Wrap - Extended Core - 400mm x 300m x 17 micron",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 109,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 2210000
     }
   },
   {
@@ -12997,7 +12862,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 76,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -13007,12 +12872,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "267",
-      "productTitle": "Black Shrink Wrap 500mm x 250m x 25 Micron Flush Core",
-      "date": "2025-11-11"
+      "productItemId": "265",
+      "productTitle": "Black Shrink Wrap - Extended Core - 400mm x 300m x 17 micron",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 92,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -13462,26 +13327,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
+      "impressions": 29,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 2100000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "271",
-      "productTitle": "Face Masks - 3 Ply - Disposable masks | 50 per box",
-      "date": "2025-11-11"
+      "productItemId": "267",
+      "productTitle": "Black Shrink Wrap 500mm x 250m x 25 Micron Flush Core",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 52,
-      "clicks": 1,
+      "impressions": 3,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4560000
+      "costMicros": 0
     }
   },
   {
@@ -13927,7 +13792,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 29,
+      "impressions": 340,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 2380000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "271",
+      "productTitle": "Face Masks - 3 Ply - Disposable masks | 50 per box",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14122,7 +14002,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14228,21 +14108,6 @@
     },
     "metrics": {
       "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "3198",
-      "productTitle": "Heavy Duty Bin Bags, Opal On Rolls - 140 Gauge - 32.5 Micron, 18 X 29 X 34",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14612,16 +14477,16 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "3658",
-      "productTitle": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
-      "date": "2025-11-11"
+      "productItemId": "3198",
+      "productTitle": "Heavy Duty Bin Bags, Opal On Rolls - 140 Gauge - 32.5 Micron, 18 X 29 X 34",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 36,
-      "clicks": 1,
+      "impressions": 5,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 280000
+      "costMicros": 0
     }
   },
   {
@@ -15067,7 +14932,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15077,12 +14942,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "3659",
+      "productItemId": "3658",
       "productTitle": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 49,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15532,7 +15397,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15542,12 +15407,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "3660",
+      "productItemId": "3659",
       "productTitle": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 120,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15997,26 +15862,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
-      "clicks": 0,
+      "impressions": 58,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 640000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "3808",
-      "productTitle": "360L Black Wheelie Bin Liners - Case Of 100 - 120 Gauge",
-      "date": "2025-11-11"
+      "productItemId": "3660",
+      "productTitle": "50L bin liners with drawstring | Medium Duty | white - 20 per roll x 50 Rolls",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 457,
-      "clicks": 4,
-      "conversions": 1.0,
-      "conversionsValue": 91.32,
-      "costMicros": 11640000
+      "impressions": 4,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -16462,11 +16327,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 43,
-      "clicks": 2,
+      "impressions": 284,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2660000
+      "costMicros": 3760000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "3808",
+      "productTitle": "360L Black Wheelie Bin Liners - Case Of 100 - 120 Gauge",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 13,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -16907,9 +16787,9 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "455",
-      "productTitle": "Blue Vinyl Gloves Powder Free - 10 boxes x 100 gloves - Extra Large",
-      "date": "2025-11-11"
+      "productItemId": "454",
+      "productTitle": "Blue Vinyl Gloves Powder Free - 10 boxes x 100 gloves - Large",
+      "date": "2025-12-11"
     },
     "metrics": {
       "impressions": 1,
@@ -17168,21 +17048,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "458",
-      "productTitle": "Machine Stretch Film - 500mm x 23 Mu - PPS 250%",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 35,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17582,12 +17447,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "459",
+      "productItemId": "458",
       "productTitle": "Machine Stretch Film - 500mm x 23 Mu - PPS 250%",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17828,21 +17693,6 @@
     },
     "metrics": {
       "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "4629",
-      "productTitle": "Square Bin Liner Heavy Duty - 500 per Box - 10 Micron 15 x 24 x 24",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18287,16 +18137,16 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "476",
-      "productTitle": "Heavy Duty Dust Extractor Sacks - Box Of 50 - 20\u201d x 30\u201d x 54\u201d \u2013 Clear \u2013 Super Tough 85 Microns Thick",
-      "date": "2025-11-11"
+      "productItemId": "4629",
+      "productTitle": "Square Bin Liner Heavy Duty - 500 per Box - 10 Micron 15 x 24 x 24",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 73,
-      "clicks": 3,
+      "impressions": 4,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2200000
+      "costMicros": 0
     }
   },
   {
@@ -18742,26 +18592,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
-      "clicks": 0,
+      "impressions": 71,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 150000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "477",
-      "productTitle": "50 x Heavy Duty Dust Extractor Sacks - Clear - 20\u201d x 32\u201d x 52\u201d - Tough 70 Microns Thick",
-      "date": "2025-11-11"
+      "productItemId": "476",
+      "productTitle": "Heavy Duty Dust Extractor Sacks - Box Of 50 - 20\u201d x 30\u201d x 54\u201d \u2013 Clear \u2013 Super Tough 85 Microns Thick",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 200,
-      "clicks": 4,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2150000
+      "costMicros": 0
     }
   },
   {
@@ -19207,7 +19057,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 61,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19342,22 +19192,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
-      "clicks": 0,
+      "impressions": 58,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 180000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "496",
-      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
+      "productItemId": "478",
+      "productTitle": "Box Of 50 Heavy Duty Dust Extractor Sacks - 20\u201d x 34\u201d x 52\u201d - Clear - Super Tough 70 Microns Thick",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19807,22 +19657,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "497",
-      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 7,
+      "impressions": 20,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -20212,22 +20047,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "498",
-      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -20642,12 +20462,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "499",
+      "productItemId": "498",
       "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21047,16 +20867,16 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "4998",
-      "productTitle": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
-      "date": "2025-11-11"
+      "productItemId": "499",
+      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
-      "clicks": 1,
+      "impressions": 7,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 260000
+      "costMicros": 0
     }
   },
   {
@@ -21427,22 +21247,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "4999",
-      "productTitle": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 17,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21847,7 +21652,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21857,12 +21662,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "500",
-      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
+      "productItemId": "4999",
+      "productTitle": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22247,12 +22052,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "5000",
-      "productTitle": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
-      "date": "2025-11-11"
+      "productItemId": "500",
+      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22702,7 +22507,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22712,12 +22517,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "5001",
+      "productItemId": "5000",
       "productTitle": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23102,12 +22907,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "501",
-      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
+      "productItemId": "5001",
+      "productTitle": "Blue Wheelie Bin Liners Extra Heavy Duty - Rolls of 10 Bags",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23333,21 +23138,6 @@
     },
     "metrics": {
       "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "502",
-      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23792,12 +23582,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "515",
-      "productTitle": "Aprons Flat packed - NHS GRADE 16 micron - 1000 Aprons - White",
-      "date": "2025-11-11"
+      "productItemId": "502",
+      "productTitle": "Coloured Bin Bags - Medium Duty - 18x29x39 - 200 per case",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24212,9 +24002,9 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "516",
-      "productTitle": "Aprons Flat packed - NHS GRADE 16 micron - 1000 Aprons - Blue",
-      "date": "2025-11-11"
+      "productItemId": "515",
+      "productTitle": "Aprons Flat packed - NHS GRADE 16 micron - 1000 Aprons - White",
+      "date": "2025-12-11"
     },
     "metrics": {
       "impressions": 1,
@@ -24532,26 +24322,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "530",
-      "productTitle": "360L Clear Wheelie Bin Liners - Case Of 100 - 120 Gauge",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 12,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 4450000
     }
   },
   {
@@ -24877,22 +24652,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 23,
-      "clicks": 0,
+      "impressions": 194,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 4660000
     }
   },
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "545",
-      "productTitle": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Extra Large",
-      "date": "2025-11-11"
+      "productItemId": "530",
+      "productTitle": "360L Clear Wheelie Bin Liners - Case Of 100 - 120 Gauge",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25118,21 +24893,6 @@
     },
     "metrics": {
       "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "546",
-      "productTitle": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Large",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25459,21 +25219,6 @@
       "productMerchantId": 181788523,
       "productItemId": "547",
       "productTitle": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Medium",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 6,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "547",
-      "productTitle": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Medium",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -25757,12 +25502,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "556",
-      "productTitle": "Red Soluble Strip Laundry Bags - Dissolvable Strip Bag 38\" Length",
-      "date": "2025-11-11"
+      "productItemId": "547",
+      "productTitle": "Clear Powder Free Vinyl Gloves - 10 boxes x 100 gloves - Medium",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26212,7 +25957,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 32,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26243,21 +25988,6 @@
     },
     "metrics": {
       "impressions": 6,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 181788523,
-      "productItemId": "714",
-      "productTitle": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 53,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26707,7 +26437,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 33,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26717,12 +26447,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "715",
+      "productItemId": "714",
       "productTitle": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 93,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27172,7 +26902,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 51,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27182,12 +26912,12 @@
   {
     "segments": {
       "productMerchantId": 181788523,
-      "productItemId": "716",
+      "productItemId": "715",
       "productTitle": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
-      "date": "2025-11-11"
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 60,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27637,7 +27367,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 64,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 3520000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 181788523,
+      "productItemId": "716",
+      "productTitle": "Blue Overshoes | Cases Of 2000 | High Quality Polyethylene",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,

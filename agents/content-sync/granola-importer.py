@@ -52,8 +52,7 @@ class SyncDaemon:
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler(LOG_FILE),
-                logging.StreamHandler(sys.stdout)
+                logging.FileHandler(LOG_FILE)
             ]
         )
         self.logger = logging.getLogger(__name__)

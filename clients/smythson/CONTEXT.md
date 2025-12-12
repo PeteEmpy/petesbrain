@@ -7,6 +7,25 @@
 
 ---
 
+## 🚨 ACTIVE: P9 BUDGET REALLOCATION (Dec 12-17, 2025)
+
+**STATUS:** Campaign budgets reallocated as of Dec 11, 2025, 13:40 UTC
+
+**REVERSAL REQUIRED:** Dec 18, 2025 before 09:00 AM (MANDATORY)
+
+**What Changed:**
+- 5 UK campaigns: Budget reduced by total -£357/day (proportional to ROAS weakness)
+- 7 EUR campaigns: Budget increased by total +£224/day (proportional to ROAS strength)
+- All 12 campaigns remain ENABLED (no pauses)
+
+**Reversal Document:** `/clients/smythson/reports/REVERSAL-CHECKLIST-DEC-18-2025.md` (CRITICAL)
+
+**Why:** EUR performing at 892% ROAS vs UK at 389%. 6-day window before EUR delivery cutoff to capture efficiency gain. Reversible on Dec 18 when UK needs full budget for Last Order Week.
+
+**Contact:** Responsible party TBD for Dec 18 reversal execution
+
+---
+
 ## ⚠️ CRITICAL: DATA ACCURACY PROTOCOLS
 
 **Google Ads API Query Standards:**
@@ -839,6 +858,19 @@ Priority 4 - Market/Demand Changes:
 - Expected vs actual results for each phase
 - Weekly cumulative performance updates
 - Red flags and course correction triggers
+
+**Post-Christmas Sales Dates 2026** (Budget Planning):
+
+**UK/US/ROW**:
+- Wednesday 24th December: Launch - Up to 50% Off Selected Styles
+- Wednesday 7th January: Further up to 60% off Selected Styles
+- Thursday 15th January: Extra 10% off using code [x]
+- Tuesday 20th January: Sale Ends
+
+**EU**:
+- Tuesday 6th January: Launch
+- Thursday 15th January: Extra 10% off using code [x] (TBC)
+- Tuesday 20th January: Sale Ends
 
 ---
 
@@ -1878,6 +1910,26 @@ Recurring reminder every 2 weeks:
 4. Ask Claude to update CONTEXT.md
 
 File: clients/smythson/CONTEXT.md
+
+
+### [smythson] Provide performance summary report for leadership presentation
+<!-- task_id: MDQ1QXRod1pBVXNJeFJ4TQ -->
+**Status:** 📋 In Progress  
+
+From: Smythson
+Date: 2025-12-10
+AI Generated (2025-12-10 10:32)
+
+
+### [smythson] Review meeting: Smythson
+<!-- task_id: ODV4dm1VOThLdlpBWjBKRg -->
+**Status:** 📋 In Progress  
+
+Meeting: Smythson
+Date: 2025-12-10
+File: /Users/administrator/Documents/PetesBrain.nosync/clients/smythson/meeting-notes/2025-12-10-smythson-smythson.md
+
+Review meeting notes and update CONTEXT.md with key insights.
 
 
 ## Completed Work

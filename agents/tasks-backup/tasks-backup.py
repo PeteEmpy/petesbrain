@@ -98,9 +98,7 @@ def find_all_task_files():
                 # Check root location first (primary for all client work)
                 tasks_file = client_dir / 'tasks.json'
                 if tasks_file.exists():
-                    task_files.append(tasks_file)
-                # Also check product-feeds (legacy location - should be migrated)
-                pf_tasks_file = client_dir / 'product-feeds' / 'tasks.json'
+                    task_files.append(tasks_file)                pf_tasks_file = None  # Removed: product-feeds location no longer used
                 if pf_tasks_file.exists():
                     task_files.append(tasks_file)
 

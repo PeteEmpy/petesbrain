@@ -702,3 +702,40 @@ REFERENCE: clients/crowd-control/CONTEXT.md lines 148-152
 October: £36,910 actual vs £19,745 reported = £17,164 missing
 True ROAS: 303% not 162%
 
+
+### [Crowd Control] Check Feed Re-approval Status
+<!-- task_id: cF9Sc1BzZU5RX2VhVzk0ag -->
+**Status:** 📋 In Progress  
+
+DAILY REMINDER: Check until December 24, 2025
+
+Merchant Center ID: 563545573
+
+PRODUCTS TO CHECK (6 total):
+• Product ID: 6733
+• Product ID: 6735
+• Product ID: 8025
+• Product ID: TBD (3 more)
+
+WHERE TO CHECK:
+1. Go to Google Merchant Center
+2. Navigate to: Tools & settings → Diagnostics → Products
+3. Filter by "price_mismatch" or "Disapproved"
+
+STATUS MEANINGS:
+❌ Disapproved = Still broken (feed issue not fixed)
+⚠️  Processing = Google is reviewing (good sign)
+✅ Approved = Fixed and ready to show in ads
+
+EXPECTED TIMELINE:
+Should be approved by December 12-13
+
+SUCCESS CRITERIA:
+When ALL 6 products show "Approved" status, mark this task complete to stop daily reminders.
+
+NOTE: Google Tasks API doesn't support recurring tasks, so this task has a single due date (tomorrow). To make this truly daily:
+• Complete and recreate daily OR
+• Use the browser/mobile app's native recurrence feature OR
+• Ask PetesBrain to create a script to generate daily copies
+
+

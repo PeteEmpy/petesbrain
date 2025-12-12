@@ -431,3 +431,21 @@ Part of broader November 2025 Product Feed Audit. Originally estimated as 15 pro
 - clients/accessories-for-the-home/emails/2025-11-19_re-missing-gtin-numbers.md
 
 ---
+## [2025-12-11 13:43:10] [Accessories For The Home] Q4 Peak Season Scaling - Budget & ROAS Optimization
+- **Priority**: P0
+- **Task ID**: 3e84e7e6-66fc-4282-bfc2-fb51d38eae80
+- **Status**: Completed
+- **Notes**: Client request: Sam wants to push hard before early December traffic dies down.
+
+CURRENT STATUS (Nov 16):
+- Main PMax ROAS reduced 190% → 170% (Sunday evening)
+- Budget utilization at 200%+ (campaigns...
+- **Reason for completion**: Q4 peak season scaling completed; work done ad hoc based on performance monitoring
+
+## [2025-12-11 14:01:33] [Accessories for the Home] Body Vases Review REJECTED - Decide Next Steps
+- **Priority**: P0
+- **Task ID**: e8f703f8-0778-4442-9d14-663823494068
+- **Status**: Completed
+- **Notes**: Body vases excluded from feed using Channel rule. Policy excessive but no alternative action possible.
+- **Reason for completion**: Channel policy decision - task resolved, no further action needed
+

@@ -47,7 +47,11 @@ def load_recent_transitions(client_name: str, days: int = 7) -> List[Dict]:
     if current_file.exists():
         with open(current_file, 'r') as f:
             data = json.load(f)
-            transitions.extend(data.get("transitions", []))
+            # Handle root-level array format
+            if isinstance(data, list):
+                transitions.extend(data)
+            else:
+                transitions.extend(data.get("transitions", []))
 
     # Filter to last N days
     cutoff_date = (today - timedelta(days=days)).isoformat()

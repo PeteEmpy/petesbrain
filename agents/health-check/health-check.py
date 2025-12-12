@@ -92,7 +92,10 @@ def load_config() -> Dict:
             "check_memory": True,
             "memory_threshold_percent": 90,
             "check_internet": True,
-            "check_apis": True
+            "check_apis": True,
+            "check_log_sizes": True,
+            "log_size_threshold_mb": 100,
+            "check_venv_health": True
         },
         "failure_tracking": {
             "escalation_threshold": 3,
@@ -319,13 +322,70 @@ def check_internet() -> Tuple[bool, str]:
     """Check internet connectivity."""
     if not CONFIG['monitoring']['check_internet']:
         return True, "Internet check disabled"
-    
+
     try:
         # Try to connect to Google DNS
         socket.create_connection(("8.8.8.8", 53), timeout=3)
         return True, "Internet connected"
     except OSError:
         return False, "No internet connectivity"
+
+def check_log_sizes() -> Tuple[bool, str]:
+    """Check for oversized log files that may impact disk space."""
+    if 'check_log_sizes' not in CONFIG['monitoring'] or not CONFIG['monitoring'].get('check_log_sizes', False):
+        return True, "Log size check disabled"
+
+    try:
+        log_dir = Path.home()
+        threshold_mb = CONFIG['monitoring'].get('log_size_threshold_mb', 100)
+        threshold_bytes = threshold_mb * 1024 * 1024
+
+        oversized_logs = []
+
+        # Find all petesbrain log files
+        for log_file in log_dir.glob('.petesbrain-*.log'):
+            size = log_file.stat().st_size
+            if size > threshold_bytes:
+                size_mb = size / (1024 * 1024)
+                oversized_logs.append((log_file.name, size_mb))
+
+        if oversized_logs:
+            # Sort by size descending
+            oversized_logs.sort(key=lambda x: x[1], reverse=True)
+            largest = oversized_logs[0]
+            return False, f"Log file too large: {largest[0]} ({largest[1]:.1f}MB > {threshold_mb}MB threshold)"
+
+        return True, f"All logs under {threshold_mb}MB"
+    except Exception as e:
+        return True, f"Error checking logs: {e}"
+
+def check_venv_health() -> Tuple[bool, str]:
+    """Check health of virtual environments used by agents."""
+    if 'check_venv_health' not in CONFIG['monitoring'] or not CONFIG['monitoring'].get('check_venv_health', False):
+        return True, "Venv health check disabled"
+
+    try:
+        # Import venv health checker
+        sys.path.insert(0, str(PROJECT_ROOT / 'shared'))
+        from venv_health_checker import VenvHealthChecker
+
+        checker = VenvHealthChecker()
+        results = checker.check_all()
+
+        # Count unhealthy venvs
+        unhealthy = [r for r in results if not r.get('healthy', True)]
+
+        if unhealthy:
+            venv_names = ', '.join([r['venv'] for r in unhealthy[:3]])
+            if len(unhealthy) > 3:
+                venv_names += f", +{len(unhealthy) - 3} more"
+            return False, f"{len(unhealthy)} venv(s) unhealthy: {venv_names}"
+
+        return True, f"All {len(results)} venvs healthy"
+    except ImportError:
+        return True, "Venv health checker not available"
+    except Exception as e:
+        return True, f"Error checking venvs: {e}"
 
 # ============================================================================
 # DEPENDENCY HEALTH CHECKS
@@ -1134,16 +1194,90 @@ def generate_alert_email(critical_failures: List[str], new_failures: List[str],
                          escalated: List[str], system_issues: List[str],
                          results: Dict, restart_failed: List[str] = None,
                          unloaded_critical: List[Dict] = None) -> Tuple[str, str]:
-    """Generate HTML and text email for alerts."""
-    
+    """Generate HTML and text email for alerts with improved summary and organization."""
+
+    # Calculate summary statistics
+    restart_failed = restart_failed or []
+    unloaded_critical = unloaded_critical or []
+
+    healthy_count = sum(1 for r in results.values() if r['healthy'])
+    total_count = len(results)
+    unhealthy_count = total_count - healthy_count
+    critical_count = len(critical_failures) + len(unloaded_critical)
+    warning_count = len(new_failures) + len(system_issues)
+
+    # Build action required items
+    action_items = []
+    if unloaded_critical:
+        for agent in unloaded_critical:
+            action_items.append({
+                'severity': 'critical',
+                'title': f"Load {agent['name']}",
+                'description': agent['description'],
+                'action': f"launchctl load ~/Library/LaunchAgents/{agent['label']}.plist"
+            })
+    if critical_failures:
+        for name in critical_failures:
+            desc = results[name]['description']
+            failure_count = get_failure_count(name)
+            action_items.append({
+                'severity': 'critical',
+                'title': f"Fix {name}",
+                'description': f"{desc} (Failed {failure_count} times)",
+                'action': f"tail -f ~/.petesbrain-{name}-error.log"
+            })
+    if escalated:
+        for name in escalated:
+            desc = results[name]['description']
+            failure_count = get_failure_count(name)
+            action_items.append({
+                'severity': 'warning',
+                'title': f"Monitor {name}",
+                'description': f"{desc} ({failure_count} failures)",
+                'action': f"tail -f ~/.petesbrain-{name}-error.log"
+            })
+    if restart_failed:
+        for name in restart_failed:
+            desc = results[name]['description']
+            action_items.append({
+                'severity': 'critical',
+                'title': f"Restart failed: {name}",
+                'description': desc,
+                'action': f"launchctl load ~/Library/LaunchAgents/com.petesbrain.{name}.plist"
+            })
+    for issue in system_issues:
+        action_items.append({
+            'severity': 'warning',
+            'title': issue.split(':')[0] if ':' in issue else issue,
+            'description': issue.split(':', 1)[1].strip() if ':' in issue else issue,
+            'action': 'Manual investigation required'
+        })
+
+    # HTML generation
     html = f"""
     <html>
     <head>
         <style>
             body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
                    line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }}
-            h1 {{ color: #dc2626; border-bottom: 3px solid #dc2626; padding-bottom: 10px; }}
-            h2 {{ color: #ea580c; margin-top: 30px; }}
+            h1 {{ color: #dc2626; border-bottom: 3px solid #dc2626; padding-bottom: 10px; margin-bottom: 5px; }}
+            h2 {{ color: #ea580c; margin-top: 25px; margin-bottom: 15px; font-size: 18px; }}
+            h3 {{ color: #166534; margin-top: 15px; margin-bottom: 10px; font-size: 16px; }}
+            .summary {{ background: #f5f5f5; border: 2px solid #e5e7eb; border-radius: 8px; padding: 20px; margin-bottom: 20px; }}
+            .summary-grid {{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 10px; }}
+            .summary-item {{ padding: 10px; background: white; border-radius: 4px; border-left: 4px solid #3b82f6; }}
+            .summary-item.critical {{ border-left-color: #dc2626; }}
+            .summary-item.warning {{ border-left-color: #f59e0b; }}
+            .summary-item.healthy {{ border-left-color: #10b981; }}
+            .summary-stat {{ font-size: 24px; font-weight: bold; margin-bottom: 2px; }}
+            .summary-label {{ font-size: 12px; color: #6b7280; text-transform: uppercase; }}
+            .action-required {{ background: #fef2f2; border: 2px solid #dc2626; border-radius: 8px; padding: 20px; margin-bottom: 20px; }}
+            .action-item {{ background: white; border-left: 4px solid #dc2626; padding: 12px; margin: 10px 0; border-radius: 4px; }}
+            .action-item.warning {{ border-left-color: #f59e0b; }}
+            .action-title {{ font-weight: bold; color: #dc2626; margin-bottom: 4px; }}
+            .action-title.warning {{ color: #f59e0b; }}
+            .action-desc {{ font-size: 13px; color: #6b7280; margin-bottom: 6px; }}
+            .action-cmd {{ background: #f3f4f6; padding: 6px 8px; border-radius: 3px; font-family: monospace; font-size: 12px; border-left: 2px solid #6b7280; }}
             .critical {{ background: #fef2f2; border-left: 4px solid #dc2626; padding: 15px; margin: 10px 0; }}
             .warning {{ background: #fffbeb; border-left: 4px solid #f59e0b; padding: 15px; margin: 10px 0; }}
             .info {{ background: #f0f9ff; border-left: 4px solid #3b82f6; padding: 15px; margin: 10px 0; }}
@@ -1151,23 +1285,98 @@ def generate_alert_email(critical_failures: List[str], new_failures: List[str],
             li {{ margin: 5px 0; }}
             code {{ background: #f3f4f6; padding: 2px 6px; border-radius: 3px; font-family: monospace; }}
             .timestamp {{ color: #6b7280; font-size: 12px; }}
+            hr {{ border: none; border-top: 2px solid #e5e7eb; margin: 25px 0; }}
         </style>
     </head>
     <body>
         <h1>🚨 Pete's Brain Health Check Alert</h1>
         <p class="timestamp">Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+
+        <div class="summary">
+            <h2 style="margin-top: 0; color: #1f2937;">System Status Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item healthy">
+                    <div class="summary-stat">{healthy_count}/{total_count}</div>
+                    <div class="summary-label">Agents Healthy</div>
+                </div>
+                <div class="summary-item critical">
+                    <div class="summary-stat">{critical_count}</div>
+                    <div class="summary-label">Critical Issues</div>
+                </div>
+                <div class="summary-item warning">
+                    <div class="summary-stat">{warning_count}</div>
+                    <div class="summary-label">Warnings</div>
+                </div>
+                <div class="summary-item critical">
+                    <div class="summary-stat">{len(action_items)}</div>
+                    <div class="summary-label">Action Items</div>
+                </div>
+            </div>
+            <p style="margin: 10px 0 0 0; font-size: 13px; color: #6b7280;">
+                {unhealthy_count} unhealthy workflow{'' if unhealthy_count == 1 else 's'} detected
+            </p>
+        </div>
     """
-    
+
     text = f"🚨 Pete's Brain Health Check Alert\n"
     text += f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
-    
+    text += f"SYSTEM STATUS SUMMARY\n"
+    text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+    text += f"Agents Healthy:  {healthy_count}/{total_count}\n"
+    text += f"Critical Issues: {critical_count}\n"
+    text += f"Warnings:        {warning_count}\n"
+    text += f"Action Items:    {len(action_items)}\n\n"
+
+    # Action Required section
+    if action_items:
+        html += f"""
+        <div class="action-required">
+            <h2 style="margin-top: 0;">⚡ Action Required ({len(action_items)})</h2>
+            <p style="margin-top: 0; color: #6b7280; font-size: 13px;">Immediate attention needed for the following items:</p>
+        """
+        text += f"ACTION REQUIRED ({len(action_items)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+
+        # Critical action items first
+        critical_actions = [a for a in action_items if a['severity'] == 'critical']
+        warning_actions = [a for a in action_items if a['severity'] == 'warning']
+
+        for action in critical_actions:
+            html += f"""
+            <div class="action-item">
+                <div class="action-title">❌ {action['title']}</div>
+                <div class="action-desc">{action['description']}</div>
+                <div class="action-cmd">$ {action['action']}</div>
+            </div>
+            """
+            text += f"\n❌ {action['title']}\n"
+            text += f"   {action['description']}\n"
+            text += f"   → {action['action']}\n"
+
+        for action in warning_actions:
+            html += f"""
+            <div class="action-item warning">
+                <div class="action-title warning">⚠️ {action['title']}</div>
+                <div class="action-desc">{action['description']}</div>
+                <div class="action-cmd">$ {action['action']}</div>
+            </div>
+            """
+            text += f"\n⚠️ {action['title']}\n"
+            text += f"   {action['description']}\n"
+            text += f"   → {action['action']}\n"
+
+        html += "</div>"
+        text += "\n"
+
+    # Detailed failure sections (only if there are action items to show)
     if critical_failures:
         html += f"""
         <div class="critical">
             <h2>❌ Critical Failures ({len(critical_failures)})</h2>
             <ul>
         """
-        text += f"❌ CRITICAL FAILURES ({len(critical_failures)}):\n"
+        text += f"CRITICAL FAILURES ({len(critical_failures)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         for name in critical_failures:
             desc = results[name]['description']
             failure_count = get_failure_count(name)
@@ -1175,15 +1384,16 @@ def generate_alert_email(critical_failures: List[str], new_failures: List[str],
             text += f"  • {name} - {desc} (Failed {failure_count} times in last 24h)\n"
         html += "</ul></div>"
         text += "\n"
-    
+
     if escalated:
         html += f"""
         <div class="critical">
             <h2>⚠️ Escalated Agents ({len(escalated)})</h2>
-            <p>These agents have failed multiple times and require immediate attention:</p>
+            <p>These agents have failed multiple times and require monitoring:</p>
             <ul>
         """
-        text += f"⚠️ ESCALATED AGENTS ({len(escalated)}):\n"
+        text += f"ESCALATED AGENTS ({len(escalated)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         for name in escalated:
             desc = results[name]['description']
             failure_count = get_failure_count(name)
@@ -1196,10 +1406,11 @@ def generate_alert_email(critical_failures: List[str], new_failures: List[str],
         html += f"""
         <div class="critical">
             <h2>🔴 Unloaded Critical Agents ({len(unloaded_critical)})</h2>
-            <p>These critical agents are NOT LOADED and need immediate attention:</p>
+            <p>These critical agents are NOT LOADED:</p>
             <ul>
         """
-        text += f"🔴 UNLOADED CRITICAL AGENTS ({len(unloaded_critical)}):\n"
+        text += f"UNLOADED CRITICAL AGENTS ({len(unloaded_critical)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         for agent in unloaded_critical:
             html += f"<li><strong>{agent['name']}</strong> - {agent['description']}<br>"
             html += f"<code>launchctl load ~/Library/LaunchAgents/{agent['label']}.plist</code></li>"
@@ -1214,14 +1425,15 @@ def generate_alert_email(critical_failures: List[str], new_failures: List[str],
             <h2>🆕 New Failures ({len(new_failures)})</h2>
             <ul>
         """
-        text += f"🆕 NEW FAILURES ({len(new_failures)}):\n"
+        text += f"NEW FAILURES ({len(new_failures)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         for name in new_failures:
             desc = results[name]['description']
             html += f"<li><strong>{name}</strong> - {desc}</li>"
             text += f"  • {name} - {desc}\n"
         html += "</ul></div>"
         text += "\n"
-    
+
     if restart_failed:
         html += f"""
         <div class="critical">
@@ -1229,38 +1441,44 @@ def generate_alert_email(critical_failures: List[str], new_failures: List[str],
             <p>These agents could not be automatically restarted:</p>
             <ul>
         """
-        text += f"🔄 RESTART FAILED ({len(restart_failed)}):\n"
+        text += f"RESTART FAILED ({len(restart_failed)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         for name in restart_failed:
             desc = results[name]['description']
             html += f"<li><strong>{name}</strong> - {desc}</li>"
             text += f"  • {name} - {desc}\n"
         html += "</ul></div>"
         text += "\n"
-    
+
     if system_issues:
         html += f"""
         <div class="warning">
             <h2>💻 System Issues ({len(system_issues)})</h2>
             <ul>
         """
-        text += f"💻 SYSTEM ISSUES ({len(system_issues)}):\n"
+        text += f"SYSTEM ISSUES ({len(system_issues)}):\n"
+        text += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         for issue in system_issues:
             html += f"<li>{issue}</li>"
             text += f"  • {issue}\n"
         html += "</ul></div>"
         text += "\n"
-    
+
     html += """
         <hr>
         <p style="color: #6b7280; font-size: 12px;">
         This is an automated alert from Pete's Brain Health Check System.<br>
         Check logs: <code>tail -f ~/.petesbrain-health-check.log</code><br>
-        View dashboard: <code>python3 agents/agent-dashboard/agent-dashboard.py</code>
+        View dashboard: <code>python3 agents/agent-dashboard/agent-dashboard.py</code><br>
+        Run error scan: <code>./scripts/check-recent-errors.sh</code>
         </p>
     </body>
     </html>
     """
-    
+
+    text += "\n" + ("─"*50) + "\n"
+    text += "For more details, check the logs or view the dashboard.\n"
+
     return html, text
 
 def main():
@@ -1345,7 +1563,21 @@ def main():
         print(f"  ✗ {internet_msg}")
     elif verbose:
         print(f"  ✓ {internet_msg}")
-    
+
+    log_ok, log_msg = check_log_sizes()
+    if not log_ok:
+        system_issues.append(f"Log sizes: {log_msg}")
+        print(f"  ✗ {log_msg}")
+    elif verbose:
+        print(f"  ✓ {log_msg}")
+
+    venv_ok, venv_msg = check_venv_health()
+    if not venv_ok:
+        system_issues.append(f"Venv health: {venv_msg}")
+        print(f"  ✗ {venv_msg}")
+    elif verbose:
+        print(f"  ✓ {venv_msg}")
+
     print()
 
     # Check dependencies
@@ -1559,6 +1791,28 @@ def main():
                 if critical_failures:
                     slack_msg += f"\nCRITICAL: {', '.join(critical_failures[:3])}"
                 send_slack_alert(slack_msg)
+
+    # Regenerate Task Manager HTML with updated reminders
+    print("\n📋 Regenerating Task Manager with updated reminders...")
+    try:
+        generator_script = PROJECT_ROOT / "shared" / "scripts" / "generate-task-manager.py"
+        if generator_script.exists():
+            result = subprocess.run(
+                [sys.executable, str(generator_script)],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            if result.returncode == 0:
+                print("   ✅ Task Manager regenerated successfully")
+            else:
+                print(f"   ⚠️  Task Manager regeneration had issues: {result.stderr[:200]}")
+        else:
+            print(f"   ⚠️  Task Manager generator not found at {generator_script}")
+    except subprocess.TimeoutExpired:
+        print("   ⚠️  Task Manager regeneration timed out")
+    except Exception as e:
+        print(f"   ⚠️  Error regenerating Task Manager: {e}")
 
     # Log critical failures
     if critical_failures:

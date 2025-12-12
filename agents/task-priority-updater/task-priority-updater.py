@@ -109,16 +109,13 @@ def update_task_priorities():
     # Collect all task files to process
     task_files = []
 
-    # 1. Client tasks (root location is primary)
+    # 1. Client tasks (root location is primary and ONLY location)
     for client_dir in sorted(clients_dir.iterdir()):
         if client_dir.is_dir() and not client_dir.name.startswith('_'):
-            # Check root location first (primary for all client work)
+            # Check root location ONLY (primary for all client work)
+            # All product-feeds/tasks.json have been consolidated into main tasks.json
             direct_task_file = client_dir / 'tasks.json'
             if direct_task_file.exists():
-                task_files.append((client_dir.name, direct_task_file))
-            # Also check product-feeds (legacy location - should be migrated)
-            pf_task_file = client_dir / 'product-feeds' / 'tasks.json'
-            if pf_task_file.exists():
                 task_files.append((client_dir.name, direct_task_file))
 
     # 2. Main clients queue

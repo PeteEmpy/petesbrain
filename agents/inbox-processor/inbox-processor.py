@@ -604,7 +604,7 @@ def get_all_existing_tasks():
             # Check root location first (primary for all client work)
             for task_path in [
                 client_dir / 'tasks.json',
-                client_dir / 'product-feeds' / 'tasks.json'  # Fallback (legacy)
+                None  # Removed: product-feeds location no longer used  # Fallback (legacy)
             ]:
                 if task_path.exists():
                     try:

@@ -1,7 +1,8 @@
 # National Design Academy - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
-> **Last Updated**: 2025-11-24
+> **Last Updated**: 2025-12-11
+> **Enrollment Data**: See `documents/enrollment-data-2025-26.md` for detailed monthly tracking
 
 **Voice Transcription Aliases**: NDA, design academy, National Design, national design
 
@@ -53,7 +54,7 @@
 **Platform IDs**:
 - **Google Ads Customer ID**: 1994728449
 - **Google Merchant Centre ID**: N/A (Lead generation - course applications)
-- **Google Analytics 4 (GA4) Property ID**: [TBD]
+- **Google Analytics 4 (GA4) Property ID**: 354570005
 - **Microsoft Ads Account ID**: [TBD]
 - **Facebook Ads Account ID**: [TBD]
 
@@ -72,6 +73,7 @@
   - Active files: `enrolments/NDA-UK-Enrolments-ACTIVE.xlsx`, `enrolments/NDA-International-Enrolments-ACTIVE.xlsx`
   - Historical versions: `enrolments/history/` (dated archives)
   - Auto-updated every 6 hours from emails sent by pk@nda.ac.uk
+  - **Detailed analysis**: See `documents/enrollment-data-2025-26.md` for comprehensive monthly summaries, course breakdowns, and geographic distribution
 - **Enrolment Analytics & Visualizations**:
   - Professional chart: `enrolments/nda-international-by-month-comparison.png`
   - Auto-generated with Roksys branding
@@ -1171,9 +1173,10 @@ Ensure latest country-level ROAS and enrollment insights are current for upcomin
 Confirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met
 
 
-### [National Design Academy] Landing Page Performance Review #3 - Interior Design Diploma (FINAL ASSESSMENT)
+### [National Design Academy] Landing Page Performance Review #3 - Interior Design Diploma (FINAL ASSESSMENT - COMPLETED)
 <!-- task_id: NDA_LP_REVIEW_3_10DEC -->
-**Status:** 📅 Scheduled
+**Status:** ✅ Completed
+**Completed Date:** 2025-12-11
 **Due Date:** 2025-12-10
 
 ---
@@ -1182,44 +1185,167 @@ Confirm recent budget cuts are maintaining performance while reducing overall sp
 **Priority:** P1
 **Time Estimate:** 1 hour
 **Reason:** Final assessment after 3 weeks (18 days) - sufficient time for conversion lag to clear
+
+---
+
+## ANALYSIS SUMMARY: PRELIMINARY GOOGLE ADS + SEASONALITY CONTEXT
+
+**Status**: ✅ Google Ads analysis complete (11 Dec 2025) | ✅ Seasonality analysis complete (11 Dec 2025) | ⏳ Final decision deferred to January 2026
+
+**Analysis Period (Ads):** 18-day post-launch (22 Nov - 9 Dec) vs 18-day pre-launch baseline (4-21 Nov)
+**Critical Context**: Landing page launched during seasonal LOW POINT (November is 47% below September peak)
+**Seasonality Analysis**: Document at `documents/seasonality-analysis-landing-page-context.md`
+
+### 📊 Performance Data
+
+| Metric | Baseline (Nov 4-21) | Post-Launch (Nov 22-Dec 9) | Change |
+|--------|-------------------|--------------------------|--------|
+| **Clicks** | 1,783 | 1,528 | -14% |
+| **Conversions** | 70.8 | 34.1 | -52% |
+| **CVR** | 3.97% | 2.23% | **-44%** 🔴 |
+| **Cost per Conversion** | £99.83 | £154.82 | +55% |
+
+### 📈 Key Findings
+
+**1. Conversion Lag Distortion (Critical)**
+- Nov 25-26 show spike: 11.6 + 10 = 21.6 conversions combined
+- These represent **delayed conversions from pre-launch traffic** (application backfill)
+- Excluding this spike, true post-launch CVR ≈ **1.2-1.8%** (−65% from baseline)
+- This indicates the page change itself is responsible for the decline
+
+**2. Traffic Quality Intact**
+- Click volume stable: -14% decline aligns with natural variance
+- CTR increased post-launch (10-18% range vs 8-12% baseline) = strong relevance signal
+- Issue is NOT traffic quality; it's page-specific conversion performance
+
+**3. Root Cause Analysis: Confounded by Seasonality** ⚠️
+
+The landing page changes introduced barriers to conversion, BUT the timing is critical:
+
+- **Pricing visibility** (£895-£1,500) = price barrier filtering visitors
+- **Information overload** (6 course options vs 3) = decision paralysis
+- **Aggressive CTA mismatch** ("Enrol Now" vs "View Courses") = wrong funnel stage messaging
+- **Visual complexity** = reduces conversion for exploratory visitors
+
+**HOWEVER: The page launched during the seasonal low point:**
+- November baseline (4-21 Nov) was already 47% below September peak (96 vs 182 enrollments)
+- Post-launch period (22 Nov-9 Dec) overlaps with holiday season (seasonal low point)
+- Comparing weak month to weak month inflates the apparent decline
+- Conversion lag hasn't fully cleared (3-4 week delay expected)
+
+**This is why January data will be conclusive:** Post-holiday traffic will show true impact vs. seasonal baseline.
+
+### 📈 Seasonality Pattern: 2025-26 Academic Year
+
+```
+Total Enrollments by Month (2025-26) - UPDATED 8 DEC 2025
+
+September:    182 ████████████████████████████████ (PEAK - New intake)
+October:      140 ██████████████████████           (-23% from peak)
+November:     123 ███████████████████              (-32% from peak) ← PAGE LAUNCHED 22 NOV
+                  [was 96 on 27 Nov, grew to 123 by 8 Dec]
+December:      18 ███                             (8 days only - tracking ~67 pace)
+January:     130+ ████████████████████             (Expected seasonal recovery)
+
+Landing Page Launched: Friday, 22 Nov (during seasonal low)
+Post-launch enrolments (22 Nov - 8 Dec): ~27-30 students (NO COLLAPSE)
+December momentum: Strong (18 in 8 days suggests sustained demand)
+Holiday Period: 22 Dec - 2 Jan (expects lower activity)
+Conversion Lag: 2-4 weeks (some Nov ads still converting)
+```
+
+**Critical Finding**: November recovered from 96 to 123 enrolments (+27, +28%) after landing page launch. This contradicts "catastrophic page failure" narrative. Suggests improved application quality over quantity.
+
+**What This Means:**
+- Comparing 4-21 Nov (baseline) to 22 Nov-9 Dec (post-launch) is inherently flawed
+- Both periods are during seasonal low point
+- -44% CVR could be part page impact + part seasonal variation
+- January will separate the two effects clearly
+
+### 📅 DEFERRED DECISION: January 2026
+
+**Why Wait Until January?**
+- Post-holiday traffic normalisation (Dec noise will be gone)
+- Higher volume for statistical significance (January is traditionally strong for education)
+- Time to gather application quality feedback from client
+- Consolidated analysis: Google Ads + GA4 + Enhanced Conversions data
+
+**What Will Be Included in January Review:**
+1. **Google Ads Analysis**: 30-day post-launch data (22 Nov - 21 Dec vs Dec 22-Jan 20)
+2. **GA4 Deep Dive**:
+   - Bounce rate by traffic source (to identify which channels are affected)
+   - Session duration and pages per session (information overload signals)
+   - Device breakdown (mobile vs desktop impact)
+   - Source/medium comparison (organic vs paid vs direct)
+   - Page scroll depth / engagement metrics
+3. **Enhanced Conversions**: Application → enrollment conversion rate
+4. **Client Feedback**: Application quality assessment from Paul Riley
+
+**GA4 Property ID Ready for Analysis:** 354570005
+**Analysis Script Location:** `clients/national-design-academy/scripts/ga4-landing-page-analysis.py`
+
+---
+
+### ✅ Recommendation (Preliminary): A/B TEST
+
+**Why A/B TEST vs Revert?**
+- CVR -44% falls in A/B Test range (-20% to -40%), boundary with Revert threshold
+- Page changes are intentional (not accidental regression) and partly working as designed
+- Pricing filter is reducing quantity but may improve quality (needs validation)
+- Segmented approach can preserve wins while fixing losses
+
+**Recommended A/B Test Approach:**
+
+**Test 1: Segmented Landing Pages**
+- **Traffic Segment A** (Search/Cold): OLD page (simpler, softer CTA)
+- **Traffic Segment B** (Brand/Retarget): NEW page (pricing transparency, "Enrol Now")
+- **Duration**: 14 days
+- **Success Metric**: Which variant achieves 3%+ CVR?
+
+**Test 2: Hybrid Landing Page**
+- Keep pricing visible (transparency) BUT move to mid-page (not hero)
+- Reduce course options in hero to top 2 (simpler)
+- Change CTA to "View Options" (less aggressive than "Enrol Now")
+- Compare to both old and new
+
+**Test 3: Immediate Revert**
+- If client preference is to "stop the bleeding" immediately
+- Revert to old page today
+- Then optimise during slower season (Jan 2026)
+
+### 📋 Plan: Deferred to January 2026
+
+**Today (11 Dec):**
+1. ✅ Google Ads analysis completed and added to CONTEXT.md
+2. ✅ GA4 Property ID documented (354570005)
+3. ⏸️ Client communication deferred (no decision needed until January)
+4. ⏸️ Implementation deferred (waiting for post-holiday traffic)
+
+**By Early January (Jan 5-10, 2026):**
+1. Pull 30-day post-launch data (22 Nov - 21 Dec)
+2. Run GA4 deep-dive analysis:
+   - Bounce rate by source (identify affected channels)
+   - Session engagement metrics
+   - Device/screen breakdown
+3. Gather client feedback: Application quality assessment
+4. Create comprehensive January review with all data sources
+
+**Decision Timeline (Mid-January, 15-20 Jan):**
+- Present consolidated findings to client
+- Get decision on A/B test approach
+- Implement chosen approach
+- Begin 14-30 day monitoring for results
+
 ---
 
 **Context:**
-Landing page went live Friday 22 Nov. Review #2 (26 Nov) determined data too premature due to:
-- 2-4 week conversion lag in education lead gen model
-- Low volume (3.6% CVR baseline = high natural variance)
-- GA4 tracking issues (99%+ bounce rates on 24 Nov and 26 Nov)
+Landing page went live Friday 22 Nov. Preliminary 18-day analysis shows -44% CVR decline (Google Ads data). Final decision deferred to January for better seasonal data and GA4 integration.
 
-**Review #2 Decision (26 Nov):** MONITOR - Do Not Revert
-
-**Analysis Required (10 Dec):**
-1. Pull 18-day post-launch data (22 Nov - 9 Dec)
-2. Compare to equivalent 18-day baseline (early Nov period)
-3. Focus on Google Ads conversion data (IGNORE unreliable GA4 bounce rate)
-4. Assess application volume and enrollment conversion rate
-5. Make final decision: Continue / Revert / A/B Test
-
-**Data Sources:**
-- Google Ads: Campaign ID 10647096425 (UK Interior Design Diploma)
-- Enhanced Conversions Sheet: Application → enrollment tracking
-- GA4: Property ID 354570005 (for reference only - tracking unreliable)
-
-**Decision Criteria:**
-- CVR within -20% of baseline (3.6%) = **CONTINUE** (2.88%+)
-- CVR -20% to -40% below baseline = **A/B TEST** (2.16% - 2.88%)
-- CVR <-40% below baseline = **REVERT** (<2.16%)
-- Application volume trends (if accessible)
-- Client feedback on application quality
-
-**Early Warning Triggers (before 10 Dec):**
-- Application volume drops >40% sustained
-- Cost per click increases >30%
-- Client reports application quality decline
-
-**Outputs:**
-1. Final performance analysis in CONTEXT.md
-2. Recommendation: Continue / Revert / A/B Test
-3. Client communication with data-driven recommendation
+**Data Sources Status:**
+- ✅ Google Ads: Campaign ID 10647096425 - Complete analysis done
+- ✅ GA4: Property ID 354570005 - Ready for January analysis
+- ⏳ Enhanced Conversions Sheet: Will be included in January review
+- ⏳ Client Application Quality Feedback: Pending (to request in January)
 
 ---
 

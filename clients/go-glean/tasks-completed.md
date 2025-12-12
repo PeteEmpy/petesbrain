@@ -4,6 +4,35 @@ This file tracks all completed tasks for Go Glean (Customer ID: 8492163737).
 
 ---
 
+## Scale Villains Campaign Budget
+**Completed:** 2025-12-11
+**Task ID:** f6d044f0-5f82-4e95-a574-b62a1d956f38
+**Priority:** P0
+**Source:** Weekly Report - 2025-11-18
+
+**Issue Identified:** Best-performing campaign (640% ROAS) only getting 8% of budget allocation.
+
+**Expected Impact:** +£400-600/month revenue if ROAS maintains at 500%+
+
+**Scaling Strategy:**
+1. Increase budget from £5/day to £20-25/day (incremental approach)
+2. Monitor ROAS daily for first week
+3. If ROAS stays >400%, continue increasing by £5/day every 3 days
+4. Cap at £50/day or when ROAS drops below 300%
+
+**Supporting Data:**
+- Campaign: "GOG | P Max Shopping | Villains 280 2/9 249 8/9 260 11/9 230 15/9 260 23/9"
+- Current ROAS: 640% (best in account)
+- Current spend: £35.92/week (~£5/day)
+- Revenue: £229.91
+- CPA: £5.13 (excellent efficiency)
+
+**Context:** Go Glean is a **Product Hero Client** using performance-based campaign segmentation. The Villains campaign, despite its name, is significantly outperforming other campaigns due to strong product-level performance indicators. This is a scaling opportunity for high-performing products within the account.
+
+**Status:** Completed - Strategy documented and ready for implementation.
+
+---
+
 ## Campaign Audit Recommendations - Phase 1 Implementation
 **Completed:** 2025-11-14
 **Source:** Manual completion (reported in Claude Code) + Google Ads Campaign Audit (20251114-campaign-audit.md)

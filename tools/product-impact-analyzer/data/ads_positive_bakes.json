@@ -4,21 +4,6 @@
       "productMerchantId": 395496688,
       "productItemId": "52066150383883",
       "productTitle": "Artisan Brownie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 517,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52066150383883",
-      "productTitle": "Artisan Brownie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -337,7 +322,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 71,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -347,16 +332,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068236853515",
-      "productTitle": "Artisan Blondie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52066150383883",
+      "productTitle": "Artisan Brownie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 398,
-      "clicks": 2,
+      "impressions": 6,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1250000
+      "costMicros": 0
     }
   },
   {
@@ -682,7 +667,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 32,
+      "impressions": 127,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -692,16 +677,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068241146123",
-      "productTitle": "Artisan Brownie & Blondie Collection | Box of 9 | Plant-Based Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068236853515",
+      "productTitle": "Artisan Blondie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 617,
-      "clicks": 2,
-      "conversions": 0.5,
-      "conversionsValue": 28.225,
-      "costMicros": 1910000
+      "impressions": 4,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -1027,7 +1012,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 66,
+      "impressions": 327,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -1037,16 +1022,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068247208203",
-      "productTitle": "Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Plant-Based Gift",
-      "date": "2025-11-11"
+      "productItemId": "52068241146123",
+      "productTitle": "Artisan Brownie & Blondie Collection | Box of 9 | Plant-Based Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 484,
-      "clicks": 6,
+      "impressions": 17,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 10090000
+      "costMicros": 0
     }
   },
   {
@@ -1352,16 +1337,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068250157323",
-      "productTitle": "Little Bug Brownie Box | 8 Pieces | Fun Kids Treats Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068247208203",
+      "productTitle": "Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Plant-Based Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 99,
-      "clicks": 1,
+      "impressions": 896,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 480000
+      "costMicros": 5810000
     }
   },
   {
@@ -1687,7 +1672,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 13,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -1697,12 +1682,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068250583307",
-      "productTitle": "Little Bug Brownie Box | 12 Pieces | Kids Party Treats Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068250157323",
+      "productTitle": "Little Bug Brownie Box | 8 Pieces | Fun Kids Treats Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 116,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2032,22 +2017,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068255564043",
-      "productTitle": "Birthday Artisan Brownie & Blondie Collection | Box of 9 | Perfect Birthday Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 27,
+      "impressions": 31,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2377,22 +2347,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068259594507",
-      "productTitle": "Birthday Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Birthday Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 71,
+      "impressions": 43,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2722,22 +2677,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
-      "clicks": 0,
+      "impressions": 38,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1870000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068263198987",
-      "productTitle": "Birthday Little Bug Brownie Box | 8 Pieces | Kids Birthday Party Treats",
-      "date": "2025-11-11"
+      "productItemId": "52068259594507",
+      "productTitle": "Birthday Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Birthday Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 15,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3067,22 +3022,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068268572939",
-      "productTitle": "Thank You Artisan Brownie & Blondie Collection | Box of 9 | Thoughtful Appreciation Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 8,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3412,7 +3352,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 27,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3422,12 +3362,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068270801163",
-      "productTitle": "Thank You Artisan Brownie & Blondie Collection | Box of 12 | Premium Appreciation Gift",
-      "date": "2025-11-11"
+      "productItemId": "52068268572939",
+      "productTitle": "Thank You Artisan Brownie & Blondie Collection | Box of 9 | Thoughtful Appreciation Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 29,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3757,7 +3697,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 25,
+      "impressions": 132,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -3767,12 +3707,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068274864395",
-      "productTitle": "Congratulations Artisan Brownie & Blondie Collection | Box of 9 | Achievement Celebration Gift",
-      "date": "2025-11-11"
+      "productItemId": "52068270801163",
+      "productTitle": "Thank You Artisan Brownie & Blondie Collection | Box of 12 | Premium Appreciation Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 14,
+      "impressions": 18,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4102,7 +4042,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 42,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4112,12 +4052,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068280238347",
-      "productTitle": "Congratulations Artisan Brownie & Blondie Collection | Box of 12 | Premium Achievement Gift",
-      "date": "2025-11-11"
+      "productItemId": "52068274864395",
+      "productTitle": "Congratulations Artisan Brownie & Blondie Collection | Box of 9 | Achievement Celebration Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4447,22 +4387,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068281123083",
-      "productTitle": "Thinking of You Artisan Brownie & Blondie Collection | Box of 12 | Thoughtful Care Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 37,
+      "impressions": 38,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -4792,22 +4717,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068281614603",
-      "productTitle": "Thinking of You Artisan Brownie & Blondie Collection | Box of 9 | Caring Support Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 59,
+      "impressions": 37,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -5137,7 +5047,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
+      "impressions": 71,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -5147,16 +5057,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068283515147",
-      "productTitle": "Signature Brownie & Blondie Selection Box | 25 Pieces | Perfect for Sharing",
-      "date": "2025-11-11"
+      "productItemId": "52068281614603",
+      "productTitle": "Thinking of You Artisan Brownie & Blondie Collection | Box of 9 | Caring Support Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 1322,
-      "clicks": 14,
-      "conversions": 1.0,
-      "conversionsValue": 29.95,
-      "costMicros": 29240000
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -5467,26 +5377,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 774,
-      "clicks": 8,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 4390000
+      "impressions": 3783,
+      "clicks": 40,
+      "conversions": 3.0,
+      "conversionsValue": 89.85,
+      "costMicros": 37080000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068289282315",
-      "productTitle": "Luxury Cream Tea for 2 | Plant-Based Afternoon Tea Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068283515147",
+      "productTitle": "Signature Brownie & Blondie Selection Box | 25 Pieces | Perfect for Sharing",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 548,
-      "clicks": 4,
+      "impressions": 191,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 2650000
+      "costMicros": 990000
     }
   },
   {
@@ -5812,19 +5722,19 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 145,
-      "clicks": 1,
+      "impressions": 677,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 790000
+      "costMicros": 2400000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068290134283",
-      "productTitle": "Luxury Cream Tea for 4 | Plant-Based Sharing Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068289282315",
+      "productTitle": "Luxury Cream Tea for 2 | Plant-Based Afternoon Tea Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
       "impressions": 28,
@@ -6157,7 +6067,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 30,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6167,16 +6077,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068293411083",
-      "productTitle": "Luxury Afternoon Tea for 1 | Plant-Based Individual Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068290134283",
+      "productTitle": "Luxury Cream Tea for 4 | Plant-Based Sharing Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 418,
-      "clicks": 3,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1660000
+      "costMicros": 0
     }
   },
   {
@@ -6502,22 +6412,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068294918411",
-      "productTitle": "Luxury Afternoon Tea for 2 | Plant-Based Intimate Experience",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 420,
+      "impressions": 44,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6847,7 +6742,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 57,
+      "impressions": 175,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -6857,12 +6752,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068295770379",
-      "productTitle": "Luxury Afternoon Tea for 4 | Plant-Based Family Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068294918411",
+      "productTitle": "Luxury Afternoon Tea for 2 | Plant-Based Intimate Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 74,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -7177,7 +7072,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 36,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -7187,16 +7082,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068296458507",
-      "productTitle": "Kids Afternoon Tea Little Bug for 1 | Fun Experience Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068295770379",
+      "productTitle": "Luxury Afternoon Tea for 4 | Plant-Based Family Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 198,
-      "clicks": 1,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 120000
+      "costMicros": 0
     }
   },
   {
@@ -7522,22 +7417,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 65,
-      "clicks": 1,
+      "impressions": 295,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 120000
+      "costMicros": 3080000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068296982795",
-      "productTitle": "Birthday Luxury Afternoon Tea for 1 | Individual Birthday Celebration",
-      "date": "2025-11-11"
+      "productItemId": "52068296458507",
+      "productTitle": "Kids Afternoon Tea Little Bug for 1 | Fun Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 84,
+      "impressions": 28,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -7867,22 +7762,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068369858827",
-      "productTitle": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 78,
+      "impressions": 22,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8212,7 +8092,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 40,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8222,16 +8102,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068370284811",
-      "productTitle": "Birthday Kids Afternoon Tea Little Bug for 1 | Magical Birthday Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068369858827",
+      "productTitle": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 42,
-      "clicks": 1,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1630000
+      "costMicros": 0
     }
   },
   {
@@ -8557,22 +8437,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068372578571",
-      "productTitle": "Thank You Luxury Afternoon Tea for 1 | Individual Appreciation Experience",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 15,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8902,7 +8767,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 32,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8912,12 +8777,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068374348043",
-      "productTitle": "Thank You Luxury Afternoon Tea for 2 | Sharing Appreciation Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068372578571",
+      "productTitle": "Thank You Luxury Afternoon Tea for 1 | Individual Appreciation Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 56,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9247,26 +9112,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068376903947",
-      "productTitle": "Congratulations Luxury Afternoon Tea for 1 | Individual Achievement Celebration",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 57,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 240000
     }
   },
   {
@@ -9592,7 +9442,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9602,16 +9452,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068379099403",
-      "productTitle": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration",
-      "date": "2025-11-11"
+      "productItemId": "52068376903947",
+      "productTitle": "Congratulations Luxury Afternoon Tea for 1 | Individual Achievement Celebration",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 110,
-      "clicks": 1,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1110000
+      "costMicros": 0
     }
   },
   {
@@ -9922,7 +9772,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -9932,16 +9782,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068380377355",
-      "productTitle": "Thinking of You Luxury Afternoon Tea for 1 | Individual Comfort Experience",
-      "date": "2025-11-11"
+      "productItemId": "52068379099403",
+      "productTitle": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 153,
-      "clicks": 2,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4580000
+      "costMicros": 0
     }
   },
   {
@@ -10267,26 +10117,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
+      "impressions": 57,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068381032715",
-      "productTitle": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 161,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 1580000
     }
   },
   {
@@ -10612,7 +10447,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 23,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -10622,16 +10457,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068386636043",
-      "productTitle": "Artisan Cookie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068381032715",
+      "productTitle": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 951,
-      "clicks": 9,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 6840000
+      "costMicros": 0
     }
   },
   {
@@ -10862,12 +10697,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068392337675",
-      "productTitle": "Little Bug Cookie Selection Box | 4 Pieces | Kids Fun Treats Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068386636043",
+      "productTitle": "Artisan Cookie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 24,
+      "impressions": 20,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11197,26 +11032,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 13,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 330000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068394664203",
-      "productTitle": "Birthday Artisan Cookie Collection | Box of 6 | Ultimate Birthday Cookies",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 168,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 460000
     }
   },
   {
@@ -11542,7 +11362,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11552,12 +11372,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068395057419",
-      "productTitle": "Birthday Little Bug Cookie Selection Box | 4 Pieces | Kids Birthday Treats",
-      "date": "2025-11-11"
+      "productItemId": "52068394664203",
+      "productTitle": "Birthday Artisan Cookie Collection | Box of 6 | Ultimate Birthday Cookies",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 19,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11872,7 +11692,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -11882,16 +11702,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068398301451",
-      "productTitle": "Thank You Artisan Cookie Collection | Box of 6 | Premium Appreciation Cookies",
-      "date": "2025-11-11"
+      "productItemId": "52068395057419",
+      "productTitle": "Birthday Little Bug Cookie Selection Box | 4 Pieces | Kids Birthday Treats",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 141,
-      "clicks": 2,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1340000
+      "costMicros": 0
     }
   },
   {
@@ -12217,22 +12037,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52068403249419",
-      "productTitle": "Congratulations Artisan Cookie Collection | Box of 6 | Premium Achievement Cookies",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 152,
+      "impressions": 27,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12562,7 +12367,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 39,
+      "impressions": 182,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12572,16 +12377,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068407017739",
-      "productTitle": "Thinking of You Artisan Cookie Collection | Box of 6 | Thoughtful Comfort Treats",
-      "date": "2025-11-11"
+      "productItemId": "52068403249419",
+      "productTitle": "Congratulations Artisan Cookie Collection | Box of 6 | Premium Achievement Cookies",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 161,
-      "clicks": 3,
+      "impressions": 9,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4750000
+      "costMicros": 0
     }
   },
   {
@@ -12907,7 +12712,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 61,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -12917,16 +12722,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068410654987",
-      "productTitle": "Luxury Tart Selection Box | 6 Pieces | Plant-Based Sharing Desserts",
-      "date": "2025-11-11"
+      "productItemId": "52068407017739",
+      "productTitle": "Thinking of You Artisan Cookie Collection | Box of 6 | Thoughtful Comfort Treats",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 860,
-      "clicks": 11,
+      "impressions": 6,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 10870000
+      "costMicros": 0
     }
   },
   {
@@ -13252,26 +13057,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 664,
-      "clicks": 2,
+      "impressions": 3386,
+      "clicks": 24,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1710000
+      "costMicros": 21920000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52068411998475",
-      "productTitle": "Luxury Cheesecake Selection Box | 5 Pieces | Plant-Based Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52068410654987",
+      "productTitle": "Luxury Tart Selection Box | 6 Pieces | Plant-Based Sharing Desserts",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 781,
-      "clicks": 11,
+      "impressions": 290,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 6220000
+      "costMicros": 3460000
     }
   },
   {
@@ -13577,16 +13382,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070136316171",
-      "productTitle": "Birthday Luxury Tart Selection Box | 6 Pieces | Ultimate Birthday Desserts",
-      "date": "2025-11-11"
+      "productItemId": "52068411998475",
+      "productTitle": "Luxury Cheesecake Selection Box | 5 Pieces | Plant-Based Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 40,
-      "clicks": 0,
+      "impressions": 57,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 90000
     }
   },
   {
@@ -13912,7 +13717,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 5,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -13922,12 +13727,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070329319691",
-      "productTitle": "Birthday Luxury Cheesecake Selection Box | 5 Pieces | Premium Birthday Indulgence",
-      "date": "2025-11-11"
+      "productItemId": "52070136316171",
+      "productTitle": "Birthday Luxury Tart Selection Box | 6 Pieces | Ultimate Birthday Desserts",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 183,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14257,22 +14062,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
-      "clicks": 0,
+      "impressions": 61,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 740000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070366937355",
-      "productTitle": "Thank You Luxury Tart Selection Box | 6 Pieces | Premium Appreciation Desserts",
-      "date": "2025-11-11"
+      "productItemId": "52070329319691",
+      "productTitle": "Birthday Luxury Cheesecake Selection Box | 5 Pieces | Premium Birthday Indulgence",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 63,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14602,7 +14407,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 47,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14612,12 +14417,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070584910091",
-      "productTitle": "Thank You Luxury Cheesecake Selection Box | 5 Pieces | Premium Appreciation Indulgence",
-      "date": "2025-11-11"
+      "productItemId": "52070366937355",
+      "productTitle": "Thank You Luxury Tart Selection Box | 6 Pieces | Premium Appreciation Desserts",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 41,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14947,7 +14752,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
+      "impressions": 28,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -14957,12 +14762,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070626001163",
-      "productTitle": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
-      "date": "2025-11-11"
+      "productItemId": "52070584910091",
+      "productTitle": "Thank You Luxury Cheesecake Selection Box | 5 Pieces | Premium Appreciation Indulgence",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 71,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15292,7 +15097,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 61,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15302,16 +15107,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070834766091",
-      "productTitle": "Thinking of You Luxury Tart Selection Box | 6 Pieces | Premium Comfort Desserts",
-      "date": "2025-11-11"
+      "productItemId": "52070626001163",
+      "productTitle": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 249,
-      "clicks": 2,
+      "impressions": 7,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3220000
+      "costMicros": 0
     }
   },
   {
@@ -15637,7 +15442,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 19,
+      "impressions": 92,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15647,16 +15452,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070885425419",
-      "productTitle": "Congratulations Luxury Cheesecake Selection Box | 5 Pieces | Premium Achievement Indulgence",
-      "date": "2025-11-11"
+      "productItemId": "52070834766091",
+      "productTitle": "Thinking of You Luxury Tart Selection Box | 6 Pieces | Premium Comfort Desserts",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 68,
-      "clicks": 1,
+      "impressions": 10,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1500000
+      "costMicros": 0
     }
   },
   {
@@ -15982,7 +15787,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 80,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -15992,12 +15797,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070887850251",
-      "productTitle": "Thinking of You Luxury Cheesecake Selection Box | 5 Pieces | Premium Comfort Indulgence",
-      "date": "2025-11-11"
+      "productItemId": "52070885425419",
+      "productTitle": "Congratulations Luxury Cheesecake Selection Box | 5 Pieces | Premium Achievement Indulgence",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 223,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16327,7 +16132,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
+      "impressions": 67,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16337,16 +16142,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070909214987",
-      "productTitle": "Signature Bundt Cake Selection Box | Plant-Based Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52070887850251",
+      "productTitle": "Thinking of You Luxury Cheesecake Selection Box | 5 Pieces | Premium Comfort Indulgence",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 655,
-      "clicks": 4,
+      "impressions": 7,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 7580000
+      "costMicros": 0
     }
   },
   {
@@ -16612,7 +16417,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 78,
+      "impressions": 280,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16622,16 +16427,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070926254347",
-      "productTitle": "Birthday Signature Bundt Cake Selection Box | Birthday Cake Collection",
-      "date": "2025-11-11"
+      "productItemId": "52070909214987",
+      "productTitle": "Signature Bundt Cake Selection Box | Plant-Based Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 288,
-      "clicks": 1,
+      "impressions": 8,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 660000
+      "costMicros": 0
     }
   },
   {
@@ -16957,7 +16762,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
+      "impressions": 31,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -16967,12 +16772,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070939099403",
-      "productTitle": "Thank You Signature Bundt Cake Selection Box | Appreciation Cake Collection",
-      "date": "2025-11-11"
+      "productItemId": "52070926254347",
+      "productTitle": "Birthday Signature Bundt Cake Selection Box | Birthday Cake Collection",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 53,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17302,22 +17107,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52070948208907",
-      "productTitle": "Congratulations Signature Bundt Cake Selection Box | Achievement Cake Collection",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 107,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17647,7 +17437,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 25,
+      "impressions": 91,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17657,12 +17447,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52070962168075",
-      "productTitle": "Thinking of You Signature Bundt Cake Selection Box | Comfort Cake Collection",
-      "date": "2025-11-11"
+      "productItemId": "52070948208907",
+      "productTitle": "Congratulations Signature Bundt Cake Selection Box | Achievement Cake Collection",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 137,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -17992,7 +17782,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 26,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18002,12 +17792,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52371950600459",
-      "productTitle": "Corporate Artisan Brownie Collection | Box of 6 | Sustainable Business Gift",
-      "date": "2025-11-11"
+      "productItemId": "52070962168075",
+      "productTitle": "Thinking of You Signature Bundt Cake Selection Box | Comfort Cake Collection",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 33,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18322,22 +18112,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52371957645579",
-      "productTitle": "Corporate Artisan Blondie Collection | Box of 6 | Sustainable Business Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 58,
+      "impressions": 25,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -18667,22 +18442,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
-      "clicks": 0,
+      "impressions": 35,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 460000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52371961479435",
-      "productTitle": "Corporate Artisan Brownie & Blondie Collection | Box of 9 | CSR-Compliant Business Gift",
-      "date": "2025-11-11"
+      "productItemId": "52371957645579",
+      "productTitle": "Corporate Artisan Blondie Collection | Box of 6 | Sustainable Business Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 20,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19012,22 +18787,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52371966230795",
-      "productTitle": "Corporate Artisan Brownie & Blondie Collection | Box of 12 | Net-Zero Business Gift",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 63,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19357,26 +19117,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 271,
-      "clicks": 1,
+      "impressions": 1288,
+      "clicks": 8,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1850000
+      "costMicros": 15150000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52371970031883",
-      "productTitle": "Corporate Sharing Brownie & Blondie Collection | Box of 25 | Zero Waste Office Solution",
-      "date": "2025-11-11"
+      "productItemId": "52371966230795",
+      "productTitle": "Corporate Artisan Brownie & Blondie Collection | Box of 12 | Net-Zero Business Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 58,
+      "impressions": 11,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 680000
+      "costMicros": 1590000
     }
   },
   {
@@ -19702,11 +19462,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 182,
-      "clicks": 1,
+      "impressions": 944,
+      "clicks": 9,
+      "conversions": 2.0,
+      "conversionsValue": 186.76,
+      "costMicros": 18340000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52371970031883",
+      "productTitle": "Corporate Sharing Brownie & Blondie Collection | Box of 25 | Zero Waste Office Solution",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 40,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1480000
+      "costMicros": 0
     }
   },
   {
@@ -19987,7 +19762,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -19997,16 +19772,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52371977109771",
-      "productTitle": "Corporate Luxury Afternoon Tea for 1 | Carbon-Neutral Executive Hospitality",
-      "date": "2025-11-11"
+      "productItemId": "52371971801355",
+      "productTitle": "Corporate Classic Cream Tea for 1 | Sustainable Business Hospitality",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 114,
-      "clicks": 1,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1750000
+      "costMicros": 0
     }
   },
   {
@@ -20332,7 +20107,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 47,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52371977109771",
+      "productTitle": "Corporate Luxury Afternoon Tea for 1 | Carbon-Neutral Executive Hospitality",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -20602,11 +20392,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 17,
-      "clicks": 1,
+      "impressions": 68,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 710000
+      "costMicros": 1750000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52371982680331",
+      "productTitle": "Corporate Luxury Afternoon Tea for 2 | Sustainable Business Meeting Experience",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -20887,7 +20692,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 39,
+      "impressions": 129,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -20897,12 +20702,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52371993133323",
-      "productTitle": "Corporate Luxury Tart Collection | Box of 6 | Net-Zero Executive Desserts",
-      "date": "2025-11-11"
+      "productItemId": "52371988021515",
+      "productTitle": "Corporate Artisan Cookie Collection | Box of 6 | CSR Executive Business Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 17,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21232,7 +21037,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 28,
+      "impressions": 131,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21242,12 +21047,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52371997131019",
-      "productTitle": "Corporate Luxury Cheesecake Collection | Box of 5 | Sustainable Business Indulgence",
-      "date": "2025-11-11"
+      "productItemId": "52371993133323",
+      "productTitle": "Corporate Luxury Tart Collection | Box of 6 | Net-Zero Executive Desserts",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 147,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21577,7 +21382,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 83,
+      "impressions": 431,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21587,12 +21392,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52372001128715",
-      "productTitle": "Corporate Signature Bundt Cake Collection | Sustainable Business Variety Box",
-      "date": "2025-11-11"
+      "productItemId": "52371997131019",
+      "productTitle": "Corporate Luxury Cheesecake Collection | Box of 5 | Sustainable Business Indulgence",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 170,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -21922,7 +21727,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 39,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52372001128715",
+      "productTitle": "Corporate Signature Bundt Cake Collection | Sustainable Business Variety Box",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22147,26 +21967,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
-      "clicks": 0,
+      "impressions": 122,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 2430000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52379385004299",
-      "productTitle": "Taste of Christmas Luxury Sharing Box | Premium Selection Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52379349614859",
+      "productTitle": "Christmas Savoury Treat Box | Gourmet Festive Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 61,
-      "clicks": 1,
+      "impressions": 4,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 390000
+      "costMicros": 0
     }
   },
   {
@@ -22492,26 +22312,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 41,
-      "clicks": 0,
+      "impressions": 141,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1390000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52379471610123",
-      "productTitle": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52379385004299",
+      "productTitle": "Taste of Christmas Luxury Sharing Box | Premium Selection Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 206,
-      "clicks": 2,
+      "impressions": 5,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1970000
+      "costMicros": 0
     }
   },
   {
@@ -22837,7 +22657,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 20,
+      "impressions": 63,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -22847,46 +22667,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52381836509451",
-      "productTitle": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52379471610123",
+      "productTitle": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 274,
-      "clicks": 3,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 5660000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52382057595147",
-      "productTitle": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 371,
-      "clicks": 1,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 340000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 395496688,
-      "productItemId": "52382253744395",
-      "productTitle": "The Ultimate Christmas Feast Hamper | Complete Celebration Everyone Can Enjoy",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1312,
-      "clicks": 4,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 4270000
+      "costMicros": 0
     }
   },
   {
@@ -23212,26 +23002,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 232,
-      "clicks": 2,
+      "impressions": 999,
+      "clicks": 8,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 5830000
+      "costMicros": 20600000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52386454569227",
-      "productTitle": "The Christmas Eve of Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52382253744395",
+      "productTitle": "The Ultimate Christmas Feast Hamper | Complete Celebration Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 133,
-      "clicks": 0,
+      "impressions": 62,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 830000
     }
   },
   {
@@ -23572,22 +23362,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 131,
-      "clicks": 2,
+      "impressions": 363,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1150000
+      "costMicros": 1600000
     }
   },
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52386501853451",
-      "productTitle": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52386454569227",
+      "productTitle": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 192,
+      "impressions": 21,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23917,7 +23707,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 40,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -23927,12 +23717,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52387776725259",
-      "productTitle": "Luxury Christmas Afternoon Tea for 2 | Plant-Based Intimate Christmas Experience",
-      "date": "2025-11-11"
+      "productItemId": "52386501853451",
+      "productTitle": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 86,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24262,7 +24052,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 40,
+      "impressions": 131,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24272,16 +24062,16 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52405727199499",
-      "productTitle": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52387776725259",
+      "productTitle": "Luxury Christmas Afternoon Tea for 2 | Plant-Based Intimate Christmas Experience",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 538,
-      "clicks": 3,
+      "impressions": 4,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1300000
+      "costMicros": 0
     }
   },
   {
@@ -24607,7 +24397,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 32,
+      "impressions": 254,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24617,12 +24407,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52408175165707",
-      "productTitle": "Christmas Artisan Frangipane Mince Pies | Box of 12 | Traditional Christmas Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52405727199499",
+      "productTitle": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 593,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24952,7 +24742,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 31,
+      "impressions": 226,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -24962,12 +24752,12 @@
   {
     "segments": {
       "productMerchantId": 395496688,
-      "productItemId": "52408804311307",
-      "productTitle": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
-      "date": "2025-11-11"
+      "productItemId": "52408175165707",
+      "productTitle": "Christmas Artisan Frangipane Mince Pies | Box of 12 | Traditional Christmas Everyone Can Enjoy",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 163,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25297,7 +25087,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
+      "impressions": 37,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 580000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52676180017419",
+      "productTitle": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25612,7 +25417,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 16,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52676180050187",
+      "productTitle": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -25942,11 +25762,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 31,
+      "impressions": 127,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1240000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52677142184203",
+      "productTitle": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 4,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -26272,7 +26107,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 33,
+      "impressions": 142,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "52677142216971",
+      "productTitle": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26602,7 +26452,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 7,
+      "impressions": 23,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -26932,7 +26782,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27187,11 +27037,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 71,
+      "impressions": 516,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1810000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10666957504779_52066150383883",
+      "productTitle": "Artisan Brownie Collection Box of 6 | Plant-Based Gluten-Free Gift | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 29,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -27427,11 +27292,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 194,
-      "clicks": 0,
+      "impressions": 919,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 4780000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667180491019_52068236853515",
+      "productTitle": "Artisan Blondie Collection Box of 6 | Plant-Based Gluten-Free Gift | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 60,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 2520000
     }
   },
   {
@@ -27667,7 +27547,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 29,
+      "impressions": 185,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667181146379_52068241146123",
+      "productTitle": "Artisan Brownie & Blondie Collection | 9 Plant-Based Treats | Premium Gift Box UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -27897,6 +27792,36 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1030000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667181998347_52068247208203",
+      "productTitle": "Ultimate Artisan Brownie Collection | 12 Plant-Based Treats | Luxury Gift Box UK",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 170,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667181998347_52068247208203",
+      "productTitle": "Ultimate Artisan Brownie Collection | 12 Plant-Based Treats | Luxury Gift Box UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -28132,7 +28057,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 29,
+      "impressions": 110,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667182391563_52068250157323",
+      "productTitle": "Little Bug Brownie Box of 8 | Fun Kids Treats | Gluten-Free Children's Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -28372,7 +28312,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 42,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667182457099_52068250583307",
+      "productTitle": "Little Bug Brownie Box of 12 | Kids Party Treats | Fun Children's Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -28612,7 +28567,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -28867,11 +28822,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
-      "clicks": 0,
+      "impressions": 41,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 880000
     }
   },
   {
@@ -29092,7 +29047,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -29317,6 +29272,21 @@
       "date": "2025-12-11"
     },
     "metrics": {
+      "impressions": 18,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667184193803_52068268572939",
+      "productTitle": "Thank You Artisan Brownie Collection | 9 Plant-Based Treats | Premium Appreciation UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
       "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
@@ -29482,7 +29452,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -29722,7 +29692,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -29933,6 +29903,21 @@
     },
     "metrics": {
       "impressions": 29,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667184881931_52068280238347",
+      "productTitle": "Congratulations Artisan Brownie Collection | 12 Plant-Based Treats | Premium Achievement UK",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -30172,7 +30157,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -30412,7 +30397,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 17,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -30652,7 +30637,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 70,
+      "impressions": 411,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1060000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667185832203_52068283515147",
+      "productTitle": "Signature Brownie Selection Box of 25 | Bulk Sharing Treats | Plant-Based UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 31,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -30892,11 +30892,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 52,
-      "clicks": 1,
+      "impressions": 207,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 300000
+      "costMicros": 690000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667188322571_52068289282315",
+      "productTitle": "Luxury Plant-Based Cream Tea for Two | Premium Individual Experience | UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 21,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -31132,7 +31147,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 24,
+      "impressions": 95,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1460000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667188420875_52068290134283",
+      "productTitle": "Luxury Plant-Based Cream Tea for 4 | Premium Sharing Experience | UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -31372,7 +31402,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 24,
+      "impressions": 132,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667188584715_52068293411083",
+      "productTitle": "Luxury Plant-Based Afternoon Tea for One | Premium Individual Experience | UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -31582,7 +31627,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 49,
+      "impressions": 188,
+      "clicks": 3,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1270000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667188683019_52068294918411",
+      "productTitle": "Luxury Plant-Based Afternoon Tea for 2 | Premium Intimate Experience | UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -31822,7 +31882,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 55,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667188715787_52068295770379",
+      "productTitle": "Luxury Plant-Based Afternoon Tea for 4 | Premium Family Experience | UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -32019,7 +32094,7 @@
     "metrics": {
       "impressions": 260,
       "clicks": 1,
-      "conversions": 0.0,
+      "conversions": 1.0,
       "conversionsValue": 0.0,
       "costMicros": 670000
     }
@@ -32062,7 +32137,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 37,
+      "impressions": 167,
+      "clicks": 3,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1650000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667188879627_52068296458507",
+      "productTitle": "Kids Afternoon Tea Little Bug for One | Fun Individual Experience | Children's UK Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 9,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -32317,7 +32407,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 20,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667189141771_52068296982795",
+      "productTitle": "Birthday Luxury Afternoon Tea for 1 | Individual Birthday Celebration",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -32557,7 +32662,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 14,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -32797,7 +32902,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -33035,6 +33140,21 @@
       "productItemId": "shopify_zz_10667231707403_52068372578571",
       "productTitle": "Thank You Luxury Afternoon Tea | Individual Appreciation Experience | Premium UK Gift",
       "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 40,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667231707403_52068372578571",
+      "productTitle": "Thank You Luxury Afternoon Tea | Individual Appreciation Experience | Premium UK Gift",
+      "date": "2025-12-12"
     },
     "metrics": {
       "impressions": 3,
@@ -33277,7 +33397,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -33532,7 +33652,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 12,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667232133387_52068376903947",
+      "productTitle": "Congratulations Luxury Afternoon Tea | Individual Achievement Celebration | Premium U",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -33772,7 +33907,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 7,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667232297227_52068379099403",
+      "productTitle": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -34012,11 +34162,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 10,
-      "clicks": 0,
+      "impressions": 51,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 570000
     }
   },
   {
@@ -34252,7 +34402,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 37,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667232559371_52068381032715",
+      "productTitle": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience | Caring UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -34388,6 +34553,36 @@
     },
     "metrics": {
       "impressions": 104,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667233083659_52068386636043",
+      "productTitle": "Artisan Cookie Collection Box of 6 | Plant-Based Gluten-Free Treats | Premium UK",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 499,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667233083659_52068386636043",
+      "productTitle": "Artisan Cookie Collection Box of 6 | Plant-Based Gluten-Free Treats | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 48,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -34642,11 +34837,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 31,
+      "impressions": 123,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1020000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667233640715_52068392337675",
+      "productTitle": "Little Bug Cookie Selection Box of 4 | Kids Fun Treats | Gluten-Free Children's Gift",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -34882,7 +35092,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 26,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667234197771_52068394664203",
+      "productTitle": "Birthday Artisan Cookie Collection | 6 Plant-Based Treats | Ultimate Birthday UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35122,7 +35347,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35362,7 +35587,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2,
+      "impressions": 18,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667235246347_52068398301451",
+      "productTitle": "Thank You Artisan Cookie Collection | 6 Plant-Based Treats | Premium Appreciation UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35602,7 +35842,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 22,
+      "impressions": 119,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667235868939_52068403249419",
+      "productTitle": "Congratulations Artisan Cookie Collection | 6 Plant-Based Treats | Premium Achievement UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -35842,7 +36097,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 13,
+      "impressions": 62,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667236163851_52068407017739",
+      "productTitle": "Thinking of You Artisan Cookie Collection | 6 Plant-Based Treats | Thoughtful Comfort UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -36082,11 +36352,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 71,
-      "clicks": 0,
+      "impressions": 449,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 1020000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667236589835_52068410654987",
+      "productTitle": "Luxury Tart Selection Box of 6 | Plant-Based Sharing Desserts | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 27,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 260000
     }
   },
   {
@@ -36312,6 +36597,36 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1930000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667236655371_52068411998475",
+      "productTitle": "Luxury Cheesecake Selection Box of 5 | Plant-Based Gluten-Free | Premium UK",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 514,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1470000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667236655371_52068411998475",
+      "productTitle": "Luxury Cheesecake Selection Box of 5 | Plant-Based Gluten-Free | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 38,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -36547,7 +36862,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 20,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667574395147_52070136316171",
+      "productTitle": "Birthday Luxury Tart Selection | 6 Plant-Based Desserts | Ultimate Birthday UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -36787,7 +37117,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 47,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -37042,7 +37372,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 1,
+      "impressions": 7,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667648712971_52070366937355",
+      "productTitle": "Thank You Luxury Tart Selection | 6 Plant-Based Desserts | Premium Appreciation UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -37282,7 +37627,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 6,
+      "impressions": 21,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -37522,7 +37867,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 12,
+      "impressions": 42,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667678368011_52070626001163",
+      "productTitle": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -37762,7 +38122,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 10,
+      "impressions": 40,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 1290000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667696357643_52070834766091",
+      "productTitle": "Thinking of You Luxury Tart Selection | 6 Plant-Based Desserts | Premium Comfort UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -38002,7 +38377,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 15,
+      "impressions": 74,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667700191499_52070885425419",
+      "productTitle": "Congratulations Luxury Cheesecake Selection | 5 Plant-Based Desserts | Achievement Celebration UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -38242,7 +38632,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 40,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -38409,8 +38799,8 @@
     "metrics": {
       "impressions": 2376,
       "clicks": 15,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 1.0,
+      "conversionsValue": 30.015899071,
       "costMicros": 21780000
     }
   },
@@ -38437,11 +38827,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 503,
-      "clicks": 3,
+      "impressions": 2244,
+      "clicks": 9,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3930000
+      "costMicros": 10030000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667704647947_52070909214987",
+      "productTitle": "Classic Bundt Cake Selection Box | Plant-Based Gluten-Free Collection | UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 143,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -38677,7 +39082,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 74,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667708580107_52070926254347",
+      "productTitle": "Birthday Signature Bundt Cake Selection | Birthday Cake Collection | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -38917,7 +39337,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 4,
+      "impressions": 16,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667711496459_52070939099403",
+      "productTitle": "Thank You Signature Bundt Cake Selection | Appreciation Cake Collection | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -39157,7 +39592,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 31,
+      "impressions": 131,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10667713429771_52070948208907",
+      "productTitle": "Congratulations Signature Bundt Cake Selection | Achievement Cake Collection | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -39412,7 +39862,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 9,
+      "impressions": 23,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -39594,7 +40044,7 @@
     "metrics": {
       "impressions": 264,
       "clicks": 7,
-      "conversions": 0.0,
+      "conversions": 1.0,
       "conversionsValue": 0.0,
       "costMicros": 4830000
     }
@@ -39652,11 +40102,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 133,
-      "clicks": 1,
+      "impressions": 518,
+      "clicks": 7,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 750000
+      "costMicros": 3240000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10726287704331_52379349614859",
+      "productTitle": "Christmas Savoury Treat Box | Gourmet Festive Experience | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 31,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -39892,7 +40357,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 33,
+      "impressions": 119,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10726296387851_52379385004299",
+      "productTitle": "Taste of Christmas | Christmas Treats Everyone Can Enjoy | Premium Gift Box UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -40132,11 +40612,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 117,
-      "clicks": 2,
+      "impressions": 457,
+      "clicks": 5,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3010000
+      "costMicros": 6300000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10726324207883_52379471610123",
+      "productTitle": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience | Premium UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 21,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -40387,11 +40882,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 358,
-      "clicks": 0,
+      "impressions": 1239,
+      "clicks": 7,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 9530000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10727257506059_52676180017419",
+      "productTitle": "Sweet & Savoury Christmas Treat Box | Plant-Based Christmas Treats for All to Enjoy | Premium Gift Box UK No",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 78,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 2290000
     }
   },
   {
@@ -40642,11 +41152,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 126,
+      "impressions": 465,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1620000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10727257506059_52676180050187",
+      "productTitle": "Sweet & Savoury Christmas Treat Box | Plant-Based Christmas Treats for All to Enjoy | Premium Gift Box UK Yes",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 21,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -40897,11 +41422,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 124,
+      "impressions": 372,
       "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 2760000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10727914635531_52386454569227",
+      "productTitle": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 14,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -41152,7 +41692,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 56,
+      "impressions": 229,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10727924793611_52386501853451",
+      "productTitle": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 12,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -41407,7 +41962,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 29,
+      "impressions": 184,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10728000520459_52387776725259",
+      "productTitle": "Christmas Luxury Afternoon Tea for 2 | Festive Experience | Premium Christmas UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 21,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -41662,7 +42232,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 60,
+      "impressions": 439,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 790000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10731712119051_52405727199499",
+      "productTitle": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 33,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -41902,7 +42487,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 28,
+      "impressions": 228,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10732502679819_52408175165707",
+      "productTitle": "Christmas Artisan Mince Pies | 12 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 17,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -42157,7 +42757,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 43,
+      "impressions": 206,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10732632047883_52677147656459",
+      "productTitle": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 14,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -42412,7 +43027,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 11,
+      "impressions": 104,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 395496688,
+      "productItemId": "shopify_zz_10732632047883_52677147689227",
+      "productTitle": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK Yes",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,

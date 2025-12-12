@@ -964,6 +964,62 @@ ANALYSIS:
 Nov spend: £602.71 | Conv value: £7,198.09 | Utilisation: 114%
 
 
+### [URGENT] [devonshire-hotels] Investigate Pilsley Inn zero conversions issue
+<!-- task_id: WkUtVlgwanJ0b2pBZlI5Nw -->
+**Status:** 📋 In Progress  
+
+From: PPC Catch Up - Estate Escapes Devonshire
+Date: 2025-12-10
+AI Generated (2025-12-10 10:35)
+
+Context:
+£328 spent with zero bookings requires immediate analysis to understand why campaign is not converting.
+
+
+### [HIGH] [devonshire-hotels] Add new package site links to campaigns
+<!-- task_id: Q3BxS3QtZzMxZG1vV1pOUw -->
+**Status:** 📋 In Progress  
+
+From: PPC Catch Up - Estate Escapes Devonshire
+Date: 2025-12-10
+AI Generated (2025-12-10 10:35)
+
+Context:
+New packages launching in January include lunch/dinner included offers and 20% cottage discounts. Campaign links need updating to reflect these promotions.
+
+
+### [HIGH] [devonshire-hotels] Ask Google rep specific technical requirements for booking engine integration
+<!-- task_id: SFVJOGFRYlNLS19NcTFJbA -->
+**Status:** 📋 In Progress  
+
+From: PPC Catch Up - Estate Escapes Devonshire
+Date: 2025-12-10
+AI Generated (2025-12-10 10:35)
+
+Context:
+Need to understand exact technical specifications to reconnect hotel integrations with Google PMax campaigns after previous disconnection.
+
+
+### [devonshire-hotels] Review meeting: PPC Catch Up - Estate Escapes Devonshire
+<!-- task_id: NWRhZE1aSHhmMEVVQkpLeA -->
+**Status:** 📋 In Progress  
+
+Meeting: PPC Catch Up - Estate Escapes Devonshire
+Date: 2025-12-10
+File: /Users/administrator/Documents/PetesBrain.nosync/clients/devonshire-hotels/meeting-notes/2025-12-10-ppc-catch-up-estate-escapes-devonshire-devonshire-hotels.md
+
+Review meeting notes and update CONTEXT.md with key insights.
+
+
+### [devonshire-hotels] Complete conversion rate corrections for November figures
+<!-- task_id: TjJjb0xPdmFzeWc0dUk2bw -->
+**Status:** 📋 In Progress  
+
+From: PPC Catch Up - Estate Escapes Devonshire
+Date: 2025-12-10
+AI Generated (2025-12-10 10:30)
+
+
 ## Completed Work
 
 ### Implement November 2025 Budget Changes - Devonshire Hotels

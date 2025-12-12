@@ -29,13 +29,17 @@ import csv
 import json
 from pathlib import Path
 
-# Add Google Sheets MCP path
-sys.path.insert(0, '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-sheets-mcp-server')
+# Add shared modules to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "shared"))
+from paths import get_project_root, get_clients_dir, get_infrastructure_dir
+
+PROJECT_ROOT = get_project_root()
+sys.path.insert(0, str(get_infrastructure_dir() / "mcp-servers" / "google-sheets-mcp-server"))
 
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
-CLIENTS_DIR = Path("/Users/administrator/Documents/PetesBrain/clients")
+CLIENTS_DIR = get_clients_dir()
 TODAY = datetime.now().strftime("%Y-%m-%d")
 
 def get_client_info(client_name=None, customer_id=None):

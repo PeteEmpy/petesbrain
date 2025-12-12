@@ -1,0 +1,97 @@
+================================================================================
+SMYTHSON P9 BUDGET REVERSAL - QUICK REFERENCE
+Dec 18, 2025 - BEFORE 09:00 AM
+================================================================================
+
+🚨 CRITICAL TASK - DO NOT SKIP OR DELAY
+
+================================================================================
+WHAT TO DO
+================================================================================
+
+RESTORE ALL 12 CAMPAIGN BUDGETS TO ORIGINAL AMOUNTS
+
+Account: UK (8573235780)
+─────────────────────────────────────────────────────────────────────────────
+Campaign 22845468179 (P Max H&S): £250 → £450/day
+Campaign 13813053110 (Brand Stationery): £32 → £91/day
+Campaign 13813052579 (Brand Plus): £50 → £100/day
+Campaign 23021472678 (H&S Men's): £143 → £179/day
+Campaign 23233714033 (H&S Christmas): £231 → £243/day
+
+Account: EUR (7679616761)
+─────────────────────────────────────────────────────────────────────────────
+Campaign 23257761115 (DE P Max Diaries): £40 → £15/day
+Campaign 691020848 (DE Search Brand): £79 → £44/day
+Campaign 23248988334 (FR P Max Christmas): £66 → £30/day
+Campaign 1599767262 (IT Search Brand): £110 → £60/day
+Campaign 23253394509 (P Max Christmas): £90 → £60/day
+Campaign 22440993281 (ROEuro Search Brand): £153 → £130/day
+Campaign 23257901431 (IT P Max Diaries): £50 → £25/day
+
+================================================================================
+WHY THIS MATTERS
+================================================================================
+
+✓ EUR standard delivery cutoff: Dec 17-18 (reallocation period ending)
+✓ UK Last Order Week: Dec 18-19 (needs FULL budget)
+✓ If not reversed: UK will be under-budgeted for peak period
+✓ If not reversed: EUR will be over-budget when orders not being accepted
+
+================================================================================
+CHECKLIST
+================================================================================
+
+BEFORE REVERSAL (08:00 AM)
+☐ Confirm date is Dec 18, 2025
+☐ Query all 12 campaigns - verify current budgets match the LIVE amounts
+☐ Confirm EUR delivery cutoff has passed
+☐ Confirm UK Last Order Week is active
+
+DURING REVERSAL (08:30 AM)
+☐ Reverse all 5 UK campaign budgets (restore to higher amounts)
+☐ Reverse all 7 EUR campaign budgets (restore to lower amounts)
+
+AFTER REVERSAL (09:00 AM - MANDATORY)
+☐ Query all 12 campaigns again
+☐ VERIFY every single budget is now at the original amount
+☐ DO NOT ASSUME - VERIFY EACH ONE
+☐ Save verification results to: /clients/smythson/reports/reversal-verification-20251218.txt
+
+================================================================================
+FULL DOCUMENTATION
+================================================================================
+
+Complete reversal checklist: /clients/smythson/reports/REVERSAL-CHECKLIST-DEC-18-2025.md
+Execution plan reference: /clients/smythson/reports/execution-plan-dec-12-17.md
+Backup of original budgets: /clients/smythson/reports/backup-current-budgets-20251211.txt
+ROAS analysis: /clients/smythson/reports/campaign-reallocation-roas-proportional.md
+
+================================================================================
+CONTACTS
+================================================================================
+
+Responsible Party: [To be assigned]
+Backup Contact: [To be assigned]
+Verification: [To be assigned]
+
+SET CALENDAR REMINDER: Dec 18, 2025 at 08:00 AM
+
+================================================================================
+IF ANYTHING GOES WRONG
+================================================================================
+
+❌ Campaign budget won't update: Check API permissions, try again
+❌ Verification shows different amount: Query again, take screenshot
+❌ Any anomaly or issue: STOP immediately, do not continue
+   Contact responsible party before proceeding
+
+================================================================================
+KEY PHRASE TO REMEMBER
+================================================================================
+
+"VERIFY BEFORE. VERIFY AFTER. VERIFY EVERY CAMPAIGN."
+
+No shortcuts. No assumptions. Each campaign must be checked.
+
+================================================================================

@@ -117,10 +117,7 @@ def main():
                     print(f"   Tasks being removed:")
                     for task in result['tasks']:
                         print(f"      - {task['title'][:60]}...")
-                        print(f"        Completed: {task['completed_at']}")
-
-            # Also check product-feeds/tasks.json (legacy location - should be migrated)
-            product_feeds_dir = client_dir / 'product-feeds'
+                        print(f"        Completed: {task['completed_at']}")            product_feeds_dir = client_dir / 'product-feeds'
             if product_feeds_dir.exists() and product_feeds_dir.is_dir():
                 pf_tasks = product_feeds_dir / 'tasks.json'
                 if pf_tasks.exists():

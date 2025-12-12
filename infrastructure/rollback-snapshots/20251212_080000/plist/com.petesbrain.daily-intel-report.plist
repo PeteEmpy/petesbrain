@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PETESBRAIN_ROOT</key>
+		<string>/Users/administrator/Documents/PetesBrain.nosync</string>
+	</dict>
+	<key>Label</key>
+	<string>com.petesbrain.daily-intel-report</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/python3</string>
+		<string>/Users/administrator/Documents/PetesBrain.nosync/agents/daily-intel-report/daily-intel-report.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/administrator/.petesbrain-daily-intel-report-error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/administrator/.petesbrain-daily-intel-report.log</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>7</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/administrator/Documents/PetesBrain.nosync</string>
+</dict>
+</plist>

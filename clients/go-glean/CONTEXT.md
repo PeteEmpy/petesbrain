@@ -15,6 +15,7 @@
 **Account Manager**: Peter Empson - petere@roksys.co.uk
 
 **Business Type**: E-commerce
+**Business Model**: **Product Hero Client** ⭐ (Uses Product Hero label system for performance-based campaign segmentation)
 **Industry**: [TBD - likely construction/building materials based on "grout" campaign]
 **Geographic Focus**: UK
 

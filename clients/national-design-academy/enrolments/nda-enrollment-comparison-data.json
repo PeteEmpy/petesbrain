@@ -1,0 +1,30 @@
+{
+  "months": [
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "2024-25": [
+    33,
+    41,
+    38,
+    20,
+    14
+  ],
+  "2025-26": [
+    43,
+    82,
+    50,
+    38,
+    7
+  ],
+  "totals": {
+    "2024-25": 146,
+    "2025-26": 220,
+    "change": 74,
+    "pct_change": 50.68493150684932
+  },
+  "note": "Using current source file from Kelly Rawson (Dec 8, 2025)"
+}

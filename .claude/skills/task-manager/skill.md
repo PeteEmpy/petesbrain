@@ -15,7 +15,7 @@ When this skill is invoked:
 1. **Generate the priority-based task overview**:
    ```bash
    cd /Users/administrator/Documents/PetesBrain
-   python3 generate-tasks-overview-priority.py
+   python3 generate-tasks-overview.py
    ```
 
 2. **Open in browser**:

@@ -5,6 +5,77 @@ Tasks are logged automatically by the Google Tasks monitoring system.
 
 ---
 
+## [Roksys] Implement Knowledge Base Search - Conversational AI Search Interface
+**Completed:** 2025-12-11 16:08
+**Source:** Manual task notes
+
+**Original Task:**
+Implement conversational search interface for knowledge base with 550+ files:
+- roksys/knowledge-base/ai-strategy/ (239 files)
+- roksys/knowledge-base/analytics/ (166 files)
+- roksys/knowledge-base/industry-insights/ (149 files)
+
+Target: Create `.claude/skills/knowledge-search/` skill with semantic search, AI synthesis, and quick Claude Code access.
+
+**Status:** ✅ Completed
+**Note:** Knowledge base search interface implementation completed and integrated into Claude Code workflow.
+
+---
+
+## [Personal] Repeat Prescription & Vitamin Tablets
+**Completed:** 2025-12-11 16:07
+**Source:** Manual task notes
+
+**Original Task:**
+Obtain repeat prescription from pharmacy and purchase vitamin tablets.
+
+**Actions Completed:**
+1. ✅ Contacted pharmacy for repeat prescription
+2. ✅ Purchased vitamin tablets
+
+**Status:** ✅ Completed
+
+---
+
+## [Crowd Control] Add Freemius Pixel Manager subscription to invoice
+**Completed:** 2025-12-11 16:07
+**Source:** Manual task notes
+
+**Original Task:**
+Add the Freemius Pixel Manager Pro for WooCommerce subscription cost to Crowd Control's December invoice.
+
+**Invoice Details:**
+- Amount: $149.00 USD (~£118)
+- Payment Date: Nov 4, 2025
+- Payment ID: 1812763
+- License Type: Site (Annual)
+- Next Renewal: Nov 4, 2026
+- Vendor: Wolf+Bär GmbH (via Freemius)
+
+**Status:** ✅ Completed
+**Note:** Subscription cost added to Crowd Control's December invoice. Invoice reference: https://api.freemius.com/v1/users/9876430/payments/1812763/invoice.pdf
+
+---
+
+## [Smythson] Review P9 Budget and Adjust for P8 Overspend
+**Completed:** 2025-12-11 16:05
+**Source:** Manual task notes (voice note)
+
+**Original Task:**
+Review and adjust P9 (Dec 1-28) budget allocation across all 4 regions to compensate for P8 overspend of £11,234 while maintaining Q4 target delivery.
+
+**Status:** ✅ Completed
+**Note:** "We're now well into P9 this has been completed" - P9 budget review and adjustment have been completed. System is now executing P9 budgets with P8 overspend factored in.
+
+**Context:**
+- P8 actual spend: £197,285 (£11,234 over £186,051 budget)
+- P9 budget adjusted from £183,929 to account for overspend
+- Regional allocation: EUR performing at 861% ROAS (exceeding 470% target), UK at 82% of revenue target
+
+**Outcome:** P9 budgets finalised and deployed. Q4 target tracking adjusted accordingly.
+
+---
+
 ## [Internal] Check Freemius Pixel Manager billing - Godshot or Crowd Control
 **Completed:** 2025-11-24 12:30
 **Source:** Task Manager (manual note)

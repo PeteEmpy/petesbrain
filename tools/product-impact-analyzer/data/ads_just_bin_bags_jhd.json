@@ -4,21 +4,6 @@
       "productMerchantId": 5085550522,
       "productItemId": "1268341122",
       "productTitle": "Marigold Powder Free Latex Household Gloves - Pack of 144 Pairs \u2013 Blue",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 25,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 5085550522,
-      "productItemId": "1268341122",
-      "productTitle": "Marigold Powder Free Latex Household Gloves - Pack of 144 Pairs \u2013 Blue",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -442,7 +427,7 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 3,
+      "impressions": 24,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -452,16 +437,16 @@
   {
     "segments": {
       "productMerchantId": 5085550522,
-      "productItemId": "2744534942",
-      "productTitle": "Premium Blue Nitrile Examination Gloves Box of 100 - Medical Grade AQL 1.5",
-      "date": "2025-11-11"
+      "productItemId": "1268341122",
+      "productTitle": "Marigold Powder Free Latex Household Gloves - Pack of 144 Pairs \u2013 Blue",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 368,
-      "clicks": 1,
+      "impressions": 4,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 110000
+      "costMicros": 0
     }
   },
   {
@@ -887,16 +872,31 @@
   {
     "segments": {
       "productMerchantId": 5085550522,
-      "productItemId": "3128383985",
-      "productTitle": "Blue Vinyl Gloves Box of 100 \u2013 Powder Free \u2013 Food Safe - All Sizes",
-      "date": "2025-11-11"
+      "productItemId": "2744534942",
+      "productTitle": "Premium Blue Nitrile Examination Gloves Box of 100 - Medical Grade AQL 1.5",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 722,
-      "clicks": 5,
+      "impressions": 68,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 4540000
+      "costMicros": 890000
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 5085550522,
+      "productItemId": "2744534942",
+      "productTitle": "Premium Blue Nitrile Examination Gloves Box of 100 - Medical Grade AQL 1.5",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 11,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -1342,26 +1342,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 14,
-      "clicks": 0,
+      "impressions": 186,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 400000
     }
   },
   {
     "segments": {
       "productMerchantId": 5085550522,
-      "productItemId": "3780613855",
-      "productTitle": "Clear Medical Grade Vinyl Gloves \u2013 Box Of 100 - Powder Free AQL 1.5",
-      "date": "2025-11-11"
+      "productItemId": "3128383985",
+      "productTitle": "Blue Vinyl Gloves Box of 100 \u2013 Powder Free \u2013 Food Safe - All Sizes",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 802,
-      "clicks": 5,
+      "impressions": 16,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3530000
+      "costMicros": 3940000
     }
   },
   {
@@ -1792,22 +1792,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8,
-      "clicks": 0,
+      "impressions": 82,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 370000
     }
   },
   {
     "segments": {
       "productMerchantId": 5085550522,
-      "productItemId": "5709460654",
-      "productTitle": "Blue Disposable Mob Caps - Food Safe Hair Covers - Case of 1000",
-      "date": "2025-11-11"
+      "productItemId": "3780613855",
+      "productTitle": "Clear Medical Grade Vinyl Gloves \u2013 Box Of 100 - Powder Free AQL 1.5",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 23,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2228,6 +2228,36 @@
     },
     "metrics": {
       "impressions": 27,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 5085550522,
+      "productItemId": "5709460654",
+      "productTitle": "Blue Disposable Mob Caps - Food Safe Hair Covers - Case of 1000",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 22,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 5085550522,
+      "productItemId": "5709460654",
+      "productTitle": "Blue Disposable Mob Caps - Food Safe Hair Covers - Case of 1000",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,

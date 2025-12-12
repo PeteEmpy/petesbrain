@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-12-11T16:36:01.420610",
+  "international": {
+    "by_country": {},
+    "by_country_revenue": {}
+  },
+  "uk": {
+    "total_enrollments": 0,
+    "total_revenue": 0.0
+  },
+  "summary": {
+    "total_international_enrollments": 0,
+    "total_international_revenue": 0,
+    "total_uk_enrollments": 0,
+    "total_uk_revenue": 0.0,
+    "total_enrollments": 0,
+    "total_revenue": 0.0
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.petesbrain.whatsapp-processor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <string>/Users/administrator/Documents/PetesBrain.nosync/agents/whatsapp-processor/whatsapp-processor.py</string>
+        <string>--days</string>
+        <string>7</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/administrator/Documents/PetesBrain.nosync</string>
+
+    <key>StartInterval</key>
+    <integer>3600</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/administrator/.petesbrain-whatsapp.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/administrator/.petesbrain-whatsapp-error.log</string>
+
+    <key>RunAtLoad</key>
+    <true />
+
+<key>ProcessType</key>
+<string>Background</string>
+</dict>
+</plist>

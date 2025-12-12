@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-11T08:53:37.252715",
+  "last_updated": "2025-12-12T07:01:18.730661",
   "source": "merchant_centre_api",
   "label_field": "customLabel0",
   "products": {
@@ -40,7 +40,7 @@
     "shopify_GB_8784877551890_47734888661266": "zombies",
     "shopify_GB_8784877748498_47734979789074": "zombies",
     "shopify_GB_8784877551890_48957996106002": "zombies",
-    "shopify_GB_9397473673490_48957607280914": "sidekicks",
+    "shopify_GB_9397473673490_48957607280914": "zombies",
     "shopify_GB_8784875847954_48957268132114": "zombies",
     "shopify_GB_8784875847954_47734951182610": "zombies",
     "shopify_GB_9715210879250_50003891355922": "zombies",
@@ -86,7 +86,7 @@
     "shopify_GB_8784875847954_47734950854930": "zombies",
     "shopify_GB_9397473673490_48957607313682": "zombies",
     "shopify_GB_9715262783762_50004105330962": "zombies",
-    "shopify_GB_8784875847954_47734950789394": "heroes",
+    "shopify_GB_8784875847954_47734950789394": "villains",
     "shopify_GB_8784876241170_47735016915218": "zombies",
     "shopify_GB_8784877551890_47734888628498": "sidekicks",
     "shopify_GB_8784875847954_48957267902738": "sidekicks",
@@ -100,7 +100,7 @@
     "shopify_GB_9397473673490_48957607215378": "sidekicks",
     "shopify_GB_8784875847954_47734950953234": "heroes",
     "shopify_GB_8784876896530_47734926967058": "villains",
-    "shopify_GB_8784877551890_47734888726802": "zombies",
+    "shopify_GB_8784877551890_47734888726802": "sidekicks",
     "shopify_GB_8784875847954_48957268263186": "zombies",
     "shopify_GB_8784875847954_48957268492562": "zombies",
     "shopify_GB_8784875847954_48957267968274": "zombies",
@@ -111,6 +111,6 @@
     "shopify_GB_8784875847954_47734950986002": "sidekicks",
     "shopify_GB_8784875847954_48957268164882": "zombies",
     "shopify_GB_8784877551890_48957996204306": "zombies",
-    "shopify_GB_8784875847954_47734951051538": "villains"
+    "shopify_GB_8784875847954_47734951051538": "zombies"
   }
 }

@@ -1,0 +1,6 @@
+# Google Ads API Configuration for NMA
+# Using OAuth credentials file
+developer_token: "VrzEP-PTSY01pm1BJidERQ"
+client_id: "257130067085-1idqnec9g514dls0jhahsku4q9qjgl8g.apps.googleusercontent.com"
+client_secret: "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"
+use_proto_plus: true

@@ -5,7 +5,7 @@ Re-authenticate Google OAuth with expanded scopes
 This script re-authenticates the OAuth token with all necessary scopes:
 - Google Tasks (read/write)
 - Google Calendar (read-only)
-- Gmail (read-only) - for future use
+- Gmail (read/write/label/send) - includes all Gmail permissions
 
 Run this when you need to add new API scopes to the existing OAuth setup.
 """
@@ -21,7 +21,7 @@ from google.oauth2.credentials import Credentials
 SCOPES = [
     'https://www.googleapis.com/auth/tasks',           # Google Tasks (read/write)
     'https://www.googleapis.com/auth/calendar.readonly',  # Google Calendar (read)
-    'https://www.googleapis.com/auth/gmail.readonly',     # Gmail (read) - for future
+    'https://www.googleapis.com/auth/gmail.modify',     # Gmail (read/write/label) - includes all Gmail permissions
 ]
 
 def reauth_google_oauth():
@@ -89,7 +89,7 @@ def reauth_google_oauth():
     print("The following services are now available:")
     print("  ✓ Google Tasks (read/write)")
     print("  ✓ Google Calendar (read-only)")
-    print("  ✓ Gmail (read-only)")
+    print("  ✓ Gmail (read/write/label/send)")
     print()
     print("You can now run:")
     print("  - Daily briefing agent")

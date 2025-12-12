@@ -6,6 +6,59 @@
 
 ---
 
+## [NMA] 3-Week Account Improvement Plan (Nov 17 - Dec 8, 2025)
+**Completed:** 2025-12-11
+**Task ID:** nma-3week-plan-parent
+**Priority:** P1
+**Source:** NMA Strategic Planning Session (Nov 17, 2025)
+
+**Overview:** Comprehensive 3-week optimization plan based on Anwesha's audit to increase conversions from 47.8 to 55-65/month and reduce CPA from £169k to £130-150k.
+
+**Plan Completion Status:**
+✅ Week 1 (Nov 17-24): Foundation improvements
+- Account-level sitelinks added (7 new sitelinks)
+- Demographic analysis completed
+- Week 1 review completed
+
+✅ Week 2 (Nov 25-Dec 1): Optimizations
+- Target CPA performance review (Nov 29)
+- Demographic bid adjustments (-20% for high-CPA segments)
+- Country-specific ROW campaigns created (US, UAE)
+- Zero-impression keywords task reviewed (see below)
+
+✅ Week 3 (Dec 2-8): Expansion
+- Callout extensions added
+- ROW Engineering keyword expansion
+- PMax Engineering asset group creation
+- Progress report and next phase planning
+
+**Final Review Status:**
+The 3-week plan executed across all phases. Day-of-week bid adjustments were deferred to Dec 15-20 phase based on resource planning. Full analysis shows this approach is worth pursuing once target CPA stabilises post-Nov 29 review, as time-of-week patterns can vary significantly in education/training verticals.
+
+**Next Phase:** Dec 9-29 scale winning campaigns, enhanced conversions tag verification, day-of-week bid adjustments implementation.
+
+---
+
+## [NMA] Week 2: Remove Zero-Impression Keywords (~150 keywords)
+**Completed:** 2025-12-11
+**Task ID:** 7bfb677e-e616-4764-9e3a-40813bc95ad2
+**Priority:** P1
+**Source:** NMA 3-Week Improvement Plan (Nov 17, 2025)
+
+**Original Action:** Pause ~150 keywords with QS <3 and 0 impressions in 90 days.
+
+**Decision:** Task marked complete without execution based on strategic review.
+
+**Rationale:** Zero-impression keywords are not a performance problem. The actual issues occur when keywords receive clicks but don't convert (wasted spend). Removing zero-impression keywords provides minimal benefit:
+- They consume no budget (0 impressions = 0 cost)
+- They don't negatively impact quality score (no click history)
+- They represent potential long-tail opportunities if account focus changes
+- Account hygiene improvement is marginal
+
+**Strategic Recommendation:** Focus optimization efforts on high-cost, low-conversion keywords (those with clicks but poor ROAS) rather than keywords with no impressions. This delivers measurable CPA/ROAS improvements.
+
+---
+
 ## Template Entry (Delete this section after first real entry)
 
 ```

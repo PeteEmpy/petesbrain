@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-12-11T15:14:57.973172",
+  "dry_run": false,
+  "successful": 5,
+  "failed": 2,
+  "changes": [
+    {
+      "campaign_id": "12578308466",
+      "campaign_name": "NMA | Search | UK | Management 100 Ai 25/8 No Target",
+      "ad_group_name": "masters degree sport",
+      "criterion_id": "503003",
+      "description": "Age 35-44",
+      "current_modifier": 0.8999999761581421,
+      "new_modifier": 0.8,
+      "resource_name": "customers/5622468019/adGroupCriteria/128177516108~503003",
+      "timestamp": "2025-12-11T15:14:52.736591",
+      "applied": true
+    },
+    {
+      "campaign_id": "12578308466",
+      "campaign_name": "NMA | Search | UK | Management 100 Ai 25/8 No Target",
+      "ad_group_name": "masters degree sport",
+      "criterion_id": "503004",
+      "description": "Age 45-54",
+      "current_modifier": 1.0,
+      "new_modifier": 0.8,
+      "resource_name": "customers/5622468019/adGroupCriteria/128177516108~503004",
+      "timestamp": "2025-12-11T15:14:53.760131",
+      "applied": true
+    },
+    {
+      "campaign_id": "12578308466",
+      "campaign_name": "NMA | Search | UK | Management 100 Ai 25/8 No Target",
+      "ad_group_name": "masters degree sport",
+      "criterion_id": "503005",
+      "description": "Age 55-64",
+      "current_modifier": 1.0,
+      "new_modifier": 0.8,
+      "resource_name": "customers/5622468019/adGroupCriteria/128177516108~503005",
+      "timestamp": "2025-12-11T15:14:54.822935",
+      "applied": true
+    },
+    {
+      "campaign_id": "13071720649",
+      "campaign_name": "NMA | Search | ROW | Management 100 No Target",
+      "ad_group_name": "motorsport management",
+      "criterion_id": "503003",
+      "description": "Age 35-44",
+      "current_modifier": 1.0,
+      "new_modifier": 0.8,
+      "resource_name": "customers/5622468019/adGroupCriteria/122983277900~503003",
+      "timestamp": "2025-12-11T15:14:56.224392",
+      "applied": true
+    },
+    {
+      "campaign_id": "13071720649",
+      "campaign_name": "NMA | Search | ROW | Management 100 No Target",
+      "ad_group_name": "motorsport management",
+      "criterion_id": "503004",
+      "description": "Age 45-54",
+      "current_modifier": 1.0,
+      "new_modifier": 0.8,
+      "resource_name": "customers/5622468019/adGroupCriteria/122983277900~503004",
+      "timestamp": "2025-12-11T15:14:56.993254",
+      "applied": true
+    }
+  ],
+  "review_date": "2026-01-11"
+}

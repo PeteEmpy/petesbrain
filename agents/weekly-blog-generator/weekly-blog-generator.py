@@ -18,6 +18,10 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 import anthropic
+
+# Add shared module to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent / "shared"))
+from secrets import get_secret
 import requests
 from typing import List, Dict, Any, Optional
 import xml.etree.ElementTree as ET
@@ -147,10 +151,10 @@ def load_tone_reference():
 
 def generate_blog_post(articles: List[Dict[str, Any]]) -> Dict[str, str]:
     """Generate blog post content using Claude API"""
-    
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+
+    api_key = get_secret('ANTHROPIC_API_KEY', fallback_env_var='ANTHROPIC_API_KEY')
     if not api_key:
-        log_message("ERROR: ANTHROPIC_API_KEY not set")
+        log_message("ERROR: ANTHROPIC_API_KEY not found in Keychain or environment")
         return None
     
     client = anthropic.Anthropic(api_key=api_key)

@@ -1,15 +1,15 @@
 {
-  "generated": "2025-12-11T09:00:00.499746",
-  "total_files": 1363,
-  "total_words": 917174,
+  "generated": "2025-12-12T09:00:00.417471",
+  "total_files": 1366,
+  "total_words": 918768,
   "categories": {
     "root": {
       "count": 4,
       "total_words": 3437
     },
     "uncategorized": {
-      "count": 283,
-      "total_words": 132975
+      "count": 286,
+      "total_words": 134569
     },
     "ai-strategy": {
       "count": 221,
@@ -176,6 +176,42 @@
       "modified": 1765367204.1639342,
       "preview": "url: https://searchengineland.com/google-microsoft-performance-max-approaches-464964",
       "content_preview": "---\nsource: Search Engine Land - PPC\nurl: https://searchengineland.com/google-microsoft-performance-max-approaches-464964\npublished: Mon, 24 Nov 2025 13:00:00 +0000\nrelevance_score: 8\nprimary_topic: Performance Max comparison between Google and Microsoft Advertising platforms\nfetched: 2025-11-24T14:31:07.292233\n---\n\n# Google and Microsoft: How their Performance Max approaches align and diverge\n\n**Source**: Search Engine Land - PPC\n**URL**: https://searchengineland.com/google-microsoft-performanc"
+    },
+    {
+      "path": "_inbox/documents/2025-12-11_google-ads_most-popular-bid-strategies.md",
+      "filename": "2025-12-11_google-ads_most-popular-bid-strategies.md",
+      "category": "uncategorized",
+      "title": "What's the Most Popular Google Ads Bid Strategy?",
+      "date": "2025-12-11",
+      "word_count": 449,
+      "size_bytes": 3406,
+      "modified": 1765472086.9523113,
+      "preview": "url: https://adalysis.com/blog/whats-the-most-popular-google-ads-bid-strategy",
+      "content_preview": "---\nsource: Adalysis\nurl: https://adalysis.com/blog/whats-the-most-popular-google-ads-bid-strategy\npublished: Mon, 11 Nov 2025 00:00:00 +0000\nrelevance_score: 8\nprimary_topic: Industry benchmarks - most common Google Ads bid strategies across 16,000+ campaigns, segmented by conversion volume and campaign type\nfetched: 2025-12-11T16:36:00.000000\ncategory: Google Ads\nauthor: Brad\ntags: bidding, bid-strategy, max-conversions, target-cpa, target-roas, benchmarks, industry-data\n---\n\n# What's the Most"
+    },
+    {
+      "path": "_inbox/documents/2025-12-11_google-ads_search-bidding-strategies-conversion-value-vs-conversions.md",
+      "filename": "2025-12-11_google-ads_search-bidding-strategies-conversion-value-vs-conversions.md",
+      "category": "uncategorized",
+      "title": "Search Campaign Bidding Strategies: Maximising Profit vs Conversions",
+      "date": "2025-12-11",
+      "word_count": 776,
+      "size_bytes": 5888,
+      "modified": 1765473663.949455,
+      "preview": "source: Google Ads Official Support + Research Clarification",
+      "content_preview": "---\nsource: Google Ads Official Support + Research Clarification\nurl: https://support.google.com/google-ads/answer/7684216?hl=en\npublished: Wed, 11 Dec 2025 00:00:00 +0000\nrelevance_score: 9\nprimary_topic: Search campaign bidding strategies - Maximize Conversion Value vs Maximize Conversions vs Target CPA for profit optimization\nfetched: 2025-12-11T16:50:00.000000\ncategory: Google Ads\nauthor: Google Support + PetesBrain Research\ntags: search-bidding, maximize-conversion-value, target-cpa, profit"
+    },
+    {
+      "path": "_inbox/documents/2025-12-11_google-ads_when-to-switch-max-to-target-bidding.md",
+      "filename": "2025-12-11_google-ads_when-to-switch-max-to-target-bidding.md",
+      "category": "uncategorized",
+      "title": "When Should You Switch from Max to Target Bidding?",
+      "date": "2025-12-11",
+      "word_count": 369,
+      "size_bytes": 2852,
+      "modified": 1765472040.434383,
+      "preview": "url: https://adalysis.com/blog/when-should-you-switch-max-target-bidding",
+      "content_preview": "---\nsource: Adalysis\nurl: https://adalysis.com/blog/when-should-you-switch-max-target-bidding\npublished: Mon, 18 Nov 2025 00:00:00 +0000\nrelevance_score: 8\nprimary_topic: Bidding strategy thresholds - when to switch from Max to Target bidding based on 16,000+ account analysis\nfetched: 2025-12-11T16:35:00.000000\ncategory: Google Ads\nauthor: Brad\ntags: bidding, target-cpa, target-roas, machine-learning, benchmarks, bid-strategy\n---\n\n# When Should You Switch from Max to Target Bidding?\n\n**Source**:"
     },
     {
       "path": "_inbox/emails/emails/2025-10-30_ai-prompts-to-try-for-halloween.md",

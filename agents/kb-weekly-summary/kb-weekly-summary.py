@@ -40,7 +40,7 @@ KB_ROOT = PROJECT_ROOT / "roksys/knowledge-base"
 AI_NEWS_OLD = PROJECT_ROOT / "roksys/news/emails"  # Old location
 AI_NEWS_NEW = KB_ROOT / "_inbox/emails"  # New location (will be processed into KB)
 
-SCOPES = ['https://www.googleapis.com/auth/gmail.send', 'https://www.googleapis.com/auth/gmail.readonly']
+SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 
 
 def log_message(message):

@@ -4,21 +4,6 @@
       "productMerchantId": 645236311,
       "productItemId": "53497000165751",
       "productTitle": "Superspace The Rectangles Add-on Pack - Charcoal",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 61,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "53497000165751",
-      "productTitle": "Superspace The Rectangles Add-on Pack - Charcoal",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -307,26 +292,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 15,
-      "clicks": 0,
+      "impressions": 236,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "53497000198519",
-      "productTitle": "Superspace The Rectangles Add-on Pack - Blue",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 1774,
-      "clicks": 26,
-      "conversions": 1.0,
-      "conversionsValue": 309.005,
-      "costMicros": 12706274
+      "costMicros": 2381370
     }
   },
   {
@@ -572,16 +542,16 @@
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53497000231287",
-      "productTitle": "Superspace The Rectangles Add-on Pack - Pine",
-      "date": "2025-11-11"
+      "productItemId": "53497000198519",
+      "productTitle": "Superspace The Rectangles Add-on Pack - Blue",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 10,
-      "clicks": 0,
+      "impressions": 7,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 260000
     }
   },
   {
@@ -889,21 +859,6 @@
       "productMerchantId": 645236311,
       "productItemId": "53497000264055",
       "productTitle": "Superspace The Rectangles Add-on Pack - Orange",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "53497000264055",
-      "productTitle": "Superspace The Rectangles Add-on Pack - Orange",
       "date": "2025-11-12"
     },
     "metrics": {
@@ -1172,16 +1127,16 @@
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53497000296823",
-      "productTitle": "Superspace The Rectangles Add-on Pack - Turquoise",
-      "date": "2025-11-11"
+      "productItemId": "53497000264055",
+      "productTitle": "Superspace The Rectangles Add-on Pack - Orange",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 261,
+      "impressions": 11,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 16956
+      "costMicros": 0
     }
   },
   {
@@ -1497,21 +1452,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 1090485
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "53497016353143",
-      "productTitle": "Superspace The Squares Add-on Pack - Charcoal",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 63,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
     }
   },
   {
@@ -1957,26 +1897,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 29,
-      "clicks": 1,
+      "impressions": 298,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 620000
+      "costMicros": 1500000
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53497016385911",
-      "productTitle": "Superspace The Squares Add-on Pack - Turquoise",
-      "date": "2025-11-11"
+      "productItemId": "53497016353143",
+      "productTitle": "Superspace The Squares Add-on Pack - Charcoal",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 451,
-      "clicks": 3,
+      "impressions": 28,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1110000
+      "costMicros": 0
     }
   },
   {
@@ -2422,22 +2362,22 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 48,
-      "clicks": 2,
+      "impressions": 384,
+      "clicks": 7,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1620000
+      "costMicros": 3160000
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53497016418679",
-      "productTitle": "Superspace The Squares Add-on Pack - Orange",
-      "date": "2025-11-11"
+      "productItemId": "53497016385911",
+      "productTitle": "Superspace The Squares Add-on Pack - Turquoise",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 30,
+      "impressions": 16,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -2787,21 +2727,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "53497016451447",
-      "productTitle": "Superspace The Squares Add-on Pack - Blue",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 244,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 3280
     }
   },
   {
@@ -3352,26 +3277,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 109,
-      "clicks": 1,
+      "impressions": 969,
+      "clicks": 9,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 610000
+      "costMicros": 5147824
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53497016484215",
-      "productTitle": "Superspace The Squares Add-on Pack - Pine",
-      "date": "2025-11-11"
+      "productItemId": "53497016451447",
+      "productTitle": "Superspace The Squares Add-on Pack - Blue",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 46,
-      "clicks": 1,
+      "impressions": 43,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 120000
+      "costMicros": 0
     }
   },
   {
@@ -3642,21 +3567,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 0
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "53504404488567",
-      "productTitle": "The Big Set (24 Panels) - Orange Magnetic Modular Play Equipment For Pre School & Nursery Children",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 819,
-      "clicks": 4,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 1310000
     }
   },
   {
@@ -4188,30 +4098,45 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "53504404488567",
-      "productTitle": "The Big Set (24 Panels) - Orange Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 100,
-      "clicks": 1,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 717537
+      "costMicros": 0
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53504404521335",
-      "productTitle": "The Big Set (24 Panels) - Charcoal Magnetic Modular Play Equipment For Pre School & Nursery Children",
-      "date": "2025-11-11"
+      "productItemId": "53504404488567",
+      "productTitle": "The Big Set (24 Panels) - Orange Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 648,
-      "clicks": 2,
-      "conversions": 0.11673,
-      "conversionsValue": 19.7285373,
-      "costMicros": 2790000
+      "impressions": 802,
+      "clicks": 6,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 6879283
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "53504404488567",
+      "productTitle": "The Big Set (24 Panels) - Orange Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 41,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -4773,30 +4698,45 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "53504404521335",
-      "productTitle": "The Big Set (24 Panels) - Charcoal Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 144,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 120231
+      "costMicros": 0
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53504404554103",
-      "productTitle": "The Big Set (24 Panels) - Turquoise Magnetic Modular Play Equipment For Pre School & Nursery Children",
-      "date": "2025-11-11"
+      "productItemId": "53504404521335",
+      "productTitle": "The Big Set (24 Panels) - Charcoal Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 8784,
-      "clicks": 164,
-      "conversions": 8.75525,
-      "conversionsValue": 2664.803877673,
-      "costMicros": 91708231
+      "impressions": 1105,
+      "clicks": 6,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 5233542
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "53504404521335",
+      "productTitle": "The Big Set (24 Panels) - Charcoal Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 65,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -5199,8 +5139,8 @@
     "metrics": {
       "impressions": 8513,
       "clicks": 157,
-      "conversions": 1.257533,
-      "conversionsValue": 239.85977058,
+      "conversions": 1.990709,
+      "conversionsValue": 312.45152634,
       "costMicros": 71260000
     }
   },
@@ -5214,8 +5154,8 @@
     "metrics": {
       "impressions": 8037,
       "clicks": 143,
-      "conversions": 3.0,
-      "conversionsValue": 1283.03,
+      "conversions": 4.733174,
+      "conversionsValue": 1604.042550584,
       "costMicros": 77003389
     }
   },
@@ -5229,8 +5169,8 @@
     "metrics": {
       "impressions": 5270,
       "clicks": 122,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 0.798536,
+      "conversionsValue": 159.000869845,
       "costMicros": 79058863
     }
   },
@@ -5257,26 +5197,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 730,
-      "clicks": 11,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 9113702
+      "impressions": 7517,
+      "clicks": 104,
+      "conversions": 2.199519,
+      "conversionsValue": 656.19716673,
+      "costMicros": 51927044
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53504404586871",
-      "productTitle": "The Big Set (24 Panels) - Blue Magnetic Modular Play Equipment For Pre School & Nursery Children",
-      "date": "2025-11-11"
+      "productItemId": "53504404554103",
+      "productTitle": "The Big Set (24 Panels) - Turquoise Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 1065,
-      "clicks": 2,
+      "impressions": 317,
+      "clicks": 3,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1220000
+      "costMicros": 634760
     }
   },
   {
@@ -5793,30 +5733,45 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "53504404586871",
-      "productTitle": "The Big Set (24 Panels) - Blue Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 109,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 32925
+      "costMicros": 0
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "53504404619639",
-      "productTitle": "The Big Set (24 Panels) - Pine Magnetic Modular Play Equipment For Pre School & Nursery Children",
-      "date": "2025-11-11"
+      "productItemId": "53504404586871",
+      "productTitle": "The Big Set (24 Panels) - Blue Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 2266,
-      "clicks": 22,
+      "impressions": 841,
+      "clicks": 4,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 10960000
+      "costMicros": 3782149
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "53504404586871",
+      "productTitle": "The Big Set (24 Panels) - Blue Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 37,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 53919
     }
   },
   {
@@ -6024,8 +5979,8 @@
     "metrics": {
       "impressions": 1819,
       "clicks": 25,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
+      "conversions": 0.201464,
+      "conversionsValue": 40.114598769,
       "costMicros": 11192543
     }
   },
@@ -6232,26 +6187,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 233,
-      "clicks": 0,
+      "impressions": 2058,
+      "clicks": 16,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 9448324
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "54858816586103",
-      "productTitle": "Superspace Whiteboard / Blackboard Attachments (2-Pack) - Default Title",
-      "date": "2025-11-11"
+      "productItemId": "53504404619639",
+      "productTitle": "The Big Set (24 Panels) - Pine Magnetic Modular Play Equipment For Pre School & Nursery Children",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 16,
+      "impressions": 98,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 0
+      "costMicros": 7948
     }
   },
   {
@@ -6382,26 +6337,11 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 34,
-      "clicks": 0,
+      "impressions": 65,
+      "clicks": 1,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 10032
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "55070310728055",
-      "productTitle": "Superspace Farmyard Pack (18 pcs) - Highly Durable Felt - Velcros To Superspace Panels",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 883,
-      "clicks": 14,
-      "conversions": 0.355443,
-      "conversionsValue": 97.21340244,
-      "costMicros": 4970000
+      "costMicros": 2180032
     }
   },
   {
@@ -6918,30 +6858,45 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "55070310728055",
-      "productTitle": "Superspace Farmyard Pack (18 pcs) - Highly Durable Felt - Velcros To Superspace Panels",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 121,
-      "clicks": 2,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 351912
+      "costMicros": 0
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "55110244827511",
-      "productTitle": "Superspace Superspace Letters and Numbers Pack (107 pcs) - Default Title",
-      "date": "2025-11-11"
+      "productItemId": "55070310728055",
+      "productTitle": "Superspace Farmyard Pack (18 pcs) - Highly Durable Felt - Velcros To Superspace Panels",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 266,
+      "impressions": 1015,
+      "clicks": 16,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 3761608
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "55070310728055",
+      "productTitle": "Superspace Farmyard Pack (18 pcs) - Highly Durable Felt - Velcros To Superspace Panels",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 36,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 6441
+      "costMicros": 3060
     }
   },
   {
@@ -7522,26 +7477,26 @@
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 52,
-      "clicks": 1,
+      "impressions": 585,
+      "clicks": 2,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 1030688
+      "costMicros": 1661316
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "55549625008503",
-      "productTitle": "Superspace The Little Set (16 Panels) - Orange",
-      "date": "2025-11-11"
+      "productItemId": "55110244827511",
+      "productTitle": "Superspace Superspace Letters and Numbers Pack (107 pcs) - Default Title",
+      "date": "2025-12-12"
     },
     "metrics": {
-      "impressions": 436,
-      "clicks": 1,
+      "impressions": 37,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 502623
+      "costMicros": 0
     }
   },
   {
@@ -7782,21 +7737,6 @@
       "conversions": 0.0,
       "conversionsValue": 0.0,
       "costMicros": 2970000
-    }
-  },
-  {
-    "segments": {
-      "productMerchantId": 645236311,
-      "productItemId": "55549626351991",
-      "productTitle": "Superspace Windows & Doors Add-On Pack - Charcoal",
-      "date": "2025-11-11"
-    },
-    "metrics": {
-      "impressions": 82,
-      "clicks": 0,
-      "conversions": 0.0,
-      "conversionsValue": 0.0,
-      "costMicros": 0
     }
   },
   {
@@ -8328,23 +8268,38 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "55549626351991",
-      "productTitle": "Superspace Windows & Doors Add-On Pack - Charcoal",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 36,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 8807
+      "costMicros": 0
     }
   },
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "55549626384759",
-      "productTitle": "Superspace Windows & Doors Add-On Pack - Orange",
-      "date": "2025-11-11"
+      "productItemId": "55549626351991",
+      "productTitle": "Superspace Windows & Doors Add-On Pack - Charcoal",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 382,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 113055
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "55549626351991",
+      "productTitle": "Superspace Windows & Doors Add-On Pack - Charcoal",
+      "date": "2025-12-12"
     },
     "metrics": {
       "impressions": 25,
@@ -8823,11 +8778,11 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "55549626384759",
-      "productTitle": "Superspace Windows & Doors Add-On Pack - Orange",
+      "productTitle": "",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 19,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
@@ -8837,16 +8792,31 @@
   {
     "segments": {
       "productMerchantId": 645236311,
-      "productItemId": "55549626417527",
-      "productTitle": "Superspace Windows & Doors Add-On Pack - Turquoise",
-      "date": "2025-11-11"
+      "productItemId": "55549626384759",
+      "productTitle": "Superspace Windows & Doors Add-On Pack - Orange",
+      "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 722,
-      "clicks": 7,
+      "impressions": 340,
+      "clicks": 0,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 5720000
+      "costMicros": 80022
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "55549626384759",
+      "productTitle": "Superspace Windows & Doors Add-On Pack - Orange",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 30,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
     }
   },
   {
@@ -9363,15 +9333,45 @@
     "segments": {
       "productMerchantId": 645236311,
       "productItemId": "55549626417527",
+      "productTitle": "",
+      "date": "2025-12-11"
+    },
+    "metrics": {
+      "impressions": 3,
+      "clicks": 0,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 0
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "55549626417527",
       "productTitle": "Superspace Windows & Doors Add-On Pack - Turquoise",
       "date": "2025-12-11"
     },
     "metrics": {
-      "impressions": 327,
-      "clicks": 4,
+      "impressions": 2949,
+      "clicks": 28,
       "conversions": 0.0,
       "conversionsValue": 0.0,
-      "costMicros": 3660000
+      "costMicros": 15213256
+    }
+  },
+  {
+    "segments": {
+      "productMerchantId": 645236311,
+      "productItemId": "55549626417527",
+      "productTitle": "Superspace Windows & Doors Add-On Pack - Turquoise",
+      "date": "2025-12-12"
+    },
+    "metrics": {
+      "impressions": 158,
+      "clicks": 1,
+      "conversions": 0.0,
+      "conversionsValue": 0.0,
+      "costMicros": 320000
     }
   }
 ]

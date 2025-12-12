@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>GMAIL_APP_PASSWORD</key>
+		<string>pxmsoxiwuazkqhvg</string>
+		<key>GMAIL_USER</key>
+		<string>petere@roksys.co.uk</string>
+	</dict>
+	<key>Label</key>
+	<string>com.petesbrain.nda-enrolments</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/python3</string>
+		<string>/Users/administrator/Documents/PetesBrain.nosync/clients/national-design-academy/scripts/enrolment-file-manager.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/administrator/.petesbrain-nda-enrolments.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/administrator/.petesbrain-nda-enrolments.log</string>
+	<key>StartInterval</key>
+	<integer>21600</integer>
+</dict>
+</plist>
