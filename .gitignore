@@ -50,8 +50,9 @@ clients/*/data/
 clients/*/data/**
 
 # Client tasks (contain sensitive account IDs and strategy)
+# NOTE: Only ignore at root level - subdirectories should remain visible
+#       This makes misplaced files (e.g., product-feeds/tasks.json) detectable
 clients/*/tasks.json
-**/tasks.json
 roksys/tasks.json
 
 # Email sync state
