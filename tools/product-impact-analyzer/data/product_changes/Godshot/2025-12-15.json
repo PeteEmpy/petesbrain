@@ -1,0 +1,609 @@
+{
+  "date": "2025-12-15",
+  "client": "Godshot",
+  "comparison_date": "2025-12-14",
+  "total_products_today": 2702,
+  "total_products_yesterday": 2700,
+  "summary": {
+    "changed_products": 25,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 25,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 7,
+    "removed_products": 5
+  },
+  "changed_products": [
+    {
+      "product_id": "13379",
+      "title": "Kaymet 713 Serving Tray",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20856",
+      "title": "Versatile Croissant Caf\u00e9 Extrait Roll On 15ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21930",
+      "title": "Violet Un Air d'Apog\u00e9e EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19047-02",
+      "title": "Arhoj Sup Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20035",
+      "title": "Cinnamon Projects 9PM Fragrance Oil Roll On 9ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21320",
+      "title": "Blackwing Two-Step Long Point Pencil Sharpener",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17795",
+      "title": "Fellow Ode Brew Grinder Gen 2",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21508-01",
+      "title": "Arhoj Moon Plate",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18002",
+      "title": "HMM Magnet Cable Cube",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20701",
+      "title": "Hightide Hard Case Small",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19080",
+      "title": "Campbell Cole Simple Key Wrap",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15248",
+      "title": "Kaymet 513 Tray",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19708",
+      "title": "Kunjudo Washi Paper Incense Strips",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24204",
+      "title": "Room 1015 Love-O-Matic EDP 10ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17777",
+      "title": "Asemi Co. Matsushiro Ceramic Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "11954",
+      "title": "Yield Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21093",
+      "title": "Wxy Cork Matches",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24264",
+      "title": "Dak - Cream Donut 250g (Yeast Inoculated Natural Caturra & Chiroso, Colombia)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21504-11",
+      "title": "Arhoj Dip Dish",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21597",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "2855",
+      "title": "Stutterheim Container Large Wash Bag",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "29525",
+      "title": "Kinto CLK-151 Wide Mug 400ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20031",
+      "title": "Cinnamon Projects Fragrance Oil Series 01 Box",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22221",
+      "title": "Haeckels Walpole EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15470",
+      "title": "Kalm Studio Dune Tray",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "24328",
+      "title": "Austin Austin Cedar & Patchouli Hand Cream 50ml",
+      "price": "16.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "22160",
+      "title": "Austin Austin Palmarosa & Vetiver Hand Cream 50ml",
+      "price": "16.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "19567",
+      "title": "Austin Austin Neroli & Petitgrain Body Cream 120ml",
+      "price": "24.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "19566",
+      "title": "Austin Austin Palmarosa & Vetiver Hand Soap 300ml",
+      "price": "22.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24330",
+      "title": "Austin Austin Cedar & Ylang Ylang Soap Bar and Soap Dish",
+      "price": "56.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "19565",
+      "title": "Austin Austin Palmarosa & Vetiver Hand Cream 300ml",
+      "price": "26.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24329",
+      "title": "Austin Austin Rosemary Balm 50ml",
+      "price": "18.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "20034",
+      "title": "Cinnamon Projects 2PM Fragrance Oil Roll On 9ml",
+      "price": "48.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "20033",
+      "title": "Cinnamon Projects 10AM Fragrance Oil Roll On 9ml",
+      "price": "48.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "18535",
+      "title": "Dak - Orange Flirt 250g (Natural Heirloom, Ethiopia)",
+      "price": "14.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "22445",
+      "title": "Dak - Lemon Silk 250g (Anaerobic Washed Pink Bourbon, Colombia)",
+      "price": "17.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "21142",
+      "title": "Dak - Yuzu Crew 125g (Washed Cold Press Sudan Rume, Colombia)",
+      "price": "15.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "13379",
+      "title": "Kaymet 713 Serving Tray",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20856",
+      "title": "Versatile Croissant Caf\u00e9 Extrait Roll On 15ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21930",
+      "title": "Violet Un Air d'Apog\u00e9e EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19047-02",
+      "title": "Arhoj Sup Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20035",
+      "title": "Cinnamon Projects 9PM Fragrance Oil Roll On 9ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21320",
+      "title": "Blackwing Two-Step Long Point Pencil Sharpener",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17795",
+      "title": "Fellow Ode Brew Grinder Gen 2",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21508-01",
+      "title": "Arhoj Moon Plate",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18002",
+      "title": "HMM Magnet Cable Cube",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20701",
+      "title": "Hightide Hard Case Small",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19080",
+      "title": "Campbell Cole Simple Key Wrap",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15248",
+      "title": "Kaymet 513 Tray",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19708",
+      "title": "Kunjudo Washi Paper Incense Strips",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24204",
+      "title": "Room 1015 Love-O-Matic EDP 10ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17777",
+      "title": "Asemi Co. Matsushiro Ceramic Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "11954",
+      "title": "Yield Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21093",
+      "title": "Wxy Cork Matches",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24264",
+      "title": "Dak - Cream Donut 250g (Yeast Inoculated Natural Caturra & Chiroso, Colombia)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21504-11",
+      "title": "Arhoj Dip Dish",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21597",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "2855",
+      "title": "Stutterheim Container Large Wash Bag",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "29525",
+      "title": "Kinto CLK-151 Wide Mug 400ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20031",
+      "title": "Cinnamon Projects Fragrance Oil Series 01 Box",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22221",
+      "title": "Haeckels Walpole EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15470",
+      "title": "Kalm Studio Dune Tray",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

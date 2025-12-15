@@ -1,0 +1,52 @@
+LAPTOP SETUP - MONDAY - COPY/PASTE THESE COMMANDS
+==================================================
+
+STEP 1: Extract from iCloud
+----------------------------
+cd ~/Documents
+LATEST_BACKUP=$(ls -t ~/Library/Mobile\ Documents/com~apple~CloudDocs/PetesBrain-Backups/PetesBrain-backup-*.tar.gz | head -1)
+echo "Using: $LATEST_BACKUP"
+tar -xzf "$LATEST_BACKUP"
+cd ~/Documents/PetesBrain
+
+
+STEP 2: Create config file
+---------------------------
+cat > .sync-config << 'EOF'
+TYPE=Laptop
+SYNC_METHOD="icloud"
+DESKTOP_HOST="Peters-Mac-mini.lan"
+DESKTOP_USER="administrator"
+DESKTOP_PATH="/Users/administrator/Documents/PetesBrain.nosync"
+EOF
+
+
+STEP 3: Make script executable
+-------------------------------
+chmod +x ~/Documents/PetesBrain/shared/scripts/sync-petesbrain.sh
+
+
+STEP 4: Create shortcut
+------------------------
+echo 'alias sync-petesbrain="~/Documents/PetesBrain/shared/scripts/sync-petesbrain.sh"' >> ~/.zshrc
+source ~/.zshrc
+
+
+STEP 5: Test sync
+-----------------
+sync-petesbrain pull
+
+
+DONE! Now you can:
+------------------
+sync-petesbrain pull    # Get latest from desktop
+sync-petesbrain push    # Send changes back
+
+
+TROUBLESHOOTING
+---------------
+If backup is old:
+  sync-petesbrain pull --force
+
+If command not found:
+  ~/Documents/PetesBrain/shared/scripts/sync-petesbrain.sh pull

@@ -35,18 +35,33 @@ class ClientTasksService:
 
     def _get_client_task_file(self, client: str) -> Path:
         """Get the task file path for a specific client"""
-        client_dir = self.clients_dir / client
-        client_dir.mkdir(parents=True, exist_ok=True)
-        task_file = client_dir / 'tasks.json'
+        # SPECIAL CASE: Roksys tasks go to roksys/tasks.json, NOT clients/roksys/tasks.json
+        if client == 'roksys':
+            roksys_dir = self.project_root / 'roksys'
+            roksys_dir.mkdir(parents=True, exist_ok=True)
+            task_file = roksys_dir / 'tasks.json'
+        else:
+            client_dir = self.clients_dir / client
+            client_dir.mkdir(parents=True, exist_ok=True)
+            task_file = client_dir / 'tasks.json'
 
         # PERMANENT GUARD: Prevent any attempts to write to product-feeds locations
         if 'product-feeds' in str(task_file):
             raise ValueError(
                 f"❌ PERMANENT GUARD (2025-12-11): Refusing to write tasks to product-feeds location.\n"
                 f"   Path: {task_file}\n"
-                f"   All tasks have been consolidated to: {client_dir}/tasks.json\n"
+                f"   All tasks have been consolidated to: {task_file.parent}/tasks.json\n"
                 f"   Product-feeds/tasks.json is a LEGACY ARTIFACT and must not be used.\n"
                 f"   See: docs/ARCHITECTURAL-MIGRATION-DEC10-2025.md"
+            )
+        
+        # PERMANENT GUARD: Prevent roksys tasks from being written to clients/roksys/
+        if client == 'roksys' and 'clients/roksys' in str(task_file):
+            raise ValueError(
+                f"❌ PERMANENT GUARD (2025-12-12): Roksys tasks must be in roksys/tasks.json, not clients/roksys/tasks.json.\n"
+                f"   Path: {task_file}\n"
+                f"   Correct location: {self.project_root}/roksys/tasks.json\n"
+                f"   Roksys is a special case and uses the roksys/ directory, not clients/roksys/.\n"
             )
 
         return task_file
@@ -54,6 +69,15 @@ class ClientTasksService:
     def _load_client_tasks(self, client: str) -> Dict[str, Any]:
         """Load tasks for a specific client and clean up orphaned references"""
         task_file = self._get_client_task_file(client)
+        
+        # READ-SIDE GUARD: Refuse to read from product-feeds locations
+        if 'product-feeds' in str(task_file):
+            raise ValueError(
+                f"❌ READ-SIDE GUARD (2025-12-12): Refusing to read tasks from product-feeds location.\n"
+                f"   Path: {task_file}\n"
+                f"   Product-feeds/tasks.json is a LEGACY ARTIFACT and must not be read.\n"
+                f"   All tasks should be in: {task_file.parent}/tasks.json\n"
+            )
 
         if not task_file.exists():
             return {'tasks': [], 'last_updated': datetime.now().isoformat()}
@@ -111,6 +135,22 @@ class ClientTasksService:
         import tempfile
         import shutil
         task_file = self._get_client_task_file(client)
+        
+        # PRE-WRITE VALIDATION: Double-check we're not writing to product-feeds
+        if 'product-feeds' in str(task_file):
+            raise ValueError(
+                f"❌ PRE-WRITE VALIDATION FAILED (2025-12-12): Attempted to write to product-feeds location.\n"
+                f"   Path: {task_file}\n"
+                f"   This should never happen - _get_client_task_file() should have caught this.\n"
+            )
+        
+        # PRE-WRITE VALIDATION: Ensure roksys tasks go to correct location
+        if client == 'roksys' and 'clients/roksys' in str(task_file):
+            raise ValueError(
+                f"❌ PRE-WRITE VALIDATION FAILED (2025-12-12): Roksys tasks must be in roksys/tasks.json.\n"
+                f"   Path: {task_file}\n"
+                f"   Correct location: {self.project_root}/roksys/tasks.json\n"
+            )
 
         # SAFETY CHECK: Prevent accidental data loss
         # If file exists with tasks, don't allow saving empty array unless explicitly confirmed
@@ -673,6 +713,20 @@ class ClientTasksService:
 
         all_tasks = []
 
+        # Include roksys tasks from root-level roksys/tasks.json
+        roksys_file = self.base_dir.parent / 'roksys/tasks.json'
+        if roksys_file.exists():
+            try:
+                with open(roksys_file, 'r') as f:
+                    data = json.load(f)
+
+                for task in data.get('tasks', []):
+                    task['client'] = 'roksys'
+                    all_tasks.append(task)
+            except Exception:
+                pass  # Skip if can't be read
+
+        # Include client tasks from clients/{client}/tasks.json
         for client_dir in sorted(self.clients_dir.iterdir()):
             if not client_dir.is_dir() or client_dir.name.startswith('_'):
                 continue
@@ -690,7 +744,7 @@ class ClientTasksService:
                     pass  # Skip files that can't be read
 
         # Save to cached file
-        cache_file = Path('/Users/administrator/Documents/PetesBrain/data/state/client-tasks.json')
+        cache_file = self.base_dir.parent / 'data/state/client-tasks.json'
         cache_data = {
             'tasks': all_tasks,
             'last_updated': datetime.now().isoformat(),
@@ -702,11 +756,12 @@ class ClientTasksService:
 
         # Regenerate HTML task manager
         try:
-            html_generator = Path('/Users/administrator/Documents/PetesBrain/generate-tasks-overview.py')
+            project_root = self.base_dir.parent
+            html_generator = project_root / 'generate-tasks-overview.py'
             if html_generator.exists():
                 subprocess.run(
                     ['/usr/local/bin/python3', str(html_generator)],
-                    cwd=Path('/Users/administrator/Documents/PetesBrain'),
+                    cwd=project_root,
                     capture_output=True,
                     timeout=10
                 )

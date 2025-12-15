@@ -1,0 +1,135 @@
+{
+  "date": "2025-12-15",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-12-14",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 5,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 5,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_51901294641530",
+      "title": "Quartz & Granite Cleaner Aerosol 400ml | Non-Abrasive Foaming Stone Worktop Cleaner 2 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314845973_45447132741909",
+      "title": "Glean Oil & Drive Cleaner 1L - Advanced Cleaning, Easy Application, Removes Stubborn Stains",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9182086299925_48441646350613",
+      "title": "Glean Stainless Steel Cleaner Polish Protector Spray - 500ml - Streak-Free Shine, Long-Lasting Protection, Rapid Dry",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_51901294641530",
+      "title": "Quartz & Granite Cleaner Aerosol 400ml | Non-Abrasive Foaming Stone Worktop Cleaner 2 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314845973_45447132741909",
+      "title": "Glean Oil & Drive Cleaner 1L - Advanced Cleaning, Easy Application, Removes Stubborn Stains",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9182086299925_48441646350613",
+      "title": "Glean Stainless Steel Cleaner Polish Protector Spray - 500ml - Streak-Free Shine, Long-Lasting Protection, Rapid Dry",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

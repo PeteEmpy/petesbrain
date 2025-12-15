@@ -49,7 +49,7 @@ class SheetsWriter:
         # Initialize Google Sheets API
         credentials_path = os.environ.get(
             'GOOGLE_APPLICATION_CREDENTIALS',
-            str(Path.home() / 'Documents/PetesBrain/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json')
+            str(Path.home() / 'Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json')
         )
 
         credentials = service_account.Credentials.from_service_account_file(

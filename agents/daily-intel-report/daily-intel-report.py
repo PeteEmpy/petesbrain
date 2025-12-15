@@ -17,6 +17,7 @@ Output: briefing/YYYY-MM-DD-briefing.md
 import os
 import sys
 import json
+import logging
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -25,6 +26,21 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import markdown
+
+# Configure logging
+LOG_DIR = Path.home() / '.petesbrain-logs'
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_DIR / f'daily-intel-report_{datetime.now():%Y%m%d}.log'),
+        logging.StreamHandler()  # Also output to console for LaunchAgent logs
+    ]
+)
+
+logger = logging.getLogger(__name__)
 
 # Add project root to path (from centralized discovery)
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -37,9 +53,13 @@ from shared.secrets import get_secret
 # Verify project root can be discovered
 try:
     PROJECT_ROOT = get_project_root()
+    logger.debug(f"Project root: {PROJECT_ROOT}")
 except RuntimeError as e:
-    print(f"Error: {e}")
-    print("Make sure PETESBRAIN_ROOT environment variable is set or run from project directory")
+    logger.critical("=" * 60)
+    logger.critical("❌ Failed to discover project root")
+    logger.critical(f"Error: {e}")
+    logger.critical("Action required: Set PETESBRAIN_ROOT environment variable or run from project directory")
+    logger.critical("=" * 60)
     sys.exit(1)
 
 def get_today_str():
@@ -1932,11 +1952,15 @@ def generate_full_html_briefing(day_name, calendar_section, client_work_section,
 def generate_briefing():
     """Generate the daily briefing"""
 
-    print("Generating Daily Briefing...")
-    print()
+    # LOG: Entry point with context
+    logger.info("=" * 60)
+    logger.info("📊 Generating Daily Briefing")
+    logger.info(f"Execution time: {datetime.now():%Y-%m-%d %H:%M:%S}")
+    logger.info("=" * 60)
 
-    # Run client work generator FIRST to ensure fresh data
-    print("🎯 Generating client work for today...")
+    # LOG: DATA COLLECTION PHASE 1 - Generate client work
+    logger.info("")
+    logger.info("🎯 Phase 1: Generating client work for today...")
     try:
         import subprocess
         result = subprocess.run(
@@ -1945,67 +1969,90 @@ def generate_briefing():
             text=True,
             timeout=300  # 5 minutes max
         )
-        if result.returncode != 0:
-            print(f"   ⚠️  Client work generator had issues: {result.stderr}")
-        else:
-            print("   ✓ Client work generated successfully")
-    except Exception as e:
-        print(f"   ⚠️  Error running client work generator: {e}")
 
-    # Phase 3: Check for and escalate stale tasks
-    print("⚡ Checking for priority escalations...")
+        # Decision point: Was client work generation successful?
+        if result.returncode != 0:
+            logger.warning("Client work generator had issues:")
+            logger.warning(f"  - Exit code: {result.returncode}")
+            logger.warning(f"  - Stderr: {result.stderr}")
+        else:
+            logger.info("✅ Client work generated successfully")
+
+    except subprocess.TimeoutExpired:
+        logger.error("❌ Client work generator timed out after 5 minutes")
+    except Exception as e:
+        logger.error(f"❌ Error running client work generator: {e}")
+        logger.debug(f"Error type: {type(e).__name__}")
+
+    # LOG: DATA COLLECTION PHASE 2 - Check for task escalations
+    logger.info("")
+    logger.info("⚡ Phase 2: Checking for priority escalations...")
     try:
         sys.path.insert(0, str(PROJECT_ROOT / 'shared' / 'scripts'))
         from task_escalation import escalate_tasks
-        
-        escalated = escalate_tasks()
-        if escalated:
-            print(f"   ✓ Escalated {len(escalated)} task(s)")
-        else:
-            print("   ✓ No tasks need escalation")
-    except Exception as e:
-        print(f"   ⚠️  Error checking escalations: {e}")
 
-    # Get all sections
-    print("📅 Fetching calendar...")
+        escalated = escalate_tasks()
+
+        # Decision point: Were any tasks escalated?
+        if escalated:
+            logger.info(f"✅ Escalated {len(escalated)} task(s)")
+            for task in escalated:
+                logger.debug(f"  - {task.get('title', 'Unknown task')}")
+        else:
+            logger.info("✅ No tasks need escalation")
+
+    except Exception as e:
+        logger.error(f"❌ Error checking escalations: {e}")
+        logger.debug(f"Error type: {type(e).__name__}")
+
+    # LOG: DATA COLLECTION PHASE 3 - Fetch all sections
+    logger.info("")
+    logger.info("📥 Phase 3: Collecting briefing data from all sources...")
+
+    logger.info("  📅 Fetching calendar events...")
     calendar_section = get_calendar_events()
 
-    print("⚠️  Checking anomalies...")
+    logger.info("  ⚠️  Checking anomalies...")
     anomalies_section = get_recent_anomalies()
 
-    print("🎯 Loading client work...")
+    logger.info("  🎯 Loading client work...")
     client_work_section = get_client_work_for_today()
 
-    print("📝 Loading tasks...")
+    logger.info("  📝 Loading tasks...")
     tasks_section = get_pending_tasks()
 
-    print("👥 Checking meetings...")
+    logger.info("  👥 Checking meetings...")
     meetings_section = get_recent_meeting_notes()
 
-    print("📊 Loading performance data...")
+    logger.info("  📊 Loading performance data...")
     performance_section = get_weekly_performance_summary()
 
-    print("🔍 Checking for recent audits...")
+    logger.info("  🔍 Checking for recent audits...")
     audit_section = get_recent_audit_status()
 
-    print("🔍 Checking impression share diagnostic...")
+    logger.info("  🔍 Checking impression share diagnostic...")
     is_diagnostic_section = get_impression_share_diagnostic()
 
-    print("📝 Checking AI inbox activity...")
+    logger.info("  📝 Checking AI inbox activity...")
     ai_inbox_section = get_ai_inbox_activity()
 
-    print("🤖 Checking agent status...")
+    logger.info("  🤖 Checking agent status...")
     agent_status_section = get_agent_status_summary()
 
-    print("📚 Checking KB updates...")
+    logger.info("  📚 Checking KB updates...")
     kb_updates_section = get_recent_kb_updates()
 
-    print("📊 Checking weekly reports...")
+    logger.info("  📊 Checking weekly reports...")
     weekly_reports_section = get_weekly_reports_section()
 
-    # Build briefing content
+    logger.info("✅ Data collection complete")
+
+    # LOG: PROCESSING PHASE - Build briefing content
+    logger.info("")
+    logger.info("⚙️  Phase 4: Processing and assembling briefing...")
     today = datetime.now()
     day_name = today.strftime('%A, %B %d, %Y')
+    logger.debug(f"Briefing date: {day_name}")
 
     # Generate full HTML version path (for expanded view)
     briefing_html_path = get_briefing_path().with_suffix('.html')
@@ -2068,21 +2115,24 @@ def generate_briefing():
 *Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
 *Next briefing: Tomorrow at 7:00 AM*
 """
-    
+
+    # LOG: OUTPUT PHASE - Write files
+    logger.info("")
+    logger.info("📤 Phase 5: Writing output files...")
+
     # Write markdown briefing
     briefing_path = get_briefing_path()
+    logger.debug(f"Writing markdown briefing to: {briefing_path}")
     with open(briefing_path, 'w') as f:
         f.write(briefing_content)
 
     file_size = briefing_path.stat().st_size / 1024  # KB
-
-    print()
-    print("✅ Briefing generated!")
-    print(f"📄 File: {briefing_path}")
-    print(f"📏 Size: {file_size:.2f} KB")
+    logger.info(f"✅ Markdown briefing written")
+    logger.info(f"  📄 File: {briefing_path}")
+    logger.info(f"  📏 Size: {file_size:.2f} KB")
 
     # Generate FULL expanded HTML version (no truncation)
-    print("📄 Generating full expanded HTML version...")
+    logger.info("📄 Generating full expanded HTML version...")
     full_html_content = generate_full_html_briefing(
         day_name, calendar_section, client_work_section,
         anomalies_section, performance_section, meetings_section,
@@ -2091,21 +2141,28 @@ def generate_briefing():
         weekly_reports_section
     )
 
+    logger.debug(f"Writing HTML briefing to: {briefing_html_path}")
     with open(briefing_html_path, 'w') as f:
         f.write(full_html_content)
 
     html_size = briefing_html_path.stat().st_size / 1024
-    print(f"📄 Full HTML: {briefing_html_path}")
-    print(f"📏 Size: {html_size:.2f} KB")
-    print()
+    logger.info(f"✅ HTML briefing written")
+    logger.info(f"  📄 File: {briefing_html_path}")
+    logger.info(f"  📏 Size: {html_size:.2f} KB")
 
     # Send email
+    logger.info("")
+    logger.info("📧 Sending email briefing...")
     email_sent = send_email_briefing(briefing_content, briefing_path)
 
-    if not email_sent:
-        print(f"View briefing:")
-        print(f"  open {briefing_path}")
-        print(f"  open {briefing_html_path}")
+    # Decision point: Was email sent successfully?
+    if email_sent:
+        logger.info("✅ Email briefing sent successfully")
+    else:
+        logger.warning("⚠️  Email briefing not sent")
+        logger.info("Manual viewing commands:")
+        logger.info(f"  open {briefing_path}")
+        logger.info(f"  open {briefing_html_path}")
 
     return briefing_path
 
@@ -2118,9 +2175,10 @@ def should_run_report():
     """
     now = datetime.now()
 
-    # Check if it's after 7 AM
+    # Decision point: Is it after 7 AM?
     if now.hour < 7:
-        print("⏰ Before 7 AM - skipping report")
+        logger.info("⏰ Before 7 AM - skipping report")
+        logger.debug(f"Current time: {now:%H:%M:%S}")
         return False
 
     # Check if today's report already exists
@@ -2129,20 +2187,96 @@ def should_run_report():
         # Check when it was last modified
         mtime = datetime.fromtimestamp(briefing_path.stat().st_mtime)
 
-        # If modified today after 7 AM, report already run
+        # Decision point: Was report already generated today after 7 AM?
         if mtime.date() == now.date() and mtime.hour >= 7:
-            print(f"✓ Report already generated today at {mtime.strftime('%H:%M')}")
+            logger.info(f"✓ Report already generated today at {mtime.strftime('%H:%M')}")
+            logger.debug(f"Report file: {briefing_path}")
             return False
 
+    logger.info("✓ Report should run")
     return True
 
 if __name__ == '__main__':
+    # LOG 1/5: START - Entry log with parameters
+    logger.info("=" * 60)
+    logger.info("🚀 Starting Daily Intel Report")
+    logger.info(f"📅 Execution time: {datetime.now():%Y-%m-%d %H:%M:%S}")
+    logger.info("=" * 60)
+
     try:
-        if should_run_report():
-            generate_briefing()
+        # LOG 2/5: DATA COLLECTION - Check if report should run
+        logger.info("🔍 Checking if report should run...")
+        should_run = should_run_report()
+
+        if should_run:
+            # LOG 3/5: PROCESSING - Generate briefing
+            logger.info("")
+            logger.info("▶️  Proceeding with briefing generation...")
+            briefing_path = generate_briefing()
+
+            # LOG 4/5: OUTPUT - Report completion
+            logger.info("")
+            logger.info("=" * 60)
+            logger.info("✅ Daily Intel Report Completed Successfully")
+            logger.info(f"  📄 Briefing file: {briefing_path}")
+            logger.info("=" * 60)
+
+            # LOG 5/5: END
+            sys.exit(0)
         else:
-            sys.exit(0)  # Exit silently if shouldn't run
+            # Report shouldn't run - exit silently
+            logger.info("")
+            logger.info("=" * 60)
+            logger.info("⏭️  Daily Intel Report Skipped (conditions not met)")
+            logger.info("=" * 60)
+            sys.exit(0)
+
+    except KeyboardInterrupt:
+        logger.warning("")
+        logger.warning("⚠️  Daily Intel Report Interrupted by User")
+        sys.exit(130)
+
     except Exception as e:
-        print(f"❌ Error generating briefing: {str(e)}", file=sys.stderr)
+        # Full debugging package
+        logger.error("=" * 60)
+        logger.error("❌ Daily Intel Report Failed - Unexpected Error")
+        logger.error("=" * 60)
+
+        logger.error("1. Operation Context:")
+        logger.error(f"   - Function: main()")
+        logger.error(f"   - Timestamp: {datetime.now():%Y-%m-%d %H:%M:%S}")
+
+        logger.error("2. Error Details:")
+        logger.error(f"   - Type: {type(e).__name__}")
+        logger.error(f"   - Message: {str(e)}")
+
+        logger.error("3. Possible Causes:")
+        if "credentials" in str(e).lower() or "auth" in str(e).lower():
+            logger.error("   - OAuth token may be expired")
+            logger.error("   - Action: Run oauth-refresh skill")
+        elif "permission" in str(e).lower() or "forbidden" in str(e).lower():
+            logger.error("   - File permissions issue or API access denied")
+            logger.error("   - Action: Check file permissions and API access")
+        elif "not found" in str(e).lower() or "no such file" in str(e).lower():
+            logger.error("   - Missing file or directory")
+            logger.error("   - Action: Verify project structure and paths")
+        elif "timeout" in str(e).lower():
+            logger.error("   - Operation timed out")
+            logger.error("   - Action: Check network connectivity and API availability")
+        elif "connection" in str(e).lower() or "network" in str(e).lower():
+            logger.error("   - Network connectivity issue")
+            logger.error("   - Action: Check internet connection")
+        else:
+            logger.error("   - Unexpected error")
+            logger.error(f"   - Action: Review error message and stack trace below")
+
+        logger.error("4. Stack Trace:")
+        import traceback
+        for line in traceback.format_exc().split('\n'):
+            if line.strip():
+                logger.error(f"   {line}")
+
+        logger.error("=" * 60)
+
         sys.exit(1)
 

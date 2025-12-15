@@ -1,0 +1,524 @@
+{
+  "created_at": "2025-12-15T08:00:00.520768",
+  "description": "Auto-snapshot 2025-12-15",
+  "category": "auto-daily",
+  "plist_files": [
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.task-priority-updater.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.task-priority-updater.plist",
+      "hash": "234310df1d2d52503794aa3cf3a7dd4650bfe6bfb77252529143ea5840f53a5c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.granola-weekly-summary.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.granola-weekly-summary.plist",
+      "hash": "0f8b93dfab0bb4bf875972dee78dfd30ea23186c0101d9338ecf7d2417d0617b"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.inbox-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.inbox-processor.plist",
+      "hash": "f5838964a4a13693d49e7279e5f9b05af03093eaad1495ec8262d115626d069c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.document-archival.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.document-archival.plist",
+      "hash": "0a308ba2e5306f4120f077775d0c8f9666c9002905c2410812c3606d3c2d1305"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.task-notes-server.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.task-notes-server.plist",
+      "hash": "58a765555dcaa60bf5ad124274f7f928e44a487c0e67bc0de13d48ec72ae61dd"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.daily-intel-report.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.daily-intel-report.plist",
+      "hash": "f0c3365497b46b690c6f2fdcde9cc998f270969b1831ac670c4acbc288df7c46"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.ai-inbox-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.ai-inbox-processor.plist",
+      "hash": "e977538ba265ce0c93a96e0926cdd949f3c1aa0b234dd0efcc89eee3b2e79522"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.weekly-blog-generator.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.weekly-blog-generator.plist",
+      "hash": "1bb05053cd1d04829aafebdfb3bd5ae0ac5deec24c9ae51c637d45e04f0e8ce9"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.label-snapshots.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.label-snapshots.plist",
+      "hash": "73af121f5268e625af6bad1f3410e4df84672c70a625eb02e563ec4833914b1d"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.industry-news.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.industry-news.plist",
+      "hash": "395c2c6e7bcf9822611a7bafc5d39975aeb02061925d826583a769ea9c17a71a"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.knowledge-base.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.knowledge-base.plist",
+      "hash": "2636ec6722132b67d762db32f0758be22191d0ebf54a1654f6d499837be27972"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.ai-news.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.ai-news.plist",
+      "hash": "797442332c880551a46ade3ae53d4a2734320f5149b97402796be4ceadac216b"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.woocommerce-daily-cache.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.woocommerce-daily-cache.plist",
+      "hash": "b1a1ba1dafb151796877b96d56e117acf22ae060e66ef0d8eedbca275f0a5e70"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.weekly-label-reports.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.weekly-label-reports.plist",
+      "hash": "c838a499eee4cfac7969c28fd6d050f68fefa777d1ec0eb7368ede81e8eec94f"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.weekly-news-digest.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.weekly-news-digest.plist",
+      "hash": "adc9ef7216a050bb48998bcc4788e7df02686a16264dba938a7e97a0688b5574"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.product-data-fetcher.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.product-data-fetcher.plist",
+      "hash": "acda2df159d803195cd308f3d511e0f2592bcee67470c4ccd0e96a58a8870b12"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.kb-indexer.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.kb-indexer.plist",
+      "hash": "50dad58a83ae5afdf43db0d5ee17630801c3b49912bb582320d076874272a17c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.baseline-calculator.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.baseline-calculator.plist",
+      "hash": "526e1a971e4722d21c70bf2d0e83aeaef3d236cd2c62119e5922d0df12b50e21"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.sunday-kb-update.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.sunday-kb-update.plist",
+      "hash": "2cc118462efc34f434eed7e16fb2c6a4d69b854decca53992efe30d9451547ee"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.kb-weekly-summary.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.kb-weekly-summary.plist",
+      "hash": "f59832950bdacb8cdf9f4c1d6dd8057f3e2248cfc4904c656cdfe3fbf7948fcf"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.facebook-specs-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.facebook-specs-processor.plist",
+      "hash": "b856696ed285e37c9c8969655117ef1f22302602d9ccb0e2062e3878a0acd92b"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.facebook-specs-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.facebook-specs-monitor.plist",
+      "hash": "b874f36bea93421389bc4bf4dc31d8df5c984e9ec0bd2a5956a8b340f9b3595c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.ai-google-chat-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.ai-google-chat-processor.plist",
+      "hash": "ea1dd0d7fe33ea95875770c6464cdbc91704f24154f9876d7cf5d32a500b1095"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.fetch-client-performance.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.fetch-client-performance.plist",
+      "hash": "9f0de4a15d940669c362c69410a86455242b088168f6d3f121d8dfe0da9a221a"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.tree2mydoor-context-upload.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.tree2mydoor-context-upload.plist",
+      "hash": "39d320b08ed8880b24ee5fedd96286a1a86b77b16045a4e04a4580cee0332336"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.draft-cleanup.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.draft-cleanup.plist",
+      "hash": "4e96c6034ffa67e7e50b0bbbfe838cc282a41d36d2cd90050f7bb6291fa58faf"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.populate-spreadsheets.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.populate-spreadsheets.plist",
+      "hash": "ea231af4bd5dbb3c0b794030ba9782a93a927cc2e2022a7885e7cac0c8667ae8"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.shopify-news.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.shopify-news.plist",
+      "hash": "92dd8b9bae18e0dd63c17b28745bb29dec71497ce1f263443ce86cd99e66e3e4"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.disapproval-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.disapproval-monitor.plist",
+      "hash": "d06a636eab202e2439106bd4028d738e616944ef3fb78eb02c95f6d3ce1f3d4e"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.tasks-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.tasks-monitor.plist",
+      "hash": "8ad07005bda9f91ed65fd6fa5ad571f89d232e1874dcbe2bded501f87ca46433"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.daily-backup.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.daily-backup.plist",
+      "hash": "68df13ba9825b869606593810d6eae77167c3cb913e39eceddd4460f74ab623b"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.kb-external-sources.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.kb-external-sources.plist",
+      "hash": "016554547fc1fbeca555926cd2471f792ad1dc421e878ef12490aece81849935"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.booking-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.booking-processor.plist",
+      "hash": "84eb26e94c2b81faa9d29f6bda12d5f18bbf37659957b7db89944cc8c686f98c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.merchant-center.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.merchant-center.plist",
+      "hash": "257986caba9964adb40a65b361b6445a8e84f759210d5b5afada9d436a9b300c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.google-specs-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.google-specs-processor.plist",
+      "hash": "e8247a373909eb7502b8f6fbc3ca9f49799200a64d41371107951a622c8234e3"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.daily-anomaly-alerts.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.daily-anomaly-alerts.plist",
+      "hash": "713e8c8694d417734a29665fe35d46b01d559dc3eddba2cae41b4286cbcb60ca"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/co.roksys.petesbrain.backup-task-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/co.roksys.petesbrain.backup-task-monitor.plist",
+      "hash": "51f6c67497e15a7cb7f34641c6a1c5d59fd587c304474f6b9b743488835169a6"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.facebook-news-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.facebook-news-monitor.plist",
+      "hash": "2886da5827a36829fe38fbbf148bf0cd4b2c32dbde50a38ae51e52d97b691b9a"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.shared-drives.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.shared-drives.plist",
+      "hash": "07c6ea2fae82d6ac6a2b230d40f03eb0591c336db9e78d02246d97db417a43ee"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.order-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.order-processor.plist",
+      "hash": "38ccfc98d7d21452b458962df44328c6d77fc46249071deedf11fb56a0894c04"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.devonshire-budget.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.devonshire-budget.plist",
+      "hash": "18e2406ebcf104cddf1445f4618e8282cf3e3f2b36ba30bac3aae25dfe77763d"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.experiment-review.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.experiment-review.plist",
+      "hash": "0d904383252f6991f045ea42526462d773c64666115118ce1fdde1d98bb842b7"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.critical-tasks-backup.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.critical-tasks-backup.plist",
+      "hash": "bd6bba4c115e7cf4fe5f1150a6c5684e838fe5e56791906c234602307522d689"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.product-impact-analyzer.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.product-impact-analyzer.plist",
+      "hash": "281b7815ea8c4c709c7960a76466364e99e717289991d792ea3f6db6593cb6b0"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.google-ads-auditor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.google-ads-auditor.plist",
+      "hash": "d9672e288c463c9929fc24aa93e18b88762ea49b8532fc76b1aee0e523d992d2"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.granola-google-docs-importer.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.granola-google-docs-importer.plist",
+      "hash": "ecdacd5fd97a94b315e40b04a31314583fa9484187fa9c3691be9bfb3fbf5e95"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.price-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.price-monitor.plist",
+      "hash": "3eb6774f198e8bd0a2d44b31f3543f7e690f274f0e26d7834d6605c4b45d7958"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.wispr-flow-importer.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.wispr-flow-importer.plist",
+      "hash": "ed920592ac62d5bd9f09886bb0d14da3c882d22f79f5753a2157694f90709df8"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.google-ads-feature-email-processor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.google-ads-feature-email-processor.plist",
+      "hash": "bd6d9590bf3585a862cdfa1f30bf16906a563906cb8693b64d670cb7d49fec8f"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.nda-enrolments.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.nda-enrolments.plist",
+      "hash": "9af858d9a985e9de725c8ebefb5b66f4f612e4bbb24af084f196aadb8c59a170"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.product-tracking.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.product-tracking.plist",
+      "hash": "002a610fa464f6666332c88268beaf506ed09a6c61aa0dbf3bf21f61d7421eae"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.email-auto-label.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.email-auto-label.plist",
+      "hash": "72974a7ef5eeba2dc8c19961d71d148ade2206a2787017a70f9a375d14cf817b"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.weekly-impact-report.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.weekly-impact-report.plist",
+      "hash": "a8f8ea65b4683de764399780dc390bab37cc4bf9f50ffc573ecf0813f79f3464"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.smythson-dashboard.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.smythson-dashboard.plist",
+      "hash": "2dc4c6c3e7871557918e7317e917e80a04356584085d4d1e78db38753990232f"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.product-sheets-sync.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.product-sheets-sync.plist",
+      "hash": "54c337cbdeda2ca8f7597979fc2df005422ed9bdff2e7f13dece1683b992e47b"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.auto-snapshot.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.auto-snapshot.plist",
+      "hash": "179506b39c111deaaef849aaea2827281ed9e4a7f5ec0dd381903904bb0b0296"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.sync-todos-to-google-tasks.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.sync-todos-to-google-tasks.plist",
+      "hash": "329df849b3ea42e8ad79c8020c7a0778f401024b96b9d9c552d7900659c25ab8"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.task-manager-hourly-regenerate.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.task-manager-hourly-regenerate.plist",
+      "hash": "8618addd7641264a7e94db03c3302a0c28dc2e2916b42a46e97b24ac727a56f5"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.email-sync.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.email-sync.plist",
+      "hash": "e1e0ecf938ea51b025698c927829df080eb45c54f1c5d2c97d8126d48efe6fc4"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.product-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.product-monitor.plist",
+      "hash": "7fe3a43759bd30225b1531db5f076810c835b75902bea7c2fc5989f8410f5086"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.health-check.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.health-check.plist",
+      "hash": "4632bd3383306a49417a1596cec0ae0fde183f517b8be13c3d96497781101684"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.budget-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.budget-monitor.plist",
+      "hash": "be7489a59f180c7fa61e37cdebd1fe397b763eb29b4b7f493f0b598e336c1492"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.tasks-backup.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.tasks-backup.plist",
+      "hash": "073f7472479b5ca5c6b775e3de8ff19a1246fe2aafe06977df98b7274e5ff05f"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.business-context-sync.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.business-context-sync.plist",
+      "hash": "1e02909334969e4c983afbac607f870ce62f9d860bf8129e413d31cc8fed745f"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.label-tracker.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.label-tracker.plist",
+      "hash": "527c055533f7ec38799346f184dd4f3b66a4b7f17481d84583f949d4863b7c6e"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.google-specs-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.google-specs-monitor.plist",
+      "hash": "1f3b92bb47dd127075d552df49d8f337b75906537d3f207baab198bbfa165d5e"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/co.roksys.petesbrain.reminder-api.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/co.roksys.petesbrain.reminder-api.plist",
+      "hash": "64a99930a488aae9b7b9f890f57a1473ecdff1278d7035f24a78ece56b2551fc"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.tree2mydoor-search-trends.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.tree2mydoor-search-trends.plist",
+      "hash": "8d8828ed5599058d3a2cd03037ea27b0a0c4c82b9f90c02c1c7579620b3a7731"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.cleanup-completed-tasks.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.cleanup-completed-tasks.plist",
+      "hash": "8dd7356e17891ce2527843b2c9f402e11c46bd574b1b45bf6cbdbaa0d66df98f"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.file-organizer.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.file-organizer.plist",
+      "hash": "a24ce894e14fedd37b2cc8e48982f33bcc796362486f64b3d4fc36a73d657e1c"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.diagnostics-monitor.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.diagnostics-monitor.plist",
+      "hash": "f0bcab0c4a0d0be7baad0c5449394937d24677c4e027030c5121baf6cfd82885"
+    },
+    {
+      "original": "/Users/administrator/Library/LaunchAgents/com.petesbrain.agent-loader.plist",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/plist/com.petesbrain.agent-loader.plist",
+      "hash": "ca74f50d258b7ec6b0ecf20fd505ba49b1b8290a558c1bd48abf55d6c392cd94"
+    }
+  ],
+  "config_files": [
+    {
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/.mcp.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/config/mcp.json",
+      "hash": "312dbeadf7a1c97bb496476b1b7ef81fcdd3a292063e77ee5a977c05b61ce82e"
+    },
+    {
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/shared/secrets.py",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/config/secrets.py",
+      "hash": "8eb7c4b08df1e8610e1ed01968622eaa4f7123cec7994d27520d879837a7d902"
+    },
+    {
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/shared/paths.py",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/config/paths.py",
+      "hash": "aa625f6c040f0e9232c61b5e6a645f454132abc695f9cecd82f12143c2a5bdd3"
+    }
+  ],
+  "credential_files": [
+    {
+      "name": "mcp/google-sheets-mcp-server/credentials.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/mcp_google-sheets-mcp-server_credentials.json",
+      "hash": "cd37d3a859ec18d7808cb0ae2bd4c3f7af80d1aad1a3317feba9bc7aa4d9c69d",
+      "size_bytes": 2388
+    },
+    {
+      "name": "mcp/google-photos-mcp-server/credentials.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-photos-mcp-server/credentials.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/mcp_google-photos-mcp-server_credentials.json",
+      "hash": "d97e2bce555d38f7b7943e54a688a74932d3ba1a86a4c4d226e906bff6a6e87c",
+      "size_bytes": 409
+    },
+    {
+      "name": "mcp/google-tasks-mcp-server/credentials.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-tasks-mcp-server/credentials.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/mcp_google-tasks-mcp-server_credentials.json",
+      "hash": "4640d1a2d564f6b892eb8ce4852b8d17d8fa504301708a66c9e6b3afff548ecd",
+      "size_bytes": 409
+    },
+    {
+      "name": "mcp/google-ads-mcp-server/credentials.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server/credentials.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/mcp_google-ads-mcp-server_credentials.json",
+      "hash": "d97e2bce555d38f7b7943e54a688a74932d3ba1a86a4c4d226e906bff6a6e87c",
+      "size_bytes": 409
+    },
+    {
+      "name": "mcp/google-drive-mcp-server/gcp-oauth.keys.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-drive-mcp-server/gcp-oauth.keys.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/mcp_google-drive-mcp-server_gcp-oauth.keys.json",
+      "hash": "1589185f2e614ebda8f65b40164327e85c0f99c6990e2aa715c5fcc4a439a1b6",
+      "size_bytes": 409
+    },
+    {
+      "name": "~/.google-ads/google-ads.yaml",
+      "original": "/Users/administrator/.google-ads/google-ads.yaml",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/home_.google-ads_google-ads.yaml",
+      "hash": "45b89784c6ff223047781ad4cb05af1a7a49670ffd7a0c329c8d17e38a082e3c",
+      "size_bytes": 117
+    },
+    {
+      "name": "oauth/client_secret_512285153243-p5nnhlj4j62h5052glghlctmetc5bevp.apps.googleusercontent.com.json",
+      "original": "/Users/administrator/Downloads/client_secret_512285153243-p5nnhlj4j62h5052glghlctmetc5bevp.apps.googleusercontent.com.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/oauth_client_secret_512285153243-p5nnhlj4j62h5052glghlctmetc5bevp.apps.googleusercontent.com.json",
+      "hash": "3efdf1de5099665daa0a1a80fd665f28276eeff0802d8dd8358288767e96426d",
+      "size_bytes": 410
+    },
+    {
+      "name": "oauth/credentials.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server/credentials.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/oauth_credentials.json",
+      "hash": "d97e2bce555d38f7b7943e54a688a74932d3ba1a86a4c4d226e906bff6a6e87c",
+      "size_bytes": 409
+    },
+    {
+      "name": "oauth/gcp-oauth.keys.json",
+      "original": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-drive-mcp-server/gcp-oauth.keys.json",
+      "backup": "/Users/administrator/Documents/PetesBrain.nosync/infrastructure/rollback-snapshots/20251215_080000/credentials/oauth_gcp-oauth.keys.json",
+      "hash": "1589185f2e614ebda8f65b40164327e85c0f99c6990e2aa715c5fcc4a439a1b6",
+      "size_bytes": 409
+    }
+  ],
+  "git_state": {
+    "commit": "dcd8e013d61c8245648ad2ca4fd2c05f2f337b42",
+    "branch": "main",
+    "timestamp": "2025-12-15T08:00:00.577628"
+  },
+  "venv_metadata": {
+    "venv-google": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/merchant-center-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/platform-ids-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/salesforce-commerce-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-search-console-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/prestashop-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-sheets-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-analytics-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/bing-search-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/facebook-ads-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-trends-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-photos-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-tasks-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/chrome-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/google-ads-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/microsoft-ads-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    },
+    "mcp/drupal-mcp-server": {
+      "exists": true,
+      "python_version": "Python 3.12.12"
+    }
+  }
+}

@@ -49,3 +49,77 @@ Monthly on-demand scan of Google Drive "Shared with Me" to categorize and organi
 This ensures client CONTEXT.md files stay current AND your knowledge base grows automatically from shared resources.
 
 ---
+## [Roksys] Build Google Ads campaign automation - Extend MCP server with write operations
+**Completed:** 2025-12-12 15:23
+**Source:** Client Request
+
+---
+**Source:** Manual (2025-11-14)
+**Client:** roksys
+**Priority:** P2
+**Time Estimate:** 2-3 days (can be done in parallel with other work)
+**Reason:** Build campaign creation automation using our existing Google Ads MCP server instead of paying for Markifact (£3,600/year)
+---
+
+## Context
+
+Markifact announced Google Ads campaign automation using GPT-5.1. We can build this ourselves since we already have:
+- ✅ Google Ads API access via MCP server
+- ✅ OAuth authentication working
+- ✅ Read operations (GAQL, keyword planner)
+- ✅ Claude Code AI (better than GPT-5.1 for our use case)
+
+## What to Build
+
+**Phase 1: Extend MCP Server** (2-3 days)
+
+Add write operations to `/infrastructure/mcp-servers/google-ads-mcp-server/server.py`:
+
+1. `create_campaign` - Create new campaigns
+2. `create_ad_group` - Add ad groups to campaigns
+3. `create_responsive_search_ad` - Create RSAs with headlines/descriptions
+4. `add_keywords` - Add keywords to ad groups
+5. `add_sitelinks` - Add sitelink extensions
+6. `add_callouts` - Add callout extensions
+
+**Phase 2: Campaign Builder Skill** (1-2 days)
+
+Create `.claude/skills/google-ads-campaign-builder/` with conversational workflow:
+- Gather requirements (goal, budget, locations, keywords)
+- Generate campaign structure using Claude
+- Review with user before creating
+- Create via MCP write operations
+- Document in CONTEXT.md and experiments
+
+## Technical Notes
+
+- Use Google Ads API v19 (already integrated)
+- OAuth tokens already working (no auth changes needed)
+- Test with test account first
+- Create campaigns in paused state initially
+- Follow existing MCP server patterns (error handling, logging)
+
+## Expected ROI
+
+- Time saved: 30+ hours/month (campaign setup automation)
+- Cost avoided: £3,600/year (Markifact subscription)
+- Break-even: 7 months vs buying Markifact
+- Own the tool forever with zero ongoing costs
+
+## References
+
+- Analysis: `/roksys/knowledge-base/ai-strategy/2025-11-14-google-ads-campaign-automation-feasibility.md`
+- Current MCP server: `/infrastructure/mcp-servers/google-ads-mcp-server/`
+- Google Ads API docs: https://developers.google.com/google-ads/api/docs/campaigns/overview
+
+
+---
+## [Migration] Batch 3: 20 non-critical agents - rapid plist migration
+**Completed:** 2025-12-12 15:23
+**Source:** Migration automation system
+
+Execute migrate-batch.py for 20 non-critical monitoring agents. Add PETESBRAIN_ROOT to plist files. Expected: ~90/71 agents healthy (100% success).
+
+Agents to migrate: agent-loader, ai-google-chat-processor, ai-news, baseline-calculator, booking-processor, business-context-sync, cleanup-completed-tasks, critical-tasks-backup, daily-anomaly-alerts, daily-backup, devonshire-budget, diagnostics-monitor, document-archival, draft-cleanup, email-auto-label, experiment-review, facebook-news-monitor, facebook-specs-processor, fetch-client-performance, file-organizer
+
+---

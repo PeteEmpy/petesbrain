@@ -1,13 +1,13 @@
 {
   "client": "Grain Guard",
-  "updated": "2025-12-11T08:53:10.858850",
-  "product_count": 105,
+  "updated": "2025-12-15T08:43:03.006558",
+  "product_count": 108,
   "baselines": {
     "shopify_gb_9397473673490_48957607313682": {
       "product_id": "shopify_gb_9397473673490_48957607313682",
       "product_title": "Darjk Pine Wood Stain Touch-Up Marker Pens For Touching Up & Staining Scratches, Scuffs, Marks & Dents | Fast Drying Formula",
       "label": "",
-      "data_points": 26,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45960",
       "revenue": {
         "mean": 0,
@@ -27,9 +27,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.923076923076923,
-        "median": 2.5,
-        "stdev": 1.9783442960835087
+        "mean": 2.903225806451613,
+        "median": 3.0,
+        "stdev": 1.8682405039622605
       },
       "cost": {
         "mean": 0,
@@ -46,7 +46,7 @@
       "product_id": "shopify_gb_9397473673490_48957607346450",
       "product_title": "Wood Stain Touch-Up Marker Pens - Antique Stripped Pine | Touching Up & Staining Scratches, Scuffs, Marks & Dents | For Wooden Floors & Furniture",
       "label": "",
-      "data_points": 26,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -66,9 +66,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.076923076923077,
-        "median": 2.5,
-        "stdev": 2.296485609327033
+        "mean": 3.2903225806451615,
+        "median": 3.0,
+        "stdev": 2.2389513674500505
       },
       "cost": {
         "mean": 0,
@@ -85,7 +85,7 @@
       "product_id": "shopify_gb_9397473673490_48957607379218",
       "product_title": "Wood Stain Touch-Up Marker Pens | Various Colours | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -105,9 +105,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.1379310344827585,
+        "mean": 3.088235294117647,
         "median": 3.0,
-        "stdev": 1.5974116995724785
+        "stdev": 1.5446417071816565
       },
       "cost": {
         "mean": 0.35,
@@ -124,8 +124,8 @@
       "product_id": "shopify_gb_9397473673490_48957607444754",
       "product_title": "Wood Stain Touch-Up Marker Pens | Various Colours | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 15,
-      "date_range": "45934 to 45961",
+      "data_points": 20,
+      "date_range": "2025-12-11 to 45961",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -144,9 +144,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.933333333333334,
-        "median": 1.0,
-        "stdev": 15.691065094808696
+        "mean": 5.95,
+        "median": 2.0,
+        "stdev": 13.589760076887613
       },
       "cost": {
         "mean": 0.38,
@@ -163,7 +163,7 @@
       "product_id": "shopify_gb_9397473673490_48957607510290",
       "product_title": "Dark Walnut Wood Stain Touch-Up Marker Pen | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 41.97,
@@ -173,9 +173,9 @@
         "max": 41.97
       },
       "clicks": {
-        "mean": 1.5,
+        "mean": 1.6,
         "median": 1.0,
-        "stdev": 0.7559289460184545
+        "stdev": 0.8432740427115678
       },
       "conversions": {
         "mean": 2.0,
@@ -183,14 +183,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 42.74193548387097,
-        "median": 38.0,
-        "stdev": 19.857773863041622
+        "mean": 45.05555555555556,
+        "median": 39.5,
+        "stdev": 19.623520063498795
       },
       "cost": {
-        "mean": 0.7175,
-        "median": 0.7050000000000001,
-        "stdev": 0.4678140656286427
+        "mean": 0.904,
+        "median": 0.71,
+        "stdev": 0.7517712418016533
       },
       "roas": {
         "mean": 31.09,
@@ -202,7 +202,7 @@
       "product_id": "shopify_gb_9398059630866_48958143103250",
       "product_title": "Grain Guard Hardwood Colour Restorer Aerosol - Revives, Protects Wood - Water Repellent, UV Protection, Brown 500ml",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -222,9 +222,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 30.161290322580644,
-        "median": 17.0,
-        "stdev": 74.61103438240823
+        "mean": 28.0,
+        "median": 14.0,
+        "stdev": 69.29976293507174
       },
       "cost": {
         "mean": 0.20333333333333334,
@@ -241,7 +241,7 @@
       "product_id": "shopify_gb_9398059630866_48958143136018",
       "product_title": "Hardwood Colour Restorer Aerosol 2 X 500ml - Clean, Restore, Protect | Revivies & Renews Faded And Greying Wood - Water Repellent",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 59.98,
@@ -251,9 +251,9 @@
         "max": 59.98
       },
       "clicks": {
-        "mean": 2.0952380952380953,
+        "mean": 2.0,
         "median": 1.0,
-        "stdev": 1.7579750255553093
+        "stdev": 1.7056057308448835
       },
       "conversions": {
         "mean": 1.0,
@@ -261,14 +261,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 215.2258064516129,
-        "median": 134.0,
-        "stdev": 257.7874718545517
+        "mean": 199.30555555555554,
+        "median": 121.0,
+        "stdev": 242.1738241658481
       },
       "cost": {
-        "mean": 0.7623809523809524,
+        "mean": 0.7321739130434782,
         "median": 0.38,
-        "stdev": 0.8263044521355598
+        "stdev": 0.794251829320806
       },
       "roas": {
         "mean": 28.56,
@@ -280,7 +280,7 @@
       "product_id": "shopify_gb_9398059630866_48958143168786",
       "product_title": "Hardwood Colour Restorer Aerosol 3 X 500ml | Clean, Restore, Protect | Revivies & Renews Faded And Greying Wood | Water Repellent",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -290,9 +290,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.263157894736842,
+        "mean": 2.1818181818181817,
         "median": 2.0,
-        "stdev": 1.6613951721756792
+        "stdev": 1.5625487005397436
       },
       "conversions": {
         "mean": 0,
@@ -300,14 +300,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 197.80645161290323,
-        "median": 144.0,
-        "stdev": 140.48971951827144
+        "mean": 183.16666666666666,
+        "median": 130.5,
+        "stdev": 135.93181063627875
       },
       "cost": {
-        "mean": 1.1973684210526316,
-        "median": 0.71,
-        "stdev": 1.3833367152780474
+        "mean": 1.2622727272727272,
+        "median": 0.73,
+        "stdev": 1.3291097336121966
       },
       "roas": {
         "mean": 0,
@@ -319,19 +319,19 @@
       "product_id": "shopify_gb_9715210879250_50003891323154",
       "product_title": "Grain Guard Chopping Board Oil 500ml - Food Grade Mineral Oil; Odourless, Tasteless - Protects & Enhances;",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
+        "mean": 11.99,
+        "median": 11.99,
+        "stdev": 0.0,
+        "min": 11.99,
+        "max": 11.99
       },
       "clicks": {
-        "mean": 1.75,
+        "mean": 1.625,
         "median": 1.5,
-        "stdev": 0.9574271077563381
+        "stdev": 0.7440238091428449
       },
       "conversions": {
         "mean": 0,
@@ -339,26 +339,26 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 78.45161290322581,
-        "median": 66.0,
-        "stdev": 34.996989117805946
+        "mean": 95.97222222222223,
+        "median": 75.0,
+        "stdev": 55.62758108868098
       },
       "cost": {
-        "mean": 2.1225,
-        "median": 0.6900000000000001,
-        "stdev": 3.156816698300151
+        "mean": 1.82,
+        "median": 0.79,
+        "stdev": 2.243345715666669
       },
       "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
+        "mean": 4.65,
+        "median": 4.65,
+        "stdev": 0.0
       }
     },
     "shopify_gb_9715210879250_50003891355922": {
       "product_id": "shopify_gb_9715210879250_50003891355922",
       "product_title": "Chopping Board Oil 1 Litre - Food Grade Mineral Oil Odourless & Tasteless",
       "label": "",
-      "data_points": 32,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -378,9 +378,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 78.75,
-        "median": 68.0,
-        "stdev": 55.43726474656416
+        "mean": 90.48648648648648,
+        "median": 70.0,
+        "stdev": 62.79933723182719
       },
       "cost": {
         "mean": 0.755,
@@ -397,7 +397,7 @@
       "product_id": "shopify_gb_9715262783762_50004105298194",
       "product_title": "Sealing Oil For Wooden Garden Furniture & Decking 500ml | Protects Wood Against Weather & UV",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -407,9 +407,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 3.4583333333333335,
+        "mean": 3.36,
         "median": 2.0,
-        "stdev": 3.488853887636363
+        "stdev": 3.450603811895342
       },
       "conversions": {
         "mean": 0,
@@ -417,14 +417,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 197.58064516129033,
-        "median": 174.0,
-        "stdev": 123.82831506930563
+        "mean": 184.58333333333334,
+        "median": 160.5,
+        "stdev": 120.07887288897125
       },
       "cost": {
-        "mean": 0.93,
-        "median": 0.445,
-        "stdev": 1.323200993638237
+        "mean": 0.91,
+        "median": 0.43,
+        "stdev": 1.2991952637434194
       },
       "roas": {
         "mean": 0,
@@ -436,7 +436,7 @@
       "product_id": "shopify_gb_9715262783762_50004105330962",
       "product_title": "Sealing Oil For Wood | Protects Wood Against Weather & UV | For Garden Furniture & Decking 1 Litre",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -456,9 +456,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 25.806451612903224,
-        "median": 17.0,
-        "stdev": 22.27767096569823
+        "mean": 23.805555555555557,
+        "median": 16.5,
+        "stdev": 21.41537424301182
       },
       "cost": {
         "mean": 0.512,
@@ -475,7 +475,7 @@
       "product_id": "shopify_gb_9715262783762_50004105363730",
       "product_title": "Sealing Oil For Wood 5 Litre | Protects Wood Against Weather & UV | For Garden Furniture & Decking",
       "label": "",
-      "data_points": 32,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -495,9 +495,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 179.25,
-        "median": 72.5,
-        "stdev": 243.41958995568444
+        "mean": 157.35135135135135,
+        "median": 60.0,
+        "stdev": 232.80120468094856
       },
       "cost": {
         "mean": 1.7038461538461538,
@@ -553,7 +553,7 @@
       "product_id": "shopify_gb_14857941221760_52570110886272",
       "product_title": "Hard Wax Oil For Wood | Long Lasting Wood Protection 1 Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -563,9 +563,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.0,
-        "median": 1.5,
-        "stdev": 1.247219128924647
+        "mean": 2.1333333333333333,
+        "median": 2.0,
+        "stdev": 1.0600988273786194
       },
       "conversions": {
         "mean": 0,
@@ -573,14 +573,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 59.96666666666667,
-        "median": 31.5,
-        "stdev": 69.54704849253481
+        "mean": 84.85714285714286,
+        "median": 44.0,
+        "stdev": 90.6110442746237
       },
       "cost": {
-        "mean": 0.7819999999999999,
-        "median": 0.635,
-        "stdev": 0.6310449887114054
+        "mean": 0.72,
+        "median": 0.64,
+        "stdev": 0.5243908030140443
       },
       "roas": {
         "mean": 0,
@@ -592,7 +592,7 @@
       "product_id": "shopify_gb_14857945678208_52570140017024",
       "product_title": "Raw Linseed Oil For Wood 500ml | 100% Pure & Natural | Food-Safe Wood Oil | Grain Guard",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 19.99,
@@ -602,9 +602,9 @@
         "max": 19.99
       },
       "clicks": {
-        "mean": 2.75,
-        "median": 2.5,
-        "stdev": 2.026991774076529
+        "mean": 2.72,
+        "median": 2.0,
+        "stdev": 1.98997487421324
       },
       "conversions": {
         "mean": 1.0,
@@ -612,14 +612,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 323.56666666666666,
-        "median": 245.0,
-        "stdev": 247.4123576393137
+        "mean": 309.22857142857146,
+        "median": 241.0,
+        "stdev": 232.4210284242403
       },
       "cost": {
-        "mean": 0.9891666666666666,
-        "median": 0.71,
-        "stdev": 0.8862030225075117
+        "mean": 0.9892,
+        "median": 0.72,
+        "stdev": 0.8675440430702448
       },
       "roas": {
         "mean": 21.27,
@@ -631,7 +631,7 @@
       "product_id": "shopify_gb_14857945678208_52570140049792",
       "product_title": "Raw Linseed Oil For Wood 1 Litre | 100% Pure & Natural | Food-Safe",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -641,9 +641,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.2727272727272727,
+        "mean": 1.25,
         "median": 1.0,
-        "stdev": 0.6466697906828632
+        "stdev": 0.621581560508061
       },
       "conversions": {
         "mean": 0,
@@ -651,14 +651,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 65.8,
-        "median": 59.0,
-        "stdev": 33.0134768719142
+        "mean": 76.42857142857143,
+        "median": 64.0,
+        "stdev": 42.25920415879189
       },
       "cost": {
-        "mean": 1.2354545454545454,
-        "median": 0.68,
-        "stdev": 1.120779761026792
+        "mean": 1.1741666666666666,
+        "median": 0.665,
+        "stdev": 1.0895074644771898
       },
       "roas": {
         "mean": 0,
@@ -670,19 +670,19 @@
       "product_id": "shopify_gb_8784875847954_47734950723858",
       "product_title": "Grain Guard Wood Stain 500ml - Black Ebony - Water-Based, Quick Drying, 12m\u00b2/Litre - Interior/Exterior",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
-        "mean": 15.989999999999998,
-        "median": 15.989999999999998,
-        "stdev": 4.242640687119284,
+        "mean": 14.99,
+        "median": 12.99,
+        "stdev": 3.4641016151377535,
         "min": 12.99,
         "max": 18.99
       },
       "clicks": {
-        "mean": 3.966666666666667,
-        "median": 4.0,
-        "stdev": 2.0254132542705237
+        "mean": 3.657142857142857,
+        "median": 3.0,
+        "stdev": 2.0428189454030132
       },
       "conversions": {
         "mean": 1.0,
@@ -690,26 +690,26 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 273.26666666666665,
-        "median": 263.0,
-        "stdev": 92.8721528856158
+        "mean": 252.82857142857142,
+        "median": 239.0,
+        "stdev": 101.47862299208512
       },
       "cost": {
-        "mean": 1.315,
-        "median": 1.1549999999999998,
-        "stdev": 0.6214540790869372
+        "mean": 1.2905714285714285,
+        "median": 1.15,
+        "stdev": 0.6657324266291572
       },
       "roas": {
-        "mean": 14.169999999999998,
-        "median": 14.169999999999998,
-        "stdev": 2.927422074112306
+        "mean": 11.236666666666666,
+        "median": 12.1,
+        "stdev": 5.48618568163103
       }
     },
     "shopify_gb_8784875847954_47734950756626": {
       "product_id": "shopify_gb_8784875847954_47734950756626",
       "product_title": "Wood Stain | Water Based | 1 Litre - Black Ebony",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -719,9 +719,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.1666666666666665,
+        "mean": 2.076923076923077,
         "median": 2.0,
-        "stdev": 1.3371158468430429
+        "stdev": 1.3204505835470495
       },
       "conversions": {
         "mean": 0,
@@ -729,14 +729,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 126.26666666666667,
-        "median": 112.5,
-        "stdev": 64.0871891729693
+        "mean": 118.0,
+        "median": 103.0,
+        "stdev": 62.88317833607855
       },
       "cost": {
-        "mean": 1.5658333333333334,
-        "median": 1.245,
-        "stdev": 1.0538195320170367
+        "mean": 1.496923076923077,
+        "median": 1.23,
+        "stdev": 1.0390972413220416
       },
       "roas": {
         "mean": 0,
@@ -748,7 +748,7 @@
       "product_id": "shopify_gb_8784875847954_47734950789394",
       "product_title": "Grain Guard Wood Stain 5 Litre - Black Ebony Water Based Interior/Exterior Wood Stain, Quick Dry, Long Lasting, 12m\u00b2 Coverage",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 12.99,
@@ -758,9 +758,9 @@
         "max": 12.99
       },
       "clicks": {
-        "mean": 1.8695652173913044,
-        "median": 2.0,
-        "stdev": 1.099766414293465
+        "mean": 1.8,
+        "median": 1.0,
+        "stdev": 1.0801234497346435
       },
       "conversions": {
         "mean": 1.0,
@@ -768,14 +768,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 145.86666666666667,
-        "median": 140.0,
-        "stdev": 41.74779228797063
+        "mean": 130.0,
+        "median": 133.0,
+        "stdev": 55.67764362830022
       },
       "cost": {
-        "mean": 1.1569565217391304,
-        "median": 0.82,
-        "stdev": 0.8233381873513387
+        "mean": 1.1648,
+        "median": 0.91,
+        "stdev": 0.7890506954562552
       },
       "roas": {
         "mean": 12.37,
@@ -787,7 +787,7 @@
       "product_id": "shopify_gb_8784875847954_47734950822162",
       "product_title": "Wood Stain | Water Based | 500ml - Dark Red Mahogany",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -807,9 +807,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 91.73333333333333,
-        "median": 59.5,
-        "stdev": 89.19368051425035
+        "mean": 84.28571428571429,
+        "median": 54.0,
+        "stdev": 84.47330640976662
       },
       "cost": {
         "mean": 0.5963636363636363,
@@ -826,7 +826,7 @@
       "product_id": "shopify_gb_8784875847954_47734950854930",
       "product_title": "Wood Stain | Water Based | 1 Litre - Dark Red Mahogany",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -846,9 +846,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 9.733333333333333,
+        "mean": 9.342857142857143,
         "median": 6.0,
-        "stdev": 7.579160782099793
+        "stdev": 7.14119308347437
       },
       "cost": {
         "mean": 0,
@@ -865,7 +865,7 @@
       "product_id": "shopify_gb_8784875847954_47734950887698",
       "product_title": "Wood Stain | Water Based | 5 Litre - Dark Red Mahogany",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 2.225,
@@ -885,9 +885,9 @@
         "stdev": 0.2262741699796952
       },
       "impressions": {
-        "mean": 21.066666666666666,
-        "median": 19.5,
-        "stdev": 13.938122698836313
+        "mean": 18.942857142857143,
+        "median": 15.0,
+        "stdev": 13.919818408938212
       },
       "cost": {
         "mean": 2.876666666666667,
@@ -943,7 +943,7 @@
       "product_id": "shopify_gb_8784875847954_47734950953234",
       "product_title": "Wood Stain | Water Based | 1 Litre - Dark Walnut",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 12.826666666666666,
@@ -953,9 +953,9 @@
         "max": 18.99
       },
       "clicks": {
-        "mean": 1.6666666666666667,
-        "median": 2.0,
-        "stdev": 0.7237468644557459
+        "mean": 1.65,
+        "median": 1.5,
+        "stdev": 0.7451598203705946
       },
       "conversions": {
         "mean": 0.8333333333333334,
@@ -963,14 +963,14 @@
         "stdev": 0.28867513459481287
       },
       "impressions": {
-        "mean": 86.33333333333333,
-        "median": 61.5,
-        "stdev": 59.43836757709523
+        "mean": 97.4,
+        "median": 72.0,
+        "stdev": 63.17911047173741
       },
       "cost": {
-        "mean": 1.8313333333333333,
-        "median": 1.27,
-        "stdev": 1.537116347797611
+        "mean": 1.7145000000000001,
+        "median": 1.19,
+        "stdev": 1.3774517853822077
       },
       "roas": {
         "mean": 7.766666666666667,
@@ -982,7 +982,7 @@
       "product_id": "shopify_gb_8784875847954_47734950986002",
       "product_title": "Grain Guard Wood Stain 5 Litre - Dark Walnut, Water Based, Quick Drying, Long Lasting, 12m\u00b2 Coverage, Interior/Exterior Use, Eco-Friendly",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 38.97,
@@ -1002,9 +1002,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 45.03333333333333,
+        "mean": 44.542857142857144,
         "median": 38.0,
-        "stdev": 24.61214072900543
+        "stdev": 23.399777345776876
       },
       "cost": {
         "mean": 1.4628571428571429,
@@ -1021,7 +1021,7 @@
       "product_id": "shopify_gb_8784875847954_47734951018770",
       "product_title": "Grain Guard Wood Stain 500ml English Oak - Water Based, Quick Drying, Long Lasting, 12m\u00b2 Coverage, Interior/Exterior Use",
       "label": "",
-      "data_points": 29,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1033,7 +1033,7 @@
       "clicks": {
         "mean": 1.0,
         "median": 1.0,
-        "stdev": 0
+        "stdev": 0.0
       },
       "conversions": {
         "mean": 0,
@@ -1041,14 +1041,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 12.310344827586206,
-        "median": 8.0,
-        "stdev": 15.825168580180529
+        "mean": 13.4375,
+        "median": 9.5,
+        "stdev": 15.647193915183477
       },
       "cost": {
-        "mean": 0.32,
-        "median": 0.32,
-        "stdev": 0
+        "mean": 0.185,
+        "median": 0.185,
+        "stdev": 0.19091883092036782
       },
       "roas": {
         "mean": 0,
@@ -1060,7 +1060,7 @@
       "product_id": "shopify_gb_8784875847954_47734951051538",
       "product_title": "Wood Stain | Water Based | 1 Litre - English Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1080,9 +1080,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 64.0,
-        "median": 42.5,
-        "stdev": 62.91537830758237
+        "mean": 63.22857142857143,
+        "median": 43.0,
+        "stdev": 58.511479876268076
       },
       "cost": {
         "mean": 0.9218181818181819,
@@ -1099,7 +1099,7 @@
       "product_id": "shopify_gb_8784875847954_47734951084306",
       "product_title": "Water Based Wood Stain - 5 Litre - English Oak",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 164.97,
@@ -1109,9 +1109,9 @@
         "max": 164.97
       },
       "clicks": {
-        "mean": 1.6,
-        "median": 2.0,
-        "stdev": 0.5477225575051661
+        "mean": 1.4285714285714286,
+        "median": 1.0,
+        "stdev": 0.5345224838248488
       },
       "conversions": {
         "mean": 1.0,
@@ -1119,14 +1119,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 19.93103448275862,
-        "median": 16.0,
-        "stdev": 12.008720148538366
+        "mean": 18.676470588235293,
+        "median": 15.0,
+        "stdev": 11.53576937375931
       },
       "cost": {
-        "mean": 3.182,
-        "median": 2.0,
-        "stdev": 4.123314200979595
+        "mean": 2.3985714285714286,
+        "median": 0.52,
+        "stdev": 3.622790952527386
       },
       "roas": {
         "mean": 15.92,
@@ -1138,7 +1138,7 @@
       "product_id": "shopify_gb_8784875847954_47734951117074",
       "product_title": "Light Oak Wood Stain Water Based - 500ml | Grain Guard",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1148,9 +1148,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.3,
+        "mean": 1.25,
         "median": 1.0,
-        "stdev": 0.6749485577105528
+        "stdev": 0.621581560508061
       },
       "conversions": {
         "mean": 0,
@@ -1158,14 +1158,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 50.9,
-        "median": 34.0,
-        "stdev": 46.09835811273169
+        "mean": 49.57142857142857,
+        "median": 35.0,
+        "stdev": 42.77869571086394
       },
       "cost": {
-        "mean": 0.602,
+        "mean": 0.66,
         "median": 0.645,
-        "stdev": 0.3576404153149734
+        "stdev": 0.40393518832064673
       },
       "roas": {
         "mean": 0,
@@ -1177,7 +1177,7 @@
       "product_id": "shopify_gb_8784875847954_47734951182610",
       "product_title": "Wood Stain | Water Based | 5 Litre - Light Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1197,14 +1197,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 28.766666666666666,
-        "median": 24.0,
-        "stdev": 16.12383828123875
+        "mean": 26.857142857142858,
+        "median": 23.0,
+        "stdev": 15.738941696133375
       },
       "cost": {
-        "mean": 0.54,
-        "median": 0.34,
-        "stdev": 0.36173194495371847
+        "mean": 0.4716666666666667,
+        "median": 0.32,
+        "stdev": 0.3642755367392473
       },
       "roas": {
         "mean": 0,
@@ -1216,7 +1216,7 @@
       "product_id": "shopify_gb_8784875847954_47734951248146",
       "product_title": "Wood Stain | Water Based | 1 Litre - Medium Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1236,9 +1236,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 70.2,
-        "median": 47.5,
-        "stdev": 57.19862549590409
+        "mean": 67.02857142857142,
+        "median": 47.0,
+        "stdev": 53.58856644641199
       },
       "cost": {
         "mean": 0.50875,
@@ -1255,7 +1255,7 @@
       "product_id": "shopify_gb_8784875847954_47734951280914",
       "product_title": "Grain Guard Wood Stain, Water Based, 5 Litre - Medium Oak, Quick Dry, Long Lasting, 12m\u00b2 Coverage, Interior/Exterior, Environmentally Friendly",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 54.99,
@@ -1265,9 +1265,9 @@
         "max": 54.99
       },
       "clicks": {
-        "mean": 1.0,
+        "mean": 1.1538461538461537,
         "median": 1.0,
-        "stdev": 0.0
+        "stdev": 0.5547001962252291
       },
       "conversions": {
         "mean": 1.0,
@@ -1275,14 +1275,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 35.53333333333333,
+        "mean": 33.57142857142857,
         "median": 23.0,
-        "stdev": 33.12019212560189
+        "stdev": 31.049567311833844
       },
       "cost": {
-        "mean": 0.7254545454545455,
-        "median": 0.31,
-        "stdev": 1.1566361885775807
+        "mean": 0.683076923076923,
+        "median": 0.34,
+        "stdev": 1.0618645912998559
       },
       "roas": {
         "mean": 13.28,
@@ -1294,7 +1294,7 @@
       "product_id": "shopify_gb_8784875847954_48957267804434",
       "product_title": "Grain Guard Wood Stain 500ml - Golden Oak - Water Based, Quick Drying, Long Lasting, Interior/Exterior, 12m\u00b2/Litre",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1314,14 +1314,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 42.06666666666667,
-        "median": 31.0,
-        "stdev": 32.85698722030677
+        "mean": 41.628571428571426,
+        "median": 33.0,
+        "stdev": 30.446757495943746
       },
       "cost": {
-        "mean": 0.891,
-        "median": 0.545,
-        "stdev": 1.252139946030173
+        "mean": 0.8438461538461538,
+        "median": 0.56,
+        "stdev": 1.0975392055376918
       },
       "roas": {
         "mean": 0,
@@ -1333,7 +1333,7 @@
       "product_id": "shopify_gb_8784875847954_48957267837202",
       "product_title": "Wood Stain | Water Based | 1 Litre - Golden Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -1353,9 +1353,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 23.433333333333334,
-        "median": 9.5,
-        "stdev": 47.4310267530714
+        "mean": 21.62857142857143,
+        "median": 10.0,
+        "stdev": 44.04815928202283
       },
       "cost": {
         "mean": 0.31,
@@ -1372,7 +1372,7 @@
       "product_id": "shopify_gb_8784875847954_48957267869970",
       "product_title": "Wood Stain | Water Based | 5 Litre - Golden Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1392,9 +1392,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 22.733333333333334,
-        "median": 17.0,
-        "stdev": 17.250553880829518
+        "mean": 21.857142857142858,
+        "median": 16.0,
+        "stdev": 16.206648703074734
       },
       "cost": {
         "mean": 0.8142857142857143,
@@ -1411,7 +1411,7 @@
       "product_id": "shopify_gb_8784875847954_48957267902738",
       "product_title": "Grain Guard Wood Stain 500ml - Antique Stripped Pine - Water-Based, Quick Drying, Long Lasting, 12m\u00b2 Coverage. 500ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 15.989999999999998,
@@ -1421,9 +1421,9 @@
         "max": 18.99
       },
       "clicks": {
-        "mean": 1.7777777777777777,
-        "median": 2.0,
-        "stdev": 0.97182531580755
+        "mean": 1.7,
+        "median": 1.5,
+        "stdev": 0.9486832980505138
       },
       "conversions": {
         "mean": 1.0,
@@ -1431,14 +1431,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 131.5,
-        "median": 46.5,
-        "stdev": 212.36139495907798
+        "mean": 117.31428571428572,
+        "median": 43.0,
+        "stdev": 199.28988218887866
       },
       "cost": {
-        "mean": 0.7744444444444445,
-        "median": 0.53,
-        "stdev": 0.802061579791588
+        "mean": 0.736,
+        "median": 0.485,
+        "stdev": 0.7659010670082949
       },
       "roas": {
         "mean": 16.585,
@@ -1450,7 +1450,7 @@
       "product_id": "shopify_gb_8784875847954_48957267935506",
       "product_title": "Wood Stain | Water Based | 1 Litre - Antique Stripped Pine",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1470,9 +1470,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.266666666666667,
-        "median": 9.5,
-        "stdev": 6.817489341358755
+        "mean": 10.371428571428572,
+        "median": 8.0,
+        "stdev": 6.691019944609317
       },
       "cost": {
         "mean": 0.94,
@@ -1489,7 +1489,7 @@
       "product_id": "shopify_gb_8784875847954_48957267968274",
       "product_title": "Wood Stain | Water Based | 5 Litre - Antique Stripped Pine",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1509,9 +1509,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 9.4,
+        "mean": 8.942857142857143,
         "median": 7.0,
-        "stdev": 6.657119600796604
+        "stdev": 6.444070950894944
       },
       "cost": {
         "mean": 0.43,
@@ -1528,7 +1528,7 @@
       "product_id": "shopify_gb_8784875847954_48957268001042",
       "product_title": "Grain Guard Wood Stain 500ml - Very Red Mahogany - Water Based, Quick Drying, Long Lasting, Interior/Exterior Use, 12m\u00b2 Coverage",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 12.93,
@@ -1538,9 +1538,9 @@
         "max": 12.93
       },
       "clicks": {
-        "mean": 2.142857142857143,
+        "mean": 2.0,
         "median": 1.0,
-        "stdev": 2.2677868380553634
+        "stdev": 2.138089935299395
       },
       "conversions": {
         "mean": 1.0,
@@ -1548,14 +1548,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 32.93333333333333,
-        "median": 23.0,
-        "stdev": 28.41798038558339
+        "mean": 31.514285714285716,
+        "median": 21.0,
+        "stdev": 26.95134115245411
       },
       "cost": {
-        "mean": 1.052857142857143,
-        "median": 0.65,
-        "stdev": 0.8899946495291284
+        "mean": 0.9400000000000001,
+        "median": 0.5700000000000001,
+        "stdev": 0.8836450483245926
       },
       "roas": {
         "mean": 5.98,
@@ -1567,7 +1567,7 @@
       "product_id": "shopify_gb_8784875847954_48957268033810",
       "product_title": "Grain Guard Water Based Wood Stain - 1 Litre - Very Red Mahogany - Quick Drying, Long Lasting, 12m\u00b2 Coverage - Interior/Exterior Use",
       "label": "",
-      "data_points": 28,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -1587,9 +1587,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.678571428571429,
-        "median": 4.5,
-        "stdev": 4.562760465856504
+        "mean": 5.212121212121212,
+        "median": 4.0,
+        "stdev": 4.371481268957753
       },
       "cost": {
         "mean": 1.49,
@@ -1606,7 +1606,7 @@
       "product_id": "shopify_gb_8784875847954_48957268066578",
       "product_title": "Wood Stain | Water Based | 5 Litre - Very Red Mahogany",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.765,
@@ -1626,9 +1626,9 @@
         "stdev": 1.1596551211459378
       },
       "impressions": {
-        "mean": 17.566666666666666,
-        "median": 11.5,
-        "stdev": 21.706003195260145
+        "mean": 15.371428571428572,
+        "median": 9.0,
+        "stdev": 20.783315868441083
       },
       "cost": {
         "mean": 4.925,
@@ -1645,7 +1645,7 @@
       "product_id": "shopify_gb_8784875847954_48957268099346",
       "product_title": "Wood Stain | Water Based | 500ml - Brown Mahogany",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1665,9 +1665,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 16.586206896551722,
+        "mean": 15.617647058823529,
         "median": 12.0,
-        "stdev": 15.034525127612374
+        "stdev": 14.125014788691326
       },
       "cost": {
         "mean": 0.26,
@@ -1684,7 +1684,7 @@
       "product_id": "shopify_gb_8784875847954_48957268132114",
       "product_title": "Wtare Based Wood Stain | 1 Litre - Brown Mahogany",
       "label": "",
-      "data_points": 28,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1704,9 +1704,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.25,
+        "mean": 6.161290322580645,
         "median": 5.0,
-        "stdev": 4.95629042882021
+        "stdev": 4.712372185312109
       },
       "cost": {
         "mean": 0,
@@ -1723,7 +1723,7 @@
       "product_id": "shopify_gb_8784875847954_48957268164882",
       "product_title": "Wood Stain | Water Based | 5 Litre - Brown Mahogany",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -1743,9 +1743,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 10.89655172413793,
-        "median": 9.0,
-        "stdev": 7.0170446953227845
+        "mean": 9.794117647058824,
+        "median": 8.5,
+        "stdev": 7.0098606382408155
       },
       "cost": {
         "mean": 0.27,
@@ -1762,7 +1762,7 @@
       "product_id": "shopify_gb_8784875847954_48957268197650",
       "product_title": "Wood Stain | Water Based | 500ml - French Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 18.99,
@@ -1782,9 +1782,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 145.13333333333333,
-        "median": 130.0,
-        "stdev": 112.84677843119337
+        "mean": 127.14285714285714,
+        "median": 103.0,
+        "stdev": 113.41805615590876
       },
       "cost": {
         "mean": 0.7641666666666667,
@@ -1801,7 +1801,7 @@
       "product_id": "shopify_gb_8784875847954_48957268263186",
       "product_title": "Wood Stain | Water Based | 5 Litre - French Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1821,14 +1821,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.8,
-        "median": 11.5,
-        "stdev": 18.585125680277876
+        "mean": 18.857142857142858,
+        "median": 13.0,
+        "stdev": 17.18094508313148
       },
       "cost": {
-        "mean": 1.4966666666666666,
-        "median": 1.49,
-        "stdev": 0.07023769168568499
+        "mean": 1.16,
+        "median": 1.43,
+        "stdev": 0.5684188596448925
       },
       "roas": {
         "mean": 0,
@@ -1840,7 +1840,7 @@
       "product_id": "shopify_gb_8784875847954_48957268295954",
       "product_title": "Wood Stain | Water Based | 500ml - Golden Pine",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1850,9 +1850,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.6923076923076923,
+        "mean": 1.6428571428571428,
         "median": 2.0,
-        "stdev": 0.6304251719561152
+        "stdev": 0.6333236937766509
       },
       "conversions": {
         "mean": 0,
@@ -1860,14 +1860,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 54.53333333333333,
-        "median": 46.0,
-        "stdev": 30.1796155608765
+        "mean": 49.542857142857144,
+        "median": 42.0,
+        "stdev": 30.555968760468982
       },
       "cost": {
-        "mean": 0.5692307692307692,
-        "median": 0.56,
-        "stdev": 0.37032556709066905
+        "mean": 0.5542857142857143,
+        "median": 0.555,
+        "stdev": 0.3601647974451158
       },
       "roas": {
         "mean": 0,
@@ -1879,7 +1879,7 @@
       "product_id": "shopify_gb_8784875847954_48957268328722",
       "product_title": "Water Based Wood Stain |- 1 Litre - Golden Pine",
       "label": "",
-      "data_points": 28,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -1899,9 +1899,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.035714285714286,
-        "median": 8.5,
-        "stdev": 4.095907106668196
+        "mean": 7.393939393939394,
+        "median": 7.0,
+        "stdev": 4.0769120816142355
       },
       "cost": {
         "mean": 0,
@@ -1918,7 +1918,7 @@
       "product_id": "shopify_gb_8784875847954_48957268361490",
       "product_title": "Wood Stain | Water Based | 5 Litre - Golden Pine",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1938,9 +1938,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.275862068965518,
-        "median": 7.0,
-        "stdev": 6.823784830199952
+        "mean": 7.705882352941177,
+        "median": 6.0,
+        "stdev": 6.478539920452082
       },
       "cost": {
         "mean": 0.98,
@@ -1957,7 +1957,7 @@
       "product_id": "shopify_gb_8784875847954_48957268394258",
       "product_title": "GrainGuard Wood Stain 500ml Dark Pine - Water-Based, Quick Drying, Long Lasting, Interior/Exterior, 12m\u00b2/Litre Coverage",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1977,9 +1977,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.379310344827586,
-        "median": 4.0,
-        "stdev": 5.954672793598128
+        "mean": 5.852941176470588,
+        "median": 3.5,
+        "stdev": 5.6629168677440775
       },
       "cost": {
         "mean": 0,
@@ -1996,7 +1996,7 @@
       "product_id": "shopify_gb_8784875847954_48957268459794",
       "product_title": "Wood Stain | Water Based | 5 Litre - Dark Pine",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2016,9 +2016,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.0,
-        "median": 7.5,
-        "stdev": 9.406527447506313
+        "mean": 10.142857142857142,
+        "median": 7.0,
+        "stdev": 9.016791059373803
       },
       "cost": {
         "mean": 0.815,
@@ -2035,7 +2035,7 @@
       "product_id": "shopify_gb_8784875847954_48957268492562",
       "product_title": "Wood Stain | Water Based | 500ml - Light Rosewood",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2055,9 +2055,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 28.233333333333334,
-        "median": 20.0,
-        "stdev": 20.936164608297936
+        "mean": 25.82857142857143,
+        "median": 19.0,
+        "stdev": 20.33901743575881
       },
       "cost": {
         "mean": 0.5625,
@@ -2074,7 +2074,7 @@
       "product_id": "shopify_gb_8784875847954_48957268558098",
       "product_title": "Wood Stain Water Based - 5 Litre - Light Rosewood",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2094,9 +2094,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 13.833333333333334,
-        "median": 9.0,
-        "stdev": 12.256126781253567
+        "mean": 12.457142857142857,
+        "median": 8.0,
+        "stdev": 11.825552734607866
       },
       "cost": {
         "mean": 0.595,
@@ -2113,7 +2113,7 @@
       "product_id": "shopify_gb_8784876241170_47735016947986",
       "product_title": "Grain Guard Clear Wax Polish 600ml: Natural Beeswax & Carnauba Polish, Non-Toxic, Water Repellent, UV Protection",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 24.99,
@@ -2123,9 +2123,9 @@
         "max": 24.99
       },
       "clicks": {
-        "mean": 1.4615384615384615,
+        "mean": 1.5,
         "median": 1.0,
-        "stdev": 0.7762500258061849
+        "stdev": 0.7859052479933757
       },
       "conversions": {
         "mean": 1.0,
@@ -2133,14 +2133,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 64.46666666666667,
-        "median": 46.5,
-        "stdev": 47.96746981986376
+        "mean": 65.08571428571429,
+        "median": 50.0,
+        "stdev": 44.75184611937743
       },
       "cost": {
-        "mean": 1.1346153846153846,
-        "median": 0.8,
-        "stdev": 1.1060863090541004
+        "mean": 1.2044444444444444,
+        "median": 1.0,
+        "stdev": 0.9889460951361138
       },
       "roas": {
         "mean": 7.44,
@@ -2152,7 +2152,7 @@
       "product_id": "shopify_gb_8784876241170_47735017013522",
       "product_title": "Wax Polish - Antique Brown 300ml | Natural Beeswax & Carnauba Furniture Polish | Non-Toxic & Water Repellent",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2172,9 +2172,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 27.366666666666667,
-        "median": 18.5,
-        "stdev": 23.52472409356082
+        "mean": 24.685714285714287,
+        "median": 17.0,
+        "stdev": 22.82126385706132
       },
       "cost": {
         "mean": 0.2733333333333333,
@@ -2191,7 +2191,7 @@
       "product_id": "shopify_gb_8784876241170_47735017046290",
       "product_title": "Wax Polish 600ml - Antique Brown | Natural Beeswax & Carnauba Furniture Polish | Non-Toxic & Water Repellent",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 19.49,
@@ -2201,9 +2201,9 @@
         "max": 24.99
       },
       "clicks": {
-        "mean": 2.111111111111111,
-        "median": 2.0,
-        "stdev": 1.3642254619787417
+        "mean": 2.0,
+        "median": 1.5,
+        "stdev": 1.3333333333333333
       },
       "conversions": {
         "mean": 1.0,
@@ -2211,14 +2211,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 137.5,
-        "median": 105.0,
-        "stdev": 77.2835129850497
+        "mean": 125.57142857142857,
+        "median": 100.0,
+        "stdev": 77.35794788410779
       },
       "cost": {
-        "mean": 2.741111111111111,
-        "median": 1.03,
-        "stdev": 3.1674494646499274
+        "mean": 2.484,
+        "median": 0.99,
+        "stdev": 3.09500385926882
       },
       "roas": {
         "mean": 2.525,
@@ -2230,7 +2230,7 @@
       "product_id": "shopify_gb_8784876372242_47096882004242",
       "product_title": "Epoxy Wood Repair Stick 7 Inch | Wood Repair, Rebuild, Re-Paint",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2250,9 +2250,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 148.61290322580646,
-        "median": 96.0,
-        "stdev": 112.16852720181208
+        "mean": 134.5,
+        "median": 94.0,
+        "stdev": 109.82908800235288
       },
       "cost": {
         "mean": 0.5246153846153846,
@@ -2269,7 +2269,7 @@
       "product_id": "shopify_gb_8784876470546_47734824108306",
       "product_title": "Danish Oil | Enhances Natural Beauty Of Wooden Surfaces 500ml",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2279,9 +2279,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.0,
+        "mean": 1.6666666666666667,
         "median": 2.0,
-        "stdev": 0.0
+        "stdev": 0.5773502691896257
       },
       "conversions": {
         "mean": 0,
@@ -2289,14 +2289,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 33.8,
-        "median": 21.5,
-        "stdev": 30.54493580691038
+        "mean": 32.4,
+        "median": 21.0,
+        "stdev": 28.653302858586517
       },
       "cost": {
-        "mean": 0.585,
-        "median": 0.585,
-        "stdev": 0.2333452377915607
+        "mean": 0.44666666666666666,
+        "median": 0.42,
+        "stdev": 0.29091808698211485
       },
       "roas": {
         "mean": 0,
@@ -2308,7 +2308,7 @@
       "product_id": "shopify_gb_8784876470546_47734824141074",
       "product_title": "Danish Oil 1 Litre | Enhances Natural Beauty Of Wooden Surfaces",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 25.99,
@@ -2318,9 +2318,9 @@
         "max": 25.99
       },
       "clicks": {
-        "mean": 1.5,
+        "mean": 1.6,
         "median": 1.0,
-        "stdev": 0.7559289460184545
+        "stdev": 0.8432740427115678
       },
       "conversions": {
         "mean": 1.0,
@@ -2328,14 +2328,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 139.46666666666667,
-        "median": 67.0,
-        "stdev": 186.53107965741506
+        "mean": 137.25714285714287,
+        "median": 82.0,
+        "stdev": 172.8971715580481
       },
       "cost": {
-        "mean": 1.53625,
+        "mean": 1.445,
         "median": 1.01,
-        "stdev": 1.6354460946700224
+        "stdev": 1.4963306972576467
       },
       "roas": {
         "mean": 5.71,
@@ -2347,7 +2347,7 @@
       "product_id": "shopify_gb_8784876470546_47734824173842",
       "product_title": "Grain Guard Danish Oil 5 Litre - Enhances Natural Beauty of Wooden Surfaces-Water Repellent-Interior/Exterior Use- 6-10m\u00b2 Coverage-Natural Finish",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2367,9 +2367,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 93.83333333333333,
-        "median": 59.5,
-        "stdev": 85.59692362073145
+        "mean": 90.57142857142857,
+        "median": 63.0,
+        "stdev": 80.46273734369429
       },
       "cost": {
         "mean": 0.9718181818181818,
@@ -2386,7 +2386,7 @@
       "product_id": "shopify_gb_8784876896530_47734926967058",
       "product_title": "Wax Filler Repair Sticks | Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces | 4x40mm - Dark Wood",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 9.99,
@@ -2396,9 +2396,9 @@
         "max": 9.99
       },
       "clicks": {
-        "mean": 3.0434782608695654,
+        "mean": 2.888888888888889,
         "median": 2.0,
-        "stdev": 2.8361026534435534
+        "stdev": 2.636042099193021
       },
       "conversions": {
         "mean": 1.0,
@@ -2406,14 +2406,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 294.0967741935484,
-        "median": 198.0,
-        "stdev": 244.21088630371764
+        "mean": 268.19444444444446,
+        "median": 176.0,
+        "stdev": 235.7447553659247
       },
       "cost": {
-        "mean": 1.092608695652174,
-        "median": 0.81,
-        "stdev": 0.9274021261337028
+        "mean": 1.012962962962963,
+        "median": 0.58,
+        "stdev": 0.8750640188220729
       },
       "roas": {
         "mean": 17.105999999999998,
@@ -2425,7 +2425,7 @@
       "product_id": "shopify_gb_8784876896530_47734926999826",
       "product_title": "Wax Filler Wood Repair Sticks 4 x 40mm - Light Wood - Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 9.99,
@@ -2445,9 +2445,9 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 151.4,
-        "median": 98.0,
-        "stdev": 141.5918368969838
+        "mean": 136.6,
+        "median": 88.0,
+        "stdev": 135.98641800692062
       },
       "cost": {
         "mean": 1.0185714285714285,
@@ -2464,8 +2464,8 @@
       "product_id": "shopify_gb_8784876896530_47734927032594",
       "product_title": "Grain Guard Wax Filler Wood Repair Sticks - 4x40mm - Quick Fix - DarkWood/MediumWood/LightWood - Instant Repair",
       "label": "",
-      "data_points": 28,
-      "date_range": "45935 to 45962",
+      "data_points": 33,
+      "date_range": "2025-12-11 to 45962",
       "revenue": {
         "mean": 14.32,
         "median": 9.99,
@@ -2474,9 +2474,9 @@
         "max": 22.98
       },
       "clicks": {
-        "mean": 2.2,
+        "mean": 2.28,
         "median": 2.0,
-        "stdev": 1.105012502906165
+        "stdev": 1.173314393786536
       },
       "conversions": {
         "mean": 1.0,
@@ -2484,14 +2484,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 150.10714285714286,
-        "median": 130.0,
-        "stdev": 98.04320260334
+        "mean": 176.6060606060606,
+        "median": 143.0,
+        "stdev": 112.66902285952963
       },
       "cost": {
-        "mean": 0.67,
-        "median": 0.5700000000000001,
-        "stdev": 0.517432934886506
+        "mean": 0.6624,
+        "median": 0.58,
+        "stdev": 0.5009597455551361
       },
       "roas": {
         "mean": 16.683333333333334,
@@ -2503,7 +2503,7 @@
       "product_id": "shopify_gb_8784876896530_47734927065362",
       "product_title": "Wax Filler Wood Repair Sticks 4x40mm - White Wood | Furniture Repair Kit | Multi-Surface: Wood, Plastic, Hard Surfaces",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2513,9 +2513,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.25,
+        "mean": 1.2727272727272727,
         "median": 1.0,
-        "stdev": 0.44426165831931924
+        "stdev": 0.4558423058385518
       },
       "conversions": {
         "mean": 0,
@@ -2523,14 +2523,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 98.83333333333333,
-        "median": 74.5,
-        "stdev": 58.11527387418272
+        "mean": 97.2,
+        "median": 77.0,
+        "stdev": 54.29808793080265
       },
       "cost": {
-        "mean": 0.365,
+        "mean": 0.35409090909090907,
         "median": 0.29000000000000004,
-        "stdev": 0.22448772091610103
+        "stdev": 0.21801395959911965
       },
       "roas": {
         "mean": 0,
@@ -2542,7 +2542,7 @@
       "product_id": "shopify_gb_8784876896530_47734927098130",
       "product_title": "Grain Guard Wax Filler Sticks: 4x40mm - Quick Fix, Multi-Surface Repair Kit for Wood, Laminate & Plastic",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 9.99,
@@ -2552,9 +2552,9 @@
         "max": 9.99
       },
       "clicks": {
-        "mean": 1.3636363636363635,
+        "mean": 1.3571428571428572,
         "median": 1.0,
-        "stdev": 0.504524979109513
+        "stdev": 0.4972451580988469
       },
       "conversions": {
         "mean": 0,
@@ -2562,14 +2562,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 63.6,
-        "median": 41.0,
-        "stdev": 49.521573146423286
+        "mean": 66.0,
+        "median": 50.0,
+        "stdev": 46.202877425036434
       },
       "cost": {
-        "mean": 0.4972727272727273,
-        "median": 0.35,
-        "stdev": 0.41129286181724356
+        "mean": 0.49142857142857144,
+        "median": 0.31999999999999995,
+        "stdev": 0.41165439467997994
       },
       "roas": {
         "mean": 6.32,
@@ -2581,7 +2581,7 @@
       "product_id": "shopify_gb_8784877551890_47734888562962",
       "product_title": "Touch-Up & Scratch Repair Pen 10ml - Anthracite Grey Gloss (RAL 7016) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.99,
@@ -2591,9 +2591,9 @@
         "max": 13.99
       },
       "clicks": {
-        "mean": 3.0,
-        "median": 1.5,
-        "stdev": 2.9612887007569473
+        "mean": 2.875,
+        "median": 2.0,
+        "stdev": 2.7778888866667555
       },
       "conversions": {
         "mean": 1.0,
@@ -2601,14 +2601,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 88.43333333333334,
-        "median": 39.5,
-        "stdev": 127.06845381141217
+        "mean": 77.85714285714286,
+        "median": 36.0,
+        "stdev": 120.29208150975516
       },
       "cost": {
-        "mean": 1.2692857142857144,
-        "median": 0.53,
-        "stdev": 1.4756456958837443
+        "mean": 1.133125,
+        "median": 0.35,
+        "stdev": 1.4232438008530606
       },
       "roas": {
         "mean": 5.71,
@@ -2620,7 +2620,7 @@
       "product_id": "shopify_gb_8784877551890_47734888759570",
       "product_title": "Touch-Up & Scratch Repair Pen 10ml - Signal White (RAL 9003) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2640,9 +2640,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 59.16129032258065,
-        "median": 14.0,
-        "stdev": 144.71145929612106
+        "mean": 51.888888888888886,
+        "median": 12.5,
+        "stdev": 135.23223998055616
       },
       "cost": {
         "mean": 0.71625,
@@ -2659,7 +2659,7 @@
       "product_id": "shopify_gb_8784877551890_47734888792338",
       "product_title": "Touch-Up & Scratch Repair Pen 10ml - Slate Grey (RAL 7015) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.99,
@@ -2679,9 +2679,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 100.3,
-        "median": 32.0,
-        "stdev": 205.70637761893394
+        "mean": 88.48571428571428,
+        "median": 26.0,
+        "stdev": 192.23964386220888
       },
       "cost": {
         "mean": 0.5163636363636364,
@@ -2698,7 +2698,7 @@
       "product_id": "shopify_gb_8784877551890_48957996106002",
       "product_title": "Touch-Up & Scratch Repair Pen 10ml - Pebble Grey (RAL 7032) | Multi-Surface Wood, UPVC, Metal",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2718,9 +2718,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 30.7,
-        "median": 20.5,
-        "stdev": 26.764812205838343
+        "mean": 27.514285714285716,
+        "median": 17.0,
+        "stdev": 25.997026332857004
       },
       "cost": {
         "mean": 0.5033333333333333,
@@ -2737,7 +2737,7 @@
       "product_id": "shopify_gb_8784877551890_48957996171538",
       "product_title": "Touch-Up & Scratch Repair Pen -10ml - Light Ivory (RAL 1015) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2757,9 +2757,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 27.033333333333335,
-        "median": 17.0,
-        "stdev": 23.723236584053797
+        "mean": 24.257142857142856,
+        "median": 16.0,
+        "stdev": 22.974849237350647
       },
       "cost": {
         "mean": 0.3871428571428571,
@@ -2776,7 +2776,7 @@
       "product_id": "shopify_gb_8784877551890_48957996204306",
       "product_title": "Touch-Up & Scratch Repair Pens | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows | 10ml - Black Brown (RAL 8022)",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2796,14 +2796,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 17.0,
-        "median": 12.5,
-        "stdev": 15.961159753904324
+        "mean": 17.257142857142856,
+        "median": 14.0,
+        "stdev": 14.793366671552207
       },
       "cost": {
-        "mean": 0.445,
-        "median": 0.45999999999999996,
-        "stdev": 0.22708295107001467
+        "mean": 0.42833333333333334,
+        "median": 0.42000000000000004,
+        "stdev": 0.18978057505094317
       },
       "roas": {
         "mean": 0,
@@ -2815,7 +2815,7 @@
       "product_id": "shopify_gb_8784877748498_47734979723538",
       "product_title": "Grain Guard Water-Based Aerosol Wood Stain - 400ml Black Ebony - Quick Dry, Long Lasting, Easy Application - For All Woods - Premium Finish",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2835,9 +2835,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 14.9,
+        "mean": 14.228571428571428,
         "median": 11.0,
-        "stdev": 11.847740945734818
+        "stdev": 11.282692926064485
       },
       "cost": {
         "mean": 0.31666666666666665,
@@ -2854,7 +2854,7 @@
       "product_id": "shopify_gb_8784877748498_47734979756306",
       "product_title": "Water Based Wood Stain Aerosol - 2 x 400ml - Black Ebony",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2874,9 +2874,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 16.366666666666667,
+        "mean": 15.257142857142858,
         "median": 12.0,
-        "stdev": 13.280743989684472
+        "stdev": 12.65223267240366
       },
       "cost": {
         "mean": 0,
@@ -2893,7 +2893,7 @@
       "product_id": "shopify_gb_8784877748498_47734979789074",
       "product_title": "Wood Stain Aerosol | Water Based Aerosol Stain | 400ml Three Pack - Black Ebony",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2903,9 +2903,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.25,
+        "mean": 1.2,
         "median": 1.0,
-        "stdev": 0.4629100498862757
+        "stdev": 0.4216370213557839
       },
       "conversions": {
         "mean": 0,
@@ -2913,14 +2913,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 29.93103448275862,
-        "median": 21.0,
-        "stdev": 27.145021951524896
+        "mean": 27.176470588235293,
+        "median": 18.0,
+        "stdev": 25.985392852739977
       },
       "cost": {
-        "mean": 0.505,
-        "median": 0.46499999999999997,
-        "stdev": 0.23256335542323578
+        "mean": 0.656,
+        "median": 0.5,
+        "stdev": 0.37868779283790555
       },
       "roas": {
         "mean": 0,
@@ -2932,7 +2932,7 @@
       "product_id": "shopify_gb_8784877748498_47734979821842",
       "product_title": "Water Based Aerosol Wood Stain | 400ml - Dark Red Mahogany - Quick Drying For A Premium Finish",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2952,9 +2952,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 20.033333333333335,
-        "median": 16.5,
-        "stdev": 13.404794132963268
+        "mean": 19.085714285714285,
+        "median": 13.0,
+        "stdev": 12.809397810549392
       },
       "cost": {
         "mean": 0.33999999999999997,
@@ -2971,7 +2971,7 @@
       "product_id": "shopify_gb_8784877748498_47734979854610",
       "product_title": "Wood Stain Aerosol 2 x 400ml - Dark Red Mahogany | Water Based Aerosol Stain",
       "label": "",
-      "data_points": 24,
+      "data_points": 29,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -2991,9 +2991,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.083333333333333,
+        "mean": 4.586206896551724,
         "median": 3.0,
-        "stdev": 6.540287632729969
+        "stdev": 6.085798699662016
       },
       "cost": {
         "mean": 0.16,
@@ -3010,7 +3010,7 @@
       "product_id": "shopify_gb_8784877748498_47734979887378",
       "product_title": "Water Based Aerosol Wood Stain - Dark Red Mahogany - 400ml Three Pack - Dark Red Mahogany",
       "label": "",
-      "data_points": 22,
+      "data_points": 24,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -3030,9 +3030,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.772727272727273,
-        "median": 2.5,
-        "stdev": 1.7976656339825077
+        "mean": 2.625,
+        "median": 2.0,
+        "stdev": 1.7891581697887247
       },
       "cost": {
         "mean": 0,
@@ -3049,7 +3049,7 @@
       "product_id": "shopify_gb_8784877748498_47734979920146",
       "product_title": "Water Based Wood Stain Aerosol 400ml - English Oak",
       "label": "",
-      "data_points": 24,
+      "data_points": 29,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3069,9 +3069,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.958333333333333,
-        "median": 4.5,
-        "stdev": 4.1752809503664245
+        "mean": 4.931034482758621,
+        "median": 5.0,
+        "stdev": 3.909064872490594
       },
       "cost": {
         "mean": 0,
@@ -3088,7 +3088,7 @@
       "product_id": "shopify_gb_8784877748498_47734979952914",
       "product_title": "Wood Stain Aerosol - Water Based - 2 x 400ml - English Oak - Fade Resistant - Quick Dry",
       "label": "",
-      "data_points": 24,
+      "data_points": 27,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3108,9 +3108,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.291666666666667,
+        "mean": 4.962962962962963,
         "median": 3.0,
-        "stdev": 6.382579325051879
+        "stdev": 6.092122792094732
       },
       "cost": {
         "mean": 0.03,
@@ -3127,7 +3127,7 @@
       "product_id": "shopify_gb_8784877748498_47734979985682",
       "product_title": "3 x 400ml Wood Stain Aerosol - English Oak - Water Based",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3147,9 +3147,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 42.32258064516129,
-        "median": 29.0,
-        "stdev": 52.58794988510466
+        "mean": 38.0,
+        "median": 26.0,
+        "stdev": 49.921652903038265
       },
       "cost": {
         "mean": 0.48692307692307696,
@@ -3166,7 +3166,7 @@
       "product_id": "shopify_gb_8784877748498_47734980018450",
       "product_title": "Light Oak Water Based Wood Stain Aerosol 400ml - Qucik Dry - Premium Finish",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3176,9 +3176,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.4615384615384615,
+        "mean": 1.4,
         "median": 1.0,
-        "stdev": 0.9674179220468452
+        "stdev": 0.9102589898327995
       },
       "conversions": {
         "mean": 0,
@@ -3186,14 +3186,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 40.166666666666664,
-        "median": 29.5,
-        "stdev": 22.447000157971086
+        "mean": 38.91428571428571,
+        "median": 30.0,
+        "stdev": 21.04668679887844
       },
       "cost": {
-        "mean": 0.3023076923076923,
+        "mean": 0.2813333333333333,
         "median": 0.19,
-        "stdev": 0.3639632272211449
+        "stdev": 0.3426549006688522
       },
       "roas": {
         "mean": 0,
@@ -3205,7 +3205,7 @@
       "product_id": "shopify_gb_8784877748498_47734980051218",
       "product_title": "Water Based Wood Aerosol Stain | 400ml Two Pack - Light Oak",
       "label": "",
-      "data_points": 27,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -3225,9 +3225,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 9.11111111111111,
-        "median": 7.0,
-        "stdev": 7.767453465154029
+        "mean": 8.096774193548388,
+        "median": 6.0,
+        "stdev": 7.712996990835998
       },
       "cost": {
         "mean": 0.3,
@@ -3244,7 +3244,7 @@
       "product_id": "shopify_gb_8784877748498_47734980083986",
       "product_title": "Water Based Aerosol Stain | 3 x 400ml - Light Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3264,9 +3264,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 12.5,
+        "mean": 12.342857142857143,
         "median": 11.0,
-        "stdev": 6.616332977485755
+        "stdev": 6.624121949106814
       },
       "cost": {
         "mean": 0.265,
@@ -3283,7 +3283,7 @@
       "product_id": "shopify_gb_8784877748498_47734980116754",
       "product_title": "Wood Stain Aerosol | Water Based Aerosol Stain | 400ml - Medium Oak",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 6.525,
@@ -3293,9 +3293,9 @@
         "max": 12.99
       },
       "clicks": {
-        "mean": 1.5625,
+        "mean": 1.5,
         "median": 1.0,
-        "stdev": 1.2632629707758134
+        "stdev": 1.200490095997562
       },
       "conversions": {
         "mean": 1.0,
@@ -3303,14 +3303,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 145.76666666666668,
-        "median": 61.0,
-        "stdev": 249.73485019576032
+        "mean": 130.4,
+        "median": 55.0,
+        "stdev": 233.91240190444344
       },
       "cost": {
-        "mean": 0.37625,
+        "mean": 0.3705555555555555,
         "median": 0.32,
-        "stdev": 0.2677280958983075
+        "stdev": 0.2598975414007293
       },
       "roas": {
         "mean": 10.07,
@@ -3322,7 +3322,7 @@
       "product_id": "shopify_gb_8784877748498_47734980149522",
       "product_title": "Water Based Aerosol Wood Stain - 2 x 400ml - Medium Oak",
       "label": "",
-      "data_points": 26,
+      "data_points": 28,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -3342,9 +3342,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.5,
-        "median": 4.0,
-        "stdev": 3.6687872655688283
+        "mean": 4.285714285714286,
+        "median": 3.5,
+        "stdev": 3.619465305888302
       },
       "cost": {
         "mean": 0,
@@ -3361,7 +3361,7 @@
       "product_id": "shopify_gb_8784877748498_47734980182290",
       "product_title": "Grain Guard Wood Stain Aerosol (3x400ml) - Medium Oak, Quick Dry, Premium",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -3381,9 +3381,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.206896551724138,
+        "mean": 4.794117647058823,
         "median": 4.0,
-        "stdev": 3.6876174106715145
+        "stdev": 3.6078988409247024
       },
       "cost": {
         "mean": 0,
@@ -3400,7 +3400,7 @@
       "product_id": "shopify_gb_9397473673490_48957607149842",
       "product_title": "Wood Stain Touch-Up Marker Pens | Various Colours | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 22,
+      "data_points": 27,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3420,9 +3420,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.3636363636363638,
+        "mean": 3.4814814814814814,
         "median": 3.0,
-        "stdev": 2.194049410075537
+        "stdev": 2.4552983583446695
       },
       "cost": {
         "mean": 0.36,
@@ -3439,7 +3439,7 @@
       "product_id": "shopify_gb_9397473673490_48957607215378",
       "product_title": "Wood Stain Touch-Up Marker Pen 10ml - Golden Oak | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3449,9 +3449,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.3076923076923077,
+        "mean": 1.2857142857142858,
         "median": 1.0,
-        "stdev": 0.6304251719561152
+        "stdev": 0.6112498455021266
       },
       "conversions": {
         "mean": 0,
@@ -3459,14 +3459,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 43.96666666666667,
+        "mean": 43.82857142857143,
         "median": 38.0,
-        "stdev": 27.679798849843834
+        "stdev": 25.587779383555592
       },
       "cost": {
-        "mean": 0.4207692307692308,
-        "median": 0.42,
-        "stdev": 0.2578585380417442
+        "mean": 0.41714285714285715,
+        "median": 0.395,
+        "stdev": 0.24811376334342994
       },
       "roas": {
         "mean": 0,
@@ -3478,7 +3478,7 @@
       "product_id": "shopify_gb_9397473673490_48957607248146",
       "product_title": "Wood Stain Touch-Up Marker Pens | Various Colours | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 28,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3498,9 +3498,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.607142857142857,
+        "mean": 4.28125,
         "median": 3.0,
-        "stdev": 3.4890228464830124
+        "stdev": 3.4005158527076635
       },
       "cost": {
         "mean": 0.58,
@@ -3517,7 +3517,7 @@
       "product_id": "shopify_gb_9397473673490_48957607280914",
       "product_title": "Wood Stain Touch-Up Marker Pen - French Oak | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors & Furniture",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3537,9 +3537,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.06451612903226,
-        "median": 9.0,
-        "stdev": 36.00827264566757
+        "mean": 24.88888888888889,
+        "median": 10.0,
+        "stdev": 38.044919148499616
       },
       "cost": {
         "mean": 0.37,
@@ -3556,8 +3556,8 @@
       "product_id": "shopify_gb_9397473673490_48957607411986",
       "product_title": "Wood Stain Touch-Up Marker Pens | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 13,
-      "date_range": "45935 to 45961",
+      "data_points": 18,
+      "date_range": "2025-12-11 to 45961",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -3576,9 +3576,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.3846153846153846,
+        "mean": 1.6111111111111112,
         "median": 1.0,
-        "stdev": 0.5063696835418333
+        "stdev": 0.7775443160352294
       },
       "cost": {
         "mean": 0,
@@ -3595,7 +3595,7 @@
       "product_id": "shopify_gb_9397473673490_48957607477522",
       "product_title": "Wood Stain Touch-Up Marker Pens | Various Colours | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 24,
+      "data_points": 28,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -3615,9 +3615,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.7916666666666665,
+        "mean": 2.607142857142857,
         "median": 2.0,
-        "stdev": 1.8172881532338392
+        "stdev": 1.749905515211982
       },
       "cost": {
         "mean": 0.5,
@@ -3634,7 +3634,7 @@
       "product_id": "shopify_gb_8784875847954_47734951149842",
       "product_title": "Grain Guard Wood Stain 1L - Light Oak - Quick Dry, Water Based, Interior/Exterior 12m\u00b2/Litre",
       "label": "",
-      "data_points": 27,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -3654,9 +3654,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.444444444444445,
-        "median": 5.0,
-        "stdev": 3.3204880703958306
+        "mean": 5.0,
+        "median": 4.0,
+        "stdev": 3.32665998663324
       },
       "cost": {
         "mean": 0,
@@ -3673,7 +3673,7 @@
       "product_id": "shopify_gb_8784875847954_48957268230418",
       "product_title": "Wood Stain | Water Based | 1 Litre - French Oak",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3693,9 +3693,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 21.413793103448278,
-        "median": 12.0,
-        "stdev": 20.07222181697758
+        "mean": 26.88235294117647,
+        "median": 17.0,
+        "stdev": 23.619155946587792
       },
       "cost": {
         "mean": 1.435,
@@ -3712,7 +3712,7 @@
       "product_id": "shopify_gb_8784875847954_48957268427026",
       "product_title": "Wood Stain | Water Based | 1 Litre - Dark Pine",
       "label": "",
-      "data_points": 28,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3732,9 +3732,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.285714285714286,
+        "mean": 5.151515151515151,
         "median": 4.0,
-        "stdev": 4.34491736150492
+        "stdev": 4.016537782416065
       },
       "cost": {
         "mean": 0.81,
@@ -3751,7 +3751,7 @@
       "product_id": "shopify_gb_8784875847954_48957268525330",
       "product_title": "Wood Stain | Water Based | 1 Litre - Light Rosewood",
       "label": "",
-      "data_points": 28,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3771,9 +3771,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.107142857142857,
+        "mean": 5.878787878787879,
         "median": 5.0,
-        "stdev": 5.37028370665341
+        "stdev": 4.998484618846844
       },
       "cost": {
         "mean": 1.75,
@@ -3790,8 +3790,8 @@
       "product_id": "shopify_gb_8784877551890_48957996138770",
       "product_title": "Touch-Up & Scratch Repair Pen 10ml - Basalt Grey (RAL 7012) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 22,
-      "date_range": "45937 to 45960",
+      "data_points": 27,
+      "date_range": "2025-12-11 to 45960",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -3810,9 +3810,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 14.5,
-        "median": 10.0,
-        "stdev": 12.062338081814818
+        "mean": 13.185185185185185,
+        "median": 9.0,
+        "stdev": 11.228524928937553
       },
       "cost": {
         "mean": 0.25,
@@ -3829,7 +3829,7 @@
       "product_id": "shopify_gb_9397473673490_48957607182610",
       "product_title": "Wood Stain Touch-Up Marker Pens | Various Colours | Touching Up & Staining Scratches, Scuffs, Marks & Dents | Ideal For Wooden Floors, Furniture,",
       "label": "",
-      "data_points": 27,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3849,9 +3849,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.407407407407407,
+        "mean": 5.375,
         "median": 5.0,
-        "stdev": 2.4847110845708347
+        "stdev": 3.489615932282335
       },
       "cost": {
         "mean": 0.215,
@@ -3868,7 +3868,7 @@
       "product_id": "shopify_gb_8784877551890_47734888530194",
       "product_title": "Touch-Up & Scratch Repair Pen -10ml - Agate Grey | (RAL 7038) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 20,
+      "data_points": 25,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3888,9 +3888,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 22.25,
-        "median": 18.5,
-        "stdev": 13.31747960981712
+        "mean": 19.76,
+        "median": 18.0,
+        "stdev": 13.004101916959382
       },
       "cost": {
         "mean": 0.5485714285714286,
@@ -3907,7 +3907,7 @@
       "product_id": "shopify_gb_8784877551890_47734888595730",
       "product_title": "Touch-Up & Scratch Repair Pens | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows | 10ml - Anthracite Grey MATT (RAL 7016)",
       "label": "",
-      "data_points": 20,
+      "data_points": 25,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3927,9 +3927,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 46.9,
-        "median": 44.0,
-        "stdev": 24.657442561713705
+        "mean": 43.48,
+        "median": 38.0,
+        "stdev": 23.061728758558697
       },
       "cost": {
         "mean": 0.6375000000000001,
@@ -3946,7 +3946,7 @@
       "product_id": "shopify_gb_8784877551890_47734888726802",
       "product_title": "Touch-Up & Scratch Repair Pen - 10ml - Pure White (RAL 9010) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 20,
+      "data_points": 25,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3956,9 +3956,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.25,
+        "mean": 1.2,
         "median": 1.0,
-        "stdev": 0.4629100498862757
+        "stdev": 0.4216370213557839
       },
       "conversions": {
         "mean": 0,
@@ -3966,14 +3966,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 40.9,
-        "median": 35.0,
-        "stdev": 22.81250811102956
+        "mean": 37.88,
+        "median": 33.0,
+        "stdev": 21.510307606664608
       },
       "cost": {
-        "mean": 0.30625,
-        "median": 0.175,
-        "stdev": 0.2576230635194428
+        "mean": 0.307,
+        "median": 0.265,
+        "stdev": 0.22720768766336524
       },
       "roas": {
         "mean": 0,
@@ -3985,7 +3985,7 @@
       "product_id": "shopify_gb_8784877551890_47734888661266",
       "product_title": "Touch-Up & Scratch Repair Pen 10ml - Jet Black (RAL 9005) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
       "label": "",
-      "data_points": 19,
+      "data_points": 24,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4005,9 +4005,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 21.42105263157895,
+        "mean": 21.958333333333332,
         "median": 19.0,
-        "stdev": 13.133146316239026
+        "stdev": 11.855943901566903
       },
       "cost": {
         "mean": 0.425,
@@ -4024,7 +4024,7 @@
       "product_id": "shopify_gb_8784877551890_47734888825106",
       "product_title": "Touch-Up & Scratch Repair Pen - Traffic White 10ml | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows (RAL 9016)",
       "label": "",
-      "data_points": 3,
+      "data_points": 8,
       "date_range": "2025-11-24 to 45960",
       "revenue": {
         "mean": 0,
@@ -4034,8 +4034,8 @@
         "max": 0
       },
       "clicks": {
-        "mean": 0,
-        "median": 0,
+        "mean": 1.0,
+        "median": 1.0,
         "stdev": 0
       },
       "conversions": {
@@ -4044,13 +4044,13 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 20.0,
-        "median": 12.0,
-        "stdev": 24.020824298928627
+        "mean": 28.75,
+        "median": 35.0,
+        "stdev": 14.973786619098247
       },
       "cost": {
-        "mean": 0,
-        "median": 0,
+        "mean": 0.33,
+        "median": 0.33,
         "stdev": 0
       },
       "roas": {
@@ -4063,8 +4063,8 @@
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 1700,
-      "date_range": "2025-11-17 to 2025-12-11",
+      "data_points": 1911,
+      "date_range": "2025-11-17 to 2025-12-15",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -4086,6 +4086,123 @@
         "mean": 0,
         "median": 0,
         "stdev": 0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8784877551890_47734888628498": {
+      "product_id": "shopify_gb_8784877551890_47734888628498",
+      "product_title": "Touch-Up & Scratch Repair Pen 10ml - Cream (RAL 9001) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
+      "label": "",
+      "data_points": 7,
+      "date_range": "2025-11-24 to 2025-12-14",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.6666666666666667,
+        "median": 2.0,
+        "stdev": 0.5773502691896257
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 37.142857142857146,
+        "median": 35.0,
+        "stdev": 23.504812070641844
+      },
+      "cost": {
+        "mean": 0.22666666666666666,
+        "median": 0.22,
+        "stdev": 0.011547005383792509
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8784875847954_47734951215378": {
+      "product_id": "shopify_gb_8784875847954_47734951215378",
+      "product_title": "Wood Stain | Water Based | 500ml - Medium Oak",
+      "label": "",
+      "data_points": 5,
+      "date_range": "2025-12-11 to 2025-12-14",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 77.2,
+        "median": 65.0,
+        "stdev": 20.96902477465273
+      },
+      "cost": {
+        "mean": 0.04,
+        "median": 0.04,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_gb_8784877551890_47734888694034": {
+      "product_id": "shopify_gb_8784877551890_47734888694034",
+      "product_title": "Touch-Up & Scratch Repair Pen 10ml - Light Grey (RAL 7035) | Multi-Surface Wood, UPVC, Metal | Furniture, Worktops, Doors & Windows",
+      "label": "",
+      "data_points": 5,
+      "date_range": "2025-12-11 to 2025-12-14",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.6,
+        "median": 11.0,
+        "stdev": 4.277849927241488
       },
       "cost": {
         "mean": 0,

@@ -651,3 +651,74 @@ Note (2025-11-24): Demoted to P1. Should only escalate to P0 when approaching du
 Note (2025-12-10): Task completed Dec 10 at 10:20 AM, but deferred to Dec 18 (next Thursday) via manual note. Reason: "Too close to beginning of month after budget decrease. Will have more meaningful data next week."
 
 ---
+## [Devonshire] Follow-up: Check Pilsley Inn conversion performance
+**Completed:** 2025-12-12 15:23
+**Source:** Follow-up from completed investigation
+
+Follow-up check on Pilsley Inn campaign performance after initial investigation.
+
+**Background:**
+Initial investigation (completed Dec 4, 2025) found:
+- November CSP showed 4+ conversions - tracking working correctly
+- Conversions resumed after initial concern about zero conversions
+- Issue monitored in Dec 5 meeting
+
+**This Follow-up:**
+- Review conversion performance for the 2 weeks since investigation
+- Compare to historical November data
+- Check for any new anomalies or tracking issues
+- Verify campaign continues to perform within acceptable range
+
+**Campaign Details:**
+- Campaign ID: 19534106385
+- Campaign Name: "DEV | Core Properties CE | The Pilsley Inn 420 480 8/5 500 28/7"
+- Target: Maintain reasonable conversion rate and ROAS
+
+**Created:** 2025-12-04 (from task note: "Check on this again in a couple of weeks")
+
+---
+## [Devonshire] Analyse property campaign budgets and recommend increases to Helen
+**Completed:** 2025-12-12 15:23
+**Source:** Recurring weekly task
+
+⚠️ RECURRING WEEKLY TASK - EVERY THURSDAY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 COPY AND PASTE THIS INTO CLAUDE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analyse Devonshire property campaign budgets (month-to-date) and create recommendations for Helen. Identify campaigns above 570% ROAS target that can scale, and underperformers to reduce. Create analysis document and email draft. Exclude The Hide and Self-Catering.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT THIS GENERATES:
+
+1. Fresh Google Ads data query (Nov 1 through current date)
+2. Campaign-by-campaign ROAS analysis vs 570% target
+3. Analysis document: clients/devonshire-hotels/documents/budget-optimization-analysis-[DATE].md
+4. Email draft: clients/devonshire-hotels/documents/email-draft-[DATE]-budget-optimization.html
+5. Two reallocation options (revenue-neutral vs modest increase)
+
+KEY PRINCIPLES:
+
+- Focus on campaigns where budget increases maintain ROAS (no degradation)
+- Apply October learnings: Brand search scales 2-3x better than PMax
+- Dev Arms achieved 4,006% incremental ROAS in Oct test
+- PMax only achieved 573% (failed to scale)
+- Look for campaigns consistently above target with room to grow
+- Identify zero/low performers to reduce or pause
+
+EXCLUDE FROM ANALYSIS:
+- The Hide (separate £2k budget)
+- Self-Catering campaigns (separate reporting)
+- Castles (separate budget)
+- Weddings (separate budget)
+
+IMPORTANT: Data must be pulled fresh on Thursday, not in advance.
+
+---
+Note (2025-11-24): Demoted to P1. Should only escalate to P0 when approaching due date (Dec 8).
+---
+Note (2025-12-10): Task completed Dec 10 at 10:20 AM, but deferred to Dec 18 (next Thursday) via manual note. Reason: "Too close to beginning of month after budget decrease. Will have more meaningful data next week."
+
+---

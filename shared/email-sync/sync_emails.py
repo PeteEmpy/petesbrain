@@ -7,6 +7,7 @@ Syncs Gmail emails with client labels to local directories as markdown files
 import os
 import sys
 import json
+import logging
 import re
 import base64
 import yaml
@@ -15,15 +16,33 @@ from pathlib import Path
 from typing import Dict, List, Optional, Set
 from email.utils import parsedate_to_datetime
 
+# Configure logging
+LOG_DIR = Path.home() / '.petesbrain-logs'
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_DIR / f'email-sync_{datetime.now():%Y%m%d}.log'),
+        logging.StreamHandler()  # Also output to console for LaunchAgent logs
+    ]
+)
+
+logger = logging.getLogger(__name__)
+
 # Gmail API imports
 try:
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from google_auth_oauthlib.flow import InstalledAppFlow
     from googleapiclient.discovery import build
-except ImportError:
-    print("Error: Gmail API dependencies not installed.")
-    print("Run: pip install -r requirements.txt")
+except ImportError as e:
+    logger.critical("=" * 60)
+    logger.critical("❌ Gmail API Dependencies Missing")
+    logger.critical(f"Error: {e}")
+    logger.critical("Action required: pip install -r requirements.txt")
+    logger.critical("=" * 60)
     sys.exit(1)
 
 # Gmail API scopes - ONLY gmail.modify needed (includes read access)
@@ -54,14 +73,18 @@ class EmailSyncer:
     def _load_state(self) -> Set[str]:
         """Load previously synced email IDs."""
         if not self.state_file.exists():
+            logger.debug(f"State file not found: {self.state_file}")
             return set()
 
         try:
             with open(self.state_file, 'r') as f:
                 state = json.load(f)
+                synced_count = len(state.get('synced_ids', []))
+                logger.debug(f"Loaded {synced_count} previously synced email IDs")
                 return set(state.get('synced_ids', []))
         except Exception as e:
-            print(f"Warning: Could not load state file: {e}")
+            logger.warning(f"Could not load state file: {e}")
+            logger.warning("Starting with empty state")
             return set()
 
     def _save_state(self):
@@ -76,12 +99,18 @@ class EmailSyncer:
 
     def authenticate(self) -> bool:
         """Authenticate with Gmail API."""
+        logger.info("🔐 Authenticating with Gmail API...")
+
         creds = None
         token_file = self.script_dir / 'token.json'
         credentials_file = self.script_dir / 'credentials.json'
 
+        logger.debug(f"Token file: {token_file}")
+        logger.debug(f"Credentials file: {credentials_file}")
+
         # Check for existing token
         if token_file.exists():
+            logger.debug("Loading credentials from token file")
             creds = Credentials.from_authorized_user_file(str(token_file), SCOPES)
 
             # Check if token has the required scopes
@@ -89,30 +118,41 @@ class EmailSyncer:
                 required_scopes = set(SCOPES)
                 current_scopes = set(creds.scopes)
                 if not required_scopes.issubset(current_scopes):
-                    print(f"⚠️  Token missing required scopes. Required: {required_scopes}, Current: {current_scopes}")
-                    print("🔄 Deleting old token and re-authenticating...")
+                    logger.warning("⚠️  Token missing required scopes")
+                    logger.warning(f"Required: {required_scopes}")
+                    logger.warning(f"Current: {current_scopes}")
+                    logger.info("🔄 Deleting old token and re-authenticating...")
                     token_file.unlink()
                     creds = None
 
         # If no valid credentials, authenticate
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:
+                logger.info("Refreshing expired OAuth token...")
                 creds.refresh(Request())
+                logger.info("✅ OAuth token refreshed successfully")
             else:
                 if not credentials_file.exists():
-                    print("Error: credentials.json not found!")
-                    print("Please follow setup instructions in README.md")
+                    logger.error("=" * 60)
+                    logger.error("❌ credentials.json not found!")
+                    logger.error(f"Expected location: {credentials_file}")
+                    logger.error("Action required: Follow setup instructions in README.md")
+                    logger.error("=" * 60)
                     return False
 
+                logger.info("Starting OAuth flow (browser will open)...")
                 flow = InstalledAppFlow.from_client_secrets_file(
                     str(credentials_file), SCOPES)
                 creds = flow.run_local_server(port=0)
+                logger.info("✅ OAuth flow completed")
 
             # Save credentials
             with open(token_file, 'w') as token:
                 token.write(creds.to_json())
+            logger.debug("Credentials saved to token file")
 
         self.service = build('gmail', 'v1', credentials=creds)
+        logger.info("✅ Gmail authentication successful")
         return True
 
     def _slugify(self, text: str, max_length: int = 50) -> str:
@@ -479,7 +519,11 @@ class EmailSyncer:
     def sync_emails(self, dry_run: bool = False) -> Dict[str, int]:
         """Sync emails from Gmail to local folders."""
         if not self.service:
+            logger.error("Not authenticated - service is None")
             raise RuntimeError("Not authenticated. Call authenticate() first.")
+
+        logger.info("📥 Starting email sync...")
+        logger.info(f"Mode: {'DRY RUN' if dry_run else 'LIVE'}")
 
         stats = {
             'total_processed': 0,
@@ -489,12 +533,16 @@ class EmailSyncer:
         }
 
         # Process each client label
-        for gmail_label, client_folder in self.config['client_labels'].items():
-            print(f"\nProcessing label: {gmail_label} → {client_folder}")
+        total_labels = len(self.config['client_labels'])
+        for idx, (gmail_label, client_folder) in enumerate(self.config['client_labels'].items(), 1):
+            logger.info("")
+            logger.info(f"Processing label {idx}/{total_labels}: {gmail_label} → {client_folder}")
 
             try:
                 # Search for emails with this label
                 query = f"label:{gmail_label}"
+                logger.debug(f"Gmail query: {query}")
+
                 results = self.service.users().messages().list(
                     userId='me',
                     q=query,
@@ -504,18 +552,19 @@ class EmailSyncer:
                 messages = results.get('messages', [])
 
                 if not messages:
-                    print(f"  No emails found")
+                    logger.info("  No emails found")
                     continue
 
-                print(f"  Found {len(messages)} emails")
+                logger.info(f"  Found {len(messages)} emails")
 
                 for msg_ref in messages:
                     msg_id = msg_ref['id']
                     stats['total_processed'] += 1
 
-                    # Skip if already synced
+                    # Skip if already synced (decision point logging)
                     if msg_id in self.synced_ids:
                         stats['already_synced'] += 1
+                        logger.debug(f"  ⏭️  Skipping {msg_id} (already synced)")
                         continue
 
                     # Fetch full message
@@ -534,9 +583,10 @@ class EmailSyncer:
                         try:
                             email_date = parsedate_to_datetime(date_str)
                         except:
+                            logger.warning(f"  ⚠️  Could not parse date: {date_str}, using current time")
                             email_date = datetime.now()
 
-                        print(f"  ✓ {subject[:50]}... ({email_date.strftime('%Y-%m-%d')})")
+                        logger.info(f"  ✓ {subject[:50]}... ({email_date.strftime('%Y-%m-%d')})")
 
                         if not dry_run:
                             # Convert to markdown with attachments
@@ -551,19 +601,24 @@ class EmailSyncer:
                                 self.synced_ids.add(msg_id)
                                 stats['newly_synced'] += 1
                             else:
+                                logger.error(f"  ✗ Failed to save email: {subject[:50]}")
                                 stats['errors'] += 1
                         else:
                             stats['newly_synced'] += 1
 
                     except Exception as e:
-                        print(f"  ✗ Error processing message {msg_id}: {e}")
+                        logger.error(f"  ✗ Error processing message {msg_id}: {e}")
+                        logger.debug(f"  Subject: {subject if 'subject' in locals() else 'Unknown'}")
                         stats['errors'] += 1
 
             except Exception as e:
-                print(f"  ✗ Error querying label {gmail_label}: {e}")
+                logger.error(f"  ✗ Error querying label {gmail_label}: {e}")
+                logger.error(f"  Label: {gmail_label}, Folder: {client_folder}")
                 stats['errors'] += 1
 
         # Sync sent emails
+        logger.info("")
+        logger.info("📤 Processing sent emails...")
         sent_stats = self.sync_sent_emails(dry_run)
         stats['total_processed'] += sent_stats['total_processed']
         stats['newly_synced'] += sent_stats['newly_synced']
@@ -572,7 +627,9 @@ class EmailSyncer:
 
         # Save state
         if not dry_run:
+            logger.info("💾 Saving sync state...")
             self._save_state()
+            logger.debug(f"State saved: {len(self.synced_ids)} total synced emails")
 
         return stats
 
@@ -589,42 +646,92 @@ def main():
 
     args = parser.parse_args()
 
-    print("=" * 60)
-    print("Pete's Brain - Email Sync")
-    print("=" * 60)
-
-    if args.dry_run:
-        print("\n🔍 DRY RUN MODE - No files will be saved\n")
+    # LOG 1/5: START - Entry log
+    logger.info("=" * 60)
+    logger.info("🚀 Starting Email Sync")
+    logger.info(f"📅 Execution time: {datetime.now():%Y-%m-%d %H:%M:%S}")
+    logger.info(f"Mode: {'DRY RUN' if args.dry_run else 'LIVE SYNC'}")
+    logger.info(f"Config: {args.config}")
+    logger.info("=" * 60)
 
     try:
-        # Initialize syncer
+        # LOG 2/5: DATA COLLECTION - Initialize and authenticate
+        logger.info("")
+        logger.info("📋 Initializing email syncer...")
         syncer = EmailSyncer(args.config)
+        logger.info(f"Base directory: {syncer.base_dir}")
+        logger.info(f"Client labels: {len(syncer.config['client_labels'])} configured")
 
         # Authenticate
-        print("\n📧 Authenticating with Gmail...")
         if not syncer.authenticate():
+            logger.error("=" * 60)
+            logger.error("❌ Email Sync Failed - Authentication Error")
+            logger.error("=" * 60)
             sys.exit(1)
-        print("✓ Authentication successful\n")
 
-        # Sync emails
-        print("🔄 Starting email sync...\n")
+        # LOG 3/5: PROCESSING - Sync emails
+        logger.info("")
         stats = syncer.sync_emails(dry_run=args.dry_run)
 
-        # Print summary
-        print("\n" + "=" * 60)
-        print("Sync Complete!")
-        print("=" * 60)
-        print(f"Total emails processed: {stats['total_processed']}")
-        print(f"Newly synced: {stats['newly_synced']}")
-        print(f"Already synced: {stats['already_synced']}")
-        print(f"Errors: {stats['errors']}")
-        print("=" * 60)
+        # LOG 4/5: OUTPUT - Summary
+        logger.info("")
+        logger.info("📊 Sync Statistics:")
+        logger.info(f"  - Total processed: {stats['total_processed']}")
+        logger.info(f"  - Newly synced: {stats['newly_synced']}")
+        logger.info(f"  - Already synced: {stats['already_synced']}")
+        logger.info(f"  - Errors: {stats['errors']}")
+
+        # LOG 5/5: END - Success log
+        logger.info("")
+        logger.info("=" * 60)
+        logger.info("✅ Email Sync Completed Successfully")
+        logger.info(f"  - New emails: {stats['newly_synced']}")
+        logger.info(f"  - Errors: {stats['errors']}")
+        logger.info(f"  - Mode: {'DRY RUN' if args.dry_run else 'LIVE'}")
+        logger.info("=" * 60)
+
+        return 0
 
     except KeyboardInterrupt:
-        print("\n\n❌ Sync cancelled by user")
+        logger.warning("")
+        logger.warning("=" * 60)
+        logger.warning("⏸️  Email Sync Cancelled by User")
+        logger.warning("=" * 60)
         sys.exit(1)
+
     except Exception as e:
-        print(f"\n\n❌ Error: {e}")
+        # Error context logging - full debugging package
+        logger.error("")
+        logger.error("=" * 60)
+        logger.error("❌ Email Sync Failed - Unexpected Error")
+        logger.error("=" * 60)
+        logger.error("1. Operation Context:")
+        logger.error(f"   - Function: main()")
+        logger.error(f"   - Config: {args.config}")
+        logger.error(f"   - Mode: {'DRY RUN' if args.dry_run else 'LIVE'}")
+
+        logger.error("2. Error Details:")
+        logger.error(f"   - Type: {type(e).__name__}")
+        logger.error(f"   - Message: {str(e)}")
+
+        logger.error("3. Possible Causes:")
+        if "credentials" in str(e).lower() or "auth" in str(e).lower():
+            logger.error("   - OAuth token may be expired")
+            logger.error("   - Action: Run oauth-refresh skill")
+        elif "config" in str(e).lower() or "file not found" in str(e).lower():
+            logger.error("   - Configuration file issue")
+            logger.error("   - Action: Check config.yaml exists")
+        elif "permission" in str(e).lower():
+            logger.error("   - File permission issue")
+            logger.error("   - Action: Check write permissions to base directory")
+        else:
+            logger.error("   - Unknown error")
+            logger.error("   - Action: Check error message and stack trace")
+
+        logger.error("=" * 60)
+        logger.exception("Full stack trace:")  # Logs full traceback
+        logger.error("=" * 60)
+
         sys.exit(1)
 
 

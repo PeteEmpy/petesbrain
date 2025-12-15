@@ -9,18 +9,18 @@ SPREADSHEET_ID = '189nkILOXt5qbIO5dO-MQsU1pB_mGLoDHTWmAJlPkHLo'
 REGIONS = {
     'USA': {
         'sheet_range': 'USA!A2:Z100',
-        'current_state_file': '/Users/administrator/Documents/PetesBrain/clients/smythson/data/usa_rsa_current_state.json',
-        'output_file': '/Users/administrator/Documents/PetesBrain/clients/smythson/data/usa_rsa_updates_full.json'
+        'current_state_file': '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/usa_rsa_current_state.json',
+        'output_file': '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/usa_rsa_updates_full.json'
     },
     'EUR': {
         'sheet_range': 'EUR!A2:Z100',
-        'current_state_file': '/Users/administrator/Documents/PetesBrain/clients/smythson/data/eur_rsa_current_state.json',
-        'output_file': '/Users/administrator/Documents/PetesBrain/clients/smythson/data/eur_rsa_updates_full.json'
+        'current_state_file': '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/eur_rsa_current_state.json',
+        'output_file': '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/eur_rsa_updates_full.json'
     },
     'ROW': {
         'sheet_range': 'ROW!A2:Z100',
-        'current_state_file': '/Users/administrator/Documents/PetesBrain/clients/smythson/data/row_rsa_current_state.json',
-        'output_file': '/Users/administrator/Documents/PetesBrain/clients/smythson/data/row_rsa_updates_full.json'
+        'current_state_file': '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/row_rsa_current_state.json',
+        'output_file': '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/row_rsa_updates_full.json'
     }
 }
 

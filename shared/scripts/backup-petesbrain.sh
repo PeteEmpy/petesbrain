@@ -8,7 +8,7 @@
 set -e  # Exit on error
 
 # Configuration
-PROJECT_DIR="/Users/administrator/Documents/PetesBrain"
+PROJECT_DIR="/Users/administrator/Documents/PetesBrain.nosync"
 LOCAL_BACKUP_DIR="/Users/administrator/Documents"
 ICLOUD_BACKUP_DIR="$HOME/Library/Mobile Documents/com~apple~CloudDocs/PetesBrain-Backups"
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)

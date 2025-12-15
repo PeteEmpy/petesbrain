@@ -1,0 +1,578 @@
+{
+  "timestamp": "2025-12-14_evening",
+  "deployment_date": "Monday 15th December 2025",
+  "strategy": "Simple Plan - Phase 1: All regions +50% increases",
+  "deployment_period": "Dec 15-28, 2025",
+  "manager_id": "2569949686",
+  "accounts": {
+    "7679616761": {
+      "account_name": "EUR",
+      "total_current_daily": "£787.00",
+      "total_new_daily": "£1,180.50",
+      "total_increase": "£393.50",
+      "campaigns": {
+        "23257901431": {
+          "name": "SMY | EUR | IT | P Max | Diaries",
+          "budget_id": "15134675617",
+          "current_budget_gbp": 50.00,
+          "current_budget_micros": 50000000,
+          "new_budget_gbp": 75.00,
+          "new_budget_micros": 75000000,
+          "increase_pct": 50
+        },
+        "23253394509": {
+          "name": "SMY | EUR | P Max | Christmas Gifting",
+          "budget_id": "15134675031",
+          "current_budget_gbp": 90.00,
+          "current_budget_micros": 90000000,
+          "new_budget_gbp": 135.00,
+          "new_budget_micros": 135000000,
+          "increase_pct": 50
+        },
+        "23292938044": {
+          "name": "SMY | EUR | CH | Search | Brand Ai",
+          "budget_id": "15161693768",
+          "current_budget_gbp": 30.00,
+          "current_budget_micros": 30000000,
+          "new_budget_gbp": 45.00,
+          "new_budget_micros": 45000000,
+          "increase_pct": 50
+        },
+        "23257639561": {
+          "name": "SMY | EUR | DE | P Max | Christmas Gifting",
+          "budget_id": "15134674263",
+          "current_budget_gbp": 16.00,
+          "current_budget_micros": 16000000,
+          "new_budget_gbp": 24.00,
+          "new_budget_micros": 24000000,
+          "increase_pct": 50
+        },
+        "23257761115": {
+          "name": "SMY | EUR | DE | P Max | Diaries",
+          "budget_id": "15134675205",
+          "current_budget_gbp": 40.00,
+          "current_budget_micros": 40000000,
+          "new_budget_gbp": 60.00,
+          "new_budget_micros": 60000000,
+          "increase_pct": 50
+        },
+        "691020848": {
+          "name": "SMY | EUR | DE | Search | Brand Ai",
+          "budget_id": "1693293924",
+          "current_budget_gbp": 79.00,
+          "current_budget_micros": 79000000,
+          "new_budget_gbp": 118.50,
+          "new_budget_micros": 118500000,
+          "increase_pct": 50
+        },
+        "22428317962": {
+          "name": "SMY | EUR | DE | Search | Brand Max Conv Value",
+          "budget_id": "14467064419",
+          "current_budget_gbp": 79.00,
+          "current_budget_micros": 79000000,
+          "new_budget_gbp": 118.50,
+          "new_budget_micros": 118500000,
+          "increase_pct": 50
+        },
+        "23237208923": {
+          "name": "SMY | EUR | DE | Search | Competitor | Ai",
+          "budget_id": "15114773693",
+          "current_budget_gbp": 11.00,
+          "current_budget_micros": 11000000,
+          "new_budget_gbp": 16.50,
+          "new_budget_micros": 16500000,
+          "increase_pct": 50
+        },
+        "21512797638": {
+          "name": "SMY | EUR | DE | Shopping",
+          "budget_id": "13750754882",
+          "current_budget_gbp": 29.00,
+          "current_budget_micros": 29000000,
+          "new_budget_gbp": 43.50,
+          "new_budget_micros": 43500000,
+          "increase_pct": 50
+        },
+        "23248988334": {
+          "name": "SMY | EUR | FR | P Max | Christmas Gifting",
+          "budget_id": "15126675606",
+          "current_budget_gbp": 66.00,
+          "current_budget_micros": 66000000,
+          "new_budget_gbp": 99.00,
+          "new_budget_micros": 99000000,
+          "increase_pct": 50
+        },
+        "691020884": {
+          "name": "SMY | EUR | FR | Search | Brand Ai",
+          "budget_id": "1693293960",
+          "current_budget_gbp": 50.00,
+          "current_budget_micros": 50000000,
+          "new_budget_gbp": 75.00,
+          "new_budget_micros": 75000000,
+          "increase_pct": 50
+        },
+        "23253230592": {
+          "name": "SMY | EUR | IT | P Max | Christmas Gifting",
+          "budget_id": "15134674673",
+          "current_budget_gbp": 20.00,
+          "current_budget_micros": 20000000,
+          "new_budget_gbp": 30.00,
+          "new_budget_micros": 30000000,
+          "increase_pct": 50
+        },
+        "1599767262": {
+          "name": "SMY | EUR | IT | Search Brand Ai",
+          "budget_id": "1711970218",
+          "current_budget_gbp": 110.00,
+          "current_budget_micros": 110000000,
+          "new_budget_gbp": 165.00,
+          "new_budget_micros": 165000000,
+          "increase_pct": 50
+        },
+        "22440993281": {
+          "name": "SMY | EUR | ROEuro | Search | Brand Ai",
+          "budget_id": "14489155324",
+          "current_budget_gbp": 153.00,
+          "current_budget_micros": 153000000,
+          "new_budget_gbp": 229.50,
+          "new_budget_micros": 229500000,
+          "increase_pct": 50
+        },
+        "22433660961": {
+          "name": "SMY | EUR | Search | Brand ES+PT | Ai",
+          "budget_id": "14485065127",
+          "current_budget_gbp": 64.00,
+          "current_budget_micros": 64000000,
+          "new_budget_gbp": 96.00,
+          "new_budget_micros": 96000000,
+          "increase_pct": 50
+        }
+      }
+    },
+    "7808690871": {
+      "account_name": "USA",
+      "total_current_daily": "£1,946.00",
+      "total_new_daily": "£2,919.00",
+      "total_increase": "£973.00",
+      "note": "Some campaigns share budgets - actual daily total may differ from sum of individual campaigns",
+      "campaigns": {
+        "22796857828": {
+          "name": "SMY | US | P Max | Bags",
+          "budget_id": "14764145494",
+          "current_budget_gbp": 104.00,
+          "current_budget_micros": 104000000,
+          "new_budget_gbp": 156.00,
+          "new_budget_micros": 156000000,
+          "increase_pct": 50
+        },
+        "23210838865": {
+          "name": "SMY | US | P Max | Diaries",
+          "budget_id": "15095915233",
+          "current_budget_gbp": 150.00,
+          "current_budget_micros": 150000000,
+          "new_budget_gbp": 225.00,
+          "new_budget_micros": 225000000,
+          "increase_pct": 50
+        },
+        "18037696979": {
+          "name": "SMY | US | P Max | H&S",
+          "budget_id": "11405146786",
+          "current_budget_gbp": 250.00,
+          "current_budget_micros": 250000000,
+          "new_budget_gbp": 375.00,
+          "new_budget_micros": 375000000,
+          "increase_pct": 50
+        },
+        "23232558954": {
+          "name": "SMY | US | P Max | H&S Christmas Gifting",
+          "budget_id": "15118117815",
+          "current_budget_gbp": 187.00,
+          "current_budget_micros": 187000000,
+          "new_budget_gbp": 280.50,
+          "new_budget_micros": 280500000,
+          "increase_pct": 50
+        },
+        "22546298306": {
+          "name": "SMY | US | PMax | Zombies",
+          "budget_id": "14551157402",
+          "current_budget_gbp": 100.00,
+          "current_budget_micros": 100000000,
+          "new_budget_gbp": 150.00,
+          "new_budget_micros": 150000000,
+          "increase_pct": 50
+        },
+        "1683494533": {
+          "name": "SMY | US | Search | Brand Exact",
+          "budget_id": "11422372952",
+          "shared_budget": true,
+          "current_budget_gbp": 561.00,
+          "current_budget_micros": 561000000,
+          "new_budget_gbp": 841.50,
+          "new_budget_micros": 841500000,
+          "increase_pct": 50,
+          "note": "Shared budget - affects Brand Exact, brand test to reduce cpc, brand test £0.50, Landing Page Test, Max Conv Value Test"
+        },
+        "1602584781": {
+          "name": "SMY | US | Search | Brand Plus",
+          "budget_id": "12929893890",
+          "current_budget_gbp": 90.00,
+          "current_budget_micros": 90000000,
+          "new_budget_gbp": 135.00,
+          "new_budget_micros": 135000000,
+          "increase_pct": 50
+        },
+        "23012390791": {
+          "name": "SMY | US | Search | Brand Plus Diaries",
+          "budget_id": "14919994754",
+          "current_budget_gbp": 114.00,
+          "current_budget_micros": 114000000,
+          "new_budget_gbp": 171.00,
+          "new_budget_micros": 171000000,
+          "increase_pct": 50
+        },
+        "1602585081": {
+          "name": "SMY | US | Search | Brand | Leather Accessories",
+          "budget_id": "13390322534",
+          "current_budget_gbp": 52.00,
+          "current_budget_micros": 52000000,
+          "new_budget_gbp": 78.00,
+          "new_budget_micros": 78000000,
+          "increase_pct": 50
+        },
+        "1602584829": {
+          "name": "SMY | US | Search | Brand | Stationery",
+          "budget_id": "13343381269",
+          "current_budget_gbp": 30.00,
+          "current_budget_micros": 30000000,
+          "new_budget_gbp": 45.00,
+          "new_budget_micros": 45000000,
+          "increase_pct": 50
+        },
+        "11189913808": {
+          "name": "Target CPA Experiment - USA - brand - misspellings",
+          "budget_id": "1659506859",
+          "current_budget_gbp": 36.00,
+          "current_budget_micros": 36000000,
+          "new_budget_gbp": 54.00,
+          "new_budget_micros": 54000000,
+          "increase_pct": 50
+        },
+        "1734759773": {
+          "name": "USA - brand - core [EX]",
+          "budget_id": "1736951227",
+          "current_budget_gbp": 52.00,
+          "current_budget_micros": 52000000,
+          "new_budget_gbp": 78.00,
+          "new_budget_micros": 78000000,
+          "increase_pct": 50
+        },
+        "19222158192": {
+          "name": "USA - brand - locations USA - Brand locations - Max con value w CPC cap £0.50",
+          "budget_id": "11971109509",
+          "current_budget_gbp": 200.00,
+          "current_budget_micros": 200000000,
+          "new_budget_gbp": 300.00,
+          "new_budget_micros": 300000000,
+          "increase_pct": 50
+        },
+        "19228455571": {
+          "name": "USA - brand - misspellings USA - Brand - Max con value w CPC cap £0.50",
+          "budget_id": "11425294476",
+          "current_budget_gbp": 20.00,
+          "current_budget_micros": 20000000,
+          "new_budget_gbp": 30.00,
+          "new_budget_micros": 30000000,
+          "increase_pct": 50
+        }
+      }
+    },
+    "8573235780": {
+      "account_name": "UK",
+      "total_current_daily": "£3,101.00",
+      "total_new_daily": "£4,651.50",
+      "total_increase": "£1,550.50",
+      "note": "Includes campaigns affected by Dec 11 reallocation - will be reversed Thursday Dec 18",
+      "campaigns": {
+        "23194794411": {
+          "name": "SMY | UK | P Max | Diaries",
+          "budget_id": "15088625616",
+          "current_budget_gbp": 264.00,
+          "current_budget_micros": 264000000,
+          "new_budget_gbp": 396.00,
+          "new_budget_micros": 396000000,
+          "increase_pct": 50
+        },
+        "22845468179": {
+          "name": "SMY | UK | P Max | H&S",
+          "budget_id": "14725890813",
+          "current_budget_gbp": 250.00,
+          "current_budget_micros": 250000000,
+          "new_budget_gbp": 375.00,
+          "new_budget_micros": 375000000,
+          "increase_pct": 50,
+          "affected_by_dec_11_reallocation": true,
+          "will_revert_dec_18_to": 450.00
+        },
+        "23021472678": {
+          "name": "SMY | UK | P Max | H&S - Men's Briefcases",
+          "budget_id": "14936434754",
+          "current_budget_gbp": 143.00,
+          "current_budget_micros": 143000000,
+          "new_budget_gbp": 214.50,
+          "new_budget_micros": 214500000,
+          "increase_pct": 50,
+          "affected_by_dec_11_reallocation": true,
+          "will_revert_dec_18_to": 179.00
+        },
+        "23233714033": {
+          "name": "SMY | UK | P Max | H&S Christmas Gifting",
+          "budget_id": "15118652001",
+          "current_budget_gbp": 231.00,
+          "current_budget_micros": 231000000,
+          "new_budget_gbp": 346.50,
+          "new_budget_micros": 346500000,
+          "increase_pct": 50,
+          "affected_by_dec_11_reallocation": true,
+          "will_revert_dec_18_to": 243.00
+        },
+        "13811031042": {
+          "name": "SMY | UK | Search | Brand Exact",
+          "budget_id": "8971023857",
+          "current_budget_gbp": 860.00,
+          "current_budget_micros": 860000000,
+          "new_budget_gbp": 1290.00,
+          "new_budget_micros": 1290000000,
+          "increase_pct": 50
+        },
+        "13813052579": {
+          "name": "SMY | UK | Search | Brand Plus",
+          "budget_id": "8971024039",
+          "current_budget_gbp": 50.00,
+          "current_budget_micros": 50000000,
+          "new_budget_gbp": 75.00,
+          "new_budget_micros": 75000000,
+          "increase_pct": 50,
+          "affected_by_dec_11_reallocation": true,
+          "will_revert_dec_18_to": 100.00
+        },
+        "13813053110": {
+          "name": "SMY | UK | Search | Brand Stationery",
+          "budget_id": "8971024375",
+          "current_budget_gbp": 32.00,
+          "current_budget_micros": 32000000,
+          "new_budget_gbp": 48.00,
+          "new_budget_micros": 48000000,
+          "increase_pct": 50,
+          "affected_by_dec_11_reallocation": true,
+          "will_revert_dec_18_to": 91.00
+        },
+        "23215754148": {
+          "name": "SMY | UK | Search | Competitor | Ai",
+          "budget_id": "15103654059",
+          "current_budget_gbp": 20.00,
+          "current_budget_micros": 20000000,
+          "new_budget_gbp": 30.00,
+          "new_budget_micros": 30000000,
+          "increase_pct": 50
+        },
+        "23074901902": {
+          "name": "SMY | UK | Search | Generic | Ai",
+          "budget_id": "14989352959",
+          "current_budget_gbp": 10.00,
+          "current_budget_micros": 10000000,
+          "new_budget_gbp": 15.00,
+          "new_budget_micros": 15000000,
+          "increase_pct": 50
+        },
+        "13810745002": {
+          "name": "SMY | UK | Search | Semi Brand - Diaries",
+          "budget_id": "8971022865",
+          "current_budget_gbp": 250.00,
+          "current_budget_micros": 250000000,
+          "new_budget_gbp": 375.00,
+          "new_budget_micros": 375000000,
+          "increase_pct": 50
+        },
+        "23024172933": {
+          "name": "SMY | UK | Search | Semi Brand - Leather",
+          "budget_id": "14938542175",
+          "current_budget_gbp": 62.00,
+          "current_budget_micros": 62000000,
+          "new_budget_gbp": 93.00,
+          "new_budget_micros": 93000000,
+          "increase_pct": 50
+        },
+        "18073698393": {
+          "name": "SMY | UK | Shopping | Brand | Fashion",
+          "budget_id": "11427695878",
+          "current_budget_gbp": 45.00,
+          "current_budget_micros": 45000000,
+          "new_budget_gbp": 67.50,
+          "new_budget_micros": 67500000,
+          "increase_pct": 50
+        },
+        "11180551728": {
+          "name": "SMY | UK | Shopping | Brand | Stationery",
+          "budget_id": "7249862016",
+          "current_budget_gbp": 75.00,
+          "current_budget_micros": 75000000,
+          "new_budget_gbp": 112.50,
+          "new_budget_micros": 112500000,
+          "increase_pct": 50
+        },
+        "18151066313": {
+          "name": "SMY | UK | Shopping | Generic | Fashion High Priority - Max Conv Value",
+          "budget_id": "11463479378",
+          "current_budget_gbp": 450.00,
+          "current_budget_micros": 450000000,
+          "new_budget_gbp": 675.00,
+          "new_budget_micros": 675000000,
+          "increase_pct": 50
+        },
+        "18073698513": {
+          "name": "SMY | UK | Shopping | Generic | High Value | Stationery",
+          "budget_id": "11427696170",
+          "current_budget_gbp": 75.00,
+          "current_budget_micros": 75000000,
+          "new_budget_gbp": 112.50,
+          "new_budget_micros": 112500000,
+          "increase_pct": 50
+        },
+        "18195085913": {
+          "name": "SMY | UK | Shopping | Generic | Medium Value | Stationery & Fashion",
+          "budget_id": "11491994946",
+          "current_budget_gbp": 284.00,
+          "current_budget_micros": 284000000,
+          "new_budget_gbp": 426.00,
+          "new_budget_micros": 426000000,
+          "increase_pct": 50
+        }
+      }
+    },
+    "5556710725": {
+      "account_name": "ROW",
+      "total_current_daily": "£325.00",
+      "total_new_daily": "£487.50",
+      "total_increase": "£162.50",
+      "campaigns": {
+        "6551615752": {
+          "name": "SMY | ROW | AUS | Search | Brand Ai",
+          "budget_id": "11370644814",
+          "shared_budget": true,
+          "current_budget_gbp": 40.00,
+          "current_budget_micros": 40000000,
+          "new_budget_gbp": 60.00,
+          "new_budget_micros": 60000000,
+          "increase_pct": 50,
+          "note": "Shared with AUS brand test"
+        },
+        "19227775840": {
+          "name": "ROW - CA - brand CA - brand test to reduce cpc",
+          "budget_id": "11370644370",
+          "current_budget_gbp": 2.50,
+          "current_budget_micros": 2500000,
+          "new_budget_gbp": 3.75,
+          "new_budget_micros": 3750000,
+          "increase_pct": 50
+        },
+        "19229009186": {
+          "name": "ROW - HK - brand HK - brand test to reduce cpc",
+          "budget_id": "11365331684",
+          "current_budget_gbp": 2.50,
+          "current_budget_micros": 2500000,
+          "new_budget_gbp": 3.75,
+          "new_budget_micros": 3750000,
+          "increase_pct": 50
+        },
+        "19221315960": {
+          "name": "ROW - MEX - brand MEX - brand test to reduce cpc",
+          "budget_id": "11370644109",
+          "current_budget_gbp": 2.50,
+          "current_budget_micros": 2500000,
+          "new_budget_gbp": 3.75,
+          "new_budget_micros": 3750000,
+          "increase_pct": 50
+        },
+        "19229034938": {
+          "name": "ROW - SG - brand SG - brand test to reduce cpc",
+          "budget_id": "11376421816",
+          "current_budget_gbp": 2.50,
+          "current_budget_micros": 2500000,
+          "new_budget_gbp": 3.75,
+          "new_budget_micros": 3750000,
+          "increase_pct": 50
+        },
+        "19175921934": {
+          "name": "ROW - brand test to reduce cpc",
+          "budget_id": "11376425032",
+          "current_budget_gbp": 52.00,
+          "current_budget_micros": 52000000,
+          "new_budget_gbp": 78.00,
+          "new_budget_micros": 78000000,
+          "increase_pct": 50
+        },
+        "23258454848": {
+          "name": "SMY | ROW | P Max | Christmas Gifting",
+          "budget_id": "15134692206",
+          "current_budget_gbp": 100.00,
+          "current_budget_micros": 100000000,
+          "new_budget_gbp": 150.00,
+          "new_budget_micros": 150000000,
+          "increase_pct": 50
+        },
+        "23253385815": {
+          "name": "SMY | ROW | P Max | Diaries",
+          "budget_id": "15134691735",
+          "current_budget_gbp": 5.00,
+          "current_budget_micros": 5000000,
+          "new_budget_gbp": 7.50,
+          "new_budget_micros": 7500000,
+          "increase_pct": 50
+        },
+        "22503794801": {
+          "name": "SMY | ROW | Search | Brand Ai",
+          "budget_id": "14528371083",
+          "current_budget_gbp": 100.00,
+          "current_budget_micros": 100000000,
+          "new_budget_gbp": 150.00,
+          "new_budget_micros": 150000000,
+          "increase_pct": 50
+        },
+        "6552020619": {
+          "name": "SMY | ROW | Search | Brand Diaries and Organisers",
+          "budget_id": "12929903025",
+          "current_budget_gbp": 15.00,
+          "current_budget_micros": 15000000,
+          "new_budget_gbp": 22.50,
+          "new_budget_micros": 22500000,
+          "increase_pct": 50
+        },
+        "23241919876": {
+          "name": "SMY | ROW | Search | Competitor | Ai",
+          "budget_id": "15122745964",
+          "current_budget_gbp": 3.00,
+          "current_budget_micros": 3000000,
+          "new_budget_gbp": 4.50,
+          "new_budget_micros": 4500000,
+          "increase_pct": 50
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_current_daily_all_accounts": "£6,159.00",
+    "total_new_daily_all_accounts": "£9,238.50",
+    "total_daily_increase": "£3,079.50",
+    "deployment_window_dec_15_21": {
+      "days": 7,
+      "projected_spend": "£64,669.50",
+      "note": "Full deployment Dec 15-21 before regional last order dates"
+    }
+  },
+  "critical_notes": [
+    "This is a 50% increase across all campaigns for Monday Dec 15 deployment",
+    "UK campaigns affected by Dec 11 reallocation will be REVERSED Thursday Dec 18 morning",
+    "After reversal, UK budgets will be different from the new budgets set here",
+    "All campaigns remain active throughout P9 period (Dec 15-28)",
+    "Sale launch: Wednesday Dec 24"
+  ]
+}

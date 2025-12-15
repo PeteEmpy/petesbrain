@@ -1,0 +1,177 @@
+{
+  "date": "2025-12-15",
+  "client": "BMPM",
+  "comparison_date": "2025-12-14",
+  "total_products_today": 6642,
+  "total_products_yesterday": 6642,
+  "summary": {
+    "changed_products": 2,
+    "price_changes": 2,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 1,
+    "description_changes": 0,
+    "image_changes": 1,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "BMPM841605V437676",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (40cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "28.50 GBP",
+          "31.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444879",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444903"
+        ],
+        "mpn": [
+          "FGCUS601(FIB-STA)(S40)PSV-WHI(RCO-INN-Z)",
+          "FGCUS601(FIB+100)(S40)PSV-WHI(RCO-INN-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "19.50 GBP",
+          "10.00 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(S40)PWR-003",
+          "FGCUS600(FIB-STA)(C15)PWR-003"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "BMPM841605V437676",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (40cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "28.50 GBP",
+          "31.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444879",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444903"
+        ],
+        "mpn": [
+          "FGCUS601(FIB-STA)(S40)PSV-WHI(RCO-INN-Z)",
+          "FGCUS601(FIB+100)(S40)PSV-WHI(RCO-INN-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "19.50 GBP",
+          "10.00 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(S40)PWR-003",
+          "FGCUS600(FIB-STA)(C15)PWR-003"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "19.50 GBP",
+          "10.00 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(S40)PWR-003",
+          "FGCUS600(FIB-STA)(C15)PWR-003"
+        ]
+      }
+    }
+  ],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "19.50 GBP",
+          "10.00 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(S40)PWR-003",
+          "FGCUS600(FIB-STA)(C15)PWR-003"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

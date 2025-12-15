@@ -1,0 +1,860 @@
+{
+  "date": "2025-12-14",
+  "client": "Smythson UK",
+  "comparison_date": "2025-12-13",
+  "total_products_today": 1399,
+  "total_products_yesterday": 1400,
+  "summary": {
+    "changed_products": 30,
+    "price_changes": 1,
+    "sale_price_changes": 0,
+    "availability_changes": 10,
+    "title_changes": 0,
+    "description_changes": 6,
+    "image_changes": 0,
+    "item_group_changes": 6,
+    "shipping_changes": 0,
+    "label_changes": 16,
+    "new_products": 0,
+    "removed_products": 1
+  },
+  "changed_products": [
+    {
+      "product_id": "1202605",
+      "title": "Smythson Luggage Tag In Panama In Forest",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204625",
+      "title": "Smythson 2026 Panama Weekly Diary With Pocket In Lilac",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1200951",
+      "title": "Smythson Astuccio Per Occhiali Da Vista In Pelle Panama - Navy",
+      "changes": {
+        "description": [
+          "Astuccio per occhiali in pelle di vitello crossgrain nera Interno in pelle scamosciata blu navy Dimensioni: L 8 x H 16 cm / L 3 x H 6\"",
+          "Astuccio per occhiali in pelle di vitello crossgrain blu navy Interno in pelle scamosciata rosso veneziano Dimensioni: L 8 x H 16 cm / L 3 x H 6\""
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1004294",
+      "title": "Smythson A5 Spiral Bound Notebook Refill Pad: Pale Blue Ruled Featherweight Paper, 75 Sheets, 85gsm, Silver Binding, W15 x H21cm, Made in England",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204719",
+      "title": "Smythson 2026 Royal Court Daily Diary In Navy",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204606",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara In Navy",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Cerulean Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Grosgrain lined  Made in England  Dimensions: W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204603"
+        ]
+      }
+    },
+    {
+      "product_id": "1200563",
+      "title": "Smythson Flat Card Holder In Panama In Scarlet Red",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204610",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara In Sandstone",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Cerulean Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Grosgrain lined  Made in England  Dimensions: W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204603"
+        ]
+      }
+    },
+    {
+      "product_id": "1203120",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Waldgr\u00fcn",
+      "changes": {
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "custom_label_0": [
+          "Low AOV",
+          "Jewellery Boxes"
+        ],
+        "custom_label_4": [
+          "sale",
+          "Gifts for Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1201676",
+      "title": "Smythson Marshall Travel Wallet In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1201993",
+      "title": "Smythson Zip Crossbody Bag in Ludlow",
+      "changes": {
+        "price": [
+          "625.00 GBP",
+          "695.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204686",
+      "title": "Smythson Agenda Soho 2026 Avec Une Page Par Jour En Panama - Bleu Marine",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1200950",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1204637",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Black",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204903",
+      "title": "Smythson \u00c9tui \u00c0 Lunettes Optiques En Motif L\u00e9opard Panama",
+      "changes": {
+        "description": [
+          "\u00c9tui pour lunettes en cuir de veau textur\u00e9 noir Int\u00e9rieur bleu marine en daim Dimensions\u00a0: l 8 x H 16\u00a0cm / l 3 x H 6 pouces Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant",
+          "\u00c9tui pour lunettes en cuir de veau textur\u00e9 bleu marine Int\u00e9rieur en daim rouge v\u00e9nitien Dimensions\u00a0: l 8 x H 16\u00a0cm / l 3 x H 6 pouces  Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1031639",
+      "title": "Smythson Collector's Chess Set in Panama",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205090",
+      "title": "2026 Desktop Calendar Refills",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "custom_label_4": [
+          "sale",
+          "Gifts for Him & Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1204672",
+      "title": "Smythson 2026 Sporting Weekly Diary In Panama In Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1020534",
+      "title": "Smythson Jewellery Box with Travel Tray in Mara",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205631",
+      "title": "Smythson 2026 Soho Weekly Journal In Panama In Purple",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204096",
+      "title": "Smythson Passport Cover In Panama In Stars Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204934",
+      "title": "Playing Cards Twin Pack",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204314",
+      "title": "Smythson Flat Travel Organizer Pouch In Ludlow In Black",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204725",
+      "title": "Smythson Quaderno Soho Con Cani In Panama - Petrol",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "custom_label_4": [
+          "",
+          "Gifts for Him & Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1204226",
+      "title": "Smythson Zip Crossbody Bag In Ludlow In Black",
+      "changes": {
+        "custom_label_4": [
+          "sale",
+          "Gifts for Him"
+        ]
+      }
+    },
+    {
+      "product_id": "1204048",
+      "title": "Smythson Pavilion Kingly Tote Bag In Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1203797",
+      "title": "Assorted Festive Greeting Card Set",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [
+    {
+      "product_id": "1029369",
+      "title": "Smythson Large Briefcase with Zip Front in Ludlow",
+      "price": "1550.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "1201993",
+      "title": "Smythson Zip Crossbody Bag in Ludlow",
+      "changes": {
+        "price": [
+          "625.00 GBP",
+          "695.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "1202605",
+      "title": "Smythson Luggage Tag In Panama In Forest",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1200563",
+      "title": "Smythson Flat Card Holder In Panama In Scarlet Red",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1201993",
+      "title": "Smythson Zip Crossbody Bag in Ludlow",
+      "changes": {
+        "price": [
+          "625.00 GBP",
+          "695.00 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204686",
+      "title": "Smythson Agenda Soho 2026 Avec Une Page Par Jour En Panama - Bleu Marine",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1200950",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1031639",
+      "title": "Smythson Collector's Chess Set in Panama",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204672",
+      "title": "Smythson 2026 Sporting Weekly Diary In Panama In Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1020534",
+      "title": "Smythson Jewellery Box with Travel Tray in Mara",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205631",
+      "title": "Smythson 2026 Soho Weekly Journal In Panama In Purple",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204725",
+      "title": "Smythson Quaderno Soho Con Cani In Panama - Petrol",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [
+    {
+      "product_id": "1200951",
+      "title": "Smythson Astuccio Per Occhiali Da Vista In Pelle Panama - Navy",
+      "changes": {
+        "description": [
+          "Astuccio per occhiali in pelle di vitello crossgrain nera Interno in pelle scamosciata blu navy Dimensioni: L 8 x H 16 cm / L 3 x H 6\"",
+          "Astuccio per occhiali in pelle di vitello crossgrain blu navy Interno in pelle scamosciata rosso veneziano Dimensioni: L 8 x H 16 cm / L 3 x H 6\""
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1204606",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara In Navy",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Cerulean Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Grosgrain lined  Made in England  Dimensions: W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204603"
+        ]
+      }
+    },
+    {
+      "product_id": "1204610",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara In Sandstone",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Cerulean Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Grosgrain lined  Made in England  Dimensions: W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204603"
+        ]
+      }
+    },
+    {
+      "product_id": "1203120",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Waldgr\u00fcn",
+      "changes": {
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1200950",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1204903",
+      "title": "Smythson \u00c9tui \u00c0 Lunettes Optiques En Motif L\u00e9opard Panama",
+      "changes": {
+        "description": [
+          "\u00c9tui pour lunettes en cuir de veau textur\u00e9 noir Int\u00e9rieur bleu marine en daim Dimensions\u00a0: l 8 x H 16\u00a0cm / l 3 x H 6 pouces Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant",
+          "\u00c9tui pour lunettes en cuir de veau textur\u00e9 bleu marine Int\u00e9rieur en daim rouge v\u00e9nitien Dimensions\u00a0: l 8 x H 16\u00a0cm / l 3 x H 6 pouces  Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    }
+  ],
+  "image_changes": [],
+  "item_group_changes": [
+    {
+      "product_id": "1200951",
+      "title": "Smythson Astuccio Per Occhiali Da Vista In Pelle Panama - Navy",
+      "changes": {
+        "description": [
+          "Astuccio per occhiali in pelle di vitello crossgrain nera Interno in pelle scamosciata blu navy Dimensioni: L 8 x H 16 cm / L 3 x H 6\"",
+          "Astuccio per occhiali in pelle di vitello crossgrain blu navy Interno in pelle scamosciata rosso veneziano Dimensioni: L 8 x H 16 cm / L 3 x H 6\""
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1204606",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara In Navy",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Cerulean Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Grosgrain lined  Made in England  Dimensions: W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204603"
+        ]
+      }
+    },
+    {
+      "product_id": "1204610",
+      "title": "Smythson Soho Notebook With Slide Closure In Mara In Sandstone",
+      "changes": {
+        "description": [
+          "Lilac Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Silk lined  Made in England Dimensions:W14 x H19.6cm/W5.5 x H7.7\"",
+          "Cerulean Soho notebook bound in crocodile-embossed calf leather  192 leaves of gilt-edged, pale blue ruled Featherweight paper  Silver slide  Slip pocket  Grosgrain lined  Made in England  Dimensions: W14 x H19.6cm/W5.5 x H7.7\""
+        ],
+        "item_group_id": [
+          "1204708",
+          "1204603"
+        ]
+      }
+    },
+    {
+      "product_id": "1203120",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Waldgr\u00fcn",
+      "changes": {
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1200950",
+      "title": "Smythson Brillenetui Aus Panama-Leder - Schwarz",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Schwarzes Brillenetui aus quergemasertem Kalbsleder Innen aus marineblauem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers",
+          "Marineblaues Brillenetui aus quergemasertem Kalbsleder Innen aus venezianisch rotem Wildleder Ma\u00dfe: B 8 x H 16 cm Unsere Boxen und Rollen sind mit gro\u00dfer Sorgfalt entworfen, um Ihren Schmuck zu sch\u00fctzen. Aufgrund der Beschaffenheit von Sterlingsilber, Edelstahl oder vergoldetem und versilbertem Schmuck kann jedoch bei Kontakt mit Luft oder Feuchtigkeit eine Anlaufbildung auftreten, selbst wenn der Schmuck in unseren Produkten aufbewahrt wird. Um Ihren Schmuck bestm\u00f6glich zu erhalten, befolgen Sie bitte die Pflegehinweise des Herstellers"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    },
+    {
+      "product_id": "1204903",
+      "title": "Smythson \u00c9tui \u00c0 Lunettes Optiques En Motif L\u00e9opard Panama",
+      "changes": {
+        "description": [
+          "\u00c9tui pour lunettes en cuir de veau textur\u00e9 noir Int\u00e9rieur bleu marine en daim Dimensions\u00a0: l 8 x H 16\u00a0cm / l 3 x H 6 pouces Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant",
+          "\u00c9tui pour lunettes en cuir de veau textur\u00e9 bleu marine Int\u00e9rieur en daim rouge v\u00e9nitien Dimensions\u00a0: l 8 x H 16\u00a0cm / l 3 x H 6 pouces  Nos bo\u00eetes \u00e0 bijoux et nos rouleaux sont con\u00e7us avec une grande attention aux d\u00e9tails pour prot\u00e9ger vos bijoux. Cependant, en raison de la nature de l'argent sterling, de l'acier inoxydable ou des bijoux plaqu\u00e9s or et argent, une ternissure peut appara\u00eetre lorsqu'ils sont expos\u00e9s \u00e0 l'air ou \u00e0 l'humidit\u00e9, m\u00eame lorsqu'ils sont rang\u00e9s dans nos produits. Pour pr\u00e9server au mieux vos bijoux, veuillez suivre les conseils d'entretien de leur fabricant"
+        ],
+        "item_group_id": [
+          "1200950",
+          "1200951"
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1204625",
+      "title": "Smythson 2026 Panama Weekly Diary With Pocket In Lilac",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1004294",
+      "title": "Smythson A5 Spiral Bound Notebook Refill Pad: Pale Blue Ruled Featherweight Paper, 75 Sheets, 85gsm, Silver Binding, W15 x H21cm, Made in England",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204719",
+      "title": "Smythson 2026 Royal Court Daily Diary In Navy",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "custom_label_0": [
+          "Low AOV",
+          "Jewellery Boxes"
+        ],
+        "custom_label_4": [
+          "sale",
+          "Gifts for Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1201676",
+      "title": "Smythson Marshall Travel Wallet In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204637",
+      "title": "Smythson 2026 Panama Weekly Diary With Pencil In Black",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1205090",
+      "title": "2026 Desktop Calendar Refills",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "custom_label_4": [
+          "sale",
+          "Gifts for Him & Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1205631",
+      "title": "Smythson 2026 Soho Weekly Journal In Panama In Purple",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204096",
+      "title": "Smythson Passport Cover In Panama In Stars Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204934",
+      "title": "Playing Cards Twin Pack",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204314",
+      "title": "Smythson Flat Travel Organizer Pouch In Ludlow In Black",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "custom_label_4": [
+          "",
+          "Gifts for Him & Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1204226",
+      "title": "Smythson Zip Crossbody Bag In Ludlow In Black",
+      "changes": {
+        "custom_label_4": [
+          "sale",
+          "Gifts for Him"
+        ]
+      }
+    },
+    {
+      "product_id": "1204048",
+      "title": "Smythson Pavilion Kingly Tote Bag In Blue",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1203797",
+      "title": "Assorted Festive Greeting Card Set",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

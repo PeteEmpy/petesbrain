@@ -2,6 +2,43 @@
 
 ---
 
+## [Accessories For The Home] ROAS 150% Check - Wed Nov 27 (Mid-week)
+**Completed:** 2025-12-12 14:48
+**Task ID:** f5be8159-9b2e-4655-8cfe-107981d05625
+**Priority:** P0
+**Source:** Follow-up from Nov 24 ROAS reduction
+
+**Original Task:**
+MID-WEEK CHECK - 3 days after ROAS reduction to 150%
+
+**QUICK CHECKS:**
+☐ Impression share trend - is it recovering from 10%?
+☐ Daily spend - getting closer to £1,800 budget?
+☐ ROAS - holding above 3.5?
+☐ Conversion rate - above 0.45%?
+
+**CAMPAIGNS TO CHECK:**
+- 20276730131: AFH | P Max | H&S Zombies Furniture
+- 21527979308: AFH | Shopping | Furniture | Villains
+- 22138672752: AFH | Shopping | Accessories | H&S
+- 21289230716: AFH | P Max Shopping | Accessories | Villains
+
+**EXPECTED AT THIS POINT:**
+- Smart Bidding should be adjusting to new target
+- Early signs of impression share recovery
+- Spend should be increasing toward budget
+
+**ACTION IF CONCERNING:**
+If ROAS below 3.0 or CR below 0.40% → Consider early revert to 170%
+Otherwise → Continue monitoring, wait for Friday check
+
+**Manual Note (added 2025-12-12):**
+Completed
+
+**Status:** ✅ Completed
+
+---
+
 ## H & S Wealthy Asset Group Paused
 **Completed:** 2025-11-24
 **Source:** Q4 Asset Group Performance Review
@@ -449,3 +486,117 @@ CURRENT STATUS (Nov 16):
 - **Notes**: Body vases excluded from feed using Channel rule. Policy excessive but no alternative action possible.
 - **Reason for completion**: Channel policy decision - task resolved, no further action needed
 
+## [Accessories For The Home] ROAS 150% Monitoring & Review
+**Completed:** 2025-12-12 15:23
+**Source:** Follow-up from Nov 24 ROAS reduction
+
+ROAS REDUCTION MONITORING - Nov 24 Change
+
+**CONTEXT:**
+On Nov 24, ROAS was reduced from 170%→150% across all main campaigns due to impression share collapse (56%→31%→10%). This was done to bid more aggressively and recover impression share during Black Friday/Cyber Monday week.
+
+**CAMPAIGNS UPDATED (Nov 24):**
+| Campaign ID | Campaign Name | Previous | Current |
+|-------------|---------------|----------|---------|
+| 20276730131 | AFH | P Max | H&S Zombies Furniture | 170% | 150% |
+| 21527979308 | AFH | Shopping | Furniture | Villains | 170% | 150% |
+| 22138672752 | AFH | Shopping | Accessories | H&S | 200% | 150% |
+| 21289230716 | AFH | P Max Shopping | Accessories | Villains | 200% | 150% |
+
+**MONITORING SCHEDULE:**
+- Wed Nov 27: Mid-week check (3 days post-change)
+- Fri Nov 29: Black Friday check (5 days post-change)
+- Tue Dec 2: Full review after Cyber Monday (8 days post-change)
+
+**KEY METRICS TO TRACK:**
+- Impression share (target: recover to 50%+)
+- Daily spend vs £1,800 budget
+- ROAS (acceptable: 3.5+, target: 4.0+)
+- Conversion rate (threshold: 0.45%+)
+
+**ROLLBACK TRIGGERS:**
+- ROAS below 3.5 for 2+ days
+- CR below 0.45% consistently
+- Revenue down significantly vs expectations
+
+**REVERT COMMANDS (if needed):**
+Use MCP tool update_campaign_target_roas with target_roas=1.7 for each campaign
+
+---
+## [Accessories for the Home] Body Vases Review REJECTED - Decide Next Steps
+**Completed:** 2025-12-12 15:23
+**Source:** Follow-up from body vases manual review submission
+
+**Context:**
+24 body-shaped vases submitted for manual review on Nov 19, 2025.
+Google's automated filters flagged them as adult content (false positive).
+
+**REVIEW OUTCOME (Nov 20, 2025): ❌ REJECTED**
+
+Google's decision:
+- **Issue:** "Personalised advertising: Sexual interests"
+- **Impact:** Limits visibility in United Kingdom
+- **Policy:** Ads shouldn't target users based on sexual interests
+- **Next review:** Earliest Nov 26, 2025 (7-day wait period)
+
+**Decision Required:**
+
+Option 1: Resubmit with Product Title Changes (Nov 26+)
+- Update titles to emphasize "home decor" / "art" angle
+- Examples:
+  - "Female Form Vase" → "Abstract Sculpture Vase - Modern Home Decor"
+  - "Body Vase" → "Artistic Ceramic Vase - Contemporary Design"
+- Remove any suggestive language
+- Resubmit for review after Nov 26
+
+Option 2: Accept Products Can't Run
+- 24 products out of 600+ total
+- Impact: ~4% of product catalog
+- Low revenue risk if these aren't bestsellers
+
+Option 3: Appeal with Context
+- Provide evidence these are legitimate home decor items
+- Include links to retailer websites showing similar products
+- Emphasize artistic/sculptural nature
+
+**Next Steps:**
+1. Check if these 24 products are high-revenue items (worth the effort)
+2. Discuss with client: Sam/Andrew preference
+3. If proceeding: update product titles in feed
+4. If appealing: gather supporting evidence
+5. Resubmit after Nov 26 if pursuing Option 1 or 3
+
+**Reference:**
+Original submission logged in tasks-completed.md (Nov 19 entry)
+
+**Merchant Center ID:** 117443871
+
+---
+## [Accessories for the Home] Chase GTIN Issues Email Response
+**Completed:** 2025-12-12 16:00
+**Source:** Follow-up from GTIN email sent Nov 19, 2025
+
+**Original Issue (Nov 19):**
+- 87 products with GTIN-related issues
+- Email sent to Sam & Andrew explaining the problems
+- Categories affected: Tine K Home, Extreme Lounging, Madam Stoltz, Muubs furniture
+
+**Client Response:**
+- Sam: Checking stock levels (some products end-of-line)
+- Andrew: Offered to remove GTINs if told which ones
+
+**Resolution Status (Dec 12):**
+✅ **SIGNIFICANT IMPROVEMENT**
+- **Original:** 87 GTIN issues
+- **Current:** 12 GTIN issues
+- **Fixed:** 75 products (86% resolved)
+
+**Outcome:**
+Andrew/Sam have taken action and addressed the majority of GTIN issues in Merchant Centre. 75 products now showing correctly in Shopping ads.
+
+**Remaining Work:**
+12 products still have GTIN issues - may need follow-up in January after holiday rush.
+
+**Merchant Center ID:** 117443871
+
+---

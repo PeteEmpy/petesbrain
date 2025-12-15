@@ -257,3 +257,30 @@ Ensure conversion count matches Shopify orders and values after recent tracking 
 - Experiment Log: To be added to rok-experiments-client-notes.csv
 
 ---
+## [Bright Minds] Review Search Brand Campaign Target ROAS Change Results
+**Completed:** 2025-12-12 15:23
+**Source:** Manual
+
+Review impact of target ROAS reduction from 800% to 550% (changed Nov 20, 2025).
+
+**What to check:**
+- Conversion volume change (expect +20-40%)
+- ROAS performance (should maintain 500%+)
+- Impression share (should maintain or improve from 91.8%)
+- Spend changes (may increase £15-30/day)
+- Conversion quality (check for any degradation)
+
+**Context:**
+- Previous target: 800% (unrealistic, 289.6pp above actual)
+- New target: 550% (more achievable)
+- Actual pre-change ROAS: 510.4%
+- Learning period: 14 days (Nov 20 - Dec 4)
+
+**Note:** Black Friday week (Nov 25-29) will affect data - separate baseline improvement from seasonal effects.
+
+**Reference:**
+- Campaign: BMI | Search | Brand 550 20/11 (ID: 2083618047)
+- Completion log: /clients/bright-minds/tasks-completed.md
+- Audit report: /clients/bright-minds/audits/20251120-campaign-audit.md
+
+---

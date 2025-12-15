@@ -1,0 +1,155 @@
+{
+  "date": "2025-12-13",
+  "client": "Tree2mydoor",
+  "comparison_date": "2025-12-12",
+  "total_products_today": 746,
+  "total_products_yesterday": 746,
+  "summary": {
+    "changed_products": 6,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 6,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "00592",
+      "title": "Calamondin Tree Gift (5l Pot) - Year Round Beauty From Its Fragrant Flowers and Evergreen Leaves - Edible Citrus Fruit",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "00281",
+      "title": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SILB",
+      "title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "LIM405015",
+      "title": "Lime Tree Gift - Mini Lime Tree (1.5L) - Mini Lime Tree (1.5L)",
+      "changes": {
+        "custom_label_4": [
+          "",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "ROHR",
+      "title": "Happy Retirement Rose Bush Gift",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "00286-2",
+      "title": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "00592",
+      "title": "Calamondin Tree Gift (5l Pot) - Year Round Beauty From Its Fragrant Flowers and Evergreen Leaves - Edible Citrus Fruit",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "00281",
+      "title": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SILB",
+      "title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "LIM405015",
+      "title": "Lime Tree Gift - Mini Lime Tree (1.5L) - Mini Lime Tree (1.5L)",
+      "changes": {
+        "custom_label_4": [
+          "",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "ROHR",
+      "title": "Happy Retirement Rose Bush Gift",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "00286-2",
+      "title": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

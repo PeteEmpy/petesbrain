@@ -42,17 +42,22 @@ def scan_for_product_feeds_tasks():
         if not client_dir.is_dir() or client_dir.name.startswith('_'):
             continue
 
-        # CRITICAL: Check for active product-feeds/tasks.json
-        pf_tasks = client_dir / 'product-feeds' / 'tasks.json'
-        if pf_tasks.exists():
-            critical_violations.append({
-                'client': client_dir.name,
-                'path': str(pf_tasks),
-                'file_size': pf_tasks.stat().st_size,
-                'modified': datetime.fromtimestamp(pf_tasks.stat().st_mtime).isoformat(),
-                'discovered_at': datetime.now().isoformat(),
-                'severity': 'CRITICAL'
-            })
+        # CRITICAL: Check for active product-feeds/tasks*.json (all variants)
+        pf_dir = client_dir / 'product-feeds'
+        if pf_dir.exists() and pf_dir.is_dir():
+            for pf_task_file in pf_dir.glob('tasks*.json'):
+                # Skip archived files
+                if '_archived' in str(pf_task_file):
+                    continue
+                critical_violations.append({
+                    'client': client_dir.name,
+                    'path': str(pf_task_file),
+                    'file_name': pf_task_file.name,
+                    'file_size': pf_task_file.stat().st_size,
+                    'modified': datetime.fromtimestamp(pf_task_file.stat().st_mtime).isoformat(),
+                    'discovered_at': datetime.now().isoformat(),
+                    'severity': 'CRITICAL'
+                })
 
         # WARNING: Check for archived product-feeds tasks (historical, less urgent)
         archived_pf = client_dir / 'product-feeds' / '_archived-tasks' / 'tasks.json'
@@ -176,7 +181,7 @@ def alert_user(critical_violations, archived_violations):
 
 
 def main():
-    """Main validation function"""
+    """Main validation function - FAIL-FAST if violations found"""
     critical_violations, archived_violations = scan_for_product_feeds_tasks()
 
     if critical_violations or archived_violations:
@@ -186,8 +191,14 @@ def main():
         # Alert user
         is_critical = alert_user(critical_violations, archived_violations)
 
-        # Exit with error code only if critical violations found
-        return 1 if is_critical else 0
+        # FAIL-FAST: Exit with error code if ANY violations found (critical or archived)
+        # This ensures operations that depend on validation will fail
+        if is_critical:
+            print("\n❌ CRITICAL: Validation failed - operations blocked until fixed")
+        else:
+            print("\n⚠️  WARNING: Validation found archived violations - review recommended")
+        
+        return 1  # Always fail if violations found
     else:
         # All clear
         print(f"✅ Task location validation passed ({datetime.now().strftime('%Y-%m-%d %H:%M:%S')})")

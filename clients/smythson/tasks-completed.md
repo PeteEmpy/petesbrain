@@ -447,3 +447,39 @@ WHERE segments.date = '2025-11-26'
 **Completion Note:** This has been done for today
 
 ---
+## [Smythson] Monitor Q4 strategy dashboard actuals vs projections
+**Completed:** 2025-12-12 15:23
+**Source:** Recurring monitoring task
+
+Monitor Q4 strategy dashboard every 7 days to track performance vs projections.
+
+**DASHBOARD METRICS TO CHECK:**
+- Actual revenue vs projected revenue
+- Actual ROAS vs projected ROAS
+- Budget utilization
+- Days remaining vs revenue gap
+- Pacing to £2.06M realistic target
+
+**ACTIONS IF OFF-TRACK:**
+- Update projections if performance deviates >10%
+- Alert client if gap to target widening
+- Recommend budget/strategy adjustments if needed
+
+**REVIEW SCHEDULE:**
+- Every 7 days through end of Q4 (Dec 31)
+- Next review: Nov 21, then Nov 24, Nov 27, Nov 30, etc.
+
+**DASHBOARD LOCATION:**
+[Add dashboard location/link when available]
+
+**CONTEXT:**
+Client target: £2,380k
+Realistic projection: £2,060k
+Gap: £320k (13.5% short)
+
+This regular monitoring ensures early detection of performance issues and allows proactive client communication.
+
+---
+Note (2025-11-24): Completed for today. Next review: Thursday Nov 28.
+
+---

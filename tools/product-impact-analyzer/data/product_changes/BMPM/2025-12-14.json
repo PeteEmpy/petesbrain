@@ -1,0 +1,1355 @@
+{
+  "date": "2025-12-14",
+  "client": "BMPM",
+  "comparison_date": "2025-12-13",
+  "total_products_today": 6642,
+  "total_products_yesterday": 6643,
+  "summary": {
+    "changed_products": 53,
+    "price_changes": 3,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 1,
+    "description_changes": 0,
+    "image_changes": 52,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 9,
+    "removed_products": 10
+  },
+  "changed_products": [
+    {
+      "product_id": "BMPM596V435064",
+      "title": "Branded Christmas Stocking (Full Colour) - Small (25cm tall x 15cm wide) Soft Velvet Polyester Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434324",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434322",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434318",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434292",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449706",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM596V435066",
+      "title": "Branded Christmas Stocking (Full Colour) - Large (55cm tall x 35cm wide) Soft Velvet Polyester Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM_1.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434300",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Chocolate Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434312",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Natural Organic Cotton with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434302",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Chocolate Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449718",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Gothic Blue Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449710",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Colour TBC Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449695",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449698",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434320",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434304",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Gothic Blue Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449717",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Gothic Blue Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449700",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434284",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449705",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434306",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Gothic Blue Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449726",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Natural Organic Cotton",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434298",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Colour TBC Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449703",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434308",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Other Colour (Agreed on Email) Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449708",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434286",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434288",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434326",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8248737",
+      "title": "Brand Printed Drinking Straws",
+      "changes": {
+        "price": [
+          "1.80 GBP",
+          "1.00 GBP"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Brand-Printed-Drinking-Straws-from-BMPM.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Brand-Printed-Drinking-Straws-from-BMPM_0.jpg.webp"
+        ],
+        "color": [
+          "Off-white",
+          "White"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449725",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Natural Organic Cotton",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434290",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449707",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449715",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449719",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Other Colour (Agreed on Email) Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449699",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449697",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434310",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Other Colour (Agreed on Email) Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434316",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM596",
+      "title": "Branded Christmas Stocking (Full Colour)",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449696",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437676",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (40cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "31.50 GBP",
+          "28.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444903",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444879"
+        ],
+        "mpn": [
+          "FGCUS601(FIB+100)(S40)PSV-WHI(RCO-INN-Z)",
+          "FGCUS601(FIB-STA)(S40)PSV-WHI(RCO-INN-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379",
+      "title": "Branded Wholesale Apron",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM596V435065",
+      "title": "Branded Christmas Stocking (Full Colour) - Medium (45cm tall x 30cm wide) Soft Velvet Polyester Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM_0.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449720",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Other Colour (Agreed on Email) Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434314",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Natural Organic Cotton with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8258250",
+      "title": "Cotton Shopper Branded Tote Bag",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/cotton-shopper-branded-tote-bag-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/cotton-shopper-branded-tote-bag-from-bmpm--product.jpg.webp"
+        ],
+        "color": [
+          "Blue",
+          "Black"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449716",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "19.50 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(C15)PWR-003",
+          "FGCUS600(FIB-STA)(S40)PWR-003"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434294",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449704",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434296",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Colour TBC Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449709",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Colour TBC Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "BMPM8258250V453639",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Blue Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453638",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Black Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453643",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Red Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8248737V453636",
+      "title": "Brand Printed Drinking Straws (195mm x 5mm)",
+      "price": "1.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453645",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Other Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453641",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Pink Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453642",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Purple Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453640",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Natural Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453644",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) White Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "BMPM8258250V453496",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - Navy Blue Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453503",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - White Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453502",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Black Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453499",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - Royal Blue Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8248737V453635",
+      "title": "Brand Printed Drinking Straws (195mm x 5mm) (Natural)",
+      "price": "1.80 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453501",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - Hot Pink Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453497",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - Purple Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453500",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - Red Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453498",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) - Natural Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8258250V453504",
+      "title": "Cotton Shopper Branded Tote Bag Standard (42cm x 38cm) Colour TBC Cotton Fabric",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "BMPM8248737",
+      "title": "Brand Printed Drinking Straws",
+      "changes": {
+        "price": [
+          "1.80 GBP",
+          "1.00 GBP"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Brand-Printed-Drinking-Straws-from-BMPM.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Brand-Printed-Drinking-Straws-from-BMPM_0.jpg.webp"
+        ],
+        "color": [
+          "Off-white",
+          "White"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437676",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo Square (40cm) Soft Velvet Polyester Fabric Cover Only (No Inner Cushion + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "31.50 GBP",
+          "28.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444903",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444879"
+        ],
+        "mpn": [
+          "FGCUS601(FIB+100)(S40)PSV-WHI(RCO-INN-Z)",
+          "FGCUS601(FIB-STA)(S40)PSV-WHI(RCO-INN-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "19.50 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(C15)PWR-003",
+          "FGCUS600(FIB-STA)(S40)PWR-003"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "19.50 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(C15)PWR-003",
+          "FGCUS600(FIB-STA)(S40)PWR-003"
+        ]
+      }
+    }
+  ],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "BMPM596V435064",
+      "title": "Branded Christmas Stocking (Full Colour) - Small (25cm tall x 15cm wide) Soft Velvet Polyester Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434324",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434322",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434318",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434292",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449706",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM596V435066",
+      "title": "Branded Christmas Stocking (Full Colour) - Large (55cm tall x 35cm wide) Soft Velvet Polyester Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM_1.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434300",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Chocolate Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434312",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Natural Organic Cotton with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434302",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Chocolate Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449718",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Gothic Blue Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449710",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Colour TBC Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449695",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449698",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434320",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434304",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Gothic Blue Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449717",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Gothic Blue Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449700",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434284",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449705",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434306",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Gothic Blue Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449726",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Natural Organic Cotton",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434298",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Colour TBC Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449703",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434308",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Other Colour (Agreed on Email) Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449708",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434286",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434288",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434326",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8248737",
+      "title": "Brand Printed Drinking Straws",
+      "changes": {
+        "price": [
+          "1.80 GBP",
+          "1.00 GBP"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Brand-Printed-Drinking-Straws-from-BMPM.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Brand-Printed-Drinking-Straws-from-BMPM_0.jpg.webp"
+        ],
+        "color": [
+          "Off-white",
+          "White"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449725",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Natural Organic Cotton",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434290",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - White Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449707",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449715",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449719",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Other Colour (Agreed on Email) Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449699",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Red Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449697",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - White Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434310",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Other Colour (Agreed on Email) Luxury Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434316",
+      "title": "Branded Wholesale Apron (70cm x 55cm) - Navy Blue Polycotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM596",
+      "title": "Branded Christmas Stocking (Full Colour)",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449696",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Polycotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379",
+      "title": "Branded Wholesale Apron",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM596V435065",
+      "title": "Branded Christmas Stocking (Full Colour) - Medium (45cm tall x 30cm wide) Soft Velvet Polyester Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/branded-christmas-stockings-with-full-colour-logo-print-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Christmas-Stockings-With-Full-Colour-Logo-Print-from-BMPM_0.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449720",
+      "title": "Branded Wholesale Apron (90cm x 70cm) Other Colour (Agreed on Email) Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434314",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Natural Organic Cotton with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8258250",
+      "title": "Cotton Shopper Branded Tote Bag",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-11/cotton-shopper-branded-tote-bag-from-bmpm--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/cotton-shopper-branded-tote-bag-from-bmpm--product.jpg.webp"
+        ],
+        "color": [
+          "Blue",
+          "Black"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449716",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Chocolate Luxury Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM3828V436019",
+      "title": "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "19.50 GBP"
+        ],
+        "title": [
+          "Branded Water Resistant Cushion (Full Colour) Circle (15cm) Water Resistant Polyester Fabric",
+          "Branded Water Resistant Cushion (Full Colour) Square (40cm) Water Resistant Polyester Fabric"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444621",
+          "https://bmpm.trade/products/branded-water-resistant-cushion-full-colour?v=444617"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Circle-Water-Resistant-Polyester-Fabric-from-BMPM_5.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Branded-Water-Resistant-Cushion-(Full-Colour)-Square-Water-Resistant-Polyester-Fabric-from-BMPM_7.jpg.webp"
+        ],
+        "mpn": [
+          "FGCUS600(FIB-STA)(C15)PWR-003",
+          "FGCUS600(FIB-STA)(S40)PWR-003"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434294",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Red Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449704",
+      "title": "Branded Wholesale Apron (90cm x 70cm) - Navy Blue Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V434296",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Colour TBC Cotton Fabric with Pocket",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM379V449709",
+      "title": "Branded Wholesale Apron (70cm x 55cm) Colour TBC Cotton Fabric",
+      "changes": {
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-09/wholesale-apron-stepped-back-image--product.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/2025-12/wholesale-apron-stepped-back-image--product.jpg.webp"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

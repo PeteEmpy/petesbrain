@@ -140,8 +140,38 @@ class ProductMonitor:
         with open(ads_file) as f:
             return json.load(f)
 
-    def aggregate_product_metrics(self, ads_data: List[Dict], days_back: int = 1) -> Dict[str, Dict]:
-        """Aggregate metrics by product for recent period"""
+    def load_product_feed_data(self, client_name: str) -> Dict[str, Dict]:
+        """Load latest product feed data (includes availability status)"""
+        feed_history_dir = self.base_dir / 'data' / 'product_feed_history' / client_name
+
+        if not feed_history_dir.exists():
+            return {}
+
+        # Get most recent snapshot
+        snapshot_files = sorted(feed_history_dir.glob('*.json'))
+        if not snapshot_files:
+            return {}
+
+        latest_snapshot = snapshot_files[-1]
+
+        try:
+            with open(latest_snapshot) as f:
+                products = json.load(f)
+
+            # Normalize product IDs for matching
+            normalized = {}
+            for product in products:
+                product_id = normalize_product_id(product.get('product_id', ''))
+                if product_id:
+                    normalized[product_id] = product
+
+            return normalized
+        except Exception as e:
+            self.log(f"  Warning: Could not load product feed data: {e}")
+            return {}
+
+    def aggregate_product_metrics(self, ads_data: List[Dict], client_name: str, days_back: int = 1) -> Dict[str, Dict]:
+        """Aggregate metrics by product for recent period, enriched with product feed data (availability)"""
         end_date = datetime.now().strftime('%Y-%m-%d')
         start_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
 
@@ -162,7 +192,8 @@ class ProductMonitor:
                         'clicks': 0,
                         'impressions': 0,
                         'revenue': 0.0,
-                        'cost': 0.0
+                        'cost': 0.0,
+                        'availability': 'NOT_SET'  # Will be enriched from product feed
                     }
 
                 metrics = row['metrics']
@@ -175,6 +206,23 @@ class ProductMonitor:
 
             except (KeyError, ValueError) as e:
                 continue
+
+        # Enrich with product feed data (availability status)
+        product_feed = self.load_product_feed_data(client_name)
+
+        if product_feed:
+            self.log(f"  Enriching with product feed data ({len(product_feed)} products with availability status)")
+            enriched_count = 0
+
+            for product_id, metrics in metrics_by_product.items():
+                if product_id in product_feed:
+                    feed_data = product_feed[product_id]
+                    metrics['availability'] = feed_data.get('availability', 'NOT_SET')
+                    enriched_count += 1
+
+            self.log(f"  Enriched {enriched_count}/{len(metrics_by_product)} products with availability status")
+        else:
+            self.log(f"  Warning: No product feed data available - availability will be 'NOT_SET'")
 
         return metrics_by_product
 
@@ -267,6 +315,47 @@ class ProductMonitor:
                 message=f"{len(missing_products)} products disappeared from feed. Examples: {product_list}...",
                 metric_value=len(missing_products),
                 threshold_value=missing_threshold,
+                timestamp=datetime.now().isoformat()
+            ))
+
+        # Check for out-of-stock products still getting clicks (wasting ad spend)
+        out_of_stock_threshold = self.monitor_config.get('alert_out_of_stock_clicks', 10)
+        out_of_stock_cost_threshold = self.monitor_config.get('alert_out_of_stock_cost', 10.0)
+        out_of_stock_products = []
+
+        for product_id, current_metrics in current.items():
+            availability = current_metrics.get('availability', 'NOT_SET')
+            clicks = current_metrics.get('clicks', 0)
+            cost = current_metrics.get('cost', 0.0)
+
+            # Alert if out of stock AND getting significant clicks
+            if availability == 'out of stock' and (clicks >= out_of_stock_threshold or cost >= out_of_stock_cost_threshold):
+                out_of_stock_products.append({
+                    'id': product_id,
+                    'title': current_metrics['product_title'],
+                    'clicks': clicks,
+                    'cost': cost
+                })
+
+        if out_of_stock_products:
+            # Sort by cost (most wasted spend first)
+            out_of_stock_products.sort(key=lambda x: x['cost'], reverse=True)
+            total_wasted = sum(p['cost'] for p in out_of_stock_products)
+            total_clicks = sum(p['clicks'] for p in out_of_stock_products)
+
+            # Create summary for first few products
+            top_offenders = out_of_stock_products[:3]
+            product_list = ", ".join([f"{p['id']} (£{p['cost']:.2f})" for p in top_offenders])
+
+            alerts.append(Alert(
+                severity="warning",
+                alert_type="out_of_stock",
+                client=client,
+                product_id="multiple",
+                product_title=f"{len(out_of_stock_products)} out-of-stock products",
+                message=f"{len(out_of_stock_products)} out-of-stock products still getting clicks - wasting £{total_wasted:.2f}. Top offenders: {product_list}",
+                metric_value=total_wasted,
+                threshold_value=out_of_stock_cost_threshold,
                 timestamp=datetime.now().isoformat()
             ))
 
@@ -463,7 +552,7 @@ class ProductMonitor:
                 continue
 
             # Aggregate current metrics (last 24 hours)
-            current_metrics = self.aggregate_product_metrics(current_ads_data, days_back=1)
+            current_metrics = self.aggregate_product_metrics(current_ads_data, client_name, days_back=1)
             self.log(f"  Found {len(current_metrics)} active products")
 
             # Load previous snapshot

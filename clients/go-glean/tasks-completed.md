@@ -122,3 +122,70 @@ Comprehensive audit of Primary PMax asset groups for Non Grout H&S&Z campaign co
 Product Hero Strategy uses 30-day performance metrics. Short-term 7-day variance is expected and acceptable.
 
 **Manual Note (2025-11-28):** Audit already completed per task notes. Task marked complete.
+## [Go Glean] Audit Primary PMax Asset Groups
+**Completed:** 2025-12-12 15:23
+**Source:** Weekly Report - 2025-11-18
+
+**From Weekly Report - 2025-11-18**
+**AUDIT COMPLETED: 2025-11-20** ✅
+**STRATEGY CLARIFICATION: 2025-11-20** 📋
+
+**CRITICAL LEARNING: Product Hero Strategy = 30-Day Performance**
+
+Hero/Sidekick classification is based on **30-day ROAS**, not 7-day. Short-term variance is expected and acceptable - that's what the segmentation handles.
+
+**Black Stone Products (30-Day Performance):**
+- Black Stone Sealer 500ml: **265% ROAS** → Hero status JUSTIFIED ✓
+- Black Stone Restorer: **338% ROAS** → Hero status JUSTIFIED ✓
+
+**7-Day Performance (Nov 12-18):**
+- Black Stone Restorer - Heroes: 0% ROAS, £19.09 spent
+- This is normal variance for Heroes - let them ride it out
+
+**ACTION: NO PAUSING REQUIRED** - Heroes should stay active through short-term fluctuations.
+
+---
+
+**REVISED FOCUS: Identify True Zombies That Need Promoting**
+
+Based on 7-day data showing strong performers, check if these need **30-day performance review** for potential promotion:
+
+1. ⭐ Grout Reviver Pens: 881% ROAS (7d) - Check 30d performance
+2. ⭐ Salt Stain Remover 5L: 1,380% ROAS (7d) - Check 30d performance  
+3. ⭐ Composite Sink Restorer: Strong conversions (7d) - Check 30d performance
+4. Glass & Mirror Cleaner: 231% ROAS (7d) - Check 30d performance
+
+**Next Step:** Pull 30-day product-level ROAS to see if any Zombies qualify for Hero/Sidekick promotion based on sustained 30-day performance.
+
+**Supporting Data:**
+- Campaign: "GOG | P Max | Non Grout H&S&Z 240 11/10"
+- Current ROAS: 122% (vs 240% target)
+- Budget share: 60% (£275.68/week)
+- Date range: Nov 12-18 (complete data, 2-day lag buffer)
+- Full audit report: clients/go-glean/reports/ad-hoc/2025-11-20-pmax-asset-group-audit-CORRECTED.html
+
+
+---
+
+## [Go Glean] Pause Search Campaign - Zero Conversions
+**Completed:** 2025-12-12 16:55
+**Source:** Weekly Report - 2025-11-18
+
+**Campaign Status:** PAUSED ✅
+
+**Campaign Details:**
+- Name: GOG | Search | Products 350 16/6 AI Max 26/6 300 1/8 230 15/9 260 23/9 240 3/10
+- ID: 22422709676
+- Current Status: PAUSED
+
+**Performance Nov 1 - Dec 12:**
+- Total Spend: £169.59
+- Conversions: 5.58
+- CPA: £30.44
+- Clicks: 193
+- Impressions: 3,211
+
+**Resolution:**
+The campaign identified in the Nov 18 weekly report (£50.40 spend, 0 conversions) has been paused. After the initial zero-conversion period, it generated 5.58 conversions before being paused, but the CPA of £30.44 is likely too high for Go Glean's profitability model.
+
+**Action Taken:** Campaign already paused - no further action needed. Waste elimination successful.

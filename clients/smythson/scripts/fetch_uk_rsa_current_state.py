@@ -4,7 +4,7 @@
 import sys
 import os
 import json
-sys.path.insert(0, '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-ads-mcp-server')
+sys.path.insert(0, '/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server')
 
 from oauth.google_auth import execute_gaql
 
@@ -77,7 +77,7 @@ for ad in ads:
     print(f"    Ad ID: {ad_id}, Headlines: {len(headlines)}, Descriptions: {len(descriptions)}")
 
 # Save to JSON
-output_path = '/Users/administrator/Documents/PetesBrain/clients/smythson/data/uk_rsa_current_state.json'
+output_path = '/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/data/uk_rsa_current_state.json'
 with open(output_path, 'w') as f:
     json.dump(current_state, f, indent=2)
 

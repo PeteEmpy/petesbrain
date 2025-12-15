@@ -10,8 +10,25 @@ import json
 import re
 import sys
 import os
+import subprocess
+import logging
 from datetime import datetime
 from pathlib import Path
+
+# Configure logging
+LOG_DIR = Path.home() / '.petesbrain-logs'
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_DIR / f'tasks-overview_{datetime.now():%Y%m%d}.log'),
+        logging.StreamHandler()  # Also output to console for LaunchAgent logs
+    ]
+)
+
+logger = logging.getLogger(__name__)
 
 # Add project root to path for centralized imports
 sys.path.insert(0, str(Path(__file__).parent))
@@ -71,6 +88,8 @@ def deduplicate_internal_tasks(tasks, threshold=0.95):
     """
     import difflib
 
+    logger.debug(f"Deduplicating {len(tasks)} internal tasks (threshold: {threshold})")
+
     seen_normalized = []  # List of (normalized_title, original_task)
     deduplicated = []
     duplicates_removed = 0
@@ -84,8 +103,8 @@ def deduplicate_internal_tasks(tasks, threshold=0.95):
             # Exact match after normalization
             if normalized == seen_norm:
                 is_duplicate = True
-                print(f"  ⏭️  Internal duplicate: '{title[:50]}...'")
-                print(f"       Similar to: '{seen_task.get('title', '')[:50]}...'")
+                logger.debug(f"  ⏭️  Internal duplicate: '{title[:50]}...'")
+                logger.debug(f"       Similar to: '{seen_task.get('title', '')[:50]}...'")
                 break
 
             # Very high fuzzy match threshold to avoid false positives
@@ -94,8 +113,8 @@ def deduplicate_internal_tasks(tasks, threshold=0.95):
                 ratio = difflib.SequenceMatcher(None, normalized, seen_norm).ratio()
                 if ratio >= threshold:
                     is_duplicate = True
-                    print(f"  ⏭️  Internal duplicate ({ratio:.0%}): '{title[:50]}...'")
-                    print(f"       Similar to: '{seen_task.get('title', '')[:50]}...'")
+                    logger.debug(f"  ⏭️  Internal duplicate ({ratio:.0%}): '{title[:50]}...'")
+                    logger.debug(f"       Similar to: '{seen_task.get('title', '')[:50]}...'")
                     break
 
         if is_duplicate:
@@ -180,22 +199,30 @@ def parse_completed_tasks_from_markdown(md_file):
 
 def fetch_google_tasks():
     """Fetch all active tasks from Google Tasks and convert to internal format"""
+    logger.info("📥 Fetching Google Tasks...")
     google_tasks = []
 
     try:
         # Import Google Tasks API service
+        logger.debug("Importing Google Tasks service...")
         sys.path.insert(0, '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-tasks-mcp-server')
         from tasks_service import tasks_service
 
+        logger.debug("Building Google Tasks service...")
         service = tasks_service()
 
         # Get all task lists
+        logger.debug("Fetching task lists from Google Tasks API...")
         task_lists_response = service.tasklists().list().execute()
         task_lists = task_lists_response.get('items', [])
 
-        for task_list in task_lists:
+        logger.info(f"Found {len(task_lists)} Google Tasks lists")
+
+        for idx, task_list in enumerate(task_lists, 1):
             list_id = task_list['id']
             list_title = task_list['title']
+
+            logger.debug(f"Processing list {idx}/{len(task_lists)}: {list_title}")
 
             # Get incomplete tasks only (active tasks)
             tasks_response = service.tasks().list(
@@ -203,6 +230,8 @@ def fetch_google_tasks():
                 showCompleted=False
             ).execute()
             tasks = tasks_response.get('items', [])
+
+            logger.debug(f"  Found {len(tasks)} active tasks in {list_title}")
 
             for task in tasks:
                 # Convert Google Tasks format to internal task format
@@ -239,13 +268,47 @@ def fetch_google_tasks():
 
                 google_tasks.append(internal_task)
 
-        print(f"Fetched {len(google_tasks)} active tasks from Google Tasks")
+        logger.info(f"✅ Fetched {len(google_tasks)} active tasks from Google Tasks")
 
+    except ImportError as e:
+        logger.error("=" * 60)
+        logger.error("❌ Google Tasks service import failed")
+        logger.error(f"Error: {e}")
+        logger.error("Action required: Check Google Tasks MCP server installation")
+        logger.error("=" * 60)
     except Exception as e:
-        print(f"⚠️  Could not fetch Google Tasks: {e}")
-        print("   Continuing with internal tasks only")
+        logger.warning("=" * 60)
+        logger.warning("⚠️  Could not fetch Google Tasks")
+        logger.warning(f"Error: {e}")
+        logger.warning("Continuing with internal tasks only")
+        logger.warning("=" * 60)
+        if "credentials" in str(e).lower() or "auth" in str(e).lower():
+            logger.error("Possible cause: OAuth token expired")
+            logger.error("Action: Run oauth-refresh skill")
 
     return google_tasks
+
+# ============================================================================
+# PRE-FLIGHT: Validate task locations before generating
+# ============================================================================
+print("="*70)
+print("VALIDATING TASK LOCATIONS")
+print("="*70)
+validation_script = PROJECT_ROOT / 'shared' / 'scripts' / 'validate-task-locations.py'
+if validation_script.exists():
+    result = subprocess.run([sys.executable, str(validation_script)], 
+                          capture_output=True, text=True)
+    if result.returncode != 0:
+        print("❌ VALIDATION FAILED - Task location violations detected!")
+        print(result.stdout)
+        print(result.stderr)
+        print("\n⚠️  Cannot generate task overview with violations present.")
+        print("   Please fix product-feeds task files before continuing.")
+        sys.exit(1)
+    else:
+        print("✅ Validation passed - proceeding with generation")
+else:
+    print("⚠️  Validation script not found - skipping validation")
 
 # ============================================================================
 # PART 1: Generate Standard Overview (by client)
@@ -259,11 +322,15 @@ client_data = []
 
 for client_dir in sorted(clients_dir.iterdir()):
     if client_dir.is_dir() and not client_dir.name.startswith('_'):
-        # Check root location first (primary for all client work)
+        # Check root location ONLY (product-feeds is legacy and no longer used)
         task_file = client_dir / 'tasks.json'
-        if not task_file.exists():
-            # Fallback: check product-feeds (legacy location - should be migrated)
-            task_file = client_dir / 'product-feeds' / 'tasks.json'
+        
+        # READ-SIDE GUARD: Refuse to read from product-feeds
+        pf_task_file = client_dir / 'product-feeds' / 'tasks.json'
+        if pf_task_file.exists():
+            print(f"⚠️  WARNING: {client_dir.name} has product-feeds/tasks.json (legacy - ignoring)")
+            print(f"   Only reading from: {task_file}")
+        
         completed_md_file = client_dir / 'tasks-completed.md'
 
         # Skip if client has neither tasks.json nor tasks-completed.md
@@ -356,11 +423,14 @@ all_tasks = []
 print("Loading internal tasks...")
 for client_dir in sorted(clients_dir.iterdir()):
     if client_dir.is_dir() and not client_dir.name.startswith('_'):
-        # Check root location first (primary for all client work)
+        # Check root location ONLY (product-feeds is legacy and no longer used)
         task_file = client_dir / 'tasks.json'
-        if not task_file.exists():
-            # Fallback: check product-feeds (legacy location - should be migrated)
-            task_file = client_dir / 'product-feeds' / 'tasks.json'
+        
+        # READ-SIDE GUARD: Refuse to read from product-feeds
+        pf_task_file = client_dir / 'product-feeds' / 'tasks.json'
+        if pf_task_file.exists():
+            print(f"⚠️  WARNING: {client_dir.name} has product-feeds/tasks.json (legacy - ignoring)")
+        
         if task_file.exists():
             with open(task_file, 'r') as f:
                 data = json.load(f)

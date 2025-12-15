@@ -21,7 +21,7 @@ import requests
 from urllib.parse import urlparse
 
 # Configuration
-PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain")
+PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain.nosync")
 INBOX_DIR = PROJECT_ROOT / "roksys/knowledge-base/_inbox/documents"
 STATE_FILE = PROJECT_ROOT / "data/state/facebook-news-state.json"
 LOG_FILE = PROJECT_ROOT / "data/cache/facebook-news-monitor.log"

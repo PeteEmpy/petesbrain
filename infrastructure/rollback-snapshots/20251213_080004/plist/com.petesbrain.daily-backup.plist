@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.petesbrain.daily-backup</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>-c</string>
+		<string>/usr/bin/python3 /Users/administrator/.local/bin/petesbrain-backup.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/administrator/.petesbrain-backup-error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/administrator/.petesbrain-backup.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/administrator/Documents/PetesBrain.nosync</string>
+</dict>
+</plist>

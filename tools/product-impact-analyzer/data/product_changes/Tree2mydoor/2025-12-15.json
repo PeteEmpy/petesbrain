@@ -1,0 +1,196 @@
+{
+  "date": "2025-12-15",
+  "client": "Tree2mydoor",
+  "comparison_date": "2025-12-14",
+  "total_products_today": 746,
+  "total_products_yesterday": 746,
+  "summary": {
+    "changed_products": 8,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 7,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "60DWAR",
+      "title": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "OAKA",
+      "title": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
+      "changes": {
+        "custom_label_4": [
+          "highlyprofitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "35CWRB",
+      "title": "Coral 35th Anniversary Rose Bush Gift - 3.5L Pot - Floribunda Variety - Apricot Blooms Have A Delicate Scent",
+      "changes": {
+        "custom_label_4": [
+          "Low traffic",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "111183",
+      "title": "Pink Magnolia Tree Gift - 21cm Pot - 50cm In Height - Gorgeous Scented Purple-Pink Flowers Give The Wow Factor",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "RWPR",
+      "title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "club:yearly",
+      "title": "Tree2mydoor Membership",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "FFRBG",
+      "title": "A Faithful Friend Rose Bush Gift - Fragrant Yellow Blooms - In Memory Of A Dog, Cat Or Other Loyal Pet",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "02219C-2",
+      "title": "Christmas Bay Tree Gift - Medium Bay Tree (3L pot, 80cm height) - Medium Bay Tree (3L pot, 80cm height)",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "club:yearly",
+      "title": "Tree2mydoor Membership",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "60DWAR",
+      "title": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "OAKA",
+      "title": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
+      "changes": {
+        "custom_label_4": [
+          "highlyprofitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "35CWRB",
+      "title": "Coral 35th Anniversary Rose Bush Gift - 3.5L Pot - Floribunda Variety - Apricot Blooms Have A Delicate Scent",
+      "changes": {
+        "custom_label_4": [
+          "Low traffic",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "111183",
+      "title": "Pink Magnolia Tree Gift - 21cm Pot - 50cm In Height - Gorgeous Scented Purple-Pink Flowers Give The Wow Factor",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "RWPR",
+      "title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "Low traffic"
+        ]
+      }
+    },
+    {
+      "product_id": "FFRBG",
+      "title": "A Faithful Friend Rose Bush Gift - Fragrant Yellow Blooms - In Memory Of A Dog, Cat Or Other Loyal Pet",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "02219C-2",
+      "title": "Christmas Bay Tree Gift - Medium Bay Tree (3L pot, 80cm height) - Medium Bay Tree (3L pot, 80cm height)",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    }
+  ]
+}

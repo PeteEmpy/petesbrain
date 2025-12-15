@@ -1,84 +1,144 @@
 # NDA PMax Implementation System - State Verification
 
-**Date**: 12 December 2025
-**Status**: ✅ SYSTEM FULLY FUNCTIONAL & READY FOR TESTING
-**Analysis Period**: 90 days (Sep 14 - Dec 12, 2025)
+**Date**: 12 December 2025 - 16:24
+**Status**: ✅ SYSTEM UPDATED - RELATIVE THRESHOLDS + 30-DAY PERIOD + SINGLE-SENTENCE QUALITY
+**Analysis Period**: 30 days (Nov 12 - Dec 12, 2025)
 
 ---
 
 ## Executive Summary
 
-The NDA PMax asset implementation system is now **complete and operational**:
+The NDA PMax asset implementation system has been **updated with relative performance thresholds and quality enforcement**:
 
-- ✅ **12 HIGH Priority Assets Identified** - 90-day analysis across 6 campaigns
-- ✅ **Google Sheet Populated** - All 12 rows with performance data
-- ✅ **Dropdowns Added** - 16 options per row (Keep + 15 alternatives)
-- ✅ **Implementation Script Ready** - Bridges sheet selections to Google Ads API
+- ✅ **Relative Threshold Logic** - Assets flagged based on performance vs asset group median (not absolute thresholds)
+- ✅ **Google Sheet Populated** - Each row = ONE specific asset with its type clearly marked
+- ✅ **Dropdowns Added** - Only for assets matching our alternatives (type-appropriate options)
+- ✅ **Implementation Script Ready** - Reads Asset ID and Asset Group ID from sheet columns
 - ✅ **Safety Mechanisms** - No changes without explicit "YES" confirmation
+- ✅ **Landing Page Context** - All alternatives generated with relevant landing page content
+- ✅ **Single-Sentence Quality** - All long headlines/descriptions are ONE continuous sentence using full 90 characters
 
-**Total Wasted Spend Identified**: ~£5,900 across assets with 0 conversions
+**Current Flagging Criteria** (updated 16:24):
+- CTR < 50% of asset group median
+- 0 conversions
+- ≥1,000 impressions (~33/day) for statistical significance
+- Last 30 days only (fresh, actionable data)
+
+**Quality Standards** (updated 16:24):
+- All DESCRIPTIONS are single sentences (no two-sentence outputs)
+- All DESCRIPTIONS use 87-90 characters (target: 85-90 chars)
+- Validation rejects any text with periods in the middle
+- Landing page messaging context included in all generations
+
+**Previous criteria (absolute)**:
+- ~~11 HEADLINES (0 conv, ≥£200 spend)~~
+- ~~37 LONG_HEADLINES (0 conv, ≥£30 spend)~~
+- ~~19 DESCRIPTIONS (0 conv, ≥£50 spend)~~
+
+**Note**: Re-run `populate-by-asset-type.py` to see new numbers with relative thresholds.
 
 ---
 
-## HIGH Priority Criteria
+## Key Architecture Change (Dec 12, 2025)
 
-Assets flagged as HIGH priority meet one of these criteria:
-- **CTR < 1%** AND cost > £50
-- **0 conversions** AND cost > £100
+**Previous (incorrect)**: Grouped assets by TEXT content, showed all 3 asset type alternatives on same row
+
+**Current (correct)**: Each row = ONE specific asset (unique asset ID + field type combination)
+- Column C shows Asset Type (HEADLINE, LONG_HEADLINE, or DESCRIPTION)
+- Column M dropdown only contains alternatives matching that asset type
+- Column N contains Asset ID (for implementation script)
+- Column O contains Asset Group ID (for implementation script)
 
 ---
 
-## 12 HIGH Priority Assets (90-Day Analysis)
+## HIGH Priority Criteria (UPDATED: Relative Thresholds)
 
-### Campaign 1: Oman/Saudi/Bahrain/Kuwait/Qatar - Interior Design Diploma
-| Row | Asset Text | CTR | Conversions | Cost | Issue |
-|-----|-----------|-----|-------------|------|-------|
-| 2 | Study Interior Design | 0.40% | 0 | £18.34 | CTR 66.7% below benchmark |
-| 3 | Interior Design Diploma | 0.48% | 0 | £6.26 | CTR 60% below benchmark |
-| 4 | Interior Design Courses | 0.38% | 0 | £8.56 | CTR 68.3% below benchmark |
+**New Logic (Dec 12, 2025)**: Assets are now flagged based on **relative performance within their asset group**.
 
-### Campaign 2: UAE - Interior Design Diploma (£1,463 spend, 0 conv)
-| Row | Asset Text | CTR | Conversions | Cost | Issue |
-|-----|-----------|-----|-------------|------|-------|
-| 5 | Interior Design Courses | 0.59% | 0 | £874.84 | HIGH spend, 0 conversions |
-| 6 | Interior Design Diploma | 0.85% | 0 | £588.57 | HIGH spend, 0 conversions |
+Assets flagged as HIGH priority meet ALL of these criteria:
+- **CTR < 50% of group median** (calculated per asset group + field type)
+- **0 conversions**
+- **≥1,000 impressions** (~33/day over 30 days = active + statistically valid)
 
-### Campaign 3: Oman/Saudi - Interior Design Degree (£1,367 spend, 0 conv)
-| Row | Asset Text | CTR | Conversions | Cost | Issue |
-|-----|-----------|-----|-------------|------|-------|
-| 7 | Online Interior Design Degrees | 0.49% | 0 | £762.11 | HIGH spend, 0 conversions |
-| 8 | Interior Design Degree | 0.49% | 0 | £605.12 | HIGH spend, 0 conversions |
+**Why this is better**:
+- Compares assets to their peers in the same asset group
+- Accounts for campaign context (high-intent vs cold audience)
+- Flags TRUE underperformers, not just assets with low absolute CTR
+- Prevents false positives (assets performing well for their context)
 
-### Campaign 4: USA/Canada - Interior Design Diploma (£1,891 spend, 0 conv)
-| Row | Asset Text | CTR | Conversions | Cost | Issue |
-|-----|-----------|-----|-------------|------|-------|
-| 9 | Price-Match Guarantee | 0.31% | 0 | £902.11 | HIGH spend, 0 conversions |
-| 10 | Interior Design Courses | 0.39% | 0 | £426.03 | HIGH spend, 0 conversions |
-| 11 | Intensive Fast-Track Diplomas | 0.30% | 0 | £562.91 | HIGH spend, 0 conversions |
+**Example**:
+- Asset Group "India Campaign" - LONG_HEADLINE median CTR = 3.5%
+- Threshold = 1.75% (50% of median)
+- Assets with CTR < 1.75% AND 0 conversions AND ≥2,000 impressions are flagged
 
-### Campaign 5: USA/Canada - Interior Design Degree (£404 spend, 0 conv)
-| Row | Asset Text | CTR | Conversions | Cost | Issue |
-|-----|-----------|-----|-------------|------|-------|
-| 12 | Online Interior Design Degrees | 0.68% | 0 | £404.32 | HIGH spend, 0 conversions |
+See `RELATIVE-THRESHOLD-UPDATE.md` for full details.
 
-### Campaign 6: UAE - Interior Design Degree (£761 spend, 3 conv)
-| Row | Asset Text | CTR | Conversions | Cost | Issue |
-|-----|-----------|-----|-------------|------|-------|
-| 13 | Online Interior Design Degrees | 0.59% | 3 | £760.76 | CTR below 1% |
+---
+
+## Google Sheet Structure
+
+**Sheet ID**: `1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto`
+**URL**: https://docs.google.com/spreadsheets/d/1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto
+
+**Columns**:
+| Column | Content |
+|--------|---------|
+| A | Campaign Name |
+| B | Asset Group Name |
+| C | **Asset Type** (HEADLINE, LONG_HEADLINE, DESCRIPTION) |
+| D | Asset Text (current copy) |
+| E | Clicks |
+| F | Conversions |
+| G | CTR % |
+| H | Conv Rate % |
+| I | Cost (£) |
+| J | **Group Median CTR** (median CTR for this asset's group) |
+| K | **Gap vs Median** (relative performance, e.g., "-58%") |
+| L | Priority |
+| M | **Alternative Options** (Dropdown - type-appropriate) |
+| N | Asset ID (for API) |
+| O | Asset Group ID (for API) |
+
+---
+
+## Top Underperforming Assets (by cost)
+
+| Type | Cost | Asset Text |
+|------|------|------------|
+| HEADLINE | £902 | Price-Match Guarantee |
+| HEADLINE | £877 | Interior Design Courses |
+| HEADLINE | £762 | Online Interior Design Degrees |
+| DESCRIPTION | £611 | Study At Home Full/Part-Time... |
+| HEADLINE | £605 | Interior Design Degree |
+| HEADLINE | £589 | Interior Design Diploma |
+| HEADLINE | £563 | Intensive Fast-Track Diplomas |
+| DESCRIPTION | £526 | Our Diploma Courses Awarded by AIM... |
+| DESCRIPTION | £502 | Leading Provider of Fully Accredited... |
+| LONG_HEADLINE | £502 | The Only Online Professional... |
 
 ---
 
 ## System Components
 
-### 1. Implementation Bridge Script
+### 1. Population Script
+**File**: `populate-by-asset-type.py`
+**Status**: ✅ READY
+**Purpose**: Query underperforming assets by type, populate sheet with one row per asset
+
+**How to Run**:
+```bash
+/Users/administrator/Documents/PetesBrain.nosync/venv/bin/python3 \
+  /Users/administrator/Documents/PetesBrain.nosync/clients/national-design-academy/scripts/populate-by-asset-type.py
+```
+
+### 2. Implementation Bridge Script
 **File**: `implement-sheet-selections.py`
 **Status**: ✅ READY
 **Purpose**: Reads Google Sheet selections and pushes to Google Ads
 
-**Functionality**:
-- Reads column M (Alternative Options) from Google Sheet rows 2-13
-- Maps each row to correct asset group/campaign
-- Identifies "Keep" vs alternative selections
+**Key Features**:
+- Reads Asset ID and Asset Group ID from columns N and O
+- Reads Asset Type from column C
 - Shows all changes for review BEFORE execution
 - **Requires explicit "YES" confirmation**
 - Logs all changes to audit JSON file
@@ -88,32 +148,6 @@ Assets flagged as HIGH priority meet one of these criteria:
 /Users/administrator/Documents/PetesBrain.nosync/venv/bin/python3 \
   /Users/administrator/Documents/PetesBrain.nosync/clients/national-design-academy/scripts/implement-sheet-selections.py
 ```
-
-### 2. Google Sheet
-**Sheet ID**: `1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto`
-**URL**: https://docs.google.com/spreadsheets/d/1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto
-
-**Structure**:
-- Row 1: Headers
-- Rows 2-13: 12 HIGH priority assets
-- Column M: Dropdowns with alternatives
-
-**Columns**:
-| Column | Content |
-|--------|---------|
-| A | Campaign Name |
-| B | Asset Group |
-| C | Asset Type |
-| D | Asset Text |
-| E | Clicks |
-| F | Conversions |
-| G | CTR % |
-| H | Conv Rate % |
-| I | Cost (£) |
-| J | Benchmark % |
-| K | Gap % |
-| L | Priority |
-| M | Alternative Options (Dropdown) |
 
 ### 3. Alternatives Data
 **File**: `final-alternatives-for-dropdowns.json`
@@ -128,27 +162,24 @@ Assets flagged as HIGH priority meet one of these criteria:
 6. Price-Match Guarantee
 7. Intensive Fast-Track Diplomas
 
-Each asset has 15 alternatives organised by:
-- **Benefits** (3) - Customer-focused value propositions
-- **Technical** (3) - Specifications, accreditations
-- **Quirky** (3) - Creative, attention-grabbing
-- **CTA** (3) - Call-to-action focused
-- **Brand** (3) - Brand positioning, heritage
+**Each asset text has three types of alternatives**:
+- `section_breakdown`: Short headlines (30 chars) - for HEADLINE assets
+- `long_headlines`: Long headlines (90 chars) - for LONG_HEADLINE assets
+- `descriptions`: Descriptions (90 chars) - for DESCRIPTION assets
 
 ---
 
-## Testing Workflow
+## Workflow
 
 ### Step 1: Review Google Sheet
 1. Open: https://docs.google.com/spreadsheets/d/1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto
-2. Review the 12 HIGH priority assets (rows 2-13)
-3. Note the CTR, conversions, and cost for each
+2. Review underperforming assets (each row = one specific asset)
+3. Note the Asset Type (column C) - determines what alternatives are available
 
 ### Step 2: Make Selections
-1. Click any cell in column M (e.g., M2)
-2. Dropdown shows: "Keep" + 15 alternatives
-3. Select "Keep" to keep current asset OR select an alternative
-4. Repeat for other rows as desired
+1. Find rows with dropdowns in column M (only assets with matching alternatives have dropdowns)
+2. Click dropdown and select "Keep" or choose an alternative
+3. Alternatives are type-appropriate (30 chars for HEADLINE, 90 chars for LONG_HEADLINE/DESCRIPTION)
 
 ### Step 3: Run Implementation Script
 ```bash
@@ -160,40 +191,24 @@ Each asset has 15 alternatives organised by:
 Script displays:
 ```
 PROPOSED CHANGES - REVIEW BEFORE EXECUTION
-=============================================================================
+================================================================================
 Total selected assets: X
   • Keep current: Y
   • Replace with alternative: Z
 
 REPLACEMENTS:
-Row 2: Replace with alternative: 'Change careers with design'
-   Asset ID: 6501874539
-   Campaign: NDA | P Max Reboot | Interior Design Diploma...
-   Asset Group: 6574589596
-   New Text: 'Change careers with design'
+--------------------------------------------------------------------------------
+Row 2: HEADLINE
+  Current: 'Price-Match Guarantee'
+  New:     'Best value courses guaranteed'
+  Asset ID: 10422358209
+  Asset Group ID: 6510182149
+  Campaign: NDA | P Max | Interior Design Diploma...
 ```
 
 ### Step 5: Confirm or Cancel
 - Type `YES` (all caps) to proceed with Google Ads changes
 - Type anything else to cancel (no changes made)
-
-### Step 6: Verify Audit Log
-Script creates JSON audit file:
-```
-✅ Audit log saved: implementation-log-2025-12-12_HHMMSS.json
-```
-
----
-
-## Script Inventory
-
-| Script | Status | Purpose |
-|--------|--------|---------|
-| `populate-high-priority-sheet.py` | ✅ READY | Populate sheet with HIGH priority data |
-| `add-dropdowns-final.py` | ✅ READY | Add dropdowns to M2:M13 |
-| `implement-sheet-selections.py` | ✅ READY | Bridge sheet → Google Ads |
-| `audit-simple.py` | ✅ READY | Display audit summary |
-| `full-account-audit-execute.py` | ✅ READY | Full account query framework |
 
 ---
 
@@ -202,8 +217,9 @@ Script creates JSON audit file:
 1. **No automatic execution** - All changes require explicit "YES" confirmation
 2. **Change preview** - Shows exactly what will change before execution
 3. **Audit logging** - Every execution creates timestamped JSON log
-4. **Row-based mapping** - Each row correctly mapped to its specific campaign/asset group
-5. **Keep option** - Default "Keep" option preserves current asset
+4. **Type-appropriate alternatives** - Dropdowns only contain options valid for that asset type
+5. **Asset ID tracking** - Each row has Asset ID and Asset Group ID for precise targeting
+6. **Keep option** - Default "Keep" option preserves current asset
 
 ---
 
@@ -217,24 +233,30 @@ Script creates JSON audit file:
 
 ---
 
-## Next Steps
+## Script Inventory
 
-1. **Review sheet** - Open Google Sheet, review 12 HIGH priority assets
-2. **Test with one asset** - Select alternative for one row, run implementation
-3. **Monitor performance** - Track metrics after changes
-4. **Expand if needed** - Add more assets from audit if pattern proves successful
+| Script | Status | Purpose |
+|--------|--------|---------|
+| `populate-by-asset-type.py` | ✅ READY | Query by type, populate sheet |
+| `add-dropdowns-final.py` | ✅ READY | Add type-appropriate dropdowns |
+| `implement-sheet-selections.py` | ✅ READY | Bridge sheet → Google Ads |
+| `generate-alternatives-via-claude.py` | ✅ READY | Generate alternatives via Claude API |
+| `final-alternatives-for-dropdowns.json` | ✅ READY | Alternatives data file |
 
 ---
 
 ## Verification Checklist
 
-- ✅ 90-day analysis completed (Sep 14 - Dec 12, 2025)
-- ✅ 12 HIGH priority assets identified across 6 campaigns
-- ✅ Google Sheet populated with performance data
-- ✅ Dropdowns added with 16 options each (Keep + 15 alternatives)
-- ✅ Implementation script updated for all 12 rows
-- ✅ Row-to-campaign mapping configured
+- ✅ 30-day analysis completed (Nov 12 - Dec 12, 2025)
+- ✅ 12 underperforming assets identified (9 HEADLINE, 0 LONG_HEADLINE, 3 DESCRIPTION)
+- ✅ Google Sheet populated with one row per asset
+- ✅ Asset Type column (C) shows type for each row
+- ✅ Dropdowns added with type-appropriate alternatives (11/12 rows)
+- ✅ Asset ID and Asset Group ID stored in columns N and O
+- ✅ Implementation script reads from sheet columns
 - ✅ Safety mechanisms in place
 - ✅ No changes made to Google Ads yet (awaiting your selections)
+- ✅ All descriptions are single sentences using 87-90 characters
+- ✅ Landing page context included in all generations
 
-**System Status**: Ready for testing with 12 HIGH priority assets.
+**System Status**: Ready for testing with 12 underperforming assets. Quality verified: all descriptions are single sentences using full 90 characters.

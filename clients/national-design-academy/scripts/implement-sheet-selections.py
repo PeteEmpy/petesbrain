@@ -3,13 +3,15 @@
 Implement NDA PMax Sheet Selections to Google Ads
 
 This script:
-1. Reads selected alternatives from Google Sheet (column M - rows 2+)
-2. For each selection, determines if it's "Keep" or an alternative
-3. Prepares Google Ads API mutations to create/pause assets
+1. Reads all data from Google Sheet (rows 2+)
+2. For each row with a selection in column M, determines if it's "Keep" or an alternative
+3. Uses Asset ID (column N) and Asset Group ID (column O) from the sheet
 4. Shows changes for review BEFORE execution
 5. Only executes after explicit user confirmation
 
 SAFETY: Does NOT make any Google Ads changes without explicit "yes" confirmation
+
+Updated: Dec 12, 2025 - Now reads Asset ID and Asset Group ID from sheet columns
 """
 
 import sys
@@ -33,48 +35,18 @@ CUSTOMER_ID = "1994728449"
 SPREADSHEET_ID = "1VlsVKPPydqh5w70l9QmV6oT8B7qlw6YKMDgrcp2Zpto"
 TOKEN_FILE = '/Users/administrator/.config/google-drive-mcp/tokens.json'
 
-# Map cell references to asset IDs (12 HIGH priority assets from 90-day analysis)
-ASSET_ID_MAP = {
-    'M2': '6501874539',   # Study Interior Design (Oman/Saudi Diploma)
-    'M3': '6542848540',   # Interior Design Diploma (Oman/Saudi Diploma)
-    'M4': '8680183789',   # Interior Design Courses (Oman/Saudi Diploma)
-    'M5': '8680183789',   # Interior Design Courses (UAE Diploma)
-    'M6': '6542848540',   # Interior Design Diploma (UAE Diploma)
-    'M7': '8680134790',   # Online Interior Design Degrees (Oman/Saudi Degree)
-    'M8': '6503351051',   # Interior Design Degree (Oman/Saudi Degree)
-    'M9': '10422358209',  # Price-Match Guarantee (USA/Canada Diploma)
-    'M10': '8680183789',  # Interior Design Courses (USA/Canada Diploma)
-    'M11': '182887527317', # Intensive Fast-Track Diplomas (USA/Canada Diploma)
-    'M12': '8680134790',  # Online Interior Design Degrees (USA/Canada Degree)
-    'M13': '8680134790',  # Online Interior Design Degrees (UAE Degree)
-}
-
-# Map rows to asset group info (from populate script data)
-ROW_TO_ASSET_GROUP = {
-    2: {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4', 'asset_type': 'HEADLINE'},
-    3: {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4', 'asset_type': 'HEADLINE'},
-    4: {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target 24/4', 'asset_type': 'HEADLINE'},
-    5: {'asset_group_id': '6574552905', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - UAE 175 no target 28/5', 'asset_type': 'HEADLINE'},
-    6: {'asset_group_id': '6574552905', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - UAE 175 no target 28/5', 'asset_type': 'HEADLINE'},
-    7: {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target', 'asset_type': 'HEADLINE'},
-    8: {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar 135 Split 11/3 No Target', 'asset_type': 'HEADLINE'},
-    9: {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada 250 Split 11/3 No Target 29/5', 'asset_type': 'HEADLINE'},
-    10: {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada 250 Split 11/3 No Target 29/5', 'asset_type': 'HEADLINE'},
-    11: {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada 250 Split 11/3 No Target 29/5', 'asset_type': 'HEADLINE'},
-    12: {'asset_group_id': '6559669429', 'campaign_name': 'NDA | P Max | Interior Design Degree - USA/Canada 250 Split 11/3', 'asset_type': 'HEADLINE'},
-    13: {'asset_group_id': '6557276329', 'campaign_name': 'NDA | P Max | Interior Design Degree - UAE 175 No Target 24/4', 'asset_type': 'HEADLINE'},
-}
-
-# Map asset IDs to asset groups (legacy - kept for backwards compatibility)
-ASSET_TO_GROUP = {
-    '6501874539': {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
-    '6542848540': {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
-    '8680183789': {'asset_group_id': '6574589596', 'campaign_name': 'NDA | P Max Reboot | Interior Design Diploma - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
-    '8680134790': {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
-    '6503351051': {'asset_group_id': '6559669612', 'campaign_name': 'NDA | P Max | Interior Design Degree - Oman/Saudi/Bahrain/Kuwait/Qatar...', 'asset_type': 'HEADLINE'},
-    '10422358209': {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada...', 'asset_type': 'HEADLINE'},
-    '182887527317': {'asset_group_id': '6510182149', 'campaign_name': 'NDA | P Max | Interior Design Diploma - USA/Canada...', 'asset_type': 'HEADLINE'},
-}
+# Sheet columns (0-indexed):
+# A=0: Campaign, B=1: Asset Group, C=2: Asset Type, D=3: Asset Text
+# E=4: Clicks, F=5: Conv, G=6: CTR, H=7: Conv Rate, I=8: Cost
+# J=9: Benchmark, K=10: Gap, L=11: Priority, M=12: Alternative
+# N=13: Asset ID, O=14: Asset Group ID
+COL_CAMPAIGN = 0
+COL_ASSET_GROUP_NAME = 1
+COL_ASSET_TYPE = 2
+COL_ASSET_TEXT = 3
+COL_ALTERNATIVE = 12
+COL_ASSET_ID = 13
+COL_ASSET_GROUP_ID = 14
 
 def get_sheets_service():
     """Load Google Sheets credentials and build service"""
@@ -94,12 +66,13 @@ def get_sheets_service():
 
     return build('sheets', 'v4', credentials=creds)
 
-def read_sheet_selections(service):
-    """Read column M (Alternative Options) from rows 2 onwards"""
+
+def read_sheet_data(service):
+    """Read all columns A-O from rows 2 onwards"""
     try:
         result = service.spreadsheets().values().get(
             spreadsheetId=SPREADSHEET_ID,
-            range='Sheet1!M2:M100'
+            range='Sheet1!A2:O200'
         ).execute()
         values = result.get('values', [])
         return values
@@ -107,19 +80,19 @@ def read_sheet_selections(service):
         print(f"❌ Error reading sheet: {str(e)}")
         return None
 
-def load_alternatives():
-    """Load alternatives JSON file"""
-    alt_file = Path(__file__).parent / 'final-alternatives-for-dropdowns.json'
-    if not alt_file.exists():
-        print(f"⚠️  Alternatives file not found: {alt_file}")
-        return {}
 
-    with open(alt_file, 'r') as f:
-        return json.load(f)
+def get_cell_value(row, col_idx, default=''):
+    """Safely get a cell value from a row"""
+    if col_idx < len(row):
+        return row[col_idx] if row[col_idx] else default
+    return default
 
-def build_mutations(selections, alternatives_data):
+
+def build_mutations(sheet_data):
     """
     Build Google Ads API mutations for selected alternatives
+
+    Reads asset ID, asset group ID, and asset type from the sheet columns.
 
     Returns:
     - List of mutations to execute
@@ -128,29 +101,32 @@ def build_mutations(selections, alternatives_data):
     mutations = []
     changes = []
 
-    for row_idx, selection in enumerate(selections, start=2):
-        if not selection or not selection[0].strip():
-            continue
+    for row_idx, row in enumerate(sheet_data, start=2):
+        # Get the alternative selection (column M)
+        selected_value = get_cell_value(row, COL_ALTERNATIVE).strip()
 
-        selected_value = selection[0].strip()
-        cell_ref = f'M{row_idx}'
-        asset_id = ASSET_ID_MAP.get(cell_ref)
+        if not selected_value:
+            continue  # No selection made
 
-        if not asset_id:
-            continue
+        # Get metadata from sheet columns
+        campaign_name = get_cell_value(row, COL_CAMPAIGN)
+        asset_group_name = get_cell_value(row, COL_ASSET_GROUP_NAME)
+        asset_type = get_cell_value(row, COL_ASSET_TYPE)
+        asset_text = get_cell_value(row, COL_ASSET_TEXT)
+        asset_id = get_cell_value(row, COL_ASSET_ID)
+        asset_group_id = get_cell_value(row, COL_ASSET_GROUP_ID)
 
-        # Use row-based mapping first (more accurate per-campaign), fallback to asset-based
-        asset_info = ROW_TO_ASSET_GROUP.get(row_idx) or ASSET_TO_GROUP.get(asset_id)
-        if not asset_info:
+        if not asset_id or not asset_group_id:
+            print(f"⚠️  Row {row_idx}: Missing asset ID or asset group ID, skipping")
             continue
 
         # Determine action
         if selected_value == "Keep":
             action = "KEEP_CURRENT"
-            change_desc = f"Row {row_idx}: Keep current asset (no change)"
+            change_desc = f"Row {row_idx}: Keep current {asset_type} (no change)"
         else:
             action = "REPLACE_WITH_ALTERNATIVE"
-            change_desc = f"Row {row_idx}: Replace with alternative: '{selected_value}'"
+            change_desc = f"Row {row_idx}: Replace {asset_type} with: '{selected_value}'"
 
             # Build mutation for replacement
             mutation = {
@@ -164,18 +140,22 @@ def build_mutations(selections, alternatives_data):
             mutations.append({
                 'type': 'asset_create',
                 'mutation': mutation,
-                'asset_info': asset_info,
-                'original_asset_id': asset_id,
+                'asset_id': asset_id,
+                'asset_group_id': asset_group_id,
+                'asset_type': asset_type,
+                'original_text': asset_text,
                 'new_text': selected_value,
+                'campaign_name': campaign_name,
                 'row': row_idx
             })
 
         changes.append({
             'row': row_idx,
-            'cell': cell_ref,
             'asset_id': asset_id,
-            'campaign': asset_info['campaign_name'],
-            'asset_group': asset_info['asset_group_id'],
+            'asset_type': asset_type,
+            'asset_text': asset_text,
+            'campaign': campaign_name,
+            'asset_group_id': asset_group_id,
             'action': action,
             'selection': selected_value,
             'description': change_desc
@@ -190,7 +170,7 @@ def display_changes_for_review(changes):
     print("="*80)
 
     if not changes:
-        print("\nNo changes to implement (all rows set to 'Keep')")
+        print("\nNo changes to implement (no selections made)")
         return
 
     keep_count = sum(1 for c in changes if c['action'] == 'KEEP_CURRENT')
@@ -207,11 +187,12 @@ def display_changes_for_review(changes):
 
         for change in changes:
             if change['action'] == 'REPLACE_WITH_ALTERNATIVE':
-                print(f"\n{change['row']}. {change['description']}")
-                print(f"   Asset ID: {change['asset_id']}")
-                print(f"   Campaign: {change['campaign']}")
-                print(f"   Asset Group: {change['asset_group']}")
-                print(f"   New Text: '{change['selection']}'")
+                print(f"\nRow {change['row']}: {change['asset_type']}")
+                print(f"  Current: '{change['asset_text']}'")
+                print(f"  New:     '{change['selection']}'")
+                print(f"  Asset ID: {change['asset_id']}")
+                print(f"  Asset Group ID: {change['asset_group_id']}")
+                print(f"  Campaign: {change['campaign'][:60]}...")
 
 def get_confirmation():
     """Get explicit user confirmation before making changes"""
@@ -239,9 +220,9 @@ def execute_mutations(mutations):
 
         if mut_type == 'asset_create':
             try:
-                print(f"\n{idx}/{len(mutations)} Creating new asset...")
+                print(f"\n{idx}/{len(mutations)} Creating new {mut['asset_type']}...")
                 print(f"   Text: '{mut['new_text']}'")
-                print(f"   For asset group: {mut['asset_info']['asset_group_id']}")
+                print(f"   Asset Group ID: {mut['asset_group_id']}")
 
                 # Call Google Ads API
                 url = f"https://googleads.googleapis.com/v22/customers/{formatted_customer_id}/assets:mutate"
@@ -254,7 +235,7 @@ def execute_mutations(mutations):
                     print(f"   ✅ Asset created successfully")
                     results.append({'success': True, 'mutation': mut, 'result': result})
                 else:
-                    print(f"   ❌ Failed: {response.status_code} - {response.text}")
+                    print(f"   ❌ Failed: {response.status_code} - {response.text[:200]}")
                     results.append({'success': False, 'mutation': mut, 'error': response.text})
             except Exception as e:
                 print(f"   ❌ Exception: {str(e)}")
@@ -294,51 +275,53 @@ def main():
     print("="*80)
     print(f"\nCustomer ID: {CUSTOMER_ID}")
     print(f"Spreadsheet: {SPREADSHEET_ID}")
-    print(f"Sheet Range: M2:M100 (Alternative Options)")
+    print(f"Sheet URL: https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}")
 
     # Step 1: Read sheet
     print("\n" + "-"*80)
-    print("STEP 1: Reading sheet selections...")
+    print("STEP 1: Reading sheet data...")
     print("-"*80)
 
     service = get_sheets_service()
-    selections = read_sheet_selections(service)
+    sheet_data = read_sheet_data(service)
 
-    if selections is None:
+    if sheet_data is None:
         print("❌ Failed to read sheet")
         return
 
-    print(f"✅ Read {len(selections)} rows from sheet")
+    print(f"✅ Read {len(sheet_data)} rows from sheet")
 
-    # Step 2: Load alternatives
+    # Count rows with selections
+    rows_with_selections = sum(1 for row in sheet_data if len(row) > COL_ALTERNATIVE and row[COL_ALTERNATIVE].strip())
+    print(f"   Rows with selections in column M: {rows_with_selections}")
+
+    # Step 2: Build mutations
     print("\n" + "-"*80)
-    print("STEP 2: Loading alternatives...")
+    print("STEP 2: Building mutations from selections...")
     print("-"*80)
 
-    alternatives_data = load_alternatives()
-    print(f"✅ Loaded alternatives for {len(alternatives_data)} assets")
+    mutations, changes = build_mutations(sheet_data)
+    print(f"✅ Found {len(changes)} selections")
+    print(f"   Prepared {len(mutations)} mutations (replacements)")
 
-    # Step 3: Build mutations
-    print("\n" + "-"*80)
-    print("STEP 3: Building mutations...")
-    print("-"*80)
+    if not changes:
+        print("\n⚠️  No selections found in column M. Make selections in the sheet first.")
+        print(f"   Sheet URL: https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}")
+        return
 
-    mutations, changes = build_mutations(selections, alternatives_data)
-    print(f"✅ Prepared {len(mutations)} mutations")
-
-    # Step 4: Display for review
+    # Step 3: Display for review
     display_changes_for_review(changes)
 
-    # Step 5: Get confirmation
+    # Step 4: Get confirmation
     if not get_confirmation():
         print("\n❌ Cancelled - No changes made to Google Ads")
         log_changes(changes, False)
         return
 
-    # Step 6: Execute (only if confirmed)
+    # Step 5: Execute (only if confirmed)
     success = execute_mutations(mutations)
 
-    # Step 7: Log
+    # Step 6: Log
     log_changes(changes, success)
 
     if success:

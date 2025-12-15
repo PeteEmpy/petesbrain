@@ -5,6 +5,35 @@ Tasks are logged automatically by the Google Tasks monitoring system.
 
 ---
 
+## [Roksys] Phase 1A: Google Ads Weekly E-commerce Report Skill
+**Completed:** 2025-12-12 14:47
+**Task ID:** b192a530-fa15-49e8-b629-bb49f7677a14
+**Priority:** P1
+**Source:** GoMarble Implementation Plan
+
+**Original Task:**
+Create .claude/skills/google-ads-weekly-report/ skill.
+
+**Output:**
+- Campaign overview (spend, conversions, ROAS, CPA)
+- Product-level performance (top 10 best/worst by ROAS)
+- Placement analysis (Shopping, YouTube, Display, Discover)
+- Week-over-week changes (>15% flagged)
+- 3-5 prioritized recommendations
+
+**Test with:** Godshot (simple), Go Glean, Bright Minds
+
+**Success:** Generate report in <5 minutes, identify 1+ actionable insight per client
+
+**Time:** 4 hours
+
+**Manual Note (added 2025-12-12):**
+Completed
+
+**Status:** ✅ Completed
+
+---
+
 ## [Roksys] Implement Knowledge Base Search - Conversational AI Search Interface
 **Completed:** 2025-12-11 16:08
 **Source:** Manual task notes
@@ -722,5 +751,25 @@ Dawn booked in for the 3rd of December.
 **Source:** Wispr Flow
 
 Appointment booked.
+
+---
+
+## 2025-12-13 08:06 - [PetesBrain] Verify Full System Backup Working After Restart
+
+**Priority:** P0  
+**Completed:** 2025-12-13 08:06
+
+**What was done:**
+- Fixed backup script paths (PetesBrain → PetesBrain.nosync)
+- Created iCloud backup directories
+- Tested critical tasks backup (131K, working every 6 hours)
+- Tested full system backup (1.1GB, working)
+
+**Results:**
+- ✅ Manual backups working perfectly
+- ✅ Critical tasks backup protecting data every 6 hours
+- ⚠️ LaunchAgent automation still needs Full Disk Access fix
+
+**Impact:** Critical task data now protected with working backups
 
 ---

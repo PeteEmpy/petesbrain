@@ -601,21 +601,17 @@ def get_all_existing_tasks():
     # Check all client tasks.json files
     for client_dir in CLIENTS_DIR.iterdir():
         if client_dir.is_dir() and not client_dir.name.startswith('_'):
-            # Check root location first (primary for all client work)
-            for task_path in [
-                client_dir / 'tasks.json',
-                None  # Removed: product-feeds location no longer used  # Fallback (legacy)
-            ]:
-                if task_path.exists():
-                    try:
-                        with open(task_path, 'r') as f:
-                            data = json.load(f)
-                        for task in data.get('tasks', []):
-                            if task.get('status') == 'active':
-                                all_tasks.append(task.get('title', ''))
-                    except:
-                        pass
-                    break  # Only use first found
+            # Check root location ONLY (product-feeds is legacy and no longer used)
+            task_path = client_dir / 'tasks.json'
+            if task_path.exists():
+                try:
+                    with open(task_path, 'r') as f:
+                        data = json.load(f)
+                    for task in data.get('tasks', []):
+                        if task.get('status') == 'active':
+                            all_tasks.append(task.get('title', ''))
+                except:
+                    pass
 
     # Also check roksys tasks
     roksys_tasks = PROJECT_ROOT / 'roksys' / 'tasks.json'

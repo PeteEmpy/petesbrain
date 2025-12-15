@@ -1225,3 +1225,90 @@ All documentation complete in clients/superspace/documents/.
 
 **Verification:** `/tools/product-impact-analyzer/monitoring/snapshot_superspace_2025-11-24.json` shows all products active with no disapprovals.
 
+## [Superspace] Morning review: US post-budget-reduction + AU Phase 1 performance
+**Completed:** 2025-12-12 15:23
+**Source:** Created from manual task note - consolidates US+AU morning monitoring
+
+**Morning Performance Review - Thursday Dec 5th**
+
+Review overnight performance data now that we have full 24-48 hours post-changes:
+
+**US Post-Budget Reduction (Dec 3rd changes):**
+- Pull Dec 3-5 spend data by campaign
+- Check ROAS trends (account for 48-72hr conversion lag improving)
+- Budget pacing: any campaigns exhausting early or under-spending?
+- Decision: Further reductions needed or budgets correct?
+
+**AU Phase 1 (Dec 4th changes: £435 → £700/day):**
+- ROAS per campaign vs 1,334% baseline
+- Red flag check: >25% ROAS drop in any campaign?
+- Learning mode warnings in UI?
+- Conversion volume tracking with increased spend?
+- Decision: GREEN = proceed Phase 2 on Dec 6th | RED = delay 24-48hrs
+
+**Data Range:** Dec 3-5 (full 48hrs post US change, 24hrs post AU change)
+
+**Decision Outcomes:**
+- US: Stable/improving = document for weekly report | Issues = email Craig
+- AU: Green flags = prepare Phase 2 | Red flags = delay and monitor
+
+**Related Tasks:**
+- US monitoring (afternoon Dec 4) - completed
+- AU Phase 1 monitoring (Dec 4-5) - this replaces it
+- AU Phase 2 (Dec 6) - dependent on this review
+
+---
+## [Superspace] AUTOMATIC Phase 2: 20% budget reduction (unless Craig stops)
+**Completed:** 2025-12-12 15:23
+**Source:** Manual
+
+AUTOMATIC EXECUTION - Proceed unless client requests stop.
+
+**Context:** Phase 2 of emergency stock depletion response. Phase 1 (20% cut) completed Nov 20.
+
+**Action:** Reduce US campaign budgets by additional 20% from current £11,568/day.
+
+**New Target:** £9,254/day active budget (total ~42% reduction from original £14,460)
+
+**Method:** Apply ROAS-weighted cuts again, same algorithm as Phase 1.
+
+**Before Executing:**
+1. Check email/WhatsApp for any "stop" message from Craig
+2. If no stop message received by 9:00 AM Friday → PROCEED AUTOMATICALLY
+
+**After Executing:**
+3. Verify via GAQL query
+4. Update tasks-completed.md
+5. Send brief email confirmation to Craig
+6. Note: Demand Gen campaigns stay paused
+
+**Reference:** clients/superspace/documents/2025-11-20-us-budget-reduction-ROAS-WEIGHTED.md
+
+---
+## [Superspace] AUTOMATIC Phase 3: 10% budget reduction (unless Craig stops)
+**Completed:** 2025-12-12 15:23
+**Source:** Manual
+
+AUTOMATIC EXECUTION - Proceed unless client requests stop.
+
+**Context:** Phase 3 (final) of emergency stock depletion response. Phases 1+2 completed.
+
+**Action:** Reduce US campaign budgets by final 10% from Phase 2 levels.
+
+**New Target:** £8,329/day active budget (total ~45% reduction from original £14,460)
+
+**Method:** Apply ROAS-weighted cuts again.
+
+**Before Executing:**
+1. Check email/WhatsApp for any "stop" message from Craig
+2. If no stop message received by 9:00 AM Monday → PROCEED AUTOMATICALLY
+
+**After Executing:**
+3. Verify via GAQL query
+4. Update tasks-completed.md
+5. Send brief email confirmation to Craig
+6. Review with Craig: When to begin scaling back up when stock arrives
+
+**Reference:** clients/superspace/documents/2025-11-20-us-budget-reduction-ROAS-WEIGHTED.md
+
+---

@@ -1,0 +1,196 @@
+{
+  "date": "2025-12-15",
+  "client": "WheatyBags",
+  "comparison_date": "2025-12-14",
+  "total_products_today": 2957,
+  "total_products_yesterday": 2957,
+  "summary": {
+    "changed_products": 8,
+    "price_changes": 0,
+    "sale_price_changes": 4,
+    "availability_changes": 4,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS1696V399198",
+      "title": "Double-Sided Photo Collage Wheat Bag (Bottle Shape) (35cm) Soft Velvet Polyester Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG1393V382799",
+      "title": "Photo Collage Microwavable Heat Pack (Bottle Shape) (35cm) - Natural Cotton Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416514",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Purple Cotton Fabric with Removable Cover (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "",
+          "19.57 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1696V399188",
+      "title": "Double-Sided Photo Collage Wheat Bag (Bottle Shape) (35cm) Soft Velvet Polyester Fabric with Removable Cover (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416516",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Red Cotton Fabric (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "13.80 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V397709",
+      "title": "Wheat Bags Heat Pack (33cm x 16cm) - Natural Organic Cotton",
+      "changes": {
+        "sale_price": [
+          "15.37 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "HSG1393V382814",
+      "title": "Photo Collage Microwavable Heat Pack (Bottle Shape) (35cm) - Purple Cotton Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V397768",
+      "title": "Wheat Bags Heat Pack (33cm x 16cm) - Gothic Blue Luxury Cotton Fabric Scented (Organic Lavender Buds) with Removable Cover (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "",
+          "22.64 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [
+    {
+      "product_id": "WBS52V416514",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Purple Cotton Fabric with Removable Cover (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "",
+          "19.57 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416516",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Red Cotton Fabric (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "13.80 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V397709",
+      "title": "Wheat Bags Heat Pack (33cm x 16cm) - Natural Organic Cotton",
+      "changes": {
+        "sale_price": [
+          "15.37 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V397768",
+      "title": "Wheat Bags Heat Pack (33cm x 16cm) - Gothic Blue Luxury Cotton Fabric Scented (Organic Lavender Buds) with Removable Cover (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "",
+          "22.64 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "WBS1696V399198",
+      "title": "Double-Sided Photo Collage Wheat Bag (Bottle Shape) (35cm) Soft Velvet Polyester Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG1393V382799",
+      "title": "Photo Collage Microwavable Heat Pack (Bottle Shape) (35cm) - Natural Cotton Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS1696V399188",
+      "title": "Double-Sided Photo Collage Wheat Bag (Bottle Shape) (35cm) Soft Velvet Polyester Fabric with Removable Cover (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "HSG1393V382814",
+      "title": "Photo Collage Microwavable Heat Pack (Bottle Shape) (35cm) - Purple Cotton Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

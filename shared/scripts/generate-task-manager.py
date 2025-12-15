@@ -170,11 +170,14 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             task_id = task.get('id')
 
             client_sections += f'''                <div class="task priority-{priority}" onclick="openTaskModal('{task_id}')">
-                    <div class="task-title">{title}</div>
-                    <div class="task-meta">
-                        <span class="task-priority">{priority}</span>
-                        <span class="task-due">{due_date}</span>
+                    <div class="task-content">
+                        <div class="task-title">{title}</div>
+                        <div class="task-meta">
+                            <span class="task-priority">{priority}</span>
+                            <span class="task-due">{due_date}</span>
+                        </div>
                     </div>
+                    <button class="task-quick-complete" onclick="event.stopPropagation(); quickCompleteTask(event, '{task_id}')">✓ Complete</button>
                 </div>
 '''
 
@@ -377,10 +380,35 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             border-left: 4px solid #e0e0e0;
             cursor: pointer;
             transition: all 0.2s;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }}
         .task:hover {{
             border-color: #999;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }}
+        .task-content {{
+            flex: 1;
+        }}
+        .task-quick-complete {{
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+            opacity: 0;
+            margin-left: 10px;
+        }}
+        .task:hover .task-quick-complete {{
+            opacity: 1;
+        }}
+        .task-quick-complete:hover {{
+            background: #218838;
         }}
         .task.priority-P0 {{
             border-left-color: #dc3545;
@@ -605,6 +633,13 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
         .modal-btn-save:hover {{
             background: #5a6268;
         }}
+        .modal-btn-complete {{
+            background: #28a745;
+            color: white;
+        }}
+        .modal-btn-complete:hover {{
+            background: #218838;
+        }}
         @media (max-width: 1200px) {{
             .content-wrapper {{
                 grid-template-columns: 1fr;
@@ -665,6 +700,7 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             </div>
             <div class="modal-buttons">
                 <button class="modal-btn modal-btn-cancel" onclick="closeTaskModal()">Cancel</button>
+                <button class="modal-btn modal-btn-complete" onclick="completeTask()">✓ Complete</button>
                 <button class="modal-btn modal-btn-save" onclick="saveNote()">Save to Manual Tasks</button>
             </div>
         </div>
@@ -846,6 +882,94 @@ function saveNote() {{
     .catch(error => {{
         console.error('Error:', error);
         alert('Error saving note: Could not connect to backend server.\\n\\nMake sure task-notes-api.py is running on port 5002.\\n\\nError: ' + error.message);
+    }});
+}}
+
+function completeTask() {{
+    const task = window.currentTask;
+    if (!task) {{
+        alert('Error: Task not found');
+        return;
+    }}
+
+    // Create manual task note object with "Done" as the note
+    const manualNote = {{
+        task_id: task.id,
+        task_title: task.title,
+        client: task.client || 'unknown',
+        priority: task.priority || 'P2',
+        due_date: task.due_date,
+        note_text: 'Done'
+    }};
+
+    // Send to backend API
+    fetch('http://localhost:5002/save-note', {{
+        method: 'POST',
+        headers: {{
+            'Content-Type': 'application/json'
+        }},
+        body: JSON.stringify(manualNote)
+    }})
+    .then(response => response.json())
+    .then(data => {{
+        if (data.status === 'success') {{
+            closeTaskModal();
+            checkForNotes();
+        }} else {{
+            alert('Error completing task: ' + data.message);
+        }}
+    }})
+    .catch(error => {{
+        console.error('Error:', error);
+        alert('Error completing task: Could not connect to backend server.\\n\\nMake sure task-notes-api.py is running on port 5002.\\n\\nError: ' + error.message);
+    }});
+}}
+
+function quickCompleteTask(event, taskId) {{
+    // Find the task in our data
+    const task = TASK_DATA[taskId];
+
+    if (!task) {{
+        alert('Error: Task not found');
+        return;
+    }}
+
+    // Create manual task note object with "Done" as the note
+    const manualNote = {{
+        task_id: task.id,
+        task_title: task.title,
+        client: task.client || 'unknown',
+        priority: task.priority || 'P2',
+        due_date: task.due_date,
+        note_text: 'Done'
+    }};
+
+    // Send to backend API
+    fetch('http://localhost:5002/save-note', {{
+        method: 'POST',
+        headers: {{
+            'Content-Type': 'application/json'
+        }},
+        body: JSON.stringify(manualNote)
+    }})
+    .then(response => response.json())
+    .then(data => {{
+        if (data.status === 'success') {{
+            // Update the note count
+            checkForNotes();
+            // Show visual feedback - fade out the task
+            const taskElement = event.target.closest('.task');
+            if (taskElement) {{
+                taskElement.style.opacity = '0.5';
+                taskElement.style.backgroundColor = '#e8f5e9';
+            }}
+        }} else {{
+            alert('Error completing task: ' + data.message);
+        }}
+    }})
+    .catch(error => {{
+        console.error('Error:', error);
+        alert('Error completing task: Could not connect to backend server.\\n\\nMake sure task-notes-api.py is running on port 5002.\\n\\nError: ' + error.message);
     }});
 }}
 

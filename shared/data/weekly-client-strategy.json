@@ -1,26 +1,10 @@
 {
   "generated_at": "2025-11-27T06:53:26.239484",
   "week_of": "2025-11-27",
-  "total_clients": 24,
-  "clients_with_priorities": 21,
-  "total_priorities": 70,
+  "total_clients": 22,
+  "clients_with_priorities": 19,
+  "total_priorities": 66,
   "priorities": [
-    {
-      "priority": "Establish Initial Strategic Framework",
-      "type": "planning",
-      "effort": "high",
-      "impact": "high",
-      "why": "New client requires foundational strategic alignment and initial goal setting to create clear direction",
-      "client": "510cd9e9-f300-456a-834e-d37285f44706"
-    },
-    {
-      "priority": "Initial Client Discovery Meeting",
-      "type": "communication",
-      "effort": "medium",
-      "impact": "high",
-      "why": "Critical to understand client's current state, objectives, and potential strategic opportunities",
-      "client": "510cd9e9-f300-456a-834e-d37285f44706"
-    },
     {
       "priority": "Q4 Peak Season ROAS Reduction Impact Analysis",
       "type": "review",
@@ -84,22 +68,6 @@
       "impact": "medium",
       "why": "Ensure recent conversion tracking changes are accurately capturing purchases and supporting Smart Bidding optimization",
       "client": "bright-minds"
-    },
-    {
-      "priority": "Establish Initial Strategic Framework",
-      "type": "planning",
-      "effort": "high",
-      "impact": "high",
-      "why": "New client requires foundational strategic alignment and initial goal setting to create clear direction and expectations",
-      "client": "c38af8ac-cae4-4236-a5a3-ddad63e3508a"
-    },
-    {
-      "priority": "Initial Client Discovery Session",
-      "type": "communication",
-      "effort": "medium",
-      "impact": "high",
-      "why": "Critical to understand client's current state, objectives, challenges, and potential opportunities before developing detailed strategy",
-      "client": "c38af8ac-cae4-4236-a5a3-ddad63e3508a"
     },
     {
       "priority": "BMPM Performance Recovery Strategy",

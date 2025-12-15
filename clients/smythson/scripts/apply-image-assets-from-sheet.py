@@ -1,4 +1,4 @@
-#!/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-ads-mcp-server/.venv/bin/python3
+#!/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server/.venv/bin/python3
 """
 Apply Smythson PMax image assets from Google Spreadsheet to Google Ads.
 
@@ -23,7 +23,7 @@ from datetime import datetime
 from typing import Dict, List, Optional
 
 # Add the MCP server to path to use its OAuth module
-MCP_SERVER_PATH = '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-ads-mcp-server'
+MCP_SERVER_PATH = '/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server'
 sys.path.insert(0, MCP_SERVER_PATH)
 
 # Load env vars from MCP server
@@ -40,27 +40,27 @@ MANAGER_ID = '2569949686'
 REGIONS = {
     'uk': {
         'customer_id': '8573235780',
-        'sheet_name': 'UK ad copy',
-        'campaign_asset_group_range': 'UK ad copy!A2:B',  # Campaign + Asset Group names
-        'image_range': 'UK ad copy!BA2:BU'  # Image columns (21 max)
+        'sheet_name': 'UK PMax Assets',
+        'campaign_asset_group_range': 'UK PMax Assets!A2:D',  # Campaign ID + Asset Group Name
+        'image_range': 'UK PMax Assets!BA2:BU'  # Image columns (21 max)
     },
     'us': {
         'customer_id': '7808690871',
-        'sheet_name': 'US ad copy',
-        'campaign_asset_group_range': 'US ad copy!A2:B',
-        'image_range': 'US ad copy!BA2:BU'
+        'sheet_name': 'US PMax Assets',
+        'campaign_asset_group_range': 'US PMax Assets!A2:D',
+        'image_range': 'US PMax Assets!BA2:BU'
     },
     'eur': {
         'customer_id': '7679616761',
-        'sheet_name': 'EUR ad copy',
-        'campaign_asset_group_range': 'EUR ad copy!A2:B',
-        'image_range': 'EUR ad copy!BA2:BU'
+        'sheet_name': 'EUR PMax Assets',
+        'campaign_asset_group_range': 'EUR PMax Assets!A2:D',
+        'image_range': 'EUR PMax Assets!BA2:BU'
     },
     'row': {
         'customer_id': '5556710725',
-        'sheet_name': 'ROW ad copy',
-        'campaign_asset_group_range': 'ROW ad copy!A2:B',
-        'image_range': 'ROW ad copy!BA2:BU'
+        'sheet_name': 'ROW PMax Assets',
+        'campaign_asset_group_range': 'ROW PMax Assets!A2:D',
+        'image_range': 'ROW PMax Assets!BA2:BU'
     },
 }
 
@@ -82,20 +82,23 @@ def read_sheet_data(spreadsheet_id: str, data_range: str) -> List[List[str]]:
     """
     Read data from Google Spreadsheet using Google Sheets API.
 
-    Uses the Google Sheets MCP server OAuth credentials.
+    Uses the Google Sheets MCP server service account credentials.
     """
-    from google.oauth2.credentials import Credentials
+    from google.oauth2.service_account import Credentials
     from googleapiclient.discovery import build
 
-    # Path to Google Sheets MCP server OAuth token
-    sheets_mcp_path = '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-sheets-mcp-server'
-    token_path = os.path.join(sheets_mcp_path, 'token.json')
+    # Path to Google Sheets MCP server service account credentials
+    sheets_mcp_path = '/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server'
+    credentials_path = os.path.join(sheets_mcp_path, 'credentials.json')
 
-    if not os.path.exists(token_path):
-        raise FileNotFoundError(f"Google Sheets OAuth token not found: {token_path}")
+    if not os.path.exists(credentials_path):
+        raise FileNotFoundError(f"Google Sheets service account credentials not found: {credentials_path}")
 
-    # Load credentials
-    creds = Credentials.from_authorized_user_file(token_path)
+    # Load service account credentials
+    creds = Credentials.from_service_account_file(
+        credentials_path,
+        scopes=['https://www.googleapis.com/auth/spreadsheets.readonly']
+    )
 
     # Build the service
     service = build('sheets', 'v4', credentials=creds)
@@ -110,15 +113,18 @@ def read_sheet_data(spreadsheet_id: str, data_range: str) -> List[List[str]]:
     return rows
 
 
-def find_asset_group_id(headers, customer_id: str, campaign_name: str,
+def find_asset_group_id(headers, customer_id: str, campaign_id: str,
                          asset_group_name: str) -> Optional[str]:
     """
-    Find asset group ID by campaign name and asset group name.
+    Find asset group ID by campaign ID and asset group name.
 
     SAFETY IMPROVEMENTS (2025-11-27):
     - Filters by customer_id to prevent cross-account matching
     - Validates only ONE match found (prevents ambiguous results)
     - Raises clear errors if no match or multiple matches found
+
+    UPDATED (2025-12-15):
+    - Changed to match by campaign ID instead of campaign name (more reliable)
     """
     formatted_cid = format_customer_id(customer_id)
 
@@ -147,25 +153,26 @@ def find_asset_group_id(headers, customer_id: str, campaign_name: str,
     # SAFETY FIX 2: Collect ALL matches first (don't return on first match)
     matches = []
     for result in results:
+        camp_id = str(result.get('campaign', {}).get('id'))
         camp_name = result.get('campaign', {}).get('name', '')
         ag_name = result.get('assetGroup', {}).get('name', '')
 
-        if camp_name == campaign_name and ag_name == asset_group_name:
+        # Match by campaign ID (not name) and asset group name
+        if camp_id == campaign_id and ag_name == asset_group_name:
             ag_id = str(result.get('assetGroup', {}).get('id'))
-            camp_id = str(result.get('campaign', {}).get('id'))
             matches.append((ag_id, camp_id, camp_name, ag_name))
 
     # SAFETY FIX 3: Validate exactly ONE match found
     if len(matches) == 0:
         raise ValueError(
             f"❌ No asset group found for customer {customer_id}:\n"
-            f"   Campaign: '{campaign_name}'\n"
+            f"   Campaign ID: '{campaign_id}'\n"
             f"   Asset Group: '{asset_group_name}'\n"
-            f"   This likely means the spreadsheet has incorrect campaign/asset group names."
+            f"   This likely means the spreadsheet has incorrect campaign ID or asset group name."
         )
     elif len(matches) > 1:
         raise ValueError(
-            f"❌ AMBIGUOUS: Multiple asset groups match '{campaign_name} / {asset_group_name}':\n"
+            f"❌ AMBIGUOUS: Multiple asset groups match Campaign ID '{campaign_id}' / Asset Group '{asset_group_name}':\n"
             + "\n".join([
                 f"   - Campaign ID {m[1]}, Asset Group ID {m[0]}"
                 for m in matches
@@ -535,20 +542,21 @@ def apply_region_image_assets(region: str, dry_run: bool = False) -> tuple:
             print(f"\n[{i}/{len(names_rows)}] Skipped (invalid names row)")
             continue
 
-        campaign_name = names_row[0].strip()
-        asset_group_name = names_row[1].strip()
+        # Now reading A:D, so: [Campaign ID, Campaign Name, Asset Group ID, Asset Group Name]
+        campaign_id = names_row[0].strip()
+        asset_group_name = names_row[3].strip() if len(names_row) > 3 else ''
 
-        if not campaign_name or not asset_group_name:
-            print(f"\n[{i}/{len(names_rows)}] Skipped (empty campaign or asset group name)")
+        if not campaign_id or not asset_group_name:
+            print(f"\n[{i}/{len(names_rows)}] Skipped (empty campaign ID or asset group name)")
             continue
 
         print(f"\n[{i}/{len(names_rows)}] Finding asset group...")
-        print(f"  Campaign: {campaign_name}")
+        print(f"  Campaign ID: {campaign_id}")
         print(f"  Asset Group: {asset_group_name}")
 
-        # Find asset group ID
-        asset_group_id, campaign_id = find_asset_group_id(
-            headers, customer_id, campaign_name, asset_group_name
+        # Find asset group ID (using campaign ID instead of name)
+        asset_group_id, found_campaign_id = find_asset_group_id(
+            headers, customer_id, campaign_id, asset_group_name
         )
 
         if not asset_group_id:
@@ -559,8 +567,8 @@ def apply_region_image_assets(region: str, dry_run: bool = False) -> tuple:
         # Apply image assets
         try:
             result = apply_image_assets_to_asset_group(
-                headers, customer_id, asset_group_id, campaign_id,
-                asset_group_name, campaign_name, images_row, dry_run
+                headers, customer_id, asset_group_id, found_campaign_id,
+                asset_group_name, campaign_id, images_row, dry_run
             )
             if result:
                 success_count += 1

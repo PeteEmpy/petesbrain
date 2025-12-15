@@ -39,6 +39,44 @@ The 3-week plan executed across all phases. Day-of-week bid adjustments were def
 
 ---
 
+## [NMA] Week 2: Apply Demographic Bid Adjustments
+**Completed:** 2025-12-11 15:14
+**Task ID:** nma-week2-task7
+**Priority:** P0
+**Source:** NMA 3-Week Plan - Week 2 Task 7
+
+**Original Task:**
+Apply -20% bid adjustments (NOT exclusions) to demographics with CPA >2x average from Week 1 analysis. Conservative approach: Test for 2 weeks before further adjustments. Do NOT exclude any demographics entirely. Expected: Shift budget to higher-converting demographics, reduce wasted spend by 5-8%, maintain reach.
+
+**EXECUTION COMPLETED (2025-12-11):**
+
+✅ Changes Applied Successfully:
+- UK Management (12578308466): Age 35-44, 45-54, 55-64 → 0.80 bid modifier (-20%)
+- ROW Management (13071720649): Age 35-44, 45-54 → 0.80 bid modifier (-20%)
+- Total: 5 demographic adjustments successfully applied
+
+**Automation Tool Created:**
+- Script: apply-demographic-adjustments-api.py (REST API-based, fully automated)
+- Dependencies: google-ads library v23.1.0, requests, google-auth
+- Features: Dry-run mode, comprehensive logging, JSON audit trail
+
+**Performance Review Scheduled:**
+- Review Date: 2026-01-11 (30-day monitoring period)
+- Expected Metrics: 5-8% CPA improvement, £400-650/month savings
+- Success Criteria: Management campaigns shift budget to higher-converting demographics
+
+**Audit Trail:**
+- Changes Log: demographic-adjustments-20251211-151457.json
+- Backup Plan: demographic-adjustments-backup-2025-12-11.md
+- Review Task: Created in Google Tasks (due 2026-01-11)
+
+**Manual Note (added 2025-12-12):**
+Completed
+
+**Status:** ✅ Completed
+
+---
+
 ## [NMA] Week 2: Remove Zero-Impression Keywords (~150 keywords)
 **Completed:** 2025-12-11
 **Task ID:** 7bfb677e-e616-4764-9e3a-40813bc95ad2
@@ -274,3 +312,50 @@ Continue monitoring via weekly reports and 3-Week Plan implementation.
 
 ---
 
+## [NMA] Week 3: Progress Report & Next Phase Planning
+**Completed:** 2025-12-12 15:23
+**Source:** NMA 3-Week Plan - Week 3 Task 13
+
+Create 3-week performance summary (Nov 17-Dec 8): Conversions 47.8→? (target 55-65), CPA £169k→? (target £130-150k), 13 optimisations completed, wins and learnings, recommendations for next phase (Dec 9-29). Share with: Paul Riley (client), Anwesha (consultant), internal team. Next phase preview: Scale winning campaigns, launch additional country campaigns if US/UAE successful, implement day-of-week bid adjustments (deferred from Nov 17), Enhanced Conversions tag verification.
+
+---
+## [NMA] Week 3: Create 3-week progress report & next phase planning
+**Completed:** 2025-12-12 15:23
+**Source:** NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 3 Item #13
+
+Report Contents:
+- 3-week performance summary (Nov 17-Dec 8)
+- Conversion change: 47.8 → ? (target: 55-65)
+- CPA change: £169k → ? (target: £130-150k)
+- Optimizations completed (13 action items)
+- Wins and learnings
+- Recommendations for next phase (Dec 9-29)
+
+Share With:
+- Paul Riley (client)
+- Anwesha (consultant)
+- Internal team
+
+Next Phase Preview:
+- Scale winning campaigns (if Target CPA performing)
+- Launch additional country campaigns (if US/UAE successful)
+- Implement day-of-week bid adjustments (deferred from Nov 17)
+- Enhanced Conversions tag verification (pending Google meeting)
+
+Success Metrics Review:
+- [ ] Conversions increased to 55-65/month (+15% to +36%)
+- [ ] CPA reduced to £130-150k (-11% to -23%)
+- [ ] Target CPA showing directional improvement
+- [ ] 150+ zero-impression keywords removed
+- [ ] 30+ sitelinks added
+- [ ] 40+ callouts added
+- [ ] 2 country campaigns launched (US, UAE)
+
+---
+## [NMA] Week 2: Remove Zero-Impression Keywords
+**Completed:** 2025-12-12 15:47
+**Source:** NMA 3-Week Plan - Week 2 Task 9
+
+No need not costing anything. Complete the task
+
+---

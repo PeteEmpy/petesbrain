@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PETESBRAIN_ROOT</key>
+		<string>/Users/administrator/Documents/PetesBrain.nosync</string>
+		<key>WORDPRESS_APP_PASSWORD</key>
+		<string>qxxA8shXiVJtD9tlI0RY0Rvf</string>
+		<key>WORDPRESS_URL</key>
+		<string>https://roksys.co.uk</string>
+		<key>WORDPRESS_USERNAME</key>
+		<string>Peter</string>
+	</dict>
+	<key>Label</key>
+	<string>com.petesbrain.weekly-blog-generator</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/administrator/Documents/PetesBrain.nosync/venv/bin/python3</string>
+		<string>/Users/administrator/Documents/PetesBrain.nosync/agents/weekly-blog-generator/weekly-blog-generator.py</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/Users/administrator/.petesbrain-weekly-blog.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/administrator/.petesbrain-weekly-blog.log</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>7</integer>
+		<key>Minute</key>
+		<integer>30</integer>
+		<key>Weekday</key>
+		<integer>1</integer>
+	</dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/administrator/Documents/PetesBrain.nosync</string>
+</dict>
+</plist>

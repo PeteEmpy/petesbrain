@@ -1,0 +1,2091 @@
+{
+  "date": "2025-12-13",
+  "client": "Smythson UK",
+  "comparison_date": "2025-12-12",
+  "total_products_today": 1400,
+  "total_products_yesterday": 1394,
+  "summary": {
+    "changed_products": 35,
+    "price_changes": 6,
+    "sale_price_changes": 0,
+    "availability_changes": 15,
+    "title_changes": 7,
+    "description_changes": 15,
+    "image_changes": 2,
+    "item_group_changes": 12,
+    "shipping_changes": 0,
+    "label_changes": 14,
+    "new_products": 7,
+    "removed_products": 1
+  },
+  "changed_products": [
+    {
+      "product_id": "1200603",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1204613",
+      "title": "Smythson 2026 Panama Weekly Diary In Black",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1029515",
+      "title": "Smythson Large Zip Around Purse In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1001454",
+      "title": "Smythson Small Tented Place Cards - Gold Edge",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Gilt-edged White Wove tented place cards Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Box of 25 white wove tented place cards Silver gilt-edge Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1204191",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Cerulean",
+      "changes": {
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1200656",
+      "title": "Smythson Gro\u00dfer Bilderrahmen Aus Panama - Craie",
+      "changes": {
+        "description": [
+          "Sandsteinfarbener Fotorahmen aus quergemasertem Leder Passend f\u00fcr Fotogr\u00f6\u00dfe 25,4 cm x 20,3 cm  Es wird nicht empfohlen, ein Passepartout mit diesem Rahmen zu verwenden Ma\u00dfe: B 27 x H 32 x T 1 cm",
+          "Bilderrahmen aus quergemasertem Kalbsleder in kreidefarbener  Passend f\u00fcr Fotogr\u00f6\u00dfe 25,4 cm x 20,3 cm  Es wird nicht empfohlen, ein Passepartout mit diesem Rahmen zu verwenden  Ma\u00dfe: B 27 x H 32 x T 1 cm"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    },
+    {
+      "product_id": "1202458",
+      "title": "Smythson Small Day Tote Bag With Zip In Ludlow In Dark Taupe",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202563",
+      "title": "Smythson Flaches Reise-Etui Aus Ludlow - Schwarz",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1203322",
+      "title": "Smythson Travel Tray Jewellery Box in Mara",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204036",
+      "title": "Sympathy Tree Card",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204872",
+      "title": "Smythson Flaches Kartenetui Aus Ludlow-Leder - Olive Fonc\u00e9",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1015348",
+      "title": "Smythson Panama Pencil In Light Gold",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204616",
+      "title": "Smythson 2026 Panama Weekly Journal In Navy",
+      "changes": {
+        "description": [
+          "Leopard print pocket journal bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket journal bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027  Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1204614",
+      "title": "Smythson 2026 Panama Weekly Diary In Cerulean",
+      "changes": {
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1029679",
+      "title": "Smythson Large Square Trinket Case In Panama In Sandstone",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1019160",
+      "title": "Smythson Petits Marque-Places Pli\u00e9s - Silver Edge",
+      "changes": {
+        "description": [
+          "Marque-places pli\u00e9s en papier v\u00e9lin blanc dor\u00e9 sur la tranche Bo\u00eete de 25 Dimensions\u00a0: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Bo\u00eete de 25 marque-places pli\u00e9s en papier v\u00e9lin blanc Dorure argent sur la tranche Bo\u00eete de 25 Fabriqu\u00e9 en Angleterre Dimensions\u00a0: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1203853",
+      "title": "Smythson Ersatzbl\u00e4tter F\u00fcr Evergreen Gro\u00dfes Notizbuch - Silver Edge",
+      "changes": {
+        "title": [
+          "Smythson Ersatzbl\u00e4tter F\u00fcr Evergreen Gro\u00dfes Notizbuch - Argent",
+          "Smythson Ersatzbl\u00e4tter F\u00fcr Evergreen Gro\u00dfes Notizbuch - Silver Edge"
+        ],
+        "color": [
+          "Argent",
+          "Silver Edge"
+        ]
+      }
+    },
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Travel Tray Jewellery Box In Mara - Nile Blue",
+          "Smythson Travel Tray Jewellery Box In Mara In Nile Blue"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/p/travel-tray-jewellery-box-in-mara/1203323.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/p/travel-tray-jewellery-box-in-mara/1203323.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205363",
+      "title": "Schmale Aktentasche aus Norton Canvas",
+      "changes": {
+        "price": [
+          "1595.00 EUR",
+          "1150.00 EUR"
+        ]
+      }
+    },
+    {
+      "product_id": "1204794",
+      "title": "Smythson Soho Notebook in Panama",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204362",
+      "title": "Smythson Optical Glasses Case In Panama In Cerulean",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1029979",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ]
+      }
+    },
+    {
+      "product_id": "1204344",
+      "title": "Smythson Passport Sleeve In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205047",
+      "title": "Smythson Make It Happen Panama Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204983",
+      "title": "Smythson 2026 Wafer Weekly Diary In Panama In Raspberry",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204131",
+      "title": "Smythson Large Flat Card Holder In Panama In Forest",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204859",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Fawn",
+      "changes": {
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1200939",
+      "title": "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto",
+      "changes": {
+        "price": [
+          "165.00 GBP",
+          "195.00 EUR"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+          "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto"
+        ],
+        "description": [
+          "Forest green card case in crossgrain calf leather  Three card pockets  Larger pocket for multiple cards  Exterior card pocket  Dimensions: W10.5 x H7cm / W4 x H3\"",
+          "Portacarte in pelle di vitello goffrata crossgrain verde foresta  Tre tasche per carte di credito  Tasca grande per diverse carte di credito  Tasca esterna per carte di credito  Dimensioni: L 10,5 x H 7 cm / L 4 x H 3''"
+        ],
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/folded-card-case-with-snap-closure-in-panama/1200939.html",
+          "https://www.smythson.com/it/p/portacarte-con-chiusura-a-pressione-in-panama/1200939.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "color": [
+          "Scarlet Red",
+          "Rosso scarlatto"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1205231",
+      "title": "Zebra Gift Tag Set",
+      "changes": {
+        "price": [
+          "22.00 EUR",
+          "25.00 USD"
+        ],
+        "title": [
+          "Set di etichette per regalo con zebra",
+          "Zebra Gift Tag Set"
+        ],
+        "description": [
+          "Box mit zehn wei\u00dfen Geschenkanh\u00e4ngern aus Webmaterial mit rotem Satinband  Zebramotiv in schwarzer und goldener Tinte graviert  Hergestellt in England Ma\u00dfe: B 6,3 x H 8,3 cm",
+          "Box of ten white wove gift tags with red satin ribbon  Zebra motif engraved in black and gold ink  Made in England Dimensions:W2.5 x H3.3\" / W6.3 x H8.3cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/set-di-etichette-per-regalo-con-zebra/1205231.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/zebra-gift-tag-set/1205231.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "price": [
+          "495.00 GBP",
+          "625.00 EUR"
+        ],
+        "title": [
+          "Dog Place Card Holders",
+          "Tischkartenhalter in Hundeform"
+        ],
+        "description": [
+          "Silver dog place card holder in stanless steel with nickel plating  Set of six  Can hold both small and large flat Smythson place cards Engraved Smythson logo on underside Dimensions:W5 x H3 x D1/ W2 x H1 x D0.3\u201d",
+          "Platzkartenhalter in Hundeform aus Edelstahl mit Nickelbeschichtung  Set mit sechs St\u00fcck  Geeignet f\u00fcr kleine und gro\u00dfe flache Smythson-Platzkarten  Graviertes Smythson-Logo auf der Unterseite  Ma\u00dfe"
+        ],
+        "link": [
+          "https://www.smythson.com/p/dog-place-card-holders/1205235.html",
+          "https://www.smythson.com/de/p/tischkartenhalter-in-hundeform/1205235.html"
+        ],
+        "custom_label_0": [
+          "Card Holders",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1200654",
+      "title": "Smythson Grand Cadre Photo En Panama - Sandstone",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cadre photo gr\u00e8ge en cuir textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po",
+          "Cadre photo bleu canard en cuir de veau textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    },
+    {
+      "product_id": "1205154",
+      "title": "Smythson Evergreen Refillable Mid-Size Notebook In Ludlow In Bottle Green",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205099",
+      "title": "Smythson Evergreen Large Notebook Refill In Gold Edging",
+      "changes": {
+        "title": [
+          "Smythson Evergreen Large Notebook Refill In Silver",
+          "Smythson Evergreen Large Notebook Refill In Gold Edging"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/fcdcb5b484128b5bf923b0d664b78b656ff3f87e.png",
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/5d103a05b128fa9c8fa84e90ed401de3ce5be36f.png"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ],
+        "color": [
+          "Silver",
+          "Gold Edging"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "1205204",
+      "title": "Smythson 2026 Evergreen Weekly Diary Refill In Silver",
+      "price": "95.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "1204673",
+      "title": "Smythson 2026 Sporting Weekly Journal In Panama In Forest",
+      "price": "150.00 USD",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "1204672",
+      "title": "Smythson 2026 Sporting Weekly Diary In Panama In Black",
+      "price": "90.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1204226",
+      "title": "Smythson Zip Crossbody Bag In Ludlow In Black",
+      "price": "950.00 USD",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1204387",
+      "title": "Smythson Folded Card Case With Snap Closure In Mara In Nile Blue",
+      "price": "175.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1204391",
+      "title": "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+      "price": "230.00 USD",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "1205205",
+      "title": "Smythson 2026 Evergreen Weekly Journal Refill In Gold",
+      "price": "155.00 USD",
+      "availability": "in stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "1031613",
+      "title": "Dove Christmas Card Set",
+      "price": "49.00 EUR",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Travel Tray Jewellery Box In Mara - Nile Blue",
+          "Smythson Travel Tray Jewellery Box In Mara In Nile Blue"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/p/travel-tray-jewellery-box-in-mara/1203323.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/p/travel-tray-jewellery-box-in-mara/1203323.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205363",
+      "title": "Schmale Aktentasche aus Norton Canvas",
+      "changes": {
+        "price": [
+          "1595.00 EUR",
+          "1150.00 EUR"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1200939",
+      "title": "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto",
+      "changes": {
+        "price": [
+          "165.00 GBP",
+          "195.00 EUR"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+          "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto"
+        ],
+        "description": [
+          "Forest green card case in crossgrain calf leather  Three card pockets  Larger pocket for multiple cards  Exterior card pocket  Dimensions: W10.5 x H7cm / W4 x H3\"",
+          "Portacarte in pelle di vitello goffrata crossgrain verde foresta  Tre tasche per carte di credito  Tasca grande per diverse carte di credito  Tasca esterna per carte di credito  Dimensioni: L 10,5 x H 7 cm / L 4 x H 3''"
+        ],
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/folded-card-case-with-snap-closure-in-panama/1200939.html",
+          "https://www.smythson.com/it/p/portacarte-con-chiusura-a-pressione-in-panama/1200939.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "color": [
+          "Scarlet Red",
+          "Rosso scarlatto"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1205231",
+      "title": "Zebra Gift Tag Set",
+      "changes": {
+        "price": [
+          "22.00 EUR",
+          "25.00 USD"
+        ],
+        "title": [
+          "Set di etichette per regalo con zebra",
+          "Zebra Gift Tag Set"
+        ],
+        "description": [
+          "Box mit zehn wei\u00dfen Geschenkanh\u00e4ngern aus Webmaterial mit rotem Satinband  Zebramotiv in schwarzer und goldener Tinte graviert  Hergestellt in England Ma\u00dfe: B 6,3 x H 8,3 cm",
+          "Box of ten white wove gift tags with red satin ribbon  Zebra motif engraved in black and gold ink  Made in England Dimensions:W2.5 x H3.3\" / W6.3 x H8.3cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/set-di-etichette-per-regalo-con-zebra/1205231.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/zebra-gift-tag-set/1205231.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "price": [
+          "495.00 GBP",
+          "625.00 EUR"
+        ],
+        "title": [
+          "Dog Place Card Holders",
+          "Tischkartenhalter in Hundeform"
+        ],
+        "description": [
+          "Silver dog place card holder in stanless steel with nickel plating  Set of six  Can hold both small and large flat Smythson place cards Engraved Smythson logo on underside Dimensions:W5 x H3 x D1/ W2 x H1 x D0.3\u201d",
+          "Platzkartenhalter in Hundeform aus Edelstahl mit Nickelbeschichtung  Set mit sechs St\u00fcck  Geeignet f\u00fcr kleine und gro\u00dfe flache Smythson-Platzkarten  Graviertes Smythson-Logo auf der Unterseite  Ma\u00dfe"
+        ],
+        "link": [
+          "https://www.smythson.com/p/dog-place-card-holders/1205235.html",
+          "https://www.smythson.com/de/p/tischkartenhalter-in-hundeform/1205235.html"
+        ],
+        "custom_label_0": [
+          "Card Holders",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "1200603",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1204613",
+      "title": "Smythson 2026 Panama Weekly Diary In Black",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1001454",
+      "title": "Smythson Small Tented Place Cards - Gold Edge",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Gilt-edged White Wove tented place cards Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Box of 25 white wove tented place cards Silver gilt-edge Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1202458",
+      "title": "Smythson Small Day Tote Bag With Zip In Ludlow In Dark Taupe",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1202563",
+      "title": "Smythson Flaches Reise-Etui Aus Ludlow - Schwarz",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1203322",
+      "title": "Smythson Travel Tray Jewellery Box in Mara",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204872",
+      "title": "Smythson Flaches Kartenetui Aus Ludlow-Leder - Olive Fonc\u00e9",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Travel Tray Jewellery Box In Mara - Nile Blue",
+          "Smythson Travel Tray Jewellery Box In Mara In Nile Blue"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/p/travel-tray-jewellery-box-in-mara/1203323.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/p/travel-tray-jewellery-box-in-mara/1203323.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204794",
+      "title": "Smythson Soho Notebook in Panama",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1029979",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ]
+      }
+    },
+    {
+      "product_id": "1205047",
+      "title": "Smythson Make It Happen Panama Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1200939",
+      "title": "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto",
+      "changes": {
+        "price": [
+          "165.00 GBP",
+          "195.00 EUR"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+          "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto"
+        ],
+        "description": [
+          "Forest green card case in crossgrain calf leather  Three card pockets  Larger pocket for multiple cards  Exterior card pocket  Dimensions: W10.5 x H7cm / W4 x H3\"",
+          "Portacarte in pelle di vitello goffrata crossgrain verde foresta  Tre tasche per carte di credito  Tasca grande per diverse carte di credito  Tasca esterna per carte di credito  Dimensioni: L 10,5 x H 7 cm / L 4 x H 3''"
+        ],
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/folded-card-case-with-snap-closure-in-panama/1200939.html",
+          "https://www.smythson.com/it/p/portacarte-con-chiusura-a-pressione-in-panama/1200939.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "color": [
+          "Scarlet Red",
+          "Rosso scarlatto"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1200654",
+      "title": "Smythson Grand Cadre Photo En Panama - Sandstone",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cadre photo gr\u00e8ge en cuir textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po",
+          "Cadre photo bleu canard en cuir de veau textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    },
+    {
+      "product_id": "1205154",
+      "title": "Smythson Evergreen Refillable Mid-Size Notebook In Ludlow In Bottle Green",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [
+    {
+      "product_id": "1203853",
+      "title": "Smythson Ersatzbl\u00e4tter F\u00fcr Evergreen Gro\u00dfes Notizbuch - Silver Edge",
+      "changes": {
+        "title": [
+          "Smythson Ersatzbl\u00e4tter F\u00fcr Evergreen Gro\u00dfes Notizbuch - Argent",
+          "Smythson Ersatzbl\u00e4tter F\u00fcr Evergreen Gro\u00dfes Notizbuch - Silver Edge"
+        ],
+        "color": [
+          "Argent",
+          "Silver Edge"
+        ]
+      }
+    },
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Travel Tray Jewellery Box In Mara - Nile Blue",
+          "Smythson Travel Tray Jewellery Box In Mara In Nile Blue"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/p/travel-tray-jewellery-box-in-mara/1203323.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/p/travel-tray-jewellery-box-in-mara/1203323.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1200939",
+      "title": "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto",
+      "changes": {
+        "price": [
+          "165.00 GBP",
+          "195.00 EUR"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+          "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto"
+        ],
+        "description": [
+          "Forest green card case in crossgrain calf leather  Three card pockets  Larger pocket for multiple cards  Exterior card pocket  Dimensions: W10.5 x H7cm / W4 x H3\"",
+          "Portacarte in pelle di vitello goffrata crossgrain verde foresta  Tre tasche per carte di credito  Tasca grande per diverse carte di credito  Tasca esterna per carte di credito  Dimensioni: L 10,5 x H 7 cm / L 4 x H 3''"
+        ],
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/folded-card-case-with-snap-closure-in-panama/1200939.html",
+          "https://www.smythson.com/it/p/portacarte-con-chiusura-a-pressione-in-panama/1200939.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "color": [
+          "Scarlet Red",
+          "Rosso scarlatto"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1205231",
+      "title": "Zebra Gift Tag Set",
+      "changes": {
+        "price": [
+          "22.00 EUR",
+          "25.00 USD"
+        ],
+        "title": [
+          "Set di etichette per regalo con zebra",
+          "Zebra Gift Tag Set"
+        ],
+        "description": [
+          "Box mit zehn wei\u00dfen Geschenkanh\u00e4ngern aus Webmaterial mit rotem Satinband  Zebramotiv in schwarzer und goldener Tinte graviert  Hergestellt in England Ma\u00dfe: B 6,3 x H 8,3 cm",
+          "Box of ten white wove gift tags with red satin ribbon  Zebra motif engraved in black and gold ink  Made in England Dimensions:W2.5 x H3.3\" / W6.3 x H8.3cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/set-di-etichette-per-regalo-con-zebra/1205231.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/zebra-gift-tag-set/1205231.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "price": [
+          "495.00 GBP",
+          "625.00 EUR"
+        ],
+        "title": [
+          "Dog Place Card Holders",
+          "Tischkartenhalter in Hundeform"
+        ],
+        "description": [
+          "Silver dog place card holder in stanless steel with nickel plating  Set of six  Can hold both small and large flat Smythson place cards Engraved Smythson logo on underside Dimensions:W5 x H3 x D1/ W2 x H1 x D0.3\u201d",
+          "Platzkartenhalter in Hundeform aus Edelstahl mit Nickelbeschichtung  Set mit sechs St\u00fcck  Geeignet f\u00fcr kleine und gro\u00dfe flache Smythson-Platzkarten  Graviertes Smythson-Logo auf der Unterseite  Ma\u00dfe"
+        ],
+        "link": [
+          "https://www.smythson.com/p/dog-place-card-holders/1205235.html",
+          "https://www.smythson.com/de/p/tischkartenhalter-in-hundeform/1205235.html"
+        ],
+        "custom_label_0": [
+          "Card Holders",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1205099",
+      "title": "Smythson Evergreen Large Notebook Refill In Gold Edging",
+      "changes": {
+        "title": [
+          "Smythson Evergreen Large Notebook Refill In Silver",
+          "Smythson Evergreen Large Notebook Refill In Gold Edging"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/fcdcb5b484128b5bf923b0d664b78b656ff3f87e.png",
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/5d103a05b128fa9c8fa84e90ed401de3ce5be36f.png"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ],
+        "color": [
+          "Silver",
+          "Gold Edging"
+        ]
+      }
+    }
+  ],
+  "description_changes": [
+    {
+      "product_id": "1200603",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1204613",
+      "title": "Smythson 2026 Panama Weekly Diary In Black",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1001454",
+      "title": "Smythson Small Tented Place Cards - Gold Edge",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Gilt-edged White Wove tented place cards Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Box of 25 white wove tented place cards Silver gilt-edge Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1204191",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Cerulean",
+      "changes": {
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1200656",
+      "title": "Smythson Gro\u00dfer Bilderrahmen Aus Panama - Craie",
+      "changes": {
+        "description": [
+          "Sandsteinfarbener Fotorahmen aus quergemasertem Leder Passend f\u00fcr Fotogr\u00f6\u00dfe 25,4 cm x 20,3 cm  Es wird nicht empfohlen, ein Passepartout mit diesem Rahmen zu verwenden Ma\u00dfe: B 27 x H 32 x T 1 cm",
+          "Bilderrahmen aus quergemasertem Kalbsleder in kreidefarbener  Passend f\u00fcr Fotogr\u00f6\u00dfe 25,4 cm x 20,3 cm  Es wird nicht empfohlen, ein Passepartout mit diesem Rahmen zu verwenden  Ma\u00dfe: B 27 x H 32 x T 1 cm"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    },
+    {
+      "product_id": "1204616",
+      "title": "Smythson 2026 Panama Weekly Journal In Navy",
+      "changes": {
+        "description": [
+          "Leopard print pocket journal bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket journal bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027  Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1204614",
+      "title": "Smythson 2026 Panama Weekly Diary In Cerulean",
+      "changes": {
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1019160",
+      "title": "Smythson Petits Marque-Places Pli\u00e9s - Silver Edge",
+      "changes": {
+        "description": [
+          "Marque-places pli\u00e9s en papier v\u00e9lin blanc dor\u00e9 sur la tranche Bo\u00eete de 25 Dimensions\u00a0: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Bo\u00eete de 25 marque-places pli\u00e9s en papier v\u00e9lin blanc Dorure argent sur la tranche Bo\u00eete de 25 Fabriqu\u00e9 en Angleterre Dimensions\u00a0: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1029979",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204859",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Fawn",
+      "changes": {
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1200939",
+      "title": "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto",
+      "changes": {
+        "price": [
+          "165.00 GBP",
+          "195.00 EUR"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+          "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto"
+        ],
+        "description": [
+          "Forest green card case in crossgrain calf leather  Three card pockets  Larger pocket for multiple cards  Exterior card pocket  Dimensions: W10.5 x H7cm / W4 x H3\"",
+          "Portacarte in pelle di vitello goffrata crossgrain verde foresta  Tre tasche per carte di credito  Tasca grande per diverse carte di credito  Tasca esterna per carte di credito  Dimensioni: L 10,5 x H 7 cm / L 4 x H 3''"
+        ],
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/folded-card-case-with-snap-closure-in-panama/1200939.html",
+          "https://www.smythson.com/it/p/portacarte-con-chiusura-a-pressione-in-panama/1200939.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "color": [
+          "Scarlet Red",
+          "Rosso scarlatto"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1205231",
+      "title": "Zebra Gift Tag Set",
+      "changes": {
+        "price": [
+          "22.00 EUR",
+          "25.00 USD"
+        ],
+        "title": [
+          "Set di etichette per regalo con zebra",
+          "Zebra Gift Tag Set"
+        ],
+        "description": [
+          "Box mit zehn wei\u00dfen Geschenkanh\u00e4ngern aus Webmaterial mit rotem Satinband  Zebramotiv in schwarzer und goldener Tinte graviert  Hergestellt in England Ma\u00dfe: B 6,3 x H 8,3 cm",
+          "Box of ten white wove gift tags with red satin ribbon  Zebra motif engraved in black and gold ink  Made in England Dimensions:W2.5 x H3.3\" / W6.3 x H8.3cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/set-di-etichette-per-regalo-con-zebra/1205231.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/zebra-gift-tag-set/1205231.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "price": [
+          "495.00 GBP",
+          "625.00 EUR"
+        ],
+        "title": [
+          "Dog Place Card Holders",
+          "Tischkartenhalter in Hundeform"
+        ],
+        "description": [
+          "Silver dog place card holder in stanless steel with nickel plating  Set of six  Can hold both small and large flat Smythson place cards Engraved Smythson logo on underside Dimensions:W5 x H3 x D1/ W2 x H1 x D0.3\u201d",
+          "Platzkartenhalter in Hundeform aus Edelstahl mit Nickelbeschichtung  Set mit sechs St\u00fcck  Geeignet f\u00fcr kleine und gro\u00dfe flache Smythson-Platzkarten  Graviertes Smythson-Logo auf der Unterseite  Ma\u00dfe"
+        ],
+        "link": [
+          "https://www.smythson.com/p/dog-place-card-holders/1205235.html",
+          "https://www.smythson.com/de/p/tischkartenhalter-in-hundeform/1205235.html"
+        ],
+        "custom_label_0": [
+          "Card Holders",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1200654",
+      "title": "Smythson Grand Cadre Photo En Panama - Sandstone",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cadre photo gr\u00e8ge en cuir textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po",
+          "Cadre photo bleu canard en cuir de veau textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    }
+  ],
+  "image_changes": [
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1205099",
+      "title": "Smythson Evergreen Large Notebook Refill In Gold Edging",
+      "changes": {
+        "title": [
+          "Smythson Evergreen Large Notebook Refill In Silver",
+          "Smythson Evergreen Large Notebook Refill In Gold Edging"
+        ],
+        "image_link": [
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/fcdcb5b484128b5bf923b0d664b78b656ff3f87e.png",
+          "https://io.feedoptimise.com/image/1087/f478dcd6bbcd299bd6e70f14ed9aa2bcbe48c05d/5d103a05b128fa9c8fa84e90ed401de3ce5be36f.png"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ],
+        "color": [
+          "Silver",
+          "Gold Edging"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [
+    {
+      "product_id": "1200603",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Navy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1204613",
+      "title": "Smythson 2026 Panama Weekly Diary In Black",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1001454",
+      "title": "Smythson Small Tented Place Cards - Gold Edge",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Gilt-edged White Wove tented place cards Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Box of 25 white wove tented place cards Silver gilt-edge Box of 25 Made in England Dimensions: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1204191",
+      "title": "Smythson 6 Card Slot Folded Card Holder In Panama In Cerulean",
+      "changes": {
+        "description": [
+          "Navy 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slots Dimensions: W7.5 x H11.4cm/ W3 x H4.5\"",
+          "Fawn 6cc folded card holder in crossgrain leather  Smooth calf leather lining  Six internal card slotsDimensions:W7.5 x H11.4cm/ W3 x H4.5\""
+        ],
+        "item_group_id": [
+          "1200603",
+          "1204854"
+        ]
+      }
+    },
+    {
+      "product_id": "1200656",
+      "title": "Smythson Gro\u00dfer Bilderrahmen Aus Panama - Craie",
+      "changes": {
+        "description": [
+          "Sandsteinfarbener Fotorahmen aus quergemasertem Leder Passend f\u00fcr Fotogr\u00f6\u00dfe 25,4 cm x 20,3 cm  Es wird nicht empfohlen, ein Passepartout mit diesem Rahmen zu verwenden Ma\u00dfe: B 27 x H 32 x T 1 cm",
+          "Bilderrahmen aus quergemasertem Kalbsleder in kreidefarbener  Passend f\u00fcr Fotogr\u00f6\u00dfe 25,4 cm x 20,3 cm  Es wird nicht empfohlen, ein Passepartout mit diesem Rahmen zu verwenden  Ma\u00dfe: B 27 x H 32 x T 1 cm"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    },
+    {
+      "product_id": "1204616",
+      "title": "Smythson 2026 Panama Weekly Journal In Navy",
+      "changes": {
+        "description": [
+          "Leopard print pocket journal bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket journal bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027  Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1204614",
+      "title": "Smythson 2026 Panama Weekly Diary In Cerulean",
+      "changes": {
+        "description": [
+          "Leopard print pocket diary bound in cross grain calf leather  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Slip pocket  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions: W9 x H14cm/W3.5 x H5.5\"",
+          "Nile blue pocket diary bound in cross grain lambskin  Week-to-view layout  Gilt-edged, pale blue Featherweight paper  Perforated corners  Made in England  Runs from Monday 17th November 2025 to Sunday 24th January 2027 Dimensions:W9 x H14cm/W3.5 x H5.5\""
+        ],
+        "item_group_id": [
+          "1204941",
+          "1204617"
+        ]
+      }
+    },
+    {
+      "product_id": "1019160",
+      "title": "Smythson Petits Marque-Places Pli\u00e9s - Silver Edge",
+      "changes": {
+        "description": [
+          "Marque-places pli\u00e9s en papier v\u00e9lin blanc dor\u00e9 sur la tranche Bo\u00eete de 25 Dimensions\u00a0: W8.5 x H2.5cm / W3.4 x H1\"",
+          "Bo\u00eete de 25 marque-places pli\u00e9s en papier v\u00e9lin blanc Dorure argent sur la tranche Bo\u00eete de 25 Fabriqu\u00e9 en Angleterre Dimensions\u00a0: W8.5 x H2.5cm / W3.4 x H1\""
+        ],
+        "item_group_id": [
+          "1001454",
+          "1019160"
+        ]
+      }
+    },
+    {
+      "product_id": "1029979",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Black",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204859",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Fawn",
+      "changes": {
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1200654",
+      "title": "Smythson Grand Cadre Photo En Panama - Sandstone",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "description": [
+          "Cadre photo gr\u00e8ge en cuir textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po",
+          "Cadre photo bleu canard en cuir de veau textur\u00e9  Convient aux photos de taille 10 x 8\u00a0po  Il n\u2019est pas recommand\u00e9 d\u2019utiliser un passe-partout avec ce cadre  Dimensions\u00a0: l\u00a027 x L\u00a032 x P\u00a01\u00a0cm / l\u00a010,5 x L\u00a012,5 x P\u00a00,4\u00a0po"
+        ],
+        "item_group_id": [
+          "1200654",
+          "1200656"
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1029515",
+      "title": "Smythson Large Zip Around Purse In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204036",
+      "title": "Sympathy Tree Card",
+      "changes": {
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1015348",
+      "title": "Smythson Panama Pencil In Light Gold",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1029679",
+      "title": "Smythson Large Square Trinket Case In Panama In Sandstone",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1203323",
+      "title": "Smythson Travel Tray Jewellery Box In Mara In Nile Blue",
+      "changes": {
+        "price": [
+          "495.00 EUR",
+          "395.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Travel Tray Jewellery Box In Mara - Nile Blue",
+          "Smythson Travel Tray Jewellery Box In Mara In Nile Blue"
+        ],
+        "link": [
+          "https://www.smythson.com/eur/p/travel-tray-jewellery-box-in-mara/1203323.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/p/travel-tray-jewellery-box-in-mara/1203323.html"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204362",
+      "title": "Smythson Optical Glasses Case In Panama In Cerulean",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204344",
+      "title": "Smythson Passport Sleeve In Panama In Nile Blue",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205044",
+      "title": "Smythson Golf Notes Panama Notebook In Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 USD"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ],
+        "title": [
+          "Smythson Panama Notizbuch Golfnotizen - Waldgr\u00fcn",
+          "Smythson Golf Notes Panama Notebook In Forest"
+        ],
+        "description": [
+          "Taschennotizbuch mit Einband aus quergemasertem Lammleder in Waldgr\u00fcn  128 Seiten blassblaues federleichtes Papier mit Goldschnitt, Registern und eigenem Aufdruck auf jeder Seite  Stift aus Zedernholz an der R\u00fcckseite  Hergestellt in England  Ma\u00dfe: B 9 x H 14 cm",
+          "Navy pocket notebook bound in crossgrain lambskin 128 leaves of gilt-edged, pale blue Featherweight paper Dedicated print Cedar pencil in spine Made in England Dimensions: W9 x H14cm / W3.5 x H5.5\""
+        ],
+        "link": [
+          "https://www.smythson.com/de/terminkalender-und-bcher/notizbcher/alle-notizbcher/p/panama-notizbuch-golfnotizen/1205044.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/us/journals-and-books/notebooks/all-notebooks/p/golf-notes-panama-notebook/1205044.html"
+        ],
+        "item_group_id": [
+          "1205044",
+          "1205043"
+        ],
+        "color": [
+          "Waldgr\u00fcn",
+          "forest"
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1204983",
+      "title": "Smythson 2026 Wafer Weekly Diary In Panama In Raspberry",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204131",
+      "title": "Smythson Large Flat Card Holder In Panama In Forest",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204859",
+      "title": "Smythson A5 Writing Folder With Zip In Panama In Fawn",
+      "changes": {
+        "description": [
+          "Black writing folder in crossgrain calf leather Gold zip Smooth navy calf leather interior Two slim pockets Four card pockets Pen loop A5 Spiral Bound pad of pale blue Featherweight paper included A5 Refill Pads available here  Dimensions: W19.5 x H24cm / W7.5 x H9.5\"",
+          "Fawn A5 writing folder in grained calf leather  Smooth calf leather interior  Zip closure  Five internal pockets  A5 spiral bound pad of pale blue paper  Pen loop  Dimensions:W19 x H24 x D2.5cm / W7.5 x H9.5 x D1\""
+        ],
+        "item_group_id": [
+          "1029979",
+          "1204859"
+        ],
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1200939",
+      "title": "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto",
+      "changes": {
+        "price": [
+          "165.00 GBP",
+          "195.00 EUR"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "title": [
+          "Smythson Folded Card Case With Snap Closure In Panama In Scarlet Red",
+          "Smythson Portacarte Con Chiusura A Pressione In Panama - Rosso Scarlatto"
+        ],
+        "description": [
+          "Forest green card case in crossgrain calf leather  Three card pockets  Larger pocket for multiple cards  Exterior card pocket  Dimensions: W10.5 x H7cm / W4 x H3\"",
+          "Portacarte in pelle di vitello goffrata crossgrain verde foresta  Tre tasche per carte di credito  Tasca grande per diverse carte di credito  Tasca esterna per carte di credito  Dimensioni: L 10,5 x H 7 cm / L 4 x H 3''"
+        ],
+        "link": [
+          "https://www.smythson.com/accessories/all-accessories/p/folded-card-case-with-snap-closure-in-panama/1200939.html",
+          "https://www.smythson.com/it/p/portacarte-con-chiusura-a-pressione-in-panama/1200939.html?utm_source=google_shopping&switch_store=true"
+        ],
+        "color": [
+          "Scarlet Red",
+          "Rosso scarlatto"
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1205231",
+      "title": "Zebra Gift Tag Set",
+      "changes": {
+        "price": [
+          "22.00 EUR",
+          "25.00 USD"
+        ],
+        "title": [
+          "Set di etichette per regalo con zebra",
+          "Zebra Gift Tag Set"
+        ],
+        "description": [
+          "Box mit zehn wei\u00dfen Geschenkanh\u00e4ngern aus Webmaterial mit rotem Satinband  Zebramotiv in schwarzer und goldener Tinte graviert  Hergestellt in England Ma\u00dfe: B 6,3 x H 8,3 cm",
+          "Box of ten white wove gift tags with red satin ribbon  Zebra motif engraved in black and gold ink  Made in England Dimensions:W2.5 x H3.3\" / W6.3 x H8.3cm"
+        ],
+        "link": [
+          "https://www.smythson.com/de/schreibwaren/karten/weihnachtskarten/p/set-di-etichette-per-regalo-con-zebra/1205231.html",
+          "https://www.smythson.com/us/stationery/cards/christmas-cards/p/zebra-gift-tag-set/1205231.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1205235",
+      "title": "Tischkartenhalter in Hundeform",
+      "changes": {
+        "price": [
+          "495.00 GBP",
+          "625.00 EUR"
+        ],
+        "title": [
+          "Dog Place Card Holders",
+          "Tischkartenhalter in Hundeform"
+        ],
+        "description": [
+          "Silver dog place card holder in stanless steel with nickel plating  Set of six  Can hold both small and large flat Smythson place cards Engraved Smythson logo on underside Dimensions:W5 x H3 x D1/ W2 x H1 x D0.3\u201d",
+          "Platzkartenhalter in Hundeform aus Edelstahl mit Nickelbeschichtung  Set mit sechs St\u00fcck  Geeignet f\u00fcr kleine und gro\u00dfe flache Smythson-Platzkarten  Graviertes Smythson-Logo auf der Unterseite  Ma\u00dfe"
+        ],
+        "link": [
+          "https://www.smythson.com/p/dog-place-card-holders/1205235.html",
+          "https://www.smythson.com/de/p/tischkartenhalter-in-hundeform/1205235.html"
+        ],
+        "custom_label_0": [
+          "Card Holders",
+          ""
+        ],
+        "custom_label_3": [
+          "Zombies",
+          ""
+        ],
+        "custom_label_4": [
+          "Gifts for Him & Her",
+          ""
+        ]
+      }
+    }
+  ]
+}

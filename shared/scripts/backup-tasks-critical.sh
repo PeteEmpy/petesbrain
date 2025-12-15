@@ -15,7 +15,7 @@ BACKUP_NAME="tasks-backup-${TIMESTAMP}.tar.gz"
 mkdir -p "$ICLOUD_DIR"
 
 # Create archive of ONLY tasks.json files
-cd /Users/administrator/Documents/PetesBrain
+cd /Users/administrator/Documents/PetesBrain.nosync
 tar -czf "$ICLOUD_DIR/$BACKUP_NAME" \
     clients/*/tasks.json \
     clients/*/tasks-completed.md \

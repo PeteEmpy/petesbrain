@@ -1,0 +1,96 @@
+{
+  "date": "2025-12-14",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-12-13",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 3,
+    "price_changes": 2,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 1,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "price": [
+          "16.99 GBP",
+          "17.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45447132610837",
+      "title": "Porcelain Floor & Tile Cleaner | PH Neutral | Interior & Exterior | 500ml, 1L & 5L 1 Litre",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "price": [
+          "16.99 GBP",
+          "17.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45447132610837",
+      "title": "Porcelain Floor & Tile Cleaner | PH Neutral | Interior & Exterior | 500ml, 1L & 5L 1 Litre",
+      "changes": {
+        "price": [
+          "21.99 GBP",
+          "22.00 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    }
+  ]
+}

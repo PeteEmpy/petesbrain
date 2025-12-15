@@ -1,0 +1,175 @@
+{
+  "date": "2025-12-13",
+  "client": "Uno Lights",
+  "comparison_date": "2025-12-12",
+  "total_products_today": 1002,
+  "total_products_yesterday": 1002,
+  "summary": {
+    "changed_products": 7,
+    "price_changes": 0,
+    "sale_price_changes": 7,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8335664251201_55006077321593",
+      "title": "2 Meters LED Corner 45 Degree Aluminum Profile Chanel with Diffuser, Accessories for LED Strip Lights 1 x 2 Metres - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "",
+          "10.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7186137153734_41521066016966",
+      "title": "5 Pack of 2 Meters (Total 10 Meters) LED Corner 45 Degree Aluminum Profile Chanel with Diffuser, Accessories for LED Strip Lights",
+      "changes": {
+        "sale_price": [
+          "",
+          "49.79 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582095413625_53471579373945",
+      "title": "1 Gang 2 Way Intermediate Toggle Light Switch Matt Black Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "30.59 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8149152039233_44601392595265",
+      "title": "20 Metre Reel 8W 4000K Cool White Super Length Up to 20 Metre Continuous Run LED COB Strip IP44 4000K Cool White 20M - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "135.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8790910861633_47005168304449",
+      "title": "2 Pack of 2 Metres Trimless 12mm Wide Plaster-In Aluminum LED Profile Channel with Frosted Diffuser & Accessories for LED Strip Lighting",
+      "changes": {
+        "sale_price": [
+          "27.98 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_6696370438342_39883551178950",
+      "title": "1W Maya Marker Light LED Marker, Plinth, Cabinet, Step Light - White (Non Dimmable Driver Included) Cool White 4000K White Bezel - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "18.50 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138414354753_47862500458817",
+      "title": "2 Gang Knurled Dimmer Switch Antique Brass with Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "",
+          "57.80 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [
+    {
+      "product_id": "shopify_GB_8335664251201_55006077321593",
+      "title": "2 Meters LED Corner 45 Degree Aluminum Profile Chanel with Diffuser, Accessories for LED Strip Lights 1 x 2 Metres - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "",
+          "10.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_7186137153734_41521066016966",
+      "title": "5 Pack of 2 Meters (Total 10 Meters) LED Corner 45 Degree Aluminum Profile Chanel with Diffuser, Accessories for LED Strip Lights",
+      "changes": {
+        "sale_price": [
+          "",
+          "49.79 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14582095413625_53471579373945",
+      "title": "1 Gang 2 Way Intermediate Toggle Light Switch Matt Black Finish",
+      "changes": {
+        "sale_price": [
+          "",
+          "30.59 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8149152039233_44601392595265",
+      "title": "20 Metre Reel 8W 4000K Cool White Super Length Up to 20 Metre Continuous Run LED COB Strip IP44 4000K Cool White 20M - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "135.99 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8790910861633_47005168304449",
+      "title": "2 Pack of 2 Metres Trimless 12mm Wide Plaster-In Aluminum LED Profile Channel with Frosted Diffuser & Accessories for LED Strip Lighting",
+      "changes": {
+        "sale_price": [
+          "27.98 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_6696370438342_39883551178950",
+      "title": "1W Maya Marker Light LED Marker, Plinth, Cabinet, Step Light - White (Non Dimmable Driver Included) Cool White 4000K White Bezel - Uno Lighting",
+      "changes": {
+        "sale_price": [
+          "18.50 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9138414354753_47862500458817",
+      "title": "2 Gang Knurled Dimmer Switch Antique Brass with Brushed Brass / Matt Gold Plate",
+      "changes": {
+        "sale_price": [
+          "",
+          "57.80 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

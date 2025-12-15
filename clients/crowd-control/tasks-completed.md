@@ -94,3 +94,59 @@ Jeremy at Crowd Control manages inventory decisions. This analysis helps him mak
 - Consider quarterly barricades performance reviews during seasonal planning (Feb for March-April peak, May for June-July season)
 
 ---
+## [MEDIUM] Crowd Control - Fix Price Mismatches (6 products)
+**Completed:** 2025-12-12 15:23
+**Source:** Migrated from Google Tasks (Nov 18, 2025)
+
+**Priority**: MEDIUM
+**Products Affected**: 6 products with price mismatches
+
+**Issue**: Feed price doesn't match landing page price
+
+**Action Items**:
+1. Access Crowd Control Merchant Center (ID: 563545573)
+2. Identify 6 products with price mismatches
+3. Compare feed price to landing page price
+4. Update feed to match current website price
+   - OR update website if feed price is correct
+
+**Expected Impact**: Restore 6 products
+
+**Reference**: See /tools/product-impact-analyzer/DISAPPROVAL-ACTION-PLAN.md
+
+---
+**MANUAL NOTE (2025-11-20 16:40):**
+The problem here is that Google is seeing the exclusive VAT price and we're passing through the inclusive VAT price. This is something to do with snippets I think. Further investigation needs doing here. We need to drill down onto the page and look at what the metadata is.
+
+---
+**MANUAL NOTE (2025-11-20 17:15):**
+
+**Page Analysis Completed:**
+
+Compared two products:
+- **A4 Sign Stand** (has issues): https://crowdcontrolcompany.co.uk/shop/210mm-x-297mm-black-a4-sign-stand/
+- **Weathermaster Twin** (working correctly): https://crowdcontrolcompany.co.uk/shop/weathermaster-twin/
+
+**KEY FINDING: Product Type Difference**
+
+Both pages are missing proper Product schema markup (only have OnlineStore + Organization schemas), BUT:
+
+**A4 Sign Stand (problematic):**
+- Price: £82.80 inc. VAT (feed has correct price)
+- Appears to be a **WooCommerce Variable Product**
+- Variations: Black base, Polished Stainless (+£8), Polished Brass (+£34)
+- Issue: Variable products may show base price (£69 excl. VAT?) + variation prices simultaneously
+
+**Weathermaster Twin (working):**
+- Price: £70.00 (sale) / £84.00 (regular) inc. VAT
+- Product type: **Simple Product** with PPOM add-ons
+- Add-ons: Belt length, custom colors (separate from base price)
+- No price conflict visible to Google
+
+**Next Steps for Tomorrow:**
+1. Check in WooCommerce if A4 Sign Stand is set up as Variable Product
+2. If yes, consider converting to Simple Product with add-ons (like Weathermaster)
+3. Alternative: Ensure only ONE variation price displays at a time
+4. Add proper Product schema markup to all product pages (separate issue but worth fixing)
+
+---

@@ -1,0 +1,5233 @@
+{
+  "client": "Positive Bakes",
+  "updated": "2025-12-15T08:42:37.250380",
+  "product_count": 134,
+  "baselines": {
+    "": {
+      "product_id": "",
+      "product_title": "",
+      "label": "",
+      "data_points": 3103,
+      "date_range": "45991 to 46006",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52066150383883": {
+      "product_id": "52066150383883",
+      "product_title": "Artisan Brownie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 56.0,
+        "median": 77.0,
+        "stdev": 39.0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068236853515": {
+      "product_id": "52068236853515",
+      "product_title": "Artisan Blondie Collection | Box of 6 | Plant-Based Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 114.33333333333333,
+        "median": 131.0,
+        "stdev": 95.10169994975554
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068241146123": {
+      "product_id": "52068241146123",
+      "product_title": "Artisan Brownie & Blondie Collection | Box of 9 | Plant-Based Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 232.33333333333334,
+        "median": 296.0,
+        "stdev": 153.7281149735901
+      },
+      "cost": {
+        "mean": 1.77,
+        "median": 1.77,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068250157323": {
+      "product_id": "52068250157323",
+      "product_title": "Little Bug Brownie Box | 8 Pieces | Fun Kids Treats Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 14.0,
+        "median": 14.0,
+        "stdev": 13.0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068250583307": {
+      "product_id": "52068250583307",
+      "product_title": "Little Bug Brownie Box | 12 Pieces | Kids Party Treats Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 27.333333333333332,
+        "median": 31.0,
+        "stdev": 18.77054430040145
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068255564043": {
+      "product_id": "52068255564043",
+      "product_title": "Birthday Artisan Brownie & Blondie Collection | Box of 9 | Perfect Birthday Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.333333333333336,
+        "median": 43.0,
+        "stdev": 22.744962812309307
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068259594507": {
+      "product_id": "52068259594507",
+      "product_title": "Birthday Artisan Brownie & Blondie Collection | Box of 12 | Ultimate Birthday Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 31.333333333333332,
+        "median": 35.0,
+        "stdev": 13.868429375143148
+      },
+      "cost": {
+        "mean": 1.87,
+        "median": 1.87,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068268572939": {
+      "product_id": "52068268572939",
+      "product_title": "Thank You Artisan Brownie & Blondie Collection | Box of 9 | Thoughtful Appreciation Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 25.333333333333332,
+        "median": 33.0,
+        "stdev": 17.7857620959388
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068270801163": {
+      "product_id": "52068270801163",
+      "product_title": "Thank You Artisan Brownie & Blondie Collection | Box of 12 | Premium Appreciation Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 132.33333333333334,
+        "median": 150.0,
+        "stdev": 79.97708005005768
+      },
+      "cost": {
+        "mean": 2.4,
+        "median": 2.4,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068274864395": {
+      "product_id": "52068274864395",
+      "product_title": "Congratulations Artisan Brownie & Blondie Collection | Box of 9 | Achievement Celebration Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.333333333333336,
+        "median": 43.0,
+        "stdev": 26.63331247391757
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068280238347": {
+      "product_id": "52068280238347",
+      "product_title": "Congratulations Artisan Brownie & Blondie Collection | Box of 12 | Premium Achievement Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 28.0,
+        "median": 38.0,
+        "stdev": 20.8806130178211
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068281123083": {
+      "product_id": "52068281123083",
+      "product_title": "Thinking of You Artisan Brownie & Blondie Collection | Box of 12 | Thoughtful Care Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 38.333333333333336,
+        "median": 37.0,
+        "stdev": 31.02149792213995
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068281614603": {
+      "product_id": "52068281614603",
+      "product_title": "Thinking of You Artisan Brownie & Blondie Collection | Box of 9 | Caring Support Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 68.0,
+        "median": 73.0,
+        "stdev": 44.710177812216315
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068283515147": {
+      "product_id": "52068283515147",
+      "product_title": "Signature Brownie & Blondie Selection Box | 25 Pieces | Perfect for Sharing",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 89.85,
+        "median": 89.85,
+        "stdev": 0,
+        "min": 89.85,
+        "max": 89.85
+      },
+      "clicks": {
+        "mean": 31.333333333333332,
+        "median": 42.0,
+        "stdev": 19.347695814575268
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 3222.3333333333335,
+        "median": 3974.0,
+        "stdev": 2129.438501890424
+      },
+      "cost": {
+        "mean": 30.513333333333335,
+        "median": 38.07,
+        "stdev": 21.419230456142287
+      },
+      "roas": {
+        "mean": 2.36,
+        "median": 2.36,
+        "stdev": 0
+      }
+    },
+    "52068289282315": {
+      "product_id": "52068289282315",
+      "product_title": "Luxury Cream Tea for 2 | Plant-Based Afternoon Tea Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 26.95,
+        "median": 26.95,
+        "stdev": 0,
+        "min": 26.95,
+        "max": 26.95
+      },
+      "clicks": {
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 2.8284271247461903
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 547.6666666666666,
+        "median": 705.0,
+        "stdev": 374.654952367286
+      },
+      "cost": {
+        "mean": 3.8949999999999996,
+        "median": 3.8949999999999996,
+        "stdev": 2.114249275747777
+      },
+      "roas": {
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0
+      }
+    },
+    "52068290134283": {
+      "product_id": "52068290134283",
+      "product_title": "Luxury Cream Tea for 4 | Plant-Based Sharing Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 27.333333333333332,
+        "median": 32.0,
+        "stdev": 15.534906930308058
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068293411083": {
+      "product_id": "52068293411083",
+      "product_title": "Luxury Afternoon Tea for 1 | Plant-Based Individual Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 34.333333333333336,
+        "median": 44.0,
+        "stdev": 29.70409623828561
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068294918411": {
+      "product_id": "52068294918411",
+      "product_title": "Luxury Afternoon Tea for 2 | Plant-Based Intimate Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 145.0,
+        "median": 182.0,
+        "stdev": 111.2160060422959
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068295770379": {
+      "product_id": "52068295770379",
+      "product_title": "Luxury Afternoon Tea for 4 | Plant-Based Family Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 31.0,
+        "median": 38.0,
+        "stdev": 22.338307903688676
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068296458507": {
+      "product_id": "52068296458507",
+      "product_title": "Kids Afternoon Tea Little Bug for 1 | Fun Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.0,
+        "median": 3.0,
+        "stdev": 3.605551275463989
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 272.0,
+        "median": 323.0,
+        "stdev": 169.36056211526932
+      },
+      "cost": {
+        "mean": 2.77,
+        "median": 3.08,
+        "stdev": 1.9238243163033364
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068296982795": {
+      "product_id": "52068296982795",
+      "product_title": "Birthday Luxury Afternoon Tea for 1 | Individual Birthday Celebration",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 17.0,
+        "median": 20.0,
+        "stdev": 7.0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068369858827": {
+      "product_id": "52068369858827",
+      "product_title": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 41.333333333333336,
+        "median": 41.0,
+        "stdev": 22.501851775650227
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068370284811": {
+      "product_id": "52068370284811",
+      "product_title": "Birthday Kids Afternoon Tea Little Bug for 1 | Magical Birthday Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 19.666666666666668,
+        "median": 13.0,
+        "stdev": 15.14375558880073
+      },
+      "cost": {
+        "mean": 0.25,
+        "median": 0.25,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068372578571": {
+      "product_id": "52068372578571",
+      "product_title": "Thank You Luxury Afternoon Tea for 1 | Individual Appreciation Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.333333333333336,
+        "median": 34.0,
+        "stdev": 31.56474826976026
+      },
+      "cost": {
+        "mean": 2.27,
+        "median": 2.27,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068374348043": {
+      "product_id": "52068374348043",
+      "product_title": "Thank You Luxury Afternoon Tea for 2 | Sharing Appreciation Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 12.0,
+        "median": 9.0,
+        "stdev": 12.767145334803704
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068376903947": {
+      "product_id": "52068376903947",
+      "product_title": "Congratulations Luxury Afternoon Tea for 1 | Individual Achievement Celebration",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 12.0,
+        "median": 14.0,
+        "stdev": 8.18535277187245
+      },
+      "cost": {
+        "mean": 1.9,
+        "median": 1.9,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068379099403": {
+      "product_id": "52068379099403",
+      "product_title": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 12.0,
+        "median": 10.0,
+        "stdev": 11.135528725660043
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068380377355": {
+      "product_id": "52068380377355",
+      "product_title": "Thinking of You Luxury Afternoon Tea for 1 | Individual Comfort Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 56.0,
+        "median": 57.0,
+        "stdev": 50.50742519669756
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068381032715": {
+      "product_id": "52068381032715",
+      "product_title": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 24.0,
+        "median": 25.0,
+        "stdev": 19.519221295943137
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068392337675": {
+      "product_id": "52068392337675",
+      "product_title": "Little Bug Cookie Selection Box | 4 Pieces | Kids Fun Treats Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.666666666666666,
+        "median": 12.0,
+        "stdev": 6.6583281184793925
+      },
+      "cost": {
+        "mean": 0.33,
+        "median": 0.33,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068394664203": {
+      "product_id": "52068394664203",
+      "product_title": "Birthday Artisan Cookie Collection | Box of 6 | Ultimate Birthday Cookies",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.333333333333334,
+        "median": 6.0,
+        "stdev": 5.8594652770823155
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068395057419": {
+      "product_id": "52068395057419",
+      "product_title": "Birthday Little Bug Cookie Selection Box | 4 Pieces | Kids Birthday Treats",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 2.6666666666666665,
+        "median": 2.0,
+        "stdev": 2.0816659994661326
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068398301451": {
+      "product_id": "52068398301451",
+      "product_title": "Thank You Artisan Cookie Collection | Box of 6 | Premium Appreciation Cookies",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 29.0,
+        "median": 27.0,
+        "stdev": 29.0516780926679
+      },
+      "cost": {
+        "mean": 0.76,
+        "median": 0.76,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068403249419": {
+      "product_id": "52068403249419",
+      "product_title": "Congratulations Artisan Cookie Collection | Box of 6 | Premium Achievement Cookies",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 173.33333333333334,
+        "median": 191.0,
+        "stdev": 130.4006646199832
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068407017739": {
+      "product_id": "52068407017739",
+      "product_title": "Thinking of You Artisan Cookie Collection | Box of 6 | Thoughtful Comfort Treats",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 47.0,
+        "median": 62.0,
+        "stdev": 30.4138126514911
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52068410654987": {
+      "product_id": "52068410654987",
+      "product_title": "Luxury Tart Selection Box | 6 Pieces | Plant-Based Sharing Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 17.666666666666668,
+        "median": 21.0,
+        "stdev": 11.372481406154654
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 2247.0,
+        "median": 2293.0,
+        "stdev": 1452.546384801532
+      },
+      "cost": {
+        "mean": 13.566666666666666,
+        "median": 11.39,
+        "stdev": 10.88940004469178
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070136316171": {
+      "product_id": "52070136316171",
+      "product_title": "Birthday Luxury Tart Selection Box | 6 Pieces | Ultimate Birthday Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 17.0,
+        "median": 20.0,
+        "stdev": 7.937253933193772
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070329319691": {
+      "product_id": "52070329319691",
+      "product_title": "Birthday Luxury Cheesecake Selection Box | 5 Pieces | Premium Birthday Indulgence",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 52.0,
+        "median": 64.0,
+        "stdev": 39.395431207184416
+      },
+      "cost": {
+        "mean": 0.74,
+        "median": 0.74,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070366937355": {
+      "product_id": "52070366937355",
+      "product_title": "Thank You Luxury Tart Selection Box | 6 Pieces | Premium Appreciation Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 49.333333333333336,
+        "median": 53.0,
+        "stdev": 34.64582706955245
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070584910091": {
+      "product_id": "52070584910091",
+      "product_title": "Thank You Luxury Cheesecake Selection Box | 5 Pieces | Premium Appreciation Indulgence",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 30.0,
+        "median": 29.0,
+        "stdev": 22.516660498395403
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070626001163": {
+      "product_id": "52070626001163",
+      "product_title": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 54.333333333333336,
+        "median": 68.0,
+        "stdev": 35.529330606322056
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070834766091": {
+      "product_id": "52070834766091",
+      "product_title": "Thinking of You Luxury Tart Selection Box | 6 Pieces | Premium Comfort Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 75.66666666666667,
+        "median": 100.0,
+        "stdev": 43.89001405027496
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070885425419": {
+      "product_id": "52070885425419",
+      "product_title": "Congratulations Luxury Cheesecake Selection Box | 5 Pieces | Premium Achievement Indulgence",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 71.0,
+        "median": 85.0,
+        "stdev": 53.39475629684998
+      },
+      "cost": {
+        "mean": 0.72,
+        "median": 0.72,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070887850251": {
+      "product_id": "52070887850251",
+      "product_title": "Thinking of You Luxury Cheesecake Selection Box | 5 Pieces | Premium Comfort Indulgence",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 86.33333333333333,
+        "median": 74.0,
+        "stdev": 72.29338374521788
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070909214987": {
+      "product_id": "52070909214987",
+      "product_title": "Signature Bundt Cake Selection Box | Plant-Based Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 295.0,
+        "median": 288.0,
+        "stdev": 266.5689404262995
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070926254347": {
+      "product_id": "52070926254347",
+      "product_title": "Birthday Signature Bundt Cake Selection Box | Birthday Cake Collection",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 31.666666666666668,
+        "median": 33.0,
+        "stdev": 24.027761721253466
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070948208907": {
+      "product_id": "52070948208907",
+      "product_title": "Congratulations Signature Bundt Cake Selection Box | Achievement Cake Collection",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 81.66666666666667,
+        "median": 98.0,
+        "stdev": 50.52062285179522
+      },
+      "cost": {
+        "mean": 0.26,
+        "median": 0.26,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52070962168075": {
+      "product_id": "52070962168075",
+      "product_title": "Thinking of You Signature Bundt Cake Selection Box | Comfort Cake Collection",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 26.0,
+        "median": 28.0,
+        "stdev": 20.074859899884732
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371950600459": {
+      "product_id": "52371950600459",
+      "product_title": "Corporate Artisan Brownie Collection | Box of 6 | Sustainable Business Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 14.333333333333334,
+        "median": 17.0,
+        "stdev": 12.220201853215574
+      },
+      "cost": {
+        "mean": 0.18,
+        "median": 0.18,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371957645579": {
+      "product_id": "52371957645579",
+      "product_title": "Corporate Artisan Blondie Collection | Box of 6 | Sustainable Business Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 33.666666666666664,
+        "median": 42.0,
+        "stdev": 18.929694486000912
+      },
+      "cost": {
+        "mean": 0.46,
+        "median": 0.46,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371961479435": {
+      "product_id": "52371961479435",
+      "product_title": "Corporate Artisan Brownie & Blondie Collection | Box of 9 | CSR-Compliant Business Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 9.333333333333334,
+        "median": 11.0,
+        "stdev": 7.637626158259733
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371966230795": {
+      "product_id": "52371966230795",
+      "product_title": "Corporate Artisan Brownie & Blondie Collection | Box of 12 | Net-Zero Business Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 5.333333333333333,
+        "median": 6.0,
+        "stdev": 4.041451884327381
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 779.0,
+        "median": 1008.0,
+        "stdev": 664.7713892760428
+      },
+      "cost": {
+        "mean": 8.95,
+        "median": 8.52,
+        "stdev": 7.58414794159502
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371970031883": {
+      "product_id": "52371970031883",
+      "product_title": "Corporate Sharing Brownie & Blondie Collection | Box of 25 | Zero Waste Office Solution",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 186.76,
+        "median": 186.76,
+        "stdev": 0,
+        "min": 186.76,
+        "max": 186.76
+      },
+      "clicks": {
+        "mean": 5.666666666666667,
+        "median": 5.0,
+        "stdev": 3.0550504633038935
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 665.0,
+        "median": 853.0,
+        "stdev": 443.93355358657
+      },
+      "cost": {
+        "mean": 10.64,
+        "median": 7.63,
+        "stdev": 6.721093661004882
+      },
+      "roas": {
+        "mean": 10.18,
+        "median": 10.18,
+        "stdev": 0
+      }
+    },
+    "52371971801355": {
+      "product_id": "52371971801355",
+      "product_title": "Corporate Classic Cream Tea for 1 | Sustainable Business Hospitality",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 16.333333333333332,
+        "median": 13.0,
+        "stdev": 15.275252316519467
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371977109771": {
+      "product_id": "52371977109771",
+      "product_title": "Corporate Luxury Afternoon Tea for 1 | Carbon-Neutral Executive Hospitality",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 46.0,
+        "median": 53.0,
+        "stdev": 34.044089061098404
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371982680331": {
+      "product_id": "52371982680331",
+      "product_title": "Corporate Luxury Afternoon Tea for 2 | Sustainable Business Meeting Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.7071067811865476
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 61.666666666666664,
+        "median": 69.0,
+        "stdev": 49.409850569834084
+      },
+      "cost": {
+        "mean": 1.23,
+        "median": 1.23,
+        "stdev": 0.7353910524340095
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371988021515": {
+      "product_id": "52371988021515",
+      "product_title": "Corporate Artisan Cookie Collection | Box of 6 | CSR Executive Business Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 133.33333333333334,
+        "median": 133.0,
+        "stdev": 125.50033200487293
+      },
+      "cost": {
+        "mean": 0.73,
+        "median": 0.73,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371993133323": {
+      "product_id": "52371993133323",
+      "product_title": "Corporate Luxury Tart Collection | Box of 6 | Net-Zero Executive Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 85.33333333333333,
+        "median": 108.0,
+        "stdev": 65.03332479070507
+      },
+      "cost": {
+        "mean": 0.85,
+        "median": 0.85,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52371997131019": {
+      "product_id": "52371997131019",
+      "product_title": "Corporate Luxury Cheesecake Collection | Box of 5 | Sustainable Business Indulgence",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 303.3333333333333,
+        "median": 439.0,
+        "stdev": 247.20504309850423
+      },
+      "cost": {
+        "mean": 0.61,
+        "median": 0.61,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52372001128715": {
+      "product_id": "52372001128715",
+      "product_title": "Corporate Signature Bundt Cake Collection | Sustainable Business Variety Box",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 43.333333333333336,
+        "median": 44.0,
+        "stdev": 27.006172134038792
+      },
+      "cost": {
+        "mean": 0.37,
+        "median": 0.37,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52379349614859": {
+      "product_id": "52379349614859",
+      "product_title": "Christmas Savoury Treat Box | Gourmet Festive Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 104.66666666666667,
+        "median": 126.0,
+        "stdev": 66.61331198291624
+      },
+      "cost": {
+        "mean": 2.43,
+        "median": 2.43,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52379385004299": {
+      "product_id": "52379385004299",
+      "product_title": "Taste of Christmas Luxury Sharing Box | Premium Selection Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 138.0,
+        "median": 146.0,
+        "stdev": 122.19656296312102
+      },
+      "cost": {
+        "mean": 1.01,
+        "median": 1.01,
+        "stdev": 0.537401153701776
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52379471610123": {
+      "product_id": "52379471610123",
+      "product_title": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 53.666666666666664,
+        "median": 65.0,
+        "stdev": 30.615900008546756
+      },
+      "cost": {
+        "mean": 1.25,
+        "median": 1.25,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52382253744395": {
+      "product_id": "52382253744395",
+      "product_title": "The Ultimate Christmas Feast Hamper | Complete Celebration Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 7.0,
+        "median": 9.0,
+        "stdev": 4.358898943540674
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 798.3333333333334,
+        "median": 1061.0,
+        "stdev": 530.2700569835462
+      },
+      "cost": {
+        "mean": 15.853333333333333,
+        "median": 21.28,
+        "stdev": 9.529461334898912
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52386454569227": {
+      "product_id": "52386454569227",
+      "product_title": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 329.0,
+        "median": 384.0,
+        "stdev": 258.918906223551
+      },
+      "cost": {
+        "mean": 2.13,
+        "median": 2.13,
+        "stdev": 0.7495331880577404
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52386501853451": {
+      "product_id": "52386501853451",
+      "product_title": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 47.666666666666664,
+        "median": 42.0,
+        "stdev": 42.782395133200914
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52387776725259": {
+      "product_id": "52387776725259",
+      "product_title": "Luxury Christmas Afternoon Tea for 2 | Plant-Based Intimate Christmas Experience",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 115.0,
+        "median": 135.0,
+        "stdev": 83.80930735902786
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52405727199499": {
+      "product_id": "52405727199499",
+      "product_title": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 213.66666666666666,
+        "median": 265.0,
+        "stdev": 144.032403761561
+      },
+      "cost": {
+        "mean": 2.86,
+        "median": 2.86,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52408175165707": {
+      "product_id": "52408175165707",
+      "product_title": "Christmas Artisan Frangipane Mince Pies | Box of 12 | Traditional Christmas Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 215.66666666666666,
+        "median": 242.0,
+        "stdev": 123.62173487430653
+      },
+      "cost": {
+        "mean": 2.76,
+        "median": 2.76,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52676180017419": {
+      "product_id": "52676180017419",
+      "product_title": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 34.333333333333336,
+        "median": 38.0,
+        "stdev": 21.73323108360405
+      },
+      "cost": {
+        "mean": 0.58,
+        "median": 0.58,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52676180050187": {
+      "product_id": "52676180050187",
+      "product_title": "Christmas Sweet & Savoury Treat Box | Complete Festive Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 15.666666666666666,
+        "median": 17.0,
+        "stdev": 5.131601439446884
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52677142184203": {
+      "product_id": "52677142184203",
+      "product_title": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5773502691896257
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 81.66666666666667,
+        "median": 85.0,
+        "stdev": 51.08163401197473
+      },
+      "cost": {
+        "mean": 3.43,
+        "median": 2.93,
+        "stdev": 2.4781242906682466
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52677142216971": {
+      "product_id": "52677142216971",
+      "product_title": "Luxury Family Festive Hamper | Complete Christmas Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 120.33333333333333,
+        "median": 152.0,
+        "stdev": 85.99030953155903
+      },
+      "cost": {
+        "mean": 1.07,
+        "median": 1.07,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52677147656459": {
+      "product_id": "52677147656459",
+      "product_title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 17.333333333333332,
+        "median": 23.0,
+        "stdev": 12.503332889007368
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "52677147689227": {
+      "product_id": "52677147689227",
+      "product_title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.0,
+        "median": 6.0,
+        "stdev": 8.18535277187245
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10666957504779_52066150383883": {
+      "product_id": "shopify_zz_10666957504779_52066150383883",
+      "product_title": "Artisan Brownie Collection Box of 6 | Plant-Based Gluten-Free Gift | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 29.95,
+        "median": 29.95,
+        "stdev": 0,
+        "min": 29.95,
+        "max": 29.95
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.7071067811865476
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 376.0,
+        "median": 432.0,
+        "stdev": 202.88173895153798
+      },
+      "cost": {
+        "mean": 2.95,
+        "median": 2.95,
+        "stdev": 1.6122034611053282
+      },
+      "roas": {
+        "mean": 7.32,
+        "median": 7.32,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667180491019_52068236853515": {
+      "product_id": "shopify_zz_10667180491019_52068236853515",
+      "product_title": "Artisan Blondie Collection Box of 6 | Plant-Based Gluten-Free Gift | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.3333333333333335,
+        "median": 2.0,
+        "stdev": 1.5275252316519468
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 700.6666666666666,
+        "median": 901.0,
+        "stdev": 416.3680263100582
+      },
+      "cost": {
+        "mean": 3.7466666666666666,
+        "median": 2.52,
+        "stdev": 3.1260411598911064
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667181146379_52068241146123": {
+      "product_id": "shopify_zz_10667181146379_52068241146123",
+      "product_title": "Artisan Brownie & Blondie Collection | 9 Plant-Based Treats | Premium Gift Box UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 183.33333333333334,
+        "median": 201.0,
+        "stdev": 115.51767541520792
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667182391563_52068250157323": {
+      "product_id": "shopify_zz_10667182391563_52068250157323",
+      "product_title": "Little Bug Brownie Box of 8 | Fun Kids Treats | Gluten-Free Children's Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 94.66666666666667,
+        "median": 114.0,
+        "stdev": 75.87050371081857
+      },
+      "cost": {
+        "mean": 4.27,
+        "median": 4.27,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667182457099_52068250583307": {
+      "product_id": "shopify_zz_10667182457099_52068250583307",
+      "product_title": "Little Bug Brownie Box of 12 | Kids Party Treats | Fun Children's Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 32.333333333333336,
+        "median": 44.0,
+        "stdev": 20.207259421636902
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667182817547_52068255564043": {
+      "product_id": "shopify_zz_10667182817547_52068255564043",
+      "product_title": "Birthday Artisan Brownie Collection | 9 Plant-Based Treats | Premium Birthday Gift UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.666666666666666,
+        "median": 12.0,
+        "stdev": 5.773502691896257
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667183309067_52068259594507": {
+      "product_id": "shopify_zz_10667183309067_52068259594507",
+      "product_title": "Birthday Artisan Brownie Collection | 12 Plant-Based Treats | Ultimate Birthday Gift UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 30.666666666666668,
+        "median": 41.0,
+        "stdev": 25.146238950056393
+      },
+      "cost": {
+        "mean": 0.88,
+        "median": 0.88,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667184193803_52068268572939": {
+      "product_id": "shopify_zz_10667184193803_52068268572939",
+      "product_title": "Thank You Artisan Brownie Collection | 9 Plant-Based Treats | Premium Appreciation UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 36.333333333333336,
+        "median": 19.0,
+        "stdev": 42.72391992003231
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667184554251_52068274864395": {
+      "product_id": "shopify_zz_10667184554251_52068274864395",
+      "product_title": "Congratulations Artisan Brownie Collection | 9 Plant-Based Treats | Achievement Gift UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 11.0,
+        "median": 12.0,
+        "stdev": 9.539392014169456
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667184881931_52068280238347": {
+      "product_id": "shopify_zz_10667184881931_52068280238347",
+      "product_title": "Congratulations Artisan Brownie Collection | 12 Plant-Based Treats | Premium Achievement UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 12.666666666666666,
+        "median": 8.0,
+        "stdev": 14.571661996262929
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667185013003_52068281123083": {
+      "product_id": "shopify_zz_10667185013003_52068281123083",
+      "product_title": "Thinking of You Artisan Brownie Collection | 12 Plant-Based Treats | Thoughtful Care UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.0,
+        "median": 6.0,
+        "stdev": 1.0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667185209611_52068281614603": {
+      "product_id": "shopify_zz_10667185209611_52068281614603",
+      "product_title": "Thinking of You Artisan Brownie Collection | 9 Plant-Based Treats | Caring Support UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 16.666666666666668,
+        "median": 17.0,
+        "stdev": 15.50268793897798
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667185832203_52068283515147": {
+      "product_id": "shopify_zz_10667185832203_52068283515147",
+      "product_title": "Signature Brownie Selection Box of 25 | Bulk Sharing Treats | Plant-Based UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 366.3333333333333,
+        "median": 442.0,
+        "stdev": 208.08732141419222
+      },
+      "cost": {
+        "mean": 0.595,
+        "median": 0.595,
+        "stdev": 0.6576093065034893
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667188322571_52068289282315": {
+      "product_id": "shopify_zz_10667188322571_52068289282315",
+      "product_title": "Luxury Plant-Based Cream Tea for Two | Premium Individual Experience | UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 1.4142135623730951
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 219.33333333333334,
+        "median": 228.0,
+        "stdev": 172.163681806975
+      },
+      "cost": {
+        "mean": 1.685,
+        "median": 1.685,
+        "stdev": 1.4071424945612296
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667188420875_52068290134283": {
+      "product_id": "shopify_zz_10667188420875_52068290134283",
+      "product_title": "Luxury Plant-Based Cream Tea for 4 | Premium Sharing Experience | UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 80.0,
+        "median": 100.0,
+        "stdev": 57.66281297335398
+      },
+      "cost": {
+        "mean": 1.46,
+        "median": 1.46,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667188584715_52068293411083": {
+      "product_id": "shopify_zz_10667188584715_52068293411083",
+      "product_title": "Luxury Plant-Based Afternoon Tea for One | Premium Individual Experience | UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 123.0,
+        "median": 143.0,
+        "stdev": 63.41135544995076
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667188683019_52068294918411": {
+      "product_id": "shopify_zz_10667188683019_52068294918411",
+      "product_title": "Luxury Plant-Based Afternoon Tea for 2 | Premium Intimate Experience | UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 163.0,
+        "median": 193.0,
+        "stdev": 109.13752791776072
+      },
+      "cost": {
+        "mean": 1.27,
+        "median": 1.27,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667188715787_52068295770379": {
+      "product_id": "shopify_zz_10667188715787_52068295770379",
+      "product_title": "Luxury Plant-Based Afternoon Tea for 4 | Premium Family Experience | UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 42.0,
+        "median": 58.0,
+        "stdev": 30.347981810987037
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667188879627_52068296458507": {
+      "product_id": "shopify_zz_10667188879627_52068296458507",
+      "product_title": "Kids Afternoon Tea Little Bug for One | Fun Individual Experience | Children's UK Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.5,
+        "median": 4.5,
+        "stdev": 2.1213203435596424
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 162.66666666666666,
+        "median": 176.0,
+        "stdev": 103.64522822268921
+      },
+      "cost": {
+        "mean": 2.27,
+        "median": 2.27,
+        "stdev": 0.876812408671319
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667189141771_52068296982795": {
+      "product_id": "shopify_zz_10667189141771_52068296982795",
+      "product_title": "Birthday Luxury Afternoon Tea for 1 | Individual Birthday Celebration",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 16.333333333333332,
+        "median": 20.0,
+        "stdev": 10.016652800877813
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667231346955_52068369858827": {
+      "product_id": "shopify_zz_10667231346955_52068369858827",
+      "product_title": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 18.333333333333332,
+        "median": 14.0,
+        "stdev": 14.011899704655802
+      },
+      "cost": {
+        "mean": 0.58,
+        "median": 0.58,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667231609099_52068370284811": {
+      "product_id": "shopify_zz_10667231609099_52068370284811",
+      "product_title": "Birthday Kids Afternoon Tea Little Bug | Magical Birthday Experience | Fun UK Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.666666666666666,
+        "median": 12.0,
+        "stdev": 5.773502691896257
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667231707403_52068372578571": {
+      "product_id": "shopify_zz_10667231707403_52068372578571",
+      "product_title": "Thank You Luxury Afternoon Tea | Individual Appreciation Experience | Premium UK Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 41.666666666666664,
+        "median": 43.0,
+        "stdev": 32.020826556060875
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667232133387_52068376903947": {
+      "product_id": "shopify_zz_10667232133387_52068376903947",
+      "product_title": "Congratulations Luxury Afternoon Tea | Individual Achievement Celebration | Premium U",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 13.333333333333334,
+        "median": 13.0,
+        "stdev": 12.503332889007368
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667232297227_52068379099403": {
+      "product_id": "shopify_zz_10667232297227_52068379099403",
+      "product_title": "Congratulations Luxury Afternoon Tea for 2 | Sharing Achievement Celebration | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 6.0
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667232493835_52068380377355": {
+      "product_id": "shopify_zz_10667232493835_52068380377355",
+      "product_title": "Thinking of You Luxury Afternoon Tea | Individual Comfort Experience | Caring UK Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 41.333333333333336,
+        "median": 51.0,
+        "stdev": 26.839026311200882
+      },
+      "cost": {
+        "mean": 0.57,
+        "median": 0.57,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667232559371_52068381032715": {
+      "product_id": "shopify_zz_10667232559371_52068381032715",
+      "product_title": "Thinking of You Luxury Afternoon Tea for 2 | Sharing Comfort Experience | Caring UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 52.666666666666664,
+        "median": 45.0,
+        "stdev": 37.09896674212549
+      },
+      "cost": {
+        "mean": 3.7,
+        "median": 3.7,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667233640715_52068392337675": {
+      "product_id": "shopify_zz_10667233640715_52068392337675",
+      "product_title": "Little Bug Cookie Selection Box of 4 | Kids Fun Treats | Gluten-Free Children's Gift",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 94.0,
+        "median": 128.0,
+        "stdev": 58.88972745734183
+      },
+      "cost": {
+        "mean": 1.02,
+        "median": 1.02,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667234197771_52068394664203": {
+      "product_id": "shopify_zz_10667234197771_52068394664203",
+      "product_title": "Birthday Artisan Cookie Collection | 6 Plant-Based Treats | Ultimate Birthday UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 19.333333333333332,
+        "median": 27.0,
+        "stdev": 13.279056191361393
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667235246347_52068398301451": {
+      "product_id": "shopify_zz_10667235246347_52068398301451",
+      "product_title": "Thank You Artisan Cookie Collection | 6 Plant-Based Treats | Premium Appreciation UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 10.666666666666666,
+        "median": 10.0,
+        "stdev": 8.020806277010642
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667235868939_52068403249419": {
+      "product_id": "shopify_zz_10667235868939_52068403249419",
+      "product_title": "Congratulations Artisan Cookie Collection | 6 Plant-Based Treats | Premium Achievement UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 83.66666666666667,
+        "median": 114.0,
+        "stdev": 61.40304009846201
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667236163851_52068407017739": {
+      "product_id": "shopify_zz_10667236163851_52068407017739",
+      "product_title": "Thinking of You Artisan Cookie Collection | 6 Plant-Based Treats | Thoughtful Comfort UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 41.0,
+        "median": 45.0,
+        "stdev": 26.229754097208
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667236589835_52068410654987": {
+      "product_id": "shopify_zz_10667236589835_52068410654987",
+      "product_title": "Luxury Tart Selection Box of 6 | Plant-Based Sharing Desserts | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 1.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 374.6666666666667,
+        "median": 476.0,
+        "stdev": 239.64626709659663
+      },
+      "cost": {
+        "mean": 0.8466666666666667,
+        "median": 0.74,
+        "stdev": 0.39106691669499904
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667574395147_52070136316171": {
+      "product_id": "shopify_zz_10667574395147_52070136316171",
+      "product_title": "Birthday Luxury Tart Selection | 6 Plant-Based Desserts | Ultimate Birthday UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 25.0,
+        "median": 23.0,
+        "stdev": 16.09347693943108
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667644125451_52070329319691": {
+      "product_id": "shopify_zz_10667644125451_52070329319691",
+      "product_title": "Birthday Luxury Cheesecake Selection | 5 Plant-Based Desserts | Premium Birthday UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 46.0,
+        "median": 47.0,
+        "stdev": 41.50903516103452
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667648712971_52070366937355": {
+      "product_id": "shopify_zz_10667648712971_52070366937355",
+      "product_title": "Thank You Luxury Tart Selection | 6 Plant-Based Desserts | Premium Appreciation UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.0,
+        "median": 7.0,
+        "stdev": 3.605551275463989
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667673649419_52070584910091": {
+      "product_id": "shopify_zz_10667673649419_52070584910091",
+      "product_title": "Thank You Luxury Cheesecake Selection | 5 Plant-Based Desserts | Premium Appreciation UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 18.0,
+        "median": 21.0,
+        "stdev": 14.730919862656235
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667678368011_52070626001163": {
+      "product_id": "shopify_zz_10667678368011_52070626001163",
+      "product_title": "Congratulations Luxury Tart Selection Box | 6 Pieces | Premium Achievement Desserts",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 41.333333333333336,
+        "median": 46.0,
+        "stdev": 33.24655370611116
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667696357643_52070834766091": {
+      "product_id": "shopify_zz_10667696357643_52070834766091",
+      "product_title": "Thinking of You Luxury Tart Selection | 6 Plant-Based Desserts | Premium Comfort UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 35.333333333333336,
+        "median": 42.0,
+        "stdev": 24.684678108764825
+      },
+      "cost": {
+        "mean": 1.29,
+        "median": 1.29,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667700191499_52070885425419": {
+      "product_id": "shopify_zz_10667700191499_52070885425419",
+      "product_title": "Congratulations Luxury Cheesecake Selection | 5 Plant-Based Desserts | Achievement Celebration UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 87.66666666666667,
+        "median": 79.0,
+        "stdev": 79.35573913292808
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667700584715_52070887850251": {
+      "product_id": "shopify_zz_10667700584715_52070887850251",
+      "product_title": "Thinking of You Luxury Cheesecake Selection | 5 Plant-Based Desserts | Comfort Indulgence UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 33.666666666666664,
+        "median": 40.0,
+        "stdev": 28.04163571073081
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667704647947_52070909214987": {
+      "product_id": "shopify_zz_10667704647947_52070909214987",
+      "product_title": "Classic Bundt Cake Selection Box | Plant-Based Gluten-Free Collection | UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 8.0,
+        "median": 9.0,
+        "stdev": 5.5677643628300215
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1965.3333333333333,
+        "median": 2387.0,
+        "stdev": 1293.132759361286
+      },
+      "cost": {
+        "mean": 8.31,
+        "median": 10.03,
+        "stdev": 6.220964555436721
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667708580107_52070926254347": {
+      "product_id": "shopify_zz_10667708580107_52070926254347",
+      "product_title": "Birthday Signature Bundt Cake Selection | Birthday Cake Collection | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 83.33333333333333,
+        "median": 80.0,
+        "stdev": 63.06610288683877
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667711496459_52070939099403": {
+      "product_id": "shopify_zz_10667711496459_52070939099403",
+      "product_title": "Thank You Signature Bundt Cake Selection | Appreciation Cake Collection | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 25.0,
+        "median": 17.0,
+        "stdev": 28.844410203711913
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667713429771_52070948208907": {
+      "product_id": "shopify_zz_10667713429771_52070948208907",
+      "product_title": "Congratulations Signature Bundt Cake Selection | Achievement Cake Collection | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 120.33333333333333,
+        "median": 136.0,
+        "stdev": 93.4897498837885
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10667716182283_52070962168075": {
+      "product_id": "shopify_zz_10667716182283_52070962168075",
+      "product_title": "Thinking of You Signature Bundt Cake Selection | Comfort Cake Collection | Caring UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 34.0,
+        "median": 23.0,
+        "stdev": 39.66106403010388
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10726287704331_52379349614859": {
+      "product_id": "shopify_zz_10726287704331_52379349614859",
+      "product_title": "Christmas Savoury Treat Box | Gourmet Festive Experience | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.0,
+        "median": 3.0,
+        "stdev": 2.6457513110645907
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 391.3333333333333,
+        "median": 473.0,
+        "stdev": 210.72335735113307
+      },
+      "cost": {
+        "mean": 2.3566666666666665,
+        "median": 1.94,
+        "stdev": 0.7653975002136691
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10726296387851_52379385004299": {
+      "product_id": "shopify_zz_10726296387851_52379385004299",
+      "product_title": "Taste of Christmas | Christmas Treats Everyone Can Enjoy | Premium Gift Box UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 118.66666666666667,
+        "median": 125.0,
+        "stdev": 95.65737469392171
+      },
+      "cost": {
+        "mean": 1.31,
+        "median": 1.31,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10726324207883_52379471610123": {
+      "product_id": "shopify_zz_10726324207883_52379471610123",
+      "product_title": "Festive Tea Time Treats Sharing Box | Christmas Afternoon Experience | Premium UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.333333333333333,
+        "median": 5.0,
+        "stdev": 3.0550504633038935
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 341.3333333333333,
+        "median": 471.0,
+        "stdev": 230.67798623477995
+      },
+      "cost": {
+        "mean": 6.053333333333333,
+        "median": 6.3,
+        "stdev": 5.424208083520886
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10727257506059_52676180017419": {
+      "product_id": "shopify_zz_10727257506059_52676180017419",
+      "product_title": "Sweet & Savoury Christmas Treat Box | Plant-Based Christmas Treats for All to Enjoy | Premium Gift Box UK No",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 8.666666666666666,
+        "median": 8.0,
+        "stdev": 5.033222956847166
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1071.6666666666667,
+        "median": 1317.0,
+        "stdev": 735.3620423528355
+      },
+      "cost": {
+        "mean": 23.82,
+        "median": 11.82,
+        "stdev": 23.691013064029153
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10727257506059_52676180050187": {
+      "product_id": "shopify_zz_10727257506059_52676180050187",
+      "product_title": "Sweet & Savoury Christmas Treat Box | Plant-Based Christmas Treats for All to Enjoy | Premium Gift Box UK Yes",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 407.3333333333333,
+        "median": 486.0,
+        "stdev": 309.5889748252242
+      },
+      "cost": {
+        "mean": 2.1866666666666665,
+        "median": 1.62,
+        "stdev": 0.9814954576223637
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10727914635531_52386454569227": {
+      "product_id": "shopify_zz_10727914635531_52386454569227",
+      "product_title": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.3333333333333333,
+        "median": 1.0,
+        "stdev": 0.5773502691896257
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 325.0,
+        "median": 386.0,
+        "stdev": 252.0972034751675
+      },
+      "cost": {
+        "mean": 2.3533333333333335,
+        "median": 2.76,
+        "stdev": 1.1169750817871154
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10727924793611_52386501853451": {
+      "product_id": "shopify_zz_10727924793611_52386501853451",
+      "product_title": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 180.33333333333334,
+        "median": 241.0,
+        "stdev": 109.43643512712453
+      },
+      "cost": {
+        "mean": 0.27,
+        "median": 0.27,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10728000520459_52387776725259": {
+      "product_id": "shopify_zz_10728000520459_52387776725259",
+      "product_title": "Christmas Luxury Afternoon Tea for 2 | Festive Experience | Premium Christmas UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 186.0,
+        "median": 205.0,
+        "stdev": 120.62752588028987
+      },
+      "cost": {
+        "mean": 0.3,
+        "median": 0.3,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10731712119051_52405727199499": {
+      "product_id": "shopify_zz_10731712119051_52405727199499",
+      "product_title": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 353.0,
+        "median": 472.0,
+        "stdev": 209.58769047823395
+      },
+      "cost": {
+        "mean": 0.8300000000000001,
+        "median": 0.8300000000000001,
+        "stdev": 0.056568542494923775
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10732502679819_52408175165707": {
+      "product_id": "shopify_zz_10732502679819_52408175165707",
+      "product_title": "Christmas Artisan Mince Pies | 12 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 186.66666666666666,
+        "median": 245.0,
+        "stdev": 116.07038094765319
+      },
+      "cost": {
+        "mean": 1.33,
+        "median": 1.33,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10732632047883_52677147656459": {
+      "product_id": "shopify_zz_10732632047883_52677147656459",
+      "product_title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 162.33333333333334,
+        "median": 220.0,
+        "stdev": 105.12056570116684
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "shopify_zz_10732632047883_52677147689227": {
+      "product_id": "shopify_zz_10732632047883_52677147689227",
+      "product_title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK Yes",
+      "label": "",
+      "data_points": 3,
+      "date_range": "46002 to 46004",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.7071067811865476
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 61.333333333333336,
+        "median": 55.0,
+        "stdev": 42.85246006162696
+      },
+      "cost": {
+        "mean": 3.77,
+        "median": 3.77,
+        "stdev": 1.979898987322333
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    }
+  }
+}
