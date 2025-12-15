@@ -8,7 +8,7 @@ Sends email summary to petere@roksys.co.uk with current status.
 Runs: Daily at 7:00 AM
 
 IMPORTANT: All budget, revenue, and ROAS targets defined in this script are authoritative.
-For reference, see: /Users/administrator/Documents/PetesBrain/clients/smythson/SMYTHSON-Q4-AUTHORITATIVE-FIGURES.md
+For reference, see: /Users/administrator/Documents/PetesBrain.nosync/clients/smythson/SMYTHSON-Q4-AUTHORITATIVE-FIGURES.md
 """
 
 import os

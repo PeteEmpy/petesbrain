@@ -26,7 +26,7 @@ from pathlib import Path
 GMAIL_USER = os.environ.get('GMAIL_USER', 'petere@roksys.co.uk')
 GMAIL_APP_PASSWORD = os.environ.get('GMAIL_APP_PASSWORD')
 SENDER_EMAIL = 'pk@nda.ac.uk'
-CLIENT_DIR = Path('/Users/administrator/Documents/PetesBrain/clients/national-design-academy')
+CLIENT_DIR = Path('/Users/administrator/Documents/PetesBrain.nosync/clients/national-design-academy')
 ENROLMENTS_DIR = CLIENT_DIR / 'enrolments'
 HISTORY_DIR = ENROLMENTS_DIR / 'history'
 STATE_FILE = ENROLMENTS_DIR / '.processed-emails.json'

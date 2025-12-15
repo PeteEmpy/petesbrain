@@ -22,8 +22,8 @@ from datetime import datetime, timedelta
 sys.path.insert(0, str(Path(__file__).parent.parent / "infrastructure" / "mcp-servers" / "google-drive-mcp-server"))
 
 # Configuration
-CLIENTS_DIR = Path("/Users/administrator/Documents/PetesBrain/clients")
-STATE_FILE = Path("/Users/administrator/Documents/PetesBrain/data/state/shared-drives-state.json")
+CLIENTS_DIR = Path("/Users/administrator/Documents/PetesBrain.nosync/clients")
+STATE_FILE = Path("/Users/administrator/Documents/PetesBrain.nosync/data/state/shared-drives-state.json")
 LOG_FILE = Path.home() / ".petesbrain-shared-drives.log"
 
 # Client name variations to match against

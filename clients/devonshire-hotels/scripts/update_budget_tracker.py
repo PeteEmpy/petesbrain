@@ -1,4 +1,4 @@
-#!/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-ads-mcp-server/.venv/bin/python3
+#!/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server/.venv/bin/python3
 """
 Devonshire Budget Tracker - Daily Update Script
 
@@ -50,7 +50,7 @@ THE_HIDE_SHEET = "The Hide Properties Auto"
 
 # Google Sheets credentials
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json'
+SERVICE_ACCOUNT_FILE = '/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server/credentials.json'
 
 # Budget data (update monthly at the start of each new month)
 MONTHLY_BUDGETS = {
