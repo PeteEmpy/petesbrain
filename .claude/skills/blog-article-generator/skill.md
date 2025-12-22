@@ -7,7 +7,7 @@ allowed-tools: Bash, Read, Write
 # Blog Article Generator Skill
 
 **Capabilities**:
-- Generate new blog posts from recent knowledge base articles
+- Generate new blog posts from EXTERNAL NEWS SOURCES ONLY (Search Engine Journal, Marketing Dive)
 - Update existing blog posts with new content
 - Target existing or future Rok Systems customers specifically
 - Write in Peter's tone of voice (first-person, conversational, British English, "you get me" approach)
@@ -16,7 +16,7 @@ allowed-tools: Bash, Read, Write
 - Show how changes affect e-commerce business profitability
 - Maintain flow and continuity for regular weekly articles
 - Publish to WordPress or schedule for future publication
-- Use recent Google Ads articles from knowledge base (last 7 days)
+- **CRITICAL**: NEVER uses knowledge base (contains client-specific information)
 
 **Target Audience**:
 Blog articles are written for **EXISTING OR FUTURE CUSTOMERS OF ROK SYSTEMS** who:
@@ -50,7 +50,7 @@ cd /Users/administrator/Documents/PetesBrain
 export WORDPRESS_URL="https://roksys.co.uk"
 export WORDPRESS_USERNAME="Peter"
 export WORDPRESS_APP_PASSWORD="qxxA8shXiVJtD9tlI0RY0Rvf"
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY"
 python3 agents/weekly-blog-generator/weekly-blog-generator.py
 ```
 
@@ -63,17 +63,19 @@ cd /Users/administrator/Documents/PetesBrain
 export WORDPRESS_URL="https://roksys.co.uk"
 export WORDPRESS_USERNAME="Peter"
 export WORDPRESS_APP_PASSWORD="qxxA8shXiVJtD9tlI0RY0Rvf"
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY"
 python3 agents/weekly-blog-generator/weekly-blog-generator.py --update
 ```
 
 **What Happens**:
 
-1. **Fetches Recent Articles**: Pulls top 5-7 Google Ads articles from knowledge base (last 7 days)
+1. **Fetches Recent Articles**: Pulls from EXTERNAL NEWS SOURCES ONLY (Search Engine Journal, Marketing Dive RSS feeds - NO knowledge base)
 2. **Generates Content**: Uses Claude API to synthesize articles into a blog post
 3. **E-Commerce Focus**: Writes for online retailers, explains technical terms, focuses on business outcomes
 4. **Tone of Voice**: First-person, conversational, British English, relationship-focused
 5. **Publishes**: Creates new WordPress post or updates existing one
+
+**CRITICAL SAFETY RULE**: The blog generator ONLY uses external public news sources. It NEVER uses the knowledge base because the knowledge base contains client-specific information (emails, meeting notes, strategies) that must NEVER appear in public blog posts.
 
 **Blog Post Details**:
 
@@ -136,8 +138,8 @@ python3 agents/weekly-blog-generator/weekly-blog-generator.py --update
 
 - WordPress credentials configured (in LaunchAgent or environment variables)
 - Anthropic API key configured
-- Knowledge base index up to date
-- Recent articles available in knowledge base (last 7 days)
+- External RSS feeds accessible (Search Engine Journal, Marketing Dive)
+- **NOTE**: Does NOT require knowledge base (uses external sources only)
 
 **Troubleshooting**:
 
@@ -182,7 +184,7 @@ cd /Users/administrator/Documents/PetesBrain && \
 export WORDPRESS_URL="https://roksys.co.uk" && \
 export WORDPRESS_USERNAME="Peter" && \
 export WORDPRESS_APP_PASSWORD="qxxA8shXiVJtD9tlI0RY0Rvf" && \
-export ANTHROPIC_API_KEY="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" && \
+export ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" && \
 python3 agents/weekly-blog-generator/weekly-blog-generator.py
 ```
 
@@ -192,7 +194,7 @@ cd /Users/administrator/Documents/PetesBrain && \
 export WORDPRESS_URL="https://roksys.co.uk" && \
 export WORDPRESS_USERNAME="Peter" && \
 export WORDPRESS_APP_PASSWORD="qxxA8shXiVJtD9tlI0RY0Rvf" && \
-export ANTHROPIC_API_KEY="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" && \
+export ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" && \
 python3 agents/weekly-blog-generator/weekly-blog-generator.py --update
 ```
 

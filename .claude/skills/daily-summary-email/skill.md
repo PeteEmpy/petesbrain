@@ -27,7 +27,7 @@ Run the daily briefing generator with proper environment setup:
 cd /Users/administrator/Documents/PetesBrain
 export GMAIL_USER="petere@roksys.co.uk"
 export GMAIL_APP_PASSWORD="pxmsoxiwuazkqhvg"
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY"
 /usr/local/bin/python3 agents/reporting/daily-briefing.py
 ```
 
@@ -108,7 +108,7 @@ The daily briefing script:
 cd /Users/administrator/Documents/PetesBrain && \
 GMAIL_USER="petere@roksys.co.uk" \
 GMAIL_APP_PASSWORD="pxmsoxiwuazkqhvg" \
-ANTHROPIC_API_KEY="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" \
+ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
 python3 agents/reporting/daily-briefing.py
 ```
 

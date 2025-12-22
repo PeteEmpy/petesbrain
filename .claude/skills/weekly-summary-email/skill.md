@@ -25,7 +25,7 @@ Run the weekly business summary generator:
 
 ```bash
 cd /Users/administrator/Documents/PetesBrain
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY"
 /usr/local/bin/python3 agents/reporting/kb-weekly-summary.py
 ```
 
@@ -38,7 +38,7 @@ The weekly summary script:
    - analytics
    - industry-insights
    - rok-methodologies
-2. **Fetches upcoming tasks** - Tasks due in the week ahead from Google Tasks
+2. **Fetches upcoming tasks** - Tasks due in the week ahead from internal task system
 3. **Generates weekly client strategy** - Runs `weekly-client-strategy-generator.py`:
    - Analyzes all 17 clients for strategic priorities
    - Checks weekend plans (Friday-Sunday) for context
@@ -76,13 +76,13 @@ The weekly summary script:
 
 **If authentication fails**:
 - Gmail API OAuth token may need refresh
-- Check `shared/mcp-servers/google-tasks-mcp-server/token.json` exists
+- Check OAuth tokens in `~/.config/` directory
 - May need to re-authenticate OAuth flow
 
 **If no content generated**:
 - Check if knowledge base has new documents
 - Verify weekly strategy generator ran successfully
-- Check if there are upcoming tasks in Google Tasks
+- Check if there are upcoming tasks in internal task system
 
 **If email not sent**:
 - Verify Gmail API credentials are valid
@@ -95,7 +95,7 @@ The weekly summary script:
 
 **Works with**:
 - Weekly client strategy generator (`shared/scripts/weekly-client-strategy-generator.py`)
-- Google Tasks MCP (for upcoming tasks)
+- Internal task system (for upcoming tasks)
 - Google Calendar API (for weekend plan detection)
 - Granola importer (for meeting notes)
 - Knowledge base system (for new documents)
@@ -117,7 +117,7 @@ The weekly summary script:
 **Command to run manually**:
 ```bash
 cd /Users/administrator/Documents/PetesBrain && \
-ANTHROPIC_API_KEY="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" \
+ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
 python3 agents/reporting/kb-weekly-summary.py
 ```
 
