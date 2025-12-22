@@ -62,7 +62,23 @@ mkdir -p clients/[client-slug]/{emails,documents,spreadsheets,presentations,meet
 - Add client preferences and communication style
 
 **Create `clients/[client-slug]/tasks-completed.md`**
-- Empty file (auto-populated by Google Tasks sync)
+- Empty file (auto-populated when tasks are completed)
+
+**Create `clients/[client-slug]/session-log.md`**
+- Copy template from any existing client folder
+- Tracks significant work sessions for session continuity
+- Enables conversation handoffs between sessions
+
+**Create `clients/[client-slug]/open-questions.md`**
+- Copy template from any existing client folder
+- Tracks unresolved questions and patterns to investigate
+- Captures curiosities that aren't urgent tasks but important to remember
+
+**Or run automated setup:**
+```bash
+python3 setup-session-continuity.py
+```
+This will create both `session-log.md` and `open-questions.md` for the new client automatically.
 
 #### 1.3 Update Clients List
 
@@ -435,6 +451,8 @@ Create a test note in `!inbox/` mentioning client name, verify it routes correct
 | `clients/[client-slug]/README.md` | Client overview | ✅ Always |
 | `clients/[client-slug]/CONTEXT.md` | Strategic notes | ✅ Always |
 | `clients/[client-slug]/tasks-completed.md` | Task log | ✅ Always |
+| `clients/[client-slug]/session-log.md` | Session continuity tracking | ✅ Always |
+| `clients/[client-slug]/open-questions.md` | Unresolved questions tracking | ✅ Always |
 | `clients/README.md` | Client list | ✅ Always |
 | `agents/system/ai-inbox-processor.py` | Inbox routing | ✅ Always |
 | `agents/system/inbox-processor.py` | Inbox routing | ✅ Always |

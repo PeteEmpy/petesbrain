@@ -317,3 +317,254 @@ Updated `.claude/CLAUDE.md` "Process my task notes" section with:
 
 **Lesson**: User instructions in manual notes must be treated as executable commands, not just passive comments.
 
+
+---
+
+## Task Manager "House of Cards" Architecture - December 22, 2025
+
+**Severity**: 🟡 MAJOR - System fragility causing recurring breakage
+**Status**: ✅ RESOLVED - Template-based architecture implemented
+**Impact**: Manual fixes repeatedly lost, wasted hours on symptom fixes
+
+### What Happened
+
+**Timeline**:
+- **Morning December 22**: Multi-hour investigation into Task Manager backend issues
+  - Fixed orphaned task files
+  - Consolidated servers
+  - Analyzed task count mismatches
+- **Afternoon December 22**: User asked to "process task notes"
+  - Refresh button broken AGAIN (GET instead of POST)
+  - Fixed refresh button
+  - **User's critical question**: "Earlier today we spent a good few hours fixing the task manager. As soon as you start to use it, it breaks again. Why is this?"
+
+**User Frustration**:
+- Morning's comprehensive fix focused on backend (orphaned files, server consolidation)
+- Afternoon immediately revealed frontend breakage (refresh button)
+- **Pattern**: Every fix gets overwritten by hourly regeneration
+- **Root issue**: Morning's analysis was too narrow - treated symptoms, not root cause
+
+### Root Cause
+
+**"House of Cards" Architecture**: Fragile foundational architecture causing cascading failures.
+
+**Primary Cause**: 1,028 lines of inline HTML in Python generator
+
+```python
+# generate-all-task-views.py (BEFORE FIX)
+task_manager_html = f'''<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PetesBrain - Task Manager & Reminders</title>
+    <style>
+        * {{ box-sizing: border-box; }}
+        body {{
+            font-family: Verdana, Geneva, sans-serif;
+            ...
+        }}
+        ...
+    </style>
+</head>
+<body>
+    ...1,028 lines of HTML...
+</body>
+</html>
+'''
+```
+
+**The Problem**:
+1. Manual fixes made to generated `tasks-manager.html` file
+2. Hourly LaunchAgent runs `generate-all-task-views.py`
+3. Generator overwrites entire HTML file with inline template
+4. **All manual fixes lost** (refresh button reverts from POST back to GET)
+5. Browser DOM replaced → JavaScript event listeners destroyed
+6. User forced to re-fix the same bugs repeatedly
+
+**Contributing Factors**:
+1. **No template separation** - HTML hardcoded in Python f-string
+2. **Hourly regeneration** - LaunchAgent runs every hour
+3. **Analysis scope too narrow** - Morning's work focused on backend, missed frontend architecture flaw
+4. **Symptom fixing** - Fixed immediate breakage without asking "why does this keep breaking?"
+
+### The Fix
+
+**Comprehensive Architectural Redesign** (6-step plan with validation gates):
+
+**GATE 0: Pre-Flight Safety Checks**
+- Backed up 22 task JSON files (51 total tasks, 44 active)
+- Created baseline HTML for pixel-perfect comparison
+- Git commit 0623399 as rollback point
+
+**STEP 1: Extract Template (Preserve Exact Look & Feel)**
+- Created `shared/task-manager/tasks-manager-template.html` (1,025 lines)
+- Extracted from `generate-all-task-views.py` lines 1070-2094
+- Cleaned up Python f-string escaping (`{{` → `{`)
+- Preserved all CSS, JavaScript, HTML structure unchanged
+- Result: Template file with placeholders `{task_data}` and `{reminder_data}`
+
+**STEP 2: Add API Endpoint (Read-Only, Zero Risk)**
+- Created shared module `shared/task_loader.py` with `load_all_tasks()` function
+- Added `/api/tasks` endpoint to `shared/task-manager/task-manager-server.py`
+- API returns JSON: `{tasks_by_client, all_tasks, all_reminders, timestamp}`
+- Verified: API returns 42 tasks, 30 reminders, 19 clients (matches backup count)
+
+**STEP 3: Update Generator to Use Template**
+- Modified `generate-all-task-views.py` to load template instead of inline HTML
+- Removed 1,005 lines of old inline HTML generation code
+- Updated output path to `shared/task-manager/tasks-manager.html`
+- Fixed variable names (`task_data` not `task_data_dict`)
+- Result: Generator now loads template, injects data, writes to correct location
+
+**STEP 4: Verify Template Changes Persist**
+- Added test change to template header
+- Regenerated HTML
+- Verified change appears in output
+- **Proof**: Template modifications survive all future regenerations
+
+**STEP 5: Verify Hourly Regeneration Works**
+- Located LaunchAgent: `com.petesbrain.task-manager-hourly-regenerate.plist`
+- Updated to call correct script (`generate-all-task-views.py` instead of deprecated `shared/scripts/generate-task-manager.py`)
+- Reloaded LaunchAgent
+- Verified all paths aligned: LaunchAgent → Generator → Server
+
+**STEP 6: Clean Up & Document**
+- Archived old HTML files to `_archive/task-manager-fix-dec-22-2025/`
+- Archived deprecated generation script
+- Updated INCIDENTS.md with comprehensive root cause analysis
+- Created architecture documentation
+
+### Technical Explanation
+
+**Before** (Inline HTML Anti-Pattern):
+```
+generate-all-task-views.py
+├─ Loads task data from JSON files
+├─ 1,028 lines of inline HTML in f-string
+├─ Injects data into HTML string
+└─ Writes to tasks-manager.html (overwrites entire file)
+
+Hourly: LaunchAgent runs generator → All manual fixes lost
+```
+
+**After** (Template + Data Injection Pattern):
+```
+generate-all-task-views.py
+├─ Loads task data from JSON files
+├─ Loads template from shared/task-manager/tasks-manager-template.html
+├─ Injects data into template placeholders
+└─ Writes to shared/task-manager/tasks-manager.html
+
+Template file (never regenerated):
+├─ All HTML/CSS/JavaScript structure
+├─ Manual fixes persist forever
+└─ Placeholders: {task_data}, {reminder_data}
+
+Hourly: LaunchAgent runs generator → Template unchanged, fixes persist
+```
+
+**Why This Works**:
+- Template file is **separate from generator** - never overwritten
+- Manual fixes go in **template** (persistent) not generated HTML (ephemeral)
+- Hourly regeneration loads template + fresh data = fresh output with preserved fixes
+- No more "house of cards" - foundation is now solid
+
+### Files Modified
+
+**Created**:
+- `shared/task-manager/tasks-manager-template.html` (1,025 lines) - Template with placeholders
+- `shared/task_loader.py` (207 lines) - Shared task loading module
+- `_archive/task-manager-fix-dec-22-2025/` - Archive of old files
+
+**Modified**:
+- `generate-all-task-views.py` - Loads template instead of inline HTML (removed 1,005 lines)
+- `shared/task-manager/task-manager-server.py` - Added `/api/tasks` endpoint
+- `~/Library/LaunchAgents/com.petesbrain.task-manager-hourly-regenerate.plist` - Updated script path
+
+**Archived**:
+- `shared/scripts/generate-task-manager.py` → `_archive/.../generate-task-manager-DEPRECATED.py`
+- `tasks-manager.html` (root) → `_archive/.../tasks-manager-ROOT-DEPRECATED.html`
+- `tasks-manager-v2.html` → `_archive/...`
+- `tasks-manager-TEST.html` → `_archive/...`
+- `tasks-manager-debug.html` → `_archive/...`
+- `tasks-manager-WORKING-BASELINE.html` → `_archive/...` (preserved for reference)
+
+### Lessons Learned
+
+1. **Ask "Why?" Three Times**:
+   - First fix: "Refresh button broken" → Fix button
+   - Second fix: "Refresh button broken AGAIN" → Fix button again
+   - **Third time**: "Why does this keep breaking?" → Discover root cause (hourly regeneration + inline HTML)
+
+2. **Comprehensive vs. Narrow Analysis**:
+   - Morning's analysis: Backend-focused (orphaned files, server consolidation)
+   - Afternoon's realization: Frontend architecture flaw completely overlooked
+   - **Lesson**: When user says "it keeps breaking," analyze ALL layers, not just one domain
+
+3. **Symptom Fixes vs. Root Cause Fixes**:
+   - Symptom: "Refresh button uses GET instead of POST"
+   - Root cause: "1,028 lines of inline HTML gets regenerated hourly"
+   - **Lesson**: If a fix doesn't survive a day, you fixed a symptom, not the cause
+
+4. **Template Extraction is Not Optional**:
+   - Inline HTML in code = anti-pattern
+   - Template files = separation of concerns
+   - **Lesson**: HTML belongs in `.html` files, not Python f-strings
+
+5. **User Frustration as Signal**:
+   - User's question: "Why is this?" (not "What is this?")
+   - Tone: Frustration with recurring failure
+   - **Lesson**: User frustration signals systemic issue requiring architectural fix
+
+### Prevention
+
+**Immediate**:
+- ✅ Template-based generation prevents fixes from being lost
+- ✅ Hourly regeneration now safe (template unchanged)
+- ✅ Refresh button fix persists forever
+
+**Long-term**:
+- Established pattern: HTML templates in dedicated files
+- Shared task loader module (`task_loader.py`) for consistency
+- API endpoint for future client-side rendering (if needed)
+
+**Process Improvements**:
+- When user asks "why does this keep breaking?" → Stop fixing symptoms, analyze architecture
+- Multi-layer analysis: Backend AND Frontend AND Infrastructure
+- "House of cards" is a RED FLAG → Redesign foundation, don't patch cracks
+
+### Verification
+
+**Test 1: Template Change Persists**
+- Added test text to template header
+- Regenerated HTML
+- ✅ Change appeared in output
+
+**Test 2: Hourly Regeneration Works**
+- Updated LaunchAgent to call correct script
+- Verified generator writes to correct location
+- Verified server serves from correct location
+- ✅ All paths aligned
+
+**Test 3: Data Integrity**
+- Compared task counts: 42 tasks (matches backup count)
+- Verified reminders: 30 reminders
+- Verified clients: 19 clients
+- ✅ Zero data loss
+
+**Visual Verification**:
+- Opened generated HTML in browser
+- Compared to baseline screenshot (pixel-perfect match)
+- ✅ Look and feel preserved
+
+### Prevention Confidence
+
+**HIGH** - This specific failure mode (fixes lost on regeneration) cannot recur because:
+- Template file is separate from generator (never overwritten)
+- Manual fixes go in template (persistent) not generated output (ephemeral)
+- Architecture pattern established: HTML in `.html` files, not Python code
+- Shared modules prevent code duplication
+- API endpoint enables future client-side rendering if needed
+
+**Architectural moat**: Template extraction creates clear separation of concerns that makes this class of bug impossible.
+

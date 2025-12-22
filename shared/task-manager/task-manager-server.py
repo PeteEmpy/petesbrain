@@ -24,6 +24,7 @@ Endpoints:
         GET /health - Health check
 
     Port 5002:
+        GET /api/tasks - Get all tasks and reminders (JSON)
         POST /save-note - Save manual task note
         POST /regenerate - Regenerate tasks overview
         GET /notes-count - Get manual notes count
@@ -40,6 +41,10 @@ from pathlib import Path
 from datetime import datetime
 from http.server import HTTPServer, BaseHTTPRequestHandler, SimpleHTTPRequestHandler
 from typing import Dict
+
+# Add parent directory to path for task_loader import
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from task_loader import load_all_tasks
 
 # Load configuration
 SCRIPT_DIR = Path(__file__).parent
@@ -318,7 +323,37 @@ class APIServerHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         """Handle GET requests"""
-        if self.path == '/notes-count':
+        if self.path == '/api/tasks':
+            try:
+                # Load all tasks using shared task_loader module
+                tasks_by_client, all_tasks, all_reminders = load_all_tasks()
+
+                # Return data in format expected by frontend
+                response = {
+                    'tasks_by_client': tasks_by_client,
+                    'all_tasks': all_tasks,
+                    'all_reminders': all_reminders,
+                    'timestamp': datetime.now().isoformat()
+                }
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(response, default=str).encode())
+
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                error_response = {
+                    'error': str(e),
+                    'type': type(e).__name__
+                }
+                self.wfile.write(json.dumps(error_response).encode())
+
+        elif self.path == '/notes-count':
             try:
                 count = 0
                 if NOTES_FILE.exists():

@@ -22,7 +22,13 @@ This file tracks unresolved questions, patterns to investigate, and curiosities 
 
 ## Active Questions
 
-*(Add your open questions below as they emerge)*
+**Question:** Will Boxing Day 2025 repeat the 1,200%+ ROAS pattern from 2024?
+**Noticed:** 2025-12-22
+**Context:** P9 budget analysis - projecting Dec 26 performance and justifying £12,000 daily budget allocation
+**Hypothesis:** 2024 showed exceptional Boxing Day performance (UK: 1,205% ROAS, USA: 1,638%, EUR: 2,929%) - but was this a one-time anomaly or repeatable seasonal pattern?
+**Need:** Historical Boxing Day data from 2022-2023 to confirm pattern consistency across multiple years
+**Priority:** High (impacts £12,000 budget allocation decision for Dec 26)
+**Status:** Open
 
 ---
 
