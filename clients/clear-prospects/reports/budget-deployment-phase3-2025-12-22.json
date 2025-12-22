@@ -1,0 +1,94 @@
+{
+  "deployment_date": "2025-12-22T16:15:00Z",
+  "phase": "Phase 3: Post-Christmas (Dec 20-25)",
+  "csv_file": "phase3-post-christmas-dec20-no-bmpm.csv",
+  "campaigns_updated": 11,
+  "brands_affected": ["HSG", "WBS"],
+  "bmpm_status": "No changes - remains at Phase 2 PAUSED state",
+  "total_budget_change": {
+    "before": "£1,221.20/day",
+    "after": "£416.37/day",
+    "reduction": "-65.9%"
+  },
+  "changes": [
+    {
+      "campaign_id": "211394337",
+      "campaign_name": "CPL | HSG | Search | Brand",
+      "old_budget": "£20.00",
+      "new_budget": "£5.20",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "17287142780",
+      "campaign_name": "CPL | HSG | P Max Shopping | Villains",
+      "old_budget": "£13.00",
+      "new_budget": "£3.38",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "17146649454",
+      "campaign_name": "CPL | HSG | P Max Shopping | Zombies",
+      "old_budget": "£28.00",
+      "new_budget": "£7.28",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "21730574366",
+      "campaign_name": "CPL | HSG | P Max | All | H&S",
+      "old_budget": "£510.00",
+      "new_budget": "£132.60",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "20502206066",
+      "campaign_name": "CPL | HSG | Search | Photo Face Mask",
+      "old_budget": "£77.00",
+      "new_budget": "£20.02",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "704093015",
+      "campaign_name": "CPL | HSG | Search | Products",
+      "old_budget": "£30.00",
+      "new_budget": "£7.80",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "17599480539",
+      "campaign_name": "CPL | WBS | P Max Shopping | H&S",
+      "old_budget": "£310.00",
+      "new_budget": "£137.02",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "17342356076",
+      "campaign_name": "CPL | WBS | P Max Shopping | Wheat Bags | Villains",
+      "old_budget": "£8.20",
+      "new_budget": "£3.62",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "17610292964",
+      "campaign_name": "CPL | WBS | P Max | Shopping | Zombies",
+      "old_budget": "£29.00",
+      "new_budget": "£12.82",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "78340377",
+      "campaign_name": "CPL | WBS | Search | Brand Inclusion",
+      "old_budget": "£56.00",
+      "new_budget": "£24.75",
+      "status": "SUCCESS"
+    },
+    {
+      "campaign_id": "60035097",
+      "campaign_name": "CPL | WBS | Search | Wheat Bags",
+      "old_budget": "£140.00",
+      "new_budget": "£61.88",
+      "status": "SUCCESS"
+    }
+  ],
+  "deployed_by": "Claude Code",
+  "notes": "Moderate reduction to January seasonal levels for HSG/WBS. BMPM excluded from deployment as requested. Phase active Dec 20-25, then Phase 4 (Boxing Day Recovery) on Dec 26."
+}

@@ -691,3 +691,28 @@ Expected Impact:
 - Maintain reach (no exclusions)
 
 ---
+## [NMA] Week 2: Remove zero-impression keywords (~150 keywords)
+**Completed:** 2025-12-22 16:24
+**Source:** NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 2 Item #9
+
+Action:
+- Pause ~150 keywords identified in Week 1 review (Task #5)
+- Focus on keywords with QS <3 and 0 impressions in 90 days
+- Export list before pausing (for audit trail)
+
+Expected Impact:
+- Cleaner account structure
+- Slightly improved account-level quality score
+- Easier performance monitoring
+
+Done
+
+Done
+
+Done
+
+Done
+
+Done
+
+---

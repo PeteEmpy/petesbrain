@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-12-22T16:00:24.645796",
+  "deployment_type": "christmas_shutdown_2025",
+  "customer_id": "4941701449",
+  "current_budgets": {
+    "15820346778": {
+      "name": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "budget_micros": 175000000,
+      "budget_gbp": 175.0
+    },
+    "22986754502": {
+      "name": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+      "budget_micros": 200000000,
+      "budget_gbp": 200.0
+    },
+    "598475433": {
+      "name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+      "budget_micros": 69000000,
+      "budget_gbp": 69.0
+    },
+    "17324490442": {
+      "name": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+      "budget_micros": 63000000,
+      "budget_gbp": 63.0
+    },
+    "10492045139": {
+      "name": "T2MD | DSA 160 150 5/12 140 7/4",
+      "budget_micros": 68000000,
+      "budget_gbp": 68.0
+    },
+    "21610656469": {
+      "name": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+      "budget_micros": 15000000,
+      "budget_gbp": 15.0
+    },
+    "22122810626": {
+      "name": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+      "budget_micros": 10000000,
+      "budget_gbp": 10.0
+    },
+    "598474059": {
+      "name": "T2MD | Brand Inclusion  120  14/7 Ai Max 11/11",
+      "budget_micros": 50000000,
+      "budget_gbp": 50.0
+    },
+    "18441497267": {
+      "name": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+      "budget_micros": 10000000,
+      "budget_gbp": 10.0
+    }
+  },
+  "expected_new_budgets": {
+    "15820346778": 40.0,
+    "22986754502": 20.0,
+    "598475433": 10.0,
+    "17324490442": 10.0,
+    "10492045139": 5.0,
+    "21610656469": 10.0,
+    "22122810626": 5.0,
+    "598474059": 10.0,
+    "18441497267": 2.0
+  },
+  "total_current_daily": 660.0,
+  "total_new_daily": 112.0,
+  "reduction_amount": 548.0,
+  "reduction_percent": 83.0
+}
