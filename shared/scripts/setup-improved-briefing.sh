@@ -41,7 +41,7 @@ echo ""
 echo "This will analyze all 12+ clients and generate today's work list..."
 echo ""
 
-ANTHROPIC_API_KEY="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" \
+ANTHROPIC_API_KEY="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" \
 /usr/local/bin/python3 shared/scripts/daily-client-work-generator.py
 
 echo ""
@@ -59,7 +59,7 @@ echo "  ✓ Performance alerts"
 echo "  ✓ AI-generated summary"
 echo ""
 
-ANTHROPIC_API_KEY="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" \
+ANTHROPIC_API_KEY="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" \
 GMAIL_USER="petere@roksys.co.uk" \
 GMAIL_APP_PASSWORD="pxmsoxiwuazkqhvg" \
 /usr/local/bin/python3 agents/reporting/daily-briefing.py

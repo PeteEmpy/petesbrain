@@ -4,7 +4,7 @@
 cd "$(dirname "$0")"
 
 # SET YOUR ANTHROPIC API KEY HERE
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="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"
 
 echo "=========================================="
 echo "Google Ads Text Generator"

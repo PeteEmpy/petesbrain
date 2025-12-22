@@ -1,0 +1,85 @@
+{
+  "backup_date": "2025-12-22T16:47:03.695371",
+  "change_description": "Add 18 property-specific negative keywords to prevent cannibalization",
+  "customer_id": "5898250490",
+  "campaign": {
+    "id": "2080736142",
+    "name": "DEV | Core Properties CE | Chatsworth Escapes Inns & Hotels 460 28/7 500 28/7",
+    "status": "ENABLED",
+    "bidding_strategy_type": "TARGET_ROAS",
+    "budget_micros": 17000000
+  },
+  "existing_negative_keywords_count": 206,
+  "expected_changes": {
+    "negative_keywords_to_add": 18,
+    "final_negative_keywords_count": 224
+  },
+  "new_negative_keywords": [
+    {
+      "text": "hide",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "hide",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "highwayman",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "highwayman",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "pilsley",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "pilsley",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "beeley",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "beeley",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "devonshire arms",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "fell",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "cavendish",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "menu",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "menus",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "pub",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "pubs",
+      "match_type": "EXACT"
+    }
+  ],
+  "rationale": {
+    "property_cannibalization_wasted_spend": "£83.59 over 15 days (Dec 8-22)",
+    "wasted_clicks": 211,
+    "percentage_of_total_spend": "35.1%",
+    "expected_monthly_savings": "£167"
+  }
+}

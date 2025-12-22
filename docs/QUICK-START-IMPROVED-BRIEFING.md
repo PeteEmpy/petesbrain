@@ -106,7 +106,7 @@ Want to see what work is needed today?
 cd /Users/administrator/Documents/PetesBrain
 
 # Generate client work
-ANTHROPIC_API_KEY="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" \
+ANTHROPIC_API_KEY="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" \
 /usr/local/bin/python3 shared/scripts/daily-client-work-generator.py
 ```
 

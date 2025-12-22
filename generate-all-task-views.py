@@ -2024,16 +2024,18 @@ async function refreshTaskManager() {{
     btn.disabled = true;
 
     try {{
-        const response = await fetch('http://localhost:5002/regenerate');
+        const response = await fetch('http://localhost:5002/regenerate', {{
+            method: 'POST'
+        }});
         const data = await response.json();
 
-        if (data.status === 'success') {{
+        if (data.success && data.status === 'success') {{
             // Wait a moment then reload the page
             setTimeout(() => {{
                 location.reload();
             }}, 500);
         }} else {{
-            alert('Error refreshing task manager: ' + data.message);
+            alert('Error refreshing task manager: ' + (data.message || data.error || 'Unknown error'));
             btn.textContent = originalText;
             btn.disabled = false;
         }}

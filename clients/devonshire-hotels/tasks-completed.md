@@ -769,3 +769,74 @@ PMax asset text optimization has been successfully implemented and is now a moni
 Done
 
 ---
+
+## [Devonshire] P0: Investigate Pilsley Inn Zero Conversions
+**Completed**: 2025-12-22
+**Priority**: P0
+**Time Spent**: 15 mins
+
+**Investigation Findings**:
+Checked Google Ads for Pilsley Inn performance (Dec 1-22, 2025):
+
+**Pilsley Inn Search Campaign**:
+- ✅ Status: ENABLED
+- ✅ Conversions: 1.5 conversions (Dec 16 + Dec 21)
+- ✅ Revenue: £542.02
+- Spend: £182.73
+- ROAS: 297% (below 570% target but NOT zero)
+
+**Performance Max Campaign**:
+- ✅ Conversions: 5 conversions
+- ✅ Revenue: £2,012.01
+- Spend: £1,284.93
+- ROAS: 157%
+
+**Conclusion**: Zero conversions issue resolved. Pilsley Inn now converting, though ROAS below target. Continue monitoring in weekly reports.
+
+---
+
+## [Devonshire] P1: Review Chatsworth Inns - Zero Conversions
+**Completed**: 2025-12-22
+**Priority**: P0
+**Time Spent**: 30 mins
+
+**Campaign**: DEV | Core Properties CE | Chatsworth Escapes Inns & Hotels (ID: 2080736142)
+
+**Investigation Findings**:
+
+**Overall Performance (Dec 1-22)**:
+- Total Conversions: 2 (both on Dec 7)
+- Total Revenue: £580.02
+- Total Spend: £360.95
+- Overall ROAS: 161% (vs 570% target)
+
+**Critical Issue - Zero Conversions Since Dec 7**:
+- Last conversion: Dec 7 (2 conversions, £580.02 revenue)
+- Zero conversions: 15 consecutive days (Dec 8-22)
+- Wasted spend: £238.24 since last conversion
+- Monthly waste projection: £476/month if pattern continues
+
+**Root Cause Identified**:
+Campaign capturing clicks for properties with dedicated campaigns (The Hide, Pilsley Inn, Beeley Inn), causing:
+1. Budget waste on properties already covered elsewhere
+2. Diluted focus from true "Chatsworth Inns & Hotels" searches
+3. Zero conversions due to irrelevant traffic
+
+**Top Wasted Searches**:
+- "the hide chatsworth" - 41 clicks, £26.61, 0 conversions
+- "pilsley inn chatsworth" - 39 clicks, £20.47, 0 conversions
+- "pilsley inn" - 34 clicks, £17.42, 0 conversions
+
+**Recommendations**:
+1. Add negative keywords: "the hide", "pilsley inn", "beeley inn" (exact/phrase)
+2. Review landing page configuration
+3. Check conversion tracking functionality
+4. Consider pausing if redundant with property-specific campaigns
+5. Audit all campaigns for keyword overlap/cannibalization
+
+**Estimated Impact**:
+- Reduce wasted spend: £238/month saved
+- Improve ROAS by eliminating property cannibalization
+- Better budget allocation to converting campaigns
+
+---

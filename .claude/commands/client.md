@@ -1,45 +1,86 @@
 ---
-description: Load client context and show status summary
-allowed-tools: Read, mcp__platform-ids__get_client_platform_ids, mcp__google-tasks__list_tasks
+description: Load client context and show comprehensive briefing with session continuity
+allowed-tools: Read, mcp__platform-ids__get_client_platform_ids
 argument-hint: <client-name>
 ---
 
 # Client Context: $ARGUMENTS
 
-Load the context for this client and provide a quick status summary.
+Load full client context including strategic overview, last session summary, open questions, and active tasks. Provides comprehensive briefing for session continuity.
 
 ## Steps
 
-1. **Read client CONTEXT.md**:
-   ```
-   Read: clients/$ARGUMENTS/CONTEXT.md
-   ```
+1. **Validate client exists**:
+   - Check if `clients/$ARGUMENTS/` directory exists
+   - If not, list available clients or suggest similar names
 
-2. **Get platform IDs** using `mcp__platform-ids__get_client_platform_ids('$ARGUMENTS')`
+2. **Read core context files**:
+   - `clients/$ARGUMENTS/CONTEXT.md` (strategic context)
+   - `clients/$ARGUMENTS/session-log.md` (most recent session only)
+   - `clients/$ARGUMENTS/open-questions.md` (active questions only)
+   - `clients/$ARGUMENTS/tasks.json` (current tasks)
 
-3. **Check for active tasks** in `clients/$ARGUMENTS/tasks.json`
+3. **Get platform IDs** using `mcp__platform-ids__get_client_platform_ids('$ARGUMENTS')`
 
-4. **Provide summary** in this format:
+4. **Present structured briefing**:
 
 ```
-## [Client Name] - Quick Summary
+🟢 [Client Name] - Context Briefing
+==========================================
 
-**Platform IDs:**
-- Google Ads: [ID]
-- Merchant Centre: [ID]
-- GA4: [ID]
+## ✓ Strategic Context
 
-**Active Tasks:** [count]
-- [P0/P1 tasks if any]
+- Account structure: [from CONTEXT.md]
+- Target ROAS / KPIs: [from CONTEXT.md]
+- Current focus: [from CONTEXT.md]
+- Monthly budget: [from CONTEXT.md]
+- Platform IDs: Google Ads [ID], GA4 [ID], Merchant Centre [ID]
 
-**Key Context:**
-- [2-3 key points from CONTEXT.md - targets, current focus, recent changes]
+## ✓ Last Session Summary
 
-**Recent Activity:**
-- [Last email sync date if available]
-- [Any recent reports]
+**Date:** [YYYY-MM-DD] ([topic])
 
-Ready to work on [Client Name]. What would you like to do?
+**Analysed:**
+- [Key points from last session-log.md entry]
+
+**Decided:**
+- [Decisions made]
+
+**Still investigating:**
+- [Open items from last session]
+
+## ✓ Open Questions ([count])
+
+**High Priority:**
+- [Question] (Noticed: YYYY-MM-DD)
+
+**Medium/Low Priority:**
+- [Other questions if any]
+
+## ✓ Active Tasks ([count])
+
+**P0 (Critical):**
+- [P0 tasks with ⚠️ if overdue]
+
+**P1 (Important):**
+- [P1 tasks]
+
+---
+
+**Ready to work on [Client Name]. What would you like to do?**
 ```
 
-Keep summary concise - this is for quick orientation, not deep analysis.
+5. **Handle missing files gracefully**:
+   - If CONTEXT.md missing: "⚠️ CONTEXT.md not found"
+   - If session-log.md missing: "ℹ️ No previous sessions logged yet"
+   - If open-questions.md missing: "ℹ️ No open questions tracked"
+   - If no recent session: "First session with new continuity system"
+
+## Formatting
+
+- Use British English spelling
+- Apply green heading styling (🟢 for H1, ✓ for H2)
+- Keep concise but comprehensive
+- Focus on actionable context for THIS session
+- Show overdue tasks with ⚠️ warning
+- For session-log.md, only show the MOST RECENT entry (not full history)
