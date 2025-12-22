@@ -1073,6 +1073,18 @@ with open(template_path, 'r') as f:
 
 # Prepare data for injection into template
 task_manager_html = task_manager_template.replace(
+    '{client_sections}',
+    client_sections
+).replace(
+    '{calendar_events_html}',
+    calendar_events_html
+).replace(
+    '{personal_reminders_html}',
+    personal_reminders_html
+).replace(
+    '{client_tasks_html}',
+    client_tasks_html
+).replace(
     '{task_data}',
     task_data  # Already JSON stringified above
 ).replace(
