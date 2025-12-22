@@ -986,7 +986,7 @@ async function checkForNotes() {
 
         if (data.count > 0) {
             processBtn.style.display = 'inline-block';
-            processBtn.textContent = `📋 Process ${data.count} Note${data.count > 1 ? 's' : ' }'`;
+            processBtn.textContent = `📋 Process ${data.count} Note${data.count > 1 ? 's' : ''}`;
         } else {
             processBtn.style.display = 'none';
         }
