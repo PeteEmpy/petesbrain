@@ -1,0 +1,962 @@
+{
+  "client_slug": "tree2mydoor",
+  "date_range": {
+    "start_date": "2025-12-08",
+    "end_date": "2025-12-15"
+  },
+  "health_score": 0,
+  "summary": "Account Health: Critical (0/100)\n\nAnalysed 29 campaigns with total spend of \u00a33,582 and blended ROAS of 1.42x.\n\nDetected 18 issues requiring attention.\n\nProduct Analysis: 4 products tracked.",
+  "campaign_analyses": [
+    {
+      "campaign_name": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "campaign_id": "15820346778",
+      "campaign_type": "PERFORMANCE_MAX",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 1452.631485,
+        "revenue": 2357.457950454,
+        "roas": 1.6228878244739409,
+        "conversions": 111.317844,
+        "clicks": 1411,
+        "impressions": 99100,
+        "lost_is_budget": 0.0063900817695158535
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+      "campaign_id": "22986754502",
+      "campaign_type": "SHOPPING",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 549.33,
+        "revenue": 671.751151649,
+        "roas": 1.22285539047385,
+        "conversions": 38.743024,
+        "clicks": 614,
+        "impressions": 67519,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+          "description": "ROAS 1.22x is 24% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.22285539047385,
+            "target_roas": 1.6,
+            "gap_percentage": 23.571538095384383,
+            "spend": 549.33,
+            "revenue": 671.751151649
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+      "campaign_id": "598475433",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 327.654345,
+        "revenue": 388.959299873,
+        "roas": 1.1871025237678445,
+        "conversions": 16.500001,
+        "clicks": 425,
+        "impressions": 5727,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+          "description": "ROAS 1.19x is 26% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.1871025237678445,
+            "target_roas": 1.6,
+            "gap_percentage": 25.806092264509722,
+            "spend": 327.654345,
+            "revenue": 388.959299873
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+      "campaign_id": "17324490442",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 120.797622,
+        "revenue": 64.712266,
+        "roas": 0.5357081118699505,
+        "conversions": 3.0,
+        "clicks": 166,
+        "impressions": 1619,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "description": "ROAS 0.54x is 67% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.5357081118699505,
+            "target_roas": 1.6,
+            "gap_percentage": 66.5182430081281,
+            "spend": 120.797622,
+            "revenue": 64.712266
+          }
+        },
+        {
+          "type": "high_spend_low_performance",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "description": "\u00a3121 spend with 0.54x ROAS (not profitable)",
+          "metrics": {
+            "spend": 120.797622,
+            "roas": 0.5357081118699505,
+            "revenue": 64.712266,
+            "loss": 56.085356000000004
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | DSA 160 150 5/12 140 7/4",
+      "campaign_id": "10492045139",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 103.624846,
+        "revenue": 194.11681104,
+        "roas": 1.8732651341165802,
+        "conversions": 7.285755,
+        "clicks": 126,
+        "impressions": 1587,
+        "lost_is_budget": 0.0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+      "campaign_id": "21610656469",
+      "campaign_type": "PERFORMANCE_MAX",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 96.941342,
+        "revenue": 118.33046792,
+        "roas": 1.2206398784947705,
+        "conversions": 5.870694,
+        "clicks": 89,
+        "impressions": 13506,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "description": "ROAS 1.22x is 24% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.2206398784947705,
+            "target_roas": 1.6,
+            "gap_percentage": 23.71000759407685,
+            "spend": 96.941342,
+            "revenue": 118.33046792
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+      "campaign_id": "22122810626",
+      "campaign_type": "SHOPPING",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 77.14,
+        "revenue": 110.981962233,
+        "roas": 1.4387083514778325,
+        "conversions": 7.979778,
+        "clicks": 100,
+        "impressions": 14943,
+        "lost_is_budget": 0.5788034737857832
+      },
+      "issues": [
+        {
+          "type": "budget_constraint",
+          "severity": "P1",
+          "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+          "description": "Losing 58% of impressions due to budget",
+          "metrics": {
+            "lost_is_budget": 0.5788034737857832,
+            "spend": 77.14,
+            "roas": 1.4387083514778325
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Brand Inclusion  120  14/7 Ai Max 11/11",
+      "campaign_id": "598474059",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 64.897286,
+        "revenue": 93.7914665,
+        "roas": 1.4452294122130163,
+        "conversions": 4.5,
+        "clicks": 80,
+        "impressions": 264,
+        "lost_is_budget": 0.0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+      "campaign_id": "18441497267",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 63.670828,
+        "revenue": 35.7341245,
+        "roas": 0.5612322883566081,
+        "conversions": 1.5,
+        "clicks": 122,
+        "impressions": 1528,
+        "lost_is_budget": 0.0005074854097944684
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+          "description": "ROAS 0.56x is 65% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.5612322883566081,
+            "target_roas": 1.6,
+            "gap_percentage": 64.92298197771198,
+            "spend": 63.670828,
+            "revenue": 35.7341245
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 62.38,
+        "revenue": 116.096949,
+        "roas": 1.8611245431227956,
+        "conversions": 7.5,
+        "clicks": 69,
+        "impressions": 4228,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 59.34,
+        "revenue": 55.7556,
+        "roas": 0.9395955510616785,
+        "conversions": 3.0,
+        "clicks": 25,
+        "impressions": 1413,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.94x is 41% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.9395955510616785,
+            "target_roas": 1.6,
+            "gap_percentage": 41.2752780586451,
+            "spend": 59.34,
+            "revenue": 55.7556
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 53.933873,
+        "revenue": 105.775216,
+        "roas": 1.9612019333378858,
+        "conversions": 4.0,
+        "clicks": 45,
+        "impressions": 4951,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 48.84,
+        "revenue": 144.822064456,
+        "roas": 2.9652347349713346,
+        "conversions": 7.636448,
+        "clicks": 57,
+        "impressions": 4316,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 45.23,
+        "revenue": 71.24545,
+        "roas": 1.5751812956002655,
+        "conversions": 3.0,
+        "clicks": 24,
+        "impressions": 1835,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 42.98,
+        "revenue": 166.587482,
+        "roas": 3.875930246626338,
+        "conversions": 9.0,
+        "clicks": 43,
+        "impressions": 4507,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 38.12,
+        "revenue": 0.0,
+        "roas": 0.0,
+        "conversions": 0.0,
+        "clicks": 22,
+        "impressions": 1498,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.00x is 100% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.0,
+            "target_roas": 1.6,
+            "gap_percentage": 100.0,
+            "spend": 38.12,
+            "revenue": 0.0
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 36.61618,
+        "revenue": 0.0,
+        "roas": 0.0,
+        "conversions": 0.0,
+        "clicks": 38,
+        "impressions": 3920,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.00x is 100% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.0,
+            "target_roas": 1.6,
+            "gap_percentage": 100.0,
+            "spend": 36.61618,
+            "revenue": 0.0
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 35.61,
+        "revenue": 52.957001015,
+        "roas": 1.4871384727604606,
+        "conversions": 1.95377,
+        "clicks": 24,
+        "impressions": 1457,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 32.82,
+        "revenue": 77.3853,
+        "roas": 2.357870201096892,
+        "conversions": 2.0,
+        "clicks": 19,
+        "impressions": 1634,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 32.78,
+        "revenue": 45.3203,
+        "roas": 1.3825594874923735,
+        "conversions": 2.0,
+        "clicks": 20,
+        "impressions": 1740,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 32.020938,
+        "revenue": 22.66515,
+        "roas": 0.707822800194048,
+        "conversions": 1.0,
+        "clicks": 34,
+        "impressions": 4351,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.71x is 56% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.707822800194048,
+            "target_roas": 1.6,
+            "gap_percentage": 55.76107498787201,
+            "spend": 32.020938,
+            "revenue": 22.66515
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 31.208967,
+        "revenue": 96.4531,
+        "roas": 3.0905572747729844,
+        "conversions": 3.0,
+        "clicks": 16,
+        "impressions": 1589,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 26.622138,
+        "revenue": 29.40045,
+        "roas": 1.1043609645476258,
+        "conversions": 2.0,
+        "clicks": 33,
+        "impressions": 3047,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "Unknown",
+          "description": "ROAS 1.10x is 31% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.1043609645476258,
+            "target_roas": 1.6,
+            "gap_percentage": 30.977439715773393,
+            "spend": 26.622138,
+            "revenue": 29.40045
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 25.901208,
+        "revenue": 0.0,
+        "roas": 0.0,
+        "conversions": 0.0,
+        "clicks": 34,
+        "impressions": 3049,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.00x is 100% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.0,
+            "target_roas": 1.6,
+            "gap_percentage": 100.0,
+            "spend": 25.901208,
+            "revenue": 0.0
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 25.229332,
+        "revenue": 18.986733,
+        "roas": 0.752565822987307,
+        "conversions": 3.0,
+        "clicks": 34,
+        "impressions": 2542,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.75x is 53% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.752565822987307,
+            "target_roas": 1.6,
+            "gap_percentage": 52.96463606329331,
+            "spend": 25.229332,
+            "revenue": 18.986733
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 24.748467,
+        "revenue": 0.0,
+        "roas": 0.0,
+        "conversions": 0.0,
+        "clicks": 14,
+        "impressions": 1190,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.00x is 100% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.0,
+            "target_roas": 1.6,
+            "gap_percentage": 100.0,
+            "spend": 24.748467,
+            "revenue": 0.0
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 24.65,
+        "revenue": 25.92515,
+        "roas": 1.0517302231237322,
+        "conversions": 1.0,
+        "clicks": 18,
+        "impressions": 1269,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "Unknown",
+          "description": "ROAS 1.05x is 34% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.0517302231237322,
+            "target_roas": 1.6,
+            "gap_percentage": 34.26686105476674,
+            "spend": 24.65,
+            "revenue": 25.92515
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 24.56,
+        "revenue": 23.91015,
+        "roas": 0.9735403094462541,
+        "conversions": 1.0,
+        "clicks": 20,
+        "impressions": 1266,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "Unknown",
+          "description": "ROAS 0.97x is 39% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.9735403094462541,
+            "target_roas": 1.6,
+            "gap_percentage": 39.153730659609124,
+            "spend": 24.56,
+            "revenue": 23.91015
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "Unknown",
+      "campaign_id": null,
+      "campaign_type": "SHOPPING",
+      "status": "Unknown",
+      "metrics": {
+        "spend": 21.372783,
+        "revenue": 0.0,
+        "roas": 0.0,
+        "conversions": 0.0,
+        "clicks": 10,
+        "impressions": 1432,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "Unknown",
+          "description": "ROAS 0.00x is 100% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.0,
+            "target_roas": 1.6,
+            "gap_percentage": 100.0,
+            "spend": 21.372783,
+            "revenue": 0.0
+          }
+        }
+      ],
+      "target_roas": 1.6
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "P1",
+      "issue_type": "low_roas",
+      "title": "Low ROAS Performance",
+      "affected_campaigns": 16,
+      "campaign_names": [
+        "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+        "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+        "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+        "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "impact": {
+        "total_spend": 1497.575183,
+        "avg_roas": 0.0
+      },
+      "recommendation": "ROAS Performance Below Target\n\n16 campaign(s) are performing below the target ROAS of 1.6x. This represents \u00a31498 in spend generating 0.00x average return.\n\nRoot Cause Analysis:\n- Campaign efficiency is 0% below target\n- May indicate bidding strategy misalignment, poor product/ad relevance, or targeting issues\n\nRecommendation:\n1. Review bidding strategy - consider adjusting Target ROAS or switching to Maximize Conversion Value\n2. Analyse Search Terms report for wasted spend on irrelevant queries\n3. Review product feed quality (if Shopping/PMax) - ensure titles, descriptions optimised\n4. Check audience targeting for efficiency opportunities",
+      "kb_articles": [
+        {
+          "title": "Get more visibility in Performance Max with new asset and channel reporting improvements.",
+          "path": "google-ads/performance-max/performance-max-asset-channel-reporting-september-2025.md",
+          "category": "google-ads/performance-max",
+          "preview": "title: Performance Max: New Asset & Channel Reporting Improvements",
+          "score": 43,
+          "type": "article"
+        },
+        {
+          "title": "Why B2B brands are shifting from keywords to Performance Max",
+          "path": "google-ads/performance-max/b2b-shift-keywords-to-performance-max.md",
+          "category": "google-ads/performance-max",
+          "preview": "title: B2B Shift from Keyword-Based to Performance Max Campaigns",
+          "score": 33,
+          "type": "article"
+        },
+        {
+          "title": "Google and Microsoft: How their Performance Max approaches align and diverge",
+          "path": "_inbox/documents/2025-11-24_google-and-microsoft-how-their-performance-max-ap.md",
+          "category": "uncategorized",
+          "preview": "url: https://searchengineland.com/google-microsoft-performance-max-approaches-464964",
+          "score": 32,
+          "type": "article"
+        }
+      ],
+      "next_steps": [
+        "Review Search Terms report for the last 30 days",
+        "Check Quality Score for keywords <7",
+        "Analyse landing page relevance and conversion rate",
+        "Consider bid strategy adjustment (Target ROAS \u2192 Maximize Conversion Value test)"
+      ]
+    },
+    {
+      "priority": "P1",
+      "issue_type": "high_spend_low_performance",
+      "title": "High Spend, Low Performance",
+      "affected_campaigns": 1,
+      "campaign_names": [
+        "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10"
+      ],
+      "impact": {
+        "total_spend": 120.797622,
+        "avg_roas": 0.5357081118699505
+      },
+      "recommendation": "High Spend, Low Performance Campaigns\n\n1 campaign(s) with significant spend (\u00a3121 total) are underperforming at 0.54x ROAS.\n\nRoot Cause Analysis:\n- Campaigns are not profitable - spending more than revenue generated\n- This is a critical waste of budget\n\nRecommendation:\n1. IMMEDIATE: Pause or reduce budgets for campaigns with ROAS <1.0x\n2. Diagnose: Review Search Terms, Placements, Audience targeting for waste\n3. Test: If pausing isn't an option, create tightly controlled test with lower budget\n4. Consider: If consistently unprofitable, campaign may not be viable for this business",
+      "kb_articles": [
+        {
+          "title": "First Conversion Optimization Reporting Bug",
+          "path": "_inbox/documents/2025-12-15_first-conversion-optimization-reporting-bug.md",
+          "category": "uncategorized",
+          "preview": "url: https://www.jonloomer.com/qvt/first-conversion-optimization-reporting-bug/",
+          "score": 32,
+          "type": "article"
+        },
+        {
+          "title": "Keep CALM: New model design could fix high enterprise AI costs",
+          "path": "ai-strategy/2025-11-05_calm-architecture-enterprise-ai-cost-reduction.md",
+          "category": "ai-strategy",
+          "preview": "title: CALM Architecture: New AI Model Design to Reduce Enterprise Deployment Costs",
+          "score": 29,
+          "type": "article"
+        },
+        {
+          "title": "4 Techniques to Optimize Your LLM Prompts for Cost, Latency and Performance",
+          "path": "ai-strategy/llm-prompt-optimization-cost-latency-performance.md",
+          "category": "ai-strategy",
+          "preview": "title: 4 Techniques to Optimize LLM Prompts for Cost, Latency, and Performance",
+          "score": 28,
+          "type": "article"
+        }
+      ],
+      "next_steps": [
+        "PAUSE campaigns with ROAS <0.5x immediately",
+        "Export Search Terms report to identify wasted spend",
+        "Add negative keywords for irrelevant queries",
+        "Reduce budgets by 50% for campaigns with 0.5-1.0x ROAS while diagnosing"
+      ]
+    },
+    {
+      "priority": "P1",
+      "issue_type": "budget_constraint",
+      "title": "Budget Constraints",
+      "affected_campaigns": 1,
+      "campaign_names": [
+        "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10"
+      ],
+      "impact": {
+        "total_spend": 77.14,
+        "avg_roas": 1.4387083514778325
+      },
+      "recommendation": "Budget Constraints Limiting Performance\n\n1 campaign(s) are losing impressions due to budget constraints (avg 58% Lost IS Budget).\n\nRoot Cause Analysis:\n- Campaigns are performing well but can't spend more due to daily budget caps\n- Potential revenue being left on the table\n\nRecommendation:\n1. Assess performance: Campaigns with ROAS >1.2800000000000002x should receive budget increases\n2. Reallocate budget from lower-performing campaigns\n3. Consider increasing overall account budget if all campaigns are constrained\n4. Monitor pacing - ensure budgets aren't exhausted early in the day",
+      "kb_articles": [
+        {
+          "title": "PMax spends budget after 8pm, but no leads\u2014how do you minimize wasted evening spend?",
+          "path": "google-ads/performance-max/performance-max-ad-scheduling-budget-optimization.md",
+          "category": "google-ads/performance-max",
+          "preview": "title: Managing Performance Max Budget Waste During Off-Peak Hours",
+          "score": 49,
+          "type": "article"
+        },
+        {
+          "title": "Google Ads pushes \u2018Investment Strategy\u2019 planning for budget-limited campaigns",
+          "path": "google-ads/platform-updates/google-ads-investment-strategy-budget-planning-tool.md",
+          "category": "google-ads/platform-updates",
+          "preview": "title: Google Ads Investment Strategy Tool for Budget Planning",
+          "score": 48,
+          "type": "article"
+        },
+        {
+          "title": "Google Analytics Adds Cross-Channel Budgeting Tools for Marketers",
+          "path": "analytics/google-analytics-cross-channel-budget-optimization-tools.md",
+          "category": "analytics",
+          "preview": "title: Google Analytics Introduces Cross-Channel Budget Optimization Tools",
+          "score": 44,
+          "type": "article"
+        }
+      ],
+      "next_steps": [
+        "Calculate incremental revenue opportunity (Lost IS \u00d7 current revenue)",
+        "Identify budget reallocation candidates (campaigns with ROAS <target)",
+        "Test 20% budget increase for 7 days, monitor ROAS stability",
+        "Set up budget alerts to catch constraints earlier"
+      ]
+    }
+  ],
+  "context_applied": {
+    "target_roas": 1.6,
+    "known_issues_count": 14,
+    "uses_product_hero": true
+  },
+  "product_analysis": {
+    "product_metrics": {
+      "1090": {
+        "product_id": "1090",
+        "product_title": "The Olive Tree Gift - 2L pot, 50cm Height - Suitable For Potted Or Planted Growth - Fragrant, White Blossoms Appear In Spring",
+        "clicks": 353,
+        "impressions": 32369,
+        "conversions": 31.136448,
+        "revenue": 585.347311456,
+        "cost": 329.294337,
+        "availability": "NOT_SET"
+      },
+      "287": {
+        "product_id": "287",
+        "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
+        "clicks": 172,
+        "impressions": 12112,
+        "conversions": 13.95377,
+        "revenue": 352.498951015,
+        "cost": 293.11,
+        "availability": "NOT_SET"
+      },
+      "593": {
+        "product_id": "593",
+        "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
+        "clicks": 40,
+        "impressions": 4211,
+        "conversions": 3.0,
+        "revenue": 96.4531,
+        "cost": 77.330217,
+        "availability": "NOT_SET"
+      },
+      "aprbg": {
+        "product_id": "aprbg",
+        "product_title": "At Peace Rose Bush Gift - The Perfect Memorial - Plant In Memory Of Someone Special - Gone but not forgotten",
+        "clicks": 34,
+        "impressions": 2542,
+        "conversions": 3.0,
+        "revenue": 18.986733,
+        "cost": 25.229332,
+        "availability": "NOT_SET"
+      }
+    },
+    "product_changes": [],
+    "product_issues": [],
+    "summary": "Product Analysis Summary\n========================\n\nTotal Products: 4\nProducts with Issues: 0\nRecent Changes: 0\n\nTop 10 Products by Spend:\n  1. The Olive Tree Gift - 2L pot, 50cm Height - Suitab - \u00a3329.29 spend, 1.78x ROAS\n  2. The Olive Tree Gift - Large (5L pot, 80cm height)  - \u00a3293.11 spend, 1.20x ROAS\n  3. Lemon Tree Gift - Large 5L pot, 50-60cm High - Lea - \u00a377.33 spend, 1.25x ROAS\n  4. At Peace Rose Bush Gift - The Perfect Memorial - P - \u00a325.23 spend, 0.75x ROAS",
+    "total_products": 4,
+    "products_with_issues": 0,
+    "disapproved_products": 0
+  }
+}

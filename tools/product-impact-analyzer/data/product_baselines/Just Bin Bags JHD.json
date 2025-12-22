@@ -1,14 +1,14 @@
 {
   "client": "Just Bin Bags JHD",
-  "updated": "2025-12-15T08:43:07.084863",
+  "updated": "2025-12-22T06:57:44.842927",
   "product_count": 6,
   "baselines": {
     "": {
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 130,
-      "date_range": "2025-11-17 to 2025-12-15",
+      "data_points": 149,
+      "date_range": "2025-11-23 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -46,8 +46,8 @@
       "product_id": "1268341122",
       "product_title": "Marigold Powder Free Latex Household Gloves - Pack of 144 Pairs \u2013 Blue",
       "label": "",
-      "data_points": 7,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 16,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -66,9 +66,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 22.0,
-        "median": 18.0,
-        "stdev": 14.66287829861518
+        "mean": 20.125,
+        "median": 12.5,
+        "stdev": 23.508509097771384
       },
       "cost": {
         "mean": 0,
@@ -85,19 +85,19 @@
       "product_id": "2744534942",
       "product_title": "Premium Blue Nitrile Examination Gloves Box of 100 - Medical Grade AQL 1.5",
       "label": "",
-      "data_points": 7,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 15,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
-        "mean": 0,
-        "median": 0,
+        "mean": 77.9,
+        "median": 77.9,
         "stdev": 0,
-        "min": 0,
-        "max": 0
+        "min": 77.9,
+        "max": 77.9
       },
       "clicks": {
-        "mean": 1.25,
+        "mean": 1.75,
         "median": 1.0,
-        "stdev": 0.5
+        "stdev": 1.3887301496588271
       },
       "conversions": {
         "mean": 0,
@@ -105,18 +105,18 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 112.0,
-        "median": 108.0,
-        "stdev": 29.70409623828561
+        "mean": 101.73333333333333,
+        "median": 90.0,
+        "stdev": 109.58653897176205
       },
       "cost": {
-        "mean": 1.3800000000000001,
-        "median": 1.53,
-        "stdev": 0.3272104317815474
+        "mean": 2.4924999999999997,
+        "median": 1.55,
+        "stdev": 2.764203579436838
       },
       "roas": {
-        "mean": 0,
-        "median": 0,
+        "mean": 39.74,
+        "median": 39.74,
         "stdev": 0
       }
     },
@@ -124,8 +124,8 @@
       "product_id": "3128383985",
       "product_title": "Blue Vinyl Gloves Box of 100 \u2013 Powder Free \u2013 Food Safe - All Sizes",
       "label": "",
-      "data_points": 7,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 15,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 28.06,
         "median": 28.06,
@@ -134,9 +134,9 @@
         "max": 28.06
       },
       "clicks": {
-        "mean": 3.75,
-        "median": 3.5,
-        "stdev": 1.707825127659933
+        "mean": 2.625,
+        "median": 2.5,
+        "stdev": 1.7677669529663689
       },
       "conversions": {
         "mean": 0,
@@ -144,14 +144,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 280.57142857142856,
-        "median": 202.0,
-        "stdev": 173.41362609173973
+        "mean": 192.4,
+        "median": 135.0,
+        "stdev": 186.04062536369383
       },
       "cost": {
-        "mean": 4.7325,
-        "median": 4.595,
-        "stdev": 0.8032174881894276
+        "mean": 2.8,
+        "median": 2.9749999999999996,
+        "stdev": 2.189474822874198
       },
       "roas": {
         "mean": 7.12,
@@ -163,8 +163,8 @@
       "product_id": "3780613855",
       "product_title": "Clear Medical Grade Vinyl Gloves \u2013 Box Of 100 - Powder Free AQL 1.5",
       "label": "",
-      "data_points": 7,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 16,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 20.23,
         "median": 20.23,
@@ -183,9 +183,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 123.57142857142857,
-        "median": 108.0,
-        "stdev": 41.46828966353746
+        "mean": 92.25,
+        "median": 91.5,
+        "stdev": 87.16459525900792
       },
       "cost": {
         "mean": 1.3225,
@@ -202,8 +202,8 @@
       "product_id": "5709460654",
       "product_title": "Blue Disposable Mob Caps - Food Safe Hair Covers - Case of 1000",
       "label": "",
-      "data_points": 7,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 15,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -222,9 +222,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 16.571428571428573,
-        "median": 11.0,
-        "stdev": 13.21435006419338
+        "mean": 12.0,
+        "median": 5.0,
+        "stdev": 11.674147261608201
       },
       "cost": {
         "mean": 0.89,

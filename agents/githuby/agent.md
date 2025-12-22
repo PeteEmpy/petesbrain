@@ -3,7 +3,7 @@
 **Version:** 1.0
 **Created:** 2025-11-19
 **Status:** Active
-**Based on:** Mike Rhodes githuby.md pattern
+**Based on:** githuby.md pattern
 
 ---
 
@@ -276,7 +276,7 @@ Logs saved to:
 ## Related Documentation
 
 - Phase 6 Analysis: `.claude/skills/csv-analyzer/phase-6-analysis.md`
-- Mike Rhodes githuby agent: `/Users/administrator/Documents/brain/.claude/agents/githuby.md`
+- githuby agent: `/Users/administrator/Documents/brain/.claude/agents/githuby.md`
 - Git workflow: `docs/GIT-WORKFLOW.md` (if exists)
 
 ## Success Criteria

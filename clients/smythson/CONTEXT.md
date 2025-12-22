@@ -1,17 +1,89 @@
 # Smythson - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
-> **Last Updated**: 2025-11-24
+> **Last Updated**: 2025-12-19
 
 **Voice Transcription Aliases**: Smithson, Smith son, Smyth son, Smithsons, Smythsons
 
 ---
 
-## 🚨 ACTIVE: P9 BUDGET REALLOCATION (Dec 12-17, 2025)
+## 🎯 P9 STRATEGY & STATUS (December 2025) - CRITICAL
+
+**Last Updated:** 2025-12-19 (Evening)
+**Period:** December 1-28 (28 days) - NOT Dec 31
+**Budget:** £171,128 (reduced from £183,929 due to P8 overspend of £12,801)
+**Current Spend (Dec 1-19):** £117,889 (68.9% of budget)
+**Days Remaining:** 9 days (Dec 20-28)
+
+### Key Dates & Events
+
+| Date | Event | Status | Action |
+|------|-------|---------|--------|
+| **Dec 2-7** | Cyber Week | ✅ Complete | Diaries/Bags campaigns unpaused |
+| **Dec 15** | 50% Budget Increase | ✅ Executed | All campaigns +50% to capture demand |
+| **Dec 16** | USA/ROW Last Order Date | ✅ Passed | Last day for USA/ROW Christmas delivery |
+| **Dec 17** | EUR Last Order Date | ✅ Passed | Last day for EUR Christmas delivery |
+| **Dec 18** | Post-Cutoff Adjustments | ✅ Done | EUR -29%, ROW -18%, budgets reduced |
+| **Dec 21** | UK Last Order Date | ⏳ Upcoming | Last day for UK Christmas delivery |
+| **Dec 22-23** | Pre-Sale Minimal | ⏳ Upcoming | Reduce to £1,000/day |
+| **Dec 24** | 🎅 **SALE LAUNCH (6PM)** | ⏳ Upcoming | Christmas Eve sale starts at 6pm |
+| **Dec 26** | **BOXING DAY** | ⏳ Upcoming | Massive ROAS spike expected |
+| **Dec 27-28** | Sale Continuation | ⏳ Upcoming | Continue elevated spend |
+
+### Sale Period Performance (Based on Dec 2024 Data)
+
+**Critical Insight:** The sale period (Dec 24-28) delivers exceptional ROAS, NOT minimal spend:
+
+**Boxing Day (Dec 26) 2024 Performance:**
+- **UK:** 1205% ROAS (£1,367 spend → £16,470 revenue)
+- **USA:** 1638% ROAS (£954 spend → £15,625 revenue)
+- **EUR:** 2929% ROAS (£216 spend → £6,331 revenue) 🔥
+
+**Full Christmas Week (Dec 23-29) 2024:**
+- **UK:** 1104% ROAS
+- **USA:** 1050% ROAS
+- **EUR:** 977% ROAS
+
+### Current P9 Performance (Dec 1-19)
+
+- **Total Spend:** £117,889
+- **Total Revenue:** £877,085
+- **Overall ROAS:** 744% (well above target)
+- **Daily Average:** £6,205/day
+
+### Remaining Budget Strategy (Dec 20-28)
+
+| Period | Days | Strategy | Budget | Daily |
+|--------|------|----------|--------|-------|
+| **Dec 20-21** | 2 | UK focus (pre-cutoff) | £10,000 | £5,000/day |
+| **Dec 22-23** | 2 | Minimal (prep for sale) | £2,000 | £1,000/day |
+| **Dec 24** | 1 | Sale launch (6pm) | £3,000 | £3,000/day |
+| **Dec 25** | 1 | Christmas Day | £1,500 | £1,500/day |
+| **Dec 26** | 1 | **BOXING DAY SPIKE** | £8,000 | £8,000/day |
+| **Dec 27-28** | 2 | Sale continuation | £10,000 | £5,000/day |
+| **TOTAL** | 9 | | £34,500 | |
+
+**Budget Remaining:** £53,239 (£171,128 - £117,889)
+**Planned Spend:** £34,500
+**Buffer:** £18,739 (for opportunities)
+
+### Important Notes
+
+1. **P9 ends December 28** - NOT December 31 (28-day period, not full month)
+2. **Dec 15-17 Performance:** Strong ROAS justified the 50% budget increase
+3. **Post-Cutoff Adjustments:** Already implemented (EUR/ROW/USA reduced)
+4. **Sale Period is HIGH VALUE:** Not a minimal spend period - expect 1000%+ ROAS
+5. **Boxing Day Priority:** Reserve £8,000 for Dec 26 spike opportunity
+6. **All regions re-activate for sale:** Even after cutoffs, sale drives global demand
+7. **Sale Launch Timing:** Christmas Eve sale goes live at 6pm (UK time) - budget should ramp up from this point
+
+---
+
+## ✅ COMPLETED: P9 BUDGET REALLOCATION (Dec 12-17, 2025)
 
 **STATUS:** Campaign budgets reallocated as of Dec 11, 2025, 13:40 UTC
 
-**REVERSAL REQUIRED:** Dec 18, 2025 before 09:00 AM (MANDATORY)
+**REVERSAL STATUS:** Not executed as planned - budgets adjusted differently based on performance
 
 **What Changed:**
 - 5 UK campaigns: Budget reduced by total -£357/day (proportional to ROAS weakness)
@@ -23,6 +95,51 @@
 **Why:** EUR performing at 892% ROAS vs UK at 389%. 6-day window before EUR delivery cutoff to capture efficiency gain. Reversible on Dec 18 when UK needs full budget for Last Order Week.
 
 **Contact:** Responsible party TBD for Dec 18 reversal execution
+
+---
+
+## 🎯 P10, P11, P12 BUDGETS & TARGETS (Jan-Mar 2026) - DEFINITIVE
+
+**Last Updated:** 2025-12-22
+**Source:** SMY Digital Marketing Master.xlsx (Paid Search sheet)
+**Status:** Definitive budgets and revenue targets
+
+### Period Budgets & Targets
+
+| Period | Dates | Budget (Google Ads) | Revenue Target | Target ROAS |
+|--------|-------|---------------------|----------------|-------------|
+| **P10** | 29 Dec 2025 - 1 Feb 2026 | **£117,419** | £524,146 | **446%** |
+| **P11** | 2 Feb - 1 Mar 2026 | **£47,648** | £201,714 | **423%** |
+| **P12** | 2 Mar - 29 Mar 2026 | **£47,946** | £151,482 | **316%** |
+| **Total** | | **£213,013** | £877,342 | **412%** |
+
+### Regional Revenue Targets (P10-P12)
+
+| Region | P10 | P11 | P12 | Total |
+|--------|-----|-----|-----|-------|
+| **UK** | £231,265 | £86,146 | £73,296 | £390,707 |
+| **USA** | £223,516 | £87,533 | £64,770 | £375,819 |
+| **EUR** | £69,365 | £28,035 | £13,416 | £110,816 |
+| **Total** | £524,146 | £201,714 | £151,482 | £877,342 |
+
+### Budget Notes
+
+1. **P10 is Winter Sale period** (29 Dec - 1 Feb) - Largest budget allocation at £117,419
+2. **P11 & P12 normalize** - Similar budgets (~£48K each) post-sale period
+3. **ROAS targets decline across periods** - 446% → 423% → 316% (reflects post-sale reality)
+4. **UK dominates revenue** - £390K of £877K total (45%)
+5. **USA close second** - £375K (43%)
+6. **EUR smaller market** - £110K (13%)
+
+### Additional P10 Budgets (Other Channels)
+
+- **Bing:** £4,419
+- **Meta (Facebook/Instagram):** £27,719
+- **Additional Spend:** £43,000
+
+**⚠️ CRITICAL:** These are the definitive budgets and revenue targets for P10-P12. Use these figures for all planning, reporting, and performance tracking unless explicitly updated by client.
+
+**Source File:** `/Users/administrator/Downloads/SMY Digital Marketing Master.xlsx` (Paid Search sheet, updated 22 Dec 2025)
 
 ---
 
@@ -161,9 +278,13 @@ All four accounts are managed under the Rok Systems MCC (Manager Account ID: 256
 
 **Approved Period Budgets**:
 - **P7** (Sep 29 - Nov 2): £151,072 (complete: £151,072 spent, 318% ROAS, NO underspend)
-- **P8** (Nov 3-30, 28 days): **£186,051** (corrected Nov 2025 - no P7 carryforward)
-- **P9** (Dec 1-28, 28 days): £183,929 (21 days effective due to Dec 22 Christmas cutoff)
-- **Total Q4 Approved**: £521,052
+- **P8** (Nov 3-30, 28 days): **£186,051** (complete: £186,051 spent, £12,801 overspend)
+- **P9** (Dec 1-28, 28 days): £171,128 (reduced from £183,929 due to P8 overspend)
+- **Total Q4 Approved**: £508,251 (after P9 reduction)
+- **P10** (Dec 29 - Feb 1): £117,419 (Winter Sale period, target ROAS: 446%)
+- **P11** (Feb 2 - Mar 1): £47,648 (target ROAS: 423%)
+- **P12** (Mar 2 - Mar 29): £47,946 (target ROAS: 316%)
+- **Total P10-P12**: £213,013
 
 **CRITICAL:** P8 budget is £186,051, NOT £218,653. See `documents/SMYTHSON-Q4-AUTHORITATIVE-FIGURES.md` for all definitive Q4 figures.
 
@@ -220,7 +341,8 @@ All four accounts are managed under the Rok Systems MCC (Manager Account ID: 256
 - **Nov 25**: USA Thanksgiving budget boost (+15%)
 - **Dec 1**: Peak season adjustments
 - **Dec 15**: Mid-December assessment
-- **Dec 31**: End-of-quarter review
+- **Dec 28**: P9 ends (budget period complete)
+- **Dec 31**: End-of-quarter review (analysis only)
 
 **Q4 2024 Baseline Performance** (for comparison):
 - UK: 10.15% peak conversion rate (Nov), 915% avg ROAS, £1.5M revenue
@@ -834,6 +956,39 @@ Priority 4 - Market/Demand Changes:
 
 ---
 
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-12-15)
+
+**Product Hero Plan**: Pro Plan (€30/month per account - UK and USA only)
+**Note**: EUR and ROW accounts do not use Product Hero labels
+
+**Target ROAS by Region**:
+- **UK (smythson.com)**: 300%
+- **USA (smythson.com/us)**: 150%
+- **ROW (smythson.com/row)**: 150%
+- **EUR (smythson.com/eu)**: 100%
+
+**Actual ROAS Achieved** (Overall): 410% (4.10)
+
+**Rationale**: ROAS targets set by region based on market maturity and performance expectations. UK as strongest market supports highest target (300%), while growth markets (USA, ROW) use moderate targets (150%), and EUR uses conservative target (100%).
+
+**Strategic Note**: Recommendation exists to drop target ROAS 15-20% in November/December to maximize volume during peak season.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Setting | Previous | New | Rationale | Result |
+|------|---------|----------|-----|-----------|--------|
+| 2025-12-15 | USA Product Hero - Target ROAS | 258% | 350% | Tightening bidding strategy for improved efficiency | Review scheduled mid-January 2026 |
+| 2025-12-15 | USA Product Hero - Number of Clicks | 66 | 28 | Reducing click volume threshold to focus on quality | Review scheduled mid-January 2026 |
+| [TBD] | Regional ROAS Targets | [TBD] | UK: 300%, USA/ROW: 150%, EUR: 100% | Regional market differentiation strategy | Actual overall ROAS: 410% |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness. Smythson uses Product Hero only for UK and USA accounts.
+
+---
+
 ## Action Items & Reminders
 
 ### Ongoing Tasks
@@ -851,7 +1006,8 @@ Priority 4 - Market/Demand Changes:
 - **Nov 25, 2025**: USA Thanksgiving budget boost (+15% to $2,604/day)
 - **Dec 1, 2025**: Peak season ROAS adjustments across all regions (UK: 3.8→3.5, USA: 2.2→2.0, EUR budget decrease, ROW budget decrease)
 - **Dec 15, 2025**: Revenue target validation review
-- **Dec 31, 2025**: Final Q4 performance assessment
+- **Dec 28, 2025**: P9 budget period ends (campaigns continue but budget tracking stops)
+- **Dec 31, 2025**: Final Q4 performance assessment (analysis only)
 
 **Q4 Strategy Tracker**: `documents/q4-2025-strategy-tracker.md`
 - Milestone-by-milestone performance tracking
@@ -859,18 +1015,26 @@ Priority 4 - Market/Demand Changes:
 - Weekly cumulative performance updates
 - Red flags and course correction triggers
 
-**Post-Christmas Sales Dates 2026** (Budget Planning):
+**Christmas/Winter Sale Dates 2025-2026** (DEFINITIVE):
+
+**Last Updated:** 2025-12-22
 
 **UK/US/ROW**:
-- Wednesday 24th December: Launch - Up to 50% Off Selected Styles
-- Wednesday 7th January: Further up to 60% off Selected Styles
-- Thursday 15th January: Extra 10% off using code [x]
-- Tuesday 20th January: Sale Ends
+- **Launch:** Wednesday 24th December - Up to 50% Off Selected Styles
+- **Deeper Discounts:** Wednesday 7th January - Further up to 60% off Selected Styles
+- **Code Discount:** Thursday 15th January - Extra 10% off using code [x]
+- **Ends:** Tuesday 20th January
 
 **EU**:
-- Tuesday 6th January: Launch
-- Thursday 15th January: Extra 10% off using code [x] (TBC)
-- Tuesday 20th January: Sale Ends
+- **Launch:** Tuesday 6th January
+- **Code Discount:** Thursday 15th January - Extra 10% off using code [x] (TBC)
+- **Ends:** Tuesday 20th January
+
+**Key Notes:**
+- UK/US/ROW launch 24th Dec at 6pm (NOT for Christmas delivery - all delivery cutoffs passed)
+- EU launches 6th Jan (13 days after UK/US/ROW)
+- Sale runs for ~4 weeks total
+- P10 budget (£117,419) covers 29 Dec - 1 Feb period (majority of sale period)
 
 ---
 

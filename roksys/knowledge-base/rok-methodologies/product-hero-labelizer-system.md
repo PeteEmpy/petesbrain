@@ -145,6 +145,19 @@ The Product Hero platform performs **daily analysis** of product performance bas
 
 ## Integration with Google Ads
 
+**⚠️ CRITICAL - Campaign Type Scope**
+
+Product Hero labels apply ONLY to:
+- ✅ **Performance Max (PMax) campaigns**
+- ✅ **Shopping campaigns** (Standard Shopping, Smart Shopping if still active)
+
+Product Hero labels DO NOT apply to:
+- ❌ **Search campaigns** (keyword-driven, not product-driven)
+- ❌ **Display campaigns** (audience-driven)
+- ❌ **Video campaigns** (creative-driven)
+
+**Why This Matters**: Search campaigns are optimized through keyword/query analysis, not product segmentation. Never attempt to analyze Search campaign performance through Product Hero labels (e.g., "which keywords drive Hero vs Zombie sales", "run product performance report for Search", etc.). These campaign types operate independently from the Merchant Center product feed.
+
 ### Supplemental Feed Connection
 
 Product Hero labels integrate with Google Merchant Center via **Supplemental Sources:**

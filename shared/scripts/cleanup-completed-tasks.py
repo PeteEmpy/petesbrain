@@ -117,30 +117,7 @@ def main():
                     print(f"   Tasks being removed:")
                     for task in result['tasks']:
                         print(f"      - {task['title'][:60]}...")
-                        print(f"        Completed: {task['completed_at']}")            product_feeds_dir = client_dir / 'product-feeds'
-            if product_feeds_dir.exists() and product_feeds_dir.is_dir():
-                pf_tasks = product_feeds_dir / 'tasks.json'
-                if pf_tasks.exists():
-                    print(f"  ⚠️  WARNING: {client_dir.name} still has product-feeds/tasks.json (should be migrated)")
-                result = cleanup_client_tasks(product_feeds_dir, dry_run=dry_run)
-
-                if result.get('error'):
-                    continue
-
-                if result['removed'] > 0:
-                    # Count this under the same client (don't increment clients_affected again)
-                    total_removed += result['removed']
-                    total_active += result['active']
-
-                    print(f"\n{'[DRY RUN] ' if dry_run else ''}📁 {result['client']}/product-feeds")
-                    print(f"   Completed tasks to remove: {result['removed']}")
-                    print(f"   Active tasks remaining: {result['active']}")
-
-                    if result.get('tasks'):
-                        print(f"   Tasks being removed:")
-                        for task in result['tasks']:
-                            print(f"      - {task['title'][:60]}...")
-                            print(f"        Completed: {task['completed_at']}")
+                        print(f"        Completed: {task['completed_at']}")
 
     # Process Roksys directory
     if ROKSYS_DIR.exists():

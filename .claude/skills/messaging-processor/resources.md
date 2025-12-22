@@ -128,7 +128,7 @@ Body: [Sender] mentioned you...
 ### Client Libraries
 - `shared/google_chat_via_gmail_client.py` - Google Chat email client
 - `shared/whatsapp_via_email_client.py` - WhatsApp email client
-- `shared/google_tasks_client.py` - Google Tasks integration
+- `shared/client_tasks_service.py` - Internal task system
 
 ### State Tracking
 - `!inbox/.google-chat-processor-state.json` - Processed Chat messages
@@ -147,8 +147,7 @@ Body: [Sender] mentioned you...
 - `clients/[client]/emails/drafts/` - Email drafts
 
 ### Tasks
-- `todo/YYYYMMDD-[title].md` - Local todo files
-- Google Tasks - Cloud task list
+- `clients/{client}/tasks.json` - Internal task system (per-client)
 
 ### Knowledge Base
 - `roksys/knowledge-base/inbox-captures/` - General knowledge

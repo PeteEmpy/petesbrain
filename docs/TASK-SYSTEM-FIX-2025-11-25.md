@@ -42,7 +42,7 @@ Updated three files to use `ClientTasksService` instead of direct file writes:
 
 ### 3. Fixed Task Generator
 
-Updated `generate-tasks-overview.py` to accept multiple task statuses:
+Updated `generate-all-task-views.py` to accept multiple task statuses:
 - Changed filter from `status == 'active'`
 - To: `status in ['active', 'pending', 'in_progress']`
 - Updated 3 locations (lines 262, 352, 372)
@@ -72,7 +72,7 @@ Updated `generate-tasks-overview.py` to accept multiple task statuses:
 1. `/agents/inbox-processor/inbox-processor.py`
 2. `/agents/ai-inbox-processor/ai-inbox-processor.py`
 3. `/shared/scripts/process-manual-task-notes.py`
-4. `/generate-tasks-overview.py`
+4. `/generate-all-task-views.py`
 5. 13 client `tasks.json` files (migrated tasks)
 
 ## Verification
@@ -87,7 +87,7 @@ find clients -name "product-feeds/tasks.json"
 # Result: (none found)
 
 # Regenerate task overview
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 # Result: 17 P0 tasks + 39 others = 56 total
 ```
 

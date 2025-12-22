@@ -2,7 +2,6 @@
 
 **Status**: Implemented (2025-12-14)
 **Phase**: Ads to AI Phase 1 - Automated Reporting
-**Based on**: Mike Rhodes' "Calculated Metrics" teaching (8020brain.com)
 
 ---
 
@@ -338,7 +337,7 @@ python3 shared/test_calculated_metrics.py
 ### Critical Test: Never Average Percentages
 
 ```python
-# Mike Rhodes' example from teaching
+# Example: Never average percentages
 campaigns = [
     {'cost': 100, 'conversions_value': 500},  # 5.0x ROAS
     {'cost': 900, 'conversions_value': 2700}  # 3.0x ROAS
@@ -578,7 +577,6 @@ report_data = process_weekly_report_data(
 
 ## Related Documentation
 
-- **Mike Rhodes' Teaching**: [Calculated Metrics on 8020brain.com](https://8020brain.com)
 - **Ads to AI Skill Map**: Phase 1 - Automated Reporting
 - **Weekly Report Skill**: `.claude/skills/google-ads-weekly-report/skill.md`
 - **Data Verification Protocol**: `docs/DATA-VERIFICATION-PROTOCOL.md`
@@ -588,7 +586,7 @@ report_data = process_weekly_report_data(
 
 ## Version History
 
-- **2025-12-14**: Initial implementation based on Mike Rhodes' "Calculated Metrics" teaching
+- **2025-12-14**: Initial implementation of calculated metrics system
 - **Status**: Production-ready, all tests passing
 - **Next**: Integrate into all weekly report workflows
 

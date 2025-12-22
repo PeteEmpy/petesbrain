@@ -24,7 +24,7 @@
 - No completed tasks visible when expanding client sections
 
 **Root cause:**
-- Scripts `generate-tasks-overview.py` and `generate-tasks-overview-priority.py` were looking for `status == 'completed'` in `tasks.json`
+- Scripts `generate-all-task-views.py` and `generate-tasks-overview-priority.py` were looking for `status == 'completed'` in `tasks.json`
 - But completed tasks are **removed** from `tasks.json` and **logged to `tasks-completed.md`** markdown files
 - Scripts never read the markdown files
 
@@ -57,7 +57,7 @@
 
 ### Fix 2: Updated Task Overview Script
 
-**File:** `generate-tasks-overview.py`
+**File:** `generate-all-task-views.py`
 
 **Changes made:**
 
@@ -192,7 +192,7 @@ done
 ### Test 3: Regenerate and Verify HTML
 
 ```bash
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 ```
 
 **Output:**
@@ -230,7 +230,7 @@ Actually, let me check the screenshot again - it showed "0 COMPLETED" in the gre
 
 ## Files Modified
 
-1. ✅ `generate-tasks-overview.py` - Added markdown parser, updated client loop
+1. ✅ `generate-all-task-views.py` - Added markdown parser, updated client loop
 2. ✅ `docs/TASK-CREATION-QUICK-REFERENCE.md` - Created decision guide
 3. ✅ `docs/MANUAL-NOTES-WORKFLOW.md` - Created workflow documentation
 4. ✅ `docs/TASK-OVERVIEW-FIX-2025-11-19.md` - This document
@@ -250,7 +250,7 @@ Actually, let me check the screenshot again - it showed "0 COMPLETED" in the gre
 **After any task completion:**
 ```bash
 cd /Users/administrator/Documents/PetesBrain
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 python3 generate-tasks-overview-priority.py
 open tasks-overview.html  # Or open tasks-overview-priority.html
 ```

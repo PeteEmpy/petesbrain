@@ -1,0 +1,80 @@
+================================================================================
+BRIGHT MINDS - CONVERSION ACTION BREAKDOWN
+December 1-20, 2024 (Last order date: Dec 20)
+Customer ID: 1404868570
+Generated: 2025-12-15 12:52:06
+================================================================================
+
+
+TOTAL CAMPAIGN SPEND: £12,279.17
+Active campaigns: 6
+
+--------------------------------------------------------------------------------
+
+CONVERSION ACTION: Add to basket (Page load www.brightminds.co.uk/cart) ✗ [OVER-REPORTING]
+  Resource Name: customers/1404868570/conversionActions/6691146907
+  Conversions: 5462.66
+  Revenue: £4,302.57
+  AOV: £0.79
+  All Conversions: 5466.66 (includes view-through)
+  All Conversions Value: £4,305.72
+
+CONVERSION ACTION: Brightminds GA4 (web) purchase ✓ [GA4 - ACCURATE]
+  Resource Name: customers/1404868570/conversionActions/1007225264
+  Conversions: 3469.80
+  Revenue: £122,073.35
+  AOV: £35.18
+  All Conversions: 3469.80 (includes view-through)
+  All Conversions Value: £122,073.35
+
+CONVERSION ACTION: Begin checkout (Page load www.brightminds.co.uk/checkout) ✗ [OVER-REPORTING]
+  Resource Name: customers/1404868570/conversionActions/6691146904
+  Conversions: 2170.56
+  Revenue: £1,709.56
+  AOV: £0.79
+  All Conversions: 2172.56 (includes view-through)
+  All Conversions Value: £1,711.14
+
+--------------------------------------------------------------------------------
+TOTALS (ALL CONVERSION ACTIONS - INFLATED):
+  Total Conversions: 11103.02
+  Total Revenue: £128,085.48
+  Total Spend: £12,279.17
+  Overall ROAS: 10.43 (1043%)
+  Overall AOV: £11.54
+
+--------------------------------------------------------------------------------
+GA4 CONVERSION ACTION ONLY (ACCURATE BASELINE FOR DEC 2024):
+  Conversion Action: Brightminds GA4 (web) purchase
+  Conversions: 3469.80
+  Revenue: £122,073.35
+  Spend: £12,279.17
+  GA4 ROAS: 9.94 (994%)
+  AOV: £35.18
+
+OVER-REPORTING IMPACT:
+  Extra conversions from other actions: 7633.22 (68.7% of total)
+  Extra revenue from other actions: £6,012.13 (4.7% of total)
+
+  The 'Add to basket' and 'Begin checkout' actions inflated conversion
+  counts but only contributed minimal revenue (£0.79 AOV vs £35.18 for purchases).
+
+--------------------------------------------------------------------------------
+KEY FINDINGS:
+
+1. Dec 2024 had THREE active conversion actions:
+   - 'Brightminds GA4 (web) purchase' = ACCURATE e-commerce tracking
+   - 'Add to basket' = Page load tracking (over-reporting)
+   - 'Begin checkout' = Page load tracking (over-reporting)
+
+2. ACCURATE Dec 2024 baseline (GA4 only):
+   - Conversions: 3469.80
+   - Revenue: £122,073.35
+   - Spend: £12,279.17
+   - ROAS: 9.94 (994%)
+   - AOV: £35.18
+
+3. Use this GA4-only data when comparing to Dec 2025
+   (Dec 2025 now has clean tracking with only GA4 purchase events)
+
+================================================================================

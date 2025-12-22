@@ -1,202 +1,296 @@
 {
-  "generated_at": "2025-12-15T06:30:25.955524",
-  "target_date": "2025-12-13",
+  "generated_at": "2025-12-22T06:56:43.544885",
+  "target_date": "2025-12-20",
   "baseline": {
-    "start": "2025-12-06",
-    "end": "2025-12-12"
+    "start": "2025-12-13",
+    "end": "2025-12-19"
   },
   "anomalies": {
     "Bright Minds": [
       {
+        "severity": "critical",
+        "type": "revenue_drop",
+        "message": "Revenue \u00a3282 (90% below baseline \u00a32859)",
+        "target_value": 282.66,
+        "baseline_value": 2859.99,
+        "change_pct": -90.1
+      },
+      {
         "severity": "warning",
         "type": "roas_change",
-        "message": "ROAS 319% (28% below baseline 446%)",
-        "target_value": 319.0,
-        "baseline_value": 447.0,
-        "change_pct": -28.5
+        "message": "ROAS 546% (35% above baseline 401%)",
+        "target_value": 546.0,
+        "baseline_value": 402.0,
+        "change_pct": 35.9
+      },
+      {
+        "severity": "critical",
+        "type": "conversion_drop",
+        "message": "Conversions 8.9 (89% below baseline 87.4)",
+        "target_value": 8.9,
+        "baseline_value": 87.4,
+        "change_pct": -89.8
+      }
+    ],
+    "Tree2mydoor": [
+      {
+        "severity": "warning",
+        "type": "spend_spike",
+        "message": "Spend \u00a3720 (36% above baseline \u00a3527)",
+        "target_value": 720.46,
+        "baseline_value": 527.13,
+        "change_pct": 36.7
       }
     ],
     "National Design Academy": [
       {
         "severity": "critical",
-        "type": "zero_revenue",
-        "message": "Zero revenue on target date (baseline: \u00a3323/day)",
-        "target_value": 0,
-        "baseline_value": 323.53,
-        "change_pct": -100
-      },
-      {
-        "severity": "critical",
         "type": "revenue_drop",
-        "message": "Revenue \u00a30 (100% below baseline \u00a3323)",
-        "target_value": 0.0,
-        "baseline_value": 323.53,
-        "change_pct": -100.0
+        "message": "Revenue \u00a33 (99% below baseline \u00a3683)",
+        "target_value": 3.0,
+        "baseline_value": 683.9,
+        "change_pct": -99.6
       },
       {
         "severity": "critical",
         "type": "roas_drop",
-        "message": "ROAS 0% (100% below baseline 35%)",
+        "message": "ROAS 0% (99% below baseline 75%)",
         "target_value": 0.0,
-        "baseline_value": 35.0,
-        "change_pct": -100.0
+        "baseline_value": 75.0,
+        "change_pct": -99.4
       },
       {
-        "severity": "critical",
+        "severity": "warning",
         "type": "conversion_drop",
-        "message": "Conversions 0.0 (100% below baseline 3.6)",
-        "target_value": 0.0,
-        "baseline_value": 3.6,
-        "change_pct": -100.0
+        "message": "Conversions 3.0 (41% below baseline 5.1)",
+        "target_value": 3.0,
+        "baseline_value": 5.1,
+        "change_pct": -41.7
       }
     ],
     "Accessories for the Home": [
       {
-        "severity": "warning",
-        "type": "revenue_spike",
-        "message": "Revenue \u00a31425 (58% above baseline \u00a3898)",
-        "target_value": 1425.06,
-        "baseline_value": 898.83,
-        "change_pct": 58.5
+        "severity": "critical",
+        "type": "revenue_drop",
+        "message": "Revenue \u00a340 (95% below baseline \u00a3989)",
+        "target_value": 40.02,
+        "baseline_value": 989.62,
+        "change_pct": -96.0
+      },
+      {
+        "severity": "critical",
+        "type": "roas_drop",
+        "message": "ROAS 13% (92% below baseline 187%)",
+        "target_value": 13.0,
+        "baseline_value": 187.0,
+        "change_pct": -93.0
       },
       {
         "severity": "warning",
-        "type": "roas_change",
-        "message": "ROAS 223% (76% above baseline 126%)",
-        "target_value": 223.0,
-        "baseline_value": 127.0,
-        "change_pct": 76.1
+        "type": "conversion_drop",
+        "message": "Conversions 2.0 (57% below baseline 4.7)",
+        "target_value": 2.0,
+        "baseline_value": 4.7,
+        "change_pct": -57.8
       }
     ],
     "Devonshire Hotels": [
       {
         "severity": "critical",
+        "type": "zero_revenue",
+        "message": "Zero revenue on target date (baseline: \u00a3575/day)",
+        "target_value": 0,
+        "baseline_value": 575.02,
+        "change_pct": -100
+      },
+      {
+        "severity": "critical",
         "type": "revenue_drop",
-        "message": "Revenue \u00a3610 (50% below baseline \u00a31240)",
-        "target_value": 610.01,
-        "baseline_value": 1240.36,
-        "change_pct": -50.8
+        "message": "Revenue \u00a30 (100% below baseline \u00a3575)",
+        "target_value": 0.0,
+        "baseline_value": 575.02,
+        "change_pct": -100.0
       },
       {
         "severity": "critical",
         "type": "roas_drop",
-        "message": "ROAS 172% (50% below baseline 349%)",
-        "target_value": 173.0,
-        "baseline_value": 349.0,
-        "change_pct": -50.5
+        "message": "ROAS 0% (100% below baseline 175%)",
+        "target_value": 0.0,
+        "baseline_value": 175.0,
+        "change_pct": -100.0
       },
       {
         "severity": "critical",
         "type": "conversion_drop",
-        "message": "Conversions 1.0 (70% below baseline 3.4)",
-        "target_value": 1.0,
-        "baseline_value": 3.4,
-        "change_pct": -70.6
+        "message": "Conversions 0.0 (100% below baseline 2.1)",
+        "target_value": 0.0,
+        "baseline_value": 2.1,
+        "change_pct": -100.0
+      }
+    ],
+    "Go Glean": [
+      {
+        "severity": "warning",
+        "type": "revenue_spike",
+        "message": "Revenue \u00a3122 (48% above baseline \u00a382)",
+        "target_value": 122.95,
+        "baseline_value": 82.97,
+        "change_pct": 48.2
+      },
+      {
+        "severity": "warning",
+        "type": "roas_change",
+        "message": "ROAS 375% (82% above baseline 205%)",
+        "target_value": 376.0,
+        "baseline_value": 206.0,
+        "change_pct": 82.6
       }
     ],
     "Godshot": [
       {
         "severity": "critical",
-        "type": "roas_drop",
-        "message": "ROAS 466% (47% below baseline 884%)",
-        "target_value": 467.0,
-        "baseline_value": 885.0,
-        "change_pct": -47.2
+        "type": "revenue_drop",
+        "message": "Revenue \u00a31872 (50% below baseline \u00a33816)",
+        "target_value": 1872.67,
+        "baseline_value": 3816.75,
+        "change_pct": -50.9
       },
       {
         "severity": "critical",
-        "type": "spend_spike",
-        "message": "Spend \u00a3666 (58% above baseline \u00a3421)",
-        "target_value": 666.3,
-        "baseline_value": 421.11,
-        "change_pct": 58.2
+        "type": "roas_drop",
+        "message": "ROAS 342% (50% below baseline 692%)",
+        "target_value": 343.0,
+        "baseline_value": 692.0,
+        "change_pct": -50.5
+      },
+      {
+        "severity": "warning",
+        "type": "conversion_drop",
+        "message": "Conversions 31.9 (47% below baseline 60.8)",
+        "target_value": 31.9,
+        "baseline_value": 60.8,
+        "change_pct": -47.5
       }
     ],
     "Grain Guard": [
       {
-        "severity": "warning",
-        "type": "roas_change",
-        "message": "ROAS 58% (53% above baseline 38%)",
-        "target_value": 59.0,
-        "baseline_value": 38.0,
-        "change_pct": 53.1
+        "severity": "critical",
+        "type": "revenue_drop",
+        "message": "Revenue \u00a30 (100% below baseline \u00a318)",
+        "target_value": 0.0,
+        "baseline_value": 18.84,
+        "change_pct": -100.0
+      },
+      {
+        "severity": "critical",
+        "type": "roas_drop",
+        "message": "ROAS 0% (100% below baseline 146%)",
+        "target_value": 0.0,
+        "baseline_value": 147.0,
+        "change_pct": -100.0
+      },
+      {
+        "severity": "critical",
+        "type": "conversion_drop",
+        "message": "Conversions 0.0 (100% below baseline 1.0)",
+        "target_value": 0.0,
+        "baseline_value": 1.0,
+        "change_pct": -100.0
       }
     ],
     "Just Bin Bags": [
       {
-        "severity": "warning",
-        "type": "revenue_spike",
-        "message": "Revenue \u00a3481 (156% above baseline \u00a3187)",
-        "target_value": 481.2,
-        "baseline_value": 187.47,
-        "change_pct": 156.7
+        "severity": "critical",
+        "type": "revenue_drop",
+        "message": "Revenue \u00a377 (54% below baseline \u00a3170)",
+        "target_value": 77.9,
+        "baseline_value": 170.66,
+        "change_pct": -54.4
       },
       {
-        "severity": "warning",
-        "type": "roas_change",
-        "message": "ROAS 1009% (210% above baseline 325%)",
-        "target_value": 1010.0,
-        "baseline_value": 325.0,
-        "change_pct": 210.5
+        "severity": "critical",
+        "type": "conversion_drop",
+        "message": "Conversions 1.0 (61% below baseline 2.6)",
+        "target_value": 1.0,
+        "baseline_value": 2.6,
+        "change_pct": -61.1
       }
     ],
     "Smythson UK": [
       {
         "severity": "critical",
         "type": "revenue_drop",
-        "message": "Revenue \u00a39188 (56% below baseline \u00a321233)",
-        "target_value": 9188.98,
-        "baseline_value": 21233.8,
-        "change_pct": -56.7
+        "message": "Revenue \u00a35256 (73% below baseline \u00a319998)",
+        "target_value": 5256.91,
+        "baseline_value": 19998.0,
+        "change_pct": -73.7
       },
       {
         "severity": "critical",
         "type": "roas_drop",
-        "message": "ROAS 447% (47% below baseline 848%)",
-        "target_value": 448.0,
-        "baseline_value": 848.0,
-        "change_pct": -47.2
+        "message": "ROAS 221% (70% below baseline 746%)",
+        "target_value": 222.0,
+        "baseline_value": 746.0,
+        "change_pct": -70.3
+      },
+      {
+        "severity": "critical",
+        "type": "conversion_drop",
+        "message": "Conversions 43.4 (69% below baseline 142.6)",
+        "target_value": 43.4,
+        "baseline_value": 142.6,
+        "change_pct": -69.5
+      }
+    ],
+    "Superspace": [
+      {
+        "severity": "critical",
+        "type": "revenue_drop",
+        "message": "Revenue \u00a37249 (54% below baseline \u00a315941)",
+        "target_value": 7249.71,
+        "baseline_value": 15941.29,
+        "change_pct": -54.5
       },
       {
         "severity": "warning",
         "type": "conversion_drop",
-        "message": "Conversions 62.7 (57% below baseline 146.9)",
-        "target_value": 62.7,
-        "baseline_value": 146.9,
-        "change_pct": -57.3
+        "message": "Conversions 27.9 (49% below baseline 54.8)",
+        "target_value": 27.9,
+        "baseline_value": 54.8,
+        "change_pct": -49.0
       }
     ],
     "Uno Lighting": [
       {
         "severity": "critical",
         "type": "revenue_drop",
-        "message": "Revenue \u00a3637 (64% below baseline \u00a31804)",
-        "target_value": 637.78,
-        "baseline_value": 1804.56,
-        "change_pct": -64.7
+        "message": "Revenue \u00a3214 (82% below baseline \u00a31231)",
+        "target_value": 214.4,
+        "baseline_value": 1231.02,
+        "change_pct": -82.6
       },
       {
         "severity": "critical",
         "type": "roas_drop",
-        "message": "ROAS 80% (62% below baseline 211%)",
-        "target_value": 80.0,
-        "baseline_value": 212.0,
-        "change_pct": -62.2
+        "message": "ROAS 40% (68% below baseline 125%)",
+        "target_value": 40.0,
+        "baseline_value": 126.0,
+        "change_pct": -68.1
       },
       {
         "severity": "critical",
         "type": "conversion_drop",
-        "message": "Conversions 5.0 (60% below baseline 12.7)",
-        "target_value": 5.0,
-        "baseline_value": 12.7,
-        "change_pct": -60.6
+        "message": "Conversions 2.7 (73% below baseline 10.1)",
+        "target_value": 2.7,
+        "baseline_value": 10.1,
+        "change_pct": -73.2
       }
     ]
   },
   "summary": {
     "total_clients_checked": 12,
-    "clients_with_anomalies": 9,
-    "critical_count": 14,
-    "warning_count": 7
+    "clients_with_anomalies": 12,
+    "critical_count": 24,
+    "warning_count": 8
   }
 }

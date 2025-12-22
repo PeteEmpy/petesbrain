@@ -82,48 +82,49 @@ Markdown report with:
 
 ---
 
-### 1B. Google Ads Auction Insights Analysis (Priority P1)
+### 1B. Google Ads Auction Insights Analysis ❌ SKIPPED
 
-**Why This Matters:**
-- Identifies lost impression share (budget vs rank)
-- Explains why campaigns aren't scaling
-- Guides budget increase requests to clients
+**Status:** ❌ **SKIPPED - Not Possible via API**
+**Date Decided:** 2025-12-17
 
-**Client Use Cases:**
-- **Devonshire Hotels**: Currently managing budget constraints
-- **Accessories for the Home**: Recently increased budget
-- **National Motorsports Academy**: High CPA, need impression share context
+**Original Goal:**
+- Track impression share vs competitors
+- Identify competitive pressure and auction dynamics
+- Explain why campaigns aren't scaling
+- Guide budget increase requests to clients
 
-**Implementation:**
+**Why Skipped:**
 
-**Create Skill:** `.claude/skills/google-ads-auction-insights/`
+1. **API Limitation (August 2024)**: Google removed competitive auction insights data from API access. Competitor-level metrics (overlap rate, outranking share, competitor impression share %) are **only available via Google Ads UI** - cannot be accessed programmatically.
 
-**Workflow:**
-1. User: "Analyze auction insights for [client]"
-2. Skill reads CONTEXT.md for account ID
-3. Pulls impression share metrics via GAQL
-4. Calculates lost IS% (budget vs rank)
-5. Generates recommendation: "Increase budget by £X to recover Y% impression share"
+2. **Feature Overlap**: Non-competitive impression share metrics (your own Lost IS Budget/Rank) are already fully implemented in:
+   - **Campaign Audit Skill** → `queries/budget-constraints.gaql`
+   - **Weekly Report Skill** → `search_impression_share` metrics in campaign queries
+   - **Impression Share Audit Templates** → `clients/*/audits/*-impression_share-audit-template.md`
 
-**Output Format:**
-```markdown
-## Auction Insights: [Client Name]
-**Period:** [Date Range]
+3. **No Automation Path**: True auction insights (competitor comparison) require manual UI exports. No API endpoint exists to automate competitive intelligence.
 
-### Impression Share Summary
-| Campaign | IS% | Lost (Budget) | Lost (Rank) | Opportunity |
-|----------|-----|---------------|-------------|-------------|
-| ...      | ... | ...           | ...         | ...         |
+**What IS Available (Already Implemented):**
+- ✅ Your impression share: `metrics.search_impression_share`
+- ✅ Your lost IS (budget): `metrics.search_budget_lost_impression_share`
+- ✅ Your lost IS (rank): `metrics.search_rank_lost_impression_share`
+- ✅ Budget opportunity identification (Framework 5.5 in Campaign Audit)
 
-### Key Findings
-- [Campaign X] losing 23% IS due to budget caps (potential £X revenue)
-- [Campaign Y] losing 12% IS due to rank (needs bid/quality improvements)
+**What Is NOT Available via API:**
+- ❌ Competitor impression share %
+- ❌ Overlap rate with competitors
+- ❌ Outranking share
+- ❌ Position above rate
+- ❌ Any domain-level competitive data
 
-### Recommended Actions
-1. [Prioritized by revenue impact]
-```
+**Alternative for Competitive Intelligence:**
+If competitive auction insights needed, manual workflow required:
+1. Navigate to Google Ads UI → Campaigns → Auction Insights
+2. Export CSV or screenshot competitor data
+3. Analyse manually or provide CSV to Claude for trend analysis
+4. Document in `clients/{client}/documents/auction-insights-YYYY-MM.md`
 
-**Time Estimate:** 6 hours (skill creation + GAQL query optimization)
+**Recommendation:** Proceed to Phase 1C (GA4 Traffic Sources) or Phase 2 (Client-Facing Automation). All API-accessible impression share analysis is already covered by existing tools.
 
 ---
 

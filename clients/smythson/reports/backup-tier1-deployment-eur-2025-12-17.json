@@ -1,0 +1,20 @@
+{
+  "backup_created": "2025-12-17T14:05:54.989967",
+  "operation": "Add Tier 1 negative keywords - EUR",
+  "client": "smythson",
+  "customer_id": "7679616761",
+  "manager_id": "2569949686",
+  "accounts_data": {
+    "23048760213": {
+      "name": "SMY | EUR | RONot | Search | Brand Diaries and Organisers",
+      "terms": [
+        {
+          "text": "smythson agenda",
+          "clicks": 30,
+          "cost": 30.160152
+        }
+      ]
+    }
+  },
+  "exclusions": "Aspinal terms excluded per user requirement"
+}

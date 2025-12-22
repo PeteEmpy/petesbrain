@@ -1,0 +1,357 @@
+{
+  "date": "2025-12-17",
+  "client": "Positive Bakes",
+  "comparison_date": "2025-12-16",
+  "total_products_today": 147,
+  "total_products_yesterday": 147,
+  "summary": {
+    "changed_products": 16,
+    "price_changes": 1,
+    "sale_price_changes": 0,
+    "availability_changes": 2,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 13,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "52387776725259",
+      "title": "Luxury Christmas Afternoon Tea for 2 | Plant-Based Intimate Christmas Experience",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "5 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10727914635531_52386454569227",
+      "title": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "8 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10727924793611_52386501853451",
+      "title": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "7 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10667185832203_52068283515147",
+      "title": "Signature Brownie Selection Box of 25 | Bulk Sharing Treats | Plant-Based UK",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10667231346955_52068369858827",
+      "title": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration | Premium UK",
+      "changes": {
+        "price": [
+          "77.00 USD",
+          "78.00 USD"
+        ]
+      }
+    },
+    {
+      "product_id": "52068283515147",
+      "title": "Signature Brownie & Blondie Selection Box | 25 Pieces | Perfect for Sharing",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10731712119051_52405727199499",
+      "title": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52408175165707",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 12 | Traditional Christmas Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10732632047883_52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "changes": {
+        "additional_image_links": [
+          "0 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10728000520459_52387776725259",
+      "title": "Christmas Luxury Afternoon Tea for 2 | Festive Experience | Premium Christmas UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52386501853451",
+      "title": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "8 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147689227",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "5 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52405727199499",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52379385004299",
+      "title": "Taste of Christmas Luxury Sharing Box | Premium Selection Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "9 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52386454569227",
+      "title": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "9 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "5 items"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_ZZ_10667231346955_52068369858827",
+      "title": "Birthday Luxury Afternoon Tea for 2 | Sharing Birthday Celebration | Premium UK",
+      "changes": {
+        "price": [
+          "77.00 USD",
+          "78.00 USD"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "shopify_ZZ_10667185832203_52068283515147",
+      "title": "Signature Brownie Selection Box of 25 | Bulk Sharing Treats | Plant-Based UK",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "52068283515147",
+      "title": "Signature Brownie & Blondie Selection Box | 25 Pieces | Perfect for Sharing",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "52387776725259",
+      "title": "Luxury Christmas Afternoon Tea for 2 | Plant-Based Intimate Christmas Experience",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "5 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10727914635531_52386454569227",
+      "title": "The Night Before Christmas Box | 9 Premium Christmas Treats | Ultimate Christmas Eve UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "8 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10727924793611_52386501853451",
+      "title": "Christmas Artisan Brownie Collection | 6 Festive Plant-Based Treats | Premium Christmas UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "7 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10731712119051_52405727199499",
+      "title": "Christmas Artisan Mince Pies | 8 Frangipane Plant-Based Treats | Traditional Christmas UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "2 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52408175165707",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 12 | Traditional Christmas Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10732632047883_52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper | Premium Festive Experience | Luxury Christmas UK No",
+      "changes": {
+        "additional_image_links": [
+          "0 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10728000520459_52387776725259",
+      "title": "Christmas Luxury Afternoon Tea for 2 | Festive Experience | Premium Christmas UK",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52386501853451",
+      "title": "Christmas Artisan Brownie Collection | Box of 6 | Festive Celebration Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "8 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147689227",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "5 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52405727199499",
+      "title": "Christmas Artisan Frangipane Mince Pies | Box of 8 | Traditional Christmas Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52379385004299",
+      "title": "Taste of Christmas Luxury Sharing Box | Premium Selection Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "9 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52386454569227",
+      "title": "The Night Before Christmas Box | 9 Pieces | Ultimate Christmas Eve Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "2 items",
+          "9 items"
+        ]
+      }
+    },
+    {
+      "product_id": "52677147656459",
+      "title": "Ultimate Christmas Luxury Afternoon Tea Hamper for 2 | Premium Festive Experience Everyone Can Enjoy",
+      "changes": {
+        "additional_image_links": [
+          "1 items",
+          "5 items"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

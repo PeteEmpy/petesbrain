@@ -2,7 +2,7 @@
 """
 Google Ads Campaign Audit Agent
 
-Automated campaign structure and budget audit using Mike Rhodes' hierarchical approach.
+Automated campaign structure and budget audit using hierarchical approach.
 Executes Phase 1 (Account Intelligence) → Phase 2 (Core Audit) → Phase 3 (Optional Deep-Dive).
 
 This agent runs audits automatically and generates comprehensive reports focusing on:

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>co.roksys.petesbrain.youtube-monitor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/administrator/Documents/PetesBrain.nosync/agents/youtube-monitor/venv/bin/python3</string>
+        <string>/Users/administrator/Documents/PetesBrain.nosync/agents/youtube-monitor/youtube-monitor.py</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/administrator/.petesbrain-youtube-monitor.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/administrator/.petesbrain-youtube-monitor-error.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>ANTHROPIC_API_KEY</key>
+        <string>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</string>
+        <key>YOUTUBE_API_KEY</key>
+        <string>AIzaSyDowdeXxrfH2TLrgxfxM70_javptOVYv4U</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/administrator/Documents/PetesBrain.nosync</string>
+</dict>
+</plist>

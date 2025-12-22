@@ -152,13 +152,14 @@ service.create_task(...)
 
 ### Task Manager Generation
 
-**File**: `generate-tasks-overview.py`
+**File**: `generate-all-task-views.py` (consolidated script)
 
 **Process**:
 1. Runs validation (fail-fast if violations)
 2. Reads from `clients/{client}/tasks.json` only
 3. Reads from `roksys/tasks.json` for Roksys tasks
 4. **Never** reads from product-feeds
+5. Generates all three HTML views in single execution
 
 ### Other Scripts
 
@@ -183,7 +184,7 @@ All task reading scripts follow the same pattern:
    - Use `ClientTasksService.complete_task()`
 
 3. **Regenerate task manager** ✅
-   - Run `python3 generate-tasks-overview.py`
+   - Run `python3 generate-all-task-views.py`
 
 ### Example
 
@@ -271,7 +272,7 @@ python3 shared/scripts/audit-product-feeds-tasks.py
 1. **Check location**: `clients/{client}/tasks.json` (not product-feeds)
 2. **Check Roksys**: `roksys/tasks.json` (not clients/roksys/)
 3. **Run validation**: `python3 shared/scripts/validate-task-locations.py`
-4. **Regenerate**: `python3 generate-tasks-overview.py`
+4. **Regenerate**: `python3 generate-all-task-views.py`
 
 ### Validation Fails
 

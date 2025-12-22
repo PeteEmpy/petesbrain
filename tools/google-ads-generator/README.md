@@ -4,13 +4,17 @@ A Python tool for creating Google Ads text assets optimized for ROAS campaigns, 
 
 ## Overview
 
-This toolset helps you create comprehensive Google Ads text assets including:
+This toolset helps you create comprehensive Google Ads text assets with AI-powered analysis and God Tier copywriting techniques:
 
 1. **Search Themes** (50 terms for Performance Max asset groups)
-2. **Headlines** (50 total: 10 per section, 30 character max)
-3. **Descriptions** (50 total: 10 per section, 90 character max)
-4. **Sitelinks** (with headlines, descriptions, and URLs)
-5. **Callout Extensions** (5 total)
+2. **Headlines** (50 total: 10 per section, 30 character max, with structured mix ratios)
+3. **Descriptions** (50 total: 10 per section, 90 character max, with structured mix ratios)
+4. **Website Headlines** (5 headlines following 4-word value rule for landing pages)
+5. **Sitelinks** (with headlines, descriptions, and URLs)
+6. **Callout Extensions** (5 total)
+7. **Sentiment Analysis** (positive/neutral/negative scoring for all copy)
+8. **Social Proof Integration** (extract powerful copy from customer reviews)
+9. **Keyword Targeting** (ensure main keyword appears in 3+ headlines per section)
 
 ### The 5 Content Sections
 
@@ -53,6 +57,55 @@ python3 desktop.py
 ```
 
 See [DESKTOP_BUILD.md](DESKTOP_BUILD.md) for full desktop app instructions.
+
+---
+
+## 🆕 New God Tier Features (December 2025)
+
+### Enhanced Input Options
+
+**Main Keyword (Optional)**:
+- Add a target keyword that will appear in at least 3 headlines per section (15+ total)
+- Claude integrates naturally with variations (plurals, different word forms)
+- Helps optimize for Quality Score and keyword relevance
+
+**Social Proof Reviews (Optional)**:
+- Paste 2 recent customer testimonials
+- Claude extracts powerful phrases and emotions
+- Generates 2 social proof headlines per section (10 total)
+- Leverages authentic customer voice for compelling copy
+
+### Enhanced Output
+
+**Website Headlines**:
+- 5 landing page headlines that match ad copy
+- Follow "4-word value rule" (value clear within first 4 words)
+- Start with action verbs (Discover, Shop, Explore)
+- Improve Quality Score through message match
+
+**Sentiment Analysis**:
+- Every headline and description tagged as positive/neutral/negative
+- Visual badges (green/grey/red) in results interface
+- Target: 90%+ positive sentiment
+- Helps ensure aspirational, benefit-focused messaging
+
+**Structured Mix Ratios**:
+- Headlines distributed strategically per section:
+  - 3 featuring main keyword
+  - 2 with social proof from reviews
+  - 4 with USPs and benefits
+  - 2 with calls to action
+  - 1 creative/quirky element
+- Ensures comprehensive coverage and testing variety
+
+### ROK Elite Methodology
+
+The tool combines:
+- **ROK strengths**: Elite brand analysis, 50 headlines/descriptions, sentence case, luxury positioning
+- **God Tier techniques**: Structured ratios, social proof, website headlines, sentiment scoring
+- **Result**: Professional output with proven structural techniques
+
+**Full documentation**: [ROK-ELITE-IMPLEMENTATION.md](ROK-ELITE-IMPLEMENTATION.md)
 
 ---
 

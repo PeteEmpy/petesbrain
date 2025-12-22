@@ -31,10 +31,10 @@ PetesBrain is an AI-powered business management system for a Google Ads agency. 
 - Global `env` section contains shared credentials (ANTHROPIC_API_KEY, GMAIL credentials)
 - Individual `env` sections per MCP server for API-specific keys
 
-**Task System** (dual system, does NOT sync):
-- Internal `tasks.json` files in `clients/{client}/` for client work
-- Google Tasks API for personal reminders and AI-generated suggestions
-- These systems are intentionally separate - do NOT mix
+**Task System** (single internal system):
+- Internal `tasks.json` files in `clients/{client}/` for ALL tasks
+- Supports client work, recurring tasks, parent/child hierarchies
+- Google Tasks integration was deprecated December 16, 2025
 
 **Agent Health** (as of Dec 11, 2025):
 - 72 LaunchAgents configured
@@ -142,25 +142,24 @@ clients/{client-slug}/
 └── spreadsheets/           # Data exports
 ```
 
-**Platform IDs in CONTEXT.md**: Each client's CONTEXT.md contains their Google Ads Customer ID, Merchant Centre ID, GA4 Property ID, and Microsoft Ads Account ID. Use `mcp__google-ads__get_client_platform_ids('client-slug')` to retrieve them programmatically.
+**Platform IDs in CONTEXT.md**: Each client's CONTEXT.md contains their Google Ads Customer ID, Merchant Centre ID, GA4 Property ID, and Microsoft Ads Account ID. Use `mcp__platform-ids__get_client_platform_ids('client-slug')` to retrieve them programmatically.
 
 **Voice Transcription Aliases**: User inputs via voice dictation. Each CONTEXT.md includes "Voice Transcription Aliases" listing common mishearings (e.g., "Smythson" → "Smithson", "Tree2mydoor" → "tree to my door"). Always check aliases when client names don't match exactly.
 
-### Dual Task System (CRITICAL)
+### Internal Task System (Single Source of Truth)
 
-**Two completely independent systems that DO NOT sync:**
+**The internal task system is the sole task management system in PetesBrain:**
 
-| System | Location | Use For |
-|--------|----------|---------|
-| **Internal Client Tasks** | `clients/{client}/tasks.json` | ALL client work, recurring tasks, multi-step projects |
-| **Google Tasks** | Google API ("Peter's List", "Client Work") | Personal reminders, AI-generated suggestions only |
+| Feature | Details |
+|---------|---------|
+| **Storage** | `clients/{client}/tasks.json` files (per-client) |
+| **Supports** | Client work, recurring tasks, parent/child hierarchies, priorities (P0-P3) |
+| **Archive** | Completed tasks logged to `clients/{client}/tasks-completed.md` |
+| **Service** | Managed via `ClientTasksService` Python module |
 
-**Decision Rule**:
-- Client work? → Internal system (`clients/{client}/tasks.json`)
-- Recurring tasks? → Internal system (REQUIRED - Google Tasks has no recurring support)
-- Personal reminders? → Google Tasks ("Peter's List")
+**Historical Note**: Google Tasks integration was deprecated December 16, 2025. All functionality migrated to internal system.
 
-**Never mix these systems for the same task.** Full details: `docs/TASK-SYSTEM-DECISION-GUIDE.md` (498 lines)
+Full details: `docs/INTERNAL-TASK-SYSTEM.md` (543 lines)
 
 ### Parent/Child Task Hierarchy
 
@@ -244,13 +243,6 @@ tasks = service.list_tasks(client='client-slug')
 service.complete_task(client='client-slug', task_id='task-uuid')
 ```
 
-**Google Tasks** (personal only):
-```python
-mcp__google_tasks__list_tasks(tasklist_id='...')
-mcp__google_tasks__create_task(tasklist_id='...', title='...')
-mcp__google_tasks__complete_task(task_id='...')
-```
-
 ### Google Ads Queries
 
 **CRITICAL: Always use customer-level queries for financial data**
@@ -296,19 +288,91 @@ Skill(command='task-manager')
 
 ### Email Formatting
 
-**Standard**: HTML (not Markdown) with British English spelling
+**⚠️ CRITICAL: All client email drafts MUST use the canonical email template system.**
 
-```html
-<p style="margin: 6px 0; line-height: 1.4;">
-    Hi [Name],<br><br>
+#### Canonical Template Standard (Verdana 13px + Copy Button)
 
-    <strong>Key Point:</strong> Details here.<br><br>
+**Template Location**: `infrastructure/templates/email-template-master.html`
+**Python Module**: `shared/email_template.py`
 
-    Let me know if you have questions.
-</p>
+**Standards**:
+- Font: Verdana 13px
+- Line-height: 1.5
+- Copy-to-clipboard button with green styling (#10B981)
+- British English spelling throughout
+- Proper paragraph spacing (8px margin)
+
+#### When to Use What
+
+**For Claude Code interactions (drafting emails for user)**:
+- ✅ **ALWAYS use the `email-draft-generator` skill**
+- The skill automatically applies the canonical template
+- Never manually create HTML email templates
+- Example: `Skill(command='email-draft-generator')`
+
+**For Python agents/scripts (automated email generation)**:
+- ✅ **ALWAYS use `shared/email_template.py` module**
+- Import and use `render_email()` function
+- Example:
+
+```python
+from shared.email_template import render_email, save_email_draft
+
+content = '''
+    <p>Quick update on last week's performance:</p>
+    <table>
+        <tr>
+            <th>Metric</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Revenue</td>
+            <td>£3,500</td>
+        </tr>
+        <tr>
+            <td>ROAS</td>
+            <td>320%</td>
+        </tr>
+    </table>
+    <p>All looking good.</p>
+'''
+
+html = render_email(
+    content=content,
+    recipient_name="Barry",  # From client CONTEXT.md
+    sender_name="Peter",
+    sign_off="Regards"  # Or "Best", "Kind regards"
+)
+
+# Save and open in browser
+filepath = "clients/bright-minds/documents/email-draft-2025-12-15-weekly-update.html"
+save_email_draft(html, filepath, open_in_browser=True)
 ```
 
-**Delivery**: Save as `.html` file, auto-open in browser for copy/paste into Gmail
+**⚠️ CRITICAL: ALWAYS open email drafts in browser immediately after creation**
+- Use `open_in_browser=True` parameter in `save_email_draft()`
+- OR manually open with `open /path/to/email.html` after creation
+- User must see the email in browser to review before sending
+- Never just save an email without opening it for user review
+
+#### Content Formatting Guidelines
+
+**Within the `content` parameter**:
+- Use `<p>` for paragraphs
+- Use `<ul>` and `<li>` for bullet lists
+- Use `<table>` for data tables (with `<th>` and `<td>`)
+- Use `<strong>` for emphasis
+- Use `<br>` for line breaks within paragraphs
+
+**British English spelling** (for UK clients):
+- analyse (not analyze), optimise (not optimize), customisation (not customization)
+- colour (not color), behaviour (not behavior), realise (not realize)
+
+**ROAS format** (CRITICAL):
+- Always express as percentage: **400%**, **292%**, **550%**
+- NEVER as £X.XX format
+
+**Delivery**: Automatically opens in browser for copy/paste into Gmail/Apple Mail
 
 ### Running Tools
 
@@ -328,10 +392,10 @@ cd /Users/administrator/Documents/PetesBrain/tools/granola-importer
 
 ```bash
 cd /Users/administrator/Documents/PetesBrain
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 ```
 
-Generates HTML dashboard of all tasks. Auto-opens in browser.
+Generates all three HTML task views (by client, by priority, Task Manager & Reminders). Auto-opens in browser.
 
 ### Agent Management
 
@@ -358,15 +422,82 @@ launchctl load ~/Library/LaunchAgents/co.roksys.petesbrain.{agent-name}.plist
 
 ### British English Standard
 
+**CRITICAL: NEVER use Americanised spellings. ALWAYS use UK English.**
+
 **ALL output must use British English spelling**:
 - analyse (not analyze)
 - optimise (not optimize)
 - organise (not organize)
+- realise (not realize)
 - colour (not color)
 - behaviour (not behavior)
 - centre (not center)
+- customisation (not customization)
+- emphasise (not emphasize)
+- recognise (not recognize)
 
-Applies to: code comments, documentation, tasks, emails, reports, logs - everything.
+**Applies to:** Code comments, documentation, tasks, emails, reports, logs, client communications - EVERYTHING.
+
+**No exceptions:** This applies to ALL clients (unless specifically noted as US-based client requiring American English).
+
+### Report Display Preferences
+
+**CRITICAL: User prefers viewing reports in BROWSER, not raw markdown.**
+
+**When creating analysis reports, data reports, or any markdown documentation for user review:**
+
+1. **Generate markdown first** (for version control and editing)
+2. **Convert to HTML automatically** using the markdown-to-HTML converter
+3. **Open in browser automatically** for user review
+
+**Conversion Script Pattern:**
+```python
+import markdown
+
+# Read markdown
+with open('report.md', 'r') as f:
+    md_content = f.read()
+
+# Convert to HTML with tables extension
+html_content = markdown.markdown(md_content, extensions=['tables', 'fenced_code'])
+
+# Wrap in styled HTML document (green headings, table styling, responsive design)
+full_html = f"""<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {{ max-width: 1200px; margin: 0 auto; padding: 40px; background: #f5f5f5; }}
+        .container {{ background: white; padding: 40px; border-radius: 8px; }}
+        h1 {{ color: #10B981; border-bottom: 3px solid #10B981; }}
+        h2 {{ color: #059669; border-bottom: 2px solid #D1FAE5; }}
+        table {{ border-collapse: collapse; width: 100%; }}
+        th {{ background: #10B981; color: white; padding: 12px; }}
+        td {{ border: 1px solid #ddd; padding: 12px; }}
+        tr:hover {{ background: #D1FAE5; }}
+    </style>
+</head>
+<body><div class="container">{html_content}</div></body>
+</html>"""
+
+# Write HTML
+with open('report.html', 'w') as f:
+    f.write(full_html)
+```
+
+**Then open with:**
+```bash
+open report.html
+```
+
+**Applies to:**
+- Google Ads performance reports
+- Brand analysis reports
+- Campaign audit reports
+- Monthly/weekly summaries
+- Data analysis documents
+- Strategic recommendations
+
+**Exception:** Internal technical documentation (README files, system docs) can remain as markdown since they're for development reference, not user review.
 
 ### Protected Files (NEVER DELETE)
 
@@ -394,7 +525,7 @@ Applies to: code comments, documentation, tasks, emails, reports, logs - everyth
 3. Task remains in `tasks.json` (not deleted immediately)
 4. Manual cleanup after 30 days
 
-**When searching for historical tasks**: Check `*/tasks-completed.md` files, not Google Tasks
+**When searching for historical tasks**: Check `*/tasks-completed.md` files (permanent archive of all completed work)
 
 ### Smart Task Creation from Reports
 
@@ -471,15 +602,13 @@ Applies to: code comments, documentation, tasks, emails, reports, logs - everyth
 
 ### "Process my task notes" / "Process task notes"
 
-**DO NOT use wispr-flow-importer skill** - that's for voice notes.
-
 **Protocol**:
 1. Read `/Users/administrator/Documents/PetesBrain/data/state/manual-task-notes.json`
 2. For each note, execute the `manual_note` instruction (e.g., "Done" = complete the task)
 3. Log completed tasks to `roksys/tasks-completed.md`
 4. Remove completed tasks from `roksys/tasks.json` (use Python for JSON editing)
 5. Clear notes file: `echo '[]' > data/state/manual-task-notes.json`
-6. Regenerate HTML: `python3 generate-tasks-overview.py`
+6. Regenerate HTML: `python3 generate-all-task-views.py`
 
 **If file is empty `[]`**: Report "No task notes to process"
 
@@ -713,10 +842,6 @@ claude mcp add -s user microsoft-ads "/Users/administrator/Documents/PetesBrain/
 
 If `manual-task-notes.json` is `[]` after processing, report "No task notes to process" - this is normal.
 
-### Tasks Not Syncing
-
-Tasks between internal system and Google Tasks DO NOT sync. This is by design. Check `docs/TASK-SYSTEM-DECISION-GUIDE.md` to verify correct system usage.
-
 ---
 
 ## Testing
@@ -746,9 +871,9 @@ service.complete_task(client='smythson', task_id=task['id'])
 result = mcp__google_ads__get_client_platform_ids('smythson')
 print(result)
 
-# Test Google Tasks
-lists = mcp__google_tasks__list_task_lists()
-print(lists)
+# Test Google Analytics
+properties = mcp__google_analytics__list_properties()
+print(properties)
 ```
 
 **Skills**:
@@ -793,7 +918,6 @@ See `docs/TESTING_GUIDE.md` for comprehensive testing procedures
 | Service | Import Path |
 |---------|-------------|
 | ClientTasksService | `from shared.client_tasks_service import ClientTasksService` |
-| GoogleTasksClient | `from shared.google_tasks_client import GoogleTasksClient` |
 | PlatformIDs | `from shared.platform_ids import get_client_platform_ids` |
 | DateUtils | `from shared.date_utils import *` |
 
@@ -802,8 +926,8 @@ See `docs/TESTING_GUIDE.md` for comprehensive testing procedures
 ```python
 mcp__google_ads__run_gaql(customer_id, manager_id, query)
 mcp__google_ads__get_client_platform_ids(client_name)
-mcp__google_tasks__list_tasks(tasklist_id)
-mcp__google_tasks__create_task(tasklist_id, title, due)
+mcp__google_analytics__list_properties()
+mcp__google_analytics__get_page_views(property_id, start_date, end_date)
 mcp__google_sheets__read_cells(spreadsheet_id, range)
 mcp__microsoft_ads__get_campaigns(customer_id)
 ```

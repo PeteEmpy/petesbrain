@@ -1,0 +1,117 @@
+{
+  "type": "campaign_analysis",
+  "client": "tree2mydoor",
+  "data": {
+    "client_slug": "tree2mydoor",
+    "date_range": {
+      "start_date": "2025-12-08",
+      "end_date": "2025-12-15"
+    },
+    "health_score": 100,
+    "summary": "Account Health: Excellent (100/100)\n\nAnalysed 2 campaigns with total spend of \u00a3450 and blended ROAS of 3.00x.\n\nDetected 1 issues requiring attention.",
+    "campaign_analyses": [
+      {
+        "campaign_name": "Example Campaign 1",
+        "campaign_id": "12345",
+        "campaign_type": "SEARCH",
+        "status": "ENABLED",
+        "metrics": {
+          "spend": 150.0,
+          "revenue": 450.0,
+          "roas": 3.0,
+          "conversions": 15,
+          "clicks": 250,
+          "impressions": 5000,
+          "lost_is_budget": 0.15
+        },
+        "issues": [
+          {
+            "type": "budget_constraint",
+            "severity": "P2",
+            "campaign": "Example Campaign 1",
+            "description": "Losing 15% of impressions due to budget",
+            "metrics": {
+              "lost_is_budget": 0.15,
+              "spend": 150.0,
+              "roas": 3.0
+            }
+          }
+        ],
+        "target_roas": 1.6
+      },
+      {
+        "campaign_name": "Example Campaign 2",
+        "campaign_id": "67890",
+        "campaign_type": "PERFORMANCE_MAX",
+        "status": "ENABLED",
+        "metrics": {
+          "spend": 300.0,
+          "revenue": 900.0,
+          "roas": 3.0,
+          "conversions": 30,
+          "clicks": 500,
+          "impressions": 10000,
+          "lost_is_budget": 0.05
+        },
+        "issues": [],
+        "target_roas": 1.6
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": "P2",
+        "issue_type": "budget_constraint",
+        "title": "Budget Constraints",
+        "affected_campaigns": 1,
+        "campaign_names": [
+          "Example Campaign 1"
+        ],
+        "impact": {
+          "total_spend": 150.0,
+          "avg_roas": 3.0
+        },
+        "recommendation": "Budget Constraints Limiting Performance\n\n1 campaign(s) are losing impressions due to budget constraints (avg 15% Lost IS Budget).\n\nRoot Cause Analysis:\n- Campaigns are performing well but can't spend more due to daily budget caps\n- Potential revenue being left on the table\n\nRecommendation:\n1. Assess performance: Campaigns with ROAS >1.2800000000000002x should receive budget increases\n2. Reallocate budget from lower-performing campaigns\n3. Consider increasing overall account budget if all campaigns are constrained\n4. Monitor pacing - ensure budgets aren't exhausted early in the day",
+        "kb_articles": [
+          {
+            "title": "PMax spends budget after 8pm, but no leads\u2014how do you minimize wasted evening spend?",
+            "path": "google-ads/performance-max/performance-max-ad-scheduling-budget-optimization.md",
+            "category": "google-ads/performance-max",
+            "preview": "title: Managing Performance Max Budget Waste During Off-Peak Hours",
+            "score": 49,
+            "type": "article"
+          },
+          {
+            "title": "Google Ads pushes \u2018Investment Strategy\u2019 planning for budget-limited campaigns",
+            "path": "google-ads/platform-updates/google-ads-investment-strategy-budget-planning-tool.md",
+            "category": "google-ads/platform-updates",
+            "preview": "title: Google Ads Investment Strategy Tool for Budget Planning",
+            "score": 48,
+            "type": "article"
+          },
+          {
+            "title": "Google Analytics Adds Cross-Channel Budgeting Tools for Marketers",
+            "path": "analytics/google-analytics-cross-channel-budget-optimization-tools.md",
+            "category": "analytics",
+            "preview": "title: Google Analytics Introduces Cross-Channel Budget Optimization Tools",
+            "score": 44,
+            "type": "article"
+          }
+        ],
+        "next_steps": [
+          "Calculate incremental revenue opportunity (Lost IS \u00d7 current revenue)",
+          "Identify budget reallocation candidates (campaigns with ROAS <target)",
+          "Test 20% budget increase for 7 days, monitor ROAS stability",
+          "Set up budget alerts to catch constraints earlier"
+        ]
+      }
+    ],
+    "context_applied": {
+      "target_roas": 1.6,
+      "known_issues_count": 14,
+      "uses_product_hero": true
+    },
+    "client_display": "Tree2Mydoor",
+    "generated_date": "2025-12-16"
+  },
+  "generated_at": "2025-12-16T10:55:26.711447"
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2025-12-17",
+  "client": "Grain Guard",
+  "comparison_date": "2025-12-16",
+  "total_products_today": 109,
+  "total_products_yesterday": 109,
+  "summary": {
+    "changed_products": 2,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 1,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 1,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8784876372242_47096882004242",
+      "title": "Epoxy Wood Repair Stick 7 Inch | Wood Repair, Rebuild, Re-Paint",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0759/1539/5346/files/Product_Front_Image_Assets_with_titles_Wood_Epoxy_Stick.jpg?v=1728897375",
+          "https://cdn.shopify.com/s/files/1/0759/1539/5346/files/20020-GrainGuardWoodEpoxyStick-56g_FRONT.jpg?v=1728490964"
+        ],
+        "additional_image_links": [
+          "8 items",
+          "7 items"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734951117074",
+      "title": "Light Oak Wood Stain Water Based - 500ml | Grain Guard",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "shopify_GB_8784876372242_47096882004242",
+      "title": "Epoxy Wood Repair Stick 7 Inch | Wood Repair, Rebuild, Re-Paint",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0759/1539/5346/files/Product_Front_Image_Assets_with_titles_Wood_Epoxy_Stick.jpg?v=1728897375",
+          "https://cdn.shopify.com/s/files/1/0759/1539/5346/files/20020-GrainGuardWoodEpoxyStick-56g_FRONT.jpg?v=1728490964"
+        ],
+        "additional_image_links": [
+          "8 items",
+          "7 items"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8784875847954_47734951117074",
+      "title": "Light Oak Wood Stain Water Based - 500ml | Grain Guard",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """
-Simple Google Ads Search Term Export
+Google Ads Search Term Export with Three-Tier Classification
 Usage: python3 export-google-ads-search-terms.py --customer-id XXXXX --start-date 2025-10-01 --end-date 2025-11-25
-       Exports search term reports with metrics for negative keyword mining and expansion opportunities
+       Exports search term reports with metrics and classifies into three tiers:
+       - Tier 1: High confidence negative keywords (≥30 clicks, 0 conversions, ≥£20 spend)
+       - Tier 2: Medium confidence negative keywords (10-29 clicks, 0 conversions)
+       - Tier 3: Insufficient data (<10 clicks, 0 conversions)
+       - Converting: Terms with conversions (keep active)
 """
 
 import sys
@@ -10,7 +14,7 @@ import json
 import argparse
 import csv
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Add MCP server to path
 mcp_path = Path(__file__).parent.parent.parent / 'infrastructure/mcp-servers/google-ads-mcp-server'
@@ -21,10 +25,80 @@ from google.ads.googleads.client import GoogleAdsClient
 MANAGER_ID = "2569949686"  # Rok Systems MCC
 
 
+def classify_search_term(clicks, conversions, spend, conversions_value, period_days=60):
+    """
+    Classify search term into three-tier system based on statistical significance.
+
+    Args:
+        clicks: Total clicks in period
+        conversions: Total conversions in period
+        spend: Total spend in period (GBP)
+        conversions_value: Total conversion value (GBP)
+        period_days: Analysis period length (default: 60)
+
+    Returns:
+        dict with tier, confidence, daily_click_rate, recommendation
+    """
+    daily_click_rate = clicks / period_days if period_days > 0 else 0
+
+    # Tier 1: High Confidence Negative Keywords
+    if clicks >= 30 and conversions == 0 and spend >= 20:
+        return {
+            'tier': 1,
+            'tier_name': 'Tier 1 - High Confidence',
+            'confidence': 'very_high',
+            'daily_click_rate': round(daily_click_rate, 2),
+            'false_positive_risk': '<5%',
+            'recommendation': 'Add as exact match negative keyword immediately',
+            'action': 'immediate'
+        }
+
+    # Tier 2: Medium Confidence Negative Keywords
+    elif 10 <= clicks < 30 and conversions == 0:
+        next_review = datetime.now().date() + timedelta(days=7)
+        return {
+            'tier': 2,
+            'tier_name': 'Tier 2 - Medium Confidence',
+            'confidence': 'moderate',
+            'daily_click_rate': round(daily_click_rate, 2),
+            'false_positive_risk': '10-20%',
+            'recommendation': f'Monitor closely - review on {next_review.strftime("%Y-%m-%d")}',
+            'action': 'monitor',
+            'next_review_date': next_review.strftime('%Y-%m-%d')
+        }
+
+    # Tier 3: Insufficient Data
+    elif clicks < 10 and conversions == 0:
+        return {
+            'tier': 3,
+            'tier_name': 'Tier 3 - Insufficient Data',
+            'confidence': 'low',
+            'daily_click_rate': round(daily_click_rate, 2),
+            'false_positive_risk': 'N/A',
+            'recommendation': 'No action - insufficient data',
+            'action': 'none'
+        }
+
+    # Converting term
+    elif conversions > 0:
+        roas = ((conversions_value / spend) * 100) if spend > 0 else 0
+        return {
+            'tier': 'converting',
+            'tier_name': 'Converting',
+            'confidence': 'N/A',
+            'daily_click_rate': round(daily_click_rate, 2),
+            'recommendation': 'Performing well - no action needed',
+            'action': 'none',
+            'roas': f'{roas:.0f}%'
+        }
+
+    return None
+
+
 def export_search_terms(customer_id: str, start_date: str, end_date: str,
                         min_clicks: int = 0, min_cost: float = 0,
-                        campaign_name: str = None, limit: int = 5000):
-    """Export search terms with metrics."""
+                        campaign_name: str = None, limit: int = 5000, period_days: int = 60):
+    """Export search terms with metrics and tier classification."""
     client = GoogleAdsClient.load_from_storage(Path.home() / 'google-ads.yaml')
     ga_service = client.get_service('GoogleAdsService')
 
@@ -78,6 +152,15 @@ def export_search_terms(customer_id: str, start_date: str, end_date: str,
         roas_pct = roas * 100
         cpa = (cost / row.metrics.conversions) if row.metrics.conversions > 0 else 0
 
+        # Classify search term
+        classification = classify_search_term(
+            clicks=row.metrics.clicks,
+            conversions=row.metrics.conversions,
+            spend=cost,
+            conversions_value=row.metrics.conversions_value,
+            period_days=period_days
+        )
+
         result = {
             'campaign_name': row.campaign.name,
             'campaign_id': row.campaign.id,
@@ -95,7 +178,14 @@ def export_search_terms(customer_id: str, start_date: str, end_date: str,
             'avg_cpc': round(avg_cpc, 2),
             'cpa': round(cpa, 2),
             'roas': round(roas, 2),
-            'roas_pct': round(roas_pct, 0)
+            'roas_pct': round(roas_pct, 0),
+            # Classification data
+            'tier': classification['tier'] if classification else 'N/A',
+            'tier_name': classification['tier_name'] if classification else 'N/A',
+            'confidence': classification['confidence'] if classification else 'N/A',
+            'daily_click_rate': classification['daily_click_rate'] if classification else 0,
+            'recommendation': classification['recommendation'] if classification else 'N/A',
+            'action': classification['action'] if classification else 'N/A'
         }
         results.append(result)
 
@@ -130,6 +220,96 @@ def output_json(results: list, output_file: str = None):
         print(f"✅ Saved {len(results)} search terms to {output_file}")
     else:
         print(json.dumps(results, indent=2, default=str))
+
+
+def output_tier_csvs(results: list, output_dir: str, client_slug: str = None):
+    """
+    Output four separate tier-specific CSV files.
+
+    Generates:
+    - tier1_negative_keywords.csv (High confidence - immediate action)
+    - tier2_negative_keywords.csv (Medium confidence - monitor)
+    - tier3_insufficient_data.csv (Low confidence - continue monitoring)
+    - converting_search_terms.csv (Performing well - keep active)
+    """
+    if not results:
+        print("No results to output")
+        return
+
+    # Separate results by tier
+    tier1_terms = [r for r in results if r['tier'] == 1]
+    tier2_terms = [r for r in results if r['tier'] == 2]
+    tier3_terms = [r for r in results if r['tier'] == 3]
+    converting_terms = [r for r in results if r['tier'] == 'converting']
+
+    # Sort by spend (descending) within each tier
+    tier1_terms.sort(key=lambda x: x['cost'], reverse=True)
+    tier2_terms.sort(key=lambda x: x['cost'], reverse=True)
+    tier3_terms.sort(key=lambda x: x['cost'], reverse=True)
+    converting_terms.sort(key=lambda x: x['revenue'], reverse=True)
+
+    # Create output directory if it doesn't exist
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    today = datetime.now().strftime('%Y-%m-%d')
+    prefix = f"{client_slug}-" if client_slug else ""
+
+    # Tier 1 CSV (High Confidence)
+    if tier1_terms:
+        tier1_file = output_path / f"{prefix}keyword-audit-{today}-tier1.csv"
+        fieldnames = ['search_term', 'clicks', 'cost', 'conversions', 'daily_click_rate',
+                     'tier', 'confidence', 'recommendation', 'campaign_name', 'match_type']
+        with open(tier1_file, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writeheader()
+            writer.writerows(tier1_terms)
+        print(f"✅ Tier 1 (High Confidence): {len(tier1_terms)} terms → {tier1_file}")
+
+    # Tier 2 CSV (Medium Confidence)
+    if tier2_terms:
+        tier2_file = output_path / f"{prefix}keyword-audit-{today}-tier2.csv"
+        # Add next_review_date from classification if present
+        for term in tier2_terms:
+            if 'next_review_date' not in term:
+                next_review = (datetime.now() + timedelta(days=7)).strftime('%Y-%m-%d')
+                term['next_review_date'] = next_review
+        fieldnames = ['search_term', 'clicks', 'cost', 'conversions', 'daily_click_rate',
+                     'tier', 'confidence', 'next_review_date', 'campaign_name', 'match_type']
+        with open(tier2_file, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writeheader()
+            writer.writerows(tier2_terms)
+        print(f"🟡 Tier 2 (Medium Confidence): {len(tier2_terms)} terms → {tier2_file}")
+
+    # Tier 3 CSV (Insufficient Data)
+    if tier3_terms:
+        tier3_file = output_path / f"{prefix}keyword-audit-{today}-tier3.csv"
+        fieldnames = ['search_term', 'clicks', 'cost', 'conversions', 'daily_click_rate',
+                     'tier', 'confidence', 'action', 'campaign_name', 'match_type']
+        with open(tier3_file, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writeheader()
+            writer.writerows(tier3_terms)
+        print(f"🔵 Tier 3 (Insufficient Data): {len(tier3_terms)} terms → {tier3_file}")
+
+    # Converting terms CSV
+    if converting_terms:
+        converting_file = output_path / f"{prefix}keyword-audit-{today}-converting.csv"
+        fieldnames = ['search_term', 'clicks', 'conversions', 'cost', 'revenue', 'roas_pct',
+                     'daily_click_rate', 'recommendation', 'campaign_name', 'match_type']
+        with open(converting_file, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writerows(converting_terms)
+        print(f"✅ Converting Terms: {len(converting_terms)} terms → {converting_file}")
+
+    # Summary
+    total_waste = sum(r['cost'] for r in tier1_terms)
+    print(f"\n📊 Summary:")
+    print(f"   Tier 1 (Immediate Action): {len(tier1_terms)} terms, £{total_waste:.2f} waste identified")
+    print(f"   Tier 2 (Monitor): {len(tier2_terms)} terms")
+    print(f"   Tier 3 (Insufficient Data): {len(tier3_terms)} terms")
+    print(f"   Converting: {len(converting_terms)} terms")
 
 
 def output_summary(results: list):
@@ -199,10 +379,13 @@ def main():
         epilog="""
 Examples:
 
-  # Export all search terms from last 30 days
+  # Generate four tier-specific CSV files (recommended for 60-day analysis)
+  python3 export-google-ads-search-terms.py --customer-id 6413338364 --start-date 2025-10-18 --end-date 2025-12-17 --output tiers --file ./reports --client-slug uno-lighting --period-days 60
+
+  # Export all search terms from last 30 days (single CSV)
   python3 export-google-ads-search-terms.py --customer-id 8573235780 --start-date 2025-10-26 --end-date 2025-11-25 --output csv --file search-terms.csv
 
-  # Find wastage candidates (terms with clicks but no conversions)
+  # Find wastage candidates with summary (includes tier analysis)
   python3 export-google-ads-search-terms.py --customer-id 8573235780 --start-date 2025-10-01 --end-date 2025-11-25 --min-clicks 5 --output summary
 
   # Export only high-spend terms (£50+)
@@ -210,6 +393,16 @@ Examples:
 
   # Filter by specific campaign
   python3 export-google-ads-search-terms.py --customer-id 8573235780 --start-date 2025-10-01 --end-date 2025-11-25 --campaign "Brand" --output summary
+
+Tier Classification System:
+  - Tier 1 (High Confidence): ≥30 clicks, 0 conversions, ≥£20 spend → Immediate negative keywords
+  - Tier 2 (Medium Confidence): 10-29 clicks, 0 conversions → Monitor for 7 days
+  - Tier 3 (Insufficient Data): <10 clicks, 0 conversions → Continue monitoring
+  - Converting: Terms with conversions → Keep active
+
+Recommended Period:
+  - Use --period-days 60 for statistically significant analysis (default)
+  - Minimum 30 days for Tier 1 identification
 """
     )
 
@@ -220,8 +413,10 @@ Examples:
     parser.add_argument('--min-clicks', type=int, default=0, help='Minimum clicks (default: 0)')
     parser.add_argument('--min-cost', type=float, default=0, help='Minimum spend in GBP (default: 0)')
     parser.add_argument('--limit', type=int, default=5000, help='Maximum terms to return (default: 5000)')
-    parser.add_argument('--output', choices=['summary', 'csv', 'json'], default='summary', help='Output format (default: summary)')
-    parser.add_argument('--file', help='Output file path (optional)')
+    parser.add_argument('--period-days', type=int, default=60, help='Analysis period length for tier classification (default: 60)')
+    parser.add_argument('--output', choices=['summary', 'csv', 'json', 'tiers'], default='summary', help='Output format: summary, csv, json, or tiers (four tier-specific CSVs)')
+    parser.add_argument('--file', help='Output file path (for csv/json) or directory (for tiers)')
+    parser.add_argument('--client-slug', help='Client slug for tier CSV filenames (e.g., uno-lighting)')
 
     args = parser.parse_args()
 
@@ -244,7 +439,8 @@ Examples:
         args.min_clicks,
         args.min_cost,
         args.campaign,
-        args.limit
+        args.limit,
+        args.period_days
     )
 
     if not results:
@@ -252,7 +448,11 @@ Examples:
         return 1
 
     # Output results
-    if args.output == 'csv':
+    if args.output == 'tiers':
+        # Generate four tier-specific CSV files
+        output_dir = args.file if args.file else '.'
+        output_tier_csvs(results, output_dir, args.client_slug)
+    elif args.output == 'csv':
         output_csv(results, args.file)
     elif args.output == 'json':
         output_json(results, args.file)

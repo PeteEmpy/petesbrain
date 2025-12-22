@@ -1,0 +1,622 @@
+{
+  "date": "2025-12-17",
+  "client": "Accessories for the Home",
+  "comparison_date": "2025-12-16",
+  "total_products_today": 1117,
+  "total_products_yesterday": 1117,
+  "summary": {
+    "changed_products": 27,
+    "price_changes": 1,
+    "sale_price_changes": 21,
+    "availability_changes": 3,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 4,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "2029_2262",
+      "title": "Makoto Rattan Coffee Table - Black",
+      "changes": {
+        "sale_price": [
+          "239.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1613",
+      "title": "Denise Walnut and Gold Console",
+      "changes": {
+        "sale_price": [
+          "167.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "623_629",
+      "title": "Sanwi Brass T-Light Holder Free Standing Star",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "2543",
+      "title": "Anbu Mango Wood Upholstered Counter Chair- Natural",
+      "changes": {
+        "price": [
+          "375.00 GBP",
+          "262.50 GBP"
+        ],
+        "sale_price": [
+          "281.25 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1813_1578",
+      "title": "Liman Antique Brass Jewellery Stand By Nkuku - 160(H) x 170(W) x 90(D) mm - Keeps Necklaces Tangle Free",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1843_1606",
+      "title": "Ukari Leather Dining Chair - Chocolate Brown - Simple Utilitarian Design By Nkuku",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "2020_2258",
+      "title": "Gigi Set of 2 Dining Chairs (Pink, Black, White or Mint) - White",
+      "changes": {
+        "sale_price": [
+          "174.40 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1789",
+      "title": "BePureHome Bequest Black Wood Media Cabinet Crafted From Solid Pine Wood In Antique Black And Rust-Finished Dark Iron Legs",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "2030_2263",
+      "title": "Makoto Rattan Side Table - Black",
+      "changes": {
+        "sale_price": [
+          "111.20 GBP",
+          ""
+        ],
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "2246_3015",
+      "title": "Lena Mesh Pendant Lamp (2 Sizes) - Brass or Black - Brass",
+      "changes": {
+        "sale_price": [
+          "63.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2030_2264",
+      "title": "Makoto Rattan Side Table - Sand",
+      "changes": {
+        "sale_price": [
+          "111.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2356",
+      "title": "Amaya Rattan & Iron Sideboard",
+      "changes": {
+        "sale_price": [
+          "479.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2243_3004",
+      "title": "Isla Natural & Black Bamboo Pendant Lamp (2 sizes)",
+      "changes": {
+        "sale_price": [
+          "71.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2430",
+      "title": "Haru Rattan & Wood Round Coffee Table",
+      "changes": {
+        "sale_price": [
+          "239.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2042",
+      "title": "San Recycled Teak Sideboard",
+      "changes": {
+        "sale_price": [
+          "463.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1880",
+      "title": "Rob Iron Wine Cabinet",
+      "changes": {
+        "sale_price": [
+          "375.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2024_2259",
+      "title": "Denise Walnut Side or Coffee Table",
+      "changes": {
+        "sale_price": [
+          "95.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2026",
+      "title": "Denise Round Walnut Dining Table",
+      "changes": {
+        "sale_price": [
+          "239.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1997",
+      "title": "Guuji Rattan & Iron Sideboard",
+      "changes": {
+        "sale_price": [
+          "559.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "483_456",
+      "title": "Kiko Brass Glass Photo Frames (Landscape or Portrait)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "2024_2260",
+      "title": "Denise Walnut Side or Coffee Table",
+      "changes": {
+        "sale_price": [
+          "127.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1881",
+      "title": "Ferre Medium Iron Cabinet",
+      "changes": {
+        "sale_price": [
+          "479.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2027",
+      "title": "Edgar Drinks Cabinet",
+      "changes": {
+        "sale_price": [
+          "431.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2028",
+      "title": "Leo 2 Drawer Teak Desk",
+      "changes": {
+        "sale_price": [
+          "319.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2039",
+      "title": "Miya White Iron Sideboard",
+      "changes": {
+        "sale_price": [
+          "559.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1843_1604",
+      "title": "Nkuku Ukari Black Leather Dining Chair - Tactile, Durable Padded Seat, Modern Style, Dining Rooms, H:780mm W:460mm D:520mm",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1995",
+      "title": "Guuji Rattan & Iron High Cabinet",
+      "changes": {
+        "sale_price": [
+          "679.20 GBP",
+          ""
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "2543",
+      "title": "Anbu Mango Wood Upholstered Counter Chair- Natural",
+      "changes": {
+        "price": [
+          "375.00 GBP",
+          "262.50 GBP"
+        ],
+        "sale_price": [
+          "281.25 GBP",
+          ""
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [
+    {
+      "product_id": "2029_2262",
+      "title": "Makoto Rattan Coffee Table - Black",
+      "changes": {
+        "sale_price": [
+          "239.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1613",
+      "title": "Denise Walnut and Gold Console",
+      "changes": {
+        "sale_price": [
+          "167.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2543",
+      "title": "Anbu Mango Wood Upholstered Counter Chair- Natural",
+      "changes": {
+        "price": [
+          "375.00 GBP",
+          "262.50 GBP"
+        ],
+        "sale_price": [
+          "281.25 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2020_2258",
+      "title": "Gigi Set of 2 Dining Chairs (Pink, Black, White or Mint) - White",
+      "changes": {
+        "sale_price": [
+          "174.40 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2030_2263",
+      "title": "Makoto Rattan Side Table - Black",
+      "changes": {
+        "sale_price": [
+          "111.20 GBP",
+          ""
+        ],
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "2246_3015",
+      "title": "Lena Mesh Pendant Lamp (2 Sizes) - Brass or Black - Brass",
+      "changes": {
+        "sale_price": [
+          "63.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2030_2264",
+      "title": "Makoto Rattan Side Table - Sand",
+      "changes": {
+        "sale_price": [
+          "111.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2356",
+      "title": "Amaya Rattan & Iron Sideboard",
+      "changes": {
+        "sale_price": [
+          "479.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2243_3004",
+      "title": "Isla Natural & Black Bamboo Pendant Lamp (2 sizes)",
+      "changes": {
+        "sale_price": [
+          "71.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2430",
+      "title": "Haru Rattan & Wood Round Coffee Table",
+      "changes": {
+        "sale_price": [
+          "239.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2042",
+      "title": "San Recycled Teak Sideboard",
+      "changes": {
+        "sale_price": [
+          "463.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1880",
+      "title": "Rob Iron Wine Cabinet",
+      "changes": {
+        "sale_price": [
+          "375.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2024_2259",
+      "title": "Denise Walnut Side or Coffee Table",
+      "changes": {
+        "sale_price": [
+          "95.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2026",
+      "title": "Denise Round Walnut Dining Table",
+      "changes": {
+        "sale_price": [
+          "239.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1997",
+      "title": "Guuji Rattan & Iron Sideboard",
+      "changes": {
+        "sale_price": [
+          "559.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2024_2260",
+      "title": "Denise Walnut Side or Coffee Table",
+      "changes": {
+        "sale_price": [
+          "127.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1881",
+      "title": "Ferre Medium Iron Cabinet",
+      "changes": {
+        "sale_price": [
+          "479.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2027",
+      "title": "Edgar Drinks Cabinet",
+      "changes": {
+        "sale_price": [
+          "431.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2028",
+      "title": "Leo 2 Drawer Teak Desk",
+      "changes": {
+        "sale_price": [
+          "319.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "2039",
+      "title": "Miya White Iron Sideboard",
+      "changes": {
+        "sale_price": [
+          "559.20 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "1995",
+      "title": "Guuji Rattan & Iron High Cabinet",
+      "changes": {
+        "sale_price": [
+          "679.20 GBP",
+          ""
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "623_629",
+      "title": "Sanwi Brass T-Light Holder Free Standing Star",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1813_1578",
+      "title": "Liman Antique Brass Jewellery Stand By Nkuku - 160(H) x 170(W) x 90(D) mm - Keeps Necklaces Tangle Free",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "483_456",
+      "title": "Kiko Brass Glass Photo Frames (Landscape or Portrait)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1843_1606",
+      "title": "Ukari Leather Dining Chair - Chocolate Brown - Simple Utilitarian Design By Nkuku",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1789",
+      "title": "BePureHome Bequest Black Wood Media Cabinet Crafted From Solid Pine Wood In Antique Black And Rust-Finished Dark Iron Legs",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "2030_2263",
+      "title": "Makoto Rattan Side Table - Black",
+      "changes": {
+        "sale_price": [
+          "111.20 GBP",
+          ""
+        ],
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1843_1604",
+      "title": "Nkuku Ukari Black Leather Dining Chair - Tactile, Durable Padded Seat, Modern Style, Dining Rooms, H:780mm W:460mm D:520mm",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

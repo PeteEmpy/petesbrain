@@ -31,13 +31,13 @@ from typing import Dict, List, Tuple, Optional
 WORKFLOWS = {
     # Core automation (should always be running)
     "granola-importer": {
-        "label": "com.petesbrain.granola-importer",
-        "log": "~/.petesbrain-granola-importer.log",
-        "type": "daemon",  # Runs continuously
-        "max_log_age_minutes": 10,
+        "label": "com.petesbrain.granola-google-docs-importer",
+        "log": "~/.petesbrain-granola-google-docs.log",
+        "type": "interval",  # Runs every 30 minutes
+        "interval_hours": 0.5,  # 30 minutes
         "check_activity": lambda log: check_granola_activity(log),
         "critical": True,
-        "description": "Granola meeting importer (every 5 min)"
+        "description": "Granola meeting importer (every 30 min)"
     },
     "knowledge-base": {
         "label": "com.petesbrain.knowledge-base",
@@ -123,14 +123,6 @@ WORKFLOWS = {
         "type": "daily",
         "critical": False,
         "description": "Smythson Q4 dashboard (daily)"
-    },
-    "devonshire-budget": {
-        "label": "com.petesbrain.devonshire-budget",
-        "log": "~/.petesbrain-devonshire-budget.log",
-        "type": "interval",
-        "interval_hours": 6,
-        "critical": False,
-        "description": "Devonshire budget tracker (every 6 hours)"
     },
 }
 
@@ -374,7 +366,13 @@ def main():
                 print(f"  {status} Activity: {msg}")
 
         # Determine overall health
-        critical_checks = ['running', 'log_fresh']
+        # For periodic tasks (interval/daily/weekly), only check log freshness
+        # For daemon tasks, also require running process
+        if config['type'] == 'daemon':
+            critical_checks = ['running', 'log_fresh']
+        else:
+            critical_checks = ['log_fresh']
+
         is_healthy = all(checks.get(c, True) for c in critical_checks)
 
         results[name] = {

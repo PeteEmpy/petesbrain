@@ -25,7 +25,7 @@ The task manager system has **critical failures** preventing automated backups a
 | Component | Path | Purpose | Health |
 |-----------|------|---------|--------|
 | **Task Manager Skill** | `.claude/skills/task-manager/` | Opens HTML task UI | ✅ Working |
-| **Task Generator** | `generate-tasks-overview.py` | Generates HTML from tasks.json + Google Tasks | ✅ Working |
+| **Task Generator** | `generate-all-task-views.py` | Generates HTML from tasks.json + Google Tasks | ✅ Working |
 | **Task Backup Agent** | `agents/tasks-backup/tasks-backup.py` | Backs up all tasks.json + Google Tasks | ❌ **Syntax Error** |
 | **Task Monitor** | LaunchAgent: `tasks-monitor` | Monitors task system health | ❌ Exit code 1 |
 | **Task Priority Updater** | LaunchAgent: `task-priority-updater` | Updates task priorities | ❌ Exit code 1 |
@@ -99,9 +99,9 @@ except Exception as e:
 - No remediation steps
 - Errors disappear after LaunchAgent restart
 
-### Current State: generate-tasks-overview.py
+### Current State: generate-all-task-views.py
 
-**generate-tasks-overview.py** (561 lines):
+**generate-all-task-views.py** (561 lines):
 - Uses `print()` for all output
 - No log files
 - No error handling at all (no try/except in main)
@@ -157,7 +157,7 @@ Apply the same logging patterns used in `daily-budget-monitor.py`, `email-sync.p
 4. **Decision point logging** (which files backed up, why skipped)
 5. **Full debugging package** (OAuth errors, Drive API errors, file errors)
 
-### Priority 3: Add Logging to generate-tasks-overview.py
+### Priority 3: Add Logging to generate-all-task-views.py
 
 1. **Add logging configuration**
 2. **Replace print() with logger calls**
@@ -229,7 +229,7 @@ After logging migration:
 ┌─────────────────────────────────────────────────────────┐
 │ TASK MANAGER UI GENERATION (On-demand + Hourly)        │
 ├─────────────────────────────────────────────────────────┤
-│ generate-tasks-overview.py                             │
+│ generate-all-task-views.py                             │
 │ - Reads all tasks.json files                          │
 │ - Fetches Google Tasks via API                        │
 │ - Deduplicates tasks                                   │
@@ -243,7 +243,7 @@ After logging migration:
 │ TASK MANAGER SKILL                                      │
 ├─────────────────────────────────────────────────────────┤
 │ .claude/skills/task-manager/                           │
-│ - Runs generate-tasks-overview.py                      │
+│ - Runs generate-all-task-views.py                      │
 │ - Opens tasks-overview-priority.html in browser        │
 │ STATUS: ✅ WORKING                                       │
 └─────────────────────────────────────────────────────────┘
@@ -282,7 +282,7 @@ After logging migration:
 
 ### Phase 2: Add Logging (Priority: HIGH)
 - [ ] Add logging to tasks-backup.py (full pattern)
-- [ ] Add logging to generate-tasks-overview.py
+- [ ] Add logging to generate-all-task-views.py
 - [ ] Document logging patterns in migration summary
 - [ ] Test both scripts with logging enabled
 
@@ -307,7 +307,7 @@ After logging migration:
 
 **Important Distinction**:
 
-- **Task Manager** = UI for viewing tasks (generate-tasks-overview.py + HTML)
+- **Task Manager** = UI for viewing tasks (generate-all-task-views.py + HTML)
 - **Task Backup** = Agent that backs up task data (tasks-backup.py)
 - **Task Monitor** = Agent that monitors task system health
 - **Task Sync** = Skill that syncs tasks between systems

@@ -242,7 +242,7 @@ python3 agents/datastory-report/datastory-report.py \
 ## Related Documentation
 
 - Phase 6 Analysis: `.claude/skills/csv-analyzer/phase-6-analysis.md`
-- Mike Rhodes Datastory Agent: `/Users/administrator/Documents/brain/.claude/agents/datastory.md`
+- Datastory Agent: `/Users/administrator/Documents/brain/.claude/agents/datastory.md`
 - Client Reporting Standards: `docs/CLIENT-REPORTING-STANDARDS.md` (if exists)
 
 ---

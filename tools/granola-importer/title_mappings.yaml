@@ -1,0 +1,21 @@
+# Title Pattern to Client Mappings
+#
+# Use this file to manually map meeting title patterns to specific clients.
+# This is useful for:
+# - Common abbreviations (e.g., "NDA" → National Design Academy)
+# - Generic meeting titles that need explicit mapping
+# - Ambiguous cases where fuzzy matching produces wrong results
+#
+# Format:
+#   "pattern": "client-folder-name"
+#
+# Patterns are case-insensitive and match if found anywhere in the title.
+#
+
+# Current mappings:
+"NDA": "national-design-academy"
+"NMA": "national-motorsports-academy"
+"Grain Guard": "grain-guard"
+"GoGlean": "go-glean"
+"Glean": "go-glean"
+"Gleanuk": "go-glean"

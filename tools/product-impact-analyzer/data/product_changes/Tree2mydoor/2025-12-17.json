@@ -1,0 +1,716 @@
+{
+  "date": "2025-12-17",
+  "client": "Tree2mydoor",
+  "comparison_date": "2025-12-16",
+  "total_products_today": 747,
+  "total_products_yesterday": 746,
+  "summary": {
+    "changed_products": 21,
+    "price_changes": 7,
+    "sale_price_changes": 7,
+    "availability_changes": 2,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 4,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 10,
+    "new_products": 1,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "CAMP01",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-pink-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-pink-bloom.jpg?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "CAMWSA",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-white-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-festive-wrap.webp?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "T2X2022",
+      "title": "Mini Potted Christmas Tree with decorations",
+      "changes": {
+        "price": [
+          "36.00 GBP",
+          "18.98 GBP"
+        ],
+        "sale_price": [
+          "36.00 GBP",
+          "18.98 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "OAKA",
+      "title": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00281",
+      "title": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "01090x",
+      "title": "Christmas Olive Tree Gift - Small (2L pot 50cm height) - Small (2L pot 50cm height)",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00804",
+      "title": "Lime Tree Gift - Evergreen Leaves & Year Round Flowers With A Sweet Fragrance - Great For Use In Cooking",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SILB",
+      "title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "changes": {
+        "custom_label_4": [
+          "highlyprofitable",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00813",
+      "title": "Christmas Holly Tree Gift",
+      "changes": {
+        "price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "sale_price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "ROWA",
+      "title": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "04479",
+      "title": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "highlyprofitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SWAG-PLACO1",
+      "title": "25th Wedding Anniversary Gift Pack",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "00286-2",
+      "title": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "CTG13467",
+      "title": "Tabletop Christmas Tree",
+      "changes": {
+        "price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "00970",
+      "title": "Susan Magnolia Tree Gift",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ],
+        "custom_label_4": [
+          "Low traffic",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "04588",
+      "title": "Tabletop Christmas Tree",
+      "changes": {
+        "price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "CTG17125",
+      "title": "Mini Christmas Tree with White Star",
+      "changes": {
+        "price": [
+          "33.00 GBP",
+          "26.00 GBP"
+        ],
+        "sale_price": [
+          "33.00 GBP",
+          "26.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04583",
+      "title": "Mini Christmas Tree with Lights",
+      "changes": {
+        "price": [
+          "35.98 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "35.98 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "00954",
+      "title": "Star Magnolia Tree Gift - 50cm High in a 21cm Pot - Bright White Coloured Flowers And Occasional Pink Coloured Magnolia",
+      "changes": {
+        "additional_image_links": [
+          "4 items",
+          "5 items"
+        ]
+      }
+    },
+    {
+      "product_id": "04592",
+      "title": "Mini Potted Christmas Tree - Mini Potted Christmas Tree - Mini Potted Christmas Tree",
+      "changes": {
+        "price": [
+          "35.00 GBP",
+          "25.20 GBP"
+        ],
+        "sale_price": [
+          "35.00 GBP",
+          "25.20 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "CAMR01",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-red-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-red-bloom.jpg?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ],
+        "custom_label_4": [
+          "unprofitable",
+          "profitable"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "APRBG5W",
+      "title": "At Peace Rose Bush Gift - 5L - 5L",
+      "price": "29.99 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "T2X2022",
+      "title": "Mini Potted Christmas Tree with decorations",
+      "changes": {
+        "price": [
+          "36.00 GBP",
+          "18.98 GBP"
+        ],
+        "sale_price": [
+          "36.00 GBP",
+          "18.98 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "00813",
+      "title": "Christmas Holly Tree Gift",
+      "changes": {
+        "price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "sale_price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "CTG13467",
+      "title": "Tabletop Christmas Tree",
+      "changes": {
+        "price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04588",
+      "title": "Tabletop Christmas Tree",
+      "changes": {
+        "price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "CTG17125",
+      "title": "Mini Christmas Tree with White Star",
+      "changes": {
+        "price": [
+          "33.00 GBP",
+          "26.00 GBP"
+        ],
+        "sale_price": [
+          "33.00 GBP",
+          "26.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04583",
+      "title": "Mini Christmas Tree with Lights",
+      "changes": {
+        "price": [
+          "35.98 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "35.98 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04592",
+      "title": "Mini Potted Christmas Tree - Mini Potted Christmas Tree - Mini Potted Christmas Tree",
+      "changes": {
+        "price": [
+          "35.00 GBP",
+          "25.20 GBP"
+        ],
+        "sale_price": [
+          "35.00 GBP",
+          "25.20 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [
+    {
+      "product_id": "T2X2022",
+      "title": "Mini Potted Christmas Tree with decorations",
+      "changes": {
+        "price": [
+          "36.00 GBP",
+          "18.98 GBP"
+        ],
+        "sale_price": [
+          "36.00 GBP",
+          "18.98 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "00813",
+      "title": "Christmas Holly Tree Gift",
+      "changes": {
+        "price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "sale_price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "CTG13467",
+      "title": "Tabletop Christmas Tree",
+      "changes": {
+        "price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04588",
+      "title": "Tabletop Christmas Tree",
+      "changes": {
+        "price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "26.40 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "CTG17125",
+      "title": "Mini Christmas Tree with White Star",
+      "changes": {
+        "price": [
+          "33.00 GBP",
+          "26.00 GBP"
+        ],
+        "sale_price": [
+          "33.00 GBP",
+          "26.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04583",
+      "title": "Mini Christmas Tree with Lights",
+      "changes": {
+        "price": [
+          "35.98 GBP",
+          "22.50 GBP"
+        ],
+        "sale_price": [
+          "35.98 GBP",
+          "22.50 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "04592",
+      "title": "Mini Potted Christmas Tree - Mini Potted Christmas Tree - Mini Potted Christmas Tree",
+      "changes": {
+        "price": [
+          "35.00 GBP",
+          "25.20 GBP"
+        ],
+        "sale_price": [
+          "35.00 GBP",
+          "25.20 GBP"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "00813",
+      "title": "Christmas Holly Tree Gift",
+      "changes": {
+        "price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "sale_price": [
+          "73.00 GBP",
+          "56.99 GBP"
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "SWAG-PLACO1",
+      "title": "25th Wedding Anniversary Gift Pack",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "CAMP01",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-pink-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-pink-bloom.jpg?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "CAMWSA",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-white-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-festive-wrap.webp?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ]
+      }
+    },
+    {
+      "product_id": "00954",
+      "title": "Star Magnolia Tree Gift - 50cm High in a 21cm Pot - Bright White Coloured Flowers And Occasional Pink Coloured Magnolia",
+      "changes": {
+        "additional_image_links": [
+          "4 items",
+          "5 items"
+        ]
+      }
+    },
+    {
+      "product_id": "CAMR01",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-red-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-red-bloom.jpg?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ],
+        "custom_label_4": [
+          "unprofitable",
+          "profitable"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "OAKA",
+      "title": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00281",
+      "title": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "01090x",
+      "title": "Christmas Olive Tree Gift - Small (2L pot 50cm height) - Small (2L pot 50cm height)",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00804",
+      "title": "Lime Tree Gift - Evergreen Leaves & Year Round Flowers With A Sweet Fragrance - Great For Use In Cooking",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "SILB",
+      "title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
+      "changes": {
+        "custom_label_4": [
+          "highlyprofitable",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "ROWA",
+      "title": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
+      "changes": {
+        "custom_label_4": [
+          "unprofitable",
+          "highlyprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "04479",
+      "title": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "highlyprofitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00286-2",
+      "title": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "changes": {
+        "custom_label_4": [
+          "profitable",
+          "unprofitable"
+        ]
+      }
+    },
+    {
+      "product_id": "00970",
+      "title": "Susan Magnolia Tree Gift",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ],
+        "custom_label_4": [
+          "Low traffic",
+          "profitable"
+        ]
+      }
+    },
+    {
+      "product_id": "CAMR01",
+      "title": "The Camellia Plant Gift",
+      "changes": {
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-red-bloom.jpg?v=1747734816",
+          "https://cdn.shopify.com/s/files/1/0025/4309/1770/files/camellia-red-bloom.jpg?v=1765895696"
+        ],
+        "additional_image_links": [
+          "4 items",
+          "4 items"
+        ],
+        "custom_label_4": [
+          "unprofitable",
+          "profitable"
+        ]
+      }
+    }
+  ]
+}

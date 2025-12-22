@@ -1,0 +1,176 @@
+{
+  "date": "2025-12-22",
+  "client": "WheatyBags",
+  "comparison_date": "2025-12-21",
+  "total_products_today": 2874,
+  "total_products_yesterday": 2874,
+  "summary": {
+    "changed_products": 7,
+    "price_changes": 0,
+    "sale_price_changes": 2,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 5,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "WBS8222723V446603",
+      "title": "WheatyBags Horse Heat Pack Wheat Filling 40cm x 30cm 3 Compartments Purple Cotton Fabric Soothing Muscle Warmth for Horses and Pets UK Made",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS66V324686",
+      "title": "Wheat Bags Pet Heating Pad (34cm) - Tartan Fleece Fabric and Removable Cover",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416564",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Hot Pink Cotton Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "14.57 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7828V324260",
+      "title": "Wheat Bags Luxury Lower Back Warmer (Wearable) (120cm) - Purple Cotton Fabric and Removable Cover",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS3415V334830",
+      "title": "WheatyBags Large Cherry Stone Heat Pack 49cm x 15cm Purple Cotton Fabric Microwaveable Reusable Pillow for Pain Relief & Relaxation | UK Made",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416586",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Chocolate Luxury Cotton Fabric Scented (Organic Lavender Buds) with Removable Cover (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "24.18 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7016V443215",
+      "title": "WheatyBags Value Range Bottle Shape Heat Pack Wheat Bag Body Warmer 27cm x 18cm Microwaveable Scented Unscented Made in UK Warm Cold Weather Comfort",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [
+    {
+      "product_id": "WBS52V416564",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Hot Pink Cotton Fabric Scented (Organic Lavender Buds) (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "14.57 GBP",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "WBS52V416586",
+      "title": "Wheat Bags Heat Pack (49cm x 15cm) - Chocolate Luxury Cotton Fabric Scented (Organic Lavender Buds) with Removable Cover (Personalised with Text)",
+      "changes": {
+        "sale_price": [
+          "24.18 GBP",
+          ""
+        ]
+      }
+    }
+  ],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "WBS8222723V446603",
+      "title": "WheatyBags Horse Heat Pack Wheat Filling 40cm x 30cm 3 Compartments Purple Cotton Fabric Soothing Muscle Warmth for Horses and Pets UK Made",
+      "changes": {
+        "custom_label_4": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS66V324686",
+      "title": "Wheat Bags Pet Heating Pad (34cm) - Tartan Fleece Fabric and Removable Cover",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7828V324260",
+      "title": "Wheat Bags Luxury Lower Back Warmer (Wearable) (120cm) - Purple Cotton Fabric and Removable Cover",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS3415V334830",
+      "title": "WheatyBags Large Cherry Stone Heat Pack 49cm x 15cm Purple Cotton Fabric Microwaveable Reusable Pillow for Pain Relief & Relaxation | UK Made",
+      "changes": {
+        "custom_label_4": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "WBS7016V443215",
+      "title": "WheatyBags Value Range Bottle Shape Heat Pack Wheat Bag Body Warmer 27cm x 18cm Microwaveable Scented Unscented Made in UK Warm Cold Weather Comfort",
+      "changes": {
+        "custom_label_4": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

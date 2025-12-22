@@ -1,0 +1,137 @@
+{
+  "backup_date": "2025-12-17T10:45:00Z",
+  "execution_date": "2025-12-17T10:47:00Z",
+  "verification_date": "2025-12-17T10:47:30Z",
+  "customer_id": "6413338364",
+  "campaign_id": "22702563562",
+  "campaign_name": "UNO | Shopping | H&S, Zombies and Boosts 250 23/7 240 29/7 240 Max 5 16/9 205 21/10",
+  "operation": "add_negative_keywords",
+  "status": "SUCCESS",
+  "current_state": {
+    "negative_keywords_count": 1,
+    "negative_keywords": [
+      {
+        "criterion_id": "1442192129",
+        "text": "led track lighting",
+        "match_type": "EXACT",
+        "resource_name": "customers/6413338364/campaignCriteria/22702563562~1442192129"
+      }
+    ]
+  },
+  "planned_changes": {
+    "keywords_to_add": [
+      {
+        "text": "led strip lights",
+        "match_type": "EXACT",
+        "reason": "177 clicks, £152.08 spend, 0 conversions (60-day data)"
+      },
+      {
+        "text": "led plaster in profile",
+        "match_type": "EXACT",
+        "reason": "52 clicks, £116.31 spend, 0 conversions (60-day data)"
+      },
+      {
+        "text": "plaster in downlights",
+        "match_type": "EXACT",
+        "reason": "43 clicks, £90.40 spend, 0 conversions (60-day data)"
+      },
+      {
+        "text": "led light strips",
+        "match_type": "EXACT",
+        "reason": "43 clicks, £44.39 spend, 0 conversions (60-day data)"
+      }
+    ]
+  },
+  "execution_results": {
+    "keywords_added": 4,
+    "resource_names": [
+      "customers/6413338364/campaignCriteria/22702563562~1351083916",
+      "customers/6413338364/campaignCriteria/22702563562~369908827863",
+      "customers/6413338364/campaignCriteria/22702563562~301006016050",
+      "customers/6413338364/campaignCriteria/22702563562~1351074316"
+    ]
+  },
+  "verified_state": {
+    "negative_keywords_count": 5,
+    "verification_status": "MATCH",
+    "negative_keywords": [
+      {
+        "criterion_id": "1351074316",
+        "text": "led light strips",
+        "match_type": "EXACT",
+        "resource_name": "customers/6413338364/campaignCriteria/22702563562~1351074316",
+        "status": "ADDED"
+      },
+      {
+        "criterion_id": "369908827863",
+        "text": "led plaster in profile",
+        "match_type": "EXACT",
+        "resource_name": "customers/6413338364/campaignCriteria/22702563562~369908827863",
+        "status": "ADDED"
+      },
+      {
+        "criterion_id": "1351083916",
+        "text": "led strip lights",
+        "match_type": "EXACT",
+        "resource_name": "customers/6413338364/campaignCriteria/22702563562~1351083916",
+        "status": "ADDED"
+      },
+      {
+        "criterion_id": "1442192129",
+        "text": "led track lighting",
+        "match_type": "EXACT",
+        "resource_name": "customers/6413338364/campaignCriteria/22702563562~1442192129",
+        "status": "EXISTING"
+      },
+      {
+        "criterion_id": "301006016050",
+        "text": "plaster in downlights",
+        "match_type": "EXACT",
+        "resource_name": "customers/6413338364/campaignCriteria/22702563562~301006016050",
+        "status": "ADDED"
+      }
+    ]
+  },
+  "expected_state": {
+    "negative_keywords_count": 5,
+    "negative_keywords": [
+      {
+        "text": "led track lighting",
+        "match_type": "EXACT",
+        "status": "existing"
+      },
+      {
+        "text": "led strip lights",
+        "match_type": "EXACT",
+        "status": "to_be_added"
+      },
+      {
+        "text": "led plaster in profile",
+        "match_type": "EXACT",
+        "status": "to_be_added"
+      },
+      {
+        "text": "plaster in downlights",
+        "match_type": "EXACT",
+        "status": "to_be_added"
+      },
+      {
+        "text": "led light strips",
+        "match_type": "EXACT",
+        "status": "to_be_added"
+      }
+    ]
+  },
+  "analysis_source": "clients/uno-lighting/reports/2025-12-17-ai-max-search-term-quality-investigation.md",
+  "expected_impact": {
+    "waste_reduction_per_month": "£806",
+    "roas_improvement": "Shopping campaign ROAS from 108% towards 156% target"
+  },
+  "verification_summary": {
+    "expected_count": 5,
+    "actual_count": 5,
+    "match": true,
+    "all_keywords_present": true,
+    "all_match_types_correct": true
+  }
+}

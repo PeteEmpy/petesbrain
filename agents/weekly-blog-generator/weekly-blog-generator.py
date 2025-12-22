@@ -20,7 +20,7 @@ from pathlib import Path
 import anthropic
 
 # Add shared module to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent / "shared"))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "shared"))
 from secrets import get_secret
 import requests
 from typing import List, Dict, Any, Optional

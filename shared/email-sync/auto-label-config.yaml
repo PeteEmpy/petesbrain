@@ -56,10 +56,12 @@ clients:
       - "devonshiregroup.co.uk"
       - "devonshiregroup.com"
       - "acunningplan.co.uk"
+      - "estate-escapes.co.uk"
     emails:
       - "garry@acunningplan.co.uk"
       - "james@acunningplan.co.uk"
       - "kyra.walshaw@devonshirehotels.co.uk"
+      - "helen.hargreave@estate-escapes.co.uk"
     keywords:
       - "devonshire hotels"
       - "devonshire hotel"
@@ -359,6 +361,71 @@ clients:
     company_names:
       - "Google Ads"
       - "Google"
+
+  ppc-newsletters:
+    label: "ppc-newsletters"
+    domains:
+      # Industry Authorities
+      - "optmyzr.com"
+      - "zatomarketing.com"
+      - "adalysis.com"
+      - "ppchero.com"
+      - "searchengineland.com"
+      - "wordstream.com"
+      - "jonloomer.com"
+      - "commonthreadco.com"
+      # Newsletter platforms
+      - "mail.beehiiv.com"
+      - "substack.com"
+      - "buttondown.email"
+      - "mail01.tinypass.com"  # Search Engine Land uses Piano
+      - "mailchi.mp"
+      - "list-manage.com"  # Mailchimp
+    emails:
+      # Actual sender emails from newsletters
+      - "frederick@optmyzr.com"
+      - "info@zatomarketing.com"
+      - "hello@mail.beehiiv.com"
+      - "noreply@mail01.tinypass.com"
+    keywords:
+      # General PPC newsletter indicators
+      - "ppc newsletter"
+      - "google ads newsletter"
+      - "paid search newsletter"
+      - "facebook ads newsletter"
+      - "meta ads newsletter"
+      # Specific newsletters
+      - "optmyzr newsletter"
+      - "zato newsletter"
+      - "adalysis newsletter"
+      - "ppc hero newsletter"
+      - "search engine land newsletter"
+      - "wordstream newsletter"
+      # Newsletter content indicators
+      - "this week in ppc"
+      - "ppc news"
+      - "paid search news"
+      - "google ads insights"
+      - "ppc insights"
+      - "paid search insights"
+    exclude_keywords:
+      # Exclude promotional/marketing emails
+      - "webinar invitation"
+      - "trial ending"
+      - "upgrade now"
+      - "special offer"
+      - "discount code"
+      - "limited time"
+    company_names:
+      - "Optmyzr"
+      - "ZATO Marketing"
+      - "Adalysis"
+      - "PPC Hero"
+      - "Search Engine Land"
+      - "WordStream"
+      - "Jon Loomer Digital"
+      - "Common Thread Collective"
+    notes: "PPC industry newsletters - syncs to KB inbox for content scoring"
 
 # ============================================================================
 # AUTOMATED SCRIPT REPORTS - Self-sent emails from Google Ads automation

@@ -111,7 +111,7 @@ Open http://127.0.0.1:5003 in your browser.
 
 ### MCP Tools Used
 
-- `mcp__google-ads__get_client_platform_ids` - Get customer ID from client name
+- `mcp__platform-ids__get_client_platform_ids` - Get customer ID from client name
 - `mcp__google-ads__run_gaql` - List existing campaigns
 - `mcp__google-ads__create_campaign` - Create new campaigns
 - `mcp__google-ads__create_ad_group` - Create new ad groups

@@ -1,0 +1,428 @@
+{
+  "date": "2025-12-22",
+  "client": "Positive Bakes",
+  "comparison_date": "2025-12-21",
+  "total_products_today": 155,
+  "total_products_yesterday": 155,
+  "summary": {
+    "changed_products": 6,
+    "price_changes": 3,
+    "sale_price_changes": 0,
+    "availability_changes": 4,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 2,
+    "item_group_changes": 2,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_ZZ_10667704647947_52070909214987",
+      "title": "Classic Bundt Cake Selection Box | Plant-Based Gluten-Free Collection | UK",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953617675",
+      "title": "Positive Bakes Gift Card \u00a3100.00",
+      "changes": {
+        "price": [
+          "100.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953584907",
+      "title": "Positive Bakes Gift Card \u00a375.00",
+      "changes": {
+        "price": [
+          "75.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953519371",
+      "title": "Positive Bakes Gift Card \u00a325.00",
+      "changes": {
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953552139",
+      "title": "Positive Bakes Gift Card \u00a350.00",
+      "changes": {
+        "price": [
+          "68.23 USD",
+          "50.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "link": [
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "52070909214987",
+      "title": "Signature Bundt Cake Selection Box | Plant-Based Everyone Can Enjoy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953617675",
+      "title": "Positive Bakes Gift Card \u00a3100.00",
+      "changes": {
+        "price": [
+          "100.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953584907",
+      "title": "Positive Bakes Gift Card \u00a375.00",
+      "changes": {
+        "price": [
+          "75.00 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953552139",
+      "title": "Positive Bakes Gift Card \u00a350.00",
+      "changes": {
+        "price": [
+          "68.23 USD",
+          "50.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "link": [
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "shopify_ZZ_10667704647947_52070909214987",
+      "title": "Classic Bundt Cake Selection Box | Plant-Based Gluten-Free Collection | UK",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953519371",
+      "title": "Positive Bakes Gift Card \u00a325.00",
+      "changes": {
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953552139",
+      "title": "Positive Bakes Gift Card \u00a350.00",
+      "changes": {
+        "price": [
+          "68.23 USD",
+          "50.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "link": [
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "52070909214987",
+      "title": "Signature Bundt Cake Selection Box | Plant-Based Everyone Can Enjoy",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953519371",
+      "title": "Positive Bakes Gift Card \u00a325.00",
+      "changes": {
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953552139",
+      "title": "Positive Bakes Gift Card \u00a350.00",
+      "changes": {
+        "price": [
+          "68.23 USD",
+          "50.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "link": [
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953519371",
+      "title": "Positive Bakes Gift Card \u00a325.00",
+      "changes": {
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_ZZ_10843797848331_52786953552139",
+      "title": "Positive Bakes Gift Card \u00a350.00",
+      "changes": {
+        "price": [
+          "68.23 USD",
+          "50.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          ""
+        ],
+        "link": [
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+          "https://positivebakes.com/products/positive-bakes-gift-card?variant=52786953552139&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+        ],
+        "image_link": [
+          "https://cdn.shopify.com/s/files/1/0763/1228/1355/files/Screenshot2025-12-20at13.19.07_14b4610d-1718-4feb-adda-da714eeab4d4.png?v=1766236843",
+          ""
+        ],
+        "google_product_category": [
+          "53",
+          ""
+        ],
+        "brand": [
+          "Positive Bakes",
+          ""
+        ],
+        "condition": [
+          "",
+          "new"
+        ],
+        "item_group_id": [
+          "shopify_ZZ_10843797848331",
+          ""
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": []
+}

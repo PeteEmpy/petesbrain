@@ -111,7 +111,6 @@ The system automatically discovers and monitors **all** PetesBrain LaunchAgents,
 **Critical Agents** (auto-detected):
 - `ai-inbox-processor` - AI inbox processor (every 10 min)
 - `email-sync` - Email sync workflow (every 6 hours)
-- `wispr-flow-importer` - Wispr Flow notes (every 30 min)
 - `inbox-processor` - Inbox processor (daily 8 AM)
 - `granola-google-docs-importer` - Meeting importer (every 5 min)
 - `tasks-monitor` - Google Tasks sync (every 6 hours)

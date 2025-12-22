@@ -137,7 +137,7 @@ Existing campaign → Load campaigns → Show dropdown + "what to create" option
 
 **`get_client_customer_id(client_name)`**
 - Maps client name to Google Ads customer ID
-- Uses `mcp__google-ads__get_client_platform_ids` or local mapping
+- Uses `mcp__platform-ids__get_client_platform_ids` or local mapping
 - Current: Hardcoded dictionary (TODO: Replace with MCP call)
 
 **`list_campaigns(customer_id, campaign_type)`**

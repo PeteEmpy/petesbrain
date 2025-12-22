@@ -515,7 +515,6 @@ Task 4 of 5: NMA Campaign Restructure
 | Skill | Trigger | Purpose |
 |-------|---------|---------|
 | **process-task-notes** (this) | "process my task notes" | Process Task Manager UI notes **interactively** |
-| **wispr-flow-importer** | "import Wispr notes" | Import voice dictation from Wispr Flow |
 | **task-manager** | "open task manager" | Open HTML task view in browser |
 | **task-sync** | "sync tasks" | Sync with Google Tasks |
 

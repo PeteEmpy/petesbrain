@@ -1,0 +1,122 @@
+{
+  "timestamp": "2025-12-16_172823",
+  "client": "tree2mydoor",
+  "csv_file": "../../clients/tree2mydoor/spreadsheets/christmas-shutdown-budget-dec22-jan5-REVISED.csv",
+  "mode": "DRY_RUN",
+  "accounts": {
+    "4941701449": {
+      "customer_id": "4941701449",
+      "manager_id": null,
+      "campaigns": {
+        "15820346778": {
+          "campaign_name": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 175.0,
+            "budget_micros": 175000000
+          },
+          "expected_after": {
+            "budget_gbp": 40.0,
+            "budget_micros": 40000000
+          }
+        },
+        "22986754502": {
+          "campaign_name": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 200.0,
+            "budget_micros": 200000000
+          },
+          "expected_after": {
+            "budget_gbp": 20.0,
+            "budget_micros": 20000000
+          }
+        },
+        "598475433": {
+          "campaign_name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 69.0,
+            "budget_micros": 69000000
+          },
+          "expected_after": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          }
+        },
+        "17324490442": {
+          "campaign_name": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 63.0,
+            "budget_micros": 63000000
+          },
+          "expected_after": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          }
+        },
+        "10492045139": {
+          "campaign_name": "T2MD | DSA 160 150 5/12 140 7/4",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 68.0,
+            "budget_micros": 68000000
+          },
+          "expected_after": {
+            "budget_gbp": 5.0,
+            "budget_micros": 5000000
+          }
+        },
+        "21610656469": {
+          "campaign_name": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "action": "PAUSE",
+          "expected_before": {
+            "budget_gbp": 15.0,
+            "budget_micros": 15000000
+          },
+          "expected_after": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          }
+        },
+        "22122810626": {
+          "campaign_name": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+          "action": "PAUSE",
+          "expected_before": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          },
+          "expected_after": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          }
+        },
+        "598474059": {
+          "campaign_name": "T2MD | Brand Inclusion  120  14/7 Ai Max 11/11",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 50.0,
+            "budget_micros": 50000000
+          },
+          "expected_after": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          }
+        },
+        "18441497267": {
+          "campaign_name": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          },
+          "expected_after": {
+            "budget_gbp": 2.0,
+            "budget_micros": 2000000
+          }
+        }
+      }
+    }
+  }
+}

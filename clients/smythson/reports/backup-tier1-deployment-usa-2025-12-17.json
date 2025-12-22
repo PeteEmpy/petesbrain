@@ -1,0 +1,50 @@
+{
+  "backup_created": "2025-12-17T14:05:54.989753",
+  "operation": "Add Tier 1 negative keywords - USA",
+  "client": "smythson",
+  "customer_id": "7808690871",
+  "manager_id": "2569949686",
+  "accounts_data": {
+    "1602584781": {
+      "name": "SMY | US | Search | Brand Plus",
+      "terms": [
+        {
+          "text": "smythson jewellery box",
+          "clicks": 37,
+          "cost": 372.667183
+        },
+        {
+          "text": "smythson briefcases",
+          "clicks": 31,
+          "cost": 183.313704
+        },
+        {
+          "text": "smythson briefcases",
+          "clicks": 43,
+          "cost": 94.8608
+        }
+      ]
+    },
+    "1602585081": {
+      "name": "SMY | US | Search | Brand | Leather Accessories",
+      "terms": [
+        {
+          "text": "smythson wallets women",
+          "clicks": 46,
+          "cost": 124.77394
+        }
+      ]
+    },
+    "23228705409": {
+      "name": "SMY | US | Search | Competitor | Ai",
+      "terms": [
+        {
+          "text": "coach",
+          "clicks": 30,
+          "cost": 45.796347
+        }
+      ]
+    }
+  },
+  "exclusions": "Aspinal terms excluded per user requirement"
+}

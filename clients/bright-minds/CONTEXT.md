@@ -346,6 +346,37 @@ Peter
 
 ---
 
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-11-20)
+
+**Product Hero Plan**: Pro Plan (€30/month)
+
+**Campaign ROAS Targets**:
+- **Generic PMax**: 330%
+- **Search Brand**: 550%
+
+**Actual ROAS Achieved**:
+- **Generic PMax**: 346.6% (+16.6 points above target)
+- **Search Brand**: 510.4% (-39.6 points below target)
+
+**Rationale**:
+- **Generic PMax**: Target increased from 310% to 330% on Nov 17, 2025. Actual performance exceeding target while budget constrained (losing 18% impression share), suggesting room for budget increase rather than ROAS target increase.
+- **Search Brand**: Target reduced from 800% to 550% on Nov 20, 2025. Previous 800% target was unrealistically high (289.6pp above actual performance), likely limiting bid competitiveness. Expected impact: +20-40% conversion volume while maintaining 500%+ ROAS.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Campaign | Setting | Previous | New | Rationale | Result |
+|------|----------|---------|----------|-----|-----------|--------|
+| 2025-11-20 | Search Brand | ROAS | 800% | 550% | Previous target 289.6pp above actual, limiting volume | [Monitoring - review Dec 4] Expected: +20-40% conversions |
+| 2025-11-17 | Generic PMax | ROAS | 310% | 330% | [TBD] | Actual: 346.6% (+16.6pp), budget constrained |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness.
+
+---
+
 ## Action Items & Reminders
 
 ### Ongoing Tasks

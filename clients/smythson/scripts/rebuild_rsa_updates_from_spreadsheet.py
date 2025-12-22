@@ -43,30 +43,132 @@ def read_sheet_via_mcp(sheet_range):
     print(f"  ✓ Got {len(rows)} rows from spreadsheet")
     return rows
 
-def parse_spreadsheet_rows(rows):
-    """Parse spreadsheet rows into ad_id → data lookup"""
+def parse_rsa_column_headers(region):
+    """
+    Read column headers from row 1 and map column indices for RSA data.
+
+    Returns dict with:
+    - 'ad_id': index of "Ad ID" column
+    - 'headlines_start': index of first headline column
+    - 'headlines_count': number of headline columns
+    - 'descriptions_start': index of first description column
+    - 'descriptions_count': number of description columns
+    - 'final_url': index of "Final URL" column
+    """
+    # Get header range (row 1 only)
+    sheet_name = region
+    header_range = f"{sheet_name}!A1:Z1"
+
+    print(f"  Parsing column headers from row 1...")
+
+    cmd = [
+        'claude', 'mcp', 'call', 'google-sheets',
+        'read_cells',
+        '--',
+        f'spreadsheet_id={SPREADSHEET_ID}',
+        f'range_name={header_range}'
+    ]
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    data = json.loads(result.stdout)
+    headers = data['result'][0] if data['result'] else []
+
+    if not headers:
+        raise ValueError(f"Could not read header row from {header_range}")
+
+    # Map column indices based on header names
+    column_map = {}
+    headlines_indices = []
+    descriptions_indices = []
+
+    for i, header in enumerate(headers):
+        header_lower = header.lower().strip()
+
+        # Find Ad ID column
+        if 'ad id' in header_lower or header_lower == 'ad_id':
+            column_map['ad_id'] = i
+
+        # Find headline columns (H1, H2, ..., H15)
+        elif header_lower.startswith('h') and header_lower[1:].isdigit():
+            headlines_indices.append(i)
+
+        # Find description columns (D1, D2, D3, D4)
+        elif header_lower.startswith('d') and header_lower[1:].isdigit() and len(header_lower) == 2:
+            descriptions_indices.append(i)
+
+        # Find Final URL column
+        elif 'final url' in header_lower or header_lower == 'final_url':
+            column_map['final_url'] = i
+
+    # Store ranges for headlines and descriptions
+    if headlines_indices:
+        column_map['headlines_start'] = min(headlines_indices)
+        column_map['headlines_count'] = len(headlines_indices)
+    else:
+        # Fallback to hardcoded values if headers not found
+        column_map['headlines_start'] = 5
+        column_map['headlines_count'] = 15
+        print(f"  ⚠️  Headline columns not found in headers, using fallback indices")
+
+    if descriptions_indices:
+        column_map['descriptions_start'] = min(descriptions_indices)
+        column_map['descriptions_count'] = len(descriptions_indices)
+    else:
+        column_map['descriptions_start'] = 20
+        column_map['descriptions_count'] = 4
+        print(f"  ⚠️  Description columns not found in headers, using fallback indices")
+
+    # Fallback for Ad ID if not found
+    if 'ad_id' not in column_map:
+        column_map['ad_id'] = 4
+        print(f"  ⚠️  Ad ID column not found in headers, using fallback index 4")
+
+    # Fallback for Final URL if not found
+    if 'final_url' not in column_map:
+        column_map['final_url'] = 24
+        print(f"  ⚠️  Final URL column not found in headers, using fallback index 24")
+
+    print(f"  ✓ Column mapping: Ad ID at {column_map['ad_id']}, Headlines {column_map['headlines_start']}-{column_map['headlines_start']+column_map['headlines_count']-1}, Descriptions {column_map['descriptions_start']}-{column_map['descriptions_start']+column_map['descriptions_count']-1}, Final URL at {column_map['final_url']}")
+
+    return column_map
+
+def parse_spreadsheet_rows(rows, column_map):
+    """
+    Parse spreadsheet rows into ad_id → data lookup using dynamic column mapping.
+
+    Args:
+        rows: Spreadsheet rows from MCP
+        column_map: Dict with column indices from parse_rsa_column_headers()
+    """
     spreadsheet_rsas = {}
 
+    ad_id_idx = column_map['ad_id']
+    headlines_start = column_map['headlines_start']
+    headlines_count = column_map['headlines_count']
+    descriptions_start = column_map['descriptions_start']
+    descriptions_count = column_map['descriptions_count']
+    final_url_idx = column_map['final_url']
+
     for row in rows:
-        if len(row) < 5:
+        if len(row) <= ad_id_idx:
             continue
 
-        ad_id = row[4]  # Column E (index 4)
+        ad_id = row[ad_id_idx]
 
-        # Extract headlines (columns F-T = indices 5-19 = H1-H15)
+        # Extract headlines using dynamic column range
         headlines = []
-        for i in range(5, 20):
+        for i in range(headlines_start, headlines_start + headlines_count):
             if i < len(row) and row[i].strip():
                 headlines.append(row[i].strip())
 
-        # Extract descriptions (columns U-X = indices 20-23 = D1-D4)
+        # Extract descriptions using dynamic column range
         descriptions = []
-        for i in range(20, 24):
+        for i in range(descriptions_start, descriptions_start + descriptions_count):
             if i < len(row) and row[i].strip():
                 descriptions.append(row[i].strip())
 
-        # Final URL (column Y = index 24)
-        final_url = row[24].strip() if len(row) > 24 else ''
+        # Final URL using dynamic column index
+        final_url = row[final_url_idx].strip() if len(row) > final_url_idx and row[final_url_idx] else ''
 
         spreadsheet_rsas[ad_id] = {
             'headlines': headlines,
@@ -164,9 +266,12 @@ for region, config in REGIONS.items():
     print(f"Processing {region}")
     print(f"{'='*80}")
 
-    # Read spreadsheet
+    # Parse column headers dynamically from row 1
+    column_map = parse_rsa_column_headers(region)
+
+    # Read spreadsheet data
     rows = read_sheet_via_mcp(config['sheet_range'])
-    spreadsheet_data = parse_spreadsheet_rows(rows)
+    spreadsheet_data = parse_spreadsheet_rows(rows, column_map)
 
     print(f"  ✓ Parsed {len(spreadsheet_data)} RSAs from spreadsheet")
 

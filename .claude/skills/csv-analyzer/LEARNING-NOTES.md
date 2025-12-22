@@ -1,6 +1,6 @@
 # CSV Analyzer - Learning Notes
 **Date:** 2025-11-19
-**Source:** Mike Rhodes 8020Brain template (v2025.11.0)
+**Source:** industry resources template (v2025.11.0)
 **Status:** ✅ Complete
 
 ---

@@ -32,93 +32,9 @@ logger = logging.getLogger(__name__)
 # Add shared directory to path
 sys.path.insert(0, '/Users/administrator/Documents/PetesBrain.nosync')
 
-def export_google_tasks():
-    """Export all Google Tasks to JSON files
-
-    Returns:
-        list: List of exported JSON file paths
-    """
-    logger.info("📥 Exporting Google Tasks...")
-    exported_files = []
-
-    try:
-        # Import Google Tasks API service
-        logger.debug("Importing Google Tasks service...")
-        sys.path.insert(0, '/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-tasks-mcp-server')
-        from tasks_service import tasks_service
-
-        logger.debug("Building Google Tasks service...")
-        service = tasks_service()
-
-        # Create temp directory for exports
-        temp_dir = Path(tempfile.gettempdir()) / 'google-tasks-export'
-        temp_dir.mkdir(exist_ok=True)
-        logger.debug(f"Export directory: {temp_dir}")
-
-        # Get all task lists
-        logger.debug("Fetching task lists from Google Tasks API...")
-        task_lists_response = service.tasklists().list().execute()
-        task_lists = task_lists_response.get('items', [])
-
-        # Decision point: Were any task lists found?
-        if not task_lists:
-            logger.warning("No Google Tasks lists found")
-            return exported_files
-
-        logger.info(f"Found {len(task_lists)} Google Tasks lists")
-
-        # Export each task list
-        for idx, task_list in enumerate(task_lists, 1):
-            list_id = task_list['id']
-            list_title = task_list['title']
-            safe_title = list_title.replace(' ', '-').replace('/', '-').lower()
-
-            logger.debug(f"Processing list {idx}/{len(task_lists)}: {list_title}")
-
-            # Get all tasks in this list (including completed)
-            tasks_response = service.tasks().list(
-                tasklist=list_id,
-                showCompleted=True,
-                showHidden=True
-            ).execute()
-            tasks = tasks_response.get('items', [])
-
-            # Create export data
-            export_data = {
-                'task_list': task_list,
-                'tasks': tasks,
-                'exported_at': datetime.now().isoformat(),
-                'task_count': len(tasks)
-            }
-
-            # Save to JSON file
-            export_file = temp_dir / f'{safe_title}.json'
-            with open(export_file, 'w') as f:
-                json.dump(export_data, f, indent=2)
-
-            exported_files.append(export_file)
-            logger.info(f"  ✅ {list_title}: {len(tasks)} tasks")
-
-        total_tasks = sum(len(json.load(open(f))['tasks']) for f in exported_files)
-        logger.info(f"✅ Exported {len(task_lists)} Google Tasks lists ({total_tasks} total tasks)")
-
-    except ImportError as e:
-        logger.error("=" * 60)
-        logger.error("❌ Google Tasks service import failed")
-        logger.error(f"Error: {e}")
-        logger.error("Action required: Check Google Tasks MCP server installation")
-        logger.error("=" * 60)
-    except Exception as e:
-        logger.warning("=" * 60)
-        logger.warning("⚠️  Could not export Google Tasks")
-        logger.warning(f"Error: {e}")
-        logger.warning("Continuing with local tasks.json files only")
-        logger.warning("=" * 60)
-        if "credentials" in str(e).lower() or "auth" in str(e).lower():
-            logger.error("Possible cause: OAuth token expired")
-            logger.error("Action: Run oauth-refresh skill")
-
-    return exported_files
+# Google Tasks export DEPRECATED (2025-12-16)
+# This function has been removed - Google Tasks no longer used
+# All tasks are now in internal task system (clients/*/tasks.json)
 
 def find_all_task_files():
     """Find all tasks.json files across the codebase"""
@@ -135,18 +51,12 @@ def find_all_task_files():
         client_count = 0
         for client_dir in clients_dir.iterdir():
             if client_dir.is_dir():
-                # Check root location first (primary for all client work)
+                # Check root location (only correct location for client tasks)
                 tasks_file = client_dir / 'tasks.json'
                 if tasks_file.exists():
                     task_files.append(tasks_file)
                     client_count += 1
                     logger.debug(f"  Found: {client_dir.name}/tasks.json")
-                # Also check product-feeds location (temporary during migration rollback)
-                product_feeds_tasks = client_dir / 'product-feeds' / 'tasks.json'
-                if product_feeds_tasks.exists():
-                    task_files.append(product_feeds_tasks)
-                    client_count += 1
-                    logger.debug(f"  Found: {client_dir.name}/product-feeds/tasks.json")
 
         logger.info(f"  ✅ Found {client_count} client task files")
     else:
@@ -186,7 +96,7 @@ def find_all_task_files():
     return task_files
 
 def create_backup_archive():
-    """Create a timestamped tarball of all task files including Google Tasks"""
+    """Create a timestamped tarball of all task files (internal system only)"""
     logger.info("📦 Creating backup archive...")
     timestamp = datetime.now().strftime('%Y-%m-%d-%H%M')
     archive_name = f'tasks-backup-{timestamp}.tar.gz'
@@ -199,50 +109,37 @@ def create_backup_archive():
     # Get local task files
     task_files = find_all_task_files()
 
-    # Export Google Tasks
-    google_tasks_files = export_google_tasks()
+    # Google Tasks export DEPRECATED (2025-12-16) - no longer included in backups
 
     # Decision point: Are there any files to backup?
-    if not task_files and not google_tasks_files:
+    if not task_files:
         logger.error("=" * 60)
         logger.error("❌ No task files found to backup")
         logger.error("Possible causes:")
         logger.error("  - Clients directory is empty")
-        logger.error("  - Google Tasks export failed")
         logger.error("  - File permissions issue")
-        logger.error("Action: Check clients directory and Google Tasks access")
+        logger.error("Action: Check clients directory")
         logger.error("=" * 60)
         return None
 
-    logger.info(f"Creating tarball with {len(task_files)} local files + {len(google_tasks_files)} Google Tasks exports...")
+    logger.info(f"Creating tarball with {len(task_files)} task files...")
 
     # Create tarball
     try:
         with tarfile.open(archive_path, 'w:gz') as tar:
             # Add local task files
-            logger.debug("Adding local task files to archive...")
+            logger.debug("Adding task files to archive...")
             for idx, task_file in enumerate(task_files, 1):
                 # Add with relative path from PetesBrain root
                 arcname = str(task_file.relative_to('/Users/administrator/Documents/PetesBrain.nosync'))
                 tar.add(task_file, arcname=arcname)
                 logger.debug(f"  [{idx}/{len(task_files)}] Added: {arcname}")
 
-            # Add Google Tasks exports
-            if google_tasks_files:
-                logger.debug("Adding Google Tasks exports to archive...")
-                for idx, google_tasks_file in enumerate(google_tasks_files, 1):
-                    # Add with path that identifies them as Google Tasks exports
-                    arcname = f'google-tasks/{google_tasks_file.name}'
-                    tar.add(google_tasks_file, arcname=arcname)
-                    logger.debug(f"  [{idx}/{len(google_tasks_files)}] Added: {arcname}")
-
         file_size = os.path.getsize(archive_path) / 1024  # KB
 
         logger.info("✅ Created backup archive successfully")
         logger.info(f"  Archive name: {archive_name}")
-        logger.info(f"  Local task files: {len(task_files)}")
-        logger.info(f"  Google Tasks exports: {len(google_tasks_files)}")
-        logger.info(f"  Total files: {len(task_files) + len(google_tasks_files)}")
+        logger.info(f"  Task files: {len(task_files)}")
         logger.info(f"  Archive size: {file_size:.1f} KB")
 
         return archive_path, archive_name

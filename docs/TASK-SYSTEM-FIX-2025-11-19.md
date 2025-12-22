@@ -241,7 +241,7 @@ parent_task = service.create_parent_with_children(
 
 After cleanup, regenerate the HTML overview:
 ```bash
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 ```
 
 ---
@@ -307,7 +307,7 @@ python3 generate-tasks-overview.py
 - `docs/INTERNAL-TASK-SYSTEM.md` - Complete task system documentation
 - `shared/client_tasks_service.py` - Service implementation (669 lines)
 - `docs/CLAUDE.md` - Task Management section (lines 304-353)
-- `generate-tasks-overview.py` - HTML overview generator
+- `generate-all-task-views.py` - HTML overview generator
 
 ---
 

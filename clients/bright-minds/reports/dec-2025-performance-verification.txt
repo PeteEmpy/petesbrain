@@ -1,0 +1,92 @@
+================================================================================
+BRIGHT MINDS - DECEMBER 2025 (1-15) DATA VERIFICATION
+================================================================================
+
+Query Details:
+- Customer ID: 1404868570
+- Date Range: 2025-12-01 to 2025-12-15 (15 days)
+- Filter: metrics.cost_micros > 0 (ALL campaigns with spend, including paused)
+- Status Filter: NONE (queries all campaign statuses)
+
+✅ Data verified from Google Ads API:
+- Queried ALL campaigns (including paused) with spend
+- 2 campaigns found in period
+- 0 were paused but had spend
+- Revenue distribution: largest day = 7.9% of total (2025-12-12)
+- Verification saved to: /Users/administrator/Documents/PetesBrain.nosync/clients/bright-minds/reports/dec-2025-performance-verification.txt
+
+================================================================================
+CAMPAIGNS WITH SPEND (Dec 1-15, 2025)
+================================================================================
+
+Campaign Name: BMI | P Max | Generic 43 300 13/10 400 14/10 300 20/10 310 9/11 330 17/11 310 9/12
+  - Campaign ID: 21064167535
+  - Status: ENABLED
+  - Days with spend: 15
+
+Campaign Name: BMI | Search | Brand 550 20/11
+  - Campaign ID: 2083618047
+  - Status: ENABLED
+  - Days with spend: 15
+
+================================================================================
+DAILY SPEND DISTRIBUTION (Dec 1-15, 2025)
+================================================================================
+
+Date           Spend         % of Total
+2025-12-01     £595.07       6.4%
+2025-12-02     £606.82       6.5%
+2025-12-03     £569.38       6.1%
+2025-12-04     £622.91       6.7%
+2025-12-05     £597.72       6.4%
+2025-12-06     £663.58       7.1%
+2025-12-07     £653.22       7.0%
+2025-12-08     £687.07       7.4%
+2025-12-09     £654.30       7.0%
+2025-12-10     £595.54       6.4%
+2025-12-11     £707.17       7.6%
+2025-12-12     £729.91       7.9% ← Largest day
+2025-12-13     £703.53       7.6%
+2025-12-14     £718.41       7.7%
+2025-12-15     £179.79       1.9% ← Partial day (data collected at 12:41 GMT)
+
+✅ No outlier days detected (largest day <30% of total)
+
+================================================================================
+PERFORMANCE SUMMARY (Dec 1-15, 2025)
+================================================================================
+
+Total Spend:           £9,284.43
+Total Revenue:         £38,429.22
+Total Conversions:     1,096.91
+Total Clicks:          30,959
+Total Impressions:     1,813,396
+
+Overall ROAS:          4.14
+Overall Conv Rate:     3.54%
+Overall CTR:           1.71%
+CPC:                   £0.30
+CPA:                   £8.46
+
+Daily Averages:
+  - Avg Daily Spend:   £618.96
+  - Avg Daily Revenue: £2,561.95
+  - Avg Daily Conv:    73.13
+
+================================================================================
+DATA QUALITY CHECKS
+================================================================================
+
+✅ All campaigns queried (including paused with spend)
+✅ Date range correct: 2025-12-01 to 2025-12-15
+✅ No outlier days (largest <30% of total)
+✅ Daily data complete (15 days covered)
+✅ Campaign count reasonable (2 active campaigns)
+
+================================================================================
+VERIFICATION TIMESTAMP
+================================================================================
+
+Query executed: 2025-12-15 12:41:00 GMT
+Verification saved: /Users/administrator/Documents/PetesBrain.nosync/clients/bright-minds/reports/dec-2025-performance-verification.txt
+

@@ -1,0 +1,43 @@
+{
+  "period": "2025-11-18 to 2025-12-17",
+  "total_orders": 120,
+  "total_revenue": 10899.16,
+  "attribution_breakdown": {
+    "google_ads": {
+      "orders": 76,
+      "revenue": 6826.37,
+      "order_percentage": 63.33,
+      "revenue_percentage": 62.63
+    },
+    "direct_typein": {
+      "orders": 30,
+      "revenue": 2786.56,
+      "order_percentage": 25.0,
+      "revenue_percentage": 25.57
+    },
+    "organic_search": {
+      "orders": 14,
+      "revenue": 1286.23,
+      "order_percentage": 11.67,
+      "revenue_percentage": 11.8
+    },
+    "referral": {
+      "orders": 0,
+      "revenue": 0,
+      "order_percentage": 0,
+      "revenue_percentage": 0
+    },
+    "unknown": {
+      "orders": 0,
+      "revenue": 0,
+      "order_percentage": 0,
+      "revenue_percentage": 0
+    }
+  },
+  "google_ads_comparison": {
+    "google_ads_reported_conversions": 87,
+    "woocommerce_google_ads_orders": 76,
+    "difference": -11,
+    "tracking_accuracy_percentage": 114.47
+  }
+}

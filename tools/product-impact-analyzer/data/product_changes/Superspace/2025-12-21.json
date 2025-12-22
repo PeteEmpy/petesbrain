@@ -1,0 +1,55 @@
+{
+  "date": "2025-12-21",
+  "client": "Superspace",
+  "comparison_date": "2025-12-20",
+  "total_products_today": 24,
+  "total_products_yesterday": 24,
+  "summary": {
+    "changed_products": 1,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "53497016484215",
+      "title": "Superspace The Squares Add-on Pack - Pine",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "53497016484215",
+      "title": "Superspace The Squares Add-on Pack - Pine",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

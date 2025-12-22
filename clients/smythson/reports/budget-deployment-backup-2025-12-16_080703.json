@@ -1,0 +1,224 @@
+{
+  "timestamp": "2025-12-16_080703",
+  "client": "smythson",
+  "csv_file": "/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/spreadsheets/january-budget-reduction-2026-01-03.csv",
+  "mode": "DRY_RUN",
+  "accounts": {
+    "8573235780": {
+      "customer_id": "8573235780",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "8161289137": {
+          "campaign_name": "Brand Search | UK | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 823.48,
+            "budget_micros": 823480000
+          },
+          "expected_after": {
+            "budget_gbp": 400.0,
+            "budget_micros": 400000000
+          }
+        },
+        "8160981697": {
+          "campaign_name": "Generic Search | UK | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 561.97,
+            "budget_micros": 561970000
+          },
+          "expected_after": {
+            "budget_gbp": 300.0,
+            "budget_micros": 300000000
+          }
+        },
+        "8161289257": {
+          "campaign_name": "Performance Max | UK | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 1055.81,
+            "budget_micros": 1055810000
+          },
+          "expected_after": {
+            "budget_gbp": 500.0,
+            "budget_micros": 500000000
+          }
+        },
+        "21573858164": {
+          "campaign_name": "Performance Max | UK | Brand",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 183.64,
+            "budget_micros": 183640000
+          },
+          "expected_after": {
+            "budget_gbp": 80.0,
+            "budget_micros": 80000000
+          }
+        },
+        "8166587577": {
+          "campaign_name": "Competitor Search | UK | Main",
+          "action": "PAUSE",
+          "expected_before": {
+            "budget_gbp": 50.0,
+            "budget_micros": 50000000
+          },
+          "expected_after": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          }
+        }
+      }
+    },
+    "7679616761": {
+      "customer_id": "7679616761",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "8161387697": {
+          "campaign_name": "Brand Search | EUR | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 227.37,
+            "budget_micros": 227370000
+          },
+          "expected_after": {
+            "budget_gbp": 120.0,
+            "budget_micros": 120000000
+          }
+        },
+        "8154887417": {
+          "campaign_name": "Brand Shopping | EUR | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 319.68,
+            "budget_micros": 319680000
+          },
+          "expected_after": {
+            "budget_gbp": 180.0,
+            "budget_micros": 180000000
+          }
+        },
+        "8157211417": {
+          "campaign_name": "Generic Search | EUR | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 267.11,
+            "budget_micros": 267110000
+          },
+          "expected_after": {
+            "budget_gbp": 150.0,
+            "budget_micros": 150000000
+          }
+        },
+        "8164854857": {
+          "campaign_name": "Generic Shopping | EUR | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 307.85,
+            "budget_micros": 307850000
+          },
+          "expected_after": {
+            "budget_gbp": 200.0,
+            "budget_micros": 200000000
+          }
+        },
+        "8161426257": {
+          "campaign_name": "Performance Max | EUR | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 710.6,
+            "budget_micros": 710600000
+          },
+          "expected_after": {
+            "budget_gbp": 350.0,
+            "budget_micros": 350000000
+          }
+        }
+      }
+    },
+    "7808690871": {
+      "customer_id": "7808690871",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "21608113564": {
+          "campaign_name": "Brand Search | USA | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 400.0,
+            "budget_micros": 400000000
+          },
+          "expected_after": {
+            "budget_gbp": 150.0,
+            "budget_micros": 150000000
+          }
+        },
+        "21608114244": {
+          "campaign_name": "Performance Max | USA | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 900.0,
+            "budget_micros": 900000000
+          },
+          "expected_after": {
+            "budget_gbp": 350.0,
+            "budget_micros": 350000000
+          }
+        },
+        "21608113924": {
+          "campaign_name": "Generic Shopping | USA | Main",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 12.0,
+            "budget_micros": 12000000
+          },
+          "expected_after": {
+            "budget_gbp": 8.0,
+            "budget_micros": 8000000
+          }
+        }
+      }
+    },
+    "5556710725": {
+      "customer_id": "5556710725",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "21547639804": {
+          "campaign_name": "Brand Search | ROW | Main",
+          "action": "PAUSE",
+          "expected_before": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          },
+          "expected_after": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          }
+        },
+        "21547639924": {
+          "campaign_name": "Generic Search | ROW | Main",
+          "action": "PAUSE",
+          "expected_before": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          },
+          "expected_after": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          }
+        },
+        "21547640244": {
+          "campaign_name": "Performance Max | ROW | Main",
+          "action": "PAUSE",
+          "expected_before": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          },
+          "expected_after": {
+            "budget_gbp": 0.0,
+            "budget_micros": 0
+          }
+        }
+      }
+    }
+  }
+}

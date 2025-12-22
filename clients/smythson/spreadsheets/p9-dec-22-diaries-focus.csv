@@ -1,0 +1,18 @@
+customer_id,manager_id,campaign_id,campaign_name,current_budget_gbp,new_budget_gbp,action,notes
+# P9 Dec 22-23 - DIARIES FOCUS Budget Increases (£2,000 target) - Close £357.23 gap
+# FOCUS: Diaries campaigns + other strong performers (excluding bags/leather)
+# UK Account - Diaries increases
+8573235780,2569949686,13810745002,SMY | UK | Search | Semi Brand - Diaries,150.00,250.00,BUDGET_CHANGE,1003% ROAS - Top Diaries performer
+8573235780,2569949686,13811031042,SMY | UK | Search | Brand Exact,37.00,67.00,BUDGET_CHANGE,782% ROAS - Strong brand search
+# USA Account - Diaries + strong performers
+7808690871,2569949686,23210838865,SMY | US | P Max | Diaries,75.00,150.00,BUDGET_CHANGE,1128% ROAS - Top USA Diaries
+7808690871,2569949686,1683494533,SMY | US | Search | Brand Exact,30.00,60.00,BUDGET_CHANGE,954% ROAS - Exceptional brand performance
+7808690871,2569949686,1602584781,SMY | US | Search | Brand Plus,30.00,60.00,BUDGET_CHANGE,1066% ROAS - Very strong brand plus
+# EUR Account - Diaries focus + Italy strong brand
+7679616761,2569949686,23253890345,SMY | EUR | P Max | Diaries,20.00,50.00,BUDGET_CHANGE,1867% ROAS - HIGHEST ROAS in entire account
+7679616761,2569949686,23257901431,SMY | EUR | IT | P Max | Diaries,30.00,50.00,BUDGET_CHANGE,488% ROAS - Italy Diaries strong
+7679616761,2569949686,1599767262,SMY | EUR | IT | Search Brand Ai,100.00,150.00,BUDGET_CHANGE,1056% ROAS - Italy brand exceptional
+7679616761,2569949686,22441297139,SMY | EUR | RONot | Search | Brand Ai,20.00,30.00,BUDGET_CHANGE,952% ROAS - Rest of Europe brand
+# ROW Account - Diaries + competitor
+5556710725,2569949686,6552020619,SMY | ROW | Search | Brand Diaries and Organisers,10.00,20.00,BUDGET_CHANGE,409% ROAS - ROW Diaries solid
+5556710725,2569949686,23241919876,SMY | ROW | Search | Competitor | Ai,2.22,5.00,BUDGET_CHANGE,930% ROAS - Exceptional competitor performance

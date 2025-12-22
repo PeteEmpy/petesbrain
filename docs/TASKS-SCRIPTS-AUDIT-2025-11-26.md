@@ -23,8 +23,8 @@ def _get_client_task_file(self, client: str) -> Path:
 
 ## Scripts That Need Updating
 
-### 1. ❌ generate-tasks-overview.py
-**File**: `/Users/administrator/Documents/PetesBrain/generate-tasks-overview.py`
+### 1. ❌ generate-all-task-views.py
+**File**: `/Users/administrator/Documents/PetesBrain/generate-all-task-views.py`
 **Status**: **FIXED** (updated 2025-11-26)
 **Issue**: Checked product-feeds first, called root "legacy"
 **Fix**: Updated to check root first
@@ -168,7 +168,7 @@ The remaining 24 scripts either:
 
 ### Immediate (Already Done)
 - [x] NMA: Migrate tasks.json from product-feeds to root
-- [x] Update `generate-tasks-overview.py` to prioritise root
+- [x] Update `generate-all-task-views.py` to prioritise root
 
 ### High Priority (Do Now)
 - [ ] Update `inbox-processor.py` - Fix search order
@@ -200,7 +200,7 @@ After updating scripts:
 
 1. **Test tasks overview generation**:
    ```bash
-   python3 generate-tasks-overview.py
+   python3 generate-all-task-views.py
    ```
    Verify all clients appear correctly
 

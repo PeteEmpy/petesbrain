@@ -1,7 +1,7 @@
 # Clear Prospects - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
-> **Last Updated**: 2025-11-24
+> **Last Updated**: 2025-12-17
 
 **Voice Transcription Aliases**: Clear Prospect, clearprospects, HappySnap, Happy Snap Gifts, HSG, Wheaty Bags, WheatyBags, WBS, BMPM
 
@@ -100,6 +100,17 @@
 - Product disapprovals affecting revenue
 - Unexpected campaign status changes
 
+### Reporting & Terminology Preferences
+- **CRITICAL**: Michael provides "Margin" data (revenue minus product costs), NOT gross revenue
+- **In all reporting**: Use "Margin" instead of "Revenue" when referring to Google Ads conversion value
+- **Profit calculation**: Profit = Margin - Ad Spend (not Revenue - Ad Spend)
+- **Why this matters**: Michael focuses on profit per sale and net profitability after both product costs AND ad costs
+- **Example**: If Google Ads shows £5,989 conversion value, this is already margin (after product costs), so profit is £5,989 - £4,318 spend = £1,671
+- **Michael's philosophy**: "Growth is not to grow generally but the sole growth is profit and nothing else matters... profit per sale"
+- **CRITICAL - British English ONLY**: NEVER use American spellings in any correspondence with Michael
+  - Use: optimise, analyse, realise, colour, behaviour, centre, customisation
+  - NOT: optimize, analyze, realize, color, behavior, center, customization
+
 ---
 
 ## Business Context
@@ -186,8 +197,8 @@
 
 **Conversion Tracking**:
 - **Setup**: [TBD]
-- **Known Issues**: [TBD]
-- **Last Audit**: [TBD]
+- **Known Issues**: BMPM "branded cushions" waste resolved Dec 2025 (see below)
+- **Last Audit**: 17th December 2025 - Comprehensive Keyword Audit (30 keywords, 101 search terms analysed)
 
 ### Competitive Landscape
 [TBD]
@@ -247,6 +258,21 @@
 - **⚠️ Data Quality Note**: Previous analysis on Nov 4 stated "83% → 292%" but these figures could not be verified from Google Ads API. Corrected with verified data Nov 12, 2025.
 - **📄 Documentation**: Full case study saved to `reports/monthly/november-2025-facemask-case-study.html` and key lessons extracted to `documents/facemask-case-study-key-lessons.md`
 
+**Keyword Audit Resolution - BMPM "branded cushions" Crisis (December 2025)**
+- **Audit Date**: 17th December 2025
+- **Issue Identified**: BMPM keyword "branded cushions" (BROAD match) wasting £98.36 in 14 days (0 conversions) = £211/month projected waste
+- **Paradox Discovered**:
+  - Search term "branded cushions" = **871% ROAS** (12 clicks, £72 → £630 value) - highly profitable
+  - Keyword "branded cushions" BROAD match = **0% ROAS** (36 clicks, £98 waste) - attracting wrong traffic
+- **Action Taken**: Paused BROAD match keyword, kept EXACT match active (17th Dec 2025)
+- **Expected Impact**: £211/month savings while preserving £630/month profitable traffic
+- **Key Lesson**: Match type matters - broad match was triggering on non-converting variations, while exact match captured high-intent buyers searching specifically for "branded cushions"
+- **Additional Findings**:
+  - 78 converting search terms generating 184% blended ROAS (£3,514 spend → £6,461 value)
+  - 2 Tier 1 negative keywords identified (£50/month additional savings when implemented)
+  - Strong brand performance: WBS 265% ROAS, HSG 222% ROAS on brand terms
+- **📄 Documentation**: Full audit at `audits/keyword-audit-2025-12-17.md` and implementation status at `audits/keyword-audit-2025-12-17-IMPLEMENTATION-STATUS.md`
+
 ### What Doesn't Work
 
 **HappySnapGifts Shopping Campaigns for "Personalised Face Masks" (2025)**
@@ -260,6 +286,7 @@
 
 | Date | Test Description | Result | Action Taken |
 |------|-----------------|--------|--------------|
+| Dec 17, 2025 | BMPM: Paused BROAD match "branded cushions" keyword, kept EXACT match active | Stopped £211/month waste while preserving 871% ROAS exact match traffic. Search term converts brilliantly (£72 → £630), but broad match was attracting wrong traffic. | Monitor performance - expect £211/month savings with no revenue loss |
 | Sep 15, 2025 | HSG: Consolidated "personalised face masks" into Search campaign only, paused Shopping campaigns for this term | ROAS improved from 95% (May worst) to 129% (Nov best) = +36% improvement. Performance more stable post-consolidation. | Keep current structure, monitor if Nov performance sustains through full month |
 
 ### Recent Experiments (from log):
@@ -290,12 +317,84 @@
 - CPL | HSG | P Max Shopping | Zombies: £7.90/day, 1.3x ROAS target, 180% actual ROAS ✅ FIXED: PRESENCE targeting (was PRESENCE_OR_INTEREST)
 
 **BMPM:**
-- CPL | BMPM | P Max Shopping: £50/day, **70% ROAS target** (newly set Nov 11, was no target), 78% actual ROAS ❌ CRISIS - monitor closely
-- CPL | BMPM | Search | Promotional Merchandise: £15/day, Maximize Conversions, 35% actual ROAS ❌ CRISIS - candidate for pause
+- CPL | BMPM | P Max Shopping: £50/day, **70% ROAS target** (newly set Nov 11, was no target), 78% actual ROAS ⚠️ Monitor closely - below target but improving
+- CPL | BMPM | Search | Promotional Merchandise: £15/day, Maximize Conversions, 35% actual ROAS ⚠️ Major waste resolved Dec 17 (branded cushions BROAD match paused = £211/month savings)
 
 **Experiment Campaigns (Not Spending):**
 - 6 experiment campaigns enabled but £0 spend for 30+ days
 - Cannot be deleted (Google Ads restriction) - left enabled, not actively managed
+
+---
+
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-12-15)
+
+**Product Hero Plan**: Pro Plan (€30/month per brand - WheatyBags and HappySnapGifts only)
+**Note**: BMPM does not use Product Hero labels
+
+**Campaign ROAS Targets by Brand**:
+
+**WheatyBags (WBS):**
+- H&S PMax: 130% (changed from 120% on 2025-12-15)
+- Search (Wheat Bags): 100%
+- Search (Brand): 140%
+- Villains: 130% (changed from 120% on 2025-12-15)
+- Zombies: 130% (changed from 120% on 2025-12-15)
+
+**HappySnapGifts (HSG):**
+- H&S PMax: 130% (changed from 120% on 2025-12-15)
+- Search (Photo Face Mask): 130%
+- Search (Brand): 140%
+- Villains: 130%
+- Zombies: 130%
+
+**BMPM (No Product Hero):**
+- PMax Shopping: 70%
+- Search: Maximize Conversions (no ROAS target)
+
+**Performance Notes**:
+- WBS achieving 124-129% ROAS (meeting targets)
+- HSG achieving 118-194% ROAS (exceeding targets, especially Villains/Zombies)
+- BMPM struggling at 35-78% ROAS (crisis mode)
+
+**Rationale**: Conservative ROAS targets (100-140%) reflect multi-brand portfolio approach with varying profit margins. Higher targets for brand campaigns (140%) vs generic search (100-130%). BMPM's low 70% target reflects crisis recovery mode.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Brand | Campaign | Setting | Previous | New | Rationale | Result |
+|------|-------|----------|---------|----------|-----|-----------|--------|
+| 2025-12-15 | HSG | H&S PMax | Daily Budget | £70 | £510 | Massive 629% increase for final Christmas trading week, capitalising on strong performer | TBD - Monitor Dec 15-23 |
+| 2025-12-15 | HSG | H&S PMax | ROAS Target | 120% | 130% | Raise target in line with WBS increases, maintain profitability at higher spend | TBD - Monitor Dec 15-29 |
+| 2025-12-15 | WBS | H&S PMax | Daily Budget | £150 | £310 | Final push for last trading week before Christmas shutdown (Dec 19th), strong 128% ROAS justifies 107% budget increase | TBD - Monitor Dec 15-23 |
+| 2025-12-15 | WBS | H&S PMax | ROAS Target | 120% | 130% | Strong 30-day performance (128% actual ROAS) following Nov 29 Product Hero threshold changes | TBD - Monitor Dec 15-29 |
+| 2025-12-15 | WBS | Villains PMax | ROAS Target | 120% | 130% | Strong 30-day performance (129% actual ROAS) | TBD - Monitor Dec 15-29 |
+| 2025-12-15 | WBS | Zombies PMax | ROAS Target | 120% | 130% | Exceptional 30-day performance (199% actual ROAS) | TBD - Monitor Dec 15-29 |
+| 2025-12-15 | WBS | Product Hero | ROAS Threshold | 90% | 103% | Tighter qualification for Heroes/Sidekicks classification | TBD - Review impact Dec 22 |
+| 2025-12-15 | WBS | Product Hero | Min Clicks | 19 | 15 | Allow lower-traffic products to qualify as Heroes if ROAS high | TBD - Review impact Dec 22 |
+| 2025-11-29 | WBS | Product Hero | ROAS Threshold | 80% | 90% | Improve product qualification standards | Correlated with +19pp overall ROAS improvement (121% → 139%) |
+| 2025-11-29 | WBS | Product Hero | Min Clicks | 25 | 19 | Allow more products to qualify with lower traffic | Correlated with +19pp overall ROAS improvement |
+| 2025-11-11 | BMPM | PMax Shopping | ROAS | None | 70% | Crisis management - set low target to build volume | Actual: 78% (+8pp) |
+| 2025-11-04 | WBS | H&S PMax | Daily Budget | £120 | £150 | Increase capacity for top performers | Actual ROAS: 129% |
+| 2025-09-04 | WBS | H&S PMax | ROAS | [TBD] | 120% | Initial campaign setup | Actual ROAS: 129% |
+
+**Product Hero Threshold Impact Analysis (Nov 29, 2025):**
+
+The November 29 Product Hero threshold changes (ROAS: 80% → 90%, Min Clicks: 25 → 19) showed clear correlation with improved campaign performance:
+
+- **H&S Campaign**: 115% ROAS (Nov 15-28) → 137% ROAS (Nov 29-Dec 14) = **+22pp improvement**
+- **Villains Campaign**: 168% ROAS (Nov 15-28) → 98% ROAS (Nov 29-Dec 14) = **-70pp decline** (product reclassification impact)
+- **Zombies Campaign**: 169% ROAS (Nov 15-28) → 226% ROAS (Nov 29-Dec 14) = **+57pp improvement**
+- **Overall WBS PMax**: 121% ROAS (Nov 15-28) → 139% ROAS (Nov 29-Dec 14) = **+19pp improvement**
+- **30-Day Average**: 132% ROAS (Nov 15 - Dec 14)
+
+The tighter Hero qualification standards appear to have improved budget allocation efficiency, with the main H&S campaign seeing significant improvement. The Villains decline likely reflects products being reclassified into different tiers, which is expected behaviour.
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness. Only WBS and HSG use Product Hero labels; BMPM does not.
+
+**⚠️ CRITICAL - Product Hero Scope**: Product Hero labels ONLY apply to **Performance Max** and **Shopping** campaigns that pull from the Google Merchant Center feed. **Search campaigns are keyword-driven and DO NOT interact with Product Hero labels**. Never attempt to analyze Search campaign performance through a Product Hero lens (e.g., "which Search keywords drive Hero/Villain sales", "run product performance report for Search", etc.). Search campaign optimization is purely keyword/query-based.
 
 ---
 
@@ -401,6 +500,11 @@ _Updated documents will appear here when detected by daily scans_
 | 2025-11-13 | **CLIENT PREFERENCES**: Added Michael's daily monitoring habits - checks Google Ads Diagnostics page daily at 7 AM, proactive and detail-oriented. Added custom label "ads off" strategy (~9,600 products intentionally excluded) to Strategic Context. Created proactive email explaining Diagnostics "not eligible" figure (17,782 total, only 41 actual issues). | Claude Code |
 | 2025-11-13 | **DIAGNOSTICS MONITORING**: Set up automated daily monitoring of product diagnostics (runs 6:30 AM daily before Michael's 7 AM check). Tracks products with zero impressions as proxy for "not eligible" count. Alerts if unexpected spikes (10%+ increase or 100+ products). Baseline: 3,143 products actively serving (Nov 13). LaunchAgent: `com.petesbrain.diagnostics-monitor`. Log: `~/.petesbrain-diagnostics-monitor.log`. Script: `shared/scripts/diagnostics-monitor.py`. | Claude Code |
 | 2025-11-13 | **PLANNED WORK CLEANUP**: Removed duplicate "Planned Work" section containing 20+ duplicate task entries referencing outdated "83% → 292%" figures. Replaced with "Completed Work" section documenting face masks analysis completion (Nov 4-12). This prevents task generator from creating redundant tasks based on already-completed work with incorrect data. | Claude Code |
+| 2025-12-15 | **WBS ROAS TARGET INCREASES & PRODUCT HERO ANALYSIS**: Updated WBS PMax campaign ROAS targets from 120% to 130% (H&S, Villains, Zombies) based on strong 30-day performance (128%, 129%, 199% actual ROAS respectively). Documented Nov 29 Product Hero threshold changes (ROAS: 80%→90%, Clicks: 25→19) and confirmed clear correlation with +19pp overall ROAS improvement (121%→139%). Also documented Dec 15 Product Hero threshold changes (ROAS: 90%→103%, Clicks: 19→15) for tighter Hero qualification. Added Product Hero Threshold Impact Analysis section showing before/after performance by campaign. Michael's last trading day is Dec 19th (staff Dec 23rd before Christmas shutdown). | Claude Code |
+| 2025-12-15 | **WBS H&S PMAX BUDGET INCREASE**: Increased WBS H&S PMax daily budget from £150 to £310 (+107% increase) for final trading week push before Christmas shutdown. Justified by strong 128% ROAS performance over last 30 days and new 130% ROAS target. Budget trajectory: £120 (Sep 4) → £150 (Nov 4) → £310 (Dec 15). | Claude Code |
+| 2025-12-15 | **HSG H&S PMAX MASSIVE SCALE**: Increased HSG H&S PMax daily budget from £70 to £510 (+629% increase) and ROAS target from 120% to 130%. Aggressive final week push before Christmas shutdown. Budget trajectory: £70 (static since campaign launch) → £510 (Dec 15). Combined with WBS increase (£310), total H&S daily budget now £820/day across both brands. | Claude Code |
+| 2025-12-15 | **REPORTING TERMINOLOGY PREFERENCE**: Added critical terminology standard to Client Preferences section. Michael provides "Margin" data (revenue minus product costs), NOT gross revenue. All future reporting must use "Margin" instead of "Revenue" when referring to Google Ads conversion value. Profit calculation = Margin - Ad Spend. Michael's philosophy: "Growth is not to grow generally but the sole growth is profit and nothing else matters... profit per sale." Also added CRITICAL requirement: NEVER use American spellings - British English only (optimise not optimize, analyse not analyze, etc.). This affects all performance reports and email communications. | Claude Code |
+| 2025-12-16 | **PRODUCT HERO SCOPE CLARIFICATION**: Added critical clarification to Product Hero Settings section that Product Hero labels ONLY apply to Performance Max and Shopping campaigns (which pull from Merchant Center feed). Search campaigns are keyword-driven and DO NOT interact with Product Hero labels. This prevents incorrect analysis like "which Search keywords drive Hero/Villain sales" or "run product performance report for Search". Search optimization is purely keyword/query-based. Also updated WheatyBags keyword audit (2025-12-16) to remove incorrect Product Hero references for Search campaign analysis. Updated documentation: Clear Prospects CONTEXT.md, Product Hero Labelizer System methodology, google-ads-keyword-audit skill. | Claude Code |
 
 ---
 

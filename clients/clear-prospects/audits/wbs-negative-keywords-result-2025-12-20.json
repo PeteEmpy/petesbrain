@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "timestamp": "2025-12-20",
+  "customer_id": "6281395727",
+  "campaign_id": "60035097",
+  "negative_keywords_added": 2,
+  "keywords": [
+    {
+      "text": "wheat bag company",
+      "match_type": "EXACT"
+    },
+    {
+      "text": "microwave heat pack",
+      "match_type": "EXACT"
+    }
+  ],
+  "resource_names": [
+    "customers/6281395727/campaignCriteria/60035097~304006914200",
+    "customers/6281395727/campaignCriteria/60035097~303113319295"
+  ]
+}

@@ -23,7 +23,7 @@ import anthropic
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # Configuration
-PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain")
+PROJECT_ROOT = Path("/Users/administrator/Documents/PetesBrain.nosync")
 INBOX_ROOT = PROJECT_ROOT / "roksys/knowledge-base/_inbox"
 KB_ROOT = PROJECT_ROOT / "roksys/knowledge-base"
 LOG_FILE = PROJECT_ROOT / "data/cache/kb-processing.log"

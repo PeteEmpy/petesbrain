@@ -1,0 +1,41 @@
+{
+  "alerts": {
+    "email": {
+      "enabled": true,
+      "to": null,
+      "from": null,
+      "critical_only": false,
+      "throttle_hours": 1
+    },
+    "slack": {
+      "enabled": false,
+      "webhook_url": null
+    },
+    "sms": {
+      "enabled": false,
+      "provider": "twilio",
+      "api_key": null,
+      "api_secret": null,
+      "from_number": null,
+      "to_number": null
+    }
+  },
+  "monitoring": {
+    "check_disk_space": true,
+    "disk_space_threshold_gb": 10,
+    "check_memory": true,
+    "memory_threshold_percent": 90,
+    "check_internet": true,
+    "check_apis": true
+  },
+  "failure_tracking": {
+    "escalation_threshold": 3,
+    "escalation_window_hours": 24,
+    "alert_on_new_failures_only": true
+  },
+  "self_monitoring": {
+    "enabled": true,
+    "alert_if_not_run_hours": 12
+  }
+}
+

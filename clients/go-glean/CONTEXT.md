@@ -1,4 +1,4 @@
-# Go Glean (GoMarble) - Context & Strategic Notes
+# Go Glean - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
 > **Last Updated**: 2025-11-24
@@ -297,6 +297,41 @@
 - All campaigns converged to 240-260% range
 - Much higher targets than Connor's other business (Grain Guard)
 - Suggests Go Glean products have better margins than agricultural products
+
+---
+
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-10-11)
+
+**Product Hero Plan**: Pro Plan (€30/month)
+
+**Campaign ROAS Targets**:
+- **Non Grout H&S&Z**: 240%
+- **Catch All**: 260%
+- **Villains**: 260%
+
+**Convergence Pattern**: All campaigns settled in 240-260% range after September 2025 testing period
+
+**Rationale**: Extensive testing through September 2025 identified optimal ROAS targets. Higher targets (240-260%) vs other Connor Heaps businesses suggest better margins on building materials vs agricultural products.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Campaign | Setting | Previous | New | Rationale | Result |
+|------|----------|---------|----------|-----|-----------|--------|
+| 2025-10-11 | Non Grout H&S&Z | ROAS | [TBD] | 240% | [TBD] | Current target |
+| 2025-09-23 | Catch All | ROAS | 230% | 260% | Final adjustment after September testing | Settled - current target |
+| 2025-09-23 | Villains | ROAS | 230% | 260% | Final adjustment after September testing | Settled - current target |
+| 2025-09-15 | Catch All | ROAS | 280% | 230% | Testing lower target | Adjusted up to 260% |
+| 2025-09-15 | Villains | ROAS | 260% | 230% | Testing lower target | Adjusted up to 260% |
+| 2025-09-11 | Villains | ROAS | 249% | 260% | Mid-testing adjustment | Further tested |
+| 2025-09-08 | Catch All | ROAS | 310% | 280% | Initial reduction from very high target | Further tested |
+| 2025-09-08 | Villains | ROAS | 280% | 249% | Testing below 250% | Further tested |
+| 2025-09-02 | Villains | ROAS | [TBD] | 280% | Campaign start/restructure | [TBD] |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness.
 
 ---
 

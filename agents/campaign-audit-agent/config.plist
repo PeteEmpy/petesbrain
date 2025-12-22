@@ -9,7 +9,7 @@
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>cd /Users/administrator/Documents/PetesBrain &amp;&amp; export ANTHROPIC_API_KEY="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" &amp;&amp; /usr/bin/python3 agents/reporting/campaign-audit-agent.py --all</string>
+        <string>cd /Users/administrator/Documents/PetesBrain &amp;&amp; export ANTHROPIC_API_KEY="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" &amp;&amp; /usr/bin/python3 agents/reporting/campaign-audit-agent.py --all</string>
     </array>
 
     <key>StartCalendarInterval</key>

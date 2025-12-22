@@ -1,0 +1,1386 @@
+{
+  "date": "2025-12-19",
+  "client": "Godshot",
+  "comparison_date": "2025-12-18",
+  "total_products_today": 2726,
+  "total_products_yesterday": 2710,
+  "summary": {
+    "changed_products": 56,
+    "price_changes": 2,
+    "sale_price_changes": 1,
+    "availability_changes": 55,
+    "title_changes": 0,
+    "description_changes": 3,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 17,
+    "removed_products": 1
+  },
+  "changed_products": [
+    {
+      "product_id": "13275",
+      "title": "Laboratory Perfumes Discovery Set",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19048-05",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14102",
+      "title": "Ranger Station Candle 225g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22118",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20856",
+      "title": "Versatile Croissant Caf\u00e9 Extrait Roll On 15ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14884",
+      "title": "Hightide Penco Drafting Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18093",
+      "title": "Wxy Studio 1 Candle",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20122",
+      "title": "Nasomatto Baraonda Extrait 30ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21508-07",
+      "title": "Arhoj Moon Plate",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16160-03",
+      "title": "Rains Fleece Tube Scarf T1",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18656",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22491",
+      "title": "Object Index Parallel Highlighter",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22536",
+      "title": "Tintin Thomspon Hair",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20896",
+      "title": "Tintin in the Desert",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21618",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24000",
+      "title": "Kunjudo Washi Paper Incense Strips",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14887",
+      "title": "1616 / arita japan TY Coffee Cup with Handle",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15464",
+      "title": "Harth Hot Chocolate 400g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21602",
+      "title": "APFR Closet Tag Paper Air Freshener - Oakmoss & Amber - By Apotheke Fragrance of Japan - Lasts For a Month",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20701",
+      "title": "Hightide Hard Case Small",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19362",
+      "title": "Wxy Studio 2 Multifunctional Tray/ Incense Holder",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19037",
+      "title": "Fellow Clara French Press",
+      "changes": {
+        "price": [
+          "130.00 GBP",
+          "78.00 GBP"
+        ],
+        "sale_price": [
+          "94.00 GBP",
+          ""
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19337",
+      "title": "Skye Corewijn Flat White Cup",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19046-02",
+      "title": "Arhoj Nip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15418",
+      "title": "Tools To Live By 6.5\u201d Scissors",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21870",
+      "title": "Traveler's Company Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24181",
+      "title": "Dak - Cardamom Bun 250g [Christmas Edition]",
+      "changes": {
+        "description": [
+          "Espresso roast available. Filter roast available to pre-order, estimated back in stock Thursday 18 December.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 15 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "19078",
+      "title": "Campbell Cole Simple Key Wrap",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21504-06",
+      "title": "Arhoj Dip Dish",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19115",
+      "title": "Craighill Coachwhip Carabiner",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21617",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23176",
+      "title": "Pith Yuzu 2026 Planner",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14115",
+      "title": "Hetkinen Soap Ball",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24180",
+      "title": "Dak - Cardamom Bun 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Espresso roast available. Filter roast available to pre-order, estimated back in stock Thursday 18 December.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 15 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "23165",
+      "title": "Pith Yuzu Blank Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20433",
+      "title": "Kinto To Go Tumbler 240ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14754",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15371",
+      "title": "Hightide Hard Case Small",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22450",
+      "title": "Liis Bo EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24372",
+      "title": "Mok - Guatemala, Finca Gascon, Nitro Maceration [WINTER 25-26]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available to pre-order. Estimated in stock 17 December 2025.\n\nBy Mok Coffee (Brussels, Belgium)\n\n\n\nOrigin\nAntigua, Guatemala\n\n\nProducer\nFelipe Contreras, Finca Gascon\n\n\nVariety\nBourbon\n\n\nProcess\nNitro Maceration\n\n\nNotes\nNotes of chocolate, orange, cinnamon and gingerbread - the perfect cup for wintery days.\n\n\nRoast Date\napprox. 16 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Mok Coffee (Brussels, Belgium)\n\n\n\nOrigin\nAntigua, Guatemala\n\n\nProducer\nFelipe Contreras, Finca Gascon\n\n\nVariety\nBourbon\n\n\nProcess\nNitro Maceration\n\n\nNotes\nNotes of chocolate, orange, cinnamon and gingerbread - the perfect cup for wintery days.\n\n\nRoast Date\napprox. 16 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio"
+        ]
+      }
+    },
+    {
+      "product_id": "23371",
+      "title": "Kinto Travel Tumbler Strap",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22305",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23918",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19097",
+      "title": "Craighill Summit Card Case",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21508-04",
+      "title": "Arhoj Moon Plate",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19048-08",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18519",
+      "title": "Malin + Goetz Vetiver EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21507-05",
+      "title": "Arhoj Mion Mug",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21601",
+      "title": "APFR Closet Tag",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17795-1",
+      "title": "Fellow Ode Brew Grinder Gen 2 [EURO]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23919",
+      "title": "APFR Closet Tag",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19047-14",
+      "title": "Arhoj Sup Cup",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13796",
+      "title": "M\u00e5l Paper My Five Year Story Journal",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23372",
+      "title": "Kinto Travel Tumbler Strap",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21006",
+      "title": "HMM Space Jar Double Wall Glass Canister",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16160-01",
+      "title": "Rains Fleece Tube Scarf T1",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "24333",
+      "title": "AY STUDIOS Backpack 19L",
+      "price": "150.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24332",
+      "title": "AY STUDIOS Backpack 19L",
+      "price": "150.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "14516",
+      "title": "The Monocle Guide to Shops, Kiosks and Markets",
+      "price": "35.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "19014",
+      "title": "Designing Brands",
+      "price": "35.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "24356",
+      "title": "AY STUDIOS Wallet",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24351",
+      "title": "AY STUDIOS Cross Body",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24353",
+      "title": "AY STUDIOS Cross Body",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "21409",
+      "title": "Stillness",
+      "price": "60.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "24358",
+      "title": "AY STUDIOS Wallet",
+      "price": "65.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "24352",
+      "title": "AY STUDIOS Cross Body",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24345",
+      "title": "AY STUDIOS Wash Bag",
+      "price": "55.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24346",
+      "title": "AY STUDIOS Wash Bag",
+      "price": "55.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24354",
+      "title": "AY STUDIOS Wallet",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24331",
+      "title": "AY STUDIOS Backpack 19L",
+      "price": "150.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "13553",
+      "title": "Insomnia",
+      "price": "10.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "10808",
+      "title": "Handmade in Japan",
+      "price": "45.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "24344",
+      "title": "AY STUDIOS Wash Bag",
+      "price": "55.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "22553",
+      "title": "Dak - Mirabelle 250g (Washed Heirloom, Ethiopia)",
+      "price": "15.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "19037",
+      "title": "Fellow Clara French Press",
+      "changes": {
+        "price": [
+          "130.00 GBP",
+          "78.00 GBP"
+        ],
+        "sale_price": [
+          "94.00 GBP",
+          ""
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14754",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [
+    {
+      "product_id": "19037",
+      "title": "Fellow Clara French Press",
+      "changes": {
+        "price": [
+          "130.00 GBP",
+          "78.00 GBP"
+        ],
+        "sale_price": [
+          "94.00 GBP",
+          ""
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "availability_changes": [
+    {
+      "product_id": "13275",
+      "title": "Laboratory Perfumes Discovery Set",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19048-05",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14102",
+      "title": "Ranger Station Candle 225g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22118",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20856",
+      "title": "Versatile Croissant Caf\u00e9 Extrait Roll On 15ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14884",
+      "title": "Hightide Penco Drafting Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18093",
+      "title": "Wxy Studio 1 Candle",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20122",
+      "title": "Nasomatto Baraonda Extrait 30ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21508-07",
+      "title": "Arhoj Moon Plate",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16160-03",
+      "title": "Rains Fleece Tube Scarf T1",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18656",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22491",
+      "title": "Object Index Parallel Highlighter",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22536",
+      "title": "Tintin Thomspon Hair",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20896",
+      "title": "Tintin in the Desert",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21618",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24000",
+      "title": "Kunjudo Washi Paper Incense Strips",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14887",
+      "title": "1616 / arita japan TY Coffee Cup with Handle",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15464",
+      "title": "Harth Hot Chocolate 400g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21602",
+      "title": "APFR Closet Tag Paper Air Freshener - Oakmoss & Amber - By Apotheke Fragrance of Japan - Lasts For a Month",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20701",
+      "title": "Hightide Hard Case Small",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19362",
+      "title": "Wxy Studio 2 Multifunctional Tray/ Incense Holder",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19037",
+      "title": "Fellow Clara French Press",
+      "changes": {
+        "price": [
+          "130.00 GBP",
+          "78.00 GBP"
+        ],
+        "sale_price": [
+          "94.00 GBP",
+          ""
+        ],
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19337",
+      "title": "Skye Corewijn Flat White Cup",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19046-02",
+      "title": "Arhoj Nip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15418",
+      "title": "Tools To Live By 6.5\u201d Scissors",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21870",
+      "title": "Traveler's Company Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19078",
+      "title": "Campbell Cole Simple Key Wrap",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21504-06",
+      "title": "Arhoj Dip Dish",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19115",
+      "title": "Craighill Coachwhip Carabiner",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21617",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23176",
+      "title": "Pith Yuzu 2026 Planner",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14115",
+      "title": "Hetkinen Soap Ball",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24180",
+      "title": "Dak - Cardamom Bun 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Espresso roast available. Filter roast available to pre-order, estimated back in stock Thursday 18 December.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 15 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "23165",
+      "title": "Pith Yuzu Blank Notebook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20433",
+      "title": "Kinto To Go Tumbler 240ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14754",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "30.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15371",
+      "title": "Hightide Hard Case Small",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22450",
+      "title": "Liis Bo EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24372",
+      "title": "Mok - Guatemala, Finca Gascon, Nitro Maceration [WINTER 25-26]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available to pre-order. Estimated in stock 17 December 2025.\n\nBy Mok Coffee (Brussels, Belgium)\n\n\n\nOrigin\nAntigua, Guatemala\n\n\nProducer\nFelipe Contreras, Finca Gascon\n\n\nVariety\nBourbon\n\n\nProcess\nNitro Maceration\n\n\nNotes\nNotes of chocolate, orange, cinnamon and gingerbread - the perfect cup for wintery days.\n\n\nRoast Date\napprox. 16 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Mok Coffee (Brussels, Belgium)\n\n\n\nOrigin\nAntigua, Guatemala\n\n\nProducer\nFelipe Contreras, Finca Gascon\n\n\nVariety\nBourbon\n\n\nProcess\nNitro Maceration\n\n\nNotes\nNotes of chocolate, orange, cinnamon and gingerbread - the perfect cup for wintery days.\n\n\nRoast Date\napprox. 16 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio"
+        ]
+      }
+    },
+    {
+      "product_id": "23371",
+      "title": "Kinto Travel Tumbler Strap",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22305",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23918",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19097",
+      "title": "Craighill Summit Card Case",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21508-04",
+      "title": "Arhoj Moon Plate",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19048-08",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18519",
+      "title": "Malin + Goetz Vetiver EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21507-05",
+      "title": "Arhoj Mion Mug",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21601",
+      "title": "APFR Closet Tag",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17795-1",
+      "title": "Fellow Ode Brew Grinder Gen 2 [EURO]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23919",
+      "title": "APFR Closet Tag",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19047-14",
+      "title": "Arhoj Sup Cup",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13796",
+      "title": "M\u00e5l Paper My Five Year Story Journal",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23372",
+      "title": "Kinto Travel Tumbler Strap",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21006",
+      "title": "HMM Space Jar Double Wall Glass Canister",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16160-01",
+      "title": "Rains Fleece Tube Scarf T1",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [
+    {
+      "product_id": "24181",
+      "title": "Dak - Cardamom Bun 250g [Christmas Edition]",
+      "changes": {
+        "description": [
+          "Espresso roast available. Filter roast available to pre-order, estimated back in stock Thursday 18 December.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 15 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "24180",
+      "title": "Dak - Cardamom Bun 250g [Christmas Edition]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Espresso roast available. Filter roast available to pre-order, estimated back in stock Thursday 18 December.\n\nBy Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nRisaralda, Colombia\n\n\nProducer\nFinca Milan\n\n\nVariety\nCaturra\n\n\nProcess\nCo-Fermentation Orange &amp; Spices, Honey Processed\n\n\nAltitude\n1400masl\n\n\nNotes\nCardamom, Cinnamon, Pearl Sugar\n\n\nRoast Date\nFilter: 15 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "24372",
+      "title": "Mok - Guatemala, Finca Gascon, Nitro Maceration [WINTER 25-26]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ],
+        "description": [
+          "Available to pre-order. Estimated in stock 17 December 2025.\n\nBy Mok Coffee (Brussels, Belgium)\n\n\n\nOrigin\nAntigua, Guatemala\n\n\nProducer\nFelipe Contreras, Finca Gascon\n\n\nVariety\nBourbon\n\n\nProcess\nNitro Maceration\n\n\nNotes\nNotes of chocolate, orange, cinnamon and gingerbread - the perfect cup for wintery days.\n\n\nRoast Date\napprox. 16 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio",
+          "By Mok Coffee (Brussels, Belgium)\n\n\n\nOrigin\nAntigua, Guatemala\n\n\nProducer\nFelipe Contreras, Finca Gascon\n\n\nVariety\nBourbon\n\n\nProcess\nNitro Maceration\n\n\nNotes\nNotes of chocolate, orange, cinnamon and gingerbread - the perfect cup for wintery days.\n\n\nRoast Date\napprox. 16 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio"
+        ]
+      }
+    }
+  ],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

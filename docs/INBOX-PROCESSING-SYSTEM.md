@@ -2,7 +2,7 @@
 
 **Created:** November 5, 2025  
 **Status:** ✅ Active and Production-Ready  
-**Source:** Adapted from Mike Rhodes' 8020Brain inboxy agent
+**Source:** Adapted from industry resources inboxy agent
 
 ---
 
@@ -445,7 +445,7 @@ Create macro to:
 
 ## Related Documentation
 
-- [8020Brain Analysis Report](8020BRAIN-ANALYSIS-REPORT.md) - Full analysis
+- [industry resources Analysis Report](industry resources-ANALYSIS-REPORT.md) - Full analysis
 - [Daily Briefing System](DAILY-BRIEFING-SYSTEM.md) - Morning summaries
 - [Agents Overview](../agents/README.md) - All automation
 - [Client Folder Structure](../clients/_templates/FOLDER-STRUCTURE.md)
@@ -456,7 +456,7 @@ Create macro to:
 
 | Date | Version | Changes |
 |------|---------|---------|
-| 2025-11-05 | 1.0 | Initial inbox processing system, adapted from Mike Rhodes' inboxy agent |
+| 2025-11-05 | 1.0 | Initial inbox processing system, adapted from inboxy agent |
 
 ---
 

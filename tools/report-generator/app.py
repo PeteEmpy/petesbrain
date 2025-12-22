@@ -387,12 +387,48 @@ def fetch_monthly_summary_data(client_name: str, start_date: str, end_date: str)
 
 
 def fetch_campaign_analysis_data(client_name: str, start_date: str, end_date: str) -> dict:
-    """Fetch data for campaign analysis report"""
-    # TODO: Implement MCP integration
+    """Fetch data for campaign analysis report
+
+    NOTE: For now, this returns placeholder data. In production, Claude Code would
+    call MCP tools to fetch real Google Ads data and pass it to this route.
+
+    See test_real_data.py for example of how to integrate with real MCP data.
+    """
+    # TODO: Implement MCP integration via Claude Code
+    # For now, return sample campaign data structure
+    # When MCP is integrated, this would be replaced with actual GAQL query results
+
     return {
-        'campaigns': [],
-        'analysis': {},
-        'optimizations': []
+        'campaigns': [
+            {
+                'id': 'sample_12345',
+                'name': f'{client_name} | Sample Campaign 1',
+                'status': 'ENABLED',
+                'advertising_channel_type': 'PERFORMANCE_MAX',
+                'metrics': {
+                    'cost_micros': 500000000,  # £500
+                    'conversions_value': 1500.00,  # £1500
+                    'conversions': 30,
+                    'clicks': 1000,
+                    'impressions': 25000,
+                    'search_lost_impression_share_budget': 0.12
+                }
+            },
+            {
+                'id': 'sample_67890',
+                'name': f'{client_name} | Sample Campaign 2',
+                'status': 'ENABLED',
+                'advertising_channel_type': 'SHOPPING',
+                'metrics': {
+                    'cost_micros': 300000000,  # £300
+                    'conversions_value': 600.00,  # £600
+                    'conversions': 15,
+                    'clicks': 600,
+                    'impressions': 15000,
+                    'search_lost_impression_share_budget': 0.05
+                }
+            }
+        ]
     }
 
 

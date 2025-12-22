@@ -535,6 +535,29 @@
 
 ---
 
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-12-15)
+
+**Target ROAS**: 156%
+**Previous**: 173% (reduced 2025-12-15)
+**Actual ROAS Achieved**: 209%
+**Click Impact**: 48 → 46 (monitoring for volume increase)
+
+**Rationale**: Actual ROAS (209%) significantly exceeded target (173%), indicating room to reduce target to unlock more volume while maintaining strong profitability.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Setting | Previous | New | Rationale | Result |
+|------|---------|----------|-----|-----------|--------|
+| 2025-12-15 | Target ROAS | 173% | 156% | Actual 209% allows headroom for volume growth | [Monitoring - expect click volume increase] |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness.
+
+---
+
 ## Action Items & Reminders
 
 ### Ongoing Tasks

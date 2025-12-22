@@ -1,0 +1,313 @@
+{
+  "tasks": [
+    {
+      "id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "title": "[Roksys] GoMarble Analytics Implementation",
+      "type": "parent",
+      "parent_id": null,
+      "children": [
+        "b192a530-fa15-49e8-b629-bb49f7677a14",
+        "86751aea-5e6f-4c05-bac8-35d65c840198",
+        "5912e54f-4dc1-42e0-b67c-9d17036bdef7",
+        "94812f51-5c0f-4471-9a5d-1ae4a6a16727",
+        "67ca6d29-dc09-4644-9b6a-46c63d2befa3",
+        "80ede5d8-b804-4920-91f8-37f0990a3282",
+        "091ce83a-a1c5-4b63-8b00-a0063ba3b2cd",
+        "81c0e867-3527-448a-b637-bfa6bcef5cd0",
+        "f001aa3a-74fa-4007-93a8-c4e9e985dec8"
+      ],
+      "priority": "P3",
+      "due_date": "2026-01-31",
+      "time_estimate_mins": 4500,
+      "notes": "Complete implementation of GoMarble-inspired analytics automation system.\n\n**Overview:**\nStructured analytics prompts for Google Ads, GA4, and cross-channel reporting.\nFocus on automated client reporting and proactive optimization detection.\n\n**Documentation:** docs/GOMARBLE-IMPLEMENTATION-PLAN.md\n\n**Test Clients:** Godshot, Go Glean, Bright Minds\n\n**Expected Outcomes:**\n- 50% reduction in manual reporting time\n- Proactive optimization detection\n- Improved client satisfaction with clearer insights\n- Data-driven budget increase recommendations",
+      "source": "Strategic Initiative (Nov 19, 2025)",
+      "tags": [
+        "gomarble",
+        "automation",
+        "analytics",
+        "strategic-project"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.974013",
+      "updated_at": "2025-11-19T14:59:51.974216",
+      "completed_at": null
+    },
+    {
+      "id": "86751aea-5e6f-4c05-bac8-35d65c840198",
+      "title": "[Roksys] Phase 1B: Google Ads Auction Insights Analysis Skill",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-12-03",
+      "time_estimate_mins": 360,
+      "notes": "Create .claude/skills/google-ads-auction-insights/ skill.\n\n**Purpose:**\n- Identify lost impression share (budget vs rank)\n- Quantify revenue opportunity from budget increases\n- Guide client budget increase requests\n\n**Output:**\n- Impression share summary table\n- Lost IS breakdown (budget vs rank)\n- Revenue opportunity estimates\n- Prioritized action recommendations\n\n**Use Cases:**\n- Devonshire Hotels (budget constraints)\n- Accessories for the Home (recent budget increase)\n- National Motorsports Academy (high CPA context)\n\n**Time:** 6 hours\n\nDone",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-1",
+        "google-ads"
+      ],
+      "context": {},
+      "status": "completed",
+      "created_at": "2025-11-19T14:59:51.975796",
+      "updated_at": "2025-12-19T15:31:52.125295",
+      "completed_at": "2025-12-19T15:31:52.125291"
+    },
+    {
+      "id": "5912e54f-4dc1-42e0-b67c-9d17036bdef7",
+      "title": "[Roksys] Phase 1C: GA4 Traffic Source Performance Skill",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-12-10",
+      "time_estimate_mins": 300,
+      "notes": "Create .claude/skills/ga4-channel-performance/ skill.\n\n**Purpose:**\n- Compare attribution models (last-click vs data-driven)\n- Identify profitable yet undervalued channels\n- Explain discrepancies between GA4 and Google Ads\n\n**Output:**\n- Channel performance table\n- Attribution comparison\n- Underperforming high-spend channels\n- Undervalued assisted conversion channels\n\n**Use Cases:**\n- Smythson (multi-channel strategy)\n- Superspace (organic vs paid understanding)\n- Tree2MyDoor (seasonal traffic patterns)\n\n**Time:** 5 hours\n\nDone",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-1",
+        "ga4"
+      ],
+      "context": {},
+      "status": "completed",
+      "created_at": "2025-11-19T14:59:51.976122",
+      "updated_at": "2025-12-19T15:31:52.125308",
+      "completed_at": "2025-12-19T15:31:52.125306"
+    },
+    {
+      "id": "94812f51-5c0f-4471-9a5d-1ae4a6a16727",
+      "title": "[Roksys] Phase 2A: Monthly Client Dashboard Generator Agent",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P1",
+      "due_date": "2025-12-17",
+      "time_estimate_mins": 720,
+      "notes": "Create agents/monthly-client-dashboard/ automated reporting agent.\n\n**Workflow:**\n1. Runs 1st of each month automatically\n2. Pulls Google Ads + GA4 data (previous month vs 2 months prior)\n3. Generates visual HTML dashboard using GoMarble \"chapters\" format\n4. Saves to clients/[client]/reports/monthly/\n5. Creates draft email\n\n**Chapters:**\n1. The Bottom Line - Revenue, ROAS, headline metrics\n2. Campaign Performance - Which campaigns drove results\n3. Product Winners - Top 10 products (e-commerce only)\n4. What Changed - Week-over-week trends\n5. Looking Ahead - Next month goals\n\n**Test with:** Top 5 clients by revenue\n\n**Expected Savings:** 10+ hours/month\n\n**Time:** 12 hours",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-2",
+        "automation"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.976462",
+      "updated_at": "2025-11-19T14:59:51.976463",
+      "completed_at": null
+    },
+    {
+      "id": "67ca6d29-dc09-4644-9b6a-46c63d2befa3",
+      "title": "[Roksys] Phase 2B: Weekly Client Email Digest Agent",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P2",
+      "due_date": "2025-12-24",
+      "time_estimate_mins": 480,
+      "notes": "Create agents/weekly-client-digest/ automated email summaries.\n\n**Schedule:** Every Monday 6am (review Sunday performance)\n\n**Format:**\n- Last Week at a Glance (revenue, ROAS, conversions)\n- What's Working (top 3 wins)\n- Watching Closely (concerns)\n- This Week's Focus (planned actions)\n\n**Trigger:** Can also run on-demand\n\n**Expected Savings:** 5+ hours/week\n\n**Time:** 8 hours",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-2",
+        "automation"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.976812",
+      "updated_at": "2025-11-19T14:59:51.976813",
+      "completed_at": null
+    },
+    {
+      "id": "80ede5d8-b804-4920-91f8-37f0990a3282",
+      "title": "[Roksys] Phase 3A: Google Ads Budget Opportunity Detector Agent",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P2",
+      "due_date": "2026-01-07",
+      "time_estimate_mins": 600,
+      "notes": "Create agents/budget-opportunity-detector/ proactive optimization.\n\n**Logic:**\n- Identify campaigns hitting budget caps with strong ROAS\n- Lost impression share (budget) > 10%\n- ROAS > target \u00d7 1.2\n- Opportunity > \u00a3500/day\n\n**Output:**\n- Creates P1 tasks for manual review\n- Quantifies revenue opportunity\n- Recommends budget increase amount\n\n**Schedule:** Daily 9am check\n\n**Time:** 10 hours",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-3",
+        "optimization"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.977158",
+      "updated_at": "2025-11-19T14:59:51.977159",
+      "completed_at": null
+    },
+    {
+      "id": "091ce83a-a1c5-4b63-8b00-a0063ba3b2cd",
+      "title": "[Roksys] Phase 3B: Keyword Waste Detector Agent",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P3",
+      "due_date": "2026-01-14",
+      "time_estimate_mins": 720,
+      "notes": "Create agents/keyword-waste-detector/ proactive optimization.\n\n**Detection Criteria:**\n1. Wasted Spend: Spend \u2265\u00a350, ROAS < avg \u00d7 0.7\n2. Growth Opportunities: \u22652 conv, ROAS \u2265 avg \u00d7 1.3, Lost IS (rank) > 10%\n3. Zero-Conversion Waste: Spend \u2265\u00a320, 0 conversions\n\n**Output:**\n- CSV file with keyword recommendations\n- Creates tasks for review\n- Logs changes to experiment tracker\n\n**Schedule:** Weekly Sunday 8pm\n\n**Time:** 12 hours",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-3",
+        "optimization"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.977673",
+      "updated_at": "2025-11-19T14:59:51.977674",
+      "completed_at": null
+    },
+    {
+      "id": "81c0e867-3527-448a-b637-bfa6bcef5cd0",
+      "title": "[Roksys] Phase 4A: Blended Metrics Calculator Utility",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P3",
+      "due_date": "2026-01-21",
+      "time_estimate_mins": 480,
+      "notes": "Create shared/blended_metrics.py utility.\n\n**Functions:**\n- calculate_mer() - Marketing Efficiency Ratio (GA4 revenue / Google Ads spend)\n- calculate_attribution_discrepancy() - Google Ads vs GA4 comparison\n- generate_cross_platform_report() - Unified metrics\n\n**Use Case:**\nWhen client says \"Google Ads reports 420% ROAS but I don't see that revenue\" - this explains the gap.\n\n**Time:** 8 hours",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-4",
+        "cross-channel"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.978011",
+      "updated_at": "2025-11-19T14:59:51.978012",
+      "completed_at": null
+    },
+    {
+      "id": "f001aa3a-74fa-4007-93a8-c4e9e985dec8",
+      "title": "[Roksys] Phase 4B: Analyst Pack Generator Skill",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P3",
+      "due_date": "2026-01-28",
+      "time_estimate_mins": 600,
+      "notes": "Create .claude/skills/analyst-pack/ unified reporting skill.\n\n**Format:** 14 days vs prior 14 days across Google Ads + GA4\n\n**Sections:**\n1. Executive Summary (Google Ads, GA4, Blended MER)\n2. Campaign Performance Table (top 12 by spend)\n3. Traffic Source Insights (GA4 channels)\n4. One-Slide Brief (what changed, top 3 drivers, biggest risk)\n\n**When to Use:**\n- Monthly client reports\n- Performance investigations\n- Budget allocation discussions\n\n**Time:** 10 hours",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-4",
+        "cross-channel"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.978380",
+      "updated_at": "2025-11-19T14:59:51.978381",
+      "completed_at": null
+    },
+    {
+      "id": "b192a530-fa15-49e8-b629-bb49f7677a14",
+      "title": "[Roksys] Phase 1A: Google Ads Weekly E-commerce Report Skill",
+      "type": "child",
+      "parent_id": "ffeea18f-fada-4026-902e-14eaa7e68104",
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-11-26",
+      "time_estimate_mins": 240,
+      "notes": "Create .claude/skills/google-ads-weekly-report/ skill.\n\n**Output:**\n- Campaign overview (spend, conversions, ROAS, CPA)\n- Product-level performance (top 10 best/worst by ROAS)\n- Placement analysis (Shopping, YouTube, Display, Discover)\n- Week-over-week changes (>15% flagged)\n- 3-5 prioritized recommendations\n\n**Test with:** Godshot (simple), Go Glean, Bright Minds\n\n**Success:** Generate report in <5 minutes, identify 1+ actionable insight per client\n\n**Time:** 4 hours\n\nDone",
+      "source": "GoMarble Implementation Plan",
+      "tags": [
+        "gomarble",
+        "phase-1",
+        "google-ads"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T14:59:51.975415",
+      "updated_at": "2025-12-19T15:31:52.125312",
+      "completed_at": null
+    },
+    {
+      "id": "bd2edcda-0351-4f6c-8ad6-841902c84ca2",
+      "title": "[Roksys] Review and integrate GoMarble analytics prompts",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P3",
+      "due_date": null,
+      "time_estimate_mins": 120,
+      "notes": "Review GoMarble analytics prompt library and integrate into weekly report skill or other analytics tools.\n\n**GoMarble Prompt Library:** https://prompting.gomarble.ai/\n- All prompts available on this page\n- Organized into sections/subsections  \n- Monitor for updates and new prompts\n\n**Context:**\nGoMarble provides structured prompts for advertising analytics. The full prompt library is available on their website with detailed sections for different use cases.\n\n**Scope:**\n- Review GoMarble prompt library structure at https://prompting.gomarble.ai/\n- Dig into individual sections to see all available prompts\n- Assess which prompts are relevant for weekly reports\n- Integrate useful prompts into google-ads-weekly-report skill\n- Consider if any prompts should be separate tools/skills\n- Monitor site for new prompt releases\n\n**Priority:** P3 - Backlog work, no immediate deadline\n**Time Estimate:** 2-3 hours (review + integration + documentation)\n",
+      "source": "Manual - Claude Code conversation Nov 19, 2025",
+      "tags": [
+        "analytics",
+        "prompts",
+        "skill-enhancement",
+        "backlog"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T17:28:54.315494",
+      "updated_at": "2025-11-20T08:19:35.726390",
+      "completed_at": null
+    },
+    {
+      "id": "c3fe638e-9761-4059-ba23-89c0f6ceb13e",
+      "title": "[PetesBrain] Clean up task migration backups from 2025-12-01",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-12-08",
+      "time_estimate_mins": 5,
+      "notes": "Run cleanup script to remove temporary backup files created during task system migration.\n\n**What to Delete:**\n- Per-client backup files: tasks-before-cleanup-*, tasks-before-dedup-*, tasks-pre-*-20251201-*.json\n- System backup folders: _deleted-spurious-files-2025-12-01/, _final-cleanup-2025-12-01/, _agent-cleanup-2025-12-01/\n\n**Script Location:**\n/tmp/cleanup-task-migration-backups.py\n\n**Command:**\n```bash\npython3 /tmp/cleanup-task-migration-backups.py\n```\n\n**Safety:**\n- Script has built-in date check (won't run before Dec 8)\n- Only removes 2025-12-01 backups (keeps _archived-tasks/ folders)\n- Shows total space freed\n\n**Expected Result:**\n~39 backup files + 3 folders removed, freeing several MB of disk space.\n\n**Context:** These are backups from the comprehensive task system audit completed on 2025-12-01 (see /tmp/TASK-SYSTEM-AUDIT-REPORT-2025-12-01.md). After 7 days of normal operation without issues, they're safe to remove.\n\nDone",
+      "source": "Task system audit follow-up",
+      "tags": [
+        "petesbrain",
+        "cleanup",
+        "maintenance"
+      ],
+      "context": {},
+      "status": "completed",
+      "created_at": "2025-12-01T09:49:10.317867",
+      "updated_at": "2025-12-19T15:31:52.125315",
+      "completed_at": "2025-12-19T15:31:52.125314"
+    },
+    {
+      "id": "358ed311-1db3-40d4-914b-98ab62181080",
+      "title": "[PetesBrain] Monitor File Compression Prevention System - January Check",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P3",
+      "due_date": null,
+      "time_estimate_mins": 30,
+      "notes": "**NOTE**: [PetesBrain] refers to the PetesBrain system itself (not a client). This is a system monitoring task for internal Roksys work.\n\n**Objective**: Monitor and verify that the file compression prevention system is working correctly.\n\n**Background**:\nOn 4th December 2025, we fixed a critical system issue where macOS was automatically compressing JSON state/cache files and log files, causing \"OSError [Errno 11]: Resource deadlock avoided\" errors in multiple LaunchAgents.\n\n**What Was Implemented**:\n1. **Automated Decompression Script**: `shared/scripts/decompress-state-files.py`\n   - Decompresses files in data/state, data/cache, and log files\n   - Runs hourly via LaunchAgent\n\n2. **File \"Touch\" Script**: `shared/scripts/prevent-file-compression.sh`\n   - Touches all JSON files to keep them \"hot\" (recently accessed)\n   - Prevents macOS from marking them for compression\n   - Runs hourly via LaunchAgent\n\n3. **LaunchAgent**: `com.petesbrain.prevent-compression.plist`\n   - Runs both scripts every hour (3600 seconds)\n   - Logs to: `~/.petesbrain-prevent-compression.log`\n\n**Monitoring Commands** (run these in January):\n\n```bash\n# 1. Check LaunchAgent is running\nlaunchctl list | grep prevent-compression\n# Expected: Should show PID and exit code 0\n\n# 2. Check recent decompression activity\ntail -50 ~/.petesbrain-prevent-compression.log\n# Expected: Recent timestamps, \"Decompressed: 0 file(s)\" (if working correctly)\n\n# 3. Check for compressed files (should be NONE)\nls -lO ~/Documents/PetesBrain/data/state/*.json | grep compressed\nls -lO ~/Documents/PetesBrain/data/cache/*.log | grep compressed\nls -lO ~/Documents/PetesBrain/tools/product-impact-analyzer/data/product_baselines/*.json | grep compressed\n# Expected: No output (no compressed files)\n\n# 4. Check agent health (should be no deadlock errors)\npython3 ~/Documents/PetesBrain/agents/health-check/health-check.py --no-alerts\n# Expected: 64+/69 agents healthy, no deadlock errors\n\n# 5. Check specific critical agents\nlaunchctl list | grep -E \"knowledge-base|wispr-flow|tasks-monitor\"\n# Expected: All running with exit code 0 or 1 (1 is OK for interval agents)\n\n# 6. Check for deadlock errors in logs (should be NONE)\ngrep -r \"Resource deadlock avoided\" ~/.petesbrain*.log | tail -20\n# Expected: No recent errors (anything from Dec 4+ should be GONE)\n```\n\n**What Success Looks Like**:\n\u2705 LaunchAgent is running every hour\n\u2705 No compressed files found in state/cache directories  \n\u2705 No \"Resource deadlock avoided\" errors in recent logs\n\u2705 Critical agents (knowledge-base, wispr-flow, tasks-monitor) all healthy\n\u2705 Decompression log shows 0 files needing decompression (prevention is working)\n\n**If Issues Found**:\n1. Check LaunchAgent is loaded: `launchctl load ~/Library/LaunchAgents/com.petesbrain.prevent-compression.plist`\n2. Check scripts are executable: `ls -la ~/Documents/PetesBrain/shared/scripts/{prevent-file-compression.sh,decompress-state-files.py}`\n3. Manually decompress: `python3 ~/Documents/PetesBrain/shared/scripts/decompress-state-files.py`\n4. Review error log: `tail -100 ~/.petesbrain-prevent-compression-error.log`\n\n**Files to Monitor**:\n- `/Users/administrator/Documents/PetesBrain/data/state/*.json` (45 files)\n- `/Users/administrator/Documents/PetesBrain/data/cache/*` (85 files)\n- `/Users/administrator/Documents/PetesBrain/tools/product-impact-analyzer/data/product_baselines/*.json` (product baseline files)\n- `~/.petesbrain*.log` (agent logs)\n\n**Why This Matters**:\nThis issue caused 4 critical agents to fail and 24 agents to be unloaded. Without monitoring, compression could silently return and break automation again.\n\n**Original Incident**: 4th December 2025\n**Root Cause**: macOS file compression on infrequently-accessed files\n**Fix Applied**: Dual prevention (touch + decompress) + hourly LaunchAgent\n**Next Check**: 15th January 2026",
+      "source": "File compression prevention implementation - 4th December 2025",
+      "tags": [
+        "petesbrain",
+        "monitoring",
+        "system-health",
+        "file-compression",
+        "launchagent"
+      ],
+      "context": {
+        "related_files": [
+          "shared/scripts/decompress-state-files.py",
+          "shared/scripts/prevent-file-compression.sh",
+          "agents/health-check/health-check.py"
+        ],
+        "launch_agent": "com.petesbrain.prevent-compression"
+      },
+      "status": "active",
+      "created_at": "2025-12-04T13:21:53.061140",
+      "updated_at": "2025-12-19T15:01:08.476919",
+      "completed_at": null,
+      "client": "roksys"
+    }
+  ],
+  "last_updated": "2025-12-19T15:31:52.125317"
+}

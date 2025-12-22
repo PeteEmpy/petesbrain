@@ -1,0 +1,515 @@
+{
+  "date": "2025-12-19",
+  "client": "Crowd Control",
+  "comparison_date": "2025-12-18",
+  "total_products_today": 337,
+  "total_products_yesterday": 337,
+  "summary": {
+    "changed_products": 24,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 18,
+    "title_changes": 0,
+    "description_changes": 1,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 4,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "5709",
+      "title": "Outdoor Long Belt Safety Retractable Belt Barrier - WeatherMaster 250 Triple - 2.6m/3.4m/3.9m Triple Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14309",
+      "title": "Safety Retractable Belt Barrier - WeatherMaster 250 - 6 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8025",
+      "title": "Belt Barrier 10 Pack - Black Post Retractable Belt Barriers - 2.6m/3.4m/3.9 metres - Over 40 Stock Belt Colour Options and Lettering",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "6734",
+      "title": "4.8m Metal Expanding Barricade - Mobile With Locking Wheels - Red/White - FlexPro160",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "6840",
+      "title": "Sign Stand 210mm x 297mm (A4 Sign Size) - Full Circumference Floor Protector - Choice Of 3 Finishes",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "14307",
+      "title": "Safety Retractable Belt Barrier - WeatherMaster 250 - 4 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "67912",
+      "title": "20m Black Retractable Air Hose Reel - Durable PU, 217psi, Auto-Retract, C-Type Connector, Industrial Use",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "5721",
+      "title": "Outdoor Retractable Safety Belt Barrier - Twin Belts - WeatherMaster 300 Twin -4.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66108",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black- 2 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5715",
+      "title": "Outdoor Safety Retractable Belt Barrier - Heavy Duty 7.6cm Tube - WeatherMaster 300 - 4.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66102",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black - 10 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "6014",
+      "title": "Outdoor Long Belt Safety Retractable Belt Barrier - WeatherMaster 335 - 6.1m to 10.6m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66105",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black - 6 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66104",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black- 8 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5703",
+      "title": "Outdoor Safety Retractable Belt Barrier - Twin Belts - WeatherMaster 250 Twin - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5697",
+      "title": "Outdoor Safety Retractable Belt Barrier - WeatherMaster 250 - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "68035",
+      "title": "Outdoor A3 Sign Stand Rubber Base Entrances Forecourts Queue Points 297mm x 420mm Black Weather-Ready Heavy-Duty Frame",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "68028",
+      "title": "Heavy Duty Outdoor A4 Sign Stand with Rubber Base for Pavement & Forecourt Use, Clear Anti-Glare Display 210mm x 297mm",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8026",
+      "title": "10 Pack Stainless Steel Retractable Belt Stanchions Crowd Control Barriers Queue Line Post 2.6m to 3.9m Silver",
+      "changes": {
+        "link": [
+          "https://crowdcontrolcompany.co.uk/shop/belt-barrier-10-pack-polished-steel-post-retractable-belt-barriers-2-6m-to-3-9m-belt-free-shipping/",
+          "https://crowdcontrolcompany.co.uk/shop/polished-stainless-belt-barriers/"
+        ]
+      }
+    },
+    {
+      "product_id": "66106",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black- 4 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13614",
+      "title": "Value Outdoor Safety Retractable Belt Barrier - WeatherMaster 250 - 3.2m/3.65m Yellow/Black Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "8022",
+      "title": "Belt Barrier 8 Pack - Polished Stainless Steel Post Retractable Belt Barriers - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "description": [
+          "Product OverviewThis 8 pack of QueueMaster polished stainless steel retractable belt barrier set provides a high quality low cost barrier for forming customer queues. This free ship bundle is available in a polished stainless steel finish with a 5cm wide 2.6m to 3.9m belt in over 40 different stock colours. The belt features a slow retracting brake system along with a locking belt end. Supplied with a full circumference floor protector to prevent floor damage.",
+          "\u2013 8 Pack of Polished Steel Belt Barriers<strong>Polished Steel Belt Barriers</strong> 8 pack from QueueMaster provide a cost-effective and professional queue management solution. From the outset, this multi-post set helps reduce unit costs while improving customer flow. Moreover, the system allows faster setup in busy environments where clear guidance matters.Longer Belt Spans for Efficient QueuesEach post includes a choice of 2.6m to 3.9m retractable belts. As a result, you cover more distance using fewer posts. Consequently, installation time drops while queue lines remain neat and controlled throughout the day.Key Features of These 8 Pack of Polished Steel Belt BarriersA slow-retract brake system helps prevent snap-back and improves safety. Meanwhile, the locking belt end keeps the tape secure during use. In addition, a full-circumference rubber floor protector shields surfaces from scratches and moisture. The tough ABS cassette also resists knocks in high-traffic areas.Fast Setup and Daily HandlingEach steel post weighs around 9kg, so staff can reposition units quickly. At the same time, the concrete-filled galvanised base delivers reliable stability where queues change frequently.Flexible Layouts for Queue ControlFour-way connectivity supports straight runs, zig-zag layouts and compact holding pens. Therefore, you can adjust layouts easily as foot traffic increases or decreases.Branding and Belt Options for the Polished Stainless Belt Barriers setChoose from over 50 stock belt colours and safety messages. Additionally, custom printing allows logos or wayfinding to match your brand identity.What\u2019s Included in the 8 Pack of Polished Steel Belt BarriersThis 8 pack set includes 8 retractable belt barrier posts with 2.6m to 3.9m belt options and heavy-duty bases. You can also add sign frames or wall receivers to complete the system.Ideal Locations for Retractable Belt BarriersAirports, arenas, museums, transport hubs and retail stores benefit from this solution. Furthermore, the robust build suits indoor use and covered outdoor areas.Plan Your Queue LayoutTo improve guidance further, pair posts with sign frames.You can also browse the full range of belt barriers to expand your layout.For official guidance on safe queuing, see the UK HSE advice at hse.gov.uk/event-safety.Overall, this 10-post set of Polished Stainless Belt Barriers delivers safety, flexibility and value. Therefore, it remains a reliable choice for managing foot traffic efficiently."
+        ],
+        "link": [
+          "https://crowdcontrolcompany.co.uk/shop/belt-barrier-8-pack-polished-steel-post-retractable-belt-barriers-2-6m-to-3-9m-belt-free-shipping/",
+          "https://crowdcontrolcompany.co.uk/shop/polished-steel-belt-barriers/"
+        ]
+      }
+    },
+    {
+      "product_id": "14313",
+      "title": "Safety Outdoor Retractable Belt Barrier - WeatherMaster 250 - 10 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14311",
+      "title": "Safety Retractable Belt Barrier - WeatherMaster 250 - 8 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "5709",
+      "title": "Outdoor Long Belt Safety Retractable Belt Barrier - WeatherMaster 250 Triple - 2.6m/3.4m/3.9m Triple Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14309",
+      "title": "Safety Retractable Belt Barrier - WeatherMaster 250 - 6 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14307",
+      "title": "Safety Retractable Belt Barrier - WeatherMaster 250 - 4 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5721",
+      "title": "Outdoor Retractable Safety Belt Barrier - Twin Belts - WeatherMaster 300 Twin -4.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66108",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black- 2 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5715",
+      "title": "Outdoor Safety Retractable Belt Barrier - Heavy Duty 7.6cm Tube - WeatherMaster 300 - 4.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66102",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black - 10 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "6014",
+      "title": "Outdoor Long Belt Safety Retractable Belt Barrier - WeatherMaster 335 - 6.1m to 10.6m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66105",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black - 6 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66104",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black- 8 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5703",
+      "title": "Outdoor Safety Retractable Belt Barrier - Twin Belts - WeatherMaster 250 Twin - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "5697",
+      "title": "Outdoor Safety Retractable Belt Barrier - WeatherMaster 250 - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "68035",
+      "title": "Outdoor A3 Sign Stand Rubber Base Entrances Forecourts Queue Points 297mm x 420mm Black Weather-Ready Heavy-Duty Frame",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "68028",
+      "title": "Heavy Duty Outdoor A4 Sign Stand with Rubber Base for Pavement & Forecourt Use, Clear Anti-Glare Display 210mm x 297mm",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "66106",
+      "title": "Outdoor Retractable Belt Barrier - WeatherMaster 250 Black- 4 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "13614",
+      "title": "Value Outdoor Safety Retractable Belt Barrier - WeatherMaster 250 - 3.2m/3.65m Yellow/Black Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14313",
+      "title": "Safety Outdoor Retractable Belt Barrier - WeatherMaster 250 - 10 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14311",
+      "title": "Safety Retractable Belt Barrier - WeatherMaster 250 - 8 pack bundle 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [
+    {
+      "product_id": "8022",
+      "title": "Belt Barrier 8 Pack - Polished Stainless Steel Post Retractable Belt Barriers - 2.6m/3.4m/3.9m Belt",
+      "changes": {
+        "description": [
+          "Product OverviewThis 8 pack of QueueMaster polished stainless steel retractable belt barrier set provides a high quality low cost barrier for forming customer queues. This free ship bundle is available in a polished stainless steel finish with a 5cm wide 2.6m to 3.9m belt in over 40 different stock colours. The belt features a slow retracting brake system along with a locking belt end. Supplied with a full circumference floor protector to prevent floor damage.",
+          "\u2013 8 Pack of Polished Steel Belt Barriers<strong>Polished Steel Belt Barriers</strong> 8 pack from QueueMaster provide a cost-effective and professional queue management solution. From the outset, this multi-post set helps reduce unit costs while improving customer flow. Moreover, the system allows faster setup in busy environments where clear guidance matters.Longer Belt Spans for Efficient QueuesEach post includes a choice of 2.6m to 3.9m retractable belts. As a result, you cover more distance using fewer posts. Consequently, installation time drops while queue lines remain neat and controlled throughout the day.Key Features of These 8 Pack of Polished Steel Belt BarriersA slow-retract brake system helps prevent snap-back and improves safety. Meanwhile, the locking belt end keeps the tape secure during use. In addition, a full-circumference rubber floor protector shields surfaces from scratches and moisture. The tough ABS cassette also resists knocks in high-traffic areas.Fast Setup and Daily HandlingEach steel post weighs around 9kg, so staff can reposition units quickly. At the same time, the concrete-filled galvanised base delivers reliable stability where queues change frequently.Flexible Layouts for Queue ControlFour-way connectivity supports straight runs, zig-zag layouts and compact holding pens. Therefore, you can adjust layouts easily as foot traffic increases or decreases.Branding and Belt Options for the Polished Stainless Belt Barriers setChoose from over 50 stock belt colours and safety messages. Additionally, custom printing allows logos or wayfinding to match your brand identity.What\u2019s Included in the 8 Pack of Polished Steel Belt BarriersThis 8 pack set includes 8 retractable belt barrier posts with 2.6m to 3.9m belt options and heavy-duty bases. You can also add sign frames or wall receivers to complete the system.Ideal Locations for Retractable Belt BarriersAirports, arenas, museums, transport hubs and retail stores benefit from this solution. Furthermore, the robust build suits indoor use and covered outdoor areas.Plan Your Queue LayoutTo improve guidance further, pair posts with sign frames.You can also browse the full range of belt barriers to expand your layout.For official guidance on safe queuing, see the UK HSE advice at hse.gov.uk/event-safety.Overall, this 10-post set of Polished Stainless Belt Barriers delivers safety, flexibility and value. Therefore, it remains a reliable choice for managing foot traffic efficiently."
+        ],
+        "link": [
+          "https://crowdcontrolcompany.co.uk/shop/belt-barrier-8-pack-polished-steel-post-retractable-belt-barriers-2-6m-to-3-9m-belt-free-shipping/",
+          "https://crowdcontrolcompany.co.uk/shop/polished-steel-belt-barriers/"
+        ]
+      }
+    }
+  ],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "8025",
+      "title": "Belt Barrier 10 Pack - Black Post Retractable Belt Barriers - 2.6m/3.4m/3.9 metres - Over 40 Stock Belt Colour Options and Lettering",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "6734",
+      "title": "4.8m Metal Expanding Barricade - Mobile With Locking Wheels - Red/White - FlexPro160",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "6840",
+      "title": "Sign Stand 210mm x 297mm (A4 Sign Size) - Full Circumference Floor Protector - Choice Of 3 Finishes",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "67912",
+      "title": "20m Black Retractable Air Hose Reel - Durable PU, 217psi, Auto-Retract, C-Type Connector, Industrial Use",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    }
+  ]
+}

@@ -174,7 +174,7 @@ When user expands a completed task in the HTML view:
 - [ ] Combined ALL notes (original + manual)
 - [ ] Logged full combined notes to `tasks-completed.md`
 - [ ] Removed task from `tasks.json`
-- [ ] Regenerated HTML: `python3 generate-tasks-overview.py`
+- [ ] Regenerated HTML: `python3 generate-all-task-views.py`
 - [ ] Verified completed task displays all notes in HTML
 
 ---

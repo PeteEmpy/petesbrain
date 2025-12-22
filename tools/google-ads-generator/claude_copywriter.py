@@ -135,11 +135,21 @@ MAIN BODY CONTENT (study the language style, tone, and word choices):
         except Exception as e:
             raise Exception(f"Failed to fetch website: {str(e)}")
 
-    def generate_ad_copy(self, additional_context: str = "") -> Dict:
-        """Use Claude AI to analyze the website and generate professional ad copy."""
+    def generate_ad_copy(self, additional_context: str = "", main_keyword: str = "", social_proof_reviews: list = None) -> Dict:
+        """Use Claude AI to analyze the website and generate professional ad copy.
+
+        Args:
+            additional_context: Additional user-provided context
+            main_keyword: Primary keyword to target in ad copy
+            social_proof_reviews: List of 2 recent customer reviews for social proof headlines
+        """
 
         print("Fetching website content...", flush=True)
         website_content = self.fetch_website_content()
+
+        # Default to empty list if no reviews provided
+        if social_proof_reviews is None:
+            social_proof_reviews = []
 
         # Load ROK specifications
         print("Loading ROK specifications...", flush=True)
@@ -180,10 +190,53 @@ This is CRITICAL context that should inform EVERY headline and description you w
 {additional_context}
 """
 
+        # Build keyword section if provided
+        keyword_section = ""
+        if main_keyword:
+            keyword_section = f"""
+
+═══════════════════════════════════════════════════════════════════
+🎯 MAIN KEYWORD (MUST INCLUDE IN COPY)
+═══════════════════════════════════════════════════════════════════
+
+Main Keyword: "{main_keyword}"
+
+⚠️ REQUIREMENT: You must create at least 3 headlines that include this exact keyword.
+Include variations where natural (plurals, different word forms).
+
+═══════════════════════════════════════════════════════════════════
+"""
+
+        # Build social proof section if reviews provided
+        social_proof_section = ""
+        if social_proof_reviews and len(social_proof_reviews) >= 2:
+            social_proof_section = f"""
+
+═══════════════════════════════════════════════════════════════════
+⭐ SOCIAL PROOF - RECENT CUSTOMER REVIEWS
+═══════════════════════════════════════════════════════════════════
+
+Review 1: "{social_proof_reviews[0]}"
+
+Review 2: "{social_proof_reviews[1]}"
+
+⚠️ REQUIREMENT: Use these reviews to create 2 social proof headlines per section.
+Extract powerful phrases, outcomes, and emotions from these reviews.
+
+Examples of social proof headlines:
+- "Customers love our [benefit from review]"
+- "[Number/stat from review] customers agree"
+- "[Powerful phrase from review verbatim]"
+
+═══════════════════════════════════════════════════════════════════
+"""
+
         prompt = f"""You are an ELITE copywriter with 20+ years experience at luxury brands like Tiffany, Hermès, and Burberry. You've written award-winning campaigns for high-end British heritage brands.
 
 Your task: Create EXCEPTIONAL Google Ads copy that captures the exact essence of this luxury brand. This is not a rush job - take your time to craft each line with precision and care.
 {context_section}
+{keyword_section}
+{social_proof_section}
 {website_content}
 
 ROK SPECIFICATIONS AND GUIDELINES:
@@ -283,12 +336,43 @@ BAD HEADLINES - NEVER DO THIS:
    - "Quality Products" (17) ✗ GENERIC - could be any page!
    - "Buy Premium Goods Today" (23) ✗ VAGUE - no specific product details!
 
-SECTIONS (10 headlines each):
-   a) BENEFITS - What makes this irresistible to THEIR target customer
-   b) TECHNICAL - Specific craftsmanship, materials, features from website
-   c) QUIRKY - Clever, sophisticated wit (if brand allows) or elegant wordplay
-   d) CTA - Compelling actions that match the brand's communication style
-   e) BRAND - Heritage, positioning, what makes them uniquely them
+SECTIONS (10 headlines each) - WITH STRUCTURED MIX RATIOS:
+
+   a) BENEFITS (10 headlines total):
+      - 3 headlines featuring the main keyword{' "' + main_keyword + '"' if main_keyword else ' (if provided)'}
+      - 2 headlines with social proof{' from customer reviews' if social_proof_reviews else ' (if reviews provided)'}
+      - 3 headlines with specific benefits from website content
+      - 1 headline with a compelling emotional benefit
+      - 1 headline that addresses a pain point or desire
+
+   b) TECHNICAL (10 headlines total):
+      - 3 headlines featuring specific materials/craftsmanship from website
+      - 2 headlines with technical specifications or features
+      - 2 headlines combining technical + benefit
+      - 2 headlines with product categories/types
+      - 1 headline with manufacturing/origin details
+
+   c) QUIRKY (10 headlines total):
+      - 1 headline with a clever pun (sophisticated, not cheesy)
+      - 3 headlines with elegant wordplay or wit
+      - 3 headlines with unexpected angles or perspectives
+      - 2 headlines with personality and brand character
+      - 1 headline that makes the reader smile
+
+   d) CTA (10 headlines total - MUST use imperative verbs):
+      - ALL 10 headlines must start with action verbs
+      - Suggested verbs: Discover, Shop, Explore, Find, Browse, Experience, Get, Order, View, Buy, Choose, Compare, See, Try, Start, Join, Learn, Book
+      - 4 headlines focused on "Shop/Browse/Explore" actions
+      - 3 headlines focused on "Discover/Experience/Find" actions
+      - 2 headlines focused on "Order/Get/Buy" actions
+      - 1 headline with urgency ("Shop now", "Order today", etc.)
+
+   e) BRAND (10 headlines total):
+      - 3 headlines featuring brand heritage/history
+      - 2 headlines with brand positioning/what makes them unique
+      - 2 headlines with brand values or promises
+      - 2 headlines with awards, recognition, or authority
+      - 1 headline with brand personality
 
 ═══════════════════════════════════════════════════════════════════
 STEP 3: WRITE 50 MASTERFUL DESCRIPTIONS (10 per section)
@@ -350,13 +434,56 @@ BAD DESCRIPTIONS - NEVER DO THIS:
    ✓ Address what THEIR customers actually care about
 
 ═══════════════════════════════════════════════════════════════════
+STEP 4: CREATE 5 WEBSITE HEADLINES (Landing Page Headlines)
+═══════════════════════════════════════════════════════════════════
+
+Now create 5 landing page headlines that match the ad headlines above.
+These will be used on the website landing page to improve Quality Score and relevance.
+
+CRITICAL REQUIREMENTS - "FOUR WORDS TO VALUE" RULE:
+   ✓ Customer must understand the value within the FIRST 4 WORDS
+   ✓ Use subject/predicate structure for cognitive momentum
+   ✓ START with an action verb (Discover, Shop, Explore, Get, Find, etc.)
+   ✓ Make the CUSTOMER the subject - use "you" language, NOT "we"
+   ✓ Emphasize how EASY it is - no work implied, only value received
+   ✓ Match the tone and terminology from your ad headlines above
+
+GOOD WEBSITE HEADLINE STRUCTURE:
+   - "Discover handcrafted leather goods | Free UK delivery" (value clear in "Discover handcrafted leather goods")
+   - "Shop luxury diaries made in Britain since 1887" (value clear in "Shop luxury diaries made")
+   - "Experience British craftsmanship | Premium leather notebooks" (value clear in "Experience British craftsmanship")
+
+BAD WEBSITE HEADLINES (don't do this):
+   - "We make premium products" (starts with "we", not customer-focused)
+   - "Learn about our heritage and history" (implies work, not value)
+   - "Quality goods available for purchase" (passive, no clear value)
+
+Create 5 website headlines (no character limit, but keep under 100 chars for readability).
+
+═══════════════════════════════════════════════════════════════════
+STEP 5: ADD SENTIMENT ANALYSIS
+═══════════════════════════════════════════════════════════════════
+
+For EVERY headline and description, analyze the sentiment and assign a score:
+   - "positive" - Uplifting, aspirational, beneficial, exciting
+   - "neutral" - Factual, informational, descriptive
+   - "negative" - Problem-focused, pain-highlighting (avoid unless strategic)
+
+REQUIREMENT: Aim for 90%+ positive sentiment across all copy.
+Only use neutral for pure facts. Avoid negative sentiment.
+
+═══════════════════════════════════════════════════════════════════
 FINAL QUALITY CHECKLIST - Review before submitting:
 ═══════════════════════════════════════════════════════════════════
 {context_reminder}
 Before you return your JSON, verify:
    □ Have I fully incorporated ALL user-provided context into my copy?
+   □ Have I included the main keyword in at least 3 headlines?{'  ✓ Keyword: "' + main_keyword + '"' if main_keyword else ''}
+   □ Have I used social proof from customer reviews in 2+ headlines per section?{' ✓ Reviews provided' if social_proof_reviews else ''}
    □ Do I have EXACTLY 50 headlines? (10 per section)
    □ Do I have EXACTLY 50 descriptions? (10 per section)
+   □ Do I have EXACTLY 5 website headlines? (following 4-word value rule)
+   □ Have I assigned sentiment scores to EVERY headline and description?
    □ Are 100% of headlines 25-30 characters? (anything under 25 WILL BE REJECTED)
    □ Are 100% of descriptions 80-90 characters? (anything under 80 WILL BE REJECTED)
    □ Is each description ONE complete sentence? (no choppy fragments!)
@@ -381,24 +508,65 @@ ABSOLUTE REQUIREMENTS - STRICTLY ENFORCED:
    ✓ Maximize character space - use full 80-90 chars for descriptions, 25-30 for headlines
    ✓ Brand-specific terminology and features
    ✓ Sophisticated, luxury-appropriate tone
-   ✓ 50 headlines + 50 descriptions minimum
+   ✓ 50 headlines + 50 descriptions + 5 website headlines + sentiment scores
+   ✓ Main keyword included in 3+ headlines{' ("' + main_keyword + '")' if main_keyword else ' (if provided)'}
+   ✓ Social proof from reviews in 2+ headlines per section{' (reviews provided)' if social_proof_reviews else ' (if provided)'}
 
 Return ONLY a valid JSON object in this exact format:
 {{
   "headlines": {{
-    "benefits": ["headline 1", "headline 2", ..., "headline 10"],
-    "technical": ["headline 1", "headline 2", ..., "headline 10"],
-    "quirky": ["headline 1", "headline 2", ..., "headline 10"],
-    "cta": ["headline 1", "headline 2", ..., "headline 10"],
-    "brand": ["headline 1", "headline 2", ..., "headline 10"]
+    "benefits": [
+      {{"text": "headline 1", "sentiment": "positive"}},
+      {{"text": "headline 2", "sentiment": "positive"}},
+      ...  // 10 total
+    ],
+    "technical": [
+      {{"text": "headline 1", "sentiment": "neutral"}},
+      ...  // 10 total
+    ],
+    "quirky": [
+      {{"text": "headline 1", "sentiment": "positive"}},
+      ...  // 10 total
+    ],
+    "cta": [
+      {{"text": "headline 1", "sentiment": "positive"}},
+      ...  // 10 total
+    ],
+    "brand": [
+      {{"text": "headline 1", "sentiment": "positive"}},
+      ...  // 10 total
+    ]
   }},
   "descriptions": {{
-    "benefits": ["description 1", "description 2", ..., "description 10"],
-    "technical": ["description 1", "description 2", ..., "description 10"],
-    "quirky": ["description 1", "description 2", ..., "description 10"],
-    "cta": ["description 1", "description 2", ..., "description 10"],
-    "brand": ["description 1", "description 2", ..., "description 10"]
+    "benefits": [
+      {{"text": "description 1", "sentiment": "positive"}},
+      {{"text": "description 2", "sentiment": "positive"}},
+      ...  // 10 total
+    ],
+    "technical": [
+      {{"text": "description 1", "sentiment": "neutral"}},
+      ...  // 10 total
+    ],
+    "quirky": [
+      {{"text": "description 1", "sentiment": "positive"}},
+      ...  // 10 total
+    ],
+    "cta": [
+      {{"text": "description 1", "sentiment": "positive"}},
+      ...  // 10 total
+    ],
+    "brand": [
+      {{"text": "description 1", "sentiment": "positive"}},
+      ...  // 10 total
+    ]
   }},
+  "website_headlines": [
+    "Website headline 1 (follows 4-word value rule)",
+    "Website headline 2",
+    "Website headline 3",
+    "Website headline 4",
+    "Website headline 5"
+  ],
   "page_info": {{
     "brand": "Brand Name",
     "product": "Main Product/Service",
@@ -450,7 +618,15 @@ Return ONLY the JSON, no other text before or after."""
             for section in required_sections:
                 # Filter headlines: 20-30 chars (Google's hard limit is 30)
                 valid_headlines = []
-                for headline in result["headlines"][section]:
+                for item in result["headlines"][section]:
+                    # Handle both old format (string) and new format (object with text/sentiment)
+                    if isinstance(item, dict):
+                        headline = item.get("text", "")
+                        sentiment = item.get("sentiment", "positive")
+                    else:
+                        headline = item
+                        sentiment = "positive"  # Default sentiment
+
                     char_count = len(headline)
                     if char_count > 30:
                         headlines_removed += 1
@@ -459,13 +635,21 @@ Return ONLY the JSON, no other text before or after."""
                         headlines_too_short += 1
                         print(f"  ⚠ Removed headline (too short: {char_count} chars): {headline}", flush=True)
                     else:
-                        valid_headlines.append(headline)
+                        valid_headlines.append({"text": headline, "sentiment": sentiment})
 
                 result["headlines"][section] = valid_headlines
 
                 # Filter descriptions: 70-90 chars (Google's hard limit is 90)
                 valid_descriptions = []
-                for description in result["descriptions"][section]:
+                for item in result["descriptions"][section]:
+                    # Handle both old format (string) and new format (object with text/sentiment)
+                    if isinstance(item, dict):
+                        description = item.get("text", "")
+                        sentiment = item.get("sentiment", "positive")
+                    else:
+                        description = item
+                        sentiment = "positive"  # Default sentiment
+
                     char_count = len(description)
                     if char_count > 90:
                         descriptions_removed += 1
@@ -474,7 +658,7 @@ Return ONLY the JSON, no other text before or after."""
                         descriptions_too_short += 1
                         print(f"  ⚠ Removed description (too short: {char_count} chars): {description}", flush=True)
                     else:
-                        valid_descriptions.append(description)
+                        valid_descriptions.append({"text": description, "sentiment": sentiment})
 
                 result["descriptions"][section] = valid_descriptions
 

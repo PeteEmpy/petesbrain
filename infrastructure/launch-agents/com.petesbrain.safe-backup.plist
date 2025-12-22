@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.petesbrain.safe-backup</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/administrator/Documents/PetesBrain.nosync/shared/backup-verification/safe-backup.sh</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>21600</integer>
+    <!-- Run every 6 hours -->
+
+    <key>StandardOutPath</key>
+    <string>/Users/administrator/.petesbrain-safe-backup.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/administrator/.petesbrain-safe-backup-error.log</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+</dict>
+</plist>

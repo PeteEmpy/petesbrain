@@ -1,0 +1,536 @@
+{
+  "timestamp": "2025-12-16_111515",
+  "client": "smythson",
+  "csv_file": "/Users/administrator/Documents/PetesBrain.nosync/clients/smythson/spreadsheets/phase2b-post-last-orders-dec17-EXACT.csv",
+  "mode": "DRY_RUN",
+  "accounts": {
+    "7808690871": {
+      "customer_id": "7808690871",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "22796857828": {
+          "campaign_name": "SMY | US | P Max | Bags",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 156.0,
+            "budget_micros": 156000000
+          },
+          "expected_after": {
+            "budget_gbp": 67.61,
+            "budget_micros": 67610000
+          }
+        },
+        "23210838865": {
+          "campaign_name": "SMY | US | P Max | Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 225.0,
+            "budget_micros": 225000000
+          },
+          "expected_after": {
+            "budget_gbp": 97.52,
+            "budget_micros": 97520000
+          }
+        },
+        "18037696979": {
+          "campaign_name": "SMY | US | P Max | H&S",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 375.0,
+            "budget_micros": 375000000
+          },
+          "expected_after": {
+            "budget_gbp": 162.53,
+            "budget_micros": 162530000
+          }
+        },
+        "23232558954": {
+          "campaign_name": "SMY | US | P Max | H&S Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 280.5,
+            "budget_micros": 280500000
+          },
+          "expected_after": {
+            "budget_gbp": 121.57,
+            "budget_micros": 121570000
+          }
+        },
+        "22546298306": {
+          "campaign_name": "SMY | US | PMax | Zombies",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 150.0,
+            "budget_micros": 150000000
+          },
+          "expected_after": {
+            "budget_gbp": 65.01,
+            "budget_micros": 65010000
+          }
+        },
+        "1683494533": {
+          "campaign_name": "SMY | US | Search | Brand Exact",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 841.5,
+            "budget_micros": 841500000
+          },
+          "expected_after": {
+            "budget_gbp": 364.71,
+            "budget_micros": 364710000
+          }
+        },
+        "1602584781": {
+          "campaign_name": "SMY | US | Search | Brand Plus",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 135.0,
+            "budget_micros": 135000000
+          },
+          "expected_after": {
+            "budget_gbp": 58.51,
+            "budget_micros": 58510000
+          }
+        },
+        "23012390791": {
+          "campaign_name": "SMY | US | Search | Brand Plus Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 171.0,
+            "budget_micros": 171000000
+          },
+          "expected_after": {
+            "budget_gbp": 74.11,
+            "budget_micros": 74110000
+          }
+        },
+        "1602585081": {
+          "campaign_name": "SMY | US | Search | Brand | Leather Accessories",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 78.0,
+            "budget_micros": 78000000
+          },
+          "expected_after": {
+            "budget_gbp": 33.81,
+            "budget_micros": 33810000
+          }
+        },
+        "1602584829": {
+          "campaign_name": "SMY | US | Search | Brand | Stationery",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 45.0,
+            "budget_micros": 45000000
+          },
+          "expected_after": {
+            "budget_gbp": 19.5,
+            "budget_micros": 19500000
+          }
+        }
+      }
+    },
+    "7679616761": {
+      "customer_id": "7679616761",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "23257901431": {
+          "campaign_name": "SMY | EUR  | IT  | P Max | Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 75.0,
+            "budget_micros": 75000000
+          },
+          "expected_after": {
+            "budget_gbp": 30.29,
+            "budget_micros": 30290000
+          }
+        },
+        "23253394509": {
+          "campaign_name": "SMY | EUR  | P Max | Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 135.0,
+            "budget_micros": 135000000
+          },
+          "expected_after": {
+            "budget_gbp": 54.51,
+            "budget_micros": 54510000
+          }
+        },
+        "23292938044": {
+          "campaign_name": "SMY | EUR | CH | Search | Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 45.0,
+            "budget_micros": 45000000
+          },
+          "expected_after": {
+            "budget_gbp": 18.17,
+            "budget_micros": 18170000
+          }
+        },
+        "23257639561": {
+          "campaign_name": "SMY | EUR | DE  | P Max | Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 24.0,
+            "budget_micros": 24000000
+          },
+          "expected_after": {
+            "budget_gbp": 9.69,
+            "budget_micros": 9690000
+          }
+        },
+        "23257761115": {
+          "campaign_name": "SMY | EUR | DE | P Max | Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 60.0,
+            "budget_micros": 60000000
+          },
+          "expected_after": {
+            "budget_gbp": 24.23,
+            "budget_micros": 24230000
+          }
+        },
+        "691020848": {
+          "campaign_name": "SMY | EUR | DE | Search | Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 118.5,
+            "budget_micros": 118500000
+          },
+          "expected_after": {
+            "budget_gbp": 47.85,
+            "budget_micros": 47850000
+          }
+        },
+        "23237208923": {
+          "campaign_name": "SMY | EUR | DE | Search | Competitor | Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 16.5,
+            "budget_micros": 16500000
+          },
+          "expected_after": {
+            "budget_gbp": 6.66,
+            "budget_micros": 6660000
+          }
+        },
+        "21512797638": {
+          "campaign_name": "SMY | EUR | DE | Shopping",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 43.5,
+            "budget_micros": 43500000
+          },
+          "expected_after": {
+            "budget_gbp": 17.57,
+            "budget_micros": 17570000
+          }
+        },
+        "23248988334": {
+          "campaign_name": "SMY | EUR | FR | P Max | Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 99.0,
+            "budget_micros": 99000000
+          },
+          "expected_after": {
+            "budget_gbp": 39.98,
+            "budget_micros": 39980000
+          }
+        },
+        "691020884": {
+          "campaign_name": "SMY | EUR | FR | Search | Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 75.0,
+            "budget_micros": 75000000
+          },
+          "expected_after": {
+            "budget_gbp": 30.29,
+            "budget_micros": 30290000
+          }
+        },
+        "23253230592": {
+          "campaign_name": "SMY | EUR | IT | P Max | Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 30.0,
+            "budget_micros": 30000000
+          },
+          "expected_after": {
+            "budget_gbp": 12.11,
+            "budget_micros": 12110000
+          }
+        },
+        "1599767262": {
+          "campaign_name": "SMY | EUR | IT | Search Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 165.0,
+            "budget_micros": 165000000
+          },
+          "expected_after": {
+            "budget_gbp": 66.63,
+            "budget_micros": 66629999
+          }
+        },
+        "23253890345": {
+          "campaign_name": "SMY | EUR | P Max | Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          },
+          "expected_after": {
+            "budget_gbp": 4.04,
+            "budget_micros": 4040000
+          }
+        },
+        "22440993281": {
+          "campaign_name": "SMY | EUR | ROEuro | Search | Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 229.5,
+            "budget_micros": 229500000
+          },
+          "expected_after": {
+            "budget_gbp": 92.67,
+            "budget_micros": 92670000
+          }
+        },
+        "1603775949": {
+          "campaign_name": "SMY | EUR | ROEuro | Search | Brand Diaries and Organisers",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 30.0,
+            "budget_micros": 30000000
+          },
+          "expected_after": {
+            "budget_gbp": 12.11,
+            "budget_micros": 12110000
+          }
+        },
+        "22441297139": {
+          "campaign_name": "SMY | EUR | RONot | Search | Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 40.0,
+            "budget_micros": 40000000
+          },
+          "expected_after": {
+            "budget_gbp": 16.15,
+            "budget_micros": 16149999
+          }
+        }
+      }
+    },
+    "5556710725": {
+      "customer_id": "5556710725",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "19227841675": {
+          "campaign_name": "AUS - brand AUS - brand test to reduce cpc",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 60.0,
+            "budget_micros": 60000000
+          },
+          "expected_after": {
+            "budget_gbp": 29.6,
+            "budget_micros": 29600000
+          }
+        },
+        "22503794801": {
+          "campaign_name": "SMY | ROW | Search | Brand Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 150.0,
+            "budget_micros": 150000000
+          },
+          "expected_after": {
+            "budget_gbp": 74.0,
+            "budget_micros": 74000000
+          }
+        },
+        "23258454848": {
+          "campaign_name": "SMY | ROW | P Max | Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 150.0,
+            "budget_micros": 150000000
+          },
+          "expected_after": {
+            "budget_gbp": 74.0,
+            "budget_micros": 74000000
+          }
+        },
+        "23253385815": {
+          "campaign_name": "SMY | ROW | P Max | Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 7.5,
+            "budget_micros": 7500000
+          },
+          "expected_after": {
+            "budget_gbp": 3.7,
+            "budget_micros": 3700000
+          }
+        },
+        "6552020619": {
+          "campaign_name": "SMY | ROW | Search | Brand Diaries and Organisers",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 22.5,
+            "budget_micros": 22500000
+          },
+          "expected_after": {
+            "budget_gbp": 11.1,
+            "budget_micros": 11100000
+          }
+        },
+        "23241919876": {
+          "campaign_name": "SMY | ROW | Search | Competitor | Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 4.5,
+            "budget_micros": 4500000
+          },
+          "expected_after": {
+            "budget_gbp": 2.22,
+            "budget_micros": 2220000
+          }
+        }
+      }
+    },
+    "8573235780": {
+      "customer_id": "8573235780",
+      "manager_id": "2569949686",
+      "campaigns": {
+        "23194794411": {
+          "campaign_name": "SMY | UK | P Max | Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 396.0,
+            "budget_micros": 396000000
+          },
+          "expected_after": {
+            "budget_gbp": 482.61,
+            "budget_micros": 482610000
+          }
+        },
+        "22845468179": {
+          "campaign_name": "SMY | UK | P Max | H&S",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 375.0,
+            "budget_micros": 375000000
+          },
+          "expected_after": {
+            "budget_gbp": 457.01,
+            "budget_micros": 457010000
+          }
+        },
+        "23021472678": {
+          "campaign_name": "SMY | UK | P Max | H&S - Men's Briefcases Luxury Leather Bags",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 214.5,
+            "budget_micros": 214500000
+          },
+          "expected_after": {
+            "budget_gbp": 261.41,
+            "budget_micros": 261410000
+          }
+        },
+        "23233714033": {
+          "campaign_name": "SMY | UK | P Max | H&S Christmas Gifting",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 346.5,
+            "budget_micros": 346500000
+          },
+          "expected_after": {
+            "budget_gbp": 422.28,
+            "budget_micros": 422280000
+          }
+        },
+        "13811031042": {
+          "campaign_name": "SMY | UK | Search | Brand Exact",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 1290.0,
+            "budget_micros": 1290000000
+          },
+          "expected_after": {
+            "budget_gbp": 1572.12,
+            "budget_micros": 1572120000
+          }
+        },
+        "13813052579": {
+          "campaign_name": "SMY | UK | Search | Brand Plus",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 75.0,
+            "budget_micros": 75000000
+          },
+          "expected_after": {
+            "budget_gbp": 91.4,
+            "budget_micros": 91400000
+          }
+        },
+        "13813053110": {
+          "campaign_name": "SMY | UK | Search | Brand Stationery",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 48.0,
+            "budget_micros": 48000000
+          },
+          "expected_after": {
+            "budget_gbp": 58.5,
+            "budget_micros": 58500000
+          }
+        },
+        "23215754148": {
+          "campaign_name": "SMY | UK | Search | Competitor | Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 30.0,
+            "budget_micros": 30000000
+          },
+          "expected_after": {
+            "budget_gbp": 36.56,
+            "budget_micros": 36560000
+          }
+        },
+        "23074901902": {
+          "campaign_name": "SMY | UK | Search | Generic | Ai",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 15.0,
+            "budget_micros": 15000000
+          },
+          "expected_after": {
+            "budget_gbp": 18.28,
+            "budget_micros": 18280000
+          }
+        },
+        "13810745002": {
+          "campaign_name": "SMY | UK | Search | Semi Brand - Diaries",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 375.0,
+            "budget_micros": 375000000
+          },
+          "expected_after": {
+            "budget_gbp": 457.01,
+            "budget_micros": 457010000
+          }
+        }
+      }
+    }
+  }
+}

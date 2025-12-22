@@ -1,6 +1,6 @@
 ---
 description: Generate weekly Google Ads report for a client
-allowed-tools: Read, Write, Bash, mcp__google-ads__run_gaql, mcp__google-ads__get_client_platform_ids
+allowed-tools: Read, Write, Bash, mcp__google-ads__run_gaql, mcp__platform-ids__get_client_platform_ids
 argument-hint: <client-name>
 ---
 

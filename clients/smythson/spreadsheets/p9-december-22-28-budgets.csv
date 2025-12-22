@@ -1,0 +1,10 @@
+customer_id,manager_id,campaign_id,campaign_name,current_budget_gbp,new_budget_gbp,action,notes
+# P9 Budget Deployment - December 22-28, 2025
+# This CSV will be used multiple times with the Universal Budget Deployer
+# Each day will require running the deploy.py script with the appropriate rows
+#
+# DECEMBER 22 CHANGES - Run morning of Dec 22
+8573235780,2569949686,ALL,UK Account - All Campaigns,999999.00,650.00,BUDGET_CHANGE,Dec 22 - Minimal
+7808690871,2569949686,ALL,USA Account - All Campaigns,999999.00,465.00,BUDGET_CHANGE,Dec 22 - Minimal
+7679616761,2569949686,ALL,EUR Account - All Campaigns,999999.00,270.00,BUDGET_CHANGE,Dec 22 - Minimal
+5556710725,2569949686,ALL,ROW Account - All Campaigns,999999.00,115.00,BUDGET_CHANGE,Dec 22 - Minimal

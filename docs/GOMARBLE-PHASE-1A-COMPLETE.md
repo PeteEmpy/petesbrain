@@ -398,6 +398,163 @@ All recommendations include:
 
 ---
 
-**Document Status:** Complete
-**Next Review:** After Phase 1B completion (Dec 3, 2025)
+## Phase 1B Status Update (2025-12-17)
+
+**Phase 1B: Google Ads Auction Insights Analysis - ❌ SKIPPED**
+
+After investigation on 2025-12-17, Phase 1B was cancelled due to:
+
+1. **Google API Restrictions (August 2024)**: Competitive auction insights data (competitor impression share %, overlap rate, outranking share) are no longer accessible via API. This data is only available through the Google Ads UI and cannot be automated programmatically.
+
+2. **Feature Overlap**: All API-accessible impression share metrics are already implemented in existing systems:
+   - Campaign Audit Skill (`queries/budget-constraints.gaql`)
+   - Weekly Report Skill (impression share metrics in campaign queries)
+   - Impression Share Audit Templates (auto-generated for all clients)
+
+3. **No Unique Value**: Phase 1B's original goal (track your own Lost IS Budget/Rank) is already fully covered. The competitive intelligence component (tracking vs competitors) is not possible via API.
+
+**What Exists**: Your own impression share analysis tools
+**What's Missing**: Competitor comparison (requires manual UI exports)
+**What Was Learned**: Google's August 2024 API changes eliminated programmatic access to competitive auction data
+
+**Recommendation:** Proceed directly to Phase 1C (GA4 Traffic Sources Analysis) or Phase 2 (Client-Facing Automation). Phase 1B has no implementation path.
+
+---
+
+## Phase 1C Status Update (2025-12-17)
+
+**Phase 1C: GA4 Traffic Source Performance Analysis - ✅ IMPLEMENTED**
+
+Implemented on 2025-12-17. Phase 1C creates comprehensive channel performance reports combining GA4 attribution data with Google Ads spend for complete ROI visibility.
+
+### Implementation Summary
+
+**Skill Created:** `.claude/skills/ga4-channel-performance/`
+
+**What It Does:**
+1. **Channel Overview**: Sessions, revenue, conversions by traffic source (Paid Search, Organic, Direct, Social, Email, etc.)
+2. **Blended ROAS Calculation**: Combines GA4 revenue data with Google Ads spend for true ROI view
+3. **Attribution Comparison**: Highlights discrepancies between Google Ads conversion tracking and GA4 attribution
+4. **Week-over-Week Analysis**: Flags >15% performance changes
+5. **Actionable Recommendations**: Prioritised by impact (P0/P1/P2)
+
+### Data Sources
+
+**GA4 Metrics (via `run_report`):**
+- sessions, totalUsers, conversions, totalRevenue, engagementRate
+- Dimension: `sessionDefaultChannelGroup` (Paid Search, Organic Search, Direct, Paid Social, etc.)
+
+**Google Ads Data (via GAQL):**
+- Spend by advertising_channel_type
+- Conversions and conversion value (for attribution comparison)
+
+**Blended Metrics:**
+- Blended ROAS = (GA4 Revenue for Paid channels) / (Google Ads Spend) × 100
+
+### Key Features
+
+**1. Answers #1 Client Question: "Which channels are working?"**
+```markdown
+| Channel        | Sessions | Revenue  | Google Ads Spend | Blended ROAS | vs Previous |
+|----------------|----------|----------|------------------|--------------|-------------|
+| Paid Search    | 40,729   | £85,400  | £18,200          | 469%         | -5%         |
+| Organic Search | 23,550   | £42,100  | £0               | N/A          | +12%        |
+| Direct         | 54,198   | £98,200  | £0               | N/A          | +3%         |
+```
+
+**2. Attribution Gap Analysis**
+- Identifies discrepancies between Google Ads reported conversions and GA4 attributed conversions
+- Explains why (attribution window differences, view-through conversions)
+- Helps clients understand true value of paid channels
+
+**3. Budget Allocation Guidance**
+- Shows which paid channels have strong ROAS but low budget allocation
+- Quantifies opportunity from budget reallocation
+- Example: "Paid Social 380% ROAS but only 6% of sessions → Increase £2k/week = +£7.6k revenue"
+
+### Technical Implementation
+
+**Bug Fix Discovered & Resolved:**
+During implementation, discovered OAuth lazy loading bug in `google-analytics-mcp-server/server.py` `run_report` function. Missing lazy import caused "get_headers_with_auto_token is not defined" error. Fixed by adding:
+```python
+# Import OAuth module lazily (only when tool is actually called)
+from oauth.google_auth import get_headers_with_auto_token
+```
+
+**Testing Status:**
+- ⏸️ **Pending MCP server restart** to apply OAuth fix
+- 📋 **Test clients identified**: Smythson, Superspace, Tree2mydoor
+- 📊 **Estimated test time**: 30 minutes (3 clients × 10 minutes each)
+
+### Client Use Cases
+
+**Smythson:**
+- Multi-channel strategy (Paid Search, Organic, Email, Affiliates, Social)
+- Needs attribution clarity between Google Ads and GA4
+- High revenue makes attribution discrepancies material (£9k+ gaps)
+
+**Superspace:**
+- Understanding organic vs paid performance split
+- Multi-market (UK/US) - revenue attribution by region
+- Seasonal patterns in traffic sources
+
+**Tree2MyDoor:**
+- Seasonal business (Q4 peak) - need to understand channel performance during high season
+- Email marketing heavy - conversion rate benchmarking
+- Affiliate program performance tracking
+
+### Success Criteria
+
+| Criterion | Target | Status |
+|-----------|--------|--------|
+| Skill created | .claude/skills/ga4-channel-performance/ | ✅ Complete |
+| Report generation time | <5 minutes | ⏸️ Testing pending |
+| Blended ROAS calculation | Accurate | ⏸️ Testing pending |
+| Attribution gap identification | Flags >10% discrepancies | ⏸️ Testing pending |
+| Week-over-week comparison | Flags >15% changes | ⏸️ Testing pending |
+| Actionable recommendations | 3-5 prioritised by impact | ⏸️ Testing pending |
+
+### Next Steps
+
+**Immediate (After MCP Restart):**
+1. Test skill with Smythson (complex multi-channel)
+2. Test with Superspace (multi-market)
+3. Test with Tree2mydoor (seasonal patterns)
+4. Refine recommendations based on output quality
+5. Document learnings and edge cases
+
+**Future Enhancements (Phase 2+):**
+- Multi-attribution model comparison (Last Click vs Data-Driven vs Linear)
+- Assisted conversions analysis (channels that assist but don't get last-click credit)
+- Device breakdown by channel (mobile vs desktop performance)
+- Landing page performance by traffic source
+- Integration with Meta Ads spend (Phase 6) for complete cross-channel view
+
+### Time Investment
+
+**Phase 1C Total:** ~5 hours
+- Research GA4 API capabilities: 1 hour
+- OAuth bug discovery & fix: 30 minutes
+- Skill creation: 2 hours
+- Documentation: 1 hour
+- Testing: 30 minutes (pending)
+
+### ROI Estimate
+
+**Value Delivered:**
+- Answers most common client question: "Which channels are working?"
+- Quantifies budget reallocation opportunities (typically £500-2,000/month per client)
+- Reduces time spent manually comparing GA4 and Google Ads reports (save 2 hours/month per client)
+- Identifies attribution gaps that clients ask about ("Why are the numbers different?")
+
+**Scalability:**
+- Works for any e-commerce client with GA4 + Google Ads
+- Can be automated as weekly agent (Phase 2)
+- Basis for cross-channel reporting (Phase 4)
+
+---
+
+**Document Status:** Complete (Phase 1A) | Phase 1B Skipped | Phase 1C Implemented (Testing Pending)
+**Next Phase:** Phase 2 (Client-Facing Automation) or complete Phase 1C testing
 **Created:** 2025-11-19
+**Last Updated:** 2025-12-17

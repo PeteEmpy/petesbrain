@@ -26,6 +26,7 @@
 **Platform IDs**:
 - **Google Ads Customer ID**: 9385103842
 - **Google Merchant Centre ID**: 563545573
+- **Google Search Console Property**: sc-domain:crowdcontrolcompany.co.uk
 - **Google Analytics 4 (GA4) Property ID**: [TBD]
 - **Microsoft Ads Account ID**: [TBD]
 - **Facebook Ads Account ID**: [TBD]
@@ -379,6 +380,40 @@
 - **Note**: All campaigns converged to 170% on Oct 14 - likely strategic decision
 
 **Key Insight**: October 14, 2025 appears to be significant date - all campaigns adjusted to 170% ROAS target. Need to understand business context for this decision.
+
+---
+
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-10-14)
+
+**Product Hero Plan**: Pro Plan (€30/month)
+
+**Campaign ROAS Targets** (All converged to 170% on Oct 14, 2025):
+- **Heroes & Sidekicks**: 170%
+- **Villains**: 170%
+- **Zombies**: 170%
+
+**Convergence Event**: Oct 14, 2025 - All three campaigns adjusted to unified 170% ROAS target
+
+**Rationale**: Strategic decision to standardize ROAS targets across all Product Hero label segments. All campaigns reduced from varying levels (180-210%) to unified 170% target, suggesting volume-driven strategy or market adjustment.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Campaign | Setting | Previous | New | Rationale | Result |
+|------|----------|---------|----------|-----|-----------|--------|
+| 2025-10-14 | Heroes & Sidekicks | ROAS | 190% | 170% | Unified target across campaigns | Current target |
+| 2025-10-14 | Villains | ROAS | 190% | 170% | Unified target across campaigns | Current target |
+| 2025-10-14 | Zombies | ROAS | 190% | 170% | Unified target across campaigns | Current target |
+| 2025-08-26 | Heroes & Sidekicks | ROAS | 180% | 190% | Performance improvement | Reduced to 170% Oct 14 |
+| 2025-08-26 | Zombies | ROAS | 180% | 190% | Performance improvement | Reduced to 170% Oct 14 |
+| 2025-06-05 | Zombies | ROAS | 190% | 180% | Mid-year adjustment | Increased back to 190% Aug 26 |
+| 2025-04-17 | Zombies | ROAS | 180% | 190% | Spring adjustment | Reduced to 180% Jun 5 |
+| 2025-02-24 | Zombies | ROAS | [TBD] | 210% | Initial high target | Progressive reduction began |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness. Part of Connor Heaps portfolio (consistent with Go Glean, Grain Guard).
 
 ---
 

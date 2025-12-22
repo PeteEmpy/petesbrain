@@ -1,0 +1,156 @@
+{
+  "date": "2025-12-16",
+  "client": "Grain Guard",
+  "comparison_date": "2025-12-15",
+  "total_products_today": 109,
+  "total_products_yesterday": 109,
+  "summary": {
+    "changed_products": 6,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 5,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_14857941221760_52570110853504",
+      "title": "Grain Guard Hard Wax Oil With Carnauba & Linseed Oil 500ml: Long Lasting Wood Protection, Water & Stain Resistant, Interior Flooring & Surfaces",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734951280914",
+      "title": "Grain Guard Wood Stain, Water Based, 5 Litre - Medium Oak, Quick Dry, Long Lasting, 12m\u00b2 Coverage, Interior/Exterior, Environmentally Friendly",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734950920466",
+      "title": "Grain Guard Wood Stain 500ml - Dark Walnut - Water Based, Quick Drying, Long Lasting, Interior/Exterior Use, 12m\u00b2/litre Coverage",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784877748498_47734980083986",
+      "title": "Water Based Aerosol Stain | 3 x 400ml - Light Oak",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14857941221760_52570110886272",
+      "title": "Hard Wax Oil For Wood | Long Lasting Wood Protection 1 Litre",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784876241170_47735016947986",
+      "title": "Grain Guard Clear Wax Polish 600ml: Natural Beeswax & Carnauba Polish, Non-Toxic, Water Repellent, UV Protection",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "shopify_GB_8784875847954_47734950920466",
+      "title": "Grain Guard Wood Stain 500ml - Dark Walnut - Water Based, Quick Drying, Long Lasting, Interior/Exterior Use, 12m\u00b2/litre Coverage",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_14857941221760_52570110853504",
+      "title": "Grain Guard Hard Wax Oil With Carnauba & Linseed Oil 500ml: Long Lasting Wood Protection, Water & Stain Resistant, Interior Flooring & Surfaces",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784875847954_47734951280914",
+      "title": "Grain Guard Wood Stain, Water Based, 5 Litre - Medium Oak, Quick Dry, Long Lasting, 12m\u00b2 Coverage, Interior/Exterior, Environmentally Friendly",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784877748498_47734980083986",
+      "title": "Water Based Aerosol Stain | 3 x 400ml - Light Oak",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14857941221760_52570110886272",
+      "title": "Hard Wax Oil For Wood | Long Lasting Wood Protection 1 Litre",
+      "changes": {
+        "custom_label_0": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8784876241170_47735016947986",
+      "title": "Grain Guard Clear Wax Polish 600ml: Natural Beeswax & Carnauba Polish, Non-Toxic, Water Repellent, UV Protection",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

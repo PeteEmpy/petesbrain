@@ -620,4 +620,4 @@ logger.critical() # Agent cannot continue
 - `/infrastructure/hooks/google-ads-change-verification/` - Change verification logging
 
 **Version History:**
-- v1.0 (2025-12-14): Initial logging standards based on Mike Rhodes' 8020Brain template patterns
+- v1.0 (2025-12-14): Initial logging standards based on industry resources template patterns

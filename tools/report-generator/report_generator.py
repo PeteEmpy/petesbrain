@@ -244,7 +244,42 @@ class ReportGenerator:
 
     def _generate_campaign_analysis_report(self, client_name: str, date_range: tuple,
                                           data: Dict[str, Any], options: Dict[str, Any]) -> Dict[str, Any]:
-        """Generate campaign analysis report"""
+        """Generate campaign analysis report using intelligent campaign analyzer"""
+        # Import analyzer here to avoid circular dependencies
+        try:
+            from campaign_analyzer import CampaignAnalyzer
+            analyzer = CampaignAnalyzer()
+
+            # If campaign data provided, use analyzer
+            if 'campaigns' in data and data['campaigns']:
+                analysis = analyzer.analyze_campaigns(
+                    client_slug=client_name,
+                    campaign_data=data['campaigns'],
+                    date_range={'start_date': date_range[0], 'end_date': date_range[1]}
+                )
+                report_data = {
+                    **analysis,
+                    'client_display': client_name.replace('-', ' ').title(),
+                    'generated_date': datetime.now().strftime('%Y-%m-%d')
+                }
+            else:
+                # Fallback to basic structure if no campaign data
+                report_data = self._generate_basic_campaign_report(client_name, date_range, data)
+
+        except ImportError:
+            # Fallback if analyzer not available
+            report_data = self._generate_basic_campaign_report(client_name, date_range, data)
+
+        return {
+            'type': 'campaign_analysis',
+            'client': client_name,
+            'data': report_data,
+            'generated_at': datetime.now().isoformat()
+        }
+
+    def _generate_basic_campaign_report(self, client_name: str, date_range: tuple,
+                                       data: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate basic campaign analysis report (fallback)"""
         report_data = {
             'client_name': client_name,
             'client_display': client_name.replace('-', ' ').title(),

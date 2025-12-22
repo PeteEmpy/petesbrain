@@ -155,6 +155,19 @@ class EmailSyncer:
         logger.info("✅ Gmail authentication successful")
         return True
 
+    def _archive_email(self, msg_id: str) -> bool:
+        """Archive an email by removing it from INBOX."""
+        try:
+            self.service.users().messages().modify(
+                userId='me',
+                id=msg_id,
+                body={'removeLabelIds': ['INBOX']}
+            ).execute()
+            return True
+        except Exception as e:
+            logger.warning(f"  ⚠️  Failed to archive email {msg_id}: {e}")
+            return False
+
     def _slugify(self, text: str, max_length: int = 50) -> str:
         """Convert text to filesystem-safe slug."""
         # Remove special characters
@@ -600,6 +613,12 @@ class EmailSyncer:
                             if self._save_email(email_md, client_folder, subject, email_date):
                                 self.synced_ids.add(msg_id)
                                 stats['newly_synced'] += 1
+
+                                # Archive if configured for this label
+                                archive_labels = self.config['sync'].get('archive_after_sync', [])
+                                if gmail_label in archive_labels:
+                                    if self._archive_email(msg_id):
+                                        logger.debug(f"  📦 Archived: {subject[:50]}")
                             else:
                                 logger.error(f"  ✗ Failed to save email: {subject[:50]}")
                                 stats['errors'] += 1

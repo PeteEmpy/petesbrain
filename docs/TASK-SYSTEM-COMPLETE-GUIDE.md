@@ -380,12 +380,13 @@ cat clients/smythson/tasks.json | python3 -m json.tool
 
 ### Critical Scripts (Use These)
 
-#### 1. generate-tasks-overview.py
-**Purpose**: Generate HTML task manager views
-**Run**: `python3 generate-tasks-overview.py`
+#### 1. generate-all-task-views.py
+**Purpose**: Generate all HTML task manager views (consolidated script)
+**Run**: `python3 generate-all-task-views.py`
 **Output**:
 - `tasks-overview.html` (grouped by client)
 - `tasks-overview-priority.html` (grouped by P0/P1/P2/P3)
+- `tasks-manager.html` (Task Manager & Reminders view)
 
 **When to run**:
 - After adding/completing tasks manually
@@ -479,7 +480,7 @@ If error, fix JSON syntax.
 
 **Check 3: Regenerate HTML**
 ```bash
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 ```
 
 ---

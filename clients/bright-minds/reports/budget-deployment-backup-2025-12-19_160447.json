@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-12-19_160447",
+  "client": "bright-minds",
+  "csv_file": "/Users/administrator/Documents/PetesBrain.nosync/clients/bright-minds/spreadsheets/phase1-dec19-christmas-cutoff.csv",
+  "mode": "DRY_RUN",
+  "accounts": {
+    "1404868570": {
+      "customer_id": "1404868570",
+      "manager_id": null,
+      "campaigns": {
+        "21064167535": {
+          "campaign_name": "BMI | P Max | Generic 43 300 13/10 400 14/10 300 20/10 310 9/11 330 17/11 310 9/12",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 840.0,
+            "budget_micros": 840000000
+          },
+          "expected_after": {
+            "budget_gbp": 60.0,
+            "budget_micros": 60000000
+          }
+        },
+        "2083618047": {
+          "campaign_name": "BMI | Search | Brand 550 20/11",
+          "action": "BUDGET_CHANGE",
+          "expected_before": {
+            "budget_gbp": 64.0,
+            "budget_micros": 64000000
+          },
+          "expected_after": {
+            "budget_gbp": 10.0,
+            "budget_micros": 10000000
+          }
+        }
+      }
+    }
+  }
+}

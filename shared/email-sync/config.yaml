@@ -21,6 +21,7 @@ client_labels:
   "client/uno-lighting": "uno-lighting"
   "AI_news": "roksys/knowledge-base/_inbox/emails"
   "google-reps": "roksys/knowledge-base/_inbox/emails"
+  "ppc-newsletters": "roksys/knowledge-base/_inbox/emails"
 
 # Sync settings
 sync:
@@ -29,6 +30,7 @@ sync:
   include_attachments: true  # Save attachment info in markdown
   mark_as_synced: true  # Add a "synced" label after processing
   sync_sent_emails: true  # Also sync sent emails to clients
+  archive_after_sync: ["ppc-newsletters", "AI_news"]  # Labels to auto-archive after syncing (NOT google-reps - may have meeting invites)
 
 # Email file naming
 # Format: YYYY-MM-DD_subject-slug.md
@@ -36,5 +38,5 @@ filename_format: "{date}_{subject}.md"
 max_filename_length: 100
 
 # Directories
-base_dir: "/Users/administrator/Documents/PetesBrain"
+base_dir: "/Users/administrator/Documents/PetesBrain.nosync"
 sync_state_file: ".email-sync-state.json"  # Tracks synced email IDs

@@ -1,0 +1,2052 @@
+{
+  "audit_date": "2025-12-16",
+  "total_clients": 16,
+  "total_tasks": 94,
+  "overdue_tasks": 69,
+  "old_tasks": 1,
+  "clients": [
+    {
+      "client": "accessories-for-the-home",
+      "path": "clients/accessories-for-the-home/tasks.json",
+      "tasks": [
+        {
+          "id": "bc46b621-635e-4c4e-9311-79c616b66945",
+          "title": "[Accessories For The Home] Black Friday week monitoring (Nov 25-29)",
+          "type": "child",
+          "parent_id": "3e84e7e6-66fc-4282-bfc2-fb51d38eae80",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-29",
+          "time_estimate_mins": 30,
+          "notes": "PEAK WEEK MONITORING - Final phase of Q4 scaling strategy.\n\nDAILY CHECKS:\nMon Nov 25: Algorithm adjustment check, spend pacing\nTue Nov 26: First full day performance, CR check\nWed Nov 27: Mid-week assessment, competitor activity\nThu Nov 28: UK performance, stock availability\nFri Nov 29: PEAK DAY - hourly monitoring if needed\n\nKEY METRICS:\n- Total week spend vs. previous weeks\n- Total conversions and revenue\n- Daily ROAS (maintain 4.0+ company-wide)\n- Conversion rate (0.50%+ target)\n- Impression share\n- Competitive pressure\n\nRED FLAGS (immediate action):\n\u26a0\ufe0f CR below 0.45% for 2+ days \u2192 ROAS increase\n\u26a0\ufe0f ROAS below 3.5 \u2192 Immediate adjustment\n\u26a0\ufe0f Stock issues \u2192 Reduce spend\n\u26a0\ufe0f Feed errors \u2192 Immediate fix\n\nWEEKEND REVIEW (Nov 30):\n- Full week performance analysis\n- Revenue vs. expectations\n- Profitability (4.0 ROAS met?)\n- Lessons learned\n- December strategy\n\nCLIENT COMMUNICATION:\n- Daily updates if Sam requests\n- Immediate red flag alerts\n- End of week summary",
+          "source": "Client request - Sam (via Claude conversation Nov 18)",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T13:54:58.892817",
+          "updated_at": "2025-11-18T13:54:58.892818",
+          "completed_at": null
+        },
+        {
+          "id": "f5529ae6-aa64-45d4-a3bf-ad5f30a575ce",
+          "title": "[Accessories For The Home] Generic Search Campaign - Implementation & Review",
+          "type": "parent",
+          "parent_id": null,
+          "children": [
+            "4feccec7-7971-4f4d-ae38-4964f9e8add7"
+          ],
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 140,
+          "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\n\nPARENT TASK: Oversees implementation and monitoring of new generic search campaign strategy.\n\n**Campaign:** AFH | Search | Generic (Campaign ID: 23272357581)\n**Strategy:** Create new generic search campaigns for AFH to capture longer-tail queries (questions, comparisons, inspiration) that PMax and Shopping campaigns miss.\n\n**Implementation Details:**\n- Budget: \u00a350/day\n- ROAS Target: 190%\n- AI Max: Enabled (broadened match)\n- First Ad Group: Dining Chairs (mix of broad and exact match)\n- Keywords: luxury furniture, artisan furniture\n- Exclusions: Top-performing keywords from existing campaigns excluded\n\n**Daily Monitoring Schedule:** Nov 19-25 (7 days)\n- Spend level vs \u00a350/day budget\n- Search query quality\n- Conversion tracking\n- Quality score trends\n- Impression share\n- PMax performance (cannibalisation check)\n\n**Full Review:** Nov 25, 2025\n- Performance vs 190% ROAS target\n- Search term analysis for expansion opportunities\n- Incremental traffic assessment\n- Decision: Scale budget or add more ad groups",
+          "source": "Meeting Notes - Nov 10, 2025",
+          "tags": [
+            "meeting-action-item",
+            "nov-2025",
+            "generic-search",
+            "ai-max"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T16:48:44.656290",
+          "updated_at": "2025-11-18T16:48:44.656312",
+          "completed_at": null
+        },
+        {
+          "id": "4feccec7-7971-4f4d-ae38-4964f9e8add7",
+          "title": "[Accessories For The Home] Daily monitoring: Generic search campaign (Dining Chairs)",
+          "type": "child",
+          "parent_id": "f5529ae6-aa64-45d4-a3bf-ad5f30a575ce",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 20,
+          "notes": "\u26a0\ufe0f CRITICAL: Check DAILY - Nov 19-25 (15-20 mins each day)\n\nPRIMARY CHECK: Spend level vs \u00a350/day budget\n- Is spend pacing correctly? (should be ~\u00a350/day)\n- Any overspend or underspend patterns?\n- Budget exhaustion issues?\n\nSECONDARY CHECKS:\n- Search query quality (are they generic/intent-based?)\n- Any conversions recorded\n- Quality score trends\n- Impression share\n- No significant PMax performance drop (cannibalisation check)\n\nCampaign: AFH | Search | Generic (ID: 23272357581)\nAd Group: Dining Chairs\nBudget: \u00a350/day\nROAS Target: 190%\nAI Max: Enabled\n\nFull week review on Nov 25, 2025 to assess:\n- Performance vs 190% ROAS target\n- Search term analysis for expansion opportunities\n- Incremental traffic (not stealing from PMax)\n- Decision: Scale budget or add more ad groups\n\n---\n**UPDATE (Nov 24):** Pushed to next week - campaign getting very little traffic. Low priority during Black Friday/Cyber Monday week when main campaigns need focus.",
+          "source": "Task completion follow-up",
+          "tags": [
+            "monitoring",
+            "generic-search",
+            "ai-max",
+            "daily"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T16:48:44.658607",
+          "updated_at": "2025-11-18T16:48:44.658609",
+          "completed_at": null
+        },
+        {
+          "id": "2a8780ee-60b4-4712-8a68-a570cc96f630",
+          "title": "[Accessories For The Home] ROAS 150% Check - Fri Nov 29 (Black Friday)",
+          "type": "child",
+          "parent_id": "d0d79d40-f721-496b-a4c1-ac69b5e1fd1b",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-29",
+          "time_estimate_mins": 30,
+          "notes": "BLACK FRIDAY CHECK - 5 days after ROAS reduction to 150%\n\n**CRITICAL DAY - Peak traffic expected**\n\n**DETAILED CHECKS:**\n\u25a1 Impression share - target 40%+ by now\n\u25a1 Daily spend - should be near/at \u00a31,800\n\u25a1 ROAS - maintain 3.5+ (ideally 4.0+)\n\u25a1 Conversion rate - 0.45%+ threshold\n\u25a1 Revenue vs previous Black Friday (if data available)\n\u25a1 Competitive pressure - auction insights\n\n**CAMPAIGNS TO CHECK:**\n- 20276730131: AFH | P Max | H&S Zombies Furniture\n- 21527979308: AFH | Shopping | Furniture | Villains\n- 22138672752: AFH | Shopping | Accessories | H&S\n- 21289230716: AFH | P Max Shopping | Accessories | Villains\n\n**EXPECTED AT THIS POINT:**\n- Smart Bidding fully adjusted to 150% target\n- Impression share should be recovering\n- Peak day volume - spend should hit budget\n- ROAS may dip slightly due to competitive pressure (acceptable)\n\n**ACTION IF CONCERNING:**\nIf ROAS below 3.0 \u2192 Revert to 170% immediately (peak day, can't risk poor performance)\nIf metrics good \u2192 Continue through Cyber Monday weekend",
+          "source": "Follow-up from Nov 24 ROAS reduction",
+          "tags": [
+            "roas-monitoring",
+            "black-friday",
+            "q4-scaling"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-24T14:35:53.169785",
+          "updated_at": "2025-11-24T14:35:53.169785",
+          "completed_at": null
+        },
+        {
+          "id": "00a0905d-ad3b-4db5-a753-c3011ffaad60",
+          "title": "[Accessories For The Home] ROAS 150% Full Review - Tue Dec 2 (Post-Cyber Monday)",
+          "type": "child",
+          "parent_id": "d0d79d40-f721-496b-a4c1-ac69b5e1fd1b",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 45,
+          "notes": "POST-CYBER MONDAY FULL REVIEW - 8 days after ROAS reduction\n\n**COMPREHENSIVE ANALYSIS:**\n\u25a1 Full week impression share trend (Nov 24 - Dec 1)\n\u25a1 Total spend vs budget over the period\n\u25a1 Average ROAS across all campaigns\n\u25a1 Conversion rate trend\n\u25a1 Revenue comparison: This week vs previous week\n\u25a1 Black Friday/Cyber Monday weekend performance\n\n**CAMPAIGNS TO REVIEW:**\n| Campaign ID | Campaign Name |\n|-------------|---------------|\n| 20276730131 | AFH | P Max | H&S Zombies Furniture |\n| 21527979308 | AFH | Shopping | Furniture | Villains |\n| 22138672752 | AFH | Shopping | Accessories | H&S |\n| 21289230716 | AFH | P Max Shopping | Accessories | Villains |\n\n**DECISION FRAMEWORK:**\n\nOPTION A: CONTINUE AT 150%\n- Trigger: Impression share recovered (50%+), ROAS 3.5+, CR 0.45%+\n- Action: Continue through December\n- Rationale: 150% working well\n\nOPTION B: REVERT TO 170%\n- Trigger: ROAS below 3.5 OR CR below 0.45% OR revenue disappointing\n- Action: Revert all 4 campaigns to 170%\n- Commands below\n\nOPTION C: FURTHER REDUCTION TO 130%\n- Trigger: Impression share still low (<40%) but ROAS/CR very strong (4.5+/0.55%+)\n- Action: Further reduce to capture more volume\n- Only if metrics exceptionally strong\n\n**REVERT COMMANDS (if needed):**\n```\nmcp__google-ads__update_campaign_target_roas(customer_id=\"7972994730\", campaign_id=\"20276730131\", target_roas=1.7)\nmcp__google-ads__update_campaign_target_roas(customer_id=\"7972994730\", campaign_id=\"21527979308\", target_roas=1.7)\nmcp__google-ads__update_campaign_target_roas(customer_id=\"7972994730\", campaign_id=\"22138672752\", target_roas=1.7)\nmcp__google-ads__update_campaign_target_roas(customer_id=\"7972994730\", campaign_id=\"21289230716\", target_roas=1.7)\n```",
+          "source": "Follow-up from Nov 24 ROAS reduction",
+          "tags": [
+            "roas-monitoring",
+            "cyber-monday",
+            "q4-scaling",
+            "dec-2025"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-24T14:35:53.169785",
+          "updated_at": "2025-11-24T14:35:53.169785",
+          "completed_at": null
+        },
+        {
+          "id": "f8c8cb9e-a937-492e-9cf6-55dfbf2541aa",
+          "title": "[Accessories For The Home] Review Product Hero ROAS change impact (180% \u2192 150%)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-17",
+          "time_estimate_mins": null,
+          "notes": "Review impact of ROAS reduction from 180% to 150% in Product Hero (60-day date range). Current baseline: 194% ROAS from product campaigns. Analyse product-level performance changes.",
+          "source": "Manual",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-10T09:31:38.042216",
+          "updated_at": "2025-12-10T09:31:38.042218",
+          "completed_at": null
+        },
+        {
+          "id": "38cbfe67-a4c5-4479-9974-612374e46094",
+          "title": "[Accessories For The Home] Investigate Search Generic Zero-Conversion Campaign",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-13",
+          "time_estimate_mins": 30,
+          "notes": "**From Weekly Report - 6th December 2025**\n\n**Issue:** Search Generic Max Conv campaign spent \u00a373 with 0 conversions in 7 days (30 Nov - 6 Dec).\n\n**Expected Impact:** \u00a3300+/month waste if trend continues.\n\n**Action:** \n1. Review search terms report for campaign ID 23272357581\n2. Identify if keywords are relevant to business\n3. Check if any queries have potential\n4. If no conversions by 13th December, pause campaign to stop waste\n\n**Supporting Data:**\n- Spend: \u00a373 (0.8% of account)\n- Clicks: 21\n- Impressions: 508\n- 0 conversions, \u00a30 revenue\n- CPC: \u00a33.48\n\n**Meets threshold:** Zero conversions + >\u00a350 weekly spend = \u00a3300/mo waste (Threshold 4)\n\n**Campaign Details:**\n- Name: AFH | Search | Generic Max Conv\n- ID: 23272357581\n- Appears to be new or recently reactivated\n",
+          "source": "Weekly Report - 6th December 2025",
+          "tags": [
+            "weekly-report",
+            "optimization",
+            "search-campaign",
+            "zero-conversions",
+            "waste-reduction"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-06T15:58:14.947002",
+          "updated_at": "2025-12-06T15:58:14.947006",
+          "completed_at": null
+        }
+      ],
+      "count": 7
+    },
+    {
+      "client": "bright-minds",
+      "path": "clients/bright-minds/tasks.json",
+      "tasks": [
+        {
+          "id": "5c96c158-4d6b-46b6-94d1-e946aa769a8c",
+          "title": "[Bright Minds] Review Search Brand Campaign Target ROAS Change Results",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-04",
+          "time_estimate_mins": 30,
+          "notes": "Review impact of target ROAS reduction from 800% to 550% (changed Nov 20, 2025).\n\n**What to check:**\n- Conversion volume change (expect +20-40%)\n- ROAS performance (should maintain 500%+)\n- Impression share (should maintain or improve from 91.8%)\n- Spend changes (may increase \u00a315-30/day)\n- Conversion quality (check for any degradation)\n\n**Context:**\n- Previous target: 800% (unrealistic, 289.6pp above actual)\n- New target: 550% (more achievable)\n- Actual pre-change ROAS: 510.4%\n- Learning period: 14 days (Nov 20 - Dec 4)\n\n**Note:** Black Friday week (Nov 25-29) will affect data - separate baseline improvement from seasonal effects.\n\n**Reference:**\n- Campaign: BMI | Search | Brand 550 20/11 (ID: 2083618047)\n- Completion log: /clients/bright-minds/tasks-completed.md\n- Audit report: /clients/bright-minds/audits/20251120-campaign-audit.md",
+          "source": "Manual",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-20T22:25:14.933423",
+          "updated_at": "2025-11-20T22:25:14.933631",
+          "completed_at": null
+        }
+      ],
+      "count": 1
+    },
+    {
+      "client": "clear-prospects",
+      "path": "clients/clear-prospects/tasks.json",
+      "tasks": [
+        {
+          "id": "fe703d8b-cdb6-4eec-877a-4ecc436e959c",
+          "title": "[Clear Prospects] BMPM - Review Missing Shipping Issues (non-condom products)",
+          "client": "clear-prospects",
+          "priority": "P0",
+          "due_date": "2025-11-25",
+          "time_estimate_mins": null,
+          "notes": "**Priority**: MEDIUM\n**Products Affected**: Subset of 23 disapproved products (excluding condoms)\n\n**Issue**: Missing shipping configuration on some products\n\n**Note**: BMPM has 23 total disapprovals:\n- Condom products (policy violation - EXPECTED, no action)\n- Missing shipping (technical issue - NEEDS FIX)\n- Sensitive content (expected for some products)\n\n**Action Items**:\n1. Access BMPM Merchant Center (ID: 7522326)\n2. Filter disapprovals to identify missing shipping issues\n3. Exclude condom-related policy violations (expected)\n4. Fix shipping configuration for affected products\n\n**Expected Impact**: Restore non-condom products with shipping issues\n\n**Reference**: See /tools/product-impact-analyzer/DISAPPROVAL-ACTION-PLAN.md",
+          "source": "Migrated from Google Tasks (Nov 18, 2025)",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T08:14:56.349022",
+          "updated_at": "2025-11-18T08:14:56.349024",
+          "completed_at": null
+        }
+      ],
+      "count": 1
+    },
+    {
+      "client": "crowd-control",
+      "path": "clients/crowd-control/tasks.json",
+      "tasks": [
+        {
+          "id": "473c9c5f-73cb-4322-b983-1ff365d304b1",
+          "title": "[Crowd Control] Investigate Product CTR Collapse for Top Products",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P2",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Imported from Google Tasks on 2025-11-18",
+          "source": "Google Tasks Import",
+          "tags": [
+            "google-tasks-import"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T13:24:39.497693",
+          "updated_at": "2025-11-18T13:24:39.497694",
+          "completed_at": null
+        },
+        {
+          "id": "3f678c9f-7bad-47a6-87bd-f5f9e48a0049",
+          "title": "[Crowd Control] Review Shopping Campaign Test Results (Belt Barrier & Floor Stand)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-18",
+          "time_estimate_mins": 30,
+          "notes": "EXPERIMENT CHECK: Review Shopping campaign test created 2025-12-11 for Belt Barrier 10-Pack and Floor Sign Stands.\n\nBackground: Posts/panels products showing 0% ROAS due to WooCommerce conversion tracking issues. This Shopping campaign test was created to establish baseline and verify tracking is working.\n\nReview Focus:\n- Any conversions recorded? (success = conversions >0)\n- ROAS performance (target: >100% to show improvement)\n- Click volume and CTR trends\n- Compare to main PMax performance\n- If conversions tracking: Proceed with broader shopping campaign rollout\n- If still 0 conversions: WooCommerce update needed before scaling\n\nExperiment Log: clients/crowd-control/documents/experiments-log.md",
+          "source": "Shopping campaign test - 2025-12-11",
+          "tags": [
+            "experiment",
+            "shopping-campaign",
+            "conversion-tracking"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-11T13:52:37.105813",
+          "updated_at": "2025-12-11T13:52:37.105980",
+          "completed_at": null
+        },
+        {
+          "id": "43588119-8f23-4d53-b80d-f38b5fbfb440",
+          "title": "[Crowd Control] Review Product Hero Settings Experiment Results",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-17",
+          "time_estimate_mins": 60,
+          "notes": "Review results of Product Hero settings changes made Dec 10:\n- Clicks threshold: 61 \u2192 51\n- ROAS target: 120% \u2192 147%\n\nCompare performance metrics from Dec 10 baseline to Dec 17 (7-day period).\nAnalyse impact on revenue, ROAS, conversions, and number of heroes.\n\nReference: clients/crowd-control/documents/experiments-log.md",
+          "source": "Experiment Review Workflow",
+          "tags": [
+            "experiment",
+            "product-hero",
+            "review",
+            "performance-analysis"
+          ],
+          "status": "active",
+          "created_at": "2025-12-10T12:50:53.271389",
+          "updated_at": "2025-12-10T12:50:53.271556",
+          "completed_at": null
+        },
+        {
+          "id": "10pack-barriers-exp-001",
+          "title": "[Crowd Control] Monitor 10-Pack Barriers Shopping Campaign (First 7-Day Review)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-18",
+          "time_estimate_mins": 90,
+          "notes": "**EXPERIMENT: 10-PACK BARRIERS SHOPPING CAMPAIGN TEST**\n\n**Campaign Details:**\n- Campaign Name: \"Shopping 10-pack barriers test\"\n- Target ROAS: 150%\n- Products Explicitly Targeted:\n  * Product 14332 - Rope Barrier 10 Pack - Polished Brass (1.8m Rope & Sign Frame)\n  * Product 8025 - Belt Barrier 10 Pack - Black Post\n- Budget: \u00a325-30/day (test budget)\n- Duration: 2-3 weeks (ongoing monitoring)\n- Start Date: December 11, 2025\n\n**Background & Rationale:**\nThese two 10-pack variants are selling well (\u00a32,042 total in November) but weren't being directly advertised. WooCommerce data shows demand exists but Google Ads shows \u00a30 attributed revenue. This test validates whether direct advertising drives incremental sales.\n\n**Metrics to Review at Day 7 (Dec 18):**\n1. **Volume Metrics:**\n   - Impressions (total, daily average)\n   - Clicks (total, daily average, CTR)\n   - Conversions (count, conversion rate)\n\n2. **Revenue Metrics:**\n   - Revenue attributed by Google Ads\n   - ROAS achieved vs 150% target\n   - Cost per conversion\n   - Compare to WooCommerce actuals (May reveal attribution gaps)\n\n3. **Product-Level Performance:**\n   - Product 14332 (Rope Barrier 10-pack) metrics separately\n   - Product 8025 (Belt Barrier 10-pack) metrics separately\n   - Compare performance between the two products\n\n4. **Cannibalization Check:**\n   - Monitor 4-pack (Product 7969) and 6-pack (Product 8017) performance\n   - Check if 10-pack campaign is stealing volume from existing packs\n   - If major cannibalization detected, may need to adjust strategy\n\n5. **Feed Status:**\n   - Verify both products remain approved in Merchant Center\n   - Check for any feed errors or disapprovals\n   - Confirm conversion tracking is working\n\n**Decision Framework (Dec 18 Review):**\n- **ROAS \u2265 150%**: Campaign is meeting targets \u2192 Scale up budget by 20-30%\n- **ROAS 100-149%**: Underperforming but viable \u2192 Continue at same budget, review messaging/targeting, collect more data\n- **ROAS < 100%**: Below profitability threshold \u2192 Pause campaign, investigate root cause (pricing, positioning, targeting too broad)\n\n**Next Actions (Post-Review):**\n1. Document findings in: clients/crowd-control/documents/10pack-campaign-review-[DATE].md\n2. Send performance summary to Jeremy with recommendation\n3. If continuing, schedule follow-up review for Dec 25 (2-week mark) for more conclusive data\n4. Monitor daily for first 7 days to catch any critical issues early\n\n**Related Analysis:**\n- Initial investigation: clients/crowd-control/documents/email-posts-stands-analysis-and-next-steps-2025-12-10.html\n- Product-level data: Google Ads Product Impact Analyzer (Product IDs 14332, 8025)\n\n**Success Criteria:**\n- Achieves 150% ROAS target (indicates product demand is real)\n- Generates \u00a3200+ revenue in first 7 days\n- No major cannibalization from existing pack sizes\n- Conversion tracking shows consistent data across Google Ads and WooCommerce",
+          "source": "Experiment Setup - December 11, 2025",
+          "tags": [
+            "experiment",
+            "shopping-campaign",
+            "10-pack-barriers",
+            "product-8025",
+            "product-14332",
+            "review-scheduled"
+          ],
+          "context": {
+            "products_tested": [
+              14332,
+              8025
+            ],
+            "campaign_name": "Shopping 10-pack barriers test",
+            "target_roas": "150%",
+            "test_duration_days": 21,
+            "budget_per_day": "\u00a325-30"
+          },
+          "status": "active",
+          "created_at": "2025-12-11T00:00:00.000000",
+          "updated_at": "2025-12-11T00:00:00.000000",
+          "completed_at": null
+        }
+      ],
+      "count": 4
+    },
+    {
+      "client": "devonshire-hotels",
+      "path": "clients/devonshire-hotels/tasks.json",
+      "tasks": [
+        {
+          "id": "b0de9fbb-215f-4159-8d71-36bde04bea09",
+          "title": "[Devonshire] Investigate Pilsley Inn zero conversions",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-01",
+          "time_estimate_mins": 60,
+          "notes": "**From Weekly Report - 2025-11-30**\n\n**Issue:** Pilsley Inn campaign spending \u00a3169.31/week with zero conversions\n\n**Expected Impact:** \u00a3677/month wasted spend if tracking issue or poor targeting\n\n**Action:**\n1. Check conversion tracking is functioning correctly\n2. Review search terms report for traffic quality\n3. Verify campaign settings (location targeting, keywords, match types)\n4. Consider pausing if no improvement by end of week\n\n**Supporting Data:**\n- Campaign ID: 19534106385\n- Spend (Nov 23-29): \u00a3169.31\n- Conversions: 0\n- Clicks: 413\n- Previous week: 2.5 conversions, 1,238% ROAS (significant drop)\n\n**Threshold Met:** Zero conversions + >\u00a350 spend (Threshold 2)\n",
+          "source": "Weekly Report - 2025-11-30",
+          "tags": [
+            "weekly-report",
+            "optimization",
+            "conversion-tracking",
+            "zero-conversions"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-30T15:55:54.391872",
+          "updated_at": "2025-11-30T15:55:54.391875",
+          "completed_at": null
+        },
+        {
+          "id": "d5476670-d63e-48f6-9e37-e8a47febddd8",
+          "title": "[Devonshire Hotels] Integrate Hide reporting with main campaigns",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P1",
+          "due_date": "2025-12-31",
+          "time_estimate_mins": 90,
+          "notes": "Source: Nov 13, 2025 meeting with Helen and Gary\nAction: Integrate Hide property reporting into main campaign reporting\nTimeline: Next month (December 2025)\nDependency: Awaiting exact date Hide conversion tracking went live from Gary",
+          "source": "Meeting Notes - Nov 13, 2025",
+          "tags": [
+            "meeting-action-item",
+            "dec-2025"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T13:33:05.249360",
+          "updated_at": "2025-11-18T13:33:05.249362",
+          "completed_at": null
+        },
+        {
+          "id": "bdfebdc5-4bbf-4ff2-af35-9ba3e909a7fd",
+          "title": "[Devonshire] Analyse property campaign budgets and recommend increases to Helen",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P1",
+          "due_date": "2025-12-26",
+          "time_estimate_mins": 90,
+          "notes": "\u26a0\ufe0f RECURRING WEEKLY TASK - EVERY THURSDAY\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\ud83d\udccb COPY AND PASTE THIS INTO CLAUDE:\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nAnalyse Devonshire property campaign budgets (month-to-date) and create recommendations for Helen. Identify campaigns above 570% ROAS target that can scale, and underperformers to reduce. Create analysis document and email draft. Exclude The Hide and Self-Catering.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nWHAT THIS GENERATES:\n\n1. Fresh Google Ads data query (Nov 1 through current date)\n2. Campaign-by-campaign ROAS analysis vs 570% target\n3. Analysis document: clients/devonshire-hotels/documents/budget-optimization-analysis-[DATE].md\n4. Email draft: clients/devonshire-hotels/documents/email-draft-[DATE]-budget-optimization.html\n5. Two reallocation options (revenue-neutral vs modest increase)\n\nKEY PRINCIPLES:\n\n- Focus on campaigns where budget increases maintain ROAS (no degradation)\n- Apply October learnings: Brand search scales 2-3x better than PMax\n- Dev Arms achieved 4,006% incremental ROAS in Oct test\n- PMax only achieved 573% (failed to scale)\n- Look for campaigns consistently above target with room to grow\n- Identify zero/low performers to reduce or pause\n\nEXCLUDE FROM ANALYSIS:\n- The Hide (separate \u00a32k budget)\n- Self-Catering campaigns (separate reporting)\n- Castles (separate budget)\n- Weddings (separate budget)\n\nIMPORTANT: Data must be pulled fresh on Thursday, not in advance.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nDECEMBER 2025 COMPLETION:\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\n\u2705 **15 December 2025 Analysis Complete**\n\n**Documents Created:**\n- Analysis: clients/devonshire-hotels/documents/budget-optimization-analysis-2025-12-15.md\n- Email draft: clients/devonshire-hotels/documents/email-draft-2025-12-15-budget-optimization.html\n\n**Key Finding:**\n- The Beeley Inn: 828% ROAS (258 points above target) - strong scaling opportunity\n- Recommendation: Increase budget from \u00a318/day to \u00a333/day (+\u00a315/day)\n- Expected impact: +\u00a31,200/month revenue, overall ROAS 330% \u2192 450%\n\n**Decision: HOLD UNTIL JANUARY**\n- Christmas period volatility makes budget changes risky\n- Re-evaluate first/second week of January 2026\n- Analysis ready for immediate implementation in new year\n\n**Next Action:** Run this analysis again in early January (2-9 Jan) to confirm opportunity still exists post-Christmas, then implement if validated.\n\n---\nNote (2025-11-24): Demoted to P1. Should only escalate to P0 when approaching due date.\n",
+          "source": "Recurring weekly task",
+          "tags": [
+            "budget",
+            "optimization",
+            "analysis",
+            "email",
+            "recurring:weekly"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T18:43:54.476061",
+          "updated_at": "2025-12-15T11:06:39.508482",
+          "completed_at": null
+        },
+        {
+          "id": "dev-asset-optimisation-followup-20251202",
+          "title": "[Devonshire] Follow up on PMAX asset optimisation review with Helen",
+          "description": "Check if Helen has reviewed the 35 HIGH priority assets in the Google Sheet and marked her selections. If no response, send gentle reminder. If reviewed, implement approved changes.\n\nSheet: https://docs.google.com/spreadsheets/d/1pnIhgZ96wRR8j-mgR4Ur660d9NH5n9H9Qf33X8wJk7A/edit\nOriginal email sent: 2025-11-26",
+          "priority": "P0",
+          "status": "active",
+          "due_date": "2025-01-15",
+          "created_date": "2025-11-26",
+          "tags": [
+            "devonshire",
+            "pmax",
+            "asset-optimisation",
+            "client-followup"
+          ],
+          "notes": "**PERFORMANCE DATA (2025-12-15 - UPDATED):**\n\n**Before Asset Changes (Nov 1-25):**\n- Spend: \u00a31,753.18\n- Conversions: 16\n- Revenue: \u00a310,782.71\n- ROAS: **615%**\n- Cost per Conversion: \u00a3109.57\n\n**After Asset Changes (Nov 26 - Dec 15):**\n- Spend: \u00a31,311.41\n- Conversions: 7\n- Revenue: \u00a34,605.01\n- ROAS: **351%**\n- Cost per Conversion: \u00a3187.34\n\n**PERFORMANCE IMPACT:**\n- ROAS: **-264 percentage points** (-43% decline)\n- Conversion Rate: -71% worse (cost per conversion increased 71%)\n- Revenue: **-\u00a36,177.70** (-57% decline)\n\n**DECISION: Hold and re-test mid-January 2026**\n\nReason: December is seasonal (holiday bookings behaviour changes) + conversion lag (people click in late Nov/Dec but book after holidays). Performance evaluation suspended until mid-January 2026 to account for:\n1. Post-Christmas booking patterns normalising\n2. Conversion attribution lag clearing\n3. Full cycle of new assets running\n\n**Re-test Date:** 15 January 2026\n\n**Success Criteria (January):**\n- If ROAS recovers to 550%+, keep new assets\n- If ROAS remains <400%, revert to previous asset set and document learnings\n\n**ASSET PERFORMANCE ANALYSIS COMPLETED: 2025-12-15**\n\nDetailed asset-level performance analysis saved to:\n`clients/devonshire-hotels/documents/pmax-asset-performance-analysis-2025-12-15.md`\n\n**Asset Quality Findings:**\n- Award/recognition headlines performing well (6-12% CTR)\n- Long headlines across all 3 properties getting minimal impressions (need refreshing)\n- The Fell has excellent CTR (10-17%) but poor ROAS (142%) - conversion/landing page issue\n- Food/dining focused assets outperform generic luxury messaging\n- Direct CTAs achieving 11%+ CTR\n\n**Next Action (Mid-Jan 2026):** Review ROAS performance after seasonal period. If ROAS remains <400%, revert to original asset set. If recovered to 550%+, implement recommended optimizations (refresh long headlines, amplify award messaging).",
+          "updated_at": "2025-12-15T10:57:24.817118"
+        },
+        {
+          "id": "a368e196-3a70-4225-aa5f-7694819441b1",
+          "title": "[Devonshire Hotels] Chatsworth Escapes - Self-Catering Campaign Conversion Collapse and Landing Page Change",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": 120,
+          "notes": "**EXPERIMENT CONTEXT:**\nThis is tracking the Chatsworth Escapes landing page A/B test that launched Nov 4, 2025. The conversion collapse coincided with the test start, affecting BOTH variants equally.\n\n**Performance Data:**\n- Nov 1-20: Only 1 conversion (\u00a3299 revenue, \u00a3330 spend, 91% ROAS)\n- Historical baseline: 0.43% CR\n- Current: 0.14% CR\n\n**Other Campaigns (Benchmarks):**\n\u2705 Bolton Abbey Self Catering: Converting normally (542% ROAS, 3 conversions)\n\u2705 All hotel campaigns: Converting normally (49+ conversions)\n\u274c Chatsworth showing lower conversion volume\n\n**A/B TEST STATUS:**\n- **Started:** Nov 4, 2025\n- **Ends:** Nov 30, 2025 (30-day test)\n- **Key Finding:** BOTH variants performing equally poorly (suggests issue isn't the landing page variants)\n- **Critical:** DO NOT kill test early - self-catering has long booking lead times (need full 30 days for conversion lag)\n\n**INVESTIGATION PRIORITIES:**\n\n1. **Availability Issues** (HIGH PRIORITY)\n   - EMAIL SENT: Gary contacted Nov 20 to check Chatsworth website/availability\n   - EXPECTED RESPONSE: Nov 21\n   - Question: Did Chatsworth properties go offline, sell out, or have pricing changes around Nov 4?\n\n2. **Technical Issues**\n   - Are there Chatsworth-specific site issues affecting both variants?\n   - Check booking flow, form submissions, payment processing\n\n3. **Seasonal Factors**\n   - Nov is traditionally slower for self-catering bookings\n   - Compare to Nov 2024 performance for Chatsworth\n\n**NEXT STEPS:**\n\n**Immediate (Nov 21):**\n- Receive Gary's response on availability/website changes\n- If availability issue found: Pause campaign OR reduce budget until resolved\n\n**Ongoing (Nov 21-30):**\n- Continue monitoring BOTH A/B test variants\n- Do NOT make changes that invalidate the test\n- Track daily: impressions, clicks, CTR, bounce rate, conversion rate\n\n**Final Analysis (Dec 1):**\n- Compare full 30-day results for both landing page variants\n- Account for booking lead time lag (some Nov conversions may attribute in Dec)\n- Determine if conversion collapse was due to:\n  a) Availability/external factors (not test-related)\n  b) Landing page changes (both variants equally bad)\n  c) Seasonal drop (compare to 2024)\n\n**Success Criteria:**\n- If availability issue: Resolve and retest\n- If landing page issue: Revert to original page\n- If seasonal: Accept lower Nov performance, revisit Dec/Jan\n\n**Note:** This task combines investigation + experiment tracking since both are intertwined.",
+          "source": "Manual (A/B Test + Investigation)",
+          "tags": [
+            "ab-test",
+            "experiment",
+            "conversion-investigation",
+            "chatsworth-escapes"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-20T12:55:17.238154",
+          "updated_at": "2025-11-20T14:25:00.000000",
+          "completed_at": null
+        },
+        {
+          "id": "18f751e7-2f54-490a-a2d9-8333e91fd8c8",
+          "title": "[Devonshire] Expand asset optimization from PMax to RSAs",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P2",
+          "due_date": "2026-01-15",
+          "time_estimate_mins": 120,
+          "notes": "Expand the asset optimization process from Performance Max campaigns to Responsive Search Ads (RSAs).\n\n**Background:**\nPMax asset text optimization has been successfully implemented and is now a monitored key process. This optimization approach uses:\n- Asset performance tracking\n- AI-powered replacement suggestions based on landing page content\n- Google Sheet approval workflow for client review\n- Data-driven approach to improve click-through rates and conversion performance\n\n**What to Do:**\n1. Review current RSA campaigns in Devonshire account\n2. Identify RSAs with poor-performing headlines/descriptions\n3. Extract current text assets from RSAs\n4. Generate replacement suggestions using same AI approach as PMax\n5. Create approval sheet for Helen to review\n6. Implement approved changes\n7. Monitor performance impact\n\n**Tools to Use:**\n- `.claude/skills/pmax-text-asset-optimizer/` - Adapt workflow for RSAs\n- `mcp__google-ads__replace_rsa_text_assets()` - Apply changes\n- Google Sheets for client approval workflow\n\n**Success Criteria:**\n- RSA optimization process documented\n- Initial round of RSA improvements implemented\n- Performance tracking in place\n- Process repeatable for future optimization cycles\n\n**Timeline:** ~3 weeks (allows time for PMax optimization to fully roll out first)\n\n**Deferred to:** Mid-January 2026 (after PMax asset testing period concludes mid-January 2025)",
+          "source": "Process improvement - expanding optimization to RSAs",
+          "tags": [
+            "asset-optimization",
+            "rsa",
+            "process-improvement",
+            "text-assets"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-04T13:08:46.746050",
+          "updated_at": "2025-12-12T10:49:25.495819",
+          "completed_at": null
+        },
+        {
+          "id": "5c55d138-5136-401c-a5c1-0b9555b0dfb8",
+          "title": "[Devonshire Hotels] Integrate The Hide reporting with main hotel campaigns",
+          "client": "devonshire-hotels",
+          "priority": "P0",
+          "due_date": "2025-11-22",
+          "time_estimate_mins": 60,
+          "notes": "From Nov 13 meeting: Starting December monthly report, integrate The Hide (\u00a32,000/month budget) into main hotel reporting instead of tracking separately. Currently tracked separately, needs to be combined for December presentation.",
+          "source": "Meeting",
+          "tags": [
+            "reporting",
+            "the-hide",
+            "december"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:16:11.168166",
+          "updated_at": "2025-11-18T09:17:29.611121",
+          "completed_at": null
+        }
+      ],
+      "count": 7
+    },
+    {
+      "client": "go-glean",
+      "path": "clients/go-glean/tasks.json",
+      "tasks": [
+        {
+          "id": "24664304-94fa-40d0-ab8e-1dcc96b557b2",
+          "title": "[GoGlean] Verify PMAX Non Grout campaign status - shows PAUSED but spending \u00a3176/week",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Root cause analysis detected campaign status mismatch:\n- Campaign ID: 20915839147\n- Shows PAUSED in API but has \u00a3176 spend (48% of total)\n- Driving 49% of conversions\n- Check Google Ads UI for actual status\n- If meant to be paused: stop spend immediately\n- If meant to be enabled: update status in system",
+          "source": "Manual",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-05T15:38:40.353687",
+          "updated_at": "2025-12-05T15:38:40.353881",
+          "completed_at": null
+        },
+        {
+          "id": "f8b0346b-5b73-4b06-9133-62fcbefad3f1",
+          "title": "[GoGlean] Investigate Shopping Catch All AOV drop (\u00a332 \u2192 \u00a321, -35%)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P1",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Root cause analysis found:\n- Campaign: Shopping Catch All (ID: 22439893575)\n- Same conversions (13) but revenue dropped \u00a3144 (-35%)\n- AOV crashed from \u00a332.11 \u2192 \u00a321.02\n- This is primary driver of ROAS drop (252% \u2192 219%)\n- Action: Query product-level data to identify which low-value products are selling\n- Expected: Restore high-value product sales mix",
+          "source": "Manual",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-05T15:38:40.380618",
+          "updated_at": "2025-12-05T15:38:40.380621",
+          "completed_at": null
+        }
+      ],
+      "count": 2
+    },
+    {
+      "client": "godshot",
+      "path": "clients/godshot/tasks.json",
+      "tasks": [
+        {
+          "id": "302a60b3-fe7e-42df-9285-7e6045c08c03",
+          "title": "[Godshot] Test Budget Reduction to Improve ROAS",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-03",
+          "time_estimate_mins": 30,
+          "notes": "**From Weekly Report - 2025-11-18**\n\n**Issue:** Current \u00a3200/day budget appears above optimal efficiency point. ROAS declining as spend increases.\n\n**Expected Impact:** Improve ROAS 534% \u2192 600%+ by reducing to more efficient spend level\n\n**Action:**\n1. After completing asset group optimization, reduce budget from \u00a3200/day to \u00a3180/day\n2. Monitor ROAS for 7 days\n3. If ROAS improves, hold for another 7 days\n4. Then test incremental increases (\u00a310/day steps) to find optimal budget\n5. Target: Maintain 650%+ ROAS while maximizing volume\n\n**Supporting Data:**\n- Current budget: \u00a3200/day\n- Current ROAS: 534% (spent \u00a31,401 last week)\n- Hypothesis: Algorithm spending inefficiently to hit budget target\n- Strategy: Find efficiency sweet spot before scaling\n",
+          "source": "Weekly Report - 2025-11-18",
+          "tags": [
+            "weekly-report",
+            "optimization",
+            "budget-testing"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-19T16:17:21.505516",
+          "updated_at": "2025-11-19T16:17:21.505517",
+          "completed_at": null
+        },
+        {
+          "id": "c7d3f2e8-a5b9-4c1d-9e3a-2f6g8h1j5k2l",
+          "title": "[Godshot] Investigate Room 1015 fragrance feed issue - products not appearing in Google Shopping",
+          "client": "godshot",
+          "priority": "P1",
+          "status": "in_progress",
+          "created_date": "2025-12-10T14:30:00Z",
+          "due_date": "2025-12-11T17:00:00Z",
+          "type": "technical",
+          "notes": "Sam reports: Room 1015 fragrances added to WooCommerce a few days ago but not showing in Google Shopping ads. Need to verify: 1) Products correctly added to Merchant Centre feed 2) Feed has refreshed (typically 24-48 hours) 3) No product-level disapprovals 4) Product IDs match between WooCommerce and feed (known issue with godshot account)",
+          "context": {
+            "product_brand": "Room 1015",
+            "product_type": "Fragrances",
+            "merchant_centre_id": "5291405839",
+            "woocommerce_url": "https://mygodshot.com",
+            "known_issue": "Previous product ID mismatches between Google feed and WooCommerce IDs"
+          }
+        },
+        {
+          "id": "931c2f4f-6876-4d87-8f27-5fc59757384c",
+          "title": "[Godshot] Audit PMax Asset Groups - Pause Underperformers",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-26",
+          "time_estimate_mins": 90,
+          "notes": "**From Weekly Report - 2025-11-18**\n\n**Issue:** Known underperforming asset groups (Fellow, Rains, Coffee Generic) likely consuming 30-40% of budget with minimal returns.\n\n**Expected Impact:** +\u00a3500-800/month revenue by reallocating budget to winning products\n\n**Action:**\n1. Pull asset group performance report from Google Ads\n2. Identify conversion value and ROAS by asset group\n3. Pause asset groups with <400% ROAS\n4. Reallocate freed budget to winning asset groups (700%+ ROAS)\n5. Monitor for 7 days to verify impact\n\n**Supporting Data:**\n- Campaign: \"GOD | P Max 700\"\n- Current ROAS: 534% (blended across all asset groups)\n- Target ROAS: 700%\n- Known issues: Fellow, Rains, Coffee Generic previously flagged\n- Budget: \u00a3200/day (\u00a31,400/week)\n",
+          "source": "Weekly Report - 2025-11-18",
+          "tags": [
+            "weekly-report",
+            "optimization",
+            "asset-group-audit"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-19T16:17:21.505137",
+          "updated_at": "2025-11-19T16:17:21.505139",
+          "completed_at": null
+        },
+        {
+          "id": "6daec498-2ac4-4273-b4ec-04c9aa68045e",
+          "title": "[Godshot] Send monthly Google Ads report to Sam",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": null,
+          "notes": "**SEND ON FIRST WEEKDAY OF MONTH**\n\nGenerate and send monthly Google Ads performance report to Sam at Godshot.\n\n**Report Details:**\n\u2022 Period: Previous month (full month)\n\u2022 Format: Email with performance summary\n\u2022 Client: Godshot\n\u2022 Contact: Sam\n\n**Key Metrics to Include:**\n\u2022 Revenue and conversions\n\u2022 ROAS performance\n\u2022 Budget spend vs target\n\u2022 Top performing products/campaigns\n\u2022 Month-over-month comparison\n\u2022 Key insights and recommendations\n\n**Action Items:**\n1. Pull Google Ads data for previous month\n2. Generate performance summary\n3. Draft email report\n4. Send to Sam at Godshot\n\nSource: Recurring monthly task (due on first weekday of each month)",
+          "source": "Recurring Task",
+          "tags": [
+            "recurring:monthly"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-19T18:07:34.837570",
+          "updated_at": "2025-11-19T18:07:34.837580",
+          "completed_at": null
+        }
+      ],
+      "count": 4
+    },
+    {
+      "client": "grain-guard",
+      "path": "clients/grain-guard/tasks.json",
+      "tasks": [
+        {
+          "id": "1c4b139b-f452-4d22-b9b9-c46a220ba49d",
+          "title": "[Grain Guard] Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaigns",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P2",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Imported from Google Tasks on 2025-11-18",
+          "source": "Google Tasks Import",
+          "tags": [
+            "google-tasks-import"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T13:24:39.495876",
+          "updated_at": "2025-11-18T13:24:39.495879",
+          "completed_at": null
+        },
+        {
+          "id": "2b0333d7-ae00-4f98-9ed4-b8b5e7a94bd9",
+          "title": "[Grain Guard] Review Sept 11 'Shopping Only' campaign switch and document initial performance impact",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P2",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Imported from Google Tasks on 2025-11-18",
+          "source": "Google Tasks Import",
+          "tags": [
+            "google-tasks-import"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T13:24:39.496137",
+          "updated_at": "2025-11-18T13:24:39.496138",
+          "completed_at": null
+        },
+        {
+          "id": "a8f3c9e2-7d5b-4a1e-9c8f-2e6b4d8a7f3c",
+          "title": "[Grain Guard] run weekly report",
+          "client": "grain-guard",
+          "priority": "P1",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Source: Quick capture from voice note\n\nQuick task created without AI analysis.",
+          "source": "Quick Capture",
+          "tags": [
+            "grain-guard"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-19T16:30:00.000000",
+          "updated_at": "2025-11-19T16:30:00.000000",
+          "completed_at": null
+        }
+      ],
+      "count": 3
+    },
+    {
+      "client": "just-bin-bags",
+      "path": "clients/just-bin-bags/tasks.json",
+      "tasks": [
+        {
+          "id": "ee9bfe47-f1b8-4c22-891f-13aa73ff42f4",
+          "title": "[MEDIUM] Just Bin Bags - Fix Landing Page Errors (6 products)",
+          "client": "just-bin-bags",
+          "priority": "P0",
+          "due_date": "2025-11-22",
+          "time_estimate_mins": null,
+          "notes": "**Priority**: MEDIUM\n**Products Affected**: 6 products with landing page errors\n\n**Issue**: Product URLs returning 404 errors\n\n**Action Items**:\n1. Access Just Bin Bags Merchant Center (ID: 181788523)\n2. Export list of 6 disapproved products\n3. Test each product URL for errors\n4. Fix broken links, redirects, or restore missing pages\n\n**Expected Impact**: Restore 6 products\n\n**Reference**: See /tools/product-impact-analyzer/DISAPPROVAL-ACTION-PLAN.md",
+          "source": "Migrated from Google Tasks (Nov 18, 2025)",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T08:14:56.349893",
+          "updated_at": "2025-11-18T08:14:56.349896",
+          "completed_at": null
+        }
+      ],
+      "count": 1
+    },
+    {
+      "client": "national-motorsports-academy",
+      "path": "clients/national-motorsports-academy/tasks.json",
+      "tasks": [
+        {
+          "id": "nma-week2-task6",
+          "title": "[NMA] Week 2: Review Target CPA Performance (Nov 29)",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-29",
+          "time_estimate_mins": 60,
+          "notes": "CRITICAL REVIEW: Analyse 3-week performance since Nov 10 Target CPA implementation. Compare CPAs to targets: UK Search (\u00a3100 target), ROW Search (\u00a350 target), UK Management (\u00a3150 target). Decision framework: Within 20% of target = continue; 20-50% above = reduce budget 10-15%; 50%+ above = review structure. Budget adjustments: ROW Engineering \u00a340\u2192\u00a380/day if performing well.",
+          "source": "NMA 3-Week Plan - Week 2 Task 6",
+          "tags": [
+            "target-cpa-review",
+            "critical",
+            "budget-decision",
+            "week-2"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568248",
+          "updated_at": "2025-11-18T14:35:39.568249",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week2-task8",
+          "title": "[NMA] Week 2: Create Country-Specific ROW Campaigns (US, UAE)",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": 240,
+          "notes": "Create 2 geo-targeted campaigns: (1) 'NMA | Search | US | Engineering' - \u00a330/day budget, \u00a360 target CPA, US-focused keywords, US career outcomes in ads, alumni sitelinks. (2) 'NMA | Search | UAE | Engineering' - \u00a320/day budget, \u00a340 target CPA, Middle East education terms, UAE partnerships in ads. Run alongside ROW Management for 2 weeks (compare Nov 29-Dec 13). Pause ROW Management only if country campaigns prove superior. Expected: 2-4 US conversions, 1-2 UAE conversions in first month.",
+          "source": "NMA 3-Week Plan - Week 2 Task 8",
+          "tags": [
+            "geo-targeting",
+            "campaign-creation",
+            "us-uae",
+            "week-2"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568253",
+          "updated_at": "2025-11-18T14:35:39.568254",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week3-task10",
+          "title": "[NMA] Week 3: Add Callout Extensions",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-04",
+          "time_estimate_mins": 60,
+          "notes": "Create shared callout set (40+ callouts) for all active campaigns. Categories: Programme Benefits ('Industry Partnerships', 'Practical Experience', 'Career Support'), Study Flexibility ('Online & On-Campus Options', 'Flexible Payment Plans', 'Study While You Work'), Credibility ('Accredited Programmes', 'Expert Tutors', 'Award-Winning Institution'), Outcomes ('95% Employment Rate', 'Global Alumni Network', 'Professional Accreditation'). Expected: +5-8% CTR, better ad real estate, improved quality score.",
+          "source": "NMA 3-Week Plan - Week 3 Task 10",
+          "tags": [
+            "callouts",
+            "extensions",
+            "week-3"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568257",
+          "updated_at": "2025-11-18T14:35:39.568258",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week3-task11",
+          "title": "[NMA] Week 3: Expand ROW Engineering Keyword Portfolio",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-05",
+          "time_estimate_mins": 120,
+          "notes": "ROW Engineering is best performer (\u00a334,744 CPA vs \u00a3169k average). Add 15-20 related keywords: automotive engineering courses, motorsport engineering online, automotive technology degree, vehicle engineering programmes, racing engineering courses, automotive design degree, motorsport management degree, automotive engineering masters online. Match types: 70% Broad, 30% Exact. Budget consideration: Increase \u00a340\u2192\u00a380/day if Nov 29 review shows strong performance. Expected: +10-15 additional conversions/month.",
+          "source": "NMA 3-Week Plan - Week 3 Task 11",
+          "tags": [
+            "keyword-expansion",
+            "row-engineering",
+            "week-3"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568259",
+          "updated_at": "2025-11-18T14:35:39.568260",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week3-task12",
+          "title": "[NMA] Week 3: Create Separate Engineering Asset Group (PMax)",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-06",
+          "time_estimate_mins": 180,
+          "notes": "UK PMax may be diluting performance across multiple degree types. Create dedicated 'Engineering Programmes' asset group: 15 headlines (e.g., 'Motorsport Engineering Degrees', 'Start Your Engineering Career', 'BSc Automotive Engineering Online'), 5 long headlines, 5 descriptions (accredited programmes combining theory and practice), engineering-specific images (labs, cars, projects), student testimonial videos, engineering landing pages only. Expected: +5-10 conversions/month, lower CPA for engineering leads.",
+          "source": "NMA 3-Week Plan - Week 3 Task 12",
+          "tags": [
+            "pmax",
+            "asset-group",
+            "engineering",
+            "week-3"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568261",
+          "updated_at": "2025-11-18T14:35:39.568262",
+          "completed_at": null
+        },
+        {
+          "id": "nma-2025-12-02-001",
+          "title": "[NMA] Review conversion performance week 25 Nov - 1 Dec",
+          "client": "national-motorsports-academy",
+          "priority": "P2",
+          "status": "pending",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 15,
+          "notes": "**Follow-up from zero-conversion investigation (completed 26 Nov)**\n\nCheck conversion performance for the week to ensure tracking continues working and monitor low-volume conversion pattern.\n\n**Context:**\n- Account has very low conversion rate (0.007%)\n- Previous week: 2 conversions on Fri 22 Nov, zero all other days\n- Tracking confirmed working - this is performance issue, not technical issue\n\n**Quick Check:**\n1. Run GAQL for 25 Nov - 1 Dec to see daily conversions\n2. If conversions present: No action needed, continue monitoring via weekly reports\n3. If zero conversions all week: Escalate to P0 and investigate further",
+          "source": "Manual follow-up",
+          "tags": [
+            "conversion-tracking",
+            "monitoring",
+            "low-priority"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-26T13:48:42.679848",
+          "updated_at": "2025-11-26T13:48:42.680215"
+        },
+        {
+          "id": "25f918c5-c731-49dc-8927-931700255774",
+          "title": "[NMA] 3-Week Improvement Plan (Nov 17 - Dec 8, 2025)",
+          "type": "parent",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-12-08",
+          "time_estimate_mins": null,
+          "notes": "Complete 3-week improvement plan to increase conversions from 47.8 to 55-65/month and reduce CPA from \u00a3169k to \u00a3130-150k.\n\n**Plan Overview:**\n- Week 1 (Nov 17-24): Foundation improvements (sitelinks, keywords, demographic analysis)\n- Week 2 (Nov 25-Dec 1): Optimization (demographics, country campaigns, keyword cleanup)\n- Week 3 (Dec 2-8): Expansion (callouts, keyword expansion, PMax asset groups, reporting)\n\n**Source:** NMA strategic planning session (Nov 17, 2025)\n**Client Context:** Paul Riley approved 3-week aggressive optimization period",
+          "source": "Strategic Planning Session (Nov 17, 2025)",
+          "tags": [
+            "nma-improvement-plan",
+            "strategic-initiative"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-19T14:05:29.666325",
+          "updated_at": "2025-11-19T14:05:29.666535",
+          "completed_at": null,
+          "children": [
+            "c3789809-2629-4429-a90d-45c7d42ea30f",
+            "fa2f019a-00bd-47ce-b972-9ea15c213a53",
+            "e35aa144-e1da-4b7b-a1e6-332f9ca0d8fa",
+            "1ac9879f-3793-4149-9adf-ae785110d001",
+            "9a177a6f-bf90-455d-ad30-f306e1db3438"
+          ]
+        },
+        {
+          "id": "e35aa144-e1da-4b7b-a1e6-332f9ca0d8fa",
+          "title": "[NMA] Week 3: Add callout extensions (40+ callouts across campaigns)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-12-03",
+          "time_estimate_mins": 60,
+          "notes": "Target: 40+ callouts across active campaigns\n\nCallout Categories:\n- Program Benefits: \"Industry Partnerships\", \"Practical Experience\", \"Career Support\"\n- Study Flexibility: \"Online & On-Campus Options\", \"Flexible Payment Plans\", \"Study While You Work\"\n- Credibility: \"Accredited Programs\", \"Expert Tutors\", \"Award-Winning Institution\"\n- Outcomes: \"95% Employment Rate\", \"Global Alumni Network\", \"Professional Accreditation\"\n\nImplementation:\n- Create shared callout set (apply to all campaigns)\n- Focus on unique selling points vs generic claims\n- Ensure compliance with Google Ads policy (substantiate claims)\n\nExpected Impact:\n- +5-8% CTR improvement\n- Better ad real estate (callouts increase ad size)\n- Improved quality score",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 3 Item #10",
+          "tags": [
+            "nma-improvement-plan",
+            "callouts",
+            "ad-extensions",
+            "ctr-improvement"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:17:17.771992",
+          "updated_at": "2025-11-18T09:17:17.772195",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "1ac9879f-3793-4149-9adf-ae785110d001",
+          "title": "[NMA] Week 3: Expand ROW Engineering keyword portfolio (15-20 keywords)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-12-04",
+          "time_estimate_mins": 120,
+          "notes": "Strategy:\n- ROW Engineering is best-performing campaign (\u00a334,744 CPA vs \u00a3169k average)\n- Add 15-20 related keywords based on Nov 17 additions\n\nNew Keywords to Consider:\n- automotive engineering courses\n- motorsport engineering online\n- automotive technology degree\n- vehicle engineering programs\n- racing engineering courses\n- automotive design degree\n- motorsport management degree\n- automotive engineering masters online\n\nMatch Type Strategy:\n- 70% Broad (capture wider intent)\n- 30% Exact (high-intent converters)\n\nBudget Consideration:\n- Current: \u00a340/day (recommend \u00a380/day if Nov 29 review shows strong performance)\n\nExpected Impact:\n- +10-15 additional conversions/month from ROW Engineering\n- Reduced CPA as campaign scales (better data for Target CPA)\n\nLabel: PB_2025",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 3 Item #11",
+          "tags": [
+            "nma-improvement-plan",
+            "keyword-expansion",
+            "row-engineering",
+            "scaling"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:17:17.773845",
+          "updated_at": "2025-11-18T09:17:17.773848",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "9a177a6f-bf90-455d-ad30-f306e1db3438",
+          "title": "[NMA] Week 3: Create separate Engineering asset group in PMax",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-12-05",
+          "time_estimate_mins": 180,
+          "notes": "Current Problem:\n- UK PMax campaign may be diluting performance across multiple degree types\n- Engineering degrees have different audience, creative needs\n\nNew Asset Group Structure:\n\nAsset Group: Engineering Programs\n- Headlines (15): Engineering-specific\n  - \"Motorsport Engineering Degrees\"\n  - \"Start Your Engineering Career\"\n  - \"BSc Automotive Engineering Online\"\n  - \"Masters in Motorsport Engineering\"\n  - [+ 11 more engineering-specific headlines]\n\n- Long Headlines (5): Engineering focus\n  - \"Study Motorsport Engineering with Industry Leaders\"\n  - [+ 4 more]\n\n- Descriptions (5): Engineering content\n  - \"Accredited engineering degrees combining theory and practice...\"\n  - [+ 4 more]\n\n- Images: Engineering-specific (labs, cars, projects)\n- Videos: Engineering student testimonials\n- Final URLs: Engineering landing pages only\n\nExpected Impact:\n- Better audience segmentation (engineering-interested signals)\n- Improved ad relevance for engineering searches\n- +5-10 conversions/month from PMax\n- Lower CPA for engineering-specific leads",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 3 Item #12",
+          "tags": [
+            "nma-improvement-plan",
+            "pmax",
+            "asset-group",
+            "segmentation"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:17:17.775054",
+          "updated_at": "2025-11-18T09:17:17.775058",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "c3789809-2629-4429-a90d-45c7d42ea30f",
+          "title": "[NMA] Week 2: Review Target CPA performance (3 weeks post-implementation)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-11-29",
+          "time_estimate_mins": 60,
+          "notes": "Review Date: Nov 29, 2025 (3 weeks after Nov 10 Target CPA implementation)\n\nAnalysis:\n- Pull 3-week performance: Nov 10-29\n- Compare CPAs to targets:\n  - UK Search: Target \u00a3100, Current?\n  - ROW Search: Target \u00a350, Current?\n  - UK Management: Target \u00a3150, Current?\n\nDecision Framework:\n- If CPA within 20% of target: Continue, no changes\n- If CPA 20-50% above target: Reduce budget 10-15%\n- If CPA 50%+ above target: Review campaign structure\n\nBudget Adjustment Criteria:\n- ROW Engineering: If performing well, increase budget \u00a340\u2192\u00a380/day\n- UK Management: If still >\u00a31M CPA, consider pausing (despite earlier decision)\n- ROW Management: Monitor closely (currently 0 conversions)",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 2 Item #6",
+          "tags": [
+            "nma-improvement-plan",
+            "target-cpa-review",
+            "decision-point"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:12:51.421121",
+          "updated_at": "2025-11-18T09:12:51.421325",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "fa2f019a-00bd-47ce-b972-9ea15c213a53",
+          "title": "[NMA] Week 2: Create country-specific ROW campaigns (US & UAE)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-11-28",
+          "time_estimate_mins": 240,
+          "notes": "Current Problem:\n- ROW Management: \u00a3660k spend, 0 conversions\n- ROW campaigns too broad, lack localization\n\nNew Campaign Structure:\n\nCampaign 1: NMA | Search | US | Engineering\n- Daily Budget: \u00a330\n- Target CPA: \u00a360\n- Keywords: US-focused engineering terms\n- Ad copy: Reference US career outcomes, accreditation\n- Sitelinks: US application process, alumni in US\n\nCampaign 2: NMA | Search | UAE | Engineering\n- Daily Budget: \u00a320\n- Target CPA: \u00a340\n- Keywords: Middle East engineering education terms\n- Ad copy: Reference UAE partnerships, regional relevance\n- Sitelinks: International student support\n\nMigration Strategy:\n- Do NOT pause ROW Management immediately\n- Run country campaigns alongside for 2 weeks\n- Compare performance Nov 29-Dec 13\n- Pause ROW Management only if country campaigns prove superior\n\nExpected Impact:\n- Better ad relevance for US/UAE audiences\n- Lower CPCs (improved quality scores)\n- 2-4 conversions from US campaign in first month\n- 1-2 conversions from UAE campaign in first month",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 2 Item #8",
+          "tags": [
+            "nma-improvement-plan",
+            "campaign-creation",
+            "geographic-targeting"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:12:51.423564",
+          "updated_at": "2025-11-18T09:12:51.423566",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "nma-demo-adjust-week1",
+          "title": "[NMA] Demographic Adjustments - Week 1 Impact Check",
+          "client": "national-motorsports-academy",
+          "priority": "P2",
+          "due_date": "2025-12-18",
+          "time_estimate_mins": 20,
+          "notes": "Quick 1-week snapshot after demographic bid adjustments (applied 2025-12-11).\n\n**Metrics to Check:**\n- Management campaigns conversions (Dec 11-18)\n- CPA trend for adjusted demographics (Age 35-54, Parents)\n- Any anomalies or issues\n\n**Action if needed:**\n- If major negative impact (>20% CPA increase), flag for immediate review\n- Otherwise, continue monitoring\n\n**Baseline:** Nov 1-11 pre-adjustment metrics",
+          "source": "Demographic Adjustments Monitoring Plan",
+          "tags": [
+            "demographic-adjustments",
+            "monitoring",
+            "week-1"
+          ],
+          "context": {},
+          "status": "pending",
+          "created_at": "2025-12-11T15:15:00.000000",
+          "updated_at": "2025-12-11T15:15:00.000000",
+          "completed_at": null,
+          "type": "standalone",
+          "parent_id": null
+        },
+        {
+          "id": "nma-demo-adjust-week2",
+          "title": "[NMA] Demographic Adjustments - Week 2 Impact Check",
+          "client": "national-motorsports-academy",
+          "priority": "P2",
+          "due_date": "2025-12-25",
+          "time_estimate_mins": 20,
+          "notes": "2-week check after demographic bid adjustments (applied 2025-12-11).\n\n**Metrics to Check:**\n- Management campaigns conversions (Dec 11-25)\n- CPA by age demographic (35-44, 45-54, 55-64)\n- Budget allocation shifts\n- Any holiday impact on conversions\n\n**Look for:**\n- Early trends in CPA improvement (target: 5-8%)\n- Budget shifting to younger, higher-converting segments\n- Any unexpected issues\n\n**Action if needed:**\n- If trend positive: continue monitoring\n- If flat/negative: prepare analysis for Jan 11 review",
+          "source": "Demographic Adjustments Monitoring Plan",
+          "tags": [
+            "demographic-adjustments",
+            "monitoring",
+            "week-2"
+          ],
+          "context": {},
+          "status": "pending",
+          "created_at": "2025-12-11T15:15:00.000000",
+          "updated_at": "2025-12-11T15:15:00.000000",
+          "completed_at": null,
+          "type": "standalone",
+          "parent_id": null
+        },
+        {
+          "id": "nma-demo-adjust-week3",
+          "title": "[NMA] Demographic Adjustments - Week 3 Impact Check",
+          "client": "national-motorsports-academy",
+          "priority": "P2",
+          "due_date": "2026-01-01",
+          "time_estimate_mins": 20,
+          "notes": "3-week check after demographic bid adjustments (applied 2025-12-11).\n\n**Metrics to Check:**\n- Management campaigns conversions (Dec 11 - Jan 1)\n- CPA by age demographic\n- Post-holiday trend (Jan 1 onwards)\n- Comparison to baseline (Nov 1-11)\n\n**Key Questions:**\n- Is CPA improving toward 5-8% target?\n- Are younger demographics converting better?\n- Any unexpected trends?\n\n**Action if needed:**\n- If major issues: escalate for immediate adjustment\n- Otherwise: continue standard monitoring",
+          "source": "Demographic Adjustments Monitoring Plan",
+          "tags": [
+            "demographic-adjustments",
+            "monitoring",
+            "week-3"
+          ],
+          "context": {},
+          "status": "pending",
+          "created_at": "2025-12-11T15:15:00.000000",
+          "updated_at": "2025-12-11T15:15:00.000000",
+          "completed_at": null,
+          "type": "standalone",
+          "parent_id": null
+        },
+        {
+          "id": "nma-demo-adjust-week4",
+          "title": "[NMA] Demographic Adjustments - Week 4 Impact Check (Pre-Review)",
+          "client": "national-motorsports-academy",
+          "priority": "P2",
+          "due_date": "2026-01-08",
+          "time_estimate_mins": 20,
+          "notes": "4-week check after demographic bid adjustments (applied 2025-12-11).\n\n**Metrics to Check:**\n- Full 4-week performance (Dec 11 - Jan 8)\n- CPA by demographic segment\n- Conversion volume trends\n- Budget allocation patterns\n\n**Comparison Points:**\n- Baseline Nov 1-11: ~47.8 conversions, \u00a3169k CPA\n- Target: 55-65 conversions, \u00a3130-150k CPA\n- Current performance: ?\n\n**Prepare for Final Review:**\n- Gather data for comprehensive Jan 11 analysis\n- Flag any issues requiring attention\n- Identify whether adjustments are tracking to success criteria",
+          "source": "Demographic Adjustments Monitoring Plan",
+          "tags": [
+            "demographic-adjustments",
+            "monitoring",
+            "week-4",
+            "pre-review"
+          ],
+          "context": {},
+          "status": "pending",
+          "created_at": "2025-12-11T15:15:00.000000",
+          "updated_at": "2025-12-11T15:15:00.000000",
+          "completed_at": null,
+          "type": "standalone",
+          "parent_id": null
+        },
+        {
+          "id": "nma-demo-adjust-final-review",
+          "title": "[NMA] Demographic Adjustments - 30-Day Comprehensive Review & Decision",
+          "client": "national-motorsports-academy",
+          "priority": "P1",
+          "due_date": "2026-01-11",
+          "time_estimate_mins": 120,
+          "notes": "COMPREHENSIVE REVIEW: 30-day performance analysis of demographic bid adjustments applied 2025-12-11.\n\n**ANALYSIS REQUIRED:**\n\n**1. CPA Impact**\n- Baseline (Nov 1-11): \u00a3169k\n- Current (Dec 11 - Jan 11): ?\n- Target: \u00a3130-150k (-13% to -23%)\n- Success: 5-8% improvement minimum\n\n**2. Conversion Volume**\n- Baseline (Nov 1-11): 47.8\n- Current (Dec 11 - Jan 11): ?\n- Target: 55-65 conversions\n\n**3. Demographics Analysis**\n- Age 35-44: CPA change, conversion count\n- Age 45-54: CPA change, conversion count\n- Age 55-64: CPA change, conversion count\n- Compare to younger demographics (18-34)\n\n**4. Campaign-Level Review**\n- UK Management (12578308466): Performance vs baseline\n- ROW Management (13071720649): Performance vs baseline\n- Budget allocation shifts\n\n**DECISION FRAMEWORK:**\n\n\u2705 **KEEP ADJUSTMENTS IF:**\n- CPA improved 5-8%+ (achieving target)\n- Conversion volume maintained/increased\n- No negative impact on younger demographics\n- Lead quality maintained or improved\n\n\ud83d\udd04 **ADJUST FURTHER IF:**\n- CPA improved but <5%\n- Specific demographics underperforming\n- Budget reallocation suboptimal\n\n\u23ee\ufe0f **ROLLBACK IF:**\n- CPA worsened >10%\n- Conversion volume dropped >15%\n- Unexpected negative impact on account\n\n**DELIVERABLES:**\n- [ ] Pull 30-day performance data (GAQL queries)\n- [ ] Create comparison report (baseline vs current)\n- [ ] Analysis by demographic segment\n- [ ] CPA trend chart\n- [ ] Recommendation document (Keep/Adjust/Rollback)\n- [ ] Next phase recommendations\n\n**Next Steps:**\n- If KEEP: Plan additional demographic optimisations\n- If ADJUST: Modify bid modifiers based on findings\n- If ROLLBACK: Revert all changes, investigate issues",
+          "source": "Demographic Adjustments Monitoring Plan",
+          "tags": [
+            "demographic-adjustments",
+            "final-review",
+            "comprehensive-analysis",
+            "decision-point"
+          ],
+          "context": {},
+          "status": "pending",
+          "created_at": "2025-12-11T15:15:00.000000",
+          "updated_at": "2025-12-11T15:15:00.000000",
+          "completed_at": null,
+          "type": "standalone",
+          "parent_id": null
+        },
+        {
+          "id": "827203b3-3598-4f39-85eb-003319434a1d",
+          "title": "[NMA] Week 1: Pull demographic performance data (age/gender analysis)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-11-21",
+          "time_estimate_mins": 60,
+          "notes": "Use GAQL to pull demographic data from last 90 days:\n- Gender performance\n- Age range performance\n- Calculate CPA by demographic\n- Prepare conservative bid adjustments (NOT exclusions)\n\nDecision Criteria:\n- Apply -20% bid adjustment if CPA >2x account average\n- Do NOT exclude demographics entirely (Anwesha's recommendation was too aggressive)\n\nNeeded for Week 2 Task #7",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 1 Item #3",
+          "tags": [
+            "nma-improvement-plan",
+            "demographic-analysis",
+            "gaql"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:09:10.640898",
+          "updated_at": "2025-11-18T09:09:10.640901",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "bb18ff46-960b-40dc-abef-c1a4ae516809",
+          "title": "[NMA] Week 1: Monitor new keywords performance (daily for 5 days)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-11-24",
+          "time_estimate_mins": 75,
+          "notes": "Keywords to Track (added Nov 17):\n- automotive engineering degree (Broad)\n- automotive design courses (Broad)\n- masters in motorsport engineering (Exact)\n- automotive engineering master (Broad)\n- degree in automotive engineering (Broad)\n\nTracking Metrics:\n- Impressions (should see immediate increase)\n- Average position\n- Quality Score (check after 7 days)\n- Clicks, CTR\n- Conversions (may take 2-3 weeks)\n\nReview Date: Nov 24, 2025 (1 week post-implementation)\n\nSuccess Criteria:\n- Quality Score 7+ by Nov 24\n- CTR >5%\n- Impressions >100/day for broad match keywords\n\nLabel: PB_2025",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 1 Item #4",
+          "tags": [
+            "nma-improvement-plan",
+            "keyword-monitoring",
+            "daily-check"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:09:10.641555",
+          "updated_at": "2025-11-18T09:09:10.641556",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        },
+        {
+          "id": "ebb720f8-5058-42cc-aed0-7ffddc204b9b",
+          "title": "[NMA] Week 1: Review zero-impression keywords (identify ~150 to pause)",
+          "client": "national-motorsports-academy",
+          "priority": "P0",
+          "due_date": "2025-11-22",
+          "time_estimate_mins": 60,
+          "notes": "Use GAQL to identify keywords with 0 impressions in 90 days.\n\nAnalysis:\n- Check Quality Scores (if <3, likely not serving)\n- Categorize: Low search volume vs Poor relevance vs Budget constraint\n\nAction for Week 2:\n- Pause keywords with QS <3 and 0 impressions\n- Keep keywords with QS 7+ (may serve in future)\n- Target: Identify ~150 dead keywords\n\nExport list before pausing (audit trail)",
+          "source": "NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 1 Item #5",
+          "tags": [
+            "nma-improvement-plan",
+            "keyword-cleanup",
+            "gaql"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T09:09:10.642180",
+          "updated_at": "2025-11-18T09:09:10.642182",
+          "completed_at": null,
+          "type": "child",
+          "parent_id": "25f918c5-c731-49dc-8927-931700255774"
+        }
+      ],
+      "count": 20
+    },
+    {
+      "client": "national-motorsports-academy 2",
+      "path": "clients/national-motorsports-academy 2/tasks.json",
+      "tasks": [
+        {
+          "id": "nma-3week-plan-parent",
+          "title": "[NMA] 3-Week Account Improvement Plan (Nov 17 - Dec 8, 2025)",
+          "type": "parent",
+          "parent_id": null,
+          "children": [
+            "nma-week2-task6",
+            "nma-week2-task8",
+            "nma-week2-task9",
+            "nma-week3-task10",
+            "nma-week3-task11",
+            "nma-week3-task12"
+          ],
+          "priority": "P0",
+          "due_date": "2025-12-08",
+          "time_estimate_mins": null,
+          "notes": "Comprehensive 3-week optimisation plan based on Anwesha's audit and internal performance analysis. Target: Increase conversions from 47.8 to 55-65/month and reduce CPA from \u00a3169k to \u00a3130-150k. Review date: Nov 29 (Target CPA check-in). Deferred items: Day-of-week bid adjustments (Dec 15-20).",
+          "source": "NMA-3-Week-Improvement-Plan-2025-11-17.md (Anwesha audit)",
+          "tags": [
+            "anwesha-plan",
+            "target-cpa",
+            "nma-optimisation"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568221",
+          "updated_at": "2025-11-18T14:35:39.568234",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week2-task6",
+          "title": "[NMA] Week 2: Review Target CPA Performance (Nov 29)",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-29",
+          "time_estimate_mins": 60,
+          "notes": "CRITICAL REVIEW: Analyse 3-week performance since Nov 10 Target CPA implementation. Compare CPAs to targets: UK Search (\u00a3100 target), ROW Search (\u00a350 target), UK Management (\u00a3150 target). Decision framework: Within 20% of target = continue; 20-50% above = reduce budget 10-15%; 50%+ above = review structure. Budget adjustments: ROW Engineering \u00a340\u2192\u00a380/day if performing well.",
+          "source": "NMA 3-Week Plan - Week 2 Task 6",
+          "tags": [
+            "target-cpa-review",
+            "critical",
+            "budget-decision",
+            "week-2"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568248",
+          "updated_at": "2025-11-18T14:35:39.568249",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week2-task8",
+          "title": "[NMA] Week 2: Create Country-Specific ROW Campaigns (US, UAE)",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": 240,
+          "notes": "Create 2 geo-targeted campaigns: (1) 'NMA | Search | US | Engineering' - \u00a330/day budget, \u00a360 target CPA, US-focused keywords, US career outcomes in ads, alumni sitelinks. (2) 'NMA | Search | UAE | Engineering' - \u00a320/day budget, \u00a340 target CPA, Middle East education terms, UAE partnerships in ads. Run alongside ROW Management for 2 weeks (compare Nov 29-Dec 13). Pause ROW Management only if country campaigns prove superior. Expected: 2-4 US conversions, 1-2 UAE conversions in first month.",
+          "source": "NMA 3-Week Plan - Week 2 Task 8",
+          "tags": [
+            "geo-targeting",
+            "campaign-creation",
+            "us-uae",
+            "week-2"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568253",
+          "updated_at": "2025-11-18T14:35:39.568254",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week2-task9",
+          "title": "[NMA] Week 2: Remove Zero-Impression Keywords",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-28",
+          "time_estimate_mins": 30,
+          "notes": "Pause ~150 keywords identified in Week 1 review with QS <3 and 0 impressions in 90 days. Export list before pausing for audit trail. Expected: Cleaner account structure, slightly improved account-level quality score, easier performance monitoring.",
+          "source": "NMA 3-Week Plan - Week 2 Task 9",
+          "tags": [
+            "keyword-cleanup",
+            "week-2"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568255",
+          "updated_at": "2025-11-18T14:35:39.568256",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week3-task10",
+          "title": "[NMA] Week 3: Add Callout Extensions",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-04",
+          "time_estimate_mins": 60,
+          "notes": "Create shared callout set (40+ callouts) for all active campaigns. Categories: Programme Benefits ('Industry Partnerships', 'Practical Experience', 'Career Support'), Study Flexibility ('Online & On-Campus Options', 'Flexible Payment Plans', 'Study While You Work'), Credibility ('Accredited Programmes', 'Expert Tutors', 'Award-Winning Institution'), Outcomes ('95% Employment Rate', 'Global Alumni Network', 'Professional Accreditation'). Expected: +5-8% CTR, better ad real estate, improved quality score.",
+          "source": "NMA 3-Week Plan - Week 3 Task 10",
+          "tags": [
+            "callouts",
+            "extensions",
+            "week-3"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568257",
+          "updated_at": "2025-11-18T14:35:39.568258",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week3-task11",
+          "title": "[NMA] Week 3: Expand ROW Engineering Keyword Portfolio",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-05",
+          "time_estimate_mins": 120,
+          "notes": "ROW Engineering is best performer (\u00a334,744 CPA vs \u00a3169k average). Add 15-20 related keywords: automotive engineering courses, motorsport engineering online, automotive technology degree, vehicle engineering programmes, racing engineering courses, automotive design degree, motorsport management degree, automotive engineering masters online. Match types: 70% Broad, 30% Exact. Budget consideration: Increase \u00a340\u2192\u00a380/day if Nov 29 review shows strong performance. Expected: +10-15 additional conversions/month.",
+          "source": "NMA 3-Week Plan - Week 3 Task 11",
+          "tags": [
+            "keyword-expansion",
+            "row-engineering",
+            "week-3"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568259",
+          "updated_at": "2025-11-18T14:35:39.568260",
+          "completed_at": null
+        },
+        {
+          "id": "nma-week3-task12",
+          "title": "[NMA] Week 3: Create Separate Engineering Asset Group (PMax)",
+          "type": "child",
+          "parent_id": "nma-3week-plan-parent",
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-06",
+          "time_estimate_mins": 180,
+          "notes": "UK PMax may be diluting performance across multiple degree types. Create dedicated 'Engineering Programmes' asset group: 15 headlines (e.g., 'Motorsport Engineering Degrees', 'Start Your Engineering Career', 'BSc Automotive Engineering Online'), 5 long headlines, 5 descriptions (accredited programmes combining theory and practice), engineering-specific images (labs, cars, projects), student testimonial videos, engineering landing pages only. Expected: +5-10 conversions/month, lower CPA for engineering leads.",
+          "source": "NMA 3-Week Plan - Week 3 Task 12",
+          "tags": [
+            "pmax",
+            "asset-group",
+            "engineering",
+            "week-3"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T14:35:39.568261",
+          "updated_at": "2025-11-18T14:35:39.568262",
+          "completed_at": null
+        },
+        {
+          "id": "nma-2025-12-02-001",
+          "title": "[NMA] Review conversion performance week 25 Nov - 1 Dec",
+          "client": "national-motorsports-academy",
+          "priority": "P2",
+          "status": "pending",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 15,
+          "notes": "**Follow-up from zero-conversion investigation (completed 26 Nov)**\n\nCheck conversion performance for the week to ensure tracking continues working and monitor low-volume conversion pattern.\n\n**Context:**\n- Account has very low conversion rate (0.007%)\n- Previous week: 2 conversions on Fri 22 Nov, zero all other days\n- Tracking confirmed working - this is performance issue, not technical issue\n\n**Quick Check:**\n1. Run GAQL for 25 Nov - 1 Dec to see daily conversions\n2. If conversions present: No action needed, continue monitoring via weekly reports\n3. If zero conversions all week: Escalate to P0 and investigate further",
+          "source": "Manual follow-up",
+          "tags": [
+            "conversion-tracking",
+            "monitoring",
+            "low-priority"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-26T13:48:42.679848",
+          "updated_at": "2025-11-26T13:48:42.680215"
+        }
+      ],
+      "count": 8
+    },
+    {
+      "client": "positive-bakes",
+      "path": "clients/positive-bakes/tasks.json",
+      "tasks": [
+        {
+          "id": "UTZvelhCQnNwcW5sQW03RA",
+          "title": "[Positive Bakes] Schedule initial campaign strategy meeting with Aatin Anadkat",
+          "client": "positive-bakes",
+          "priority": "P2",
+          "status": "in_progress",
+          "description": "**Status:** \ud83d\udccb In Progress  \n| 2025-11-13 | **TASK DEDUPLICATION**: Removed 14 duplicate AI-generated task entries. Preserved all manual tasks and first occurrence of each AI task pattern. Cleanup based on provenance analysis showing 'Source: AI Generated' metadata. | Claude Code |\n\n---\n**Source:** AI Generated (2025-11-11 09:30)\n**Client:** positive-bakes\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Establish key performance goals, budget, and initial campaign approach for new Google "
+        }
+      ],
+      "count": 1
+    },
+    {
+      "client": "smythson",
+      "path": "clients/smythson/tasks.json",
+      "tasks": [
+        {
+          "id": "smythson-2025-12-02-bf-011",
+          "title": "[Smythson] Black Friday Week Performance Review + P8 Final Results (Mon 2nd Dec)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 120,
+          "notes": "**RUN: Monday 2nd December**\n**PURPOSE:** Complete Black Friday analysis + calculate P8 final results\n\n**1. Query complete P8 period performance (Nov 3-30):**\n```python\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT \n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.conversions\n        FROM customer\n        WHERE segments.date BETWEEN '2025-11-03' AND '2025-11-30'\n    '''\n)\n```\n\n**2. Calculate P8 final results:**\n- Total P8 spend: \u00a3X (budget: \u00a3186,051)\n- Total P8 revenue: \u00a3X (target: \u00a31,119,436)\n- Overall ROAS: X%\n- vs Target: +/-X%\n\n**3. Black Friday week specific analysis (Nov 26-30):**\n- Total BF week spend\n- Total BF week revenue\n- Comparison to strategy projections:\n  - Projected: \u00a357,734 spend, \u00a3395k-\u00a3432k revenue\n  - Actual: \u00a3X spend, \u00a3X revenue\n  \n**4. Create comprehensive report:**\n`/clients/smythson/documents/p8-final-report-and-bf-analysis.md`\n\n**Template:**\n```\n# P8 Final Report + Black Friday Analysis\nPeriod: November 3-30, 2025\n\n## P8 Overall Results\n- **Budget:** \u00a3186,051\n- **Spend:** \u00a3X (X% utilization)\n- **Revenue:** \u00a3X\n- **Target:** \u00a31,119,436\n- **Performance:** [+/-X% vs target]\n- **ROAS:** X%\n\n## Black Friday Week (Nov 26-30)\n[Detailed analysis of 5-day performance vs strategy]\n\n## What Worked\n[Top performing campaigns, regions, tactics]\n\n## What Didn't Work\n[Underperformers, missed opportunities]\n\n## December Recommendations\n[Based on learnings from BF week]\n```\n\n**5. Email Alex:** Final P8 report with Black Friday analysis\n\n**CRITICAL:** This is the definitive P8 performance statement. Ensure all figures use customer-level queries.",
+          "source": "Black Friday Strategy 2025-11-25",
+          "tags": [
+            "black-friday",
+            "p8",
+            "final-report",
+            "analysis"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T16:50:36.050988"
+        },
+        {
+          "id": "smythson-2025-12-03-bf-012",
+          "title": "[Smythson] CRITICAL - UNPAUSE All 9 Campaigns (8am Tue 3rd Dec)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-12-03",
+          "time_estimate_mins": 30,
+          "notes": "**RUN AT: 8am Tuesday 3rd December - DO NOT MISS THIS**\n**PURPOSE:** Restore all paused campaigns, especially UK P Max Diaries (strong December seasonality)\n\n**UNPAUSE THESE 8 CAMPAIGNS:**\n\n**UK Account (8573235780):**\n1. SMY | UK | P Max | Diaries - CRITICAL for December diary sales\n2. SMY | UK | Search | Generic | Ai\n3. SMY | UK | Shopping | Villains\n4. SMY | UK | Search | Brand Leather Accs\n\n**USA Account (7808690871):**\n5. SMY | US | P Max | Bags\n6. SMY | US | Search | Brand Plus Diaries\n7. SMY | US | Search | Competitor | Ai\n\n**ROW Account (5556710725):**\n8. SMY | ROW | P Max | Christmas Gifting\n\n**RESTORE BUDGET:**\n9. SMY | US | PMax | Zombies - restore to \u00a3316/day (was reduced to \u00a3158 during BF)\n\n**Implementation:**\n```python\nmcp__google-ads__update_campaign_status(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    campaign_id='[campaign_id]',\n    status='ENABLED'\n)\n```\n\n**Also restore budgets to post-BF sustainable levels:**\n- Revert Phase 2 increases (Friday levels back to normal December budgets)\n- Document new December budget allocation based on BF learnings\n\n**Verification:**\nQuery all accounts to confirm all campaigns ENABLED:\n```python\nSELECT campaign.name, campaign.status \nFROM campaign\n```\n\n**Why this is critical:**\nUK P Max Diaries campaign has strong December seasonality for diary purchases. Missing even one day could cost significant revenue.",
+          "source": "Black Friday Strategy 2025-11-25",
+          "tags": [
+            "black-friday",
+            "campaign-unpause",
+            "critical",
+            "december"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T16:50:36.050990"
+        },
+        {
+          "id": "smythson-2025-11-26-bf-005",
+          "title": "[Smythson] Phase 1 Daily Check - Tue 26th Evening (6pm)",
+          "client": "smythson",
+          "priority": "P1",
+          "status": "pending",
+          "due_date": "2025-11-26",
+          "time_estimate_mins": 30,
+          "notes": "**RUN: Tuesday 26th Nov, 6pm**\n**PURPOSE:** Verify Phase 1 Day 1 performance vs targets\n\n**1. Check total daily spend:**\n```python\n# Query all 4 accounts for Nov 26 spend\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT \n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.conversions\n        FROM customer\n        WHERE segments.date = '2025-11-26'\n    '''\n)\n```\n\n**Target: \u00a39,680 total**\n- UK: \u00a35,000\n- USA: \u00a33,000\n- EUR: \u00a31,300\n- ROW: \u00a3380\n\n**2. Calculate ROAS by account:**\n- UK baseline: 515%\n- USA baseline: 441%\n- EUR baseline: 774%\n- ROW baseline: 340%\n\n**3. Document performance:**\nCreate note: `/clients/smythson/documents/bf-phase1-day1-performance.md`\n\n**Template:**\n```\n# Black Friday Phase 1 - Day 1 Performance (26th Nov)\n\n## Spend vs Target\n- UK: \u00a3X spent (target \u00a35,000) - X% utilization\n- USA: \u00a3X spent (target \u00a33,000) - X% utilization\n- EUR: \u00a3X spent (target \u00a31,300) - X% utilization\n- ROW: \u00a3X spent (target \u00a3380) - X% utilization\n- **TOTAL: \u00a3X (target \u00a39,680) - X% utilization**\n\n## ROAS Performance\n- UK: X% (baseline 515%)\n- USA: X% (baseline 441%)\n- EUR: X% (baseline 774%)\n- ROW: X% (baseline 340%)\n\n## Key Observations\n- [Which campaigns hit budget limits?]\n- [Any ROAS concerns?]\n- [Conversion rate changes?]\n\n## Phase 2 Implications\n- [Which campaigns should get more budget Friday?]\n- [Any red flags to address?]\n```\n\n**Share with client:** Email Alex if any major concerns.",
+          "source": "Black Friday Strategy 2025-11-25",
+          "tags": [
+            "black-friday",
+            "phase-1",
+            "monitoring",
+            "daily-check"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T16:50:36.050980"
+        },
+        {
+          "id": "smythson-2025-11-27-bf-006",
+          "title": "[Smythson] Phase 1 Daily Checks - Wed 27th (9am + 6pm)",
+          "client": "smythson",
+          "priority": "P1",
+          "status": "pending",
+          "due_date": "2025-11-27",
+          "time_estimate_mins": 60,
+          "notes": "**RUN: Wednesday 27th Nov, 9am and 6pm**\n**PURPOSE:** Monitor Phase 1 Day 2 performance\n\n**9am Check:**\n1. Review overnight spend (00:00-09:00)\n2. Check if any campaigns paused due to budget exhaustion\n3. Verify ROAS holding from Day 1\n\n**6pm Check (same as Tue):**\nQuery all accounts for Nov 27 performance:\n```python\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT \n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.conversions\n        FROM customer\n        WHERE segments.date = '2025-11-27'\n    '''\n)\n```\n\n**Create:** `/clients/smythson/documents/bf-phase1-day2-performance.md`\n\n**Key metrics to track:**\n- Total spend vs \u00a39,680 target\n- ROAS vs baselines\n- Cumulative 2-day performance:\n  - Total spent (Tue+Wed should be \u00a319,360)\n  - Total revenue\n  - Blended ROAS\n  \n**Campaign-level analysis:**\n- Which campaigns consistently hitting budget limits (candidates for Phase 2 increases)\n- Which campaigns under-utilizing (may need to reduce Phase 2 allocation)\n- Any ROAS degradation patterns\n\n**Update Phase 2 planning:** Note which campaigns are best performers for Friday deployment.",
+          "source": "Black Friday Strategy 2025-11-25",
+          "tags": [
+            "black-friday",
+            "phase-1",
+            "monitoring",
+            "daily-check"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T16:50:36.050981"
+        },
+        {
+          "id": "smythson-2025-11-24-003",
+          "title": "[Smythson] Implement Black Friday countdown timer (30th Nov evening)",
+          "client": "smythson",
+          "priority": "P1",
+          "status": "pending",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": 60,
+          "notes": "**From Meeting - 2025-11-24**\n\n**Action:** Implement countdown timer for Black Friday sale end.\n\n**Your commitment:** \"I will. I mean, I'll be back on Sunday. I can do it Sunday night. Don't mind doing it, then. It's up to you... if you want me to do it on the. On the 30th. Want to get back, which will be early evening. That I can do.\"\n\n**Agreement:** Client agreed to implement, start unpinned, then pin closer to deadline.\n\n**Details:**\n- Countdown shows: \"Friday sale ends in [X days/hours/minutes]\"\n- Format changes based on time remaining:\n  - Days if multiple days left\n  - Hours on last day\n  - Minutes in final hour\n- Can set start date (fallback to default text before that)\n- Start unpinned, pin towards end of week\n- Replace non-performing headlines with this\n\n**Timing:** Sunday 30th Nov evening (when you're back)\n\n**Goal:** Add urgency to drive sales through to Monday after Black Friday.",
+          "source": "Meeting - 2025-11-24 (manually extracted)",
+          "tags": [
+            "meeting",
+            "black-friday",
+            "asset-management",
+            "urgency"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T11:00:00Z"
+        },
+        {
+          "id": "smythson-2025-11-30-bf-010",
+          "title": "[Smythson] Saturday Monitoring - Phase 2 Day 2 (9am + 6pm Sat 30th)",
+          "client": "smythson",
+          "priority": "P1",
+          "status": "pending",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": 60,
+          "notes": "**RUN: Saturday 30th Nov, 9am and 6pm**\n**PURPOSE:** Monitor final day of Phase 2\n\n**9am Check:**\n- Review Friday performance\n- Verify Phase 2 budgets still active\n- Check for any overnight issues\n\n**6pm Check:**\nQuery Saturday performance:\n```python\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT \n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.conversions\n        FROM customer\n        WHERE segments.date = '2025-11-30'\n    '''\n)\n```\n\n**Calculate 5-day Black Friday week totals:**\nQuery Nov 26-30:\n```python\nWHERE segments.date BETWEEN '2025-11-26' AND '2025-11-30'\n```\n\n**Create summary doc:**\n`/clients/smythson/documents/bf-week-summary-nov26-30.md`\n\n**Key metrics:**\n- Total 5-day spend (target: \u00a357,734)\n- Total 5-day revenue\n- Blended ROAS\n- By account breakdown\n- Best performing campaigns\n- Worst performing campaigns\n\n**Prepare for Monday P8 final report.**",
+          "source": "Black Friday Strategy 2025-11-25",
+          "tags": [
+            "black-friday",
+            "phase-2",
+            "monitoring",
+            "saturday"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T16:50:36.050987"
+        },
+        {
+          "id": "8d29b500-0f63-4883-896a-5bcbb8d98e05",
+          "title": "[Smythson] Black Friday 2025 Retrospective - Review performance, decide on playbook creation",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": null,
+          "notes": null,
+          "source": "Manual",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-26T11:48:35.590580",
+          "updated_at": "2025-11-26T11:48:35.590582",
+          "completed_at": null
+        },
+        {
+          "id": "smythson-2025-11-19-002",
+          "title": "[Smythson] Track Black Friday promotion product performance (757 products)",
+          "client": "smythson",
+          "priority": "P2",
+          "status": "pending",
+          "due_date": "2025-11-26",
+          "time_estimate_mins": 90,
+          "notes": "**From Meeting - 2025-11-19**\n\n**Action:** Track performance of the 757 products with Black Friday promotions applied to measure impact.\n\n**Your commitment:** \"what I might do, I'm curious as to what effect this has, so what I'll do is I'm going to track the performance of those products over the next week. And see whether it made any difference to their sales volume. That would be an interesting test.\"\n\n**Hypothesis:** Products with promotions showing in Google Ads should get preferential treatment and higher sales.\n\n**Tracking period:** Week following 19th Nov (through to ~26th Nov)\n\n**Metrics to track:**\n- Sales volume (before vs during promotion)\n- Click-through rate\n- Impression share\n- Conversion rate\n- Revenue\n\n**Files:**\n- Promotion feed: Black Friday Promotions 2025 (supplemental feed)\n- 757 products successfully matched with promotion_id\n- 627 products failed to match (separate issue)\n\n**Deliverable:** Analysis showing if promotions improved product performance.\n\n**Manual Update (2025-11-25):**\nCheck how this is going\n\n**Action Required:** Review Black Friday promotion performance data.",
+          "source": "Meeting - 2025-11-19 (manually extracted)",
+          "tags": [
+            "meeting",
+            "analysis",
+            "black-friday",
+            "merchant-centre"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-25T10:00:00Z"
+        },
+        {
+          "id": "smythson-2025-11-29-p8-sat-check",
+          "title": "[Smythson] Saturday P8 Performance Check - 6pm (CRITICAL for P9 Budget Decision)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-11-29",
+          "time_estimate_mins": 30,
+          "notes": "**RUN: Saturday 29th Nov, 6pm**\n**PURPOSE:** Assess Saturday ROAS to inform Sunday budget decision\n\n**Query Saturday performance:**\n```python\n# All 4 accounts for Nov 29\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT \n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.conversions\n        FROM customer\n        WHERE segments.date = '2025-11-29'\n    '''\n)\n```\n\n**Calculate Saturday ROAS:**\n- UK ROAS vs Black Friday (329%)\n- USA ROAS vs Black Friday\n- EUR ROAS vs Black Friday\n- ROW ROAS vs Black Friday\n- Combined ROAS\n\n**Document results:**\nCreate: `/clients/smythson/documents/saturday-p8-performance.md`\n\n**DECISION CRITERIA:**\n- If Saturday ROAS \u2265 329% (Black Friday level) \u2192 Recommend overspend P8, reduce P9\n- If Saturday ROAS < 300% \u2192 Recommend stay within P8 budget\n\n**This directly informs tomorrow's (Sunday) budget decision.**\n\nReference document: `/clients/smythson/documents/p8-final-performance-and-p9-budget-adjustment.md`",
+          "source": "P8/P9 Budget Decision Process",
+          "tags": [
+            "p8",
+            "p9",
+            "budget-decision",
+            "critical"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-29T11:20:01.419246"
+        },
+        {
+          "id": "smythson-2025-11-30-p8-final-decision",
+          "title": "[Smythson] Sunday Morning - P8 Overspend vs Constraint Decision (8am)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": 45,
+          "notes": "**RUN: Sunday 30th Nov, 8am**\n**PURPOSE:** Make final P8 budget decision based on Saturday results\n\n**Review Saturday data from 6pm check:**\n1. Saturday total ROAS\n2. Saturday revenue vs Black Friday\n3. Saturday spend levels\n\n**Make decision:**\n\n**Option A - Overspend P8 (if Saturday ROAS \u2265 329%):**\n- Maintain Sunday budgets at Black Friday levels (\u00a315k+)\n- Accept P8 overspend of ~\u00a310,225\n- Document P9 budget reduction requirement\n- Expected P8 final revenue: ~\u00a31,090k (2.7% miss on target)\n\n**Option B - Stay Within Budget (if Saturday ROAS < 300%):**\n- Reduce Sunday budgets to stay within \u00a319,805 remaining\n- Constrain to ~\u00a39,903 average for Sat+Sun\n- Expected P8 final revenue: ~\u00a31,056k (5.6% miss on target)\n\n**Implementation:**\nIf choosing Option A (overspend):\n- No budget changes needed (keep current levels)\n- Document P9 adjustment: Reduce Mid-December (Dec 8-14) by \u00a310,225\n- Prepare justification for client\n\nIf choosing Option B (constrain):\n- Reduce Sunday budgets immediately (8am)\n- Calculate account-level reductions\n- Monitor closely to avoid exceeding P8 budget\n\n**Create decision document:**\n`/clients/smythson/documents/p8-final-budget-decision.md`\n\nReference: `/clients/smythson/documents/p8-final-performance-and-p9-budget-adjustment.md`",
+          "source": "P8/P9 Budget Decision Process",
+          "tags": [
+            "p8",
+            "p9",
+            "budget-decision",
+            "critical"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-29T11:20:01.419410"
+        },
+        {
+          "id": "smythson-2025-12-02-p9-budget-presentation",
+          "title": "[Smythson] Present P9 Budget with P8 Adjustment (if applicable)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 60,
+          "notes": "**RUN: Monday 2nd December**\n**PURPOSE:** Present P9 budget allocation with P8 overspend adjustment (if occurred)\n\n**If P8 overspent by ~\u00a310,225:**\n\n**1. Document P8 Final Results:**\n- Total P8 spend: \u00a3X (vs \u00a3186,051 budget)\n- Overspend amount: \u00a3X\n- Total P8 revenue: \u00a3X\n- Final ROAS: X%\n- Justification for overspend (strong Black Friday weekend ROAS)\n\n**2. Calculate P9 Adjusted Budget:**\n- Original P9 budget: [Client to confirm]\n- P8 overspend deduction: \u00a310,225\n- Adjusted P9 budget: Original - \u00a310,225\n\n**3. P9 Phase Allocation (Adjusted):**\n\n**Recommended: Reduce Mid-December Phase (Dec 8-14)**\n- This is the \"sustain\" phase, not peak\n- 2024 showed UK ROAS improved in this period (efficiency > volume)\n- Least impact on critical dates (Cyber Monday, Boxing Day)\n\n**Phase Budget Breakdown:**\n```\nPhase 1 (Cyber Week, Dec 1-7): X% of adjusted P9 (no change)\nPhase 2 (Mid-Dec, Dec 8-14): X% of adjusted P9 (absorbs \u00a310,225 reduction)\nPhase 3 (Last Order, Dec 15-21): X% of adjusted P9 (no change)\nPhase 4 (Christmas + Boxing, Dec 22-28): X% of adjusted P9 (no change)\nPhase 5 (Year-End, Dec 29-31): X% of adjusted P9 (no change)\n```\n\n**4. Present to Client:**\n- Email Alex with P9 budget document\n- Include P8 final performance summary\n- Explain P8 overspend rationale (capitalizing on strong ROAS)\n- Show net Q4 budget still on track (just period shift)\n\n**If P8 stayed within budget:**\n- Present standard P9 budget allocation\n- No adjustment needed\n- Proceed with original P9 strategy\n\nReference documents:\n- `/clients/smythson/documents/p9-strategy-analysis-2025.txt`\n- `/clients/smythson/documents/p8-final-performance-and-p9-budget-adjustment.md`",
+          "source": "P8/P9 Budget Decision Process",
+          "tags": [
+            "p9",
+            "budget",
+            "presentation",
+            "client-communication"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-11-29T11:20:01.419413"
+        },
+        {
+          "id": "smythson-p9-dec8-monday-review",
+          "title": "[Smythson] P9 Monday Review - Analyze Dec 5-7 actual spend vs targets",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-12-08",
+          "time_estimate_mins": 90,
+          "notes": "**CRITICAL: P9 Budget-Constrained Strategy Review**\n\n**PURPOSE:** Analyze 3 complete days (Dec 5-7) to determine if algorithm stabilized after 48% budget cuts on Dec 4.\n\n**STRATEGY CONTEXT:**\n- Hard budget constraint: \u00a3171,128 (CANNOT exceed)\n- Spent Dec 1-3: \u00a339,096\n- Remaining: \u00a3132,032 for 28 days\n- SET budgets (Dec 4-11): \u00a34,479/day\n- Expected ACTUAL (46% overspend): \u00a36,539/day\n\n**1. QUERY DEC 5-7 ACTUAL SPEND (all 4 accounts):**\n```python\n# UK (7482100090)\nmcp__google-ads__run_gaql(\n    customer_id='7482100090',\n    manager_id='2569949686',\n    query='''\n        SELECT\n            segments.date,\n            campaign.id,\n            campaign.name,\n            campaign.status,\n            metrics.cost_micros,\n            metrics.conversions,\n            metrics.conversions_value,\n            campaign_budget.amount_micros\n        FROM campaign\n        WHERE\n            segments.date >= '2025-12-05'\n            AND segments.date <= '2025-12-07'\n            AND campaign.status IN ('ENABLED', 'PAUSED')\n            AND metrics.cost_micros > 0\n        ORDER BY segments.date, metrics.cost_micros DESC\n    '''\n)\n# Repeat for USA (3841058286), EUR (7976890818), ROW (7372464965)\n```\n\n**2. CALCULATE KEY METRICS:**\n- Daily average spend Dec 5-7\n- Overspend factor vs SET budgets (\u00a34,479/day)\n- ROAS by account (vs targets: UK 515%, USA 441%, EUR 774%, ROW 340%)\n- Projection to end of P9 (Dec 31)\n\n**3. DECISION MATRIX:**\n\n**SCENARIO A: Overspend still ~46%**\n- Expected spend Dec 5-31: ~\u00a3172k\n- Total P9: ~\u00a3211k (\u00a340k over budget)\n- Action: Apply strategic pauses from Dec 12\n\n**SCENARIO B: Overspend reduced to 20-30%**\n- Algorithm adapting to constraints\n- Expected spend Dec 5-31: ~\u00a3150k\n- Total P9: ~\u00a3189k (\u00a318k over budget)\n- Action: Hold current plan, minor pauses only\n\n**SCENARIO C: Overspend worse than 46%**\n- Algorithm hasn't stabilized\n- Expected spend Dec 5-31: >\u00a3180k\n- Total P9: >\u00a3220k (\u00a349k over budget)\n- Action: Immediate strategic pauses (EUR, ROW, low performers)\n\n**4. CREATE DECISION DOCUMENT:**\nFile: `/clients/smythson/reports/p9-dec8-decision.md`\n\nInclude:\n- Dec 5-7 actual performance\n- Overspend factor calculation\n- Projection to Dec 31\n- Recommended action (which scenario)\n- Specific campaigns to pause (if needed)\n- Updated revenue projection (realistic \u00a3941k vs optimistic \u00a3992k)\n\n**5. IMPLEMENT DECISION:**\n- If strategic pauses needed: Create backup, pause campaigns, verify\n- Update Alex via Teams message\n- Update Q4 dashboard with revised projections\n\n**REFERENCE FILES:**\n- `/clients/smythson/documents/MONDAY-DEC-9-CRITICAL-REVIEW.md` (workflow)\n- `/clients/smythson/reports/p9-budget-constraint-crisis.txt` (strategy)\n- `/clients/smythson/reports/p9-algorithm-stability-concern.txt` (risks)\n",
+          "source": "P9 Budget-Constrained Strategy (Dec 4)",
+          "tags": [
+            "p9",
+            "critical",
+            "budget-review",
+            "decision-point"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-12-04T11:49:45.608156"
+        },
+        {
+          "id": "smythson-p9-dec12-strategic-pauses",
+          "title": "[Smythson] P9 Apply Strategic Pauses - Phase 2 begins (Dec 12)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-12-12",
+          "time_estimate_mins": 120,
+          "notes": "**PHASE 2: Strategic Pauses to Control Budget**\n\n**TIMING:** Morning of Dec 12 (after reviewing Dec 11 final data)\n\n**OBJECTIVE:** Reduce daily spend from \u00a36,539 to \u00a33,985 actual (\u00a33,321 SET allowing 20% overspend)\n\n**STRATEGY CONTEXT:**\n- Phase 1 (Dec 4-11): Hold current budgets - \u00a352k spend\n- Phase 2-5 (Dec 12-31): Strategic pauses - \u00a379k spend\n- Total P9: \u00a3171k (on budget)\n- Expected revenue: \u00a3941k realistic, \u00a3992k optimistic\n\n**1. IDENTIFY CAMPAIGNS TO PAUSE:**\n\n**Criteria for pausing:**\n- ROAS < 400% (Dec 1-11 average)\n- Generic/Competitor campaigns (lower intent)\n- EUR campaigns (stop entirely or mostly)\n- ROW campaigns (already stopping Dec 11)\n\n**Query for analysis:**\n```python\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT\n            campaign.id,\n            campaign.name,\n            campaign.status,\n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.conversions,\n            campaign_budget.amount_micros\n        FROM campaign\n        WHERE\n            segments.date >= '2025-12-01'\n            AND segments.date <= '2025-12-11'\n            AND metrics.cost_micros > 0\n        ORDER BY metrics.cost_micros DESC\n    '''\n)\n\n# Calculate ROAS for each campaign\n# ROAS = (conversions_value_micros / cost_micros) * 100\n```\n\n**2. CREATE BACKUP:**\n- Document current state of all campaigns\n- Save to: `/clients/smythson/scripts/backup-dec12-strategic-pauses.txt`\n\n**3. PAUSE CAMPAIGNS (SURGICAL):**\n\n**Priority order:**\n1. **EUR account**: Pause most/all campaigns (was \u00a3339/day SET, ~\u00a3500/day actual)\n2. **ROW campaigns**: Confirm all paused (should be stopped Dec 11)\n3. **Low ROAS UK/USA**: Pause campaigns with ROAS < 400%\n4. **Generic/Competitor**: Pause broad/competitor campaigns\n\n**Target daily spend after pauses:**\n- UK: ~\u00a32,500/day actual (focus on brand + high ROAS)\n- USA: ~\u00a31,400/day actual (focus on brand + high ROAS)\n- EUR: ~\u00a385/day actual (1-2 top performers only)\n- ROW: \u00a30/day (fully stopped)\n- **Total: ~\u00a33,985/day actual**\n\n**4. VERIFY CHANGES:**\n- Query new daily spend capacity\n- Confirm paused campaigns are actually paused\n- Document which campaigns remain active\n\n**5. UPDATE PROJECTIONS:**\n- Recalculate expected P9 total spend\n- Update revenue projection based on remaining campaigns\n- Update Alex via Teams message\n\n**6. MONITOR DAILY:**\n- Dec 12-14: Check actual spend daily\n- Adjust if still overspending or underspending\n- Prepare for Phase 3 Last Order Week (Dec 15-19)\n\n**REFERENCE:**\n- `/clients/smythson/reports/p9-budget-constraint-crisis.txt` (Option 3)\n- Monday review decision (will inform specific campaigns to pause)\n",
+          "source": "P9 Budget-Constrained Strategy (Dec 4)",
+          "tags": [
+            "p9",
+            "critical",
+            "strategic-pauses",
+            "phase-2"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-12-04T11:49:45.608176"
+        },
+        {
+          "id": "smythson-p9-dec15-last-order-week",
+          "title": "[Smythson] P9 Last Order Week Scaling - Phase 3 begins (Dec 15)",
+          "client": "smythson",
+          "priority": "P0",
+          "status": "pending",
+          "due_date": "2025-12-15",
+          "time_estimate_mins": 90,
+          "notes": "**PHASE 3: Last Order Week Scaling (Dec 15-19)**\n\n**TIMING:** Morning of Dec 15 (review Dec 14 data first)\n\n**CRITICAL PERIOD:** Both UK and USA in final week before last order dates:\n- USA last order: Dec 19 (5 days)\n- UK last order: Dec 22 (but ramp starts Dec 15)\n\n**OBJECTIVE:** Maximize revenue during peak conversion period while staying on budget\n\n**BUDGET ALLOCATION:**\n- Original plan: \u00a310,000/day SET\n- Budget-constrained plan: \u00a36,000/day SET (\u00a36,900/day actual with 15% overspend)\n- 5 days \u00d7 \u00a36,900 = \u00a334,500 spend for Phase 3\n\n**1. REVIEW DEC 12-14 PERFORMANCE:**\n- Verify strategic pauses working\n- Check remaining budget headroom\n- Calculate safe scaling amount\n\n**2. IDENTIFY SCALING CANDIDATES:**\n\n**Criteria:**\n- High ROAS (>600%) during Dec 12-14\n- Brand campaigns (highest intent)\n- UK/USA only (EUR stopped, ROW stopped)\n- Campaigns that were budget-constrained in Phase 2\n\n**Query:**\n```python\nmcp__google-ads__run_gaql(\n    customer_id='[UK or USA account]',\n    manager_id='2569949686',\n    query='''\n        SELECT\n            campaign.id,\n            campaign.name,\n            campaign.status,\n            metrics.cost_micros,\n            metrics.conversions_value,\n            metrics.impressions,\n            metrics.search_impression_share,\n            campaign_budget.amount_micros\n        FROM campaign\n        WHERE\n            segments.date >= '2025-12-12'\n            AND segments.date <= '2025-12-14'\n            AND campaign.status = 'ENABLED'\n            AND metrics.cost_micros > 0\n        ORDER BY metrics.conversions_value DESC\n    '''\n)\n```\n\n**Look for:**\n- Campaigns hitting budget limits (search impression share lost to budget)\n- Strong ROAS (>600%)\n- Consistent performance\n\n**3. CREATE SCALING PLAN:**\n\n**Target increases:**\n- UK: +40% on top 5-8 brand/high ROAS campaigns\n- USA: +40% on top 5-8 brand/high ROAS campaigns\n\n**Example:**\n- UK Brand exact currently \u00a3150/day \u2192 Increase to \u00a3210/day\n- USA Brand broad currently \u00a3100/day \u2192 Increase to \u00a3140/day\n\n**Total daily increase target: ~\u00a31,500-2,000/day**\n\n**4. CREATE BACKUP:**\nFile: `/clients/smythson/scripts/backup-dec15-last-order-week-scaling.txt`\n\n**5. APPLY BUDGET INCREASES:**\nUse `mcp__google-ads__update_campaign_budget()` for each campaign\n\n**6. MONITOR CLOSELY:**\n- Dec 15: Check 6pm performance\n- Dec 16-19: Daily morning + evening checks\n- Watch for overspend vs \u00a36,900/day target\n- Be ready to pause if exceeding budget\n\n**7. ALGORITHM WARNING:**\n- Smart Bidding may overspend 15-20% during high-opportunity days\n- Last Order Week = \"high-opportunity days\"\n- Monitor actual vs SET carefully\n- Have pause list ready if overspending\n\n**REVENUE EXPECTATION:**\n- Phase 3 spend: \u00a334,500\n- At 6.0x ROAS: \u00a3207k revenue\n- At 5.5x ROAS: \u00a3190k revenue (conservative)\n\n**REFERENCE:**\n- `/clients/smythson/reports/p9-budget-constraint-crisis.txt` (Phase 3 plan)\n- Dec 12-14 performance data\n",
+          "source": "P9 Budget-Constrained Strategy (Dec 4)",
+          "tags": [
+            "p9",
+            "critical",
+            "last-order-week",
+            "scaling",
+            "phase-3"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-12-04T11:49:45.608178"
+        },
+        {
+          "id": "smythson-p9-daily-monitoring",
+          "title": "[Smythson] P9 Daily Spend Monitoring (Dec 5-31)",
+          "client": "smythson",
+          "priority": "P1",
+          "status": "pending",
+          "due_date": "2025-12-05",
+          "time_estimate_mins": 20,
+          "notes": "**RECURRING: Daily monitoring through end of P9**\n\n**FREQUENCY:** Every day, 6pm check\n\n**PURPOSE:** Track actual spend vs budget targets, catch overspend early\n\n**QUICK CHECK:**\n```python\n# Query today's spend across all accounts\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT\n            metrics.cost_micros\n        FROM customer\n        WHERE segments.date = 'YYYY-MM-DD'\n    '''\n)\n```\n\n**CALCULATE:**\n- Today's total spend (all 4 accounts)\n- Cumulative P9 spend (Dec 1 - today)\n- Remaining budget\n- Days remaining\n- Required daily average to stay on budget\n\n**TRACKING SPREADSHEET:**\nConsider creating: `/clients/smythson/reports/p9-daily-spend-tracker.csv`\n\nColumns:\n- Date\n- UK spend\n- USA spend\n- EUR spend\n- ROW spend\n- Total daily\n- Cumulative\n- Budget remaining\n- Days remaining\n- Daily avg needed\n\n**RED FLAGS:**\n- Daily spend >\u00a37,000 (budget risk)\n- Cumulative trending >\u00a3171k\n- Overspend factor increasing\n\n**ACTION IF RED FLAG:**\n- Message client immediately\n- Consider emergency pauses\n- Update projections\n\n**DURATION:** Dec 5 - Dec 31 (27 days)\n\n**This is a CRITICAL task - do not skip any days during P9.**\n",
+          "source": "P9 Budget-Constrained Strategy (Dec 4)",
+          "tags": [
+            "p9",
+            "monitoring",
+            "recurring:daily",
+            "budget-control"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-12-04T11:49:45.608180"
+        },
+        {
+          "id": "smythson-p9-weekly-client-update",
+          "title": "[Smythson] P9 Weekly Client Update - Performance vs Budget-Constrained Plan",
+          "client": "smythson",
+          "priority": "P1",
+          "status": "pending",
+          "due_date": "2025-12-13",
+          "time_estimate_mins": 60,
+          "notes": "**RECURRING: Weekly updates to client on P9 performance**\n\n**FREQUENCY:** Every Friday (Dec 6, 13, 20, 27)\n\n**PURPOSE:** Keep client informed on budget adherence and revenue tracking\n\n**REPORT STRUCTURE:**\n\n1. **Budget Status:**\n   - Total spent to date\n   - Remaining budget\n   - On track / over / under budget\n\n2. **Revenue Performance:**\n   - Total revenue to date\n   - ROAS by account\n   - Projection to end of P9 (realistic vs optimistic)\n   - Gap to \u00a31.12m target\n\n3. **Algorithm Health:**\n   - ROAS trends\n   - Impression share\n   - Any learning period impacts\n\n4. **Actions Taken This Week:**\n   - Budget changes\n   - Pauses applied\n   - Campaigns scaled\n\n5. **Next Week Plan:**\n   - Upcoming phase changes\n   - Expected spend\n   - Key dates (Last Order Week, etc.)\n\n**TEMPLATE:**\n```\nSmythson P9 Weekly Update - Week Ending [DATE]\n\nBUDGET STATUS:\n- Spent Dec 1-[date]: \u00a3X\n- Remaining: \u00a3Y\n- Status: [On track / \u00a3Z over / \u00a3Z under]\n\nREVENUE PERFORMANCE:\n- Revenue Dec 1-[date]: \u00a3X\n- ROAS: X.Xx (Target: 6.1x)\n- Projected P9 total: \u00a3X (realistic) to \u00a3Y (optimistic)\n- Gap to target: \u00a3Z ([%] short of \u00a31,122k)\n\nKEY ACTIONS THIS WEEK:\n- [Action 1]\n- [Action 2]\n\nNEXT WEEK PLAN:\n- [Plan for coming week]\n- [Phase changes if applicable]\n\n[Any concerns or recommendations]\n```\n\n**SEND VIA:** Email to Alex (use email-draft-generator skill)\n\n**DATES:**\n- Week 1: Friday Dec 6 (after Mon review)\n- Week 2: Friday Dec 13 (after Phase 2 pauses)\n- Week 3: Friday Dec 20 (after Last Order Week)\n- Week 4: Friday Dec 27 (Boxing Day period)\n\n**This keeps client informed and prevents surprises at end of P9.**\n",
+          "source": "P9 Budget-Constrained Strategy (Dec 4)",
+          "tags": [
+            "p9",
+            "client-communication",
+            "recurring:weekly",
+            "reporting"
+          ],
+          "task_type": "standalone",
+          "created_at": "2025-12-04T11:49:45.608181"
+        },
+        {
+          "id": "b216e735-c29e-4657-862c-9068caef040b",
+          "title": "[Smythson] Review Black Friday asset performance (1 week check)",
+          "client": "smythson",
+          "priority": "P0",
+          "due_date": "2025-11-24",
+          "time_estimate_mins": 60,
+          "notes": "Follow-up from Black Friday assets going live Nov 17. Review ROAS vs 2024, conversion rates, and efficiency to confirm we avoided the learning reset that cost \u00a324k last year. Check all 4 accounts (UK, USA, EUR, ROW). Success: ROAS maintains pre-BF levels, no 35% drop like 2024.",
+          "source": "Manual Completion",
+          "tags": [
+            "smythson",
+            "black-friday",
+            "performance-review"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T10:05:33.650291",
+          "updated_at": "2025-11-18T10:05:33.650615",
+          "completed_at": null
+        },
+        {
+          "id": "662cf1f2-06b7-4c30-a8b4-5d3857815c32",
+          "title": "[Smythson] Revert Black Friday assets + create checklist for smooth execution",
+          "client": "smythson",
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 120,
+          "notes": "Revert all Black Friday assets to standard Christmas/product messaging. Create implementation checklist BEFORE Dec 2 to avoid Nov 18 execution issues (URLs, images, wrong asset groups). Coordinate with Lauryn: images, text, URLs go live simultaneously. Goal: smoother ride than Nov 18 launch.\n\n**Progress Update (Nov 18 meeting):** Lauryn committed to creating checklist and sent through asset reversion spreadsheet: https://docs.google.com/spreadsheets/d/1wwILYgddS946SAlvD5yjLjbLMRFQagsi0-5XFJmvC1g/edit?gid=0#gid=0\n\n**Checklist includes:** PMax (images, text, videos, URLs, sentence case) + Search (RSAs, image assets, sitelinks) across UK/US/EUR/ROW accounts. Work split: Peter (UK, EUR) | Lauryn (US, ROW). All items currently pending execution before Dec 2 deadline.",
+          "source": "Client Request",
+          "tags": [
+            "smythson",
+            "black-friday",
+            "implementation",
+            "urgent"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T10:05:33.652711",
+          "updated_at": "2025-11-19T18:15:00.000000",
+          "completed_at": null
+        },
+        {
+          "id": "3427b677-843c-4a74-aafd-8b77d0a09787",
+          "title": "[Smythson] Monitor Q4 strategy dashboard actuals vs projections",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-09",
+          "time_estimate_mins": 30,
+          "notes": "Monitor Q4 strategy dashboard every 7 days to track performance vs projections.\n\n**DASHBOARD METRICS TO CHECK:**\n- Actual revenue vs projected revenue\n- Actual ROAS vs projected ROAS\n- Budget utilization\n- Days remaining vs revenue gap\n- Pacing to \u00a32.06M realistic target\n\n**ACTIONS IF OFF-TRACK:**\n- Update projections if performance deviates >10%\n- Alert client if gap to target widening\n- Recommend budget/strategy adjustments if needed\n\n**REVIEW SCHEDULE:**\n- Every 7 days through end of Q4 (Dec 31)\n- Next review: Nov 21, then Nov 24, Nov 27, Nov 30, etc.\n\n**DASHBOARD LOCATION:**\n[Add dashboard location/link when available]\n\n**CONTEXT:**\nClient target: \u00a32,380k\nRealistic projection: \u00a32,060k\nGap: \u00a3320k (13.5% short)\n\nThis regular monitoring ensures early detection of performance issues and allows proactive client communication.\n\n---\nNote (2025-11-24): Completed for today. Next review: Thursday Nov 28.",
+          "source": "Recurring monitoring task",
+          "tags": [
+            "dashboard",
+            "monitoring",
+            "recurring:every-7-days",
+            "q4"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-12T15:23:12.184962",
+          "updated_at": "2025-12-12T15:23:12.184965",
+          "completed_at": null
+        },
+        {
+          "id": "d7a20085-ab5c-4684-8869-ef739f7e623b",
+          "title": "[Smythson] Check P9 budget reallocation impact - full Dec 12 data",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P1",
+          "due_date": null,
+          "time_estimate_mins": null,
+          "notes": "Pull complete Dec 12 data to analyse budget reallocation impact:\n- Compare UK spend Dec 11 vs Dec 12 (expect -\u00a3357/day)\n- Compare EUR spend Dec 11 vs Dec 12 (expect +\u00a3224/day)\n- Check ROAS for both regions\n- Determine if changes are working as intended\n- Decision point for continuing or early reversal",
+          "source": "Manual",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-12-12T16:27:07.230423",
+          "updated_at": "2025-12-12T16:27:07.230630",
+          "completed_at": null
+        },
+        {
+          "id": "39027aa0-ae12-471d-b900-92e926014bbb",
+          "title": "[Smythson] Review USA Product Hero settings changes (ROAS 350%, Clicks 28)",
+          "description": "Review the impact of Dec 15 changes: Target ROAS increased from 258% to 350%, Number of Clicks reduced from 66 to 28. Check performance metrics and decide if settings should be adjusted or maintained.",
+          "priority": "P2",
+          "status": "pending",
+          "created": "2025-12-15T16:49:16.807176",
+          "due": "2026-01-15",
+          "tags": [
+            "product-hero",
+            "usa",
+            "optimization-review"
+          ],
+          "client": "smythson"
+        }
+      ],
+      "count": 21
+    },
+    {
+      "client": "superspace",
+      "path": "clients/superspace/tasks.json",
+      "tasks": [
+        {
+          "id": "618a6a1b-229c-4f81-a5a5-d72feb5103d4",
+          "title": "[Superspace] Evaluate Shopping Brand campaign structure vs Nils Rooijmans' best practice",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-13",
+          "time_estimate_mins": 60,
+          "notes": "**Strategic Evaluation: Brand Shopping Campaign Setup**\n\n**Context:** Nils Rooijmans email (Nov 19/20, 2025) outlined best practice for brand Shopping campaigns - specifically using LOW-priority campaigns with negative keyword lists, NOT high-priority brand campaigns.\n\n**Current Superspace Setup:**\n- Shopping Branded: \u00a34,500/day (largest Shopping campaign)\n- P Max Brand Excluded: \u00a32,700/day\n- Shopping Brand Excluded: \u00a32,200/day\n\n**Question:** Is \"Shopping Branded\" following Nils' recommended LOW-priority structure, or is it high/medium priority?\n\n---\n\n## Nils Rooijmans' Methodology (The RIGHT Way)\n\n**Setup:**\n1. Create LOW-priority Shopping campaign for brand searches\n2. Add products you want to show for branded searches\n3. Set HIGH manual CPC bids (or allow high CPCs) for maximum visibility\n4. Add brand terms to negative keyword list on ALL other non-brand Shopping campaigns\n\n**Why This Works:**\n- Products ONLY show for branded searches (no budget waste)\n- Tight control over CPCs, impression share, and products shown\n- No need to negate thousands of non-brand searches (avoids keyword limit issues)\n\n**Critical Requirements:**\n\u26a0\ufe0f All products in low-priority brand campaign MUST ALSO be in high/medium-priority non-brand campaigns\n\u26a0\ufe0f Non-brand campaigns must NEVER run out of budget before brand campaign (prevents leakage)\n\u26a0\ufe0f Same ad schedules, audience targeting, device targeting, location targeting across all campaigns\n\n---\n\n## Audit Action Items\n\n**Step 1: Check Current Campaign Priority (15 mins)**\n- Open \"Shopping Branded\" campaign in Google Ads\n- Check Campaign Settings \u2192 Shopping campaign priority\n- Current setting: HIGH / MEDIUM / LOW?\n- Current bid strategy: Manual CPC or Smart Bidding?\n- Current bids: What are typical CPCs?\n\n**Step 2: Check Negative Keyword Lists (15 mins)**\n- Are brand terms (\"superspace\", \"getsuperspace\", etc.) added as negatives to:\n  - \"Shopping Brand Excluded\" campaign? \u2713 or \u2717\n  - \"P Max Brand Excluded\" campaign? (check if PMax respects negative lists)\n  - Other Shopping campaigns?\n- If YES: Already following part of best practice\n- If NO: Brand leakage risk across campaigns\n\n**Step 3: Check Product Coverage (15 mins)**\n- Are ALL products in \"Shopping Branded\" campaign ALSO in non-brand Shopping campaigns?\n- Could non-brand searches accidentally trigger brand campaign due to budget constraints?\n- Check budget pacing: Does \"Shopping Branded\" ever exhaust before others?\n\n**Step 4: Evaluate Current Performance (10 mins)**\n- What % of \"Shopping Branded\" searches are actually branded vs non-branded?\n  - Run Search Terms Report for last 30 days\n  - Count branded searches vs generic searches\n- Are you paying for non-brand clicks in the brand campaign? (waste indicator)\n\n**Step 5: Document Findings & Recommendation (5 mins)**\n- Current structure: Follows Nils' best practice? Yes / No / Partial\n- If NO: What needs to change?\n- If YES: Document for knowledge base\n\n---\n\n## Expected Outcomes\n\n**If currently HIGH-priority brand campaign (wrong way):**\n- Recommendation: Switch to LOW-priority + high manual bids\n- Add \"superspace\" brand terms to negative lists on non-brand campaigns\n- Expected benefit: Tighter budget control, prevent non-brand waste\n\n**If already LOW-priority (right way):**\n- Document current setup as best practice example\n- Verify negative keyword lists are comprehensive\n- Monitor for any non-brand search leakage\n\n---\n\n## Reference Documents\n\n**Nils Rooijmans Email:** Saved in knowledge base (Nov 19/20, 2025)\n- Topic: \"How do you run BRAND campaigns in Shopping?\"\n- Key principle: LOW-priority campaign + negative keyword lists (not high-priority with script negation)\n\n**Related:** This same audit should be applied to Tree2MyDoor brand campaigns (separate task created)\n\n\n**Manual Note (2025-11-27):** Rescheduled to second week December - currently in Black Friday period, no capacity for Superspace strategic work.\n\n**Manual Note (2025-11-27):** Rescheduled to second week December - currently in Black Friday period, no capacity for Superspace strategic work.",
+          "source": "Niels Riekemans email - Shopping brand campaign best practice",
+          "tags": [
+            "strategy",
+            "brand-campaigns",
+            "shopping",
+            "audit",
+            "niels-riekemans",
+            "best-practice"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-20T22:29:31.181315",
+          "updated_at": "2025-11-27T10:48:04.436455",
+          "completed_at": null
+        },
+        {
+          "id": "9d6a9738-86b5-4308-9264-293748035e87",
+          "title": "[Superspace] Monitor AU Phase 1 performance (Dec 4-5)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-05",
+          "time_estimate_mins": 30,
+          "notes": "Monitor AU Phase 1 budget increases for learning mode signals before Phase 2.\n\nPhase 1 implemented Dec 4th: \u00a3435 \u2192 \u00a3700/day\nBaseline ROAS: 1,334% (P Max 2,107%, Brand 928%, Generics 847%)\n\nCheck Dec 4-5 performance:\n- ROAS per campaign (red flag if >25% drop)\n- Actual spend vs \u00a3700 budget\n- Learning mode warnings in UI\n- Conversion volume tracking spend\n\nDecision: Green flags = proceed Phase 2 on Dec 6th | Red flags = delay 24-48hrs",
+          "source": "AU Phase 1 implementation monitoring",
+          "tags": [
+            "monitoring",
+            "australia",
+            "phase-1"
+          ],
+          "context": {
+            "phase": 1,
+            "new_budget_gbp": 700,
+            "baseline_roas": 1334
+          },
+          "status": "active",
+          "created_at": "2025-12-04T08:31:10.489110",
+          "updated_at": "2025-12-04T08:31:10.489298",
+          "completed_at": null
+        },
+        {
+          "id": "0ecf5c42-8055-40fa-af6a-38fada5869c6",
+          "title": "[Superspace] AU Budget Phase 2: Scale to \u00a3950/day (Friday Dec 6th)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-06",
+          "time_estimate_mins": 45,
+          "notes": "AU Budget Scaling Phase 2 of 3: \u00a3700 \u2192 \u00a3950/day (+36%)\n\nPre-checks:\n- Review Phase 1 performance (Dec 4-5)\n- Check for learning mode signals\n- Confirm no ROAS drops >20%\n\nBudget changes:\n- P Max: \u00a3350 \u2192 \u00a3500 (+43%)\n- Search Brand: \u00a3250 \u2192 \u00a3325 (+30%)\n- Search Generics: \u00a3100 \u2192 \u00a3125 (+25%)\n\nProtocol:\n1. Create backup (google-ads-backup-2025-12-06-au-phase2)\n2. Execute via mcp__google-ads__update_campaign_budget\n3. Verify budgets match expected\n4. Update CONTEXT.md\n\nCampaign IDs: 22991480301, 22610849516, 23047481257",
+          "source": "AU three-phase scaling strategy",
+          "tags": [
+            "budget",
+            "australia",
+            "phase-2",
+            "protocol"
+          ],
+          "context": {
+            "phase": 2,
+            "target_budget_gbp": 950,
+            "current_budget_gbp": 700
+          },
+          "status": "active",
+          "created_at": "2025-12-04T08:31:10.489451",
+          "updated_at": "2025-12-04T08:31:10.489456",
+          "completed_at": null
+        },
+        {
+          "id": "603bde7e-987c-4fe8-acb3-74852c6b3211",
+          "title": "[Superspace] AU Budget Phase 3: Scale to \u00a31,250/day (Monday Dec 9th)",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-09",
+          "time_estimate_mins": 45,
+          "notes": "AU Budget Scaling Phase 3 of 3 (FINAL): \u00a3950 \u2192 \u00a31,250/day (+32%)\n\nPre-checks:\n- Review Phase 2 performance (Dec 6-8)\n- Check weekend performance patterns\n- CRITICAL: Confirm AU stock levels with Craig\n\nBudget changes (FINAL TARGET):\n- P Max: \u00a3500 \u2192 \u00a3700 (+40%)\n- Search Brand: \u00a3325 \u2192 \u00a3400 (+23%)\n- Search Generics: \u00a3125 \u2192 \u00a3150 (+20%)\n- TOTAL: \u00a31,250/day (Craig target achieved)\n\nProtocol:\n1. Create backup (google-ads-backup-2025-12-09-au-phase3)\n2. Execute via mcp__google-ads__update_campaign_budget\n3. Verify budgets match expected\n4. Update CONTEXT.md (mark complete)\n5. Email Craig confirming completion\n\nCampaign IDs: 22991480301, 22610849516, 23047481257",
+          "source": "AU three-phase scaling strategy",
+          "tags": [
+            "budget",
+            "australia",
+            "phase-3",
+            "final",
+            "protocol"
+          ],
+          "context": {
+            "phase": 3,
+            "target_budget_gbp": 1250,
+            "final_phase": true
+          },
+          "status": "active",
+          "created_at": "2025-12-04T08:31:10.489469",
+          "updated_at": "2025-12-04T08:31:10.489471",
+          "completed_at": null
+        },
+        {
+          "id": "c266f914-8db1-41f1-a75b-42eecf54e4df",
+          "title": "[MEDIUM] Superspace - Fix Price Issues (2 products)",
+          "client": "superspace",
+          "priority": "P0",
+          "due_date": "2025-11-22",
+          "time_estimate_mins": null,
+          "notes": "**Priority**: MEDIUM\n**Products Affected**: 2 products with price issues\n\n**Issue**: Price mismatch or missing price\n\n**Action Items**:\n1. Access Superspace Merchant Center (ID: 645236311)\n2. Identify 2 disapproved products\n3. Check that prices are:\n   - Present and non-zero in feed\n   - Match landing page price\n   - In correct currency (GBP)\n4. Update feed or website to match\n\n**Expected Impact**: Restore 2 products\n\n**Reference**: See /tools/product-impact-analyzer/DISAPPROVAL-ACTION-PLAN.md\n\n**Note**: Migrated from superspace-uk folder during consolidation (2025-11-20)",
+          "source": "Migrated from Google Tasks (Nov 18, 2025)",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T08:14:56.351825",
+          "updated_at": "2025-11-20T07:15:00.000000",
+          "completed_at": null
+        }
+      ],
+      "count": 5
+    },
+    {
+      "client": "tree2mydoor",
+      "path": "clients/tree2mydoor/tasks.json",
+      "tasks": [
+        {
+          "id": "cDdRSzNWS01pZU9ZRXJqZA",
+          "title": "[Tree2Mydoor] Check October month-end report draft for final review and send to Gareth",
+          "client": "tree2mydoor",
+          "priority": "P1",
+          "status": "in_progress",
+          "source": "AI Generated (2025-11-11 09:30)",
+          "time_estimate": "1 hour",
+          "reason": "Month-end report is in progress and needs completion before end of week; Gareth requires detailed, structured reporting",
+          "ai_task_id": "6322b606-ee93-4aae-b314-f177d93df4b9"
+        },
+        {
+          "id": "clNZX0xfSnowZmVkZFA3Nw",
+          "title": "[Tree2mydoor] REVERT ROAS from 120% back to 140% - Black Friday experiment ends",
+          "client": "tree2mydoor",
+          "priority": "P0",
+          "status": "in_progress",
+          "description": "Black Friday ROAS reduction experiment changed Nov 24, 2025. Revert by Tuesday Nov 25. Campaigns: P Max HP&P (140%\u2192120%), P Max Unprofitable (140%\u2192120%), Search Roses (150%\u2192120%), Shopping Catch All (150%\u2192120%), Shopping Low Traffic (140%\u2192120%). Check impression share, spend, ROAS before reverting. Revert immediately if ROAS <100% or spend explodes.\n\n**Manual Note (2025-11-27):** Before reverting, check current performance after ROAS change from 140% to 120%. Assess: Is it working? This task scheduled for Tuesday Dec 3.\n\n**Manual Note (2025-11-27):** Before reverting, check current performance after ROAS change from 140% to 120%. Assess: Is it working? This task scheduled for Tuesday Dec 3.",
+          "due_date": "2025-12-03",
+          "updated_at": "2025-11-27T10:48:04.436827"
+        },
+        {
+          "id": "bVdZZURmdjZmQ0ZwV2QyUg",
+          "title": "[Tree2mydoor] Review brand campaign consolidation experiment",
+          "client": "tree2mydoor",
+          "priority": "P1",
+          "status": "in_progress",
+          "description": "Paused \"Brand Tree To My Door\" (22485131646) on Nov 24, 2025. Kept \"Brand Inclusion\" (598474059) as sole brand campaign. Pre-pause baseline: 30.1 conversions, \u00a3473 revenue, \u00a3343 spend over 30 days. Success: maintain ~30 conversions. Failure: <24 conversions (>20% drop). Check Brand Inclusion performance Nov 24 - Dec 24.",
+          "experiment_start": "2025-11-24"
+        },
+        {
+          "id": "monthly_tree2mydoor_report",
+          "title": "[Tree2mydoor] Generate and send month-end report to Gareth",
+          "client": "tree2mydoor",
+          "priority": "P1",
+          "status": "pending",
+          "recurring": "monthly",
+          "recurring_day": "first_weekday",
+          "description": "Generate comprehensive month-end report and send to Gareth Mitchell (gareth@collaber.agency). Exception: January report should be sent in second week (around 8th-12th Jan) as Peter is away.",
+          "time_estimate": "2-3 hours",
+          "notes": "Use previous month's report as template. Include: performance metrics, ongoing management work, forward-looking strategy. January exception: send second week of month (8th-12th)."
+        },
+        {
+          "id": "a787ea57-28f0-4b42-8589-1f1f8ebb6177",
+          "title": "[LOW] Tree2mydoor - Consider Renaming \"Shirazz\" Tree (optional)",
+          "client": "tree2mydoor",
+          "priority": "P0",
+          "due_date": "2025-11-30",
+          "time_estimate_mins": null,
+          "notes": "**Priority**: LOW (Optional)\n**Products Affected**: 1 tree variety\n\n**Issue**: Tree named \"Shirazz\" flagged as alcohol (false positive)\n\n**Action Options**:\n1. Rename to \"Ornamental Tree - Shirazz Variety\" to avoid trigger\n2. OR leave as-is (acceptable loss - 1 product out of thousands)\n\n**Recommendation**: Monitor only, no immediate action required\n\n**Expected Impact**: NEGLIGIBLE\n\n**Reference**: See /tools/product-impact-analyzer/DISAPPROVAL-ACTION-PLAN.md",
+          "source": "Migrated from Google Tasks (Nov 18, 2025)",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T08:14:56.348189",
+          "updated_at": "2025-11-18T08:14:56.348191",
+          "completed_at": null
+        },
+        {
+          "id": "80ddcc31-8ec5-471a-b6da-414e314252cb",
+          "title": "[Tree2MyDoor] Decide which brand campaign to keep",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-11-21",
+          "time_estimate_mins": 45,
+          "notes": "**Strategic Decision Required**\n\n**Context:** Nils Rooijmans email (Nov 19/20, 2025) outlined best practice for brand Shopping campaigns.\n\nEvaluate current brand campaigns and decide which to keep for optimal performance.\n\n**Action Items:**\n1. Review performance of all brand campaigns (clicks, conversions, ROAS, CPC)\n2. Analyze overlap and cannibalization between campaigns\n3. Check search term reports for query coverage\n4. Determine optimal brand campaign structure\n5. Apply Nils Rooijmans' LOW-priority methodology if using Shopping campaigns\n6. Document recommendation with supporting data\n\n**Evaluation Criteria:**\n- ROAS performance\n- Impression share coverage\n- CPC efficiency\n- Query match quality\n- Conversion rate\n- Campaign priority settings (if Shopping)\n\n**Nils Rooijmans' Best Practice (if Shopping brand campaign):**\n- LOW-priority Shopping campaign for brand searches\n- HIGH manual CPC bids for maximum visibility\n- Brand terms in negative keyword list on non-brand campaigns\n- All products in brand campaign ALSO in non-brand campaigns\n\n**Supporting Data Needed:**\n- Last 30 days performance by campaign\n- Search term reports\n- Auction insights (if available)\n- Budget allocation efficiency\n- Campaign priority settings\n",
+          "source": "User request - Claude Code",
+          "tags": [
+            "strategy",
+            "brand-campaigns",
+            "consolidation",
+            "optimization"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-20T22:25:02.638746",
+          "updated_at": "2025-11-20T22:33:02.491203",
+          "completed_at": null
+        }
+      ],
+      "count": 6
+    },
+    {
+      "client": "uno-lighting",
+      "path": "clients/uno-lighting/tasks.json",
+      "tasks": [
+        {
+          "id": "510cd9e9-f300-456a-834e-d37285f44706",
+          "title": "[Uno Lighting] Follow up on bar stools product feed",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P3",
+          "due_date": null,
+          "time_estimate_mins": 15,
+          "notes": "Source: Nov 10, 2025 meeting with Google rep (Luiza)\nAction: Chase client for bar stools product feed\nStatus: Still awaiting from client",
+          "source": "Meeting Notes - Nov 10, 2025",
+          "tags": [
+            "meeting-action-item",
+            "nov-2025"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T13:33:05.251064",
+          "updated_at": "2025-11-18T13:33:05.251065",
+          "completed_at": null
+        },
+        {
+          "id": "67086691-0b30-4bf8-b15f-2b2a999272f4",
+          "title": "[Uno Lighting] Review AI Max performance and search term quality",
+          "type": "standalone",
+          "parent_id": null,
+          "children": null,
+          "priority": "P0",
+          "due_date": "2025-12-02",
+          "time_estimate_mins": 45,
+          "notes": "Review AI Max performance after 2-3 weeks of testing (enabled Nov 10, 2025).\n\n**REVIEW OBJECTIVES:**\n1. Analyse search terms triggered by AI Max\n2. Check impression volume increase\n3. Assess conversion rate vs traditional match types\n4. Evaluate ROAS performance\n5. Identify any irrelevant/waste search terms to add as negatives\n\n**DATA TO PULL:**\n- Search terms report (Nov 10 - Dec 2)\n- Impression share changes\n- Conversion rate by match type\n- ROAS comparison: AI Max vs Exact/Phrase\n- Cost per conversion trends\n\n**QUESTIONS TO ANSWER:**\n- Has AI Max expanded reach without sacrificing quality?\n- Are search terms relevant to products?\n- Should we expand AI Max to more campaigns?\n- Any negative keywords needed?\n\n**SIMILAR IMPLEMENTATION:**\n- Devonshire Hotels: AI Max rolled out Nov 3, 2025\n- Can compare learnings between accounts\n\n**NEXT STEPS:**\n- If successful: Expand to more campaigns\n- If poor quality: Refine or revert to traditional match types",
+          "source": "Follow-up from AI Max implementation",
+          "tags": [
+            "ai-max",
+            "review",
+            "performance"
+          ],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T21:34:34.867895",
+          "updated_at": "2025-11-18T21:34:34.868071",
+          "completed_at": null
+        },
+        {
+          "id": "d9702820-9b7a-4886-859f-499fca1ecf69",
+          "title": "[Uno Lighting] Monitor campaigns for budget increase readiness (\u00a31,800/day approved, waiting for capacity)",
+          "client": "uno-lighting",
+          "priority": "P0",
+          "due_date": "2025-11-21",
+          "time_estimate_mins": 45,
+          "notes": "---\n**Source:** Client Agreement (2025-11-12)\n**Client:** uno-lighting\n**Priority:** P2 (Monitoring - not urgent)\n**Time Estimate:** 45 mins\n**Reason:** Richard agreed to full \u00a3500/day budget increase via WhatsApp on Nov 12. Implementation deferred until campaigns show budget constraint.\n---\n\n**UPDATE (2025-11-19):** Still no budget constraint - campaigns operating well below capacity.\n- **Today's spend:** \u00a3598/day (45% of \u00a31,330 total budget)\n- **Budget lost IS:** 0% across all campaigns\n- **Main H&S PMax:** \u00a3354/day (48% of \u00a3730 budget)\n- **Shopping:** \u00a3172/day (43% of \u00a3400 budget)\n- **Villains:** \u00a358/day (53% of \u00a3110 budget)\n- **Conclusion:** Continue monitoring - no action needed yet\n\n**UPDATE (2025-11-14):** No capacity yet in campaigns to accommodate new budget. Need to check again Tuesday next week.\n\n**STRATEGY (2025-11-13):** Monitor daily - implement \u00a3500/day increase ONLY when budget constraint appears\n- **Current Status:** NOT budget-limited (0% budget lost impression share)\n- **Trigger:** When budget lost IS rises above 10% consistently OR peak demand drives spend to limits\n- **Current Spend:** \u00a3598/day (well below \u00a31,330 approved limit)\n\n**Budget Allocation (when triggered):**\n- Main PMax: Increase budget (pending capacity)\n- Shopping: Increase to address impression loss (pending capacity)\n- Brand: Maintain strong 3x ROAS performance\n- Villains: Enable new customer acquisition (pending capacity)\n\n**Expected Revenue:** \u00a35,400/day at 300% ROAS = \u00a3130k (Nov 13 - Dec 6)\n\n**Next Steps:**\n1. Check again Thursday Nov 21 (approaching Black Friday week)\n2. Monitor for Black Friday demand surge\n3. Implement budget increase if capacity appears\n4. Alert client if ROAS drops below 200%\n5. Confirm implementation to Richard via WhatsApp when triggered\n\n**UPDATE (2025-11-19 Evening):** Still no budget constraint - continue monitoring.\n- Manual check confirmed no activity requiring budget increase\n- Next review: Monday Nov 25 (Black Friday week approach)",
+          "source": "Client Request",
+          "tags": [],
+          "context": {},
+          "status": "active",
+          "created_at": "2025-11-18T08:14:56.341340",
+          "updated_at": "2025-11-19T21:45:06.969672",
+          "completed_at": null
+        }
+      ],
+      "count": 3
+    }
+  ]
+}

@@ -17,7 +17,7 @@ Document Parsing & Client Detection
     ↓
 Save to clients/[client]/meeting-notes/
     ↓
-Extract Action Items → Google Tasks
+Extract Action Items → Markdown Files
 ```
 
 ## Document Format
@@ -88,14 +88,10 @@ Edit `tools/granola-importer/domain_mappings.yaml`:
 - Includes unassigned items (no person prefix)
 - Excludes items assigned to other people
 
-### Google Tasks Format
-- **Title**: `[client-name] Task description`
-- **Notes**: 
-  ```
-  From: Meeting Title
-  Date: 2025-11-07
-  ```
-- **List**: "Client Action Items" (auto-created)
+### Markdown Output Format
+- Action items saved within meeting markdown file
+- Includes meeting context (title, date, file path)
+- Priority indicators (P0/P1/P2) based on keywords
 
 ## File Output Format
 
@@ -159,10 +155,10 @@ imported_at: 2025-11-07T14:35:00
 - **Credentials**: `~/Library/Application Support/Granola/supabase.json`
 - **Method**: Matches meetings by timestamp (±2 hours)
 
-### Google Tasks API
-- **Purpose**: Create action items
-- **List**: "Client Action Items"
-- **Integration**: Via `shared/google_tasks_client.py`
+### Action Item Extraction
+- **Purpose**: Extract action items from meeting transcripts
+- **Output**: Saved to markdown within meeting notes
+- **Format**: YAML frontmatter with action items list
 
 ## Error Scenarios
 
@@ -186,12 +182,12 @@ imported_at: 2025-11-07T14:35:00
 - Check client folder names match expected format
 - Manually move file and update history
 
-### 4. Action Items Not Created
-**Symptoms**: No tasks in Google Tasks
+### 4. Action Items Not Extracted
+**Symptoms**: No action items in meeting markdown file
 **Solution**:
-- Verify Google Tasks MCP configured
 - Check action item format in transcript
-- Review logs for errors
+- Verify action items section exists
+- Review logs for parsing errors
 
 ## Dependencies
 
@@ -202,8 +198,7 @@ pip install pyyaml requests python-dateutil thefuzz python-Levenshtein beautiful
 ```
 
 ### Optional
-- `anthropic` - For AI analysis
-- Google Tasks client - For action item creation
+- `anthropic` - For AI analysis and meeting summarisation
 
 ## History Tracking
 
@@ -288,7 +283,7 @@ python3 agents/granola-google-docs-importer/granola-google-docs-importer.py \
 - [ ] Documents are in Shared Drive or "Shared with me"
 - [ ] Python dependencies installed
 - [ ] Client detector can access client folders
-- [ ] Google Tasks MCP configured (for action items)
 - [ ] Granola API credentials available (for enrichment)
 - [ ] Import history file is writable
+- [ ] Client meeting-notes directories exist and are writable
 

@@ -10,8 +10,14 @@
 ## Account Overview
 
 **Client Since**: October 2025 (Account re-enabled 16 Oct 2025)
-**Monthly Budget**: £5,700/month (~£190/day) - Increased Nov 2025 for seasonal peak
-**Previous Budget**: £2,000/month (~£64/day) - Oct 2025
+**Current Budget**: £100/day - Christmas period reduction (Dec 2025)
+**Planned Budget**: £190/day (~£5,700/month) - Returns 3rd January 2026
+**Budget History**:
+- Oct 2025: £64/day (£2,000/month)
+- Nov 2025: £190/day (£5,700/month) - Seasonal peak increase
+- Dec 2025: £550/day - Christmas peak
+- Late Dec 2025: £100/day - Christmas period wind-down
+- 3rd Jan 2026: £190/day - Return to seasonal baseline
 **Primary Contact**: [TBD] - [Email TBD]
 **Account Manager**: Peter Empson
 

@@ -68,7 +68,7 @@ python3 scripts/validate-task-system.py
 ### Tasks not showing?
 1. Check file location: `clients/{client}/tasks.json` (not in product-feeds)
 2. Validate JSON: `python3 -m json.tool clients/{client}/tasks.json`
-3. Regenerate HTML: `python3 generate-tasks-overview.py`
+3. Regenerate HTML: `python3 generate-all-task-views.py`
 
 ### Tasks appearing twice?
 Check for duplicates:

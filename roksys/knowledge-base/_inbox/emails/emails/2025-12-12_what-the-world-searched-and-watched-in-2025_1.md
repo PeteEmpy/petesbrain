@@ -1,0 +1,59 @@
+# What the world searched and watched in 2025
+
+## Email Details
+
+- **From:** Think with Google EMEA <noreply-thinkwithgoogle-emea@google.com>
+- **To:** petere@roksys.co.uk
+- **Date:** 2025-12-12 06:02:58
+- **Gmail ID:** 19b12716d01c72e4
+
+---
+
+## Message
+
+[ Image ]
+
+ANNUAL TRENDS  |  DECEMBER 2025
+
+Insights from 5 trillion searches
+
+[ Year in Search 2025. Sunrays penetrate an expansive, cloudy sky to shine down upon a large body of water where boats can be seen. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhwzgzmB9gr0lIQ4uQaSoiwj8sUCdoIc1RgEBWh5agSsA5fOQxcX_CkUtCbOmy-g1uOiIfUAP7l1Si4eoETPY6cHr6Z35TuryfLUAy6S_4NiJIdjemfmuvZYlla6Wur0Gc4PWT4vlkAFsCk50rEscEqxq-f4fmYYLyCOvP7siBhSbdD5DuJtaoN-_70F23ckd5RCjl_vYk6klBckwgpJJsIJzL16tT9lpuhwOfprsNfv9oVAjlT6VRSWobZ_UhVxmXQzZ4IKZGYXEKOY4G9QFb--TsVTWAGx_vGOcXgXy6JckcXNX3yroHvKt8tebMMKGV/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=
+
+In this issue:
+
+- What this year’s breakout searches mean for marketers <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhwzgzmB9gr0lIQ4uQaSoiwj8sUCdoIc1RgEBWh5agSsA5fOQxcX_CkUtCbOmy-g1uOiIfUAP7l1Si4eoETPY6cHr6Z35TuryfLUAy6S_4NiJIdjemfmuvZYlla6Wur0Gc4PWT4vlkAFsCk50rEscEqxq-f4fmYYLyCOvP7siBhSbdD5DuJtaoN-_70F23ckd5RCjl_vYk6klBckwgpJJsIJzL16tT9lpuhwOfprsNfv-_Bn5ttaY3b3c8ipkW-u9zJElJ2Cf6ozBWn1_8zZ-fVacyoUKQ0GTpVw5lhx5vIOA=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+- The 3 viewer shifts reshaping modern culture <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhCEaDZ3t_3NFvSleGk5Rqz1YzVBac2wqC9jQwu8MDq6b3pFSx_BXLxfsxZI6jC7qrnbP2wp7CwdK3ZSKERhlQ-5QcRjguqUVuuOBzGnkFag3G8k8pyMTYLxE6PJsV3hh1qhix1PFEdIJAi7NKzX1nVvq8Nk6P-ayQ6-qcpUzL6NqlXRe0GYHaB2eO6w_eyXwFFvnoomiGmalZ3t4E2hYPZ-F0bnRiQkzXOMe5mCO-VlWw5HuVoa7pXQ8VNwTNo2pkpTvGtcdViuNquJnNThw5fmTvO0_D45J3H32K57w-phI=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+[ Explore what the world is searching for right now. Over a visually scaled-back line graph, a search bar contains the Google “G” logo as well as microphone and camera icons. A search begins with “2025.” ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhwzgzmB9gr0lIQ4uQaSoiwj8sUCdoIc1RgEBWh5agSsA5fOQxcX_CkUtCbOmy-g1uOiIfUAP7l1Si4eoETPY6cHr6Z35TuryfLUAy6S_4NiJIdjemfmuvZYlla6Wur0Gc4PWT4vlkAFsCk50rEscEqxq-f4fmYYLyCOvP7siBhSbdD5DuJtaoN-_70F23ckd5RCjl_vYk6klBckwgpJJsIJzL16tT9lpuhwOfprsNfv-FSFW_ZDItWb3D-gEM8UBK28RIDqXEwlBcPbsLc-IZQ9OUWeR_8S8WOnCGqn-7DYrxsSQW12WpovmrSJtOxyLU/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=
+
+What this year’s breakout searches mean for you
+
+The breakout searches of 2025 tell a bigger story about how people are using Search. This year, “labubu clothing,” “jorts,’’ and “bunnies on a trampoline” were breakout searches. We also saw a rise in complex, conversational queries. People dove deeper with visual searches and searched about AI in entirely new ways. So, what do these shifts mean for marketers in 2026?
+
+Get the scoop <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhwzgzmB9gr0lIQ4uQaSoiwj8sUCdoIc1RgEBWh5agSsA5fOQxcX_CkUtCbOmy-g1uOiIfUAP7l1Si4eoETPY6cHr6Z35TuryfLUAy6S_4NiJIdjemfmuvZYlla6Wur0Gc4PWT4vlkAFsCk50rEscEqxq-f4fmYYLyCOvP7siBhSbdD5DuJtaoN-_70F23ckd5RCjl_vYk6klBckwgpJJsIJzL16tT9lpuhwOfprsNfv-FSFW_ZDItWb3D-gEM8UBK57bpFqhvvVA2O2pmfzKFc1Bba8Kzqi4KTiivZtxEH5c=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+[ Featured YouTube content windows show creator Sydney Morgan wearing Labubu clothing, a “Minecraft” live demo, an animated language-learning video, and a screenshot from “The Sims” game. ] https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhCEaDZ3t_3NFvSleGk5Rqz1YzVBac2wqC9jQwu8MDq6b3pFSx_BXLxfsxZI6jC7qrnbP2wp7CwdK3ZSKERhlQ-5QcRjguqUVuuOBzGnkFag3G8k8pyMTYLxE6PJsV3hh1qhix1PFEdIJAi7NKzX1nVvq8Nk6P-ayQ6-qcpUzL6NqlXRe0GYHaB2eO6w_eyXwFFvnoomiGmalZ3t4E2hYPZ-F0bnRiQkzXOMe5mCO-VlWw5HuVoa7pXQ8VNwTNo2pkykrUdi6yyblXzqZguwFKD92xnx4cCdmuYhQGC41grg3MA_RTv3DCDipwOtmHHKAt/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=
+
+3 viewer shifts that defined 2025
+
+Viewer behavior is evolving in three distinct ways. First, audiences are using video to seamlessly move between real and virtual worlds, like scientific reality and gaming. Second, cross-border fandom is shaping culture from the ground up, turning entertainment into a team sport. Third, Gen Z is gravitating toward creative maximalism, defined by rich and hyperpaced content, while also seeking out old-school nostalgia.
+
+Get trendy <https://mail.thinkwithgoogle.com/dc/EmQVnyk5WP78FNkWKg7LZHpl1FqeK1XYfSSmMvd7Z6YxJlkIZocKRDymqk_sCNyhCEaDZ3t_3NFvSleGk5Rqz1YzVBac2wqC9jQwu8MDq6b3pFSx_BXLxfsxZI6jC7qrnbP2wp7CwdK3ZSKERhlQ-5QcRjguqUVuuOBzGnkFag3G8k8pyMTYLxE6PJsV3hh1qhix1PFEdIJAi7NKzX1nVvq8Nk6P-ayQ6-qcpUzL6NqlXRe0GYHaB2eO6w_eyXwFFvnoomiGmalZ3t4E2hYPZ-F0bnRiQkzXOMe5mCO-VlWw5HuVoa7pXQ8VNwTNo2pks2fqHXpO3gthtA8pWxH4IQz8ukGBzXNyiiKXiDQv4x8=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+Received this email from a friend? Sign up here <https://mail.thinkwithgoogle.com/dc/MBgYEBdczzKwXu-AuN4fdSHUWsryjbs5X38TgsfISad39WCcrgUrd7Eg-eYewWJajg3VFBC3qzKa-cmhPVaUGi-h1u9JKcysrx9Q8ngWd9qoz6l_bkRsdCpdl1OEAJXf5y0PLipjRO6xDup0Sb37Sn-CsOqv_yYtbVo4TBs3XMJQ2I2e-ZjDLyQR7jMsHozyXGJQFfMPay0OIGDXOPKwCzXrfyjCnNeCJx8fjLk6cK8RWvoBkYG5QOUay7pVmK7Adoh-PbA-Oru4bF9bqdYOyPlX3ALjUl26nX77XMkoH2E=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+Discover more content on ThinkWithGoogle.com <https://mail.thinkwithgoogle.com/dc/sw2Jv2lliV95Sp9FKmB-yk9n2CCc1w7JrXRK_U_6bTfpgrBwTe9AzWbRSrwKKWTXc5yyYR95mSJgi-kxZAQ_-HJlVpq517f5ApuxsOwivR8KvP0uU_AGRTleeot39E7vnMn2CuW910wmub_dazH1gUog7D929IhslvKNOoOJg1J9MQy_6SYD9yv7EaM31Xp3Bt5vtX5ESVHsD2AKjBYbGUP1GuQXBSPK87pjCaa2KmnCcSC84R_nAQ9MOI5YFYR-yR9Ur6Bzx9FeuATWF9vdWA==/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>. This email was sent to petere@roksys.co.uk because you signed up for the latest from Think with Google EMEA. If you don't want to receive this newsletter in the future, please unsubscribe here <https://mail.thinkwithgoogle.com/dc/MBgYEBdczzKwXu-AuN4fdSHUWsryjbs5X38TgsfISaf_D732Gn0frBHJql3jXT_W717GTKCayKXltKHByjCm9xvIzoMmDUcwLkmcEoYJRDmPBguEguH7JhcdM4JB892SwdVD_MIl2GRB3Y2-uiXgkzqV-znGvibRFVB8mULtljB8-Z51BbFqY9FJc6y3dq8oPGW7ST5a4Aot8jrPYQ9MtIYz3mu5snItZhYp6vkZo5h85rV2PkxcPYcW0PsbJfWbeIYCG9Ou0tBWYLQzaldg9syoVZeOm_26vorlaDHzdzI=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>.
+
+© 2025 Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ireland.
+
+Follow us
+
+LinkedIn <https://mail.thinkwithgoogle.com/dc/fG5-PlwEnZR-IoSdwCtjInBOEnkCOl-88iHvoC1GNZyy0coz9bmmnInNnnlK-vkeiMLDUn5VGOTOyHnAbeIe6w69qV2lDgJAjVZqROA4KV8bgO_L797OPc8DiDMcra-C3mnBC6WgzfgpzqpZgVr-bI_HQe6olEphjZFQs9IQuaUJROuI0b7RBgVUIEiBLtG-AHV3OpxLMV27Nlb-w031-epH5ZvH457_vezGYO_97F2B3ctRaxJL2aRsoz98jcMJ2Iw4iPlcViLabGue9b51kSsgZ41kcMoUJPCRFfR0-t4=/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+X <https://mail.thinkwithgoogle.com/dc/qRrMJDEUlv6ss-mBIC1z6ibxlrS8Ji12RX_Chm_98cfVCUJh0FyTCxn8Gtenzs0lZ7qJMbKS2NUas28eaLmYRXBssdAHcnYeSy6u4TS9_ZUdFr_2xQ7tk19TxpwstBXkzfFp5ZameLqWpWVOr5SbAenQ2EoET8Q1HMRO4hCtgjrCU22tYN-hp3iMqeHiJkTs6Zq2FyZegmID_KBJmNCIfW2kIGesLbZiAHpI4Ec9XkkTK7Aywa6lfkdRYH5XGFbrma14_TpTLUQy13TNd0JijA==/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+Facebook <https://mail.thinkwithgoogle.com/dc/uq3EykqQY7h0Yyhe2BWhMOQoLnY-FVPjcOSpRoBt7oqQDJN5ULW8_gRUPZ3sYgfxkjuB968kLHBGx1_RvrI7943mlNojrDsU1c_8OykYcwSmcDpEQFKSQokpNN7mNsXBVZBHYHLnJBTP8X9XpoSJ7KUcf-vk8gJyKn8XSDTDybygCRI_J3wN62Mw5fW1H-ZZqaK5FDeCOgDpufqgWRpne-znzBO_a0yP-p0k1s0TrbgHFGETKAgyvR2cYOxIbyQIiQrW0IgUm_Mk_KewngSzkQ==/MTcyLUdPUC04MTEAAAGesWoQ4wK7OMACo1TjrTzM720PiS19pttFPP2jPA4TyQUdk-S-KZoioIdnCojchFO5uc0Vbk4=>
+
+.
+

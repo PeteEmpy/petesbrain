@@ -35,6 +35,10 @@ token.json.old*
 .mcp.json
 .mcp.json.backup*
 
+# Rollback snapshots (contain credentials)
+infrastructure/rollback-snapshots/
+infrastructure/rollback-snapshots/**
+
 # ============================================================================
 # CLIENT DATA (SENSITIVE - NEVER COMMIT)
 # ============================================================================

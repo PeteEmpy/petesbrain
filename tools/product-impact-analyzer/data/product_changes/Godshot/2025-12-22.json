@@ -1,0 +1,522 @@
+{
+  "date": "2025-12-22",
+  "client": "Godshot",
+  "comparison_date": "2025-12-21",
+  "total_products_today": 2741,
+  "total_products_yesterday": 2740,
+  "summary": {
+    "changed_products": 24,
+    "price_changes": 0,
+    "sale_price_changes": 0,
+    "availability_changes": 24,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 1,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "23180",
+      "title": "Pith Pomelo 2026 Planner",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15114",
+      "title": "The Chocolate Society Bar",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22895",
+      "title": "Craighill Closed Helix Keyring",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24274",
+      "title": "FUGAZZI Passionfroudh Extrait 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17778",
+      "title": "Asemi Co. Matsushiro Ceramic Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15164",
+      "title": "Dak - Milky Cake 250g - Whole Coffee Beans or Ground The Way You Like It - Cauca, Colombia",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14428",
+      "title": "Mal Paper Daily Goal Setter Planner",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20040",
+      "title": "Cinnamon Projects Circa Mineral Incense Holder",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21060",
+      "title": "BORNTOSTANDOUT Mary Jane EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15543",
+      "title": "Hetkinen Forest Bath Powder",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20413",
+      "title": "Kinto Ripple Mug 250ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24190",
+      "title": "Room 1015 Cherry Punk EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23168",
+      "title": "Pith Kabosu Sketchbook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18424",
+      "title": "Muuto Attach Coat Hooks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18521",
+      "title": "Malin + Goetz Cannabis Perfume Oil 9ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23825",
+      "title": "Craighill Best Wine Key Amalgam Edition",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14591",
+      "title": "Malin + Goetz Fragrance Discovery Kit",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20798",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "11879",
+      "title": "HMM Magnetic Scissors",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21792",
+      "title": "Moya Bamboo Matcha Whisk",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19479",
+      "title": "Modern Theory Candle Tin",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19473",
+      "title": "Pelegrims Hyaluronic Plump Facial Oil 30ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20611",
+      "title": "Harth Hot Chocolate 400g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "17962",
+      "title": "The Sleep & CBT-I Workbook",
+      "price": "20.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [],
+  "price_changes": [],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "23180",
+      "title": "Pith Pomelo 2026 Planner",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15114",
+      "title": "The Chocolate Society Bar",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22895",
+      "title": "Craighill Closed Helix Keyring",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24274",
+      "title": "FUGAZZI Passionfroudh Extrait 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17778",
+      "title": "Asemi Co. Matsushiro Ceramic Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15164",
+      "title": "Dak - Milky Cake 250g - Whole Coffee Beans or Ground The Way You Like It - Cauca, Colombia",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14428",
+      "title": "Mal Paper Daily Goal Setter Planner",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20040",
+      "title": "Cinnamon Projects Circa Mineral Incense Holder",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21060",
+      "title": "BORNTOSTANDOUT Mary Jane EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15543",
+      "title": "Hetkinen Forest Bath Powder",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20413",
+      "title": "Kinto Ripple Mug 250ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24190",
+      "title": "Room 1015 Cherry Punk EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23168",
+      "title": "Pith Kabosu Sketchbook",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18424",
+      "title": "Muuto Attach Coat Hooks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18521",
+      "title": "Malin + Goetz Cannabis Perfume Oil 9ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23825",
+      "title": "Craighill Best Wine Key Amalgam Edition",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14591",
+      "title": "Malin + Goetz Fragrance Discovery Kit",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20798",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "11879",
+      "title": "HMM Magnetic Scissors",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21792",
+      "title": "Moya Bamboo Matcha Whisk",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19479",
+      "title": "Modern Theory Candle Tin",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19473",
+      "title": "Pelegrims Hyaluronic Plump Facial Oil 30ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20611",
+      "title": "Harth Hot Chocolate 400g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

@@ -1,0 +1,23 @@
+{
+  "start_date": "2025-10-18",
+  "end_date": "2025-12-17",
+  "clients": [
+    "bright-minds",
+    "clear-prospects",
+    "crowd-control",
+    "devonshire-hotels",
+    "go-glean",
+    "godshot",
+    "grain-guard",
+    "just-bin-bags",
+    "national-design-academy",
+    "national-motorsports-academy",
+    "positive-bakes",
+    "superspace"
+  ],
+  "criteria": {
+    "min_clicks": 30,
+    "min_spend": 20.0,
+    "max_conversions": 0
+  }
+}

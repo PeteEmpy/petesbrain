@@ -3,7 +3,7 @@
 Git Operations Agent (githuby)
 
 Handles all git operations with mandatory fetch-first protocol and automatic
-automation commit recognition. Based on Mike Rhodes' githuby pattern.
+automation commit recognition. Based on githuby pattern.
 
 Usage:
     python3 githuby.py --sync

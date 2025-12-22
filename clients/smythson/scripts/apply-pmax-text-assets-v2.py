@@ -64,26 +64,8 @@ REGIONS = {
     },
 }
 
-# FIXED: Correct column mapping based on actual spreadsheet (verified 2025-12-12)
-# Row 1 headers: Campaign ID, Campaign Name, Asset Group ID, Asset Group Name, Status,
-#                Final URL, Path 1, Path 2, Business Name, Call to Action,
-#                # Headlines, # Long Headlines, # Descriptions, # Landscape Images,
-#                # Square Images, # Portrait Images, # Logos, # Videos,
-#                Headline 1, Headline 2, ... (headlines start at column S = index 18)
-COLUMN_MAP = {
-    'campaign_id': 0,        # Column A
-    'campaign_name': 1,      # Column B
-    'asset_group_id': 2,     # Column C
-    'asset_group_name': 3,   # Column D
-    'status': 4,             # Column E
-    'final_url': 5,          # Column F
-    'headlines_start': 18,   # Column S (index 18) - Headlines 1-15
-    'headlines_count': 15,
-    'long_headlines_start': 33,  # After headlines (18 + 15 = 33)
-    'long_headlines_count': 5,
-    'descriptions_start': 38,    # After long headlines (33 + 5 = 38)
-    'descriptions_count': 5,
-}
+# Column mapping - will be populated dynamically from row 1 headers
+COLUMN_MAP = {}
 
 # Google Ads API requirements
 MINIMUM_REQUIREMENTS = {
@@ -135,6 +117,100 @@ def read_sheet_data(region: str) -> List[List[str]]:
     rows = result.get('values', [])
     print(f"  Read {len(rows)} rows from spreadsheet")
     return rows
+
+
+def parse_column_headers(region: str) -> Dict[str, int]:
+    """
+    Read row 1 headers and dynamically map column names to indices.
+
+    Returns a dict with:
+    - 'campaign_id', 'campaign_name', 'asset_group_id', 'asset_group_name', 'status', 'final_url': indices
+    - 'headlines_start', 'headlines_count': headline column range
+    - 'long_headlines_start', 'long_headlines_count': long headline column range
+    - 'descriptions_start', 'descriptions_count': description column range
+    """
+    from google.oauth2.credentials import Credentials
+    from googleapiclient.discovery import build
+
+    sheets_mcp_path = '/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-sheets-mcp-server'
+    token_path = os.path.join(sheets_mcp_path, 'token.json')
+
+    if not os.path.exists(token_path):
+        raise FileNotFoundError(f"Google Sheets OAuth token not found: {token_path}")
+
+    creds = Credentials.from_authorized_user_file(token_path)
+    service = build('sheets', 'v4', credentials=creds)
+
+    # Read header row (row 1) for this region
+    sheet_name = REGIONS[region]['sheet_name']
+    header_range = f"{sheet_name}!A1:AZ1"
+
+    result = service.spreadsheets().values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=header_range
+    ).execute()
+
+    headers = result.get('values', [[]])[0] if result.get('values') else []
+
+    if not headers:
+        raise ValueError(f"Could not read header row from {header_range}")
+
+    # Map column indices based on header names
+    column_map = {}
+
+    # Find basic columns
+    for i, header in enumerate(headers):
+        header_lower = header.lower().strip()
+        if header_lower == 'campaign id':
+            column_map['campaign_id'] = i
+        elif header_lower == 'campaign name':
+            column_map['campaign_name'] = i
+        elif header_lower == 'asset group id':
+            column_map['asset_group_id'] = i
+        elif header_lower == 'asset group name':
+            column_map['asset_group_name'] = i
+        elif header_lower == 'status':
+            column_map['status'] = i
+        elif header_lower == 'final url':
+            column_map['final_url'] = i
+
+    # Find text asset columns (headlines, long headlines, descriptions)
+    headlines_indices = []
+    long_headlines_indices = []
+    descriptions_indices = []
+
+    for i, header in enumerate(headers):
+        header_lower = header.lower().strip()
+        if header_lower.startswith('headline ') and 'long' not in header_lower:
+            headlines_indices.append(i)
+        elif 'long headline' in header_lower:
+            long_headlines_indices.append(i)
+        elif header_lower.startswith('description '):
+            descriptions_indices.append(i)
+
+    # Store ranges
+    if headlines_indices:
+        column_map['headlines_start'] = min(headlines_indices)
+        column_map['headlines_count'] = len(headlines_indices)
+    else:
+        column_map['headlines_start'] = 18  # Fallback
+        column_map['headlines_count'] = 15
+
+    if long_headlines_indices:
+        column_map['long_headlines_start'] = min(long_headlines_indices)
+        column_map['long_headlines_count'] = len(long_headlines_indices)
+    else:
+        column_map['long_headlines_start'] = 33  # Fallback
+        column_map['long_headlines_count'] = 5
+
+    if descriptions_indices:
+        column_map['descriptions_start'] = min(descriptions_indices)
+        column_map['descriptions_count'] = len(descriptions_indices)
+    else:
+        column_map['descriptions_start'] = 38  # Fallback
+        column_map['descriptions_count'] = 5
+
+    return column_map
 
 
 def parse_text_assets_from_row(row: List[str]) -> Optional[Dict]:
@@ -373,6 +449,14 @@ def run_preflight_validation(region: str) -> Tuple[bool, List[str]]:
     except Exception as e:
         errors.append(f"Google Ads OAuth error: {str(e)}")
 
+    # 2b. Parse column headers dynamically
+    try:
+        global COLUMN_MAP
+        COLUMN_MAP = parse_column_headers(region)
+        print(f"  [OK] Column headers parsed ({len(COLUMN_MAP)} columns)")
+    except Exception as e:
+        errors.append(f"Column header parsing error: {str(e)}")
+
     # 3. Read spreadsheet and validate data
     try:
         rows = read_sheet_data(region)
@@ -529,6 +613,12 @@ def apply_region_text_assets(region: str, dry_run: bool = False,
 
     if dry_run:
         print("[DRY RUN MODE - No changes will be made]")
+
+    # Parse column headers dynamically from row 1
+    print(f"\nParsing column headers from spreadsheet...")
+    global COLUMN_MAP
+    COLUMN_MAP = parse_column_headers(region)
+    print(f"  Mapped {len(COLUMN_MAP)} columns")
 
     # Read spreadsheet data
     print(f"\nReading spreadsheet data...")

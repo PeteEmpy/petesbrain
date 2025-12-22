@@ -31,7 +31,7 @@
 ## PrestaShop
 
 **Shop URL**: `https://accessoriesforthehome.co.uk`
-**API Key**: `[CONFIGURED - GET permissions for reporting]`
+**API Key**: `JU6R2RG7RW77UETJSTIP39UKE4V84HGC`
 
 **API Status**: ✅ **OPERATIONAL** (Fixed 10 Dec 2025)
 - **Previous Issue**: Orders API returning stale data (Jan 2025 cutoff) due to incorrect filter parameter
@@ -248,6 +248,32 @@ Access: View-only (GET permissions for reporting)
 ## Campaign-Specific Notes
 
 [To be filled after reviewing Google Ads account structure]
+
+---
+
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-11-16)
+
+**Campaign**: AFH | P Max | H&S Zombies Furniture
+**Target ROAS**: 170%
+**Previous**: 190% (changed 2025-11-16, originally 200% from 2025-11-05)
+**Actual ROAS Achieved**: 4.0 (company-wide)
+**Performance Impact**: Monitoring through Nov 18-21 for CR, spend, revenue stability
+
+**Rationale**: Q4 Peak Season Phase 1 - Conversion rate trending up (0.43% → 0.52%, +21% WoW), budget utilization at 200%, reduced ROAS to capture peak season volume while maintaining profitability.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Setting | Previous | New | Rationale | Result |
+|------|---------|----------|-----|-----------|--------|
+| 2025-11-16 | Campaign ROAS | 190% | 170% | Q4 Phase 1: CR up +21%, budget at 200%, peak season scaling | [Monitoring Nov 18-21] Phase 2 to 150% planned |
+| 2025-11-05 | Campaign ROAS | 200% | 190% | Counteract impression drop, test before peak season | Testing - full week analysis Nov 12 |
+| 2025-10-20 | Campaign ROAS | 210% | 200% | Proactive seasonal adjustment to maintain visibility | [TBD] |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness.
 
 ---
 

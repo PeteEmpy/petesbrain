@@ -1,0 +1,90 @@
+{
+  "backup_created": "2025-12-17T14:05:54.989098",
+  "operation": "Add Tier 1 negative keywords - UK",
+  "client": "smythson",
+  "customer_id": "8573235780",
+  "manager_id": "2569949686",
+  "accounts_data": {
+    "13811031042": {
+      "name": "SMY | UK | Search | Brand Exact",
+      "terms": [
+        {
+          "text": "frank smythson",
+          "clicks": 68,
+          "cost": 271.459203
+        }
+      ]
+    },
+    "22818453734": {
+      "name": "SMY | UK | Search | Brand Exact - New Customers",
+      "terms": [
+        {
+          "text": "smythson of bond street",
+          "clicks": 32,
+          "cost": 147.600545
+        }
+      ]
+    },
+    "23074901902": {
+      "name": "SMY | UK | Search | Generic | Ai",
+      "terms": [
+        {
+          "text": "luxury diaries",
+          "clicks": 64,
+          "cost": 106.304744
+        },
+        {
+          "text": "luxury leather bag",
+          "clicks": 56,
+          "cost": 77.46148
+        },
+        {
+          "text": "luxury leather handbag",
+          "clicks": 52,
+          "cost": 45.962053
+        }
+      ]
+    },
+    "13811037330": {
+      "name": "SMY | UK | Search | Brand Bags",
+      "terms": [
+        {
+          "text": "smythson handbags",
+          "clicks": 58,
+          "cost": 66.412337
+        },
+        {
+          "text": "smythson bag",
+          "clicks": 41,
+          "cost": 37.618983
+        }
+      ]
+    },
+    "13813052579": {
+      "name": "SMY | UK | Search | Brand Plus",
+      "terms": [
+        {
+          "text": "smythson travel wallet",
+          "clicks": 32,
+          "cost": 50.027211
+        }
+      ]
+    },
+    "13810757923": {
+      "name": "SMY | UK | Search | Brand Leather Accessories",
+      "terms": [
+        {
+          "text": "smythson travel wallet",
+          "clicks": 39,
+          "cost": 48.563951
+        },
+        {
+          "text": "smythson laptop case",
+          "clicks": 35,
+          "cost": 35.50035
+        }
+      ]
+    }
+  },
+  "exclusions": "Aspinal terms excluded per user requirement"
+}

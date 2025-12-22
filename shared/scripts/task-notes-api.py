@@ -7,6 +7,8 @@ Server will listen on http://localhost:5002
 
 import json
 import sys
+import os
+import atexit
 from pathlib import Path
 from datetime import datetime
 from http.server import HTTPServer, BaseHTTPRequestHandler
@@ -15,6 +17,7 @@ import urllib.parse
 # Get project root
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 NOTES_FILE = PROJECT_ROOT / 'data' / 'state' / 'manual-task-notes.json'
+PID_FILE = Path.home() / '.petesbrain-task-notes-server.pid'
 
 def update_original_task(task_id, client, note_text):
     """Update the note in the original task file (clients/{client}/tasks.json or roksys/tasks.json)"""
@@ -211,7 +214,49 @@ class TaskNotesHandler(BaseHTTPRequestHandler):
         """Suppress default logging"""
         pass
 
+def check_already_running():
+    """Check if server already running via PID file"""
+    if PID_FILE.exists():
+        try:
+            with open(PID_FILE) as f:
+                old_pid = int(f.read().strip())
+
+            # Check if process still exists
+            os.kill(old_pid, 0)
+
+            # Process exists - server already running
+            print(f"ℹ️  Task Notes Server already running (PID {old_pid})")
+            print(f"💡 If stuck, kill it: kill {old_pid}")
+            sys.exit(0)  # Exit cleanly (not a failure)
+
+        except (ProcessLookupError, ValueError):
+            # Stale PID file - process doesn't exist
+            print(f"🧹 Removing stale PID file")
+            PID_FILE.unlink()
+        except PermissionError:
+            # Process exists but owned by another user
+            print(f"❌ Server running as different user (PID {old_pid})")
+            sys.exit(1)
+
+    # Write current PID
+    with open(PID_FILE, 'w') as f:
+        f.write(str(os.getpid()))
+
+    print(f"✅ PID file created: {PID_FILE}")
+
+def cleanup_pid_file():
+    """Remove PID file on shutdown"""
+    if PID_FILE.exists():
+        PID_FILE.unlink()
+        print(f"🧹 PID file removed")
+
 if __name__ == '__main__':
+    # Check for duplicate instance FIRST
+    check_already_running()
+
+    # Register cleanup handler
+    atexit.register(cleanup_pid_file)
+
     server = HTTPServer(('localhost', 5002), TaskNotesHandler)
     print('Task Notes API listening on http://localhost:5002')
     print(f'Notes file: {NOTES_FILE}')

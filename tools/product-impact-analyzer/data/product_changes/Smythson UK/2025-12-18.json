@@ -1,0 +1,721 @@
+{
+  "date": "2025-12-18",
+  "client": "Smythson UK",
+  "comparison_date": "2025-12-17",
+  "total_products_today": 1391,
+  "total_products_yesterday": 1391,
+  "summary": {
+    "changed_products": 20,
+    "price_changes": 3,
+    "sale_price_changes": 0,
+    "availability_changes": 2,
+    "title_changes": 2,
+    "description_changes": 4,
+    "image_changes": 1,
+    "item_group_changes": 3,
+    "shipping_changes": 0,
+    "label_changes": 13,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "1204766",
+      "title": "Smythson Carnet Panama - Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204095",
+      "title": "Smythson Passport Cover In Panama In Stars Navy",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204720",
+      "title": "Smythson 2026 Royal Court Daily Diary In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204599",
+      "title": "Smythson 2026 Soho Weekly Journal In Ludlow In Dark Olive",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1201463",
+      "title": "Smythson A4 Writing Folder with Zip in Mara",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1204681",
+      "title": "Smythson 2026 Premier Daily Fashion Diary In Panama In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204970",
+      "title": "Smythson 2026 Dogs Soho Weekly Journal In Panama In Raspberry",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1201048",
+      "title": "Smythson Chess Roll In Panama In Nile Blue",
+      "changes": {
+        "price": [
+          "695.00 EUR",
+          "575.00 GBP"
+        ],
+        "title": [
+          "Smythson Schachrolle Aus Panama - Nilblau",
+          "Smythson Chess Roll In Panama In Nile Blue"
+        ],
+        "description": [
+          "Nilblaue Schachrolle aus quergemasertem Kalbsleder  Spielbrett aus glattem Kalbsleder  32 Miniatur-Holzschachfiguren  Zwei separate Rei\u00dfverschlussf\u00e4cher f\u00fcr Schachfiguren  Lasche aus Leder mit Druckknopfverschluss Ma\u00dfe: B 25 x H 4,5 x T 39 cm (ge\u00f6ffnet) / B 25 x H 4,5 x T 9 cm (geschlossen)",
+          "Nile Blue chess roll in crossgrain calf leather  Smooth calf leather board  Set of 32 miniature wooden chess pieces  Two separate zip compartments for chess pieces  Leather tab with press stud closure  Dimensions: W25 x H4.5 x D39cm/ W10 x H2 x D15\" (when open) W25 x H4.5 x D9cm/ W10 x H2 x D3.5\" (when closed)"
+        ],
+        "link": [
+          "https://www.smythson.com/de/p/schachrolle-aus-panama/1201048.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/home/home-accessories/p/chess-roll-in-panama/1201048.html"
+        ],
+        "color": [
+          "Nilblau",
+          "Nile Blue"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204775",
+      "title": "Smythson 2026 Soho Weekly Diary With Slide In Mara In Cerulean",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204698",
+      "title": "Smythson 2026 Soho Weekly Journal In Panama In Petrol",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    },
+    {
+      "product_id": "1204983",
+      "title": "Smythson 2026 Wafer Weekly Diary In Panama In Raspberry",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1007317",
+      "title": "Smythson Schlichte Briefumschl\u00e4ge - Blanc",
+      "changes": {
+        "description": [
+          "Nilblaue Briefumschl\u00e4ge mit Wasserzeichen Passend f\u00fcr Kings Papier und Karten Box mit 25 Blatt Gewicht: 100\u00a0g/m\u00b2 Ma\u00dfe: B16,5 x H11 cm / B6,5 x H4,25\"",
+          "Briefumschl\u00e4ge aus Velinpapier mit Wasserzeichen in Cremewei\u00df Passend f\u00fcr Kings Papier und Karten Box mit 25 Blatt Gewicht: 140\u00a0g/m\u00b2 Ma\u00dfe: B 16,5 x H 11 cm"
+        ],
+        "item_group_id": [
+          "1007309",
+          "1007305"
+        ]
+      }
+    },
+    {
+      "product_id": "1204673",
+      "title": "Smythson Agenda Semainier Sport 2026 En Panama - Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 EUR"
+        ]
+      }
+    },
+    {
+      "product_id": "1204141",
+      "title": "Smythson Travel Tag In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "Black travel tag in cross grain calf leather  Space for personalisation  Made in Romania  Dimensions: W20.5 x H4cm/ W8 x H1.5\"",
+          "Nile Blue travel tag in cross grain calf leather  Space for personalisation  Made in Romania  Dimensions: W20.5 x H4cm/ W8 x H1.5\""
+        ],
+        "item_group_id": [
+          "1204140",
+          "1204141"
+        ]
+      }
+    },
+    {
+      "product_id": "1007298",
+      "title": "Smythson Buste Bianche - Blu Pallido",
+      "changes": {
+        "description": [
+          "Buste filigranate blu Nilo Adatte alla carta e biglietti Kings Confezione da 25 Peso: 100 gsm Dimensioni: L 16,5 x H 11 cm / L 6,5 x H 4,25\"",
+          "Buste crema a grana fine filigranata Adatte alla carta e biglietti Kings Confezione da 25 Peso: 140 gsm Dimensioni: L 16,5 x H 11 cm / L 6,5 x H 4,25\""
+        ],
+        "item_group_id": [
+          "1007309",
+          "1007305"
+        ]
+      }
+    },
+    {
+      "product_id": "1205108",
+      "title": "Smythson Chelsea Notebook With Slide In Mara In Red",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1203804",
+      "title": "Christmas Ribbon Tree Card",
+      "changes": {
+        "price": [
+          "19.00 EUR",
+          "14.00 GBP"
+        ],
+        "title": [
+          "Lot de cartes de No\u00ebl motif sapin \u00e0 rubans",
+          "Christmas Ribbon Tree Card"
+        ],
+        "link": [
+          "https://www.smythson.com/fr/papeterie/cartes/p/lot-de-cartes-de-nol-motif-sapin-rubans/1203804.html",
+          "https://www.smythson.com/stationery/cards/p/christmas-ribbon-tree-card/1203804.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1203205",
+      "title": "Would Like To Invite You Invitations",
+      "changes": {
+        "custom_label_4": [
+          "sale",
+          "Gifts for Him & Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1031118",
+      "title": "Champagne Christmas Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "1201048",
+      "title": "Smythson Chess Roll In Panama In Nile Blue",
+      "changes": {
+        "price": [
+          "695.00 EUR",
+          "575.00 GBP"
+        ],
+        "title": [
+          "Smythson Schachrolle Aus Panama - Nilblau",
+          "Smythson Chess Roll In Panama In Nile Blue"
+        ],
+        "description": [
+          "Nilblaue Schachrolle aus quergemasertem Kalbsleder  Spielbrett aus glattem Kalbsleder  32 Miniatur-Holzschachfiguren  Zwei separate Rei\u00dfverschlussf\u00e4cher f\u00fcr Schachfiguren  Lasche aus Leder mit Druckknopfverschluss Ma\u00dfe: B 25 x H 4,5 x T 39 cm (ge\u00f6ffnet) / B 25 x H 4,5 x T 9 cm (geschlossen)",
+          "Nile Blue chess roll in crossgrain calf leather  Smooth calf leather board  Set of 32 miniature wooden chess pieces  Two separate zip compartments for chess pieces  Leather tab with press stud closure  Dimensions: W25 x H4.5 x D39cm/ W10 x H2 x D15\" (when open) W25 x H4.5 x D9cm/ W10 x H2 x D3.5\" (when closed)"
+        ],
+        "link": [
+          "https://www.smythson.com/de/p/schachrolle-aus-panama/1201048.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/home/home-accessories/p/chess-roll-in-panama/1201048.html"
+        ],
+        "color": [
+          "Nilblau",
+          "Nile Blue"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204673",
+      "title": "Smythson Agenda Semainier Sport 2026 En Panama - Forest",
+      "changes": {
+        "price": [
+          "80.00 EUR",
+          "110.00 EUR"
+        ]
+      }
+    },
+    {
+      "product_id": "1203804",
+      "title": "Christmas Ribbon Tree Card",
+      "changes": {
+        "price": [
+          "19.00 EUR",
+          "14.00 GBP"
+        ],
+        "title": [
+          "Lot de cartes de No\u00ebl motif sapin \u00e0 rubans",
+          "Christmas Ribbon Tree Card"
+        ],
+        "link": [
+          "https://www.smythson.com/fr/papeterie/cartes/p/lot-de-cartes-de-nol-motif-sapin-rubans/1203804.html",
+          "https://www.smythson.com/stationery/cards/p/christmas-ribbon-tree-card/1203804.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "1204766",
+      "title": "Smythson Carnet Panama - Cerulean",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "1201463",
+      "title": "Smythson A4 Writing Folder with Zip in Mara",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [
+    {
+      "product_id": "1201048",
+      "title": "Smythson Chess Roll In Panama In Nile Blue",
+      "changes": {
+        "price": [
+          "695.00 EUR",
+          "575.00 GBP"
+        ],
+        "title": [
+          "Smythson Schachrolle Aus Panama - Nilblau",
+          "Smythson Chess Roll In Panama In Nile Blue"
+        ],
+        "description": [
+          "Nilblaue Schachrolle aus quergemasertem Kalbsleder  Spielbrett aus glattem Kalbsleder  32 Miniatur-Holzschachfiguren  Zwei separate Rei\u00dfverschlussf\u00e4cher f\u00fcr Schachfiguren  Lasche aus Leder mit Druckknopfverschluss Ma\u00dfe: B 25 x H 4,5 x T 39 cm (ge\u00f6ffnet) / B 25 x H 4,5 x T 9 cm (geschlossen)",
+          "Nile Blue chess roll in crossgrain calf leather  Smooth calf leather board  Set of 32 miniature wooden chess pieces  Two separate zip compartments for chess pieces  Leather tab with press stud closure  Dimensions: W25 x H4.5 x D39cm/ W10 x H2 x D15\" (when open) W25 x H4.5 x D9cm/ W10 x H2 x D3.5\" (when closed)"
+        ],
+        "link": [
+          "https://www.smythson.com/de/p/schachrolle-aus-panama/1201048.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/home/home-accessories/p/chess-roll-in-panama/1201048.html"
+        ],
+        "color": [
+          "Nilblau",
+          "Nile Blue"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1203804",
+      "title": "Christmas Ribbon Tree Card",
+      "changes": {
+        "price": [
+          "19.00 EUR",
+          "14.00 GBP"
+        ],
+        "title": [
+          "Lot de cartes de No\u00ebl motif sapin \u00e0 rubans",
+          "Christmas Ribbon Tree Card"
+        ],
+        "link": [
+          "https://www.smythson.com/fr/papeterie/cartes/p/lot-de-cartes-de-nol-motif-sapin-rubans/1203804.html",
+          "https://www.smythson.com/stationery/cards/p/christmas-ribbon-tree-card/1203804.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    }
+  ],
+  "description_changes": [
+    {
+      "product_id": "1201048",
+      "title": "Smythson Chess Roll In Panama In Nile Blue",
+      "changes": {
+        "price": [
+          "695.00 EUR",
+          "575.00 GBP"
+        ],
+        "title": [
+          "Smythson Schachrolle Aus Panama - Nilblau",
+          "Smythson Chess Roll In Panama In Nile Blue"
+        ],
+        "description": [
+          "Nilblaue Schachrolle aus quergemasertem Kalbsleder  Spielbrett aus glattem Kalbsleder  32 Miniatur-Holzschachfiguren  Zwei separate Rei\u00dfverschlussf\u00e4cher f\u00fcr Schachfiguren  Lasche aus Leder mit Druckknopfverschluss Ma\u00dfe: B 25 x H 4,5 x T 39 cm (ge\u00f6ffnet) / B 25 x H 4,5 x T 9 cm (geschlossen)",
+          "Nile Blue chess roll in crossgrain calf leather  Smooth calf leather board  Set of 32 miniature wooden chess pieces  Two separate zip compartments for chess pieces  Leather tab with press stud closure  Dimensions: W25 x H4.5 x D39cm/ W10 x H2 x D15\" (when open) W25 x H4.5 x D9cm/ W10 x H2 x D3.5\" (when closed)"
+        ],
+        "link": [
+          "https://www.smythson.com/de/p/schachrolle-aus-panama/1201048.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/home/home-accessories/p/chess-roll-in-panama/1201048.html"
+        ],
+        "color": [
+          "Nilblau",
+          "Nile Blue"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1007317",
+      "title": "Smythson Schlichte Briefumschl\u00e4ge - Blanc",
+      "changes": {
+        "description": [
+          "Nilblaue Briefumschl\u00e4ge mit Wasserzeichen Passend f\u00fcr Kings Papier und Karten Box mit 25 Blatt Gewicht: 100\u00a0g/m\u00b2 Ma\u00dfe: B16,5 x H11 cm / B6,5 x H4,25\"",
+          "Briefumschl\u00e4ge aus Velinpapier mit Wasserzeichen in Cremewei\u00df Passend f\u00fcr Kings Papier und Karten Box mit 25 Blatt Gewicht: 140\u00a0g/m\u00b2 Ma\u00dfe: B 16,5 x H 11 cm"
+        ],
+        "item_group_id": [
+          "1007309",
+          "1007305"
+        ]
+      }
+    },
+    {
+      "product_id": "1204141",
+      "title": "Smythson Travel Tag In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "Black travel tag in cross grain calf leather  Space for personalisation  Made in Romania  Dimensions: W20.5 x H4cm/ W8 x H1.5\"",
+          "Nile Blue travel tag in cross grain calf leather  Space for personalisation  Made in Romania  Dimensions: W20.5 x H4cm/ W8 x H1.5\""
+        ],
+        "item_group_id": [
+          "1204140",
+          "1204141"
+        ]
+      }
+    },
+    {
+      "product_id": "1007298",
+      "title": "Smythson Buste Bianche - Blu Pallido",
+      "changes": {
+        "description": [
+          "Buste filigranate blu Nilo Adatte alla carta e biglietti Kings Confezione da 25 Peso: 100 gsm Dimensioni: L 16,5 x H 11 cm / L 6,5 x H 4,25\"",
+          "Buste crema a grana fine filigranata Adatte alla carta e biglietti Kings Confezione da 25 Peso: 140 gsm Dimensioni: L 16,5 x H 11 cm / L 6,5 x H 4,25\""
+        ],
+        "item_group_id": [
+          "1007309",
+          "1007305"
+        ]
+      }
+    }
+  ],
+  "image_changes": [
+    {
+      "product_id": "1204049",
+      "title": "Smythson Passport Cover In Panama In Black",
+      "changes": {
+        "additional_image_links": [
+          "3 items",
+          "3 items"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [
+    {
+      "product_id": "1007317",
+      "title": "Smythson Schlichte Briefumschl\u00e4ge - Blanc",
+      "changes": {
+        "description": [
+          "Nilblaue Briefumschl\u00e4ge mit Wasserzeichen Passend f\u00fcr Kings Papier und Karten Box mit 25 Blatt Gewicht: 100\u00a0g/m\u00b2 Ma\u00dfe: B16,5 x H11 cm / B6,5 x H4,25\"",
+          "Briefumschl\u00e4ge aus Velinpapier mit Wasserzeichen in Cremewei\u00df Passend f\u00fcr Kings Papier und Karten Box mit 25 Blatt Gewicht: 140\u00a0g/m\u00b2 Ma\u00dfe: B 16,5 x H 11 cm"
+        ],
+        "item_group_id": [
+          "1007309",
+          "1007305"
+        ]
+      }
+    },
+    {
+      "product_id": "1204141",
+      "title": "Smythson Travel Tag In Panama In Nile Blue",
+      "changes": {
+        "description": [
+          "Black travel tag in cross grain calf leather  Space for personalisation  Made in Romania  Dimensions: W20.5 x H4cm/ W8 x H1.5\"",
+          "Nile Blue travel tag in cross grain calf leather  Space for personalisation  Made in Romania  Dimensions: W20.5 x H4cm/ W8 x H1.5\""
+        ],
+        "item_group_id": [
+          "1204140",
+          "1204141"
+        ]
+      }
+    },
+    {
+      "product_id": "1007298",
+      "title": "Smythson Buste Bianche - Blu Pallido",
+      "changes": {
+        "description": [
+          "Buste filigranate blu Nilo Adatte alla carta e biglietti Kings Confezione da 25 Peso: 100 gsm Dimensioni: L 16,5 x H 11 cm / L 6,5 x H 4,25\"",
+          "Buste crema a grana fine filigranata Adatte alla carta e biglietti Kings Confezione da 25 Peso: 140 gsm Dimensioni: L 16,5 x H 11 cm / L 6,5 x H 4,25\""
+        ],
+        "item_group_id": [
+          "1007309",
+          "1007305"
+        ]
+      }
+    }
+  ],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "1204095",
+      "title": "Smythson Passport Cover In Panama In Stars Navy",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204720",
+      "title": "Smythson 2026 Royal Court Daily Diary In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1204599",
+      "title": "Smythson 2026 Soho Weekly Journal In Ludlow In Dark Olive",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204681",
+      "title": "Smythson 2026 Premier Daily Fashion Diary In Panama In Scarlet Red",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "1204970",
+      "title": "Smythson 2026 Dogs Soho Weekly Journal In Panama In Raspberry",
+      "changes": {
+        "custom_label_3": [
+          "Zombies",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1201048",
+      "title": "Smythson Chess Roll In Panama In Nile Blue",
+      "changes": {
+        "price": [
+          "695.00 EUR",
+          "575.00 GBP"
+        ],
+        "title": [
+          "Smythson Schachrolle Aus Panama - Nilblau",
+          "Smythson Chess Roll In Panama In Nile Blue"
+        ],
+        "description": [
+          "Nilblaue Schachrolle aus quergemasertem Kalbsleder  Spielbrett aus glattem Kalbsleder  32 Miniatur-Holzschachfiguren  Zwei separate Rei\u00dfverschlussf\u00e4cher f\u00fcr Schachfiguren  Lasche aus Leder mit Druckknopfverschluss Ma\u00dfe: B 25 x H 4,5 x T 39 cm (ge\u00f6ffnet) / B 25 x H 4,5 x T 9 cm (geschlossen)",
+          "Nile Blue chess roll in crossgrain calf leather  Smooth calf leather board  Set of 32 miniature wooden chess pieces  Two separate zip compartments for chess pieces  Leather tab with press stud closure  Dimensions: W25 x H4.5 x D39cm/ W10 x H2 x D15\" (when open) W25 x H4.5 x D9cm/ W10 x H2 x D3.5\" (when closed)"
+        ],
+        "link": [
+          "https://www.smythson.com/de/p/schachrolle-aus-panama/1201048.html?utm_source=google_shopping&switch_store=true",
+          "https://www.smythson.com/home/home-accessories/p/chess-roll-in-panama/1201048.html"
+        ],
+        "color": [
+          "Nilblau",
+          "Nile Blue"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1204775",
+      "title": "Smythson 2026 Soho Weekly Diary With Slide In Mara In Cerulean",
+      "changes": {
+        "custom_label_3": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204698",
+      "title": "Smythson 2026 Soho Weekly Journal In Panama In Petrol",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "1204983",
+      "title": "Smythson 2026 Wafer Weekly Diary In Panama In Raspberry",
+      "changes": {
+        "custom_label_3": [
+          "Heroes",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "1205108",
+      "title": "Smythson Chelsea Notebook With Slide In Mara In Red",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "1203804",
+      "title": "Christmas Ribbon Tree Card",
+      "changes": {
+        "price": [
+          "19.00 EUR",
+          "14.00 GBP"
+        ],
+        "title": [
+          "Lot de cartes de No\u00ebl motif sapin \u00e0 rubans",
+          "Christmas Ribbon Tree Card"
+        ],
+        "link": [
+          "https://www.smythson.com/fr/papeterie/cartes/p/lot-de-cartes-de-nol-motif-sapin-rubans/1203804.html",
+          "https://www.smythson.com/stationery/cards/p/christmas-ribbon-tree-card/1203804.html"
+        ],
+        "custom_label_3": [
+          "",
+          "Villains"
+        ],
+        "custom_label_4": [
+          "",
+          "sale"
+        ]
+      }
+    },
+    {
+      "product_id": "1203205",
+      "title": "Would Like To Invite You Invitations",
+      "changes": {
+        "custom_label_4": [
+          "sale",
+          "Gifts for Him & Her"
+        ]
+      }
+    },
+    {
+      "product_id": "1031118",
+      "title": "Champagne Christmas Card Set",
+      "changes": {
+        "custom_label_3": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

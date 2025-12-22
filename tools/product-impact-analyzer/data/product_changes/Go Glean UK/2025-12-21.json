@@ -1,0 +1,257 @@
+{
+  "date": "2025-12-21",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-12-20",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 11,
+    "price_changes": 4,
+    "sale_price_changes": 0,
+    "availability_changes": 1,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 6,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8399314190613_45447132446997",
+      "title": "Anti-Slip Stone Grip Treatment | Increases Tile & Stone Traction | 500ml & 1 Litre 1 Litre",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14809979060602_51903549768058",
+      "title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "changes": {
+        "price": [
+          "74.99 GBP",
+          "75.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8444225683733_45692215853333",
+      "title": "Door Restore Colour Reviver | Composite & uPVC Doors 1 Litre",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852375418",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 2x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8997255512341_54898021171578",
+      "title": "Glean Silicone Sealant Remover Gel 250ml with 10 pcs Caulking Tool Kit - Effortless Removal for Showers, Baths & Kitchens - Residue Free Finish",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426119546",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 2x500ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315271957_46127323414805",
+      "title": "Sticky Stuff Remover Gel Spray | 400ml Non-Drip Formula 3 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871908629",
+      "title": "Glean Patio Grout - 15Kg - Brush In Jointing Compound | GLEAN - Basalt",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9020394012949_47987014533397",
+      "title": "Glean Patio Sealer For Porcelain & Polished Stone 1 litre",
+      "changes": {
+        "price": [
+          "24.99 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426086778",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "changes": {
+        "price": [
+          "11.99 GBP",
+          "12.00 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_GB_14809979060602_51903549768058",
+      "title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "changes": {
+        "price": [
+          "74.99 GBP",
+          "75.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426119546",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 2x500ml",
+      "changes": {
+        "price": [
+          "17.99 GBP",
+          "18.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9020394012949_47987014533397",
+      "title": "Glean Patio Sealer For Porcelain & Polished Stone 1 litre",
+      "changes": {
+        "price": [
+          "24.99 GBP",
+          "25.00 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426086778",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "changes": {
+        "price": [
+          "11.99 GBP",
+          "12.00 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "shopify_GB_8997255512341_54898021171578",
+      "title": "Glean Silicone Sealant Remover Gel 250ml with 10 pcs Caulking Tool Kit - Effortless Removal for Showers, Baths & Kitchens - Residue Free Finish",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8399314190613_45447132446997",
+      "title": "Anti-Slip Stone Grip Treatment | Increases Tile & Stone Traction | 500ml & 1 Litre 1 Litre",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8444225683733_45692215853333",
+      "title": "Door Restore Colour Reviver | Composite & uPVC Doors 1 Litre",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852375418",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 2x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315271957_46127323414805",
+      "title": "Sticky Stuff Remover Gel Spray | 400ml Non-Drip Formula 3 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871908629",
+      "title": "Glean Patio Grout - 15Kg - Brush In Jointing Compound | GLEAN - Basalt",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

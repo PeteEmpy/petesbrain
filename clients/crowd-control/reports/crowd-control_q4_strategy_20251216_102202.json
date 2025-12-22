@@ -1,0 +1,69 @@
+{
+  "type": "q4_strategy",
+  "client": "crowd-control",
+  "data": {
+    "client_name": "crowd-control",
+    "client_display": "Crowd Control",
+    "generated_date": "2025-12-16",
+    "date_range": [
+      "2025-10-01",
+      "2025-12-31"
+    ],
+    "total_budget": 50000,
+    "total_revenue_target": 150000,
+    "overall_roas_target": 3.0,
+    "regions": [
+      {
+        "name": "UK",
+        "code": "GB",
+        "account_id": "N/A",
+        "budget": 50000,
+        "revenue_target": 150000,
+        "roas_target": 3.0,
+        "current_spend": 15000,
+        "current_revenue": 45000,
+        "current_roas": 3.0,
+        "conversions": 150
+      }
+    ],
+    "strategy": {
+      "overview": "Q4 2025 strategy for Crowd Control",
+      "total_budget": 50000,
+      "total_revenue_target": 150000
+    },
+    "timeline": [
+      {
+        "date": "Oct 29",
+        "milestone": "Q4 Launch",
+        "description": "Campaign activation for holiday season"
+      },
+      {
+        "date": "Nov 15",
+        "milestone": "Mid-Quarter Review",
+        "description": "Performance assessment and optimization"
+      },
+      {
+        "date": "Nov 25",
+        "milestone": "Black Friday",
+        "description": "Peak season preparation"
+      },
+      {
+        "date": "Dec 1",
+        "milestone": "December Push",
+        "description": "Final month optimization"
+      },
+      {
+        "date": "Dec 15",
+        "milestone": "End-of-Year Review",
+        "description": "Q4 wrap-up and Q1 planning"
+      }
+    ],
+    "recommendations": [
+      "Monitor performance daily during peak season",
+      "Adjust bids based on ROAS trends",
+      "Test new ad copy variations",
+      "Review budget allocation by campaign"
+    ]
+  },
+  "generated_at": "2025-12-16T10:22:02.693934"
+}

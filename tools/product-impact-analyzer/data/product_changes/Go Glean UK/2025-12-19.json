@@ -1,0 +1,378 @@
+{
+  "date": "2025-12-19",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-12-18",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 16,
+    "price_changes": 11,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 6,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_14969316999546_55083961909626",
+      "title": "Glean Grout Reviver & Sealer Kit - Black - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961942394",
+      "title": "Glean Grout Reviver & Sealer Kit - Charcoal - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_45692523151637",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 1 x 400ml",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "9.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14809979060602_51903549768058",
+      "title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "42.00 GBP",
+          "41.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962040698",
+      "title": "Glean Grout Reviver & Sealer Kit - Beige - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15253511405946_55696893903226",
+      "title": "Drain Unblocker Liquid | 500ml & 1 Litre 500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961876858",
+      "title": "Glean Grout Reviver & Sealer Kit - White - Foam Brush Included - Advanced Formula Tile Grout Restorer, Stain Resistant, Low Odour, Interior/Exterior,",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45447132610837",
+      "title": "Porcelain Floor & Tile Cleaner | PH Neutral | Interior & Exterior | 500ml, 1L & 5L 1 Litre",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14886413762938_54899559301498",
+      "title": "Silicone Sealant Remover Spray | 500ml | GLEAN 500ml & Tool Kit",
+      "changes": {
+        "price": [
+          "18.00 GBP",
+          "17.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871843093",
+      "title": "Glean Patio Grout - Natural Buff - 15kg - Weatherproof Jointing Compound - Easy Application",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314845973_45687020388629",
+      "title": "Glean Oil & Drive Cleaner 5L - Removes Oil, Grease, Petrol & Diesel Stains - Easy Application - Driveways & Patios - Concentrated Formula",
+      "changes": {
+        "price": [
+          "45.00 GBP",
+          "44.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961975162",
+      "title": "Glean Grout Reviver & Sealer Kit, 340g/250ml - Light Grey Tile Grout Restorer, Stain Resistant, Waterproof, Non-Toxic",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399313469717_45446860112149",
+      "title": "GLEAN Green Clean | Algae, Lichen, Moss & Black Spot Remover | 1 Litre & 5 Litre 5 Litre",
+      "changes": {
+        "price": [
+          "34.00 GBP",
+          "33.99 GBP"
+        ],
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_GB_14969316999546_55083961909626",
+      "title": "Glean Grout Reviver & Sealer Kit - Black - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961942394",
+      "title": "Glean Grout Reviver & Sealer Kit - Charcoal - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_45692523151637",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 1 x 400ml",
+      "changes": {
+        "price": [
+          "10.00 GBP",
+          "9.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_55222305653114",
+      "title": "Patio Grout - Brush In Jointing Compound | GLEAN - Pure Light Grey",
+      "changes": {
+        "price": [
+          "42.00 GBP",
+          "41.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962040698",
+      "title": "Glean Grout Reviver & Sealer Kit - Beige - Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961876858",
+      "title": "Glean Grout Reviver & Sealer Kit - White - Foam Brush Included - Advanced Formula Tile Grout Restorer, Stain Resistant, Low Odour, Interior/Exterior,",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314485525_45447132610837",
+      "title": "Porcelain Floor & Tile Cleaner | PH Neutral | Interior & Exterior | 500ml, 1L & 5L 1 Litre",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14886413762938_54899559301498",
+      "title": "Silicone Sealant Remover Spray | 500ml | GLEAN 500ml & Tool Kit",
+      "changes": {
+        "price": [
+          "18.00 GBP",
+          "17.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314845973_45687020388629",
+      "title": "Glean Oil & Drive Cleaner 5L - Removes Oil, Grease, Petrol & Diesel Stains - Easy Application - Driveways & Patios - Concentrated Formula",
+      "changes": {
+        "price": [
+          "45.00 GBP",
+          "44.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083961975162",
+      "title": "Glean Grout Reviver & Sealer Kit, 340g/250ml - Light Grey Tile Grout Restorer, Stain Resistant, Waterproof, Non-Toxic",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399313469717_45446860112149",
+      "title": "GLEAN Green Clean | Algae, Lichen, Moss & Black Spot Remover | 1 Litre & 5 Litre 5 Litre",
+      "changes": {
+        "price": [
+          "34.00 GBP",
+          "33.99 GBP"
+        ],
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14809979060602_51903549768058",
+      "title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Sidekicks"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_15253511405946_55696893903226",
+      "title": "Drain Unblocker Liquid | 500ml & 1 Litre 500ml",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14949438226810_55041852408186",
+      "title": "Stainless Steel Cleaner & Polish Spray | 500ml Aerosol | Streak-Free Shine & Protection 3x500ml",
+      "changes": {
+        "custom_label_0": [
+          "Zombies",
+          "Villains"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315337493_45446871843093",
+      "title": "Glean Patio Grout - Natural Buff - 15kg - Weatherproof Jointing Compound - Easy Application",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399313469717_45446860112149",
+      "title": "GLEAN Green Clean | Algae, Lichen, Moss & Black Spot Remover | 1 Litre & 5 Litre 5 Litre",
+      "changes": {
+        "price": [
+          "34.00 GBP",
+          "33.99 GBP"
+        ],
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    }
+  ]
+}

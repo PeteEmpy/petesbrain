@@ -1,14 +1,13 @@
 # Internal Client Task System
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2025-12-16
 **Status:** ✅ Active (per-client architecture implemented Nov 18, 2025)
 
 ## Overview
 
-PetesBrain uses an **internal JSON-based task system** with per-client storage for managing client work. Each client has their own `clients/{client}/tasks.json` file with support for parent/child task hierarchies.
+PetesBrain uses an **internal JSON-based task system** with per-client storage for managing ALL tasks. Each client has their own `clients/{client}/tasks.json` file with support for parent/child task hierarchies.
 
-**Google Tasks is still used for:** Personal tasks only ("Peter's List")
-**Internal system is used for:** All client-related tasks
+**Historical Note (Dec 16, 2025):** Google Tasks integration was deprecated. The internal system now handles all tasks (client work, personal tasks, recurring tasks).
 
 ## Why Per-Client Architecture?
 

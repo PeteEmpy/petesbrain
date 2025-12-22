@@ -600,3 +600,243 @@ Andrew/Sam have taken action and addressed the majority of GTIN issues in Mercha
 **Merchant Center ID:** 117443871
 
 ---
+## [Accessories For The Home] Black Friday week monitoring (Nov 25-29)
+**Completed:** 2025-12-16 08:20
+**Source:** Client request - Sam (via Claude conversation Nov 18)
+
+PEAK WEEK MONITORING - Final phase of Q4 scaling strategy.
+
+DAILY CHECKS:
+Mon Nov 25: Algorithm adjustment check, spend pacing
+Tue Nov 26: First full day performance, CR check
+Wed Nov 27: Mid-week assessment, competitor activity
+Thu Nov 28: UK performance, stock availability
+Fri Nov 29: PEAK DAY - hourly monitoring if needed
+
+KEY METRICS:
+- Total week spend vs. previous weeks
+- Total conversions and revenue
+- Daily ROAS (maintain 4.0+ company-wide)
+- Conversion rate (0.50%+ target)
+- Impression share
+- Competitive pressure
+
+RED FLAGS (immediate action):
+⚠️ CR below 0.45% for 2+ days → ROAS increase
+⚠️ ROAS below 3.5 → Immediate adjustment
+⚠️ Stock issues → Reduce spend
+⚠️ Feed errors → Immediate fix
+
+WEEKEND REVIEW (Nov 30):
+- Full week performance analysis
+- Revenue vs. expectations
+- Profitability (4.0 ROAS met?)
+- Lessons learned
+- December strategy
+
+CLIENT COMMUNICATION:
+- Daily updates if Sam requests
+- Immediate red flag alerts
+- End of week summary
+
+---
+## [Accessories For The Home] Daily monitoring: Generic search campaign (Dining Chairs)
+**Completed:** 2025-12-16 08:20
+**Source:** Task completion follow-up
+
+⚠️ CRITICAL: Check DAILY - Nov 19-25 (15-20 mins each day)
+
+PRIMARY CHECK: Spend level vs £50/day budget
+- Is spend pacing correctly? (should be ~£50/day)
+- Any overspend or underspend patterns?
+- Budget exhaustion issues?
+
+SECONDARY CHECKS:
+- Search query quality (are they generic/intent-based?)
+- Any conversions recorded
+- Quality score trends
+- Impression share
+- No significant PMax performance drop (cannibalisation check)
+
+Campaign: AFH | Search | Generic (ID: 23272357581)
+Ad Group: Dining Chairs
+Budget: £50/day
+ROAS Target: 190%
+AI Max: Enabled
+
+Full week review on Nov 25, 2025 to assess:
+- Performance vs 190% ROAS target
+- Search term analysis for expansion opportunities
+- Incremental traffic (not stealing from PMax)
+- Decision: Scale budget or add more ad groups
+
+---
+**UPDATE (Nov 24):** Pushed to next week - campaign getting very little traffic. Low priority during Black Friday/Cyber Monday week when main campaigns need focus.
+
+---
+## [Accessories For The Home] ROAS 150% Check - Fri Nov 29 (Black Friday)
+**Completed:** 2025-12-16 08:20
+**Source:** Follow-up from Nov 24 ROAS reduction
+
+BLACK FRIDAY CHECK - 5 days after ROAS reduction to 150%
+
+**CRITICAL DAY - Peak traffic expected**
+
+**DETAILED CHECKS:**
+□ Impression share - target 40%+ by now
+□ Daily spend - should be near/at £1,800
+□ ROAS - maintain 3.5+ (ideally 4.0+)
+□ Conversion rate - 0.45%+ threshold
+□ Revenue vs previous Black Friday (if data available)
+□ Competitive pressure - auction insights
+
+**CAMPAIGNS TO CHECK:**
+- 20276730131: AFH | P Max | H&S Zombies Furniture
+- 21527979308: AFH | Shopping | Furniture | Villains
+- 22138672752: AFH | Shopping | Accessories | H&S
+- 21289230716: AFH | P Max Shopping | Accessories | Villains
+
+**EXPECTED AT THIS POINT:**
+- Smart Bidding fully adjusted to 150% target
+- Impression share should be recovering
+- Peak day volume - spend should hit budget
+- ROAS may dip slightly due to competitive pressure (acceptable)
+
+**ACTION IF CONCERNING:**
+If ROAS below 3.0 → Revert to 170% immediately (peak day, can't risk poor performance)
+If metrics good → Continue through Cyber Monday weekend
+
+---
+
+## [Accessories For The Home] ROAS 150% Full Review - Tue Dec 2 (Post-Cyber Monday)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - Black Friday event completed
+
+POST-CYBER MONDAY FULL REVIEW - 8 days after ROAS reduction
+
+**COMPREHENSIVE ANALYSIS:**
+□ Full week impression share trend (Nov 24 - Dec 1)
+□ Total spend vs budget over the period
+□ Average ROAS across all campaigns
+□ Conversion rate trend
+□ Revenue comparison: This week vs previous week
+□ Black Friday/Cyber Monday weekend performance
+
+**CAMPAIGNS TO REVIEW:**
+| Campaign ID | Campaign Name |
+|-------------|---------------|
+| 20276730131 | AFH | P Max | H&S Zombies Furniture |
+| 21527979308 | AFH | Shopping | Furniture | Villains |
+| 22138672752 | AFH | Shopping | Accessories | H&S |
+| 21289230716 | AFH | P Max Shopping | Accessories | Villains |
+
+**DECISION FRAMEWORK:**
+
+OPTION A: CONTINUE AT 150%
+- Trigger: Impression share recovered (50%+), ROAS 3.5+, CR 0.45%+
+- Action: Continue through December
+- Rationale: 150% working well
+
+OPTION B: REVERT TO 170%
+- Trigger: ROAS below 3.5 OR CR below 0.45% OR revenue disappointing
+- Action: Revert all 4 campaigns to 170%
+- Commands below
+
+OPTION C: FURTHER REDUCTION TO 130%
+- Trigger: Impression share still low (<40%) but ROAS/CR very strong (4.5+/0.55%+)
+- Action: Further reduce to capture more volume
+- Only if metrics exceptionally strong
+
+**REVERT COMMANDS (if needed):**
+```
+mcp__google-ads__update_campaign_target_roas(customer_id="7972994730", campaign_id="20276730131", target_roas=1.7)
+mcp__google-ads__update_campaign_target_roas(customer_id="7972994730", campaign_id="21527979308", target_roas=1.7)
+mcp__google-ads__update_campaign_target_roas(customer_id="7972994730", campaign_id="22138672752", target_roas=1.7)
+mcp__google-ads__update_campaign_target_roas(customer_id="7972994730", campaign_id="21289230716", target_roas=1.7)
+```
+
+---
+
+
+### [Accessories For The Home] Review Product Hero ROAS change impact (180% → 150%)
+- **Task ID**: f8c8cb9e-a937-492e-9cf6-55dfbf2541aa
+- **Priority**: P0
+- **Created**: Unknown
+- **Completed**: 2025-12-16 17:36
+- **Review Summary**: Google Ads target ROAS reduction from 210% to 150-170% successfully achieved Q4 scaling objectives. All segments performing above 150% threshold with overall 171% ROAS. Recommendation: Continue current settings through December peak season.
+- **Report**: Saved to clients/accessories-for-the-home/reports/target-roas-reduction-review-2025-12-16.md (corrected report)
+
+## [Accessories For The Home] Generic Search Campaign - Implementation & Review
+**Completed:** 2025-12-16 18:04
+**Source:** Meeting Notes - Nov 10, 2025
+
+Source: Nov 10, 2025 meeting with Google rep (Luiza)
+
+PARENT TASK: Oversees implementation and monitoring of new generic search campaign strategy.
+
+**Campaign:** AFH | Search | Generic (Campaign ID: 23272357581)
+**Strategy:** Create new generic search campaigns for AFH to capture longer-tail queries (questions, comparisons, inspiration) that PMax and Shopping campaigns miss.
+
+**Implementation Details:**
+- Budget: £50/day
+- ROAS Target: 190%
+- AI Max: Enabled (broadened match)
+- First Ad Group: Dining Chairs (mix of broad and exact match)
+- Keywords: luxury furniture, artisan furniture
+- Exclusions: Top-performing keywords from existing campaigns excluded
+
+**Daily Monitoring Schedule:** Nov 19-25 (7 days)
+- Spend level vs £50/day budget
+- Search query quality
+- Conversion tracking
+- Quality score trends
+- Impression share
+- PMax performance (cannibalisation check)
+
+**Full Review:** Nov 25, 2025
+- Performance vs 190% ROAS target
+- Search term analysis for expansion opportunities
+- Incremental traffic assessment
+- Decision: Scale budget or add more ad groups
+
+Done
+
+Done
+
+---
+## [Accessories For The Home] Investigate Search Generic Zero-Conversion Campaign
+**Completed:** 2025-12-17 13:18
+**Source:** Weekly Report - 6th December 2025
+
+**From Weekly Report - 6th December 2025**
+
+**Issue:** Search Generic Max Conv campaign spent £73 with 0 conversions in 7 days (30 Nov - 6 Dec).
+
+**Expected Impact:** £300+/month waste if trend continues.
+
+**Action:** 
+1. Review search terms report for campaign ID 23272357581
+2. Identify if keywords are relevant to business
+3. Check if any queries have potential
+4. If no conversions by 13th December, pause campaign to stop waste
+
+**Supporting Data:**
+- Spend: £73 (0.8% of account)
+- Clicks: 21
+- Impressions: 508
+- 0 conversions, £0 revenue
+- CPC: £3.48
+
+**Meets threshold:** Zero conversions + >£50 weekly spend = £300/mo waste (Threshold 4)
+
+**Campaign Details:**
+- Name: AFH | Search | Generic Max Conv
+- ID: 23272357581
+- Appears to be new or recently reactivated
+
+
+Done
+
+Done
+
+---

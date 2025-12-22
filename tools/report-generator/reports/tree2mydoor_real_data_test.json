@@ -1,0 +1,407 @@
+{
+  "client_slug": "tree2mydoor",
+  "date_range": {
+    "start_date": "2025-12-08",
+    "end_date": "2025-12-15"
+  },
+  "health_score": 47,
+  "summary": "Account Health: Poor (47/100)\n\nAnalysed 9 campaigns with total spend of \u00a32,857 and blended ROAS of 1.40x.\n\nDetected 7 issues requiring attention.",
+  "campaign_analyses": [
+    {
+      "campaign_name": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "campaign_id": "15820346778",
+      "campaign_type": "PERFORMANCE_MAX",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 1452.631485,
+        "revenue": 2357.457950454,
+        "roas": 1.6228878244739409,
+        "conversions": 111.317844,
+        "clicks": 1411,
+        "impressions": 99101,
+        "lost_is_budget": 0.0063900817695158535
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+      "campaign_id": "22986754502",
+      "campaign_type": "SHOPPING",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 549.33,
+        "revenue": 671.751151649,
+        "roas": 1.22285539047385,
+        "conversions": 38.743024,
+        "clicks": 614,
+        "impressions": 67519,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+          "description": "ROAS 1.22x is 24% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.22285539047385,
+            "target_roas": 1.6,
+            "gap_percentage": 23.571538095384383,
+            "spend": 549.33,
+            "revenue": 671.751151649
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+      "campaign_id": "598475433",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 327.654345,
+        "revenue": 342.269149873,
+        "roas": 1.0446043371498706,
+        "conversions": 15.500001,
+        "clicks": 425,
+        "impressions": 5727,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+          "description": "ROAS 1.04x is 35% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.0446043371498706,
+            "target_roas": 1.6,
+            "gap_percentage": 34.712228928133094,
+            "spend": 327.654345,
+            "revenue": 342.269149873
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+      "campaign_id": "17324490442",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 120.797622,
+        "revenue": 64.712266,
+        "roas": 0.5357081118699505,
+        "conversions": 3.0,
+        "clicks": 166,
+        "impressions": 1619,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "description": "ROAS 0.54x is 67% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.5357081118699505,
+            "target_roas": 1.6,
+            "gap_percentage": 66.5182430081281,
+            "spend": 120.797622,
+            "revenue": 64.712266
+          }
+        },
+        {
+          "type": "high_spend_low_performance",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "description": "\u00a3121 spend with 0.54x ROAS (not profitable)",
+          "metrics": {
+            "spend": 120.797622,
+            "roas": 0.5357081118699505,
+            "revenue": 64.712266,
+            "loss": 56.085356000000004
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | DSA 160 150 5/12 140 7/4",
+      "campaign_id": "10492045139",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 103.624846,
+        "revenue": 194.11681104,
+        "roas": 1.8732651341165802,
+        "conversions": 7.285755,
+        "clicks": 126,
+        "impressions": 1587,
+        "lost_is_budget": 0.0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+      "campaign_id": "21610656469",
+      "campaign_type": "PERFORMANCE_MAX",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 96.941342,
+        "revenue": 118.33046792,
+        "roas": 1.2206398784947705,
+        "conversions": 5.870694,
+        "clicks": 89,
+        "impressions": 13506,
+        "lost_is_budget": 0.0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "description": "ROAS 1.22x is 24% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.2206398784947705,
+            "target_roas": 1.6,
+            "gap_percentage": 23.71000759407685,
+            "spend": 96.941342,
+            "revenue": 118.33046792
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+      "campaign_id": "22122810626",
+      "campaign_type": "SHOPPING",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 77.14,
+        "revenue": 110.981962233,
+        "roas": 1.4387083514778325,
+        "conversions": 7.979778,
+        "clicks": 100,
+        "impressions": 14943,
+        "lost_is_budget": 0.5788034737857832
+      },
+      "issues": [
+        {
+          "type": "budget_constraint",
+          "severity": "P1",
+          "campaign": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+          "description": "Losing 58% of impressions due to budget",
+          "metrics": {
+            "lost_is_budget": 0.5788034737857832,
+            "spend": 77.14,
+            "roas": 1.4387083514778325
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Brand Inclusion  120  14/7 Ai Max 11/11",
+      "campaign_id": "598474059",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 64.897286,
+        "revenue": 93.7914665,
+        "roas": 1.4452294122130163,
+        "conversions": 4.5,
+        "clicks": 80,
+        "impressions": 264,
+        "lost_is_budget": 0.0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+      "campaign_id": "18441497267",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 63.670828,
+        "revenue": 35.7341245,
+        "roas": 0.5612322883566081,
+        "conversions": 1.5,
+        "clicks": 122,
+        "impressions": 1528,
+        "lost_is_budget": 0.0005074854097944684
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+          "description": "ROAS 0.56x is 65% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.5612322883566081,
+            "target_roas": 1.6,
+            "gap_percentage": 64.92298197771198,
+            "spend": 63.670828,
+            "revenue": 35.7341245
+          }
+        }
+      ],
+      "target_roas": 1.6
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "P1",
+      "issue_type": "low_roas",
+      "title": "Low ROAS Performance",
+      "affected_campaigns": 5,
+      "campaign_names": [
+        "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+        "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+        "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+        "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+        "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10"
+      ],
+      "impact": {
+        "total_spend": 1158.394137,
+        "avg_roas": 0.0
+      },
+      "recommendation": "ROAS Performance Below Target\n\n5 campaign(s) are performing below the target ROAS of 1.6x. This represents \u00a31158 in spend generating 0.00x average return.\n\nRoot Cause Analysis:\n- Campaign efficiency is 0% below target\n- May indicate bidding strategy misalignment, poor product/ad relevance, or targeting issues\n\nRecommendation:\n1. Review bidding strategy - consider adjusting Target ROAS or switching to Maximize Conversion Value\n2. Analyse Search Terms report for wasted spend on irrelevant queries\n3. Review product feed quality (if Shopping/PMax) - ensure titles, descriptions optimised\n4. Check audience targeting for efficiency opportunities",
+      "kb_articles": [
+        {
+          "title": "Get more visibility in Performance Max with new asset and channel reporting improvements.",
+          "path": "google-ads/performance-max/performance-max-asset-channel-reporting-september-2025.md",
+          "category": "google-ads/performance-max",
+          "preview": "title: Performance Max: New Asset & Channel Reporting Improvements",
+          "score": 43,
+          "type": "article"
+        },
+        {
+          "title": "Why B2B brands are shifting from keywords to Performance Max",
+          "path": "google-ads/performance-max/b2b-shift-keywords-to-performance-max.md",
+          "category": "google-ads/performance-max",
+          "preview": "title: B2B Shift from Keyword-Based to Performance Max Campaigns",
+          "score": 33,
+          "type": "article"
+        },
+        {
+          "title": "Google and Microsoft: How their Performance Max approaches align and diverge",
+          "path": "_inbox/documents/2025-11-24_google-and-microsoft-how-their-performance-max-ap.md",
+          "category": "uncategorized",
+          "preview": "url: https://searchengineland.com/google-microsoft-performance-max-approaches-464964",
+          "score": 32,
+          "type": "article"
+        }
+      ],
+      "next_steps": [
+        "Review Search Terms report for the last 30 days",
+        "Check Quality Score for keywords <7",
+        "Analyse landing page relevance and conversion rate",
+        "Consider bid strategy adjustment (Target ROAS \u2192 Maximize Conversion Value test)"
+      ]
+    },
+    {
+      "priority": "P1",
+      "issue_type": "high_spend_low_performance",
+      "title": "High Spend, Low Performance",
+      "affected_campaigns": 1,
+      "campaign_names": [
+        "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10"
+      ],
+      "impact": {
+        "total_spend": 120.797622,
+        "avg_roas": 0.5357081118699505
+      },
+      "recommendation": "High Spend, Low Performance Campaigns\n\n1 campaign(s) with significant spend (\u00a3121 total) are underperforming at 0.54x ROAS.\n\nRoot Cause Analysis:\n- Campaigns are not profitable - spending more than revenue generated\n- This is a critical waste of budget\n\nRecommendation:\n1. IMMEDIATE: Pause or reduce budgets for campaigns with ROAS <1.0x\n2. Diagnose: Review Search Terms, Placements, Audience targeting for waste\n3. Test: If pausing isn't an option, create tightly controlled test with lower budget\n4. Consider: If consistently unprofitable, campaign may not be viable for this business",
+      "kb_articles": [
+        {
+          "title": "First Conversion Optimization Reporting Bug",
+          "path": "_inbox/documents/2025-12-15_first-conversion-optimization-reporting-bug.md",
+          "category": "uncategorized",
+          "preview": "url: https://www.jonloomer.com/qvt/first-conversion-optimization-reporting-bug/",
+          "score": 32,
+          "type": "article"
+        },
+        {
+          "title": "Keep CALM: New model design could fix high enterprise AI costs",
+          "path": "ai-strategy/2025-11-05_calm-architecture-enterprise-ai-cost-reduction.md",
+          "category": "ai-strategy",
+          "preview": "title: CALM Architecture: New AI Model Design to Reduce Enterprise Deployment Costs",
+          "score": 29,
+          "type": "article"
+        },
+        {
+          "title": "4 Techniques to Optimize Your LLM Prompts for Cost, Latency and Performance",
+          "path": "ai-strategy/llm-prompt-optimization-cost-latency-performance.md",
+          "category": "ai-strategy",
+          "preview": "title: 4 Techniques to Optimize LLM Prompts for Cost, Latency, and Performance",
+          "score": 28,
+          "type": "article"
+        }
+      ],
+      "next_steps": [
+        "PAUSE campaigns with ROAS <0.5x immediately",
+        "Export Search Terms report to identify wasted spend",
+        "Add negative keywords for irrelevant queries",
+        "Reduce budgets by 50% for campaigns with 0.5-1.0x ROAS while diagnosing"
+      ]
+    },
+    {
+      "priority": "P1",
+      "issue_type": "budget_constraint",
+      "title": "Budget Constraints",
+      "affected_campaigns": 1,
+      "campaign_names": [
+        "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10"
+      ],
+      "impact": {
+        "total_spend": 77.14,
+        "avg_roas": 1.4387083514778325
+      },
+      "recommendation": "Budget Constraints Limiting Performance\n\n1 campaign(s) are losing impressions due to budget constraints (avg 58% Lost IS Budget).\n\nRoot Cause Analysis:\n- Campaigns are performing well but can't spend more due to daily budget caps\n- Potential revenue being left on the table\n\nRecommendation:\n1. Assess performance: Campaigns with ROAS >1.2800000000000002x should receive budget increases\n2. Reallocate budget from lower-performing campaigns\n3. Consider increasing overall account budget if all campaigns are constrained\n4. Monitor pacing - ensure budgets aren't exhausted early in the day",
+      "kb_articles": [
+        {
+          "title": "PMax spends budget after 8pm, but no leads\u2014how do you minimize wasted evening spend?",
+          "path": "google-ads/performance-max/performance-max-ad-scheduling-budget-optimization.md",
+          "category": "google-ads/performance-max",
+          "preview": "title: Managing Performance Max Budget Waste During Off-Peak Hours",
+          "score": 49,
+          "type": "article"
+        },
+        {
+          "title": "Google Ads pushes \u2018Investment Strategy\u2019 planning for budget-limited campaigns",
+          "path": "google-ads/platform-updates/google-ads-investment-strategy-budget-planning-tool.md",
+          "category": "google-ads/platform-updates",
+          "preview": "title: Google Ads Investment Strategy Tool for Budget Planning",
+          "score": 48,
+          "type": "article"
+        },
+        {
+          "title": "Google Analytics Adds Cross-Channel Budgeting Tools for Marketers",
+          "path": "analytics/google-analytics-cross-channel-budget-optimization-tools.md",
+          "category": "analytics",
+          "preview": "title: Google Analytics Introduces Cross-Channel Budget Optimization Tools",
+          "score": 44,
+          "type": "article"
+        }
+      ],
+      "next_steps": [
+        "Calculate incremental revenue opportunity (Lost IS \u00d7 current revenue)",
+        "Identify budget reallocation candidates (campaigns with ROAS <target)",
+        "Test 20% budget increase for 7 days, monitor ROAS stability",
+        "Set up budget alerts to catch constraints earlier"
+      ]
+    }
+  ],
+  "context_applied": {
+    "target_roas": 1.6,
+    "known_issues_count": 14,
+    "uses_product_hero": true
+  }
+}

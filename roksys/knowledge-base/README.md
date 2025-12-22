@@ -23,6 +23,7 @@ knowledge-base/
 │   ├── emails/               # Email exports from Google, Meta, partners, etc.
 │   ├── documents/            # PDFs, articles, research papers
 │   └── videos/               # Video transcripts, YouTube notes
+├── case-studies/             # 🎯 Real-world success stories and replication guides
 ├── google-ads/               # Google Ads platform guidance
 │   ├── performance-max/      # PMax strategies, optimization
 │   ├── shopping/             # Shopping campaigns, feeds
@@ -208,8 +209,16 @@ When working on client tasks, Claude Code will:
 ### ROK Methodologies
 - (Documents will be listed here as they're added)
 
+### Case Studies 🎯
+Real-world success stories with proven results:
+
+#### [Target ROAS Optimization - Bright Minds (2025)](case-studies/target-roas-optimization-bright-minds-2025.md)
+**Result**: +48% conversions, 632% ROAS maintained
+**Key Learning**: Unrealistic Target ROAS settings restrict volume - set targets at actual performance levels
+**Applicable to**: Brand campaigns, Smart Bidding optimization, volume scaling
+
 ---
 
-**Last Updated**: 2025-11-12
-**Total Documents**: 1117
+**Last Updated**: 2025-12-17
+**Total Documents**: 1107
 **Inbox Items Pending**: 1

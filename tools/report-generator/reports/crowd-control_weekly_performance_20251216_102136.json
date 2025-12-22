@@ -1,0 +1,25 @@
+{
+  "type": "weekly_performance",
+  "client": "crowd-control",
+  "data": {
+    "client_name": "crowd-control",
+    "client_display": "Crowd Control",
+    "generated_date": "2025-12-16",
+    "date_range": [
+      "2025-10-01",
+      "2025-12-31"
+    ],
+    "performance": {
+      "spend": 0,
+      "revenue": 0,
+      "roas": 0,
+      "conversions": 0,
+      "clicks": 0,
+      "impressions": 0
+    },
+    "campaigns": [],
+    "trends": {},
+    "alerts": []
+  },
+  "generated_at": "2025-12-16T10:21:36.416433"
+}

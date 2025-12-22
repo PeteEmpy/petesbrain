@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-12-17T17:00:00Z",
+  "action": "Add 'wheatybags uk' phrase match keyword",
+  "reason": "Keyword audit identified this as high-performing search term (322% ROAS, £208 spend, £669 value)",
+  "customer_id": "6281395727",
+  "campaign": {
+    "id": "60035097",
+    "name": "CPL | WBS | Search | Wheat Bags 120 28/5 Ai 7/8 110 10/11 120 9/12"
+  },
+  "keyword_to_add": {
+    "ad_group_id": "58647048612",
+    "ad_group_name": "Search - Wheat Bag Wheaty",
+    "keyword_text": "wheatybags uk",
+    "match_type": "PHRASE",
+    "expected_status": "ENABLED"
+  },
+  "rationale": "Currently converting at 322% ROAS through broad/phrase match. Adding as phrase match for better control and potential volume increase (20-30% expected from audit recommendations)"
+}

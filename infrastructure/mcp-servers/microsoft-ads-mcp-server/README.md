@@ -8,23 +8,45 @@ Connect Microsoft Advertising (formerly Bing Ads) API directly to Claude Desktop
 
 ## ✨ Features
 
-- 🔐 **OAuth 2.0 Authentication** - Secure token-based authentication
-- 📊 **Campaign Management** - List and manage campaigns
-- 🔍 **Keyword Management** - View and analyze keywords
-- 📈 **Performance Reporting** - Get campaign performance metrics
+- 🔐 **OAuth 2.0 Authentication** - Secure token-based authentication with automatic token refresh
+- 📊 **Campaign Management** - List, create, and manage campaigns (budgets, status)
+- 🔍 **Keyword Management** - View, add, and pause keywords with bid management
+- 📈 **Performance Reporting** - Get campaign performance metrics with date filtering
+- 🔎 **Search Term Analysis** - Analyse search query performance and identify opportunities
+- 🎯 **Ad Group Operations** - List and manage ad groups across campaigns
 - 🏢 **Account Management** - List and access multiple accounts
+- 🔗 **Platform ID Integration** - Retrieve client platform IDs from CONTEXT.md files
 - 🚀 **FastMCP Framework** - Built on the modern MCP standard
 - 🖥️ **Claude Desktop Ready** - Direct integration with Claude Desktop
 
 ## 📋 Available Tools
+
+### Account & Campaign Information
 
 | Tool | Description | Parameters |
 |------|-------------|------------|
 | `list_accounts` | List all accessible Microsoft Ads accounts | None |
 | `get_campaigns` | Get all campaigns for a customer account | `customer_id` |
 | `get_campaign_performance` | Get campaign performance metrics | `customer_id`, `campaign_ids` (optional), `start_date`, `end_date` |
-| `get_keywords` | Get keywords for campaigns or ad groups | `customer_id`, `campaign_id` (optional), `ad_group_id` (optional) |
 | `get_ad_groups` | Get ad groups for campaigns | `customer_id`, `campaign_id` (optional) |
+| `get_keywords` | Get keywords for campaigns or ad groups | `customer_id`, `campaign_id` (optional), `ad_group_id` (optional) |
+| `get_search_terms` | Get search query performance report | `customer_id`, `start_date` (optional), `end_date` (optional), `campaign_ids` (optional) |
+| `get_client_platform_ids` | Get platform IDs from client CONTEXT.md | `client_name` |
+
+### Campaign Management
+
+| Tool | Description | Parameters |
+|------|-------------|------------|
+| `create_campaign` | Create a new Microsoft Ads campaign | `customer_id`, `campaign_name`, `daily_budget`, `campaign_type` (optional), `status` (optional) |
+| `update_campaign_budget` | Update daily budget for a campaign | `customer_id`, `campaign_id`, `daily_budget` |
+| `update_campaign_status` | Update campaign status (Active/Paused/Deleted) | `customer_id`, `campaign_id`, `status` |
+
+### Keyword Management
+
+| Tool | Description | Parameters |
+|------|-------------|------------|
+| `add_keywords` | Add keywords to an ad group | `customer_id`, `ad_group_id`, `keywords` (list of dicts) |
+| `pause_keywords` | Pause keywords in an ad group | `customer_id`, `ad_group_id`, `keyword_ids` (list) |
 
 ## 🚀 Quick Start
 
@@ -206,40 +228,89 @@ Close and restart Claude Desktop to load the new configuration.
 
 ## 📖 Usage Examples
 
-### List Accounts
+### Account & Campaign Information
 
+**List Accounts**
 ```
 "List all my Microsoft Ads accounts"
 ```
 
-### Get Campaigns
-
+**Get Campaigns**
 ```
 "Show me all campaigns for account 12345678"
 ```
 
-### Get Campaign Performance
-
+**Get Campaign Performance**
 ```
 "Get campaign performance for account 12345678 for the last 30 days"
 
-"Show me performance metrics for campaigns 111, 222, 333 in account 12345678"
+"Show me performance metrics for campaigns 111, 222, 333 in account 12345678 from 2025-01-01 to 2025-01-31"
 ```
 
-### Get Keywords
-
-```
-"Get all keywords for account 12345678"
-
-"Show me keywords for campaign 111 in account 12345678"
-```
-
-### Get Ad Groups
-
+**Get Ad Groups**
 ```
 "List all ad groups for account 12345678"
 
 "Show me ad groups for campaign 111 in account 12345678"
+```
+
+**Get Keywords**
+```
+"Get all keywords for campaign 111 in account 12345678"
+
+"Show me keywords for ad group 222 in account 12345678"
+```
+
+**Get Search Terms**
+```
+"Get search term report for account 12345678 for the last 30 days"
+
+"Show me search queries for campaigns 111, 222 in account 12345678"
+```
+
+**Get Client Platform IDs**
+```
+"Get Microsoft Ads account ID for Smythson"
+
+"Show me platform IDs for Tree2mydoor"
+```
+
+### Campaign Management
+
+**Create Campaign**
+```
+"Create a new Search campaign called 'Brand - UK' for account 12345678 with £50 daily budget"
+
+"Create a Shopping campaign called 'All Products' for account 12345678 with £100 daily budget, status Active"
+```
+
+**Update Campaign Budget**
+```
+"Update campaign 111 budget to £75 for account 12345678"
+
+"Change daily budget to £150 for campaign 222 in account 12345678"
+```
+
+**Update Campaign Status**
+```
+"Pause campaign 111 in account 12345678"
+
+"Activate campaign 222 in account 12345678"
+```
+
+### Keyword Management
+
+**Add Keywords**
+```
+"Add keywords to ad group 222 in account 12345678:
+- luxury leather diary (Exact match, £2.50 bid)
+- handcrafted notebook (Phrase match, £1.80 bid)
+- premium journal (Broad match)"
+```
+
+**Pause Keywords**
+```
+"Pause keywords 333, 444, 555 in ad group 222, account 12345678"
 ```
 
 ## 🛠️ Troubleshooting

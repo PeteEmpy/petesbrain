@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-17T16:30:00Z",
+  "action": "Pause 'branded cushions' keywords in BMPM campaign",
+  "reason": "Keyword audit identified £98.36 waste in 14 days with 0 conversions",
+  "customer_id": "6281395727",
+  "campaign": {
+    "id": "384585297",
+    "name": "CPL | BMPM | Search | Promotional Merchandise"
+  },
+  "keywords_to_pause": [
+    {
+      "ad_group_id": "20282993817",
+      "ad_group_name": "Cushions",
+      "criterion_id": "314293065822",
+      "keyword_text": "branded cushions",
+      "match_type": "BROAD",
+      "current_status": "ENABLED",
+      "expected_status": "PAUSED"
+    },
+    {
+      "ad_group_id": "20282993817",
+      "ad_group_name": "Cushions",
+      "criterion_id": "333580938191",
+      "keyword_text": "branded cushions",
+      "match_type": "EXACT",
+      "current_status": "ENABLED",
+      "expected_status": "PAUSED"
+    },
+    {
+      "ad_group_id": "20282993937",
+      "ad_group_name": "Search - Cushions - Branded || Exact Match",
+      "criterion_id": "14905060731",
+      "keyword_text": "branded cushions",
+      "match_type": "EXACT",
+      "current_status": "ENABLED",
+      "expected_status": "PAUSED"
+    },
+    {
+      "ad_group_id": "81372403900",
+      "ad_group_name": "Search - Cushions - Branded || BMM Match",
+      "criterion_id": "333580938191",
+      "keyword_text": "branded cushions",
+      "match_type": "EXACT",
+      "current_status": "ENABLED",
+      "expected_status": "PAUSED"
+    },
+    {
+      "ad_group_id": "81372403900",
+      "ad_group_name": "Search - Cushions - Branded || BMM Match",
+      "criterion_id": "356907546699",
+      "keyword_text": "branded cushions",
+      "match_type": "PHRASE",
+      "current_status": "ENABLED",
+      "expected_status": "PAUSED"
+    }
+  ],
+  "rollback_instructions": "Re-enable keywords by setting status back to ENABLED using the ad_group_id and criterion_id above"
+}

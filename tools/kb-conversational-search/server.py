@@ -8,7 +8,7 @@ A Flask-based API server that provides conversational AI search across:
 - Multi-source synthesis with full conversation context
 
 Modes:
-- Strategic Advisor: Mike Rhodes-style strategic recommendations
+- Strategic Advisor: -style strategic recommendations
 - Quick Answer: Fast, concise responses
 - Research Assistant: Deep analysis with multiple sources
 - Client Briefing: Client-specific synthesis
@@ -458,7 +458,7 @@ class ConversationalAI:
         history: List[Dict],
         client: Optional[str]
     ) -> Tuple[str, List[Dict]]:
-        """Mike Rhodes-style strategic advisor mode"""
+        """-style strategic advisor mode"""
 
         # Build context
         context = self._build_context(sources)
@@ -478,7 +478,7 @@ class ConversationalAI:
                 logger.warning(f"Could not fetch campaign data for {client}: {e}")
                 campaign_data_text = "\n\n*Campaign data unavailable - basing recommendations on knowledge base only.*"
 
-        prompt = f"""You are Mike Rhodes, a world-class Google Ads strategist with deep expertise in Performance Max, Shopping, and Search campaigns. You're known for your strategic thinking and challenging conventional wisdom.
+        prompt = f"""You are , a world-class Google Ads strategist with deep expertise in Performance Max, Shopping, and Search campaigns. You're known for your strategic thinking and challenging conventional wisdom.
 
 Previous Conversation:
 {history_text}

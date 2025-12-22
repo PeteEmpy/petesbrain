@@ -1,10 +1,24 @@
 ---
 name: task-sync
-description: Manually synchronizes tasks bi-directionally between local todo files and Google Tasks. Use when user says "sync tasks", "sync todos", "update tasks", "refresh tasks", or needs immediate synchronization before a meeting or review.
-allowed-tools: Bash, Read
+description: DEPRECATED - Google Tasks integration has been removed. This skill is no longer functional.
+allowed-tools: Read
+deprecated: true
+deprecated_date: 2025-12-16
 ---
 
 # Task Sync Skill
+
+## ⚠️ DEPRECATED - December 16, 2025
+
+**This skill has been deprecated as part of the Google Tasks removal.**
+
+**Reason**: Google Tasks integration has been fully removed from PetesBrain. The system now uses only the internal task system (`clients/{client}/tasks.json`).
+
+**Alternative**: Use the internal task system directly via `ClientTasksService` or the `task-manager` skill.
+
+---
+
+## Original Documentation (Historical Reference Only)
 
 ## Instructions
 

@@ -1,22 +1,23 @@
 ---
-title: Google Tech Support: Conversion Action Tracking for Smythson's EUR and ROW Accounts
+title: Google Tech Support: Conversion Action Tracking for Smythson EUR and ROW Accounts
 source: google-rep_smythson_2025-10-24_re-google-tech-supportconversion-actions.md
-date_added: 2025-11-24
-last_updated: 2025-11-24
-tags: [conversion-tracking, google-ads, analytics-migration, performance-measurement, e-commerce]
+date_added: 2025-12-19
+last_updated: 2025-12-19
+tags: [conversion-tracking, google-ads, digital-analytics, ecommerce-tracking, tag-management]
 source_type: email
 ---
 
 ## Summary
 
-- Smythson needs to modify conversion tracking for EUR and ROW Google Ads accounts
-- Current tracking is using GA4 conversion actions instead of Google Ads purchase conversion actions
-- A technical call with Google's Tag Team is planned to address tracking modifications
+- Smythson needs to modify conversion actions for EUR and ROW accounts
+- Current tracking uses GA4 conversion action instead of Google Ads purchase conversion
+- Google representative Devin Ferreira will coordinate with Smythson's team to resolve tracking issues
+- Beth Stimpson (digital product owner) will be involved in the technical discussions
 
 ## Key Insights
 
-- Existing conversion tracking is not aligned with recommended Google Ads purchase conversion methodology
-- Collaboration required between Smythson's digital product owner and Google's technical support team
+- Misaligned conversion tracking can lead to inaccurate performance measurement
+- Coordination between digital product, paid search, and tech support teams is crucial for proper implementation
 
 ## Full Content
 
@@ -101,5 +102,5 @@ devinferreira@google.com<mailto:devinferreira@google.com>
 
 ---
 
-*Processed from inbox on 2025-11-24*
+*Processed from inbox on 2025-12-19*
 *Original file: google-rep_smythson_2025-10-24_re-google-tech-supportconversion-actions.md*

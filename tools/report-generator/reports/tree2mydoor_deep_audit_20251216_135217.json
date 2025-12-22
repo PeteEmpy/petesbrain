@@ -1,0 +1,626 @@
+{
+  "client_slug": "tree2mydoor",
+  "date_range": {
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-13"
+  },
+  "health_score": 77,
+  "summary": "Account Health: Good (77/100)\n\nAnalysed 9 campaigns with total spend of \u00a32,324 and blended ROAS of 1.44x.\n\nDetected 3 issues requiring attention.",
+  "campaign_analyses": [
+    {
+      "campaign_name": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "campaign_id": "15820346778",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 1356.584153,
+        "revenue": 1948.24986613,
+        "roas": 1.4361437599146125,
+        "conversions": 101.571985,
+        "clicks": 1336,
+        "impressions": 95834,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+      "campaign_id": "22986754502",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 319.69,
+        "revenue": 498.127685649,
+        "roas": 1.5581584836841942,
+        "conversions": 29.743024,
+        "clicks": 404,
+        "impressions": 42166,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+      "campaign_id": "598475433",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 218.17475,
+        "revenue": 303.426671595,
+        "roas": 1.3907506326694543,
+        "conversions": 14.568833,
+        "clicks": 292,
+        "impressions": 3836,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+      "campaign_id": "21610656469",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 111.423985,
+        "revenue": 130.75660092,
+        "roas": 1.1735049766888161,
+        "conversions": 6.870694,
+        "clicks": 115,
+        "impressions": 17294,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P2",
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "description": "ROAS 1.17x is 27% below target 1.6x",
+          "metrics": {
+            "actual_roas": 1.1735049766888161,
+            "target_roas": 1.6,
+            "gap_percentage": 26.655938956948994,
+            "spend": 111.423985,
+            "revenue": 130.75660092
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+      "campaign_id": "17324490442",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 82.865492,
+        "revenue": 76.942566,
+        "roas": 0.9285236126999644,
+        "conversions": 4.0,
+        "clicks": 115,
+        "impressions": 1284,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "description": "ROAS 0.93x is 42% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.9285236126999644,
+            "target_roas": 1.6,
+            "gap_percentage": 41.96727420625223,
+            "spend": 82.865492,
+            "revenue": 76.942566
+          }
+        }
+      ],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | DSA 160 150 5/12 140 7/4",
+      "campaign_id": "10492045139",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 76.01211,
+        "revenue": 176.707869001,
+        "roas": 2.3247331116186616,
+        "conversions": 6.352664,
+        "clicks": 90,
+        "impressions": 1278,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+      "campaign_id": "22122810626",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 69.34,
+        "revenue": 99.713329233,
+        "roas": 1.4380347452119988,
+        "conversions": 6.979778,
+        "clicks": 93,
+        "impressions": 13109,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Brand Inclusion  120  14/7 Ai Max 11/11",
+      "campaign_id": "598474059",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 46.125627,
+        "revenue": 98.264533,
+        "roas": 2.130367420262927,
+        "conversions": 5.0,
+        "clicks": 62,
+        "impressions": 214,
+        "lost_is_budget": 0
+      },
+      "issues": [],
+      "target_roas": 1.6
+    },
+    {
+      "campaign_name": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+      "campaign_id": "18441497267",
+      "campaign_type": "Unknown",
+      "status": "ENABLED",
+      "metrics": {
+        "spend": 43.541747,
+        "revenue": 23.1854915,
+        "roas": 0.5324887745087491,
+        "conversions": 0.5,
+        "clicks": 95,
+        "impressions": 1162,
+        "lost_is_budget": 0
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "severity": "P1",
+          "campaign": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+          "description": "ROAS 0.53x is 67% below target 1.6x",
+          "metrics": {
+            "actual_roas": 0.5324887745087491,
+            "target_roas": 1.6,
+            "gap_percentage": 66.71945159320319,
+            "spend": 43.541747,
+            "revenue": 23.1854915
+          }
+        }
+      ],
+      "target_roas": 1.6
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "P0",
+      "title": "Critical: T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10 - POAS 1.17x below Tier C threshold (1.35x) with significant spend",
+      "issue_type": "critical_performance",
+      "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+      "problem": "POAS 1.17x below Tier C threshold (1.35x) with significant spend",
+      "recommendation": "ROOT CAUSE ANALYSIS:\n\n1. Insufficient budget for Performance Max learning\n2. Potential feed quality issues affecting product eligibility\n3. December CPC inflation (peak season competition)\n\n\nEVIDENCE:\n\u2022 PMax requires \u00a320+/day for effective learning (currently spending less)\n\u2022 Known issue from CONTEXT.md: \"Feed issues can reset learning on bestsellers\"\n\u2022 Known issue from CONTEXT.md: \"CPC inflation outpacing efficiency gains\"\n\n\nRECOMMENDED FIXES:\n\n1. Increase daily budget to \u00a320-30/day minimum\n   Expected Impact: Enable proper machine learning, improve asset testing\n\n2. Check Merchant Centre for disapprovals, verify feed quality in Channable, ensure high-profit products have complete data\n   Expected Impact: Improve product approval rate, maximize impression share for profitable products\n\n3. Accept higher CPCs during peak season IF profit targets maintained, focus budget on Tier A campaigns, review profit margins via ProfitMetrics\n   Expected Impact: Maximize profitable volume during peak season without sacrificing profitability"
+    },
+    {
+      "priority": "P0",
+      "title": "Critical: T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10 - POAS 0.93x below Tier C threshold (1.35x) with significant spend",
+      "issue_type": "critical_performance",
+      "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+      "problem": "POAS 0.93x below Tier C threshold (1.35x) with significant spend",
+      "recommendation": "ROOT CAUSE ANALYSIS:\n\n1. December CPC inflation (peak season competition)\n\n\nEVIDENCE:\n\u2022 Known issue from CONTEXT.md: \"CPC inflation outpacing efficiency gains\"\n\n\nRECOMMENDED FIXES:\n\n1. Accept higher CPCs during peak season IF profit targets maintained, focus budget on Tier A campaigns, review profit margins via ProfitMetrics\n   Expected Impact: Maximize profitable volume during peak season without sacrificing profitability"
+    },
+    {
+      "priority": "P1",
+      "title": "Profit Tier: Analyse product-level profitability for campaigns below Tier C threshold",
+      "issue_type": "product_optimization",
+      "problem": "1 Shopping/PMax campaigns below Tier C (1.35x) - need to identify unprofitable products",
+      "recommendation": "Action: Analyse product-level profitability for campaigns below Tier C threshold\n\nHow: ProfitMetrics \u2192 Export product-level POAS data \u2192 Channable \u2192 Filter products <1.35x POAS \u2192 Exclude via negative product groups or reduce bids\n\nExpected Outcome: Stop budget waste on unprofitable products, focus spend on proven profit generators"
+    },
+    {
+      "priority": "P2",
+      "title": "Profit Tier: Prepare for Tier A/B/C campaign restructure",
+      "issue_type": "product_optimization",
+      "problem": "Current Profitable/Unprofitable split is binary; Tier structure allows better budget control by margin levels",
+      "recommendation": "Action: Prepare for Tier A/B/C campaign restructure\n\nHow: Create 3 campaign tiers: Tier A (\u22651.80x POAS), Tier B (1.45-1.79x), Tier C (<1.45x probe/throttle) \u2192 Use Channable rules to segment products\n\nExpected Outcome: More granular budget allocation, better control over margin optimization, aligned with Gareth's October proposal"
+    },
+    {
+      "priority": "P2",
+      "title": "Best Practice: Performance Max Budget",
+      "issue_type": "best_practice",
+      "problem": "Industry best practice: PMax campaigns require minimum \u00a320/day for effective learning, ideally \u00a330-50/day during peak seasons",
+      "recommendation": "Application: Review PMax campaigns with <\u00a320/day budget\n\nSource: Google Ads best practices (knowledge base)"
+    },
+    {
+      "priority": "P2",
+      "title": "Best Practice: Product Feed Quality",
+      "issue_type": "best_practice",
+      "problem": "Industry best practice: Product titles should include: Brand + Product Type + Key Attributes. Poor titles reduce impression share by 30-50%",
+      "recommendation": "Application: Audit Merchant Centre feed titles via Channable\n\nSource: Shopping feed optimization guidelines"
+    },
+    {
+      "priority": "P2",
+      "title": "Best Practice: Seasonal Campaign Management",
+      "issue_type": "best_practice",
+      "problem": "Industry best practice: December: Increase budgets on Tier A campaigns by 30-50%, focus on gift-focused messaging, monitor stock levels daily",
+      "recommendation": "Application: Current month (December) - implement immediately\n\nSource: E-commerce seasonal strategies"
+    }
+  ],
+  "context_applied": {
+    "target_roas": 1.6,
+    "known_issues_count": 14,
+    "uses_product_hero": true
+  },
+  "deep_audits": {
+    "structure_issues": [],
+    "budget_issues": [],
+    "bidding_issues": [],
+    "targeting_issues": [],
+    "feed_quality_issues": [],
+    "performance_issues": [
+      {
+        "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+        "issue": "POAS 1.17x below Tier C threshold (1.35x) with significant spend",
+        "severity": "CRITICAL",
+        "spend": 111.423985,
+        "poas": 1.1735049766888161,
+        "requires_root_cause": true
+      },
+      {
+        "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+        "issue": "POAS 0.93x below Tier C threshold (1.35x) with significant spend",
+        "severity": "CRITICAL",
+        "spend": 82.865492,
+        "poas": 0.9285236126999644,
+        "requires_root_cause": true
+      }
+    ],
+    "profit_tier_recommendations": [
+      {
+        "priority": "P1",
+        "action": "Analyse product-level profitability for campaigns below Tier C threshold",
+        "why": "1 Shopping/PMax campaigns below Tier C (1.35x) - need to identify unprofitable products",
+        "how": "ProfitMetrics \u2192 Export product-level POAS data \u2192 Channable \u2192 Filter products <1.35x POAS \u2192 Exclude via negative product groups or reduce bids",
+        "expected_outcome": "Stop budget waste on unprofitable products, focus spend on proven profit generators"
+      },
+      {
+        "priority": "P2",
+        "action": "Prepare for Tier A/B/C campaign restructure",
+        "why": "Current Profitable/Unprofitable split is binary; Tier structure allows better budget control by margin levels",
+        "how": "Create 3 campaign tiers: Tier A (\u22651.80x POAS), Tier B (1.45-1.79x), Tier C (<1.45x probe/throttle) \u2192 Use Channable rules to segment products",
+        "expected_outcome": "More granular budget allocation, better control over margin optimization, aligned with Gareth's October proposal"
+      }
+    ],
+    "seasonal_issues": [
+      {
+        "general": true,
+        "issue": "Verify Christmas/gift-focused ad copy is active across all campaigns",
+        "severity": "MEDIUM",
+        "fix": "Review RSAs and PMax assets for \"gift\", \"Christmas\", \"memorial tree\" messaging",
+        "impact": "Seasonal messaging improves CTR and conversion rates during December"
+      }
+    ]
+  },
+  "root_cause_analyses": [
+    {
+      "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+      "problem": "POAS 1.17x below Tier C threshold (1.35x) with significant spend",
+      "likely_causes": [
+        "Insufficient budget for Performance Max learning",
+        "Potential feed quality issues affecting product eligibility",
+        "December CPC inflation (peak season competition)"
+      ],
+      "evidence": [
+        "PMax requires \u00a320+/day for effective learning (currently spending less)",
+        "Known issue from CONTEXT.md: \"Feed issues can reset learning on bestsellers\"",
+        "Known issue from CONTEXT.md: \"CPC inflation outpacing efficiency gains\""
+      ],
+      "recommended_fixes": [
+        {
+          "action": "Increase daily budget to \u00a320-30/day minimum",
+          "expected_impact": "Enable proper machine learning, improve asset testing"
+        },
+        {
+          "action": "Check Merchant Centre for disapprovals, verify feed quality in Channable, ensure high-profit products have complete data",
+          "expected_impact": "Improve product approval rate, maximize impression share for profitable products"
+        },
+        {
+          "action": "Accept higher CPCs during peak season IF profit targets maintained, focus budget on Tier A campaigns, review profit margins via ProfitMetrics",
+          "expected_impact": "Maximize profitable volume during peak season without sacrificing profitability"
+        }
+      ]
+    },
+    {
+      "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+      "problem": "POAS 0.93x below Tier C threshold (1.35x) with significant spend",
+      "likely_causes": [
+        "December CPC inflation (peak season competition)"
+      ],
+      "evidence": [
+        "Known issue from CONTEXT.md: \"CPC inflation outpacing efficiency gains\""
+      ],
+      "recommended_fixes": [
+        {
+          "action": "Accept higher CPCs during peak season IF profit targets maintained, focus budget on Tier A campaigns, review profit margins via ProfitMetrics",
+          "expected_impact": "Maximize profitable volume during peak season without sacrificing profitability"
+        }
+      ]
+    }
+  ],
+  "kb_insights": {
+    "relevant_searches": [
+      "Performance Max budget optimization",
+      "Shopping campaign feed quality best practices",
+      "Profit-based bidding strategies",
+      "E-commerce campaign structure for seasonal products",
+      "Product feed optimization for Google Shopping"
+    ],
+    "key_recommendations": [
+      {
+        "topic": "Performance Max Budget",
+        "insight": "PMax campaigns require minimum \u00a320/day for effective learning, ideally \u00a330-50/day during peak seasons",
+        "source": "Google Ads best practices (knowledge base)",
+        "application": "Review PMax campaigns with <\u00a320/day budget"
+      },
+      {
+        "topic": "Product Feed Quality",
+        "insight": "Product titles should include: Brand + Product Type + Key Attributes. Poor titles reduce impression share by 30-50%",
+        "source": "Shopping feed optimization guidelines",
+        "application": "Audit Merchant Centre feed titles via Channable"
+      },
+      {
+        "topic": "Seasonal Campaign Management",
+        "insight": "December: Increase budgets on Tier A campaigns by 30-50%, focus on gift-focused messaging, monitor stock levels daily",
+        "source": "E-commerce seasonal strategies",
+        "application": "Current month (December) - implement immediately"
+      }
+    ]
+  },
+  "profit_context": {
+    "uses_profitmetrics": true,
+    "conversions_value_meaning": "PROFIT (not revenue)",
+    "target_poas": 1.6,
+    "optimization_focus": "Maximise profit per \u00a31 spent (not revenue)",
+    "tier_structure": {
+      "tier_a": "\u22651.8x POAS - Scale aggressively",
+      "tier_b": "\u22651.45x POAS - Maintain, optimize to Tier A",
+      "tier_c": "\u22651.35x POAS - Throttle budget",
+      "below_tier_c": "<1.35x POAS - Pause or reduce -50%"
+    }
+  },
+  "tier_guidance": {
+    "tier_distribution": {
+      "Tier A (\u22651.80x)": 2,
+      "Tier B (\u22651.45x)": 1,
+      "Tier C (\u22651.35x)": 3,
+      "Below Tier C": 3
+    },
+    "tier_campaigns": {
+      "tier_a": [
+        {
+          "campaign_name": "T2MD | DSA 160 150 5/12 140 7/4",
+          "campaign_id": "10492045139",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 76.01211,
+            "revenue": 176.707869001,
+            "roas": 2.3247331116186616,
+            "conversions": 6.352664,
+            "clicks": 90,
+            "impressions": 1278,
+            "lost_is_budget": 0
+          },
+          "issues": [],
+          "target_roas": 1.6
+        },
+        {
+          "campaign_name": "T2MD | Brand Inclusion  120  14/7 Ai Max 11/11",
+          "campaign_id": "598474059",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 46.125627,
+            "revenue": 98.264533,
+            "roas": 2.130367420262927,
+            "conversions": 5.0,
+            "clicks": 62,
+            "impressions": 214,
+            "lost_is_budget": 0
+          },
+          "issues": [],
+          "target_roas": 1.6
+        }
+      ],
+      "tier_b": [
+        {
+          "campaign_name": "T2MD | Shopping | Catch All 170 150 20/10 140 23/10",
+          "campaign_id": "22986754502",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 319.69,
+            "revenue": 498.127685649,
+            "roas": 1.5581584836841942,
+            "conversions": 29.743024,
+            "clicks": 404,
+            "impressions": 42166,
+            "lost_is_budget": 0
+          },
+          "issues": [],
+          "target_roas": 1.6
+        }
+      ],
+      "tier_c": [
+        {
+          "campaign_name": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "campaign_id": "15820346778",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 1356.584153,
+            "revenue": 1948.24986613,
+            "roas": 1.4361437599146125,
+            "conversions": 101.571985,
+            "clicks": 1336,
+            "impressions": 95834,
+            "lost_is_budget": 0
+          },
+          "issues": [],
+          "target_roas": 1.6
+        },
+        {
+          "campaign_name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+          "campaign_id": "598475433",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 218.17475,
+            "revenue": 303.426671595,
+            "roas": 1.3907506326694543,
+            "conversions": 14.568833,
+            "clicks": 292,
+            "impressions": 3836,
+            "lost_is_budget": 0
+          },
+          "issues": [],
+          "target_roas": 1.6
+        },
+        {
+          "campaign_name": "T2MD | Shopping | Low Traffic 150 13/1 140 7/4 150 18/5 160 3/9 150 5/9 140 23/10",
+          "campaign_id": "22122810626",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 69.34,
+            "revenue": 99.713329233,
+            "roas": 1.4380347452119988,
+            "conversions": 6.979778,
+            "clicks": 93,
+            "impressions": 13109,
+            "lost_is_budget": 0
+          },
+          "issues": [],
+          "target_roas": 1.6
+        }
+      ],
+      "below_tier_c": [
+        {
+          "campaign_name": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "campaign_id": "21610656469",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 111.423985,
+            "revenue": 130.75660092,
+            "roas": 1.1735049766888161,
+            "conversions": 6.870694,
+            "clicks": 115,
+            "impressions": 17294,
+            "lost_is_budget": 0
+          },
+          "issues": [
+            {
+              "type": "low_roas",
+              "severity": "P2",
+              "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+              "description": "ROAS 1.17x is 27% below target 1.6x",
+              "metrics": {
+                "actual_roas": 1.1735049766888161,
+                "target_roas": 1.6,
+                "gap_percentage": 26.655938956948994,
+                "spend": 111.423985,
+                "revenue": 130.75660092
+              }
+            }
+          ],
+          "target_roas": 1.6
+        },
+        {
+          "campaign_name": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+          "campaign_id": "17324490442",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 82.865492,
+            "revenue": 76.942566,
+            "roas": 0.9285236126999644,
+            "conversions": 4.0,
+            "clicks": 115,
+            "impressions": 1284,
+            "lost_is_budget": 0
+          },
+          "issues": [
+            {
+              "type": "low_roas",
+              "severity": "P1",
+              "campaign": "T2MD | Search | Roses 152 29/8 140 14/1 155 16/6 Port 150 16/6 AI Max 1/7 160 3/7 150 23/10",
+              "description": "ROAS 0.93x is 42% below target 1.6x",
+              "metrics": {
+                "actual_roas": 0.9285236126999644,
+                "target_roas": 1.6,
+                "gap_percentage": 41.96727420625223,
+                "spend": 82.865492,
+                "revenue": 76.942566
+              }
+            }
+          ],
+          "target_roas": 1.6
+        },
+        {
+          "campaign_name": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+          "campaign_id": "18441497267",
+          "campaign_type": "Unknown",
+          "status": "ENABLED",
+          "metrics": {
+            "spend": 43.541747,
+            "revenue": 23.1854915,
+            "roas": 0.5324887745087491,
+            "conversions": 0.5,
+            "clicks": 95,
+            "impressions": 1162,
+            "lost_is_budget": 0
+          },
+          "issues": [
+            {
+              "type": "low_roas",
+              "severity": "P1",
+              "campaign": "T2MD | Search | Memorial Gift 150 20/5 140 7/4 Port 150  16/6 AI Max 28/7 144",
+              "description": "ROAS 0.53x is 67% below target 1.6x",
+              "metrics": {
+                "actual_roas": 0.5324887745087491,
+                "target_roas": 1.6,
+                "gap_percentage": 66.71945159320319,
+                "spend": 43.541747,
+                "revenue": 23.1854915
+              }
+            }
+          ],
+          "target_roas": 1.6
+        }
+      ]
+    },
+    "actions": {
+      "tier_a": "Scale: +20-30% budget, maximize impression share",
+      "tier_b": "Optimize: Hold budget, improve to Tier A",
+      "tier_c": "Throttle: -30% budget, review product mix",
+      "below_tier_c": "Pause or -50% budget pending investigation"
+    }
+  },
+  "seasonality_context": {
+    "current_month": 12,
+    "season_name": "Christmas Peak",
+    "is_peak_season": true,
+    "guidance": "Christmas Peak Season - Highest demand period:\n\u2022 Increase Tier A budgets by 30-50%\n\u2022 Focus spend on highest POAS products (gift trees, memorial trees)\n\u2022 Monitor stock levels daily (OOS = missed opportunity)\n\u2022 Ensure gift-focused messaging active\n\u2022 Accept higher CPCs if profit targets maintained"
+  }
+}

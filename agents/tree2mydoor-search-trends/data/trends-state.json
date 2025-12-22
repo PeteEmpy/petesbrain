@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T21:05:12.887785",
+  "last_updated": "2025-12-22T06:54:27.707652",
   "flagged_opportunities": [
     {
       "category": "60th birthday rose",
@@ -240,893 +240,39 @@
       "why_notable": "750% growth surge + high commercial intent",
       "recommended_action": "Consider creating dedicated Search ad group for 'gift hamper'",
       "first_flagged": "2025-12-14T20:22:08.285973"
+    },
+    {
+      "category": "80th birthday rose",
+      "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "impressions_last_7d": 101,
+      "impressions_prior_7d": 276,
+      "relative_change_pct": -63.4,
+      "why_notable": "63% decline on previously high-volume category",
+      "recommended_action": "Investigate cause of decline for '80th birthday rose' - feed issue? Seasonality?",
+      "first_flagged": "2025-12-19T07:31:06.402098"
+    },
+    {
+      "category": "70th birthday gifts for her",
+      "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "impressions_last_7d": 132,
+      "impressions_prior_7d": 348,
+      "relative_change_pct": -62.1,
+      "why_notable": "62% decline on previously high-volume category",
+      "recommended_action": "Investigate cause of decline for '70th birthday gifts for her' - feed issue? Seasonality?",
+      "first_flagged": "2025-12-22T06:54:27.706693"
+    },
+    {
+      "category": "plants to send as gifts",
+      "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+      "impressions_last_7d": 118,
+      "impressions_prior_7d": 345,
+      "relative_change_pct": -65.8,
+      "why_notable": "66% decline on previously high-volume category",
+      "recommended_action": "Investigate cause of decline for 'plants to send as gifts' - feed issue? Seasonality?",
+      "first_flagged": "2025-12-22T06:54:27.706754"
     }
   ],
   "historical_snapshots": [
-    {
-      "date": "2025-11-21T08:45:50.483831",
-      "trends": [
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "housewarming gifts",
-          "impressions_last_7d": 7,
-          "impressions_prior_7d": 335,
-          "diff": -328,
-          "relative_change_pct": -97.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday rose",
-          "impressions_last_7d": 291,
-          "impressions_prior_7d": 65,
-          "diff": 226,
-          "relative_change_pct": 347.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "plants for presents",
-          "impressions_last_7d": 274,
-          "impressions_prior_7d": 101,
-          "diff": 173,
-          "relative_change_pct": 171.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday gifts for her",
-          "impressions_last_7d": 189,
-          "impressions_prior_7d": 33,
-          "diff": 156,
-          "relative_change_pct": 472.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "diamond wedding anniversary gifts",
-          "impressions_last_7d": 0,
-          "impressions_prior_7d": 116,
-          "diff": -116,
-          "relative_change_pct": -100.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "rose bush",
-          "impressions_last_7d": 102,
-          "impressions_prior_7d": 231,
-          "diff": -129,
-          "relative_change_pct": -55.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "loving memory",
-          "impressions_last_7d": 53,
-          "impressions_prior_7d": 185,
-          "diff": -132,
-          "relative_change_pct": -71.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday gifts for her",
-          "impressions_last_7d": 77,
-          "impressions_prior_7d": 211,
-          "diff": -134,
-          "relative_change_pct": -63.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th wedding anniversary gifts",
-          "impressions_last_7d": 0,
-          "impressions_prior_7d": 135,
-          "diff": -135,
-          "relative_change_pct": -100.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "bereavement gifts",
-          "impressions_last_7d": 35,
-          "impressions_prior_7d": 183,
-          "diff": -148,
-          "relative_change_pct": -80.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday rose",
-          "impressions_last_7d": 137,
-          "impressions_prior_7d": 288,
-          "diff": -151,
-          "relative_change_pct": -52.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial plants",
-          "impressions_last_7d": 75,
-          "impressions_prior_7d": 229,
-          "diff": -154,
-          "relative_change_pct": -67.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "peace rose",
-          "impressions_last_7d": 134,
-          "impressions_prior_7d": 292,
-          "diff": -158,
-          "relative_change_pct": -54.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th wedding anniversary",
-          "impressions_last_7d": 3,
-          "impressions_prior_7d": 184,
-          "diff": -181,
-          "relative_change_pct": -98.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "40th wedding anniversary gift",
-          "impressions_last_7d": 19,
-          "impressions_prior_7d": 202,
-          "diff": -183,
-          "relative_change_pct": -90.6
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding rose",
-          "impressions_last_7d": 48,
-          "impressions_prior_7d": 233,
-          "diff": -185,
-          "relative_change_pct": -79.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "sympathy plants uk",
-          "impressions_last_7d": 94,
-          "impressions_prior_7d": 289,
-          "diff": -195,
-          "relative_change_pct": -67.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "remembrance rose",
-          "impressions_last_7d": 128,
-          "impressions_prior_7d": 339,
-          "diff": -211,
-          "relative_change_pct": -62.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday gifts",
-          "impressions_last_7d": 138,
-          "impressions_prior_7d": 358,
-          "diff": -220,
-          "relative_change_pct": -61.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "indoor olive tree",
-          "impressions_last_7d": 181,
-          "impressions_prior_7d": 436,
-          "diff": -255,
-          "relative_change_pct": -58.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding anniversary gifts",
-          "impressions_last_7d": 62,
-          "impressions_prior_7d": 381,
-          "diff": -319,
-          "relative_change_pct": -83.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose gift",
-          "impressions_last_7d": 62,
-          "impressions_prior_7d": 421,
-          "diff": -359,
-          "relative_change_pct": -85.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial rose",
-          "impressions_last_7d": 288,
-          "impressions_prior_7d": 704,
-          "diff": -416,
-          "relative_change_pct": -59.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose",
-          "impressions_last_7d": 78,
-          "impressions_prior_7d": 831,
-          "diff": -753,
-          "relative_change_pct": -90.6
-        }
-      ]
-    },
-    {
-      "date": "2025-11-21T10:00:03.801616",
-      "trends": [
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "housewarming gifts",
-          "impressions_last_7d": 7,
-          "impressions_prior_7d": 335,
-          "diff": -328,
-          "relative_change_pct": -97.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday rose",
-          "impressions_last_7d": 291,
-          "impressions_prior_7d": 65,
-          "diff": 226,
-          "relative_change_pct": 347.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "plants for presents",
-          "impressions_last_7d": 274,
-          "impressions_prior_7d": 101,
-          "diff": 173,
-          "relative_change_pct": 171.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday gifts for her",
-          "impressions_last_7d": 189,
-          "impressions_prior_7d": 33,
-          "diff": 156,
-          "relative_change_pct": 472.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "diamond wedding anniversary gifts",
-          "impressions_last_7d": 0,
-          "impressions_prior_7d": 116,
-          "diff": -116,
-          "relative_change_pct": -100.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "rose bush",
-          "impressions_last_7d": 102,
-          "impressions_prior_7d": 231,
-          "diff": -129,
-          "relative_change_pct": -55.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "loving memory",
-          "impressions_last_7d": 53,
-          "impressions_prior_7d": 185,
-          "diff": -132,
-          "relative_change_pct": -71.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday gifts for her",
-          "impressions_last_7d": 77,
-          "impressions_prior_7d": 211,
-          "diff": -134,
-          "relative_change_pct": -63.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th wedding anniversary gifts",
-          "impressions_last_7d": 0,
-          "impressions_prior_7d": 135,
-          "diff": -135,
-          "relative_change_pct": -100.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "bereavement gifts",
-          "impressions_last_7d": 35,
-          "impressions_prior_7d": 183,
-          "diff": -148,
-          "relative_change_pct": -80.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday rose",
-          "impressions_last_7d": 137,
-          "impressions_prior_7d": 288,
-          "diff": -151,
-          "relative_change_pct": -52.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial plants",
-          "impressions_last_7d": 75,
-          "impressions_prior_7d": 229,
-          "diff": -154,
-          "relative_change_pct": -67.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "peace rose",
-          "impressions_last_7d": 134,
-          "impressions_prior_7d": 292,
-          "diff": -158,
-          "relative_change_pct": -54.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th wedding anniversary",
-          "impressions_last_7d": 3,
-          "impressions_prior_7d": 184,
-          "diff": -181,
-          "relative_change_pct": -98.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "40th wedding anniversary gift",
-          "impressions_last_7d": 19,
-          "impressions_prior_7d": 202,
-          "diff": -183,
-          "relative_change_pct": -90.6
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding rose",
-          "impressions_last_7d": 48,
-          "impressions_prior_7d": 233,
-          "diff": -185,
-          "relative_change_pct": -79.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "sympathy plants uk",
-          "impressions_last_7d": 94,
-          "impressions_prior_7d": 289,
-          "diff": -195,
-          "relative_change_pct": -67.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "remembrance rose",
-          "impressions_last_7d": 128,
-          "impressions_prior_7d": 339,
-          "diff": -211,
-          "relative_change_pct": -62.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday gifts",
-          "impressions_last_7d": 138,
-          "impressions_prior_7d": 358,
-          "diff": -220,
-          "relative_change_pct": -61.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "indoor olive tree",
-          "impressions_last_7d": 181,
-          "impressions_prior_7d": 436,
-          "diff": -255,
-          "relative_change_pct": -58.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding anniversary gifts",
-          "impressions_last_7d": 62,
-          "impressions_prior_7d": 381,
-          "diff": -319,
-          "relative_change_pct": -83.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose gift",
-          "impressions_last_7d": 62,
-          "impressions_prior_7d": 421,
-          "diff": -359,
-          "relative_change_pct": -85.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial rose",
-          "impressions_last_7d": 288,
-          "impressions_prior_7d": 704,
-          "diff": -416,
-          "relative_change_pct": -59.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose",
-          "impressions_last_7d": 78,
-          "impressions_prior_7d": 831,
-          "diff": -753,
-          "relative_change_pct": -90.6
-        }
-      ]
-    },
-    {
-      "date": "2025-11-22T07:03:39.195886",
-      "trends": [
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "housewarming gifts",
-          "impressions_last_7d": 8,
-          "impressions_prior_7d": 285,
-          "diff": -277,
-          "relative_change_pct": -97.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70th birthday gifts",
-          "impressions_last_7d": 805,
-          "impressions_prior_7d": 325,
-          "diff": 480,
-          "relative_change_pct": 147.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70th birthday gifts for her",
-          "impressions_last_7d": 618,
-          "impressions_prior_7d": 201,
-          "diff": 417,
-          "relative_change_pct": 207.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70 year old woman",
-          "impressions_last_7d": 336,
-          "impressions_prior_7d": 96,
-          "diff": 240,
-          "relative_change_pct": 250.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday rose",
-          "impressions_last_7d": 275,
-          "impressions_prior_7d": 86,
-          "diff": 189,
-          "relative_change_pct": 219.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday gifts for her",
-          "impressions_last_7d": 223,
-          "impressions_prior_7d": 41,
-          "diff": 182,
-          "relative_change_pct": 443.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "plants for presents",
-          "impressions_last_7d": 279,
-          "impressions_prior_7d": 124,
-          "diff": 155,
-          "relative_change_pct": 125.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70th birthday ideas",
-          "impressions_last_7d": 201,
-          "impressions_prior_7d": 83,
-          "diff": 118,
-          "relative_change_pct": 142.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memory rose for dad",
-          "impressions_last_7d": 20,
-          "impressions_prior_7d": 126,
-          "diff": -106,
-          "relative_change_pct": -84.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "china anniversary gifts",
-          "impressions_last_7d": 19,
-          "impressions_prior_7d": 137,
-          "diff": -118,
-          "relative_change_pct": -86.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "20th wedding anniversary gift",
-          "impressions_last_7d": 9,
-          "impressions_prior_7d": 128,
-          "diff": -119,
-          "relative_change_pct": -93.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "condolences plant",
-          "impressions_last_7d": 50,
-          "impressions_prior_7d": 173,
-          "diff": -123,
-          "relative_change_pct": -71.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial plants",
-          "impressions_last_7d": 68,
-          "impressions_prior_7d": 191,
-          "diff": -123,
-          "relative_change_pct": -64.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "bereavement gifts",
-          "impressions_last_7d": 22,
-          "impressions_prior_7d": 155,
-          "diff": -133,
-          "relative_change_pct": -85.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "loving memory",
-          "impressions_last_7d": 43,
-          "impressions_prior_7d": 177,
-          "diff": -134,
-          "relative_change_pct": -75.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose gift",
-          "impressions_last_7d": 70,
-          "impressions_prior_7d": 205,
-          "diff": -135,
-          "relative_change_pct": -65.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "peace rose",
-          "impressions_last_7d": 125,
-          "impressions_prior_7d": 271,
-          "diff": -146,
-          "relative_change_pct": -53.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "40th wedding anniversary gift",
-          "impressions_last_7d": 29,
-          "impressions_prior_7d": 178,
-          "diff": -149,
-          "relative_change_pct": -83.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "80th birthday gifts",
-          "impressions_last_7d": 138,
-          "impressions_prior_7d": 294,
-          "diff": -156,
-          "relative_change_pct": -53.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding rose",
-          "impressions_last_7d": 50,
-          "impressions_prior_7d": 208,
-          "diff": -158,
-          "relative_change_pct": -76.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "rose bush",
-          "impressions_last_7d": 73,
-          "impressions_prior_7d": 234,
-          "diff": -161,
-          "relative_change_pct": -68.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "sympathy plants uk",
-          "impressions_last_7d": 84,
-          "impressions_prior_7d": 258,
-          "diff": -174,
-          "relative_change_pct": -67.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "remembrance rose",
-          "impressions_last_7d": 111,
-          "impressions_prior_7d": 306,
-          "diff": -195,
-          "relative_change_pct": -63.7
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding anniversary gifts",
-          "impressions_last_7d": 84,
-          "impressions_prior_7d": 342,
-          "diff": -258,
-          "relative_change_pct": -75.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "indoor olive tree",
-          "impressions_last_7d": 105,
-          "impressions_prior_7d": 435,
-          "diff": -330,
-          "relative_change_pct": -75.9
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose",
-          "impressions_last_7d": 74,
-          "impressions_prior_7d": 442,
-          "diff": -368,
-          "relative_change_pct": -83.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial rose",
-          "impressions_last_7d": 244,
-          "impressions_prior_7d": 691,
-          "diff": -447,
-          "relative_change_pct": -64.7
-        }
-      ]
-    },
-    {
-      "date": "2025-11-23T09:01:02.955878",
-      "trends": [
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "tree 2 my door",
-          "impressions_last_7d": 128,
-          "impressions_prior_7d": 261,
-          "diff": -133,
-          "relative_change_pct": -51.0
-        },
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "70th birthday gifts for her",
-          "impressions_last_7d": 64,
-          "impressions_prior_7d": 201,
-          "diff": -137,
-          "relative_change_pct": -68.2
-        },
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "70th birthday gifts",
-          "impressions_last_7d": 115,
-          "impressions_prior_7d": 274,
-          "diff": -159,
-          "relative_change_pct": -58.0
-        },
-        {
-          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
-          "category": "housewarming gifts",
-          "impressions_last_7d": 8,
-          "impressions_prior_7d": 192,
-          "diff": -184,
-          "relative_change_pct": -95.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70th birthday gifts",
-          "impressions_last_7d": 957,
-          "impressions_prior_7d": 154,
-          "diff": 803,
-          "relative_change_pct": 521.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70th birthday gifts for her",
-          "impressions_last_7d": 727,
-          "impressions_prior_7d": 90,
-          "diff": 637,
-          "relative_change_pct": 707.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70 year old woman",
-          "impressions_last_7d": 400,
-          "impressions_prior_7d": 41,
-          "diff": 359,
-          "relative_change_pct": 875.6
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday gifts for her",
-          "impressions_last_7d": 238,
-          "impressions_prior_7d": 19,
-          "diff": 219,
-          "relative_change_pct": 1152.6
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday rose",
-          "impressions_last_7d": 298,
-          "impressions_prior_7d": 83,
-          "diff": 215,
-          "relative_change_pct": 259.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "70th birthday ideas",
-          "impressions_last_7d": 241,
-          "impressions_prior_7d": 42,
-          "diff": 199,
-          "relative_change_pct": 473.8
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "plants for presents",
-          "impressions_last_7d": 286,
-          "impressions_prior_7d": 144,
-          "diff": 142,
-          "relative_change_pct": 98.6
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ladies 50th birthday gift ideas",
-          "impressions_last_7d": 155,
-          "impressions_prior_7d": 40,
-          "diff": 115,
-          "relative_change_pct": 287.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "60th birthday gifts",
-          "impressions_last_7d": 134,
-          "impressions_prior_7d": 20,
-          "diff": 114,
-          "relative_change_pct": 570.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "40th wedding anniversary gift",
-          "impressions_last_7d": 37,
-          "impressions_prior_7d": 143,
-          "diff": -106,
-          "relative_change_pct": -74.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memory rose for dad",
-          "impressions_last_7d": 4,
-          "impressions_prior_7d": 113,
-          "diff": -109,
-          "relative_change_pct": -96.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "japanese maple",
-          "impressions_last_7d": 4,
-          "impressions_prior_7d": 113,
-          "diff": -109,
-          "relative_change_pct": -96.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "sympathy gifts uk",
-          "impressions_last_7d": 11,
-          "impressions_prior_7d": 122,
-          "diff": -111,
-          "relative_change_pct": -91.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "sympathy gifts",
-          "impressions_last_7d": 1,
-          "impressions_prior_7d": 115,
-          "diff": -114,
-          "relative_change_pct": -99.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "loving memory",
-          "impressions_last_7d": 35,
-          "impressions_prior_7d": 161,
-          "diff": -126,
-          "relative_change_pct": -78.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "bereavement gifts",
-          "impressions_last_7d": 14,
-          "impressions_prior_7d": 146,
-          "diff": -132,
-          "relative_change_pct": -90.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "condolences plant",
-          "impressions_last_7d": 31,
-          "impressions_prior_7d": 165,
-          "diff": -134,
-          "relative_change_pct": -81.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "20th wedding anniversary gift",
-          "impressions_last_7d": 1,
-          "impressions_prior_7d": 136,
-          "diff": -135,
-          "relative_change_pct": -99.3
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial plants",
-          "impressions_last_7d": 48,
-          "impressions_prior_7d": 185,
-          "diff": -137,
-          "relative_change_pct": -74.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding rose",
-          "impressions_last_7d": 46,
-          "impressions_prior_7d": 193,
-          "diff": -147,
-          "relative_change_pct": -76.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "name a rose",
-          "impressions_last_7d": 85,
-          "impressions_prior_7d": 236,
-          "diff": -151,
-          "relative_change_pct": -64.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "china anniversary gifts",
-          "impressions_last_7d": 0,
-          "impressions_prior_7d": 156,
-          "diff": -156,
-          "relative_change_pct": -100.0
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "sympathy plants uk",
-          "impressions_last_7d": 63,
-          "impressions_prior_7d": 234,
-          "diff": -171,
-          "relative_change_pct": -73.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "rose bush",
-          "impressions_last_7d": 51,
-          "impressions_prior_7d": 223,
-          "diff": -172,
-          "relative_change_pct": -77.1
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "remembrance rose",
-          "impressions_last_7d": 88,
-          "impressions_prior_7d": 286,
-          "diff": -198,
-          "relative_change_pct": -69.2
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "peace rose",
-          "impressions_last_7d": 84,
-          "impressions_prior_7d": 284,
-          "diff": -200,
-          "relative_change_pct": -70.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "ruby wedding anniversary gifts",
-          "impressions_last_7d": 80,
-          "impressions_prior_7d": 314,
-          "diff": -234,
-          "relative_change_pct": -74.5
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "indoor olive tree",
-          "impressions_last_7d": 87,
-          "impressions_prior_7d": 444,
-          "diff": -357,
-          "relative_change_pct": -80.4
-        },
-        {
-          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
-          "category": "memorial rose",
-          "impressions_last_7d": 214,
-          "impressions_prior_7d": 664,
-          "diff": -450,
-          "relative_change_pct": -67.8
-        }
-      ]
-    },
     {
       "date": "2025-11-24T06:52:31.045806",
       "trends": [
@@ -2916,6 +2062,890 @@
           "impressions_prior_7d": 178,
           "diff": -164,
           "relative_change_pct": -92.1
+        }
+      ]
+    },
+    {
+      "date": "2025-12-19T07:31:06.400469",
+      "trends": [
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "diamond wedding anniversary gifts",
+          "impressions_last_7d": 12,
+          "impressions_prior_7d": 130,
+          "diff": -118,
+          "relative_change_pct": -90.8
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "60th anniversary gift",
+          "impressions_last_7d": 9,
+          "impressions_prior_7d": 132,
+          "diff": -123,
+          "relative_change_pct": -93.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "lemon tree",
+          "impressions_last_7d": 121,
+          "impressions_prior_7d": 249,
+          "diff": -128,
+          "relative_change_pct": -51.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree gift",
+          "impressions_last_7d": 118,
+          "impressions_prior_7d": 279,
+          "diff": -161,
+          "relative_change_pct": -57.7
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "bay trees for sale",
+          "impressions_last_7d": 70,
+          "impressions_prior_7d": 261,
+          "diff": -191,
+          "relative_change_pct": -73.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "tree to my door",
+          "impressions_last_7d": 98,
+          "impressions_prior_7d": 303,
+          "diff": -205,
+          "relative_change_pct": -67.7
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees uk",
+          "impressions_last_7d": 96,
+          "impressions_prior_7d": 314,
+          "diff": -218,
+          "relative_change_pct": -69.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree in pot",
+          "impressions_last_7d": 68,
+          "impressions_prior_7d": 289,
+          "diff": -221,
+          "relative_change_pct": -76.5
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees for sale",
+          "impressions_last_7d": 145,
+          "impressions_prior_7d": 373,
+          "diff": -228,
+          "relative_change_pct": -61.1
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "",
+          "impressions_last_7d": 3667,
+          "impressions_prior_7d": 10258,
+          "diff": -6591,
+          "relative_change_pct": -64.3
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "memory tree gift",
+          "impressions_last_7d": 69,
+          "impressions_prior_7d": 172,
+          "diff": -103,
+          "relative_change_pct": -59.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive tree real",
+          "impressions_last_7d": 70,
+          "impressions_prior_7d": 178,
+          "diff": -108,
+          "relative_change_pct": -60.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "japanese maple",
+          "impressions_last_7d": 51,
+          "impressions_prior_7d": 176,
+          "diff": -125,
+          "relative_change_pct": -71.0
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "friendship rose bush",
+          "impressions_last_7d": 48,
+          "impressions_prior_7d": 179,
+          "diff": -131,
+          "relative_change_pct": -73.2
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "35th wedding anniversary",
+          "impressions_last_7d": 31,
+          "impressions_prior_7d": 173,
+          "diff": -142,
+          "relative_change_pct": -82.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "indoor lemon tree",
+          "impressions_last_7d": 136,
+          "impressions_prior_7d": 289,
+          "diff": -153,
+          "relative_change_pct": -52.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday rose",
+          "impressions_last_7d": 101,
+          "impressions_prior_7d": 276,
+          "diff": -175,
+          "relative_change_pct": -63.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "lemon tree delivery uk",
+          "impressions_last_7d": 170,
+          "impressions_prior_7d": 384,
+          "diff": -214,
+          "relative_change_pct": -55.7
+        }
+      ]
+    },
+    {
+      "date": "2025-12-19T10:00:06.023229",
+      "trends": [
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "diamond wedding anniversary gifts",
+          "impressions_last_7d": 12,
+          "impressions_prior_7d": 130,
+          "diff": -118,
+          "relative_change_pct": -90.8
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "60th anniversary gift",
+          "impressions_last_7d": 9,
+          "impressions_prior_7d": 132,
+          "diff": -123,
+          "relative_change_pct": -93.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "lemon tree",
+          "impressions_last_7d": 121,
+          "impressions_prior_7d": 249,
+          "diff": -128,
+          "relative_change_pct": -51.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree gift",
+          "impressions_last_7d": 118,
+          "impressions_prior_7d": 279,
+          "diff": -161,
+          "relative_change_pct": -57.7
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "bay trees for sale",
+          "impressions_last_7d": 70,
+          "impressions_prior_7d": 261,
+          "diff": -191,
+          "relative_change_pct": -73.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "tree to my door",
+          "impressions_last_7d": 98,
+          "impressions_prior_7d": 303,
+          "diff": -205,
+          "relative_change_pct": -67.7
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees uk",
+          "impressions_last_7d": 96,
+          "impressions_prior_7d": 314,
+          "diff": -218,
+          "relative_change_pct": -69.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree in pot",
+          "impressions_last_7d": 68,
+          "impressions_prior_7d": 289,
+          "diff": -221,
+          "relative_change_pct": -76.5
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees for sale",
+          "impressions_last_7d": 145,
+          "impressions_prior_7d": 373,
+          "diff": -228,
+          "relative_change_pct": -61.1
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "",
+          "impressions_last_7d": 3667,
+          "impressions_prior_7d": 10258,
+          "diff": -6591,
+          "relative_change_pct": -64.3
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "memory tree gift",
+          "impressions_last_7d": 69,
+          "impressions_prior_7d": 172,
+          "diff": -103,
+          "relative_change_pct": -59.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive tree real",
+          "impressions_last_7d": 70,
+          "impressions_prior_7d": 178,
+          "diff": -108,
+          "relative_change_pct": -60.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "japanese maple",
+          "impressions_last_7d": 51,
+          "impressions_prior_7d": 176,
+          "diff": -125,
+          "relative_change_pct": -71.0
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "friendship rose bush",
+          "impressions_last_7d": 48,
+          "impressions_prior_7d": 179,
+          "diff": -131,
+          "relative_change_pct": -73.2
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "35th wedding anniversary",
+          "impressions_last_7d": 31,
+          "impressions_prior_7d": 173,
+          "diff": -142,
+          "relative_change_pct": -82.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "indoor lemon tree",
+          "impressions_last_7d": 136,
+          "impressions_prior_7d": 289,
+          "diff": -153,
+          "relative_change_pct": -52.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday rose",
+          "impressions_last_7d": 101,
+          "impressions_prior_7d": 276,
+          "diff": -175,
+          "relative_change_pct": -63.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "lemon tree delivery uk",
+          "impressions_last_7d": 170,
+          "impressions_prior_7d": 384,
+          "diff": -214,
+          "relative_change_pct": -55.7
+        }
+      ]
+    },
+    {
+      "date": "2025-12-20T16:43:07.092484",
+      "trends": [
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "60th anniversary gift",
+          "impressions_last_7d": 3,
+          "impressions_prior_7d": 127,
+          "diff": -124,
+          "relative_change_pct": -97.6
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "diamond wedding anniversary gifts",
+          "impressions_last_7d": 6,
+          "impressions_prior_7d": 132,
+          "diff": -126,
+          "relative_change_pct": -95.5
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree gift",
+          "impressions_last_7d": 139,
+          "impressions_prior_7d": 291,
+          "diff": -152,
+          "relative_change_pct": -52.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree in pot",
+          "impressions_last_7d": 89,
+          "impressions_prior_7d": 289,
+          "diff": -200,
+          "relative_change_pct": -69.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees for sale",
+          "impressions_last_7d": 158,
+          "impressions_prior_7d": 380,
+          "diff": -222,
+          "relative_change_pct": -58.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "bay trees for sale",
+          "impressions_last_7d": 44,
+          "impressions_prior_7d": 274,
+          "diff": -230,
+          "relative_change_pct": -83.9
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "tree to my door",
+          "impressions_last_7d": 77,
+          "impressions_prior_7d": 312,
+          "diff": -235,
+          "relative_change_pct": -75.3
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees uk",
+          "impressions_last_7d": 96,
+          "impressions_prior_7d": 336,
+          "diff": -240,
+          "relative_change_pct": -71.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "",
+          "impressions_last_7d": 4209,
+          "impressions_prior_7d": 11046,
+          "diff": -6837,
+          "relative_change_pct": -61.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday gifts for her",
+          "impressions_last_7d": 98,
+          "impressions_prior_7d": 208,
+          "diff": -110,
+          "relative_change_pct": -52.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday rose",
+          "impressions_last_7d": 85,
+          "impressions_prior_7d": 204,
+          "diff": -119,
+          "relative_change_pct": -58.3
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "indoor lemon tree",
+          "impressions_last_7d": 118,
+          "impressions_prior_7d": 238,
+          "diff": -120,
+          "relative_change_pct": -50.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "japanese maple",
+          "impressions_last_7d": 51,
+          "impressions_prior_7d": 175,
+          "diff": -124,
+          "relative_change_pct": -70.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "small olive tree",
+          "impressions_last_7d": 136,
+          "impressions_prior_7d": 283,
+          "diff": -147,
+          "relative_change_pct": -51.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday gifts",
+          "impressions_last_7d": 142,
+          "impressions_prior_7d": 314,
+          "diff": -172,
+          "relative_change_pct": -54.8
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "lemon tree delivery uk",
+          "impressions_last_7d": 145,
+          "impressions_prior_7d": 341,
+          "diff": -196,
+          "relative_change_pct": -57.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive trees for sale uk",
+          "impressions_last_7d": 300,
+          "impressions_prior_7d": 612,
+          "diff": -312,
+          "relative_change_pct": -51.0
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive trees in pots",
+          "impressions_last_7d": 314,
+          "impressions_prior_7d": 647,
+          "diff": -333,
+          "relative_change_pct": -51.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive trees for sale",
+          "impressions_last_7d": 471,
+          "impressions_prior_7d": 946,
+          "diff": -475,
+          "relative_change_pct": -50.2
+        }
+      ]
+    },
+    {
+      "date": "2025-12-22T06:54:27.706136",
+      "trends": [
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "60th anniversary gift",
+          "impressions_last_7d": 3,
+          "impressions_prior_7d": 127,
+          "diff": -124,
+          "relative_change_pct": -97.6
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "diamond wedding anniversary gifts",
+          "impressions_last_7d": 6,
+          "impressions_prior_7d": 131,
+          "diff": -125,
+          "relative_change_pct": -95.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive tree in pot",
+          "impressions_last_7d": 92,
+          "impressions_prior_7d": 289,
+          "diff": -197,
+          "relative_change_pct": -68.2
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees for sale",
+          "impressions_last_7d": 161,
+          "impressions_prior_7d": 379,
+          "diff": -218,
+          "relative_change_pct": -57.5
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "bay trees for sale",
+          "impressions_last_7d": 44,
+          "impressions_prior_7d": 273,
+          "diff": -229,
+          "relative_change_pct": -83.9
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "tree to my door",
+          "impressions_last_7d": 81,
+          "impressions_prior_7d": 312,
+          "diff": -231,
+          "relative_change_pct": -74.0
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "olive trees uk",
+          "impressions_last_7d": 96,
+          "impressions_prior_7d": 336,
+          "diff": -240,
+          "relative_change_pct": -71.4
+        },
+        {
+          "campaign": "T2MD | P Max Shopping | Unprofitable 150 160 3/9 150 5/9 140 23/10",
+          "category": "",
+          "impressions_last_7d": 4350,
+          "impressions_prior_7d": 11018,
+          "diff": -6668,
+          "relative_change_pct": -60.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive tree real",
+          "impressions_last_7d": 43,
+          "impressions_prior_7d": 144,
+          "diff": -101,
+          "relative_change_pct": -70.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "sympathy gifts",
+          "impressions_last_7d": 73,
+          "impressions_prior_7d": 174,
+          "diff": -101,
+          "relative_change_pct": -58.0
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "new home gift",
+          "impressions_last_7d": 56,
+          "impressions_prior_7d": 158,
+          "diff": -102,
+          "relative_change_pct": -64.6
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "myrtle plant",
+          "impressions_last_7d": 51,
+          "impressions_prior_7d": 158,
+          "diff": -107,
+          "relative_change_pct": -67.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "rose plants delivered uk",
+          "impressions_last_7d": 56,
+          "impressions_prior_7d": 167,
+          "diff": -111,
+          "relative_change_pct": -66.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "rose bush gift",
+          "impressions_last_7d": 83,
+          "impressions_prior_7d": 196,
+          "diff": -113,
+          "relative_change_pct": -57.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "70th birthday rose",
+          "impressions_last_7d": 55,
+          "impressions_prior_7d": 169,
+          "diff": -114,
+          "relative_change_pct": -67.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "rose bushes for sale",
+          "impressions_last_7d": 41,
+          "impressions_prior_7d": 156,
+          "diff": -115,
+          "relative_change_pct": -73.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "outdoor plants by post uk",
+          "impressions_last_7d": 87,
+          "impressions_prior_7d": 203,
+          "diff": -116,
+          "relative_change_pct": -57.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "indoor tree gift",
+          "impressions_last_7d": 55,
+          "impressions_prior_7d": 178,
+          "diff": -123,
+          "relative_change_pct": -69.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "japanese maple",
+          "impressions_last_7d": 51,
+          "impressions_prior_7d": 175,
+          "diff": -124,
+          "relative_change_pct": -70.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "sympathy plants uk",
+          "impressions_last_7d": 92,
+          "impressions_prior_7d": 221,
+          "diff": -129,
+          "relative_change_pct": -58.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "send a garden plant gift",
+          "impressions_last_7d": 94,
+          "impressions_prior_7d": 229,
+          "diff": -135,
+          "relative_change_pct": -59.0
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "golden wedding rose",
+          "impressions_last_7d": 114,
+          "impressions_prior_7d": 252,
+          "diff": -138,
+          "relative_change_pct": -54.8
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday gifts for her",
+          "impressions_last_7d": 67,
+          "impressions_prior_7d": 207,
+          "diff": -140,
+          "relative_change_pct": -67.6
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday rose",
+          "impressions_last_7d": 58,
+          "impressions_prior_7d": 202,
+          "diff": -144,
+          "relative_change_pct": -71.3
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "bereavement gifts",
+          "impressions_last_7d": 78,
+          "impressions_prior_7d": 223,
+          "diff": -145,
+          "relative_change_pct": -65.0
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plants for xmas presents",
+          "impressions_last_7d": 121,
+          "impressions_prior_7d": 268,
+          "diff": -147,
+          "relative_change_pct": -54.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plants",
+          "impressions_last_7d": 138,
+          "impressions_prior_7d": 286,
+          "diff": -148,
+          "relative_change_pct": -51.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "potted trees online",
+          "impressions_last_7d": 80,
+          "impressions_prior_7d": 232,
+          "diff": -152,
+          "relative_change_pct": -65.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "remembrance trees uk",
+          "impressions_last_7d": 113,
+          "impressions_prior_7d": 266,
+          "diff": -153,
+          "relative_change_pct": -57.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "indoor lemon tree",
+          "impressions_last_7d": 78,
+          "impressions_prior_7d": 234,
+          "diff": -156,
+          "relative_change_pct": -66.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plant delivery",
+          "impressions_last_7d": 117,
+          "impressions_prior_7d": 274,
+          "diff": -157,
+          "relative_change_pct": -57.3
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "lemon trees for sale",
+          "impressions_last_7d": 82,
+          "impressions_prior_7d": 244,
+          "diff": -162,
+          "relative_change_pct": -66.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "golden wedding anniversary gifts",
+          "impressions_last_7d": 110,
+          "impressions_prior_7d": 298,
+          "diff": -188,
+          "relative_change_pct": -63.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plants by post",
+          "impressions_last_7d": 142,
+          "impressions_prior_7d": 332,
+          "diff": -190,
+          "relative_change_pct": -57.2
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "marks and spencer plants",
+          "impressions_last_7d": 174,
+          "impressions_prior_7d": 367,
+          "diff": -193,
+          "relative_change_pct": -52.6
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "lemon tree delivery uk",
+          "impressions_last_7d": 104,
+          "impressions_prior_7d": 317,
+          "diff": -213,
+          "relative_change_pct": -67.2
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "70th birthday gifts for her",
+          "impressions_last_7d": 132,
+          "impressions_prior_7d": 348,
+          "diff": -216,
+          "relative_change_pct": -62.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "small olive tree",
+          "impressions_last_7d": 84,
+          "impressions_prior_7d": 310,
+          "diff": -226,
+          "relative_change_pct": -72.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plants to send as gifts",
+          "impressions_last_7d": 118,
+          "impressions_prior_7d": 345,
+          "diff": -227,
+          "relative_change_pct": -65.8
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "80th birthday gifts",
+          "impressions_last_7d": 89,
+          "impressions_prior_7d": 320,
+          "diff": -231,
+          "relative_change_pct": -72.2
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "memory rose bush",
+          "impressions_last_7d": 191,
+          "impressions_prior_7d": 432,
+          "diff": -241,
+          "relative_change_pct": -55.8
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "70th birthday gifts",
+          "impressions_last_7d": 187,
+          "impressions_prior_7d": 437,
+          "diff": -250,
+          "relative_change_pct": -57.2
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "david austin roses",
+          "impressions_last_7d": 183,
+          "impressions_prior_7d": 470,
+          "diff": -287,
+          "relative_change_pct": -61.1
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plant gifts uk",
+          "impressions_last_7d": 236,
+          "impressions_prior_7d": 587,
+          "diff": -351,
+          "relative_change_pct": -59.8
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "garden gifts",
+          "impressions_last_7d": 346,
+          "impressions_prior_7d": 764,
+          "diff": -418,
+          "relative_change_pct": -54.7
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive trees for sale uk",
+          "impressions_last_7d": 200,
+          "impressions_prior_7d": 618,
+          "diff": -418,
+          "relative_change_pct": -67.6
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive trees in pots",
+          "impressions_last_7d": 185,
+          "impressions_prior_7d": 673,
+          "diff": -488,
+          "relative_change_pct": -72.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "plant gifts",
+          "impressions_last_7d": 413,
+          "impressions_prior_7d": 931,
+          "diff": -518,
+          "relative_change_pct": -55.6
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive tree gift",
+          "impressions_last_7d": 494,
+          "impressions_prior_7d": 1072,
+          "diff": -578,
+          "relative_change_pct": -53.9
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive trees for sale",
+          "impressions_last_7d": 273,
+          "impressions_prior_7d": 954,
+          "diff": -681,
+          "relative_change_pct": -71.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "olive tree uk",
+          "impressions_last_7d": 307,
+          "impressions_prior_7d": 1005,
+          "diff": -698,
+          "relative_change_pct": -69.5
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "tree to my door",
+          "impressions_last_7d": 648,
+          "impressions_prior_7d": 1453,
+          "diff": -805,
+          "relative_change_pct": -55.4
+        },
+        {
+          "campaign": "T2MD | P Max | HP&P 150 5/9 140 23/10",
+          "category": "",
+          "impressions_last_7d": 23537,
+          "impressions_prior_7d": 47701,
+          "diff": -24164,
+          "relative_change_pct": -50.7
         }
       ]
     }

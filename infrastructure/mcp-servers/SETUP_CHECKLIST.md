@@ -39,6 +39,19 @@ npx @piotr-agier/google-drive-mcp auth --credentials ./gcp-oauth.keys.json
 - Read/write Google Workspace files
 - Folder management and navigation
 
+## ✅ Recently Fixed
+
+### YouTube MCP Server (December 16, 2025)
+**Status**: ✅ Fixed - Dependencies installed, ready to use after Claude Code restart
+
+**Issue**: Missing `fastmcp` in requirements.txt
+**Fix**: Added `fastmcp>=0.8.0` and `python-dotenv>=1.0.0`, installed dependencies
+**Tools available**:
+- `mcp__youtube__get_video_info(video_url)` - Get metadata (title, channel, description, stats)
+- `mcp__youtube__get_transcript(video_url)` - Extract transcripts/captions
+
+**Usage**: After restarting Claude Code, can fetch YouTube videos and add to Knowledge Base
+
 ## 📋 Pending Credentials
 
 These servers are configured but awaiting API credentials:

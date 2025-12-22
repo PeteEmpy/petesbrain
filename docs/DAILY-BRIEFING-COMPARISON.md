@@ -1,4 +1,4 @@
-# Daily Briefing System Comparison: Mike Rhodes vs PetesBrain
+# Daily Briefing System Comparison: vs PetesBrain
 
 **Date:** 2025-11-19
 **Phase:** 3 - Daily Briefing System Integration

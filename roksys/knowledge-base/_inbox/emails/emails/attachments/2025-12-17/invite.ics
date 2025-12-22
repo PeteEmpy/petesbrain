@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Dublin
+X-LIC-LOCATION:Europe/Dublin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT+0
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Dublin:20260120T144500
+DTEND;TZID=Europe/Dublin:20260120T153000
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=2;BYDAY=TU
+DTSTAMP:20251217T163638Z
+ORGANIZER;CN=Jasmine Chauhan:mailto:jasminechauhan@google.com
+UID:toune8hlttl4ulh7bq31vhlpkt@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=petere@roksys.co.uk;X-NUM-GUESTS=0:mailto:petere@roksys.co.uk
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Jasmine Chauhan;X-NUM-GUESTS=0:mailto:jasminechauhan@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Sinead Hurley;X-NUM-GUESTS=0:mailto:sineadhurley@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/sak-idzj-jwk
+X-MICROSOFT-CDO-OWNERAPPTID:1059014052
+CREATED:20251110T174133Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/sa
+ k-idzj-jwk\nOr dial: (IE) +353 1 571 2253 PIN: 514493161#\nMore phone numbe
+ rs: https://tel.meet/sak-idzj-jwk?pin=2391362115976&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20251217T163635Z
+LOCATION:https://meet.google.com/sak-idzj-jwk
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Google / Superspace / Accessories for the Home : bi-weekly sync
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -100,7 +100,7 @@ This reference file contains analysis methods, common structural and budget issu
 - <60% utilization = Over-budgeted or targeting too narrow
 - Fluctuating 50-100% = Normal for most campaigns
 
-**The 80/20 Rule (Mike Rhodes):**
+**The 80/20 Rule ():**
 Review which campaigns drive 80% of results:
 - Top 20% of campaigns typically generate 80% of conversions
 - Ensure budget allocation matches performance contribution
@@ -366,7 +366,7 @@ Example:
 
 ## Best Practices from Expert Frameworks
 
-**Mike Rhodes (80/20 Rule):**
+**(80/20 Rule):**
 - "Focus on the 20% of campaigns driving 80% of results"
 - "A 10% improvement on $50,000/month campaign delivers $5,000 monthly savings vs $100 from a $1,000/month campaign"
 

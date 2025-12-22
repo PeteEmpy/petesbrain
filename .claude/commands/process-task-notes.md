@@ -35,7 +35,7 @@ Process manual notes from the Task Manager UI.
 
 5. **After processing all notes**:
    - Clear the file: `echo '[]' > data/state/manual-task-notes.json`
-   - Regenerate HTML: `python3 generate-tasks-overview.py`
+   - Regenerate HTML: `python3 generate-all-task-views.py`
 
 6. **Report results** to user
 

@@ -27,7 +27,11 @@ STATE_FILE = PROJECT_ROOT / "data/state/facebook-news-state.json"
 LOG_FILE = PROJECT_ROOT / "data/cache/facebook-news-monitor.log"
 
 # Minimum relevance score (0-10) to import article
-MIN_RELEVANCE_SCORE = 6
+# Updated to 8.0 as per KB Content Strategy Upgrade (Dec 2025)
+# Score ≥8.0: Auto-import (high-value)
+# Score 6.0-7.9: Review + import if relevant to current focus areas
+# Score <6.0: Reject
+MIN_RELEVANCE_SCORE = 8
 
 # RSS Feeds from respected Facebook Ads industry sources
 RSS_FEEDS = {
@@ -48,11 +52,10 @@ RSS_FEEDS = {
     # Tool/Platform Blogs
     "Madgicx Blog": "https://madgicx.com/blog/feed/",
     "Hootsuite Blog - Facebook": "https://blog.hootsuite.com/category/facebook/feed/",
-    "Buffer Blog - Facebook": "https://buffer.com/resources/category/facebook/feed/",
     "Sprout Social - Facebook": "https://sproutsocial.com/insights/category/facebook/feed/",
 
-    # Reddit Communities
-    "Reddit r/FacebookAds": "https://www.reddit.com/r/FacebookAds/.rss",
+    # DTC/E-commerce Strategy (Tier 2 - High Innovation)
+    "Common Thread Collective": "https://commonthreadco.com/feed/",
 
     # Additional Industry Sources
     "Search Engine Journal - Social Media": "https://www.searchenginejournal.com/category/social-media/feed/",
@@ -117,8 +120,8 @@ def fetch_article_content(url):
         return None
 
 
-def score_article_relevance(title, summary, content_preview):
-    """Use Claude to score article relevance for Facebook Ads knowledge base"""
+def score_article_relevance(title, summary, content_preview, feed_name=""):
+    """Use Claude to score article relevance using 4-criteria weighted rubric"""
 
     api_key = os.environ.get('ANTHROPIC_API_KEY')
     if not api_key:
@@ -127,49 +130,60 @@ def score_article_relevance(title, summary, content_preview):
 
     client = anthropic.Anthropic(api_key=api_key)
 
-    prompt = f"""Analyze this article and score its relevance for a Facebook Ads / Meta advertising knowledge base.
+    prompt = f"""Analyze this article using a 4-criteria weighted scoring rubric for a Facebook Ads / Meta advertising knowledge base.
 
 Title: {title}
-
+Source: {feed_name}
 Summary/Description: {summary}
-
 Content Preview: {content_preview[:2000]}
 
-Score the article from 0-10 based on:
-- Relevance to Facebook Ads, Instagram Ads, Meta advertising
-- Actionable insights for Facebook Ads practitioners
-- Timeliness and importance of the information
-- Quality and depth of content
+SCORING RUBRIC (0-10 for each criterion):
 
-Criteria for HIGH scores (8-10):
-- Official Meta/Facebook platform updates
-- Strategic insights for Facebook Ads optimization
-- Campaign optimization best practices (Conversions, Traffic, Engagement campaigns)
-- Facebook Pixel and Conversions API guidance
-- Audience targeting strategies (Custom Audiences, Lookalikes)
-- Creative best practices for Facebook/Instagram ads
-- Case studies with Facebook Ads data/results
+1. AUTHOR AUTHORITY (Weight: 30%)
+   10: Official Meta source OR industry leader with 10+ years + published books/research
+   8-9: Recognized expert with 5-10 years + speaking engagements
+   6-7: Agency/tool with proven track record
+   4-5: Experienced practitioner, no major credentials
+   0-3: Unknown author, community post, or aggregator
 
-Criteria for MEDIUM scores (5-7):
-- General social media advertising trends that apply to Facebook Ads
-- Meta Business Suite features and workflows
-- Industry insights relevant to Facebook Ads strategy
-- Analytics and tracking for Facebook campaigns
-- Instagram advertising strategies
+2. CONTENT INNOVATION (Weight: 25%)
+   10: Original research with quantified data
+   8-9: Novel framework/methodology with evidence
+   6-7: Fresh perspective on known problem
+   4-5: Tactical guide with some unique insights
+   0-3: Rehashed "10 tips" or generic advice
 
-Criteria for LOW scores (0-4):
-- Generic social media content not specific to paid advertising
-- Organic social media strategies (without paid advertising focus)
-- Google Ads or other platform-specific content
-- SEO-focused content
-- Promotional or sales-focused content
-- Outdated information
+3. STRATEGIC DEPTH (Weight: 25%)
+   10: Decision framework with "when/why", not just "how"
+   8-9: Root cause analysis with actionable diagnostics
+   6-7: Tactical implementation with context
+   4-5: Step-by-step how-to guide
+   0-3: Surface-level tips
+
+4. EVIDENCE/DATA (Weight: 20%)
+   10: Quantified experiments with sample sizes + controls
+   8-9: Case studies with specific results
+   6-7: Real examples with directional data
+   4-5: Anecdotal evidence
+   0-3: No supporting evidence
+
+SPECIAL RULES:
+- Official Meta/Facebook announcements: Auto-import regardless of score
+- "10 tips" listicles: Cap strategic depth at 4.0 maximum
+- Reddit posts: Cap authority at 2.0 (if source contains "Reddit")
+
+CALCULATION:
+Final Score = (Authority × 0.30) + (Innovation × 0.25) + (Strategic Depth × 0.25) + (Evidence × 0.20)
 
 Respond in JSON format:
 {{
-    "relevance_score": 0-10,
+    "authority_score": 0-10,
+    "innovation_score": 0-10,
+    "strategic_depth_score": 0-10,
+    "evidence_score": 0-10,
+    "relevance_score": 0-10 (calculated composite),
     "primary_topic": "brief topic description",
-    "reason": "1-2 sentence explanation of score",
+    "reason": "1-2 sentence explanation focusing on why this score",
     "recommended_action": "import|skip"
 }}"""
 
@@ -297,7 +311,8 @@ def process_feed(feed_url, feed_name, state):
             score, analysis = score_article_relevance(
                 entry.title,
                 summary,
-                summary  # Use summary as content preview
+                summary,  # Use summary as content preview
+                feed_name  # Pass feed name for authority scoring
             )
 
             if score >= MIN_RELEVANCE_SCORE and analysis:

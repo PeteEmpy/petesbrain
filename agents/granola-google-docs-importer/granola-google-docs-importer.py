@@ -18,6 +18,7 @@ import sys
 import re
 import json
 import yaml
+import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, Optional, List, Tuple
@@ -34,6 +35,9 @@ except ImportError:
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+# Import centralized secrets manager
+from shared.secrets import get_secret
+
 # Import existing client detector
 sys.path.insert(0, str(PROJECT_ROOT / "tools" / "granola-importer"))
 try:
@@ -43,13 +47,9 @@ except ImportError:
     print("⚠️  Client detector not available - client detection will be limited")
     CLIENT_DETECTOR_AVAILABLE = False
 
-# Import Google Tasks client
-try:
-    from shared.google_tasks_client import GoogleTasksClient
-    GOOGLE_TASKS_AVAILABLE = True
-except ImportError:
-    print("⚠️  Google Tasks integration not available")
-    GOOGLE_TASKS_AVAILABLE = False
+# Google Tasks integration DEPRECATED (2025-12-16)
+# Action items are now saved to markdown files only
+GOOGLE_TASKS_AVAILABLE = False
 
 # Configuration
 CLIENTS_DIR = PROJECT_ROOT / "clients"
@@ -80,13 +80,8 @@ class GranolaGoogleDocsImporter:
         self.history = self._load_history()
         self.unmatched = self._load_unmatched()
 
-        # Initialize Google Tasks client
+        # Google Tasks client DEPRECATED (action items saved to markdown only)
         self.tasks_client = None
-        if GOOGLE_TASKS_AVAILABLE:
-            try:
-                self.tasks_client = GoogleTasksClient()
-            except Exception as e:
-                print(f"⚠️  Could not initialize Google Tasks: {e}")
 
         # Initialize Granola API for attendee enrichment
         self.granola_api = None
@@ -103,12 +98,15 @@ class GranolaGoogleDocsImporter:
         self.anthropic_client = None
         self.enable_ai_analysis = enable_ai_analysis
         if enable_ai_analysis and ANTHROPIC_AVAILABLE:
-            api_key = os.environ.get("ANTHROPIC_API_KEY")
+            # Get API key from keychain (with environment variable fallback)
+            api_key = get_secret('ANTHROPIC_API_KEY', fallback_env_var='ANTHROPIC_API_KEY')
+
             if api_key:
                 self.anthropic_client = anthropic.Anthropic(api_key=api_key)
                 print("✓ Claude AI initialized for meeting analysis")
             else:
-                print("⚠️  ANTHROPIC_API_KEY not set - AI analysis disabled")
+                print("⚠️  ANTHROPIC_API_KEY not found in keychain or environment - AI analysis disabled")
+                print("   Store in keychain: security add-generic-password -a petesbrain -s ANTHROPIC_API_KEY -w 'YOUR_KEY'")
 
     def _load_history(self) -> Dict:
         """Load import history."""
@@ -361,9 +359,13 @@ class GranolaGoogleDocsImporter:
 
         return meeting_data
 
-    def detect_client(self, meeting_data: Dict) -> Tuple[Optional[str], float, str]:
+    def detect_client(self, meeting_data: Dict, doc_name: str = None) -> Tuple[Optional[str], float, str]:
         """
         Detect client from meeting data using existing client detector.
+
+        Args:
+            meeting_data: Parsed meeting data dictionary
+            doc_name: Original Google Doc name (e.g., "ROK | Granola - Smythson")
 
         Returns:
             (client_slug, confidence, method)
@@ -384,9 +386,14 @@ class GranolaGoogleDocsImporter:
                 if email_match:
                     attendee_emails.append(email_match.group(0))
 
+        # CRITICAL: Use document name for client detection, not extracted title
+        # Google Docs often have generic titles like "Enhanced Notes" which don't help with detection
+        # The document name contains the actual client name: "ROK | Granola - ClientName"
+        detection_title = doc_name if doc_name else meeting_data['title']
+
         # Use existing detector
         client_slug, confidence, method = self.detector.detect_with_confidence(
-            meeting_data['title'],
+            detection_title,
             meeting_content=meeting_data['transcript'],
             attendee_emails=attendee_emails if attendee_emails else None
         )
@@ -798,18 +805,18 @@ Extract ALL action items, external dependencies, and strategic notes from this m
         
         action_items_count = len(tasks_created) if tasks_created else 0
         content_parts.append(f"**Action Items Extracted:** {action_items_count}")
-        content_parts.append(f"**Google Tasks Created:** {action_items_count}")
-        
+        content_parts.append(f"**Saved to Markdown:** Yes (Google Tasks deprecated 2025-12-16)")
+
         if tasks_created:
             content_parts.extend([
                 "",
-                "**Tasks Created:**",
+                "**Action Items:**",
             ])
             for task in tasks_created:
-                task_id = task.get('id', 'N/A')
                 task_title = task.get('title', 'Unknown')
-                task_type = task.get('type', 'unknown')
-                content_parts.append(f"- ✅ {task_title} (Google Task: `{task_id}`, Type: {task_type})")
+                task_priority = task.get('priority', 'P2')
+                task_due_date = task.get('due_date', 'TBD')
+                content_parts.append(f"- {task_title} (Priority: {task_priority}, Due: {task_due_date})")
         
         content_parts.extend(["", "---", ""])
 
@@ -866,115 +873,44 @@ Extract ALL action items, external dependencies, and strategic notes from this m
         
         return file_path
 
-    def task_already_exists(self, task_title: str, tasklist_id: str) -> bool:
-        """Check if task with similar title already exists in Google Tasks."""
-        try:
-            existing_tasks = self.tasks_client.list_tasks(tasklist_id, show_completed=False)
+    # DEPRECATED: task_already_exists and create_google_tasks methods removed (2025-12-16)
+    # Action items are now only saved to meeting markdown files
 
-            for existing_task in existing_tasks:
-                # Normalize titles for comparison
-                existing_normalized = existing_task['title'].lower().strip()
-                new_normalized = task_title.lower().strip()
-
-                # Check for exact match
-                if existing_normalized == new_normalized:
-                    return True
-
-                # Check for substring match (covers "[HIGH]" prefix variations)
-                # Remove common prefixes for better matching
-                existing_clean = re.sub(r'^\[(urgent|high|tracking)\]\s*', '', existing_normalized, flags=re.IGNORECASE)
-                new_clean = re.sub(r'^\[(urgent|high|tracking)\]\s*', '', new_normalized, flags=re.IGNORECASE)
-
-                if existing_clean == new_clean:
-                    return True
-
-            return False
-        except Exception as e:
-            print(f"⚠️  Error checking for duplicate tasks: {e}")
-            return False  # If check fails, allow creation (safer than blocking)
-
-    def create_google_tasks(self, action_items: List[Dict], client_slug: Optional[str]) -> List[Dict]:
-        """Create Google Tasks from action items with priority and due dates.
+    def _format_action_items_for_markdown(self, action_items: List[Dict], client_slug: Optional[str]) -> List[Dict]:
+        """Format action items for markdown file (no Google Tasks creation).
 
         Returns:
-            List of created task dictionaries with 'title' and 'id'
+            List of formatted action item dictionaries for markdown
         """
-        created_tasks = []
-        if not self.tasks_client or not action_items:
-            return created_tasks
+        formatted_items = []
+        if not action_items:
+            return formatted_items
 
-        try:
-            # Get or create task list
-            tasklist_name = "Client Action Items"
-            tasklist_id = self.tasks_client.get_or_create_tasklist(tasklist_name)
+        for item in action_items:
+            # Build formatted title with priority
+            priority_label = {
+                'P0': '[URGENT]',
+                'P1': '[HIGH]',
+                'P2': '',
+                'P3': '[TRACKING]'
+            }.get(item.get('priority', 'P2'), '')
 
-            for item in action_items:
-                # Build task title with priority
-                priority_label = {
-                    'P0': '[URGENT]',
-                    'P1': '[HIGH]',
-                    'P2': '',
-                    'P3': '[TRACKING]'
-                }.get(item.get('priority', 'P2'), '')
+            if client_slug:
+                title = f"{priority_label} [{client_slug}] {item['task']}"
+            else:
+                title = f"{priority_label} [Unassigned] {item['task']}"
 
-                if client_slug:
-                    title = f"{priority_label} [{client_slug}] {item['task']}"
-                else:
-                    title = f"{priority_label} [Unassigned] {item['task']}"
+            title = title.strip()
 
-                title = title.strip()  # Remove leading space if no priority label
+            formatted_items.append({
+                'title': title,
+                'type': 'action_item',
+                'priority': item.get('priority', 'P2'),
+                'due_date': item.get('due_date', 'TBD'),
+                'context': item.get('context', '')
+            })
 
-                # Check for duplicates
-                if self.task_already_exists(title, tasklist_id):
-                    print(f"  ⏭️  Skipping duplicate: {title}")
-                    continue
-
-                # Build notes with context
-                notes = f"From: {item['meeting_title']}\n"
-                notes += f"Date: {item['meeting_date']}\n"
-                notes += f"AI Generated ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
-
-                if item.get('context'):
-                    notes += f"\n\nContext:\n{item['context']}"
-
-                # Calculate due date
-                due_date = None
-                if item.get('due_date') and item['due_date'] != 'TBD':
-                    due_date = item['due_date']
-                elif item.get('priority') == 'P0':
-                    # Urgent: due today
-                    due_date = datetime.now().strftime('%Y-%m-%d')
-                elif item.get('priority') == 'P1':
-                    # High: due end of week (Friday)
-                    today = datetime.now()
-                    days_until_friday = (4 - today.weekday()) % 7
-                    if days_until_friday == 0:  # Today is Friday
-                        days_until_friday = 7  # Next Friday
-                    friday = today + timedelta(days=days_until_friday)
-                    due_date = friday.strftime('%Y-%m-%d')
-
-                # Create task with due date
-                task = self.tasks_client.create_task(
-                    tasklist_id=tasklist_id,
-                    title=title,
-                    notes=notes,
-                    due=due_date
-                )
-
-                if task:
-                    created_tasks.append({
-                        'title': title,
-                        'id': task.get('id'),
-                        'type': 'action_item',
-                        'priority': item.get('priority', 'P2'),
-                        'due_date': due_date
-                    })
-                    print(f"  ✅ Created: {title}")
-
-        except Exception as e:
-            print(f"⚠️  Error creating Google Tasks: {e}")
-
-        return created_tasks
+        return formatted_items
 
     def send_p0_notifications(self, p0_tasks: List[Dict], meeting_data: Dict, client_slug: Optional[str]):
         """
@@ -1097,109 +1033,8 @@ View all tasks in priority order by running "view tasks" in Claude Code.
         except Exception as e:
             print(f"    ⚠️  Failed to send email: {e}")
 
-    def create_review_task(self, meeting_data: Dict, client_slug: Optional[str],
-                          file_path: Path, ai_analysis: Optional[Dict] = None) -> Optional[Dict]:
-        """
-        Create a review task for updating CONTEXT.md with meeting insights.
-
-        Args:
-            meeting_data: Meeting data dictionary
-            client_slug: Client slug (or None for unassigned)
-            file_path: Path to meeting file
-            ai_analysis: AI analysis results (optional)
-        
-        Returns:
-            Task dictionary with 'title' and 'id', or None if not created
-        """
-        if not self.tasks_client:
-            return None
-
-        try:
-            # Get or create task list
-            tasklist_name = "Client Action Items"
-            tasklist_id = self.tasks_client.get_or_create_tasklist(tasklist_name)
-
-            # Build task title
-            meeting_title = meeting_data['title'][:50]  # Truncate if too long
-            if client_slug:
-                client_display = client_slug.replace("-", " ").title()
-                title = f"[{client_slug}] Review meeting: {meeting_title}"
-            else:
-                title = f"Review meeting: {meeting_title}"
-
-            # Build task notes with AI-suggested updates
-            notes_parts = [
-                f"Meeting: {meeting_data['title']}",
-                f"Date: {meeting_data['date']}",
-                f"File: {file_path}",
-                "",
-            ]
-
-            if ai_analysis:
-                context_suggestions = ai_analysis.get('context_md_suggestions', {})
-
-                if context_suggestions.get('strategic_context'):
-                    notes_parts.extend([
-                        "SUGGESTED CONTEXT.MD UPDATES:",
-                        "",
-                        "Strategic Context:",
-                    ])
-                    for item in context_suggestions['strategic_context']:
-                        notes_parts.append(f"- {item}")
-                    notes_parts.append("")
-
-                if context_suggestions.get('key_learnings'):
-                    notes_parts.extend([
-                        "Key Learnings:",
-                    ])
-                    for item in context_suggestions['key_learnings']:
-                        notes_parts.append(f"- {item}")
-                    notes_parts.append("")
-
-                if context_suggestions.get('client_preferences'):
-                    notes_parts.extend([
-                        "Client Preferences:",
-                    ])
-                    for item in context_suggestions['client_preferences']:
-                        notes_parts.append(f"- {item}")
-                    notes_parts.append("")
-
-                if ai_analysis.get('strategic_decisions'):
-                    notes_parts.extend([
-                        "Strategic Decisions:",
-                    ])
-                    for decision in ai_analysis['strategic_decisions'][:3]:  # Limit to 3
-                        notes_parts.append(f"- {decision}")
-                    notes_parts.append("")
-
-            notes_parts.append("Review meeting notes and update CONTEXT.md with key insights.")
-
-            # Set due date (2 days from now)
-            from datetime import timezone
-            due_date = datetime.now(timezone.utc) + timedelta(days=2)
-            due_str = due_date.strftime("%Y-%m-%dT%H:%M:%S.000Z")
-
-            # Create task
-            task = self.tasks_client.create_task(
-                tasklist_id=tasklist_id,
-                title=title,
-                notes='\n'.join(notes_parts),
-                due=due_str
-            )
-
-            print(f"   ✓ Created review task (due in 2 days)")
-            
-            if task:
-                return {
-                    'title': title,
-                    'id': task.get('id'),
-                    'type': 'review_task'
-                }
-            return None
-
-        except Exception as e:
-            print(f"   ⚠️  Error creating review task: {e}")
-            return None
+    # DEPRECATED: create_review_task method removed (2025-12-16)
+    # Meeting notes with AI suggestions are saved to markdown - manual CONTEXT.md updates
 
     def import_google_doc(self, doc_id: str, doc_name: str, doc_content: str) -> Optional[Path]:
         """
@@ -1234,8 +1069,8 @@ View all tasks in priority order by running "view tasks" in Claude Code.
         # Enrich with Granola API attendees
         meeting_data = self.enrich_with_granola_attendees(meeting_data, doc_name)
 
-        # Detect client
-        client_slug, confidence, method = self.detect_client(meeting_data)
+        # Detect client using document name (which contains actual client name)
+        client_slug, confidence, method = self.detect_client(meeting_data, doc_name=doc_name)
 
         if client_slug:
             client_display = client_slug.replace("-", " ").title()
@@ -1255,58 +1090,27 @@ View all tasks in priority order by running "view tasks" in Claude Code.
         # Analyze meeting with AI
         ai_analysis = self.analyze_meeting_with_ai(meeting_data, client_slug)
 
-        # Extract and create action items with comprehensive Claude analysis
+        # Extract action items with comprehensive Claude analysis
         action_items = self.extract_action_items_comprehensive(meeting_data)
-        created_action_tasks = []
+        formatted_action_items = []
         if action_items:
-            print(f"   ✓ Found {len(action_items)} action item(s)")
-            created_action_tasks = self.create_google_tasks(action_items, client_slug)
+            print(f"   ✓ Found {len(action_items)} action item(s) (saved to markdown)")
+            formatted_action_items = self._format_action_items_for_markdown(action_items, client_slug)
 
             # Send notifications for P0 urgent tasks
-            if created_action_tasks:
-                p0_tasks = [task for task in action_items if task.get('priority') == 'P0']
-                if p0_tasks:
-                    self.send_p0_notifications(p0_tasks, meeting_data, client_slug)
+            p0_tasks = [task for task in action_items if task.get('priority') == 'P0']
+            if p0_tasks:
+                self.send_p0_notifications(p0_tasks, meeting_data, client_slug)
 
-        # Create meeting file with AI summary and processing history (before review task so we have file_path)
+        # Create meeting file with AI summary and action items in markdown
         file_path = self.create_meeting_file(
-            meeting_data, 
-            client_slug, 
+            meeting_data,
+            client_slug,
             ai_analysis,
-            tasks_created=created_action_tasks,  # Will add review task after
+            tasks_created=formatted_action_items,  # Action items in markdown only
             client_detection={'confidence': confidence, 'method': method}
         )
         print(f"   ✓ Saved to: {file_path}")
-
-        # Create review task for CONTEXT.md updates (now we have file_path)
-        review_task = self.create_review_task(meeting_data, client_slug, file_path, ai_analysis)
-        
-        # Update meeting file with review task if it was created
-        if review_task:
-            # Re-read the file, add review task to processing history, and save
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                
-                # Find the Tasks Created section and add review task
-                if "**Tasks Created:**" in content:
-                    # Add review task to the list
-                    review_task_line = f"- ✅ {review_task['title']} (Google Task: `{review_task.get('id', 'N/A')}`, Type: {review_task.get('type', 'review_task')})"
-                    # Insert before the closing "---"
-                    content = content.replace("---", f"{review_task_line}\n---", 1)
-                    
-                    # Update task count
-                    import re
-                    content = re.sub(
-                        r'\*\*Google Tasks Created:\*\*\s*\d+',
-                        f"**Google Tasks Created:** {len(created_action_tasks) + 1}",
-                        content
-                    )
-                    
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(content)
-            except Exception as e:
-                print(f"   ⚠️  Could not update meeting file with review task: {e}")
         
         # Mark as imported
         self._mark_imported(doc_id, file_path, client_slug)

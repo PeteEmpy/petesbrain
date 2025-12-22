@@ -1,4 +1,4 @@
-# Google Ads Skills Comparison: Mike Rhodes vs PetesBrain
+# Google Ads Skills Comparison: vs PetesBrain
 
 **Date:** 2025-11-19
 **Status:** Phase 2 Complete - Analysis & Learning

@@ -123,3 +123,95 @@ Execute migrate-batch.py for 20 non-critical monitoring agents. Add PETESBRAIN_R
 Agents to migrate: agent-loader, ai-google-chat-processor, ai-news, baseline-calculator, booking-processor, business-context-sync, cleanup-completed-tasks, critical-tasks-backup, daily-anomaly-alerts, daily-backup, devonshire-budget, diagnostics-monitor, document-archival, draft-cleanup, email-auto-label, experiment-review, facebook-news-monitor, facebook-specs-processor, fetch-client-performance, file-organizer
 
 ---
+## [Test] Google Tasks deprecation verification
+**Completed:** 2025-12-16 09:58
+**Source:** Manual
+
+Test task to verify system works after Google Tasks removal
+
+---
+## Order Huel
+**Completed:** 2025-12-16 17:14
+**Source:** Wispr Flow → Inbox Processor
+
+Done
+
+---
+## Red Crouch
+**Completed:** 2025-12-18 08:30
+**Source:** Manual
+
+Captured from iOS Inbox Capture on 17 Dec 2025 at 22:00
+
+---
+## 18 Dec 2025 At 08:22 Test Retry Fix
+**Completed:** 2025-12-18 08:30
+**Source:** Wispr Flow → Inbox Processor
+
+Source: Inbox processor (Wispr Flow)
+Original file: 18 Dec 2025 at 08:22-test-retry-fix.md
+
+Test note to verify inbox processor retry logic fix
+
+---
+## 18 Dec 2025 At 08:22 Test Retry Fix
+**Completed:** 2025-12-18 08:30
+**Source:** Wispr Flow → Inbox Processor
+
+Moved to personal folder
+
+---
+
+## Phase 1B: Google Ads Auction Insights Analysis Skill
+**Completed:** 2025-12-19 15:31
+**Priority:** P0
+**Source:** GoMarble Implementation Plan
+
+Create .claude/skills/google-ads-auction-insights/ skill.
+
+**Purpose:**
+- Identify lost impression share (budget vs rank)
+- Quantify revenue opportunity from budget increases
+- Guide client budget inc...
+
+---
+
+## Phase 1C: GA4 Traffic Source Performance Skill
+**Completed:** 2025-12-19 15:31
+**Priority:** P0
+**Source:** GoMarble Implementation Plan
+
+Create .claude/skills/ga4-channel-performance/ skill.
+
+**Purpose:**
+- Compare attribution models (last-click vs data-driven)
+- Identify profitable yet undervalued channels
+- Explain discrepancies betw...
+
+---
+
+## Phase 1A: Google Ads Weekly E-commerce Report Skill
+**Completed:** 2025-12-19 15:31
+**Priority:** P0
+**Source:** GoMarble Implementation Plan
+
+Create .claude/skills/google-ads-weekly-report/ skill.
+
+**Output:**
+- Campaign overview (spend, conversions, ROAS, CPA)
+- Product-level performance (top 10 best/worst by ROAS)
+- Placement analysis (Sh...
+
+---
+
+## Clean up task migration backups from 2025-12-01
+**Completed:** 2025-12-19 15:31
+**Priority:** P0
+**Source:** Task system audit follow-up
+
+Run cleanup script to remove temporary backup files created during task system migration.
+
+**What to Delete:**
+- Per-client backup files: tasks-before-cleanup-*, tasks-before-dedup-*, tasks-pre-*-2025...
+
+---

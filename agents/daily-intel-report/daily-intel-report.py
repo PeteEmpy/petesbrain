@@ -452,7 +452,12 @@ def get_client_work_for_today():
         return f"## 🎯 Client Work for Today\n\n*Error loading client work: {str(e)}*\n"
 
 def get_pending_tasks():
-    """Get active tasks from Google Tasks for today"""
+    """Get active tasks (Google Tasks DEPRECATED 2025-12-16)"""
+    # Google Tasks integration DEPRECATED
+    # Personal tasks should be tracked in internal system if needed
+    return "**Google Tasks Deprecated** - Personal tasks moved to internal system\n\n"
+
+    # DEPRECATED CODE BELOW (kept for reference during transition)
     try:
         # Try to use Google Tasks MCP to get active tasks
         sys.path.insert(0, str(PROJECT_ROOT / 'shared'))
@@ -1337,6 +1342,79 @@ def get_weekly_reports_section():
     except Exception as e:
         return f"*Weekly reports unavailable: {str(e)}*\n"
 
+def get_tier_system_alerts():
+    """Get negative keyword tier system alerts from weekly monitoring"""
+    alert_file = PROJECT_ROOT / 'shared' / 'data' / 'state' / 'tier-alerts.json'
+
+    if not alert_file.exists():
+        return ""  # No alerts file means no alerts this week
+
+    try:
+        with open(alert_file, 'r') as f:
+            alert_data = json.load(f)
+
+        alerts = alert_data.get('alerts', [])
+        timestamp = alert_data.get('timestamp', '')
+
+        if not alerts:
+            return ""  # No alerts to report
+
+        # Check if alerts are from this week (Monday run)
+        if timestamp:
+            alert_date = datetime.fromisoformat(timestamp).date()
+            days_old = (datetime.now().date() - alert_date).days
+            if days_old > 7:
+                return ""  # Alerts are stale, don't show
+
+        output = "### 🔴 Negative Keyword Alerts\n\n"
+        output += f"**Weekly tier system check:** {len(alerts)} client(s) with new findings\n\n"
+
+        for alert in alerts:
+            client = alert['client']
+            tier2_promoted = alert['tier2_promoted_count']
+            new_tier1 = alert['new_tier1_count']
+            new_tier2 = alert['new_tier2_count']
+            waste_projection = alert.get('total_waste_projection', 0)
+
+            output += f"**{client.title()}:**\n"
+
+            if tier2_promoted > 0:
+                output += f"- 📈 {tier2_promoted} Tier 2 term(s) promoted to Tier 1 (reached 30+ clicks, 0 conv)\n"
+                if alert.get('tier2_promoted_terms'):
+                    output += f"  - Terms: {', '.join(alert['tier2_promoted_terms'][:3])}"
+                    if len(alert['tier2_promoted_terms']) > 3:
+                        output += f" (+{len(alert['tier2_promoted_terms'])-3} more)"
+                    output += "\n"
+
+            if new_tier1 > 0:
+                output += f"- 🆕 {new_tier1} NEW Tier 1 term(s) detected (immediate action required)\n"
+                if alert.get('new_tier1_terms'):
+                    output += f"  - Terms: {', '.join(alert['new_tier1_terms'][:3])}"
+                    if len(alert['new_tier1_terms']) > 3:
+                        output += f" (+{len(alert['new_tier1_terms'])-3} more)"
+                    output += "\n"
+
+            if new_tier2 > 0:
+                output += f"- 🟡 {new_tier2} NEW Tier 2 term(s) added to monitoring (7-day watch)\n"
+
+            if waste_projection > 0:
+                output += f"- 💰 **Est. annual waste:** £{waste_projection:,.0f}\n"
+
+            # Add link to tracker
+            output += f"- 📊 [View tracker](file://{PROJECT_ROOT}/shared/data/tier2_tracker.json)\n"
+            output += "\n"
+
+        output += "*💡 Action required: Review and deploy negative keywords to prevent waste*\n\n"
+
+        # Clear alerts after showing (optional - comment out if you want to keep showing until next run)
+        # alert_file.unlink()
+
+        return output
+
+    except Exception as e:
+        logger.warning(f"Error reading tier alerts: {e}")
+        return ""
+
 def send_email_briefing(briefing_content, briefing_path):
     """
     Send briefing via Gmail SMTP
@@ -1594,6 +1672,10 @@ def generate_full_html_briefing(day_name, calendar_section, client_work_section,
     Generate a full HTML version of the briefing with ALL tasks expanded (no truncation)
     """
     # Get ALL tasks without truncation
+    # Google Tasks integration DEPRECATED (2025-12-16)
+    full_tasks_html = "<p><strong>Google Tasks Deprecated</strong> - Personal tasks moved to internal system</p>"
+
+    # DEPRECATED CODE BELOW (kept for reference during transition)
     try:
         sys.path.insert(0, str(PROJECT_ROOT / 'shared'))
         from google_tasks_client import get_all_active_tasks
@@ -2045,6 +2127,9 @@ def generate_briefing():
     logger.info("  📊 Checking weekly reports...")
     weekly_reports_section = get_weekly_reports_section()
 
+    logger.info("  🔴 Checking tier system alerts...")
+    tier_alerts_section = get_tier_system_alerts()
+
     logger.info("✅ Data collection complete")
 
     # LOG: PROCESSING PHASE - Build briefing content
@@ -2081,6 +2166,10 @@ def generate_briefing():
 ## ⚠️ Client Alerts (2-Day Lag)
 
 {anomalies_section}
+
+---
+
+{tier_alerts_section}
 
 ---
 

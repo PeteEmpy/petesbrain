@@ -3,7 +3,7 @@
 **Date**: November 5, 2025  
 **Status**: ✅ Operational  
 **Skills Installed**: 4  
-**Source**: Adapted from Mike Rhodes' 8020Brain
+**Source**: Adapted from industry resources
 
 ---
 
@@ -173,7 +173,7 @@ You implement recommendations → Agents monitor impact
 
 ## Skills vs MCP Servers vs Sub-Agents
 
-Based on Mike Rhodes' guidance (in your knowledge base):
+Based on guidance (in your knowledge base):
 
 | Feature | Skills | MCP Servers | Sub-Agents |
 |---------|--------|-------------|------------|
@@ -549,13 +549,13 @@ Check: Bulk upload format provided
 - **Agents System**: `agents/README.md`
 - **Audit System**: `docs/GOOGLE-ADS-AUDIT-SYSTEM.md`
 - **ROK Framework**: `roksys/knowledge-base/rok-methodologies/`
-- **8020Brain Analysis**: `docs/8020BRAIN-ANALYSIS-REPORT.md`
+- **industry resources Analysis**: `docs/industry resources-ANALYSIS-REPORT.md`
 
 ---
 
 ## Credits
 
-**Original Concept**: Mike Rhodes (8020Brain template)  
+**Original Concept**: (industry resources template)  
 **Adapted & Enhanced by**: Pete Empson / ROK  
 **Date**: November 5, 2025  
 **Framework**: ROK Analysis Methodologies

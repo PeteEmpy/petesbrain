@@ -1,0 +1,106 @@
+================================================================================
+BRIGHT MINDS - DECEMBER COMPARISON (ACCURATE DATA)
+================================================================================
+
+DATA QUALITY STATEMENT:
+This comparison uses ACCURATE conversion data for both periods:
+  - Dec 2024: GA4 conversion action ONLY ("Brightminds GA4 (web) purchase")
+  - Dec 2025: Clean tracking (no duplicate/incorrect conversion actions)
+
+Both periods use the SAME conversion action methodology for apples-to-apples comparison.
+
+================================================================================
+PERIOD COMPARISON: DEC 1-15, 2024 VS DEC 1-15, 2025
+================================================================================
+
+Metric               Dec 2024             Dec 2025             YoY Change     
+--------------------------------------------------------------------------------
+Conversions                     2,686.1             1,096.9          -59.2%
+Revenue                       £94,986.09           £38,429.22          -59.5%
+Spend                          £9,594.92            £9,284.43           -3.2%
+ROAS                               9.90x                4.14x          -58.2%
+--------------------------------------------------------------------------------
+
+================================================================================
+DAILY AVERAGES COMPARISON
+================================================================================
+
+Metric               Dec 2024             Dec 2025             YoY Change     
+--------------------------------------------------------------------------------
+Daily Conversions                 179.1                73.1          -59.2%
+Daily Revenue                  £6,332.41            £2,561.95          -59.5%
+Daily Spend                      £639.66              £618.96           -3.2%
+--------------------------------------------------------------------------------
+
+================================================================================
+PERFORMANCE ANALYSIS
+================================================================================
+
+1. CONVERSIONS:
+   ⚠️  SIGNIFICANT DECLINE in conversions YoY
+   - Dec 2024: 2,686.1 conversions (179.1/day)
+   - Dec 2025: 1,096.9 conversions (73.1/day)
+   - Change: -59.2%
+
+2. REVENUE:
+   ⚠️  SIGNIFICANT DECLINE in revenue YoY
+   - Dec 2024: £94,986.09 (£6,332.41/day)
+   - Dec 2025: £38,429.22 (£2,561.95/day)
+   - Change: -59.5%
+
+3. SPEND:
+   - Dec 2024: £9,594.92 (£639.66/day)
+   - Dec 2025: £9,284.43 (£618.96/day)
+   - Change: -3.2%
+   - Spend is LOWER in 2025
+
+4. ROAS EFFICIENCY:
+   ⚠️  SIGNIFICANT DECLINE in ROAS efficiency
+   - Dec 2024: 9.90x ROAS
+   - Dec 2025: 4.14x ROAS
+   - Change: -58.2%
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+• CRITICAL: Conversions down significantly despite similar spend levels
+  → This represents a fundamental change in conversion performance
+  → Requires immediate investigation into campaign changes, market conditions, or tracking
+• CRITICAL: Revenue down significantly YoY
+  → This is a major business impact requiring urgent attention
+• CRITICAL: ROAS efficiency has declined dramatically
+  → The account is significantly less efficient at generating revenue per £ spent
+• Both spend and revenue decreased, but revenue fell faster
+  → This suggests efficiency declined beyond just budget reduction
+• Average Order Value: £35.36 (2024) vs £35.03 (2025)
+  → AOV change: -0.9%
+
+DATA QUALITY VALIDATION:
+✅ Dec 2024: Filtered to GA4 conversion action only (accurate baseline)
+✅ Dec 2025: Clean tracking with no duplicate conversion actions
+✅ Comparison is apples-to-apples using same conversion methodology
+
+================================================================================
+CONVERSION ACTION DETAILS
+================================================================================
+
+Dec 2024 Conversion Actions:
+  - Brightminds GA4 (web) purchase
+
+Dec 2025 Tracking:
+  - Clean GA4 implementation (no duplicate/incorrect actions)
+
+================================================================================
+REPORT METADATA
+================================================================================
+
+Generated: 2025-12-15
+Data Source: Google Ads API (Customer ID: 1404868570)
+Date Range: December 1-15 (both years)
+Methodology: GA4 conversion action only for accurate comparison
+
+Report saved to:
+/Users/administrator/Documents/PetesBrain.nosync/clients/bright-minds/reports/dec-2024-vs-2025-accurate-comparison.txt
+
+================================================================================

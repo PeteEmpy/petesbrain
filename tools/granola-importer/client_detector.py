@@ -33,6 +33,7 @@ class ClientDetector:
         self.clients = self._load_clients()
         self.client_variations = self._build_client_variations()
         self.domain_mappings = self._load_domain_mappings()
+        self.title_mappings = self._load_title_mappings()
 
     def _load_clients(self) -> List[str]:
         """
@@ -72,6 +73,31 @@ class ClientDetector:
                 return {k.lower(): v for k, v in mappings.items() if k and v}
         except Exception as e:
             print(f"Warning: Could not load domain mappings: {e}")
+            return {}
+
+    def _load_title_mappings(self) -> Dict[str, str]:
+        """
+        Load manual title pattern to client mappings from YAML file.
+
+        These are exact pattern matches (case-insensitive) that override fuzzy matching.
+        Useful for abbreviations like "NDA" → "national-design-academy".
+
+        Returns:
+            Dictionary mapping title patterns to client slugs
+        """
+        mappings_file = self.tool_dir / "title_mappings.yaml"
+
+        if not mappings_file.exists():
+            return {}
+
+        try:
+            with open(mappings_file, 'r') as f:
+                mappings = yaml.safe_load(f)
+                if not isinstance(mappings, dict):
+                    return {}
+                return {k.lower(): v for k, v in mappings.items() if k and v}
+        except Exception as e:
+            print(f"Warning: Could not load title mappings: {e}")
             return {}
 
     def _build_client_variations(self) -> dict:
@@ -216,10 +242,19 @@ class ClientDetector:
         if not text:
             return None, 0
 
+        # PRIORITY 1: Check title mappings for exact pattern matches (case-insensitive)
+        # This catches abbreviations and ambiguous cases before fuzzy matching
+        text_lower = text.lower()
+        for pattern, client_slug in self.title_mappings.items():
+            if pattern in text_lower:
+                # Verify the mapped client exists
+                if client_slug in self.clients:
+                    return client_slug, 100  # Perfect match via title mapping
+
         best_match = None
         best_score = 0
 
-        # Try matching against each client's variations
+        # PRIORITY 2: Try matching against each client's variations using fuzzy matching
         for client_slug, variations in self.client_variations.items():
             for variation in variations:
                 # Try different fuzzy matching algorithms

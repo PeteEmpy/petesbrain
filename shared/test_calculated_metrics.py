@@ -160,7 +160,7 @@ def test_aggregate_metrics():
     """Test proper aggregation (CRITICAL - never average percentages!)"""
     print("Testing aggregate_metrics()...")
 
-    # Mike Rhodes' example from teaching:
+    # Example showing proper aggregation:
     # Campaign 1: £100 spend, £500 revenue = 5.0x ROAS
     # Campaign 2: £900 spend, £2,700 revenue = 3.0x ROAS
     # Average ROAS = 4.0x (WRONG)

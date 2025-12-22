@@ -1,21 +1,29 @@
 #!/usr/bin/env python3
 """
-PrestaShop MCP Server
+PrestaShop MCP Server (FastMCP)
 Universal MCP server for PrestaShop Web Services API (reporting focus)
+Refactored to use FastMCP pattern (December 2025)
 """
 
-import asyncio
-import json
-import logging
+from fastmcp import FastMCP, Context
+from typing import Any, Dict, List, Optional
 import os
+import sys
+import logging
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any, Dict, List, Optional
-
 import httpx
-from mcp.server import Server
-from mcp.types import Tool, TextContent
+
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
+# Get environment variables
+CLIENTS_BASE_PATH = os.environ.get(
+    "CLIENTS_BASE_PATH",
+    "/Users/administrator/Documents/PetesBrain.nosync/clients"
+)
 
 # Configure logging
 logging.basicConfig(
@@ -24,7 +32,18 @@ logging.basicConfig(
 )
 logger = logging.getLogger('prestashop-mcp')
 
+# Initialize FastMCP
+mcp = FastMCP("PrestaShop Tools")
+
+# Server startup
+logger.info("Starting PrestaShop MCP Server (FastMCP)...")
+logger.info(f"Clients base path: {CLIENTS_BASE_PATH}")
+
+
+# ============================================================================
 # PrestaShop API Client
+# ============================================================================
+
 class PrestaShopClient:
     """Client for PrestaShop Web Services API"""
 
@@ -317,6 +336,7 @@ class PrestaShopClient:
             'payment': elem.find('payment').text if elem.find('payment') is not None else None,
             'date_add': elem.find('date_add').text if elem.find('date_add') is not None else None,
             'date_upd': elem.find('date_upd').text if elem.find('date_upd') is not None else None,
+            'invoice_date': elem.find('invoice_date').text if elem.find('invoice_date') is not None else None,
         }
 
     def _parse_order_detail(self, elem: ET.Element) -> Dict:
@@ -385,310 +405,9 @@ class PrestaShopClient:
         await self.client.aclose()
 
 
-# Load credentials
-def load_credentials() -> Dict[str, Any]:
-    """Load PrestaShop credentials from credentials.json"""
-    creds_path = Path(__file__).parent / 'credentials.json'
-
-    if not creds_path.exists():
-        raise FileNotFoundError(
-            f"Credentials file not found at {creds_path}. "
-            "Please create it with your PrestaShop API credentials."
-        )
-
-    with open(creds_path) as f:
-        return json.load(f)
-
-
-# Initialize MCP server
-app = Server("prestashop-mcp")
-prestashop_client: Optional[PrestaShopClient] = None
-
-
-@app.list_tools()
-async def list_tools() -> list[Tool]:
-    """List available PrestaShop tools"""
-    return [
-        Tool(
-            name="get_products",
-            description="""
-            Get products from PrestaShop.
-
-            Args:
-                shop_url: PrestaShop shop URL (from client CONTEXT.md)
-                api_key: PrestaShop API key (from client CONTEXT.md)
-                limit: Optional maximum number of products (default: 100)
-                active_only: Optional filter for active products only (default: false)
-                sort: Optional sort field (e.g., 'id_ASC', 'name_DESC', 'price_ASC')
-
-            Returns:
-                List of products with ID, name, reference, price, stock, etc.
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                    "limit": {"type": "integer", "default": 100},
-                    "active_only": {"type": "boolean", "default": False},
-                    "sort": {"type": "string", "default": None},
-                },
-                "required": ["shop_url", "api_key"]
-            }
-        ),
-        Tool(
-            name="get_product",
-            description="""
-            Get a single product by ID.
-
-            Args:
-                shop_url: PrestaShop shop URL
-                api_key: PrestaShop API key
-                product_id: Product ID
-
-            Returns:
-                Product details
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                    "product_id": {"type": "string"},
-                },
-                "required": ["shop_url", "api_key", "product_id"]
-            }
-        ),
-        Tool(
-            name="get_orders",
-            description="""
-            Get orders from PrestaShop.
-
-            Args:
-                shop_url: PrestaShop shop URL
-                api_key: PrestaShop API key
-                limit: Optional maximum number of orders (default: 100)
-                date_from: Optional start date (YYYY-MM-DD format)
-                date_to: Optional end date (YYYY-MM-DD format)
-
-            Returns:
-                List of orders with totals, payment info, dates, etc.
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                    "limit": {"type": "integer", "default": 100},
-                    "date_from": {"type": "string", "default": None},
-                    "date_to": {"type": "string", "default": None},
-                },
-                "required": ["shop_url", "api_key"]
-            }
-        ),
-        Tool(
-            name="get_order",
-            description="""
-            Get a single order by ID with line items.
-
-            Args:
-                shop_url: PrestaShop shop URL
-                api_key: PrestaShop API key
-                order_id: Order ID
-
-            Returns:
-                Order details including line items
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                    "order_id": {"type": "string"},
-                },
-                "required": ["shop_url", "api_key", "order_id"]
-            }
-        ),
-        Tool(
-            name="get_customers",
-            description="""
-            Get customers from PrestaShop.
-
-            Args:
-                shop_url: PrestaShop shop URL
-                api_key: PrestaShop API key
-                limit: Optional maximum number of customers (default: 100)
-                active_only: Optional filter for active customers only (default: false)
-
-            Returns:
-                List of customers with email, name, dates, etc.
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                    "limit": {"type": "integer", "default": 100},
-                    "active_only": {"type": "boolean", "default": False},
-                },
-                "required": ["shop_url", "api_key"]
-            }
-        ),
-        Tool(
-            name="get_categories",
-            description="""
-            Get all product categories.
-
-            Args:
-                shop_url: PrestaShop shop URL
-                api_key: PrestaShop API key
-
-            Returns:
-                List of categories with hierarchy information
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                },
-                "required": ["shop_url", "api_key"]
-            }
-        ),
-        Tool(
-            name="get_stock_levels",
-            description="""
-            Get stock availability for products.
-
-            Args:
-                shop_url: PrestaShop shop URL
-                api_key: PrestaShop API key
-                product_id: Optional product ID to filter by
-
-            Returns:
-                Stock availability information
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "shop_url": {"type": "string"},
-                    "api_key": {"type": "string"},
-                    "product_id": {"type": "string", "default": None},
-                },
-                "required": ["shop_url", "api_key"]
-            }
-        ),
-        Tool(
-            name="get_client_credentials",
-            description="""
-            Get PrestaShop credentials for a specific client from their CONTEXT.md file.
-
-            Args:
-                client_name: Client name (e.g., 'accessories-for-the-home')
-
-            Returns:
-                Dictionary with shop_url and api_key
-            """,
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "client_name": {"type": "string"},
-                },
-                "required": ["client_name"]
-            }
-        ),
-    ]
-
-
-@app.call_tool()
-async def call_tool(name: str, arguments: Any) -> list[TextContent]:
-    """Handle tool calls"""
-
-    try:
-        if name == "get_client_credentials":
-            client_name = arguments["client_name"]
-            result = get_client_credentials(client_name)
-            return [TextContent(type="text", text=json.dumps(result, indent=2))]
-
-        # All other tools require shop_url and api_key
-        shop_url = arguments["shop_url"]
-        api_key = arguments["api_key"]
-
-        # Create client instance
-        client = PrestaShopClient(shop_url, api_key)
-
-        try:
-            if name == "get_products":
-                limit = arguments.get("limit", 100)
-                active_only = arguments.get("active_only", False)
-                sort = arguments.get("sort")
-
-                filter_params = {}
-                if active_only:
-                    filter_params["active"] = "1"
-
-                result = await client.get_products(
-                    limit=limit,
-                    sort=sort,
-                    filter_params=filter_params if filter_params else None
-                )
-
-            elif name == "get_product":
-                product_id = arguments["product_id"]
-                result = await client.get_product(product_id)
-
-            elif name == "get_orders":
-                limit = arguments.get("limit", 100)
-                date_from = arguments.get("date_from")
-                date_to = arguments.get("date_to")
-
-                result = await client.get_orders(
-                    limit=limit,
-                    date_from=date_from,
-                    date_to=date_to
-                )
-
-            elif name == "get_order":
-                order_id = arguments["order_id"]
-                order = await client.get_order(order_id)
-                order_details = await client.get_order_details(order_id)
-                result = {
-                    "order": order,
-                    "line_items": order_details
-                }
-
-            elif name == "get_customers":
-                limit = arguments.get("limit", 100)
-                active_only = arguments.get("active_only", False)
-
-                filter_params = {}
-                if active_only:
-                    filter_params["active"] = "1"
-
-                result = await client.get_customers(
-                    limit=limit,
-                    filter_params=filter_params if filter_params else None
-                )
-
-            elif name == "get_categories":
-                result = await client.get_categories()
-
-            elif name == "get_stock_levels":
-                product_id = arguments.get("product_id")
-                result = await client.get_stock_availables(product_id)
-
-            else:
-                raise ValueError(f"Unknown tool: {name}")
-
-            return [TextContent(type="text", text=json.dumps(result, indent=2))]
-
-        finally:
-            await client.close()
-
-    except Exception as e:
-        logger.error(f"Error executing {name}: {str(e)}")
-        return [TextContent(type="text", text=f"Error: {str(e)}")]
-
+# ============================================================================
+# Helper Functions
+# ============================================================================
 
 def get_client_credentials(client_name: str) -> Dict[str, str]:
     """
@@ -704,7 +423,7 @@ def get_client_credentials(client_name: str) -> Dict[str, str]:
     client_name = client_name.lower().replace(' ', '-')
 
     # Path to client CONTEXT.md
-    context_path = Path(f"/Users/administrator/Documents/PetesBrain/clients/{client_name}/CONTEXT.md")
+    context_path = Path(f"{CLIENTS_BASE_PATH}/{client_name}/CONTEXT.md")
 
     if not context_path.exists():
         raise FileNotFoundError(f"CONTEXT.md not found for client: {client_name}")
@@ -744,17 +463,260 @@ def get_client_credentials(client_name: str) -> Dict[str, str]:
     return credentials
 
 
-async def main():
-    """Run the MCP server"""
-    from mcp.server.stdio import stdio_server
+# ============================================================================
+# MCP Tools (FastMCP Pattern)
+# ============================================================================
 
-    async with stdio_server() as (read_stream, write_stream):
-        await app.run(
-            read_stream,
-            write_stream,
-            app.create_initialization_options()
-        )
+@mcp.tool
+async def get_orders(
+    client_name: str,
+    date_from: Optional[str] = None,
+    date_to: Optional[str] = None,
+    limit: int = 100,
+    ctx: Context = None
+) -> str:
+    """
+    Get orders from PrestaShop for a specific client.
 
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+        date_from: Optional start date (YYYY-MM-DD format)
+        date_to: Optional end date (YYYY-MM-DD format)
+        limit: Maximum number of orders (default: 100)
+
+    Returns:
+        JSON string with list of orders
+    """
+    try:
+        # Get credentials from CONTEXT.md
+        creds = get_client_credentials(client_name)
+
+        # Create client and fetch orders
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+        try:
+            orders = await client.get_orders(
+                limit=limit,
+                date_from=date_from,
+                date_to=date_to
+            )
+            return f"Found {len(orders)} orders\n\n" + str(orders)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching orders for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+@mcp.tool
+async def get_order(
+    client_name: str,
+    order_id: str,
+    ctx: Context = None
+) -> str:
+    """
+    Get a single order with line items.
+
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+        order_id: Order ID
+
+    Returns:
+        JSON string with order details and line items
+    """
+    try:
+        creds = get_client_credentials(client_name)
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+        try:
+            order = await client.get_order(order_id)
+            order_details = await client.get_order_details(order_id)
+            result = {
+                "order": order,
+                "line_items": order_details
+            }
+            return str(result)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching order {order_id} for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+@mcp.tool
+async def get_products(
+    client_name: str,
+    limit: int = 100,
+    active_only: bool = False,
+    sort: Optional[str] = None,
+    ctx: Context = None
+) -> str:
+    """
+    Get products from PrestaShop.
+
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+        limit: Maximum number of products (default: 100)
+        active_only: Filter for active products only (default: False)
+        sort: Optional sort field (e.g., 'id_ASC', 'name_DESC', 'price_ASC')
+
+    Returns:
+        JSON string with list of products
+    """
+    try:
+        creds = get_client_credentials(client_name)
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+
+        filter_params = {}
+        if active_only:
+            filter_params['active'] = '1'
+
+        try:
+            products = await client.get_products(
+                limit=limit,
+                sort=sort,
+                filter_params=filter_params if filter_params else None
+            )
+            return f"Found {len(products)} products\n\n" + str(products)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching products for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+@mcp.tool
+async def get_product(
+    client_name: str,
+    product_id: str,
+    ctx: Context = None
+) -> str:
+    """
+    Get a single product by ID.
+
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+        product_id: Product ID
+
+    Returns:
+        JSON string with product details
+    """
+    try:
+        creds = get_client_credentials(client_name)
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+        try:
+            product = await client.get_product(product_id)
+            return str(product)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching product {product_id} for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+@mcp.tool
+async def get_customers(
+    client_name: str,
+    limit: int = 100,
+    active_only: bool = False,
+    ctx: Context = None
+) -> str:
+    """
+    Get customers from PrestaShop.
+
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+        limit: Maximum number of customers (default: 100)
+        active_only: Filter for active customers only (default: False)
+
+    Returns:
+        JSON string with list of customers
+    """
+    try:
+        creds = get_client_credentials(client_name)
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+
+        filter_params = {}
+        if active_only:
+            filter_params['active'] = '1'
+
+        try:
+            customers = await client.get_customers(
+                limit=limit,
+                filter_params=filter_params if filter_params else None
+            )
+            return f"Found {len(customers)} customers\n\n" + str(customers)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching customers for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+@mcp.tool
+async def get_categories(
+    client_name: str,
+    ctx: Context = None
+) -> str:
+    """
+    Get all product categories.
+
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+
+    Returns:
+        JSON string with list of categories
+    """
+    try:
+        creds = get_client_credentials(client_name)
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+        try:
+            categories = await client.get_categories()
+            return f"Found {len(categories)} categories\n\n" + str(categories)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching categories for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+@mcp.tool
+async def get_stock_levels(
+    client_name: str,
+    product_id: Optional[str] = None,
+    ctx: Context = None
+) -> str:
+    """
+    Get stock availability for products.
+
+    Args:
+        client_name: Client name (e.g., 'accessories-for-the-home')
+        product_id: Optional product ID to filter by
+
+    Returns:
+        JSON string with stock availability information
+    """
+    try:
+        creds = get_client_credentials(client_name)
+        client = PrestaShopClient(creds['shop_url'], creds['api_key'])
+        try:
+            stocks = await client.get_stock_availables(product_id)
+            return f"Found {len(stocks)} stock records\n\n" + str(stocks)
+        finally:
+            await client.close()
+
+    except Exception as e:
+        logger.error(f"Error fetching stock levels for {client_name}: {str(e)}")
+        return f"Error: {str(e)}"
+
+
+# ============================================================================
+# Main Entry Point
+# ============================================================================
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    mcp.run()

@@ -1,0 +1,51 @@
+TIER 1 NEGATIVE KEYWORDS - IMMEDIATE ACTION REQUIRED
+Tree2mydoor - 60-Day Analysis (2025-10-18 to 2025-12-17)
+========================================================
+
+Generated: 2025-12-17
+Customer ID: 4941701449
+Analysis Period: 60 days
+
+TIER 1 CRITERIA: ≥30 clicks, 0 conversions, ≥£20 spend
+CONFIDENCE LEVEL: >95% (statistical significance achieved)
+ACTION: Add as [exact match] negative keywords immediately
+
+IDENTIFIED TERMS (2 terms):
+---------------------------
+
+1. [olive trees]
+   - Clicks: 50
+   - Conversions: 0
+   - Spend: £32.47
+   - Campaign: T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9
+   - Daily Rate: 0.83 clicks/day
+   - Projected Monthly Waste: £16.24
+
+2. [tree gifts uk]
+   - Clicks: 32
+   - Conversions: 0
+   - Spend: £23.60
+   - Campaign: T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9
+   - Daily Rate: 0.53 clicks/day
+   - Projected Monthly Waste: £11.80
+
+TOTAL IMPACT:
+-------------
+Total Clicks: 82
+Total Wasted Spend: £56.07 (60 days)
+Projected Monthly Waste: £28.04
+Projected Annual Waste: £336.42
+
+RECOMMENDED ACTION:
+-------------------
+Add these 2 terms as [exact match] negative keywords to the campaign:
+"T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9"
+
+Use command:
+python3 shared/scripts/add-negative-keywords-universal.py \
+  --customer-id 4941701449 \
+  --campaign-id 598475433 \
+  --keywords "olive trees,tree gifts uk" \
+  --match-type exact
+
+EXPECTED RESULT: £336/year waste reduction

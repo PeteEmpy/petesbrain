@@ -71,7 +71,7 @@ Generate and send automated reports and summaries
 - **daily-intel-report** - Daily intelligence briefing with pre-verified tasks
 - **kb-weekly-summary** - Knowledge base weekly summary email
 - **weekly-meeting-review** - Weekly meeting summary email
-- **campaign-audit-agent** - Weekly campaign audits (Mike Rhodes approach)
+- **campaign-audit-agent** - Weekly campaign audits (approach)
 - **google-ads-auditor** - Google Ads audit templates
 
 ### System

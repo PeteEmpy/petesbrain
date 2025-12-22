@@ -1,23 +1,22 @@
 ---
-title: Google Support Tag Implementation Meeting Scheduling
-source: google-rep_smythson_2025-11-03_re-1-9314000040251-google-support-tag-implementati.md
-date_added: 2025-11-27
-last_updated: 2025-11-27
-tags: [tag-implementation, google-support, meeting-scheduling, digital-advertising, google-ads]
+title: Google Support Tag Implementation Meeting Confirmation
+source: google-rep_smythson_2025-10-31_re-1-9314000040251-google-support-tag-implementati_1.md
+date_added: 2025-12-19
+last_updated: 2025-12-19
+tags: [google-support, tag-implementation, meeting-scheduling, digital-advertising]
 source_type: email
 ---
 
 ## Summary
 
-- Smythson team is coordinating a Google Support Tag Implementation meeting
-- Meeting proposed for November 6th at 4:00 PM CET
-- Lauryn Sobers is leading communication from Smythson's side
-- Peak season timing makes this meeting urgent for the organization
+- Scheduled meeting for Google Support Tag Implementation on November 6th at 4pm CET
+- Support ticket number is 1-9314000040251
+- Confirmed by Lauryn Sobers from Smythson
 
 ## Key Insights
 
-- Proactive communication is essential for timely tag implementation
-- Flexibility in meeting scheduling can help maintain project momentum
+- Google provides flexible scheduling for technical support meetings
+- Clear communication channel established between Google support and client
 
 ## Full Content
 
@@ -27,38 +26,12 @@ source_type: email
 
 - **From:** Lauryn Sobers <laurynsobers@smythson.com>
 - **To:** "ads-support@google.com" <ads-support@google.com>
-- **Date:** 2025-11-03 15:15:43
-- **Gmail ID:** 19a4a49e7f55f6a0
+- **Date:** 2025-10-31 15:50:05
+- **Gmail ID:** 19a3af64b2597ee2
 
 ---
 
 ## Message
-
-Hi Harshitha,
-
-I hope that you are well. Could we have an update on when the next meeting will be regarding the tagging please and if Thursday 4pm UK time works? It would be great to get this completed as soon as possible as we are now in peak season.
-
-Kind regards,
-Lauryn
-
-From: Lauryn Sobers
-Sent: 31 October 2025 15:52
-To: ads-support@google.com
-Cc: devinferreira@google.com; Alex Clarke <alexclarke@smythson.com>; petere@roksys.co.uk; Beth Stimpson <bethstimpson@smythson.com>
-Subject: RE: [1-9314000040251] Google Support Tag Implementation Appointment
-
-Hi Harshitha,
-
-Apologies actually, could we do 4pm UK time please on the same day?
-
-Kind regards,
-Lauryn
-
-From: Lauryn Sobers
-Sent: 31 October 2025 15:50
-To: 'ads-support@google.com' <ads-support@google.com<mailto:ads-support@google.com>>
-Cc: devinferreira@google.com<mailto:devinferreira@google.com>; Alex Clarke <alexclarke@smythson.com<mailto:alexclarke@smythson.com>>; petere@roksys.co.uk<mailto:petere@roksys.co.uk>; Beth Stimpson <bethstimpson@smythson.com<mailto:bethstimpson@smythson.com>>
-Subject: RE: [1-9314000040251] Google Support Tag Implementation Appointment
 
 Hi Harshitha,
 
@@ -67,10 +40,10 @@ Thursday 6th Nov at 4pm works for us, thank you.
 Kind regards,
 Lauryn
 
-From: ads-support@google.com<mailto:ads-support@google.com> <ads-support@google.com<mailto:ads-support@google.com>>
+From: ads-support@google.com <ads-support@google.com>
 Sent: 31 October 2025 10:19
-To: Lauryn Sobers <laurynsobers@smythson.com<mailto:laurynsobers@smythson.com>>
-Cc: devinferreira@google.com<mailto:devinferreira@google.com>; Alex Clarke <alexclarke@smythson.com<mailto:alexclarke@smythson.com>>; petere@roksys.co.uk<mailto:petere@roksys.co.uk>; Beth Stimpson <bethstimpson@smythson.com<mailto:bethstimpson@smythson.com>>
+To: Lauryn Sobers <laurynsobers@smythson.com>
+Cc: devinferreira@google.com; Alex Clarke <alexclarke@smythson.com>; petere@roksys.co.uk; Beth Stimpson <bethstimpson@smythson.com>
 Subject: RE: [1-9314000040251] Google Support Tag Implementation Appointment
 
 [Google Logo]
@@ -117,5 +90,5 @@ Warning: Although Frank Smythson Ltd has taken reasonable precautions to ensure 
 
 ---
 
-*Processed from inbox on 2025-11-27*
-*Original file: google-rep_smythson_2025-11-03_re-1-9314000040251-google-support-tag-implementati.md*
+*Processed from inbox on 2025-12-19*
+*Original file: google-rep_smythson_2025-10-31_re-1-9314000040251-google-support-tag-implementati_1.md*

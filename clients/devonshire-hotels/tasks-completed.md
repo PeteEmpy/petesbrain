@@ -722,3 +722,50 @@ Note (2025-11-24): Demoted to P1. Should only escalate to P0 when approaching du
 Note (2025-12-10): Task completed Dec 10 at 10:20 AM, but deferred to Dec 18 (next Thursday) via manual note. Reason: "Too close to beginning of month after budget decrease. Will have more meaningful data next week."
 
 ---
+
+### [Devonshire Hotels] Integrate The Hide reporting with main hotel campaigns
+- **Task ID**: 5c55d138-5136-401c-a5c1-0b9555b0dfb8
+- **Priority**: P0
+- **Created**: Unknown
+- **Completed**: 2025-12-16 17:21
+- **Note**: ✅ Verified: The Hide is fully integrated into Devonshire reporting with separate £2k/month budget tracking. Confirmed in Dec 15 weekly report.
+
+## [Devonshire] Expand asset optimization from PMax to RSAs
+**Completed:** 2025-12-19 14:59
+**Source:** Process improvement - expanding optimization to RSAs
+
+Expand the asset optimization process from Performance Max campaigns to Responsive Search Ads (RSAs).
+
+**Background:**
+PMax asset text optimization has been successfully implemented and is now a monitored key process. This optimization approach uses:
+- Asset performance tracking
+- AI-powered replacement suggestions based on landing page content
+- Google Sheet approval workflow for client review
+- Data-driven approach to improve click-through rates and conversion performance
+
+**What to Do:**
+1. Review current RSA campaigns in Devonshire account
+2. Identify RSAs with poor-performing headlines/descriptions
+3. Extract current text assets from RSAs
+4. Generate replacement suggestions using same AI approach as PMax
+5. Create approval sheet for Helen to review
+6. Implement approved changes
+7. Monitor performance impact
+
+**Tools to Use:**
+- `.claude/skills/pmax-text-asset-optimizer/` - Adapt workflow for RSAs
+- `mcp__google-ads__replace_rsa_text_assets()` - Apply changes
+- Google Sheets for client approval workflow
+
+**Success Criteria:**
+- RSA optimization process documented
+- Initial round of RSA improvements implemented
+- Performance tracking in place
+- Process repeatable for future optimization cycles
+
+**Timeline:**
+~3 weeks (allows time for PMax optimization to fully roll out first)
+
+Done
+
+---

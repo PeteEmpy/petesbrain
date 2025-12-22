@@ -409,11 +409,70 @@ def get_keywords(
     if ctx:
         ctx.info(f"Fetching keywords for customer {customer_id}...")
 
-    return {
-        'message': 'Keyword fetching not yet implemented in SDK version',
-        'customer_id': customer_id,
-        'note': 'Coming soon'
-    }
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Get ad groups first if filtering by campaign
+        ad_group_ids = []
+        if campaign_id:
+            ad_groups_response = campaign_service.GetAdGroupsByCampaignId(
+                CampaignId=campaign_id
+            )
+            if ad_groups_response and hasattr(ad_groups_response, 'AdGroup'):
+                ad_group_ids = [ag.Id for ag in ad_groups_response.AdGroup]
+        elif ad_group_id:
+            ad_group_ids = [ad_group_id]
+
+        # Get keywords
+        keywords_data = []
+
+        if ad_group_ids:
+            for ag_id in ad_group_ids:
+                try:
+                    keywords_response = campaign_service.GetKeywordsByAdGroupId(
+                        AdGroupId=ag_id
+                    )
+
+                    if keywords_response and hasattr(keywords_response, 'Keyword'):
+                        for keyword in keywords_response.Keyword:
+                            keywords_data.append({
+                                'id': keyword.Id,
+                                'ad_group_id': ag_id,
+                                'text': keyword.Text,
+                                'match_type': keyword.MatchType,
+                                'status': keyword.Status,
+                                'bid': keyword.Bid.Amount if hasattr(keyword, 'Bid') and keyword.Bid else None,
+                                'final_urls': keyword.FinalUrls.string if hasattr(keyword, 'FinalUrls') else []
+                            })
+                except Exception as e:
+                    logger.warning(f"Failed to get keywords for ad group {ag_id}: {e}")
+                    continue
+
+        return {
+            'customer_id': customer_id,
+            'campaign_id': campaign_id,
+            'ad_group_id': ad_group_id,
+            'keyword_count': len(keywords_data),
+            'keywords': keywords_data
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to get keywords: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'traceback': traceback.format_exc()
+        }
 
 
 @mcp.tool
@@ -435,11 +494,689 @@ def get_ad_groups(
     if ctx:
         ctx.info(f"Fetching ad groups for customer {customer_id}...")
 
-    return {
-        'message': 'Ad group fetching not yet implemented in SDK version',
-        'customer_id': customer_id,
-        'note': 'Coming soon'
-    }
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        ad_groups_data = []
+
+        if campaign_id:
+            # Get ad groups for specific campaign
+            ad_groups_response = campaign_service.GetAdGroupsByCampaignId(
+                CampaignId=campaign_id
+            )
+
+            if ad_groups_response and hasattr(ad_groups_response, 'AdGroup'):
+                for ad_group in ad_groups_response.AdGroup:
+                    ad_groups_data.append({
+                        'id': ad_group.Id,
+                        'campaign_id': campaign_id,
+                        'name': ad_group.Name,
+                        'status': ad_group.Status,
+                        'start_date': str(ad_group.StartDate) if hasattr(ad_group, 'StartDate') else None,
+                        'end_date': str(ad_group.EndDate) if hasattr(ad_group, 'EndDate') else None,
+                        'network': ad_group.Network if hasattr(ad_group, 'Network') else None,
+                        'pricing_model': ad_group.PricingModel if hasattr(ad_group, 'PricingModel') else None,
+                        'search_bid': ad_group.SearchBid.Amount if hasattr(ad_group, 'SearchBid') and ad_group.SearchBid else None
+                    })
+        else:
+            # Get all campaigns first, then get ad groups for each
+            campaigns_response = campaign_service.GetCampaignsByAccountId(
+                AccountId=customer_id,
+                CampaignType='Search Shopping DynamicSearchAds'
+            )
+
+            if campaigns_response and hasattr(campaigns_response, 'Campaign'):
+                for campaign in campaigns_response.Campaign:
+                    try:
+                        ad_groups_response = campaign_service.GetAdGroupsByCampaignId(
+                            CampaignId=campaign.Id
+                        )
+
+                        if ad_groups_response and hasattr(ad_groups_response, 'AdGroup'):
+                            for ad_group in ad_groups_response.AdGroup:
+                                ad_groups_data.append({
+                                    'id': ad_group.Id,
+                                    'campaign_id': campaign.Id,
+                                    'campaign_name': campaign.Name,
+                                    'name': ad_group.Name,
+                                    'status': ad_group.Status,
+                                    'start_date': str(ad_group.StartDate) if hasattr(ad_group, 'StartDate') else None,
+                                    'end_date': str(ad_group.EndDate) if hasattr(ad_group, 'EndDate') else None,
+                                    'network': ad_group.Network if hasattr(ad_group, 'Network') else None,
+                                    'pricing_model': ad_group.PricingModel if hasattr(ad_group, 'PricingModel') else None,
+                                    'search_bid': ad_group.SearchBid.Amount if hasattr(ad_group, 'SearchBid') and ad_group.SearchBid else None
+                                })
+                    except Exception as e:
+                        logger.warning(f"Failed to get ad groups for campaign {campaign.Id}: {e}")
+                        continue
+
+        return {
+            'customer_id': customer_id,
+            'campaign_id': campaign_id,
+            'ad_group_count': len(ad_groups_data),
+            'ad_groups': ad_groups_data
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to get ad groups: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'traceback': traceback.format_exc()
+        }
+
+
+@mcp.tool
+def create_campaign(
+    customer_id: str,
+    campaign_name: str,
+    daily_budget: float,
+    campaign_type: str = 'Search',
+    status: str = 'Paused',
+    ctx: Context = None
+) -> Dict[str, Any]:
+    """
+    Create a new Microsoft Ads campaign.
+
+    Args:
+        customer_id: Microsoft Ads customer ID (account ID)
+        campaign_name: Name for the new campaign
+        daily_budget: Daily budget amount
+        campaign_type: Campaign type (Search, Shopping, DynamicSearchAds)
+        status: Campaign status (Active, Paused)
+
+    Returns:
+        Dict with created campaign details
+    """
+    if ctx:
+        ctx.info(f"Creating campaign '{campaign_name}' for customer {customer_id}...")
+
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Create campaign object
+        campaign = campaign_service.factory.create('Campaign')
+        campaign.Name = campaign_name
+        campaign.Description = f"Created via MCP on {datetime.now().strftime('%Y-%m-%d')}"
+        campaign.BudgetType = 'DailyBudgetStandard'
+        campaign.DailyBudget = daily_budget
+        campaign.TimeZone = 'GMT'
+        campaign.Status = status
+
+        # Set campaign type
+        if campaign_type == 'Search':
+            campaign.CampaignType = 'Search'
+        elif campaign_type == 'Shopping':
+            campaign.CampaignType = 'Shopping'
+        elif campaign_type == 'DynamicSearchAds':
+            campaign.CampaignType = 'DynamicSearchAds'
+
+        # Create campaigns array
+        campaigns = campaign_service.factory.create('ArrayOfCampaign')
+        campaigns.Campaign.append(campaign)
+
+        # Add campaign
+        response = campaign_service.AddCampaigns(
+            AccountId=customer_id,
+            Campaigns=campaigns
+        )
+
+        return {
+            'customer_id': customer_id,
+            'campaign_id': response.CampaignIds.long[0] if response.CampaignIds else None,
+            'campaign_name': campaign_name,
+            'daily_budget': daily_budget,
+            'status': status,
+            'message': 'Campaign created successfully'
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to create campaign: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'traceback': traceback.format_exc()
+        }
+
+
+@mcp.tool
+def update_campaign_budget(
+    customer_id: str,
+    campaign_id: str,
+    daily_budget: float,
+    ctx: Context = None
+) -> Dict[str, Any]:
+    """
+    Update the daily budget for a Microsoft Ads campaign.
+
+    Args:
+        customer_id: Microsoft Ads customer ID (account ID)
+        campaign_id: Campaign ID to update
+        daily_budget: New daily budget amount
+
+    Returns:
+        Dict with update confirmation
+    """
+    if ctx:
+        ctx.info(f"Updating budget for campaign {campaign_id} to {daily_budget}...")
+
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Get existing campaign
+        get_campaigns = campaign_service.factory.create('ArrayOflong')
+        get_campaigns.long.append(campaign_id)
+
+        campaigns_response = campaign_service.GetCampaignsByIds(
+            AccountId=customer_id,
+            CampaignIds=get_campaigns,
+            CampaignType='Search Shopping DynamicSearchAds'
+        )
+
+        if not campaigns_response or not hasattr(campaigns_response, 'Campaign'):
+            return {'error': 'Campaign not found'}
+
+        campaign = campaigns_response.Campaign[0]
+
+        # Update budget
+        campaign.DailyBudget = daily_budget
+
+        # Update campaign
+        campaigns_to_update = campaign_service.factory.create('ArrayOfCampaign')
+        campaigns_to_update.Campaign.append(campaign)
+
+        campaign_service.UpdateCampaigns(
+            AccountId=customer_id,
+            Campaigns=campaigns_to_update
+        )
+
+        return {
+            'customer_id': customer_id,
+            'campaign_id': campaign_id,
+            'campaign_name': campaign.Name,
+            'new_daily_budget': daily_budget,
+            'message': 'Budget updated successfully'
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to update campaign budget: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'campaign_id': campaign_id,
+            'traceback': traceback.format_exc()
+        }
+
+
+@mcp.tool
+def update_campaign_status(
+    customer_id: str,
+    campaign_id: str,
+    status: str,
+    ctx: Context = None
+) -> Dict[str, Any]:
+    """
+    Update the status of a Microsoft Ads campaign.
+
+    Args:
+        customer_id: Microsoft Ads customer ID (account ID)
+        campaign_id: Campaign ID to update
+        status: New status (Active, Paused, Deleted)
+
+    Returns:
+        Dict with update confirmation
+    """
+    if ctx:
+        ctx.info(f"Updating status for campaign {campaign_id} to {status}...")
+
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Get existing campaign
+        get_campaigns = campaign_service.factory.create('ArrayOflong')
+        get_campaigns.long.append(campaign_id)
+
+        campaigns_response = campaign_service.GetCampaignsByIds(
+            AccountId=customer_id,
+            CampaignIds=get_campaigns,
+            CampaignType='Search Shopping DynamicSearchAds'
+        )
+
+        if not campaigns_response or not hasattr(campaigns_response, 'Campaign'):
+            return {'error': 'Campaign not found'}
+
+        campaign = campaigns_response.Campaign[0]
+
+        # Update status
+        campaign.Status = status
+
+        # Update campaign
+        campaigns_to_update = campaign_service.factory.create('ArrayOfCampaign')
+        campaigns_to_update.Campaign.append(campaign)
+
+        campaign_service.UpdateCampaigns(
+            AccountId=customer_id,
+            Campaigns=campaigns_to_update
+        )
+
+        return {
+            'customer_id': customer_id,
+            'campaign_id': campaign_id,
+            'campaign_name': campaign.Name,
+            'new_status': status,
+            'message': 'Status updated successfully'
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to update campaign status: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'campaign_id': campaign_id,
+            'traceback': traceback.format_exc()
+        }
+
+
+@mcp.tool
+def add_keywords(
+    customer_id: str,
+    ad_group_id: str,
+    keywords: List[Dict[str, str]],
+    ctx: Context = None
+) -> Dict[str, Any]:
+    """
+    Add keywords to a Microsoft Ads ad group.
+
+    Args:
+        customer_id: Microsoft Ads customer ID (account ID)
+        ad_group_id: Ad group ID to add keywords to
+        keywords: List of keyword dicts with 'text', 'match_type', 'bid' (optional)
+                  Match types: Exact, Phrase, Broad
+
+    Returns:
+        Dict with added keywords confirmation
+    """
+    if ctx:
+        ctx.info(f"Adding {len(keywords)} keywords to ad group {ad_group_id}...")
+
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Create keywords array
+        keywords_to_add = campaign_service.factory.create('ArrayOfKeyword')
+
+        for kw_data in keywords:
+            keyword = campaign_service.factory.create('Keyword')
+            keyword.Text = kw_data['text']
+            keyword.MatchType = kw_data.get('match_type', 'Exact')
+            keyword.Status = 'Active'
+
+            # Set bid if provided
+            if 'bid' in kw_data:
+                bid = campaign_service.factory.create('Bid')
+                bid.Amount = float(kw_data['bid'])
+                keyword.Bid = bid
+
+            keywords_to_add.Keyword.append(keyword)
+
+        # Add keywords
+        response = campaign_service.AddKeywords(
+            AdGroupId=ad_group_id,
+            Keywords=keywords_to_add
+        )
+
+        keyword_ids = []
+        if response.KeywordIds:
+            keyword_ids = response.KeywordIds.long if hasattr(response.KeywordIds, 'long') else []
+
+        return {
+            'customer_id': customer_id,
+            'ad_group_id': ad_group_id,
+            'keywords_added': len(keyword_ids),
+            'keyword_ids': keyword_ids,
+            'message': f'Successfully added {len(keyword_ids)} keywords'
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to add keywords: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'ad_group_id': ad_group_id,
+            'traceback': traceback.format_exc()
+        }
+
+
+@mcp.tool
+def pause_keywords(
+    customer_id: str,
+    ad_group_id: str,
+    keyword_ids: List[str],
+    ctx: Context = None
+) -> Dict[str, Any]:
+    """
+    Pause keywords in a Microsoft Ads ad group.
+
+    Args:
+        customer_id: Microsoft Ads customer ID (account ID)
+        ad_group_id: Ad group ID containing the keywords
+        keyword_ids: List of keyword IDs to pause
+
+    Returns:
+        Dict with pause confirmation
+    """
+    if ctx:
+        ctx.info(f"Pausing {len(keyword_ids)} keywords in ad group {ad_group_id}...")
+
+    try:
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Campaign Management service
+        campaign_service = ServiceClient(
+            service='CampaignManagementService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Get existing keywords
+        get_keyword_ids = campaign_service.factory.create('ArrayOflong')
+        for kw_id in keyword_ids:
+            get_keyword_ids.long.append(kw_id)
+
+        keywords_response = campaign_service.GetKeywordsByIds(
+            AdGroupId=ad_group_id,
+            KeywordIds=get_keyword_ids
+        )
+
+        if not keywords_response or not hasattr(keywords_response, 'Keyword'):
+            return {'error': 'Keywords not found'}
+
+        # Update status to Paused
+        keywords_to_update = campaign_service.factory.create('ArrayOfKeyword')
+        for keyword in keywords_response.Keyword:
+            keyword.Status = 'Paused'
+            keywords_to_update.Keyword.append(keyword)
+
+        # Update keywords
+        campaign_service.UpdateKeywords(
+            AdGroupId=ad_group_id,
+            Keywords=keywords_to_update
+        )
+
+        return {
+            'customer_id': customer_id,
+            'ad_group_id': ad_group_id,
+            'keywords_paused': len(keyword_ids),
+            'keyword_ids': keyword_ids,
+            'message': f'Successfully paused {len(keyword_ids)} keywords'
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to pause keywords: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'ad_group_id': ad_group_id,
+            'traceback': traceback.format_exc()
+        }
+
+
+@mcp.tool
+def get_search_terms(
+    customer_id: str,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    campaign_ids: Optional[List[str]] = None,
+    ctx: Context = None
+) -> Dict[str, Any]:
+    """
+    Get search term performance report (search queries that triggered ads).
+
+    Args:
+        customer_id: Microsoft Ads customer ID (account ID)
+        start_date: Start date in YYYY-MM-DD format (default: last 30 days)
+        end_date: End date in YYYY-MM-DD format (default: today)
+        campaign_ids: Optional list of campaign IDs to filter
+
+    Returns:
+        Dict with search term performance data
+    """
+    if ctx:
+        ctx.info(f"Fetching search terms for customer {customer_id}...")
+
+    try:
+        # Set default date range if not provided
+        if not end_date:
+            end_date = datetime.now().strftime('%Y-%m-%d')
+        if not start_date:
+            start_date = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+
+        # Parse dates
+        start_dt = datetime.strptime(start_date, '%Y-%m-%d')
+        end_dt = datetime.strptime(end_date, '%Y-%m-%d')
+
+        # Get authorization
+        authorization_data = get_authorization_data(account_id=customer_id)
+
+        # Create Reporting Service Manager
+        reporting_service_manager = ReportingServiceManager(
+            authorization_data=authorization_data,
+            poll_interval_in_milliseconds=5000,
+            environment='production',
+        )
+
+        # Create ServiceClient for building report request
+        report_service = ServiceClient(
+            service='ReportingService',
+            version=13,
+            authorization_data=authorization_data,
+        )
+
+        # Build Search Query Performance Report Request
+        report_request = report_service.factory.create('SearchQueryPerformanceReportRequest')
+        report_request.Format = 'Csv'
+        report_request.ReportName = 'Search Query Performance Report'
+        report_request.ReturnOnlyCompleteData = False
+        report_request.Aggregation = 'Summary'
+
+        # Set up date range
+        report_time = report_service.factory.create('ReportTime')
+
+        # Use custom date range
+        custom_start = report_service.factory.create('Date')
+        custom_start.Day = start_dt.day
+        custom_start.Month = start_dt.month
+        custom_start.Year = start_dt.year
+
+        custom_end = report_service.factory.create('Date')
+        custom_end.Day = end_dt.day
+        custom_end.Month = end_dt.month
+        custom_end.Year = end_dt.year
+
+        report_time.CustomDateRangeStart = custom_start
+        report_time.CustomDateRangeEnd = custom_end
+        report_request.Time = report_time
+
+        # Set scope
+        scope = report_service.factory.create('AccountThroughAdGroupReportScope')
+        scope.AccountIds = report_service.factory.create('ns4:ArrayOflong')
+        scope.AccountIds.long = [customer_id]
+
+        if campaign_ids:
+            scope.Campaigns = report_service.factory.create('ArrayOfCampaignReportScope')
+            for campaign_id in campaign_ids:
+                campaign_scope = report_service.factory.create('CampaignReportScope')
+                campaign_scope.AccountId = customer_id
+                campaign_scope.CampaignId = campaign_id
+                scope.Campaigns.CampaignReportScope.append(campaign_scope)
+
+        report_request.Scope = scope
+
+        # Set columns
+        columns = report_service.factory.create('ArrayOfSearchQueryPerformanceReportColumn')
+        columns.SearchQueryPerformanceReportColumn.append([
+            'AccountId',
+            'CampaignName',
+            'CampaignId',
+            'AdGroupName',
+            'AdGroupId',
+            'SearchQuery',
+            'Keyword',
+            'MatchType',
+            'Impressions',
+            'Clicks',
+            'Ctr',
+            'AverageCpc',
+            'Spend',
+            'Conversions',
+            'Revenue',
+            'ReturnOnAdSpend',
+        ])
+        report_request.Columns = columns
+
+        # Download the report
+        reporting_download_parameters = ReportingDownloadParameters(
+            report_request=report_request,
+            result_file_directory='/tmp',
+            result_file_name=f'search_terms_{customer_id}.csv',
+            overwrite_result_file=True,
+            timeout_in_milliseconds=3600000
+        )
+
+        if ctx:
+            ctx.info("Submitting search terms report request...")
+
+        result_file_path = reporting_service_manager.download_file(
+            reporting_download_parameters=reporting_download_parameters
+        )
+
+        # Parse the CSV results
+        import csv
+        search_terms_data = []
+
+        with open(result_file_path, 'r', encoding='utf-8-sig') as csvfile:
+            lines = csvfile.readlines()
+
+            # Find the header row
+            header_index = 0
+            for i, line in enumerate(lines):
+                if line.startswith('AccountId') or line.startswith('"AccountId"'):
+                    header_index = i
+                    break
+
+            # Parse from header onwards
+            csv_reader = csv.DictReader(lines[header_index:])
+
+            for row in csv_reader:
+                # Skip summary rows
+                if row.get('SearchQuery'):
+                    search_terms_data.append({
+                        'account_id': row.get('AccountId', ''),
+                        'campaign_name': row.get('CampaignName', ''),
+                        'campaign_id': row.get('CampaignId', ''),
+                        'ad_group_name': row.get('AdGroupName', ''),
+                        'ad_group_id': row.get('AdGroupId', ''),
+                        'search_query': row.get('SearchQuery', ''),
+                        'keyword': row.get('Keyword', ''),
+                        'match_type': row.get('MatchType', ''),
+                        'impressions': int(row.get('Impressions', 0)) if row.get('Impressions') else 0,
+                        'clicks': int(row.get('Clicks', 0)) if row.get('Clicks') else 0,
+                        'ctr': float(row.get('Ctr', 0)) if row.get('Ctr') else 0.0,
+                        'average_cpc': float(row.get('AverageCpc', 0)) if row.get('AverageCpc') else 0.0,
+                        'spend': float(row.get('Spend', 0)) if row.get('Spend') else 0.0,
+                        'conversions': int(row.get('Conversions', 0)) if row.get('Conversions') else 0,
+                        'revenue': float(row.get('Revenue', 0)) if row.get('Revenue') else 0.0,
+                        'roas': float(row.get('ReturnOnAdSpend', 0)) if row.get('ReturnOnAdSpend') else 0.0,
+                    })
+
+        # Calculate summary
+        total_impressions = sum(row['impressions'] for row in search_terms_data)
+        total_clicks = sum(row['clicks'] for row in search_terms_data)
+        total_spend = sum(row['spend'] for row in search_terms_data)
+        total_conversions = sum(row['conversions'] for row in search_terms_data)
+        total_revenue = sum(row['revenue'] for row in search_terms_data)
+
+        return {
+            'customer_id': customer_id,
+            'start_date': start_date,
+            'end_date': end_date,
+            'search_term_count': len(search_terms_data),
+            'summary': {
+                'impressions': total_impressions,
+                'clicks': total_clicks,
+                'spend': round(total_spend, 2),
+                'conversions': total_conversions,
+                'revenue': round(total_revenue, 2),
+                'ctr': round((total_clicks / total_impressions * 100) if total_impressions > 0 else 0, 2),
+                'average_cpc': round(total_spend / total_clicks if total_clicks > 0 else 0, 2),
+                'roas': round(total_revenue / total_spend if total_spend > 0 else 0, 2),
+            },
+            'search_terms': search_terms_data,
+            'result_file': result_file_path
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to get search terms: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {
+            'error': str(e),
+            'customer_id': customer_id,
+            'traceback': traceback.format_exc()
+        }
 
 
 @mcp.tool

@@ -1,0 +1,122 @@
+GOOGLE ADS BUDGET BACKUP - Smythson Dec 22 Diaries-Focused Deployment
+========================================================================
+Created: 2025-12-22
+Deployment: p9-dec-22-diaries-focus.csv
+Total campaigns to change: 10
+Total budget increase: £387.78
+New target daily budget: £2,030.55
+
+CURRENT STATE (BEFORE DEPLOYMENT):
+========================================================================
+
+UK ACCOUNT (8573235780)
+----------------------------------------
+Campaign ID: 13810745002
+Campaign: SMY | UK | Search | Semi Brand - Diaries
+Budget Pool: 12929756283
+Current Budget: £150.00 (150,000,000 micros)
+Expected New Budget: £250.00 (250,000,000 micros)
+Change: +£100.00
+
+Campaign ID: 13811031042
+Campaign: SMY | UK | Search | Brand Exact
+Budget Pool: 9072507297
+Current Budget: £37.00 (37,000,000 micros)
+Expected New Budget: £67.00 (67,000,000 micros)
+Change: +£30.00
+
+USA ACCOUNT (7808690871)
+----------------------------------------
+Campaign ID: 23210838865
+Campaign: SMY | US | P Max | Diaries
+Budget Pool: 15095915233
+Current Budget: £75.00 (75,000,000 micros)
+Expected New Budget: £150.00 (150,000,000 micros)
+Change: +£75.00
+
+Campaign ID: 1683494533
+Campaign: SMY | US | Search | Brand Exact
+Budget Pool: 11422372952
+Current Budget: £30.00 (30,000,000 micros)
+Expected New Budget: £60.00 (60,000,000 micros)
+Change: +£30.00
+
+Campaign ID: 1602584781
+Campaign: SMY | US | Search | Brand Plus
+Budget Pool: 12929893890
+Current Budget: £30.00 (30,000,000 micros)
+Expected New Budget: £60.00 (60,000,000 micros)
+Change: +£30.00
+
+EUR ACCOUNT (7679616761)
+----------------------------------------
+Campaign ID: 23253890345
+Campaign: SMY | EUR | P Max | Diaries
+Budget Pool: 15125793782
+Current Budget: £20.00 (20,000,000 micros)
+Expected New Budget: £50.00 (50,000,000 micros)
+Change: +£30.00
+
+Campaign ID: 23257901431
+Campaign: SMY | EUR | IT | P Max | Diaries
+Budget Pool: 15135803680
+Current Budget: £30.00 (30,000,000 micros)
+Expected New Budget: £50.00 (50,000,000 micros)
+Change: +£20.00
+
+Campaign ID: 1599767262
+Campaign: SMY | EUR | IT | Search Brand Ai
+Budget Pool: 1656440764
+Current Budget: £100.00 (100,000,000 micros)
+Expected New Budget: £150.00 (150,000,000 micros)
+Change: +£50.00
+
+Campaign ID: 22441297139
+Campaign: SMY | EUR | RONot | Search | Brand Ai
+Budget Pool: 14483837445
+Current Budget: £20.00 (20,000,000 micros)
+Expected New Budget: £30.00 (30,000,000 micros)
+Change: +£10.00
+
+ROW ACCOUNT (5556710725)
+----------------------------------------
+Campaign ID: 6552020619
+Campaign: SMY | ROW | Search | Brand Diaries and Organisers
+Budget Pool: 12929903025
+Current Budget: £10.00 (10,000,000 micros)
+Expected New Budget: £20.00 (20,000,000 micros)
+Change: +£10.00
+
+Campaign ID: 23241919876
+Campaign: SMY | ROW | Search | Competitor | Ai
+Budget Pool: 15122745964
+Current Budget: £2.22 (2,220,000 micros)
+Expected New Budget: £5.00 (5,000,000 micros)
+Change: +£2.78
+
+========================================================================
+VERIFICATION CHECKLIST (after deployment):
+========================================================================
+[ ] UK Semi Brand - Diaries: £250.00
+[ ] UK Brand Exact: £67.00
+[ ] USA P Max Diaries: £150.00
+[ ] USA Brand Exact: £60.00
+[ ] USA Brand Plus: £60.00
+[ ] EUR P Max Diaries: £50.00
+[ ] EUR IT P Max Diaries: £50.00
+[ ] EUR IT Search Brand: £150.00
+[ ] EUR RONot Search Brand: £30.00
+[ ] ROW Brand Diaries: £20.00
+[ ] ROW Competitor: £5.00
+
+========================================================================
+ROLLBACK INSTRUCTIONS (if needed):
+========================================================================
+To rollback these changes, use the following budget values:
+
+UK: 13810745002 → £150.00, 13811031042 → £37.00
+USA: 23210838865 → £75.00, 1683494533 → £30.00, 1602584781 → £30.00
+EUR: 23253890345 → £20.00, 23257901431 → £30.00, 1599767262 → £100.00, 22441297139 → £20.00
+ROW: 6552020619 → £10.00, 23241919876 → £2.22
+
+========================================================================

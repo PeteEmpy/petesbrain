@@ -1,0 +1,34 @@
+{
+  "tier1_deployment_frequency": "bi-weekly",
+  "tier2_review_frequency": "monthly",
+  "priority_threshold_pounds": 0,
+  "always_p0": true,
+  "clients_to_monitor": ["all"],
+  "deployment_schedule": {
+    "description": "Bi-weekly = every other Monday, Monthly = first Monday of month",
+    "tier1_deployment_weeks": [1, 3],
+    "tier2_review_week": 1
+  },
+  "notification_settings": {
+    "daily_briefing_integration": true,
+    "create_consolidated_tasks": true,
+    "task_titles": {
+      "tier1": "Deploy Tier 1 Negative Keywords Across Clients",
+      "tier2": "Review Tier 2 Negative Keywords for Promotion"
+    }
+  },
+  "thresholds": {
+    "tier1_clicks": 30,
+    "tier1_min_spend": 20,
+    "tier2_clicks_min": 10,
+    "tier2_clicks_max": 29,
+    "lookback_days": 60,
+    "new_term_scan_days": 7
+  },
+  "notes": {
+    "frequency_adjustment": "Start with bi-weekly, may change to monthly based on volume",
+    "priority_adjustment": "Always P0 initially, may change to threshold >£5K/year later",
+    "last_updated": "2025-12-17",
+    "version": "1.0"
+  }
+}

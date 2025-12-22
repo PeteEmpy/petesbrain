@@ -1,6 +1,6 @@
 ---
 description: Load client context and show status summary
-allowed-tools: Read, mcp__google-ads__get_client_platform_ids, mcp__google-tasks__list_tasks
+allowed-tools: Read, mcp__platform-ids__get_client_platform_ids, mcp__google-tasks__list_tasks
 argument-hint: <client-name>
 ---
 
@@ -15,7 +15,7 @@ Load the context for this client and provide a quick status summary.
    Read: clients/$ARGUMENTS/CONTEXT.md
    ```
 
-2. **Get platform IDs** using `mcp__google-ads__get_client_platform_ids('$ARGUMENTS')`
+2. **Get platform IDs** using `mcp__platform-ids__get_client_platform_ids('$ARGUMENTS')`
 
 3. **Check for active tasks** in `clients/$ARGUMENTS/tasks.json`
 

@@ -42,25 +42,25 @@ REGIONS = {
         'customer_id': '8573235780',
         'sheet_name': 'UK PMax Assets',
         'campaign_asset_group_range': 'UK PMax Assets!A2:D',  # Campaign ID + Asset Group Name
-        'image_range': 'UK PMax Assets!BA2:BU'  # Image columns (21 max)
+        'image_range': 'UK PMax Assets!AW2:BT'  # Image columns: Landscape (AW-BC), Square (BD-BJ), Portrait (BK-BQ), Logo (BT)
     },
     'us': {
         'customer_id': '7808690871',
         'sheet_name': 'US PMax Assets',
         'campaign_asset_group_range': 'US PMax Assets!A2:D',
-        'image_range': 'US PMax Assets!BA2:BU'
+        'image_range': 'US PMax Assets!AW2:BT'  # Image columns: Landscape (AW-BC), Square (BD-BJ), Portrait (BK-BQ), Logo (BT)
     },
     'eur': {
         'customer_id': '7679616761',
         'sheet_name': 'EUR PMax Assets',
         'campaign_asset_group_range': 'EUR PMax Assets!A2:D',
-        'image_range': 'EUR PMax Assets!BA2:BU'
+        'image_range': 'EUR PMax Assets!AW2:BT'  # Image columns: Landscape (AW-BC), Square (BD-BJ), Portrait (BK-BQ), Logo (BT)
     },
     'row': {
         'customer_id': '5556710725',
         'sheet_name': 'ROW PMax Assets',
         'campaign_asset_group_range': 'ROW PMax Assets!A2:D',
-        'image_range': 'ROW PMax Assets!BA2:BU'
+        'image_range': 'ROW PMax Assets!AW2:BT'  # Image columns: Landscape (AW-BC), Square (BD-BJ), Portrait (BK-BQ), Logo (BT)
     },
 }
 
@@ -281,45 +281,55 @@ def determine_image_field_type(width: int, height: int) -> str:
 
 
 def link_image_assets_with_auto_type(headers, customer_id: str, asset_group_id: str,
-                                      asset_ids: List[str]) -> bool:
+                                      asset_ids: List[str], remove_resources: List[str] = None) -> bool:
     """
     Link image assets to an asset group with automatic field type detection.
 
+    Optionally removes old assets in the SAME operation (atomic) to avoid
+    violating PMax minimum requirements during the transition.
+
     Queries image dimensions and assigns correct field type based on aspect ratio.
     """
-    if not asset_ids:
+    if not asset_ids and not remove_resources:
         return True
 
     formatted_cid = format_customer_id(customer_id)
     asset_group_resource = f"customers/{formatted_cid}/assetGroups/{asset_group_id}"
     url = f"https://googleads.googleapis.com/v22/customers/{formatted_cid}/assetGroupAssets:mutate"
 
-    # Get dimensions for all images
-    dimensions = get_image_dimensions(headers, customer_id, asset_ids)
-
     operations = []
 
-    # Create link operations for each image asset with correct field type
-    for asset_id in asset_ids:
-        asset_resource = f"customers/{formatted_cid}/assets/{asset_id}"
+    # FIRST: Add remove operations (if any)
+    if remove_resources:
+        for resource_name in remove_resources:
+            operations.append({'remove': resource_name})
 
-        # Determine field type based on dimensions
-        width, height = dimensions.get(asset_id, (0, 0))
-        field_type = determine_image_field_type(width, height)
+    # SECOND: Add create operations for new images
+    if asset_ids:
+        # Get dimensions for all images
+        dimensions = get_image_dimensions(headers, customer_id, asset_ids)
 
-        operations.append({
-            'create': {
-                'assetGroup': asset_group_resource,
-                'asset': asset_resource,
-                'fieldType': field_type
-            }
-        })
+        # Create link operations for each image asset with correct field type
+        for asset_id in asset_ids:
+            asset_resource = f"customers/{formatted_cid}/assets/{asset_id}"
+
+            # Determine field type based on dimensions
+            width, height = dimensions.get(asset_id, (0, 0))
+            field_type = determine_image_field_type(width, height)
+
+            operations.append({
+                'create': {
+                    'assetGroup': asset_group_resource,
+                    'asset': asset_resource,
+                    'fieldType': field_type
+                }
+            })
 
     if operations:
         payload = {'operations': operations}
         resp = requests.post(url, headers=headers, json=payload)
         if resp.status_code != 200:
-            print(f"    ERROR LINKING IMAGES: API returned {resp.status_code}")
+            print(f"    ERROR APPLYING CHANGES: API returned {resp.status_code}")
             print(f"    Response: {resp.text[:1000]}")
         resp.raise_for_status()
         return True
@@ -352,29 +362,71 @@ def remove_image_assets(headers, customer_id: str, remove_resources: List[str]) 
     return False
 
 
-def validate_image_type_requirements(headers, customer_id: str, image_ids: List[str]) -> tuple:
+def parse_image_column_headers(region: str) -> Dict[int, str]:
     """
-    Validate that new images meet PMax requirements (at least 1 of each type).
+    Read column headers from row 1 and map column indices to image types.
+
+    Returns: Dict mapping column_index -> field_type
+             e.g., {0: 'MARKETING_IMAGE', 7: 'SQUARE_MARKETING_IMAGE', ...}
+    """
+    # Read header row
+    sheet_name = REGIONS[region]['sheet_name']
+    # Get the same column range as image data, but row 1
+    image_range = REGIONS[region]['image_range']
+    # Extract column letters (e.g., "AW2:BT" -> "AW1:BT1")
+    parts = image_range.split('!')
+    col_range = parts[1] if len(parts) > 1 else image_range
+    col_range = col_range.replace('2:', '1:').replace('2', '1')
+    header_range = f"{sheet_name}!{col_range}"
+
+    header_row = read_sheet_data(SPREADSHEET_ID, header_range)
+
+    if not header_row or not header_row[0]:
+        raise ValueError(f"Could not read header row from {header_range}")
+
+    headers = header_row[0]
+
+    # Map column index to field type based on header text
+    column_mapping = {}
+    for i, header in enumerate(headers):
+        header_lower = header.lower()
+        if 'landscape' in header_lower:
+            column_mapping[i] = 'MARKETING_IMAGE'
+        elif 'square' in header_lower:
+            column_mapping[i] = 'SQUARE_MARKETING_IMAGE'
+        elif 'portrait' in header_lower:
+            column_mapping[i] = 'PORTRAIT_MARKETING_IMAGE'
+        elif 'logo' in header_lower:
+            column_mapping[i] = 'LOGO'
+
+    return column_mapping
+
+
+def validate_image_type_requirements_by_position(image_row: List[str], column_mapping: Dict[int, str]) -> tuple:
+    """
+    Validate images based on their column position (using spreadsheet headers).
+
+    This is more reliable than querying API dimensions, since the user has
+    organized images into the correct columns.
 
     Returns: (is_valid, error_message, type_counts)
     """
-    if not image_ids:
+    if not image_row:
         return False, "No images provided", {}
 
-    # Get dimensions for all images
-    dimensions = get_image_dimensions(headers, customer_id, image_ids)
-
-    # Count images by type
+    # Count non-empty cells by their column type
     type_counts = {
         'MARKETING_IMAGE': 0,
         'SQUARE_MARKETING_IMAGE': 0,
-        'PORTRAIT_MARKETING_IMAGE': 0
+        'PORTRAIT_MARKETING_IMAGE': 0,
+        'LOGO': 0
     }
 
-    for img_id in image_ids:
-        width, height = dimensions.get(img_id, (0, 0))
-        field_type = determine_image_field_type(width, height)
-        type_counts[field_type] = type_counts.get(field_type, 0) + 1
+    for i, cell_value in enumerate(image_row):
+        if cell_value and cell_value.strip():
+            field_type = column_mapping.get(i)
+            if field_type:
+                type_counts[field_type] = type_counts.get(field_type, 0) + 1
 
     # Check minimum requirements
     missing_types = []
@@ -393,7 +445,7 @@ def validate_image_type_requirements(headers, customer_id: str, image_ids: List[
             f"    Requirements:\n"
             f"      - At least 1 landscape (MARKETING_IMAGE)\n"
             f"      - At least 1 square (SQUARE_MARKETING_IMAGE)\n"
-            f"    Fix: Add missing image types to the spreadsheet before running."
+            f"    Fix: Add missing image types to the spreadsheet columns before running."
         )
         return False, error_msg, type_counts
 
@@ -403,30 +455,20 @@ def validate_image_type_requirements(headers, customer_id: str, image_ids: List[
 def apply_image_assets_to_asset_group(headers, customer_id: str,
                                         asset_group_id: str, campaign_id: str,
                                         asset_group_name: str, campaign_name: str,
-                                        image_ids: List[str], dry_run: bool = False) -> bool:
+                                        images_row: List[str], column_mapping: Dict[int, str],
+                                        dry_run: bool = False) -> bool:
     """Apply image assets from spreadsheet to a single asset group."""
     print(f"\n  Asset Group: {asset_group_name}")
     print(f"    Campaign: {campaign_name}")
     print(f"    Asset Group ID: {asset_group_id}")
 
-    # Filter out empty image IDs and remove duplicates (preserving order)
-    seen = set()
-    valid_image_ids = []
-    for img_id in image_ids:
-        if img_id.strip() and img_id not in seen:
-            valid_image_ids.append(img_id)
-            seen.add(img_id)
-
-    print(f"    Spreadsheet image assets: {len(valid_image_ids)}")
-
-    if not valid_image_ids:
-        print(f"    ⚠️  No image assets to apply")
-        return True
-
-    # PRE-VALIDATION: Check that new images meet type requirements
+    # PRE-VALIDATION: Check that new images meet type requirements (by column position)
+    # This must be done BEFORE filtering, as we need column positions
     print(f"    Validating image type requirements...")
-    is_valid, error_msg, type_counts = validate_image_type_requirements(
-        headers, customer_id, valid_image_ids
+
+    # Validate based on column position (using pre-parsed column_mapping from caller)
+    is_valid, error_msg, type_counts = validate_image_type_requirements_by_position(
+        images_row, column_mapping
     )
 
     if not is_valid:
@@ -438,63 +480,80 @@ def apply_image_assets_to_asset_group(headers, customer_id: str,
     print(f"       Square: {type_counts['SQUARE_MARKETING_IMAGE']}")
     print(f"       Portrait: {type_counts.get('PORTRAIT_MARKETING_IMAGE', 0)}")
 
-    if dry_run:
-        print(f"    [DRY RUN] Would link {len(valid_image_ids)} image assets")
+    # NOW filter out empty image IDs and remove duplicates (preserving order)
+    # This is for the actual API operations, not validation
+    seen = set()
+    valid_image_ids = []
+    for img_id in images_row:
+        if img_id.strip() and img_id not in seen:
+            valid_image_ids.append(img_id)
+            seen.add(img_id)
+
+    print(f"    Spreadsheet image assets: {len(valid_image_ids)}")
+
+    if not valid_image_ids:
+        print(f"    ⚠️  No image assets to apply (after filtering)")
         return True
 
-    # Get current image assets
+    # Get current image assets (needed for both dry-run and live execution)
     current_assets = get_current_image_assets(headers, customer_id, asset_group_id)
 
-    resources_to_remove = []
+    # Build mapping: asset_id -> resource_name AND build set of currently linked asset IDs
+    current_image_ids = set()
+    resources_to_remove_map = {}
+
     for asset in current_assets:
         resource_name = asset.get('assetGroupAsset', {}).get('resourceName')
-        if resource_name:
-            resources_to_remove.append(resource_name)
+        # Get asset ID directly from API response (not from resource_name parsing)
+        # The query returns asset.id which matches the format in the spreadsheet
+        asset_id = str(asset.get('asset', {}).get('id', ''))
+        if resource_name and asset_id:
+            current_image_ids.add(asset_id)
+            resources_to_remove_map[asset_id] = resource_name
 
-    print(f"    Current image assets to remove: {len(resources_to_remove)}")
+    # Convert spreadsheet images to set
+    spreadsheet_image_ids = set(valid_image_ids)
+
+    # DEBUG: Show what we found
+    print(f"    DEBUG: Current image IDs ({len(current_image_ids)}): {sorted(list(current_image_ids)[:5])}")
+    print(f"    DEBUG: Spreadsheet image IDs ({len(spreadsheet_image_ids)}): {sorted(list(spreadsheet_image_ids)[:5])}")
+
+    # Calculate set differences (the core fix for DUPLICATE_RESOURCE errors)
+    images_in_both = current_image_ids & spreadsheet_image_ids  # KEEP - already correct
+    images_to_remove_ids = current_image_ids - spreadsheet_image_ids  # REMOVE - not in spreadsheet
+    images_to_add_ids = spreadsheet_image_ids - current_image_ids  # ADD - not currently linked
+
+    # Build final removal list (only images NOT in spreadsheet)
+    resources_to_remove = [resources_to_remove_map[img_id] for img_id in images_to_remove_ids]
+
+    # Update valid_image_ids to only include images NOT already linked
+    valid_image_ids = list(images_to_add_ids)
+
+    print(f"    Current images: {len(current_image_ids)} total")
+    print(f"    - Keep (already correct): {len(images_in_both)}")
+    print(f"    - Remove (not in spreadsheet): {len(images_to_remove_ids)}")
+    print(f"    - Add (not currently linked): {len(images_to_add_ids)}")
+
+    # Dry-run check (now happens AFTER set analysis so we can show proper diagnostics)
+    if dry_run:
+        print(f"    [DRY RUN] Operations: Keep {len(images_in_both)}, Remove {len(images_to_remove_ids)}, Add {len(images_to_add_ids)}")
+        return True
 
     # SAFETY CHECK: PMax allows maximum 20 images per asset group
     MAX_IMAGES = 20
-    current_count = len(resources_to_remove)
-    new_count = len(valid_image_ids)
-    total_if_add_first = current_count + new_count
 
-    print(f"    Image count check: current={current_count}, new={new_count}, total_if_add_first={total_if_add_first}, limit={MAX_IMAGES}")
+    # After changes, final count will be: (keep) + (add)
+    final_count = len(images_in_both) + len(images_to_add_ids)
+    print(f"    Final count after changes: {final_count} images (limit: {MAX_IMAGES})")
 
-    if total_if_add_first <= MAX_IMAGES:
-        # SAFE: Can add all new images first, then remove old ones
-        print(f"    ✓ Safe to add new images first (won't exceed {MAX_IMAGES} limit)")
-        link_image_assets_with_auto_type(headers, customer_id, asset_group_id, valid_image_ids)
-        print(f"    Linked {len(valid_image_ids)} new image assets with auto-detected field types")
+    # ATOMIC OPERATION: Remove old and add new in single API call
+    # This prevents temporary violations of min/max requirements
+    if valid_image_ids or resources_to_remove:
+        link_image_assets_with_auto_type(headers, customer_id, asset_group_id, valid_image_ids, resources_to_remove)
 
-        if resources_to_remove:
-            remove_image_assets(headers, customer_id, resources_to_remove)
-            print(f"    Removed {len(resources_to_remove)} old image assets")
-    else:
-        # OVERFLOW: Need to remove some old images first to make room
-        print(f"    ⚠️  Adding all new images first would exceed {MAX_IMAGES} limit")
-
-        # Calculate how many old images to remove first
-        excess = total_if_add_first - MAX_IMAGES
-        to_remove_first = excess
-
-        print(f"    Strategy: Remove {to_remove_first} old images first, add {new_count} new, remove remaining {current_count - to_remove_first} old")
-
-        # Step 1: Remove just enough old images to make room
-        if to_remove_first > 0:
-            first_batch = resources_to_remove[:to_remove_first]
-            remove_image_assets(headers, customer_id, first_batch)
-            print(f"    Removed {len(first_batch)} old images to make room")
-
-        # Step 2: Add all new images
-        link_image_assets_with_auto_type(headers, customer_id, asset_group_id, valid_image_ids)
-        print(f"    Linked {len(valid_image_ids)} new image assets with auto-detected field types")
-
-        # Step 3: Remove remaining old images
-        remaining_batch = resources_to_remove[to_remove_first:]
-        if remaining_batch:
-            remove_image_assets(headers, customer_id, remaining_batch)
-            print(f"    Removed {len(remaining_batch)} remaining old images")
+        added_msg = f"added {len(valid_image_ids)} new" if valid_image_ids else "no new added"
+        removed_msg = f"removed {len(resources_to_remove)} old" if resources_to_remove else "no old removed"
+        print(f"    ✓ Applied changes atomically: {removed_msg}, {added_msg}")
 
     print(f"    ✓ Applied successfully")
     return True
@@ -532,6 +591,12 @@ def apply_region_image_assets(region: str, dry_run: bool = False) -> tuple:
         names_rows = names_rows[:min_rows]
         image_rows = image_rows[:min_rows]
 
+    # PERFORMANCE OPTIMIZATION: Parse column headers ONCE for the entire region
+    # (instead of once per asset group, which caused API rate limit issues)
+    print(f"\nParsing image column headers...")
+    column_mapping = parse_image_column_headers(region)
+    print(f"  ✓ Mapped {len(column_mapping)} image columns")
+
     headers = get_headers()
     success_count = 0
     fail_count = 0
@@ -568,7 +633,7 @@ def apply_region_image_assets(region: str, dry_run: bool = False) -> tuple:
         try:
             result = apply_image_assets_to_asset_group(
                 headers, customer_id, asset_group_id, found_campaign_id,
-                asset_group_name, campaign_id, images_row, dry_run
+                asset_group_name, campaign_id, images_row, column_mapping, dry_run
             )
             if result:
                 success_count += 1

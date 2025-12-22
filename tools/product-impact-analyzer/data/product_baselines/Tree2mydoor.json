@@ -1,13 +1,13 @@
 {
   "client": "Tree2mydoor",
-  "updated": "2025-12-15T08:42:19.255017",
+  "updated": "2025-12-22T06:56:05.710369",
   "product_count": 247,
   "baselines": {
     "rowa": {
       "product_id": "rowa",
       "product_title": "Rowan Tree Gift - Arrives With A Height of 20-60cm & Can Grow To 9m (30ft) - Can Be Pot Grown For Up To 8 Years",
       "label": "",
-      "data_points": 40,
+      "data_points": 49,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 15.705,
@@ -17,9 +17,9 @@
         "max": 17.46
       },
       "clicks": {
-        "mean": 6.435897435897436,
-        "median": 3.0,
-        "stdev": 11.186916398879521
+        "mean": 6.326086956521739,
+        "median": 3.5,
+        "stdev": 10.362441470846289
       },
       "conversions": {
         "mean": 1.0,
@@ -27,14 +27,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 648.475,
-        "median": 342.0,
-        "stdev": 1390.9510486971835
+        "mean": 598.8979591836735,
+        "median": 343.0,
+        "stdev": 1263.0680940488053
       },
       "cost": {
-        "mean": 1.9176923076923078,
-        "median": 1.14,
-        "stdev": 2.566887795651689
+        "mean": 2.339782608695652,
+        "median": 1.62,
+        "stdev": 2.882341246764847
       },
       "roas": {
         "mean": 36.785,
@@ -46,7 +46,7 @@
       "product_id": "rrbg",
       "product_title": "Remembrance Rose Bush Gift - 30-70cm in a 3.5L Pot - Summer Flowering Red Blooms - Memorial Tribute To A Loved One",
       "label": "",
-      "data_points": 40,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 6.21,
@@ -66,9 +66,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 80.8,
-        "median": 73.5,
-        "stdev": 58.47120702775043
+        "mean": 71.52173913043478,
+        "median": 60.5,
+        "stdev": 59.64552293170965
       },
       "cost": {
         "mean": 1.113125,
@@ -85,7 +85,7 @@
       "product_id": "rwpr",
       "product_title": "Large Ruby Wedding Celebration Patio Rose Gift - Ruby Red Scented Flowers - Anniversary Gift",
       "label": "",
-      "data_points": 40,
+      "data_points": 49,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 7.836,
@@ -105,9 +105,9 @@
         "stdev": 0.2901206645518378
       },
       "impressions": {
-        "mean": 133.775,
-        "median": 137.5,
-        "stdev": 54.66986583822235
+        "mean": 112.46938775510205,
+        "median": 125.0,
+        "stdev": 67.51052450075727
       },
       "cost": {
         "mean": 1.2157142857142857,
@@ -124,7 +124,7 @@
       "product_id": "sgdrg",
       "product_title": "Special Grandad Rose Bush Gift - Rich, Bright Red Blooms - Grandpa Will Love This",
       "label": "",
-      "data_points": 40,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 8.5,
@@ -144,9 +144,9 @@
         "stdev": 0.4802082881417188
       },
       "impressions": {
-        "mean": 2293.425,
-        "median": 23.0,
-        "stdev": 10513.33369482992
+        "mean": 1996.6739130434783,
+        "median": 22.0,
+        "stdev": 9817.991267858655
       },
       "cost": {
         "mean": 1.6013333333333333,
@@ -163,7 +163,7 @@
       "product_id": "silb",
       "product_title": "Silver Birch Tree Gift - 20-40cm High - Popular Gift For Christenings, Silver Weddings, And New Baby Celebrations",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 16.61,
@@ -173,9 +173,9 @@
         "max": 16.61
       },
       "clicks": {
-        "mean": 3.409090909090909,
+        "mean": 3.4074074074074074,
         "median": 2.0,
-        "stdev": 5.386571406298399
+        "stdev": 4.916684774702277
       },
       "conversions": {
         "mean": 1.0,
@@ -183,14 +183,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 383.64102564102564,
-        "median": 130.0,
-        "stdev": 1076.1181819068477
+        "mean": 342.5416666666667,
+        "median": 133.5,
+        "stdev": 972.6424625365057
       },
       "cost": {
-        "mean": 1.0031818181818182,
-        "median": 0.65,
-        "stdev": 1.1368560924284896
+        "mean": 1.3214814814814815,
+        "median": 0.81,
+        "stdev": 1.428120614664073
       },
       "roas": {
         "mean": 20.76,
@@ -202,7 +202,7 @@
       "product_id": "sloebg",
       "product_title": "Sloe Bush Gift",
       "label": "",
-      "data_points": 40,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -222,9 +222,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 392.475,
+        "mean": 335.8723404255319,
         "median": 21.0,
-        "stdev": 1740.9969438035591
+        "stdev": 1608.8927818064046
       },
       "cost": {
         "mean": 0.27,
@@ -241,7 +241,7 @@
       "product_id": "smrg",
       "product_title": "Special Mum Rose Bush Gift - 3.5L Pot 30-35cm - Mummy, Mom, Mother - Pink Blooms",
       "label": "",
-      "data_points": 40,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 11.76,
@@ -261,9 +261,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 457.525,
-        "median": 39.5,
-        "stdev": 1847.6668862205377
+        "mean": 383.0416666666667,
+        "median": 32.0,
+        "stdev": 1691.4865545384619
       },
       "cost": {
         "mean": 0.5554545454545454,
@@ -280,7 +280,7 @@
       "product_id": "swag-placo",
       "product_title": "25th Wedding Anniversary Gift Pack",
       "label": "",
-      "data_points": 29,
+      "data_points": 31,
       "date_range": "2025-11-24 to 45955",
       "revenue": {
         "mean": 0,
@@ -300,9 +300,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.0689655172413794,
+        "mean": 2.935483870967742,
         "median": 3.0,
-        "stdev": 1.9444248962970778
+        "stdev": 1.948255354087647
       },
       "cost": {
         "mean": 0,
@@ -319,7 +319,7 @@
       "product_id": "swag-placo1",
       "product_title": "25th Wedding Anniversary Gift Pack",
       "label": "",
-      "data_points": 24,
+      "data_points": 25,
       "date_range": "2025-11-24 to 45960",
       "revenue": {
         "mean": 0,
@@ -339,9 +339,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.0,
+        "mean": 1.96,
         "median": 1.0,
-        "stdev": 1.4142135623730951
+        "stdev": 1.398809017223819
       },
       "cost": {
         "mean": 0,
@@ -358,7 +358,7 @@
       "product_id": "tgpa-blac-placo",
       "product_title": "Anniversary Tree Gift Pack - Native Blackthorn Sapling - Plaque, Plinth, Tree Protector and Stake",
       "label": "",
-      "data_points": 35,
+      "data_points": 40,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -378,9 +378,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.771428571428571,
+        "mean": 5.4,
         "median": 5.0,
-        "stdev": 3.858418712112929
+        "stdev": 3.8550665962520623
       },
       "cost": {
         "mean": 0.6799999999999999,
@@ -397,7 +397,7 @@
       "product_id": "tgpa-blac-placo1",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 23,
+      "data_points": 26,
       "date_range": "2025-12-03 to 45960",
       "revenue": {
         "mean": 0,
@@ -417,9 +417,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.0434782608695654,
+        "mean": 1.9615384615384615,
         "median": 2.0,
-        "stdev": 1.460954260673022
+        "stdev": 1.3994504415882467
       },
       "cost": {
         "mean": 0,
@@ -436,7 +436,7 @@
       "product_id": "tgpa-oaka-placo",
       "product_title": "Anniversary Oak Tree Gift Pack - With Wooden Plinth, Tree Protector Tube And Stake - Safely Delivered In Custom Packaging - Native Sapling",
       "label": "",
-      "data_points": 40,
+      "data_points": 49,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -446,9 +446,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.4166666666666665,
+        "mean": 2.3076923076923075,
         "median": 1.0,
-        "stdev": 3.6793856535947396
+        "stdev": 3.5445877847928333
       },
       "conversions": {
         "mean": 0,
@@ -456,14 +456,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1266.225,
-        "median": 51.5,
-        "stdev": 6891.36084766226
+        "mean": 1037.734693877551,
+        "median": 43.0,
+        "stdev": 6230.828749637798
       },
       "cost": {
-        "mean": 0.705,
-        "median": 0.515,
-        "stdev": 0.6000227268423027
+        "mean": 0.7438461538461538,
+        "median": 0.53,
+        "stdev": 0.5913055958574277
       },
       "roas": {
         "mean": 0,
@@ -475,7 +475,7 @@
       "product_id": "tgpa-rowa-placo",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 5.59,
@@ -495,9 +495,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 30.516129032258064,
-        "median": 20.0,
-        "stdev": 28.080682527011263
+        "mean": 26.416666666666668,
+        "median": 18.0,
+        "stdev": 27.98303057211638
       },
       "cost": {
         "mean": 0.53,
@@ -553,7 +553,7 @@
       "product_id": "tgpa-silb-placo1",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 26,
+      "data_points": 33,
       "date_range": "2025-12-09 to 45961",
       "revenue": {
         "mean": 0,
@@ -573,14 +573,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.076923076923077,
+        "mean": 2.090909090909091,
         "median": 2.0,
-        "stdev": 1.0553891006856921
+        "stdev": 1.0417424214878037
       },
       "cost": {
-        "mean": 1.88,
+        "mean": 1.42,
         "median": 1.88,
-        "stdev": 0.0
+        "stdev": 0.7967433714816835
       },
       "roas": {
         "mean": 0,
@@ -592,7 +592,7 @@
       "product_id": "tgpa-wche-placo",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 34,
+      "data_points": 37,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -612,9 +612,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 9.411764705882353,
-        "median": 7.5,
-        "stdev": 6.915584714466233
+        "mean": 8.756756756756756,
+        "median": 7.0,
+        "stdev": 6.989696406558432
       },
       "cost": {
         "mean": 0.65,
@@ -631,7 +631,7 @@
       "product_id": "tgpa-wche-placo1",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 29,
+      "data_points": 31,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -651,9 +651,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.344827586206897,
+        "mean": 5.129032258064516,
         "median": 4.0,
-        "stdev": 5.05170312206661
+        "stdev": 4.951376478541908
       },
       "cost": {
         "mean": 0.09,
@@ -670,7 +670,7 @@
       "product_id": "tgpb-blac-placo",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 32,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -690,9 +690,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.129032258064516,
+        "mean": 5.96875,
         "median": 6.0,
-        "stdev": 3.930580410777955
+        "stdev": 3.9715469887527415
       },
       "cost": {
         "mean": 0.24,
@@ -709,7 +709,7 @@
       "product_id": "tgpb-blac-placo1",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -729,9 +729,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.6451612903225805,
+        "mean": 2.5142857142857142,
         "median": 2.0,
-        "stdev": 1.6441489611503006
+        "stdev": 1.615575449681458
       },
       "cost": {
         "mean": 0,
@@ -748,7 +748,7 @@
       "product_id": "tgpb-rowa-placo",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 33,
+      "data_points": 39,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -768,9 +768,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 15.151515151515152,
-        "median": 15.0,
-        "stdev": 9.689302129543478
+        "mean": 13.051282051282051,
+        "median": 13.0,
+        "stdev": 10.200486876792535
       },
       "cost": {
         "mean": 1.3366666666666667,
@@ -787,7 +787,7 @@
       "product_id": "tgpb-silb-placo",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 33,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -807,9 +807,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.4545454545454546,
+        "mean": 3.2162162162162162,
         "median": 2.0,
-        "stdev": 2.6586052392526835
+        "stdev": 2.604858016338949
       },
       "cost": {
         "mean": 0,
@@ -826,7 +826,7 @@
       "product_id": "tgpb-silb-placo1",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 24,
+      "data_points": 29,
       "date_range": "2025-12-08 to 45960",
       "revenue": {
         "mean": 0,
@@ -846,9 +846,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.75,
+        "mean": 1.9310344827586208,
         "median": 1.0,
-        "stdev": 1.2597446256043843
+        "stdev": 1.412470846292275
       },
       "cost": {
         "mean": 0,
@@ -865,7 +865,7 @@
       "product_id": "tgpb-wche-placo",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 38,
+      "data_points": 41,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -885,9 +885,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.342105263157896,
+        "mean": 7.878048780487805,
         "median": 7.0,
-        "stdev": 5.729375777467473
+        "stdev": 5.762790651894356
       },
       "cost": {
         "mean": 0,
@@ -904,7 +904,7 @@
       "product_id": "tgpb-wche-placo1",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 20,
+      "data_points": 26,
       "date_range": "2025-12-12 to 45962",
       "revenue": {
         "mean": 0,
@@ -924,9 +924,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.55,
+        "mean": 1.5,
         "median": 1.0,
-        "stdev": 0.8255779474818965
+        "stdev": 0.7615773105863908
       },
       "cost": {
         "mean": 0,
@@ -943,8 +943,8 @@
       "product_id": "tgpc-blac-placo",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 28,
-      "date_range": "45933 to 45962",
+      "data_points": 30,
+      "date_range": "2025-12-18 to 45962",
       "revenue": {
         "mean": 17.95,
         "median": 17.95,
@@ -963,9 +963,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 13.75,
-        "median": 6.0,
-        "stdev": 19.884155240533342
+        "mean": 12.966666666666667,
+        "median": 5.0,
+        "stdev": 19.41823411363541
       },
       "cost": {
         "mean": 1.256,
@@ -982,7 +982,7 @@
       "product_id": "tgpc-blac-placo1",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 30,
+      "data_points": 31,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -1002,9 +1002,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.433333333333333,
+        "mean": 2.3870967741935485,
         "median": 2.0,
-        "stdev": 1.9241358711314314
+        "stdev": 1.9092305492848634
       },
       "cost": {
         "mean": 0,
@@ -1021,7 +1021,7 @@
       "product_id": "tgpc-oaka-placo",
       "product_title": "Christening Tree Gift Pack - Oak Tree - A Celebration Of Faith And Community Watch Them Grow Over The Years",
       "label": "",
-      "data_points": 40,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1041,9 +1041,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 34.5,
-        "median": 31.0,
-        "stdev": 29.275876128254865
+        "mean": 30.47826086956522,
+        "median": 26.5,
+        "stdev": 29.209389000749425
       },
       "cost": {
         "mean": 0.9309090909090909,
@@ -1099,7 +1099,7 @@
       "product_id": "tgpc-rowa-placo",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 33,
+      "data_points": 35,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1119,9 +1119,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 34.03030303030303,
-        "median": 21.0,
-        "stdev": 30.25876406977494
+        "mean": 32.17142857142857,
+        "median": 19.0,
+        "stdev": 30.338759634079533
       },
       "cost": {
         "mean": 0.715,
@@ -1138,7 +1138,7 @@
       "product_id": "tgpc-rowa-placo1",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 21,
+      "data_points": 22,
       "date_range": "2025-12-13 to 45962",
       "revenue": {
         "mean": 0,
@@ -1158,9 +1158,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.4285714285714286,
+        "mean": 1.4090909090909092,
         "median": 1.0,
-        "stdev": 0.50709255283711
+        "stdev": 0.5032362797401965
       },
       "cost": {
         "mean": 0,
@@ -1177,8 +1177,8 @@
       "product_id": "tgpc-silb-placo",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 29,
-      "date_range": "45933 to 45962",
+      "data_points": 30,
+      "date_range": "2025-12-18 to 45962",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -1197,9 +1197,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.310344827586206,
-        "median": 11.0,
-        "stdev": 6.274116034925114
+        "mean": 10.966666666666667,
+        "median": 10.0,
+        "stdev": 6.445973527144187
       },
       "cost": {
         "mean": 0.6799999999999999,
@@ -1216,7 +1216,7 @@
       "product_id": "tgpc-silb-placo1",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 29,
+      "data_points": 31,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -1236,9 +1236,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.482758620689655,
+        "mean": 5.354838709677419,
         "median": 4.0,
-        "stdev": 4.420897530521315
+        "stdev": 4.301537609559123
       },
       "cost": {
         "mean": 0.655,
@@ -1255,7 +1255,7 @@
       "product_id": "tgpc-wche-placo",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 33,
+      "data_points": 38,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 29.65,
@@ -1275,9 +1275,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 93.63636363636364,
-        "median": 19.0,
-        "stdev": 287.68578977134695
+        "mean": 81.44736842105263,
+        "median": 12.5,
+        "stdev": 269.4178606580051
       },
       "cost": {
         "mean": 0.9833333333333333,
@@ -1294,7 +1294,7 @@
       "product_id": "tgpc-wche-placo1",
       "product_title": "Christening Tree Gift Pack",
       "label": "",
-      "data_points": 25,
+      "data_points": 26,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -1314,9 +1314,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.0,
+        "mean": 2.1538461538461537,
         "median": 2.0,
-        "stdev": 1.1902380714238083
+        "stdev": 1.4054837656069228
       },
       "cost": {
         "mean": 0,
@@ -1333,7 +1333,7 @@
       "product_id": "tgpm-blac-placo",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 34,
+      "data_points": 40,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1353,9 +1353,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 31.352941176470587,
-        "median": 32.0,
-        "stdev": 21.277221214305584
+        "mean": 27.15,
+        "median": 28.0,
+        "stdev": 22.047210417181745
       },
       "cost": {
         "mean": 0.6475,
@@ -1372,7 +1372,7 @@
       "product_id": "tgpm-blac-placo1",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 35,
+      "data_points": 41,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1392,9 +1392,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.6285714285714286,
+        "mean": 3.731707317073171,
         "median": 3.0,
-        "stdev": 2.46249173525892
+        "stdev": 2.4189294144714357
       },
       "cost": {
         "mean": 0,
@@ -1411,7 +1411,7 @@
       "product_id": "tgpm-oaka-placo",
       "product_title": "Memorial Oak Tree Gift Pack - Complete With Wooden Plinth, Tree Protector Tube And Support Stake - Optional Engraved Plaque",
       "label": "",
-      "data_points": 40,
+      "data_points": 49,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1421,9 +1421,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
       },
       "conversions": {
         "mean": 0,
@@ -1431,14 +1431,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.075,
-        "median": 18.5,
-        "stdev": 9.785880723698892
+        "mean": 16.6734693877551,
+        "median": 17.0,
+        "stdev": 9.817899798968465
       },
       "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
+        "mean": 1.26,
+        "median": 1.26,
+        "stdev": 0.7636753236814714
       },
       "roas": {
         "mean": 0,
@@ -1450,7 +1450,7 @@
       "product_id": "tgpm-oaka-placo1",
       "product_title": "Memorial Oak Tree Gift Pack - Sapling, Engraved Plaque, Plinth, Support Tube and Stake",
       "label": "",
-      "data_points": 40,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1470,9 +1470,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 9.025,
+        "mean": 8.5625,
         "median": 9.0,
-        "stdev": 4.31745117116391
+        "stdev": 4.331508753899313
       },
       "cost": {
         "mean": 0,
@@ -1489,7 +1489,7 @@
       "product_id": "tgpm-rowa-placo",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 38,
+      "data_points": 45,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1509,9 +1509,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 786.8947368421053,
-        "median": 39.5,
-        "stdev": 4216.775627339318
+        "mean": 666.3555555555556,
+        "median": 27.0,
+        "stdev": 3877.2473785333113
       },
       "cost": {
         "mean": 1.2081818181818182,
@@ -1528,7 +1528,7 @@
       "product_id": "tgpm-rowa-placo1",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 37,
+      "data_points": 41,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -1548,14 +1548,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.1621621621621623,
+        "mean": 3.658536585365854,
         "median": 3.0,
-        "stdev": 2.2175250657923615
+        "stdev": 2.8949072186994265
       },
       "cost": {
-        "mean": 0.275,
-        "median": 0.275,
-        "stdev": 0.08660254037844385
+        "mean": 0.432,
+        "median": 0.35,
+        "stdev": 0.3589846793388264
       },
       "roas": {
         "mean": 0,
@@ -1567,7 +1567,7 @@
       "product_id": "tgpm-silb-placo",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 35,
+      "data_points": 39,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1587,9 +1587,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 12.142857142857142,
-        "median": 12.0,
-        "stdev": 8.82557399280755
+        "mean": 11.102564102564102,
+        "median": 11.0,
+        "stdev": 8.914195868905045
       },
       "cost": {
         "mean": 1.95,
@@ -1606,7 +1606,7 @@
       "product_id": "tgpm-silb-placo1",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 35,
+      "data_points": 40,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -1626,9 +1626,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.914285714285715,
-        "median": 8.0,
-        "stdev": 4.111471960341244
+        "mean": 6.625,
+        "median": 6.5,
+        "stdev": 4.055306748017075
       },
       "cost": {
         "mean": 0,
@@ -1645,7 +1645,7 @@
       "product_id": "tgpm-wche-placo",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 39,
+      "data_points": 44,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -1665,9 +1665,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.051282051282051,
-        "median": 7.0,
-        "stdev": 6.278403744284714
+        "mean": 7.431818181818182,
+        "median": 6.0,
+        "stdev": 6.165914282806528
       },
       "cost": {
         "mean": 0.06,
@@ -1682,201 +1682,6 @@
     },
     "tgppm-blac-plpet": {
       "product_id": "tgppm-blac-plpet",
-      "product_title": "Pet Memorial Tree Gift Pack",
-      "label": "",
-      "data_points": 38,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 4.7368421052631575,
-        "median": 3.5,
-        "stdev": 3.268888649284719
-      },
-      "cost": {
-        "mean": 0.4166666666666667,
-        "median": 0.43,
-        "stdev": 0.10066445913694333
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "tgppm-blac-plpet1": {
-      "product_id": "tgppm-blac-plpet1",
-      "product_title": "Pet Memorial Tree Gift Pack",
-      "label": "",
-      "data_points": 12,
-      "date_range": "2025-12-14 to 45960",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 1.1666666666666667,
-        "median": 1.0,
-        "stdev": 0.3892494720807615
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "tgppm-oaka-plpet": {
-      "product_id": "tgppm-oaka-plpet",
-      "product_title": "Pet Memorial Tree Gift Pack",
-      "label": "",
-      "data_points": 32,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 3.03125,
-        "median": 3.0,
-        "stdev": 2.292827174388184
-      },
-      "cost": {
-        "mean": 0.255,
-        "median": 0.255,
-        "stdev": 0.134350288425444
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "tgppm-rowa-plpet": {
-      "product_id": "tgppm-rowa-plpet",
-      "product_title": "Pet Memorial Tree Gift Pack",
-      "label": "",
-      "data_points": 35,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 2.0,
-        "median": 2.0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 5.257142857142857,
-        "median": 5.0,
-        "stdev": 3.0902394457279154
-      },
-      "cost": {
-        "mean": 0.36,
-        "median": 0.36,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "tgppm-rowa-plpet1": {
-      "product_id": "tgppm-rowa-plpet1",
-      "product_title": "Pet Memorial Tree Gift Pack",
-      "label": "",
-      "data_points": 21,
-      "date_range": "2025-11-24 to 45960",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 1.9523809523809523,
-        "median": 1.0,
-        "stdev": 2.1558337244831867
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "tgppm-silb-plpet": {
-      "product_id": "tgppm-silb-plpet",
       "product_title": "Pet Memorial Tree Gift Pack",
       "label": "",
       "data_points": 40,
@@ -1899,14 +1704,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 15.525,
-        "median": 15.5,
-        "stdev": 9.588955987127948
+        "mean": 4.575,
+        "median": 3.0,
+        "stdev": 3.2651029747769726
       },
       "cost": {
-        "mean": 0.6014285714285714,
-        "median": 0.35,
-        "stdev": 0.8594461117764272
+        "mean": 0.4166666666666667,
+        "median": 0.43,
+        "stdev": 0.10066445913694333
       },
       "roas": {
         "mean": 0,
@@ -1914,11 +1719,50 @@
         "stdev": 0
       }
     },
-    "tgppm-silb-plpet1": {
-      "product_id": "tgppm-silb-plpet1",
+    "tgppm-blac-plpet1": {
+      "product_id": "tgppm-blac-plpet1",
       "product_title": "Pet Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 35,
+      "data_points": 13,
+      "date_range": "2025-12-14 to 45960",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1.1538461538461537,
+        "median": 1.0,
+        "stdev": 0.3755338080994054
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "tgppm-oaka-plpet": {
+      "product_id": "tgppm-oaka-plpet",
+      "product_title": "Pet Memorial Tree Gift Pack",
+      "label": "",
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1938,9 +1782,165 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.114285714285714,
-        "median": 6.0,
-        "stdev": 5.789297572810939
+        "mean": 2.9411764705882355,
+        "median": 2.5,
+        "stdev": 2.2555141383996022
+      },
+      "cost": {
+        "mean": 0.255,
+        "median": 0.255,
+        "stdev": 0.134350288425444
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "tgppm-rowa-plpet": {
+      "product_id": "tgppm-rowa-plpet",
+      "product_title": "Pet Memorial Tree Gift Pack",
+      "label": "",
+      "data_points": 37,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 5.081081081081081,
+        "median": 5.0,
+        "stdev": 3.0946044297416395
+      },
+      "cost": {
+        "mean": 0.36,
+        "median": 0.36,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "tgppm-rowa-plpet1": {
+      "product_id": "tgppm-rowa-plpet1",
+      "product_title": "Pet Memorial Tree Gift Pack",
+      "label": "",
+      "data_points": 24,
+      "date_range": "2025-11-24 to 45960",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 1.9166666666666667,
+        "median": 1.0,
+        "stdev": 2.0198292365760864
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "tgppm-silb-plpet": {
+      "product_id": "tgppm-silb-plpet",
+      "product_title": "Pet Memorial Tree Gift Pack",
+      "label": "",
+      "data_points": 46,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 13.91304347826087,
+        "median": 14.5,
+        "stdev": 9.881129235863956
+      },
+      "cost": {
+        "mean": 0.6014285714285714,
+        "median": 0.35,
+        "stdev": 0.8594461117764272
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "tgppm-silb-plpet1": {
+      "product_id": "tgppm-silb-plpet1",
+      "product_title": "Pet Memorial Tree Gift Pack",
+      "label": "",
+      "data_points": 38,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 6.7631578947368425,
+        "median": 5.0,
+        "stdev": 5.687512212170154
       },
       "cost": {
         "mean": 0.20500000000000002,
@@ -1957,7 +1957,7 @@
       "product_id": "tgppm-wche-plpet",
       "product_title": "Pet Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -1977,9 +1977,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.774193548387097,
+        "mean": 3.606060606060606,
         "median": 3.0,
-        "stdev": 2.0609007321938115
+        "stdev": 2.1056381743338815
       },
       "cost": {
         "mean": 0.6733333333333333,
@@ -1996,7 +1996,7 @@
       "product_id": "tgppm-wche-plpet1",
       "product_title": "Pet Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 20,
+      "data_points": 26,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2016,9 +2016,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.4,
+        "mean": 1.4230769230769231,
         "median": 1.0,
-        "stdev": 0.99472291830968
+        "stdev": 0.9454343731037886
       },
       "cost": {
         "mean": 0,
@@ -2035,7 +2035,7 @@
       "product_id": "tgpsc-blac-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 37,
+      "data_points": 43,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -2055,9 +2055,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.351351351351352,
+        "mean": 5.209302325581396,
         "median": 6.0,
-        "stdev": 3.1288639775148086
+        "stdev": 3.004426413325795
       },
       "cost": {
         "mean": 0.19,
@@ -2074,7 +2074,7 @@
       "product_id": "tgpsc-rowa-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 33,
+      "data_points": 39,
       "date_range": "2025-12-08 to 45961",
       "revenue": {
         "mean": 0,
@@ -2094,9 +2094,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.545454545454546,
+        "mean": 5.82051282051282,
         "median": 4.0,
-        "stdev": 6.235437580329212
+        "stdev": 5.990658495005259
       },
       "cost": {
         "mean": 0.27,
@@ -2152,7 +2152,7 @@
       "product_id": "tgpsc-rowa2l-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 34,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2172,9 +2172,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.0,
-        "median": 3.5,
-        "stdev": 2.8709622502610936
+        "mean": 3.7567567567567566,
+        "median": 3.0,
+        "stdev": 2.8713663550206796
       },
       "cost": {
         "mean": 0.62,
@@ -2191,7 +2191,7 @@
       "product_id": "tgpsc-silb-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 29,
+      "data_points": 34,
       "date_range": "2025-12-11 to 45962",
       "revenue": {
         "mean": 0,
@@ -2211,9 +2211,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.482758620689655,
-        "median": 8.0,
-        "stdev": 4.420897530521315
+        "mean": 6.617647058823529,
+        "median": 7.0,
+        "stdev": 4.599174536491554
       },
       "cost": {
         "mean": 0.7,
@@ -2230,7 +2230,7 @@
       "product_id": "tgpw-blac-placo1",
       "product_title": "Wedding Tree Gift Pack - Selection Of Native Varieties To Choose From - Complete With Engraved Plaque",
       "label": "",
-      "data_points": 35,
+      "data_points": 38,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2250,9 +2250,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.8,
+        "mean": 3.6578947368421053,
         "median": 3.0,
-        "stdev": 2.5986421793834156
+        "stdev": 2.5497887118556872
       },
       "cost": {
         "mean": 0,
@@ -2269,7 +2269,7 @@
       "product_id": "tgpw-oaka-placo",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 38,
+      "data_points": 42,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 12.29,
@@ -2289,9 +2289,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 46.21052631578947,
-        "median": 19.5,
-        "stdev": 51.492932023377286
+        "mean": 42.023809523809526,
+        "median": 16.0,
+        "stdev": 50.630891994492416
       },
       "cost": {
         "mean": 1.026875,
@@ -2308,7 +2308,7 @@
       "product_id": "tgpw-oaka-placo1",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 29,
+      "data_points": 33,
       "date_range": "2025-12-03 to 45961",
       "revenue": {
         "mean": 0,
@@ -2328,9 +2328,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.8620689655172415,
+        "mean": 3.696969696969697,
         "median": 2.0,
-        "stdev": 3.842656613882738
+        "stdev": 3.627023990864002
       },
       "cost": {
         "mean": 0,
@@ -2347,7 +2347,7 @@
       "product_id": "tgpw-rowa-placo",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2367,9 +2367,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 84.35483870967742,
-        "median": 31.0,
-        "stdev": 244.65479740334771
+        "mean": 77.0,
+        "median": 28.0,
+        "stdev": 234.50037151873394
       },
       "cost": {
         "mean": 0.745,
@@ -2386,7 +2386,7 @@
       "product_id": "tgpw-rowa-placo1",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 39,
+      "data_points": 43,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2406,9 +2406,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 17.53846153846154,
-        "median": 12.0,
-        "stdev": 16.473018056404833
+        "mean": 16.186046511627907,
+        "median": 11.0,
+        "stdev": 16.251382086212573
       },
       "cost": {
         "mean": 0.455,
@@ -2425,7 +2425,7 @@
       "product_id": "tgpw-silb-placo",
       "product_title": "Wedding Tree Gift Pack - Silver Birch Sapling Complete With Plaque, Plinth, Stake, Tree Protector and Greetings Card",
       "label": "",
-      "data_points": 37,
+      "data_points": 43,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -2445,14 +2445,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.1891891891891895,
+        "mean": 6.558139534883721,
         "median": 7.0,
-        "stdev": 4.081379381735745
+        "stdev": 4.14213152846624
       },
       "cost": {
-        "mean": 0.41,
-        "median": 0.41,
-        "stdev": 0.21
+        "mean": 0.61,
+        "median": 0.515,
+        "stdev": 0.43520110293977887
       },
       "roas": {
         "mean": 0,
@@ -2464,7 +2464,7 @@
       "product_id": "tgpw-silb-placo1",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 25,
+      "data_points": 28,
       "date_range": "2025-12-08 to 45961",
       "revenue": {
         "mean": 0,
@@ -2484,9 +2484,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.88,
-        "median": 4.0,
-        "stdev": 4.32357876455759
+        "mean": 4.464285714285714,
+        "median": 3.0,
+        "stdev": 4.255559699944105
       },
       "cost": {
         "mean": 0.225,
@@ -2503,7 +2503,7 @@
       "product_id": "tgpw-wche-placo",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 32,
+      "data_points": 38,
       "date_range": "2025-12-08 to 45960",
       "revenue": {
         "mean": 0,
@@ -2523,9 +2523,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 16.34375,
-        "median": 8.0,
-        "stdev": 19.91207993704713
+        "mean": 14.131578947368421,
+        "median": 7.0,
+        "stdev": 18.953957088994283
       },
       "cost": {
         "mean": 0.356,
@@ -2542,7 +2542,7 @@
       "product_id": "tgpw-wche-placo1",
       "product_title": "Wedding Tree Gift Pack",
       "label": "",
-      "data_points": 36,
+      "data_points": 41,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 29.0,
@@ -2562,9 +2562,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 167.19444444444446,
+        "mean": 147.21951219512195,
         "median": 4.0,
-        "stdev": 941.9502510200979
+        "stdev": 882.7835100463511
       },
       "cost": {
         "mean": 1.936,
@@ -2581,7 +2581,7 @@
       "product_id": "tgpwb-rowa-plbab",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 24,
+      "data_points": 27,
       "date_range": "2025-12-08 to 45961",
       "revenue": {
         "mean": 0,
@@ -2601,9 +2601,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.75,
+        "mean": 2.5925925925925926,
         "median": 2.0,
-        "stdev": 1.7003835884370582
+        "stdev": 1.6700819707947838
       },
       "cost": {
         "mean": 0,
@@ -2620,7 +2620,7 @@
       "product_id": "ttesp-01",
       "product_title": "Engraved Spade - solid Ash handle",
       "label": "",
-      "data_points": 39,
+      "data_points": 43,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2640,9 +2640,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.025641025641026,
+        "mean": 10.488372093023257,
         "median": 7.0,
-        "stdev": 10.230211140196934
+        "stdev": 10.012782528023285
       },
       "cost": {
         "mean": 0.45,
@@ -2659,7 +2659,7 @@
       "product_id": "ttesp-02",
       "product_title": "Engraved Spade - solid Ash handle",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2669,9 +2669,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.6,
+        "mean": 1.5714285714285714,
         "median": 2.0,
-        "stdev": 0.6324555320336759
+        "stdev": 0.5976143046671968
       },
       "conversions": {
         "mean": 0,
@@ -2679,14 +2679,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 39.76923076923077,
-        "median": 43.0,
-        "stdev": 15.748786984970485
+        "mean": 41.208333333333336,
+        "median": 45.0,
+        "stdev": 20.915186718291398
       },
       "cost": {
-        "mean": 0.7513333333333333,
-        "median": 0.39,
-        "stdev": 0.9201231801594103
+        "mean": 0.930952380952381,
+        "median": 0.53,
+        "stdev": 0.9897419096001986
       },
       "roas": {
         "mean": 0,
@@ -2698,7 +2698,7 @@
       "product_id": "vic6",
       "product_title": "Patio Plum Tree Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2710,7 +2710,7 @@
       "clicks": {
         "mean": 1.0,
         "median": 1.0,
-        "stdev": 0
+        "stdev": 0.0
       },
       "conversions": {
         "mean": 0,
@@ -2718,14 +2718,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.23076923076923,
-        "median": 10.0,
-        "stdev": 6.922357137571058
+        "mean": 12.5,
+        "median": 10.5,
+        "stdev": 9.624879109492255
       },
       "cost": {
-        "mean": 0.22,
-        "median": 0.22,
-        "stdev": 0
+        "mean": 1.1133333333333333,
+        "median": 1.56,
+        "stdev": 0.7736493607140985
       },
       "roas": {
         "mean": 0,
@@ -2737,7 +2737,7 @@
       "product_id": "wcf",
       "product_title": "Winter Citrus Tree Feed",
       "label": "",
-      "data_points": 33,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -2757,9 +2757,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.5454545454545454,
-        "median": 3.0,
-        "stdev": 3.4739288735064537
+        "mean": 3.324324324324324,
+        "median": 2.0,
+        "stdev": 3.342105574285419
       },
       "cost": {
         "mean": 0,
@@ -2776,7 +2776,7 @@
       "product_id": "wche",
       "product_title": "Wild Cherry Tree Gift - Fragrant Flowers - The \"Love Tree\" For Weddings, Christenings, And Memorials",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2786,9 +2786,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.1666666666666667,
+        "mean": 1.1428571428571428,
         "median": 1.0,
-        "stdev": 0.408248290463863
+        "stdev": 0.37796447300922725
       },
       "conversions": {
         "mean": 0,
@@ -2796,14 +2796,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 30.17948717948718,
+        "mean": 30.833333333333332,
         "median": 30.0,
-        "stdev": 12.141429281318256
+        "stdev": 16.867863607909435
       },
       "cost": {
-        "mean": 0.5,
-        "median": 0.57,
-        "stdev": 0.31304951684997057
+        "mean": 0.5757142857142857,
+        "median": 0.73,
+        "stdev": 0.3489917450244892
       },
       "roas": {
         "mean": 0,
@@ -2815,7 +2815,7 @@
       "product_id": "whrg",
       "product_title": "To My Wonderful Husband Rose Bush Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2825,9 +2825,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.125,
+        "mean": 1.1111111111111112,
         "median": 1.0,
-        "stdev": 0.3535533905932738
+        "stdev": 0.3333333333333333
       },
       "conversions": {
         "mean": 0,
@@ -2835,14 +2835,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 23.17948717948718,
+        "mean": 22.04255319148936,
         "median": 14.0,
-        "stdev": 41.18946709694232
+        "stdev": 38.66183234529918
       },
       "cost": {
-        "mean": 0.21272727272727274,
-        "median": 0.22,
-        "stdev": 0.16829087373300486
+        "mean": 0.20666666666666667,
+        "median": 0.185,
+        "stdev": 0.16182669368147762
       },
       "roas": {
         "mean": 0,
@@ -2854,7 +2854,7 @@
       "product_id": "wlrg",
       "product_title": "With Love Rose Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2874,14 +2874,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.131578947368421,
-        "median": 5.5,
-        "stdev": 5.6719845072386805
+        "mean": 6.304347826086956,
+        "median": 4.5,
+        "stdev": 5.48075244314092
       },
       "cost": {
-        "mean": 0.58,
-        "median": 0.58,
-        "stdev": 0.5232590180780451
+        "mean": 0.6066666666666667,
+        "median": 0.66,
+        "stdev": 0.37287173844813354
       },
       "roas": {
         "mean": 0,
@@ -2893,7 +2893,7 @@
       "product_id": "wwrg",
       "product_title": "To My Wonderful Wife Rose Bush Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2913,14 +2913,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 13.538461538461538,
+        "mean": 13.659574468085106,
         "median": 10.0,
-        "stdev": 9.433551973355959
+        "stdev": 9.67802664880533
       },
       "cost": {
-        "mean": 0.4275,
-        "median": 0.31,
-        "stdev": 0.3324028680181124
+        "mean": 0.6316666666666667,
+        "median": 0.66,
+        "stdev": 0.4090680464991939
       },
       "roas": {
         "mean": 0,
@@ -2932,7 +2932,7 @@
       "product_id": "83",
       "product_title": "The Bay Tree Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 45,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2952,9 +2952,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 16.57894736842105,
-        "median": 14.5,
-        "stdev": 9.993596811979073
+        "mean": 15.844444444444445,
+        "median": 14.0,
+        "stdev": 10.177862687661339
       },
       "cost": {
         "mean": 1.65,
@@ -2971,7 +2971,7 @@
       "product_id": "153",
       "product_title": "The Twisted Olive Tree Gift - 5L pot, 50cm Height - Olea Europaea Variety - Housewarming Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -2981,9 +2981,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.0,
-        "median": 1.5,
-        "stdev": 1.2565617248750864
+        "mean": 2.269230769230769,
+        "median": 2.0,
+        "stdev": 1.537730595590588
       },
       "conversions": {
         "mean": 0,
@@ -2991,14 +2991,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 180.94736842105263,
-        "median": 130.0,
-        "stdev": 150.06844337031796
+        "mean": 202.12765957446808,
+        "median": 144.0,
+        "stdev": 183.15111568002558
       },
       "cost": {
-        "mean": 2.193,
+        "mean": 2.267692307692308,
         "median": 1.98,
-        "stdev": 1.5406017279655786
+        "stdev": 1.5889375260023477
       },
       "roas": {
         "mean": 0,
@@ -3010,7 +3010,7 @@
       "product_id": "281",
       "product_title": "Mini Olive Tree Gift - 20-25cm Tall in a 1L Pot - Hand Gift Wrapped - Evergreen Beauty All Year Round",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3020,9 +3020,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.6153846153846154,
-        "median": 1.0,
-        "stdev": 0.7679476477883045
+        "mean": 1.6842105263157894,
+        "median": 2.0,
+        "stdev": 0.7492686492653552
       },
       "conversions": {
         "mean": 0,
@@ -3030,14 +3030,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 165.28947368421052,
-        "median": 157.5,
-        "stdev": 50.43106501586521
+        "mean": 187.10638297872342,
+        "median": 163.0,
+        "stdev": 111.68263148656187
       },
       "cost": {
-        "mean": 1.3646153846153846,
-        "median": 0.95,
-        "stdev": 1.1073738858564992
+        "mean": 2.0042105263157897,
+        "median": 1.51,
+        "stdev": 1.701239142473227
       },
       "roas": {
         "mean": 0,
@@ -3088,7 +3088,7 @@
       "product_id": "286",
       "product_title": "The Olive Tree Gift - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3098,9 +3098,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.5555555555555556,
-        "median": 2.0,
-        "stdev": 0.5270462766947299
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.5222329678670935
       },
       "conversions": {
         "mean": 0,
@@ -3108,14 +3108,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.36842105263158,
-        "median": 14.0,
-        "stdev": 15.30839913008644
+        "mean": 22.19148936170213,
+        "median": 15.0,
+        "stdev": 22.363244590245515
       },
       "cost": {
-        "mean": 1.642,
-        "median": 1.245,
-        "stdev": 1.6371167066251298
+        "mean": 1.7876923076923077,
+        "median": 1.73,
+        "stdev": 1.4925266823195817
       },
       "roas": {
         "mean": 0,
@@ -3166,7 +3166,7 @@
       "product_id": "287",
       "product_title": "The Olive Tree Gift - Large (5L pot, 80cm height) - Suitable For Potted Or Planted Growth - Gift Wrapped",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 26.683333333333334,
@@ -3176,9 +3176,9 @@
         "max": 52.24
       },
       "clicks": {
-        "mean": 23.405405405405407,
-        "median": 12.0,
-        "stdev": 50.648274874350335
+        "mean": 22.91111111111111,
+        "median": 13.0,
+        "stdev": 46.12425028817774
       },
       "conversions": {
         "mean": 1.096875,
@@ -3186,14 +3186,14 @@
         "stdev": 0.6118683818164382
       },
       "impressions": {
-        "mean": 3144.5641025641025,
-        "median": 1079.0,
-        "stdev": 10448.675100586908
+        "mean": 2815.6666666666665,
+        "median": 1197.0,
+        "stdev": 9429.502158139347
       },
       "cost": {
-        "mean": 20.29054054054054,
-        "median": 15.17,
-        "stdev": 17.136149565229697
+        "mean": 24.794222222222224,
+        "median": 15.99,
+        "stdev": 23.515617391706545
       },
       "roas": {
         "mean": 2.391111111111111,
@@ -3244,7 +3244,7 @@
       "product_id": "590",
       "product_title": "Orange Tree Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3254,9 +3254,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.25,
+        "mean": 1.3636363636363635,
         "median": 1.0,
-        "stdev": 0.4629100498862757
+        "stdev": 0.674199862463242
       },
       "conversions": {
         "mean": 0,
@@ -3264,14 +3264,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 52.8421052631579,
-        "median": 47.0,
-        "stdev": 29.605082028843732
+        "mean": 54.361702127659576,
+        "median": 50.0,
+        "stdev": 33.76094059831948
       },
       "cost": {
-        "mean": 1.71375,
-        "median": 1.44,
-        "stdev": 1.3056354501052079
+        "mean": 2.21,
+        "median": 1.46,
+        "stdev": 2.128938702734299
       },
       "roas": {
         "mean": 0,
@@ -3283,7 +3283,7 @@
       "product_id": "592",
       "product_title": "Calamondin Tree Gift (5l Pot) - Year Round Beauty From Its Fragrant Flowers and Evergreen Leaves - Edible Citrus Fruit",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3293,9 +3293,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.2727272727272727,
+        "mean": 2.0,
         "median": 1.0,
-        "stdev": 0.4670993664969138
+        "stdev": 1.9364916731037085
       },
       "conversions": {
         "mean": 0,
@@ -3303,14 +3303,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 102.26315789473684,
-        "median": 99.0,
-        "stdev": 43.42354835708779
+        "mean": 139.87234042553192,
+        "median": 100.0,
+        "stdev": 162.5593693582208
       },
       "cost": {
-        "mean": 1.0509090909090908,
-        "median": 0.82,
-        "stdev": 0.6538417934860778
+        "mean": 1.6911764705882353,
+        "median": 1.23,
+        "stdev": 1.5271169010300962
       },
       "roas": {
         "mean": 0,
@@ -3322,7 +3322,7 @@
       "product_id": "593",
       "product_title": "Lemon Tree Gift - Large 5L pot, 50-60cm High - Leaves All Year - With Ripening Citrus Fruits - Suitable For Pot Growing Indoors",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 30.10875,
@@ -3332,9 +3332,9 @@
         "max": 59.12
       },
       "clicks": {
-        "mean": 18.10810810810811,
-        "median": 6.0,
-        "stdev": 46.57597364866698
+        "mean": 17.232558139534884,
+        "median": 7.0,
+        "stdev": 43.20760361286862
       },
       "conversions": {
         "mean": 0.95625,
@@ -3342,14 +3342,14 @@
         "stdev": 0.5291485748688305
       },
       "impressions": {
-        "mean": 7216.684210526316,
-        "median": 767.0,
-        "stdev": 27470.788031776065
+        "mean": 6061.191489361702,
+        "median": 779.0,
+        "stdev": 24756.397878948294
       },
       "cost": {
-        "mean": 10.506216216216217,
-        "median": 6.78,
-        "stdev": 9.561930404633944
+        "mean": 12.906046511627906,
+        "median": 9.96,
+        "stdev": 11.748733293329336
       },
       "roas": {
         "mean": 3.88875,
@@ -3400,85 +3400,7 @@
       "product_id": "62",
       "product_title": "Special Daughter Rose Bush Gift - 30-35cm in A 3.5L Pot - Orange-Pink Blooms With Soft-To-The-Touch Petals and Delicate Perfume",
       "label": "",
-      "data_points": 38,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.3076923076923077,
-        "median": 1.0,
-        "stdev": 0.8548504142651103
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 39.3421052631579,
-        "median": 39.0,
-        "stdev": 29.245721623613896
-      },
-      "cost": {
-        "mean": 0.5869230769230769,
-        "median": 0.44,
-        "stdev": 0.6989561814518445
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "71": {
-      "product_id": "71",
-      "product_title": "You Are My Sunshine Rose Bush Gift",
-      "label": "",
-      "data_points": 38,
-      "date_range": "2025-11-24 to 45962",
-      "revenue": {
-        "mean": 13.4,
-        "median": 13.4,
-        "stdev": 0,
-        "min": 13.4,
-        "max": 13.4
-      },
-      "clicks": {
-        "mean": 1.7692307692307692,
-        "median": 1.0,
-        "stdev": 1.6908501882113505
-      },
-      "conversions": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 471.7894736842105,
-        "median": 54.0,
-        "stdev": 1808.1145795715422
-      },
-      "cost": {
-        "mean": 0.4614285714285714,
-        "median": 0.395,
-        "stdev": 0.3043746967866351
-      },
-      "roas": {
-        "mean": 16.96,
-        "median": 16.96,
-        "stdev": 0
-      }
-    },
-    "804": {
-      "product_id": "804",
-      "product_title": "Lime Tree Gift - Evergreen Leaves & Year Round Flowers With A Sweet Fragrance - Great For Use In Cooking",
-      "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3490,7 +3412,7 @@
       "clicks": {
         "mean": 1.2857142857142858,
         "median": 1.0,
-        "stdev": 0.4688072309384954
+        "stdev": 0.825420305855557
       },
       "conversions": {
         "mean": 0,
@@ -3498,14 +3420,92 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 100.63157894736842,
-        "median": 54.5,
-        "stdev": 101.14972072549162
+        "mean": 33.82608695652174,
+        "median": 22.5,
+        "stdev": 29.28655690686321
       },
       "cost": {
-        "mean": 2.019285714285714,
+        "mean": 0.5828571428571429,
+        "median": 0.485,
+        "stdev": 0.6717076810571759
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "71": {
+      "product_id": "71",
+      "product_title": "You Are My Sunshine Rose Bush Gift",
+      "label": "",
+      "data_points": 47,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 13.4,
+        "median": 13.4,
+        "stdev": 0,
+        "min": 13.4,
+        "max": 13.4
+      },
+      "clicks": {
+        "mean": 1.6666666666666667,
+        "median": 1.0,
+        "stdev": 1.495090003192804
+      },
+      "conversions": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 405.1276595744681,
+        "median": 59.0,
+        "stdev": 1628.0461698535573
+      },
+      "cost": {
+        "mean": 0.604,
+        "median": 0.395,
+        "stdev": 0.6665022604296963
+      },
+      "roas": {
+        "mean": 16.96,
+        "median": 16.96,
+        "stdev": 0
+      }
+    },
+    "804": {
+      "product_id": "804",
+      "product_title": "Lime Tree Gift - Evergreen Leaves & Year Round Flowers With A Sweet Fragrance - Great For Use In Cooking",
+      "label": "",
+      "data_points": 47,
+      "date_range": "2025-11-24 to 45962",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.2777777777777777,
+        "median": 1.0,
+        "stdev": 0.4608885989624768
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 132.46808510638297,
+        "median": 56.0,
+        "stdev": 140.53869203638175
+      },
+      "cost": {
+        "mean": 1.9188888888888889,
         "median": 1.27,
-        "stdev": 1.9047610966115502
+        "stdev": 1.818217902196896
       },
       "roas": {
         "mean": 0,
@@ -3517,7 +3517,7 @@
       "product_id": "954",
       "product_title": "Star Magnolia Tree Gift - 50cm High in a 21cm Pot - Bright White Coloured Flowers And Occasional Pink Coloured Magnolia",
       "label": "",
-      "data_points": 33,
+      "data_points": 42,
       "date_range": "2025-11-24 to 45955",
       "revenue": {
         "mean": 0,
@@ -3527,9 +3527,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.6,
+        "mean": 1.5625,
         "median": 1.0,
-        "stdev": 1.2421180068162376
+        "stdev": 1.2093386622447824
       },
       "conversions": {
         "mean": 0,
@@ -3537,14 +3537,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 78.96969696969697,
-        "median": 77.0,
-        "stdev": 49.25284563383423
+        "mean": 86.64285714285714,
+        "median": 80.0,
+        "stdev": 60.65006441537264
       },
       "cost": {
-        "mean": 0.6940000000000001,
-        "median": 0.35,
-        "stdev": 1.076819390612929
+        "mean": 0.6893750000000001,
+        "median": 0.36,
+        "stdev": 1.0404708469406212
       },
       "roas": {
         "mean": 0,
@@ -3556,7 +3556,7 @@
       "product_id": "1035",
       "product_title": "Favourite Colour Japanese Maple Tree Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 27.81,
@@ -3576,9 +3576,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1327.421052631579,
-        "median": 19.0,
-        "stdev": 5431.018264146306
+        "mean": 1102.4130434782608,
+        "median": 20.5,
+        "stdev": 4949.563561348221
       },
       "cost": {
         "mean": 1.57,
@@ -3595,7 +3595,7 @@
       "product_id": "1089",
       "product_title": "Olive Bush Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 45,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3615,14 +3615,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 22.157894736842106,
+        "mean": 21.42222222222222,
         "median": 20.0,
-        "stdev": 13.463717642069629
+        "stdev": 13.238183219365675
       },
       "cost": {
-        "mean": 1.6824999999999999,
-        "median": 1.73,
-        "stdev": 1.08195425041912
+        "mean": 1.57,
+        "median": 1.51,
+        "stdev": 0.9701803955966127
       },
       "roas": {
         "mean": 0,
@@ -3673,7 +3673,7 @@
       "product_id": "1090",
       "product_title": "The Olive Tree Gift - 2L pot, 50cm Height - Suitable For Potted Or Planted Growth - Fragrant, White Blossoms Appear In Spring",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 24.121666666666666,
@@ -3683,9 +3683,9 @@
         "max": 67.88
       },
       "clicks": {
-        "mean": 60.21052631578947,
-        "median": 14.0,
-        "stdev": 234.53889873822024
+        "mean": 55.191489361702125,
+        "median": 15.0,
+        "stdev": 210.82896821603507
       },
       "conversions": {
         "mean": 1.3622222222222222,
@@ -3693,14 +3693,14 @@
         "stdev": 0.6356428478834317
       },
       "impressions": {
-        "mean": 12205.184210526315,
-        "median": 1791.0,
-        "stdev": 56422.18921945958
+        "mean": 10541.04255319149,
+        "median": 1848.0,
+        "stdev": 50731.13762296179
       },
       "cost": {
-        "mean": 24.42,
-        "median": 14.025,
-        "stdev": 34.95524242474901
+        "mean": 27.00468085106383,
+        "median": 15.12,
+        "stdev": 33.813765581944764
       },
       "roas": {
         "mean": 2.839444444444444,
@@ -3751,7 +3751,7 @@
       "product_id": "1091",
       "product_title": "Mature Olive Tree",
       "label": "",
-      "data_points": 38,
+      "data_points": 42,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3771,9 +3771,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.710526315789474,
-        "median": 6.0,
-        "stdev": 8.06027259527242
+        "mean": 8.19047619047619,
+        "median": 5.5,
+        "stdev": 7.846820375898406
       },
       "cost": {
         "mean": 0.4666666666666667,
@@ -3790,7 +3790,7 @@
       "product_id": "1145",
       "product_title": "Satsuma Tree Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 17.43,
@@ -3800,9 +3800,9 @@
         "max": 17.43
       },
       "clicks": {
-        "mean": 3.3181818181818183,
+        "mean": 2.892857142857143,
         "median": 1.0,
-        "stdev": 6.7498597067351005
+        "stdev": 6.014422700748629
       },
       "conversions": {
         "mean": 1.33,
@@ -3810,14 +3810,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 474.43589743589746,
-        "median": 106.0,
-        "stdev": 1439.8138182796558
+        "mean": 431.5833333333333,
+        "median": 114.5,
+        "stdev": 1299.7711718955688
       },
       "cost": {
-        "mean": 1.59,
-        "median": 1.005,
-        "stdev": 1.6795237420173612
+        "mean": 1.5392857142857144,
+        "median": 1.115,
+        "stdev": 1.4936034690476996
       },
       "roas": {
         "mean": 3.87,
@@ -3829,7 +3829,7 @@
       "product_id": "1262",
       "product_title": "Kaffir Lime Tree Gift - Large (60-80cm) In 5L Gift Wrapped Pot - Use The Aromatic Leaves In Any Oriental Recipe",
       "label": "",
-      "data_points": 25,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 41.76,
@@ -3839,9 +3839,9 @@
         "max": 41.76
       },
       "clicks": {
-        "mean": 12.6875,
+        "mean": 10.4,
         "median": 1.0,
-        "stdev": 28.054040113086504
+        "stdev": 25.36553816333865
       },
       "conversions": {
         "mean": 0.97,
@@ -3849,14 +3849,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2249.2,
-        "median": 168.0,
-        "stdev": 6684.249222363471
+        "mean": 1730.8529411764705,
+        "median": 235.5,
+        "stdev": 5768.376275565442
       },
       "cost": {
-        "mean": 2.8,
+        "mean": 3.046666666666667,
         "median": 1.82,
-        "stdev": 3.2108487974365905
+        "stdev": 3.1932026765198187
       },
       "roas": {
         "mean": 11.5,
@@ -3907,7 +3907,7 @@
       "product_id": "1684",
       "product_title": "Mini Calamondin Tree Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.005,
@@ -3917,9 +3917,9 @@
         "max": 17.3
       },
       "clicks": {
-        "mean": 3.05,
+        "mean": 2.9615384615384617,
         "median": 1.0,
-        "stdev": 5.670561097272009
+        "stdev": 4.975787529473253
       },
       "conversions": {
         "mean": 0.8049999999999999,
@@ -3927,14 +3927,14 @@
         "stdev": 0.19091883092036777
       },
       "impressions": {
-        "mean": 1834.0526315789473,
-        "median": 120.0,
-        "stdev": 7712.17265614795
+        "mean": 1521.4255319148936,
+        "median": 124.0,
+        "stdev": 6947.422445848034
       },
       "cost": {
-        "mean": 0.7861904761904762,
-        "median": 0.6,
-        "stdev": 0.7480005092944536
+        "mean": 1.3992592592592592,
+        "median": 0.61,
+        "stdev": 1.9322623765259965
       },
       "roas": {
         "mean": 6.075,
@@ -3946,7 +3946,7 @@
       "product_id": "1685",
       "product_title": "Mini Kaffir Lime Tree Gift",
       "label": "",
-      "data_points": 33,
+      "data_points": 42,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3956,9 +3956,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.4444444444444444,
+        "mean": 1.3846153846153846,
         "median": 1.0,
-        "stdev": 0.7264831572567789
+        "stdev": 0.6504436355879909
       },
       "conversions": {
         "mean": 0,
@@ -3966,14 +3966,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 73.39393939393939,
-        "median": 34.0,
-        "stdev": 85.25584268612452
+        "mean": 100.38095238095238,
+        "median": 35.0,
+        "stdev": 110.74954217401431
       },
       "cost": {
-        "mean": 0.7055555555555556,
-        "median": 0.56,
-        "stdev": 0.5310864127218637
+        "mean": 0.806923076923077,
+        "median": 0.6,
+        "stdev": 0.5306188936104803
       },
       "roas": {
         "mean": 0,
@@ -3985,7 +3985,7 @@
       "product_id": "2295",
       "product_title": "Star Jasmine Gift With Stunning Fragrant White Blooms - Hardy, Evergreen Climbing Plant",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -3995,9 +3995,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.4615384615384615,
+        "mean": 1.375,
         "median": 1.0,
-        "stdev": 0.7762500258061849
+        "stdev": 0.7187952884282608
       },
       "conversions": {
         "mean": 0,
@@ -4005,14 +4005,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 77.42105263157895,
-        "median": 61.0,
-        "stdev": 56.15982577692395
+        "mean": 69.68085106382979,
+        "median": 52.0,
+        "stdev": 54.431091811405764
       },
       "cost": {
-        "mean": 0.686923076923077,
-        "median": 0.6,
-        "stdev": 0.6175676024450631
+        "mean": 0.61375,
+        "median": 0.425,
+        "stdev": 0.5806878105603159
       },
       "roas": {
         "mean": 0,
@@ -4024,7 +4024,7 @@
       "product_id": "3539",
       "product_title": "Dwarf Lemon Tree Gift - 25-35cm Tall - Zesty Fruit And Fragrant Flowers Up To 4 Times A Year",
       "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 24.61,
@@ -4044,9 +4044,9 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 6901.921052631579,
-        "median": 95.0,
-        "stdev": 28464.206578240224
+        "mean": 5711.130434782609,
+        "median": 91.5,
+        "stdev": 25943.378496349138
       },
       "cost": {
         "mean": 6.8575,
@@ -4102,7 +4102,7 @@
       "product_id": "4592",
       "product_title": "Mini Potted Christmas Tree - Mini Potted Christmas Tree - Mini Potted Christmas Tree",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4112,9 +4112,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.25,
+        "mean": 1.1428571428571428,
         "median": 1.0,
-        "stdev": 0.5
+        "stdev": 0.37796447300922725
       },
       "conversions": {
         "mean": 0,
@@ -4122,14 +4122,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 25.526315789473685,
-        "median": 20.5,
-        "stdev": 20.733491436340987
+        "mean": 29.680851063829788,
+        "median": 19.0,
+        "stdev": 34.41126356484908
       },
       "cost": {
-        "mean": 0.4725,
-        "median": 0.285,
-        "stdev": 0.5233466028041709
+        "mean": 0.34285714285714286,
+        "median": 0.16,
+        "stdev": 0.40692809707671473
       },
       "roas": {
         "mean": 0,
@@ -4219,7 +4219,7 @@
       "product_id": "110109",
       "product_title": "12L Sorbus aucuparia 1.5m",
       "label": "",
-      "data_points": 31,
+      "data_points": 36,
       "date_range": "2025-12-11 to 45962",
       "revenue": {
         "mean": 0,
@@ -4239,9 +4239,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.451612903225806,
-        "median": 8.0,
-        "stdev": 5.227100596426406
+        "mean": 7.583333333333333,
+        "median": 5.5,
+        "stdev": 5.331175158577007
       },
       "cost": {
         "mean": 0.23,
@@ -4258,7 +4258,7 @@
       "product_id": "15cwrb",
       "product_title": "Crystal 15th Anniversary Rose Bush Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4268,9 +4268,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.3076923076923077,
+        "mean": 1.2857142857142858,
         "median": 1.0,
-        "stdev": 0.6304251719561152
+        "stdev": 0.6112498455021266
       },
       "conversions": {
         "mean": 0,
@@ -4278,14 +4278,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 76.47368421052632,
-        "median": 68.5,
-        "stdev": 43.9445208232388
+        "mean": 83.51063829787235,
+        "median": 70.0,
+        "stdev": 58.60326164703356
       },
       "cost": {
-        "mean": 0.5907692307692307,
-        "median": 0.26,
-        "stdev": 0.6233573284837188
+        "mean": 0.4676470588235294,
+        "median": 0.2,
+        "stdev": 0.587596049720434
       },
       "roas": {
         "mean": 0,
@@ -4297,7 +4297,7 @@
       "product_id": "20cwrb",
       "product_title": "China 20th Anniversary Rose Bush Gift - 3.5`l Pot, 30-50cm Height - Floribunda Variety With Soft-Pink Blooms",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 9.14,
@@ -4307,9 +4307,9 @@
         "max": 16.04
       },
       "clicks": {
-        "mean": 3.1333333333333333,
+        "mean": 2.8857142857142857,
         "median": 2.0,
-        "stdev": 2.063364064911429
+        "stdev": 2.011312544399926
       },
       "conversions": {
         "mean": 0.798,
@@ -4317,14 +4317,14 @@
         "stdev": 0.4239339571206817
       },
       "impressions": {
-        "mean": 287.1842105263158,
-        "median": 286.0,
-        "stdev": 144.97396882146248
+        "mean": 265.6170212765957,
+        "median": 274.0,
+        "stdev": 149.4643411292312
       },
       "cost": {
-        "mean": 1.784,
-        "median": 1.245,
-        "stdev": 1.5411070807970348
+        "mean": 1.6382857142857143,
+        "median": 1.14,
+        "stdev": 1.4824175122657817
       },
       "roas": {
         "mean": 2.758,
@@ -4336,7 +4336,7 @@
       "product_id": "25swarg",
       "product_title": "Silver 25th Wedding Anniversary Rose Gift - 3.5L Pot - White Floribunda With A Good Scent",
       "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 12.42,
@@ -4346,9 +4346,9 @@
         "max": 12.42
       },
       "clicks": {
-        "mean": 5.5,
+        "mean": 5.136363636363637,
         "median": 2.0,
-        "stdev": 13.422290964542606
+        "stdev": 12.822210843262987
       },
       "conversions": {
         "mean": 1.0,
@@ -4356,14 +4356,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1416.5263157894738,
-        "median": 116.0,
-        "stdev": 7940.355165100451
+        "mean": 1179.9565217391305,
+        "median": 99.5,
+        "stdev": 7218.894085681674
       },
       "cost": {
-        "mean": 1.555,
-        "median": 1.27,
-        "stdev": 1.9152202017137956
+        "mean": 1.4927272727272727,
+        "median": 1.2,
+        "stdev": 1.835855015071625
       },
       "roas": {
         "mean": 3.94,
@@ -4375,7 +4375,7 @@
       "product_id": "35cwrb",
       "product_title": "Coral 35th Anniversary Rose Bush Gift - 3.5L Pot - Floribunda Variety - Apricot Blooms Have A Delicate Scent",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 6.7299999999999995,
@@ -4385,9 +4385,9 @@
         "max": 13.39
       },
       "clicks": {
-        "mean": 6.785714285714286,
+        "mean": 6.32258064516129,
         "median": 3.0,
-        "stdev": 14.994708061221793
+        "stdev": 14.300086472405667
       },
       "conversions": {
         "mean": 0.51,
@@ -4395,14 +4395,14 @@
         "stdev": 0.5150922247520341
       },
       "impressions": {
-        "mean": 1916.1052631578948,
-        "median": 223.0,
-        "stdev": 7605.98489380806
+        "mean": 1568.1489361702127,
+        "median": 179.0,
+        "stdev": 6859.7091932870035
       },
       "cost": {
-        "mean": 1.8971428571428572,
-        "median": 1.415,
-        "stdev": 1.670967466808458
+        "mean": 1.9329032258064516,
+        "median": 1.47,
+        "stdev": 1.6542736443293113
       },
       "roas": {
         "mean": 9.88,
@@ -4414,7 +4414,7 @@
       "product_id": "40rwrb",
       "product_title": "Ruby 40th Anniversary Rose Gift - 3.5L - Deep Red Ruby Hybrid Tea Variety With A Deep Scent",
       "label": "",
-      "data_points": 37,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 13.894285714285715,
@@ -4424,9 +4424,9 @@
         "max": 25.82
       },
       "clicks": {
-        "mean": 7.354838709677419,
+        "mean": 6.970588235294118,
         "median": 3.0,
-        "stdev": 19.267500074991176
+        "stdev": 18.418510606909212
       },
       "conversions": {
         "mean": 1.2385714285714287,
@@ -4434,14 +4434,14 @@
         "stdev": 0.533929726069782
       },
       "impressions": {
-        "mean": 2145.4054054054054,
-        "median": 430.0,
-        "stdev": 9672.19658339034
+        "mean": 1744.7608695652175,
+        "median": 264.0,
+        "stdev": 8690.040107783117
       },
       "cost": {
-        "mean": 2.8209677419354837,
+        "mean": 2.791470588235294,
         "median": 1.69,
-        "stdev": 3.26488014567019
+        "stdev": 3.131255080298731
       },
       "roas": {
         "mean": 8.941428571428572,
@@ -4453,7 +4453,7 @@
       "product_id": "50gwrb",
       "product_title": "Golden 50th Anniversary Rose Gift - 3.5L - Yellow Hybrid Tea Variety - Wedding Anniversary Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 19.54,
@@ -4463,9 +4463,9 @@
         "max": 25.92
       },
       "clicks": {
-        "mean": 4.545454545454546,
+        "mean": 4.282051282051282,
         "median": 4.0,
-        "stdev": 2.5506238096163494
+        "stdev": 2.502090893514104
       },
       "conversions": {
         "mean": 1.5,
@@ -4473,14 +4473,14 @@
         "stdev": 0.5477225575051661
       },
       "impressions": {
-        "mean": 402.2368421052632,
-        "median": 321.0,
-        "stdev": 201.9999242989591
+        "mean": 369.82978723404256,
+        "median": 315.0,
+        "stdev": 206.03306184128041
       },
       "cost": {
-        "mean": 3.5247058823529414,
-        "median": 3.05,
-        "stdev": 2.2928006366359654
+        "mean": 3.24725,
+        "median": 2.5,
+        "stdev": 2.2460460843047083
       },
       "roas": {
         "mean": 5.395,
@@ -4492,7 +4492,7 @@
       "product_id": "55ewrb",
       "product_title": "Emerald 55th Anniversary Rose Bush Gift - Vibrant Yellow Roses With Lush Emerald-Green Foliage - 3.5L Pot At A Height of 30-50cm",
       "label": "",
-      "data_points": 35,
+      "data_points": 43,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 10.125,
@@ -4502,9 +4502,9 @@
         "max": 11.76
       },
       "clicks": {
-        "mean": 3.380952380952381,
+        "mean": 3.272727272727273,
         "median": 2.0,
-        "stdev": 5.748705858505812
+        "stdev": 5.633081015891901
       },
       "conversions": {
         "mean": 1.0,
@@ -4512,14 +4512,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 901.4285714285714,
-        "median": 150.0,
-        "stdev": 4497.655691878723
+        "mean": 736.7209302325581,
+        "median": 135.0,
+        "stdev": 4061.6895694231753
       },
       "cost": {
-        "mean": 1.427142857142857,
-        "median": 1.17,
-        "stdev": 1.0760536364751658
+        "mean": 1.4195454545454544,
+        "median": 1.2149999999999999,
+        "stdev": 1.0507252700271337
       },
       "roas": {
         "mean": 7.130000000000001,
@@ -4531,7 +4531,7 @@
       "product_id": "60dwar",
       "product_title": "Diamond 60th Anniversary Rose Bush - 3.5L Pot - White Floribunda Variety With A Delicate Scent - Diamond Wedding Anniversary Gift",
       "label": "",
-      "data_points": 28,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 16.21125,
@@ -4541,9 +4541,9 @@
         "max": 35.7
       },
       "clicks": {
-        "mean": 9.88888888888889,
-        "median": 10.0,
-        "stdev": 5.472542183365785
+        "mean": 9.121212121212121,
+        "median": 8.0,
+        "stdev": 5.301872167909038
       },
       "conversions": {
         "mean": 1.375,
@@ -4551,14 +4551,14 @@
         "stdev": 0.7363811125070651
       },
       "impressions": {
-        "mean": 678.0357142857143,
-        "median": 568.5,
-        "stdev": 377.5418036351253
+        "mean": 590.5405405405405,
+        "median": 503.0,
+        "stdev": 379.34999923806765
       },
       "cost": {
-        "mean": 6.532592592592593,
-        "median": 6.59,
-        "stdev": 4.139809167464117
+        "mean": 5.971515151515152,
+        "median": 5.76,
+        "stdev": 4.002993505812339
       },
       "roas": {
         "mean": 2.03125,
@@ -4570,7 +4570,7 @@
       "product_id": "acf",
       "product_title": "Annual Citrus Tree Feed",
       "label": "",
-      "data_points": 38,
+      "data_points": 45,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4580,9 +4580,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.7777777777777777,
+        "mean": 1.6363636363636365,
         "median": 1.0,
-        "stdev": 2.3333333333333335
+        "stdev": 2.1105794120443453
       },
       "conversions": {
         "mean": 0,
@@ -4590,14 +4590,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 35.973684210526315,
-        "median": 34.5,
-        "stdev": 16.5537402356529
+        "mean": 32.644444444444446,
+        "median": 34.0,
+        "stdev": 17.70484725044574
       },
       "cost": {
-        "mean": 0.5555555555555556,
+        "mean": 0.52,
         "median": 0.22,
-        "stdev": 0.8090289103473236
+        "stdev": 0.7314369419163896
       },
       "roas": {
         "mean": 0,
@@ -4609,7 +4609,7 @@
       "product_id": "aplpr",
       "product_title": "Little Princess Japanese Maple Tree Gift",
       "label": "",
-      "data_points": 12,
+      "data_points": 16,
       "date_range": "2025-12-03 to 45936",
       "revenue": {
         "mean": 0,
@@ -4629,9 +4629,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.8333333333333335,
+        "mean": 2.5625,
         "median": 2.0,
-        "stdev": 1.403458930534474
+        "stdev": 1.3647344063956182
       },
       "cost": {
         "mean": 0,
@@ -4648,7 +4648,7 @@
       "product_id": "aprbg",
       "product_title": "At Peace Rose Bush Gift - The Perfect Memorial - Plant In Memory Of Someone Special - Gone but not forgotten",
       "label": "",
-      "data_points": 27,
+      "data_points": 36,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 28.44153846153846,
@@ -4658,9 +4658,9 @@
         "max": 50.83
       },
       "clicks": {
-        "mean": 28.703703703703702,
-        "median": 26.0,
-        "stdev": 10.106413861484258
+        "mean": 26.314285714285713,
+        "median": 25.0,
+        "stdev": 11.206015791349143
       },
       "conversions": {
         "mean": 2.7023076923076923,
@@ -4668,14 +4668,14 @@
         "stdev": 1.4061836878952068
       },
       "impressions": {
-        "mean": 2158.740740740741,
-        "median": 2080.0,
-        "stdev": 704.1722687280322
+        "mean": 2041.4722222222222,
+        "median": 2190.5,
+        "stdev": 855.2191193276095
       },
       "cost": {
-        "mean": 16.314074074074075,
-        "median": 14.28,
-        "stdev": 7.453885026903889
+        "mean": 15.092857142857143,
+        "median": 14.09,
+        "stdev": 7.679315828681528
       },
       "roas": {
         "mean": 1.6715384615384616,
@@ -4687,7 +4687,7 @@
       "product_id": "b2br001",
       "product_title": "Name a Rose Corporate",
       "label": "",
-      "data_points": 24,
+      "data_points": 28,
       "date_range": "2025-11-24 to 45958",
       "revenue": {
         "mean": 0,
@@ -4707,9 +4707,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.4583333333333335,
+        "mean": 2.357142857142857,
         "median": 2.0,
-        "stdev": 1.9995470501583856
+        "stdev": 1.889822365046136
       },
       "cost": {
         "mean": 0,
@@ -4726,7 +4726,7 @@
       "product_id": "b2br002",
       "product_title": "Gift Wrapped Promotional Roses (Orders of 100+)",
       "label": "",
-      "data_points": 35,
+      "data_points": 40,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4746,9 +4746,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 45.31428571428572,
-        "median": 14.0,
-        "stdev": 126.20775855440795
+        "mean": 39.975,
+        "median": 12.0,
+        "stdev": 118.70702731234294
       },
       "cost": {
         "mean": 0.2683333333333333,
@@ -4765,7 +4765,7 @@
       "product_id": "b2bt001",
       "product_title": "Promotional Trees in Tubes",
       "label": "",
-      "data_points": 36,
+      "data_points": 42,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4785,9 +4785,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 14.166666666666666,
-        "median": 11.0,
-        "stdev": 10.715809415465143
+        "mean": 12.666666666666666,
+        "median": 9.0,
+        "stdev": 10.579931916113331
       },
       "cost": {
         "mean": 0.31333333333333335,
@@ -4804,7 +4804,7 @@
       "product_id": "b2bt002",
       "product_title": "Promotional Trees in Hessian Bags",
       "label": "",
-      "data_points": 37,
+      "data_points": 44,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -4824,9 +4824,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.702702702702703,
+        "mean": 5.568181818181818,
         "median": 4.0,
-        "stdev": 4.452620107961808
+        "stdev": 4.150638657905424
       },
       "cost": {
         "mean": 0.37333333333333335,
@@ -4843,7 +4843,7 @@
       "product_id": "b2bt003",
       "product_title": "Promotional Tree Cards",
       "label": "",
-      "data_points": 30,
+      "data_points": 36,
       "date_range": "2025-12-03 to 45961",
       "revenue": {
         "mean": 0,
@@ -4863,9 +4863,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.7666666666666666,
+        "mean": 2.5277777777777777,
         "median": 2.0,
-        "stdev": 2.0625283000496615
+        "stdev": 1.9782548024691013
       },
       "cost": {
         "mean": 0.995,
@@ -4882,7 +4882,7 @@
       "product_id": "b2bt004",
       "product_title": "Promo Trees in Triangle Gift Boxes",
       "label": "",
-      "data_points": 18,
+      "data_points": 22,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -4902,9 +4902,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.3888888888888888,
+        "mean": 1.3636363636363635,
         "median": 1.0,
-        "stdev": 0.6076849889141857
+        "stdev": 0.5810872031479765
       },
       "cost": {
         "mean": 0,
@@ -4921,7 +4921,7 @@
       "product_id": "b2bt005",
       "product_title": "Promotional Trees in Pots",
       "label": "",
-      "data_points": 30,
+      "data_points": 34,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -4941,9 +4941,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.3333333333333335,
+        "mean": 3.1470588235294117,
         "median": 2.0,
-        "stdev": 2.940013292643341
+        "stdev": 2.8405329519265203
       },
       "cost": {
         "mean": 0.335,
@@ -4960,7 +4960,7 @@
       "product_id": "blac",
       "product_title": "Blackthorn Tree Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 20.59,
@@ -4970,9 +4970,9 @@
         "max": 22.57
       },
       "clicks": {
-        "mean": 12.090909090909092,
-        "median": 1.0,
-        "stdev": 23.071430581802012
+        "mean": 11.25,
+        "median": 1.5,
+        "stdev": 22.189780612623544
       },
       "conversions": {
         "mean": 1.0,
@@ -4980,14 +4980,14 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 472.3157894736842,
-        "median": 26.0,
-        "stdev": 1828.739783260344
+        "mean": 393.9347826086956,
+        "median": 25.5,
+        "stdev": 1667.2212464280387
       },
       "cost": {
-        "mean": 2.6145454545454543,
-        "median": 0.68,
-        "stdev": 4.533193937250784
+        "mean": 2.4183333333333334,
+        "median": 0.48000000000000004,
+        "stdev": 4.375347951531364
       },
       "roas": {
         "mean": 53.815,
@@ -4999,7 +4999,7 @@
       "product_id": "blu1",
       "product_title": "Blueberry Plant Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 45,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 22.57,
@@ -5019,9 +5019,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 204.71052631578948,
-        "median": 23.0,
-        "stdev": 1111.8888216805194
+        "mean": 175.22222222222223,
+        "median": 20.0,
+        "stdev": 1021.9885003998307
       },
       "cost": {
         "mean": 1.272857142857143,
@@ -5038,7 +5038,7 @@
       "product_id": "blu22",
       "product_title": "Pink Blueberry Plant Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5048,9 +5048,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.1666666666666667,
+        "mean": 1.1428571428571428,
         "median": 1.0,
-        "stdev": 0.408248290463863
+        "stdev": 0.37796447300922725
       },
       "conversions": {
         "mean": 0,
@@ -5058,14 +5058,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 43.76315789473684,
-        "median": 39.0,
-        "stdev": 25.060396462132445
+        "mean": 38.65217391304348,
+        "median": 32.5,
+        "stdev": 25.635233905531354
       },
       "cost": {
-        "mean": 0.475,
-        "median": 0.37,
-        "stdev": 0.4003373577371964
+        "mean": 0.43,
+        "median": 0.25,
+        "stdev": 0.38436094147732197
       },
       "roas": {
         "mean": 0,
@@ -5077,7 +5077,7 @@
       "product_id": "camp01",
       "product_title": "Camellia Plant Gift",
       "label": "",
-      "data_points": 36,
+      "data_points": 44,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -5097,9 +5097,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 8.63888888888889,
+        "mean": 9.181818181818182,
         "median": 8.5,
-        "stdev": 5.89504769290184
+        "stdev": 7.042306464381282
       },
       "cost": {
         "mean": 1.46,
@@ -5116,7 +5116,7 @@
       "product_id": "camr01",
       "product_title": "Camellia Plant Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5126,9 +5126,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.3333333333333333,
-        "median": 1.0,
-        "stdev": 0.5163977794943223
+        "mean": 2.3333333333333335,
+        "median": 1.5,
+        "stdev": 2.059714602177749
       },
       "conversions": {
         "mean": 0,
@@ -5136,14 +5136,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 31.68421052631579,
-        "median": 19.0,
-        "stdev": 29.3267752055094
+        "mean": 63.08510638297872,
+        "median": 22.0,
+        "stdev": 97.52253469510522
       },
       "cost": {
-        "mean": 0.99,
-        "median": 0.76,
-        "stdev": 0.6698955142408404
+        "mean": 2.2783333333333333,
+        "median": 1.3599999999999999,
+        "stdev": 2.7063387993689365
       },
       "roas": {
         "mean": 0,
@@ -5155,7 +5155,7 @@
       "product_id": "camwsa",
       "product_title": "Camellia Plant Gift",
       "label": "",
-      "data_points": 36,
+      "data_points": 45,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5165,9 +5165,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.2307692307692308,
+        "mean": 1.25,
         "median": 1.0,
-        "stdev": 0.4385290096535146
+        "stdev": 0.4472135954999579
       },
       "conversions": {
         "mean": 0,
@@ -5175,14 +5175,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 75.19444444444444,
-        "median": 80.5,
-        "stdev": 48.786309229680086
+        "mean": 76.57777777777778,
+        "median": 79.0,
+        "stdev": 53.09917346081973
       },
       "cost": {
-        "mean": 1.0538461538461539,
-        "median": 0.95,
-        "stdev": 0.7284519940890462
+        "mean": 1.158125,
+        "median": 0.96,
+        "stdev": 0.7770647227440797
       },
       "roas": {
         "mean": 0,
@@ -5233,7 +5233,7 @@
       "product_id": "ctfs",
       "product_title": "Summer Citrus Tree Feed",
       "label": "",
-      "data_points": 24,
+      "data_points": 26,
       "date_range": "2025-12-11 to 45962",
       "revenue": {
         "mean": 0,
@@ -5253,9 +5253,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.041666666666667,
+        "mean": 4.730769230769231,
         "median": 4.0,
-        "stdev": 4.037639933412099
+        "stdev": 4.02549566943195
       },
       "cost": {
         "mean": 0,
@@ -5272,7 +5272,7 @@
       "product_id": "f30rg",
       "product_title": "Fab at 30 Rose Bush Gift - 30th Birthday Present - 40-50cm High - 3.5L Pot - Cream-White Flowers",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5282,9 +5282,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.1333333333333333,
+        "mean": 1.125,
         "median": 1.0,
-        "stdev": 0.5163977794943223
+        "stdev": 0.5
       },
       "conversions": {
         "mean": 0,
@@ -5292,14 +5292,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 33.282051282051285,
-        "median": 25.0,
-        "stdev": 31.88461823343723
+        "mean": 40.375,
+        "median": 26.0,
+        "stdev": 39.537552846709964
       },
       "cost": {
-        "mean": 0.9,
+        "mean": 0.8438888888888889,
         "median": 0.48000000000000004,
-        "stdev": 0.9968617423360842
+        "stdev": 0.9596515230809745
       },
       "roas": {
         "mean": 0,
@@ -5311,7 +5311,7 @@
       "product_id": "f40rg",
       "product_title": "Fab at 40 Rose Bush Gift - 40th Birthday Present - 3.5L Pot, 40-50cm in Height - Floribunda Variety With Soft Pink Flowers",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 19.5775,
@@ -5321,9 +5321,9 @@
         "max": 31.05
       },
       "clicks": {
-        "mean": 5.24,
+        "mean": 5.153846153846154,
         "median": 2.0,
-        "stdev": 10.650821564555478
+        "stdev": 10.4448736045672
       },
       "conversions": {
         "mean": 1.2475,
@@ -5331,14 +5331,14 @@
         "stdev": 0.495
       },
       "impressions": {
-        "mean": 2393.358974358974,
-        "median": 147.0,
-        "stdev": 10287.737612494584
+        "mean": 1962.875,
+        "median": 133.5,
+        "stdev": 9294.713383298033
       },
       "cost": {
-        "mean": 1.9064,
-        "median": 0.93,
-        "stdev": 2.2439471918920018
+        "mean": 2.0026923076923078,
+        "median": 1.165,
+        "stdev": 2.2527681774959585
       },
       "roas": {
         "mean": 18.765,
@@ -5350,7 +5350,7 @@
       "product_id": "f50rg",
       "product_title": "Fab at 50 Rose Bush Gift - 3.5L - Apricot Floribunda Variety - 50th Birthday Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 15.158,
@@ -5360,9 +5360,9 @@
         "max": 27.99
       },
       "clicks": {
-        "mean": 3.260869565217391,
-        "median": 1.0,
-        "stdev": 4.594635125530524
+        "mean": 3.1333333333333333,
+        "median": 1.5,
+        "stdev": 4.133407489138274
       },
       "conversions": {
         "mean": 0.806,
@@ -5370,14 +5370,14 @@
         "stdev": 0.4337971876349592
       },
       "impressions": {
-        "mean": 845.1794871794872,
-        "median": 99.0,
-        "stdev": 3597.6031997325726
+        "mean": 699.9166666666666,
+        "median": 97.5,
+        "stdev": 3249.358109006666
       },
       "cost": {
-        "mean": 1.7378260869565219,
-        "median": 1.1,
-        "stdev": 1.5944305239339136
+        "mean": 1.934,
+        "median": 1.305,
+        "stdev": 1.6861271682723717
       },
       "roas": {
         "mean": 13.646,
@@ -5389,7 +5389,7 @@
       "product_id": "f60rg",
       "product_title": "Fab at 60 Rose Bush Gift - 3.5L - Floribunda Variety With Red Blooms - Special 60th Birthday Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.603333333333333,
@@ -5399,9 +5399,9 @@
         "max": 15.74
       },
       "clicks": {
-        "mean": 3.888888888888889,
-        "median": 3.0,
-        "stdev": 2.6270872276320216
+        "mean": 3.9285714285714284,
+        "median": 3.5,
+        "stdev": 2.5888396227527295
       },
       "conversions": {
         "mean": 0.8733333333333333,
@@ -5409,14 +5409,14 @@
         "stdev": 0.2193931022920578
       },
       "impressions": {
-        "mean": 277.5263157894737,
-        "median": 273.5,
-        "stdev": 125.57774308782874
+        "mean": 260.8723404255319,
+        "median": 268.0,
+        "stdev": 129.5226381121608
       },
       "cost": {
-        "mean": 2.4530555555555558,
-        "median": 2.355,
-        "stdev": 1.6402557630607393
+        "mean": 2.612142857142857,
+        "median": 2.475,
+        "stdev": 1.826335175759375
       },
       "roas": {
         "mean": 10.21,
@@ -5428,19 +5428,19 @@
       "product_id": "f70rg",
       "product_title": "Fab at 70 Rose Bush Gift - 3.5L 40-50cm Tall - 70th Birthday Gift - Pink Floribunda Variety",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
-        "mean": 18.05909090909091,
+        "mean": 17.5725,
         "median": 15.5,
-        "stdev": 9.108077134659604,
+        "stdev": 8.846285430003427,
         "min": 7.51,
         "max": 39.63
       },
       "clicks": {
-        "mean": 12.307692307692308,
+        "mean": 11.511111111111111,
         "median": 10.0,
-        "stdev": 10.28579461442831
+        "stdev": 9.820253242018444
       },
       "conversions": {
         "mean": 1.231818181818182,
@@ -5448,26 +5448,26 @@
         "stdev": 0.668428278603145
       },
       "impressions": {
-        "mean": 3034.6666666666665,
-        "median": 922.0,
-        "stdev": 9317.573129176066
+        "mean": 2572.4583333333335,
+        "median": 902.5,
+        "stdev": 8436.097711262692
       },
       "cost": {
-        "mean": 6.8217948717948715,
+        "mean": 6.686222222222222,
         "median": 6.11,
-        "stdev": 4.2789576151914135
+        "stdev": 4.215485138094422
       },
       "roas": {
-        "mean": 2.800909090909091,
-        "median": 2.62,
-        "stdev": 1.3662170731289704
+        "mean": 2.8125,
+        "median": 2.745,
+        "stdev": 1.3032555390252518
       }
     },
     "f80rg": {
       "product_id": "f80rg",
       "product_title": "Fab at 80 Rose Bush Gift - 3.5L Pot 40-50cm Tall - 80th Birthday Gift - Floribunda Variety With A Fresh Fragrance",
       "label": "",
-      "data_points": 36,
+      "data_points": 45,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 16.142,
@@ -5477,9 +5477,9 @@
         "max": 31.25
       },
       "clicks": {
-        "mean": 6.8,
+        "mean": 6.35,
         "median": 6.0,
-        "stdev": 3.1323736536183473
+        "stdev": 3.182886933393838
       },
       "conversions": {
         "mean": 1.055,
@@ -5487,14 +5487,14 @@
         "stdev": 0.5889963214372961
       },
       "impressions": {
-        "mean": 1106.2222222222222,
-        "median": 475.5,
-        "stdev": 2954.306891023545
+        "mean": 940.8222222222222,
+        "median": 416.0,
+        "stdev": 2657.4898895633287
       },
       "cost": {
-        "mean": 4.193714285714286,
-        "median": 3.79,
-        "stdev": 2.4109554924458108
+        "mean": 3.9685,
+        "median": 3.475,
+        "stdev": 2.3483933951664784
       },
       "roas": {
         "mean": 5.309,
@@ -5506,7 +5506,7 @@
       "product_id": "ff-00287",
       "product_title": "Standard Olive Tree Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 45.44,
@@ -5516,9 +5516,9 @@
         "max": 45.44
       },
       "clicks": {
-        "mean": 1.9375,
+        "mean": 1.8571428571428572,
         "median": 1.0,
-        "stdev": 2.542144763777232
+        "stdev": 2.220038609702865
       },
       "conversions": {
         "mean": 0.97,
@@ -5526,14 +5526,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 577.4102564102565,
-        "median": 56.0,
-        "stdev": 2143.137637326081
+        "mean": 533.3541666666666,
+        "median": 59.0,
+        "stdev": 1932.0242883102085
       },
       "cost": {
-        "mean": 1.81125,
-        "median": 1.305,
-        "stdev": 1.5174622455490174
+        "mean": 2.1280952380952383,
+        "median": 1.56,
+        "stdev": 1.818825497533007
       },
       "roas": {
         "mean": 9.02,
@@ -5545,7 +5545,7 @@
       "product_id": "ffrbg",
       "product_title": "A Faithful Friend Rose Bush Gift - Fragrant Yellow Blooms - In Memory Of A Dog, Cat Or Other Loyal Pet",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 12.27,
@@ -5555,9 +5555,9 @@
         "max": 38.56
       },
       "clicks": {
-        "mean": 10.289473684210526,
-        "median": 7.5,
-        "stdev": 19.202910667236967
+        "mean": 9.488372093023257,
+        "median": 6.0,
+        "stdev": 18.1716315972416
       },
       "conversions": {
         "mean": 1.105,
@@ -5565,14 +5565,14 @@
         "stdev": 0.699479965561718
       },
       "impressions": {
-        "mean": 3432.3846153846152,
-        "median": 448.0,
-        "stdev": 13069.28606880185
+        "mean": 2831.1458333333335,
+        "median": 382.0,
+        "stdev": 11819.598803339188
       },
       "cost": {
-        "mean": 3.1755263157894738,
-        "median": 2.255,
-        "stdev": 3.484809271890059
+        "mean": 2.9670454545454548,
+        "median": 2.24,
+        "stdev": 3.3085854347864716
       },
       "roas": {
         "mean": 4.861,
@@ -5584,7 +5584,7 @@
       "product_id": "figa",
       "product_title": "Small Fig Tree Gift for Planting - 40-70cm Height - Gift Wrapped Fruit Tree - Tree2mydoor",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 16.405,
@@ -5594,9 +5594,9 @@
         "max": 16.61
       },
       "clicks": {
-        "mean": 3.0689655172413794,
-        "median": 3.0,
-        "stdev": 2.2824021569196193
+        "mean": 3.1470588235294117,
+        "median": 2.5,
+        "stdev": 2.363002108787021
       },
       "conversions": {
         "mean": 1.5,
@@ -5604,14 +5604,14 @@
         "stdev": 0.7071067811865476
       },
       "impressions": {
-        "mean": 339.7435897435897,
-        "median": 196.0,
-        "stdev": 313.1754777948583
+        "mean": 345.4166666666667,
+        "median": 237.5,
+        "stdev": 302.9425079459259
       },
       "cost": {
-        "mean": 3.059310344827586,
-        "median": 2.44,
-        "stdev": 2.8763492871476646
+        "mean": 3.4058823529411764,
+        "median": 2.525,
+        "stdev": 3.314558444606076
       },
       "roas": {
         "mean": 2.515,
@@ -5623,7 +5623,7 @@
       "product_id": "garbi",
       "product_title": "Dwarf Cherry Tree Gift",
       "label": "",
-      "data_points": 38,
+      "data_points": 44,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5633,8 +5633,8 @@
         "max": 0
       },
       "clicks": {
-        "mean": 0,
-        "median": 0,
+        "mean": 1.0,
+        "median": 1.0,
         "stdev": 0
       },
       "conversions": {
@@ -5643,13 +5643,13 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 13.447368421052632,
-        "median": 12.5,
-        "stdev": 9.228912759662554
+        "mean": 12.204545454545455,
+        "median": 10.5,
+        "stdev": 9.143760219481601
       },
       "cost": {
-        "mean": 0,
-        "median": 0,
+        "mean": 0.36,
+        "median": 0.36,
         "stdev": 0
       },
       "roas": {
@@ -5662,7 +5662,7 @@
       "product_id": "gpbbp-placo",
       "product_title": "Solid Brass Bench Plaque",
       "label": "",
-      "data_points": 35,
+      "data_points": 40,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -5682,9 +5682,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 39.91428571428571,
-        "median": 38.0,
-        "stdev": 27.49799075929584
+        "mean": 35.9,
+        "median": 31.5,
+        "stdev": 27.864875417831712
       },
       "cost": {
         "mean": 1.358,
@@ -5701,7 +5701,7 @@
       "product_id": "grapc",
       "product_title": "Red Grape Vine Gift Plant, Fruiting Grapevine For Wine, Table Grapes, Dessert Grapes, Edible Red Grapes",
       "label": "",
-      "data_points": 38,
+      "data_points": 43,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5721,9 +5721,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.947368421052632,
+        "mean": 7.651162790697675,
         "median": 8.0,
-        "stdev": 5.392423956892458
+        "stdev": 5.213917825581435
       },
       "cost": {
         "mean": 0,
@@ -5740,7 +5740,7 @@
       "product_id": "grapg",
       "product_title": "White Grape Vine Gift Plant - 3L Pot - Grow Your Own Grapes - Seedless Grapes - Grape Vine For Sale",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5750,9 +5750,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.5,
+        "mean": 1.3636363636363635,
         "median": 1.0,
-        "stdev": 0.7559289460184545
+        "stdev": 0.674199862463242
       },
       "conversions": {
         "mean": 0,
@@ -5760,14 +5760,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 27.743589743589745,
-        "median": 27.0,
-        "stdev": 12.476753011981815
+        "mean": 27.25,
+        "median": 26.5,
+        "stdev": 14.600349748069648
       },
       "cost": {
-        "mean": 1.7374999999999998,
-        "median": 1.095,
-        "stdev": 1.5215382254247085
+        "mean": 1.4663636363636363,
+        "median": 1.06,
+        "stdev": 1.3625143869132004
       },
       "roas": {
         "mean": 0,
@@ -5779,7 +5779,7 @@
       "product_id": "gv-030",
       "product_title": "E-Gift Card",
       "label": "",
-      "data_points": 39,
+      "data_points": 43,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 3.12,
@@ -5799,9 +5799,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 28.58974358974359,
-        "median": 14.0,
-        "stdev": 31.347557571874674
+        "mean": 26.232558139534884,
+        "median": 12.0,
+        "stdev": 30.73685333315563
       },
       "cost": {
         "mean": 0.744,
@@ -5818,7 +5818,7 @@
       "product_id": "hbrg-cream",
       "product_title": "Favourite Colour Happy Birthday Rose Bush Gift",
       "label": "",
-      "data_points": 36,
+      "data_points": 42,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5838,9 +5838,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.555555555555557,
-        "median": 19.0,
-        "stdev": 12.7334081274293
+        "mean": 16.333333333333332,
+        "median": 14.0,
+        "stdev": 13.01343895732158
       },
       "cost": {
         "mean": 0.40499999999999997,
@@ -5857,7 +5857,7 @@
       "product_id": "hbrg-ornge",
       "product_title": "Favourite Colour Happy Birthday Rose Bush Gift",
       "label": "",
-      "data_points": 37,
+      "data_points": 44,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5877,9 +5877,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 55.16216216216216,
-        "median": 57.0,
-        "stdev": 39.69362775161883
+        "mean": 47.45454545454545,
+        "median": 48.0,
+        "stdev": 40.51956435029159
       },
       "cost": {
         "mean": 0.5663636363636364,
@@ -5896,7 +5896,7 @@
       "product_id": "hbrg-pink",
       "product_title": "Favourite Colour Happy Birthday Rose Bush Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -5916,9 +5916,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 46.05128205128205,
-        "median": 41.0,
-        "stdev": 41.85309440735518
+        "mean": 39.93478260869565,
+        "median": 36.0,
+        "stdev": 41.15088883820024
       },
       "cost": {
         "mean": 0.57125,
@@ -5935,7 +5935,7 @@
       "product_id": "hbrg-red",
       "product_title": "Favourite Colour Happy Birthday Rose Bush Gift",
       "label": "",
-      "data_points": 35,
+      "data_points": 41,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -5945,9 +5945,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
+        "mean": 1.5,
+        "median": 1.5,
+        "stdev": 0.7071067811865476
       },
       "conversions": {
         "mean": 0,
@@ -5955,14 +5955,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 16.2,
-        "median": 16.0,
-        "stdev": 10.646181309304676
+        "mean": 14.317073170731707,
+        "median": 12.0,
+        "stdev": 10.859187410645061
       },
       "cost": {
-        "mean": 0.67,
-        "median": 0.67,
-        "stdev": 0
+        "mean": 0.795,
+        "median": 0.795,
+        "stdev": 0.1767766952966369
       },
       "roas": {
         "mean": 0,
@@ -5974,8 +5974,8 @@
       "product_id": "hbrg-whte",
       "product_title": "Favourite Colour Happy Birthday Rose Bush Gift",
       "label": "",
-      "data_points": 9,
-      "date_range": "45934 to 45942",
+      "data_points": 10,
+      "date_range": "2025-12-19 to 45942",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -5994,9 +5994,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.777777777777779,
-        "median": 10.0,
-        "stdev": 8.526103708285776
+        "mean": 10.7,
+        "median": 9.5,
+        "stdev": 8.731170215574389
       },
       "cost": {
         "mean": 0,
@@ -6013,7 +6013,7 @@
       "product_id": "hcrg",
       "product_title": "The Happy Couple Rose Bush Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 11.12,
@@ -6023,9 +6023,9 @@
         "max": 13.5
       },
       "clicks": {
-        "mean": 3.9130434782608696,
-        "median": 3.0,
-        "stdev": 4.842173098538045
+        "mean": 3.5185185185185186,
+        "median": 2.0,
+        "stdev": 4.560451819471488
       },
       "conversions": {
         "mean": 0.915,
@@ -6033,14 +6033,14 @@
         "stdev": 0.20820662813657015
       },
       "impressions": {
-        "mean": 820.6153846153846,
-        "median": 105.0,
-        "stdev": 3116.0444191093216
+        "mean": 680.6458333333334,
+        "median": 104.5,
+        "stdev": 2817.3668292610687
       },
       "cost": {
-        "mean": 1.0160869565217392,
-        "median": 0.96,
-        "stdev": 0.7475519995925779
+        "mean": 0.9433333333333334,
+        "median": 0.83,
+        "stdev": 0.7155041256667594
       },
       "roas": {
         "mean": 14.081666666666667,
@@ -6052,7 +6052,7 @@
       "product_id": "lmrbg",
       "product_title": "Loving Memories Rose Bush Gift - Loving Memories Patio Rose Bush - Loving Memories Patio Rose Bush",
       "label": "",
-      "data_points": 28,
+      "data_points": 37,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6062,9 +6062,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.8181818181818183,
-        "median": 3.0,
-        "stdev": 1.651445647689541
+        "mean": 2.6538461538461537,
+        "median": 2.5,
+        "stdev": 1.5985570416424355
       },
       "conversions": {
         "mean": 0,
@@ -6072,14 +6072,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 280.10714285714283,
-        "median": 235.5,
-        "stdev": 159.37733917777095
+        "mean": 267.35135135135135,
+        "median": 229.0,
+        "stdev": 164.11568010539534
       },
       "cost": {
-        "mean": 1.4054545454545455,
-        "median": 1.4900000000000002,
-        "stdev": 1.0731383759916397
+        "mean": 1.2776923076923077,
+        "median": 1.0,
+        "stdev": 1.0379876981633556
       },
       "roas": {
         "mean": 0,
@@ -6091,19 +6091,19 @@
       "product_id": "minmyrt-3l",
       "product_title": "The Mini Myrtle Present Tree - Large - 55cm Tall In A 3L Pot - Myrtus Communis 'Microphylla' - Hand Gift Wrapped",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
-        "mean": 26.031666666666666,
-        "median": 26.395,
-        "stdev": 1.3768430072694082,
+        "mean": 27.728571428571428,
+        "median": 26.61,
+        "stdev": 4.662204158876744,
         "min": 23.34,
-        "max": 27.26
+        "max": 37.91
       },
       "clicks": {
-        "mean": 5.216216216216216,
-        "median": 4.0,
-        "stdev": 2.615500112949881
+        "mean": 5.255813953488372,
+        "median": 5.0,
+        "stdev": 2.6645201770837423
       },
       "conversions": {
         "mean": 1.0,
@@ -6111,26 +6111,26 @@
         "stdev": 0.0
       },
       "impressions": {
-        "mean": 408.5128205128205,
-        "median": 347.0,
-        "stdev": 181.79237315292465
+        "mean": 429.2291666666667,
+        "median": 357.5,
+        "stdev": 228.44006053856938
       },
       "cost": {
-        "mean": 2.674594594594595,
-        "median": 2.03,
-        "stdev": 1.984867186425265
+        "mean": 2.82046511627907,
+        "median": 2.31,
+        "stdev": 1.9941210660677313
       },
       "roas": {
-        "mean": 15.836666666666666,
-        "median": 11.114999999999998,
-        "stdev": 10.148961851670675
+        "mean": 14.461428571428572,
+        "median": 8.94,
+        "stdev": 9.953566242929263
       }
     },
     "narbg": {
       "product_id": "narbg",
       "product_title": "New Arrival Rose Bush Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6150,9 +6150,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.743589743589743,
-        "median": 8.0,
-        "stdev": 9.374427557871828
+        "mean": 10.347826086956522,
+        "median": 7.0,
+        "stdev": 9.266948176310011
       },
       "cost": {
         "mean": 4.88,
@@ -6169,7 +6169,7 @@
       "product_id": "oaka",
       "product_title": "Oak Tree Gift - 20-50cm Delivered Gift-Wrapped - Grows Up To 21m - Great For Anniversary, Wedding Or Special Birthday",
       "label": "",
-      "data_points": 38,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 18.95777777777778,
@@ -6179,9 +6179,9 @@
         "max": 35.83
       },
       "clicks": {
-        "mean": 7.162162162162162,
+        "mean": 6.739130434782608,
         "median": 5.0,
-        "stdev": 12.079628198641604
+        "stdev": 10.932997520470252
       },
       "conversions": {
         "mean": 1.2166666666666668,
@@ -6189,14 +6189,14 @@
         "stdev": 0.4696807426326951
       },
       "impressions": {
-        "mean": 2382.7368421052633,
-        "median": 352.0,
-        "stdev": 8808.644929638373
+        "mean": 2022.7021276595744,
+        "median": 390.0,
+        "stdev": 7936.789611935408
       },
       "cost": {
-        "mean": 2.5870270270270272,
-        "median": 2.33,
-        "stdev": 2.4717041634207506
+        "mean": 2.8980434782608695,
+        "median": 2.4749999999999996,
+        "stdev": 2.687080712152724
       },
       "roas": {
         "mean": 8.697777777777777,
@@ -6208,7 +6208,7 @@
       "product_id": "p00269",
       "product_title": "Twisted Bay Tree Gift (large)",
       "label": "",
-      "data_points": 39,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6218,9 +6218,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.4545454545454546,
+        "mean": 1.4166666666666667,
         "median": 1.0,
-        "stdev": 0.9341987329938276
+        "stdev": 0.90033663737852
       },
       "conversions": {
         "mean": 0,
@@ -6228,14 +6228,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 44.02564102564103,
-        "median": 32.0,
-        "stdev": 35.92498557263541
+        "mean": 38.170212765957444,
+        "median": 25.0,
+        "stdev": 35.283521926232986
       },
       "cost": {
-        "mean": 0.7672727272727273,
-        "median": 0.45,
-        "stdev": 1.0946331888727923
+        "mean": 0.8316666666666667,
+        "median": 0.47,
+        "stdev": 1.0672635640513148
       },
       "roas": {
         "mean": 0,
@@ -6247,7 +6247,7 @@
       "product_id": "p01090-2",
       "product_title": "Pair of Small Olive Tree Gifts",
       "label": "",
-      "data_points": 39,
+      "data_points": 44,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6267,9 +6267,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.9743589743589745,
+        "mean": 4.886363636363637,
         "median": 4.0,
-        "stdev": 4.0877685296450945
+        "stdev": 3.8892571724000895
       },
       "cost": {
         "mean": 3.7,
@@ -6286,7 +6286,7 @@
       "product_id": "p30arg",
       "product_title": "Pearl 30th Anniversary Rose Bush Gift",
       "label": "",
-      "data_points": 30,
+      "data_points": 37,
       "date_range": "2025-12-11 to 45958",
       "revenue": {
         "mean": 13.765714285714285,
@@ -6296,9 +6296,9 @@
         "max": 36.61
       },
       "clicks": {
-        "mean": 6.0,
-        "median": 3.5,
-        "stdev": 8.536367214300899
+        "mean": 5.653846153846154,
+        "median": 3.0,
+        "stdev": 8.279817909554811
       },
       "conversions": {
         "mean": 1.292857142857143,
@@ -6306,14 +6306,14 @@
         "stdev": 1.24513338356063
       },
       "impressions": {
-        "mean": 1637.2,
-        "median": 189.5,
-        "stdev": 6019.515116226785
+        "mean": 1332.1351351351352,
+        "median": 177.0,
+        "stdev": 5440.48849503099
       },
       "cost": {
-        "mean": 2.4025,
+        "mean": 2.3234615384615385,
         "median": 1.955,
-        "stdev": 1.6585935634433326
+        "stdev": 1.6519296408932005
       },
       "roas": {
         "mean": 3.512857142857143,
@@ -6325,7 +6325,7 @@
       "product_id": "pea",
       "product_title": "Peace Rose Bush Gift",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.028333333333332,
@@ -6335,9 +6335,9 @@
         "max": 26.99
       },
       "clicks": {
-        "mean": 5.190476190476191,
+        "mean": 4.826086956521739,
         "median": 2.0,
-        "stdev": 8.059894835660373
+        "stdev": 7.779063824914593
       },
       "conversions": {
         "mean": 1.0766666666666667,
@@ -6345,14 +6345,14 @@
         "stdev": 0.5677558160571027
       },
       "impressions": {
-        "mean": 1626.974358974359,
-        "median": 133.0,
-        "stdev": 6521.099408790303
+        "mean": 1336.2708333333333,
+        "median": 119.0,
+        "stdev": 5895.445911850667
       },
       "cost": {
-        "mean": 2.1080952380952382,
-        "median": 1.66,
-        "stdev": 1.9914106031846346
+        "mean": 2.0252173913043476,
+        "median": 1.4,
+        "stdev": 1.9199097269621284
       },
       "roas": {
         "mean": 4.718333333333334,
@@ -6364,7 +6364,7 @@
       "product_id": "pmpp-plpet",
       "product_title": "Pet Memorial Plaque and Plinth",
       "label": "",
-      "data_points": 34,
+      "data_points": 41,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -6384,9 +6384,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 11.058823529411764,
-        "median": 9.5,
-        "stdev": 8.577423419265775
+        "mean": 9.829268292682928,
+        "median": 8.0,
+        "stdev": 8.449563417787898
       },
       "cost": {
         "mean": 0.45571428571428574,
@@ -6442,7 +6442,7 @@
       "product_id": "qerg",
       "product_title": "Queen Elizabeth Rose Bush Gift - Pink Floribunda Flowers - Voted The World's Favourite Rose",
       "label": "",
-      "data_points": 39,
+      "data_points": 47,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6462,9 +6462,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 37.35897435897436,
-        "median": 35.0,
-        "stdev": 22.923772055143267
+        "mean": 32.87234042553192,
+        "median": 28.0,
+        "stdev": 23.269327657255626
       },
       "cost": {
         "mean": 0.41200000000000003,
@@ -6481,7 +6481,7 @@
       "product_id": "rasyu",
       "product_title": "Raspberry Bush Gift",
       "label": "",
-      "data_points": 35,
+      "data_points": 41,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6501,9 +6501,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.4571428571428573,
+        "mean": 3.3658536585365852,
         "median": 3.0,
-        "stdev": 2.501092198395323
+        "stdev": 2.3744062158882544
       },
       "cost": {
         "mean": 1.45,
@@ -6559,7 +6559,7 @@
       "product_id": "roha",
       "product_title": "Anniversary Gift Rose Bush - Premium Live Potted Plant | Elegant Romantic Gesture for Loved Ones | Unique Garden Present from Tree2MyDoor",
       "label": "",
-      "data_points": 38,
+      "data_points": 43,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6579,9 +6579,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 13.710526315789474,
-        "median": 13.5,
-        "stdev": 11.01818618205973
+        "mean": 12.348837209302326,
+        "median": 8.0,
+        "stdev": 11.030010406527563
       },
       "cost": {
         "mean": 1.15,
@@ -6637,8 +6637,8 @@
       "product_id": "tgpa-oaka-placo1",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 23,
-      "date_range": "45934 to 45962",
+      "data_points": 27,
+      "date_range": "2025-12-16 to 45962",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -6657,9 +6657,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.6956521739130435,
+        "mean": 1.6296296296296295,
         "median": 1.0,
-        "stdev": 0.9739695071153479
+        "stdev": 0.9260398790278189
       },
       "cost": {
         "mean": 0,
@@ -6676,7 +6676,7 @@
       "product_id": "tgpa-rowa-placo1",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 27,
+      "data_points": 29,
       "date_range": "2025-12-13 to 45960",
       "revenue": {
         "mean": 0,
@@ -6696,9 +6696,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.925925925925926,
+        "mean": 2.793103448275862,
         "median": 2.0,
-        "stdev": 2.4167035069399474
+        "stdev": 2.381165836080355
       },
       "cost": {
         "mean": 0,
@@ -6715,7 +6715,7 @@
       "product_id": "tgpb-oaka-placo",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 28,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6735,9 +6735,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.285714285714286,
-        "median": 4.5,
-        "stdev": 2.5071326821120348
+        "mean": 3.8484848484848486,
+        "median": 3.0,
+        "stdev": 2.5387153754558147
       },
       "cost": {
         "mean": 1.3399999999999999,
@@ -6754,7 +6754,7 @@
       "product_id": "tgpb-rowa-placo1",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 24,
+      "data_points": 27,
       "date_range": "2025-12-03 to 45960",
       "revenue": {
         "mean": 0,
@@ -6774,9 +6774,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.0,
-        "median": 1.5,
-        "stdev": 1.3513278493843524
+        "mean": 1.962962962962963,
+        "median": 2.0,
+        "stdev": 1.285465539180904
       },
       "cost": {
         "mean": 0.11,
@@ -6793,7 +6793,7 @@
       "product_id": "tgpm-crab-placo",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 39,
+      "data_points": 48,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -6803,9 +6803,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.75,
-        "median": 2.0,
-        "stdev": 0.7071067811865476
+        "mean": 1.5454545454545454,
+        "median": 1.0,
+        "stdev": 0.6875516509523286
       },
       "conversions": {
         "mean": 0,
@@ -6813,14 +6813,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 55.61538461538461,
-        "median": 51.0,
-        "stdev": 41.972180877473306
+        "mean": 63.020833333333336,
+        "median": 51.5,
+        "stdev": 49.65947428764045
       },
       "cost": {
-        "mean": 0.79,
-        "median": 0.745,
-        "stdev": 0.35600963068835245
+        "mean": 0.6936363636363636,
+        "median": 0.58,
+        "stdev": 0.35271157415862403
       },
       "roas": {
         "mean": 0,
@@ -6832,7 +6832,7 @@
       "product_id": "tgpm-crab-placo1",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 30,
+      "data_points": 35,
       "date_range": "2025-12-03 to 45961",
       "revenue": {
         "mean": 0,
@@ -6852,9 +6852,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 5.566666666666666,
-        "median": 4.0,
-        "stdev": 4.882645787383872
+        "mean": 4.9714285714285715,
+        "median": 3.0,
+        "stdev": 4.749524522863032
       },
       "cost": {
         "mean": 0.11,
@@ -6871,7 +6871,7 @@
       "product_id": "tgpm-wche-placo1",
       "product_title": "Memorial Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45961",
       "revenue": {
         "mean": 0,
@@ -6891,9 +6891,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.774193548387097,
+        "mean": 3.6875,
         "median": 2.0,
-        "stdev": 3.1486470895646046
+        "stdev": 3.1360289251463924
       },
       "cost": {
         "mean": 0,
@@ -6949,7 +6949,7 @@
       "product_id": "tgpsc-oaka-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 30,
+      "data_points": 31,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -6969,9 +6969,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.433333333333333,
+        "mean": 2.3870967741935485,
         "median": 2.0,
-        "stdev": 1.5905612397739561
+        "stdev": 1.5848747448897176
       },
       "cost": {
         "mean": 0,
@@ -6988,7 +6988,7 @@
       "product_id": "tgpsc-silb-placo1",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 19,
+      "data_points": 23,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -7008,9 +7008,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.4736842105263157,
+        "mean": 1.4782608695652173,
         "median": 1.0,
-        "stdev": 0.696692268479466
+        "stdev": 0.6653478391304605
       },
       "cost": {
         "mean": 0,
@@ -7027,7 +7027,7 @@
       "product_id": "tgpsc-wche-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 27,
+      "data_points": 29,
       "date_range": "2025-12-03 to 45961",
       "revenue": {
         "mean": 0,
@@ -7047,9 +7047,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.3333333333333335,
+        "mean": 2.310344827586207,
         "median": 2.0,
-        "stdev": 1.5442199922988256
+        "stdev": 1.5142996560376887
       },
       "cost": {
         "mean": 0,
@@ -7066,7 +7066,7 @@
       "product_id": "tgpsc-wche-placo1",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 17,
+      "data_points": 22,
       "date_range": "2025-12-08 to 45960",
       "revenue": {
         "mean": 0,
@@ -7086,9 +7086,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.3529411764705883,
+        "mean": 1.4090909090909092,
         "median": 1.0,
-        "stdev": 0.6063390625908325
+        "stdev": 0.6661253213344646
       },
       "cost": {
         "mean": 1.05,
@@ -7105,7 +7105,7 @@
       "product_id": "tgpw-blac-placo",
       "product_title": "Wedding Tree Gift Pack - Your Choice Of Native Sapling - Personalised Plaque, Wooden Plinth, Stake, Tree Protector & Wedding Greetings Card",
       "label": "",
-      "data_points": 30,
+      "data_points": 32,
       "date_range": "2025-12-11 to 45962",
       "revenue": {
         "mean": 0,
@@ -7125,9 +7125,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.333333333333333,
+        "mean": 4.125,
         "median": 3.0,
-        "stdev": 3.1440511241492826
+        "stdev": 3.1495007284821632
       },
       "cost": {
         "mean": 0.9949999999999999,
@@ -7144,7 +7144,7 @@
       "product_id": "tgpw-crab-placo",
       "product_title": "Wedding Tree Gift Pack - Tree of Love (Crab Apple) Sapling - Includes Plaque, Plinth, Stake, Tree Protector Tube and Greetings Card",
       "label": "",
-      "data_points": 27,
+      "data_points": 29,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -7164,9 +7164,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.185185185185185,
+        "mean": 3.0344827586206895,
         "median": 2.0,
-        "stdev": 2.270835783735838
+        "stdev": 2.2596263695684873
       },
       "cost": {
         "mean": 0,
@@ -7183,7 +7183,7 @@
       "product_id": "tgpw-crab-placo1",
       "product_title": "Wedding Tree Gift Pack - Range Of Varieties - Living And Lasting, A Reminder Of True Love And A Growing Symbol Of Marriage",
       "label": "",
-      "data_points": 37,
+      "data_points": 44,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7203,9 +7203,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 33.45945945945946,
-        "median": 23.0,
-        "stdev": 32.72409458436346
+        "mean": 29.113636363636363,
+        "median": 11.5,
+        "stdev": 31.634699750903433
       },
       "cost": {
         "mean": 1.1454545454545455,
@@ -7261,7 +7261,7 @@
       "product_id": "cororbg",
       "product_title": "Coronation Rose Bush Gift",
       "label": "",
-      "data_points": 28,
+      "data_points": 32,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7281,9 +7281,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.2857142857142856,
+        "mean": 2.3125,
         "median": 2.0,
-        "stdev": 1.5361602650076456
+        "stdev": 1.6151999776318522
       },
       "cost": {
         "mean": 0,
@@ -7300,7 +7300,7 @@
       "product_id": "crab",
       "product_title": "Crab Apple Tree Gift",
       "label": "",
-      "data_points": 37,
+      "data_points": 46,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7320,9 +7320,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 21.2972972972973,
-        "median": 20.0,
-        "stdev": 13.368422297141676
+        "mean": 20.08695652173913,
+        "median": 19.5,
+        "stdev": 13.214177717649449
       },
       "cost": {
         "mean": 0.7366666666666667,
@@ -7339,7 +7339,7 @@
       "product_id": "ppap-placo",
       "product_title": "Engraved Plaque and Plinth",
       "label": "",
-      "data_points": 31,
+      "data_points": 33,
       "date_range": "2025-12-03 to 45961",
       "revenue": {
         "mean": 0,
@@ -7359,9 +7359,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 4.064516129032258,
+        "mean": 3.878787878787879,
         "median": 3.0,
-        "stdev": 3.2448470315354645
+        "stdev": 3.228366225329537
       },
       "cost": {
         "mean": 0,
@@ -7378,7 +7378,7 @@
       "product_id": "tgpa-crab-placo",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 33,
+      "data_points": 36,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -7398,9 +7398,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.121212121212121,
+        "mean": 5.75,
         "median": 5.0,
-        "stdev": 4.188955536270167
+        "stdev": 4.197788533433833
       },
       "cost": {
         "mean": 0.8049999999999999,
@@ -7417,7 +7417,7 @@
       "product_id": "tgpb-crab-placo",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 31,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7437,9 +7437,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.774193548387097,
+        "mean": 3.606060606060606,
         "median": 3.0,
-        "stdev": 2.8367784241912495
+        "stdev": 2.8277574367707214
       },
       "cost": {
         "mean": 0,
@@ -7456,7 +7456,7 @@
       "product_id": "tgpb-oaka-placo1",
       "product_title": "Birthday Tree Gift Pack",
       "label": "",
-      "data_points": 14,
+      "data_points": 15,
       "date_range": "2025-12-03 to 45958",
       "revenue": {
         "mean": 0,
@@ -7476,9 +7476,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.9285714285714286,
-        "median": 1.5,
-        "stdev": 1.2688144505364485
+        "mean": 1.8666666666666667,
+        "median": 1.0,
+        "stdev": 1.245945806357946
       },
       "cost": {
         "mean": 0,
@@ -7534,7 +7534,7 @@
       "product_id": "tgpsc-blac-placo1",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 22,
+      "data_points": 27,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 13.13,
@@ -7554,9 +7554,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2881.0454545454545,
-        "median": 2.0,
-        "stdev": 10656.525005287216
+        "mean": 2347.703703703704,
+        "median": 1.0,
+        "stdev": 9644.817451774952
       },
       "cost": {
         "mean": 2.3725,
@@ -7573,7 +7573,7 @@
       "product_id": "tgpsc-crab-placo",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 35,
+      "data_points": 41,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7593,9 +7593,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 7.114285714285714,
-        "median": 5.0,
-        "stdev": 6.34670562330628
+        "mean": 6.536585365853658,
+        "median": 4.0,
+        "stdev": 6.09137735235476
       },
       "cost": {
         "mean": 0.71,
@@ -7612,7 +7612,7 @@
       "product_id": "tgpwb-oaka-plbab",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 18,
+      "data_points": 20,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7632,9 +7632,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.7222222222222223,
+        "mean": 1.65,
         "median": 1.0,
-        "stdev": 1.487420014875958
+        "stdev": 1.4244112357114616
       },
       "cost": {
         "mean": 0,
@@ -7651,7 +7651,7 @@
       "product_id": "tgpwb-rowa-plbab1",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 16,
+      "data_points": 18,
       "date_range": "2025-11-24 to 45960",
       "revenue": {
         "mean": 0,
@@ -7671,9 +7671,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.3125,
+        "mean": 1.2777777777777777,
         "median": 1.0,
-        "stdev": 0.47871355387816905
+        "stdev": 0.4608885989624768
       },
       "cost": {
         "mean": 0,
@@ -7690,7 +7690,7 @@
       "product_id": "tgpwb-wche-plbab",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 25,
+      "data_points": 28,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -7710,9 +7710,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.48,
+        "mean": 2.392857142857143,
         "median": 2.0,
-        "stdev": 1.610382977224155
+        "stdev": 1.5714886953385059
       },
       "cost": {
         "mean": 0,
@@ -7729,7 +7729,7 @@
       "product_id": "nbpp-plbab1",
       "product_title": "Engraved Baby Plaque and Plinth",
       "label": "",
-      "data_points": 29,
+      "data_points": 33,
       "date_range": "2025-12-08 to 45962",
       "revenue": {
         "mean": 0,
@@ -7749,9 +7749,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.689655172413793,
+        "mean": 2.5454545454545454,
         "median": 2.0,
-        "stdev": 1.965841300742365
+        "stdev": 1.8889631595618317
       },
       "cost": {
         "mean": 0,
@@ -7768,7 +7768,7 @@
       "product_id": "ppap-placo1",
       "product_title": "Engraved Plaque and Plinth",
       "label": "",
-      "data_points": 30,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -7788,9 +7788,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.3,
+        "mean": 2.303030303030303,
         "median": 1.0,
-        "stdev": 2.2460693636232376
+        "stdev": 2.157615125619727
       },
       "cost": {
         "mean": 0,
@@ -7807,7 +7807,7 @@
       "product_id": "tgpwb-blac-plbab1",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 14,
+      "data_points": 15,
       "date_range": "2025-12-09 to 45960",
       "revenue": {
         "mean": 0,
@@ -7827,9 +7827,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.4285714285714286,
+        "mean": 1.4,
         "median": 1.0,
-        "stdev": 0.646206172658864
+        "stdev": 0.6324555320336759
       },
       "cost": {
         "mean": 0,
@@ -7846,7 +7846,7 @@
       "product_id": "tgpwb-silb-plbab1",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 22,
+      "data_points": 26,
       "date_range": "2025-12-03 to 45957",
       "revenue": {
         "mean": 0,
@@ -7866,9 +7866,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.6818181818181819,
-        "median": 1.0,
-        "stdev": 0.9945740239808645
+        "mean": 2.1538461538461537,
+        "median": 1.5,
+        "stdev": 1.5669666924936902
       },
       "cost": {
         "mean": 0.82,
@@ -7885,7 +7885,7 @@
       "product_id": "nbpp-plbab",
       "product_title": "Engraved Baby Plaque and Plinth",
       "label": "",
-      "data_points": 28,
+      "data_points": 29,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -7905,9 +7905,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.8571428571428572,
+        "mean": 1.896551724137931,
         "median": 1.0,
-        "stdev": 1.2084359562332876
+        "stdev": 1.2054882705540315
       },
       "cost": {
         "mean": 0,
@@ -7924,7 +7924,7 @@
       "product_id": "tgpsc-oaka-placo1",
       "product_title": "Small Ceremonial Tree Gift Pack",
       "label": "",
-      "data_points": 17,
+      "data_points": 20,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -7944,9 +7944,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.8235294117647058,
+        "mean": 1.95,
         "median": 1.0,
-        "stdev": 1.5097720903188938
+        "stdev": 1.5035046776746235
       },
       "cost": {
         "mean": 0,
@@ -7963,7 +7963,7 @@
       "product_id": "tgpwb-oaka-plbab1",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 4,
+      "data_points": 6,
       "date_range": "2025-12-03 to 45946",
       "revenue": {
         "mean": 0,
@@ -7985,7 +7985,7 @@
       "impressions": {
         "mean": 1.5,
         "median": 1.5,
-        "stdev": 0.5773502691896257
+        "stdev": 0.5477225575051661
       },
       "cost": {
         "mean": 0,
@@ -8002,7 +8002,7 @@
       "product_id": "tgpwb-silb-plbab",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 20,
+      "data_points": 22,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -8022,9 +8022,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2.0,
+        "mean": 1.9545454545454546,
         "median": 2.0,
-        "stdev": 1.0760551736979407
+        "stdev": 1.0455015987905485
       },
       "cost": {
         "mean": 0,
@@ -8041,7 +8041,7 @@
       "product_id": "4479",
       "product_title": "Red Japanese Maple Tree Gift - 40 to 70cm High Grows Up To 2m - Delivered in a Gift-Wrapped 19cm (3L) Pot",
       "label": "",
-      "data_points": 24,
+      "data_points": 33,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 21.39,
@@ -8051,9 +8051,9 @@
         "max": 21.39
       },
       "clicks": {
-        "mean": 4.826086956521739,
+        "mean": 5.033333333333333,
         "median": 2.0,
-        "stdev": 5.069087903549616
+        "stdev": 4.737839849212045
       },
       "conversions": {
         "mean": 1.0,
@@ -8061,14 +8061,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 2387.375,
-        "median": 474.0,
-        "stdev": 6627.5504938787935
+        "mean": 1896.909090909091,
+        "median": 502.0,
+        "stdev": 5681.923465933633
       },
       "cost": {
-        "mean": 2.1247826086956523,
-        "median": 1.54,
-        "stdev": 1.9646231874776148
+        "mean": 3.5223333333333335,
+        "median": 2.5300000000000002,
+        "stdev": 4.138130248557069
       },
       "roas": {
         "mean": 7.11,
@@ -8080,7 +8080,7 @@
       "product_id": "4366",
       "product_title": "Favourite Colour Japanese Maple Tree Gift - Orange - With Personalised Card - 40 to 70cm, Grows To 2m",
       "label": "",
-      "data_points": 19,
+      "data_points": 27,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -8100,9 +8100,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 18.105263157894736,
-        "median": 8.0,
-        "stdev": 18.101242243565327
+        "mean": 14.185185185185185,
+        "median": 5.0,
+        "stdev": 16.40365118136118
       },
       "cost": {
         "mean": 0,
@@ -8119,8 +8119,8 @@
       "product_id": "tgpwb-wche-plbab1",
       "product_title": "Welcome to the World Tree Gift Pack",
       "label": "",
-      "data_points": 12,
-      "date_range": "45940 to 45962",
+      "data_points": 16,
+      "date_range": "2025-12-15 to 45962",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8139,9 +8139,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 1.3333333333333333,
+        "mean": 1.25,
         "median": 1.0,
-        "stdev": 1.1547005383792515
+        "stdev": 1.0
       },
       "cost": {
         "mean": 1.44,
@@ -8158,7 +8158,7 @@
       "product_id": "tgpa-crab-placo1",
       "product_title": "Anniversary Tree Gift Pack",
       "label": "",
-      "data_points": 20,
+      "data_points": 21,
       "date_range": "2025-12-03 to 45962",
       "revenue": {
         "mean": 0,
@@ -8178,9 +8178,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 3.45,
+        "mean": 3.3333333333333335,
         "median": 2.0,
-        "stdev": 2.9285347512832565
+        "stdev": 2.9040202019499337
       },
       "cost": {
         "mean": 0,
@@ -8197,7 +8197,7 @@
       "product_id": "111183",
       "product_title": "Pink Magnolia Tree Gift - 21cm Pot - 50cm In Height - Gorgeous Scented Purple-Pink Flowers Give The Wow Factor",
       "label": "",
-      "data_points": 18,
+      "data_points": 27,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 5.65,
@@ -8207,9 +8207,9 @@
         "max": 5.65
       },
       "clicks": {
-        "mean": 1.5555555555555556,
-        "median": 1.0,
-        "stdev": 0.7264831572567789
+        "mean": 1.8333333333333333,
+        "median": 1.5,
+        "stdev": 1.0298573010888745
       },
       "conversions": {
         "mean": 0.48,
@@ -8217,14 +8217,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 129.83333333333334,
-        "median": 130.5,
-        "stdev": 92.73126891881788
+        "mean": 118.70370370370371,
+        "median": 84.0,
+        "stdev": 99.65780482570375
       },
       "cost": {
-        "mean": 1.297777777777778,
-        "median": 0.69,
-        "stdev": 1.703964331916735
+        "mean": 1.4858333333333333,
+        "median": 0.895,
+        "stdev": 1.5436583367462053
       },
       "roas": {
         "mean": 0.99,
@@ -8236,7 +8236,7 @@
       "product_id": "limq1",
       "product_title": "Kumquat Tree Gift",
       "label": "",
-      "data_points": 13,
+      "data_points": 22,
       "date_range": "2025-11-24 to 45962",
       "revenue": {
         "mean": 0,
@@ -8246,9 +8246,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.0,
+        "mean": 1.75,
         "median": 2.0,
-        "stdev": 0.0
+        "stdev": 0.5
       },
       "conversions": {
         "mean": 0,
@@ -8256,14 +8256,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 94.61538461538461,
-        "median": 48.0,
-        "stdev": 86.78473220324958
+        "mean": 122.18181818181819,
+        "median": 49.5,
+        "stdev": 116.10325304643867
       },
       "cost": {
-        "mean": 2.67,
-        "median": 2.67,
-        "stdev": 0.0
+        "mean": 2.1374999999999997,
+        "median": 2.505,
+        "stdev": 0.8592002094971811
       },
       "roas": {
         "mean": 0,
@@ -8275,8 +8275,8 @@
       "product_id": "",
       "product_title": "",
       "label": "",
-      "data_points": 2807,
-      "date_range": "2025-11-17 to 2025-12-15",
+      "data_points": 3254,
+      "date_range": "2025-11-23 to 2025-12-21",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8314,8 +8314,8 @@
       "product_id": "83-2",
       "product_title": "Pair of Bay Tree Gifts - Medium (3L pot, 80cm height) - Medium (3L pot, 80cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 17,
+      "date_range": "2025-11-24 to 2025-12-21",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8334,14 +8334,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 9.363636363636363,
-        "median": 4.0,
-        "stdev": 10.679632271503802
+        "mean": 8.764705882352942,
+        "median": 7.0,
+        "stdev": 8.67848929656471
       },
       "cost": {
-        "mean": 0.72,
+        "mean": 0.6166666666666667,
         "median": 0.72,
-        "stdev": 0.0
+        "stdev": 0.17897858344878398
       },
       "roas": {
         "mean": 0,
@@ -8353,8 +8353,8 @@
       "product_id": "153x",
       "product_title": "Christmas Twisted Olive Tree Gift - Small (5L pot) - Small (5L pot)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8373,9 +8373,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 33.54545454545455,
+        "mean": 29.25,
         "median": 29.0,
-        "stdev": 19.366794450107825
+        "stdev": 19.504048162800515
       },
       "cost": {
         "mean": 0,
@@ -8392,8 +8392,8 @@
       "product_id": "269x",
       "product_title": "Christmas Twisted Bay Tree Gift - Large (10L pot, 90-100cm height) - Large (10L pot, 90-100cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 19,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8412,9 +8412,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 14.363636363636363,
+        "mean": 12.368421052631579,
         "median": 16.0,
-        "stdev": 7.003895020240199
+        "stdev": 7.725934149313736
       },
       "cost": {
         "mean": 0,
@@ -8431,8 +8431,8 @@
       "product_id": "281x",
       "product_title": "Christmas Mini Olive Tree Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8451,14 +8451,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 52.0,
+        "mean": 47.85,
         "median": 53.0,
-        "stdev": 24.951953831313492
+        "stdev": 27.509376391944695
       },
       "cost": {
-        "mean": 0.9633333333333334,
-        "median": 1.37,
-        "stdev": 0.7043673284113435
+        "mean": 0.9600000000000001,
+        "median": 1.1600000000000001,
+        "stdev": 0.5751521537819363
       },
       "roas": {
         "mean": 0,
@@ -8470,8 +8470,8 @@
       "product_id": "286-2",
       "product_title": "Pair of Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8480,9 +8480,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.4444444444444444,
-        "median": 1.0,
-        "stdev": 0.5270462766947299
+        "mean": 1.6923076923076923,
+        "median": 2.0,
+        "stdev": 0.7510676161988108
       },
       "conversions": {
         "mean": 0,
@@ -8490,14 +8490,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 250.45454545454547,
-        "median": 287.0,
-        "stdev": 89.12728385445574
+        "mean": 294.25,
+        "median": 297.5,
+        "stdev": 189.12426296513428
       },
       "cost": {
-        "mean": 2.2911111111111113,
-        "median": 2.1,
-        "stdev": 1.368589095057794
+        "mean": 2.8084615384615383,
+        "median": 2.67,
+        "stdev": 1.49164252952825
       },
       "roas": {
         "mean": 0,
@@ -8509,125 +8509,8 @@
       "product_id": "286x",
       "product_title": "Christmas Olive Tree Gift - Medium (3L pot 60cm height) - Medium (3L pot 60cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 21.363636363636363,
-        "median": 26.0,
-        "stdev": 13.908793817385655
-      },
-      "cost": {
-        "mean": 2.59,
-        "median": 2.59,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "287-2": {
-      "product_id": "287-2",
-      "product_title": "Pair of Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
-      "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 4.7,
-        "median": 5.0,
-        "stdev": 2.6267851073127395
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 794.6363636363636,
-        "median": 793.0,
-        "stdev": 270.5354959066454
-      },
-      "cost": {
-        "mean": 6.361000000000001,
-        "median": 6.235,
-        "stdev": 5.278401378363634
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "287x": {
-      "product_id": "287x",
-      "product_title": "Christmas Olive Tree Gift - Large (5L pot 80cm height) - Large (5L pot 80cm height)",
-      "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 3.6363636363636362,
-        "median": 3.0,
-        "stdev": 1.8040358795061295
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 624.6363636363636,
-        "median": 633.0,
-        "stdev": 258.6357565099121
-      },
-      "cost": {
-        "mean": 5.372727272727273,
-        "median": 5.15,
-        "stdev": 2.3224000125262267
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "593x": {
-      "product_id": "593x",
-      "product_title": "Christmas Lemon Tree Gift",
-      "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 16,
+      "date_range": "2025-11-24 to 2025-12-19",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8646,14 +8529,131 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 185.45454545454547,
-        "median": 220.0,
-        "stdev": 74.2365996478336
+        "mean": 28.0625,
+        "median": 28.0,
+        "stdev": 16.846240925896
       },
       "cost": {
-        "mean": 1.6,
+        "mean": 3.145,
+        "median": 3.145,
+        "stdev": 0.784888527117068
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "287-2": {
+      "product_id": "287-2",
+      "product_title": "Pair of Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
+      "label": "",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 4.277777777777778,
+        "median": 5.0,
+        "stdev": 2.444815776905601
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 747.95,
+        "median": 846.0,
+        "stdev": 379.792114188802
+      },
+      "cost": {
+        "mean": 5.668888888888889,
+        "median": 5.905,
+        "stdev": 4.476299533804666
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "287x": {
+      "product_id": "287x",
+      "product_title": "Christmas Olive Tree Gift - Large (5L pot 80cm height) - Large (5L pot 80cm height)",
+      "label": "",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 3.764705882352941,
+        "median": 3.0,
+        "stdev": 1.640480560868746
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 672.65,
+        "median": 706.0,
+        "stdev": 400.45477765581523
+      },
+      "cost": {
+        "mean": 6.315294117647059,
+        "median": 6.22,
+        "stdev": 3.782096174159012
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "593x": {
+      "product_id": "593x",
+      "product_title": "Christmas Lemon Tree Gift",
+      "label": "",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.375,
+        "median": 1.0,
+        "stdev": 0.5175491695067657
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 247.55,
+        "median": 228.0,
+        "stdev": 191.6612897796527
+      },
+      "cost": {
+        "mean": 2.2375000000000003,
         "median": 1.75,
-        "stdev": 0.25980762113533157
+        "stdev": 2.0550686467505517
       },
       "roas": {
         "mean": 0,
@@ -8665,8 +8665,8 @@
       "product_id": "813",
       "product_title": "Christmas Holly Tree Gift",
       "label": "",
-      "data_points": 9,
-      "date_range": "2025-11-24 to 2025-12-13",
+      "data_points": 16,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8675,9 +8675,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.0,
+        "mean": 1.3333333333333333,
         "median": 1.0,
-        "stdev": 0
+        "stdev": 0.5773502691896257
       },
       "conversions": {
         "mean": 0,
@@ -8685,14 +8685,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 20.333333333333332,
+        "mean": 24.6875,
         "median": 18.0,
-        "stdev": 8.261355820929152
+        "stdev": 22.77050358102195
       },
       "cost": {
-        "mean": 1.85,
-        "median": 1.85,
-        "stdev": 0
+        "mean": 0.7566666666666667,
+        "median": 0.24,
+        "stdev": 0.9473295801004703
       },
       "roas": {
         "mean": 0,
@@ -8743,8 +8743,8 @@
       "product_id": "952",
       "product_title": "Magnolia Betty Tree Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 17,
+      "date_range": "2025-11-24 to 2025-12-21",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8763,9 +8763,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.363636363636363,
+        "mean": 7.0,
         "median": 6.0,
-        "stdev": 3.042128441493793
+        "stdev": 4.527692569068709
       },
       "cost": {
         "mean": 0,
@@ -8782,8 +8782,8 @@
       "product_id": "955",
       "product_title": "Tulip Magnolia Tree Gift Delivered At A Height Of 30-50cm In A Gift-Wrapped 3L Pot - Pink, Tulip-Shaped Blossom",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8792,9 +8792,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.0,
+        "mean": 2.3333333333333335,
         "median": 2.0,
-        "stdev": 0
+        "stdev": 0.5773502691896257
       },
       "conversions": {
         "mean": 0,
@@ -8802,14 +8802,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 107.81818181818181,
-        "median": 96.0,
-        "stdev": 64.76081868200583
+        "mean": 109.75,
+        "median": 110.0,
+        "stdev": 81.8585911640826
       },
       "cost": {
-        "mean": 2.5,
+        "mean": 1.7933333333333334,
         "median": 2.5,
-        "stdev": 0
+        "stdev": 1.4007616975536323
       },
       "roas": {
         "mean": 0,
@@ -8821,8 +8821,8 @@
       "product_id": "970",
       "product_title": "Susan Magnolia Tree Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 19,
+      "date_range": "2025-11-24 to 2025-12-21",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8841,14 +8841,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.363636363636363,
-        "median": 8.0,
-        "stdev": 3.264130122183467
+        "mean": 18.736842105263158,
+        "median": 9.0,
+        "stdev": 27.51937116784619
       },
       "cost": {
-        "mean": 0.11,
+        "mean": 0.2125,
         "median": 0.11,
-        "stdev": 0.0
+        "stdev": 0.24662724910277045
       },
       "roas": {
         "mean": 0,
@@ -8860,8 +8860,8 @@
       "product_id": "1089x",
       "product_title": "Christmas Olive Bush Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8870,9 +8870,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.1666666666666667,
+        "mean": 1.1428571428571428,
         "median": 1.0,
-        "stdev": 0.408248290463863
+        "stdev": 0.37796447300922725
       },
       "conversions": {
         "mean": 0,
@@ -8880,14 +8880,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 29.818181818181817,
-        "median": 27.0,
-        "stdev": 16.50950139657877
+        "mean": 29.7,
+        "median": 28.5,
+        "stdev": 20.596627214949027
       },
       "cost": {
-        "mean": 0.7166666666666667,
+        "mean": 0.8871428571428571,
         "median": 0.71,
-        "stdev": 0.2081986231142432
+        "stdev": 0.48944575067840035
       },
       "roas": {
         "mean": 0,
@@ -8899,8 +8899,8 @@
       "product_id": "1090-2",
       "product_title": "Pair of Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 19,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8919,9 +8919,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 45.0,
-        "median": 35.0,
-        "stdev": 23.96664348631239
+        "mean": 37.89473684210526,
+        "median": 30.0,
+        "stdev": 27.387942880119315
       },
       "cost": {
         "mean": 1.27,
@@ -8938,8 +8938,8 @@
       "product_id": "1090x",
       "product_title": "Christmas Olive Tree Gift - Small (2L pot 50cm height) - Small (2L pot 50cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8948,9 +8948,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 4.2,
+        "mean": 4.0,
         "median": 4.0,
-        "stdev": 2.2010098692292237
+        "stdev": 1.96638416050035
       },
       "conversions": {
         "mean": 0,
@@ -8958,14 +8958,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 651.8181818181819,
-        "median": 901.0,
-        "stdev": 459.5917358225272
+        "mean": 627.8,
+        "median": 691.5,
+        "stdev": 449.32588103560323
       },
       "cost": {
-        "mean": 5.679,
-        "median": 5.145,
-        "stdev": 3.1188760439904915
+        "mean": 5.539375,
+        "median": 5.449999999999999,
+        "stdev": 3.0707902755913934
       },
       "roas": {
         "mean": 0,
@@ -8977,8 +8977,8 @@
       "product_id": "2151",
       "product_title": "Yuletide Camellia Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -8987,9 +8987,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 2.727272727272727,
-        "median": 2.0,
-        "stdev": 1.5550504230351563
+        "mean": 3.2941176470588234,
+        "median": 3.0,
+        "stdev": 1.759428383110298
       },
       "conversions": {
         "mean": 0,
@@ -8997,14 +8997,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 301.1818181818182,
-        "median": 304.0,
-        "stdev": 145.93479241210315
+        "mean": 405.5,
+        "median": 313.0,
+        "stdev": 321.79046794949954
       },
       "cost": {
-        "mean": 1.9927272727272727,
-        "median": 1.54,
-        "stdev": 1.5764459452140496
+        "mean": 2.5511764705882354,
+        "median": 2.17,
+        "stdev": 1.8164280964056256
       },
       "roas": {
         "mean": 0,
@@ -9016,8 +9016,8 @@
       "product_id": "2219c-2",
       "product_title": "Christmas Bay Tree Gift - Medium Bay Tree (3L pot, 80cm height) - Medium Bay Tree (3L pot, 80cm height)",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9026,9 +9026,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 7.0,
+        "mean": 8.45,
         "median": 8.0,
-        "stdev": 2.1908902300206643
+        "stdev": 5.844250435932288
       },
       "conversions": {
         "mean": 0,
@@ -9036,14 +9036,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 745.1818181818181,
-        "median": 764.0,
-        "stdev": 223.2983735640805
+        "mean": 866.1,
+        "median": 805.5,
+        "stdev": 539.3105637854003
       },
       "cost": {
-        "mean": 5.893636363636364,
-        "median": 5.46,
-        "stdev": 2.7368349337410645
+        "mean": 9.603,
+        "median": 6.3100000000000005,
+        "stdev": 8.955937812717503
       },
       "roas": {
         "mean": 0,
@@ -9055,8 +9055,8 @@
       "product_id": "3539x",
       "product_title": "Christmas Mini Lemon Tree Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 18,
+      "date_range": "2025-11-24 to 2025-12-21",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9067,7 +9067,7 @@
       "clicks": {
         "mean": 1.0,
         "median": 1.0,
-        "stdev": 0
+        "stdev": 0.0
       },
       "conversions": {
         "mean": 0,
@@ -9075,14 +9075,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 24.454545454545453,
-        "median": 24.0,
-        "stdev": 11.219301550129012
+        "mean": 21.055555555555557,
+        "median": 22.0,
+        "stdev": 11.759712992807376
       },
       "cost": {
-        "mean": 0.41,
-        "median": 0.41,
-        "stdev": 0
+        "mean": 0.375,
+        "median": 0.375,
+        "stdev": 0.04949747468305829
       },
       "roas": {
         "mean": 0,
@@ -9094,19 +9094,19 @@
       "product_id": "4583",
       "product_title": "Mini Christmas Tree with Lights",
       "label": "",
-      "data_points": 10,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 19,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
-        "mean": 0,
-        "median": 0,
+        "mean": 5.97,
+        "median": 5.97,
         "stdev": 0,
-        "min": 0,
-        "max": 0
+        "min": 5.97,
+        "max": 5.97
       },
       "clicks": {
-        "mean": 4.111111111111111,
-        "median": 3.0,
-        "stdev": 2.260776661041756
+        "mean": 10.88888888888889,
+        "median": 3.5,
+        "stdev": 15.411565133667672
       },
       "conversions": {
         "mean": 0,
@@ -9114,18 +9114,18 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 355.4,
-        "median": 279.5,
-        "stdev": 267.52619809406826
+        "mean": 546.578947368421,
+        "median": 358.0,
+        "stdev": 537.4627962100647
       },
       "cost": {
-        "mean": 2.4566666666666666,
-        "median": 1.09,
-        "stdev": 2.479289212657531
+        "mean": 4.601111111111111,
+        "median": 1.135,
+        "stdev": 5.991450662882206
       },
       "roas": {
-        "mean": 0,
-        "median": 0,
+        "mean": 0.38,
+        "median": 0.38,
         "stdev": 0
       }
     },
@@ -9133,8 +9133,8 @@
       "product_id": "4588",
       "product_title": "Tabletop Christmas Tree",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 20,
+      "date_range": "2025-11-24 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9153,14 +9153,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 87.63636363636364,
-        "median": 80.0,
-        "stdev": 49.12081580607701
+        "mean": 71.45,
+        "median": 71.5,
+        "stdev": 51.94478343698999
       },
       "cost": {
-        "mean": 0.6866666666666666,
+        "mean": 0.468,
         "median": 0.28,
-        "stdev": 0.7043673284113434
+        "stdev": 0.5826834475081646
       },
       "roas": {
         "mean": 0,
@@ -9172,8 +9172,8 @@
       "product_id": "apord",
       "product_title": "Orange Dream Japanese Maple Tree Gift",
       "label": "",
-      "data_points": 11,
-      "date_range": "2025-11-24 to 2025-12-14",
+      "data_points": 18,
+      "date_range": "2025-11-24 to 2025-12-21",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9184,7 +9184,7 @@
       "clicks": {
         "mean": 1.0,
         "median": 1.0,
-        "stdev": 0
+        "stdev": 0.0
       },
       "conversions": {
         "mean": 0,
@@ -9192,14 +9192,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 10.454545454545455,
+        "mean": 12.222222222222221,
         "median": 11.0,
-        "stdev": 6.170310143965802
+        "stdev": 9.321420969406375
       },
       "cost": {
-        "mean": 0.06,
-        "median": 0.06,
-        "stdev": 0
+        "mean": 0.23,
+        "median": 0.23,
+        "stdev": 0.24041630560342617
       },
       "roas": {
         "mean": 0,
@@ -9211,164 +9211,8 @@
       "product_id": "83x2",
       "product_title": "Pair of Christmas Bay Tree Gifts - Medium (3L pot, 80cm height) - Medium (3L pot, 80cm height)",
       "label": "",
-      "data_points": 9,
-      "date_range": "2025-12-03 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 37.666666666666664,
-        "median": 50.0,
-        "stdev": 19.059118552545918
-      },
-      "cost": {
-        "mean": 0.09,
-        "median": 0.09,
-        "stdev": 0.0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "286x2x": {
-      "product_id": "286x2x",
-      "product_title": "Pair of Christmas Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
-      "label": "",
-      "data_points": 9,
-      "date_range": "2025-12-03 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 13.444444444444445,
-        "median": 8.0,
-        "stdev": 8.516324194027478
-      },
-      "cost": {
-        "mean": 0.5833333333333334,
-        "median": 0.43,
-        "stdev": 0.26558112382722787
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "287x2x": {
-      "product_id": "287x2x",
-      "product_title": "Pair of Christmas Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
-      "label": "",
-      "data_points": 9,
-      "date_range": "2025-12-03 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0.0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 46.22222222222222,
-        "median": 35.0,
-        "stdev": 26.40443986234975
-      },
-      "cost": {
-        "mean": 2.8766666666666665,
-        "median": 2.29,
-        "stdev": 1.0161364737737413
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "1090x2x": {
-      "product_id": "1090x2x",
-      "product_title": "Pair of Christmas Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
-      "label": "",
-      "data_points": 9,
-      "date_range": "2025-12-03 to 2025-12-14",
-      "revenue": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0,
-        "min": 0,
-        "max": 0
-      },
-      "clicks": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "conversions": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "impressions": {
-        "mean": 28.555555555555557,
-        "median": 29.0,
-        "stdev": 21.296191626151792
-      },
-      "cost": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      },
-      "roas": {
-        "mean": 0,
-        "median": 0,
-        "stdev": 0
-      }
-    },
-    "2540": {
-      "product_id": "2540",
-      "product_title": "Favourite Colour Japanese Maple Tree Gift - Purple - 40-70cm in a 3L Pot - Other Colours Available",
-      "label": "",
-      "data_points": 9,
-      "date_range": "2025-12-03 to 2025-12-14",
+      "data_points": 18,
+      "date_range": "2025-12-03 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9388,8 +9232,164 @@
       },
       "impressions": {
         "mean": 46.77777777777778,
-        "median": 43.0,
-        "stdev": 20.867305634519383
+        "median": 50.5,
+        "stdev": 33.542870822375
+      },
+      "cost": {
+        "mean": 0.09,
+        "median": 0.09,
+        "stdev": 0.0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "286x2x": {
+      "product_id": "286x2x",
+      "product_title": "Pair of Christmas Olive Tree Gifts - Medium (3L pot, 60cm height) - Medium (3L pot, 60cm height)",
+      "label": "",
+      "data_points": 16,
+      "date_range": "2025-12-03 to 2025-12-21",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 21.5,
+        "median": 19.0,
+        "stdev": 17.828815627143232
+      },
+      "cost": {
+        "mean": 0.508,
+        "median": 0.43,
+        "stdev": 0.2245439823286298
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "287x2x": {
+      "product_id": "287x2x",
+      "product_title": "Pair of Christmas Olive Tree Gifts - Large (5L pot, 80cm height) - Large (5L pot, 80cm height)",
+      "label": "",
+      "data_points": 18,
+      "date_range": "2025-12-03 to 2025-12-22",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 33.388888888888886,
+        "median": 30.5,
+        "stdev": 26.20089555920895
+      },
+      "cost": {
+        "mean": 2.266,
+        "median": 2.29,
+        "stdev": 1.2873538752029294
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "1090x2x": {
+      "product_id": "1090x2x",
+      "product_title": "Pair of Christmas Olive Tree Gifts - Small (2L pot, 50cm height) - Small (2L pot, 50cm height)",
+      "label": "",
+      "data_points": 15,
+      "date_range": "2025-12-03 to 2025-12-21",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 22.133333333333333,
+        "median": 12.0,
+        "stdev": 18.673383145408817
+      },
+      "cost": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "roas": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      }
+    },
+    "2540": {
+      "product_id": "2540",
+      "product_title": "Favourite Colour Japanese Maple Tree Gift - Purple - 40-70cm in a 3L Pot - Other Colours Available",
+      "label": "",
+      "data_points": 18,
+      "date_range": "2025-12-03 to 2025-12-22",
+      "revenue": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0,
+        "min": 0,
+        "max": 0
+      },
+      "clicks": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0
+      },
+      "conversions": {
+        "mean": 0,
+        "median": 0,
+        "stdev": 0
+      },
+      "impressions": {
+        "mean": 34.888888888888886,
+        "median": 31.5,
+        "stdev": 23.062291322541036
       },
       "cost": {
         "mean": 0.5033333333333333,
@@ -9445,8 +9445,8 @@
       "product_id": "t2x2022",
       "product_title": "Mini Potted Christmas Tree with decorations",
       "label": "",
-      "data_points": 9,
-      "date_range": "2025-12-03 to 2025-12-14",
+      "data_points": 18,
+      "date_range": "2025-12-03 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9455,9 +9455,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.0,
-        "median": 1.0,
-        "stdev": 0
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 1.4142135623730951
       },
       "conversions": {
         "mean": 0,
@@ -9465,14 +9465,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 26.0,
-        "median": 17.0,
-        "stdev": 28.77498913987632
+        "mean": 27.88888888888889,
+        "median": 9.5,
+        "stdev": 34.58814636954467
       },
       "cost": {
-        "mean": 0.63,
-        "median": 0.63,
-        "stdev": 0
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.028284271247461926
       },
       "roas": {
         "mean": 0,
@@ -9484,8 +9484,8 @@
       "product_id": "269",
       "product_title": "The Twisted Bay Tree Gift - Large (10L pot, 90-100cm height) - Large (10L pot, 90-100cm height)",
       "label": "",
-      "data_points": 8,
-      "date_range": "2025-12-08 to 2025-12-14",
+      "data_points": 15,
+      "date_range": "2025-12-08 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9504,9 +9504,9 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 6.375,
+        "mean": 6.066666666666666,
         "median": 5.0,
-        "stdev": 2.326094212561969
+        "stdev": 4.216746658379227
       },
       "cost": {
         "mean": 0,
@@ -9523,8 +9523,8 @@
       "product_id": "ctg13467",
       "product_title": "Tabletop Christmas Tree",
       "label": "",
-      "data_points": 8,
-      "date_range": "2025-12-08 to 2025-12-14",
+      "data_points": 17,
+      "date_range": "2025-12-08 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9543,14 +9543,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 122.125,
-        "median": 61.0,
-        "stdev": 126.72178468710783
+        "mean": 84.52941176470588,
+        "median": 55.0,
+        "stdev": 104.77900412717403
       },
       "cost": {
-        "mean": 0.23,
+        "mean": 0.29833333333333334,
         "median": 0.23,
-        "stdev": 0.0
+        "stdev": 0.20360910261249782
       },
       "roas": {
         "mean": 0,
@@ -9562,8 +9562,8 @@
       "product_id": "ctg17125",
       "product_title": "Mini Christmas Tree with White Star",
       "label": "",
-      "data_points": 8,
-      "date_range": "2025-12-08 to 2025-12-14",
+      "data_points": 17,
+      "date_range": "2025-12-08 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9572,9 +9572,9 @@
         "max": 0
       },
       "clicks": {
-        "mean": 1.0,
+        "mean": 1.1818181818181819,
         "median": 1.0,
-        "stdev": 0.0
+        "stdev": 0.6030226891555273
       },
       "conversions": {
         "mean": 0,
@@ -9582,14 +9582,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 96.5,
-        "median": 71.0,
-        "stdev": 63.64634430080916
+        "mean": 105.76470588235294,
+        "median": 91.0,
+        "stdev": 78.81269679734724
       },
       "cost": {
-        "mean": 1.0283333333333333,
-        "median": 1.04,
-        "stdev": 0.6158057052891494
+        "mean": 0.9518181818181818,
+        "median": 0.49,
+        "stdev": 0.7462950915263772
       },
       "roas": {
         "mean": 0,
@@ -9601,8 +9601,8 @@
       "product_id": "lim405015",
       "product_title": "Lime Tree Gift - Mini Lime Tree (1.5L) - Mini Lime Tree (1.5L)",
       "label": "",
-      "data_points": 3,
-      "date_range": "2025-12-13 to 2025-12-14",
+      "data_points": 12,
+      "date_range": "2025-12-13 to 2025-12-22",
       "revenue": {
         "mean": 0,
         "median": 0,
@@ -9613,7 +9613,7 @@
       "clicks": {
         "mean": 2.0,
         "median": 2.0,
-        "stdev": 0.0
+        "stdev": 1.224744871391589
       },
       "conversions": {
         "mean": 0,
@@ -9621,14 +9621,14 @@
         "stdev": 0
       },
       "impressions": {
-        "mean": 32.333333333333336,
-        "median": 25.0,
-        "stdev": 12.701705922171767
+        "mean": 64.91666666666667,
+        "median": 33.5,
+        "stdev": 89.12754735192536
       },
       "cost": {
-        "mean": 1.68,
+        "mean": 6.1899999999999995,
         "median": 1.68,
-        "stdev": 0.0
+        "stdev": 7.633243085347145
       },
       "roas": {
         "mean": 0,

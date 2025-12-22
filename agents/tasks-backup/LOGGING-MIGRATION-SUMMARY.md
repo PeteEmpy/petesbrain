@@ -872,7 +872,7 @@ launchctl list | grep tasks-backup
 
 1. ✅ **Critical Fix Complete**: Syntax error fixed, backups can run
 2. ✅ **Logging Complete**: tasks-backup.py fully migrated
-3. ⏳ **Next Agent**: Add logging to generate-tasks-overview.py
+3. ⏳ **Next Agent**: Add logging to generate-all-task-views.py
 4. ⏳ **Testing**: Restart tasks-backup LaunchAgent and verify successful backup
 5. ⏳ **System Validation**: Test all 9 task-related LaunchAgents after logging completion
 

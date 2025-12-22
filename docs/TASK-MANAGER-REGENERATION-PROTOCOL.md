@@ -1,18 +1,19 @@
 # Task Manager Regeneration Protocol
 
-## CRITICAL: One Script Generates Both Views
+## CRITICAL: One Script Generates All Three Views
 
 When ANY task changes are made (create, update, complete, delete, priority change, due date change), run this single script:
 
 ```bash
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 ```
 
-This automatically generates **BOTH** HTML views:
+This automatically generates **ALL THREE** HTML views:
 1. Standard overview: `tasks-overview.html` (organized by client)
 2. Priority overview: `tasks-overview-priority.html` (organized by P0/P1/P2/P3)
+3. Task Manager & Reminders: `tasks-manager.html` (clients on left, reminders on right)
 
-The user primarily uses the **priority view**, so both must always be regenerated together.
+The user primarily uses the **Task Manager & Reminders view**, so all three must always be regenerated together.
 
 ## When to Regenerate
 
@@ -26,12 +27,13 @@ Regenerate after:
 - ✅ Processing manual task notes
 - ✅ Any other task modifications
 
-## Why Both Views Matter
+## Why All Three Views Matter
 
 - **Standard view** (`tasks-overview.html`): Organized by client, shows all tasks
-- **Priority view** (`tasks-overview-priority.html`): Organized by priority (P0/P1/P2/P3), combines internal + Google Tasks
+- **Priority view** (`tasks-overview-priority.html`): Organized by priority (P0/P1/P2/P3)
+- **Task Manager & Reminders** (`tasks-manager.html`): Primary view with clients on left (expandable) and reminders on right
 
-User keeps priority view open in browser most of the time. If you only regenerate standard view, they see stale data.
+User keeps Task Manager & Reminders view open in browser most of the time. If you only regenerate one or two views, they see stale data.
 
 ## DO NOT
 
@@ -41,6 +43,6 @@ User keeps priority view open in browser most of the time. If you only regenerat
 
 ## DO
 
-✅ Run `python3 generate-tasks-overview.py` after ANY task change
-✅ Verify both HTML files have current timestamp after regeneration
+✅ Run `python3 generate-all-task-views.py` after ANY task change
+✅ Verify all three HTML files have current timestamp after regeneration
 ✅ Test by hard-refreshing browser (Cmd+Shift+R) to see changes

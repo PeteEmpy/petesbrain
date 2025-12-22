@@ -1,0 +1,1331 @@
+{
+  "date": "2025-12-22",
+  "client": "BMPM",
+  "comparison_date": "2025-12-21",
+  "total_products_today": 6681,
+  "total_products_yesterday": 6680,
+  "summary": {
+    "changed_products": 57,
+    "price_changes": 2,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 1,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 55,
+    "new_products": 10,
+    "removed_products": 9
+  },
+  "changed_products": [
+    {
+      "product_id": "BMPM383V434146",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Black Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434159",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Green Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434175",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) Striped Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434179",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - White Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434168",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Silver Grey Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434169",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Silver Grey Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434154",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Royal Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434183",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Yellow Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434181",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - White Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434144",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Black Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM8265977",
+      "title": "Event Refreshment Supplies",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "50.00 GBP"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Nescafe%20Original.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Borders_0.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434167",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Silver Grey Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434156",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Royal Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434165",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Silver Grey Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434182",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - White Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434177",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - White Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383",
+      "title": "Branded Luggage Straps (Full Colour)",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434188",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Yellow Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434171",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) Striped Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434163",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Green Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434140",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Red Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434147",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Navy Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434172",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) Striped Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434164",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Green Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434145",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Black Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434184",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Yellow Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434162",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Green Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434155",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Royal Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434186",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Yellow Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434160",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Green Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434142",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Black Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434158",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Royal Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434170",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Silver Grey Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434136",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Red Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434141",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Black Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434178",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - White Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434185",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Yellow Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434173",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) Striped Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434152",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Navy Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434138",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Red Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434157",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Royal Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434135",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Red Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434143",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Black Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434187",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Yellow Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434137",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Red Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434161",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Green Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434153",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Royal Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434139",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Red Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434150",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Navy Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434149",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Navy Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434174",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) Striped Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434180",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - White Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434166",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Silver Grey Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437693",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo 40cm x 27cm - Mock Suede Polyester + Removable Cover (Zip + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "45.50 GBP",
+          "42.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444944",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444920"
+        ],
+        "mpn": [
+          "FGCUS601(FIB+100)(R40x27)PMS-WHI(RCO-Z)",
+          "FGCUS601(FIB-STA)(R40x27)PMS-WHI(RCO-Z)"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434148",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Navy Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434151",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Navy Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434176",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) Striped Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "BMPM8265977V453695",
+      "title": "Event Refreshment Supplies Coffee - Nescafe Gold Blend 1.8g Sticks (Pack of 200)",
+      "price": "50.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453694",
+      "title": "Event Refreshment Supplies Biscuits - Walkers Assortment (Individually Wrapped) Pack of 100",
+      "price": "55.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453700",
+      "title": "Event Refreshment Supplies Sugar (Individually Wrapped) Pack of 370",
+      "price": "12.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453699",
+      "title": "Event Refreshment Supplies Milk Pods (Semi-Skimmed) 12ml (Pack of 120) 120 Day Shelf Life",
+      "price": "20.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453698",
+      "title": "Event Refreshment Supplies Tea Bags (Individually Wrapped) Twinings Every Day (Pack of 250)",
+      "price": "50.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453696",
+      "title": "Event Refreshment Supplies Nescafe Original (1.8g Sticks) Pack of 200",
+      "price": "40.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453692",
+      "title": "Event Refreshment Supplies Biscuits - Borders (Individually Wrapped) Pack of 100",
+      "price": "50.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453701",
+      "title": "Event Refreshment Supplies Wooden Drink Stirring Sticks (Pack of 1000) 7.5inch",
+      "price": "20.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453697",
+      "title": "Event Refreshment Supplies Tea Bags (Individually Wrapped) PG Tips (Pack of 200)",
+      "price": "24.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453693",
+      "title": "Event Refreshment Supplies Biscuits - Lotus Biscoff (Individually Wrapped) Pack of 150",
+      "price": "22.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "removed_products": [
+    {
+      "product_id": "BMPM8265977V453684",
+      "title": "Event Refreshment Supplies Coffee - Nescafe Gold Blend 1.8g Sticks (Pack of 25)",
+      "price": "14.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453687",
+      "title": "Event Refreshment Supplies Sugar (Individually Wrapped)",
+      "price": "4.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453689",
+      "title": "Event Refreshment Supplies Biscuits - Walkers Assortment (Individually Wrapped) Pack of 25",
+      "price": "18.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453685",
+      "title": "Event Refreshment Supplies Tea Bags (Individually Wrapped) PG Tips (Pack of 25)",
+      "price": "5.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453686",
+      "title": "Event Refreshment Supplies Tea Bags (Individually Wrapped) Twinings Every Day (Pack of 25)",
+      "price": "14.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453682",
+      "title": "Event Refreshment Supplies Wooden Drink Stirring Sticks (Pack of 25) 7.5inch",
+      "price": "2.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453688",
+      "title": "Event Refreshment Supplies Biscuits - Lotus Biscoff (Individually Wrapped) Pack of 25",
+      "price": "8.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453683",
+      "title": "Event Refreshment Supplies Nescafe Original (1.8g Sticks) Pack of 25",
+      "price": "8.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "BMPM8265977V453690",
+      "title": "Event Refreshment Supplies Biscuits - Borders (Individually Wrapped) Pack of 25",
+      "price": "22.00 GBP",
+      "availability": "in stock"
+    }
+  ],
+  "price_changes": [
+    {
+      "product_id": "BMPM8265977",
+      "title": "Event Refreshment Supplies",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "50.00 GBP"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Nescafe%20Original.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Borders_0.jpg.webp"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM841605V437693",
+      "title": "Branded Cushion (Full Colour) with Embroidered Logo 40cm x 27cm - Mock Suede Polyester + Removable Cover (Zip + Overlocking Inside)",
+      "changes": {
+        "price": [
+          "45.50 GBP",
+          "42.50 GBP"
+        ],
+        "link": [
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444944",
+          "https://bmpm.trade/products/branded-cushion-full-colour-embroidered-logo?v=444920"
+        ],
+        "mpn": [
+          "FGCUS601(FIB+100)(R40x27)PMS-WHI(RCO-Z)",
+          "FGCUS601(FIB-STA)(R40x27)PMS-WHI(RCO-Z)"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [
+    {
+      "product_id": "BMPM8265977",
+      "title": "Event Refreshment Supplies",
+      "changes": {
+        "price": [
+          "8.00 GBP",
+          "50.00 GBP"
+        ],
+        "image_link": [
+          "https://bmpm.trade/sites/default/files/styles/google/public/Nescafe%20Original.jpg.webp",
+          "https://bmpm.trade/sites/default/files/styles/google/public/Borders_0.jpg.webp"
+        ]
+      }
+    }
+  ],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "BMPM383V434146",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Black Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434159",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Green Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434175",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) Striped Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434179",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - White Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434168",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Silver Grey Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434169",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Silver Grey Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434154",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Royal Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434183",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Yellow Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434181",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - White Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434144",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Black Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434167",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Silver Grey Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434156",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Royal Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434165",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Silver Grey Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434182",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - White Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434177",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - White Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383",
+      "title": "Branded Luggage Straps (Full Colour)",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434188",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Yellow Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434171",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) Striped Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434163",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Green Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434140",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Red Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434147",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Navy Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434172",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) Striped Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434164",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Green Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434145",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Black Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434184",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Yellow Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434162",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Green Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434155",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Royal Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434186",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Yellow Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434160",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Green Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434142",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Black Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434158",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Royal Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434170",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Silver Grey Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434136",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Red Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434141",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Black Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434178",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - White Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434185",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Yellow Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434173",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) Striped Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434152",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Navy Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434138",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Red Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434157",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Royal Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434135",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Red Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434143",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Black Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434187",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Yellow Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434137",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Red Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434161",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Green Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434153",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Royal Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434139",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Red Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434150",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - Navy Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434149",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) - Navy Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434174",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) Striped Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434180",
+      "title": "Branded Luggage Straps (Full Colour) (180cm 5cm) - White Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434166",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Silver Grey Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434148",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Navy Blue Nylon with Standard Buckle",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434151",
+      "title": "Branded Luggage Straps (Full Colour) (250cm x 5cm) - Navy Blue Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    },
+    {
+      "product_id": "BMPM383V434176",
+      "title": "Branded Luggage Straps (Full Colour) (300cm x 5cm) Striped Nylon with Combination Lock",
+      "changes": {
+        "custom_label_1": [
+          "ads_on",
+          "ads_off"
+        ]
+      }
+    }
+  ]
+}

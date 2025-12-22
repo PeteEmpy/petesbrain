@@ -1,0 +1,276 @@
+{
+  "date": "2025-12-18",
+  "client": "Go Glean UK",
+  "comparison_date": "2025-12-17",
+  "total_products_today": 106,
+  "total_products_yesterday": 106,
+  "summary": {
+    "changed_products": 12,
+    "price_changes": 8,
+    "sale_price_changes": 0,
+    "availability_changes": 0,
+    "title_changes": 0,
+    "description_changes": 0,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 4,
+    "new_products": 0,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "price": [
+          "17.00 GBP",
+          "16.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_51901294641530",
+      "title": "Quartz & Granite Cleaner Aerosol 400ml | Non-Abrasive Foaming Stone Worktop Cleaner 2 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314714901_45692519055637",
+      "title": "Glean Kitchen Cupboard Cleaner - Easy To Use - Anti-Static, Streak Free, Foaming Spray for High Gloss Surfaces",
+      "changes": {
+        "price": [
+          "12.00 GBP",
+          "11.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14809979060602_51903549768058",
+      "title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "changes": {
+        "price": [
+          "75.00 GBP",
+          "74.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_46127099576597",
+      "title": "Tile & Grout Sealer Aerosol 400ml | Clear Waterproof Grout Protector 3 x 400ml",
+      "changes": {
+        "price": [
+          "24.00 GBP",
+          "23.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_45692540813589",
+      "title": "Tile & Grout Sealer Aerosol 400ml | Clear Waterproof Grout Protector 1 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_51901326983546",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "18.00 GBP",
+          "17.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8997255512341_54898021138810",
+      "title": "Silicone Sealant Remover Gel | 250ml | GLEAN (Optional 10 pcs tool kit)",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962007930",
+      "title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9020394012949_47987014566165",
+      "title": "Glean Patio Sealer 5L - Water-Based Protective Sealer for Stone & Tiles",
+      "changes": {
+        "price": [
+          "75.00 GBP",
+          "74.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_45692324839701",
+      "title": "Quartz & Granite Cleaner Aerosol 400ml | Non-Abrasive Foaming Stone Worktop Cleaner 1 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426086778",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "changes": {
+        "price": [
+          "12.00 GBP",
+          "11.99 GBP"
+        ]
+      }
+    }
+  ],
+  "new_products": [],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "shopify_GB_8399313469717_45446860013845",
+      "title": "Glean Green Clean Algae Remover 1 Litre - Concentrated Formula for Algae, Moss & Lichen - No Rinse Needed",
+      "changes": {
+        "price": [
+          "17.00 GBP",
+          "16.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399314714901_45692519055637",
+      "title": "Glean Kitchen Cupboard Cleaner - Easy To Use - Anti-Static, Streak Free, Foaming Spray for High Gloss Surfaces",
+      "changes": {
+        "price": [
+          "12.00 GBP",
+          "11.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14809979060602_51903549768058",
+      "title": "Glean Patio Sealer Wet Look 5L - Water Based Impregnating Sealer. Enhances Colours, Wet Look Finish, Interior/Exterior, Covers 30m2/Litre",
+      "changes": {
+        "price": [
+          "75.00 GBP",
+          "74.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_46127099576597",
+      "title": "Tile & Grout Sealer Aerosol 400ml | Clear Waterproof Grout Protector 3 x 400ml",
+      "changes": {
+        "price": [
+          "24.00 GBP",
+          "23.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399315173653_51901326983546",
+      "title": "Poo-Foamari Before-You-Go Toilet Spray | GLEAN 2 x 400ml",
+      "changes": {
+        "price": [
+          "18.00 GBP",
+          "17.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14969316999546_55083962007930",
+      "title": "Glean Grout Reviver & Sealer Kit - Limestone- Foam Brush Included - Renew & Refresh Tile Grout",
+      "changes": {
+        "price": [
+          "22.00 GBP",
+          "21.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_9020394012949_47987014566165",
+      "title": "Glean Patio Sealer 5L - Water-Based Protective Sealer for Stone & Tiles",
+      "changes": {
+        "price": [
+          "75.00 GBP",
+          "74.99 GBP"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_14959950496122_55064426086778",
+      "title": "Air Fryer Foaming Cleaner | 500ml | Non-Caustic | Air fryers, Ovens, Grills & BBQs 500ml",
+      "changes": {
+        "price": [
+          "12.00 GBP",
+          "11.99 GBP"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [],
+  "title_changes": [],
+  "description_changes": [],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": [
+    {
+      "product_id": "shopify_GB_8399312584981_51901294641530",
+      "title": "Quartz & Granite Cleaner Aerosol 400ml | Non-Abrasive Foaming Stone Worktop Cleaner 2 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312847125_45692540813589",
+      "title": "Tile & Grout Sealer Aerosol 400ml | Clear Waterproof Grout Protector 1 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Heroes"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8997255512341_54898021138810",
+      "title": "Silicone Sealant Remover Gel | 250ml | GLEAN (Optional 10 pcs tool kit)",
+      "changes": {
+        "custom_label_0": [
+          "Sidekicks",
+          "Zombies"
+        ]
+      }
+    },
+    {
+      "product_id": "shopify_GB_8399312584981_45692324839701",
+      "title": "Quartz & Granite Cleaner Aerosol 400ml | Non-Abrasive Foaming Stone Worktop Cleaner 1 x 400ml",
+      "changes": {
+        "custom_label_0": [
+          "Villains",
+          "Zombies"
+        ]
+      }
+    }
+  ]
+}

@@ -46,91 +46,65 @@ Auto-detect the email category:
 
 ### 4. Apply Formatting Standards
 
-**HTML Format** (CRITICAL - NOT MARKDOWN):
+**⚠️ CRITICAL: ALWAYS use the canonical email template module**
 
-⚠️ **CRITICAL: For email drafts that need copy-to-clipboard functionality:**
-- ALWAYS include a copy button with proper CSS styling
-- Use double quotes with `\n` for line breaks in JavaScript (NOT template literals)
-- Template literals (backticks) don't preserve formatting when pasted
+All email drafts MUST use `shared/email_template.py` to ensure consistent formatting.
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            line-height: 1.4;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 40px;
-            background: #f5f5f5;
-        }
-        .content-box {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        p {
-            margin: 6px 0;
-        }
-        ul, ol {
-            margin: 6px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin: 6px 0;
-        }
-        strong {
-            font-weight: 600;
-        }
-        .copy-btn {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #3498db;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        .copy-btn:hover {
-            background: #2980b9;
-        }
-        .copied {
-            background: #27ae60 !important;
-        }
-    </style>
-</head>
-<body>
-    <div class="content-box">
-        <!-- Email content here -->
-        <button class="copy-btn" onclick="copyContent()">📋 Copy to Clipboard</button>
-    </div>
+**Template Standards** (Verdana 13px + Copy Button):
+- Font: Verdana 13px
+- Line-height: 1.5
+- Copy-to-clipboard button with green styling
+- British English spelling (UK clients)
+- Proper paragraph spacing
 
-    <script>
-        function copyContent() {
-            // CRITICAL: Use double quotes with \n (NOT template literals with backticks)
-            const text = "Email content here.\n\nParagraph 2.\n\nParagraph 3.";
+**Using the template module:**
 
-            navigator.clipboard.writeText(text).then(() => {
-                const btn = event.target;
-                btn.textContent = '✅ Copied!';
-                btn.classList.add('copied');
-                setTimeout(() => {
-                    btn.textContent = '📋 Copy to Clipboard';
-                    btn.classList.remove('copied');
-                }, 2000);
-            });
-        }
-    </script>
-</body>
-</html>
+```python
+from shared.email_template import render_email, save_email_draft
+
+# Build your email content as HTML
+content = '''
+    <p>Quick update on last week's performance:</p>
+
+    <table>
+        <tr>
+            <th>Metric</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Revenue</td>
+            <td>£3,500</td>
+        </tr>
+        <tr>
+            <td>ROAS</td>
+            <td>320%</td>
+        </tr>
+    </table>
+
+    <p>All looking good.</p>
+'''
+
+# Render with template
+html = render_email(
+    content=content,
+    recipient_name="Barry",  # From client context
+    sender_name="Peter",     # Default
+    sign_off="Regards"       # Or "Best", "Kind regards", etc.
+)
+
+# Save and open
+filepath = "clients/bright-minds/documents/email-draft-2025-12-15-weekly-update.html"
+save_email_draft(html, filepath, open_in_browser=True)
 ```
+
+**Content formatting** (within the `content` parameter):
+- Use `<p>` for paragraphs
+- Use `<ul>` and `<li>` for bullet lists
+- Use `<table>` for data tables
+- Use `<strong>` for emphasis
+- Use `<br>` for line breaks within paragraphs
+
+**NEVER create email HTML manually** - always use the template module
 
 **British English Rules** (UK clients only):
 - analyse (not analyze)

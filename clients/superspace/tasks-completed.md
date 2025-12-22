@@ -1312,3 +1312,75 @@ AUTOMATIC EXECUTION - Proceed unless client requests stop.
 **Reference:** clients/superspace/documents/2025-11-20-us-budget-reduction-ROAS-WEIGHTED.md
 
 ---
+## [Superspace] Monitor AU Phase 1 performance (Dec 4-5)
+**Completed:** 2025-12-16 08:20
+**Source:** AU Phase 1 implementation monitoring
+
+Monitor AU Phase 1 budget increases for learning mode signals before Phase 2.
+
+Phase 1 implemented Dec 4th: £435 → £700/day
+Baseline ROAS: 1,334% (P Max 2,107%, Brand 928%, Generics 847%)
+
+Check Dec 4-5 performance:
+- ROAS per campaign (red flag if >25% drop)
+- Actual spend vs £700 budget
+- Learning mode warnings in UI
+- Conversion volume tracking spend
+
+Decision: Green flags = proceed Phase 2 on Dec 6th | Red flags = delay 24-48hrs
+
+---
+## [Superspace] AU Budget Phase 2: Scale to £950/day (Friday Dec 6th)
+**Completed:** 2025-12-16 08:20
+**Source:** AU three-phase scaling strategy
+
+AU Budget Scaling Phase 2 of 3: £700 → £950/day (+36%)
+
+Pre-checks:
+- Review Phase 1 performance (Dec 4-5)
+- Check for learning mode signals
+- Confirm no ROAS drops >20%
+
+Budget changes:
+- P Max: £350 → £500 (+43%)
+- Search Brand: £250 → £325 (+30%)
+- Search Generics: £100 → £125 (+25%)
+
+Protocol:
+1. Create backup (google-ads-backup-2025-12-06-au-phase2)
+2. Execute via mcp__google-ads__update_campaign_budget
+3. Verify budgets match expected
+4. Update CONTEXT.md
+
+Campaign IDs: 22991480301, 22610849516, 23047481257
+
+---
+
+## [Superspace] AU Budget Phase 3: Scale to £1,250/day (Monday Dec 9th)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - Date-specific monitoring ended, Scaling phase completed, Budget phase completed
+
+AU Budget Scaling Phase 3 of 3 (FINAL): £950 → £1,250/day (+32%)
+
+Pre-checks:
+- Review Phase 2 performance (Dec 6-8)
+- Check weekend performance patterns
+- CRITICAL: Confirm AU stock levels with Craig
+
+Budget changes (FINAL TARGET):
+- P Max: £500 → £700 (+40%)
+- Search Brand: £325 → £400 (+23%)
+- Search Generics: £125 → £150 (+20%)
+- TOTAL: £1,250/day (Craig target achieved)
+
+Protocol:
+1. Create backup (google-ads-backup-2025-12-09-au-phase3)
+2. Execute via mcp__google-ads__update_campaign_budget
+3. Verify budgets match expected
+4. Update CONTEXT.md (mark complete)
+5. Email Craig confirming completion
+
+Campaign IDs: 22991480301, 22610849516, 23047481257
+
+---
+

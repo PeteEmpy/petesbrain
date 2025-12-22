@@ -53,7 +53,7 @@ cd /Users/administrator/Documents/PetesBrain
 export WORDPRESS_URL="https://roksys.co.uk"
 export WORDPRESS_USERNAME="your_username"
 export WORDPRESS_APP_PASSWORD="qxxA8shXiVJtD9tlI0RY0Rvf"
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="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"
 /Users/administrator/Documents/PetesBrain/shared/email-sync/.venv/bin/python3 agents/content-sync/weekly-blog-generator.py
 ```
 

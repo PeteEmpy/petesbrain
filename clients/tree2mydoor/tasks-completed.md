@@ -335,3 +335,68 @@ Leave product name as-is. This is an acceptable loss - the product name "Shirazz
 
 ---
 
+## [Tree2MyDoor] Investigate Search Campaign Performance Collapse
+**Completed:** 2025-12-15 19:26
+**Source:** Weekly Report - 2025-11-20
+
+**From Weekly Report - 2025-11-20**
+
+**Issue:** Three search campaigns collapsed to 0% ROAS with zero conversions
+
+**Campaigns Affected:**
+- T2MD | Search | Anniversary - Exact: ROAS 215% → 0% (-215pp WoW)
+- T2MD | Search | Olive Tree Gifts: ROAS 3,279% → 0% (-3,279pp WoW)
+- T2MD | Search | Roses - Broad: ROAS 313% → 82% (-231pp WoW)
+
+**Expected Impact:** £20/week wasted spend + lost opportunity on previously high-performing campaigns
+
+**Action Items:**
+1. Check Google Merchant Centre feed status for Anniversary roses and Olive Tree products
+2. Verify product availability on website
+3. Review search term reports for query quality degradation
+4. Confirm conversion tracking is firing correctly on these product pages
+
+**Supporting Data:**
+- Weekly report: clients/tree2mydoor/reports/weekly/2025-11-20-weekly-report.md
+- Total conversions dropped from 40.1 to 26.3 (-34.4% WoW)
+- Account ROAS declined from 122% to 90% (-32pp)
+
+
+Done
+
+---
+## [Tree2mydoor] REVERT ROAS from 120% back to 140% - Black Friday experiment ends
+**Completed:** 2025-12-16 08:20
+**Source:** Unknown
+
+---
+## [Tree2mydoor] Deploy 2 Tier 1 negative keywords
+**Completed:** 2025-12-17 13:13
+**Source:** Manual
+
+Add "olive trees" and "tree gifts uk" as [exact match] negatives to campaign 598475433. Projected savings: £336/year. See: clients/tree2mydoor/reports/tree2mydoor-tier1-2025-12-17.txt
+
+---
+## [Tree2mydoor] Re-analyse ROAS experiment with full conversion lag (Dec 3-4)
+**Completed:** 2025-12-17 13:58
+**Source:** Manual
+
+ROAS Experiment Analysis Complete (Final with Full Conversion Lag)
+
+**EXPERIMENT SUCCESSFUL** - Lower ROAS target (120%) outperformed baseline (140-150%)
+
+**Key Results:**
+- Baseline (Nov 17-23): £1,196 spend, £1,447 revenue = 121% ROAS
+- Experiment (Nov 24-30): £1,292 spend, £1,645 revenue = 127% ROAS
+- Result: +6pp ROAS, +14% revenue, +12% conversions
+
+**Why Lag Mattered:**
+- Preliminary analysis (Dec 1): Showed 77% ROAS (appeared to fail)
+- Final analysis (Dec 17): Shows 127% ROAS (clear success)
+- Difference: 50pp of ROAS attributed after Dec 1 due to conversion lag
+
+**Recommendation:** Keep 120% ROAS target permanently for Tree2mydoor PMax campaigns.
+
+**Document:** /Users/administrator/Documents/PetesBrain.nosync/clients/tree2mydoor/documents/black-friday-roas-experiment-analysis-FINAL.md
+
+---

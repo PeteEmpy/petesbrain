@@ -287,7 +287,7 @@ Be concise but informative. If the knowledge base doesn't contain relevant infor
 
 def ai_strategic_recommendation(query: str, keyword_results: List[Dict[str, Any]], client_name: Optional[str] = None) -> Dict[str, Any]:
     """
-    Provide structured strategic recommendation (Mike Rhodes brain-advisor pattern).
+    Provide structured strategic recommendation (brain-advisor pattern).
 
     Returns four-part response:
     1. Main Analysis - Direct answer with synthesis, actionable steps, data/frameworks, citations
@@ -295,7 +295,7 @@ def ai_strategic_recommendation(query: str, keyword_results: List[Dict[str, Any]
     3. Follow-Up Questions - 2-3 natural follow-ups to facilitate dialogue
     4. Devil's Advocate - Why approach might fail, wrong assumptions, alternatives
 
-    Based on brain-advisor pattern from Mike Rhodes' template.
+    Based on brain-advisor pattern from template.
 
     Args:
         query: User's strategic question

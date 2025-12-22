@@ -12,10 +12,14 @@ Then update tasks-overview.html to POST to http://localhost:8765/save-notes
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import json
 import os
+import sys
+import atexit
 from datetime import datetime
+from pathlib import Path
 
 # Fixed location within PetesBrain (use .nosync directory for active data)
 NOTES_FILE = "/Users/administrator/Documents/PetesBrain.nosync/data/state/manual-task-notes.json"
+PID_FILE = Path.home() / '.petesbrain-save-task-notes-server.pid'
 
 class TaskNotesHandler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -79,7 +83,48 @@ class TaskNotesHandler(BaseHTTPRequestHandler):
         # Suppress default logging
         pass
 
+def check_already_running():
+    """Check if server already running via PID file"""
+    if PID_FILE.exists():
+        try:
+            with open(PID_FILE) as f:
+                old_pid = int(f.read().strip())
+
+            # Check if process still exists
+            os.kill(old_pid, 0)
+
+            # Process exists - server already running
+            print(f"ℹ️  Task Notes Server already running (PID {old_pid})")
+            print(f"💡 If stuck, kill it: kill {old_pid}")
+            sys.exit(0)  # Exit cleanly (not a failure)
+
+        except (ProcessLookupError, ValueError):
+            # Stale PID file - process doesn't exist
+            print(f"🧹 Removing stale PID file")
+            PID_FILE.unlink()
+        except PermissionError:
+            # Process exists but owned by another user
+            print(f"❌ Server running as different user (PID {old_pid})")
+            sys.exit(1)
+
+    # Write current PID
+    with open(PID_FILE, 'w') as f:
+        f.write(str(os.getpid()))
+
+    print(f"✅ PID file created: {PID_FILE}")
+
+def cleanup_pid_file():
+    """Remove PID file on shutdown"""
+    if PID_FILE.exists():
+        PID_FILE.unlink()
+        print(f"🧹 PID file removed")
+
 def run_server(port=8766):
+    # Check for duplicate instance FIRST
+    check_already_running()
+
+    # Register cleanup handler
+    atexit.register(cleanup_pid_file)
     server_address = ('localhost', port)
     # Allow reuse of port if previous instance hasn't fully closed
     HTTPServer.allow_reuse_address = True

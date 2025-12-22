@@ -18,9 +18,40 @@ cd shared/mcp-servers/google-ads-mcp-server
 
 ## Common Issues
 
-### 1. "ModuleNotFoundError" in MCP queries
+### 1. "ModuleNotFoundError" - Missing fastmcp dependency
 
-**Problem:** MCP server's venv is missing dependencies
+**Problem:** MCP server configured in `.mcp.json` but tools don't load. Server fails with `ModuleNotFoundError: No module named 'fastmcp'`
+
+**Root Cause:** FastMCP servers require `fastmcp` package in requirements.txt (per MCP-IMPLEMENTATION-PATTERNS.md line 36)
+
+**Fix:**
+```bash
+cd infrastructure/mcp-servers/[server-name]
+
+# 1. Add fastmcp to requirements.txt if missing
+echo "fastmcp>=0.8.0" >> requirements.txt
+
+# 2. Install dependencies
+.venv/bin/pip install -r requirements.txt
+
+# 3. Test server starts
+.venv/bin/python server.py
+# Should see: "Starting [Server Name] MCP Server..." (then Ctrl+C to stop)
+
+# 4. Restart Claude Code
+```
+
+**Verify:**
+```bash
+# Test server.py imports work
+.venv/bin/python -c "from fastmcp import FastMCP; print('fastmcp OK')"
+```
+
+**Example:** YouTube MCP Server (fixed December 16, 2025) - was missing fastmcp in requirements.txt
+
+### 2. "ModuleNotFoundError" - Other missing dependencies
+
+**Problem:** MCP server's venv is missing Python packages
 
 **Fix:**
 ```bash
@@ -30,7 +61,7 @@ cd shared/mcp-servers/google-ads-mcp-server
 
 **Verify:**
 ```bash
-./health-check.sh
+./health-check.sh  # If available
 ```
 
 ### 2. MCP query times out or hangs

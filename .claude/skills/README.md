@@ -1,9 +1,9 @@
 # Claude Skills for PetesBrain
 
 **Date Created**: November 5, 2025
-**Status**: ✅ Active - 24 Skills Configured (+ 2 standalone)
-**Last Updated**: November 28, 2025
-**Source**: Adapted from Mike Rhodes' 8020Brain template + Custom ROK Skills
+**Status**: ✅ Active - 25 Skills Configured (+ 2 standalone)
+**Last Updated**: December 17, 2025
+**Source**: Adapted from industry resources template + Custom ROK Skills
 
 ---
 
@@ -378,10 +378,10 @@ Claude Code skills are automatically triggered capabilities that activate during
 - Parses meeting title, attendees, and transcript
 - Intelligent client detection (email domains, keywords, fuzzy matching)
 - Saves to appropriate client folder or `_unassigned`
-- Extracts action items and creates Google Tasks
+- Extracts action items and saves to markdown files
 - Enriches with Granola API attendee data (optional)
 - AI analysis for executive summaries (optional)
-- Creates review tasks for CONTEXT.md updates
+- Documents metadata and action items in YAML frontmatter
 
 **Import Workflow**:
 1. Find Google Docs matching pattern in Shared Drive
@@ -389,8 +389,8 @@ Claude Code skills are automatically triggered capabilities that activate during
 3. Detect client using 3-tier matching system
 4. Enrich with Granola API data (if available)
 5. Save markdown file to client folder
-6. Extract action items → Google Tasks
-7. Create review task for CONTEXT.md updates
+6. Extract action items → Save to markdown file
+7. Document metadata in YAML frontmatter
 
 **Client Detection**:
 - **Email Domain Matching** (Primary): Matches attendee emails to clients
@@ -401,14 +401,13 @@ Claude Code skills are automatically triggered capabilities that activate during
 - Google Drive API for document search
 - Google Docs API for content fetching
 - Granola API for attendee enrichment (optional)
-- Google Tasks API for action items
 - Client detector from `tools/granola-importer/`
 - AI analysis via Anthropic API (optional)
 
 **Output**:
 - Meeting files: `clients/[client]/meeting-notes/YYYY-MM-DD-meeting-title-client.md`
-- Action items: Google Tasks in "Client Action Items" list
-- Review tasks: For updating CONTEXT.md with insights
+- Action items: Saved within meeting markdown files
+- Metadata: YAML frontmatter with attendees, client, action item count
 - Unmatched meetings: Tracked in `shared/data/granola-unmatched-meetings.json`
 
 **Resources**:
@@ -731,8 +730,8 @@ All three work together! Agents monitor in the background, skills activate durin
     │   └── skill.md                        # Skill definition
     └── devonshire-monthly-report/ ⭐ NEW
         └── skill.md                        # Skill definition
-    ├── task-sync/ ⭐ NEW
-    │   └── skill.md                        # Skill definition
+    ├── task-sync/ ⚠️ DEPRECATED
+    │   └── skill.md                        # Deprecated - Google Tasks removed
     ├── daily-summary-email/ ⭐ NEW
     │   └── skill.md                        # Skill definition
     └── weekly-summary-email/ ⭐ NEW
@@ -839,20 +838,20 @@ Skills automatically reload when files are edited.
 - **MCP Servers**: `docs/MCP-SERVERS.md` - Data integrations
 - **Audit System**: `docs/GOOGLE-ADS-AUDIT-SYSTEM.md` - Scheduled audits
 - **ROK Framework**: `roksys/knowledge-base/rok-methodologies/` - Analysis methods
-- **8020Brain Analysis**: `docs/8020BRAIN-ANALYSIS-REPORT.md` - Mike's system review
+- **industry resources Analysis**: `docs/industry resources-ANALYSIS-REPORT.md` - Mike's system review
 
 ---
 
 ## Credits
 
-Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
+Skills adapted from industry resources template with enhancements for:
 - ROK analysis framework integration
 - Client-specific context loading
 - Google Ads MCP server integration
 - Multi-client agency workflow
 - Automated audit template generation
 
-**Original source**: Mike Rhodes (8020Brain)  
+**Original source**: (industry resources)  
 **Adapted by**: Pete Empson / ROK  
 **Date**: November 5, 2025
 
@@ -875,7 +874,7 @@ Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
 | **Devonshire monthly report** | **devonshire-monthly-report** ⭐ |
 | **WordPress blog management** | **wordpress-blog-manager** ⭐ |
 | **Document incomplete work** | **future-development-documenter** ⭐ |
-| **Sync tasks manually** | **task-sync** ⭐ |
+| ~~**Sync tasks manually**~~ | ~~**task-sync**~~ ⚠️ DEPRECATED |
 | **Send daily summary email** | **daily-summary-email** ⭐ |
 | **Send weekly summary email** | **weekly-summary-email** ⭐ |
 | **Display markdown in browser** | **markdown-browser-display** ⭐ |
@@ -913,44 +912,15 @@ Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
 
 ---
 
-### 14. Task Sync ⭐ NEW
+### 14. Task Sync ⚠️ DEPRECATED
 **Location**: `.claude/skills/task-sync/`
-**Purpose**: Manually synchronize tasks between local todo files and Google Tasks
-**Triggers**: When discussing syncing tasks, updating task status, or refreshing task synchronization
+**Status**: **DEPRECATED - December 16, 2025**
 
-**Use Cases**:
-- "Sync my tasks now"
-- "Update tasks from Google Tasks"
-- "Refresh task synchronization"
-- "Sync todos manually"
-- "Force a task sync"
+**⚠️ This skill has been deprecated as part of the Google Tasks removal.**
 
-**Capabilities**:
-- Runs both sync scripts:
-  - `tasks-monitor.py` - Syncs Google Tasks → Local files
-  - `sync-todos-to-google-tasks.py` - Syncs Local files → Google Tasks
-- Ensures bi-directional synchronization is current
-- Reports sync results and any errors
-- Useful for immediate updates or troubleshooting
+**Reason**: Google Tasks integration has been fully removed from PetesBrain. The system now uses only the internal task system (`clients/{client}/tasks.json`).
 
-**What Gets Synced**:
-- Task completion status
-- Title changes
-- Notes/details changes
-- Due date changes
-- Task uncompletion (moved back to active)
-
-**Integration**:
-- Uses `agents/system/tasks-monitor.py` for Google → Local sync
-- Uses `agents/system/sync-todos-to-google-tasks.py` for Local → Google sync
-- References `shared/google_tasks_client.py` for Google Tasks API
-- Tracks sync state via JSON files
-
-**Resources**:
-- `skill.md` - Main skill definition
-- References `docs/BI-DIRECTIONAL-TASK-SYNC.md` for full documentation
-
-**Time Saved**: Instant manual sync vs waiting for hourly automatic sync
+**Alternative**: Use the internal task system directly via `ClientTasksService` or the `task-manager` skill
 
 ---
 
@@ -987,7 +957,7 @@ Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
 
 **Integration**:
 - Uses `agents/reporting/daily-briefing.py`
-- Integrates with Google Tasks (client work)
+- Integrates with internal task system (client work)
 - Uses Google Calendar API
 - Requires Gmail SMTP credentials
 
@@ -1124,7 +1094,7 @@ Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
 
 **Integration**:
 - Uses `shared/scripts/task_verifier.py` module
-- Integrates with Google Tasks MCP
+- Integrates with internal task system
 - Uses Google Ads MCP for verification queries
 - Logs results to client CONTEXT.md files
 
@@ -1143,8 +1113,8 @@ Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
 
 **Use Cases**:
 - "Refresh OAuth tokens"
-- "Fix Google Tasks authentication"
-- "Re-authorize Google Drive access"
+- "Fix Google Drive authentication"
+- "Re-authorize Google OAuth access"
 - When LaunchAgents show exit code 78 (authentication error)
 
 **What It Does**:
@@ -1155,9 +1125,9 @@ Skills adapted from Mike Rhodes' 8020Brain template with enhancements for:
 5. Verifies tokens are properly configured
 
 **Services Covered**:
-- ✅ **Google Tasks** - Required (API doesn't support service accounts)
 - ✅ **Google Drive** - Optional (easier than sharing files with service account)
 - ✅ **Google Photos** - Required if used (API only works with OAuth)
+- ✅ **Google Analytics** - Required (GA4 Data API uses OAuth)
 
 **Not Needed For**:
 - Google Sheets (uses service account)
@@ -1498,6 +1468,72 @@ Used successfully for National Design Academy's P0 task (Monday 2nd Dec call wit
 
 ---
 
-**Status**: ✅ All 24 skills operational and integrated with MCP servers
-**Last Updated**: November 28, 2025
+### 25. AI Traffic Analysis ⭐ NEW
+**Location**: `.claude/skills/ai-traffic-analysis/`
+**Purpose**: Analyse traffic from AI tools (ChatGPT, Claude, Perplexity, Gemini, Mistral, etc.) in GA4 data
+**Triggers**: When asking for "AI traffic analysis", "AI tool traffic", or "ChatGPT traffic"
+
+**Use Cases**:
+- "Run ai-traffic-analysis for Smythson"
+- "Analyse AI traffic for all clients"
+- "Show me ChatGPT traffic for Tree2mydoor"
+- "AI tool performance analysis"
+
+**Capabilities**:
+- **12 AI Tool Sources Tracked**: ChatGPT, Claude, Perplexity, Gemini, Bard, Mistral, You.com, Poe, Character.AI, HuggingFace, Bing Chat, Pi.ai
+- **Single or Multi-Client**: Analyse one client or all clients with GA4 data
+- **Week-over-Week Comparison**: Current 7 days vs previous 7 days
+- **Quality Metrics**: Sessions, revenue, conversions, engagement rate, revenue per session
+- **Share Analysis**: AI traffic as % of total site traffic and revenue
+- **Actionable Insights**: Auto-generates recommendations based on patterns
+
+**Key Question Answered**: "Are AI tools sending valuable traffic to my site?"
+
+**Metrics Provided**:
+- Total sessions and users from AI tools
+- Total revenue and conversions
+- Share of site traffic (sessions %)
+- Share of site revenue (revenue %)
+- Per-tool breakdown (ChatGPT vs Claude vs Perplexity, etc.)
+- Conversion rates and engagement rates
+- Revenue per session
+- Week-over-week growth trends
+
+**Output Format**: Markdown saved to:
+- Single client: `clients/{client}/reports/ga4/YYYY-MM-DD-ai-traffic-analysis.md`
+- All clients: `clients/_data/reports/YYYY-MM-DD-ai-traffic-analysis-all-clients.md`
+
+**Technical Details**:
+- **Data Source**: Google Analytics 4 (sessionSource dimension)
+- **Filter Logic**: `sessionMedium = 'referral'` (excludes organic search results)
+- **Date Range**: Last 7 complete days (today - 8 to today - 1) vs previous 7 days
+- **API**: Uses `mcp__google-analytics__run_report`
+- **British English**: All output uses UK spelling (analyse, optimise)
+
+**Real-World Discovery** (Smythson, Dec 2025):
+- ChatGPT: 773 sessions, £5,783 revenue (£826/day)
+- Total AI tools: 817 sessions, £6,082 revenue
+- Represents 0.44% of sessions but 0.9% of revenue
+- Conversion rate: 9.55 conversions/session (2x site average)
+
+**Integration**:
+- Uses platform-ids MCP server to get GA4 property IDs
+- Reads client CONTEXT.md files for all-client analysis
+- Auto-creates report directory if not exists
+
+**Resources**:
+- `skill.md` - Complete implementation guide (238 lines)
+
+**Why This Matters**:
+- **Emerging Channel**: AI tools are becoming a significant referral source
+- **High-Quality Traffic**: Often converts at 2-3x site average
+- **Attribution Gap**: Many clients don't track AI tool referrals separately
+- **Strategic Opportunity**: Understanding AI tool traffic helps optimise for AI recommendations
+
+**Time Saved**: ~20-30 minutes per analysis (vs manual GA4 exploration + filtering)
+
+---
+
+**Status**: ✅ All 25 skills operational and integrated with MCP servers
+**Last Updated**: December 17, 2025
 

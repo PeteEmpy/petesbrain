@@ -773,3 +773,179 @@ Appointment booked.
 **Impact:** Critical task data now protected with working backups
 
 ---
+
+## Test Wispr Flow Reminder System
+**Completed:** 2025-12-16 14:18
+**Priority:** P3
+**Due Date:** 2025-12-16
+
+**Completion Note:** Wispr Flow agent already removed (as expected). System superseded by iPhone shortcut → Notes → Inbox processor workflow. Test confirmed working.
+
+**Original Task Notes:**
+Source: Inbox processor (Wispr Flow)
+Original file: enhanced-20251215-172051-wispr-this is a wispr flow note to test whether the remi.md
+
+# AI-Enhanced Note
+**Original:** 20251215-172051-wispr-this is a wispr flow note to test whether the remi.md
+**Type:** task
+**Client:** None
+**Priority:** low
+**Urgency:** normal
+**Estimated Time:** 5 min
+**Model Used:** claude-3-5-haiku-20241022
+**Processed:** 2025-12-15 19:22
+
+
+Verify that the reminder system is functioning properly by creating a test reminder and checking its execution.
+
+---
+
+**Context Summary:** Personal system test for Wispr Flow reminder functionality.
+
+---
+
+**Original Note:**
+# Wispr Flow Note
+
+This is a Wispr Flow note to test whether the reminder system is working in Pete's brain. Set a reminder for tomorrow to check this.
+
+---
+*Source: Wispr Flow*
+*Created: 2025-12-15 17:20:51.150 +00:00*
+*Note ID: 065efeb0-f441-4ea9-8c01-1546e1b2d96a*
+
+It's not been possible to integrate Wispr Flow as a note system so therefore this has been superseded by an iPhone shortcut which sends data to Notes which is then processed by the Inbox. This is complete. You can remove the Wispr Flow agent although this should have been done already
+
+test
+
+---
+## 2025-12-18 - Task Moved to Personal
+
+**18 Dec 2025 At 08:22 Test Retry Fix**
+- Moved to personal folder as part of cleanup
+- Test task for inbox processor retry logic
+- Completed: 2025-12-18
+
+
+
+## [Roksys] Phase 1B: Google Ads Auction Insights Analysis Skill
+**Completed:** 2025-12-18
+**Task ID:** 86751aea-5e6f-4c05-bac8-35d65c840198
+**Priority:** P0
+
+**Original Task:**
+Phase 1B: Google Ads Auction Insights Analysis Skill
+
+**Manual Note (added 2025-12-18):**
+Done
+
+**Status:** ✅ Completed
+
+---
+## [Roksys] Phase 1A: Google Ads Weekly E-commerce Report Skill
+**Completed:** 2025-12-19 15:34
+**Source:** GoMarble Implementation Plan
+
+Create .claude/skills/google-ads-weekly-report/ skill.
+
+**Output:**
+- Campaign overview (spend, conversions, ROAS, CPA)
+- Product-level performance (top 10 best/worst by ROAS)
+- Placement analysis (Shopping, YouTube, Display, Discover)
+- Week-over-week changes (>15% flagged)
+- 3-5 prioritized recommendations
+
+**Test with:** Godshot (simple), Go Glean, Bright Minds
+
+**Success:** Generate report in <5 minutes, identify 1+ actionable insight per client
+
+**Time:** 4 hours
+
+Done
+
+---
+## [Roksys] Phase 1B: Google Ads Auction Insights Analysis Skill
+**Completed:** 2025-12-19 15:34
+**Source:** GoMarble Implementation Plan
+
+Create .claude/skills/google-ads-auction-insights/ skill.
+
+**Purpose:**
+- Identify lost impression share (budget vs rank)
+- Quantify revenue opportunity from budget increases
+- Guide client budget increase requests
+
+**Output:**
+- Impression share summary table
+- Lost IS breakdown (budget vs rank)
+- Revenue opportunity estimates
+- Prioritized action recommendations
+
+**Use Cases:**
+- Devonshire Hotels (budget constraints)
+- Accessories for the Home (recent budget increase)
+- National Motorsports Academy (high CPA context)
+
+**Time:** 6 hours
+
+Done
+
+---
+## [PetesBrain] Clean up task migration backups from 2025-12-01
+**Completed:** 2025-12-19 15:34
+**Source:** Task system audit follow-up
+
+Run cleanup script to remove temporary backup files created during task system migration.
+
+**What to Delete:**
+- Per-client backup files: tasks-before-cleanup-*, tasks-before-dedup-*, tasks-pre-*-20251201-*.json
+- System backup folders: _deleted-spurious-files-2025-12-01/, _final-cleanup-2025-12-01/, _agent-cleanup-2025-12-01/
+
+**Script Location:**
+/tmp/cleanup-task-migration-backups.py
+
+**Command:**
+```bash
+python3 /tmp/cleanup-task-migration-backups.py
+```
+
+**Safety:**
+- Script has built-in date check (won't run before Dec 8)
+- Only removes 2025-12-01 backups (keeps _archived-tasks/ folders)
+- Shows total space freed
+
+**Expected Result:**
+~39 backup files + 3 folders removed, freeing several MB of disk space.
+
+**Context:** These are backups from the comprehensive task system audit completed on 2025-12-01 (see /tmp/TASK-SYSTEM-AUDIT-REPORT-2025-12-01.md). After 7 days of normal operation without issues, they're safe to remove.
+
+Done
+
+---
+## [Roksys] Phase 1C: GA4 Traffic Source Performance Skill
+**Completed:** 2025-12-19 15:34
+**Source:** GoMarble Implementation Plan
+
+Create .claude/skills/ga4-channel-performance/ skill.
+
+**Purpose:**
+- Compare attribution models (last-click vs data-driven)
+- Identify profitable yet undervalued channels
+- Explain discrepancies between GA4 and Google Ads
+
+**Output:**
+- Channel performance table
+- Attribution comparison
+- Underperforming high-spend channels
+- Undervalued assisted conversion channels
+
+**Use Cases:**
+- Smythson (multi-channel strategy)
+- Superspace (organic vs paid understanding)
+- Tree2MyDoor (seasonal traffic patterns)
+
+**Time:** 5 hours
+
+Done
+
+---

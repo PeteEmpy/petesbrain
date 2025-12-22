@@ -1,7 +1,7 @@
 ---
 name: granola-importer
-description: Imports Granola meeting notes from Google Docs into client folders with automatic client detection, action item extraction, and Google Tasks creation. Use when user says "import Granola meetings", "sync meeting notes", "process meetings", or needs to import meeting transcripts.
-allowed-tools: Bash, Read, Write, mcp__google-tasks__create_task
+description: Imports Granola meeting notes from Google Docs into client folders with automatic client detection and action item extraction to markdown. Use when user says "import Granola meetings", "sync meeting notes", "process meetings", or needs to import meeting transcripts.
+allowed-tools: Bash, Read, Write
 ---
 
 # Granola Meeting Importer Skill
@@ -25,7 +25,7 @@ When this skill is triggered:
    - Parses meeting title, attendees, and transcript
    - Detects client using intelligent matching (email domains, keywords, fuzzy matching)
    - Saves to `clients/[client-name]/meeting-notes/` or `clients/_unassigned/meeting-notes/`
-   - Extracts action items and creates Google Tasks
+   - Extracts action items and saves to markdown files
    - Enriches with Granola API attendee data (if available)
 
 4. **Report results**:
@@ -82,13 +82,13 @@ Uses 3-tier intelligent detection:
 ### Step 6: Extract Action Items
 - Looks for "Action Items", "Next Steps", "Action Points" sections
 - Filters for items assigned to "Peter:" or "Team:"
-- Creates Google Tasks in "Client Action Items" list
-- Includes meeting context in task notes
+- Saves action items to meeting markdown file
+- Includes meeting context and priority indicators
 
-### Step 7: Create Review Tasks
-- Creates task for reviewing meeting and updating CONTEXT.md
-- Includes AI-suggested context updates
-- Sets due date 2 days from now
+### Step 7: Document Metadata
+- Saves meeting metadata in YAML frontmatter
+- Includes action items count and priority flags
+- Documents attendees and client assignment
 
 ## Usage Examples
 
@@ -140,16 +140,19 @@ Claude (using skill):
 - Supports email domain mappings in `tools/granola-importer/domain_mappings.yaml`
 - Fuzzy matching for client names
 
-### Google Tasks
-- Creates action items in "Client Action Items" task list
-- Includes meeting context (title, date, file path)
-- Formats as: `[client-name] Task description`
+### Action Item Extraction
+- Extracts action items to markdown files within meeting notes
+- Includes priority indicators (P0/P1/P2) based on context
+- Saves to meeting file for easy reference
 
-### AI Analysis (Optional)
+### AI Analysis (Required for Full Processing)
 - Uses Anthropic Claude API for meeting analysis
 - Extracts executive summary, strategic decisions, key learnings
 - Suggests CONTEXT.md updates
-- Requires `ANTHROPIC_API_KEY` environment variable
+- **API Key Retrieval**: Automatically retrieved from macOS keychain
+  - Service: `anthropic`, Account: `api_key`
+  - Fallback to `ANTHROPIC_API_KEY` environment variable
+  - Keychain access via: `security find-generic-password -s anthropic -a api_key -w`
 
 ## File Locations
 
@@ -174,7 +177,10 @@ Claude (using skill):
 ### Missing Credentials
 - **Google Drive**: Check OAuth setup in `shared/mcp-servers/google-drive-mcp-server/`
 - **Granola API**: Verify Granola desktop app is installed and logged in
-- **Google Tasks**: Check Google Tasks MCP server configuration
+- **Anthropic API**: Retrieved from macOS keychain automatically
+  - Service: `anthropic`, Account: `api_key`
+  - If keychain retrieval fails, falls back to `ANTHROPIC_API_KEY` environment variable
+  - Store in keychain: `security add-generic-password -s anthropic -a api_key -w "YOUR_KEY"`
 
 ### Document Not Found
 - Verify document naming matches: `"ROK | Granola -"`
@@ -204,12 +210,12 @@ Claude (using skill):
 - **Automatic Processing**: Can be scheduled via LaunchAgent
 - **De-duplication**: Tracks imported documents in history file
 - **Unmatched Meetings**: Saved to `_unassigned` and tracked for reporting
-- **Action Items**: Automatically extracted and created as Google Tasks
+- **Action Items**: Automatically extracted and saved to markdown files
 - **AI Analysis**: Optional feature requiring Anthropic API key
 
 ## Related Skills
 
 - Can work with other content sync skills
 - Integrates with client management workflows
-- Supports task management via Google Tasks
+- Action items saved to meeting files for manual task creation if needed
 

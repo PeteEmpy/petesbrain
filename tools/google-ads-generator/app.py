@@ -48,13 +48,27 @@ def analyze():
     data = request.get_json()
     url = data.get('url', '').strip()
     context = data.get('context', '').strip()
+    main_keyword = data.get('main_keyword', '').strip()
+    review1 = data.get('review1', '').strip()
+    review2 = data.get('review2', '').strip()
     ad_type = data.get('ad_type', 'rsa')
+
+    # Build reviews list if provided
+    social_proof_reviews = []
+    if review1:
+        social_proof_reviews.append(review1)
+    if review2:
+        social_proof_reviews.append(review2)
 
     print(f"\n{'='*80}", flush=True)
     print(f"ANALYZE REQUEST RECEIVED", flush=True)
     print(f"URL: {url}", flush=True)
     if context:
         print(f"Additional Context: {context}", flush=True)
+    if main_keyword:
+        print(f"Main Keyword: {main_keyword}", flush=True)
+    if social_proof_reviews:
+        print(f"Social Proof Reviews: {len(social_proof_reviews)} provided", flush=True)
     print(f"{'='*80}\n", flush=True)
 
     if not url:
@@ -69,7 +83,11 @@ def analyze():
         if ad_type == 'asset_group':
             result = copywriter.generate_asset_group(additional_context=context)
         else:
-            result = copywriter.generate_ad_copy(additional_context=context)
+            result = copywriter.generate_ad_copy(
+                additional_context=context,
+                main_keyword=main_keyword,
+                social_proof_reviews=social_proof_reviews if social_proof_reviews else None
+            )
 
         # Store globally
         latest_result = result

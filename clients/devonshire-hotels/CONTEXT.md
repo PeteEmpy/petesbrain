@@ -593,7 +593,7 @@ The account is divided into distinct campaign groups based on property type:
     - The Hide
     - Chatsworth Cottages
   - **Analysis & Insights** (Shared Drive):
-    - **Devonshire Group - PMax & AI Insights** - MikeRhodes.com.au (c) ⭐ ACTIVE
+    - **Devonshire Group - PMax & AI Insights** ⭐ ACTIVE
     - Devonshire Group - AI Whisperer (multiple versions v68, v78, v80, v82.3)
     - Devonshire Arms Website Analysis
     - Strategic Website Analysis: Conversion Optimization for The Devonshire Arms Hotel & Spa
@@ -632,7 +632,7 @@ The account is divided into distinct campaign groups based on property type:
 
 **Analysis Tools:**
 - "Devonshire Group - PMax & AI Insights" (Google Sheets) ⭐ ACTIVE
-  - MikeRhodes.com.au framework for Performance Max analysis
+  - Performance Max analysis framework
   - Regularly updated - check for latest insights
 
 **AI Whisperer Versions:**

@@ -683,7 +683,12 @@ class ClientTasksService:
         """Log completed task to tasks-completed.md"""
         from datetime import datetime
 
-        client_dir = self.clients_dir / client
+        # SPECIAL CASE: Roksys tasks use roksys/ directory, not clients/roksys/
+        if client == 'roksys':
+            client_dir = self.project_root / 'roksys'
+        else:
+            client_dir = self.clients_dir / client
+
         completed_file = client_dir / 'tasks-completed.md'
 
         # Create completion entry
@@ -714,7 +719,7 @@ class ClientTasksService:
         all_tasks = []
 
         # Include roksys tasks from root-level roksys/tasks.json
-        roksys_file = self.base_dir.parent / 'roksys/tasks.json'
+        roksys_file = self.project_root / 'roksys/tasks.json'
         if roksys_file.exists():
             try:
                 with open(roksys_file, 'r') as f:
@@ -744,7 +749,7 @@ class ClientTasksService:
                     pass  # Skip files that can't be read
 
         # Save to cached file
-        cache_file = self.base_dir.parent / 'data/state/client-tasks.json'
+        cache_file = self.project_root / 'data/state/client-tasks.json'
         cache_data = {
             'tasks': all_tasks,
             'last_updated': datetime.now().isoformat(),
@@ -756,12 +761,11 @@ class ClientTasksService:
 
         # Regenerate HTML task manager
         try:
-            project_root = self.base_dir.parent
-            html_generator = project_root / 'generate-tasks-overview.py'
+            html_generator = self.project_root / 'generate-tasks-overview.py'
             if html_generator.exists():
                 subprocess.run(
                     ['/usr/local/bin/python3', str(html_generator)],
-                    cwd=project_root,
+                    cwd=self.project_root,
                     capture_output=True,
                     timeout=10
                 )

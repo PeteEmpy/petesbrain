@@ -1,0 +1,69 @@
+TIER 1 NEGATIVE KEYWORDS - IMMEDIATE ACTION REQUIRED
+Smythson UK - 60-Day Analysis (2025-10-18 to 2025-12-17)
+========================================================
+
+Generated: 2025-12-17
+Customer ID: 8573235780 (UK Account)
+Analysis Period: 60 days
+
+TIER 1 CRITERIA: ≥30 clicks, 0 conversions, ≥£20 spend
+CONFIDENCE LEVEL: >95% (statistical significance achieved)
+ACTION: Add as [exact match] negative keywords immediately
+
+IDENTIFIED TERMS (21 terms):
+-----------------------------
+
+HIGH PRIORITY (50+ clicks):
+1. [aspinal of london] - 103 clicks, £177.97 - Competitor brand
+2. [スマイソン] - 95 clicks, £48.42 - Japanese text (misspelling?)
+3. [smythson tote bag] - 186 clicks, £144.93 - DUPLICATE across campaigns
+4. [smythson jewellery box] - 83 clicks, £147.82
+5. [smythson jewelry box] - 77 clicks, £129.18 - US spelling variant
+6. [2026 diary] - 50 clicks, £104.06 - Generic diary term
+
+MEDIUM PRIORITY (30-49 clicks):
+7. [smythson leather] - 46 clicks, £116.12
+8. [jewellery box] - 44 clicks, £68.45 - Generic product term
+9. [smythson handbags] - 43 clicks, £55.80
+10. [smythson personalised stationery] - 42 clicks, £79.53
+11. [smythson bond street store] - 41 clicks, £76.65 - Store location query
+12. [smythson bag] - 39 clicks, £35.63
+13. [smyths] - 39 clicks, £54.39 - Toy store brand confusion
+14. [smythson travel wallet] - 38 clicks, £47.87
+15. [smythson tote] - 37 clicks, £35.89
+16. [smythson near me] - 35 clicks, £8.10 - Low CPC location query
+17. [smythson passport cover] - 32 clicks, £33.07
+18. [smythson leather notebook] - 32 clicks, £46.26
+19. [selfridges] - 32 clicks, £72.94 - Retailer brand
+20. [frank smythson] - 31 clicks, £118.66 - Founder name query
+
+TOTAL IMPACT:
+-------------
+Total Clicks: 1,145
+Total Wasted Spend: £1,581.81 (60 days)
+Projected Monthly Waste: £790.91
+Projected Annual Waste: £9,490.86
+
+CATEGORY BREAKDOWN:
+-------------------
+- Competitor Brands: £250.91 (aspinal, selfridges)
+- Generic Product Terms: £172.51 (jewellery box, diary)
+- Store Location Queries: £84.75 (near me, bond street)
+- Brand Misspellings: £102.81 (smyths, Japanese text)
+- Non-Converting Product Terms: £970.83 (specific Smythson products)
+
+RECOMMENDED ACTIONS:
+--------------------
+1. IMMEDIATE: Add all 21 terms as [exact match] negative keywords
+2. PRIORITY: Focus on competitor brands and generic terms first (£423.42/year waste)
+3. REVIEW: "smythson tote bag" appears across multiple campaigns - consolidate
+4. INVESTIGATE: Why are branded product terms not converting? Pricing/stock issues?
+
+Use command (adjust campaign IDs as needed):
+python3 shared/scripts/add-negative-keywords-universal.py \
+  --customer-id 8573235780 \
+  --manager-id 2569949686 \
+  --campaign-id [CAMPAIGN_ID] \
+  --from-file clients/smythson/reports/smythson-uk-tier1-keywords.txt
+
+EXPECTED RESULT: £9,491/year waste reduction

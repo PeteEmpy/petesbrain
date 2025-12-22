@@ -318,6 +318,38 @@
 
 ---
 
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-10-15)
+
+**Product Hero Plan**: Pro Plan (€30/month)
+
+**Campaign ROAS Targets**:
+- **H&S Full (Heroes & Sidekicks)**: 160%
+- **Villains**: 140%
+
+**Performance Gap**: H&S outperforming Villains by 20 ROAS points
+
+**Rationale**: Systematic ROAS increases (120% → 130% → 140% → 160% for H&S) based on strong performance improvements. H&S campaign switched to "Shopping Only" mode on Sept 11. Lower target for Villains reflects inherent underperformance of this product segment.
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Campaign | Setting | Previous | New | Rationale | Result |
+|------|----------|---------|----------|-----|-----------|--------|
+| 2025-10-15 | H&S Full | ROAS | 140% | 160% | Strong performance allows aggressive target | Current - Shopping Only mode |
+| 2025-09-11 | H&S Full | Campaign Type | PMax | Shopping Only | [TBD - investigate reason] | At 160% ROAS |
+| 2025-09-09 | H&S Full | ROAS | 130% | 140% | Performance improvement | Further increased to 160% |
+| 2025-09-09 | Villains | ROAS | 130% | 140% | Performance improvement | Current target |
+| 2025-08-04 | H&S Full | ROAS | 120% | 130% | Performance improvement | Further increased |
+| 2025-08-04 | Villains | ROAS | 120% | 130% | Performance improvement | Further increased to 140% |
+| 2025-07-08 | H&S Full | ROAS | [TBD] | 120% | Initial campaign setup | Progressive increases began |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness. Part of Connor Heaps portfolio (consistent with Go Glean, Crowd Control).
+
+---
+
 ## Action Items & Reminders
 
 ### Ongoing Tasks

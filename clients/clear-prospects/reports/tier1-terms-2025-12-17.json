@@ -1,0 +1,30 @@
+[
+  {
+    "search_term": "wheat bag company",
+    "campaign": "CPL | WBS | Search | Wheat Bags 120 28/5 Ai 7/8 110 10/11 120 9/12",
+    "clicks": 47,
+    "spend_gbp": "\u00a325.96",
+    "conversions": 0,
+    "conversions_value": 0.0230243,
+    "tier": 1,
+    "confidence": "very_high",
+    "daily_click_rate": 0.7833333333333333,
+    "false_positive_risk": "<5%",
+    "recommendation": "Add as exact match negative keyword immediately",
+    "action": "immediate"
+  },
+  {
+    "search_term": "microwave heat pack",
+    "campaign": "CPL | WBS | Search | Wheat Bags 120 28/5 Ai 7/8 110 10/11 120 9/12",
+    "clicks": 51,
+    "spend_gbp": "\u00a324.37",
+    "conversions": 0,
+    "conversions_value": 0,
+    "tier": 1,
+    "confidence": "very_high",
+    "daily_click_rate": 0.85,
+    "false_positive_risk": "<5%",
+    "recommendation": "Add as exact match negative keyword immediately",
+    "action": "immediate"
+  }
+]

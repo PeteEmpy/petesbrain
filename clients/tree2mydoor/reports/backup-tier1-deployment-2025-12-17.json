@@ -1,0 +1,51 @@
+{
+  "backup_created": "2025-12-17T11:45:00Z",
+  "operation": "Add Tier 1 negative keywords",
+  "client": "tree2mydoor",
+  "customer_id": "4941701449",
+  "manager_id": "2569949686",
+  "campaign_id": "598475433",
+  "campaign_name": "T2MD | Search | Trees Port 150 16/6 Ai 4/8 Lemon paused 20/8 131 3/9",
+  "campaign_status": "ENABLED",
+
+  "current_state": {
+    "negative_keywords_count": 130,
+    "sample_existing_negatives": [
+      "Apple Tree [EXACT]",
+      "Apple Trees For Sale [EXACT]",
+      "bay tree [BROAD]",
+      "bonsai tree [EXACT]",
+      "cherry tree [EXACT]",
+      "lemon tree [EXACT]",
+      "olive tree [EXACT]",
+      "tree to my door [EXACT]"
+    ]
+  },
+
+  "changes_to_apply": {
+    "new_negative_keywords": [
+      {
+        "text": "olive trees",
+        "match_type": "EXACT",
+        "reason": "Tier 1: 50 clicks, £32.47 spend, 0 conversions",
+        "projected_annual_waste": "£194.82"
+      },
+      {
+        "text": "tree gifts uk",
+        "match_type": "EXACT",
+        "reason": "Tier 1: 32 clicks, £23.60 spend, 0 conversions",
+        "projected_annual_waste": "£141.60"
+      }
+    ],
+    "total_new_negatives": 2
+  },
+
+  "expected_result": {
+    "negative_keywords_count": 132,
+    "total_projected_annual_savings": "£336.42"
+  },
+
+  "verification_query": "SELECT campaign_criterion.keyword.text, campaign_criterion.keyword.match_type FROM campaign_criterion WHERE campaign.id = 598475433 AND campaign_criterion.negative = TRUE AND campaign_criterion.keyword.text IN ('olive trees', 'tree gifts uk')",
+
+  "rollback_instructions": "If deployment fails, no rollback needed - keywords were not added. If deployment succeeds but needs reversal, manually remove the 2 added negative keywords via Google Ads UI."
+}

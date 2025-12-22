@@ -1,0 +1,5 @@
+customer_id,manager_id,campaign_id,campaign_name,current_budget_gbp,new_budget_gbp,action
+8573235780,2569949686,8161289137,Brand Search | UK | Main,323.48,823.48,BUDGET_CHANGE
+8573235780,2569949686,8160981697,Generic Search | UK | Main,261.97,561.97,BUDGET_CHANGE
+8573235780,2569949686,8161289257,Performance Max | UK | Main,455.81,1055.81,BUDGET_CHANGE
+8573235780,2569949686,8166587577,Competitor Search | UK | Main,50.00,0.00,PAUSE

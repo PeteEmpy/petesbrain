@@ -40,7 +40,7 @@ Merged both files into root `tasks.json`:
 
 All scripts now check **root first**, with product-feeds as fallback:
 
-#### ✅ generate-tasks-overview.py
+#### ✅ generate-all-task-views.py
 Updated to prioritise root `tasks.json`
 
 #### ✅ inbox-processor.py
@@ -70,7 +70,7 @@ Added warning when product-feeds/tasks.json found (migration needed)
 
 ### Service Tests
 - ✅ ClientTasksService: 37 active tasks found
-- ✅ generate-tasks-overview.py: 54 internal tasks loaded
+- ✅ generate-all-task-views.py: 54 internal tasks loaded
 - ✅ Task overview HTML: Generated successfully
 - ✅ Spot checks on NMA, Smythson, Accessories: All correct
 

@@ -1,0 +1,1012 @@
+{
+  "date": "2025-12-20",
+  "client": "Godshot",
+  "comparison_date": "2025-12-19",
+  "total_products_today": 2741,
+  "total_products_yesterday": 2726,
+  "summary": {
+    "changed_products": 42,
+    "price_changes": 2,
+    "sale_price_changes": 0,
+    "availability_changes": 40,
+    "title_changes": 0,
+    "description_changes": 2,
+    "image_changes": 0,
+    "item_group_changes": 0,
+    "shipping_changes": 0,
+    "label_changes": 0,
+    "new_products": 15,
+    "removed_products": 0
+  },
+  "changed_products": [
+    {
+      "product_id": "19048-02",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20199",
+      "title": "Pigmentarium Wave Incense Altar",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "12358",
+      "title": "Murdock London Beard Moisturiser 150ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23070",
+      "title": "A Matter of Concrete - Laurina3, Supriyanto, Indonesia 100g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15164",
+      "title": "Dak - Milky Cake 250g - Whole Coffee Beans or Ground The Way You Like It - Cauca, Colombia",
+      "changes": {
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 17 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "19907",
+      "title": "Dak - Milky Cake 250g (Advanced & Controlled Fermentation Castillo, Colombia)",
+      "changes": {
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 17 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "10326",
+      "title": "Kihara Soji Porcelain Teapot",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24300",
+      "title": "Mok - Espresso B, Brazil 250g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14096",
+      "title": "Ranger Station Candle 225g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17788",
+      "title": "1616 / arita japan TY Coffee Cup with Handle",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24205",
+      "title": "Room 1015 Sonic Flower EDP 10ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16330",
+      "title": "Rains Padded Nylon Mittens",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24330",
+      "title": "Austin Austin Cedar & Ylang Ylang Soap Bar and Soap Dish",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18599",
+      "title": "Jono Smart Ceramics Small Mug",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15418",
+      "title": "Tools To Live By 6.5\u201d Scissors",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21504-06",
+      "title": "Arhoj Dip Dish",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19048-07",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21502-08",
+      "title": "Arhoj Munch Bowl",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24262",
+      "title": "Dak - Confetti Club 250g (Anaerobic Natural Red Bourbon, Colombia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15400",
+      "title": "HMM Mugr",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23165",
+      "title": "Pith Yuzu Blank Notebook",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22304",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "4068518",
+      "title": "Stelton Click To Go Cup 0.4L",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18602",
+      "title": "Jono Smart Ceramics Sugar Bowl",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24192",
+      "title": "Room 1015 Love-O-Matic EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18585",
+      "title": "Bon Parfumeur 902 EDP 30ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22450",
+      "title": "Liis Bo EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18394",
+      "title": "FUGAZZI Orange Crush EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "40920",
+      "title": "Stelton EM77 Vacuum Jug 1L",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23918",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19479",
+      "title": "Modern Theory Candle Tin",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15611",
+      "title": "Kousaido Hyakuraku Incense",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22306",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "27592",
+      "title": "Kinto SCS-S02 Coffee Server",
+      "changes": {
+        "price": [
+          "16.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14742",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14630",
+      "title": "Hightide Penco Bullet Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18834",
+      "title": "Brutalia",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22446",
+      "title": "Dak - Cream Donut 250g (Yeast Inoculated Natural Caturra & Chiroso, Colombia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22480",
+      "title": "Kinto Cast Coaster 100mm - Pack of 6 [Teak]",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24199",
+      "title": "Room 1015 Love-O-Matic EDP 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "29580",
+      "title": "Kinto CLK-151 Small Mug 300ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "24403",
+      "title": "Eren Armitage Slate Incense Holder",
+      "price": "40.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24400",
+      "title": "Eren Armitage Kohiki Mug",
+      "price": "38.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24361",
+      "title": "AY STUDIOS Handbag",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24277",
+      "title": "Liis Choux Choux EDP 50ml",
+      "price": "165.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24338",
+      "title": "AY STUDIOS Tote Bag",
+      "price": "150.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24398",
+      "title": "Eren Armitage Kohiki Cup",
+      "price": "30.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24397",
+      "title": "Versatile Le Beurre Doux Body Bar 150g",
+      "price": "16.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24402",
+      "title": "Eren Armitage Hakeme Incense Holder",
+      "price": "38.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24401",
+      "title": "Eren Armitage Hakeme Round Cup II",
+      "price": "35.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24360",
+      "title": "AY STUDIOS Handbag",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24359",
+      "title": "AY STUDIOS Handbag",
+      "price": "65.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24339",
+      "title": "AY STUDIOS Tote Bag",
+      "price": "150.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "24396",
+      "title": "Versatile La Cr\u00e8me Enti\u00e8re Body Cream 200ml",
+      "price": "30.00 GBP",
+      "availability": "in stock"
+    },
+    {
+      "product_id": "24343",
+      "title": "AY STUDIOS Tote Bag",
+      "price": "150.00 GBP",
+      "availability": "out of stock"
+    },
+    {
+      "product_id": "24337",
+      "title": "AY STUDIOS Tote Bag",
+      "price": "150.00 GBP",
+      "availability": "out of stock"
+    }
+  ],
+  "removed_products": [],
+  "price_changes": [
+    {
+      "product_id": "27592",
+      "title": "Kinto SCS-S02 Coffee Server",
+      "changes": {
+        "price": [
+          "16.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14742",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "sale_price_changes": [],
+  "availability_changes": [
+    {
+      "product_id": "19048-02",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "20199",
+      "title": "Pigmentarium Wave Incense Altar",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "12358",
+      "title": "Murdock London Beard Moisturiser 150ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23070",
+      "title": "A Matter of Concrete - Laurina3, Supriyanto, Indonesia 100g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "10326",
+      "title": "Kihara Soji Porcelain Teapot",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24300",
+      "title": "Mok - Espresso B, Brazil 250g",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14096",
+      "title": "Ranger Station Candle 225g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17788",
+      "title": "1616 / arita japan TY Coffee Cup with Handle",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24205",
+      "title": "Room 1015 Sonic Flower EDP 10ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "16330",
+      "title": "Rains Padded Nylon Mittens",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24330",
+      "title": "Austin Austin Cedar & Ylang Ylang Soap Bar and Soap Dish",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18599",
+      "title": "Jono Smart Ceramics Small Mug",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15418",
+      "title": "Tools To Live By 6.5\u201d Scissors",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "17852",
+      "title": "Wallpaper* City Guide [imperfect]",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21504-06",
+      "title": "Arhoj Dip Dish",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19048-07",
+      "title": "Arhoj Sip Cup",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "21502-08",
+      "title": "Arhoj Munch Bowl",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24262",
+      "title": "Dak - Confetti Club 250g (Anaerobic Natural Red Bourbon, Colombia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15400",
+      "title": "HMM Mugr",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23165",
+      "title": "Pith Yuzu Blank Notebook",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22304",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "4068518",
+      "title": "Stelton Click To Go Cup 0.4L",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18602",
+      "title": "Jono Smart Ceramics Sugar Bowl",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24192",
+      "title": "Room 1015 Love-O-Matic EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18585",
+      "title": "Bon Parfumeur 902 EDP 30ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22450",
+      "title": "Liis Bo EDP 50ml",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18394",
+      "title": "FUGAZZI Orange Crush EDP 50ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "40920",
+      "title": "Stelton EM77 Vacuum Jug 1L",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "23918",
+      "title": "APFR Incense Sticks",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "19479",
+      "title": "Modern Theory Candle Tin",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "15611",
+      "title": "Kousaido Hyakuraku Incense",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22306",
+      "title": "Field Day Folk Tin Candle 235g",
+      "changes": {
+        "availability": [
+          "out of stock",
+          "in stock"
+        ]
+      }
+    },
+    {
+      "product_id": "27592",
+      "title": "Kinto SCS-S02 Coffee Server",
+      "changes": {
+        "price": [
+          "16.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14742",
+      "title": "Hightide Sandglass Hourglass",
+      "changes": {
+        "price": [
+          "25.00 GBP",
+          "13.00 GBP"
+        ],
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "14630",
+      "title": "Hightide Penco Bullet Ballpoint Pen",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "18834",
+      "title": "Brutalia",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22446",
+      "title": "Dak - Cream Donut 250g (Yeast Inoculated Natural Caturra & Chiroso, Colombia)",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "22480",
+      "title": "Kinto Cast Coaster 100mm - Pack of 6 [Teak]",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "24199",
+      "title": "Room 1015 Love-O-Matic EDP 100ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    },
+    {
+      "product_id": "29580",
+      "title": "Kinto CLK-151 Small Mug 300ml",
+      "changes": {
+        "availability": [
+          "in stock",
+          "out of stock"
+        ]
+      }
+    }
+  ],
+  "title_changes": [],
+  "description_changes": [
+    {
+      "product_id": "15164",
+      "title": "Dak - Milky Cake 250g - Whole Coffee Beans or Ground The Way You Like It - Cauca, Colombia",
+      "changes": {
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 17 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    },
+    {
+      "product_id": "19907",
+      "title": "Dak - Milky Cake 250g (Advanced & Controlled Fermentation Castillo, Colombia)",
+      "changes": {
+        "description": [
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 9 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:",
+          "By Dak Coffee Roasters (Amsterdam, The Netherlands)\n\n\n\nOrigin\nCauca, Colombia\n\n\nProducer\nDiego Samuel Bermudez\n\n\nVariety\nCastillo\n\n\nProcess\nAdvanced &amp; Controlled Fermentation\n\n\nAltitude\n1730masl\n\n\nNotes\nCardamom, Pistachio, Vanilla Cake\n\n\nRoast Date\nFilter: 17 December 2025\nEspresso: 9 December 2025\n\n\n\n&nbsp;\n\n\n\n&nbsp;\n\n\n\nUK &amp; International delivery\nView delivery options\n\nClick &amp; Collect\nAvailable from our studio\n\n&nbsp;\nPlease select roast:"
+        ]
+      }
+    }
+  ],
+  "image_changes": [],
+  "item_group_changes": [],
+  "shipping_changes": [],
+  "label_changes": []
+}

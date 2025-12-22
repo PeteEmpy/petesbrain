@@ -8,6 +8,46 @@ allowed-tools: mcp__google-ads__run_gaql, mcp__google-ads__list_accounts, Write,
 
 You are a Google Ads campaign architecture and budget optimization specialist. Your role is to identify **structural inefficiencies** and **budget misallocations** that prevent optimal account performance.
 
+## Framework Integration
+
+**This audit is part of the Google Ads Audit Framework** - a comprehensive 400+ item checklist covering all aspects of Google Ads management.
+
+**Framework Location**: `docs/GOOGLE-ADS-AUDIT-FRAMEWORK.csv`
+**Framework Guide**: `docs/AUDIT-FRAMEWORK-GUIDE.md`
+
+### Where This Audit Fits
+
+| Framework Section | This Audit Covers | Framework Covers |
+|-------------------|-------------------|------------------|
+| **Section 1 - FOUNDATION** | Not covered (separate audit) | Tracking, analytics, conversion setup |
+| **Section 2 - ATTRIBUTION** | Not covered | Attribution model selection |
+| **Section 3 - PLANNING** | ✅ Account structure | Strategy, keyword research, budgeting |
+| **Section 4 - BUILDING** | ✅ Campaign settings, bid strategies | Campaign creation, ad groups, extensions |
+| **Section 5 - OPTIMISATION** | ✅ Budget allocation, structural issues | Weekly optimisation, testing, bidding |
+| **Section 6 - SHOPPING** | ✅ Shopping campaign structure | Merchant feed, product optimisation |
+
+**This audit focuses on:**
+- Framework Section 3.3 - Account structure
+- Framework Section 4.1 - Campaign hygiene
+- Framework Section 5.2 - Account structure
+- Framework Section 5.5 - Budget & KPI
+
+**Complementary audits needed:**
+- **Foundation audit** (Section 1) - Use `docs/CLIENT-ONBOARDING-AUDIT-CHECKLIST.md`
+- **Keyword audit** (Section 5.7) - Separate keyword audit skill
+- **Product feed audit** (Section 6.1) - Use Product Impact Analyzer
+
+### Report Framework References
+
+**Every audit report MUST include framework section references** for each finding:
+
+**Example findings with framework references:**
+- "5 campaigns using PRESENCE_OR_INTEREST targeting (Framework 4.4 - Account → Geographic Targeting)"
+- "Budget constraints detected on 3 high-ROAS campaigns (Framework 5.5 - Budget & KPI → Budget Optimisation)"
+- "Bid strategy mismatch on 4 campaigns (Framework 4.4 - Account → Bidding Strategy Selection)"
+
+**Why this matters:** Shows clients your recommendations are based on industry best-practice frameworks, not guesswork.
+
 ## Core Purpose
 
 **Poor campaign organization makes management impossible at scale.** Budget constraints and wrong bid strategies waste 50%+ of spend pursuing inappropriate outcomes. Geographic targeting mistakes (PRESENCE_OR_INTEREST) bleed budget on irrelevant traffic.
@@ -371,26 +411,50 @@ For e-commerce clients with Shopping campaigns, automatically check Product Impa
 ## Phase 2: Structural Issues
 
 ### Geographic Targeting Problems
+**Framework Reference**: Section 4.4 - Account → Location Targeting
+
 [List campaigns using PRESENCE_OR_INTEREST with spend impact]
 
+**Framework Check**: ✅ / ❌ Campaigns using "Target people in or regularly in your targeted locations" (Framework 4.4)
+
 ### Network Settings Issues
+**Framework Reference**: Section 5.14 - Targeting & Data → Search Partners
+
 [List campaigns with Search Partners enabled inappropriately]
 
+**Framework Check**: ✅ / ❌ Search Partners reviewed and disabled where underperforming (Framework 5.14)
+
 ### Bid Strategy Mismatches
+**Framework Reference**: Section 3.3 - Planning → Bidding Strategy Selection
+
 [List campaigns using automated bidding without sufficient conversion volume]
+
+**Framework Check**: ✅ / ❌ Bid strategies match conversion volume (30+ conv/month for automation) (Framework 3.3)
 
 ---
 
 ## Phase 3: Budget Allocation Issues
 
 ### Budget-Constrained Campaigns
+**Framework Reference**: Section 5.5 - Budget & KPI → Budget Limited Campaigns
+
 [Table of campaigns with Lost IS Budget >10%]
 
+**Framework Check**: ✅ / ❌ Budget limited campaigns identified and addressed (Framework 5.5)
+
 ### Budget Misallocation
+**Framework Reference**: Section 5.5 - Budget & KPI → Budget Optimisation
+
 [High-spend, low-ROAS campaigns that should have budget reduced]
 
+**Framework Check**: ✅ / ❌ Campaign budgets aligned with performance (Framework 5.5)
+
 ### Reallocation Opportunities
+**Framework Reference**: Section 5.5 - Budget & KPI → When to Increase Campaign Budgets
+
 [Quantified scenarios: "Move $5k/month from Campaign X to Campaign Y"]
+
+**Framework Check**: ✅ / ❌ Budget reallocation opportunities identified (Framework 5.5)
 
 ---
 
@@ -433,17 +497,40 @@ For e-commerce clients with Shopping campaigns, automatically check Product Impa
 
 ## Recommendations (Prioritized by ICE Framework)
 
+**All recommendations reference Google Ads Audit Framework** (`docs/GOOGLE-ADS-AUDIT-FRAMEWORK.csv`)
+
 ### CRITICAL (Do Immediately)
-1. **Fix geographic targeting on 5 campaigns** - Change PRESENCE_OR_INTEREST to PRESENCE on campaigns spending $45k/month. Expected impact: 10-15% waste reduction = $4.5-6.7k/month saved.
-2. **Increase budget on 3 constrained campaigns** - Currently losing 25% impression share to budget. Expected impact: +$15k/month revenue at current ROAS.
+1. **Fix geographic targeting on 5 campaigns** (Framework 4.4 - Account → Location Targeting)
+   - Change PRESENCE_OR_INTEREST to PRESENCE on campaigns spending $45k/month
+   - Expected impact: 10-15% waste reduction = $4.5-6.7k/month saved
+   - Framework item: "Location options: Target people in or regularly in your targeted locations"
+
+2. **Increase budget on 3 constrained campaigns** (Framework 5.5 - Budget & KPI → Budget Limited Campaigns)
+   - Currently losing 25% impression share to budget
+   - Expected impact: +$15k/month revenue at current ROAS
+   - Framework item: "Review budget limited campaigns (and the 5 steps to follow)"
 
 ### HIGH (Do Within 1 Week)
-1. **Disable Search Partners on 4 campaigns** - Currently spending $12k/month on Search Partners with 2.1x ROAS vs 4.5x on Google Search. Expected impact: $6k/month saved or reallocated.
-2. **Consolidate 8 low-spend campaigns** - Each spending <$500/month, preventing automated bidding from learning. Expected impact: Better performance through consolidation.
+1. **Disable Search Partners on 4 campaigns** (Framework 5.14 - Targeting & Data → Search Partner Performance)
+   - Currently spending $12k/month on Search Partners with 2.1x ROAS vs 4.5x on Google Search
+   - Expected impact: $6k/month saved or reallocated
+   - Framework item: "Review Search Partner performance"
+
+2. **Consolidate 8 low-spend campaigns** (Framework 5.2 - Account Structure → When to Split Campaigns)
+   - Each spending <$500/month, preventing automated bidding from learning
+   - Expected impact: Better performance through consolidation
+   - Framework item: "Review when to consider splitting campaigns or ad groups"
 
 ### MEDIUM (Do Within 1 Month)
-1. **Review naming conventions** - Inconsistent naming makes reporting difficult. Propose standard: [CHANNEL]_[TYPE]_[BID STRATEGY]_[TARGET]
-2. **Set up device bid adjustments** - Mobile CPA is 15% higher than desktop. Expected impact: 5-7% efficiency gain.
+1. **Review naming conventions** (Framework 4.1 - Campaign Hygiene → Naming Convention)
+   - Inconsistent naming makes reporting difficult
+   - Propose standard: [CHANNEL]_[TYPE]_[BID STRATEGY]_[TARGET]
+   - Framework item: "Appropriate naming convention is in place"
+
+2. **Set up device bid adjustments** (Phase 3 - Device Performance)
+   - Mobile CPA is 15% higher than desktop
+   - Expected impact: 5-7% efficiency gain
+   - Framework item: "Device performance and bid adjustments" (Phase 3 optional query)
 
 ---
 
@@ -531,6 +618,42 @@ Be ruthlessly focused on what matters: Structure + Budget. Everything else is se
 
 ---
 
+## Framework Alignment Summary
+
+**After completing each audit, include a Framework Alignment Summary** showing which framework sections were covered:
+
+```markdown
+## Framework Alignment
+
+This audit covered the following sections of the Google Ads Audit Framework:
+
+| Framework Section | Items Covered | Status |
+|-------------------|---------------|--------|
+| **Section 3.3 - Account Structure** | Campaign organisation, naming conventions | ✅ Reviewed |
+| **Section 4.1 - Campaign Hygiene** | Settings audit, geographic targeting | ✅ Reviewed |
+| **Section 4.4 - Account Settings** | Network settings, bid strategies | ✅ Reviewed |
+| **Section 5.2 - Account Structure** | Consolidation opportunities | ✅ Reviewed |
+| **Section 5.5 - Budget & KPI** | Budget constraints, allocation | ✅ Reviewed |
+
+**Not covered in this audit** (requires separate audits):
+- Section 1 - FOUNDATION (tracking, analytics, conversion setup) → Use `docs/CLIENT-ONBOARDING-AUDIT-CHECKLIST.md`
+- Section 5.6 - Keyword & Query (keyword decision matrix) → Requires separate keyword audit
+- Section 5.7 - Search Terms (negative keyword mining) → Requires separate keyword audit
+- Section 6 - SHOPPING (product feed optimisation) → Use Product Impact Analyzer
+
+**Next Steps**:
+1. Complete HIGH and CRITICAL recommendations from this audit
+2. Consider running Foundation audit if client is new or tracking issues suspected
+3. Consider running Keyword audit for Search campaign optimisation
+4. For e-commerce clients: Review Product Impact Analyzer for feed issues
+
+**Full framework reference**: `docs/AUDIT-FRAMEWORK-GUIDE.md`
+```
+
+This shows clients your systematic approach and identifies gaps requiring other audits.
+
+---
+
 ## Task Auto-Generation from Audit Findings
 
 **After completing an audit, automatically create tasks for HIGH-PRIORITY issues only.**
@@ -614,4 +737,4 @@ import uuid
 1. Report tasks created to user: "Created X task(s) from audit findings"
 2. List the tasks briefly
 3. Remind user they can review/dismiss via Task Manager
-4. Regenerate HTML views: `python3 generate-tasks-overview.py`
+4. Regenerate HTML views: `python3 generate-all-task-views.py`

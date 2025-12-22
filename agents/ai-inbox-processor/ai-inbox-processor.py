@@ -53,12 +53,9 @@ except ImportError:
     print("⚠️  anthropic package not installed. Run: pip install anthropic")
     ANTHROPIC_AVAILABLE = False
 
-# Google Tasks integration
-try:
-    from shared.google_tasks_client import GoogleTasksClient
-    GOOGLE_TASKS_AVAILABLE = True
-except ImportError:
-    GOOGLE_TASKS_AVAILABLE = False
+# Google Tasks integration DEPRECATED (2025-12-16)
+# Duplicate checking now uses internal task system only
+GOOGLE_TASKS_AVAILABLE = False
 
 # Fuzzy string matching for duplicates
 try:
@@ -142,7 +139,7 @@ DEPENDENCY_PATTERNS = [
     r'\b(can\'t|cannot) (start|begin|do) (until|before|after)\b',
 ]
 
-# Action keywords for fast-path routing (Mike Rhodes pattern)
+# Action keywords for fast-path routing (pattern)
 ACTION_KEYWORDS = {
     'claude': 'direct_execution',
     'ai': 'direct_execution',
@@ -153,6 +150,83 @@ ACTION_KEYWORDS = {
     'quick task': 'quick_task',
     'quick todo': 'quick_task',
 }
+
+def parse_fuzzy_date(date_text: str) -> Optional[str]:
+    """
+    Parse natural language date expressions into YYYY-MM-DD format.
+
+    Handles expressions like:
+    - "tomorrow", "today"
+    - "next week", "within next week", "in a week"
+    - "in X days/weeks/months"
+    - "next Monday/Tuesday/etc"
+    - "in 2 weeks", "in 3 days"
+
+    Returns:
+        YYYY-MM-DD formatted date string, or None if cannot parse
+    """
+    if not date_text or not isinstance(date_text, str):
+        return None
+
+    date_text_lower = date_text.lower().strip()
+    today = datetime.now()
+
+    # Simple cases
+    if date_text_lower in ['tomorrow', 'tmrw', 'tommorow']:
+        return (today + timedelta(days=1)).strftime('%Y-%m-%d')
+
+    if date_text_lower in ['today', 'now']:
+        return today.strftime('%Y-%m-%d')
+
+    if date_text_lower in ['yesterday']:
+        return (today - timedelta(days=1)).strftime('%Y-%m-%d')
+
+    # Week-based expressions
+    week_patterns = [
+        r'(?:within|in)\s+(?:a|the|next|1)\s+week',
+        r'next\s+week',
+        r'in\s+a\s+week',
+    ]
+    for pattern in week_patterns:
+        if re.search(pattern, date_text_lower):
+            return (today + timedelta(days=7)).strftime('%Y-%m-%d')
+
+    # "in X days/weeks/months" pattern
+    time_delta_match = re.search(r'in\s+(\d+)\s+(day|week|month)s?', date_text_lower)
+    if time_delta_match:
+        amount = int(time_delta_match.group(1))
+        unit = time_delta_match.group(2)
+
+        if unit == 'day':
+            return (today + timedelta(days=amount)).strftime('%Y-%m-%d')
+        elif unit == 'week':
+            return (today + timedelta(weeks=amount)).strftime('%Y-%m-%d')
+        elif unit == 'month':
+            # Approximate: 30 days per month
+            return (today + timedelta(days=amount * 30)).strftime('%Y-%m-%d')
+
+    # "next [day of week]" pattern
+    days_of_week = {
+        'monday': 0, 'mon': 0,
+        'tuesday': 1, 'tue': 1, 'tues': 1,
+        'wednesday': 2, 'wed': 2,
+        'thursday': 3, 'thu': 3, 'thurs': 3,
+        'friday': 4, 'fri': 4,
+        'saturday': 5, 'sat': 5,
+        'sunday': 6, 'sun': 6,
+    }
+
+    for day_name, day_num in days_of_week.items():
+        if re.search(rf'\bnext\s+{day_name}\b', date_text_lower):
+            # Calculate days until next occurrence of this day
+            current_day = today.weekday()
+            days_ahead = day_num - current_day
+            if days_ahead <= 0:  # Target day already happened this week
+                days_ahead += 7
+            return (today + timedelta(days=days_ahead)).strftime('%Y-%m-%d')
+
+    # If we can't parse it, return None (will be handled upstream)
+    return None
 
 def similarity_score(text1: str, text2: str) -> float:
     """Calculate similarity score between two texts (0-100)"""
@@ -173,45 +247,16 @@ def similarity_score(text1: str, text2: str) -> float:
 
 def check_duplicate_tasks(task_title: str, task_description: str = None) -> Tuple[Optional[Dict], float]:
     """
-    Check for duplicate or similar tasks in Google Tasks and recent notes.
-    
+    Check for duplicate or similar tasks in recent notes.
+
     Returns:
         (matching_task_dict, similarity_score) or (None, 0.0)
     """
     matches = []
-    
-    # Check Google Tasks
-    if GOOGLE_TASKS_AVAILABLE:
-        try:
-            client = GoogleTasksClient()
-            all_tasks = client.get_all_active_tasks()
-            
-            for task in all_tasks:
-                title = task.get('title', '')
-                notes = task.get('notes', '')
-                
-                # Compare titles
-                title_sim = similarity_score(task_title, title)
-                
-                # Compare with description if available
-                desc_sim = 0.0
-                if task_description and notes:
-                    desc_sim = similarity_score(task_description, notes)
-                
-                # Use highest similarity
-                sim = max(title_sim, desc_sim)
-                
-                if sim > 70:  # 70% similarity threshold
-                    matches.append({
-                        'task': task,
-                        'similarity': sim,
-                        'source': 'google_tasks',
-                        'title': title,
-                        'id': task.get('id')
-                    })
-        except Exception as e:
-            print(f"  ⚠️  Error checking Google Tasks: {e}")
-    
+
+    # Google Tasks checking DEPRECATED (2025-12-16)
+    # Only check recent processed notes for duplicates
+
     # Check recent processed notes (last 7 days)
     if PROCESSED_DIR.exists():
         cutoff_date = datetime.now() - timedelta(days=7)
@@ -354,23 +399,23 @@ def detect_dependencies(note_content: str) -> List[str]:
     return dependencies
 
 def find_related_tasks(client: str, note_content: str) -> List[Dict]:
-    """Find related tasks in CONTEXT.md and Google Tasks"""
+    """Find related tasks in CONTEXT.md"""
     related = []
-    
+
     # Check CONTEXT.md for planned work
     context_path = CLIENTS_DIR / client / 'CONTEXT.md'
     if context_path.exists():
         try:
             with open(context_path, 'r') as f:
                 context = f.read()
-            
+
             # Look for "Planned Work" or "Current Tasks" sections
             planned_match = re.search(
                 r'(?:Planned Work|Current Tasks|Active Tasks)[\s\S]*?(?=\n##|\Z)',
                 context,
                 re.IGNORECASE
             )
-            
+
             if planned_match:
                 planned_section = planned_match.group(0)
                 # Extract task-like items
@@ -384,36 +429,10 @@ def find_related_tasks(client: str, note_content: str) -> List[Dict]:
                         })
         except Exception as e:
             pass
-    
-    # Check Google Tasks for same client
-    if GOOGLE_TASKS_AVAILABLE:
-        try:
-            client_gt = GoogleTasksClient()
-            all_tasks = client_gt.get_all_active_tasks()
-            
-            # Filter tasks that might be related (simple keyword matching)
-            note_keywords = set(re.findall(r'\b\w{4,}\b', note_content.lower()))
-            
-            for task in all_tasks[:20]:  # Check first 20 tasks
-                task_title = task.get('title', '').lower()
-                task_notes = task.get('notes', '').lower()
-                
-                # Check if client name appears in task
-                if client.replace('-', ' ') in task_title or client.replace('-', ' ') in task_notes:
-                    # Check for keyword overlap
-                    task_text = f"{task_title} {task_notes}"
-                    task_keywords = set(re.findall(r'\b\w{4,}\b', task_text))
-                    
-                    if len(note_keywords & task_keywords) > 0:
-                        related.append({
-                            'title': task.get('title'),
-                            'id': task.get('id'),
-                            'source': 'google_tasks',
-                            'type': 'active_task'
-                        })
-        except Exception as e:
-            pass
-    
+
+    # Google Tasks checking DEPRECATED (2025-12-16)
+    # Only check CONTEXT.md for related tasks
+
     return related[:5]  # Return top 5 related items
 
 def estimate_complexity(note_content: str) -> str:
@@ -458,7 +477,7 @@ def get_client_from_content(content: str) -> Optional[str]:
 
 def detect_action_keyword(content: str) -> Tuple[Optional[str], Optional[str]]:
     """
-    Detect action keyword in first 1-3 words (Mike Rhodes pattern).
+    Detect action keyword in first 1-3 words (pattern).
     Returns (action_type, payload) or (None, None)
     """
     # Clean content and get first few words
@@ -477,7 +496,7 @@ def detect_action_keyword(content: str) -> Tuple[Optional[str], Optional[str]]:
 
 def execute_claude_prompt(payload: str, note_filename: str) -> bool:
     """
-    Fast-path: Execute Claude prompt directly (Mike Rhodes pattern).
+    Fast-path: Execute Claude prompt directly (pattern).
     Voice: "claude analyze Superspace performance last 30 days"
     → Executes immediately, saves response, skips normal processing
     """
@@ -632,16 +651,21 @@ def create_quick_task(payload: str, note_filename: str) -> bool:
             print("  ⚠️  No client detected - cannot create client task")
             return False
 
-        # Detect simple due date keywords
-        if 'tomorrow' in payload.lower():
-            due_date = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
-            task_title = re.sub(r'\btomorrow\b', '', task_title, flags=re.IGNORECASE).strip()
-        elif 'today' in payload.lower():
-            due_date = datetime.now().strftime('%Y-%m-%d')
-            task_title = re.sub(r'\btoday\b', '', task_title, flags=re.IGNORECASE).strip()
-        elif 'next week' in payload.lower():
-            due_date = (datetime.now() + timedelta(days=7)).strftime('%Y-%m-%d')
-            task_title = re.sub(r'\bnext week\b', '', task_title, flags=re.IGNORECASE).strip()
+        # Use fuzzy date parser to detect and parse date expressions
+        # Try to parse the entire payload for date patterns
+        due_date = parse_fuzzy_date(payload)
+
+        # If we found a date, remove date keywords from title
+        if due_date:
+            # Remove common date expressions from title
+            date_patterns = [
+                r'\btomorrow\b', r'\btoday\b', r'\bnext week\b',
+                r'\bin\s+\d+\s+days?\b', r'\bin\s+\d+\s+weeks?\b', r'\bin\s+\d+\s+months?\b',
+                r'\bwithin\s+(?:a|the|next|1)\s+week\b', r'\bin\s+a\s+week\b',
+                r'\bnext\s+(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b'
+            ]
+            for pattern in date_patterns:
+                task_title = re.sub(pattern, '', task_title, flags=re.IGNORECASE).strip()
 
         # Create task using ClientTasksService
         task_service = ClientTasksService()
@@ -671,7 +695,7 @@ def create_quick_task(payload: str, note_filename: str) -> bool:
 
 def generate_descriptive_filename(note_type: str, client: Optional[str], content: str, timestamp: str = None) -> str:
     """
-    Generate descriptive filename (Mike Rhodes pattern).
+    Generate descriptive filename (pattern).
     Format: [type]-YYYYMMDD-[client]-[slug].md
 
     Examples:
@@ -983,7 +1007,7 @@ def process_inbox():
             print(f"  ❌ Error reading file: {e}")
             continue
 
-        # === FAST-PATH DETECTION (Mike Rhodes pattern) ===
+        # === FAST-PATH DETECTION (pattern) ===
         # Check for action keywords BEFORE deep AI processing
         action, payload = detect_action_keyword(original_content)
 

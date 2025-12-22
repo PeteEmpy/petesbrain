@@ -1,0 +1,17 @@
+# Core MCP Framework
+fastmcp>=0.8.0
+
+# Google API Integration
+google-api-python-client>=2.108.0
+google-auth>=2.25.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# REST API calls
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Utilities
+urllib3>=2.0.0

@@ -356,6 +356,25 @@ if [ "${SYNC_METHOD:-git}" = "rsync" ]; then
                 echo -e "${YELLOW}→ Syncing to desktop: $DESKTOP_USER@$DESKTOP_HOST${NC}"
                 echo ""
 
+                # Create safety backup on desktop before pushing
+                echo -e "${YELLOW}→ Creating safety backup on desktop first...${NC}"
+                ssh "$DESKTOP_USER@$DESKTOP_HOST" "bash $DESKTOP_PATH/shared/scripts/create-safety-backup.sh"
+
+                if [ $? -eq 0 ]; then
+                    echo -e "${GREEN}✓ Safety backup complete${NC}"
+                    echo ""
+                else
+                    echo -e "${RED}✗ Safety backup failed${NC}"
+                    echo -e "${YELLOW}Continue anyway? (y/n)${NC}"
+                    read -n 1 -r
+                    echo ""
+                    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+                        echo "Push aborted."
+                        exit 1
+                    fi
+                fi
+
+                echo -e "${YELLOW}→ Pushing changes to desktop...${NC}"
                 rsync -avz --progress \
                     --exclude='.git' \
                     --exclude='venv' \

@@ -1,7 +1,7 @@
-# Tree2mydoor - Context & Strategic Notes
+# Tree2MyDoor - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
-> **Last Updated**: 2025-11-24
+> **Last Updated**: 2025-12-22
 
 **Voice Transcription Aliases**: tree to my door, tree 2 my door, trees to my door, tree too my door, tree to door
 
@@ -22,7 +22,8 @@
 - **Google Ads Customer ID**: 4941701449
 - **Google Merchant Centre ID**: 107469209
 - **Google Analytics 4 (GA4) Property ID**: [TBD]
-- **Microsoft Ads Account ID**: [TBD]
+- **Microsoft Ads Account ID**: 2001778
+- **Microsoft Ads Customer ID (Manager)**: 536777922
 - **Facebook Ads Account ID**: [TBD]
 
 ---
@@ -90,6 +91,26 @@
 ---
 
 ## Client Preferences & Communication
+
+### Agency Relationship
+
+**IMPORTANT**: Tree2MyDoor is managed by **Collaber Agency**
+
+- **Agency**: Collaber (digital marketing agency)
+- **Account Manager**: Gareth Mitchell (gareth@collaber.agency)
+- **Roksys works with**: Gareth at Collaber (not directly with Tree2MyDoor)
+- **Communication Channel**: Collaber PPC Chat (Google Chat space)
+- **Task Source**: Tasks from "Collaber PPC Chat" are Tree2MyDoor work
+
+**Structure**:
+- Tree2MyDoor = E-commerce client (trees/plants business)
+- Collaber = Marketing agency managing Tree2MyDoor's campaigns
+- Roksys = PPC specialist consultant working with Collaber
+
+**What this means**:
+- All communication goes through Gareth at Collaber
+- Tasks appearing from "Collaber PPC Chat" belong in Tree2MyDoor client folder
+- Collaber PPC Chat is the communication channel, not a separate client
 
 ### Communication Style
 - **Preferred Update Frequency**: Monthly reports (established October 2025)
@@ -176,6 +197,10 @@
 
 **Conversion Tracking**:
 - **Setup**: ProfitMetrics for profit-based conversion values, integrated with Google Ads
+- **CRITICAL**: The `conversions_value` field in Google Ads API represents **PROFIT**, not revenue
+  - All ROAS calculations should be called **POAS (Profit on Ad Spend)** to avoid confusion
+  - Example: £100 spend generating £160 profit = 160% POAS (not ROAS)
+  - This is the actual profit margin per product, not gross revenue
 - **Known Issues**: Need to confirm Google Ads is optimizing to ProfitMetrics profit value (not just revenue)
 - **Last Audit**: [TBD]
 
@@ -258,6 +283,33 @@
 
 ---
 
+## Product Hero Settings
+
+### Current Configuration (Last Updated: 2025-10-01)
+
+**Product Hero Plan**: Pro Plan (€60/month total - multiple accounts)
+
+**Target ROAS**: 160% (1.60x account-level blended target)
+**Actual ROAS Achieved**: 209%
+
+**Performance Gap**: Actual ROAS +49 points above target (209% vs 160%)
+
+**Rationale**: Account-level blended target established per Gareth's Oct 2025 brief. ROAS target recently reduced in Oct 2025 due to traffic slowdown. Product performing well above target indicates room for further optimization or volume growth.
+
+**Campaign Structure**: Currently using Profitable vs Unprofitable split; to be restructured to Tier A/B/C per Gareth's proposal (Oct 2025).
+
+**Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
+
+### Settings Change History
+
+| Date | Setting | Previous | New | Rationale | Result |
+|------|----------|---------|----------|-----|-----------|--------|
+| 2025-10-01 | Target ROAS | [Higher] | 160% | Traffic slowdown, account-level blended target per Gareth's brief | Actual: 209% (+49 points) |
+
+**Note**: Product Hero automatically classifies products daily as Heroes/Sidekicks/Villains/Zombies based on performance. These labels sync to Google Merchant Center and guide campaign structure. Target ROAS settings control the algorithm's bidding aggressiveness. Campaign restructure from Profitable/Unprofitable to Tier A/B/C planned.
+
+---
+
 ## Action Items & Reminders
 
 ### Ongoing Tasks
@@ -335,6 +387,8 @@ _Updated documents will appear here when detected by daily scans_
 | 2025-10-29 | Updated click spike analysis with root cause: Product 01090 feed flickering identified via enhanced GMC tracking | Claude |
 | 2025-11-04 | Added press coverage context to Oct 26-28 click spike; documented combined effect of press + feed flickering | Claude |
 | 2025-11-12 | Completed Olive Tree (Product 01090) feed stability review task; confirmed product has stabilized at elevated baseline with no more volatility | Claude |
+| 2025-12-17 | Added Agency Relationship section documenting Collaber's role and clarifying that "Collaber PPC Chat" tasks belong to Tree2MyDoor | Claude Code |
+| 2025-12-22 | Added Microsoft Ads Account ID (2001778) and Manager Customer ID (536777922) to Platform IDs following successful data extraction for Microsoft Ads performance report | Claude Code |
 
 ## Completed Work
 

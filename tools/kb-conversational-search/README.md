@@ -12,7 +12,7 @@ A web-based conversational AI search interface for the PetesBrain knowledge base
 ### Conversation Modes
 
 1. **⚡ Quick Answer** - Fast, concise responses for specific questions
-2. **🎯 Strategic Advisor** - Mike Rhodes-style strategic recommendations with:
+2. **🎯 Strategic Advisor** - -style strategic recommendations with:
    - Main Analysis with actionable steps
    - Recommended Reading
    - Follow-Up Questions

@@ -5,7 +5,7 @@
 **Problem**: Product-feeds/tasks.json files kept reappearing despite multiple "permanent" fixes (Nov 25, Dec 11).
 
 **Root Cause**: Previous fixes were incomplete:
-- Fallback code remained in `generate-tasks-overview.py` (missed in Dec 11 fix)
+- Fallback code remained in `generate-all-task-views.py` (missed in Dec 11 fix)
 - Validation script only checked `tasks.json`, not `tasks_1.json`/`tasks_2.json`
 - No fail-fast integration - validation was optional
 - Roksys location ambiguity not addressed
@@ -30,14 +30,14 @@
 
 **Nov 25, 2025 Fix:**
 - Migrated tasks and updated inbox processors
-- BUT: `generate-tasks-overview.py` still had fallback code
+- BUT: `generate-all-task-views.py` still had fallback code
 - Result: Tasks could still be read from product-feeds
 
 **Dec 11, 2025 "Permanent Fix":**
 - Added guard to ClientTasksService
 - Removed fallback from 3 scripts
 - Created validation script
-- BUT: `generate-tasks-overview.py` STILL had fallback code (missed)
+- BUT: `generate-all-task-views.py` STILL had fallback code (missed)
 - BUT: Validation script only checked `tasks.json`, not `tasks_*.json`
 - BUT: Validation was optional (didn't block operations)
 - BUT: Roksys location ambiguity not addressed
@@ -51,7 +51,7 @@
 - No assumptions - verified everything
 
 **2. Removed ALL Fallback Code**
-- `generate-tasks-overview.py` - removed fallback (2 locations)
+- `generate-all-task-views.py` - removed fallback (2 locations)
 - `inbox-processor.py` - removed fallback loop
 - Added read-side guards to prevent reading from product-feeds
 
@@ -91,7 +91,7 @@
 
 **Files Modified**:
 
-1. **`generate-tasks-overview.py`** (2 locations)
+1. **`generate-all-task-views.py`** (2 locations)
    - Removed product-feeds fallback checks
    - Added read-side warnings
    - Added pre-flight validation
@@ -193,7 +193,7 @@ $ python3 shared/scripts/validate-task-locations.py
 
 ### Task Manager Generation
 ```bash
-$ python3 generate-tasks-overview.py
+$ python3 generate-all-task-views.py
 ✅ Validation passed - proceeding with generation
 ...
 ✅ Generated tasks-overview.html
@@ -218,7 +218,7 @@ Roksys tasks: 16
 
 ### Modified Files
 - `shared/client_tasks_service.py` - Enhanced guards, Roksys handling
-- `generate-tasks-overview.py` - Removed fallback, added validation
+- `generate-all-task-views.py` - Removed fallback, added validation
 - `agents/inbox-processor/inbox-processor.py` - Removed fallback
 - `shared/scripts/validate-task-locations.py` - Enhanced detection, fail-fast
 

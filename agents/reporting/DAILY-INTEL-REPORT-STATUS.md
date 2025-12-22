@@ -62,7 +62,7 @@ To test the report manually (without waiting for 7 AM):
 
 ```bash
 cd /Users/administrator/Documents/PetesBrain
-export ANTHROPIC_API_KEY="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"
+export ANTHROPIC_API_KEY="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"
 export GMAIL_USER="petere@roksys.co.uk"
 export GMAIL_APP_PASSWORD="pxmsoxiwuazkqhvg"
 shared/email-sync/.venv/bin/python3 agents/reporting/daily-intel-report.py

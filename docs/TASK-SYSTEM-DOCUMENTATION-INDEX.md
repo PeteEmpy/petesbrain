@@ -7,7 +7,26 @@
 
 ## 📚 Documentation Files
 
-### 1. Quick Start (Start Here)
+### 1. Task Manager User Manual (Start Here) ⭐ NEW
+**File**: [TASK-MANAGER-USER-MANUAL.md](TASK-MANAGER-USER-MANUAL.md)
+
+**Contains**:
+- What the Task Manager is and how to open it
+- Understanding the interface (priorities, due dates, task types)
+- Common operations (completing tasks, adding notes, finding tasks)
+- Parent-child task relationships
+- Recurring tasks explained
+- Troubleshooting guide (user-friendly)
+- Daily workflow tips and best practices
+- Quick reference card
+
+**Read this if**: You're using the Task Manager UI daily and want to understand all its features.
+
+**Created**: December 19, 2025
+
+---
+
+### 2. Quick Start (Technical Reference)
 **File**: [TASK-SYSTEM-README.md](TASK-SYSTEM-README.md)
 
 **Contains**:
@@ -16,11 +35,11 @@
 - Common troubleshooting
 - 5-minute overview
 
-**Read this if**: You need a quick refresher or are using the system for the first time.
+**Read this if**: You need a quick technical refresher or are using the system programmatically.
 
 ---
 
-### 2. Complete Guide (Deep Dive)
+### 3. Complete Guide (Deep Dive)
 **File**: [TASK-SYSTEM-COMPLETE-GUIDE.md](TASK-SYSTEM-COMPLETE-GUIDE.md)
 
 **Contains**:
@@ -35,7 +54,7 @@
 
 ---
 
-### 3. Migration History
+### 4. Migration History
 **File**: [MIGRATION-COMPLETE-2025-11-26.md](MIGRATION-COMPLETE-2025-11-26.md)
 
 **Contains**:
@@ -48,7 +67,7 @@
 
 ---
 
-### 4. Architecture Issue Analysis
+### 5. Architecture Issue Analysis
 **File**: [TASKS-ARCHITECTURE-ISSUE-2025-11-26.md](TASKS-ARCHITECTURE-ISSUE-2025-11-26.md)
 
 **Contains**:
@@ -60,7 +79,7 @@
 
 ---
 
-### 5. Scripts Audit
+### 6. Scripts Audit
 **File**: [TASKS-SCRIPTS-AUDIT-2025-11-26.md](TASKS-SCRIPTS-AUDIT-2025-11-26.md)
 
 **Contains**:
@@ -113,7 +132,7 @@ service = ClientTasksService()
 
 **Generate**:
 ```bash
-python3 generate-tasks-overview.py
+python3 generate-all-task-views.py
 ```
 
 **View**:
@@ -230,12 +249,15 @@ cat docs/MIGRATION-COMPLETE-2025-11-26.md
 
 | Date | Change | Documentation |
 |------|--------|---------------|
+| 2025-12-19 | **Task Manager User Manual** created | [User Manual](TASK-MANAGER-USER-MANUAL.md) ⭐ |
+| 2025-12-19 | Backup Safety System documented | [Backup System](BACKUP-SAFETY-SYSTEM.md) |
+| 2025-12-19 | Critical data loss incident documented | [Incidents](INCIDENTS.md) |
 | 2025-11-26 | Complete documentation created | All files in this index |
 | 2025-11-26 | Migration from product-feeds to root | [Migration doc](MIGRATION-COMPLETE-2025-11-26.md) |
 | 2025-11-26 | Validation script created | `scripts/validate-task-system.py` |
 
 ---
 
-**Next Review**: 2026-01-26 (or after any structural changes)
-**Maintained By**: Claude Code
+**Next Review**: 2026-01-19 (or after any structural changes)
+**Maintained By**: Claude Code & PetesBrain Documentation Team
 **Contact**: See main README for support

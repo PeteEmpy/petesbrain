@@ -1,0 +1,25 @@
+{
+  "backup_created": "2025-12-17T14:05:54.990116",
+  "operation": "Add Tier 1 negative keywords - ROW",
+  "client": "smythson",
+  "customer_id": "5556710725",
+  "manager_id": "2569949686",
+  "accounts_data": {
+    "6552020619": {
+      "name": "SMY | ROW | Search | Brand Diaries and Organisers",
+      "terms": [
+        {
+          "text": "smythson agenda",
+          "clicks": 30,
+          "cost": 45.840262
+        },
+        {
+          "text": "smythsons diary",
+          "clicks": 30,
+          "cost": 43.802083
+        }
+      ]
+    }
+  },
+  "exclusions": "Aspinal terms excluded per user requirement"
+}

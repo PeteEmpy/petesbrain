@@ -1,0 +1,2506 @@
+{
+  "timestamp": "2025-12-16T22:09:52.011550",
+  "phase": "Phase 2B: Post Last Orders (Dec 17-22)",
+  "deploy_date": "2025-12-17 08:00:00",
+  "last_orders_closed": "2025-12-16 23:59:00 GMT (US/EUR/ROW)",
+  "current_state": {
+    "UK": {
+      "customer_id": "8573235780",
+      "campaigns": [
+        {
+          "campaign_id": "21838301453",
+          "campaign_name": "Generics - Corporate Gifting - UK",
+          "status": "PAUSED",
+          "budget_id": "14020980411",
+          "current_budget_gbp": 70.0,
+          "current_budget_micros": 70000000
+        },
+        {
+          "campaign_id": "22690005725",
+          "campaign_name": "SMY | Shopping | UK | Brand H&S 270 18/6",
+          "status": "PAUSED",
+          "budget_id": "14675460958",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "22425442454",
+          "campaign_name": "SMY | UK | P Max | All Customers 300",
+          "status": "PAUSED",
+          "budget_id": "14471410476",
+          "current_budget_gbp": 35.0,
+          "current_budget_micros": 35000000
+        },
+        {
+          "campaign_id": "22743962770",
+          "campaign_name": "SMY | UK | P Max | Bags",
+          "status": "PAUSED",
+          "budget_id": "14701552934",
+          "current_budget_gbp": 195.0,
+          "current_budget_micros": 195000000
+        },
+        {
+          "campaign_id": "23194794411",
+          "campaign_name": "SMY | UK | P Max | Diaries",
+          "status": "ENABLED",
+          "budget_id": "15090318700",
+          "current_budget_gbp": 396.0,
+          "current_budget_micros": 396000000
+        },
+        {
+          "campaign_id": "22845468179",
+          "campaign_name": "SMY | UK | P Max | H&S",
+          "status": "ENABLED",
+          "budget_id": "14805985381",
+          "current_budget_gbp": 375.0,
+          "current_budget_micros": 375000000
+        },
+        {
+          "campaign_id": "23021472678",
+          "campaign_name": "SMY | UK | P Max | H&S - Men's Briefcases, Luxury, Leather, Bags",
+          "status": "ENABLED",
+          "budget_id": "14944953037",
+          "current_budget_gbp": 214.5,
+          "current_budget_micros": 214500000
+        },
+        {
+          "campaign_id": "22818453740",
+          "campaign_name": "SMY | UK | P Max | H&S - New Customers",
+          "status": "PAUSED",
+          "budget_id": "14777839908",
+          "current_budget_gbp": 93.0,
+          "current_budget_micros": 93000000
+        },
+        {
+          "campaign_id": "18096667627",
+          "campaign_name": "SMY | UK | P Max | H&S 270 21/5",
+          "status": "PAUSED",
+          "budget_id": "11439399537",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "23233714033",
+          "campaign_name": "SMY | UK | P Max | H&S Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15115980463",
+          "current_budget_gbp": 346.5,
+          "current_budget_micros": 346500000
+        },
+        {
+          "campaign_id": "22762240502",
+          "campaign_name": "SMY | UK | P Max | New Customers H&S 230",
+          "status": "PAUSED",
+          "budget_id": "14719550618",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "23310525821",
+          "campaign_name": "SMY | UK | P Max | Test",
+          "status": "PAUSED",
+          "budget_id": "15171107726",
+          "current_budget_gbp": 900.0,
+          "current_budget_micros": 900000000
+        },
+        {
+          "campaign_id": "23066193731",
+          "campaign_name": "SMY | UK | Search | Brand & Generic - Briefcases",
+          "status": "PAUSED",
+          "budget_id": "14969100948",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "13811037330",
+          "campaign_name": "SMY | UK | Search | Brand Bags",
+          "status": "PAUSED",
+          "budget_id": "13333610376",
+          "current_budget_gbp": 15.0,
+          "current_budget_micros": 15000000
+        },
+        {
+          "campaign_id": "13811031042",
+          "campaign_name": "SMY | UK | Search | Brand Exact",
+          "status": "ENABLED",
+          "budget_id": "9072507297",
+          "current_budget_gbp": 1290.0,
+          "current_budget_micros": 1290000000
+        },
+        {
+          "campaign_id": "22818453734",
+          "campaign_name": "SMY | UK | Search | Brand Exact - New Customers",
+          "status": "PAUSED",
+          "budget_id": "14777839902",
+          "current_budget_gbp": 390.0,
+          "current_budget_micros": 390000000
+        },
+        {
+          "campaign_id": "13810757923",
+          "campaign_name": "SMY | UK | Search | Brand Leather Accessories",
+          "status": "PAUSED",
+          "budget_id": "13341401710",
+          "current_budget_gbp": 120.0,
+          "current_budget_micros": 120000000
+        },
+        {
+          "campaign_id": "13813051655",
+          "campaign_name": "SMY | UK | Search | Brand Misspellings 850",
+          "status": "PAUSED",
+          "budget_id": "9068132870",
+          "current_budget_gbp": 26.0,
+          "current_budget_micros": 26000000
+        },
+        {
+          "campaign_id": "22424457817",
+          "campaign_name": "SMY | UK | Search | Brand Name Max Clicks TROAS 3000 2/4 900 4/4 Max Clicks 7/4  2949",
+          "status": "PAUSED",
+          "budget_id": "9072507297",
+          "current_budget_gbp": 1290.0,
+          "current_budget_micros": 1290000000
+        },
+        {
+          "campaign_id": "13813052579",
+          "campaign_name": "SMY | UK | Search | Brand Plus",
+          "status": "ENABLED",
+          "budget_id": "13327874126",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "22818453737",
+          "campaign_name": "SMY | UK | Search | Brand Plus - New Customers Ai 25/8",
+          "status": "PAUSED",
+          "budget_id": "14777839905",
+          "current_budget_gbp": 100.0,
+          "current_budget_micros": 100000000
+        },
+        {
+          "campaign_id": "13813053110",
+          "campaign_name": "SMY | UK | Search | Brand Stationery",
+          "status": "ENABLED",
+          "budget_id": "13341406045",
+          "current_budget_gbp": 48.0,
+          "current_budget_micros": 48000000
+        },
+        {
+          "campaign_id": "23215754148",
+          "campaign_name": "SMY | UK | Search | Competitor | Ai",
+          "status": "ENABLED",
+          "budget_id": "15098417162",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "23074901902",
+          "campaign_name": "SMY | UK | Search | Generic | Ai",
+          "status": "ENABLED",
+          "budget_id": "14967677681",
+          "current_budget_gbp": 15.0,
+          "current_budget_micros": 15000000
+        },
+        {
+          "campaign_id": "13810745002",
+          "campaign_name": "SMY | UK | Search | Semi Brand - Diaries",
+          "status": "ENABLED",
+          "budget_id": "12929756283",
+          "current_budget_gbp": 375.0,
+          "current_budget_micros": 375000000
+        },
+        {
+          "campaign_id": "22686473683",
+          "campaign_name": "SMY | UK | Shopping - Non Brand | Heroes & Sidekicks 250",
+          "status": "PAUSED",
+          "budget_id": "14663136414",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "22520479849",
+          "campaign_name": "SMY | UK | Shopping | H&S",
+          "status": "PAUSED",
+          "budget_id": "14532629672",
+          "current_budget_gbp": 120.0,
+          "current_budget_micros": 120000000
+        },
+        {
+          "campaign_id": "21697260164",
+          "campaign_name": "SMY | UK | Shopping | High AOV 100",
+          "status": "PAUSED",
+          "budget_id": "13921018267",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "23085623254",
+          "campaign_name": "SMY | UK | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14975766602",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "21690750168",
+          "campaign_name": "SMY | UK | Shopping | Villains",
+          "status": "PAUSED",
+          "budget_id": "13907791373",
+          "current_budget_gbp": 120.0,
+          "current_budget_micros": 120000000
+        },
+        {
+          "campaign_id": "21828470832",
+          "campaign_name": "SMY | UK | Shopping | Zombies",
+          "status": "PAUSED",
+          "budget_id": "14011781921",
+          "current_budget_gbp": 600.0,
+          "current_budget_micros": 600000000
+        },
+        {
+          "campaign_id": "13810758124",
+          "campaign_name": "UK - Smythson Corporate - new",
+          "status": "PAUSED",
+          "budget_id": "9072507789",
+          "current_budget_gbp": 45.0,
+          "current_budget_micros": 45000000
+        },
+        {
+          "campaign_id": "19227602347",
+          "campaign_name": "UK - brand - core - new UK - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "9072507297",
+          "current_budget_gbp": 1290.0,
+          "current_budget_micros": 1290000000
+        },
+        {
+          "campaign_id": "20985724980",
+          "campaign_name": "UK - brand - core - new UK - brand test to reduce cpc \u00a30.30",
+          "status": "ENABLED",
+          "budget_id": "9072507297",
+          "current_budget_gbp": 1290.0,
+          "current_budget_micros": 1290000000
+        },
+        {
+          "campaign_id": "19221243489",
+          "campaign_name": "UK - brand - misspellings - new UK - brand misspellings - test to reduce cpc \u00a30.25",
+          "status": "ENABLED",
+          "budget_id": "9068132870",
+          "current_budget_gbp": 26.0,
+          "current_budget_micros": 26000000
+        },
+        {
+          "campaign_id": "14136501094",
+          "campaign_name": "UK - brand - plus - new",
+          "status": "PAUSED",
+          "budget_id": "9216581240",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "19221139809",
+          "campaign_name": "UK - brand - plus - new UK - brand plus - test to reduce cpc \u00a31",
+          "status": "ENABLED",
+          "budget_id": "9216581240",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "13811031069",
+          "campaign_name": "UK - dsa - generic - All Other Pages - new",
+          "status": "PAUSED",
+          "budget_id": "13141496570",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13813052069",
+          "campaign_name": "UK - dsa - generic - Category - new",
+          "status": "PAUSED",
+          "budget_id": "13146980394",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13810744921",
+          "campaign_name": "UK - dsa - generic - Specific Pages - new",
+          "status": "PAUSED",
+          "budget_id": "13146987114",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13811031084",
+          "campaign_name": "UK - generic - diaries & organisers - journal - new",
+          "status": "PAUSED",
+          "budget_id": "12929757744",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "13813052333",
+          "campaign_name": "UK - generic - diaries & organisers - notebook - new",
+          "status": "PAUSED",
+          "budget_id": "12929756799",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "13813051817",
+          "campaign_name": "UK - generic - diaries & organisers - organiser - new",
+          "status": "PAUSED",
+          "budget_id": "12924655103",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "20732004712",
+          "campaign_name": "UK - generic - gifting",
+          "status": "PAUSED",
+          "budget_id": "13095425420",
+          "current_budget_gbp": 6.25,
+          "current_budget_micros": 6250000
+        },
+        {
+          "campaign_id": "20732004715",
+          "campaign_name": "UK - generic - gifting - products",
+          "status": "PAUSED",
+          "budget_id": "13095425513",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "13813052066",
+          "campaign_name": "UK - generic - home - new",
+          "status": "PAUSED",
+          "budget_id": "13155118483",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13810738546",
+          "campaign_name": "UK - generic - leather accessories - cards holders - mens - new",
+          "status": "PAUSED",
+          "budget_id": "13146988695",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13813052345",
+          "campaign_name": "UK - generic - leather accessories - wallets - new",
+          "status": "PAUSED",
+          "budget_id": "13155117286",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13810744954",
+          "campaign_name": "UK - generic - stationery - cards and invitations - new",
+          "status": "PAUSED",
+          "budget_id": "13146985611",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "20746564504",
+          "campaign_name": "UK - generic - stationery - christmas cards",
+          "status": "PAUSED",
+          "budget_id": "13108274540",
+          "current_budget_gbp": 6.25,
+          "current_budget_micros": 6250000
+        },
+        {
+          "campaign_id": "13810744951",
+          "campaign_name": "UK - generic - stationery - new",
+          "status": "PAUSED",
+          "budget_id": "13141490531",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13810745206",
+          "campaign_name": "UK - generic - stationery - writing papers - new",
+          "status": "PAUSED",
+          "budget_id": "13146982782",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "20625412975",
+          "campaign_name": "UK - rlsa - dsa - generic - All Other Pages - new",
+          "status": "PAUSED",
+          "budget_id": "13100788752",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "20757918431",
+          "campaign_name": "UK - rlsa - dsa - generic - All Pages - sale",
+          "status": "PAUSED",
+          "budget_id": "13135613707",
+          "current_budget_gbp": 1.0,
+          "current_budget_micros": 1000000
+        },
+        {
+          "campaign_id": "13810745185",
+          "campaign_name": "UK - rlsa - generic - diaries & organisers - new",
+          "status": "PAUSED",
+          "budget_id": "12938320306",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "13811037249",
+          "campaign_name": "UK - rlsa - generic - notebook - new",
+          "status": "PAUSED",
+          "budget_id": "880504018",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "13811037264",
+          "campaign_name": "UK - rlsa - generic - stationery - new",
+          "status": "PAUSED",
+          "budget_id": "13141486514",
+          "current_budget_gbp": 1.56,
+          "current_budget_micros": 1560000
+        },
+        {
+          "campaign_id": "13810745257",
+          "campaign_name": "UK - rlsa - generic - wallets and cards holders - new",
+          "status": "PAUSED",
+          "budget_id": "880504018",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "13813052294",
+          "campaign_name": "UK - sb - diaries & organisers - books - new",
+          "status": "PAUSED",
+          "budget_id": "12938466916",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "13810745680",
+          "campaign_name": "UK - sb - diaries & organisers - diaries - new",
+          "status": "PAUSED",
+          "budget_id": "12938462860",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "13813052300",
+          "campaign_name": "UK - sb - diaries & organisers - notebooks - new",
+          "status": "PAUSED",
+          "budget_id": "12929900145",
+          "current_budget_gbp": 15.0,
+          "current_budget_micros": 15000000
+        },
+        {
+          "campaign_id": "20757653934",
+          "campaign_name": "UK - sb - outlet",
+          "status": "PAUSED",
+          "budget_id": "13140784798",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "20696797431",
+          "campaign_name": "UK - shopping - PMax - Higher Priced Products",
+          "status": "PAUSED",
+          "budget_id": "13079117685",
+          "current_budget_gbp": 15.68,
+          "current_budget_micros": 15680000
+        },
+        {
+          "campaign_id": "20534852617",
+          "campaign_name": "UK - shopping - PMax - Seasonal Products",
+          "status": "PAUSED",
+          "budget_id": "12925382804",
+          "current_budget_gbp": 15.0,
+          "current_budget_micros": 15000000
+        },
+        {
+          "campaign_id": "18281539365",
+          "campaign_name": "UK - shopping - Pmax - bags",
+          "status": "PAUSED",
+          "budget_id": "11567566777",
+          "current_budget_gbp": 3.0,
+          "current_budget_micros": 3000000
+        },
+        {
+          "campaign_id": "18223921118",
+          "campaign_name": "UK - shopping - Pmax - diaries",
+          "status": "PAUSED",
+          "budget_id": "11524680633",
+          "current_budget_gbp": 15.0,
+          "current_budget_micros": 15000000
+        },
+        {
+          "campaign_id": "1508289559",
+          "campaign_name": "UK - shopping - generic",
+          "status": "PAUSED",
+          "budget_id": "12690820309",
+          "current_budget_gbp": 1.0,
+          "current_budget_micros": 1000000
+        },
+        {
+          "campaign_id": "22217168349",
+          "campaign_name": "UK_Brand_Core (Landing Page Test)",
+          "status": "ENABLED",
+          "budget_id": "9072507297",
+          "current_budget_gbp": 1290.0,
+          "current_budget_micros": 1290000000
+        },
+        {
+          "campaign_id": "21473381978",
+          "campaign_name": "UK_Brand_Core Max_Conversions_Value_Test",
+          "status": "ENABLED",
+          "budget_id": "9072507297",
+          "current_budget_gbp": 1290.0,
+          "current_budget_micros": 1290000000
+        },
+        {
+          "campaign_id": "21718634044",
+          "campaign_name": "UK_Brand_Misspellings Max_Clicks_Test",
+          "status": "ENABLED",
+          "budget_id": "9068132870",
+          "current_budget_gbp": 26.0,
+          "current_budget_micros": 26000000
+        },
+        {
+          "campaign_id": "21091622538",
+          "campaign_name": "UK_Performance_Max_Best_Sellers",
+          "status": "PAUSED",
+          "budget_id": "13427167620",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "1508264527",
+          "campaign_name": "UK_Standard_Shopping",
+          "status": "PAUSED",
+          "budget_id": "12675101926",
+          "current_budget_gbp": 350.0,
+          "current_budget_micros": 350000000
+        },
+        {
+          "campaign_id": "21864051827",
+          "campaign_name": "UK_YouTube_Non_Skippable_Christmas_2024",
+          "status": "PAUSED",
+          "budget_id": "14046344317",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "21722598135",
+          "campaign_name": "UK_YouTube_Non_Skippable_Diaries_2025",
+          "status": "PAUSED",
+          "budget_id": "13945993894",
+          "current_budget_gbp": 290.0,
+          "current_budget_micros": 290000000
+        },
+        {
+          "campaign_id": "21867959497",
+          "campaign_name": "UK_YouTube_Skippable_&_Bumpers_Christmas_2024",
+          "status": "PAUSED",
+          "budget_id": "14039689176",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "21722635647",
+          "campaign_name": "UK_YouTube_Skippable_&_Bumpers_Diaries_2025",
+          "status": "PAUSED",
+          "budget_id": "13939057893",
+          "current_budget_gbp": 260.0,
+          "current_budget_micros": 260000000
+        },
+        {
+          "campaign_id": "19724740500",
+          "campaign_name": "uk - generic - outlet store",
+          "status": "PAUSED",
+          "budget_id": "12391668469",
+          "current_budget_gbp": 1.0,
+          "current_budget_micros": 1000000
+        },
+        {
+          "campaign_id": "19769185344",
+          "campaign_name": "uk - shopping - standard - outlet",
+          "status": "PAUSED",
+          "budget_id": "12415973983",
+          "current_budget_gbp": 0.5,
+          "current_budget_micros": 500000
+        }
+      ],
+      "total_daily_budget": 8527.0,
+      "phase_2a_budget": 3050,
+      "phase_2b_target": 3857
+    },
+    "USA": {
+      "customer_id": "7808690871",
+      "campaigns": [
+        {
+          "campaign_id": "21838304084",
+          "campaign_name": "Generics - Corporate Gifting - US",
+          "status": "PAUSED",
+          "budget_id": "14027684389",
+          "current_budget_gbp": 65.0,
+          "current_budget_micros": 65000000
+        },
+        {
+          "campaign_id": "22796857828",
+          "campaign_name": "SMY | US | P Max | Bags",
+          "status": "ENABLED",
+          "budget_id": "14764145494",
+          "current_budget_gbp": 156.0,
+          "current_budget_micros": 156000000
+        },
+        {
+          "campaign_id": "23210838865",
+          "campaign_name": "SMY | US | P Max | Diaries",
+          "status": "ENABLED",
+          "budget_id": "15095915233",
+          "current_budget_gbp": 225.0,
+          "current_budget_micros": 225000000
+        },
+        {
+          "campaign_id": "18037696979",
+          "campaign_name": "SMY | US | P Max | H&S",
+          "status": "ENABLED",
+          "budget_id": "11405146786",
+          "current_budget_gbp": 375.0,
+          "current_budget_micros": 375000000
+        },
+        {
+          "campaign_id": "22836294609",
+          "campaign_name": "SMY | US | P Max | H&S - New Customers",
+          "status": "PAUSED",
+          "budget_id": "14796889371",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "23232558954",
+          "campaign_name": "SMY | US | P Max | H&S Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15118117815",
+          "current_budget_gbp": 280.5,
+          "current_budget_micros": 280500000
+        },
+        {
+          "campaign_id": "22549884478",
+          "campaign_name": "SMY | US | PMax | Villains",
+          "status": "PAUSED",
+          "budget_id": "14564045644",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "22546298306",
+          "campaign_name": "SMY | US | PMax | Zombies",
+          "status": "ENABLED",
+          "budget_id": "14551157402",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "23066331257",
+          "campaign_name": "SMY | US | Search | Brand & Generic - Briefcases",
+          "status": "PAUSED",
+          "budget_id": "14975239861",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "1683494533",
+          "campaign_name": "SMY | US | Search | Brand Exact",
+          "status": "ENABLED",
+          "budget_id": "11422372952",
+          "current_budget_gbp": 841.5,
+          "current_budget_micros": 841500000
+        },
+        {
+          "campaign_id": "22836294603",
+          "campaign_name": "SMY | US | Search | Brand Exact - New Customers",
+          "status": "PAUSED",
+          "budget_id": "14796889365",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "1602584781",
+          "campaign_name": "SMY | US | Search | Brand Plus",
+          "status": "ENABLED",
+          "budget_id": "12929893890",
+          "current_budget_gbp": 135.0,
+          "current_budget_micros": 135000000
+        },
+        {
+          "campaign_id": "22836294606",
+          "campaign_name": "SMY | US | Search | Brand Plus - New Customers",
+          "status": "PAUSED",
+          "budget_id": "14796889368",
+          "current_budget_gbp": 35.0,
+          "current_budget_micros": 35000000
+        },
+        {
+          "campaign_id": "23012390791",
+          "campaign_name": "SMY | US | Search | Brand Plus Diaries",
+          "status": "ENABLED",
+          "budget_id": "14919994754",
+          "current_budget_gbp": 171.0,
+          "current_budget_micros": 171000000
+        },
+        {
+          "campaign_id": "1602585081",
+          "campaign_name": "SMY | US | Search | Brand | Leather Accessories",
+          "status": "ENABLED",
+          "budget_id": "13390322534",
+          "current_budget_gbp": 78.0,
+          "current_budget_micros": 78000000
+        },
+        {
+          "campaign_id": "1602584829",
+          "campaign_name": "SMY | US | Search | Brand | Stationery",
+          "status": "ENABLED",
+          "budget_id": "13343381269",
+          "current_budget_gbp": 45.0,
+          "current_budget_micros": 45000000
+        },
+        {
+          "campaign_id": "23228705409",
+          "campaign_name": "SMY | US | Search | Competitor | Ai",
+          "status": "PAUSED",
+          "budget_id": "15114787140",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "22693691248",
+          "campaign_name": "SMY | US | Shopping | Brand H & S",
+          "status": "PAUSED",
+          "budget_id": "14662914668",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "22515405492",
+          "campaign_name": "SMY | US | Shopping | Heroes & Sidekicks 250 Live 8/5",
+          "status": "PAUSED",
+          "budget_id": "14549007289",
+          "current_budget_gbp": 250.0,
+          "current_budget_micros": 250000000
+        },
+        {
+          "campaign_id": "23081585036",
+          "campaign_name": "SMY | US | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14987161915",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "22521856529",
+          "campaign_name": "SMY | US | Shopping | Villains 250",
+          "status": "PAUSED",
+          "budget_id": "14536122161",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "22521869921",
+          "campaign_name": "SMY | US | Shopping | Zombies 250",
+          "status": "PAUSED",
+          "budget_id": "14542161726",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "22436240761",
+          "campaign_name": "SMY | USA | PMax | Competitor Targeting 250 inc Budget 2/4 200 22/4",
+          "status": "PAUSED",
+          "budget_id": "14476912242",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "1602430952",
+          "campaign_name": "SMY | USA | Search | Brand Misspellings 400",
+          "status": "PAUSED",
+          "budget_id": "11425294476",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "1602584805",
+          "campaign_name": "SMY | USA | Search | Brand Plus 400",
+          "status": "PAUSED",
+          "budget_id": "13343381002",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "21701147032",
+          "campaign_name": "SMY | USA | Shopping | High AOV 100",
+          "status": "PAUSED",
+          "budget_id": "13921060255",
+          "current_budget_gbp": 34.0,
+          "current_budget_micros": 34000000
+        },
+        {
+          "campaign_id": "21690817146",
+          "campaign_name": "SMY | USA | Shopping | Low_AOV 250 270 2/4",
+          "status": "PAUSED",
+          "budget_id": "13907836781",
+          "current_budget_gbp": 80.0,
+          "current_budget_micros": 80000000
+        },
+        {
+          "campaign_id": "21828481377",
+          "campaign_name": "SMY | USA | Shopping | Mid AOV 150",
+          "status": "PAUSED",
+          "budget_id": "14011788473",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "11189913808",
+          "campaign_name": "Target CPA Experiment - USA - brand - misspellings",
+          "status": "ENABLED",
+          "budget_id": "1659506859",
+          "current_budget_gbp": 54.0,
+          "current_budget_micros": 54000000
+        },
+        {
+          "campaign_id": "13060442064",
+          "campaign_name": "USA - Smythson Corporate",
+          "status": "PAUSED",
+          "budget_id": "8692649706",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "20767851526",
+          "campaign_name": "USA - brand - core - sale",
+          "status": "PAUSED",
+          "budget_id": "13132602687",
+          "current_budget_gbp": 250.0,
+          "current_budget_micros": 250000000
+        },
+        {
+          "campaign_id": "19228636229",
+          "campaign_name": "USA - brand - core US - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11422372952",
+          "current_budget_gbp": 841.5,
+          "current_budget_micros": 841500000
+        },
+        {
+          "campaign_id": "21001958524",
+          "campaign_name": "USA - brand - core US - brand test to reduce cpc \u00a30.50",
+          "status": "ENABLED",
+          "budget_id": "11422372952",
+          "current_budget_gbp": 841.5,
+          "current_budget_micros": 841500000
+        },
+        {
+          "campaign_id": "1734759773",
+          "campaign_name": "USA - brand - core [EX]",
+          "status": "ENABLED",
+          "budget_id": "1736951227",
+          "current_budget_gbp": 78.0,
+          "current_budget_micros": 78000000
+        },
+        {
+          "campaign_id": "1602430958",
+          "campaign_name": "USA - brand - locations",
+          "status": "PAUSED",
+          "budget_id": "11971109509",
+          "current_budget_gbp": 300.0,
+          "current_budget_micros": 300000000
+        },
+        {
+          "campaign_id": "19222158192",
+          "campaign_name": "USA - brand - locations USA - Brand locations - Max con value w CPC cap \u00a30.50",
+          "status": "ENABLED",
+          "budget_id": "11971109509",
+          "current_budget_gbp": 300.0,
+          "current_budget_micros": 300000000
+        },
+        {
+          "campaign_id": "19228455571",
+          "campaign_name": "USA - brand - misspellings USA - Brand - Max con value w CPC cap \u00a30.50",
+          "status": "ENABLED",
+          "budget_id": "11425294476",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "10006769699",
+          "campaign_name": "USA - dsa - generic - category",
+          "status": "PAUSED",
+          "budget_id": "12718886359",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "20534629174",
+          "campaign_name": "USA - generic - agendas",
+          "status": "PAUSED",
+          "budget_id": "12938797144",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "1602430970",
+          "campaign_name": "USA - generic - bags",
+          "status": "PAUSED",
+          "budget_id": "12705425489",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1602840172",
+          "campaign_name": "USA - generic - diaries & organisers",
+          "status": "PAUSED",
+          "budget_id": "12929752761",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "1723830911",
+          "campaign_name": "USA - generic - diaries & organisers - planners",
+          "status": "PAUSED",
+          "budget_id": "12929753262",
+          "current_budget_gbp": 0.5,
+          "current_budget_micros": 500000
+        },
+        {
+          "campaign_id": "20721879549",
+          "campaign_name": "USA - generic - gifting",
+          "status": "PAUSED",
+          "budget_id": "13095263192",
+          "current_budget_gbp": 15.63,
+          "current_budget_micros": 15630000
+        },
+        {
+          "campaign_id": "20721879552",
+          "campaign_name": "USA - generic - gifting - products",
+          "status": "PAUSED",
+          "budget_id": "13095263195",
+          "current_budget_gbp": 125.0,
+          "current_budget_micros": 125000000
+        },
+        {
+          "campaign_id": "1602840157",
+          "campaign_name": "USA - generic - home",
+          "status": "PAUSED",
+          "budget_id": "9284164047",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "7205674985",
+          "campaign_name": "USA - generic - stationery - writing papers",
+          "status": "PAUSED",
+          "budget_id": "12710638770",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "20757917930",
+          "campaign_name": "USA - rlsa - dsa - generic - All Pages - sale",
+          "status": "PAUSED",
+          "budget_id": "13135612990",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "1602584769",
+          "campaign_name": "USA - sb - bags",
+          "status": "PAUSED",
+          "budget_id": "6925717806",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "20746399423",
+          "campaign_name": "USA - sb - bags - new",
+          "status": "PAUSED",
+          "budget_id": "13108145009",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "20987439346",
+          "campaign_name": "USA - sb - outlet",
+          "status": "PAUSED",
+          "budget_id": "13331460381",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "21181910308",
+          "campaign_name": "USA - shopping - PMax - Best Sellers",
+          "status": "PAUSED",
+          "budget_id": "13488529676",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "20530736606",
+          "campaign_name": "USA - shopping - PMax - Seasonal Products",
+          "status": "PAUSED",
+          "budget_id": "12925367921",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "20617117134",
+          "campaign_name": "USA - shopping - Pmax - bags",
+          "status": "PAUSED",
+          "budget_id": "13009670808",
+          "current_budget_gbp": 8.93,
+          "current_budget_micros": 8930000
+        },
+        {
+          "campaign_id": "20578642687",
+          "campaign_name": "USA - shopping - Pmax - bags - ny",
+          "status": "PAUSED",
+          "budget_id": "12963049388",
+          "current_budget_gbp": 8.93,
+          "current_budget_micros": 8930000
+        },
+        {
+          "campaign_id": "18138793405",
+          "campaign_name": "USA - shopping - Pmax - diaries",
+          "status": "PAUSED",
+          "budget_id": "11477116751",
+          "current_budget_gbp": 2.0,
+          "current_budget_micros": 2000000
+        },
+        {
+          "campaign_id": "20574690872",
+          "campaign_name": "USA - shopping - Pmax - diaries - ny",
+          "status": "PAUSED",
+          "budget_id": "12962709992",
+          "current_budget_gbp": 8.5,
+          "current_budget_micros": 8500000
+        },
+        {
+          "campaign_id": "20623385696",
+          "campaign_name": "USA - shopping - Pmax - other - ny",
+          "status": "PAUSED",
+          "budget_id": "13004596031",
+          "current_budget_gbp": 8.93,
+          "current_budget_micros": 8930000
+        },
+        {
+          "campaign_id": "1487481584",
+          "campaign_name": "USA - shopping - generic - outlet",
+          "status": "PAUSED",
+          "budget_id": "12679229225",
+          "current_budget_gbp": 1.25,
+          "current_budget_micros": 1250000
+        },
+        {
+          "campaign_id": "22216866387",
+          "campaign_name": "USA_Brand_Core (Landing Page Test)",
+          "status": "ENABLED",
+          "budget_id": "11422372952",
+          "current_budget_gbp": 841.5,
+          "current_budget_micros": 841500000
+        },
+        {
+          "campaign_id": "21466775013",
+          "campaign_name": "USA_Brand_Core Max_Conversion_Value_Test",
+          "status": "ENABLED",
+          "budget_id": "11422372952",
+          "current_budget_gbp": 841.5,
+          "current_budget_micros": 841500000
+        },
+        {
+          "campaign_id": "20998333148",
+          "campaign_name": "USA_Brand_Core_Phrase",
+          "status": "PAUSED",
+          "budget_id": "13337625773",
+          "current_budget_gbp": 80.0,
+          "current_budget_micros": 80000000
+        },
+        {
+          "campaign_id": "21220694398",
+          "campaign_name": "USA_Performance_Max_Best_Sellers",
+          "status": "PAUSED",
+          "budget_id": "13516631948",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "1488652443",
+          "campaign_name": "USA_Standard_Shopping",
+          "status": "PAUSED",
+          "budget_id": "12684326550",
+          "current_budget_gbp": 170.0,
+          "current_budget_micros": 170000000
+        },
+        {
+          "campaign_id": "21728964179",
+          "campaign_name": "USA_YouTube_Non_Skippable_Diaries_2025",
+          "status": "PAUSED",
+          "budget_id": "13939043991",
+          "current_budget_gbp": 420.0,
+          "current_budget_micros": 420000000
+        },
+        {
+          "campaign_id": "21722653671",
+          "campaign_name": "USA_YouTube_Skippable_&_Bumpers_Diaries_2025",
+          "status": "PAUSED",
+          "budget_id": "13932740768",
+          "current_budget_gbp": 420.0,
+          "current_budget_micros": 420000000
+        },
+        {
+          "campaign_id": "21857705034",
+          "campaign_name": "US_YouTube_Non_Skippable_Christmas_2024",
+          "status": "PAUSED",
+          "budget_id": "14039803326",
+          "current_budget_gbp": 240.0,
+          "current_budget_micros": 240000000
+        },
+        {
+          "campaign_id": "21864302111",
+          "campaign_name": "US_YouTube_Skippable_&_Bumpers_Christmas_2024",
+          "status": "PAUSED",
+          "budget_id": "14039844645",
+          "current_budget_gbp": 240.0,
+          "current_budget_micros": 240000000
+        }
+      ],
+      "total_daily_budget": 6285.0,
+      "phase_2a_budget": 1725,
+      "phase_2b_target": 1208
+    },
+    "EUR": {
+      "customer_id": "7679616761",
+      "campaigns": [
+        {
+          "campaign_id": "1634666058",
+          "campaign_name": "DE - generic - bags",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1634666070",
+          "campaign_name": "DE - generic - boxes",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1634666064",
+          "campaign_name": "DE - generic - diary - 2022",
+          "status": "PAUSED",
+          "budget_id": "1684287038",
+          "current_budget_gbp": 0.03,
+          "current_budget_micros": 30000
+        },
+        {
+          "campaign_id": "8276705935",
+          "campaign_name": "DE - sb - bags - backpack",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "8276705758",
+          "campaign_name": "DE - sb - bags - bags",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "8276705950",
+          "campaign_name": "DE - sb - bags - briefcases",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "8276705887",
+          "campaign_name": "DE - sb - diaries & organisers - notebooks",
+          "status": "PAUSED",
+          "budget_id": "12938489032",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "8276705908",
+          "campaign_name": "DE - sb - home - watch boxes",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "21001506460",
+          "campaign_name": "DE - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13351106287",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "21001506475",
+          "campaign_name": "DE - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13351106302",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "18129003266",
+          "campaign_name": "DE - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11468081002",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "18808000446",
+          "campaign_name": "FR -  Smythson Corporate",
+          "status": "PAUSED",
+          "budget_id": "11881319015",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "1635077939",
+          "campaign_name": "FR - generic - Diaries and organisers",
+          "status": "PAUSED",
+          "budget_id": "12453328227",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1635077933",
+          "campaign_name": "FR - generic - bags",
+          "status": "PAUSED",
+          "budget_id": "12453328227",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1635077945",
+          "campaign_name": "FR - generic - home",
+          "status": "PAUSED",
+          "budget_id": "12453328227",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1635077936",
+          "campaign_name": "FR - sb - diary",
+          "status": "PAUSED",
+          "budget_id": "12929919780",
+          "current_budget_gbp": 1.0,
+          "current_budget_micros": 1000000
+        },
+        {
+          "campaign_id": "21001506469",
+          "campaign_name": "FR - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13351106296",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "21001506604",
+          "campaign_name": "FR - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13351106311",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "18123133356",
+          "campaign_name": "FR - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11468071138",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "1604085961",
+          "campaign_name": "IE - brand",
+          "status": "PAUSED",
+          "budget_id": "1660687425",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "1604085982",
+          "campaign_name": "IE - generic - bags - backpacks",
+          "status": "PAUSED",
+          "budget_id": "12453330870",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1603775880",
+          "campaign_name": "IE - sb - Diaries and organisers",
+          "status": "PAUSED",
+          "budget_id": "12924839402",
+          "current_budget_gbp": 3.0,
+          "current_budget_micros": 3000000
+        },
+        {
+          "campaign_id": "1603775964",
+          "campaign_name": "IE - sb - Leather accessories",
+          "status": "PAUSED",
+          "budget_id": "12453330207",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "1603775751",
+          "campaign_name": "IE - sb - bags",
+          "status": "PAUSED",
+          "budget_id": "12453330207",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "1603775433",
+          "campaign_name": "IE - sb - stationery",
+          "status": "PAUSED",
+          "budget_id": "12453330207",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "18021552858",
+          "campaign_name": "IE - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11384635607",
+          "current_budget_gbp": 1.6,
+          "current_budget_micros": 1600000
+        },
+        {
+          "campaign_id": "1630753915",
+          "campaign_name": "IT - generic - bags",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1630754050",
+          "campaign_name": "IT - generic - diaries & organisers - agenda",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1630754041",
+          "campaign_name": "IT - generic - home - boxes",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1684249656",
+          "campaign_name": "IT - generic - leather accessories - passport cover",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1630754047",
+          "campaign_name": "IT - sb - diaries & organisers",
+          "status": "PAUSED",
+          "budget_id": "12930119199",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "21001506472",
+          "campaign_name": "IT - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13351106299",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "21001506607",
+          "campaign_name": "IT - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13351106524",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "18123137508",
+          "campaign_name": "IT - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11462058219",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "18091923512",
+          "campaign_name": "ROE - AT - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11427759752",
+          "current_budget_gbp": 1.6,
+          "current_budget_micros": 1600000
+        },
+        {
+          "campaign_id": "691020851",
+          "campaign_name": "ROE - DEU - brand - core",
+          "status": "PAUSED",
+          "budget_id": "1711280823",
+          "current_budget_gbp": 11.7,
+          "current_budget_micros": 11700000
+        },
+        {
+          "campaign_id": "1661054108",
+          "campaign_name": "ROE - DEU - generic - boxes",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "21001506463",
+          "campaign_name": "ROE - DEU - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13351106290",
+          "current_budget_gbp": 0.5,
+          "current_budget_micros": 500000
+        },
+        {
+          "campaign_id": "21001506478",
+          "campaign_name": "ROE - DEU - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13351106305",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "1604086687",
+          "campaign_name": "ROE - EN -  generic - bags - backpacks",
+          "status": "PAUSED",
+          "budget_id": "12051735347",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1603775985",
+          "campaign_name": "ROE - EN - sb -  leather accessories",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "1603732685",
+          "campaign_name": "ROE - EN - sb - bags",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "1603775943",
+          "campaign_name": "ROE - EN - sb - home",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "1603776129",
+          "campaign_name": "ROE - EN - sb - stationery - cards",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "19898782945",
+          "campaign_name": "ROE - ES - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "12471755166",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "691020878",
+          "campaign_name": "ROE - FRA - Brand - Core",
+          "status": "PAUSED",
+          "budget_id": "1721056956",
+          "current_budget_gbp": 11.7,
+          "current_budget_micros": 11700000
+        },
+        {
+          "campaign_id": "938666123",
+          "campaign_name": "ROE - FRA - generic - Diaries and organisers",
+          "status": "PAUSED",
+          "budget_id": "12453328227",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "1661054123",
+          "campaign_name": "ROE - FRA - generic - bags",
+          "status": "PAUSED",
+          "budget_id": "12453328227",
+          "current_budget_gbp": 5.0,
+          "current_budget_micros": 5000000
+        },
+        {
+          "campaign_id": "21001506466",
+          "campaign_name": "ROE - FRA - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13351106293",
+          "current_budget_gbp": 0.5,
+          "current_budget_micros": 500000
+        },
+        {
+          "campaign_id": "21001506601",
+          "campaign_name": "ROE - FRA - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13351106308",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "19878144400",
+          "campaign_name": "ROE - GR - brand",
+          "status": "PAUSED",
+          "budget_id": "12456334517",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "19878127586",
+          "campaign_name": "ROE - GR - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "12469311586",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "18091924787",
+          "campaign_name": "ROE - NL - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11439380284",
+          "current_budget_gbp": 1.6,
+          "current_budget_micros": 1600000
+        },
+        {
+          "campaign_id": "19878144403",
+          "campaign_name": "ROE - SE - brand",
+          "status": "PAUSED",
+          "budget_id": "12456334520",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "19897835495",
+          "campaign_name": "ROE - SE - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "12471765825",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "1604086264",
+          "campaign_name": "ROE - brand",
+          "status": "PAUSED",
+          "budget_id": "1660106876",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "1603775934",
+          "campaign_name": "ROE - sb - home - jewellery boxes",
+          "status": "PAUSED",
+          "budget_id": "6872547809",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "21001455505",
+          "campaign_name": "ROE - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13351070878",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "20984103986",
+          "campaign_name": "ROE - sb - outlet",
+          "status": "PAUSED",
+          "budget_id": "13339244776",
+          "current_budget_gbp": 0.5,
+          "current_budget_micros": 500000
+        },
+        {
+          "campaign_id": "21001455508",
+          "campaign_name": "ROE - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13351071001",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "20974736349",
+          "campaign_name": "ROE - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "13323566054",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "18996277195",
+          "campaign_name": "ROE - shopping - Pmax Diaries",
+          "status": "PAUSED",
+          "budget_id": "11990980938",
+          "current_budget_gbp": 16.0,
+          "current_budget_micros": 16000000
+        },
+        {
+          "campaign_id": "20977044150",
+          "campaign_name": "ROE - shopping - standard - outlet",
+          "status": "PAUSED",
+          "budget_id": "13325502902",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "23073663329",
+          "campaign_name": "SMY | DE | P Max | H&S - Men's Briefcases, Luxury, Leather",
+          "status": "PAUSED",
+          "budget_id": "14981397829",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "23257901431",
+          "campaign_name": "SMY | EUR  | IT  | P Max | Diaries",
+          "status": "ENABLED",
+          "budget_id": "15135803680",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "23253394509",
+          "campaign_name": "SMY | EUR  | P Max | Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15139347337",
+          "current_budget_gbp": 135.0,
+          "current_budget_micros": 135000000
+        },
+        {
+          "campaign_id": "22228334811",
+          "campaign_name": "SMY | EUR | AT | Search | Brand Max Conv Value No Target Port 16/6",
+          "status": "PAUSED",
+          "budget_id": "14322122835",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "22402031417",
+          "campaign_name": "SMY | EUR | AU | Search | Brand Max Conv Value 500 8/5",
+          "status": "PAUSED",
+          "budget_id": "14453220438",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "23292938044",
+          "campaign_name": "SMY | EUR | CH | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "15153614639",
+          "current_budget_gbp": 45.0,
+          "current_budget_micros": 45000000
+        },
+        {
+          "campaign_id": "22402031414",
+          "campaign_name": "SMY | EUR | CH | Search | Brand Max Conv Value No Target Brand Inclusion 24/4 500 8/5",
+          "status": "PAUSED",
+          "budget_id": "14453220435",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "23257639561",
+          "campaign_name": "SMY | EUR | DE  | P Max | Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15125439263",
+          "current_budget_gbp": 24.0,
+          "current_budget_micros": 24000000
+        },
+        {
+          "campaign_id": "23262439603",
+          "campaign_name": "SMY | EUR | DE | P Max | Christmas Gifting",
+          "status": "PAUSED",
+          "budget_id": "15139137025",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "23257761115",
+          "campaign_name": "SMY | EUR | DE | P Max | Diaries",
+          "status": "ENABLED",
+          "budget_id": "15135699727",
+          "current_budget_gbp": 60.0,
+          "current_budget_micros": 60000000
+        },
+        {
+          "campaign_id": "691020848",
+          "campaign_name": "SMY | EUR | DE | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "1705235887",
+          "current_budget_gbp": 118.5,
+          "current_budget_micros": 118500000
+        },
+        {
+          "campaign_id": "22428317962",
+          "campaign_name": "SMY | EUR | DE | Search | Brand Max Conv Value No Target Max Conv with target ROAS",
+          "status": "ENABLED",
+          "budget_id": "1705235887",
+          "current_budget_gbp": 118.5,
+          "current_budget_micros": 118500000
+        },
+        {
+          "campaign_id": "23237208923",
+          "campaign_name": "SMY | EUR | DE | Search | Competitor | Ai",
+          "status": "ENABLED",
+          "budget_id": "15117709656",
+          "current_budget_gbp": 16.5,
+          "current_budget_micros": 16500000
+        },
+        {
+          "campaign_id": "21512797638",
+          "campaign_name": "SMY | EUR | DE | Shopping",
+          "status": "ENABLED",
+          "budget_id": "13788379561",
+          "current_budget_gbp": 43.5,
+          "current_budget_micros": 43500000
+        },
+        {
+          "campaign_id": "23081597252",
+          "campaign_name": "SMY | EUR | DE | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14981121291",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "23248641252",
+          "campaign_name": "SMY | EUR | FR  | P Max | Diaries",
+          "status": "PAUSED",
+          "budget_id": "15135803677",
+          "current_budget_gbp": 15.0,
+          "current_budget_micros": 15000000
+        },
+        {
+          "campaign_id": "23248988334",
+          "campaign_name": "SMY | EUR | FR | P Max | Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15136066780",
+          "current_budget_gbp": 99.0,
+          "current_budget_micros": 99000000
+        },
+        {
+          "campaign_id": "691020884",
+          "campaign_name": "SMY | EUR | FR | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "1705540965",
+          "current_budget_gbp": 75.0,
+          "current_budget_micros": 75000000
+        },
+        {
+          "campaign_id": "23241560095",
+          "campaign_name": "SMY | EUR | FR | Search | Competitor | Ai",
+          "status": "PAUSED",
+          "budget_id": "15122451538",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "23081639495",
+          "campaign_name": "SMY | EUR | FR | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14981157720",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "22228334859",
+          "campaign_name": "SMY | EUR | IE | Search | Brand Max Conv Value No Target 500 8/5",
+          "status": "PAUSED",
+          "budget_id": "14322122802",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "23253230592",
+          "campaign_name": "SMY | EUR | IT | P Max | Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15134578062",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "1599767262",
+          "campaign_name": "SMY | EUR | IT | Search Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "1656440764",
+          "current_budget_gbp": 165.0,
+          "current_budget_micros": 165000000
+        },
+        {
+          "campaign_id": "23232177303",
+          "campaign_name": "SMY | EUR | IT | Search | Competitor | Ai",
+          "status": "PAUSED",
+          "budget_id": "15117798852",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "23085737755",
+          "campaign_name": "SMY | EUR | IT | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14975845562",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "22238677327",
+          "campaign_name": "SMY | EUR | NL | Search | Brand Max Conv Value No Target Brand Inclusion 24/4 500 8/5",
+          "status": "PAUSED",
+          "budget_id": "14328844999",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "23253890345",
+          "campaign_name": "SMY | EUR | P Max | Diaries",
+          "status": "ENABLED",
+          "budget_id": "15125793782",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "22440993281",
+          "campaign_name": "SMY | EUR | ROEuro | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "14490335959",
+          "current_budget_gbp": 229.5,
+          "current_budget_micros": 229500000
+        },
+        {
+          "campaign_id": "1603775949",
+          "campaign_name": "SMY | EUR | ROEuro | Search | Brand Diaries and Organisers",
+          "status": "ENABLED",
+          "budget_id": "12925013210",
+          "current_budget_gbp": 30.0,
+          "current_budget_micros": 30000000
+        },
+        {
+          "campaign_id": "23228722704",
+          "campaign_name": "SMY | EUR | ROEuro | Search | Competitor | Ai",
+          "status": "PAUSED",
+          "budget_id": "15114799653",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "22441297139",
+          "campaign_name": "SMY | EUR | RONot | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "14483837445",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "23048760213",
+          "campaign_name": "SMY | EUR | RONot | Search | Brand Diaries and Organisers",
+          "status": "PAUSED",
+          "budget_id": "14954218505",
+          "current_budget_gbp": 4.0,
+          "current_budget_micros": 4000000
+        },
+        {
+          "campaign_id": "23232033780",
+          "campaign_name": "SMY | EUR | RONot | Search | Competitor | Ai",
+          "status": "PAUSED",
+          "budget_id": "15122348326",
+          "current_budget_gbp": 10.0,
+          "current_budget_micros": 10000000
+        },
+        {
+          "campaign_id": "22440881174",
+          "campaign_name": "SMY | EUR | Shopping FR 180",
+          "status": "PAUSED",
+          "budget_id": "14483539104",
+          "current_budget_gbp": 22.0,
+          "current_budget_micros": 22000000
+        },
+        {
+          "campaign_id": "22444390477",
+          "campaign_name": "SMY | EUR | Shopping IT 180",
+          "status": "PAUSED",
+          "budget_id": "14490256216",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "22402031420",
+          "campaign_name": "SMY | EUR | UAE | Search | Brand Max Conv Value No Target 500 8/5 Brand Inclusion 24/5",
+          "status": "PAUSED",
+          "budget_id": "14453220441",
+          "current_budget_gbp": 37.0,
+          "current_budget_micros": 37000000
+        },
+        {
+          "campaign_id": "23070911460",
+          "campaign_name": "SMY | FR | P Max | H&S - Men's Briefcases, Luxury, Leather",
+          "status": "PAUSED",
+          "budget_id": "14983770451",
+          "current_budget_gbp": 100.0,
+          "current_budget_micros": 100000000
+        },
+        {
+          "campaign_id": "23070911463",
+          "campaign_name": "SMY | IT | P Max | H&S - Men's Briefcases, Luxury, Leather",
+          "status": "PAUSED",
+          "budget_id": "14983770454",
+          "current_budget_gbp": 100.0,
+          "current_budget_micros": 100000000
+        },
+        {
+          "campaign_id": "23068286631",
+          "campaign_name": "SMY | ROE | P Max | H&S - Men's Briefcases, Luxury, Leather",
+          "status": "PAUSED",
+          "budget_id": "14975740989",
+          "current_budget_gbp": 200.0,
+          "current_budget_micros": 200000000
+        },
+        {
+          "campaign_id": "10368145356",
+          "campaign_name": "Target CPA Experiment - ROE - brand",
+          "status": "ENABLED",
+          "budget_id": "1660106876",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        }
+      ],
+      "total_daily_budget": 1364.5,
+      "phase_2a_budget": 690,
+      "phase_2b_target": 483
+    },
+    "ROW": {
+      "customer_id": "5556710725",
+      "campaigns": [
+        {
+          "campaign_id": "19227841675",
+          "campaign_name": "AUS - brand AUS - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11370644814",
+          "current_budget_gbp": 60.0,
+          "current_budget_micros": 60000000
+        },
+        {
+          "campaign_id": "13340699251",
+          "campaign_name": "AUS - dsa - generic",
+          "status": "PAUSED",
+          "budget_id": "12453398340",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "6552021279",
+          "campaign_name": "AUS - sb - bags",
+          "status": "PAUSED",
+          "budget_id": "12461718388",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "6552021291",
+          "campaign_name": "AUS - sb - diaries and organisers",
+          "status": "PAUSED",
+          "budget_id": "12929924142",
+          "current_budget_gbp": 1.25,
+          "current_budget_micros": 1250000
+        },
+        {
+          "campaign_id": "6551616691",
+          "campaign_name": "AUS - sb - home",
+          "status": "PAUSED",
+          "budget_id": "12461718388",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "6551615899",
+          "campaign_name": "AUS - sb - leather accessories",
+          "status": "PAUSED",
+          "budget_id": "12461718388",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "6551616715",
+          "campaign_name": "AUS - sb - stationery",
+          "status": "PAUSED",
+          "budget_id": "12461718388",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "18021156622",
+          "campaign_name": "AUS - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11388338388",
+          "current_budget_gbp": 0.15,
+          "current_budget_micros": 150000
+        },
+        {
+          "campaign_id": "18021152134",
+          "campaign_name": "ROE - CH - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11394350548",
+          "current_budget_gbp": 1.6,
+          "current_budget_micros": 1600000
+        },
+        {
+          "campaign_id": "13529921024",
+          "campaign_name": "ROW - AE  - dsa - generic",
+          "status": "PAUSED",
+          "budget_id": "12051632768",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "19865545148",
+          "campaign_name": "ROW - AE - brand",
+          "status": "PAUSED",
+          "budget_id": "12454369842",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "18019768794",
+          "campaign_name": "ROW - AE - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11383000472",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "6552021999",
+          "campaign_name": "ROW - CA - brand",
+          "status": "PAUSED",
+          "budget_id": "11370644370",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "19227775840",
+          "campaign_name": "ROW - CA - brand CA - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11370644370",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "13529921033",
+          "campaign_name": "ROW - CA - dsa - generic",
+          "status": "PAUSED",
+          "budget_id": "12051632768",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "17996235825",
+          "campaign_name": "ROW - CA - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11369826692",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "8075544903",
+          "campaign_name": "ROW - HK - brand",
+          "status": "PAUSED",
+          "budget_id": "11365331684",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "19229009186",
+          "campaign_name": "ROW - HK - brand HK - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11365331684",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "18026791421",
+          "campaign_name": "ROW - HK - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11388337083",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "20500098468",
+          "campaign_name": "ROW - IN - brand",
+          "status": "PAUSED",
+          "budget_id": "12906613662",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "20510231920",
+          "campaign_name": "ROW - IN - dsa - generic",
+          "status": "PAUSED",
+          "budget_id": "12901840268",
+          "current_budget_gbp": 0.05,
+          "current_budget_micros": 50000
+        },
+        {
+          "campaign_id": "6551617663",
+          "campaign_name": "ROW - MEX - brand",
+          "status": "PAUSED",
+          "budget_id": "11370644109",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "19221315960",
+          "campaign_name": "ROW - MEX - brand MEX - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11370644109",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "18021152785",
+          "campaign_name": "ROW - MY - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11394350764",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "18021150667",
+          "campaign_name": "ROW - NO - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11382999248",
+          "current_budget_gbp": 0.07,
+          "current_budget_micros": 70000
+        },
+        {
+          "campaign_id": "18019801854",
+          "campaign_name": "ROW - NZ - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11383294019",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "19865545151",
+          "campaign_name": "ROW - SA - brand",
+          "status": "PAUSED",
+          "budget_id": "12454369845",
+          "current_budget_gbp": 2.5,
+          "current_budget_micros": 2500000
+        },
+        {
+          "campaign_id": "18021186856",
+          "campaign_name": "ROW - SA - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11388685899",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "8077841410",
+          "campaign_name": "ROW - SG - brand",
+          "status": "PAUSED",
+          "budget_id": "11376421816",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "19229034938",
+          "campaign_name": "ROW - SG - brand SG - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11376421816",
+          "current_budget_gbp": 3.75,
+          "current_budget_micros": 3750000
+        },
+        {
+          "campaign_id": "18026793524",
+          "campaign_name": "ROW - SG - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "11388338298",
+          "current_budget_gbp": 0.1,
+          "current_budget_micros": 100000
+        },
+        {
+          "campaign_id": "20257924302",
+          "campaign_name": "ROW - Shopping - PMax - NCA Sale only",
+          "status": "PAUSED",
+          "budget_id": "12695394181",
+          "current_budget_gbp": 0.5,
+          "current_budget_micros": 500000
+        },
+        {
+          "campaign_id": "6551616661",
+          "campaign_name": "ROW - brand",
+          "status": "PAUSED",
+          "budget_id": "11376425032",
+          "current_budget_gbp": 78.0,
+          "current_budget_micros": 78000000
+        },
+        {
+          "campaign_id": "19175921934",
+          "campaign_name": "ROW - brand test to reduce cpc",
+          "status": "ENABLED",
+          "budget_id": "11376425032",
+          "current_budget_gbp": 78.0,
+          "current_budget_micros": 78000000
+        },
+        {
+          "campaign_id": "13529921030",
+          "campaign_name": "ROW - dsa - generic",
+          "status": "PAUSED",
+          "budget_id": "12051632768",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "20761825573",
+          "campaign_name": "ROW - dsa - generic - sale",
+          "status": "PAUSED",
+          "budget_id": "13122079157",
+          "current_budget_gbp": 0.3,
+          "current_budget_micros": 300000
+        },
+        {
+          "campaign_id": "6552020613",
+          "campaign_name": "ROW - sb - bags",
+          "status": "PAUSED",
+          "budget_id": "6871289437",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "20996025772",
+          "campaign_name": "ROW - sb - diaries & organisers - notebooks - new",
+          "status": "PAUSED",
+          "budget_id": "13346259301",
+          "current_budget_gbp": 20.0,
+          "current_budget_micros": 20000000
+        },
+        {
+          "campaign_id": "6552021273",
+          "campaign_name": "ROW - sb - home",
+          "status": "PAUSED",
+          "budget_id": "6871289437",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "6551615749",
+          "campaign_name": "ROW - sb - leather accessories",
+          "status": "PAUSED",
+          "budget_id": "6871289437",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "20996025769",
+          "campaign_name": "ROW - sb - misspellings",
+          "status": "PAUSED",
+          "budget_id": "13346259298",
+          "current_budget_gbp": 12.5,
+          "current_budget_micros": 12500000
+        },
+        {
+          "campaign_id": "20996025775",
+          "campaign_name": "ROW - sb - phrase",
+          "status": "PAUSED",
+          "budget_id": "13346259304",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "6551616874",
+          "campaign_name": "ROW - sb - stationery",
+          "status": "PAUSED",
+          "budget_id": "6871289437",
+          "current_budget_gbp": 25.0,
+          "current_budget_micros": 25000000
+        },
+        {
+          "campaign_id": "20230001665",
+          "campaign_name": "ROW - shopping - PMax",
+          "status": "PAUSED",
+          "budget_id": "12670618765",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "20974901250",
+          "campaign_name": "ROW - shopping - PMax - Middle East",
+          "status": "PAUSED",
+          "budget_id": "13323714863",
+          "current_budget_gbp": 35.0,
+          "current_budget_micros": 35000000
+        },
+        {
+          "campaign_id": "18988687851",
+          "campaign_name": "ROW - shopping - Pmax Diaries",
+          "status": "PAUSED",
+          "budget_id": "11998294042",
+          "current_budget_gbp": 16.0,
+          "current_budget_micros": 16000000
+        },
+        {
+          "campaign_id": "21522996217",
+          "campaign_name": "ROW_Standard_Shopping",
+          "status": "PAUSED",
+          "budget_id": "13781237721",
+          "current_budget_gbp": 79.0,
+          "current_budget_micros": 79000000
+        },
+        {
+          "campaign_id": "23077236950",
+          "campaign_name": "SMY | AUS | P Max | H&S - Men's Briefcases, Luxury, Leather",
+          "status": "PAUSED",
+          "budget_id": "14977951182",
+          "current_budget_gbp": 70.0,
+          "current_budget_micros": 70000000
+        },
+        {
+          "campaign_id": "23075705745",
+          "campaign_name": "SMY | AUS | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14987236222",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        },
+        {
+          "campaign_id": "6551615752",
+          "campaign_name": "SMY | ROW | AUS | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "11370644814",
+          "current_budget_gbp": 60.0,
+          "current_budget_micros": 60000000
+        },
+        {
+          "campaign_id": "23258454848",
+          "campaign_name": "SMY | ROW | P Max | Christmas Gifting",
+          "status": "ENABLED",
+          "budget_id": "15134692206",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "23253385815",
+          "campaign_name": "SMY | ROW | P Max | Diaries",
+          "status": "ENABLED",
+          "budget_id": "15134691735",
+          "current_budget_gbp": 7.5,
+          "current_budget_micros": 7500000
+        },
+        {
+          "campaign_id": "22503794801",
+          "campaign_name": "SMY | ROW | Search | Brand Ai",
+          "status": "ENABLED",
+          "budget_id": "14528371083",
+          "current_budget_gbp": 150.0,
+          "current_budget_micros": 150000000
+        },
+        {
+          "campaign_id": "6552020619",
+          "campaign_name": "SMY | ROW | Search | Brand Diaries and Organisers",
+          "status": "ENABLED",
+          "budget_id": "12929903025",
+          "current_budget_gbp": 22.5,
+          "current_budget_micros": 22500000
+        },
+        {
+          "campaign_id": "23241919876",
+          "campaign_name": "SMY | ROW | Search | Competitor | Ai",
+          "status": "ENABLED",
+          "budget_id": "15122745964",
+          "current_budget_gbp": 4.5,
+          "current_budget_micros": 4500000
+        },
+        {
+          "campaign_id": "22791824856",
+          "campaign_name": "SMY | ROW | UAE | Search | Brand Ai",
+          "status": "PAUSED",
+          "budget_id": "14755395266",
+          "current_budget_gbp": 70.0,
+          "current_budget_micros": 70000000
+        },
+        {
+          "campaign_id": "23071251534",
+          "campaign_name": "SMY | SG | P Max | H&S - Men's Briefcases, Luxury, Leather",
+          "status": "PAUSED",
+          "budget_id": "14972603684",
+          "current_budget_gbp": 50.0,
+          "current_budget_micros": 50000000
+        },
+        {
+          "campaign_id": "23081687738",
+          "campaign_name": "SMY | SG | Shopping | Jewellery Boxes",
+          "status": "PAUSED",
+          "budget_id": "14975870603",
+          "current_budget_gbp": 40.0,
+          "current_budget_micros": 40000000
+        }
+      ],
+      "total_daily_budget": 547.5,
+      "phase_2a_budget": 288,
+      "phase_2b_target": 202
+    }
+  },
+  "phase_2a_budgets": {
+    "UK": 3050,
+    "USA": 1725,
+    "EUR": 690,
+    "ROW": 288
+  },
+  "phase_2b_targets": {
+    "UK": 3857,
+    "USA": 1208,
+    "EUR": 483,
+    "ROW": 202
+  },
+  "strategy": {
+    "us_eur_row_reduction": "30% reduction (to 70% of Phase 2A)",
+    "uk_boost": "+\u00a3807/day (26% increase from reallocation)",
+    "total_daily_maintained": "\u00a35,750/day",
+    "rationale": "Last orders closed for international markets; reallocate to UK for final Christmas push"
+  }
+}

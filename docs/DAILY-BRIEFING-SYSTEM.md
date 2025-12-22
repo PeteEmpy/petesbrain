@@ -2,7 +2,7 @@
 
 **Created:** November 5, 2025  
 **Status:** ✅ Active and Production-Ready  
-**Source:** Adapted from Mike Rhodes' 8020Brain template
+**Source:** Adapted from industry resources template
 
 ---
 
@@ -404,7 +404,7 @@ Briefings could be displayed in a web dashboard for quick morning review.
 
 ## Related Documentation
 
-- [8020Brain Analysis Report](8020BRAIN-ANALYSIS-REPORT.md) - Full template analysis
+- [industry resources Analysis Report](industry resources-ANALYSIS-REPORT.md) - Full template analysis
 - [Agents Overview](../agents/README.md) - All automation agents
 - [Automation System](AUTOMATION.md) - How automation works
 - [Performance Monitoring](PERFORMANCE-MONITORING-COMPLETE.md) - Alert systems
@@ -415,7 +415,7 @@ Briefings could be displayed in a web dashboard for quick morning review.
 
 | Date | Version | Changes |
 |------|---------|---------|
-| 2025-11-05 | 1.0 | Initial daily briefing system created, adapted from Mike Rhodes' 8020Brain template |
+| 2025-11-05 | 1.0 | Initial daily briefing system created, adapted from industry resources template |
 
 ---
 

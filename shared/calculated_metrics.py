@@ -12,7 +12,6 @@ Usage:
     roas = calculate_roas(conversions_value=5400, cost=1200)
     display = format_metric(roas, 'roas')  # "4.50x"
 
-Based on Mike Rhodes' "Calculated Metrics" teaching from 8020brain.com
 Part of Ads to AI Skill Map - Phase 1: Automated Reporting
 
 Author: PetesBrain

@@ -16,7 +16,9 @@ import sys
 import re
 import json
 import uuid
-from datetime import datetime
+import time
+import errno
+from datetime import datetime, timedelta
 from pathlib import Path
 import shutil
 
@@ -50,6 +52,7 @@ CLIENTS = [
     'just-bin-bags',
     'national-design-academy',
     'otc',
+    'personal',
     'positive-bakes',
     'print-my-pdf',
     'smythson',
@@ -68,7 +71,7 @@ def get_date_str():
 
 def generate_descriptive_filename(note_type: str, client: str = None, content: str = "", timestamp: str = None):
     """
-    Generate descriptive filename (Mike Rhodes pattern).
+    Generate descriptive filename (pattern).
     Format: [type]-YYYYMMDD-[client]-[slug].md
 
     Examples:
@@ -513,8 +516,94 @@ def process_client_note(client_name, content, original_file):
     print(f"  ✓ Saved to: clients/{matched_client}/documents/{filename}")
     return True
 
+def parse_fuzzy_date(date_text: str):
+    """
+    Parse natural language date expressions into YYYY-MM-DD format.
+
+    Handles expressions like:
+    - "tomorrow", "today"
+    - "next week", "within next week", "in a week"
+    - "in X days/weeks/months"
+    - "next Monday/Tuesday/etc"
+    - "in 2 weeks", "in 3 days"
+
+    Returns:
+        YYYY-MM-DD formatted date string, or None if cannot parse
+    """
+    if not date_text or not isinstance(date_text, str):
+        return None
+
+    date_text_lower = date_text.lower().strip()
+    today = datetime.now()
+
+    # Simple cases
+    if date_text_lower in ['tomorrow', 'tmrw', 'tommorow']:
+        return (today + timedelta(days=1)).strftime('%Y-%m-%d')
+
+    if date_text_lower in ['today', 'now']:
+        return today.strftime('%Y-%m-%d')
+
+    if date_text_lower in ['yesterday']:
+        return (today - timedelta(days=1)).strftime('%Y-%m-%d')
+
+    # Week-based expressions
+    week_patterns = [
+        r'(?:within|in)\s+(?:a|the|next|1)\s+week',
+        r'next\s+week',
+        r'in\s+a\s+week',
+    ]
+    for pattern in week_patterns:
+        if re.search(pattern, date_text_lower):
+            return (today + timedelta(days=7)).strftime('%Y-%m-%d')
+
+    # "in X days/weeks/months" pattern
+    time_delta_match = re.search(r'in\s+(\d+)\s+(day|week|month)s?', date_text_lower)
+    if time_delta_match:
+        amount = int(time_delta_match.group(1))
+        unit = time_delta_match.group(2)
+
+        if unit == 'day':
+            return (today + timedelta(days=amount)).strftime('%Y-%m-%d')
+        elif unit == 'week':
+            return (today + timedelta(weeks=amount)).strftime('%Y-%m-%d')
+        elif unit == 'month':
+            # Approximate: 30 days per month
+            return (today + timedelta(days=amount * 30)).strftime('%Y-%m-%d')
+
+    # "next [day of week]" pattern
+    days_of_week = {
+        'monday': 0, 'mon': 0,
+        'tuesday': 1, 'tue': 1, 'tues': 1,
+        'wednesday': 2, 'wed': 2,
+        'thursday': 3, 'thu': 3, 'thurs': 3,
+        'friday': 4, 'fri': 4,
+        'saturday': 5, 'sat': 5,
+        'sunday': 6, 'sun': 6,
+    }
+
+    for day_name, day_num in days_of_week.items():
+        if re.search(rf'\bnext\s+{day_name}\b', date_text_lower):
+            # Calculate days until next occurrence of this day
+            current_day = today.weekday()
+            days_ahead = day_num - current_day
+            if days_ahead <= 0:  # Target day already happened this week
+                days_ahead += 7
+            return (today + timedelta(days=days_ahead)).strftime('%Y-%m-%d')
+
+    # If we can't parse it, return None (will be handled upstream)
+    return None
+
 def extract_due_date(content):
-    """Extract due date from content"""
+    """
+    Extract due date from content and parse fuzzy dates into YYYY-MM-DD format.
+
+    Extracts date text from patterns like:
+    - due: tomorrow
+    - due: within next week
+    - due: in 3 days
+
+    Then parses natural language expressions into proper date format.
+    """
     due_patterns = [
         r'due:?\s*(.+?)(?:\n|$)',
         r'deadline:?\s*(.+?)(?:\n|$)',
@@ -524,7 +613,21 @@ def extract_due_date(content):
     for pattern in due_patterns:
         match = re.search(pattern, content, re.IGNORECASE)
         if match:
-            return match.group(1).strip()
+            date_text = match.group(1).strip()
+
+            # If it's already in YYYY-MM-DD format, return as-is
+            if re.match(r'^\d{4}-\d{2}-\d{2}$', date_text):
+                return date_text
+
+            # Otherwise, try to parse it as a fuzzy date
+            parsed_date = parse_fuzzy_date(date_text)
+            if parsed_date:
+                print(f"  📅 Parsed fuzzy date: '{date_text}' → {parsed_date}")
+                return parsed_date
+
+            # If we can't parse it, return the original text (for manual review)
+            print(f"  ⚠️  Could not parse date expression: '{date_text}'")
+            return date_text
 
     return None
 
@@ -692,10 +795,15 @@ def process_task(task_title, content, original_file):
     # Extract due date if present
     due_date = extract_due_date(content)
 
+    # For quick notes without explicit due date, default to today (makes it a reminder)
+    # This ensures phone captures like "Red Crouch" become reminders, not tasks
+    if not due_date:
+        due_date = datetime.now().strftime('%Y-%m-%d')
+
     # Extract priority from content
-    # Default to P0 for Wispr Flow tasks (they're things you thought important enough to voice note)
-    # Only override if explicitly specified as lower priority
-    priority = 'P0'  # Default for Wispr Flow
+    # Default to P2 for quick notes (changed from P0)
+    # Quick phone captures shouldn't default to urgent
+    priority = 'P2'  # Default for quick notes
     priority_match = re.search(r'priority:\s*(high|medium|low|P[0-3])', content, re.IGNORECASE)
     if priority_match:
         p = priority_match.group(1).lower()
@@ -735,8 +843,10 @@ def process_task(task_title, content, original_file):
     # Create task using ClientTasksService
     task_created_in_json = False
 
+    # Default to 'personal' for quick notes without client context
+    # (Changed from 'roksys' December 18, 2025 to separate personal from business)
     if not client_name:
-        client_name = 'roksys'
+        client_name = 'personal'
 
     # Use ClientTasksService to create task
     try:
@@ -748,14 +858,14 @@ def process_task(task_title, content, original_file):
             priority=priority,
             due_date=due_date,
             time_estimate_mins=time_estimate,
-            notes=f"Source: Inbox processor (Wispr Flow)\nOriginal file: {original_file.name}\n\n{notes_content}",
-            source="Wispr Flow → Inbox Processor",
-            tags=[client_name, "wispr-flow"],
+            notes=f"Source: Inbox processor (iOS Capture)\nOriginal file: {original_file.name}\n\n{notes_content}",
+            source="iOS Inbox Capture → Processor",
+            tags=[client_name, "inbox-capture"],
             task_type="standalone"
         )
 
         task_created_in_json = True
-        print(f"  ✅ Created task in: {client_name}/tasks.json (via ClientTasksService)")
+        print(f"  ✅ Created reminder in: {client_name}/tasks.json (due: {due_date})")
     except Exception as e:
         print(f"  ⚠️ Could not create task via ClientTasksService: {e}")
 
@@ -777,7 +887,7 @@ def process_task(task_title, content, original_file):
     processing_history = build_processing_history(processing_metadata)
 
     # Write local todo with traceability
-    full_content = f"""# {formatted_title}
+    full_content = f"""# {task_title}
 
 **Created:** {datetime.now().strftime('%Y-%m-%d %H:%M')}
 **Task Manager:** {'✅ Added to tasks.json' if task_created_in_json else '❌ Not added'}
@@ -895,16 +1005,46 @@ def process_email_draft(client_name, content, original_file):
     print(f"  ✓ Email draft: clients/{matched_client}/emails/{filename}")
     return True
 
-def archive_processed(inbox_file):
-    """Move processed file to archive"""
-    PROCESSED_DIR.mkdir(exist_ok=True)
+def archive_processed(inbox_file, max_retries=5, base_delay=0.5):
+    """Move processed file to archive with retry logic for iCloud locks
     
+    Enhanced version with:
+    - More retries (5 instead of 3)
+    - Shorter initial delay (0.5s instead of 1s)
+    - Better error reporting
+    - Handles both EDEADLK and general OSErrors
+    """
+    PROCESSED_DIR.mkdir(exist_ok=True)
+
     timestamp = get_timestamp()
     archived_name = f"{timestamp}-{inbox_file.name}"
     target_path = PROCESSED_DIR / archived_name
-    
-    shutil.move(str(inbox_file), str(target_path))
-    print(f"  📦 Archived: !inbox/processed/{archived_name}")
+
+    # Small initial delay to let iCloud sync settle
+    time.sleep(0.1)
+
+    for attempt in range(max_retries):
+        try:
+            shutil.move(str(inbox_file), str(target_path))
+            print(f"  📦 Archived: !inbox/processed/{archived_name}")
+            return True
+        except OSError as e:
+            # Retry on deadlock (errno 11) or "Resource temporarily unavailable" (errno 35)
+            if (e.errno in [errno.EDEADLK, 35]) and attempt < max_retries - 1:
+                # Resource deadlock or temporary lock - wait and retry
+                delay = base_delay * (1.5 ** attempt)  # 0.5s, 0.75s, 1.1s, 1.7s, 2.5s
+                print(f"  ⏳ File locked (iCloud sync), retrying in {delay:.1f}s... ({attempt + 1}/{max_retries})")
+                time.sleep(delay)
+                continue
+            else:
+                # Either not a lock error, or out of retries
+                print(f"  ⚠️  Failed to archive after {attempt + 1} attempts")
+                print(f"      Error: [{e.errno}] {e}")
+                print(f"      File: {inbox_file.name}")
+                # Don't fail completely - log and continue
+                return False
+
+    return False
 
 def process_inbox():
     """Process all files in inbox"""
@@ -947,6 +1087,9 @@ def process_inbox():
         try:
             with open(inbox_file, 'r') as f:
                 content = f.read().strip()
+            
+            # Small delay after reading to let iCloud sync settle (fixes deadlock)
+            time.sleep(0.05)
             
             if not content:
                 print(f"  ⚠️  Empty file, archiving")
@@ -993,8 +1136,8 @@ def process_inbox():
                             archive_processed(inbox_file)
                             processed_count += 1
                     else:
-                        # Default: treat as general note/task
-                        print(f"  📝 No clear action - creating general todo")
+                        # Default: treat as personal reminder
+                        print(f"  📝 No clear action - creating personal reminder")
                         title = inbox_file.stem.replace('-', ' ').title()
                         if process_task(title, content, inbox_file):
                             archive_processed(inbox_file)

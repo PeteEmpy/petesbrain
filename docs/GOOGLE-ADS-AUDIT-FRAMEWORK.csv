@@ -1,0 +1,458 @@
+,,,,,,,,,
+,,ACTION, TASK / ITEM,FREQUENCY,NOTE,IMPACT,DOC,SCRIPT,EXT
+, 1 - FOUNDATION,,,,,,,,
+,,,Clarity,,,,,,
+,FALSE,💡," Complete the business rationale and messaging sheet (see the ""Clarity"" tab)",Once,,HIGH,📑,,
+,,,Tags,,,,,,
+,FALSE,Check:, GTM (Google Tag Manager) is installed on website,Once,💬,MID,,,
+,FALSE,Check:, Conversion Linker installed in GTM,Once,💬,MID,,,🔗
+,FALSE,Check:, Google Analytics tracking code added to GTM and the code is firing on all pages,Once,,HIGH,,,🔗
+,FALSE,Check:, Analytics is firing on dead pages (404),Once,💬,HIGH,,,
+,FALSE,Check:, Check your entire site for missing Google Analytics code with one click         ,Once,,HIGH,,,🔗
+,,,Google Analytics 4,,,,,,
+,FALSE,Check:,  Audit website for all pages and sections to be tracked,Once,💬,HIGH,📑,,
+,FALSE,Check:, Provide property level access to stakeholders on GA4,Once,💬,HIGH,,,
+,FALSE,Check:, Time zone is correct,Once,💬,MID,,,🔗
+,FALSE,Check:, Your currency is correct,Once,,MID,,,🔗
+,FALSE,Check:, Define Internal Traffic rules - Exclude Internal traffic,Once,💬,LOW,,,🔗
+,FALSE,Check:, Integrate Google Search Console ,Once,,HIGH,,,
+,FALSE,Check:, Link Google Ads to GA4 ,Once,💬,HIGH,,,🔗
+,FALSE,Enable:, Enable Personalised Advertising,Once,💬,HIGH,,,
+,FALSE,Enable:, Enable Auto-Tagging,Once,💬,HIGH,,,🔗
+,FALSE,Check:, Setup Remarketing Audiences ,Once,,HIGH,,,🔗
+,FALSE,Check:, Import conversions from GA4 property to your Google Ads account,Once,,HIGH,,,🔗
+,FALSE,Check:, Create custom or Suggested Audiences ,Once,💬,MID,,,🔗
+,FALSE,Check:, Migrate Audiences from Universal Analytics to GA4,Once,💬,HIGH,,,🔗
+,FALSE,Check:, Create Audience Triggers,Once,💬,MID,,,🔗
+,FALSE,Check:, Setup correct attribution model ,Once,💬,HIGH,,,🔗
+,FALSE,Check:, Change Attribution Model Through Advertising Snapshot,Once,💬,MID,,,🔗
+,FALSE,Enable:, Enhanced Measurements (Enabled by default; don't change it),Once,💬,HIGH,,,
+,FALSE,Check:, Create custom definitons (with custom dimensions),Once,💬,MID,,,🔗
+,FALSE,Check:, Bot Filtering (Know bots are Automatically Excluded in GA4),Once,💬,MID,,,🔗
+,FALSE,Enable:," Site Search feature (Enabled by default, but it may require further configuration)",Once,💬,HIGH,,,🔗
+,FALSE,Enable:,Custom search query parameters,Once,💬,MID,,,🔗
+,FALSE,Enable:, Google Ads account linking,Once,,HIGH,,,🔗
+,FALSE,Enable:, Analytics remarketing audiences,Once,,HIGH,,,🔗
+,FALSE,Enable:, Google Signals - Analytics Demographics and Interests reports,Once,💬,HIGH,,,🔗
+,FALSE,Enable:, Verify Data Retention time period to match your privacy policies,Once,💬,HIGH,,,🔗
+,FALSE,Enable:, Set up Scroll Tracking,Once,💬,HIGH,,,🔗 
+,FALSE,Check:, Spam referrals are excluded (unwanted lists),Once,💬,LOW,,,🔗
+,FALSE,Check:, Self-referrals excluded,Once,💬,LOW,,,🔗
+,FALSE,Check:, Payment gateway referrals excluded,Once,💬,HIGH,,,🔗
+,FALSE,Optional:, Cross-domain tracking in place,Once,,MID,,,🔗
+,FALSE,Check:, UTM tagging is implemented correctly,Once,,HIGH,,,🔗
+,FALSE,Optional:, Upload data from external sources via Data Import,Ongoing,💬,HIGH,,,🔗
+,FALSE,Check:, Enable Google signals data collection to get cross-device and demographic data,Once,,MID,,,🔗
+,FALSE,Optional:, Configure session timeout setting (default is 30 mins),Once,💬,MID,,,🔗
+,FALSE,Optional:, Setup ecommerce tracking (where appropriate),Once,💬,HIGH,📑,,🔗
+,FALSE,Check:, Ecommerce data is correct and accurate (where appropriate),Once,,HIGH,,,🔗
+,FALSE,Enable:, Create Predictive Metrics for ecommerce,Once,💬,MID,,,🔗
+,FALSE,Check:, Importing Predictive Audiences into Google Ads,Once,💬,MID,,,
+,FALSE,Optional:, Setup GA4 data transfer to BigQuery,Once,💬,MID,,,
+,,,Conversion,,,,,,
+,FALSE,💡, Are you using Micro conversions? Don't skip this,Once,💬,HIGH,📑,,
+,FALSE,Review:, Review Micro conversion reference guide for ideas and examples,Once,💬,HIGH,📑,,
+,FALSE,Check:, Google Ads conversion tag has at least 1 Macro conversion configured,Once,💬,HIGH,,,
+,FALSE,Check:, Analytics has at least 1 Macro conversion configured,Once,💬,HIGH,,,
+,FALSE,Apply:, Setup Micro conversions based on your analysis of visitor behaviour,Once,,HIGH,,,
+,FALSE,Optional:, Setup video triggers within GTM for micro engagement conversions,Once,💬,MID,,,🔗
+,FALSE,Optional:, Analytics Macro and Micro conversion goals imported to Ads,Once,💬,MID,,,
+,FALSE,Check:, Each unique conversion is set to report in Conversion columns - no duplicates!,Once,💬,HIGH,,,
+,FALSE,Check:, Conversion attribution is configured where appropriate (see Attribution below to find your ideal model),Once,💬,HIGH,📑,,
+,FALSE,Check:, Have you tried to 'convert' yourself? Go through the steps/enquiry form/checkout,Once,💬,HIGH,,,
+,,,Destination,,,,,,
+,FALSE,Check:, Website is using an SSL so pages load as https and http pages redirect to their secure equivalent,Once,💬,HIGH,,,🔗
+,FALSE,Check:, Sitespeed is good to great,Once,💬,HIGH,,,🔗
+,FALSE,Apply:, Remove any scripts or tags you don't need or use,Once,💬,HIGH,,,
+,FALSE,Check:, Search console is linked to Analytics,Once,,MID,,,🔗
+,FALSE,Check:, Website sitemap submitted via search console and website is indexed,Once,,MID,,,🔗
+,FALSE,Review:, Basic on-page SEO structure is done right,Once,,HIGH,,,🔗
+,,,Shopping Specific,,,,,,
+,FALSE,Check:, Google Merchant Centre account is setup,Once,,HIGH,,,🔗
+,FALSE,Check:, Verified and claimed your domain in Google Merchant Centre,Once,,HIGH,,,🔗
+,FALSE,Apply:, Product feed created and uploaded it to Google Merchant Centre,Once,,HIGH,,,🔗
+,FALSE,Review:, Merchant Centre diagnostics tab and fix any critical errors,Once,,HIGH,,,🔗
+,FALSE,Check:, Ecommerce tracking in enabled in Analytics,Once,,HIGH,,,🔗
+,FALSE,Check:, Google Merchant Centre is linked to Google Ads,Once,,HIGH,,,🔗
+,,,Performance Max,,,,,,
+,FALSE,Apply:, For Accurate conversions use GTag not GA imports,Once,💬,HIGH,,,
+,FALSE,Check:, Enhanced conversions are setup and accurate,Ongoing,,HIGH,,,🔗
+,FALSE,Check:, Monitor macro vs micro conversions against other campaign types,Ongoing,💬,HIGH,,,🔗
+,FALSE,Apply:, Lead gen quality measurement with first part data,Ongoing,💬,HIGH,,,🔗
+,FALSE,Optional:, Set values for your qualified conversions,Ongoing,,MID,,,
+,FALSE,Apply:, Update your conversion goals to Not Account Default,Ongoing,💬,HIGH,,,🔗
+,FALSE,🚨," Be careful when adding ""Converted Leads"" to account default goals",Once,💬,HIGH,,,🔗
+, 2 - ATTRIBUTION,,,,,,,,
+,FALSE,Check:," Attribution model isn't Last-click, unless there's a good reason for it to be (new account or recent installed conversion tracking)",Once,💬,HIGH,,,
+,,,Benchmark Your Situation,,,,,,
+,FALSE,Review:, Attribution - Picking the Right Model,Quarterly,💬,HIGH,📑,,
+,FALSE,Check:, Path Length - how many touches occur before your customers convert?,Quarterly,,HIGH,,,
+,FALSE,Check:, Top Conversion Paths - visualise your most common paths to conversion,Quarterly,,HIGH,,,
+,FALSE,Check:, Analytics attribution model comparison report,Quarterly,,HIGH,,,
+,FALSE,Check:, Each Google Ads conversion action's attribution model is updated,Quarterly,,HIGH,,,
+,FALSE,Apply:, The most appropriate attribution model (you will review this during your Optimisation routine),Quarterly,💬,HIGH,📑,,
+, 3 - PLANNING,,,,,,,,
+,FALSE,💡, Do you want ROI or volume? Pick a side,Ongoing,💬,HIGH,,,
+,FALSE,Review:, Appropriate naming convention is in place,Once,,LOW,,,🔗
+,FALSE,Review:, The 'Account Structure Dogma',Once,💬,HIGH,📑,,
+,FALSE,Review:, Build Accounts For Better Results (visualised frameworks for account structures),Ongoing,💬,HIGH,📑,,
+,,,Find Your Keywords,,,,,,
+,FALSE,Apply:, Do 'proper' keyword research (without paying for tools),Once,💬,HIGH,,,▶️
+,FALSE,Review:, Site search data in Analytics for seed and longtail keyword ideas,Once,,MID,,,
+,FALSE,Check:, Shared negative keyword lists have been created,Once,,HIGH,📑,,
+,FALSE,Review:, Search console data for additional keyword opportunities,Once,💬,HIGH,,,
+,FALSE,Check:, Verify the keyword selection and projections make sense against your business metrics,Once,💬,MID,📑,,
+,,,Bidding Strategy,,,,,,
+,FALSE,Review:, Bid Strategy Foundation,Once,💬,HIGH,📑,,
+,FALSE,Check:, Your ideal starting bids,Once,💬,MID,,,
+,FALSE,Check:, Manual versus automated bidding (do you have enough data),Once,💬,HIGH,,,
+,,,Budget for Success,,,,,,
+,FALSE,Review:,How to Approach Budget & KPI,,💬,HIGH,📑,,
+,FALSE,Check:, Verify the ultimate goal - the one thing the ads need to achieve?,Once,💬,HIGH,,,
+,FALSE,Check:,The targets for the account - KPI agreed and realistic expectations are set,Once,,HIGH,,,
+,FALSE,Check:, Agree the monthly account budget (and any flexibility to overspend),Once,,HIGH,,,
+,FALSE,Check:, Agreed budget structure and campaign allocation (see Optimisation for ongoing),Once,,HIGH,,,
+, 4 - BUILDING,,,,,,,,
+,FALSE,💡, Keyword Match Type Methodology PDF,Ongoing,💬,MID,📑,,
+,FALSE,💡, Are SKAGs (Single Keyword Ad Groups) still viable?,Ongoing,💬,HIGH,📑,,
+,FALSE,💡," Instead of thinking SKAG and SPAG, see 'Account Structure Questions and Answers'",Ongoing,💬,HIGH,,,
+,FALSE,💡, How to work with international accounts,Ongoing,💬,MID,,,
+,FALSE,💡, What to expect with a new account/campaign,Ongoing,💬,HIGH,,,
+,,,Search Campaign Setup,,,,,,
+,FALSE,Apply:, Create a campaign without a goal's guidance,Once,💬,MID,,,
+,FALSE,Check:, Your campaign type (the vast majority of accounts will start with a search campaign),Once,,HIGH,,,
+,FALSE,Check:, Ensure the right conversions are selected,Once,💬,HIGH,,,
+,FALSE,Check:," Most campaigns will want to select ""Website visits"" as the 'result you want to get from the campaign'",Once,,HIGH,,,
+,FALSE,Apply:, Choose your Campaign name - you can use the Naming tab for guidance,Once,,LOW,,,
+,FALSE,Review:, Bidding Strategy Cheat Sheet,Once,💬,HIGH,📑,,
+,FALSE,Apply:, Bidding strategy and appropriate target or bid has been set,Once,,HIGH,,,
+,FALSE,Check:, Campaigns only uses one campaign type - never search and display together,Once,,HIGH,,,
+,FALSE,Check:, Search Partners are typically turned off for new campaigns,Once,💬,MID,,,
+,FALSE,Check:," Target location(s) is correct (country, cities, radii etc)",Once,💬,HIGH,,,
+,FALSE,Check:," Location options are set to ""Presence: People in or regularly in your targeted locations""",Once,💬,MID,,,
+,FALSE,Apply:, Exclude countries/cities that should never see your ads,Once,💬,MID,📑,,
+,FALSE,Check:, Languages are correctly added,Once,,HIGH,,,
+,FALSE,Optional:, Audience segments are not required at this stage and can be skipped (see notes),Once,💬,LOW,,,
+,FALSE,Critical:, Broad match keyword campaign setting to Off,Once,💬,HIGH,,,
+,FALSE,Check:, Automatically created assets to Off,Once,,MID,,,
+,FALSE,Optional:, Ad rotation is set to 'do not optimise',Once,💬,MID,,,
+,FALSE,Optional:, Brand exclusions,Once,💬,HIGH,,,
+,FALSE,Optional:, Set a specific start and end date,Once,,MID,,,
+,FALSE,Apply:, Create ad schedule,Once,💬,MID,,,
+,FALSE,Optional:," Ad Group creation -  Test the automated ""Keyword and asset generation"" for ideas otherwise follow the below steps",Once,,HIGH,,,
+,FALSE,Apply:, Average daily spend set as the budget ,Once,💬,HIGH,,,
+,FALSE,Check:," If you're using shared budgets, is there a good reason?",Ongoing,💬,MID,,,
+,FALSE,Review:, What happens after you launch your new campaign?,Once,💬,HIGH,▶️,,
+,,,Ad Extensions,,,,,,
+,FALSE,Apply:, At least 4 relevant Sitelinks,Once,,MID,,,🔗
+,FALSE,Apply:," At least 4, but preferably 6 Callout extensions",Once,💬,MID,📑,,🔗
+,FALSE,Apply:, 1 call extension (set at the account level),Once,💬,MID,,,
+,FALSE,Apply:,At least 2 structured snippet extensions,Once,💬,LOW,,,🔗
+,FALSE,Apply:, Price extensions where possible (even work when the 'price' is 0 too),Once,💬,HIGH,,,
+,FALSE,Apply:, Promotion extension when appropriate,Once,💬,MID,,,
+,FALSE,Apply:, App extension when appropriate,Once,,MID,,,
+,FALSE,Apply:, Location extension if you want to foot traffic (and added trust),Once,💬,MID,,,
+,FALSE,Optional:, Lead form extension,Once,💬,LOW,,,
+,,,Ad Group,,,,,,
+,FALSE,💡, 3 Simple ad group structure rules,Ongoing,💬,HIGH,,,
+,FALSE,Apply:,At least 1 Responsive search ad (RSA) using notes from 'Clarity' and the 'RSA Template',Once,💬,HIGH,📑,,▶️
+,FALSE,Check:, Spellcheck your Ad Copy and extensions,Once,💬,MID,,,
+,FALSE,Apply:, Exact match keywords,Once,💬,HIGH,,,
+,FALSE,Optional:, Add phrase versions of your keyword (if your exacts are low volume),Once,💬,HIGH,,,
+,FALSE,Optional:, Add broad versions of your keyword (if this is an expansion or exploration ad group),Once,💬,HIGH,,,
+,FALSE,Check:," If this is a new account, are you testing with exact match first?",Once,💬,HIGH,,,
+,FALSE,Apply:,Negative keywords,Once,💬,HIGH,,,
+,,,Dynamic Search Ads,,,,,,
+,FALSE,Check:, Will DSA work for your website?,Once,💬,HIGH,,,
+,FALSE,Apply:, An ad group per sub-category of your product or service,Once,,HIGH,,,
+,FALSE,Optional:, Create a DSA campaign per brand/type/category,Once,💬,MID,,,
+,FALSE,Apply:," 2 ads that are very different and label them, use them as your A and B template across DSA ad groups",Once,💬,HIGH,,,
+,FALSE,Apply:, Low value website urls as exclusions,Once,💬,MID,,,
+,FALSE,Apply:, All account exact keywords as negatives,Once,💬,HIGH,,,
+,FALSE,Apply:, Bidding Strategy Foundation,Once,💬,HIGH,📑,,
+,FALSE,Optional:, Create a dedicated DSA + RLSA campaign,Once,💬,HIGH,,,
+,FALSE,Apply:, Exclude your brand name in DSA campaigns/ad groups,Once,💬,MID,,,
+,,,PMax - Prerequisites,,,,,,
+,FALSE,💡, Performance Max is enitrely optional for Lead Gen accounts,Once,💬,HIGH,,,
+,FALSE,🚨, Lead Gen - at least 30 conversions per month,Once,💬,HIGH,,,
+,FALSE,Apply:, To kick start you can try ‘remarketing’ via audience signals,Ongoing,💬,HIGH,,,
+,FALSE,🚨," Ecommerce - at least 50 conversions month - go all products, don’t split",Once,💬,HIGH,,,
+,FALSE,Check:,"Feed optimisation is your 80/20, don’t avoid or neglect",Ongoing,,HIGH,📑,,
+,,,Performance Max,,,,,,
+,FALSE,💡, Performance Max takes time - how much can you afford to spend,Once,💬,HIGH,,,
+,FALSE,Check:, Current best practices for PMax vs DSA campaigns,Once,💬,HIGH,,,
+,FALSE,Apply:, A new campaign with goal guidance for your Macro (primary) conversion,Once,💬,MID,,,
+,FALSE,Check:, The correct Conversion goal is selected,Once,💬,HIGH,,,
+,FALSE,Apply:, Appropriate naming convention is in place,Once,,LOW,,,
+,FALSE,Apply:, Appropriate budget applied (see Performance Max takes time),Once,💬,HIGH,,,
+,FALSE,Apply:, Best approach to bidding strategy ,Once,💬,HIGH,,,
+,FALSE,Check:, The correct country and language are selected,Once,💬,HIGH,,,
+,FALSE,Check:, URL expansion in asset group,Once,💬,HIGH,,,
+,FALSE,💡, Asset Group creation,Once,💬,HIGH,,,
+,FALSE,Check:, Create your ads and sanity check the previews make sense,Once,💬,HIGH,📑,,
+,FALSE,Apply:, Audience Signal - Custom segment,Once,💬,HIGH,,,
+,FALSE,Apply:, Audience Signal - Your data,Once,💬,HIGH,,,
+,FALSE,Apply:, Audience Signal - Interests & detailed demographics,Once,💬,MID,,,
+,FALSE,Apply:, Ad extensions appropriate to the target URL(s),Once,,MID,,,
+,FALSE,Optional:,Add own Brand terms as negatives,Once,💬,MID,,,
+,,, Performance Max - Lead Gen Specific,,,,,,
+,FALSE,Apply:, Set 1 Campaign per service category (even if it’s just 1 asset group),Once,💬,MID,,,🔗
+,FALSE,Optional:," Expand and split it further, if you have other goals or needs to set per campaign",Once,💬,HIGH,,,
+,FALSE,Optional:, Set up separate campaign if you have assets that could be used for prospecting,Ongoing,💬,MID,,,
+,FALSE,Optional:, You can set specific prospecting campaigns if you desire ‘new’ customers,Ongoing,💬,MID,,,
+,,,Performance Max - Ecommerce Specific,,,,,,
+,FALSE,💡,"Naked Shopping - No assets, just the feed",Once,💬,MID,,,
+,FALSE,Apply:, Set 1 Campaign per top-level category,Once,💬,HIGH,,,🔗
+,FALSE,Apply:, Asset Groups for sub-categories,Ongoing,💬,HIGH,,,
+,FALSE,Optional:, Single category strategy,Once,💬,HIGH,,,🔗
+,FALSE,Apply:, Split Ecommerce strategy,Ongoing,💬,HIGH,,,🔗
+,FALSE,Apply:, Price and prospecting structure,Ongoing,💬,HIGH,,,🔗
+,FALSE,Apply:, 'On Sale' structure for discounted and not discounted products,Ongoing,💬,MID,,,🔗
+,FALSE,Optional:, Separate campaign for new customer acquisition,Once,💬,MID,,,
+,FALSE,Optional:,Create a dedicated remarketing campaign,Ongoing,💬,MID,,,
+,FALSE,,Performance Max Audience Signals,,,,,,
+,FALSE,Apply:, Specific targeting with 1-2 audiences,Once,💬,MID,,,🔗
+,FALSE,Apply:,For newer accounts use competitors and service/product type keywords,Ongoing,💬,MID,,,🔗
+,FALSE,Optional:, Running with no audiences,Once,💬,MID,,,🔗
+,FALSE,Review:, Steer automation with your audiences before PMax takes over,Ongoing,,MID,,,
+,FALSE,,Performance Max Budget & Bidding,,,,,,
+,,💡," Advisory - Lead Gen, minimum account spend $2k per month",Once,💬,HIGH,,,
+,FALSE,Apply:, Avoid taking budget from existing campaigns that are performing well,Ongoing,,MID,,,🔗
+,FALSE,Apply:, Maximise conversions vs target CPA (see note),Ongoing,💬,HIGH,,,
+,FALSE,💡," Advisory - Ecommerce, set a budget similar to your shopping campaigns",Once,💬,HIGH,,,🔗
+,FALSE,Optional:, Allocate 80-90% of your budget to PMax and 10-20% to Dynamic Remarketing,Once,💬,MID,,,
+,FALSE,Apply:, New accounts can start with Maximise Conversion Value,Once,💬,HIGH,,,🔗
+,FALSE,Apply:, Use tROAS when migrating Standard Shopping in an existing account,Once,💬,HIGH,,,
+,FALSE,Optional:, New customer acquisition bidding strategies,Once,💬,MID,,,
+,FALSE,,Performance Max - Setup Final Checks,,,,,,
+,FALSE,💡,"Expect a few weeks of chop. If you are lucky, 1 or 2 weeks, usually 4 to 6 weeks",Once,,HIGH,,,
+,FALSE,Check:, B2B advertisers should avoid PMax,Ongoing,💬,MID,,,
+,FALSE,Check:, Location options: Target people in or regularly in your targeted locations,Once,💬,MID,,,
+,FALSE,Check:," URL Expansion: If you leave ""On"", make sure to add exclusions",Once,💬,MID,,,
+,FALSE,Check:, No big changes for new campaigns (keep bidding and budget tweaks to a min),Ongoing,,HIGH,,,
+,FALSE,Check:," For Lead Gen with less than 30 conversions per month, start CPA 10% higher",Ongoing,,MID,,,
+,FALSE,Check:," For Ecommerce with less that 50 conversions per month, start ROAS 10% lower",Ongoing,,MID,,,
+,FALSE,Check:, Allow at least 2 weeks and >30 conversions before raising bids,Ongoing,,MID,,,
+,FALSE,💡," Assets: If you are running Naked Shopping, you can ignore the options below:",,,HIGH,,,
+,FALSE,Apply:, Up to 5 headlines and long headlines,Once,,HIGH,,,
+,FALSE,Apply:, Up to 5 descriptions and logos,Once,,MID,,,
+,FALSE,Apply:, Up to 5 videos,Once,,MID,,,
+,FALSE,Apply:, Up to 20 images,Once,,HIGH,,,
+,FALSE,Apply:, Tailored Extensions (just like you would with Ad Groups),Once,,MID,,,
+,,,Account,,,,,,
+,FALSE,Apply:, Negative keyword list(s),Once,💬,HIGH,📑,,
+,FALSE,Check:, Branded keywords are negatives against all non-brand campaigns,Once,,HIGH,,,
+,FALSE,Check:, The total budgets make sense,Once,,HIGH,,,
+,FALSE,Check:, Final URLs are correct - run the link checker script to be safe,Once,,HIGH,,🛠️,
+,FALSE,Check:, Auto-applied ad suggestions are turned off,Once,💬,HIGH,,,
+,FALSE,Check:, Auto-applied recommendations,Once,💬,HIGH,,,🔗
+,FALSE,Check:, Auto-apply assets (hidden),Once,💬,HIGH,,,
+,FALSE,Check:, Conversion actions are present and correct (these were setup in section 1),Once,,HIGH,,,
+,,,Audiences,,,,,,
+,FALSE,Review:, List of available audiences to observe (or target),Once,💬,MID,📑,,
+,FALSE,Check:, You have remarketing audiences for behaviour metrics and micro conversions (MOFU and BOFU),Once,💬,HIGH,,,
+,FALSE,Apply:,In-market audiences as Observation on campaigns,Once,💬,MID,,,
+,FALSE,Optional:, TOFU Affinity audiences are only used sparingly and as observations,Once,💬,LOW,,,
+,FALSE,Apply:, MOFU In-market audiences as observations (far more specific than Affinity),Once,💬,MID,,,
+,FALSE,Check:, Converters are excluded from any remarketing campaigns,Once,💬,MID,,,
+, 5 - OPTIMISATION,,,,,,,,
+,,, Strategic Decisions,,,,,,
+,FALSE,💡, Avoid Under & Over Optimisation,Ongoing,💬,HIGH,📑,,
+,FALSE,💡, Looking at today? Be careful,Ongoing,💬,HIGH,,,
+,FALSE,Check:, No major changes made recently,Weekly,💬,HIGH,,,
+,FALSE,Review:, Trend and spend (key metrics and results from previous period/year),Weekly,💬,HIGH,,,🔗
+,FALSE,Check:," Anomaly detected - review tracking first, is there a problem?",Daily,,HIGH,,,
+,FALSE,Check:, Correct any deviation from monthly target spend (use bid and budget projections),Weekly,,HIGH,,,
+,FALSE,Check:, Performance Max impact on existing campaigns,Weekly,💬,HIGH,,,
+,FALSE,💡, Is this a new account/campaign?,Daily,💬,HIGH,,,
+,,,Account Structure,,,,,,
+,FALSE,💡, Remember the golden rules,Ongoing,💬,MID,,,
+,FALSE,Review:, When to consider splitting campaigns or ad groups,Bi-Weekly,💬,HIGH,📑,,
+,FALSE,Review:, How to handle keyword match types and campaign structure,Bi-Weekly,💬,HIGH,📑,,
+,,,Search Optimisation Routine,,,,,,
+,FALSE,Watch:, Example weekly optimisation routine for Search campaigns,Weekly,,HIGH,▶️,,
+,,,Week 1,,,,,,
+,FALSE,💡, Assumptions,Ongoing,💬,HIGH,,,
+,FALSE,Check:, The data-gathering phase,Once,💬,HIGH,,,
+,FALSE,Review:, Week 1 activities and observations,Once,💬,HIGH,,,
+,FALSE,Check:, Ad spend issues,Once,💬,HIGH,,,
+,FALSE,Check:, Wonky performance metrics,Once,💬,HIGH,,,
+,FALSE,Check:, Auction insights oddities,Once,💬,MID,,,
+,FALSE,Review:,Search term report overloaded,Once,💬,HIGH,,,
+,,, Budget & KPI,,,,,,
+,FALSE,Review:, Budget Optimisation - Game Plan,Weekly,💬,HIGH,📑,,
+,FALSE,Review:, Budget limited campaigns (and the 5 steps to follow),Weekly,💬,HIGH,,,
+,FALSE,Review:, When to increase campaign budgets,Weekly,💬,HIGH,,,▶️
+,FALSE,Apply:, For an account you might not check daily,Automate,💬,HIGH,,,
+,FALSE,Review:, Campaign budgets are accurate and realistic,Monthly,,HIGH,,,
+,FALSE,Tool:, Enable automated budget monitoring and overspend protection,Daily,💬,HIGH,,🛠️,
+,FALSE,Review:, Any deviation from monthly target spend and correct where necessary,Daily,,HIGH,,,
+,,,Keyword & Query,,,,,,
+,FALSE,Check:,Brand terms are not triggering outside of your brand campaigns,Monthly,💬,HIGH,,,
+,FALSE,Review:,Keyword Decision Matrix,Weekly,💬,HIGH,📑,,
+,FALSE,Review:,Priority campaign keyword performance,Weekly,,HIGH,,,
+,FALSE,Review:, At what point do you add broad match keywords,Bi-weekly,💬,HIGH,,,▶️
+,FALSE,Review:, Secondary campaign keyword performance,Bi-weekly,,MID,,,
+,FALSE,Optional:, Create labels for keywords based on the decision matrix buckets (for easier reporting),Ongoing,,LOW,,,
+,FALSE,Optional:, Review those keyword labels in pre-defined reports,Monthly,,MID,,,
+,FALSE,Review:, Remove duplicate keywords,Monthly,💬,MID,,🛠️,
+,FALSE,Review:, Query cannibalisation and keyword misrouting,Bi-weekly,💬,MID,,🛠️,
+,FALSE,Review:, Search Term Report Rules,Weekly,💬,HIGH,📑,,
+,FALSE,Check:, 5 simple rules for working with search queries,Weekly,💬,HIGH,,,
+,FALSE,Apply:, Add new keywords with sufficient volume,Weekly,,HIGH,,,
+,FALSE,Apply:, Negative keywords (use the rules for guidance),Weekly,,HIGH,,,
+,FALSE,Review:, Close-variant performance,Monthly,💬,MID,,🛠️,
+,FALSE,Apply:, Negative keywords from poor performing close-variants,Monthly,,MID,,,
+,FALSE,Optional:, Exact close-variant automated negatives,Automate,💬,LOW,,🛠️,
+,FALSE,Review:,Ngram reports,Monthly,💬,MID,,🛠️,
+,FALSE,Tool:,"Review query trends over the year, month-by-month, across an entire account",Weekly,💬,HIGH,,🛠️,
+,FALSE,Apply:,Query trend or ngram negative keywords,Weekly,💬,HIGH,,,
+,FALSE,Verify:,Do keyword research,Quarterly,💬,MID,,,
+,,, Auction & Quality Score,,,,,,
+,FALSE,💡, 7 is the magic number - improving quality score from 5 to 7 can reduce CPCs by 25%,Ongoing,💬,HIGH,,,🔗
+,FALSE,Review:, Primary campaign low quality score keywords,Weekly,,HIGH,,,
+,FALSE,Review:, Keywords with below average ad relevance ,Weekly,💬,HIGH,,,🔗
+,FALSE,Apply:, Labels to keywords that require revised ad copy,Weekly,,LOW,,,
+,FALSE,Apply:," Quality score of 1-3 keywords have been labelled to be fixed, moved or deleted",Weekly,,HIGH,,,
+,FALSE,Apply:, Split an ad group if keywords can't realistically be served by the same ads,Weekly,,HIGH,,,
+,FALSE,Review:, Secondary campaign low quality score keywords,Bi-weekly,,MID,,,
+,FALSE,Optional:, Run a quality score analysis script and review,Weekly,💬,MID,,🛠️,
+,FALSE,Optional:, Use DKI as a quick fix to ad relevance (see Advert optimisation below),Monthly,💬,MID,,,
+,FALSE,Review:, Impression share and top of page metrics for priority campaigns,Weekly,💬,HIGH,,,
+,FALSE,Review:, Auction Insights report - review competitors,Weekly,💬,MID,,,🔗
+,FALSE,Review:, Auction Insights - new competitors,Bi-weekly,💬,MID,,,
+,FALSE,Check:,Eliminate wasteful ad targeting,Monthly,💬,MID,,,
+,FALSE,Review:," If you're in ecommerce, do something about Amazon...",Once,💬,HIGH,,,🔗
+,,, Automated Bidding,,,,,,
+,FALSE,💡, The bid modifiers that do and don't have an affect on automated/smart bidding strategies,Ongoing,💬,HIGH,📑,,
+,FALSE,Review:, Maximise Conversions - control ROAS and CPA with budget,Weekly,💬,HIGH,,,
+,FALSE,Review:, Bid management priority campaigns,Weekly,,HIGH,,,
+,FALSE,Review:, Bid management secondary campaigns,Bi-weekly,,MID,,,
+,FALSE,Optional:, Migrate Away from Max Conversions,Monthly,💬,HIGH,📑,,
+,FALSE,Check:, Your Brand campaigns are running the appropriate bid strategy,Monthly,💬,MID,,,
+,FALSE,Optional:, Seasonal bid adjustments,Weekly,💬,HIGH,,,
+,,, Manual Bidding,,,,,,
+,FALSE,Review:, Bid management priority campaigns,Weekly,💬,HIGH,,,
+,FALSE,Review:, Bid management secondary campaigns,Bi-weekly,,MID,,,
+,FALSE,Review:, Device performance and apply new modifiers,Monthly,,MID,,,
+,FALSE,Review:, Remarketing audience bid adjustments,Weekly,,MID,,,
+,FALSE,Review:, Demographics modifiers,Monthly,,MID,,,
+,FALSE,Check:, Use individual bids for keywords and not the ad group default bids,Bi-weekly,,HIGH,,,
+,FALSE,Optional:, Automate manual bidding (running daily) and review,Weekly,,HIGH,,🛠️,
+,FALSE,💡, What if you can't afford to bid more?,Ongoing,💬,MID,,,
+,,, Ad Testing,,,,,,
+,FALSE,💡,"When creating new ads from old ones - copy and edit, don't just edit",Ongoing,💬,HIGH,,,
+,FALSE,Apply:, Create custom CPI or RPI columns,Once,💬,HIGH,,,
+,FALSE,Check:, Ad rotation settings,Monthly,💬,MID,,,
+,FALSE,Review:, Ad testing script results for statistically significant winners,Weekly,,MID,,,🔗
+,FALSE,Apply:, Pause losing ads (make sure there's at least 2 ads running per ad group),Weekly,,MID,,,
+,FALSE,Tool:, Review automated ad tests to find winners and losers,Weekly,💬,HIGH,,🛠️,
+,FALSE,Apply:, Labels for ad pattern tests and review results in bulk across the account,Monthly,,HIGH,,,
+,FALSE,Review:, Pre-defined reports filter by label to understand your test,Monthly,,HIGH,,,
+,FALSE,Apply:," Based on results, apply the winning element to your ads",Monthly,,HIGH,,,
+,FALSE,Check:,Creating and working with Responsive Search Ads,Monthly,💬,MID,📑,,
+,FALSE,Apply:,Responsive Search Ad strength score,Weekly,💬,MID,📑,,
+,FALSE,Optional:, Ad creation date,Automated,💬,MID,,🛠️,
+,,, Ad Optimisation,,,,,,
+,FALSE,💡,"Remember, when creating new ads from old ones - copy and edit, don't just edit",Ongoing,💬,HIGH,,,
+,FALSE,Apply:, Write new ad copy - using 'Clarity' and 'The 23 Pillars of Ad Copy Playbook',Monthly,,HIGH,,,
+,FALSE,Review:, Ad copy testing ideas,Monthly,💬,HIGH,📑,,
+,FALSE,Optional:, Use DKI (Dynamic Keyword Insertion) as a quick way of improving adverts in bulk,Weekly,💬,MID,,,
+,FALSE,Check:," Ad groups have active ads, at least 1 RSA enabled",Ongoing,💬,MID,,,▶️
+,FALSE,Review:, Responsive Search Ad optimisation,Bi-weekly,💬,HIGH,📑,,
+,FALSE,Review:," Extract queries from DSA, apply them as negatives to DSA",Bi-weekly,,MID,,,
+,FALSE,Review:, DSA landing pages and exclude poor performers,Bi-weekly,,MID,,,
+,FALSE,Optional:," Create a new ad group for the losing landing page, create more specific ads to suit it",Bi-weekly,,MID,,,
+,FALSE,Apply:, Remove duplicated adverts,Automate,,MID,,🛠️,
+,FALSE,Check:, No active underperforming ads in 'Rotate' campaigns,Weekly,,MID,,,
+,,,Performance Max,,,,,,
+,FALSE,💡, Review timeline,Weekly,💬,HIGH,,,🔗
+,FALSE,💡,Unspent budget - important for Ecommerce,Ongoing,💬,MID,,,
+,FALSE,💡, Less is sometimes more (do you need to optimise),Weekly,💬,MID,,,
+,FALSE,Check:, Brand defence and mitigating PMax brand spend,Monthly,💬,MID,,,
+,FALSE,Review:, Ad Strength,Bi-weekly,💬,MID,,,
+,FALSE,Review:, Asset performance column,Bi-weekly,💬,HIGH,,,
+,FALSE,Review:, Assets to remove/replace,Monthly,💬,MID,,,
+,FALSE,Check:, Insights tab - share of conversions per audience,Weekly,💬,MID,,,
+,FALSE,Review:, Diagnosing PMax performance issues,Ongoing,💬,HIGH,,,
+,FALSE,Review:, Top search themes,Weekly,💬,MID,,,
+,FALSE,Review:, Asset Group performance - when to split,Bi-weekly,💬,HIGH,,,
+,FALSE,Check:, Asset report for automatically generated videos,Monthly,💬,MID,,,
+,,, Audiences,,,,,,
+,FALSE,Review:, Audience performance,Bi-weekly,💬,MID,,,
+,FALSE,Apply:, Observation audiences applied,Bi-weekly,💬,MID,,,
+,FALSE,Apply:, Audience exclusions applied,Monthly,💬,MID,,,
+,FALSE,Apply:, Remarketing audiences applied as observations to search campaigns,Monthly,💬,MID,,,
+,FALSE,Check:, Accidental observation instead of targeting setting,Monthly,💬,HIGH,,,
+,FALSE,Check:,Remarketing audiences are set to Target (not Observation) in dedicated remarketing campaigns,Monthly,💬,HIGH,,,
+,,, Ad Extensions,,,,,,
+,FALSE,Check:,Min 4 (Max 10) Callout extensions are applied to each campaign,Monthly,,MID,📑,,🔗
+,FALSE,Check:,Min 4 Sitelinks are applied to each campaign,Monthly,💬,HIGH,,,🔗
+,FALSE,Check:,If promotion extensions are running they are up to date (and have an end date),Weekly,,HIGH,,,
+,FALSE,Review:,Extensions performance,Monthly,,HIGH,,,
+,FALSE,Apply:,Create new ad extensions if performance review suggests you should,Monthly,,MID,,,
+,FALSE,Check:,Automated extensions are disabled,Once,,HIGH,,,
+,,, Display,,,,,,
+,FALSE,💡,Start with remarketing,Once,💬,HIGH,,,
+,FALSE,Check:,"Always, always remove audience expansion on remarketing campaigns. Always!",Once,💬,HIGH,,,
+,FALSE,Apply:," Segment campaigns and ad groups by placement, topic, demographic, device, audience etc",Weekly,💬,MID,,,
+,FALSE,Optional:, Test 'Optimised Targeting' to expand your reach,Monthly,💬,MID,,,
+,FALSE,Apply:, Exclude mobile apps from campaigns,Once,💬,HIGH,,,
+,FALSE,Apply:, Exclude unwanted categories,Once,,MID,,,
+,FALSE,Check:, Turn off automated audience expansion (until you have lots of conversions),Once,,MID,,,
+,FALSE,Optional:, Test pay for conversions with Smart Display,Monthly,💬,MID,,,
+,,, Targeting & Data,,,,,,
+,FALSE,Review:, Search Partner performance,Monthly,💬,LOW,,,
+,FALSE,Review:, Geographic / location data,Monthly,,MID,,,
+,FALSE,Apply:, Bid adjustments for locations,Monthly,💬,MID,,,
+,FALSE,Review:, Add new locations,Bi-weekly,💬,MID,,,
+,FALSE,Apply:,Geo exclusions for non-converting cities for smart bidding enabled campaigns,Monthly,💬,MID,,,
+,FALSE,Review:,Attribution model benchmark,Monthly,💬,HIGH,📑,,
+,FALSE,Review:,Ad schedule and apply new modifiers (or time exclusions),Monthly,,MID,,,
+,,, Shared Libraries,,,,,,
+,FALSE,Check:,Negative Keyword lists are appropriately applied,Monthly,,HIGH,,,
+,FALSE,Check:,Placement exclusions lists are applied to display campaigns,Monthly,,HIGH,,,
+,,,Automated Routines,,,,,,
+,FALSE,💡,Your automations must be in sync with your lookback windows,Ongoing,💬,MID,,,
+,FALSE,Review:,OptiScore recommendations,Bi-weekly,💬,LOW,,,▶️
+,FALSE,Review:,Automated rules,Monthly,💬,HIGH,,,
+,FALSE,Optional:,Weekend rule to pause campaign or ads with specific labels,Automated,💬,MID,,,
+,FALSE,Apply:, Automated negative keyword list builder,Automated,💬,MID,,🛠️,
+,FALSE,Check:, Low quality score alert,Automated,💬,MID,,🛠️,
+,FALSE,Check:,Link checker,Automated,,MID,,🛠️,
+,FALSE,Apply:,404 errors in GA email alert,Automated,💬,HIGH,,,
+,FALSE,Check:,"Scripts are running and authorised, without errors",Bi-weekly,💬,HIGH,,,
+,,,Disapprovals,,,,,,
+,FALSE,Check:,Disapproved ads,Ongoing,,HIGH,,,
+,FALSE,Check:,Disapproved app extensions,Ongoing,,LOW,,,
+,FALSE,Check:,Disapproved call extensions,Ongoing,,MID,,,
+,FALSE,Check:,Disapproved callout extensions,Ongoing,,MID,,,
+,FALSE,Check:,Disapproved keywords,Ongoing,,HIGH,,,
+,FALSE,Check:,Disapproved location extensions,Ongoing,,MID,,,
+,FALSE,Check:,Disapproved sitelinks,Ongoing,,MID,,,
+,FALSE,Check:,Disapproved structured snippet extensions,Ongoing,,LOW,,,
+, 6 - SHOPPING,,,,,,,,
+,,,Merchant Feed,,,,,,
+,FALSE,💡, Product feed requirements - required product information and format,Ongoing,,HIGH,,,🔗
+,FALSE,💡, Product feed optimisation - better than best practices and many ideas to test,Monthly,,HIGH,📑,,
+,FALSE,Check:, Resolve disapproved items because of incorrect or missing product identifier,Weekly,,HIGH,,,🔗
+,FALSE,Check:, Remove any promotional overlays on product images,Weekly,,HIGH,,,🔗
+,FALSE,Check:, Disapproved URLs ,Weekly,💬,HIGH,,,🔗
+,FALSE,Review:, Your feed optimisation rules ,Bi-weekly,💬,HIGH,,,🔗
+,FALSE,Review:, Product titles are following best practices,Bi-weekly,💬,HIGH,,,
+,FALSE,💡, BRAND vs brand in product titles,Once,💬,HIGH,,,
+,FALSE,Review:," Product title examples - BRAND, brand and category",Bi-weekly,💬,HIGH,,,
+,FALSE,Apply:, Prepend product titles with brand,Ongoing,💬,MID,,,
+,FALSE,Apply:, Individual title optimisation for best sellers and high volume products,Weekly,💬,MID,,,
+,FALSE,Apply:, Appropriate product categories,Monthly,💬,MID,,,🔗
+,,,Shopping Specific,,,,,,
+,FALSE,💡, Account structure - updating August 2025,Once,💬,HIGH,⌛,,
+,FALSE,Apply:, Test a 0-click campaign for products that failed to get noticed,Monthly,💬,MID,,,
+,FALSE,Apply:, Test a dedicated best sellers campaign,Weekly,💬,,,,
+,FALSE,Review:, Review search term reports on shopping campaigns for new keywords,Bi-weekly,💬,MID,,,
+,FALSE,Apply:, If using Manual CPC update product level bids,Weekly,,HIGH,,,
+,FALSE,Apply:, Exclude poor performing products from your product groups,Weekly,,MID,,,
+,FALSE,Review:, Previously excluded products to see if they can be improved,Monthly,💬,MID,,,
+,FALSE,Review:, Competitor's version/equivalent of your excluded products,Monthly,💬,MID,,,
+,FALSE,Review:, Shopping auction performance,Weekly,💬,MID,,,
+,FALSE,Check:, Best sellers have sufficient budget and aren't limited,Weekly,💬,HIGH,,,

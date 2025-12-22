@@ -1,0 +1,9 @@
+customer_id,manager_id,campaign_id,campaign_name,current_budget_gbp,new_budget_gbp,action,deployment_date,notes
+1404868570,,21064167535,BMI | P Max | Generic,840.00,60.00,BUDGET_CHANGE,2025-12-19,Phase 1: Dec 19-Jan 8 maintenance (£70/day total)
+1404868570,,2083618047,BMI | Search | Brand,64.00,10.00,BUDGET_CHANGE,2025-12-19,Phase 1: Proportional decrease
+1404868570,,21064167535,BMI | P Max | Generic,60.00,130.00,BUDGET_CHANGE,2025-01-09,Phase 2: January restart (£150/day total)
+1404868570,,2083618047,BMI | Search | Brand,10.00,20.00,BUDGET_CHANGE,2025-01-09,Phase 2: Resume normal levels
+1404868570,,21064167535,BMI | P Max | Generic,130.00,230.00,BUDGET_CHANGE,2025-01-16,Phase 3: Continue ramp if performance strong (£260/day total)
+1404868570,,2083618047,BMI | Search | Brand,20.00,30.00,BUDGET_CHANGE,2025-01-16,Phase 3: Continue ramp
+1404868570,,21064167535,BMI | P Max | Generic,230.00,320.00,BUDGET_CHANGE,2025-01-23,Phase 4: Normal trading levels (£360/day total)
+1404868570,,2083618047,BMI | Search | Brand,30.00,40.00,BUDGET_CHANGE,2025-01-23,Phase 4: Back to normal

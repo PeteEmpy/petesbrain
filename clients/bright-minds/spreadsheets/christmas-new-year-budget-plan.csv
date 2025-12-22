@@ -1,0 +1,17 @@
+customer_id,manager_id,campaign_id,campaign_name,current_budget_gbp,new_budget_gbp,action,deployment_date,notes
+1404868570,,21064167535,BMI | P Max | Generic,840.00,150.00,BUDGET_CHANGE,2025-12-18,Phase 1: Start gradual decrease
+1404868570,,2083618047,BMI | Search | Brand,64.00,20.00,BUDGET_CHANGE,2025-12-18,Phase 1: Proportional decrease
+1404868570,,21064167535,BMI | P Max | Generic,150.00,100.00,BUDGET_CHANGE,2025-12-19,Phase 2: Continue decrease
+1404868570,,2083618047,BMI | Search | Brand,20.00,15.00,BUDGET_CHANGE,2025-12-19,Phase 2: Continue decrease
+1404868570,,21064167535,BMI | P Max | Generic,100.00,80.00,BUDGET_CHANGE,2025-12-20,Phase 3: Christmas maintenance (Dec 20-25)
+1404868570,,2083618047,BMI | Search | Brand,15.00,10.00,BUDGET_CHANGE,2025-12-20,Phase 3: Maintenance mode
+1404868570,,21064167535,BMI | P Max | Generic,80.00,150.00,BUDGET_CHANGE,2025-12-26,Phase 4: BOXING DAY TEST (Dec 26-27)
+1404868570,,2083618047,BMI | Search | Brand,10.00,20.00,BUDGET_CHANGE,2025-12-26,Phase 4: Boxing Day lift
+1404868570,,21064167535,BMI | P Max | Generic,150.00,80.00,BUDGET_CHANGE,2025-12-28,Phase 5: Post-Boxing Day maintenance (Dec 28-Jan 8)
+1404868570,,2083618047,BMI | Search | Brand,20.00,10.00,BUDGET_CHANGE,2025-12-28,Phase 5: Back to maintenance
+1404868570,,21064167535,BMI | P Max | Generic,80.00,150.00,BUDGET_CHANGE,2025-01-09,Phase 6: January restart - gradual ramp
+1404868570,,2083618047,BMI | Search | Brand,10.00,20.00,BUDGET_CHANGE,2025-01-09,Phase 6: Resume normal levels
+1404868570,,21064167535,BMI | P Max | Generic,150.00,250.00,BUDGET_CHANGE,2025-01-16,Phase 7: Continue ramp if performance strong
+1404868570,,2083618047,BMI | Search | Brand,20.00,30.00,BUDGET_CHANGE,2025-01-16,Phase 7: Continue ramp
+1404868570,,21064167535,BMI | P Max | Generic,250.00,350.00,BUDGET_CHANGE,2025-01-23,Phase 8: Target normal trading levels
+1404868570,,2083618047,BMI | Search | Brand,30.00,40.00,BUDGET_CHANGE,2025-01-23,Phase 8: Normal levels

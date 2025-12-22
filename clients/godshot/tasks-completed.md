@@ -154,3 +154,91 @@ Sent monthly Google Ads performance report to Sam at Godshot.
 Paused the Zoologist promotion in Google Ads at Sam's request.
 
 ---
+
+## [Godshot] Test Budget Reduction to Improve ROAS
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - Test period ended
+
+**From Weekly Report - 2025-11-18**
+
+**Issue:** Current £200/day budget appears above optimal efficiency point. ROAS declining as spend increases.
+
+**Expected Impact:** Improve ROAS 534% → 600%+ by reducing to more efficient spend level
+
+**Action:**
+1. After completing asset group optimization, reduce budget from £200/day to £180/day
+2. Monitor ROAS for 7 days
+3. If ROAS improves, hold for another 7 days
+4. Then test incremental increases (£10/day steps) to find optimal budget
+5. Target: Maintain 650%+ ROAS while maximizing volume
+
+**Supporting Data:**
+- Current budget: £200/day
+- Current ROAS: 534% (spent £1,401 last week)
+- Hypothesis: Algorithm spending inefficiently to hit budget target
+- Strategy: Find efficiency sweet spot before scaling
+
+
+---
+
+
+## [Godshot] Audit PMax Asset Groups - Pause Underperformers
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - Audit deadline passed
+
+**From Weekly Report - 2025-11-18**
+
+**Issue:** Known underperforming asset groups (Fellow, Rains, Coffee Generic) likely consuming 30-40% of budget with minimal returns.
+
+**Expected Impact:** +£500-800/month revenue by reallocating budget to winning products
+
+**Action:**
+1. Pull asset group performance report from Google Ads
+2. Identify conversion value and ROAS by asset group
+3. Pause asset groups with <400% ROAS
+4. Reallocate freed budget to winning asset groups (700%+ ROAS)
+5. Monitor for 7 days to verify impact
+
+**Supporting Data:**
+- Campaign: "GOD | P Max 700"
+- Current ROAS: 534% (blended across all asset groups)
+- Target ROAS: 700%
+- Known issues: Fellow, Rains, Coffee Generic previously flagged
+- Budget: £200/day (£1,400/week)
+
+
+---
+
+
+## [Godshot] Send monthly Google Ads report to Sam
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - Report send deadline passed
+
+**SEND ON FIRST WEEKDAY OF MONTH**
+
+Generate and send monthly Google Ads performance report to Sam at Godshot.
+
+**Report Details:**
+• Period: Previous month (full month)
+• Format: Email with performance summary
+• Client: Godshot
+• Contact: Sam
+
+**Key Metrics to Include:**
+• Revenue and conversions
+• ROAS performance
+• Budget spend vs target
+• Top performing products/campaigns
+• Month-over-month comparison
+• Key insights and recommendations
+
+**Action Items:**
+1. Pull Google Ads data for previous month
+2. Generate performance summary
+3. Draft email report
+4. Send to Sam at Godshot
+
+Source: Recurring monthly task (due on first weekday of each month)
+
+---
+

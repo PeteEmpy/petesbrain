@@ -1,9 +1,29 @@
 # Just Bin Bags - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
-> **Last Updated**: 2025-11-24
+> **Last Updated**: 2025-12-18
 
 **Voice Transcription Aliases**: JBB, just been bags, Just Bin Bag, JustBinBags, bin bags
+
+---
+
+## 🚨 CRITICAL: Multi-Channel Attribution Insight
+
+**⚠️ READ THIS FIRST before making ANY campaign budget decisions**
+
+**Key Finding:** Google Ads ROAS ≠ Product Profitability
+
+For Just Bin Bags/JHD, products that appear unprofitable in Google Ads reports (e.g., JHD PMax at 0.77x ROAS) are actually profitable when viewing total revenue across ALL channels.
+
+**Example:**
+- Google Ads-only view: JHD 0.77x ROAS (appears unprofitable)
+- Multi-channel reality: JHD 1.61x ROAS (actually profitable +109%)
+
+**Why:** B2B customers see Google Ads → call to order (Direct attribution), or Google Ads builds brand awareness → organic searches later. Google Ads gets no attribution credit but drives the revenue.
+
+**📄 Full details:** `documents/multi-channel-attribution-insight.md` (5,000+ word reference document)
+
+**Decision Rule:** ALWAYS check WooCommerce total product revenue before making campaign budget/pause decisions.
 
 ---
 
@@ -271,6 +291,7 @@ _Updated documents will appear here when detected by daily scans_
 |------|-------------|------------|
 | 2025-10-30 | Initial creation with account details from Google Ads API | Claude Code |
 | 2025-11-13 | **TASK DEDUPLICATION**: Removed 15 duplicate AI-generated task entries. Preserved all manual tasks and first occurrence of each AI task pattern. Cleanup based on provenance analysis showing 'Source: AI Generated' metadata. | Claude Code |
+| 2025-12-18 | **CRITICAL ADDITION**: Added Multi-Channel Attribution Insight section at top. Documents key finding that Google Ads ROAS ≠ Product Profitability for B2B/B2C hybrid business. JHD products appear 0.77x ROAS in Google Ads but actually 1.61x ROAS when including all channels. References full analysis document. | Claude Code |
 
 ---
 

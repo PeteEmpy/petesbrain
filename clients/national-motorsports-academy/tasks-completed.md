@@ -359,3 +359,335 @@ Success Metrics Review:
 No need not costing anything. Complete the task
 
 ---
+## [NMA] Week 2: Review Target CPA Performance (Nov 29)
+**Completed:** 2025-12-16 08:20
+**Source:** NMA 3-Week Plan - Week 2 Task 6
+
+CRITICAL REVIEW: Analyse 3-week performance since Nov 10 Target CPA implementation. Compare CPAs to targets: UK Search (£100 target), ROW Search (£50 target), UK Management (£150 target). Decision framework: Within 20% of target = continue; 20-50% above = reduce budget 10-15%; 50%+ above = review structure. Budget adjustments: ROW Engineering £40→£80/day if performing well.
+
+---
+## [NMA] Review conversion performance week 25 Nov - 1 Dec
+**Completed:** 2025-12-16 08:20
+**Source:** Manual follow-up
+
+**Follow-up from zero-conversion investigation (completed 26 Nov)**
+
+Check conversion performance for the week to ensure tracking continues working and monitor low-volume conversion pattern.
+
+**Context:**
+- Account has very low conversion rate (0.007%)
+- Previous week: 2 conversions on Fri 22 Nov, zero all other days
+- Tracking confirmed working - this is performance issue, not technical issue
+
+**Quick Check:**
+1. Run GAQL for 25 Nov - 1 Dec to see daily conversions
+2. If conversions present: No action needed, continue monitoring via weekly reports
+3. If zero conversions all week: Escalate to P0 and investigate further
+
+---
+
+## [NMA] Week 2: Create Country-Specific ROW Campaigns (US, UAE)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Create 2 geo-targeted campaigns: (1) 'NMA | Search | US | Engineering' - £30/day budget, £60 target CPA, US-focused keywords, US career outcomes in ads, alumni sitelinks. (2) 'NMA | Search | UAE | Engineering' - £20/day budget, £40 target CPA, Middle East education terms, UAE partnerships in ads. Run alongside ROW Management for 2 weeks (compare Nov 29-Dec 13). Pause ROW Management only if country campaigns prove superior. Expected: 2-4 US conversions, 1-2 UAE conversions in first month.
+
+---
+
+
+## [NMA] Week 3: Add Callout Extensions
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Create shared callout set (40+ callouts) for all active campaigns. Categories: Programme Benefits ('Industry Partnerships', 'Practical Experience', 'Career Support'), Study Flexibility ('Online & On-Campus Options', 'Flexible Payment Plans', 'Study While You Work'), Credibility ('Accredited Programmes', 'Expert Tutors', 'Award-Winning Institution'), Outcomes ('95% Employment Rate', 'Global Alumni Network', 'Professional Accreditation'). Expected: +5-8% CTR, better ad real estate, improved quality score.
+
+---
+
+
+## [NMA] Week 3: Expand ROW Engineering Keyword Portfolio
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+ROW Engineering is best performer (£34,744 CPA vs £169k average). Add 15-20 related keywords: automotive engineering courses, motorsport engineering online, automotive technology degree, vehicle engineering programmes, racing engineering courses, automotive design degree, motorsport management degree, automotive engineering masters online. Match types: 70% Broad, 30% Exact. Budget consideration: Increase £40→£80/day if Nov 29 review shows strong performance. Expected: +10-15 additional conversions/month.
+
+---
+
+
+## [NMA] Week 3: Create Separate Engineering Asset Group (PMax)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+UK PMax may be diluting performance across multiple degree types. Create dedicated 'Engineering Programmes' asset group: 15 headlines (e.g., 'Motorsport Engineering Degrees', 'Start Your Engineering Career', 'BSc Automotive Engineering Online'), 5 long headlines, 5 descriptions (accredited programmes combining theory and practice), engineering-specific images (labs, cars, projects), student testimonial videos, engineering landing pages only. Expected: +5-10 conversions/month, lower CPA for engineering leads.
+
+---
+
+
+## [NMA] 3-Week Improvement Plan (Nov 17 - Dec 8, 2025)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Complete 3-week improvement plan to increase conversions from 47.8 to 55-65/month and reduce CPA from £169k to £130-150k.
+
+**Plan Overview:**
+- Week 1 (Nov 17-24): Foundation improvements (sitelinks, keywords, demographic analysis)
+- Week 2 (Nov 25-Dec 1): Optimization (demographics, country campaigns, keyword cleanup)
+- Week 3 (Dec 2-8): Expansion (callouts, keyword expansion, PMax asset groups, reporting)
+
+**Source:** NMA strategic planning session (Nov 17, 2025)
+**Client Context:** Paul Riley approved 3-week aggressive optimization period
+
+---
+
+
+## [NMA] Week 3: Add callout extensions (40+ callouts across campaigns)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Target: 40+ callouts across active campaigns
+
+Callout Categories:
+- Program Benefits: "Industry Partnerships", "Practical Experience", "Career Support"
+- Study Flexibility: "Online & On-Campus Options", "Flexible Payment Plans", "Study While You Work"
+- Credibility: "Accredited Programs", "Expert Tutors", "Award-Winning Institution"
+- Outcomes: "95% Employment Rate", "Global Alumni Network", "Professional Accreditation"
+
+Implementation:
+- Create shared callout set (apply to all campaigns)
+- Focus on unique selling points vs generic claims
+- Ensure compliance with Google Ads policy (substantiate claims)
+
+Expected Impact:
+- +5-8% CTR improvement
+- Better ad real estate (callouts increase ad size)
+- Improved quality score
+
+---
+
+
+## [NMA] Week 3: Expand ROW Engineering keyword portfolio (15-20 keywords)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Strategy:
+- ROW Engineering is best-performing campaign (£34,744 CPA vs £169k average)
+- Add 15-20 related keywords based on Nov 17 additions
+
+New Keywords to Consider:
+- automotive engineering courses
+- motorsport engineering online
+- automotive technology degree
+- vehicle engineering programs
+- racing engineering courses
+- automotive design degree
+- motorsport management degree
+- automotive engineering masters online
+
+Match Type Strategy:
+- 70% Broad (capture wider intent)
+- 30% Exact (high-intent converters)
+
+Budget Consideration:
+- Current: £40/day (recommend £80/day if Nov 29 review shows strong performance)
+
+Expected Impact:
+- +10-15 additional conversions/month from ROW Engineering
+- Reduced CPA as campaign scales (better data for Target CPA)
+
+Label: PB_2025
+
+---
+
+
+## [NMA] Week 3: Create separate Engineering asset group in PMax
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Current Problem:
+- UK PMax campaign may be diluting performance across multiple degree types
+- Engineering degrees have different audience, creative needs
+
+New Asset Group Structure:
+
+Asset Group: Engineering Programs
+- Headlines (15): Engineering-specific
+  - "Motorsport Engineering Degrees"
+  - "Start Your Engineering Career"
+  - "BSc Automotive Engineering Online"
+  - "Masters in Motorsport Engineering"
+  - [+ 11 more engineering-specific headlines]
+
+- Long Headlines (5): Engineering focus
+  - "Study Motorsport Engineering with Industry Leaders"
+  - [+ 4 more]
+
+- Descriptions (5): Engineering content
+  - "Accredited engineering degrees combining theory and practice..."
+  - [+ 4 more]
+
+- Images: Engineering-specific (labs, cars, projects)
+- Videos: Engineering student testimonials
+- Final URLs: Engineering landing pages only
+
+Expected Impact:
+- Better audience segmentation (engineering-interested signals)
+- Improved ad relevance for engineering searches
+- +5-10 conversions/month from PMax
+- Lower CPA for engineering-specific leads
+
+---
+
+
+## [NMA] Week 2: Review Target CPA performance (3 weeks post-implementation)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed, Implementation deadline passed, Review deadline passed
+
+Review Date: Nov 29, 2025 (3 weeks after Nov 10 Target CPA implementation)
+
+Analysis:
+- Pull 3-week performance: Nov 10-29
+- Compare CPAs to targets:
+  - UK Search: Target £100, Current?
+  - ROW Search: Target £50, Current?
+  - UK Management: Target £150, Current?
+
+Decision Framework:
+- If CPA within 20% of target: Continue, no changes
+- If CPA 20-50% above target: Reduce budget 10-15%
+- If CPA 50%+ above target: Review campaign structure
+
+Budget Adjustment Criteria:
+- ROW Engineering: If performing well, increase budget £40→£80/day
+- UK Management: If still >£1M CPA, consider pausing (despite earlier decision)
+- ROW Management: Monitor closely (currently 0 conversions)
+
+---
+
+
+## [NMA] Week 2: Create country-specific ROW campaigns (US & UAE)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Current Problem:
+- ROW Management: £660k spend, 0 conversions
+- ROW campaigns too broad, lack localization
+
+New Campaign Structure:
+
+Campaign 1: NMA | Search | US | Engineering
+- Daily Budget: £30
+- Target CPA: £60
+- Keywords: US-focused engineering terms
+- Ad copy: Reference US career outcomes, accreditation
+- Sitelinks: US application process, alumni in US
+
+Campaign 2: NMA | Search | UAE | Engineering
+- Daily Budget: £20
+- Target CPA: £40
+- Keywords: Middle East engineering education terms
+- Ad copy: Reference UAE partnerships, regional relevance
+- Sitelinks: International student support
+
+Migration Strategy:
+- Do NOT pause ROW Management immediately
+- Run country campaigns alongside for 2 weeks
+- Compare performance Nov 29-Dec 13
+- Pause ROW Management only if country campaigns prove superior
+
+Expected Impact:
+- Better ad relevance for US/UAE audiences
+- Lower CPCs (improved quality scores)
+- 2-4 conversions from US campaign in first month
+- 1-2 conversions from UAE campaign in first month
+
+---
+
+
+## [NMA] Week 1: Pull demographic performance data (age/gender analysis)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Use GAQL to pull demographic data from last 90 days:
+- Gender performance
+- Age range performance
+- Calculate CPA by demographic
+- Prepare conservative bid adjustments (NOT exclusions)
+
+Decision Criteria:
+- Apply -20% bid adjustment if CPA >2x account average
+- Do NOT exclude demographics entirely (Anwesha's recommendation was too aggressive)
+
+Needed for Week 2 Task #7
+
+---
+
+
+## [NMA] Week 1: Monitor new keywords performance (daily for 5 days)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed
+
+Keywords to Track (added Nov 17):
+- automotive engineering degree (Broad)
+- automotive design courses (Broad)
+- masters in motorsport engineering (Exact)
+- automotive engineering master (Broad)
+- degree in automotive engineering (Broad)
+
+Tracking Metrics:
+- Impressions (should see immediate increase)
+- Average position
+- Quality Score (check after 7 days)
+- Clicks, CTR
+- Conversions (may take 2-3 weeks)
+
+Review Date: Nov 24, 2025 (1 week post-implementation)
+
+Success Criteria:
+- Quality Score 7+ by Nov 24
+- CTR >5%
+- Impressions >100/day for broad match keywords
+
+Label: PB_2025
+
+---
+
+
+## [NMA] Week 1: Review zero-impression keywords (identify ~150 to pause)
+**Completed:** 2025-12-16
+**Reason:** Aggressive task audit - NMA 3-week plan completed, Review deadline passed
+
+Use GAQL to identify keywords with 0 impressions in 90 days.
+
+Analysis:
+- Check Quality Scores (if <3, likely not serving)
+- Categorize: Low search volume vs Poor relevance vs Budget constraint
+
+Action for Week 2:
+- Pause keywords with QS <3 and 0 impressions
+- Keep keywords with QS 7+ (may serve in future)
+- Target: Identify ~150 dead keywords
+
+Export list before pausing (audit trail)
+
+---
+
+## [NMA] Week 2: Apply demographic bid adjustments (based on Week 1 analysis)
+**Completed:** 2025-12-19 14:37
+**Source:** NMA 3-Week Improvement Plan (Nov 17, 2025) - Week 2 Item #7
+
+Based on: Week 1 demographic analysis (Task #3)
+
+Conservative Approach:
+- Apply -20% bid adjustment (NOT exclusions) to segments with CPA >2x average
+- Test for 2 weeks before further adjustments
+- Do NOT exclude any demographics entirely
+
+Expected Segments:
+- Likely: 18-24 (students, lower conversion intent)
+- Possible: 65+ (less relevant for engineering education)
+
+Expected Impact:
+- Shift budget to higher-converting demographics
+- Reduce wasted spend by 5-8%
+- Maintain reach (no exclusions)
+
+---

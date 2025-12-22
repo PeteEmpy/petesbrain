@@ -15,7 +15,7 @@ The task manager system had **critical failures** preventing automated backups. 
 - ✅ Comprehensive logging added to tasks-backup.py (371 → 605 lines)
 - ✅ tasks-backup LaunchAgent now healthy (exit code 1 → 0)
 - ✅ Backups can run successfully with full visibility
-- ⏳ generate-tasks-overview.py partially migrated (functions done, main code remains)
+- ⏳ generate-all-task-views.py partially migrated (functions done, main code remains)
 
 ---
 
@@ -138,7 +138,7 @@ python3 tasks-backup.py
 
 ---
 
-## generate-tasks-overview.py Status
+## generate-all-task-views.py Status
 
 **Status**: ⏳ Partially Complete
 
@@ -235,8 +235,8 @@ ls -lh /Users/administrator/Documents/PetesBrain/_backups/tasks/
 3. ⏳ **Check backups are running every 3 hours** (LaunchAgent schedule)
 
 ### Short-term (Complete Task Manager Fix)
-1. ⏳ **Complete generate-tasks-overview.py logging** (wrap main code in main() function)
-2. ⏳ **Test task-manager skill** (uses generate-tasks-overview.py)
+1. ⏳ **Complete generate-all-task-views.py logging** (wrap main code in main() function)
+2. ⏳ **Test task-manager skill** (uses generate-all-task-views.py)
 3. ⏳ **Diagnose other 3 failing agents** (task-priority-updater, tasks-monitor, backup-task-monitor)
 4. ⏳ **Add logging to failing agents**
 5. ⏳ **Test all task LaunchAgents** for 24 hours
@@ -264,5 +264,5 @@ ls -lh /Users/administrator/Documents/PetesBrain/_backups/tasks/
 ---
 
 **Fix completed by**: Claude Code
-**Patterns source**: Adapted from Mike Rhodes' 8020Brain logging template
+**Patterns source**: Adapted from industry resources logging template
 **Date**: 2025-12-14

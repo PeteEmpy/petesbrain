@@ -9,33 +9,57 @@ echo "Pete's Brain - OAuth Setup"
 echo "=========================================="
 echo ""
 echo "This will open browser windows to authorize:"
-echo "  1. Google Tasks"
-echo "  2. Google Drive (if needed)"
-echo "  3. Google Photos (if needed)"
+echo "  1. Google Analytics (for MCP server)"
+echo "  2. Google Ads (for MCP server)"
+echo "  3. Google Tasks"
+echo "  4. Google Drive (if needed)"
+echo "  5. Google Photos (if needed)"
 echo ""
 echo "After authorization, tokens will auto-refresh for ~6 months."
 echo ""
 read -p "Press Enter to continue..."
 
-cd /Users/administrator/Documents/PetesBrain
+cd /Users/administrator/Documents/PetesBrain.nosync
 
-# 1. Google Tasks
+# 1. Google Analytics MCP
+echo ""
+echo "=== Authorizing Google Analytics MCP ==="
+echo "A browser window will open. Sign in and authorize."
+cd infrastructure/mcp-servers/google-analytics-mcp-server
+if [ -d ".venv" ]; then
+  .venv/bin/python -c "from oauth.google_auth import get_oauth_credentials; creds = get_oauth_credentials(); print('✅ Google Analytics authorized')"
+else
+  echo "❌ Virtual environment not found. Run: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt"
+fi
+
+# 2. Google Ads MCP
+echo ""
+echo "=== Authorizing Google Ads MCP ==="
+echo "A browser window will open. Sign in and authorize."
+cd /Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-ads-mcp-server
+if [ -d ".venv" ]; then
+  .venv/bin/python -c "from oauth.google_auth import get_oauth_credentials; creds = get_oauth_credentials(); print('✅ Google Ads authorized')"
+else
+  echo "❌ Virtual environment not found. Run: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt"
+fi
+
+# 3. Google Tasks
 echo ""
 echo "=== Authorizing Google Tasks ==="
 echo "A browser window will open. Sign in and authorize."
-cd infrastructure/mcp-servers/google-tasks-mcp-server
+cd /Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-tasks-mcp-server
 if [ -d ".venv" ]; then
   .venv/bin/python -c "from tasks_service import tasks_service; tasks_service()" && echo "✅ Google Tasks authorized"
 else
   echo "❌ Virtual environment not found. Run: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt"
 fi
 
-# 2. Google Drive
+# 4. Google Drive
 echo ""
 echo "=== Authorizing Google Drive ==="
 echo "A browser window will open. Sign in and authorize."
-cd /Users/administrator/Documents/PetesBrain
-export GOOGLE_DRIVE_OAUTH_CREDENTIALS="/Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-drive-mcp-server/gcp-oauth.keys.json"
+cd /Users/administrator/Documents/PetesBrain.nosync
+export GOOGLE_DRIVE_OAUTH_CREDENTIALS="/Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-drive-mcp-server/gcp-oauth.keys.json"
 if [ -f "$GOOGLE_DRIVE_OAUTH_CREDENTIALS" ]; then
   npx -y @piotr-agier/google-drive-mcp auth && echo "✅ Google Drive authorized"
 else
@@ -43,12 +67,12 @@ else
   echo "   Skipping Google Drive authorization."
 fi
 
-# 3. Google Photos (if you use it)
+# 5. Google Photos (if you use it)
 echo ""
 echo "=== Authorizing Google Photos (Optional) ==="
 read -p "Do you use Google Photos MCP? (y/n): " use_photos
 if [ "$use_photos" = "y" ]; then
-  cd /Users/administrator/Documents/PetesBrain/infrastructure/mcp-servers/google-photos-mcp-server
+  cd /Users/administrator/Documents/PetesBrain.nosync/infrastructure/mcp-servers/google-photos-mcp-server
   if [ -d ".venv" ]; then
     echo "Testing Google Photos connection..."
     .venv/bin/python -c "import server; print('✅ Google Photos authorized')"
@@ -65,6 +89,8 @@ echo "✅ OAuth Setup Complete!"
 echo "=========================================="
 echo ""
 echo "Tokens stored in:"
+echo "  - infrastructure/mcp-servers/google-analytics-mcp-server/token.json"
+echo "  - infrastructure/mcp-servers/google-ads-mcp-server/google_ads_token.json"
 echo "  - infrastructure/mcp-servers/google-tasks-mcp-server/token.json"
 echo "  - infrastructure/mcp-servers/google-drive-mcp-server/token.json"
 echo "  - infrastructure/mcp-servers/google-photos-mcp-server/token.json"

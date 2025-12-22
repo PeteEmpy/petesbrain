@@ -18,7 +18,7 @@ import json
 import sys
 from pathlib import Path
 
-def generate_rsa_update_csv(client_name, input_file, output_file):
+def generate_rsa_update_csv(client_name, input_file, output_file, account_id=None):
     """
     Generate Google Ads Editor CSV for RSA updates
 
@@ -26,6 +26,7 @@ def generate_rsa_update_csv(client_name, input_file, output_file):
         client_name: Client folder name (e.g., 'smythson')
         input_file: Path to JSON file with RSA update data
         output_file: Name of output CSV file
+        account_id: Google Ads account ID (optional, will use first RSA's account if not provided)
     """
 
     # Determine client folder
@@ -52,6 +53,7 @@ def generate_rsa_update_csv(client_name, input_file, output_file):
 
     # CSV columns for Google Ads Editor RSA import
     fieldnames = [
+        'Account',
         'Action',
         'Campaign',
         'Ad group',
@@ -82,7 +84,11 @@ def generate_rsa_update_csv(client_name, input_file, output_file):
         writer.writeheader()
 
         for rsa in data:
+            # Use provided account_id, or try to get from RSA data, or leave empty
+            acc_id = account_id or rsa.get('account_id', '')
+
             row = {
+                'Account': acc_id,
                 'Action': 'Edit',
                 'Campaign': rsa['campaign_name'],
                 'Ad group': rsa['ad_group_name'],
@@ -141,10 +147,14 @@ def main():
         default='rsa_updates.csv',
         help='Output CSV filename (default: rsa_updates.csv)'
     )
+    parser.add_argument(
+        '--account-id',
+        help='Google Ads Account ID (e.g., 8573235780 for UK, 7808690871 for USA)'
+    )
 
     args = parser.parse_args()
 
-    generate_rsa_update_csv(args.client, args.input, args.output)
+    generate_rsa_update_csv(args.client, args.input, args.output, args.account_id)
 
 if __name__ == "__main__":
     main()
