@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """
-Generate ALL Tasks Overview HTML Files
+⚠️ DEPRECATED: Use generate-all-task-views.py instead (consolidated script)
+
+This script has been superseded by generate-all-task-views.py which generates
+ALL THREE task views (tasks-overview.html, tasks-overview-priority.html, and
+tasks-manager.html) to ensure they're always in sync.
+
+Original purpose:
 - Standard view (by client): tasks-overview.html
 - Priority view (by P0/P1/P2/P3): tasks-overview-priority.html
 
-This single script generates BOTH views to ensure they're always in sync.
+Migration date: December 16, 2025
 """
 import json
 import re

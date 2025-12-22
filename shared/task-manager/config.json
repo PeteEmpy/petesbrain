@@ -1,0 +1,109 @@
+{
+  "version": "2.0.0",
+  "description": "Task Manager System Configuration - Single Source of Truth",
+
+  "servers": {
+    "task_manager_html": {
+      "enabled": true,
+      "port": 8767,
+      "script": "serve-task-manager.py",
+      "script_path": "/Users/administrator/Documents/PetesBrain.nosync/shared/scripts/serve-task-manager.py",
+      "pid_file": "~/.petesbrain-task-manager-server.pid",
+      "html_file": "tasks-manager.html",
+      "html_path": "/Users/administrator/Documents/PetesBrain.nosync/shared/task-manager/tasks-manager.html",
+      "purpose": "Serves Task Manager HTML interface"
+    },
+    "task_notes_api": {
+      "enabled": true,
+      "port": 5002,
+      "script": "task-notes-api.py",
+      "script_path": "/Users/administrator/Documents/PetesBrain.nosync/shared/scripts/task-notes-api.py",
+      "pid_file": "~/.petesbrain-task-notes-server.pid",
+      "endpoints": [
+        "/save-note",
+        "/regenerate",
+        "/notes-count"
+      ],
+      "purpose": "Backend API for Task Manager manual notes"
+    },
+    "save_task_notes": {
+      "enabled": false,
+      "port": 8766,
+      "script": "save-task-notes.py",
+      "script_path": "/Users/administrator/Documents/PetesBrain.nosync/shared/scripts/save-task-notes.py",
+      "pid_file": "~/.petesbrain-save-task-notes-server.pid",
+      "purpose": "DEPRECATED - Alternative task notes server (functionality merged into task_notes_api)",
+      "deprecation_note": "This server is deprecated as of Phase 2. Functionality merged into canonical task-manager-server.py"
+    }
+  },
+
+  "paths": {
+    "base_dir": "/Users/administrator/Documents/PetesBrain.nosync",
+    "scripts_dir": "shared/scripts",
+    "task_manager_dir": "shared/task-manager",
+    "state_file": "data/state/manual-task-notes.json",
+    "clients_dir": "clients",
+    "generate_script": "generate-all-task-views.py"
+  },
+
+  "validation": {
+    "check_ports_available": true,
+    "check_pid_files": true,
+    "check_html_endpoints_match": true,
+    "check_scripts_exist": true,
+    "check_scripts_syntax": true,
+    "check_launchagents": true,
+    "check_state_files": true,
+    "check_python_modules": true
+  },
+
+  "launchagents": {
+    "task_manager": {
+      "label": "com.petesbrain.task-manager",
+      "plist_path": "~/Library/LaunchAgents/com.petesbrain.task-manager.plist",
+      "expected_script": "task-manager-server.py",
+      "expected_ports": [8767, 5002],
+      "purpose": "Canonical server running both HTML and API servers in single process"
+    }
+  },
+
+  "expected_html_endpoints": {
+    "tasks-manager.html": [
+      "http://localhost:5002/save-note",
+      "http://localhost:5002/regenerate",
+      "http://localhost:5002/notes-count"
+    ]
+  },
+
+  "health_checks": {
+    "interval_seconds": 300,
+    "max_startup_time_seconds": 10,
+    "port_check_timeout_seconds": 5
+  },
+
+  "recovery": {
+    "auto_remove_stale_pid_files": true,
+    "auto_kill_duplicate_processes": false,
+    "auto_restart_crashed_servers": true,
+    "max_restart_attempts": 3
+  },
+
+  "monitoring": {
+    "health_dashboard_enabled": true,
+    "health_dashboard_port": 8767,
+    "health_dashboard_path": "/health-dashboard.html",
+    "alerts_enabled": true,
+    "alert_methods": ["macos_notification", "log"]
+  },
+
+  "migration": {
+    "phase": 1,
+    "notes": [
+      "Phase 1: Foundational infrastructure (config, validation, tests)",
+      "Phase 2: Component consolidation (canonical server)",
+      "Phase 3: Automated monitoring (health dashboard, recovery, alerts)"
+    ],
+    "backup_created": "2025-12-22",
+    "rollback_available": true
+  }
+}

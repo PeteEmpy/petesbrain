@@ -1,36 +1,29 @@
 #!/usr/bin/env python3
 """
-Generate tasks-manager.html with clients on left (expandable) and reminders on right.
-
-Layout:
-- Left column: Clients list with task counts, expandable to show tasks
-- Right column: Reminders (today section + upcoming)
-- Navigation buttons: Link to priority view, client view, hard refresh, process notes
-
-Run: python3 shared/scripts/generate-task-manager.py
+Task Manager Generator - Enhanced with client tasks by due date
+Generates an HTML task manager with:
+- Left column: Clients with expandable task lists
+- Right column: Both reminders AND client tasks organized by due date with completion buttons
 """
 
 import json
-import os
+import sys
 from pathlib import Path
 from datetime import datetime, timedelta
-import sys
+from collections import defaultdict
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add parent directory to path to import shared modules
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
-try:
-    from paths import get_project_root
-    PROJECT_ROOT = get_project_root()
-except ImportError:
-    PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 def load_all_tasks():
-    """Load all tasks from client task.json files and roksys/tasks.json"""
+    """Load all tasks from client directories"""
     tasks_by_client = {}
     all_reminders = []
     seen_task_ids = set()
 
-    # Load client tasks (including clients/roksys/)
+    # Load client tasks from clients/{client}/tasks.json
     clients_dir = PROJECT_ROOT / 'clients'
     for client_dir in sorted(clients_dir.iterdir()):
         if not client_dir.is_dir() or client_dir.name.startswith('_'):
@@ -41,22 +34,24 @@ def load_all_tasks():
             continue
 
         try:
-            with open(tasks_file) as f:
+            with open(tasks_file, 'r') as f:
                 data = json.load(f)
 
             client_tasks = []
+
             for task in data.get('tasks', []):
+                task_id = task.get('id', '')
+
+                # Skip if we've already seen this task ID
+                if task_id and task_id in seen_task_ids:
+                    continue
+
+                if task_id:
+                    seen_task_ids.add(task_id)
+
                 # Skip completed tasks
                 if task.get('status') == 'completed':
                     continue
-                # Skip non-active tasks
-                if task.get('status') not in ['active', 'pending', 'in_progress']:
-                    continue
-
-                task_id = task.get('id')
-                if task_id in seen_task_ids:
-                    continue
-                seen_task_ids.add(task_id)
 
                 # Add client name to task
                 task['client'] = client_dir.name
@@ -82,18 +77,63 @@ def load_all_tasks():
                 ))
                 tasks_by_client[client_dir.name] = client_tasks
 
-        except (json.JSONDecodeError, KeyError) as e:
-            print(f"⚠️  Error loading {tasks_file}: {e}")
+        except (json.JSONDecodeError, FileNotFoundError) as e:
+            print(f"  ⚠️ Error loading tasks from {client_dir.name}: {e}")
             continue
 
-    # Note: roksys tasks are now loaded from clients/roksys/tasks.json in the client loop above
+    # Load roksys tasks from root-level roksys/ directory (SPECIAL CASE)
+    # Note: Roksys is personal/business work and uses roksys/tasks.json
+    # NOT clients/roksys/tasks.json (which is forbidden per TASK-SYSTEM-ARCHITECTURE.md)
+    roksys_tasks_file = PROJECT_ROOT / 'roksys' / 'tasks.json'
+    if roksys_tasks_file.exists():
+        try:
+            with open(roksys_tasks_file, 'r') as f:
+                data = json.load(f)
+
+            roksys_tasks = []
+            for task in data.get('tasks', []):
+                task_id = task.get('id', '')
+
+                # Skip if already seen or completed
+                if (task_id and task_id in seen_task_ids) or task.get('status') == 'completed':
+                    continue
+
+                if task_id:
+                    seen_task_ids.add(task_id)
+
+                # Add client name as 'roksys' for consistency
+                task['client'] = 'roksys'
+                roksys_tasks.append(task)
+
+                # Create reminder entry if has due_date
+                if task.get('due_date'):
+                    reminder = {
+                        'id': task_id,
+                        'title': task['title'],
+                        'due_date': task['due_date'],
+                        'client': 'roksys',
+                        'task_data': task
+                    }
+                    all_reminders.append(reminder)
+
+            if roksys_tasks:
+                # Sort tasks by priority first, then by due_date
+                priority_order = {'P0': 0, 'P1': 1, 'P2': 2, 'P3': 3}
+                roksys_tasks.sort(key=lambda t: (
+                    priority_order.get(t.get('priority', 'P2'), 2),
+                    t.get('due_date') or '9999-12-31'
+                ))
+                tasks_by_client['roksys'] = roksys_tasks
+
+        except (json.JSONDecodeError, FileNotFoundError) as e:
+            print(f"  ⚠️ Error loading roksys tasks: {e}")
+
     return tasks_by_client, all_reminders
 
 
 def categorize_reminders(all_reminders):
-    """Split reminders into today and upcoming"""
+    """Split reminders into today/overdue and upcoming"""
     today = datetime.now().date()
-
     today_reminders = []
     upcoming_reminders = []
 
@@ -123,7 +163,7 @@ def categorize_reminders(all_reminders):
 
 def count_priorities(tasks):
     """Count tasks by priority"""
-    counts = {'P0': 0, 'P1': 0, 'P2': 0, 'P3': 0}
+    counts = {"P0": 0, "P1": 0, "P2": 0, "P3": 0}
     for task in tasks:
         priority = task.get('priority', 'P2')
         if priority in counts:
@@ -139,7 +179,10 @@ def escape_html(text):
 
 
 def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
-    """Generate the Task Manager HTML file"""
+    """Generate the Task Manager HTML file with enhanced right panel"""
+
+    # Collect all tasks with due dates for the right panel
+    all_tasks_for_dates = []
 
     # Build client sections HTML
     client_sections = ""
@@ -169,6 +212,7 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             title = escape_html(task.get('title', 'Untitled'))
             task_id = task.get('id')
 
+            # Add task to left panel
             client_sections += f'''                <div class="task priority-{priority}" onclick="openTaskModal('{task_id}')">
                     <div class="task-content">
                         <div class="task-title">{title}</div>
@@ -181,11 +225,126 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
                 </div>
 '''
 
+            # Collect tasks with dates for right panel
+            if task.get('due_date') and due_date != 'No due date':
+                all_tasks_for_dates.append({
+                    'task': task,
+                    'client_name': client_name,
+                    'task_id': task_id
+                })
+
         client_sections += '''            </div>
         </div>
 '''
 
-    # Build today reminders HTML
+    # Sort tasks by due date for right panel
+    all_tasks_for_dates.sort(key=lambda x: x['task'].get('due_date', '9999-12-31'))
+    today_str = datetime.now().strftime('%Y-%m-%d')
+    week_from_now = (datetime.now() + timedelta(days=7)).strftime('%Y-%m-%d')
+
+    # Split tasks into categories
+    overdue_tasks = []
+    today_tasks = []
+    this_week_tasks = []
+    later_tasks = []
+
+    for task_info in all_tasks_for_dates:
+        due_date = task_info['task'].get('due_date', '')
+        if due_date < today_str:
+            overdue_tasks.append(task_info)
+        elif due_date == today_str:
+            today_tasks.append(task_info)
+        elif due_date <= week_from_now:
+            this_week_tasks.append(task_info)
+        else:
+            later_tasks.append(task_info)
+
+    # Build client tasks by date HTML
+    client_tasks_html = ""
+
+    if overdue_tasks:
+        client_tasks_html += '''                <div class="date-section">
+                    <div class="date-section-title overdue">⚠️ Overdue</div>
+'''
+        for task_info in overdue_tasks:
+            task = task_info['task']
+            client = escape_html(task_info['client_name'])
+            title = escape_html(task.get('title', 'Untitled'))
+            priority = task.get('priority', 'P2')
+            due_date = task.get('due_date')
+            task_id = task_info['task_id']
+
+            client_tasks_html += f'''                    <div class="date-task priority-{priority}">
+                        <div class="date-task-content" onclick="openTaskModal('{task_id}')">
+                            <div class="date-task-title">{title}</div>
+                            <div class="date-task-meta">
+                                <span class="task-priority-badge">{priority}</span>
+                                <span>{due_date} • {client}</span>
+                            </div>
+                        </div>
+                        <button class="date-task-complete" onclick="event.stopPropagation(); quickCompleteTask(event, '{task_id}')">✓</button>
+                    </div>
+'''
+        client_tasks_html += '''                </div>
+'''
+
+    if today_tasks:
+        client_tasks_html += '''                <div class="date-section">
+                    <div class="date-section-title today">📅 Due Today</div>
+'''
+        for task_info in today_tasks:
+            task = task_info['task']
+            client = escape_html(task_info['client_name'])
+            title = escape_html(task.get('title', 'Untitled'))
+            priority = task.get('priority', 'P2')
+            due_date = task.get('due_date')
+            task_id = task_info['task_id']
+
+            client_tasks_html += f'''                    <div class="date-task priority-{priority}">
+                        <div class="date-task-content" onclick="openTaskModal('{task_id}')">
+                            <div class="date-task-title">{title}</div>
+                            <div class="date-task-meta">
+                                <span class="task-priority-badge">{priority}</span>
+                                <span>{client}</span>
+                            </div>
+                        </div>
+                        <button class="date-task-complete" onclick="event.stopPropagation(); quickCompleteTask(event, '{task_id}')">✓</button>
+                    </div>
+'''
+        client_tasks_html += '''                </div>
+'''
+
+    if this_week_tasks:
+        client_tasks_html += '''                <div class="date-section">
+                    <div class="date-section-title">📆 This Week</div>
+'''
+        for task_info in this_week_tasks[:15]:  # Limit to 15 to avoid overflow
+            task = task_info['task']
+            client = escape_html(task_info['client_name'])
+            title = escape_html(task.get('title', 'Untitled'))
+            priority = task.get('priority', 'P2')
+            due_date = task.get('due_date')
+            task_id = task_info['task_id']
+
+            client_tasks_html += f'''                    <div class="date-task priority-{priority}">
+                        <div class="date-task-content" onclick="openTaskModal('{task_id}')">
+                            <div class="date-task-title">{title}</div>
+                            <div class="date-task-meta">
+                                <span class="task-priority-badge">{priority}</span>
+                                <span>{due_date} • {client}</span>
+                            </div>
+                        </div>
+                        <button class="date-task-complete" onclick="event.stopPropagation(); quickCompleteTask(event, '{task_id}')">✓</button>
+                    </div>
+'''
+        client_tasks_html += '''                </div>
+'''
+
+    if not (overdue_tasks or today_tasks or this_week_tasks):
+        client_tasks_html = '''                <div class="no-reminders">No tasks with due dates</div>
+'''
+
+    # Build today reminders HTML (legacy format)
     today_html = ""
     if today_reminders:
         for reminder in today_reminders:
@@ -204,7 +363,7 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
     else:
         today_html = '            <div class="no-reminders">No overdue or due today</div>\n'
 
-    # Build upcoming reminders HTML
+    # Build upcoming reminders HTML (legacy format)
     upcoming_html = ""
     if upcoming_reminders:
         for reminder in upcoming_reminders[:20]:  # Limit to 20 upcoming
@@ -225,102 +384,97 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
     all_tasks_by_id = {}
     for client_tasks in tasks_by_client.values():
         for task in client_tasks:
-            all_tasks_by_id[task['id']] = task
+            task_id = task.get('id')
+            if task_id:
+                all_tasks_by_id[task_id] = task
 
-    task_data = json.dumps(all_tasks_by_id, indent=2, default=str)
+    task_data_json = json.dumps(all_tasks_by_id, indent=4)
+    # Combine reminders back together for JavaScript
+    all_reminders = today_reminders + upcoming_reminders
+    reminder_data_json = json.dumps(all_reminders, indent=4)
 
-    # Build reminder data JSON for reference
-    reminder_data = json.dumps(
-        {r['id']: r for r in today_reminders + upcoming_reminders},
-        indent=2,
-        default=str
-    )
-
+    # Generate the complete HTML
     html_content = f'''<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetesBrain - Task Manager & Reminders</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%234a7c3a'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial, sans-serif' font-weight='bold'>T</text></svg>">
     <style>
-        * {{ box-sizing: border-box; }}
-        body {{
-            font-family: Verdana, Geneva, sans-serif;
-            font-size: 13px;
-            line-height: 1.5;
-            background-color: #f5f5f5;
-            padding: 20px;
+        * {{
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
         }}
         .container {{
             max-width: 1800px;
             margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
         }}
         .header {{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #e0e0e0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }}
-        h1 {{ color: #333; margin: 0; font-size: 32px; }}
+        h1 {{
+            font-size: 24px;
+            margin-bottom: 12px;
+        }}
         .nav-buttons {{
             display: flex;
             gap: 10px;
-            margin-bottom: 20px;
-            align-items: center;
             flex-wrap: wrap;
         }}
-        .nav-link, .action-btn {{
-            padding: 10px 20px;
-            background: #6c757d;
+        .nav-btn {{
+            background: rgba(255, 255, 255, 0.2);
             color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 13px;
-            font-weight: 600;
-            border: none;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 8px 16px;
+            border-radius: 6px;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.3s;
+            font-size: 13px;
         }}
-        .nav-link:hover, .action-btn:hover {{
-            background: #5a6268;
+        .nav-btn:hover {{
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
         }}
-        .action-btn {{
-            background: #17a2b8;
+        #process-notes-btn {{
+            display: none;
+            background: #28a745;
+            border-color: #28a745;
         }}
-        .action-btn:hover {{
-            background: #138496;
-        }}
-        .nav-separator {{
-            margin: 0 10px;
-            color: #6c757d;
+        #process-notes-btn:hover {{
+            background: #218838;
         }}
         .content-wrapper {{
             display: grid;
-            grid-template-columns: 1fr 350px;
+            grid-template-columns: 1fr 1fr;
             gap: 20px;
         }}
         .clients-column {{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-height: 700px;
+            overflow-y: auto;
         }}
         .client-section {{
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            overflow: hidden;
-            background: white;
+            margin-bottom: 12px;
         }}
         .client-header {{
-            background: #e8e8e8;
-            color: #333;
-            padding: 10px 12px;
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 6px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
@@ -328,16 +482,17 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             transition: all 0.2s;
         }}
         .client-header:hover {{
-            background: #ddd;
+            background: #e9ecef;
         }}
         .client-name {{
+            font-weight: 600;
+            color: #495057;
             font-size: 14px;
-            font-weight: bold;
         }}
         .client-stats {{
             display: flex;
-            gap: 5px;
-            font-size: 10px;
+            gap: 6px;
+            flex-wrap: wrap;
         }}
         .client-stat {{
             background: rgba(0,0,0,0.1);
@@ -445,7 +600,7 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             border: 2px solid #e0e0e0;
             border-radius: 8px;
             padding: 15px;
-            max-height: 500px;
+            max-height: 700px;
             overflow-y: auto;
             position: sticky;
             top: 20px;
@@ -457,6 +612,102 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             margin-bottom: 12px;
             padding-bottom: 8px;
             border-bottom: 2px solid #6c757d;
+        }}
+        .client-tasks-section {{
+            background: white;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 15px;
+        }}
+        .client-tasks-title {{
+            font-size: 13px;
+            font-weight: 700;
+            color: #495057;
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #dee2e6;
+        }}
+        .date-section {{
+            margin-bottom: 15px;
+        }}
+        .date-section-title {{
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 8px;
+        }}
+        .date-section-title.overdue {{
+            color: #dc3545;
+        }}
+        .date-section-title.today {{
+            color: #ffc107;
+        }}
+        .date-task {{
+            background: white;
+            padding: 8px;
+            margin-bottom: 6px;
+            border-radius: 4px;
+            border-left: 3px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s;
+        }}
+        .date-task:hover {{
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transform: translateX(2px);
+        }}
+        .date-task.priority-P0 {{
+            border-left-color: #dc3545;
+        }}
+        .date-task.priority-P1 {{
+            border-left-color: #ffc107;
+        }}
+        .date-task.priority-P2 {{
+            border-left-color: #28a745;
+        }}
+        .date-task.priority-P3 {{
+            border-left-color: #6c757d;
+        }}
+        .date-task-content {{
+            flex: 1;
+            cursor: pointer;
+        }}
+        .date-task-title {{
+            font-weight: 600;
+            color: #333;
+            font-size: 12px;
+            margin-bottom: 3px;
+        }}
+        .date-task-meta {{
+            font-size: 10px;
+            color: #666;
+            display: flex;
+            gap: 6px;
+        }}
+        .task-priority-badge {{
+            background: #f0f0f0;
+            padding: 1px 4px;
+            border-radius: 2px;
+            font-weight: 600;
+        }}
+        .date-task-complete {{
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            opacity: 0;
+        }}
+        .date-task:hover .date-task-complete {{
+            opacity: 1;
+        }}
+        .date-task-complete:hover {{
+            background: #218838;
         }}
         .reminders-section {{
             margin-bottom: 15px;
@@ -539,99 +790,78 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
         }}
         .modal.open {{
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
         }}
         .modal-content {{
-            background-color: white;
-            padding: 30px;
+            background: white;
             border-radius: 8px;
             width: 90%;
             max-width: 600px;
             max-height: 80vh;
-            overflow-y: auto;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
         }}
         .modal-header {{
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
             font-size: 18px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #e0e0e0;
+            font-weight: 600;
         }}
         .modal-body {{
-            margin-bottom: 20px;
-        }}
-        .task-detail {{
-            margin-bottom: 15px;
-        }}
-        .task-detail-label {{
-            font-weight: 600;
-            color: #666;
-            font-size: 12px;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-        }}
-        .task-detail-value {{
-            color: #333;
-            padding: 8px 12px;
-            background: #f5f5f5;
-            border-radius: 4px;
+            padding: 20px;
+            flex: 1;
+            overflow-y: auto;
         }}
         .note-section {{
-            margin: 20px 0;
+            padding: 15px 20px;
+            border-top: 1px solid #e0e0e0;
+            background: #f8f9fa;
         }}
         .note-label {{
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 8px;
             display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #495057;
+            font-size: 13px;
         }}
         .note-textarea {{
             width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
+            min-height: 80px;
+            padding: 10px;
+            border: 1px solid #ced4da;
             border-radius: 4px;
-            font-family: Arial, sans-serif;
-            font-size: 13px;
-            min-height: 120px;
+            font-size: 14px;
             resize: vertical;
-            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }}
         .note-textarea:focus {{
             outline: none;
-            border-color: #6c757d;
-            box-shadow: 0 0 0 3px rgba(108,117,125,0.1);
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }}
         .modal-buttons {{
+            padding: 15px 20px;
+            border-top: 1px solid #e0e0e0;
             display: flex;
             gap: 10px;
             justify-content: flex-end;
-            padding-top: 15px;
-            border-top: 2px solid #e0e0e0;
         }}
         .modal-btn {{
-            padding: 10px 20px;
+            padding: 8px 16px;
             border: none;
-            border-radius: 5px;
-            font-weight: 600;
+            border-radius: 4px;
+            font-size: 14px;
             cursor: pointer;
             transition: all 0.2s;
         }}
         .modal-btn-cancel {{
-            background: #e0e0e0;
-            color: #333;
+            background: #e9ecef;
+            color: #495057;
         }}
         .modal-btn-cancel:hover {{
-            background: #d0d0d0;
-        }}
-        .modal-btn-save {{
-            background: #6c757d;
-            color: white;
-        }}
-        .modal-btn-save:hover {{
-            background: #5a6268;
+            background: #dee2e6;
         }}
         .modal-btn-complete {{
             background: #28a745;
@@ -639,6 +869,19 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
         }}
         .modal-btn-complete:hover {{
             background: #218838;
+        }}
+        .modal-btn-save {{
+            background: #667eea;
+            color: white;
+        }}
+        .modal-btn-save:hover {{
+            background: #5969d8;
+        }}
+        .task-detail-label {{
+            font-weight: 600;
+            color: #6c757d;
+            font-size: 12px;
+            text-transform: uppercase;
         }}
         @media (max-width: 1200px) {{
             .content-wrapper {{
@@ -655,16 +898,14 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
     <div class="container">
         <div class="header">
             <h1>PetesBrain - Task Manager & Reminders</h1>
-        </div>
-
-        <div class="nav-buttons">
-            <a href="tasks-overview-priority.html" class="nav-link">📊 By Priority</a>
-            <a href="tasks-overview.html" class="nav-link">👥 By Client</a>
-            <span class="nav-separator">|</span>
-            <button class="action-btn" onclick="toggleAllClients()">Expand All Clients</button>
-            <button class="action-btn" onclick="refreshTaskManager()" style="background: #17a2b8;">🔄 Refresh</button>
-            <button class="action-btn" onclick="hardRefresh()" style="background: #6c757d; font-size: 12px;">⚙️ Hard Refresh</button>
-            <button class="action-btn" onclick="processAllNotes()" style="background: #28a745; display: none;" id="process-notes-btn">📋 Process Notes</button>
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="window.open('tasks-overview-priority.html', '_blank')">🎯 Priority View</button>
+                <button class="nav-btn" onclick="window.open('tasks-overview.html', '_blank')">👥 Client View</button>
+                <button class="nav-btn" onclick="toggleAllClients()">⚡ Toggle All</button>
+                <button class="nav-btn" onclick="hardRefresh()">🔄 Hard Refresh</button>
+                <button class="nav-btn" onclick="refreshTaskManager()">♻️ Regenerate</button>
+                <button class="nav-btn" id="process-notes-btn" onclick="processAllNotes()">📋 Process Notes</button>
+            </div>
         </div>
 
         <div class="content-wrapper">
@@ -673,7 +914,12 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
             </div>
 
             <div class="reminders-column">
-                <div class="reminders-title">📌 Reminders</div>
+                <div class="reminders-title">📌 Client Tasks & Reminders</div>
+
+                <div class="client-tasks-section">
+                    <div class="client-tasks-title">📋 Client Tasks by Due Date</div>
+{client_tasks_html}
+                </div>
 
                 <div class="reminders-section">
                     <div class="reminders-section-title">Today & Overdue</div>
@@ -727,8 +973,8 @@ def generate_html(tasks_by_client, today_reminders, upcoming_reminders):
     </div>
 
     <script>
-const TASK_DATA = {task_data};
-const REMINDER_DATA = {reminder_data};
+const TASK_DATA = {task_data_json};
+const REMINDER_DATA = {reminder_data_json};
 
 function toggleClient(clientName) {{
     console.log('Toggling client:', clientName);
@@ -958,7 +1204,7 @@ function quickCompleteTask(event, taskId) {{
             // Update the note count
             checkForNotes();
             // Show visual feedback - fade out the task
-            const taskElement = event.target.closest('.task');
+            const taskElement = event.target.closest('.task, .date-task');
             if (taskElement) {{
                 taskElement.style.opacity = '0.5';
                 taskElement.style.backgroundColor = '#e8f5e9';
@@ -1064,18 +1310,18 @@ window.addEventListener('DOMContentLoaded', checkForNotes);
 
 def main():
     """Main execution"""
-    print("Regenerating Task Manager...")
+    print("Regenerating Task Manager (Enhanced Version)...")
 
     tasks_by_client, all_reminders = load_all_tasks()
     today_reminders, upcoming_reminders = categorize_reminders(all_reminders)
     html = generate_html(tasks_by_client, today_reminders, upcoming_reminders)
 
     # Write to file
-    output_file = PROJECT_ROOT / 'tasks-manager.html'
+    output_file = PROJECT_ROOT / 'tasks-manager-v2.html'
     with open(output_file, 'w') as f:
         f.write(html)
 
-    print(f"\n✅ Generated tasks-manager.html")
+    print(f"\n✅ Generated tasks-manager-v2.html")
     print(f"   Total clients: {len(tasks_by_client)}")
     print(f"   Total tasks: {sum(len(tasks) for tasks in tasks_by_client.values())}")
     print(f"   Total reminders: {len(all_reminders)}")

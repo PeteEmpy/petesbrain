@@ -12,33 +12,49 @@ allowed-tools: Bash, Read
 
 When this skill is invoked:
 
-1. **Generate the priority-based task overview**:
+1. **Generate all task views** (consolidated script):
    ```bash
-   cd /Users/administrator/Documents/PetesBrain
-   python3 generate-tasks-overview.py
+   cd /Users/administrator/Documents/PetesBrain.nosync
+   python3 generate-all-task-views.py
    ```
 
-2. **Open in browser**:
+2. **Check if HTTP server is already running**:
    ```bash
-   open /Users/administrator/Documents/PetesBrain/tasks-overview-priority.html
+   lsof -ti :8767 > /dev/null 2>&1
    ```
 
-3. **Confirm to user**:
+3. **Start HTTP server if not running** (in background):
+   ```bash
+   if [ $? -ne 0 ]; then
+     python3 /Users/administrator/Documents/PetesBrain.nosync/shared/scripts/serve-task-manager.py > /dev/null 2>&1 &
+     sleep 1
+   fi
    ```
-   ✅ Task Manager opened - displaying all tasks by priority
 
-   View: Priority-based view (P0 → P1 → P2 → P3)
-   Location: tasks-overview-priority.html
+4. **Open in browser via HTTP** (not file://):
+   ```bash
+   open "http://localhost:8767/tasks-manager.html"
+   ```
+
+5. **Confirm to user**:
+   ```
+   ✅ Task Manager & Reminders opened
+
+   View: Task Manager & Reminders
+   URL: http://localhost:8767/tasks-manager.html
 
    The task manager shows:
-   - All internal client tasks (clients/*/tasks.json)
-   - All Google Tasks (via Google Tasks API)
-   - Total tasks from both sources combined
-   - Organized by priority level (P0, P1, P2, P3)
-   - Source clearly labeled (Internal vs Google Tasks)
+   - All client tasks (organized by client)
+   - Personal reminders (roksys section)
+   - All tasks from clients/*/tasks.json
+   - Organized by client with collapsible sections
    - Parent-child task relationships
    - Due dates, time estimates, and notes
+   - Recurring tasks clearly marked
    - Collapsible sections for easy navigation
+
+   ✅ Backend notes server connected (localhost:8766)
+   "Save to Manual Tasks" button will work correctly
 
    Example output:
    Total: 67 active tasks
@@ -88,8 +104,24 @@ When this skill is invoked:
 - Data refreshes each time the generator is run
 - Google Tasks priority is extracted from title tags: [P0], [P1], [P2], [P3]
 
+**HTTP Server & Backend Connection**:
+- Task Manager MUST be served via HTTP (not file://) to connect to backend
+- HTTP server runs on port 8767 (serves HTML files)
+- Backend notes server runs on port 8766 (saves manual task notes)
+- Browser security blocks file:// → http://localhost connections
+- HTTP → HTTP connections work correctly
+- "Save to Manual Tasks" button requires both servers running
+
+**Server Status**:
+- HTTP server: Check with `lsof -ti :8767`
+- Backend server: Check with `lsof -ti :8766`
+- Backend LaunchAgent: `launchctl list | grep task-notes-server`
+
 ---
 
-**File**: tasks-overview-priority.html
-**Generator**: generate-tasks-overview-priority.py
-**Template**: tasks-overview-priority-template.html
+**Files**:
+- Consolidated Generator: `generate-all-task-views.py` (generates all 3 views)
+- HTML Views: `tasks-overview.html`, `tasks-overview-priority.html`, `tasks-manager.html`
+- Templates: `tasks-overview-template.html`, `tasks-overview-priority-template.html`
+- HTTP Server: `shared/scripts/serve-task-manager.py`
+- Backend Server: `shared/scripts/save-task-notes.py`
