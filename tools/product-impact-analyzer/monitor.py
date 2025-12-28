@@ -161,14 +161,26 @@ class ProductMonitor:
 
         try:
             with open(latest_snapshot) as f:
-                products = json.load(f)
+                feed_data = json.load(f)
+
+            # Handle both old format (list) and new format (dict with 'products' key)
+            if isinstance(feed_data, list):
+                products = feed_data
+            elif isinstance(feed_data, dict) and 'products' in feed_data:
+                products = feed_data['products']
+            else:
+                self.log(f"  Warning: Unexpected product feed format in {latest_snapshot.name}")
+                return {}
 
             # Normalize product IDs for matching
             normalized = {}
             for product in products:
-                product_id = normalize_product_id(product.get('product_id', ''))
-                if product_id:
-                    normalized[product_id] = product
+                if isinstance(product, dict):
+                    product_id = normalize_product_id(product.get('product_id', ''))
+                    if product_id:
+                        normalized[product_id] = product
+                else:
+                    self.log(f"  Warning: Product is not a dict: {type(product)}")
 
             return normalized
         except Exception as e:
@@ -231,6 +243,22 @@ class ProductMonitor:
 
         return metrics_by_product
 
+    def load_current_labels(self, client: str) -> Dict[str, str]:
+        """Load current product labels for opportunity detection"""
+        client_slug = client.replace(' ', '-').lower()
+        labels_file = self.base_dir / 'history' / 'label-transitions' / client_slug / 'current-labels.json'
+
+        if not labels_file.exists():
+            return {}
+
+        try:
+            with open(labels_file) as f:
+                data = json.load(f)
+            return data.get('products', {})
+        except Exception as e:
+            self.log(f"  Warning: Could not load labels for {client}: {e}")
+            return {}
+
     def detect_alerts(self, client: str, current: Dict[str, Dict], previous: Optional[Dict[str, Dict]]) -> List[Alert]:
         """Detect critical changes requiring alerts"""
         alerts = []
@@ -238,6 +266,9 @@ class ProductMonitor:
         if not previous:
             self.log(f"  No previous snapshot for {client} - establishing baseline")
             return alerts
+
+        # Load labels for root cause analysis
+        labels = self.load_current_labels(client)
 
         # Get client-specific thresholds or use global defaults
         client_config = self.get_client_config(client)
@@ -262,13 +293,35 @@ class ProductMonitor:
 
             # Critical revenue drop
             if revenue_change < -revenue_drop_threshold:
+                # 🔍 Multi-variable root cause analysis
+                root_cause_hints = []
+                availability = current_metrics.get('availability', 'NOT_SET')
+                label = labels.get(product_id, 'unknown').lower()
+
+                if availability == 'out of stock':
+                    root_cause_hints.append("⚠️ OUT OF STOCK")
+                elif availability == 'NOT_SET':
+                    root_cause_hints.append("❓ Availability unknown")
+
+                if label != 'unknown':
+                    root_cause_hints.append(f"Label: {label.capitalize()}")
+
+                clicks_change = current_metrics.get('clicks', 0) - prev_metrics.get('clicks', 0)
+                if clicks_change < -5:
+                    root_cause_hints.append(f"Clicks: {clicks_change:+d}")
+
+                root_cause_text = " | ".join(root_cause_hints) if root_cause_hints else ""
+                message = f"Revenue dropped £{abs(revenue_change):.2f} in last 24 hours"
+                if root_cause_text:
+                    message += f" ({root_cause_text})"
+
                 alerts.append(Alert(
                     severity="critical",
                     alert_type="revenue_drop",
                     client=client,
                     product_id=product_id,
                     product_title=current_metrics['product_title'],
-                    message=f"Revenue dropped £{abs(revenue_change):.2f} in last 24 hours",
+                    message=message,
                     metric_value=revenue_change,
                     threshold_value=-revenue_drop_threshold,
                     timestamp=datetime.now().isoformat()
@@ -276,13 +329,29 @@ class ProductMonitor:
 
             # Revenue spike (investigate opportunity)
             if revenue_change > revenue_spike_threshold:
+                # 🔍 Multi-variable root cause analysis
+                root_cause_hints = []
+                label = labels.get(product_id, 'unknown').lower()
+
+                if label != 'unknown':
+                    root_cause_hints.append(f"Label: {label.capitalize()}")
+
+                clicks_change = current_metrics.get('clicks', 0) - prev_metrics.get('clicks', 0)
+                if clicks_change > 5:
+                    root_cause_hints.append(f"Clicks: {clicks_change:+d}")
+
+                root_cause_text = " | ".join(root_cause_hints) if root_cause_hints else ""
+                message = f"Revenue spiked +£{revenue_change:.2f} in last 24 hours - investigate!"
+                if root_cause_text:
+                    message += f" ({root_cause_text})"
+
                 alerts.append(Alert(
                     severity="info",
                     alert_type="revenue_spike",
                     client=client,
                     product_id=product_id,
                     product_title=current_metrics['product_title'],
-                    message=f"Revenue spiked +£{revenue_change:.2f} in last 24 hours - investigate!",
+                    message=message,
                     metric_value=revenue_change,
                     threshold_value=revenue_spike_threshold,
                     timestamp=datetime.now().isoformat()
@@ -293,13 +362,31 @@ class ProductMonitor:
                 click_change_pct = ((current_metrics['clicks'] - prev_metrics['clicks']) / prev_metrics['clicks'] * 100)
 
                 if click_change_pct < -click_drop_threshold_pct:
+                    # 🔍 Multi-variable root cause analysis
+                    root_cause_hints = []
+                    availability = current_metrics.get('availability', 'NOT_SET')
+                    label = labels.get(product_id, 'unknown').lower()
+
+                    if availability == 'out of stock':
+                        root_cause_hints.append("⚠️ OUT OF STOCK")
+                    elif availability == 'NOT_SET':
+                        root_cause_hints.append("❓ Availability unknown")
+
+                    if label != 'unknown':
+                        root_cause_hints.append(f"Label: {label.capitalize()}")
+
+                    root_cause_text = " | ".join(root_cause_hints) if root_cause_hints else ""
+                    message = f"Clicks dropped {abs(click_change_pct):.1f}% in last 24 hours"
+                    if root_cause_text:
+                        message += f" ({root_cause_text})"
+
                     alerts.append(Alert(
                         severity="warning",
                         alert_type="click_drop",
                         client=client,
                         product_id=product_id,
                         product_title=current_metrics['product_title'],
-                        message=f"Clicks dropped {abs(click_change_pct):.1f}% in last 24 hours",
+                        message=message,
                         metric_value=click_change_pct,
                         threshold_value=-click_drop_threshold_pct,
                         timestamp=datetime.now().isoformat()
@@ -363,6 +450,29 @@ class ProductMonitor:
                 threshold_value=out_of_stock_cost_threshold,
                 timestamp=datetime.now().isoformat()
             ))
+
+        # 🎯 NEW: Opportunity alerts for label transitions (Zombie → Hero, Sidekick → Hero)
+        labels = self.load_current_labels(client)
+        if labels:
+            opportunity_threshold = 50  # Minimum revenue for opportunity alert
+
+            for product_id, current_metrics in current.items():
+                # Check if this product has a label
+                label = labels.get(product_id, '').lower()
+
+                # Opportunity: Zombie/Sidekick became profitable
+                if label in ['zombies', 'sidekicks'] and current_metrics.get('revenue', 0) >= opportunity_threshold:
+                    alerts.append(Alert(
+                        severity="info",
+                        alert_type="label_opportunity",
+                        client=client,
+                        product_id=product_id,
+                        product_title=current_metrics['product_title'],
+                        message=f"🎯 Opportunity: {label.capitalize()[:-1]} generating £{current_metrics['revenue']:.2f} revenue - consider promoting to Hero!",
+                        metric_value=current_metrics['revenue'],
+                        threshold_value=opportunity_threshold,
+                        timestamp=datetime.now().isoformat()
+                    ))
 
         return alerts
 
