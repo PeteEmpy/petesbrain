@@ -38,6 +38,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 from analyzer import normalize_product_id
 from sheets_writer import SheetsWriter
 
+# Add project root to path for centralized imports
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+from shared.petesbrain_secrets import get_secret
+
 
 @dataclass
 class Alert:
@@ -391,12 +396,11 @@ class ProductMonitor:
             html_part = MIMEText(html, 'html')
             msg.attach(html_part)
 
-            # Send via Gmail
-            import os
-            gmail_password = os.getenv('GMAIL_APP_PASSWORD')
+            # Send via Gmail (password from Keychain)
+            gmail_password = get_secret('GMAIL_APP_PASSWORD', fallback_env_var='GMAIL_APP_PASSWORD')
 
             if not gmail_password:
-                self.log("  GMAIL_APP_PASSWORD not set - cannot send email")
+                self.log("  ⚠ GMAIL_APP_PASSWORD not set - cannot send email (check Keychain or environment)")
                 return
 
             with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:

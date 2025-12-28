@@ -42,6 +42,11 @@ from analyzer import (
 from label_validation_report import generate_label_validation_section
 from sheets_writer import SheetsWriter
 
+# Add project root to path for centralized imports
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+from shared.petesbrain_secrets import get_secret
+
 
 class AutomatedAnalyzer:
     """Orchestrates automated weekly analysis"""
@@ -342,14 +347,11 @@ class AutomatedAnalyzer:
             html_part = MIMEText(html_content, 'html')
             msg.attach(html_part)
 
-            # Send via Gmail SMTP (requires app password)
-            # Note: This requires GMAIL_APP_PASSWORD environment variable
-            import os
-            gmail_password = os.getenv('GMAIL_APP_PASSWORD')
+            # Send via Gmail SMTP (requires app password from Keychain)
+            gmail_password = get_secret('GMAIL_APP_PASSWORD', fallback_env_var='GMAIL_APP_PASSWORD')
 
             if not gmail_password:
-                self.log("  ⚠ GMAIL_APP_PASSWORD not set - cannot send email")
-                self.log("    Set via: export GMAIL_APP_PASSWORD='your-app-password'")
+                self.log("  ⚠ GMAIL_APP_PASSWORD not set - cannot send email (check Keychain or environment)")
                 return
 
             email_from = alert_settings.get('email_from', 'petere@roksys.co.uk')
