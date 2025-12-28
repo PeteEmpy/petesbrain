@@ -4,6 +4,36 @@ Reverse chronological log of significant decisions and changes.
 
 ---
 
+## 2025-12-28: Enhancement Research & Planning
+
+**Analysed:**
+- Current system strengths (17 clients, 5 agents, Hero classification, multi-level alerts)
+- Critical gaps (product feed errors, no cross-client intelligence, reactive-only alerts)
+- Enhancement opportunities across Quick Wins, Strategic Improvements, Advanced Capabilities
+- Implementation effort vs impact for 12 potential enhancements
+
+**Decided:**
+- Organised enhancements into 3 tiers: Quick Wins (1 week), Strategic (2-3 weeks), Advanced (1-2 months)
+- Prioritised P0 fixes: Product feed error, Disapproval monitor health verification
+- Identified revenue attribution breakdown as high-value strategic improvement
+- Recommended phased approach starting with critical fixes before new features
+
+**Documented:**
+- Created comprehensive enhancement research document: `enhancement-research-2025-12-28.md`
+- Detailed 12 enhancement ideas with effort estimates, dependencies, impact analysis
+- Built comparison matrix for prioritisation decisions
+- Listed 5 key questions to guide user prioritisation
+
+**Status:** ✅ Research Complete - Awaiting User Prioritisation
+
+**Next Session:**
+- User reviews 12 enhancement ideas
+- User answers prioritisation questions (most common questions, time spent investigating, etc.)
+- Select Phase 1 enhancements to implement
+- Begin implementation based on selected priorities
+
+---
+
 ## 2025-12-28: Standards Compliance Audit & Remediation
 
 **Analysed:**
