@@ -37,6 +37,7 @@ from email.mime.multipart import MIMEMultipart
 sys.path.insert(0, str(Path(__file__).parent))
 from analyzer import normalize_product_id
 from sheets_writer import SheetsWriter
+from revenue_classifier import RevenueClassifier
 
 # Add project root to path for centralized imports
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -76,6 +77,9 @@ class ProductMonitor:
 
         # Initialize Sheets writer for historical tracking
         self.sheets_writer = SheetsWriter(config_path)
+
+        # Initialize revenue classifier
+        self.revenue_classifier = RevenueClassifier()
 
         # Load monitoring config
         self.monitor_config = self.config.get('monitoring', {
@@ -668,6 +672,26 @@ class ProductMonitor:
             # Aggregate current metrics (last 24 hours)
             current_metrics = self.aggregate_product_metrics(current_ads_data, client_name, days_back=1)
             self.log(f"  Found {len(current_metrics)} active products")
+
+            # 🆕 Revenue classification analysis
+            labels = self.load_current_labels(client_name)
+            revenue_classifications, revenue_stats = self.revenue_classifier.classify_products(
+                current_metrics,
+                external_labels=labels
+            )
+
+            if revenue_stats and revenue_stats.get('total_products', 0) > 0:
+                self.log(f"  Revenue concentration: Top 20% generate {revenue_stats['hero_revenue_pct']:.1f}% of revenue")
+                if revenue_stats.get('mismatch_count', 0) > 0:
+                    self.log(f"  ⚠️  {revenue_stats['mismatch_count']} label mismatches detected")
+
+                # Find high-value mismatches
+                high_value_mismatches = self.revenue_classifier.find_high_value_mismatches(
+                    revenue_classifications,
+                    min_revenue=100
+                )
+                if high_value_mismatches:
+                    self.log(f"  ⚠️  {len(high_value_mismatches)} high-value products misclassified as Villains/Zombies")
 
             # Load previous snapshot
             previous_metrics = self.load_previous_snapshot(client_name)
