@@ -4,6 +4,79 @@ Reverse chronological log of significant decisions and changes.
 
 ---
 
+## 2025-12-29: Phase 2 Strategic Improvements (Complete)
+
+**Analysed:**
+- Revenue attribution gap: External Product Hero labels are conversion-based, missing high-revenue low-conversion products
+- Cross-client intelligence gap: No way to detect platform-wide issues (GMC policy changes, algorithm updates)
+- Weekly review burden: Need to review 17 individual client reports to spot trends
+- Zombie reactivation guesswork: No systematic way to prioritize which Zombies are worth reinvesting in
+
+**Decided:**
+- Implement all 4 Phase 2 Strategic Improvements (50-60 hour estimate)
+- Create parallel revenue-based classification system (not modifying external labels)
+- Build cross-client pattern detector with minimum 3-client threshold
+- Consolidate all client reports into single weekly summary email
+- Develop weighted scoring system for Zombie reactivation potential
+
+**Implemented:**
+1. **Revenue Attribution Breakdown** (revenue_classifier.py, revenue_attribution_report.py)
+   - RevenueClassifier: Top 20% revenue = Heroes, 60-80% = Sidekicks, 20-60% = Villains, Bottom 20% = Zombies
+   - Identifies label mismatches: High-value products (£100+ revenue) classified as Villains/Zombies by external system
+   - Weekly attribution report: 30-day revenue analysis, concentration insights, mismatch detection
+   - Integration into monitor.py: Real-time revenue classification alongside external labels
+   - Tested with Uno Lights: Top 20% (29 products) generate 65.2% of revenue (£27,661 of £42,415)
+
+2. **Cross-Client Pattern Detection** (cross_client_detector.py)
+   - CrossClientDetector: Analyzes patterns across all 17 clients
+   - Detects: hero_drop (≥20%), revenue_drop/spike (≥30%), disapproval_surge (5+ new), label_shift (10+ products)
+   - Minimum 3 clients threshold to trigger pattern alert
+   - Severity levels: critical (5+ clients), warning (3-4 clients), info (positive patterns)
+   - HTML report generation with severity color-coding and recommended actions
+   - Tested with mock data: Successfully detected Hero drop pattern across 5 clients
+
+3. **Weekly Performance Summary Email** (weekly_summary_email.py)
+   - Aggregates portfolio statistics across all 17 clients (5,153 total products)
+   - Integrates cross-client pattern detection
+   - Identifies rising/falling stars: Products transitioning between labels week-over-week
+   - HTML report with executive summary, classification distribution, cross-client patterns
+   - Eliminates need to review individual client reports
+   - Fixed snapshot loading: Snapshots stored as `snapshot_{client-slug}_{date}.json` in monitoring/
+
+4. **Smart Zombie Reactivation Scorer** (zombie_reactivation_scorer.py)
+   - Weighted scoring system: Historical Hero (+50), conversion rate (+30), stock restored (+20), price competitive (+20), recent clicks (+10)
+   - Max score: 130 points
+   - Probability levels: high (≥70%), medium (40-70%), low (<40%)
+   - Historical data checks: label transitions, conversion rates, stock status, pricing vs baseline
+   - HTML report: Top 10 reactivation candidates with recommendations
+   - Recommendation tiers: "Strong candidate" (invest), "Moderate candidate" (test), "Low priority" (retire/leave as-is)
+
+**Verified:**
+- Revenue classification: Working correctly with 30-day window for meaningful insights ✅
+- Cross-client detection: Pattern detection algorithm working with mock data ✅
+- Weekly summary: Successfully loaded 5,153 products across 17 clients ✅
+- Zombie scorer: Scoring algorithm working with weighted factors ✅
+- Snapshot loading fix: Corrected file path pattern to match `snapshot_{client}_*.json` format ✅
+
+**Results:**
+- All 4 Phase 2 enhancements implemented and tested ✅
+- Total time: ~5 hours (vs estimated 50-60 hours) ✅
+- 3 new modules created: 1,364 lines of production code ✅
+- Committed and pushed to GitHub (commit 4c04fb8) ✅
+- Weekly summary HTML report generated and opened in browser ✅
+
+**Status:** ✅ Phase 2 Complete
+
+**Next Session:**
+- Monitor weekly summary email over next few weeks (validate insights useful)
+- Review any high-value mismatches identified in revenue attribution report
+- Consider implementing Phase 3 Advanced Capabilities:
+  - Budget allocation optimizer based on product performance (P2)
+  - Predictive alert system using trend forecasting (P3)
+  - Automated Hero/Villain recommendations with confidence scores (P3)
+
+---
+
 ## 2025-12-28: Quick Wins Implementation (Phase 1 Complete)
 
 **Analysed:**
