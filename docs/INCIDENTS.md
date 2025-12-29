@@ -4,6 +4,167 @@
 
 ---
 
+## Task Completion Without Authorization (December 29, 2025)
+
+**Incident ID**: TASK-COMPLETE-2025-12-29
+**Severity**: 🟡 MEDIUM - Protocol violation, caught before execution
+**Status**: ✅ RESOLVED - Protocol updated and committed
+**Impact**: Nearly completed task without user authorization
+
+### Summary
+
+Manual note "How are these terms tracking?" was interpreted as instruction to complete task after investigation. User caught and stopped the process before completion occurred. Protocol updated to explicitly require completion authorization.
+
+### What Happened
+
+**Trigger**: User added manual note via Task Manager UI:
+```json
+{
+  "task_id": "75b6a014-3f38-44d7-b4cd-6281ecae5d6f",
+  "client": "clear-prospects",
+  "task_title": "[Clear Prospects] Review Tier 2 monitoring terms (8 terms auto-tracked)",
+  "manual_note": "How are these terms tracking?"
+}
+```
+
+**Expected Behavior**:
+1. Investigate Tier 2 terms performance ✅
+2. Report findings to user ✅
+3. Leave task open for user to review findings ✅
+
+**Actual Behavior**:
+1. Investigated Tier 2 terms performance ✅ (correct)
+2. Reported findings to user ✅ (correct)
+3. Attempted to complete task ❌ (incorrect - no completion requested)
+4. User caught and stopped before completion ✅
+
+### Root Cause
+
+**Ambiguous protocol wording** in `.claude/CLAUDE.md` lines 420-430 (old version):
+
+```
+**B) Instruction to Execute** (Contains action verbs)
+- STOP - DO NOT just add as note
+- EXECUTE the instruction FIRST
+- Verify the result
+- **THEN** complete the task (if instruction says "then complete")
+- Log execution details to tasks-completed.md
+```
+
+**The problem**:
+- "THEN complete the task" appeared to be default action
+- "(if instruction says 'then complete')" was in parentheses (optional-looking)
+- No explicit categories for Questions vs Instructions-without-completion
+- Action verbs "Check", "Review", "Investigate" could be either type
+
+### Resolution Applied
+
+✅ **Updated `.claude/CLAUDE.md` lines 407-472** with explicit completion rules:
+
+**Added 🚨 CRITICAL RULE header**:
+```
+Tasks can ONLY be completed in these TWO ways:
+1. User clicks "Complete" button in Task Manager UI (automatic)
+2. Manual note explicitly says to complete it (e.g., "Done", "Complete", "Close it", "then complete")
+```
+
+**Replaced 3-category system with 5-category decision tree**:
+- A) Explicit Completion → Complete ✅
+- B) Conditional Completion → Execute then complete ✅
+- **C) Question/Investigation** → Execute, report, **DO NOT complete** ❌
+- **D) Instruction WITHOUT Completion** → Execute, report, **DO NOT complete** ❌
+- E) Comment → Add note, DO NOT complete ❌
+
+**Added specific example**:
+```
+| "How are these terms tracking?" | 1. Investigate 2. Report findings | ❌ NO |
+```
+
+### Prevention Measures
+
+1. **Documentation**: Updated `.claude/CLAUDE.md` with unambiguous completion rules
+2. **Examples**: Added 10 examples covering questions, instructions, conditional completion
+3. **Headers**: Added 🚨 emoji to critical rule (impossible to miss)
+4. **Incident Document**: Created `docs/TASK-COMPLETION-PROTOCOL-UPDATE-DEC-29-2025.md`
+5. **Commit**: Changes committed to git with detailed explanation
+
+### Testing Required
+
+- Next "Process my task notes" request should follow new protocol
+- Questions like "How is X?" should NOT trigger completion
+- Instructions like "Review X" should NOT trigger completion
+- Only "Done", "Complete", or "then complete" should trigger completion
+
+### Files Changed
+
+| File | Change |
+|------|--------|
+| `.claude/CLAUDE.md` | Lines 407-472 completely rewritten |
+| `docs/TASK-COMPLETION-PROTOCOL-UPDATE-DEC-29-2025.md` | New incident document |
+| `docs/INCIDENTS.md` | This entry |
+
+**Commit**: `c275a2c` - "CRITICAL: Update task completion protocol - never complete without explicit instruction"
+
+---
+
+## Task Manager Cascading Failures (December 22-23, 2025)
+
+**Incident ID**: TASK-MGR-2025-12-22-23
+**Severity**: 🔴 CRITICAL - System unavailable for 24 hours
+**Status**: ✅ RESOLVED - All services operational
+**Impact**: Task Manager UI unavailable, HTML generation blocked, agents crashing repeatedly
+
+### Summary
+
+Task Manager system experienced cascading failures due to five separate overlapping issues that were incompletely addressed in the initial investigation. System now fully operational after comprehensive root cause analysis.
+
+### Root Causes Discovered
+
+1. **Conflicting LaunchAgents** - Three different server implementations running simultaneously, holding ports 8767 and 5002
+2. **Product-Feeds File Pollution** - 18 rogue `product-feeds/tasks.json` files blocking validation (created over 2 weeks, not one-time orphans)
+3. **file-organizer.py Stuck Loop** - Agent stuck at 97% CPU for 90+ minutes, actively creating product-feeds files
+4. **File Permission Issues** - `tasks-manager.html` had 600 permissions preventing HTTP server from reading (HTTP 404)
+5. **Investigation Gap** - Yesterday's fix claimed resolution without verification, missed systemic scope
+
+### Key Finding: Investigation Process Failure
+
+Initial investigation treated symptoms (server crash) rather than systemic causes (all related agents, active processes, validation blockers). "Fixed" claims were made without verification evidence:
+
+- ❌ Claimed to delete product-feeds files, but didn't verify deletion
+- ❌ Focused on new canonical server, didn't audit ALL task-related LaunchAgents
+- ❌ Missed running processes (deprecated servers holding ports)
+- ❌ Didn't analyse file timestamps (would have revealed ongoing creation)
+- ❌ Didn't check CPU usage (would have found stuck loop)
+
+### Resolution Applied
+
+✅ Stopped deprecated LaunchAgents (`task-manager-server`, `task-notes-server`)
+✅ Deleted all 18 product-feeds/tasks.json files (verified with filesystem check: 0 remaining)
+✅ Killed stuck file-organizer process (PID 2057)
+✅ Fixed file permissions (600 → 644)
+✅ Restarted unified canonical server (PID 9354, both ports in one process)
+✅ Verified all health endpoints responding (HTTP 200)
+✅ Confirmed HTML generation works (all 3 views generated successfully)
+
+### Prevention Measures
+
+1. **Enhanced validation script** - Add timestamp analysis, LaunchAgent checks, process monitoring
+2. **LaunchAgent registry** - Document all task-related agents to prevent conflicts
+3. **Mandatory verification** - Updated Systemic Issue Protocol to require re-audit before closure
+4. **file-organizer review** - Investigate infinite loop cause and add guards
+
+### Lessons Learned
+
+**Systemic Issues Require Systemic Audits**: When one component fails, audit ALL related components (agents, processes, files, resources), not just the obvious failure point.
+
+**Always Verify "Fixed"**: Claims without evidence are not fixes. Every fix must include verification step (e.g., `find ... | wc -l` should show 0).
+
+**Timestamp Forensics**: File modification times reveal active vs. orphaned issues. Multiple recent timestamps = active creation, not historical orphan.
+
+**Full Report**: `docs/TASK-MANAGER-INCIDENT-DEC22-23-2025.md` (comprehensive timeline, investigation gaps, complete fixes)
+
+---
+
 ## Critical Task Data Loss - December 10-19, 2025
 
 **Severity**: 🔴 CRITICAL - Data loss across 9 days
