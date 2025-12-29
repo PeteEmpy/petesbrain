@@ -43,6 +43,41 @@ PetesBrain is an AI-powered business management system for a Google Ads agency. 
 
 ---
 
+## 🚨 MANDATORY: Decision Tracking Protocol
+
+**CRITICAL: After ANY significant client decision (budget change, campaign adjustment, strategic pivot), I MUST update session-log.md IMMEDIATELY.**
+
+### The Protocol
+
+**Trigger events** (require session-log.md update):
+- Budget deployments or changes
+- Campaign pauses/activations
+- Bid strategy changes
+- Strategic pivots (e.g., "focus on Diaries, reduce Bags")
+- Client communications sent
+- Performance reviews with actions taken
+
+**Workflow** (ENFORCED):
+
+1. **Execute the work** (API calls, file creation, analysis)
+2. **IMMEDIATELY update session-log.md**:
+   - Add new entry at TOP (reverse chronological)
+   - Use 4-section format (Analysed, Decided, Still investigating, Next session)
+   - Include actual amounts/actions (not vague descriptions)
+3. **If complex session** (5+ files, multi-phase, high-stakes), create session-summary-*.md
+
+**DO NOT:**
+- ❌ Add tactical decisions to CONTEXT.md (strategic only)
+- ❌ Skip session-log.md update ("I'll do it later")
+- ❌ Use vague descriptions ("adjusted budgets" → should be "£5,600 → £12,100")
+
+**Exception**: If session is purely exploratory (no decisions made), session-log.md update not required
+
+**Full protocol**: `docs/DECISION-TRACKING-PROTOCOL.md`
+**Enforcement**: `docs/DECISION-TRACKING-ENFORCEMENT.md`
+
+---
+
 ## Business Context
 
 Roksys operates as the "Self-Improving Agency" — an AI-powered solo PPC consultancy that scales through automation while maintaining owner expertise and personal service.
@@ -416,6 +451,13 @@ launchctl unload ~/Library/LaunchAgents/co.roksys.petesbrain.{agent-name}.plist
 launchctl load ~/Library/LaunchAgents/co.roksys.petesbrain.{agent-name}.plist
 ```
 
+**System health check** (comprehensive validation):
+```bash
+python3 shared/scripts/validate-task-system-health.py
+```
+
+**See**: `docs/LAUNCHAGENT-REGISTRY.md` for complete registry of all 72 agents
+
 ---
 
 ## Critical Patterns & Conventions
@@ -624,9 +666,11 @@ open report.html
 
 ### Operational Guides
 - `docs/ADDING-A-NEW-CLIENT.md` - Complete client onboarding
+- `docs/LAUNCHAGENT-REGISTRY.md` - **Registry of all 72 LaunchAgents** (ports, schedules, dependencies)
 - `docs/AGENT-MONITORING-GUIDE.md` - Agent health monitoring
 - `docs/SYSTEM-HEALTH-MONITORING.md` - System monitoring
 - `docs/BACKUP-SYSTEM.md` - Backup procedures
+- `docs/TASK-MANAGER-INCIDENT-DEC22-23-2025.md` - December 2025 incident report (lessons learned)
 
 ### Developer Guides
 - `README.md` - Project overview
@@ -841,6 +885,44 @@ claude mcp add -s user microsoft-ads "/Users/administrator/Documents/PetesBrain/
 ### Empty Task Notes
 
 If `manual-task-notes.json` is `[]` after processing, report "No task notes to process" - this is normal.
+
+### Task Manager / System Health Issues
+
+**If Task Manager UI is unavailable or system issues suspected, run the comprehensive health check:**
+
+```bash
+python3 shared/scripts/validate-task-system-health.py
+```
+
+**This validates**:
+- Product-feeds violations (rogue tasks.json files in wrong locations)
+- Deprecated LaunchAgents still running
+- Stuck processes (CPU >80%)
+- Port conflicts (8767, 5002)
+- File permissions (tasks-manager.html readable)
+
+**Automated Monitoring**: Health check runs automatically 3x daily (6 AM, 2 PM, 10 PM)
+- Sends macOS notifications if critical issues detected
+- Creates email drafts in `data/alerts/`
+- Logs all alerts to `data/state/task-system-alerts.json`
+
+**Check recent health status**:
+```bash
+# View latest health check output
+tail -50 ~/.petesbrain-task-system-health-check.log
+
+# View alert history
+cat data/state/task-system-alerts.json
+
+# Check if monitoring agent is running
+launchctl list | grep task-system-health-check
+```
+
+**Related Documentation**:
+- `docs/TASK-MANAGER-INCIDENT-DEC22-23-2025.md` - December 2025 incident (5 root causes)
+- `docs/LAUNCHAGENT-REGISTRY.md` - Registry of all 72 LaunchAgents
+- `docs/SYSTEMIC-ISSUE-PROTOCOL.md` - Protocol for investigating systemic issues
+- `shared/scripts/validate-task-system-health.py` - Health validation script
 
 ---
 
