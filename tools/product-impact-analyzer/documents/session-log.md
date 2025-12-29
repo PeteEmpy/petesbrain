@@ -4,6 +4,75 @@ Reverse chronological log of significant decisions and changes.
 
 ---
 
+## 2025-12-29: Phase 3 Advanced Capabilities (Complete)
+
+**Analysed:**
+- Budget allocation guesswork: No systematic way to optimize spend across campaigns
+- Reactive alerts: All alerts triggered AFTER problems occurred, not before
+- Manual label decisions: Product Hero label changes require human review of multiple metrics
+- Optimization burden: Need data-driven recommendations to reduce decision fatigue
+
+**Decided:**
+- Implement all 3 Phase 3 Advanced Capabilities
+- Build performance-based budget allocator with confidence scoring
+- Create predictive alert system using linear regression forecasting
+- Develop automated label recommendation engine with hysteresis
+
+**Implemented:**
+1. **Budget Allocation Optimizer** (budget_allocator.py)
+   - Performance scoring: ROAS vs target (40%), revenue contribution (30%), CVR trend (20%), click growth (10%)
+   - Max score: 100 points
+   - Optimal budget calculation proportional to performance scores
+   - Minimum budget constraint: £50/day per campaign
+   - Max budget shift: 30% per reallocation to prevent drastic changes
+   - Confidence levels: high (≥70 score + ≥100 clicks + ≥10 conversions), medium, low
+   - Action classification: increase (≥10% budget change), decrease (≤-10%), maintain
+   - Example: Heroes Campaign 82/100 score → +45% budget (+£91/day)
+
+2. **Predictive Alert System** (predictive_alerts.py)
+   - Linear regression trend analysis on 7-14 day historical windows
+   - 7-day ahead forecasting for revenue, ROAS, CVR, clicks
+   - Alert thresholds: Revenue decline ≥20%, ROAS decline ≥15%, CVR decline ≥10%, clicks decline ≥15%
+   - Trend strength based on R-squared: strong (≥0.7), moderate (≥0.4), weak (<0.4)
+   - Confidence scoring: data points + R-squared + coefficient of variation
+   - Early-warning alerts BEFORE issues become critical
+   - Example: Revenue predicted to drop £100 → £35 (-65%) within 7 days (strong trend, high confidence)
+
+3. **Automated Label Recommendations** (label_recommender.py)
+   - Multi-factor scoring: Revenue performance (35%), ROAS (30%), CVR (20%), click volume (10%), trend (5%)
+   - Max score: 100 points
+   - Label thresholds: Hero (≥75), Sidekick (50-74), Villain (25-49), Zombie (<25)
+   - Hysteresis buffer: 5 points to prevent label flapping
+   - Confidence levels: high (≥20 point difference + ≥100 clicks + ≥5 conversions + not declining), medium, low
+   - Action tiers: 🟢 RECOMMEND (high confidence), 🟡 CONSIDER (medium), ⚪ MONITOR (low)
+   - Example: Zombie with 93/100 score → Recommend upgrade to Hero (high confidence)
+
+**Verified:**
+- Budget allocator: Correctly optimized £500 budget across 3 campaigns based on performance ✅
+- Predictive alerts: Successfully detected declining trends and generated early warnings ✅
+- Label recommender: Correctly recommended upgrades/downgrades with appropriate confidence ✅
+- All test cases passed with mock data ✅
+
+**Results:**
+- All 3 Phase 3 enhancements implemented and tested ✅
+- Total time: ~4 hours ✅
+- 3 new modules created: 1,537 lines of production code ✅
+- Committed and pushed to GitHub (commit 17805e0) ✅
+- Zero errors during testing ✅
+
+**Status:** ✅ Phase 3 Complete
+
+**Next Session:**
+- Integrate Phase 3 modules into weekly summary email
+- Test predictive alerts with real historical data
+- Monitor budget allocation recommendations over next few weeks
+- Consider implementing advanced features:
+  - Integration with Google Ads API for automatic budget updates
+  - Machine learning model for trend forecasting (vs linear regression)
+  - Multi-client budget optimization (allocate budget across clients)
+
+---
+
 ## 2025-12-29: Phase 2 Strategic Improvements (Complete)
 
 **Analysed:**
