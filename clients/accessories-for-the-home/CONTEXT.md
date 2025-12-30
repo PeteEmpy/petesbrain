@@ -266,11 +266,10 @@ Access: View-only (GET permissions for reporting)
 **Campaign**: AFH | P Max | H&S Zombies Furniture
 **Target ROAS**: 170%
 **Daily Budget**: £600
+**Previous ROAS**: 190% (changed 2025-12-30 evening)
 **Previous Budget**: £500 (changed 2025-12-30, +20% increase)
-**Previous ROAS**: 190% (changed 2025-11-16, originally 200% from 2025-11-05)
-**Actual ROAS Achieved**: 4.0 (company-wide)
 
-**Rationale**: Christmas sale scaling - Budget increased from £500 to £600/day to support peak period (Dec 24-Jan 1). Campaigns automatically scaling with discounted prices from product feed.
+**Rationale**: Christmas sale scaling - Budget increased from £500 to £600/day AND ROAS target reduced from 190% to 170% (evening Dec 30) to aggressively scale during peak sale period. Campaigns automatically scaling with discounted prices from product feed.
 
 **Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
 
@@ -278,8 +277,8 @@ Access: View-only (GET permissions for reporting)
 
 | Date | Setting | Previous | New | Rationale | Result |
 |------|---------|----------|-----|-----------|--------|
+| 2025-12-30 (evening) | Campaign ROAS | 190% | 170% | Christmas sale aggressive scaling - reduce target to capture more volume during peak period | [Monitoring during sale] |
 | 2025-12-30 | Daily Budget | £500 | £600 | Christmas sale scaling (+20%) - support peak period with increased budget | [Monitoring during sale] |
-| 2025-11-16 | Campaign ROAS | 190% | 170% | Q4 Phase 1: CR up +21%, budget at 200%, peak season scaling | [Monitoring Nov 18-21] Phase 2 to 150% planned |
 | 2025-11-05 | Campaign ROAS | 200% | 190% | Counteract impression drop, test before peak season | Testing - full week analysis Nov 12 |
 | 2025-10-20 | Campaign ROAS | 210% | 200% | Proactive seasonal adjustment to maintain visibility | [TBD] |
 
