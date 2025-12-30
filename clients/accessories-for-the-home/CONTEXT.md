@@ -1,7 +1,7 @@
 # Accessories For The Home - Context & Strategic Notes
 
 > **Purpose**: Living document with important context for Google Ads analysis and reporting.
-> **Last Updated**: 2025-11-24
+> **Last Updated**: 2025-12-23
 
 **Voice Transcription Aliases**: AFTH, accessories for home, home accessories, Accessories For Home
 
@@ -30,8 +30,8 @@
 
 ## PrestaShop
 
-**Shop URL**: `https://accessoriesforthehome.co.uk`
-**API Key**: `JU6R2RG7RW77UETJSTIP39UKE4V84HGC`
+Shop URL: `https://accessoriesforthehome.co.uk`
+API Key: `JU6R2RG7RW77UETJSTIP39UKE4V84HGC`
 
 **API Status**: ✅ **OPERATIONAL** (Fixed 10 Dec 2025)
 - **Previous Issue**: Orders API returning stale data (Jan 2025 cutoff) due to incorrect filter parameter
@@ -53,12 +53,20 @@ Access: View-only (GET permissions for reporting)
 
 ### Current Strategy
 - **Campaign Focus**: Google Ads with Performance Max
-- **Bidding Strategy**: 
+- **Bidding Strategy**:
   - ROAS target reduced from 210% to 200% (Oct 20, 2025) to counteract seasonal impression drop
   - ROAS target further reduced from 200% to 190% (Nov 5, 2025) on Main P Max and Shopping Furniture campaigns
   - **Status**: Testing - Full week analysis scheduled Nov 12, 2025
 - **Recent Adjustment**: Base ROAS reduction made proactively before peak season to maintain visibility
 - **Seasonality Awareness**: Monitoring early indicators of seasonal decline and adjusting targets ahead of trend
+
+### Christmas 2025 Sale
+- **Go-Live Date**: 24th December 2025
+- **Go-Live Time**: 8:00 PM (evening)
+- **Strategy**: Campaigns will automatically pick up discounted prices from product feed and scale
+- **Peak Period**: Boxing Day through New Year (historically strongest week)
+- **Post-Sale**: Ease back budgets in early January as traffic naturally declines
+- **Monitoring**: Daily performance checks throughout sale period
 
 ### Why This Approach?
 [TBD]
@@ -253,15 +261,16 @@ Access: View-only (GET permissions for reporting)
 
 ## Product Hero Settings
 
-### Current Configuration (Last Updated: 2025-11-16)
+### Current Configuration (Last Updated: 2025-12-30)
 
 **Campaign**: AFH | P Max | H&S Zombies Furniture
 **Target ROAS**: 170%
-**Previous**: 190% (changed 2025-11-16, originally 200% from 2025-11-05)
+**Daily Budget**: £600
+**Previous Budget**: £500 (changed 2025-12-30, +20% increase)
+**Previous ROAS**: 190% (changed 2025-11-16, originally 200% from 2025-11-05)
 **Actual ROAS Achieved**: 4.0 (company-wide)
-**Performance Impact**: Monitoring through Nov 18-21 for CR, spend, revenue stability
 
-**Rationale**: Q4 Peak Season Phase 1 - Conversion rate trending up (0.43% → 0.52%, +21% WoW), budget utilization at 200%, reduced ROAS to capture peak season volume while maintaining profitability.
+**Rationale**: Christmas sale scaling - Budget increased from £500 to £600/day to support peak period (Dec 24-Jan 1). Campaigns automatically scaling with discounted prices from product feed.
 
 **Related Methodology**: [Product Hero Labelizer System](/Users/administrator/Documents/PetesBrain.nosync/roksys/knowledge-base/rok-methodologies/product-hero-labelizer-system.md)
 
@@ -269,6 +278,7 @@ Access: View-only (GET permissions for reporting)
 
 | Date | Setting | Previous | New | Rationale | Result |
 |------|---------|----------|-----|-----------|--------|
+| 2025-12-30 | Daily Budget | £500 | £600 | Christmas sale scaling (+20%) - support peak period with increased budget | [Monitoring during sale] |
 | 2025-11-16 | Campaign ROAS | 190% | 170% | Q4 Phase 1: CR up +21%, budget at 200%, peak season scaling | [Monitoring Nov 18-21] Phase 2 to 150% planned |
 | 2025-11-05 | Campaign ROAS | 200% | 190% | Counteract impression drop, test before peak season | Testing - full week analysis Nov 12 |
 | 2025-10-20 | Campaign ROAS | 210% | 200% | Proactive seasonal adjustment to maintain visibility | [TBD] |
@@ -377,6 +387,7 @@ _Updated documents will appear here when detected by daily scans_
 | 2025-11-11 | Added Platform IDs (Google Ads: 7972994730, Merchant Centre: 117443871), Revenue Tracking Spreadsheet link, clarified two ROAS metrics (Google Ads ROAS vs Overall Site ROAS), added example calculations for Nov 4-10 period | Claude Code |
 | 2025-11-13 | **TASK DEDUPLICATION**: Removed 7 duplicate AI-generated task entries. Preserved all manual tasks and first occurrence of each AI task pattern. Cleanup based on provenance analysis showing 'Source: AI Generated' metadata. | Claude Code |
 | 2025-11-16 | Added P0 task for Q4 peak season ROAS reduction (190% → 170%) based on conversion rate trend analysis showing +21% WoW improvement and original Nov 15 timing trigger from Q4 strategy. Phase 1 of planned 3-phase rollout to 150% ROAS for Black Friday. **IMPLEMENTED Nov 16 21:00** - logged to experiment sheet with full monitoring plan (daily Mon-Thu, full review Nov 25). | Claude Code |
+| 2025-12-23 | Added Christmas 2025 Sale section with go-live details: 24th December at 8:00 PM (evening), strategy overview (automatic price pick-up, Boxing Day peak scaling, early January ease-back), daily monitoring plan throughout sale period. Updated Last Updated date to 2025-12-23. | Claude Code |
 
 ---
 
