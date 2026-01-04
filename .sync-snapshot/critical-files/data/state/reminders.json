@@ -1,0 +1,34 @@
+{
+  "reminders": [
+    {
+      "id": "94adc06b-2bc7-4b18-ba1d-91fe35f282f4",
+      "title": "Review Smythson weekly report",
+      "reminder_date": "2025-12-06",
+      "time": "14:00",
+      "recurring": null,
+      "recurring_until": null,
+      "notes": null,
+      "created_at": "2025-12-05T16:22:01.835208",
+      "completed_dates": [
+        "2025-12-09",
+        "2025-12-06"
+      ],
+      "snoozed_until": null
+    },
+    {
+      "id": "31b4a973-c947-43f9-b757-c0555c984a60",
+      "title": "Call Michael about Clear Prospects",
+      "reminder_date": "2025-12-12",
+      "time": "11:00",
+      "recurring": null,
+      "recurring_until": null,
+      "notes": null,
+      "created_at": "2025-12-05T16:22:06.601043",
+      "completed_dates": [
+        "2025-12-09"
+      ],
+      "snoozed_until": null
+    }
+  ],
+  "last_updated": "2025-12-09T19:41:46.535669"
+}

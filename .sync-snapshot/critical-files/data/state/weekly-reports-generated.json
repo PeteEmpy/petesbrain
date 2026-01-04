@@ -1,0 +1,54 @@
+{
+  "reports": [
+    {
+      "client": "Bright Minds",
+      "client_slug": "bright-minds",
+      "date": "2025-11-18",
+      "period": "Nov 12-18, 2025",
+      "md_path": "clients/bright-minds/reports/weekly/2025-11-18-weekly-report.md",
+      "html_path": "clients/bright-minds/reports/weekly/2025-11-18-weekly-report.html",
+      "tasks_created": 0,
+      "generated_at": "2025-11-19T10:30:00"
+    },
+    {
+      "client": "Go Glean",
+      "client_slug": "go-glean",
+      "date": "2025-11-18",
+      "period": "Nov 12-18, 2025",
+      "md_path": "clients/go-glean/reports/weekly/2025-11-18-weekly-report.md",
+      "html_path": "clients/go-glean/reports/weekly/2025-11-18-weekly-report.html",
+      "tasks_created": 2,
+      "generated_at": "2025-11-19T10:45:00"
+    },
+    {
+      "client": "Godshot",
+      "client_slug": "godshot",
+      "date": "2025-11-18",
+      "period": "Nov 12-18, 2025",
+      "md_path": "clients/godshot/reports/weekly/2025-11-18-weekly-report.md",
+      "html_path": "clients/godshot/reports/weekly/2025-11-18-weekly-report.html",
+      "tasks_created": 1,
+      "generated_at": "2025-11-19T11:00:00"
+    },
+    {
+      "client": "Tree2MyDoor",
+      "client_slug": "tree2mydoor",
+      "date": "2025-11-20",
+      "period": "14-18 Nov vs 9-13 Nov (lag-adjusted)",
+      "md_path": "clients/tree2mydoor/reports/weekly/2025-11-20-weekly-report.md",
+      "html_path": "clients/tree2mydoor/reports/weekly/2025-11-20-weekly-report.html",
+      "tasks_created": 1,
+      "generated_at": "2025-11-20T14:42:18.136892"
+    },
+    {
+      "client": "Positive Bakes",
+      "client_slug": "positive-bakes",
+      "date": "2025-11-25",
+      "period": "18-24 Nov 2025",
+      "md_path": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/weekly/2025-11-25-weekly-report.md",
+      "html_path": "/Users/administrator/Documents/PetesBrain/clients/positive-bakes/reports/weekly/2025-11-25-weekly-report.html",
+      "tasks_created": 0,
+      "generated_at": "2025-11-25T16:25:15.810265"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": "UTZvelhCQnNwcW5sQW03RA",
+      "title": "[Positive Bakes] Schedule initial campaign strategy meeting with Aatin Anadkat",
+      "client": "positive-bakes",
+      "priority": "P2",
+      "status": "in_progress",
+      "description": "**Status:** 📋 In Progress  \n| 2025-11-13 | **TASK DEDUPLICATION**: Removed 14 duplicate AI-generated task entries. Preserved all manual tasks and first occurrence of each AI task pattern. Cleanup based on provenance analysis showing 'Source: AI Generated' metadata. | Claude Code |\n\n---\n**Source:** AI Generated (2025-11-11 09:30)\n**Client:** positive-bakes\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Establish key performance goals, budget, and initial campaign approach for new Google "
+    },
+    {
+      "id": "429f410c-09ac-45c2-9a1e-dc6b8b86ec3e",
+      "title": "[Positive Bakes] Add business rules for automated reporting",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P3",
+      "due_date": null,
+      "time_estimate_mins": 60,
+      "notes": "**Context**: Business rules translate raw performance data into automated alerts based on client economics and expectations.\n\n**What Smythson Has (Reference)**:\n- ROAS monitoring rule: Alert if ROAS <379% (15% below 446% target)\n- Seasonal adjustments: 1,000% target during Christmas (Dec 24-28), 800% during Black Friday\n- Qualification criteria: £500 min spend, 5+ conversions\n- Automatic detection in weekly reports\n\n**What You Need to Do**:\n\n1. **Research Target ROAS** (5 mins)\n   - Read `clients/positive-bakes/CONTEXT.md`\n   - Find current target ROAS (or CPA if lead generation)\n   - Target: Check CONTEXT.md\n   - Business model: E-commerce (baked goods)\n   - Check CONTEXT.md for current target ROAS.\n\n2. **Define Business Rule** (10 mins)\n   - Calculate threshold: Target × 0.85 (15% tolerance)\n   - Example: If target = 400%, threshold = 340%\n   - Set qualification criteria:\n     - E-commerce: £500 min spend, 5+ conversions\n     - Lead gen: £500 min spend, 3+ leads\n   - Seasonal considerations: Check for seasonal patterns (Christmas, Valentine's, Mother's Day)\n\n3. **Add to `shared/business_rules.py`** (15 mins)\n   - Copy `SmythsonRules` class as template\n   - Create `PositiveBakesRules` class\n   - Update `check_campaign_against_rules()` function\n   - Add elif block for this client\n\n4. **Document in CONTEXT.md** (10 mins)\n   - Add \"📊 Business Rules (Automated Alert Thresholds)\" section\n   - Document:\n     - Target ROAS and threshold calculation\n     - Qualification criteria\n     - Seasonal adjustments (if applicable)\n     - Rationale (why these thresholds)\n     - Next review date (quarterly)\n\n5. **Test with Real Data** (15 mins)\n   - Create test script (copy `shared/test_real_smythson_data_dec_2025.py`)\n   - Query last 7 days of data\n   - Verify alerts trigger correctly\n   - Check for false positives/negatives\n\n6. **Validate in Weekly Report** (5 mins)\n   - Run next weekly report for this client\n   - Verify \"⚠️ Business Rule Alerts\" section appears\n   - Check alerts are meaningful and actionable\n\n**Files to Create/Modify**:\n- `shared/business_rules.py` - Add PositiveBakesRules class\n- `clients/positive-bakes/CONTEXT.md` - Add business rules section\n- `shared/test_real_positive-bakes_data.py` - Validation test (optional but recommended)\n\n**Example Reference**:\n- See: `clients/smythson/CONTEXT.md` (lines 42-63) - Business rules documentation\n- See: `shared/business_rules.py` (lines 139-280) - SmythsonRules implementation\n- See: `clients/smythson/documents/business-rules-validation-dec-2025.md` - Validation report example\n\n**Success Criteria**:\n✅ Business rule class added to `business_rules.py`\n✅ CONTEXT.md updated with thresholds and rationale\n✅ Weekly report shows business rule alerts (if violations exist)\n✅ No false positives (alerts on good performance)\n✅ Catches genuine issues (low ROAS with significant spend)\n\n**Time Estimate**: 60 minutes total\n**Depends On**: Understanding of client's target ROAS and business model\n**Next Step After**: Run weekly report to validate alerts work correctly\n\n**Related Documentation**:\n- `/docs/BUSINESS-RULES-IMPLEMENTATION.md` - Full implementation guide\n- `/docs/SEASONAL-VARIANCE-ANALYSIS-SMYTHSON.md` - Seasonal analysis example\n- `/clients/smythson/documents/sale-periods-calendar-2025-2026.md` - Calendar format example\n",
+      "source": "Business Rules Rollout - Dec 2025",
+      "tags": [
+        "automation",
+        "business-rules",
+        "weekly-reports",
+        "phase-1"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-29T23:03:51.265228",
+      "updated_at": "2025-12-29T23:03:51.265232",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-12-29T23:03:51.265341"
+}

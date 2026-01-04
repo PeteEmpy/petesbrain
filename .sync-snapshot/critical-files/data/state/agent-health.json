@@ -1,0 +1,221 @@
+{
+  "schema": {
+    "version": "1.0",
+    "description": "Agent health and status tracking for PetesBrain agents",
+    "last_updated": "2025-12-09T00:00:00Z"
+  },
+  "agents": {
+    "daily-intel-report": {
+      "name": "Daily Intel Report",
+      "category": "reporting",
+      "priority": "critical",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "calendar-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "daily-budget-monitor": {
+      "name": "Daily Budget Monitor",
+      "category": "monitoring",
+      "priority": "critical",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "google-ads": "closed",
+        "gmail-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "email-sync": {
+      "name": "Email Sync",
+      "category": "integration",
+      "priority": "critical",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "gmail-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "google-ads-auditor": {
+      "name": "Google Ads Auditor",
+      "category": "auditing",
+      "priority": "high",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "google-ads": "closed",
+        "anthropic-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "granola-google-docs-importer": {
+      "name": "Granola Google Docs Importer",
+      "category": "integration",
+      "priority": "high",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "google-drive-api": "closed",
+        "google-tasks-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "ai-inbox-processor": {
+      "name": "AI Inbox Processor",
+      "category": "processing",
+      "priority": "high",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "anthropic-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "weekly-experiment-review": {
+      "name": "Weekly Experiment Review",
+      "category": "reporting",
+      "priority": "high",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "anthropic-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "health-check": {
+      "name": "Health Check",
+      "category": "monitoring",
+      "priority": "critical",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "launchagent-check": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "sync-todos-to-google-tasks": {
+      "name": "Sync Todos to Google Tasks",
+      "category": "integration",
+      "priority": "high",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "google-tasks-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    },
+    "weekly-blog-generator": {
+      "name": "Weekly Blog Generator",
+      "category": "publishing",
+      "priority": "medium",
+      "status": "healthy",
+      "last_run": null,
+      "last_success": null,
+      "last_failure": null,
+      "next_scheduled_run": null,
+      "runtime_seconds": null,
+      "error_count_24h": 0,
+      "success_count_24h": 0,
+      "failure_rate_24h": 0.0,
+      "avg_runtime_seconds": null,
+      "circuit_breaker_states": {
+        "wordpress-api": "closed",
+        "anthropic-api": "closed"
+      },
+      "metrics": {},
+      "notes": ""
+    }
+  },
+  "status_summary": {
+    "total_agents": 10,
+    "healthy_agents": 10,
+    "degraded_agents": 0,
+    "failed_agents": 0,
+    "circuit_breakers_open": 0,
+    "last_updated": "2025-12-09T00:00:00Z"
+  }
+}

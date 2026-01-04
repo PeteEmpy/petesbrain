@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "id": "f8b0346b-5b73-4b06-9133-62fcbefad3f1",
+      "title": "[GoGlean] Investigate Shopping Catch All AOV drop (£32 → £21, -35%)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": null,
+      "time_estimate_mins": null,
+      "notes": "Root cause analysis found:\n- Campaign: Shopping Catch All (ID: 22439893575)\n- Same conversions (13) but revenue dropped £144 (-35%)\n- AOV crashed from £32.11 → £21.02\n- This is primary driver of ROAS drop (252% → 219%)\n- Action: Query product-level data to identify which low-value products are selling\n- Expected: Restore high-value product sales mix",
+      "source": "Manual",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-05T15:38:40.380618",
+      "updated_at": "2025-12-05T15:38:40.380621",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-12-23T15:53:01.931066"
+}

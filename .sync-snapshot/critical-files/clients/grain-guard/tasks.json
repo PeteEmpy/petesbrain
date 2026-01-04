@@ -1,0 +1,63 @@
+{
+  "tasks": [
+    {
+      "id": "1c4b139b-f452-4d22-b9b9-c46a220ba49d",
+      "title": "[Grain Guard] Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaigns",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P2",
+      "due_date": null,
+      "time_estimate_mins": null,
+      "notes": "Imported from Google Tasks on 2025-11-18",
+      "source": "Google Tasks Import",
+      "tags": [
+        "google-tasks-import"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-18T13:24:39.495876",
+      "updated_at": "2025-11-18T13:24:39.495879",
+      "completed_at": null
+    },
+    {
+      "id": "2b0333d7-ae00-4f98-9ed4-b8b5e7a94bd9",
+      "title": "[Grain Guard] Review Sept 11 'Shopping Only' campaign switch and document initial performance impact",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P2",
+      "due_date": null,
+      "time_estimate_mins": null,
+      "notes": "Imported from Google Tasks on 2025-11-18",
+      "source": "Google Tasks Import",
+      "tags": [
+        "google-tasks-import"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-18T13:24:39.496137",
+      "updated_at": "2025-11-18T13:24:39.496138",
+      "completed_at": null
+    },
+    {
+      "id": "a8f3c9e2-7d5b-4a1e-9c8f-2e6b4d8a7f3c",
+      "title": "[Grain Guard] run weekly report",
+      "client": "grain-guard",
+      "priority": "P1",
+      "due_date": null,
+      "time_estimate_mins": null,
+      "notes": "Source: Quick capture from voice note\n\nQuick task created without AI analysis.",
+      "source": "Quick Capture",
+      "tags": [
+        "grain-guard"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-19T16:30:00.000000",
+      "updated_at": "2025-11-19T16:30:00.000000",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-12-01T08:42:26.762624"
+}

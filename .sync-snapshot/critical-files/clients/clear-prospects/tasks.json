@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "099cb14f-c13b-4355-bfa9-367e91453883",
+      "title": "[Clear Prospects - BMPM] URGENT: Revenue collapsed 84% - full brand investigation",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P2",
+      "due_date": "2025-11-30",
+      "time_estimate_mins": 120,
+      "notes": "**From Weekly Report - 2025-11-20**\n\n**Issue:** BMPM overall performance catastrophic collapse. Revenue down 84%, ROAS at 15% (losing 85p per £1).\n\n**Data:**\n- Total spend: £458/week (stable)\n- Total conv value: £70 (was £444 last week)\n- Overall ROAS: 15% (was 97%)\n- Conversions: 1.6 (was 5.4)\n- **Revenue crash: -84% WoW**\n\n**Expected Impact:** £458/week at 15% ROAS = £389/week loss. This is unsustainable.\n\n**Campaign Performance:**\n- PMax: £352 spend, £70 conv value, 20% ROAS (was 122% last week)\n- Search: £106 spend, £0 conv value, 0% ROAS\n\n**Action Required:**\n1. **IMMEDIATE:** Check if conversion tracking is broken (84% revenue drop is suspicious)\n2. Review Merchant Center feed (MC ID: 7522326) for disapprovals\n3. Check if Nov 11 ROAS target change to 70% caused algorithm issues\n4. Review Change History for any account-level changes\n5. Analyze top products from last week - are they still active?\n6. Consider emergency budget reduction until root cause found\n7. Verify attribution window hasn't changed\n\n**Threshold Met:**\n- ROAS drop >20% WoW (-82pp)\n- ROAS >15% below target (15% actual vs 70% target = -55pp below)\n- All thresholds exceeded - this is critical\n\n**URGENT** - This looks like tracking failure or major feed issue\n\n---\n**MANUAL NOTE (2025-11-20 16:40):**\nSame as the previous task. Let's see what happens with this 84% ROAS. If that is ROAS and rather than revenue, then we're reporting on margin here. So we're close to making a profit Revisit at the end of the month.",
+      "source": "Weekly Report - Brand: BMPM",
+      "tags": [
+        "weekly-report",
+        "optimization",
+        "bmpm",
+        "revenue-collapse",
+        "critical",
+        "urgent"
+      ],
+      "context": {},
+      "status": "waiting",
+      "created_at": "2025-11-20T08:51:08.257380",
+      "updated_at": "2025-11-20T16:52:06.493182",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-12-29T23:04:06.089184"
+}

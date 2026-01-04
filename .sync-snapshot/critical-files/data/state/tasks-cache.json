@@ -1,0 +1,1012 @@
+{
+  "tasks": {
+    "aEpKT1Blc1JsMXdvcDliXw": {
+      "data": [
+        {
+          "id": "SXNjYjFNaUNNZDN1X0lGLQ",
+          "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 09:25)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Critical technical issue identified that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.\n**AI Task ID:** 1d8ed410-8092-44e2-ac31-08a3aa3f8c52\n---\n\nCritical technical issue identified that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.",
+          "created": "2025-11-12T09:25:04.877Z",
+          "updated": "2025-11-12T09:25:04.877Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "aENrOFdjVDdYYnJrYVRNVQ",
+          "title": "[Tree2Mydoor] Review Olive Tree (Product 01090) Merchant Center feed stability",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 09:25)\n**Client:** tree2mydoor\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Immediate verification needed to prevent potential recurrence and algorithmic disruption.\n**AI Task ID:** fd34e2db-853e-4767-9dcd-605dfc29c7fb\n---\n\nRecent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Immediate verification needed to prevent potential recurrence and algorithmic disruption.",
+          "created": "2025-11-12T09:25:04.530Z",
+          "updated": "2025-11-12T09:25:04.530Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "b3B5TDJuLUtxcEhNeExNaA",
+          "title": "[Roksys] Review client meeting notes and identify key action items",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 09:25)\n**Client:** roksys\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Ensure no critical follow-up items were missed from recent meeting with Peter\n**AI Task ID:** d18f966e-ae14-4d7e-b891-05d610d41b98\n---\n\nEnsure no critical follow-up items were missed from recent meeting with Peter",
+          "created": "2025-11-12T09:25:04.193Z",
+          "updated": "2025-11-12T09:25:04.193Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "RkJtNjI2UVJlRjlXaXZZcw",
+          "title": "[Godshot] Audit Google Merchant Center product feed for ID and variant tracking issues",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 09:25)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Critical 80% mismatch between Google Ads conversions and WooCommerce sales requires immediate investigation of product feed mapping\n**AI Task ID:** bc2e6470-79c6-43bb-865d-3b3c631c73d0\n---\n\nCritical 80% mismatch between Google Ads conversions and WooCommerce sales requires immediate investigation of product feed mapping",
+          "created": "2025-11-12T09:25:03.832Z",
+          "updated": "2025-11-12T09:25:03.832Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "UWlHUVU1STVtNlhIdzhLRw",
+          "title": "[Uno Lighting] Verify product feed GTIN accuracy and product variant management",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** uno-lighting\n**Priority:** P2\n**Time Estimate:** 20 mins\n**Reason:** Proactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues\n**AI Task ID:** 298d279c-91e1-4dc0-ae36-d9e4b1db265c\n---\n\nProactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues",
+          "created": "2025-11-12T07:01:45.103Z",
+          "updated": "2025-11-12T07:01:45.103Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "c0hyUWY1Y04xbml3N0UtbA",
+          "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value, not just revenue",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Critical technical issue identified that could impact campaign optimization and ROAS performance. Needs immediate confirmation to ensure accurate tracking.\n**AI Task ID:** d8b537de-683c-4a70-a8a3-6c7385321b7a\n---\n\nCritical technical issue identified that could impact campaign optimization and ROAS performance. Needs immediate confirmation to ensure accurate tracking.",
+          "created": "2025-11-12T07:01:44.808Z",
+          "updated": "2025-11-12T07:01:44.808Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "U3hVWGZUNzZTRkJ5dlpvMg",
+          "title": "[Superspace] Prepare horizontal video asset recommendations for Demand Gen campaign",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** superspace\n**Priority:** P2\n**Time Estimate:** 1 hour\n**Reason:** Current video assets are portrait-focused, need horizontal formats for desktop placements to improve campaign performance across platforms before scaling campaign\n**AI Task ID:** a2d20ea5-556d-4eef-a314-bde188f85a72\n---\n\nCurrent video assets are portrait-focused, need horizontal formats for desktop placements to improve campaign performance across platforms before scaling campaign",
+          "created": "2025-11-12T07:01:44.475Z",
+          "updated": "2025-11-12T07:01:44.475Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "eGdfNmFaSkNMdFRPQjFOVQ",
+          "title": "[Smythson] Move diary asset group to new standalone PMAX campaign",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** smythson\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Justified by 253 products and 50 conversions in 30 days, supports campaign optimization\n**AI Task ID:** 188e57fe-c551-4059-829d-db555006bd10\n---\n\nJustified by 253 products and 50 conversions in 30 days, supports campaign optimization",
+          "created": "2025-11-12T07:01:44.160Z",
+          "updated": "2025-11-12T07:01:44.160Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "cGpLbXd3cHVKVFZHaHVXcw",
+          "title": "[Positive Bakes] Schedule initial campaign strategy meeting with Aatin Anadkat",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** positive-bakes\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Critical to establish campaign goals, budget, and initial approach for new Google Ads account before further setup\n**AI Task ID:** 2c5b9431-c0ea-49c0-b70e-d9bb55e63a2c\n---\n\nCritical to establish campaign goals, budget, and initial approach for new Google Ads account before further setup",
+          "created": "2025-11-12T07:01:43.840Z",
+          "updated": "2025-11-12T07:01:43.840Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "U2tlbEE1aXpwbnB5NlVsWA",
+          "title": "[National Design Academy] Update Geographic Performance Analysis dashboard with latest enrollment data",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** national-design-academy\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Ensure latest country-level ROAS and enrollment insights are current for upcoming client reporting and strategic decision-making\n**AI Task ID:** 2891a2ec-9592-4b9d-b8c2-b4015bc1d33d\n---\n\nEnsure latest country-level ROAS and enrollment insights are current for upcoming client reporting and strategic decision-making",
+          "created": "2025-11-12T07:01:43.511Z",
+          "updated": "2025-11-12T07:01:43.511Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "eWxoRGdvcHJfNGxrSjNNYQ",
+          "title": "[National Design Academy] Review budget reduction impact from Nov 5th changes (daily spend reduced to \u00a3765)",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** national-design-academy\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Confirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met\n**AI Task ID:** b97a24b0-54d4-4d99-8ed0-4fde13c845a4\n---\n\nConfirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met",
+          "created": "2025-11-12T07:01:43.219Z",
+          "updated": "2025-11-12T07:01:43.219Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "SXB4Y3EtUnpkeWtaQXBiVg",
+          "title": "[Just Bin Bags] Clarify JHD sub-brand details with client contact",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** just-bin-bags\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Unclear what JHD represents, which impacts campaign strategy and product feed management\n**AI Task ID:** e8013fe9-1390-4db0-9fe5-c5ae242244f8\n---\n\nUnclear what JHD represents, which impacts campaign strategy and product feed management",
+          "created": "2025-11-12T07:01:42.923Z",
+          "updated": "2025-11-12T07:01:42.923Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "SUE2SUNvVUtLLVJJdXdtdg",
+          "title": "[Grain Guard] Review Sept 11 'Shopping Only' campaign switch and document performance impact",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** grain-guard\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Recent campaign structure change needs performance assessment to validate effectiveness and determine if further adjustments are required\n**AI Task ID:** 91324c66-0410-4f1c-8654-8750d065c47c\n---\n\nRecent campaign structure change needs performance assessment to validate effectiveness and determine if further adjustments are required",
+          "created": "2025-11-12T07:01:42.623Z",
+          "updated": "2025-11-12T07:01:42.623Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "eVpFaDUwRm55SUhlYTN4eg",
+          "title": "[Go Glean] Prepare initial research document analyzing Go Glean's high ROAS performance (230-310%)",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** go-glean\n**Priority:** P2\n**Time Estimate:** 1 hour\n**Reason:** Understand key performance drivers differentiating Go Glean from Grain Guard's lower ROAS (140-160%)\n**AI Task ID:** 5343bc9c-bb31-482c-816d-3b86d9ac4e44\n---\n\nUnderstand key performance drivers differentiating Go Glean from Grain Guard's lower ROAS (140-160%)",
+          "created": "2025-11-12T07:01:42.316Z",
+          "updated": "2025-11-12T07:01:42.316Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "dW9JOHlaTnVCd25NWV9hcg",
+          "title": "[Go Glean] Review September ROAS adjustments for Catch All and Villains campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** go-glean\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Multiple ROAS target changes suggest active testing needs validation of final performance strategy\n**AI Task ID:** fa73948f-f0fb-49d7-aa8f-fe99330d0788\n---\n\nMultiple ROAS target changes suggest active testing needs validation of final performance strategy",
+          "created": "2025-11-12T07:01:41.990Z",
+          "updated": "2025-11-12T07:01:41.990Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "ZVVmXzB5U0J1TXZjcWhtUg",
+          "title": "[Crowd Control] Review October 14 ROAS Target Reduction Across Campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** crowd-control\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** All campaigns standardized to 170% ROAS on Oct 14, coinciding with performance drop - need to understand strategic rationale and potential corrective actions\n**AI Task ID:** eeae8922-06b2-4a4a-b2e2-079a286eced8\n---\n\nAll campaigns standardized to 170% ROAS on Oct 14, coinciding with performance drop - need to understand strategic rationale and potential corrective actions",
+          "created": "2025-11-12T07:01:41.676Z",
+          "updated": "2025-11-12T07:01:41.676Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "MDFaUW5BS3A5Z0NuUS11Vg",
+          "title": "[Clear Prospects] Check performance of BMPM Cushions Search Campaign started on Oct 21",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** clear-prospects\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Review early ROAS and conversion data to determine potential optimization needs for new search campaign\n**AI Task ID:** db2141fd-0113-40cb-a3b0-ba7482dd2e45\n---\n\nReview early ROAS and conversion data to determine potential optimization needs for new search campaign",
+          "created": "2025-11-12T07:01:41.359Z",
+          "updated": "2025-11-12T07:01:41.359Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "TlRaclVkRHgycm9qMmk3OQ",
+          "title": "[Bright Minds] Monitor ROAS progression toward 400% target",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** bright-minds\n**Priority:** P2\n**Time Estimate:** 15 mins\n**Reason:** Current ROAS at 292%, need to track progress and prepare insights for weekly client report, ensuring campaign is on track for optimization\n**AI Task ID:** 7243bcf3-c28b-4f3e-a4d0-c344362cacb9\n---\n\nCurrent ROAS at 292%, need to track progress and prepare insights for weekly client report, ensuring campaign is on track for optimization",
+          "created": "2025-11-12T07:01:41.054Z",
+          "updated": "2025-11-12T07:01:41.054Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "dTJlVkpMdDFFbGFOTnpmZg",
+          "title": "[Accessories For The Home] Check bar stools product feed completeness",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** accessories-for-the-home\n**Priority:** P2\n**Time Estimate:** 20 mins\n**Reason:** Follow up on pending action item from November 10 meeting regarding product feed status\n**AI Task ID:** 7571041c-c3b6-4e47-8481-5ce12e22b117\n---\n\nFollow up on pending action item from November 10 meeting regarding product feed status",
+          "created": "2025-11-12T07:01:40.753Z",
+          "updated": "2025-11-12T07:01:40.753Z",
+          "completed": null,
+          "due": "2025-11-15T00:00:00.000Z"
+        },
+        {
+          "id": "cGhxT09xRTIwdkRlemVHcg",
+          "title": "[Uno Lighting] Check ROAS performance after 10% reduction on PMax campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** uno-lighting\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Monitor recent ROAS target reduction to ensure performance remains within acceptable parameters and catch any early negative trends\n**AI Task ID:** 5eddc825-6b48-45b9-87fa-f3f69dd06868\n---\n\nMonitor recent ROAS target reduction to ensure performance remains within acceptable parameters and catch any early negative trends",
+          "created": "2025-11-12T07:01:40.427Z",
+          "updated": "2025-11-12T07:01:40.427Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "YUJTQUxmS3cwVWtscl9hVA",
+          "title": "[Uno Lighting] Review AI Max search terms for Search Brand campaign",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** uno-lighting\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recently enabled AI Max feature (Oct 21, 2025) requires immediate performance check to ensure query matching quality and prevent potential irrelevant clicks\n**AI Task ID:** dc48c587-d602-4453-a9d2-309061c7efce\n---\n\nRecently enabled AI Max feature (Oct 21, 2025) requires immediate performance check to ensure query matching quality and prevent potential irrelevant clicks",
+          "created": "2025-11-12T07:01:40.116Z",
+          "updated": "2025-11-12T07:01:40.116Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "R3cyekNmRVJYdTRpUVFyOQ",
+          "title": "[Tree2Mydoor] Complete and send October 2025 month-end report to Gareth",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** tree2mydoor\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Monthly reporting is critical for client communication, especially given Gareth's need for structured, detailed documentation. Report is in progress and needs to be finalized before end of week.\n**AI Task ID:** e07101be-4eda-430c-9304-863012f84aea\n---\n\nMonthly reporting is critical for client communication, especially given Gareth's need for structured, detailed documentation. Report is in progress and needs to be finalized before end of week.",
+          "created": "2025-11-12T07:01:39.800Z",
+          "updated": "2025-11-12T07:01:39.800Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "N1JYWF9aWWlSaXFmVzd6bw",
+          "title": "[Tree2Mydoor] Review Olive Tree (Product 01090) Merchant Center feed stability to prevent click spike recurrence",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** tree2mydoor\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Immediate verification needed to prevent potential algorithmic disruption.\n**AI Task ID:** 8bd04fdb-7557-4be9-8685-4ae295f4b4e9\n---\n\nRecent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Immediate verification needed to prevent potential algorithmic disruption.",
+          "created": "2025-11-12T07:01:39.487Z",
+          "updated": "2025-11-12T07:01:39.487Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "d1YxQ0I0em1US0NMdWlkcA",
+          "title": "[Superspace] Review Demand Gen campaign performance during learning phase",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** superspace\n**Priority:** P1\n**Time Estimate:** 45 mins\n**Reason:** Campaign is in critical 14-45 day learning period, need to assess early performance metrics, lookalike audience results, and video asset effectiveness before budget scaling decisions\n**AI Task ID:** 4792a89a-95cf-4124-b5f6-a56ff0800553\n---\n\nCampaign is in critical 14-45 day learning period, need to assess early performance metrics, lookalike audience results, and video asset effectiveness before budget scaling decisions",
+          "created": "2025-11-12T07:01:39.174Z",
+          "updated": "2025-11-12T07:01:39.174Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "TjR2RWdvbG5RTENYRmF3bg",
+          "title": "[Smythson] Review and prepare PMAX Christmas campaign 1-week performance update",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** smythson\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Critical performance update promised to client for recent PMAX structure changes, need to monitor campaign scaling and key metrics\n**AI Task ID:** 73c085c4-fd9f-4f3e-b694-fb0a8e809bff\n---\n\nCritical performance update promised to client for recent PMAX structure changes, need to monitor campaign scaling and key metrics",
+          "created": "2025-11-12T07:01:38.822Z",
+          "updated": "2025-11-12T07:01:38.822Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "QVV2U21UUEdkNm1nY01CQQ",
+          "title": "[Smythson] Update Smythson dashboard with actual ROAS and revenue vs strategy targets",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** smythson\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Directly requested in recent meeting to provide daily budget visibility and track performance against Q4 strategy\n**AI Task ID:** ff69913c-c430-40fa-958d-d865935a8c92\n---\n\nDirectly requested in recent meeting to provide daily budget visibility and track performance against Q4 strategy",
+          "created": "2025-11-12T07:01:38.486Z",
+          "updated": "2025-11-12T07:01:38.486Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "aDR1cFJwcG5Pc0psdVBpRA",
+          "title": "[Roksys] Review client meeting notes and identify key action items for Roksys Google Ads account",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** roksys\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** No specific context or recent meeting details provided, requiring initial investigation and task prioritization\n**AI Task ID:** c99116d7-e7bf-4155-984b-38bba50222cc\n---\n\nNo specific context or recent meeting details provided, requiring initial investigation and task prioritization",
+          "created": "2025-11-12T07:01:38.162Z",
+          "updated": "2025-11-12T07:01:38.162Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "NHRGeEhoSE8ycEF1TXJqNw",
+          "title": "[Positive Bakes] Review Channable feed settings and product ID mapping",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** positive-bakes\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Resolve potential product listing issues from BigCommerce to Shopify migration that could impact Merchant Centre performance\n**AI Task ID:** cbea712c-5054-4552-aa73-3874427155b8\n---\n\nResolve potential product listing issues from BigCommerce to Shopify migration that could impact Merchant Centre performance",
+          "created": "2025-11-12T07:01:37.826Z",
+          "updated": "2025-11-12T07:01:37.826Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "ZVVXZzg1dkktRFY0TTE2bA",
+          "title": "[Positive Bakes] Verify Merchant Centre product feed configuration after Shopify migration",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** positive-bakes\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Ensure product listings are correctly mapped and available for free listings following recent platform migration, which could impact advertising performance\n**AI Task ID:** 9315f6c1-1f20-4a40-b9ee-2d731b04998d\n---\n\nEnsure product listings are correctly mapped and available for free listings following recent platform migration, which could impact advertising performance",
+          "created": "2025-11-12T07:01:37.499Z",
+          "updated": "2025-11-12T07:01:37.499Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "RU9tcERXSE5BOVBmd0FNUw",
+          "title": "[National Design Academy] Validate NMA Target CPA strategy for Engineering Search and Management PMax campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** national-design-academy\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Recent meeting discussed budget optimization, strategy needs immediate implementation to improve conversion performance and reduce extremely high current CPA from \u00a3917 to target range of \u00a3110-130\n**AI Task ID:** 0ae55628-ecc5-46ca-84d2-ee51f6139d3b\n---\n\nRecent meeting discussed budget optimization, strategy needs immediate implementation to improve conversion performance and reduce extremely high current CPA from \u00a3917 to target range of \u00a3110-130",
+          "created": "2025-11-12T07:01:37.174Z",
+          "updated": "2025-11-12T07:01:37.174Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "amMtTjJrdUs5NVdHdzVnTg",
+          "title": "[Just Bin Bags] Confirm Google Ads account access and perform initial performance audit",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** just-bin-bags\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** No performance data or KPIs established, critical to understand current account health and baseline metrics\n**AI Task ID:** dbe8227a-5741-4f3c-bd98-c1f8f6b191ea\n---\n\nNo performance data or KPIs established, critical to understand current account health and baseline metrics",
+          "created": "2025-11-12T07:01:36.863Z",
+          "updated": "2025-11-12T07:01:36.863Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "WnhSaW9za2J4QUJVUGo2Yg",
+          "title": "[Grain Guard] Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaign segments",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** grain-guard\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Significant ROAS difference requires immediate investigation to understand product performance variations and develop optimization strategy\n**AI Task ID:** 0a2534fc-3a5d-49a1-9846-894b2bd54cd7\n---\n\nSignificant ROAS difference requires immediate investigation to understand product performance variations and develop optimization strategy",
+          "created": "2025-11-12T07:01:36.571Z",
+          "updated": "2025-11-12T07:01:36.571Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "MVVtY3RQb1hLMEVyVWNZZg",
+          "title": "[Grain Guard] Schedule initial client onboarding call with Connor Heaps to confirm account goals and key details",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** grain-guard\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Many critical account details are still TBD, including budget, contact info, and specific performance targets. Direct client input is needed to complete account strategy documentation.\n**AI Task ID:** 6312ef77-4118-4240-90be-ed94d17ce2cb\n---\n\nMany critical account details are still TBD, including budget, contact info, and specific performance targets. Direct client input is needed to complete account strategy documentation.",
+          "created": "2025-11-12T07:01:36.269Z",
+          "updated": "2025-11-12T07:01:36.269Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "VmJzSnQ3YzZuYk1peHJZdg",
+          "title": "[Godshot] Audit Google Merchant Center product feed for ID mismatches",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Critical conversion tracking discrepancy showing 80% mismatch between Google Ads and WooCommerce sales requires immediate investigation of product feed mapping\n**AI Task ID:** fa082b2d-0c7c-4851-9382-7a7c50fac7f6\n---\n\nCritical conversion tracking discrepancy showing 80% mismatch between Google Ads and WooCommerce sales requires immediate investigation of product feed mapping",
+          "created": "2025-11-12T07:01:35.944Z",
+          "updated": "2025-11-12T07:01:35.944Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "bTNOUGwtV2I4bno4OWxnMQ",
+          "title": "[Godshot] Investigate asset groups burning budget with zero conversions",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Asset groups for Fellow, Rains, and Coffee Generic are spending budget without generating conversions, risking inefficient ad spend and missing performance targets\n**AI Task ID:** 648cb99e-9163-48ef-b469-582232e3da71\n---\n\nAsset groups for Fellow, Rains, and Coffee Generic are spending budget without generating conversions, risking inefficient ad spend and missing performance targets",
+          "created": "2025-11-12T07:01:35.630Z",
+          "updated": "2025-11-12T07:01:35.630Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "NGtsSThSekphWjhNOWlSbQ",
+          "title": "[Godshot] Verify conversion tracking plugin fix for product ID mismatches",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recent plugin update needs immediate verification to ensure accurate product attribution and sales tracking, given the 80% mismatch discovered in previous analysis\n**AI Task ID:** 1e384a0a-9b9f-408e-a9e3-3f0994c7e0fe\n---\n\nRecent plugin update needs immediate verification to ensure accurate product attribution and sales tracking, given the 80% mismatch discovered in previous analysis",
+          "created": "2025-11-12T07:01:35.293Z",
+          "updated": "2025-11-12T07:01:35.293Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "V1o2WDBaZENCMlJBcDhaTw",
+          "title": "[Go Glean] Contact Connor Heaps to schedule initial strategy discussion and gather missing account details",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** go-glean\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Multiple TBD sections in document indicate critical information gaps about business model, products, and goals that need immediate clarification\n**AI Task ID:** 52bca877-6d7f-4bc5-8fec-c2351f503320\n---\n\nMultiple TBD sections in document indicate critical information gaps about business model, products, and goals that need immediate clarification",
+          "created": "2025-11-12T07:01:34.975Z",
+          "updated": "2025-11-12T07:01:34.975Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "RkxDeTd5cW8yd3luSzBZZA",
+          "title": "[Devonshire Hotels] Review November budget changes implementation from Nov 3rd",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** devonshire-hotels\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Confirm budget reduction to \u00a39,000 was executed properly across all 12 Devonshire campaigns to ensure accurate spend management\n**AI Task ID:** 735afb44-1e5f-4205-a0b8-001efee27737\n---\n\nConfirm budget reduction to \u00a39,000 was executed properly across all 12 Devonshire campaigns to ensure accurate spend management",
+          "created": "2025-11-12T07:01:34.660Z",
+          "updated": "2025-11-12T07:01:34.660Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "QXpheS1neE5oQXRNMjlpeQ",
+          "title": "[Crowd Control] Investigate Product CTR Collapse for Top Products",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** crowd-control\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Hero products showing catastrophically low CTR (0.12-0.75%), risking significant revenue loss and requiring immediate creative/feed optimization\n**AI Task ID:** 8b533c93-7226-4af8-a4df-652b1bbf2a92\n---\n\nHero products showing catastrophically low CTR (0.12-0.75%), risking significant revenue loss and requiring immediate creative/feed optimization",
+          "created": "2025-11-12T07:01:34.344Z",
+          "updated": "2025-11-12T07:01:34.344Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "ZGFHODdQYWUxNjVKVEhVcQ",
+          "title": "[Crowd Control] Verify WooCommerce Conversion Tracking Performance",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** crowd-control\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Conversion tracking currently only reporting 54% of conversions, potentially misrepresenting account performance and impacting Smart Bidding strategy\n**AI Task ID:** 42865e75-4707-421a-b24f-cfce339a465c\n---\n\nConversion tracking currently only reporting 54% of conversions, potentially misrepresenting account performance and impacting Smart Bidding strategy",
+          "created": "2025-11-12T07:01:34.005Z",
+          "updated": "2025-11-12T07:01:34.005Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "YmpWV2ZGd2Rsb3MxTFJpYg",
+          "title": "[Clear Prospects] Draft November monthly report section highlighting HappySnapGifts face masks ROAS turnaround story",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** clear-prospects\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Prepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting\n**AI Task ID:** 4e53e8a8-1d8c-4c70-8b7b-106fc3cc2761\n---\n\nPrepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting",
+          "created": "2025-11-12T07:01:33.666Z",
+          "updated": "2025-11-12T07:01:33.666Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "eEpPNW1Bd3d6N3Joakp6NQ",
+          "title": "[Bright Minds] Validate conversion tracking post-changes (daily check)",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** bright-minds\n**Priority:** P1\n**Time Estimate:** 20 mins\n**Reason:** Ensure conversion count matches Shopify orders and values after recent tracking implementation to maintain data accuracy\n**AI Task ID:** eac25426-0f73-40f5-ba37-b7725b8c7204\n---\n\nEnsure conversion count matches Shopify orders and values after recent tracking implementation to maintain data accuracy",
+          "created": "2025-11-12T07:01:33.351Z",
+          "updated": "2025-11-12T07:01:33.351Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "eUExWEFCMTV1Q25zTmh5RA",
+          "title": "[Bright Minds] Send weekly Monday performance report to Barry and Sharon",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** bright-minds\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Client requires consistent weekly updates to maintain trust during Google Ads campaign learning phase, with focus on ROAS progression and Q4 budget increase context\n**AI Task ID:** 27a46798-bfd8-4f6a-9da5-e10a3672641b\n---\n\nClient requires consistent weekly updates to maintain trust during Google Ads campaign learning phase, with focus on ROAS progression and Q4 budget increase context",
+          "created": "2025-11-12T07:01:33.034Z",
+          "updated": "2025-11-12T07:01:33.034Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "ejRhblNTQUFBWk1RLUM2Rg",
+          "title": "[Accessories For The Home] Review preliminary ROAS reduction impact on Performance Max campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** accessories-for-the-home\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Gather initial insights before full week analysis scheduled for November 12, focusing on recent ROAS target reduction from 200% to 190%\n**AI Task ID:** d793c367-71e0-4141-a398-536772a4e670\n---\n\nGather initial insights before full week analysis scheduled for November 12, focusing on recent ROAS target reduction from 200% to 190%",
+          "created": "2025-11-12T07:01:32.701Z",
+          "updated": "2025-11-12T07:01:32.701Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "Zi1sUTFYdHFkYmVKUFl2Rg",
+          "title": "[Accessories For The Home] Prepare draft WhatsApp message to Andrew about October revenue drop and seasonal trends",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** accessories-for-the-home\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Address client concerns about recent performance anomaly and provide proactive communication about seasonal patterns before full analysis\n**AI Task ID:** 85c708cd-eba6-48ea-a343-68e869eef686\n---\n\nAddress client concerns about recent performance anomaly and provide proactive communication about seasonal patterns before full analysis",
+          "created": "2025-11-12T07:01:32.358Z",
+          "updated": "2025-11-12T07:01:32.358Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "YW1ubEhiQ2s0OWJiaktFXw",
+          "title": "[Superspace] Verify stock-related budget controls for Q4",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** superspace\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Confirm 50% budget reduction is correctly implemented to prevent overspending during current inventory constraints, especially critical with upcoming holiday season\n**AI Task ID:** 6db3c48e-fd3e-416e-b640-6fdf50a6892f\n---\n\nConfirm 50% budget reduction is correctly implemented to prevent overspending during current inventory constraints, especially critical with upcoming holiday season",
+          "created": "2025-11-12T07:01:32.028Z",
+          "updated": "2025-11-12T07:01:32.028Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "d2x3NWdKZU9qN19uQU8taA",
+          "title": "[Just Bin Bags] Review and validate conversion tracking setup",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** just-bin-bags\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** No conversion tracking details confirmed, which is critical for performance measurement and optimization\n**AI Task ID:** e47deeed-e115-427d-ba9d-f9034164c341\n---\n\nNo conversion tracking details confirmed, which is critical for performance measurement and optimization",
+          "created": "2025-11-12T07:01:31.686Z",
+          "updated": "2025-11-12T07:01:31.686Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "Rl8zTTJWeHpOS1ZjdGQyYQ",
+          "title": "[Devonshire Hotels] Investigate zero conversion tracking for Weddings, Lismore & The Hall campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** devonshire-hotels\n**Priority:** P0\n**Time Estimate:** 1 hour\n**Reason:** Critical tracking issue discovered in October report showing \u00a3488.89 spend with zero conversions across multiple campaigns\n**AI Task ID:** 1c78ce1d-4319-40e0-867b-b0773cf50265\n---\n\nCritical tracking issue discovered in October report showing \u00a3488.89 spend with zero conversions across multiple campaigns",
+          "created": "2025-11-12T07:01:31.357Z",
+          "updated": "2025-11-12T07:01:31.357Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "b1BTenJNN3Y5RWVsbTU2OA",
+          "title": "[Devonshire Hotels] Escalate Performance Max campaign underperformance to Google Ads representative",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** devonshire-hotels\n**Priority:** P0\n**Time Estimate:** 1 hour\n**Reason:** October experiment showed PMax failed to scale (573% incremental ROAS, only 67% of baseline performance), causing significant client frustration and potential budget inefficiency\n**AI Task ID:** ce2faa18-5514-4dd0-ac8b-d4163cf95679\n---\n\nOctober experiment showed PMax failed to scale (573% incremental ROAS, only 67% of baseline performance), causing significant client frustration and potential budget inefficiency",
+          "created": "2025-11-12T07:01:31.035Z",
+          "updated": "2025-11-12T07:01:31.035Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "US1LQ1YxMDFGTG4yYm5HVw",
+          "title": "[Clear Prospects] Review Product Impact Analyzer logs to confirm Merchant Center disapprovals remain resolved across HSG, WBS, and BMPM brands",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** clear-prospects\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Critical follow-up to recent Merchant Center disapproval issues to prevent potential product listing disruptions\n**AI Task ID:** 655f45da-00fd-4f1e-8ebc-b1d8a7ab7efc\n---\n\nCritical follow-up to recent Merchant Center disapproval issues to prevent potential product listing disruptions",
+          "created": "2025-11-12T07:01:30.700Z",
+          "updated": "2025-11-12T07:01:30.700Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "U2l0a1E5TUh3UnhYbXlQQQ",
+          "title": "[P1] Create merchant promotions for Smythson",
+          "status": "needsAction",
+          "notes": "Priority 1: Set up merchant-level promotions in Google Merchant Centre for Smythson's campaigns.\n\nRelated to Black Friday/holiday season preparations.",
+          "created": "2025-11-11T14:57:15.647Z",
+          "updated": "2025-11-11T14:57:15.647Z",
+          "completed": null,
+          "due": "2025-11-13T00:00:00.000Z"
+        },
+        {
+          "id": "MTUtWjV4RTQxS0NUSzZzSQ",
+          "title": "[Roksys] Analyze task patterns and create templates",
+          "status": "needsAction",
+          "notes": "---\n**Source:** Manual Task (2025-11-11)\n**Client:** roksys\n**Priority:** P2\n**Time Estimate:** 2 hours\n**Reason:** Analyze accumulated task data from ai-tasks-state.json to identify patterns and create reusable task templates\n---\n\n## Task Details\n\n**Objective:** Create task templates based on real usage patterns\n\n**Steps:**\n1. Analyze all tasks from ai-tasks-state.json (3-4 weeks of data)\n2. Identify top recurring task patterns\n3. Find tasks that appear across multiple clients\n4. Analyze completion rates for different task types\n5. Create template system based on findings\n6. Implement template matching in daily generator\n\n**Data Sources:**\n- shared/data/ai-tasks-state.json (all task titles, clients, priorities)\n- shared/data/task-metrics.json (completion statistics)\n- Google Tasks API (full task history)\n\n**Expected Output:**\n- Task pattern analysis report\n- Template definitions (JSON format)\n- Template matching logic\n- Updated daily generator to use templates\n\n**Timeline:** December 2025 (after sufficient data accumulation)\n",
+          "created": "2025-11-11T12:24:02.941Z",
+          "updated": "2025-11-11T12:24:02.941Z",
+          "completed": null,
+          "due": "2025-12-01T00:00:00.000Z"
+        },
+        {
+          "id": "WWlXNEdqejRnMHdSMjgxUg",
+          "title": "[Uno Lighting] Verify product feed GTIN accuracy and product variant management",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** uno-lighting\n**Priority:** P2\n**Time Estimate:** 20 mins\n**Reason:** Proactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues\n**AI Task ID:** b168597f-5ff3-497b-af7f-1b6a3c1b4ca1\n---\n\nProactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues",
+          "created": "2025-11-11T10:38:37.900Z",
+          "updated": "2025-11-11T10:38:37.900Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "ZU5jVGgwcFlBLWFTME55cA",
+          "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Known technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.\n**AI Task ID:** 30d01e3e-bc29-4851-8402-173f479f7b05\n---\n\nKnown technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.",
+          "created": "2025-11-11T10:38:37.581Z",
+          "updated": "2025-11-11T10:38:37.581Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "S2g5YUk3QzA0QW5hVS02TA",
+          "title": "[Superspace] Prepare horizontal video asset recommendations for Demand Gen campaign",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** superspace\n**Priority:** P2\n**Time Estimate:** 1 hour\n**Reason:** Current video assets are portrait-focused, need horizontal formats for desktop placements to improve campaign performance across platforms before scaling campaign\n**AI Task ID:** cd3cb3d9-6216-46e1-a082-557d4f60b6d9\n---\n\nCurrent video assets are portrait-focused, need horizontal formats for desktop placements to improve campaign performance across platforms before scaling campaign",
+          "created": "2025-11-11T10:38:37.255Z",
+          "updated": "2025-11-11T10:38:37.255Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "emdOTWZJMjlFbU50TF9rTw",
+          "title": "[Smythson] Move diary asset group to new standalone PMAX campaign",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** smythson\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Justified by 253 products and 50 conversions in 30 days, supports campaign optimization\n**AI Task ID:** c9aa4948-6ad4-46b0-aad7-6e8099ead996\n---\n\nJustified by 253 products and 50 conversions in 30 days, supports campaign optimization",
+          "created": "2025-11-11T10:38:36.950Z",
+          "updated": "2025-11-11T10:38:36.950Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "Ym9WUktRMmdLWm14SU9IZA",
+          "title": "[Positive Bakes] Schedule initial campaign strategy meeting with Aatin Anadkat",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** positive-bakes\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Establish key performance goals, budget, and initial campaign approach for new Google Ads account before further setup\n**AI Task ID:** 1b97f12a-249f-48c3-8756-00cb4c5c98d9\n---\n\nEstablish key performance goals, budget, and initial campaign approach for new Google Ads account before further setup",
+          "created": "2025-11-11T10:38:36.643Z",
+          "updated": "2025-11-11T10:38:36.643Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "YUUyYjY4S1ZqUHFNb29Xeg",
+          "title": "[National Design Academy] Update Geographic Performance Analysis dashboard with latest enrollment data",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** national-design-academy\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Ensure latest country-level ROAS and enrollment insights are current for upcoming client reporting and strategic decision-making\n**AI Task ID:** 5f77c298-0d00-428b-b160-c45c7b19c8c7\n---\n\nEnsure latest country-level ROAS and enrollment insights are current for upcoming client reporting and strategic decision-making",
+          "created": "2025-11-11T10:38:36.349Z",
+          "updated": "2025-11-11T10:38:36.349Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "MENrUm9sXzBTTFVxeVAyaA",
+          "title": "[National Design Academy] Review budget reduction impact from Nov 5th changes (daily spend reduced to \u00a3765)",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** national-design-academy\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Confirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met\n**AI Task ID:** 17965974-dfb5-4c0a-9ef0-ce6bbb3e0891\n---\n\nConfirm recent budget cuts are maintaining performance while reducing overall spend as planned, ensuring client's cost efficiency goals are met",
+          "created": "2025-11-11T10:38:36.021Z",
+          "updated": "2025-11-11T10:38:36.021Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "a3VCT1lNaU11QUg3Q2dxNQ",
+          "title": "[Just Bin Bags] Clarify JHD sub-brand details with client contact",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** just-bin-bags\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Unclear what JHD represents, impacts campaign strategy and product feed management\n**AI Task ID:** 0c305757-e4d1-4825-9ec0-126598a00ac3\n---\n\nUnclear what JHD represents, impacts campaign strategy and product feed management",
+          "created": "2025-11-11T10:38:35.693Z",
+          "updated": "2025-11-11T10:38:35.693Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "YWt5UXh0bGRXeGxlcDYwSg",
+          "title": "[Grain Guard] Review Sept 11 'Shopping Only' campaign switch and document performance impact",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** grain-guard\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Recent campaign structure change needs performance assessment to validate effectiveness and determine if further adjustments are required\n**AI Task ID:** 1765603f-0a10-4cc3-ab62-36bb16e99875\n---\n\nRecent campaign structure change needs performance assessment to validate effectiveness and determine if further adjustments are required",
+          "created": "2025-11-11T10:38:35.373Z",
+          "updated": "2025-11-11T10:38:35.373Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "V3NpeEVENmJSR21Tc0ZBVA",
+          "title": "[Go Glean] Prepare initial research document analyzing Go Glean's high ROAS performance",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** go-glean\n**Priority:** P2\n**Time Estimate:** 1 hour\n**Reason:** Understand key performance drivers differentiating Go Glean from Grain Guard's lower ROAS (140-160%)\n**AI Task ID:** 7d48bc73-b0ca-4bd9-8586-a8897cab34f1\n---\n\nUnderstand key performance drivers differentiating Go Glean from Grain Guard's lower ROAS (140-160%)",
+          "created": "2025-11-11T10:38:35.045Z",
+          "updated": "2025-11-11T10:38:35.045Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "SjdNMVVBcEM5Z0Izc1Ayeg",
+          "title": "[Go Glean] Review September ROAS adjustments for Catch All and Villains campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** go-glean\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Multiple ROAS target changes in September suggest active testing needs validation of final performance strategy\n**AI Task ID:** 865fdeaa-6d56-4458-90ec-d6296d528298\n---\n\nMultiple ROAS target changes in September suggest active testing needs validation of final performance strategy",
+          "created": "2025-11-11T10:38:34.728Z",
+          "updated": "2025-11-11T10:38:34.728Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "QTZCUU5xLV9wMXRqbC1tVg",
+          "title": "[Crowd Control] Review October 14 ROAS Target Reduction Across Campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** crowd-control\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** All campaigns standardized to 170% ROAS on Oct 14, coinciding with performance drop - need to understand strategic rationale and potential corrective actions\n**AI Task ID:** c149ce56-6081-4eab-85fc-65395a917cc5\n---\n\nAll campaigns standardized to 170% ROAS on Oct 14, coinciding with performance drop - need to understand strategic rationale and potential corrective actions",
+          "created": "2025-11-11T10:38:34.399Z",
+          "updated": "2025-11-11T10:38:34.399Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "ZGtwMUlBVWpRY1BMX09Uag",
+          "title": "[Clear Prospects] Check initial performance of BMPM Cushions Search Campaign started on Oct 21",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** clear-prospects\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Review early ROAS and conversion data to determine potential optimization needs for new search campaign and inform strategic adjustments\n**AI Task ID:** c7a5e7a3-b3d8-4785-b035-011dca5e3ae3\n---\n\nReview early ROAS and conversion data to determine potential optimization needs for new search campaign and inform strategic adjustments",
+          "created": "2025-11-11T10:38:34.079Z",
+          "updated": "2025-11-11T10:38:34.079Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "d1Yya1hheUZ0UGFxWUJHQQ",
+          "title": "[Bright Minds] Monitor ROAS progression toward 400% target",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** bright-minds\n**Priority:** P2\n**Time Estimate:** 15 mins\n**Reason:** Current ROAS at 292%, need to track progress and prepare insights for weekly client report\n**AI Task ID:** 59a90ffc-1b0d-4557-a2b1-08dbffdde308\n---\n\nCurrent ROAS at 292%, need to track progress and prepare insights for weekly client report",
+          "created": "2025-11-11T10:38:33.749Z",
+          "updated": "2025-11-11T10:38:33.749Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "V2JjUzlwMFhzMG1yZDNiUA",
+          "title": "[Accessories For The Home] Check bar stools product feed completeness",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** accessories-for-the-home\n**Priority:** P2\n**Time Estimate:** 20 mins\n**Reason:** Follow up on pending action item from November 10 meeting regarding product feed status\n**AI Task ID:** 54095c22-6082-419b-9ea4-2d2d56495cbc\n---\n\nFollow up on pending action item from November 10 meeting regarding product feed status",
+          "created": "2025-11-11T10:38:33.429Z",
+          "updated": "2025-11-11T10:38:33.429Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "SlFwNGVKMWhXd1ctOWtPcw",
+          "title": "[Uno Lighting] Check ROAS performance after 10% reduction on PMax campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** uno-lighting\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Monitor impact of ROAS target reduction implemented on Oct 15 to ensure performance remains within acceptable parameters\n**AI Task ID:** 3062fadd-dea8-455b-89ec-fc8f5636a343\n---\n\nMonitor impact of ROAS target reduction implemented on Oct 15 to ensure performance remains within acceptable parameters",
+          "created": "2025-11-11T10:38:33.143Z",
+          "updated": "2025-11-11T10:38:33.143Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "U2FSdU1qem9pREk4TDBXbg",
+          "title": "[Uno Lighting] Review AI Max search terms for Search Brand campaign",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** uno-lighting\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recently enabled AI Max feature (Oct 21, 2025) requires immediate performance check to ensure query matching quality\n**AI Task ID:** 2d697eca-1d75-4173-af2b-5941ec35e880\n---\n\nRecently enabled AI Max feature (Oct 21, 2025) requires immediate performance check to ensure query matching quality",
+          "created": "2025-11-11T10:38:32.850Z",
+          "updated": "2025-11-11T10:38:32.850Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "cTZ5VmZrQ0pxOHdOdVFQUA",
+          "title": "[Tree2Mydoor] Complete and send October 2025 month-end report to Gareth",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** tree2mydoor\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Monthly reporting is critical for client communication, especially given Gareth's need for structured, detailed documentation. Report is in progress and needs to be finalized.\n**AI Task ID:** 42d49493-6fbc-4040-ac1e-a0f2c82eb643\n---\n\nMonthly reporting is critical for client communication, especially given Gareth's need for structured, detailed documentation. Report is in progress and needs to be finalized.",
+          "created": "2025-11-11T10:38:32.540Z",
+          "updated": "2025-11-11T10:38:32.540Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "anFGcTZjMnBnMWstZXVTMg",
+          "title": "[Tree2Mydoor] Review Olive Tree (Product 01090) Merchant Center feed stability",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** tree2mydoor\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Need to verify current feed stability and prevent potential recurrence.\n**AI Task ID:** f49f5982-e14d-4e6a-a921-fc688b55bf4d\n---\n\nRecent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Need to verify current feed stability and prevent potential recurrence.",
+          "created": "2025-11-11T10:38:32.225Z",
+          "updated": "2025-11-11T10:38:32.225Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "NnV2R25FTXRLVUxrUXhWbQ",
+          "title": "[Superspace] Review Demand Gen campaign performance during learning phase",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** superspace\n**Priority:** P1\n**Time Estimate:** 45 mins\n**Reason:** Campaign is in critical 14-45 day learning phase, need to assess early performance metrics, lookalike audience results, and video asset effectiveness before budget decisions\n**AI Task ID:** 332d8277-4299-4a44-aca2-d806103949da\n---\n\nCampaign is in critical 14-45 day learning phase, need to assess early performance metrics, lookalike audience results, and video asset effectiveness before budget decisions",
+          "created": "2025-11-11T10:38:31.906Z",
+          "updated": "2025-11-11T10:38:31.906Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "cmhrNjh2NlRZS0dkeGlrTg",
+          "title": "[Smythson] Review and prepare PMAX Christmas campaign 1-week performance update",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** smythson\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Critical performance update promised to client for recent PMAX structure changes, need to monitor campaign scaling and key metrics\n**AI Task ID:** de7201c6-3fad-48e8-bcc6-85e8f9e0ce5c\n---\n\nCritical performance update promised to client for recent PMAX structure changes, need to monitor campaign scaling and key metrics",
+          "created": "2025-11-11T10:38:31.581Z",
+          "updated": "2025-11-11T10:38:31.581Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "bUFianZIRGNtMHY0TFhPaw",
+          "title": "[Smythson] Update Smythson dashboard with actual ROAS and revenue vs strategy targets",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** smythson\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Directly requested in recent meeting to provide daily budget visibility and track performance against Q4 strategy\n**AI Task ID:** ea74aced-dcbb-4c1f-8000-f9734d6344bf\n---\n\nDirectly requested in recent meeting to provide daily budget visibility and track performance against Q4 strategy",
+          "created": "2025-11-11T10:38:31.265Z",
+          "updated": "2025-11-11T10:38:31.265Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "NXV1WWJRTEJhMzRsLWpwag",
+          "title": "[Roksys] Review client meeting notes and identify key action items",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** roksys\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Ensure no critical follow-up items were missed from recent meeting notes\n**AI Task ID:** bd0500d3-022b-41fe-851c-be5036fc1ec7\n---\n\nEnsure no critical follow-up items were missed from recent meeting notes",
+          "created": "2025-11-11T10:38:30.941Z",
+          "updated": "2025-11-11T10:38:30.941Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "YS1PbTN5RUtyaGVOcjhiTQ",
+          "title": "[Positive Bakes] Review Channable feed settings and product ID mapping",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** positive-bakes\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Resolve potential product listing issues from BigCommerce to Shopify migration that could impact Merchant Centre performance\n**AI Task ID:** 37e19f44-a306-44aa-abfc-ca9d139a18fd\n---\n\nResolve potential product listing issues from BigCommerce to Shopify migration that could impact Merchant Centre performance",
+          "created": "2025-11-11T10:38:30.619Z",
+          "updated": "2025-11-11T10:38:30.619Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "N0xlS0ZTVTVjTU9vTmFNUg",
+          "title": "[Positive Bakes] Verify Merchant Centre product feed configuration after Shopify migration",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** positive-bakes\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Ensure product listings are correctly mapped and available for free listings following recent platform migration, which could impact advertising performance\n**AI Task ID:** 4c1408bd-6b18-4f58-a229-584a2cc8afe1\n---\n\nEnsure product listings are correctly mapped and available for free listings following recent platform migration, which could impact advertising performance",
+          "created": "2025-11-11T10:38:30.292Z",
+          "updated": "2025-11-11T10:38:30.292Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "TUJ5Vll6YzB5dG5PdmtyLQ",
+          "title": "[National Design Academy] Validate NMA Target CPA strategy for Engineering Search and Management PMax campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** national-design-academy\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Recent meeting discussed budget optimization, strategy needs immediate implementation to improve conversion performance and reduce extremely high current CPA from \u00a3917 to target range of \u00a3110-130\n**AI Task ID:** a7a94cf3-552f-4486-b0e0-cf8608302a0a\n---\n\nRecent meeting discussed budget optimization, strategy needs immediate implementation to improve conversion performance and reduce extremely high current CPA from \u00a3917 to target range of \u00a3110-130",
+          "created": "2025-11-11T10:38:29.966Z",
+          "updated": "2025-11-11T10:38:29.966Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "TlMtY0ZfSVl2cFNwVy1SVQ",
+          "title": "[Just Bin Bags] Confirm Google Ads account access and perform initial performance audit",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** just-bin-bags\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** No performance data or KPIs established, need to verify account connectivity and initial campaign health\n**AI Task ID:** a3316b27-b5f9-4d41-8267-38c0a4ff7fe0\n---\n\nNo performance data or KPIs established, need to verify account connectivity and initial campaign health",
+          "created": "2025-11-11T10:38:29.652Z",
+          "updated": "2025-11-11T10:38:29.652Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "cGFPNC1leGExTlh5N0JQag",
+          "title": "[Grain Guard] Analyze performance gap between Heroes & Sidekicks (160% ROAS) and Villains (140% ROAS) campaign segments",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** grain-guard\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Significant ROAS difference requires immediate investigation to understand product performance variations and develop optimization strategy\n**AI Task ID:** 8e29918c-9f20-4b82-989f-bd756589f8e8\n---\n\nSignificant ROAS difference requires immediate investigation to understand product performance variations and develop optimization strategy",
+          "created": "2025-11-11T10:38:29.353Z",
+          "updated": "2025-11-11T10:38:29.353Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "QXlhVEpXNHlyNk5LSWRqVg",
+          "title": "[Grain Guard] Schedule initial client onboarding call with Connor Heaps to confirm account goals and key details",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** grain-guard\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Many critical account details are still TBD, including budget, contact info, and specific performance targets. Direct client input is needed to complete account strategy documentation.\n**AI Task ID:** 0d3d0ca3-f356-4dab-bed2-a86e4c4511c0\n---\n\nMany critical account details are still TBD, including budget, contact info, and specific performance targets. Direct client input is needed to complete account strategy documentation.",
+          "created": "2025-11-11T10:38:29.039Z",
+          "updated": "2025-11-11T10:38:29.039Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "MlFXTTQ5d1VqTTZ2dU9fUQ",
+          "title": "[Godshot] Review Google Merchant Center product feed for ID and variant tracking issues",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Critical 80% mismatch between Google Ads conversions and WooCommerce sales requires immediate investigation of product feed mapping and tracking\n**AI Task ID:** 4a72a2b1-266f-4da3-b311-fd3f89fd6af3\n---\n\nCritical 80% mismatch between Google Ads conversions and WooCommerce sales requires immediate investigation of product feed mapping and tracking",
+          "created": "2025-11-11T10:38:28.720Z",
+          "updated": "2025-11-11T10:38:28.720Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "NkoyVm9Uc01rNVNrNklwaw",
+          "title": "[Godshot] Verify conversion tracking plugin fix for product ID mismatches",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recent update to conversion tracking plugin needs immediate verification to ensure accurate product attribution and sales tracking\n**AI Task ID:** 928fa1c0-7468-4bb1-9479-023096d8ac90\n---\n\nRecent update to conversion tracking plugin needs immediate verification to ensure accurate product attribution and sales tracking",
+          "created": "2025-11-11T10:38:28.394Z",
+          "updated": "2025-11-11T10:38:28.394Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "VWxjQ0dqMGR0dHRhMUVpbA",
+          "title": "[Godshot] Investigate asset groups burning budget with zero conversions (Fellow, Rains, Coffee Generic)",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** godshot\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Asset groups are spending budget without generating conversions, risking inefficient ad spend and missing performance targets\n**AI Task ID:** ea6c7a33-2955-499c-b5e7-a56b1fd5306b\n---\n\nAsset groups are spending budget without generating conversions, risking inefficient ad spend and missing performance targets",
+          "created": "2025-11-11T10:38:28.095Z",
+          "updated": "2025-11-11T10:38:28.095Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "QUJpZ3FhMjc4RkRMeFdLcA",
+          "title": "[Go Glean] Contact Connor Heaps to schedule initial strategy discussion and gather missing account details",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** go-glean\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Multiple TBD sections in document indicate critical information gaps about business model, products, and goals that need immediate clarification\n**AI Task ID:** b827b371-5c36-4248-8d57-41cc39dec561\n---\n\nMultiple TBD sections in document indicate critical information gaps about business model, products, and goals that need immediate clarification",
+          "created": "2025-11-11T10:38:27.763Z",
+          "updated": "2025-11-11T10:38:27.763Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "M2RsdnFYMmZsSmR0aG4yQg",
+          "title": "[Devonshire Hotels] Review November budget changes implementation from Nov 3rd",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** devonshire-hotels\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Confirm budget reduction to \u00a39,000 was executed properly across all 12 Devonshire campaigns to ensure accurate spend management\n**AI Task ID:** 52e6bef5-352d-434d-9976-08d6f42c3721\n---\n\nConfirm budget reduction to \u00a39,000 was executed properly across all 12 Devonshire campaigns to ensure accurate spend management",
+          "created": "2025-11-11T10:38:27.434Z",
+          "updated": "2025-11-11T10:38:27.434Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "T3ZiUER1cVFLSTIxSE04dQ",
+          "title": "[Crowd Control] Investigate Product CTR Collapse for Top Products",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** crowd-control\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Hero products showing catastrophically low CTR (0.12-0.75%), risking significant revenue loss and requiring immediate creative/feed optimization\n**AI Task ID:** 60d2c62d-60a2-46f8-82e3-d338de55e78b\n---\n\nHero products showing catastrophically low CTR (0.12-0.75%), risking significant revenue loss and requiring immediate creative/feed optimization",
+          "created": "2025-11-11T10:38:27.134Z",
+          "updated": "2025-11-11T10:38:27.134Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "TF9NREpRQ0VpRHFjUVZObQ",
+          "title": "[Crowd Control] Verify WooCommerce Conversion Tracking Performance",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** crowd-control\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Conversion tracking currently only reporting 54% of conversions, potentially misrepresenting account performance and impacting Smart Bidding strategy\n**AI Task ID:** 130ce1de-7030-455b-a504-fe853f76bff2\n---\n\nConversion tracking currently only reporting 54% of conversions, potentially misrepresenting account performance and impacting Smart Bidding strategy",
+          "created": "2025-11-11T10:38:26.830Z",
+          "updated": "2025-11-11T10:38:26.830Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "XzVSY2FZYndib0hxdUNicg",
+          "title": "[Clear Prospects] Draft November monthly report section highlighting HappySnapGifts face masks ROAS turnaround story",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** clear-prospects\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Prepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting, capturing key strategic insights\n**AI Task ID:** 6aa3d8d6-85d5-4f45-a7c7-b8bb4489202d\n---\n\nPrepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting, capturing key strategic insights",
+          "created": "2025-11-11T10:38:26.502Z",
+          "updated": "2025-11-11T10:38:26.502Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "R1RraW9GY21rUWJSdmlCWQ",
+          "title": "[Bright Minds] Validate conversion tracking post-changes (daily check)",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** bright-minds\n**Priority:** P1\n**Time Estimate:** 20 mins\n**Reason:** Ensure conversion count matches Shopify orders and values after recent tracking implementation\n**AI Task ID:** 23f2f545-7417-4b7d-ac9c-bf0fb92d81ec\n---\n\nEnsure conversion count matches Shopify orders and values after recent tracking implementation",
+          "created": "2025-11-11T10:38:26.172Z",
+          "updated": "2025-11-11T10:38:26.172Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "dF82SkowVHJ4S1pvMTgyTw",
+          "title": "[Bright Minds] Send weekly Monday performance report to Barry and Sharon",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** bright-minds\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Client requires consistent weekly updates to maintain trust during Google Ads campaign learning phase, with focus on ROAS progression and Q4 budget increase context\n**AI Task ID:** 4ec60dec-7a5f-48a2-96ad-60c419220446\n---\n\nClient requires consistent weekly updates to maintain trust during Google Ads campaign learning phase, with focus on ROAS progression and Q4 budget increase context",
+          "created": "2025-11-11T10:38:25.862Z",
+          "updated": "2025-11-11T10:38:25.862Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "THRlSXlIQms4MjBvbWFTeg",
+          "title": "[Accessories For The Home] Prepare draft WhatsApp message to Andrew about October revenue drop and seasonal trends",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** accessories-for-the-home\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Address client concerns about recent performance anomaly and provide proactive communication about seasonal patterns\n**AI Task ID:** 60c51efc-5eda-48c3-a7aa-0d577492978c\n---\n\nAddress client concerns about recent performance anomaly and provide proactive communication about seasonal patterns",
+          "created": "2025-11-11T10:38:25.548Z",
+          "updated": "2025-11-11T10:38:25.548Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "OGJiNzVmdG90YUc0U05Vbw",
+          "title": "[Accessories For The Home] Review preliminary ROAS reduction impact on Performance Max campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** accessories-for-the-home\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Prepare for full week analysis scheduled on Nov 12, assess initial performance after ROAS target reduction from 200% to 190%\n**AI Task ID:** f868d6bd-d575-484a-85b6-e7c3693227be\n---\n\nPrepare for full week analysis scheduled on Nov 12, assess initial performance after ROAS target reduction from 200% to 190%",
+          "created": "2025-11-11T10:38:25.186Z",
+          "updated": "2025-11-11T10:38:25.186Z",
+          "completed": null,
+          "due": "2025-11-12T00:00:00.000Z"
+        },
+        {
+          "id": "LTFKN2lrd1FYTlpyWnZxMA",
+          "title": "[Superspace] Verify stock-related budget controls for Q4",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** superspace\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Confirm 50% budget reduction is correctly implemented to prevent overspending during current inventory constraints, especially critical with upcoming holiday season\n**AI Task ID:** d3769cf5-5e05-4abe-a738-9481ef8e3ee3\n---\n\nConfirm 50% budget reduction is correctly implemented to prevent overspending during current inventory constraints, especially critical with upcoming holiday season",
+          "created": "2025-11-11T10:38:24.862Z",
+          "updated": "2025-11-11T10:38:24.862Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "QUxicVRHTHRMY3RRSmJwVQ",
+          "title": "[Just Bin Bags] Review and validate conversion tracking setup",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** just-bin-bags\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** No conversion tracking details confirmed, critical for performance measurement and optimization\n**AI Task ID:** 1a1f7752-c557-4040-921e-f339c956bb77\n---\n\nNo conversion tracking details confirmed, critical for performance measurement and optimization",
+          "created": "2025-11-11T10:38:24.550Z",
+          "updated": "2025-11-11T10:38:24.550Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "cFpRMjZBb25XbWU4Y0J1Mw",
+          "title": "[Devonshire Hotels] Investigate zero conversion tracking for Weddings, Lismore & The Hall campaigns",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** devonshire-hotels\n**Priority:** P0\n**Time Estimate:** 1 hour\n**Reason:** Critical tracking issue discovered in October report showing \u00a3488.89 spend with zero conversions across multiple campaigns\n**AI Task ID:** e595997e-b2a1-49cd-862b-bdbd1849bcd2\n---\n\nCritical tracking issue discovered in October report showing \u00a3488.89 spend with zero conversions across multiple campaigns",
+          "created": "2025-11-11T10:38:24.202Z",
+          "updated": "2025-11-11T10:38:24.202Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "Q0tRSnpWQUVSWDltWFZGRQ",
+          "title": "[Devonshire Hotels] Escalate Performance Max campaign underperformance to Google Ads representative",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** devonshire-hotels\n**Priority:** P0\n**Time Estimate:** 1 hour\n**Reason:** October experiment showed PMax failed to scale (573% incremental ROAS, only 67% of baseline performance), causing significant client frustration and potential budget inefficiency\n**AI Task ID:** bdd0a370-7d7e-4fd8-8d33-77679ba0677d\n---\n\nOctober experiment showed PMax failed to scale (573% incremental ROAS, only 67% of baseline performance), causing significant client frustration and potential budget inefficiency",
+          "created": "2025-11-11T10:38:23.888Z",
+          "updated": "2025-11-11T10:38:23.888Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "YzdPNHJHTWp6TXpSS2hSXw",
+          "title": "[Clear Prospects] Review Product Impact Analyzer logs to confirm Merchant Center disapprovals remain resolved across HSG, WBS, and BMPM brands",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** clear-prospects\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Verify continued resolution of desktop caching/crawler IP issues after November 10 fix and prevent potential product listing disruptions\n**AI Task ID:** 69bac1de-b9d4-48d6-88de-a5f8084189dc\n---\n\nVerify continued resolution of desktop caching/crawler IP issues after November 10 fix and prevent potential product listing disruptions",
+          "created": "2025-11-11T10:38:23.577Z",
+          "updated": "2025-11-11T10:38:23.577Z",
+          "completed": null,
+          "due": "2025-11-11T00:00:00.000Z"
+        },
+        {
+          "id": "UHVwVHRydDhLd3dSWDYzdw",
+          "title": "[Uno Lighting] Verify product feed GTIN accuracy and product variant management",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:36)\n**Client:** uno-lighting\n**Priority:** P2\n**Time Estimate:** 20 mins\n**Reason:** Proactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues\n**AI Task ID:** a2a4a58e-e158-4ac0-b653-d3e637efb5ac\n---\n\nProactive monitoring of known feed management challenges to prevent potential ad disapprovals or performance issues",
+          "created": "2025-11-11T10:36:28.150Z",
+          "updated": "2025-11-11T10:36:28.150Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "SjZLSzhUZXhRODBpSDlsVA",
+          "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value",
+          "status": "needsAction",
+          "notes": "---\n**Source:** AI Generated (2025-11-11 10:36)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Known technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.\n**AI Task ID:** bdc8fb72-40b5-4789-a9e7-f44b54b5b137\n---\n\nKnown technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.",
+          "created": "2025-11-11T10:36:27.834Z",
+          "updated": "2025-11-11T10:36:27.834Z",
+          "completed": null,
+          "due": "2025-11-14T00:00:00.000Z"
+        }
+      ],
+      "last_updated": "2025-11-12T10:43:29.871534",
+      "count": 100
+    }
+  },
+  "last_updated": "2025-11-12T10:43:29.871562",
+  "version": "1.0"
+}

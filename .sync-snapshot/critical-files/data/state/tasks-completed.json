@@ -1,0 +1,652 @@
+[
+  {
+    "task_id": "NFBveVU2RkZHVXpST1kzbQ",
+    "title": "Claude Code: Start with one simple command/skill",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:27:54.452210",
+    "completed_at": "2025-10-28T18:42:50.331Z",
+    "notes": "From Claude Code setup meeting on 2025-10-27. Don't overcomplicate initial setup. Pick ONE simple command or skill to implement first (e.g., client context loader, meeting note parser, or simple automation). Test it thoroughly, understand how it works, then gradually build complexity. Avoid trying to build everything at once.",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "UG1NN1MtaFFsUTlSX2hnZw",
+    "title": "Another iPad task",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:27:54.452260",
+    "completed_at": "2025-10-28T18:22:12.502Z",
+    "notes": null,
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "S2x1MFVTbGVyYmdyU01YRQ",
+    "title": "New iPad task",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:27:54.452279",
+    "completed_at": "2025-10-28T18:22:11.035Z",
+    "notes": "Notes for the iPad task\n",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "WUw2OWp5Ul83NkxZRF9FNA",
+    "title": "Review Smythson Q4 strategy",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:30:02.258064",
+    "completed_at": "2025-10-29T08:29:55.420Z",
+    "notes": "Review the Q4 2025 strategy report for Smythson and prepare feedback for next meeting.",
+    "due": null,
+    "client": "smythson"
+  },
+  {
+    "task_id": "Q2N2dWZFRUlvMGVreGhqeg",
+    "title": "Smythson: Simplify budget projection document",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:30:02.258145",
+    "completed_at": "2025-10-29T08:28:16.255Z",
+    "notes": "From Smythson meeting on 2025-10-28. Current budget projection document is too complex. Simplify it to make tracking easier for both internal use and client reporting. Focus on clarity and actionable insights.",
+    "due": null,
+    "client": "smythson"
+  },
+  {
+    "task_id": "WGh5d1l2cEpWbWsyTUJfaw",
+    "title": "Update MCP server documentation",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:41:25.875236",
+    "completed_at": "2025-10-29T08:41:19.222Z",
+    "notes": "Add setup instructions for new MCP servers in Pete's Brain documentation.",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "azlMeXdzQmtPOFZFM1pIOA",
+    "title": "Tree2mydoor: Review Q4 Christmas campaign performance",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:41:25.876766",
+    "completed_at": "2025-10-29T08:41:09.094Z",
+    "notes": "Analyze the performance of Christmas campaigns for Tree2mydoor and prepare recommendations for next year.",
+    "due": null,
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "WVpIMUNoZC1BdFlEeVR4QQ",
+    "title": "Smythson: Update Q4 budget allocation",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:57:55.369891",
+    "completed_at": "2025-10-29T08:57:47.816Z",
+    "notes": "Updated budget spreadsheet and sent to client for review. CAVEAT: Still waiting for client approval before implementing changes. Follow up scheduled for next week.",
+    "due": null,
+    "client": "smythson"
+  },
+  {
+    "task_id": "MnlacFJudC0xSVZZdEwtLQ",
+    "title": "Smythson: Move diary asset group to standalone PMAX campaign",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:57:55.372006",
+    "completed_at": "2025-10-29T08:55:42.415Z",
+    "notes": "From Smythson meeting on 2025-10-28. Move the existing diary asset group out of the current PMAX campaign and into its own dedicated standalone Performance Max campaign. This will allow better performance tracking and budget control for the diary product line.",
+    "due": null,
+    "client": "smythson"
+  },
+  {
+    "task_id": "SlZ3WHRya3p0WldqOTdjQQ",
+    "title": "Tree2mydoor: Implement LLMS.txt and agents.txt files",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T08:57:55.372608",
+    "completed_at": "2025-10-29T08:55:31.532Z",
+    "notes": "From Tree2mydoor meeting with Gareth on 2025-10-27. Create AI discoverability files (llms.txt and agents.txt) for the tree2mydoor website to improve how AI assistants like ChatGPT and Claude understand and recommend their business. Research website, create structured content, and provide implementation instructions to client.\n\nFiles generated and instructions given to tree2mydoor",
+    "due": null,
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "ZE1NZXphWGtUR2tYamVKVw",
+    "title": "Smythson: Analyze competitor bidding strategies",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T09:14:18.220728",
+    "completed_at": "2025-10-29T09:14:11.128Z",
+    "notes": "Research and document competitor bidding patterns for Smythson's product categories. Focus on luxury stationery segment. Deliverable: Competitive analysis report with recommendations for bid adjustments and new keyword opportunities.",
+    "due": null,
+    "client": "smythson"
+  },
+  {
+    "task_id": "YXBYajduMGFlTXBiclRnRQ",
+    "title": "Smythson: Begin 15% ROAS reduction across all campaigns",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-29T14:22:18.336129",
+    "completed_at": "2025-10-29T13:18:13.000Z",
+    "notes": "From Smythson meeting on 2025-10-28. Reduce ROAS targets by 15% across all Smythson campaigns to increase volume and scale spend heading into Q4 peak season. START DATE: 2025-10-29. Monitor performance closely after implementation.\nThis wasn't carried out; it was superseded by the new strategy that was produced. \n",
+    "due": null,
+    "client": "smythson"
+  },
+  {
+    "task_id": "LWtsQlpIa3o2UzV1R3RQbw",
+    "title": "Claude Code: Read documentation and Indie Dev Dance tutorials",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-30T13:28:48.560199",
+    "completed_at": "2025-10-30T10:39:49.488Z",
+    "notes": "From Claude Code setup meeting on 2025-10-27. Study Claude Code documentation at docs.claude.com to understand capabilities, best practices, and advanced features. Watch Indie Dev Dance YouTube channel for practical tutorials and real-world examples. Goal: Build foundational knowledge before implementing custom commands/skills.",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "d0NrcDhhODV0OUhfajNjXw",
+    "title": "Tree2mydoor: Start using Google Chat space for regular updates",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-10-30T13:28:48.561570",
+    "completed_at": "2025-10-30T10:34:08.520Z",
+    "notes": "From Tree2mydoor meeting with Gareth on 2025-10-27. Begin posting regular campaign updates in the Google Chat space instead of relying solely on email. This will improve communication cadence and make it easier for the client to stay informed on campaign performance and changes.",
+    "due": null,
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "dzJfQkN3bnFvTlREc1ozOQ",
+    "title": "Complete Product Hero Label Tracking Rollout - All Clients",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-03T12:49:35.513066",
+    "completed_at": "2025-11-03T11:22:19.546Z",
+    "notes": "Complete the label tracking rollout for all 8 enabled clients. This should take 30-45 minutes.\n\n📋 REFERENCE: /Users/administrator/Documents/PetesBrain/tools/product-impact-analyzer/ROLLOUT-COMPLETION-GUIDE.md\n\n✅ CURRENT STATUS:\n- Tree2mydoor: 208 products tracked, October baseline created ✓\n- AFH: 500 products fetched (have labels)\n- Clear Prospects (BMPM): 500 products fetched (awaiting Product Hero labeling)\n- Pending: Uno Lights, Grain Guard, Crowd Control, HappySnapGifts, WheatyBags\n\n🔄 STEP-BY-STEP PROMPTS:\n\nStep 1 (15 min): Execute Remaining MCP Queries\nPrompt: \"Complete the label tracking rollout for all remaining clients. Execute the MCP queries from pending_label_queries.json for: Uno Lights, Grain Guard (with manager_id), Crowd Control. Process all responses and create current-labels.json files for all 8 enabled clients.\"\n\nStep 2 (5 min): Generate October Baselines\nPrompt: \"Generate October 2025 baselines for all clients with label tracking enabled.\"\n\nStep 3 (10 min): Test Weekly Report Generation\nPrompt: \"Test the weekly report generation with label validation for one client (Tree2mydoor).\"\n\nStep 4 (5 min): Verify Complete Rollout\nPrompt: \"Verify the complete label tracking rollout. Check that all 8 enabled clients have: 1. current-labels.json 2. 2025-10.json (October baseline) 3. Proper directory structure. Generate a summary report.\"\n\n✅ SUCCESS CRITERIA:\n- All 8 clients have current-labels.json\n- All 8 clients have 2025-10.json (October baseline)\n- Test weekly report generates with label validation section\n- First daily tracking run completes without errors\n\n⚠️ IMPORTANT NOTES:\n- Grain Guard requires manager_id: 2569949686\n- AFH and Uno Lights use LIMIT 500 (partial coverage)\n- Clear Prospects serves 3 brands (HappySnapGifts, WheatyBags, BMPM)\n- BMPM products may not have labels assigned yet (normal - will track once assigned)",
+    "due": "2025-11-03T00:00:00.000Z",
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "M29YMWhOMVVZNmtrLVlRNw",
+    "title": "Order testosterone prescription from GP",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-03T12:49:35.516380",
+    "completed_at": "2025-11-03T10:19:53.807Z",
+    "notes": "📧 **EMAIL READY TO SEND:**\n\n**To:** gp.n84617@nhs.net\n**Subject:** Repeat Prescription - Peter Empson\n\n---\n\n**COPY THIS EMAIL BODY:**\n\nHi\n\nCould I please have a repeat prescription for \n\nTostran 2% Gel\n\n\n\nPeter Empson\n9 Pinewood Close\nPR8 5LL\n\nDOB 29/7/64\n\n07932 454652\n\nRegards\n\nPeter\n\n\n\ne:petere@roksys.co.uk\nt:07932 454652\n\n---\n\n💡 **INSTRUCTIONS:**\n1. Click \"New Email\" in Gmail\n2. To: gp.n84617@nhs.net\n3. Subject: Repeat Prescription - Peter Empson\n4. Copy the email body above and paste\n5. Send\n6. Mark this task complete\n\n(Email body taken from your last prescription request on Oct 11, 2025)",
+    "due": "2025-11-04T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "Q192QXpPM1NaUjZGRHRyWQ",
+    "title": "Smythson: Launch UK Q4 Campaign",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-03T12:49:35.518801",
+    "completed_at": "2025-11-03T10:06:04.000Z",
+    "notes": "SET: Budget £2,716/day + Target ROAS 4.3 (baseline)\nRegion: UK",
+    "due": "2025-10-29T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "UExDQWFCN3p6X1dvamlZQw",
+    "title": "Smythson: Launch EUR Q4 Campaign",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-03T12:49:35.522101",
+    "completed_at": "2025-11-03T10:06:01.000Z",
+    "notes": "SET: Budget €868/day + Target ROAS 1.5 (baseline)\nRegion: EUR",
+    "due": "2025-10-29T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "Z0oxbzFRbzNPcHBsVnhhQw",
+    "title": "Smythson: Launch USA Q4 Campaign",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-03T12:49:35.524012",
+    "completed_at": "2025-11-03T10:06:06.000Z",
+    "notes": "SET: Budget $2,264/day + Target ROAS 2.5 (baseline)\nRegion: USA",
+    "due": "2025-11-01T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "YUpXSFVlYlNTa3FrNHhUdA",
+    "title": "Implement November 2025 Budget Changes - Devonshire Hotels",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-03T18:49:36.938506",
+    "completed_at": "2025-11-03T18:20:01.000Z",
+    "notes": "⚠️ **HIGH PRIORITY - DELAYED IMPLEMENTATION**\n\nChange daily budgets in Google Ads for all 12 Devonshire campaigns.\n\n**IMPLEMENTATION DATE:** Monday, November 3rd, 10:00 AM\n\n**WHY DELAYED:** Weekend spend Nov 1-2 at current high budgets means adjusted budgets for remaining 28 days.\n\n---\n\n✨ **CSV IMPORT FILE READY!**\n📎 clients/devonshire-hotels/spreadsheets/devonshire-november-2025-budgets.csv\n\n🚀 **FAST METHOD: Import CSV into Google Ads Editor**\n1. Open Google Ads Editor → Devonshire account\n2. Account → Import → From file\n3. Select: devonshire-november-2025-budgets.csv\n4. Review changes → Post to Google Ads\n⏱️ Time: ~2 minutes (vs 15 minutes manual)\n\n---\n\n📊 **BUDGET CONTEXT:**\n\n**November 1-2 Spend (at current high budgets):**\n- Main Properties: £1,480 (2 days @ £740/day)\n- Self-Catering: £92 (2 days @ £46/day)\n- The Hide: £136 (2 days @ £68/day)\n\n**November 3-30 Budgets (28 days remaining):**\n- Main Properties + Self-Catering: £7,428 remaining = £265/day\n- The Hide: £1,864 remaining = £67/day\n\n---\n\n📋 **NEW BUDGETS FOR NOV 3-30 (28 days):**\n\n**MAIN PROPERTIES (9 campaigns) - £239/day total:**\n• P Max All → **£66** (reduced from original £75 for 30 days)\n• Devonshire Arms Hotel → **£42** (from £48)\n• Cavendish → **£40** (from £45)\n• The Beeley Inn → **£29** (from £33)\n• Chatsworth Inns → **£25** (from £28)\n• The Pilsley Inn → **£24** (from £27)\n• The Fell → **£21** (from £24)\n• Chatsworth Locations → **£16** (from £18)\n• Bolton Abbey Locations → **£11** (from £12)\n\n**SELF-CATERING (2 campaigns) - £27/day total:**\n• Bolton Abbey Self Catering → **£9** (from £10)\n• Chatsworth Self Catering → **£18** (from £20)\n\n**THE HIDE - £67/day:**\n• The Hide → **£67** (same as original)\n\n---\n\n✅ **TOTAL NOVEMBER SPEND:**\n- Nov 1-2: £1,708\n- Nov 3-30: £9,296\n- **Grand Total: £11,004** (£4 over £11,000 target, negligible variance) ✓\n\n---\n\n📄 **Full documentation:**\n- clients/devonshire-hotels/documents/november-2025-budget-changes.md\n- clients/devonshire-hotels/documents/november-budget-changes-checklist.md\n\n⏱️ CSV import time: ~2 minutes\n⏱️ Manual time: ~15 minutes\n🎯 **CRITICAL: Complete by 10:00 AM on Monday, Nov 3rd**",
+    "due": "2025-11-03T00:00:00.000Z",
+    "client": "devonshire-hotels"
+  },
+  {
+    "task_id": "bWtlM3YtNXMxR2Z6M3JHMQ",
+    "title": "[Smythson] Send UK & USA Custom Label 0 supplemental feeds to Lauryn",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-04T21:00:09.329351",
+    "completed_at": "2025-11-04T13:34:12.484Z",
+    "notes": "Custom label 0 supplemental feeds prepared for UK and USA markets.\n\nFiles created:\n- clients/smythson/product-feeds/Smythson_Custom_Label_0_UK.csv (117 products)\n- clients/smythson/product-feeds/Smythson_Custom_Label_0_USA.csv (117 products - identical to UK)\n\nEmail draft ready:\n- clients/smythson/email-draft-2025-11-04-supplemental-feeds.txt\n\nProducts breakdown:\n- Travel Bags: 24 products\n- Card Holders: 44 products\n- Jewellery Boxes: 49 products\n\nAction: Send email to Lauryn Sobers with both CSV files attached.",
+    "due": "2025-11-04T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "TTFPRk9IamR0WEpwWUs5SQ",
+    "title": "[Bright Minds] Update CONTEXT.md with Conversion Tracking Decisions",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.475920",
+    "completed_at": "2025-11-07T11:50:59.904Z",
+    "notes": "Priority: MEDIUM (After completing above tasks)\n\nDOCUMENT IN CONTEXT.md:\n\n1. Conversion Tracking Section Updates:\n   - Primary conversion action: Google Shopping App Purchase (ID: 7334603218)\n   - GA4 conversion decision: [Duplicate/Additive - TBD from investigation]\n   - Enhanced conversions: [Implementation method used]\n   - Date of last conversion tracking audit: 2025-11-06\n\n2. Known Issues Section:\n   - Remove \"Conversion tracking not audited\" (now complete)\n   - Add: \"Enhanced conversions implemented [DATE]\"\n   - Add: \"Conversion actions consolidated [DATE]\"\n\n3. Technical Implementation:\n   - List active conversion actions (should be ~8 after cleanup)\n   - Document enhanced conversion match rate achieved\n   - Note any settings changes (counting type, lookback windows)\n\n4. Performance Impact:\n   - Baseline conversions before changes: 134/week\n   - Post-implementation conversions: [TBD]\n   - Enhanced conversion improvement: [TBD]\n\nLOCATION: /clients/bright-minds/CONTEXT.md Section \"Website & Technical\"\n\nREFERENCE: /clients/bright-minds/audits/2025-11-06-conversion-tracking-audit.md",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "bright-minds"
+  },
+  {
+    "task_id": "QXJHdFQzLVdHdEtqR01CRA",
+    "title": "[Bright Minds] Conversion Tracking Cleanup - THIS WEEK",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.479676",
+    "completed_at": "2025-11-07T11:50:59.322Z",
+    "notes": "Priority: P1 (HIGH)\nTime: 2-3 hours total\nDue: Friday Nov 8\n\nPHASES:\n1. Analysis (30min) - GA4 vs Shopping App overlap\n2. Primary Setup (25min) - Configure Shopping App Purchase (7334603218)\n3. Micro-conversions (10min) - Keep 6691146904 only\n4. Cleanup (20min) - Remove 21 UA conversion actions\n5. Enhanced Conversions (1-2h) - Install Shopify app\n6. Validation (ongoing) - Daily checks vs Shopify\n\nImpact: Missing 10-20% conversions = £1,165-£1,765/week\n\nSuccess: Single primary conversion + enhanced conversions live",
+    "due": "2025-11-08T00:00:00.000Z",
+    "client": "bright-minds"
+  },
+  {
+    "task_id": "RUtLdnlJZ2cybmFEek9ISQ",
+    "title": "Complete Devonshire Hotels October 2025 Month-End Report",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.481097",
+    "completed_at": "2025-11-07T11:13:44.000Z",
+    "notes": "Continue work on Devonshire Hotels October 2025 monthly report. All slides complete (16-26), commentary complete, workflow document created. \n\nStatus: Report 95% complete and ready for final review.\n\nLocation: clients/devonshire-hotels/\n- All slides in: Monthly Report Slides/\n- Commentary: documents/october-2025-slide-commentary.html\n- Status doc: MONTHLY-REPORT-STATUS-OCTOBER-2025.md\n- Workflow: MONTHLY-REPORT-WORKFLOW.md\n\nNext steps: Review and finalize any remaining items before client presentation.\n\nCompleted, with commentary notes\n",
+    "due": "2025-11-07T00:00:00.000Z",
+    "client": "devonshire-hotels"
+  },
+  {
+    "task_id": "dzBVTVV1ODg2RXN1UGxUQg",
+    "title": "Devonshire Monthly Report - Complete Slide-by-Slide Review",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.483581",
+    "completed_at": "2025-11-07T11:13:16.000Z",
+    "notes": "**WHERE WE'RE UP TO:**\n\nPhase 1 COMPLETE: HTML report generator working with exact September styling (Estate Blue headers, Stone backgrounds, Arial 14px, no emojis). October 2025 data collected for all campaigns including Weddings, Lismore, and The Hall.\n\n**WHAT'S BEEN AGREED:**\n\n1. Current workflow (accepted): Generate HTML report → Screenshot tables → Manual insert into Google Slides\n2. This saves 1.5-2 hours per month vs. manual table creation\n3. HTML tables must exactly replicate September deck format\n4. Next step: Go through September deck slides 14-27 ONE BY ONE with you providing specific details\n\n**WHAT'S REQUIRED FOR THIS SESSION:**\n\n1. Open September deck: ~/Downloads/devonshire-september-2025.pdf\n2. Go through each slide (14-27) one at a time\n3. You tell me specific details about format/content for each slide\n4. I ensure HTML report matches exactly\n5. Identify any missing tables or data\n\n**REFERENCE FILES:**\n- Slide analysis: tools/monthly-report-generator/SLIDE-DATA-SOURCES.md\n- Current status: tools/monthly-report-generator/CURRENT-STATUS.md\n- October HTML: clients/devonshire-hotels/reports/devonshire-paid-search-2025-10.html\n\n**KNOWN GAPS TO CLARIFY:**\n- Slide 15: Overall performance summary format?\n- Slides 16-18: What are the hotel images showing?\n- Slide 21: Profitability table metrics?\n- Location Campaigns: Need separate table?\n- Month-over-Month: Add September vs October comparisons?\n\n**CRITICAL ISSUES TO MENTION:**\n- Weddings: Only £12 revenue from 12 conversions (conversion value tracking issue)\n- Lismore/The Hall: Zero conversions despite £488.89 spend\n- Bolton Abbey SC: Zero conversions\n\n**TO GENERATE NOVEMBER REPORT WHEN READY:**\ncd /Users/administrator/Documents/PetesBrain/tools/monthly-report-generator\n.venv/bin/python3 generate_html_report.py --month 2025-11",
+    "due": "2025-11-05T00:00:00.000Z",
+    "client": "devonshire-hotels"
+  },
+  {
+    "task_id": "VXJhd2RVV3d1OHlNVXZHRA",
+    "title": "Tree2MyDoor: Investigate POAS decline from 215% to 121% YoY",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.491386",
+    "completed_at": "2025-11-06T10:07:53.843Z",
+    "notes": "Complete the POAS decline analysis for Tree2MyDoor October 2025 report.\n\nKey actions:\n1. Review ProfitMetrics product-level margin data\n2. Analyze sales mix Oct 2024 vs Oct 2025\n3. Check promotional calendar for discounting\n4. Verify Channable feed rules for margin segmentation\n5. Determine root cause of POAS drop (215% to 121%)\n\nContext: Similar spend YoY but profit dropped 46%",
+    "due": "2025-11-07T00:00:00.000Z",
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "OUFYZTJzN1RDY25RX1h4VA",
+    "title": "Smythson: Create Gifts for Him/Her product IDs in supplemental feed + apply to UK/US",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.493141",
+    "completed_at": "2025-11-06T09:10:36.977Z",
+    "notes": "Create Gifts for Him and Gifts for Her product ID lists in supplemental feed, apply to UK/US campaigns. Let Laura know after completion.",
+    "due": "2025-11-06T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "Qk1ncGMtNWU4UlJMemtVZA",
+    "title": "verify google tasks integration works",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.496415",
+    "completed_at": "2025-11-05T17:05:10.000Z",
+    "notes": "Open Google Tasks app or visit tasks.google.com to see this task!\nDue: tomorrow",
+    "due": "2025-11-06T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "LVl3U1o5NXNaYUVWX09zcQ",
+    "title": "test google tasks integration",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.498958",
+    "completed_at": "2025-11-05T17:05:10.000Z",
+    "notes": "This is a test task to verify that Google Tasks integration works from the inbox processor.\nDue: tomorrow\nclient: Smythson",
+    "due": "2025-11-06T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "YzhTX1JQZEJzT3g3b21JTw",
+    "title": "verify google tasks integration works",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.499938",
+    "completed_at": "2025-11-05T17:05:12.000Z",
+    "notes": "Open Google Tasks app or visit tasks.google.com to see this task!\nDue: tomorrow",
+    "due": "2025-11-06T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "QzFURV9ad1VYSmRjNGFLVw",
+    "title": "test google tasks integration",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.500672",
+    "completed_at": "2025-11-05T17:05:00.000Z",
+    "notes": "This is a test task to verify that Google Tasks integration works from the inbox processor.\nDue: tomorrow\nclient: Smythson",
+    "due": "2025-11-06T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "aDZnNEhVTTJiclBucDQ0dQ",
+    "title": "[Devonshire] Change landing page for cottages",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-07T15:23:24.501873",
+    "completed_at": "2025-11-05T10:21:12.000Z",
+    "notes": "Change landing page for the following self-catering ad groups:\n- Chatsworth Estate Cottages\n- Chatsworth Self Catering\n- Peak District Cottages\n\nThese are ad groups within the Chatsworth Escapes Self Catering campaign.\n\nNote: Shepherds Huts, Hunting Tower, Russian Cottage, and Yorkshire Cottages should NOT be changed.",
+    "due": "2025-11-04T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "S2lkWEtLN0x0X1pfSEJUZg",
+    "title": "Do an audit for Just Bin Bags.",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.368049",
+    "completed_at": "2025-11-09T11:44:31.890Z",
+    "notes": "# Wispr Flow Note\n\nDo an audit for Just Bin Bags.",
+    "due": null,
+    "client": "just-bin-bags"
+  },
+  {
+    "task_id": "N2JyV0M5LUlEY20zRUR5Vw",
+    "title": "Smythson: Copy Teams meeting chats to CONTEXT.md",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.397209",
+    "completed_at": "2025-11-09T10:17:51.000Z",
+    "notes": "Recurring reminder every 2 weeks:\n\n1. Open Teams chat with Smythson team\n2. Copy recent conversations from last 2 weeks\n3. Paste into Claude Code\n4. Ask Claude to update CONTEXT.md\n\nFile: clients/smythson/CONTEXT.md\n\nAfter completing, recreate this task with due date 2 weeks out.",
+    "due": "2025-11-08T00:00:00.000Z",
+    "client": "smythson"
+  },
+  {
+    "task_id": "RXd5TlBOMmNzR214X0ZCdw",
+    "title": "Enhanced 20251108 120522 Wispr Personal Notes  Magnesium And Zinc Tablets Ordered",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.502483",
+    "completed_at": "2025-11-09T10:09:57.000Z",
+    "notes": "# AI-Enhanced Note\n**Original:** 20251108-120522-wispr-personal notes- magnesium and zinc tablets ordered.md\n**Type:** general\n**Client:** None\n**Priority:** None\n**Processed:** 2025-11-08 16:32\n\n---\n\nOrdered magnesium and zinc dietary supplements for personal health tracking.\n\n\n---\n\n**Original Note:**\n# Wispr Flow Note\n\nPersonal Notes: Magnesium and zinc tablets ordered.\n\n---\n*Source: Wispr Flow*\n*Created: 2025-11-08 12:05:22.562 +00:00*\n*Note ID: 52c0b46e-086b-42d1-be48-4332cab3945d*",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "MThfRHpXQ2JnNUxZTjZTSw",
+    "title": "Tree2mydoor: Request Shopify access permissions",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.516656",
+    "completed_at": "2025-11-09T10:10:09.000Z",
+    "notes": "From Tree2mydoor meeting with Gareth on 2025-10-27. Send email requesting specific Shopify access permissions needed for campaign optimization and conversion tracking setup. Need to specify exactly which permissions are required (product catalog, orders, customer data for GA4 integration, etc.).",
+    "due": null,
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "Sm9DekQtY1dHS0VhMTJTNQ",
+    "title": "Order magnesium and zinc tablets",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.528216",
+    "completed_at": "2025-11-09T10:10:04.000Z",
+    "notes": "Personal - health supplements",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "UGdPcGxtSTZQcG41T3Rhcg",
+    "title": "Enhanced 20251108 120535 Wispr Personal Note  Velo Viewer Subscription Cancelled",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.528806",
+    "completed_at": "2025-11-09T10:10:02.000Z",
+    "notes": "# AI-Enhanced Note\n**Original:** 20251108-120535-wispr-personal note- velo viewer subscription cancelled.md\n**Type:** general\n**Client:** None\n**Priority:** None\n**Processed:** 2025-11-08 16:32\n\n---\n\nVelo Viewer subscription has been cancelled.\n\n\n---\n\n**Original Note:**\n# Wispr Flow Note\n\nPersonal note: Velo viewer subscription cancelled.\n\n---\n*Source: Wispr Flow*\n*Created: 2025-11-08 12:05:35.969 +00:00*\n*Note ID: 10a287da-3ee8-412a-986b-de0369d39f97*",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "X0V1VUYtaVpwN3Y0cF8tdg",
+    "title": "Cancel VeloViewer subscription",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.529889",
+    "completed_at": "2025-11-09T10:09:53.000Z",
+    "notes": "Personal - cycling app subscription",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "UmhBWTlKMGM2dFJwVmNSdw",
+    "title": "Order U-Move tablets for Henry",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.530116",
+    "completed_at": "2025-11-09T10:10:06.000Z",
+    "notes": "Personal - Henry's supplements",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "VzVOdXBzM1FZOW9CS1JFMg",
+    "title": "Deploy Client Context Sync System",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.530313",
+    "completed_at": "2025-11-09T09:49:22.000Z",
+    "notes": "See shared/scripts/DEPLOY-CLIENT-CONTEXT-SYNC.md",
+    "due": "2025-11-08T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "ZG4wRVdHVEJhT2JKUi0yRA",
+    "title": "Scan shared drives and update client CONTEXT.md files",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-09T15:38:37.530992",
+    "completed_at": "2025-11-09T09:41:35.000Z",
+    "notes": "Monthly on-demand scan of Google Drive \"Shared with Me\" to categorize and organize shared documents.\n\n**Process:**\n1. Tell Claude Code: \"Scan shared drives and update files\"\n2. Claude will search Google Drive for shared documents\n3. Files automatically categorized into THREE types:\n   - **Client files** → Update client CONTEXT.md files\n   - **Roksys/industry files** → Add to knowledge base inbox\n   - **Personal files** → Flag for your review\n4. Claude updates appropriate locations and reports findings\n\n**What it tracks:**\n\n**Client Resources:**\n- Monthly reports and presentations\n- Campaign briefs and strategy documents  \n- Product data and supplemental feeds\n- Client-maintained documentation\n\n**Roksys Knowledge Base:**\n- Google Ads platform updates and best practices\n- Industry insights and research\n- Marketing automation and AI strategies\n- ROK methodologies and playbooks\n\n**Personal Knowledge:**\n- Your learning resources and training materials\n- Personal notes and strategy ideas\n- Books, courses, research\n\n**Categorization Keywords:**\n- Clients: Matched by client name/campaign prefix\n- Roksys: \"google ads\", \"ppc\", \"pmax\", \"roas\", \"ga4\", \"methodology\", etc.\n- Personal: \"peter empson\", \"personal\", \"learning\", \"training\", etc.\n\n**Frequency:** Monthly (first week of month recommended)\n\nThis ensures client CONTEXT.md files stay current AND your knowledge base grows automatically from shared resources.",
+    "due": "2025-11-07T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "YlJNdDRuUGw0WUJtdW1Lbg",
+    "title": "Personal text Dave regarding the mods to Bob.",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-10T17:51:24.141037",
+    "completed_at": "2025-11-10T17:39:16.744Z",
+    "notes": "# Wispr Flow Note\n\nPersonal text Dave regarding the mods to Bob.",
+    "due": "2025-11-10T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "R0twcmhLYnJtbjk4b3FsdA",
+    "title": "Enhanced 20251109 084517 Wispr Personal Text Dave Regarding The Mods To Bob",
+    "tasklist_name": "Peter's List",
+    "detected_at": "2025-11-10T17:51:24.149176",
+    "completed_at": "2025-11-10T17:39:16.175Z",
+    "notes": "# AI-Enhanced Note\n**Original:** 20251109-084517-wispr-personal text dave regarding the mods to bob.md\n**Type:** general\n**Client:** None\n**Priority:** None\n**Urgency:** None\n**Estimated Time:** None\n**Model Used:** claude-3-5-haiku-20241022\n**Processed:** 2025-11-09 09:40\n\nPersonal communication needed with Dave about modifications related to Bob\n\n\n---\n\n**Original Note:**\n# Wispr Flow Note\n\nPersonal text Dave regarding the mods to Bob.\n\n---\n*Source: Wispr Flow*\n*Created: 2025-11-09 08:45:17.519 +00:00*\n*Note ID: 1d500f8c-883e-44f0-806b-028a8d85e236*",
+    "due": null,
+    "client": null
+  },
+  {
+    "task_id": "MTJkeFhHN3NnbzdPZG5CNw",
+    "title": "P0 AFH Reduce ROAS target 190 to 170 percent Q4 peak",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.411054",
+    "completed_at": "2025-11-16T20:22:19.905Z",
+    "notes": "Reduce AFH P Max H&S Zombies Furniture campaign ROAS from 190 to 170 percent. CR trending up, budget utilization high, ready for Q4 scaling per Nov 10 strategy. Customer ID 7972994730",
+    "due": "2025-11-17T00:00:00.000Z",
+    "client": null
+  },
+  {
+    "task_id": "US1LQ1YxMDFGTG4yYm5HVw",
+    "title": "[Clear Prospects] Review Product Impact Analyzer logs to confirm Merchant Center disapprovals remain resolved across HSG, WBS, and BMPM brands",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.421014",
+    "completed_at": "2025-11-14T10:28:36.511Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** clear-prospects\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Critical follow-up to recent Merchant Center disapproval issues to prevent potential product listing disruptions\n**AI Task ID:** 655f45da-00fd-4f1e-8ebc-b1d8a7ab7efc\n---\n\nCritical follow-up to recent Merchant Center disapproval issues to prevent potential product listing disruptions",
+    "due": "2025-11-12T00:00:00.000Z",
+    "client": "clear-prospects"
+  },
+  {
+    "task_id": "aENrOFdjVDdYYnJrYVRNVQ",
+    "title": "[Tree2Mydoor] Review Olive Tree (Product 01090) Merchant Center feed stability",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.428265",
+    "completed_at": "2025-11-14T09:23:16.790Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-12 09:25)\n**Client:** tree2mydoor\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Recent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Immediate verification needed to prevent potential recurrence and algorithmic disruption.\n**AI Task ID:** fd34e2db-853e-4767-9dcd-605dfc29c7fb\n---\n\nRecent feed flickering caused massive click spike (Oct 26-28) that disrupted campaign performance. Immediate verification needed to prevent potential recurrence and algorithmic disruption.",
+    "due": "2025-11-12T00:00:00.000Z",
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "ZU5jVGgwcFlBLWFTME55cA",
+    "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.431439",
+    "completed_at": "2025-11-14T09:13:11.536Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 10:38)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Known technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.\n**AI Task ID:** 30d01e3e-bc29-4851-8402-173f479f7b05\n---\n\nKnown technical issue identified in documentation that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.",
+    "due": "2025-11-14T00:00:00.000Z",
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "c0hyUWY1Y04xbml3N0UtbA",
+    "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value, not just revenue",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.433261",
+    "completed_at": "2025-11-14T09:13:10.998Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Critical technical issue identified that could impact campaign optimization and ROAS performance. Needs immediate confirmation to ensure accurate tracking.\n**AI Task ID:** d8b537de-683c-4a70-a8a3-6c7385321b7a\n---\n\nCritical technical issue identified that could impact campaign optimization and ROAS performance. Needs immediate confirmation to ensure accurate tracking.",
+    "due": "2025-11-12T00:00:00.000Z",
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "SXNjYjFNaUNNZDN1X0lGLQ",
+    "title": "[Tree2Mydoor] Verify ProfitMetrics conversion tracking is optimizing to profit value",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.435501",
+    "completed_at": "2025-11-14T09:13:10.448Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-12 09:25)\n**Client:** tree2mydoor\n**Priority:** P2\n**Time Estimate:** 30 mins\n**Reason:** Critical technical issue identified that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.\n**AI Task ID:** 1d8ed410-8092-44e2-ac31-08a3aa3f8c52\n---\n\nCritical technical issue identified that could impact campaign optimization and ROAS performance. Need to confirm tracking is using profit value, not just revenue.",
+    "due": "2025-11-12T00:00:00.000Z",
+    "client": "tree2mydoor"
+  },
+  {
+    "task_id": "aEw0WkZKbTcxRndZZ1dZcQ",
+    "title": "[Superspace] Reduce target ROAS from 550% to 495% on US campaigns",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.436942",
+    "completed_at": "2025-11-13T15:22:06.397Z",
+    "notes": "---\n**Source:** Email Commitment (2025-11-13 11:25)\n**Client:** superspace\n**Priority:** P0 (URGENT)\n**Time Estimate:** 20 mins\n**Reason:** COMMITTED TO ANT: First 10% step in Q4 strategy. CR hitting 3% and mid-November timing means now is the right time. Opens budget headroom to maximize volume during peak while maintaining £50 target CPA.\n---\n\n**Context:**\nAnt requested aggressive scaling of Demand Gen due to 3% CR. Responded confirming implementation of first ROAS reduction step from the Q4 strategy.\n\n**Actions:**\n1. Reduce target ROAS from 550% to 495% on US PMax campaigns\n2. Verify change is applied correctly\n3. Monitor initial performance impact",
+    "due": "2025-11-13T00:00:00.000Z",
+    "client": "superspace"
+  },
+  {
+    "task_id": "a2I5bXFON0RUcjJUa1loaA",
+    "title": "[Superspace] Increase Demand Gen budgets aggressively across both campaigns",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.443100",
+    "completed_at": "2025-11-13T15:17:28.597Z",
+    "notes": "---\n**Source:** Email Commitment (2025-11-13 11:25)\n**Client:** superspace\n**Priority:** P0 (URGENT)\n**Time Estimate:** 20 mins\n**Reason:** COMMITTED TO ANT: With CR at 3%, Ant requested aggressive TOF Demand Gen scaling. Lookalike audience performing well after Oct cleanup, other Demand Gen campaign restarted last week.\n---\n\n**Context:**\n- Campaign 1: Lookalike audience (paused underperforming retargeting ad groups in Oct, keeping just lookalike)\n- Campaign 2: Audiences (restarted last week)\n- Both performing well with higher conversion rates, should produce acceptable ROAS while adding new customers\n\n**Actions:**\n1. Increase budget on lookalike Demand Gen campaign\n2. Increase budget on audiences Demand Gen campaign  \n3. Monitor performance across YouTube, Discovery, Gmail, Display placements",
+    "due": "2025-11-13T00:00:00.000Z",
+    "client": "superspace"
+  },
+  {
+    "task_id": "aTJvQnVqS1ZhZ2NwTU93NQ",
+    "title": "[Superspace] Scale US budgets further with additional ROAS reduction headroom",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.444555",
+    "completed_at": "2025-11-13T15:17:16.677Z",
+    "notes": "---\n**Source:** Email Commitment (2025-11-13 11:25)\n**Client:** superspace\n**Priority:** P0 (URGENT)\n**Time Estimate:** 15 mins\n**Reason:** COMMITTED TO ANT: Started ramping US budgets on Nov 6 after Craig confirmed stock position. Now at ~£5,000/day, continuing to scale progressively through Black Friday/Cyber Monday. ROAS reduction allows pushing harder.\n---\n\n**Context:**\n- Current spend: ~£5,000/day across US campaigns\n- Stock position: Strong (Craig confirmed heaps of stock)\n- CR: Almost 3% (excellent performance)\n- Timing: Mid-November peak season window\n\n**Actions:**\n1. Increase US campaign budgets to capitalize on ROAS reduction headroom\n2. Continue progressive scaling through BFCM\n3. Monitor stock position and alert if needed",
+    "due": "2025-11-13T00:00:00.000Z",
+    "client": "superspace"
+  },
+  {
+    "task_id": "YmpWV2ZGd2Rsb3MxTFJpYg",
+    "title": "[Clear Prospects] Draft November monthly report section highlighting HappySnapGifts face masks ROAS turnaround story",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.446258",
+    "completed_at": "2025-11-13T08:53:19.755Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-12 07:01)\n**Client:** clear-prospects\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Prepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting\n**AI Task ID:** 4e53e8a8-1d8c-4c70-8b7b-106fc3cc2761\n---\n\nPrepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting",
+    "due": "2025-11-13T00:00:00.000Z",
+    "client": "clear-prospects"
+  },
+  {
+    "task_id": "X3dobzVYTDFzNWljM3dRZQ",
+    "title": "[Clear Prospects] Draft November monthly report section highlighting HappySnapGifts face masks ROAS turnaround",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-16T21:10:24.447860",
+    "completed_at": "2025-11-13T08:49:54.446Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-12 10:43)\n**Client:** clear-prospects\n**Priority:** P1\n**Time Estimate:** 1 hour\n**Reason:** Prepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting\n**AI Task ID:** 292af201-e757-4acd-9eef-74572bc596e0\n---\n\nPrepare narrative about 6-month performance improvement from 83% to 292% ROAS for client reporting",
+    "due": "2025-11-13T00:00:00.000Z",
+    "client": "clear-prospects"
+  },
+  {
+    "task_id": "QkZEcXpjZlRwaVVieVp2dA",
+    "title": "[Superspace] Monitor Demand Gen performance during learning phase",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-17T15:51:08.934558",
+    "completed_at": "2025-11-17T15:24:33.661Z",
+    "notes": "---\n**Follow-up from:** [Superspace] Increase Demand Gen budgets (completed Nov 13)\n**Parent Task ID:** a2I5bXFON0RUcjJUa1loaA\n**Parent context:** Increased Demand Gen main to £450/day, retargeting to £150/day\n\n**ANALYSIS COMPLETED (Nov 17, 2025):**\n\n**Performance Nov 13-17 (4 full days):**\n- Demand Gen Main: £1,865 spend, 6.8 conversions, £2,675 value = 143% ROAS\n- Demand Gen Retargeting: £621 spend, 7.7 conversions, £2,267 value = 365% ROAS\n- Combined: 252% blended ROAS\n\n**Key Findings:**\n✅ Both campaigns BUDGET CONSTRAINED (demand exists, could scale further)\n✅ Retargeting performing excellently at 502% ROAS (14-day view)\n✅ Learning phase volatility normal (0-591% daily ROAS swings expected)\n✅ Nov 15 best day for Main campaign (4.2 conversions, £1,428 value)\n⚠️ Main campaign showing typical learning volatility (262% ROAS 14-day view)\n\n**Recommendations:**\n1. Hold current budgets through Nov 24 (complete 14-day learning minimum)\n2. Review 7-day aggregate ROAS Nov 13-20 before any adjustments\n3. Expect continued volatility - don't react to single-day drops\n4. Retargeting could sustain budget increases if needed (running 502% ROAS)\n\n**Strategic Context:**\n- Top-of-funnel awareness campaigns expected lower ROAS than core (550%+)\n- Combined performance feeding retargeting funnel successfully\n- Grandparent targeting (60+) showing promise in video placements\n\n**Next review:** Nov 24 (14-day learning phase completion)",
+    "due": "2025-11-20T00:00:00.000Z",
+    "client": "superspace"
+  },
+  {
+    "task_id": "VmdhYVZVclF2TFkzeDVFNQ",
+    "title": "[Crowd Control] Verify WooCommerce Conversion Tracking Configuration",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-18T08:51:49.339507",
+    "completed_at": "2025-11-11T10:05:20.770Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:29)\n**Client:** crowd-control\n**Priority:** P0\n**Time Estimate:** 1 hour\n**Reason:** Critical conversion tracking issue identified - only 54% of conversions reported, potentially misrepresenting account performance and impacting Smart Bidding\n**AI Task ID:** 097227b9-3a6f-477a-a5a9-78f7140a55d4\n---\n\nCritical conversion tracking issue identified - only 54% of conversions reported, potentially misrepresenting account performance and impacting Smart Bidding",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "crowd-control"
+  },
+  {
+    "task_id": "Qm9FM3lMZldQdmtzTGxUUw",
+    "title": "[Crowd Control] Verify WooCommerce Conversion Tracking Configuration",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-18T08:51:49.350161",
+    "completed_at": "2025-11-11T10:05:20.198Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:32)\n**Client:** crowd-control\n**Priority:** P0\n**Time Estimate:** 1 hour\n**Reason:** Critical conversion tracking issue identified - only 54% of conversions reported, causing potential misrepresentation of campaign performance and incorrect bidding strategies\n**AI Task ID:** 56d2c82f-1109-4985-acab-2a053b3c2a25\n---\n\nCritical conversion tracking issue identified - only 54% of conversions reported, causing potential misrepresentation of campaign performance and incorrect bidding strategies",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "crowd-control"
+  },
+  {
+    "task_id": "bDYzN0Q1N3VqWW11eWQ4WQ",
+    "title": "[Superspace] Verify stock-constrained budget reduction for US/UK/Australia campaigns",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-18T08:51:49.356829",
+    "completed_at": "2025-11-11T10:05:19.687Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:32)\n**Client:** superspace\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Confirm 50% budget cuts implemented correctly to prevent overspending during October-December inventory shortage\n**AI Task ID:** 754c32df-578b-4daa-bd5b-249dd57e3bb2\n---\n\nConfirm 50% budget cuts implemented correctly to prevent overspending during October-December inventory shortage",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "superspace"
+  },
+  {
+    "task_id": "bzY4ZXpuWkZXUEZsQ0hacA",
+    "title": "[Superspace] Check current stock levels and verify budget reduction implementation",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-18T08:51:49.360625",
+    "completed_at": "2025-11-11T10:05:19.128Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:29)\n**Client:** superspace\n**Priority:** P0\n**Time Estimate:** 30 mins\n**Reason:** Stock shortage identified in October with budgets reduced 50%, need to confirm proper budget controls are in place to prevent overspending during inventory constraints\n**AI Task ID:** cafeb6c9-2e29-446e-841e-f084a81fa1ac\n---\n\nStock shortage identified in October with budgets reduced 50%, need to confirm proper budget controls are in place to prevent overspending during inventory constraints",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "superspace"
+  },
+  {
+    "task_id": "UDk5NVdsUkxDRzlJT1FkaQ",
+    "title": "[Godshot] Audit Google Ads conversion tracking setup for product ID mismatches",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-18T08:51:49.362335",
+    "completed_at": "2025-11-11T10:05:18.563Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:29)\n**Client:** godshot\n**Priority:** P0\n**Time Estimate:** 2 hours\n**Reason:** Critical conversion tracking issue showing 80% mismatch between Google Ads reported conversions and actual WooCommerce sales, risking campaign optimization based on incorrect data\n**AI Task ID:** ddc00912-bb1e-462e-9c52-3cb14cf48864\n---\n\nCritical conversion tracking issue showing 80% mismatch between Google Ads reported conversions and actual WooCommerce sales, risking campaign optimization based on incorrect data",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "godshot"
+  },
+  {
+    "task_id": "eVJDUUhYdXhKa0FxdFRjbw",
+    "title": "[Godshot] Audit Google Ads conversion tracking setup for product ID mismatches",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-18T08:51:49.364904",
+    "completed_at": "2025-11-11T10:05:17.987Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:32)\n**Client:** godshot\n**Priority:** P0\n**Time Estimate:** 2 hours\n**Reason:** Critical conversion tracking issue showing 80% mismatch between Google Ads reported conversions and actual WooCommerce sales, risking campaign optimization based on incorrect data\n**AI Task ID:** 93cf65e6-7d33-4f61-be2f-1eecff537877\n---\n\nCritical conversion tracking issue showing 80% mismatch between Google Ads reported conversions and actual WooCommerce sales, risking campaign optimization based on incorrect data",
+    "due": "2025-11-11T00:00:00.000Z",
+    "client": "godshot"
+  },
+  {
+    "task_id": "WjQyY0N2end0VEFsU0w5VQ",
+    "title": "[Bright Minds] Send weekly Monday performance report to Barry and Sharon",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-19T11:54:06.060017",
+    "completed_at": "2025-11-18T18:03:47.996Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:29)\n**Client:** bright-minds\n**Priority:** P1\n**Time Estimate:** 30 mins\n**Reason:** Client requires weekly Monday updates, builds trust and transparency during learning phase of Google Ads campaigns\n**AI Task ID:** 79b34a81-d980-41f4-a312-a14f97f39ced\n---\n\nClient requires weekly Monday updates, builds trust and transparency during learning phase of Google Ads campaigns",
+    "due": "2025-11-12T00:00:00.000Z",
+    "client": "bright-minds"
+  },
+  {
+    "task_id": "bWVaMmItVTNDLVVjRVZGYQ",
+    "title": "[Bright Minds] Validate conversion tracking post-changes (daily check)",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-11-19T11:54:06.065241",
+    "completed_at": "2025-11-18T17:30:24.293Z",
+    "notes": "---\n**Source:** AI Generated (2025-11-11 09:29)\n**Client:** bright-minds\n**Priority:** P1\n**Time Estimate:** 20 mins\n**Reason:** Ensure conversion count matches Shopify orders and values after recent tracking implementation\n**AI Task ID:** b6061e92-3eb9-4a25-aa17-14d65f1552f5\n---\n\nEnsure conversion count matches Shopify orders and values after recent tracking implementation",
+    "due": "2025-11-12T00:00:00.000Z",
+    "client": "bright-minds"
+  },
+  {
+    "task_id": "clNZX0xfSnowZmVkZFA3Nw",
+    "title": "[Tree2mydoor] REVERT ROAS from 120% back to 140% - Black Friday experiment ends",
+    "tasklist_name": "Client Work",
+    "detected_at": "2025-12-01T15:57:14.318795",
+    "completed_at": "2025-12-01T15:54:38.847Z",
+    "notes": "**CRITICAL - Time-limited experiment**\n\nBlack Friday ROAS reduction experiment:\n- Changed: Nov 24, 2025\n- Revert by: Tuesday Nov 25\n\nCampaigns changed from → to:\n- P Max HP&P: 140% → 120%\n- P Max Unprofitable: 140% → 120%\n- Search Roses: 150% → 120%\n- Shopping Catch All: 150% → 120%\n- Shopping Low Traffic: 140% → 120%\n\n**REVERT ALL TO ORIGINAL VALUES unless performance significantly improved**\n\nCheck before reverting:\n1. Impression share - has it recovered?\n2. Spend - is it pacing higher?\n3. ROAS - is it holding above breakeven?\n\nIf ROAS drops below 100% or spend explodes, revert immediately.",
+    "due": "2025-12-02T00:00:00.000Z",
+    "client": "tree2mydoor"
+  }
+]

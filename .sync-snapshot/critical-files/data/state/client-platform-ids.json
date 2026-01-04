@@ -1,0 +1,153 @@
+{
+  "clients": [
+    {
+      "name": "accessories-for-the-home",
+      "display_name": "Accessories for the Home",
+      "google_ads_customer_id": "7972994730",
+      "merchant_centre_id": "117443871",
+      "ga4_property_id": "335017995",
+      "notes": "Property name: 'Accessories for the Home - GA4'"
+    },
+    {
+      "name": "bright-minds",
+      "display_name": "BrightMinds",
+      "google_ads_customer_id": "1404868570",
+      "merchant_centre_id": "5291988198",
+      "ga4_property_id": "281911237",
+      "notes": "Property name: 'Brightminds GA4'"
+    },
+    {
+      "name": "clear-prospects",
+      "display_name": "Clear Prospects",
+      "google_ads_customer_id": "6281395727",
+      "merchant_centre_id": "Multiple (HappySnapGifts: 7481296, WheatyBags: 7481286, BMPM: 7522326)",
+      "ga4_property_id": "340440575",
+      "notes": "Multi-brand account with three merchant feeds. GA4 property 'CPL Production Sites' tracks all brands with hostName dimension for segmentation."
+    },
+    {
+      "name": "crowd-control",
+      "display_name": "Crowd Control Company UK",
+      "google_ads_customer_id": "9385103842",
+      "merchant_centre_id": "563545573",
+      "ga4_property_id": "313833730",
+      "notes": "Also known as CCC UK. Property name: 'CCC - GA4'"
+    },
+    {
+      "name": "devonshire-hotels",
+      "display_name": "Devonshire Group",
+      "google_ads_customer_id": "5898250490",
+      "merchant_centre_id": "N/A (Lead generation)",
+      "ga4_property_id": "256560910",
+      "notes": "Hotel group - lead generation, not e-commerce. Property name: 'Main GA4 - Devonshirehotels.co.uk'"
+    },
+    {
+      "name": "go-glean",
+      "display_name": "Go Glean UK",
+      "google_ads_customer_id": "8492163737",
+      "merchant_centre_id": "5320484948",
+      "ga4_property_id": "420971101",
+      "notes": "Property name: 'Glean' (under JENOLITE.com account)"
+    },
+    {
+      "name": "godshot",
+      "display_name": "Godshot",
+      "google_ads_customer_id": "9922220205",
+      "merchant_centre_id": "5291405839",
+      "ga4_property_id": "N/A",
+      "notes": "WooCommerce platform, conversion tracking issues (20% match rate). No GA4 property found in accessible accounts."
+    },
+    {
+      "name": "grain-guard",
+      "display_name": "Grain Guard",
+      "google_ads_customer_id": "4391940141",
+      "merchant_centre_id": "5354444061",
+      "ga4_property_id": "437603584",
+      "notes": "Requires manager_id: 2569949686 for API access. Property name: 'GrainGuard.co.uk'"
+    },
+    {
+      "name": "just-bin-bags",
+      "display_name": "Just Bin Bags",
+      "google_ads_customer_id": "9697059148",
+      "merchant_centre_id": "Multiple (JBB: 181788523, JHD: 5085550522)",
+      "ga4_property_id": "254190398",
+      "notes": "Two brands in one account: JBB main brand and JHD sub-brand. Property name: 'Justbinbags.co.uk'"
+    },
+    {
+      "name": "national-design-academy",
+      "display_name": "National Design Academy",
+      "google_ads_customer_id": "1994728449",
+      "merchant_centre_id": "N/A (Lead generation)",
+      "ga4_property_id": "354570005",
+      "notes": "Education lead generation, Tag ID: AW-1069535771. Property name: 'National Design Academy - GA4'"
+    },
+    {
+      "name": "otc",
+      "display_name": "OTC (Camera Manuals)",
+      "google_ads_customer_id": "[TBD]",
+      "merchant_centre_id": "7253170",
+      "ga4_property_id": "341640527",
+      "notes": "PDF camera manuals, dual currency (GBP/USD). Property name: 'www.camera-manual.com - GA4'"
+    },
+    {
+      "name": "positive-bakes",
+      "display_name": "Positive Bakes",
+      "google_ads_customer_id": "2401439541",
+      "merchant_centre_id": "[TBD]",
+      "ga4_property_id": "340912353",
+      "notes": "Property name: 'positive bakes - GA4'"
+    },
+    {
+      "name": "print-my-pdf",
+      "display_name": "Print My PDF",
+      "google_ads_customer_id": "[TBD]",
+      "merchant_centre_id": "[TBD]",
+      "ga4_property_id": "341655177",
+      "notes": "Sister business to OTC, account not in accessible accounts list. Property name: 'Print-my-PDF.com - GA4'"
+    },
+    {
+      "name": "smythson",
+      "display_name": "Smythson",
+      "google_ads_customer_id": "Multiple (UK: 8573235780, USA: 7808690871, EUR: 7679616761, ROW: 5556710725)",
+      "merchant_centre_id": "102535465 (UK and USA share same feed)",
+      "ga4_property_id": "342726123",
+      "notes": "Multi-regional account with four separate Google Ads accounts, Manager Account: 2569949686. Property name: 'New Site - GA4'"
+    },
+    {
+      "name": "superspace",
+      "display_name": "Superspace",
+      "google_ads_customer_id": "7482100090",
+      "merchant_centre_id": "645236311",
+      "ga4_property_id": "332346187",
+      "notes": "International markets (US, UK, AUS). Property name: 'Superspace' (also has US property 289612173)"
+    },
+    {
+      "name": "tree2mydoor",
+      "display_name": "Tree2mydoor",
+      "google_ads_customer_id": "4941701449",
+      "merchant_centre_id": "107469209",
+      "ga4_property_id": "326146391",
+      "notes": "Property name: 'tree2mydoor.com - GA4'"
+    },
+    {
+      "name": "tenpinshop",
+      "display_name": "Ten Pin Shop",
+      "google_ads_customer_id": "8473810558",
+      "merchant_centre_id": "[TBD]",
+      "ga4_property_id": "[TBD]",
+      "notes": "New client - platform IDs to be completed"
+    },
+    {
+      "name": "uno-lighting",
+      "display_name": "Uno Lights",
+      "google_ads_customer_id": "6413338364",
+      "merchant_centre_id": "513812383",
+      "ga4_property_id": "412453838",
+      "notes": "Property name: 'Uno Lighting'"
+    }
+  ],
+  "manager_accounts": {
+    "rok_systems": "2569949686"
+  },
+  "last_updated": "2025-11-13",
+  "notes": "GA4 property IDs to be added as they are discovered. Some clients may have multiple accounts or feeds."
+}

@@ -1,0 +1,251 @@
+{
+  "timestamp": "2025-12-12T15:10:04.429280",
+  "dry_run": true,
+  "files_processed": 30,
+  "tasks_migrated": 65,
+  "tasks_skipped_duplicates": 36,
+  "tasks_skipped_errors": 0,
+  "backups_created": [],
+  "migrations": [
+    {
+      "client": "uno-lighting",
+      "pf_file": "clients/uno-lighting/product-feeds/tasks_1.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/uno-lighting/tasks.json"
+    },
+    {
+      "client": "uno-lighting",
+      "pf_file": "clients/uno-lighting/product-feeds/tasks_2.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/uno-lighting/tasks.json"
+    },
+    {
+      "client": "roksys",
+      "pf_file": "clients/roksys/product-feeds/tasks_1.json",
+      "tasks_migrated": 11,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "roksys/tasks.json"
+    },
+    {
+      "client": "roksys",
+      "pf_file": "clients/roksys/product-feeds/tasks_2.json",
+      "tasks_migrated": 11,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "roksys/tasks.json"
+    },
+    {
+      "client": "go-glean",
+      "pf_file": "clients/go-glean/product-feeds/tasks_1.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/go-glean/tasks.json"
+    },
+    {
+      "client": "go-glean",
+      "pf_file": "clients/go-glean/product-feeds/tasks_2.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/go-glean/tasks.json"
+    },
+    {
+      "client": "devonshire-hotels",
+      "pf_file": "clients/devonshire-hotels/product-feeds/tasks_1.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/devonshire-hotels/tasks.json"
+    },
+    {
+      "client": "devonshire-hotels",
+      "pf_file": "clients/devonshire-hotels/product-feeds/tasks_2.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/devonshire-hotels/tasks.json"
+    },
+    {
+      "client": "bmpm",
+      "pf_file": "clients/bmpm/product-feeds/tasks_1.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/bmpm/tasks.json"
+    },
+    {
+      "client": "bright-minds",
+      "pf_file": "clients/bright-minds/product-feeds/tasks_1.json",
+      "tasks_migrated": 0,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/bright-minds/tasks.json"
+    },
+    {
+      "client": "bright-minds",
+      "pf_file": "clients/bright-minds/product-feeds/tasks_2.json",
+      "tasks_migrated": 0,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/bright-minds/tasks.json"
+    },
+    {
+      "client": "tree2mydoor",
+      "pf_file": "clients/tree2mydoor/product-feeds/tasks_1.json",
+      "tasks_migrated": 3,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/tree2mydoor/tasks.json"
+    },
+    {
+      "client": "accessories-for-the-home",
+      "pf_file": "clients/accessories-for-the-home/product-feeds/tasks_1.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/accessories-for-the-home/tasks.json"
+    },
+    {
+      "client": "accessories-for-the-home",
+      "pf_file": "clients/accessories-for-the-home/product-feeds/tasks_2.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/accessories-for-the-home/tasks.json"
+    },
+    {
+      "client": "national-motorsports-academy",
+      "pf_file": "clients/national-motorsports-academy/product-feeds/tasks_1.json",
+      "tasks_migrated": 3,
+      "tasks_skipped_duplicates": 9,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/national-motorsports-academy/tasks.json"
+    },
+    {
+      "client": "national-motorsports-academy",
+      "pf_file": "clients/national-motorsports-academy/product-feeds/tasks_2.json",
+      "tasks_migrated": 3,
+      "tasks_skipped_duplicates": 9,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/national-motorsports-academy/tasks.json"
+    },
+    {
+      "client": "clear-prospects",
+      "pf_file": "clients/clear-prospects/product-feeds/tasks_1.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 3,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/clear-prospects/tasks.json"
+    },
+    {
+      "client": "clear-prospects",
+      "pf_file": "clients/clear-prospects/product-feeds/tasks_2.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 3,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/clear-prospects/tasks.json"
+    },
+    {
+      "client": "grain-guard",
+      "pf_file": "clients/grain-guard/product-feeds/tasks_1.json",
+      "tasks_migrated": 0,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/grain-guard/tasks.json"
+    },
+    {
+      "client": "grain-guard",
+      "pf_file": "clients/grain-guard/product-feeds/tasks_2.json",
+      "tasks_migrated": 0,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/grain-guard/tasks.json"
+    },
+    {
+      "client": "crowd-control",
+      "pf_file": "clients/crowd-control/product-feeds/tasks_1.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/crowd-control/tasks.json"
+    },
+    {
+      "client": "crowd-control",
+      "pf_file": "clients/crowd-control/product-feeds/tasks_2.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/crowd-control/tasks.json"
+    },
+    {
+      "client": "smythson",
+      "pf_file": "clients/smythson/product-feeds/tasks_1.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/smythson/tasks.json"
+    },
+    {
+      "client": "smythson",
+      "pf_file": "clients/smythson/product-feeds/tasks_2.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/smythson/tasks.json"
+    },
+    {
+      "client": "godshot",
+      "pf_file": "clients/godshot/product-feeds/tasks_1.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/godshot/tasks.json"
+    },
+    {
+      "client": "godshot",
+      "pf_file": "clients/godshot/product-feeds/tasks_2.json",
+      "tasks_migrated": 2,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/godshot/tasks.json"
+    },
+    {
+      "client": "superspace",
+      "pf_file": "clients/superspace/product-feeds/tasks_1.json",
+      "tasks_migrated": 3,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/superspace/tasks.json"
+    },
+    {
+      "client": "superspace",
+      "pf_file": "clients/superspace/product-feeds/tasks_2.json",
+      "tasks_migrated": 3,
+      "tasks_skipped_duplicates": 1,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/superspace/tasks.json"
+    },
+    {
+      "client": "just-bin-bags",
+      "pf_file": "clients/just-bin-bags/product-feeds/tasks_1.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/just-bin-bags/tasks.json"
+    },
+    {
+      "client": "just-bin-bags",
+      "pf_file": "clients/just-bin-bags/product-feeds/tasks_2.json",
+      "tasks_migrated": 1,
+      "tasks_skipped_duplicates": 0,
+      "tasks_skipped_errors": 0,
+      "correct_location": "clients/just-bin-bags/tasks.json"
+    }
+  ]
+}

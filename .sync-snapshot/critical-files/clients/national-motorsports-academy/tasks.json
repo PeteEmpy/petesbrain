@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "901451a7-321b-4360-9e0c-96e71427ff46",
+      "title": "[NMA] 30-Day Review: Demographic Bid Adjustments Performance Analysis",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2026-01-11",
+      "time_estimate_mins": 90,
+      "notes": "From demographic adjustments execution summary (Dec 11, 2025):\n\n**Background:**\n- Demographic bid adjustments applied Dec 11, 2025\n- 5 adjustments to UK and ROW Management campaigns\n- Age 35-44, 45-54, 55-64 reduced to -20% bid modifier\n- Expected impact: 5-8% account-wide CPA reduction\n\n**30-Day Review Metrics:**\n\n1. **Conversions Analysis:**\n   - Compare Management campaign conversions (Dec 11 - Jan 11 vs baseline Nov 1-11)\n   - Total conversion volume change\n   - Conversion rate by demographic\n\n2. **CPA by Demographic:**\n   - Track CPA trends for each age segment\n   - Verify 35-44, 45-54, 55-64 segments reduced spend\n   - Check if younger demographics (18-34) improved performance\n\n3. **Budget Reallocation:**\n   - Confirm budget shifted to younger, higher-converting demographics\n   - Calculate actual spend distribution by age group\n   - Identify any unexpected shifts\n\n4. **ROI Calculation:**\n   - Actual CPA improvement vs expected (5-8%)\n   - Monthly savings achieved (expected \u00a3400-650/month)\n   - Overall account health impact\n\n5. **Lead Quality Assessment:**\n   - Review quality of converted leads (if data available from sales team)\n   - Compare lead-to-enrolment rate before/after\n\n**Decision Framework:**\n\n- \u2705 **Keep Adjustments If:**\n  - CPA improves 5-8%\n  - Lead quality maintained or improved\n  - No negative impact on conversion volume\n\n- \ud83d\udd04 **Adjust If:**\n  - CPA improvement < 5% but positive trend\n  - Negative impact on younger demographics (unintended side effect)\n  - Need to fine-tune specific segments\n\n- \u23ee\ufe0f **Rollback If:**\n  - CPA worsens >10%\n  - Significant drop in conversion volume\n  - Unexpected negative impact on campaign performance\n\n**Deliverables:**\n\n1. Comprehensive performance report (Google Ads data + analysis)\n2. Clear recommendation: keep, adjust, or rollback\n3. Next phase recommendations (day-of-week adjustments, further demographic refinement)\n\n**Reference Files:**\n- `/clients/national-motorsports-academy/reports/demographic-adjustments-execution-summary-2025-12-11.md`\n- `/clients/national-motorsports-academy/scripts/demographic-adjustments-20251211-151457.json` (audit trail)\n- `/clients/national-motorsports-academy/reports/demographic-adjustments-backup-2025-12-11.md` (rollback plan)\n",
+      "source": "Demographic Adjustments Execution Summary (Dec 11, 2025)",
+      "tags": [
+        "demographic-bidding",
+        "performance-review",
+        "30-day-review",
+        "optimization"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-19T14:37:11.583537",
+      "updated_at": "2025-12-19T14:37:11.583719",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-12-27T06:00:30.704256"
+}

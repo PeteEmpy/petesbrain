@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": "618a6a1b-229c-4f81-a5a5-d72feb5103d4",
+      "title": "[Superspace] Evaluate Shopping Brand campaign structure vs Nils Rooijmans' best practice",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2026-01-13",
+      "time_estimate_mins": 60,
+      "notes": "**Strategic Evaluation: Brand Shopping Campaign Setup**\n\n**Context:** Nils Rooijmans email (Nov 19/20, 2025) outlined best practice for brand Shopping campaigns - specifically using LOW-priority campaigns with negative keyword lists, NOT high-priority brand campaigns.\n\n**Current Superspace Setup:**\n- Shopping Branded: £4,500/day (largest Shopping campaign)\n- P Max Brand Excluded: £2,700/day\n- Shopping Brand Excluded: £2,200/day\n\n**Question:** Is \"Shopping Branded\" following Nils' recommended LOW-priority structure, or is it high/medium priority?\n\n---\n\n## Nils Rooijmans' Methodology (The RIGHT Way)\n\n**Setup:**\n1. Create LOW-priority Shopping campaign for brand searches\n2. Add products you want to show for branded searches\n3. Set HIGH manual CPC bids (or allow high CPCs) for maximum visibility\n4. Add brand terms to negative keyword list on ALL other non-brand Shopping campaigns\n\n**Why This Works:**\n- Products ONLY show for branded searches (no budget waste)\n- Tight control over CPCs, impression share, and products shown\n- No need to negate thousands of non-brand searches (avoids keyword limit issues)\n\n**Critical Requirements:**\n⚠️ All products in low-priority brand campaign MUST ALSO be in high/medium-priority non-brand campaigns\n⚠️ Non-brand campaigns must NEVER run out of budget before brand campaign (prevents leakage)\n⚠️ Same ad schedules, audience targeting, device targeting, location targeting across all campaigns\n\n---\n\n## Audit Action Items\n\n**Step 1: Check Current Campaign Priority (15 mins)**\n- Open \"Shopping Branded\" campaign in Google Ads\n- Check Campaign Settings → Shopping campaign priority\n- Current setting: HIGH / MEDIUM / LOW?\n- Current bid strategy: Manual CPC or Smart Bidding?\n- Current bids: What are typical CPCs?\n\n**Step 2: Check Negative Keyword Lists (15 mins)**\n- Are brand terms (\"superspace\", \"getsuperspace\", etc.) added as negatives to:\n  - \"Shopping Brand Excluded\" campaign? ✓ or ✗\n  - \"P Max Brand Excluded\" campaign? (check if PMax respects negative lists)\n  - Other Shopping campaigns?\n- If YES: Already following part of best practice\n- If NO: Brand leakage risk across campaigns\n\n**Step 3: Check Product Coverage (15 mins)**\n- Are ALL products in \"Shopping Branded\" campaign ALSO in non-brand Shopping campaigns?\n- Could non-brand searches accidentally trigger brand campaign due to budget constraints?\n- Check budget pacing: Does \"Shopping Branded\" ever exhaust before others?\n\n**Step 4: Evaluate Current Performance (10 mins)**\n- What % of \"Shopping Branded\" searches are actually branded vs non-branded?\n  - Run Search Terms Report for last 30 days\n  - Count branded searches vs generic searches\n- Are you paying for non-brand clicks in the brand campaign? (waste indicator)\n\n**Step 5: Document Findings & Recommendation (5 mins)**\n- Current structure: Follows Nils' best practice? Yes / No / Partial\n- If NO: What needs to change?\n- If YES: Document for knowledge base\n\n---\n\n## Expected Outcomes\n\n**If currently HIGH-priority brand campaign (wrong way):**\n- Recommendation: Switch to LOW-priority + high manual bids\n- Add \"superspace\" brand terms to negative lists on non-brand campaigns\n- Expected benefit: Tighter budget control, prevent non-brand waste\n\n**If already LOW-priority (right way):**\n- Document current setup as best practice example\n- Verify negative keyword lists are comprehensive\n- Monitor for any non-brand search leakage\n\n---\n\n## Reference Documents\n\n**Nils Rooijmans Email:** Saved in knowledge base (Nov 19/20, 2025)\n- Topic: \"How do you run BRAND campaigns in Shopping?\"\n- Key principle: LOW-priority campaign + negative keyword lists (not high-priority with script negation)\n\n**Related:** This same audit should be applied to Tree2MyDoor brand campaigns (separate task created)\n\n\n**Manual Note (2025-11-27):** Rescheduled to second week December - currently in Black Friday period, no capacity for Superspace strategic work.\n\n**Manual Note (2025-11-27):** Rescheduled to second week December - currently in Black Friday period, no capacity for Superspace strategic work.\n\nThis is going to have to go into January, maybe second week in January\n\n**Updated Dec 22:** Rescheduled to second week January 2026 due to December capacity constraints.",
+      "source": "Niels Riekemans email - Shopping brand campaign best practice",
+      "tags": [
+        "strategy",
+        "brand-campaigns",
+        "shopping",
+        "audit",
+        "niels-riekemans",
+        "best-practice"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-11-20T22:29:31.181315",
+      "updated_at": "2025-12-22T16:33:54.748508",
+      "completed_at": null
+    },
+    {
+      "id": "6062169b-26ce-42dd-84d5-d85eaa45eb4a",
+      "title": "[Superspace] Monitor post-budget-reduction performance (Dec 4 afternoon)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-12-04",
+      "time_estimate_mins": 30,
+      "notes": "**Post-Budget Reduction Monitoring**\n\n**Context:** Reduced US campaign budgets by 30% on Dec 3rd (from £11,495/day to £8,047/day) in response to post-BFCM demand drop.\n\n**Action Items:**\n\n1. **Check Actual Spend (Dec 4th):**\n   - Pull spend data for Dec 4th (morning + afternoon)\n   - Compare to new budget targets\n   - Is spend pacing correctly or under-delivering?\n\n2. **Check Performance Metrics:**\n   - ROAS (remember conversion lag - will improve over 48-72hrs)\n   - CPA\n   - Conversion volume\n   - Revenue vs Dec 3rd\n\n3. **Budget Pacing Analysis:**\n   - Are any campaigns exhausting budgets early?\n   - Are any campaigns significantly under-spending?\n   - Do budgets need further adjustment?\n\n4. **Decision Points:**\n   - If spend continues dropping naturally: Consider further budget reduction\n   - If budgets are restricting auction: Increase budgets slightly\n   - If ROAS improves significantly: Document for Craig\n\n5. **Communication:**\n   - Update Craig if any immediate action needed\n   - Otherwise, monitor through Friday and report in weekly update\n\n**Campaign List (US Only):**\n- US Shopping Branded: £3,241 → £2,269\n- US P Max Brand Excluded: £3,094 → £2,166\n- US Search Brand Inclusion: £2,328 → £1,630\n- US Shopping Brand Excluded: £2,116 → £1,481\n- US Demand Gen: £300 → £210\n- US Search Generics: £266 → £186\n- US Demand Gen Retargeting: £150 → £105\n\n**Backup Location:** `/tmp/superspace-us-budget-backup-2025-12-03.json`\n\n**Email Sent:** Dec 3rd evening - Craig informed of changes, monitoring plan, and conversion lag explanation.",
+      "source": "Post-BFCM budget reduction response to Craig Spencer",
+      "tags": [
+        "monitoring",
+        "budget",
+        "post-bfcm",
+        "performance"
+      ],
+      "context": {
+        "budget_reduction_pct": 30,
+        "previous_total_budget_gbp": 11495.0,
+        "new_total_budget_gbp": 8046.5,
+        "change_date": "2025-12-03",
+        "monitoring_date": "2025-12-04"
+      },
+      "status": "completed",
+      "created_at": "2025-12-03T22:35:47.870860",
+      "updated_at": "2025-12-04T17:59:45.440706",
+      "completed_at": "2025-12-04T17:59:45.440705"
+    },
+    {
+      "id": "275889c3-272c-4d01-a8ab-e2b30e60cc39",
+      "title": "[Superspace] Add business rules for automated reporting",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P3",
+      "due_date": null,
+      "time_estimate_mins": 60,
+      "notes": "**Context**: Business rules translate raw performance data into automated alerts based on client economics and expectations.\n\n**What Smythson Has (Reference)**:\n- ROAS monitoring rule: Alert if ROAS <379% (15% below 446% target)\n- Seasonal adjustments: 1,000% target during Christmas (Dec 24-28), 800% during Black Friday\n- Qualification criteria: £500 min spend, 5+ conversions\n- Automatic detection in weekly reports\n\n**What You Need to Do**:\n\n1. **Research Target ROAS** (5 mins)\n   - Read `clients/superspace/CONTEXT.md`\n   - Find current target ROAS (or CPA if lead generation)\n   - Target: Check CONTEXT.md\n   - Business model: E-commerce (furniture)\n   - Multi-market (UK + US). Check CONTEXT.md for target ROAS per market. May need separate rules per market.\n\n2. **Define Business Rule** (10 mins)\n   - Calculate threshold: Target × 0.85 (15% tolerance)\n   - Example: If target = 400%, threshold = 340%\n   - Set qualification criteria:\n     - E-commerce: £500 min spend, 5+ conversions\n     - Lead gen: £500 min spend, 3+ leads\n   - Seasonal considerations: Check for seasonal patterns (Black Friday, post-Christmas sales)\n\n3. **Add to `shared/business_rules.py`** (15 mins)\n   - Copy `SmythsonRules` class as template\n   - Create `SuperspaceRules` class\n   - Update `check_campaign_against_rules()` function\n   - Add elif block for this client\n\n4. **Document in CONTEXT.md** (10 mins)\n   - Add \"📊 Business Rules (Automated Alert Thresholds)\" section\n   - Document:\n     - Target ROAS and threshold calculation\n     - Qualification criteria\n     - Seasonal adjustments (if applicable)\n     - Rationale (why these thresholds)\n     - Next review date (quarterly)\n\n5. **Test with Real Data** (15 mins)\n   - Create test script (copy `shared/test_real_smythson_data_dec_2025.py`)\n   - Query last 7 days of data\n   - Verify alerts trigger correctly\n   - Check for false positives/negatives\n\n6. **Validate in Weekly Report** (5 mins)\n   - Run next weekly report for this client\n   - Verify \"⚠️ Business Rule Alerts\" section appears\n   - Check alerts are meaningful and actionable\n\n**Files to Create/Modify**:\n- `shared/business_rules.py` - Add SuperspaceRules class\n- `clients/superspace/CONTEXT.md` - Add business rules section\n- `shared/test_real_superspace_data.py` - Validation test (optional but recommended)\n\n**Example Reference**:\n- See: `clients/smythson/CONTEXT.md` (lines 42-63) - Business rules documentation\n- See: `shared/business_rules.py` (lines 139-280) - SmythsonRules implementation\n- See: `clients/smythson/documents/business-rules-validation-dec-2025.md` - Validation report example\n\n**Success Criteria**:\n✅ Business rule class added to `business_rules.py`\n✅ CONTEXT.md updated with thresholds and rationale\n✅ Weekly report shows business rule alerts (if violations exist)\n✅ No false positives (alerts on good performance)\n✅ Catches genuine issues (low ROAS with significant spend)\n\n**Time Estimate**: 60 minutes total\n**Depends On**: Understanding of client's target ROAS and business model\n**Next Step After**: Run weekly report to validate alerts work correctly\n\n**Related Documentation**:\n- `/docs/BUSINESS-RULES-IMPLEMENTATION.md` - Full implementation guide\n- `/docs/SEASONAL-VARIANCE-ANALYSIS-SMYTHSON.md` - Seasonal analysis example\n- `/clients/smythson/documents/sale-periods-calendar-2025-2026.md` - Calendar format example\n",
+      "source": "Business Rules Rollout - Dec 2025",
+      "tags": [
+        "automation",
+        "business-rules",
+        "weekly-reports",
+        "phase-1"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-29T23:03:51.251187",
+      "updated_at": "2025-12-29T23:03:51.251198",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2025-12-29T23:03:51.251473"
+}

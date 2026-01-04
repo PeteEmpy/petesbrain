@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": "fe922129-595f-41b7-bff3-fda26ba01461",
+      "title": "[Smythson] P9 Weekly Client Update - Performance vs Budget-Constrained Plan",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2026-01-03",
+      "time_estimate_mins": 60,
+      "notes": "**RECURRING: Weekly updates to client on P9 performance**\n\n**FREQUENCY:** Every Friday (Dec 6, 13, 20, 27)\n\n**PURPOSE:** Keep client informed on budget adherence and revenue tracking\n\n**REPORT STRUCTURE:**\n\n1. **Budget Status:**\n   - Total spent to date\n   - Remaining budget\n   - On track / over / under budget\n\n2. **Revenue Performance:**\n   - Total revenue to date\n   - ROAS by account\n   - Projection to end of P9 (realistic vs optimistic)\n   - Gap to £1.12m target\n\n3. **Algorithm Health:**\n   - ROAS trends\n   - Impression share\n   - Any learning period impacts\n\n4. **Actions Taken This Week:**\n   - Budget changes\n   - Pauses applied\n   - Campaigns scaled\n\n5. **Next Week Plan:**\n   - Upcoming phase changes\n   - Expected spend\n   - Key dates (Last Order Week, etc.)\n\n**TEMPLATE:**\n```\nSmythson P9 Weekly Update - Week Ending [DATE]\n\nBUDGET STATUS:\n- Spent Dec 1-[date]: £X\n- Remaining: £Y\n- Status: [On track / £Z over / £Z under]\n\nREVENUE PERFORMANCE:\n- Revenue Dec 1-[date]: £X\n- ROAS: X.Xx (Target: 6.1x)\n- Projected P9 total: £X (realistic) to £Y (optimistic)\n- Gap to target: £Z ([%] short of £1,122k)\n\nKEY ACTIONS THIS WEEK:\n- [Action 1]\n- [Action 2]\n\nNEXT WEEK PLAN:\n- [Plan for coming week]\n- [Phase changes if applicable]\n\n[Any concerns or recommendations]\n```\n\n**SEND VIA:** Email to Alex (use email-draft-generator skill)\n\n**DATES:**\n- Week 1: Friday Dec 6 (after Mon review)\n- Week 2: Friday Dec 13 (after Phase 2 pauses)\n- Week 3: Friday Dec 20 (after Last Order Week)\n- Week 4: Friday Dec 27 (Boxing Day period)\n\n**This keeps client informed and prevents surprises at end of P9.**\n\n\nDone\n\nDone\n\nDone",
+      "source": "P9 Budget-Constrained Strategy (Dec 4)",
+      "tags": [
+        "p9",
+        "client-communication",
+        "recurring:weekly",
+        "reporting"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-31T18:48:58.604781",
+      "updated_at": "2025-12-31T18:48:58.604785",
+      "completed_at": null
+    },
+    {
+      "id": "cb7829e0-f380-4a90-ba77-92b44de84d0e",
+      "title": "[Smythson] P9 Daily Spend Monitoring (Dec 5-31)",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-12-26",
+      "time_estimate_mins": 20,
+      "notes": "**RECURRING: Daily monitoring through end of P9**\n\n**FREQUENCY:** Every day, 6pm check\n\n**PURPOSE:** Track actual spend vs budget targets, catch overspend early\n\n**QUICK CHECK:**\n```python\n# Query today's spend across all accounts\nmcp__google-ads__run_gaql(\n    customer_id='[account_id]',\n    manager_id='2569949686',\n    query='''\n        SELECT\n            metrics.cost_micros\n        FROM customer\n        WHERE segments.date = 'YYYY-MM-DD'\n    '''\n)\n```\n\n**CALCULATE:**\n- Today's total spend (all 4 accounts)\n- Cumulative P9 spend (Dec 1 - today)\n- Remaining budget\n- Days remaining\n- Required daily average to stay on budget\n\n**TRACKING SPREADSHEET:**\nConsider creating: `/clients/smythson/reports/p9-daily-spend-tracker.csv`\n\nColumns:\n- Date\n- UK spend\n- USA spend\n- EUR spend\n- ROW spend\n- Total daily\n- Cumulative\n- Budget remaining\n- Days remaining\n- Daily avg needed\n\n**RED FLAGS:**\n- Daily spend >£7,000 (budget risk)\n- Cumulative trending >£171k\n- Overspend factor increasing\n\n**ACTION IF RED FLAG:**\n- Message client immediately\n- Consider emergency pauses\n- Update projections\n\n**DURATION:** Dec 5 - Dec 31 (27 days)\n\n**This is a CRITICAL task - do not skip any days during P9.**\n\n\nDone\n\nThis has been completed up to including the 22nd of December. Change the due date accordingly.\n\n**Updated Dec 22:** Completed through Dec 22, continuing daily monitoring through Dec 31.\n\nDone\n\nDone\n\nDone",
+      "source": "P9 Budget-Constrained Strategy (Dec 4)",
+      "tags": [
+        "p9",
+        "monitoring",
+        "recurring:daily",
+        "budget-control"
+      ],
+      "context": {},
+      "status": "active",
+      "created_at": "2026-01-03T13:01:30.487633",
+      "updated_at": "2026-01-03T13:01:30.487637",
+      "completed_at": null
+    }
+  ],
+  "last_updated": "2026-01-03T13:01:30.487843"
+}

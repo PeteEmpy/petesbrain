@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    {
+      "id": "cfaeead8-bce2-44fa-871e-6b4081fce7b2",
+      "title": "[shared] Review meeting: Devonshire/Google",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P0",
+      "due_date": "2025-12-12",
+      "time_estimate_mins": null,
+      "notes": "[Migrated from Google Tasks on 2025-12-16]\n\nMeeting: Devonshire/Google\nDate: 2025-12-10\nFile: /Users/administrator/Documents/PetesBrain.nosync/clients/shared/meeting-notes/2025-12-10-devonshire-google-shared.md\n\nSUGGESTED CONTEXT.MD UPDATES:\n\nStrategic Context:\n- Develop more robust communication protocols for technical campaign issues\n\nKey Learnings:\n- Importance of documenting and escalating technical campaign limitations\n\nClient Preferences:\n- Proactive communication about campaign performance and constraints\n\nStrategic Decisions:\n- Escalation attempts with Google support, product, and engineering teams exhausted\n- Alternative solution requires Devonshire's booking engine to expose landing pages\n- Terry (Google) will potentially join client call to explain situation directly\n\nReview meeting notes and update CONTEXT.md with key insights.",
+      "source": "Manual",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-16T09:20:41.151859",
+      "updated_at": "2025-12-16T09:20:41.151861",
+      "completed_at": null,
+      "client": "shared"
+    },
+    {
+      "id": "2329c4e6-a7b9-43b1-ad29-f385dd54339f",
+      "title": "[shared] Pull European RSA descriptions from Google Ads account via Google Ads API",
+      "type": "standalone",
+      "parent_id": null,
+      "children": null,
+      "priority": "P1",
+      "due_date": "2025-12-31",
+      "time_estimate_mins": null,
+      "notes": "[Migrated from Google Tasks on 2025-12-16]\n\nFrom: Devonshire/Google\nDate: 2025-12-10\nAI Generated (2025-12-10 10:36)\n\nContext:\nBrief mention of extracting RSA descriptions for European account, likely a secondary task from this meeting.",
+      "source": "Manual",
+      "tags": [],
+      "context": {},
+      "status": "active",
+      "created_at": "2025-12-16T09:20:41.153319",
+      "updated_at": "2025-12-16T09:20:41.153321",
+      "completed_at": null,
+      "client": "shared"
+    }
+  ],
+  "last_updated": "2025-12-17T06:00:00.151513"
+}
