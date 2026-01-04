@@ -1,0 +1,201 @@
+{
+  "version": "2.0",
+  "timestamp": "2026-01-04T10:37:56.488282",
+  "hostname": "Peters-Mac-mini.lan",
+  "metadata": {
+    "phase": "pre-sync",
+    "operation": "baseline"
+  },
+  "checksums": {
+    "clients/_archived-otc/CONTEXT.md": {
+      "sha256": "9e57aed1ae64176bf7e437e71af10c06c3122f916ae9f5cf633103851e95593f",
+      "size": 20754,
+      "modified": "2026-01-04T10:37:23.936728"
+    },
+    "clients/_archived-print-my-pdf/CONTEXT.md": {
+      "sha256": "6676ae159615fa7f30852a371c67fb15ee1234eb23aeadb08dc14f0fb75a3c49",
+      "size": 13866,
+      "modified": "2026-01-04T10:37:23.936887"
+    },
+    "clients/_archived-shared/tasks-completed.md": {
+      "sha256": "cb12f516e999b60459608485b68e895fd740da1e879ff7b146ca073c2c109673",
+      "size": 301,
+      "modified": "2026-01-04T10:37:23.940389"
+    },
+    "clients/_templates/CONTEXT.md": {
+      "sha256": "ca58da2c9e1d7790555c11bb0f6b3f4a0eb57e2c8491f0d34afb9739369c5b07",
+      "size": 7549,
+      "modified": "2026-01-04T10:37:23.941534"
+    },
+    "clients/accessories-for-the-home/CONTEXT.md": {
+      "sha256": "1f6150c18fd7210b54186eeff1852e2854ca97564e9dc145ec434a19a216f5da",
+      "size": 19769,
+      "modified": "2026-01-04T10:37:23.944054"
+    },
+    "clients/accessories-for-the-home/tasks-completed.md": {
+      "sha256": "dea1a8ed7e4527a7d1ffdae3b24e61844ebd78380c5706cea8c15393f80593c4",
+      "size": 32964,
+      "modified": "2026-01-04T10:37:23.947380"
+    },
+    "clients/bright-minds/CONTEXT.md": {
+      "sha256": "8634b9d2205624a7273e126b0d1f50947895dc287d077a72a35b4adf601cab1f",
+      "size": 29788,
+      "modified": "2026-01-04T10:37:23.947515"
+    },
+    "clients/bright-minds/tasks-completed.md": {
+      "sha256": "b12cfd281181c1752fcb657739fc31f46e182e6a0b384895c607b1e83a57dc24",
+      "size": 11253,
+      "modified": "2026-01-04T10:37:23.950833"
+    },
+    "clients/clear-prospects/CONTEXT.md": {
+      "sha256": "a43db80a4c7af408a409922fc6839adb049c4df06d601ae9f31bf9dd2afb49b1",
+      "size": 45133,
+      "modified": "2026-01-04T10:37:23.950989"
+    },
+    "clients/clear-prospects/tasks-completed.md": {
+      "sha256": "d51d3582e6bf6554debb771786afed44e4ff7b71045326a8e7da5228ca3d3794",
+      "size": 34101,
+      "modified": "2026-01-04T10:37:23.961963"
+    },
+    "clients/crowd-control/CONTEXT.md": {
+      "sha256": "f45f3a3474da148b0ef1a89d5feb5de1f61ec0b8a840afb7aa4c272dc8958f21",
+      "size": 35112,
+      "modified": "2026-01-04T10:37:23.962120"
+    },
+    "clients/crowd-control/tasks-completed.md": {
+      "sha256": "dce97c91dfc9c5533ff5c77b06ade5ac45c2941a79760453bf36746fd69ef3bf",
+      "size": 7851,
+      "modified": "2026-01-04T10:37:23.964975"
+    },
+    "clients/devonshire-hotels/CONTEXT.md": {
+      "sha256": "99655ca4ffaf1cfe0f81e1b59d8c805982e82bcdb74d9475e0f6049214e029c5",
+      "size": 54838,
+      "modified": "2026-01-04T10:37:23.966133"
+    },
+    "clients/devonshire-hotels/tasks-completed.md": {
+      "sha256": "5e0ff2e1116a368341a949fe189cc6530917a0ffcd207c376f12520f0dc9fead",
+      "size": 38335,
+      "modified": "2026-01-04T10:37:23.996664"
+    },
+    "clients/go-glean/CONTEXT.md": {
+      "sha256": "eaba739bbe903e03a17be3f3bbeb5165f7032114864c6903e47cd1d042a7b350",
+      "size": 25783,
+      "modified": "2026-01-04T10:37:23.996793"
+    },
+    "clients/go-glean/tasks-completed.md": {
+      "sha256": "9cc418b49a09b80a127346676cd46d6fb25add0359c0738711ca941584f6f40c",
+      "size": 7768,
+      "modified": "2026-01-04T10:37:23.998885"
+    },
+    "clients/godshot/CONTEXT.md": {
+      "sha256": "03deed412173e15ea424541c8d79028e4c99416bcafc93e2f5083fd44a2a7dcc",
+      "size": 46775,
+      "modified": "2026-01-04T10:37:23.999016"
+    },
+    "clients/godshot/tasks-completed.md": {
+      "sha256": "29f801e860463ac617734af88a3cc565df2806dc92a4467f7930be2de2582ce7",
+      "size": 8406,
+      "modified": "2026-01-04T10:37:24.001297"
+    },
+    "clients/grain-guard/CONTEXT.md": {
+      "sha256": "a5bc84dc441ff82b419c2d7b3aa67e061c0de3ef4f8f4f7473234001cf8fcfba",
+      "size": 29827,
+      "modified": "2026-01-04T10:37:24.001452"
+    },
+    "clients/just-bin-bags/CONTEXT.md": {
+      "sha256": "ee627ebd18bb80245b05926f902c799288b3c8a64d8d0580b6f8bfb794080c9f",
+      "size": 15042,
+      "modified": "2026-01-04T10:37:24.002205"
+    },
+    "clients/just-bin-bags/tasks-completed.md": {
+      "sha256": "84da2f8c63768027966d878c518d2fdaa46f023b79bb8733044ddec504596257",
+      "size": 6307,
+      "modified": "2026-01-04T10:37:24.004891"
+    },
+    "clients/national-design-academy/CONTEXT.md": {
+      "sha256": "bccadfe0aea4f8f55606e98afb9b141bb83c0b6b76964d17f510a427f5b1dc83",
+      "size": 72358,
+      "modified": "2026-01-04T10:37:24.005095"
+    },
+    "clients/national-design-academy/tasks-completed.md": {
+      "sha256": "97bc7d7f19f3ee4f4b56eea6c37737d414caddba3c073084efb56a048621100c",
+      "size": 5509,
+      "modified": "2026-01-04T10:37:24.073374"
+    },
+    "clients/national-motorsports-academy/CONTEXT.md": {
+      "sha256": "24f292e35a21567e8d7ec597d589bcc129490ff4d77207cb905de20444958b8d",
+      "size": 4764,
+      "modified": "2026-01-04T10:37:24.073575"
+    },
+    "clients/national-motorsports-academy/tasks-completed.md": {
+      "sha256": "54c0fac9a8de276fef5a980c3c30fdf2da09581611fd3d1667e139ab8fac2ccf",
+      "size": 27329,
+      "modified": "2026-01-04T10:37:24.079227"
+    },
+    "clients/positive-bakes/CONTEXT.md": {
+      "sha256": "9040edcbbefad1727995e4786a6e32ae21a7eb594b06e1a05c6e2ba38644c680",
+      "size": 13046,
+      "modified": "2026-01-04T10:37:24.079417"
+    },
+    "clients/positive-bakes/tasks-completed.md": {
+      "sha256": "3a6af8d585f1f13d38bd3ef7561d1d81cedc8f3e0450711c2c6702ec3c1cd998",
+      "size": 1493,
+      "modified": "2026-01-04T10:37:24.083999"
+    },
+    "clients/roksys/CONTEXT.md": {
+      "sha256": "a33b2524d2b4163565effac62652c85f5b01eb62d7c75f5560de46c47b4f0f8b",
+      "size": 94509,
+      "modified": "2026-01-04T10:37:24.084291"
+    },
+    "clients/roksys/tasks-completed.md": {
+      "sha256": "64472709c63d178cd29501ac6f23d3c34549f9dbe1bb20103f768c44408b160d",
+      "size": 6951,
+      "modified": "2026-01-04T10:37:24.085175"
+    },
+    "clients/smythson/CONTEXT.md": {
+      "sha256": "f2dcd4851e4e49d01f8a65241ce61cfd516d532664b8ff2f73af09af5a6440fb",
+      "size": 98123,
+      "modified": "2026-01-04T10:37:24.085439"
+    },
+    "clients/smythson/tasks-completed.md": {
+      "sha256": "6db8dab5b74c61459b5bfd64542a7e38e0a90ecccff62dc6e7b0e40ca1e585ac",
+      "size": 47057,
+      "modified": "2026-01-04T10:37:24.140827"
+    },
+    "clients/superspace/CONTEXT.md": {
+      "sha256": "6d326cfe3c95026f32fe0603c4691500026d5959c0ad31f4a6343c1671a13fd3",
+      "size": 39180,
+      "modified": "2026-01-04T10:37:24.140976"
+    },
+    "clients/superspace/tasks-completed.md": {
+      "sha256": "46decc1b764038d5b04fcfce740b4b8ccfa01c7494f03d53dc1b0b699ca05925",
+      "size": 58713,
+      "modified": "2026-01-04T10:37:24.157063"
+    },
+    "clients/tree2mydoor/CONTEXT.md": {
+      "sha256": "c0e991c85fedff6c50dcefd381d9aed8a5c934850f6ce5d159a853e737ce3768",
+      "size": 36999,
+      "modified": "2026-01-04T10:37:24.157369"
+    },
+    "clients/tree2mydoor/tasks-completed.md": {
+      "sha256": "01cd3842b291070ed283deb29b43cbe55ce6b74ed7043be4cc6fb2231b3297a5",
+      "size": 16532,
+      "modified": "2026-01-04T10:37:24.165587"
+    },
+    "clients/uno-lighting/CONTEXT.md": {
+      "sha256": "aa17be7d130713bdc25039c58eca668990da19f14841962d6e8e5d6165ec0207",
+      "size": 38045,
+      "modified": "2026-01-04T10:37:24.165781"
+    },
+    "clients/uno-lighting/tasks-completed.md": {
+      "sha256": "45cdfb635f5a30d5cebbe7c442133746e796bb2f6d4f79b14dcf9cb372bbcb1e",
+      "size": 4199,
+      "modified": "2026-01-04T10:37:24.173674"
+    },
+    "roksys/tasks-completed.md": {
+      "sha256": "9c6d14dad9cbc8468e0d84211dda19968b4f5d91272a0ed7b9daa84750d7cd17",
+      "size": 28602,
+      "modified": "2026-01-04T10:37:25.050886"
+    }
+  }
+}
