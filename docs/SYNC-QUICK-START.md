@@ -1,123 +1,131 @@
-# PetesBrain Sync - Quick Start Guide
+# PetesBrain Sync V2: Quick Start Guide
 
-**For:** Setting up PetesBrain on your laptop and syncing with desktop
+**⚡ Ultra-Simple Guide - 3 Commands to Sync**
 
 ---
 
-## 🚀 Quick Setup (5 minutes)
+## Desktop → Laptop Sync (Most Common)
 
-### Step 1: Choose Your Sync Method
+### On Desktop (When Done Working)
 
-**Option A: Git (Recommended)** ⭐
-- Best for: Regular syncing, version control
-- Requires: Git repository (GitHub/GitLab)
-
-**Option B: iCloud Drive**
-- Best for: Simple setup, no Git needed
-- Requires: iCloud Drive enabled
-
-**Option C: rsync**
-- Best for: Fast local network sync
-- Requires: Both machines on same network
-
-### Step 2: Install on Laptop
-
-**From Desktop (copy script):**
 ```bash
-# On laptop, download installation script
-scp administrator@desktop:/Users/administrator/Documents/PetesBrain/shared/scripts/install-petesbrain.sh ~/
-
-# Run installation
-chmod +x ~/install-petesbrain.sh
-~/install-petesbrain.sh git    # or 'icloud' or 'rsync'
+cd ~/Documents/PetesBrain.nosync
+./shared/scripts/sync-petesbrain-v2.sh push
 ```
 
-**Or from iCloud Backup:**
-```bash
-# Extract latest backup
-cd ~/Documents
-tar -xzf ~/Library/Mobile\ Documents/com~apple~CloudDocs/PetesBrain-Backups/PetesBrain-backup-LATEST.tar.gz
+**What it does**: Pushes all your changes to GitHub
 
-# Set up sync
+**Time**: 15-40 seconds
+
+**Success**: You'll see "✓ PUSH sync completed successfully"
+
+---
+
+### On Laptop (Before Starting Work)
+
+```bash
 cd ~/Documents/PetesBrain
-chmod +x shared/scripts/sync-petesbrain.sh
-echo 'alias sync-petesbrain="~/Documents/PetesBrain/shared/scripts/sync-petesbrain.sh"' >> ~/.zshrc
-source ~/.zshrc
+./shared/scripts/sync-petesbrain-v2.sh pull
 ```
 
-### Step 3: Set Up Automatic Syncing
+**What it does**: Pulls latest changes from GitHub
 
-**On Desktop:**
-```bash
-cd ~/Documents/PetesBrain/shared/scripts
-./setup-auto-sync.sh desktop
-```
+**Time**: 15-40 seconds
 
-**On Laptop:**
-```bash
-cd ~/Documents/PetesBrain/shared/scripts
-./setup-auto-sync.sh laptop
-```
+**Success**: You'll see "✓ PULL sync completed successfully"
 
 ---
 
-## 📋 Daily Usage
+## Check What's Happening
 
-### Before Starting Work (Laptop)
 ```bash
-sync-petesbrain pull    # Get latest changes
+./shared/scripts/sync-petesbrain-v2.sh status
 ```
 
-### Before Closing (Either Machine)
-```bash
-sync-petesbrain push    # Send your changes
-```
-
-### Full Sync (Both Directions)
-```bash
-sync-petesbrain both    # Pull then push
-```
+**Shows**:
+- Are you in sync with remote?
+- Any uncommitted changes?
+- Desktop or laptop machine?
 
 ---
 
-## ✅ Verify It's Working
+## Emergency Rollback
 
-**Check sync status:**
+**If sync went wrong** (data looks corrupted):
+
 ```bash
-launchctl list | grep petesbrain.sync
+./shared/scripts/rollback-sync.sh
 ```
 
-**View sync logs:**
-```bash
-tail -f ~/.petesbrain-sync.log
-```
+**Time**: <30 seconds
 
-**Test manual sync:**
-```bash
-sync-petesbrain pull
-```
+**What it does**: Restores everything to pre-sync state
 
 ---
 
-## 🆘 Troubleshooting
+## That's It! 🎉
 
-**Sync not working?**
-1. Check logs: `tail -f ~/.petesbrain-sync.log`
-2. Try manual sync: `sync-petesbrain both`
-3. Check Git status: `cd ~/Documents/PetesBrain && git status`
+**Three commands**:
+1. `sync-petesbrain-v2.sh push` (desktop → GitHub)
+2. `sync-petesbrain-v2.sh pull` (laptop ← GitHub)
+3. `sync-petesbrain-v2.sh status` (check sync status)
 
-**Need help?**
-See full documentation: `docs/SYNC-SYSTEM.md`
-
----
-
-## 📚 Full Documentation
-
-- **[Sync System Guide](docs/SYNC-SYSTEM.md)** - Complete documentation
-- **[Backup System](docs/BACKUP-SYSTEM.md)** - Automated backups
-- **[Disaster Recovery](docs/DISASTER-RECOVERY-EMAIL.md)** - Recovery procedures
+**Bonus**: `rollback-sync.sh` (emergency undo)
 
 ---
 
-**That's it!** Your PetesBrain is now syncing between desktop and laptop. 🎉
+## What Makes This Foolproof?
 
+✅ **Checksums verify data integrity** (no silent corruption)
+✅ **Automatic rollback if anything goes wrong** (<30 sec)
+✅ **macOS notifications tell you immediately** (no silent failures)
+✅ **Snapshot created before every sync** (instant undo)
+✅ **All-or-nothing sync** (no partial states)
+
+---
+
+## When Things Go Wrong
+
+### "Merge Conflict" Error
+
+**Rare** - Means you edited same file on both machines.
+
+**Fix**:
+1. Look at the conflicted file (Git tells you which one)
+2. Edit it manually to keep what you want
+3. Run `git add <file>` then `git commit -m "Fixed conflict"`
+4. Re-run sync
+
+**Or**: Just use desktop version (easier):
+```bash
+git checkout --theirs <file>  # Keep desktop version
+git add <file>
+git commit -m "Resolved conflict - using desktop version"
+./shared/scripts/sync-petesbrain-v2.sh push
+```
+
+### "Corruption Detected" Alert
+
+**Automatic rollback happens** - check what went wrong:
+
+```bash
+tail -50 ~/.petesbrain-sync-v2-error.log
+```
+
+Usually a network interruption. Just re-run sync.
+
+### Sync Takes Forever
+
+**Normal first time** - Pushing 11GB of data takes time.
+
+**After that**: Only changes sync (much faster).
+
+---
+
+## Detailed Documentation
+
+For everything else: `docs/SYNC-SYSTEM-V2.md`
+
+---
+
+**Last Updated**: 2026-01-04
